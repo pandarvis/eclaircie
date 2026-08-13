@@ -590,7 +590,7 @@
 
   <footer class="footnote">
     <span>Flèches ← → · molette · glisser</span>
-    <span>Année 0 = son arrivée à lui, à 62 ans</span>
+    <span>Le + compte les années depuis la première page — repère d'écriture, jamais dans le livre</span>
     <span>Ne jamais confirmer que c'est vrai</span>
   </footer>
 </div>
@@ -606,36 +606,36 @@
   const laneIndex = Object.fromEntries(LANES.map((l, i) => [l.key, i]));
 
   // Où l'on en est : année du récit, et l'âge de qui est en scène.
-  // Année 0 = son arrivée à lui, à 62 ans. Le livre court de l'année 10 à l'année 22.
+  // Le repère est le temps écoulé depuis la première page. Le livre couvre douze ans.
   const WHEN = {
-    "01":    ["Année 10",      [["lui", 52]]],
-    "02":    ["Année 10",      [["lui", 52]]],
-    "03":    ["Année 10",      [["lui", 52]]],
-    "04":    ["Année 10",      [["lui", 52], ["le garçon", 8]]],
-    "05":    ["Année 10",      [["lui", 52], ["elle", 64]]],
-    "—":     ["Année 10",      [["lui", 52]]],
-    "06–09": ["Années 11-13",  [["lui", "51 → 49"], ["le garçon", "7½ → 7"]]],
-    "10":    ["Année 13",      [["lui", 49], ["le garçon", 7]]],
-    "11–12": ["Années 11-14",  [["lui", "51 → 48"], ["elle", "63 → 60"]]],
-    "13":    ["Année 14",      [["lui", 48]]],
-    "14":    ["Années 15-19",  [["lui", "47 → 43"]]],
-    "15":    ["Année 16",      [["lui", 46]]],
-    "16":    ["Année 17",      [["lui", 45]]],
-    "17":    ["Année 18",      [["lui", 44]]],
-    "17 bis":["Année 19",      [["lui", 43], ["le garçon", 5]]],
-    "18":    ["Année 19",      [["lui", 43]]],
-    "19":    ["Année 19",      [["lui", 43]]],
-    "20":    ["Année 19",      [["lui", 43]]],
-    "21":    ["Année 20",      [["lui", 42], ["elle", 54]]],
-    "22":    ["Année 20",      [["lui", 42]]],
-    "23":    ["Année 21",      [["lui", 41]]],
-    "24":    ["Année 22",      [["lui", 40], ["elle", 52]]]
+    "01":    ["Début",      [["lui", 52]]],
+    "02":    ["Début",      [["lui", 52]]],
+    "03":    ["Début",      [["lui", 52]]],
+    "04":    ["Début",      [["lui", 52], ["le garçon", 8]]],
+    "05":    ["Début",      [["lui", 52], ["elle", 64]]],
+    "—":     ["Début",      [["lui", 52]]],
+    "06–09": ["+1 à +3 ans",  [["lui", "51 → 49"], ["le garçon", "7½ → 7"]]],
+    "10":    ["+3 ans",      [["lui", 49], ["le garçon", 7]]],
+    "11–12": ["+1 à +4 ans",  [["lui", "51 → 48"], ["elle", "63 → 60"]]],
+    "13":    ["+4 ans",      [["lui", 48]]],
+    "14":    ["+5 à +9 ans",  [["lui", "47 → 43"]]],
+    "15":    ["+6 ans",      [["lui", 46]]],
+    "16":    ["+7 ans",      [["lui", 45]]],
+    "17":    ["+8 ans",      [["lui", 44]]],
+    "17 bis":["+9 ans",      [["lui", 43], ["le garçon", 5]]],
+    "18":    ["+9 ans",      [["lui", 43]]],
+    "19":    ["+9 ans",      [["lui", 43]]],
+    "20":    ["+9 ans",      [["lui", 43]]],
+    "21":    ["+10 ans",      [["lui", 42], ["elle", 54]]],
+    "22":    ["+10 ans",      [["lui", 42]]],
+    "23":    ["+11 ans",      [["lui", 41]]],
+    "24":    ["+12 ans",      [["lui", 40], ["elle", 52]]]
   };
 
   const COLS = [
     { type: "panel", kind: "open" },
 
-    { type: "hinge", act: "Acte I", title: "La routine et la fêlure", pct: "Année 10" },
+    { type: "hinge", act: "Acte I", title: "La routine et la fêlure", pct: "Début" },
     { type: "beat", no: "01", lane: "monde", title: "Une cérémonie de l'Éclaircie",
       text: "Le rite vu de l'intérieur, par un veilleur encore neuf. Rien n'est annoncé : le corps dit l'âge, la salle l'estime à vue et réagit. Il mesurera après, pour le registre. Tout le système passe en une scène, sans un mot d'explication." },
     { type: "beat", no: "02", lane: "monde", title: "La capsule sans éclaircie",
@@ -651,7 +651,7 @@
     { type: "beat", no: "—", lane: "voile", title: "La première fissure",
       text: "Fin d'acte I. Il note une phrase qu'il ne s'explique pas — quelque chose qui n'est pas de lui.", tag: "Charnière" },
 
-    { type: "hinge", act: "Acte II-A", title: "L'enquête impossible", pct: "Années 10-14" },
+    { type: "hinge", act: "Acte II-A", title: "L'enquête impossible", pct: "+0 à +4 ans" },
     { type: "beat", no: "06–09", lane: "enquete", title: "Le garçon parle, et ça ne colle pas",
       text: "Il décrit des lieux qui n'existent pas — un boulanger là où il y a un magasin de chaussures. Un mot revient. La méthode revient toute seule : classer, recouper, dater. Il s'entend penser comme quelqu'un d'autre.", tag: "Des années" },
     { type: "beat", no: "10", lane: "voile", title: "La contamination",
@@ -661,7 +661,7 @@
     { type: "beat", no: "13", lane: "enquete", title: "Le mur",
       text: "On lui retire l'affaire, ou on lui conseille de laisser tomber. Un écho qu'il ne perçoit pas encore." },
 
-    { type: "hinge", act: "Acte II-B", title: "Le registre", pct: "Années 15-19" },
+    { type: "hinge", act: "Acte II-B", title: "Le registre", pct: "+5 à +9 ans" },
     { type: "beat", no: "14", lane: "enquete", title: "La désobéissance",
       text: "Il continue en douce. Première fois de sa vie — sauf que non, justement." },
     { type: "beat", no: "15", lane: "enquete", title: "Les registres de l'Archiviste",
@@ -678,7 +678,7 @@
     { type: "beat", no: "19", lane: "voile", title: "Le garçon, relu",
       text: "Un assassin, un enfant, deux capsules le même jour. Il n'est pas fou : il a été gracié." },
 
-    { type: "hinge", act: "Acte III", title: "Le credo", pct: "Années 19-22" },
+    { type: "hinge", act: "Acte III", title: "Le credo", pct: "+9 à +12 ans" },
     { type: "beat", no: "20", lane: "monde", title: "La question morale",
       text: "Il sait maintenant ce qu'il racle depuis qu'il a pris le poste. Reconnaître, c'est gracier à moitié. Se taire, c'est achever la sentence." },
     { type: "beat", no: "21", lane: "elle", title: "Ce qui ne se dira pas",
