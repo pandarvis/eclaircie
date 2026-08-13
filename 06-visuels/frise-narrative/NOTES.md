@@ -1,6 +1,18 @@
 # Frise narrative — carnet
 
 Fichier : [`frise-narrative.html`](frise-narrative.html) — s'ouvre dans un navigateur, autonome, aucune dépendance externe.
+
+**Cinq onglets**, le document sert de référence de travail :
+
+| Onglet | Contenu | Source |
+|---|---|---|
+| **La frise** | 25 mouvements, 4 actes, 4 voies, les âges à chaque étape | §13 + [`04-plan/`](../../04-plan/) |
+| **Le décompte** | Le graphe des vies : chaque courbe descend puis devient plate au jardin | §7 + [`duree-et-calendrier.md`](../../04-plan/duree-et-calendrier.md) |
+| **Les interdits** | Les 10, numérotation figée | [`les-interdits.md`](../../01-dossier/les-interdits.md) |
+| **La ruche** | Le fonctionnement, en onze blocs | [`la-ruche.md`](../../02-univers/la-ruche.md) |
+| **Les phrases** | §16 et les phrases nées en cours de travail | [`phrases-a-garder.md`](../../01-dossier/phrases-a-garder.md) |
+
+*Les onglets documentaires sont des versions condensées : les fichiers du workspace restent la source de vérité. Quand un fichier change, penser à répercuter ici.*
 Version en ligne : <https://claude.ai/code/artifact/278c6576-e781-4aad-86ff-135f9932ef11>
 
 Source : section **13. LE PLAN** du [dossier de création](../../L-ECLAIRCIE-dossier-complet.md), corrigée par les décisions du 13 août 2026 (voir [`04-plan/incidences-2026-08-13.md`](../../04-plan/incidences-2026-08-13.md)).
