@@ -1,6 +1,6 @@
 # La ruche
 
-*Document de référence sur le fonctionnement de la ruche. Reprend et organise le §5 (l'Archiviste), le §6 (l'Éclaircie), le §8 (les capsules sans éclaircie), le §10 (le lexique) et le §12 (les personnages) du [dossier maître](../L-ECLAIRCIE-dossier-complet.md), et intègre quatre décisions nouvelles de l'autrice.*
+*Document de référence sur le fonctionnement de la ruche. Reprend et organise le §5 (l'Archiviste), le §6 (l'Éclaircie), le §8 (les capsules sans éclaircie), le §10 (le lexique) et le §12 (les personnages) du [dossier maître](../L-ECLAIRCIE-dossier-complet.md), et intègre cinq décisions nouvelles de l'autrice.*
 
 ---
 
@@ -127,6 +127,16 @@ Le registre est **consultable** : c'est un service d'archives, et un veilleur y 
 
 *Rester sobre. Ne pas inventer de bureaucratie détaillée : ce qui n'est pas nécessaire à une scène reste en question ouverte ci-dessous.*
 
+### Jusqu'où remontent les registres
+
+**Décision de l'autrice, et les deux questions sont tranchées.**
+
+**Non, les registres ne remontent pas au premier jour.** Ils remontent aussi loin que des hommes ont tenu des registres — et avant ça, il n'y a rien. Pas une série interrompue, pas un volume perdu : rien. C'est **une limite d'archives, pas une limite du monde.** Le service classe depuis qu'un service classe, et personne n'a jamais eu à se demander ce qu'il y avait avant.
+
+**Non, personne ne sait depuis combien de temps ça dure.** La première capsule ne se date pas : ça remonte à loin. C'est **une question d'origine, pas une date d'histoire**, et elle a exactement le statut qu'a chez nous l'apparition de la vie — on sait que ça a eu lieu, on ne sait ni quand ni comment, il existe des théories, et ça n'intéresse presque personne au quotidien. Le calendrier n'y change rien : cette société compte ses années, mais son an 1 n'est pas la première capsule, c'est un point de départ quelconque, comme le nôtre. Voir [`la-terre.md`](la-terre.md).
+
+**Même régime de discours que la rumeur du §9** — *les autres espèces auraient elles aussi leur Archiviste ; on en parle, on n'en sait rien.* On peut entendre, en passant, ce que les gens racontent sur l'origine des capsules ; ce sera toujours de la spéculation, jamais de la connaissance, et jamais confirmé. Consigne du dossier maître : **ne jamais expliquer.**
+
 ---
 
 ## Le corps de métier
@@ -190,4 +200,5 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **La correspondance des lieux.** Est-elle assez régulière pour qu'un veilleur l'ait remarquée sans pouvoir la nommer, ou reste-t-elle entièrement hors champ ?
 - [ ] **Qui consulte le registre en dehors des veilleurs ?** L'administration du mouvement 3 en tire des statistiques : par quel canal ?
 - [ ] **La taille de la ruche.** Combien de travées, combien de veilleurs — c'est-à-dire : le protagoniste travaille-t-il seul, ou dans une équipe qui le voit faire ?
-- [ ] **Le premier jour.** Les registres remontent-ils jusqu'à la première capsule ? Question déjà ouverte dans [`la-terre.md`](la-terre.md) ; elle se pose ici avec plus d'acuité, puisque c'est le registre qui la trancherait.
+
+*Réglé : jusqu'où remontent les registres, et depuis combien de temps ça dure — non, et personne ne sait. Voir la section ci-dessus.*

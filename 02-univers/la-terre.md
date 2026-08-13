@@ -90,7 +90,7 @@ D'abord, cette histoire acquiert une épaisseur immédiate, parce qu'elle arrive
 
 Ensuite — et c'est le point — **nous ignorons cette histoire et nous la découvrons en même temps que ceux qui la récitent.** Nous sommes mis très exactement dans leur position : des gens qui héritent d'un passé qu'ils n'ont pas vécu, dont ils tiennent la version qu'on leur a transmise, sans aucun moyen de vérifier. Le lecteur ne regarde pas leur condition depuis l'extérieur ; il l'occupe le temps d'une leçon.
 
-**Rappel sur les dates : on nomme les guerres, on ne les date pas.** Un chiffre suffirait à laisser croire qu'une chronologie peut être superposée à la nôtre, alors qu'aucune ne le peut. *La guerre du Sud. La seconde guerre des côtes. L'année des greniers vides.* Le lecteur reçoit une histoire — un avant, des conséquences, des morts — sans recevoir rien qu'il puisse mettre en regard.
+**Rappel sur les dates : on date avec leur calendrier, jamais avec le nôtre.** Cette société compte ses années, comme toutes les sociétés, et une institutrice qui traite de la guerre du Sud la situe forcément quelque part — une société qui ne daterait rien sonnerait faux. Mais puisque son histoire humaine a été réécrite, **son compte des années n'a aucun rapport avec le nôtre** : une de ses dates ne se superpose à rien, donc elle ne livre aucun point de divergence à chercher. Ce qui reste interdit, c'est le seul nombre qui ressemblerait à une de nos années. *La guerre du Sud. La seconde guerre des côtes. L'année des greniers vides.* Le lecteur reçoit une histoire — un avant, un après, des conséquences, des morts — datée devant lui, et sans rien qu'il puisse mettre en regard. Voir l'**interdit n° 6** dans [`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md).
 
 ---
 
@@ -142,23 +142,27 @@ Dans ce monde, **personne n'a d'ancêtre.** Tout le monde est stérile, il n'y a
 
 Donc cette humanité **n'a pas de préhistoire.**
 
-Son histoire ne s'enfonce pas dans le flou jusqu'à se perdre : elle a **un plancher**. Un premier jour. Une première capsule, qui s'est ouverte devant personne, puisqu'il n'y avait encore personne. Avant, il n'y a rien — pas un avant obscur, pas un avant mythique : rien.
+Son histoire ne s'enfonce pas dans le flou jusqu'à se perdre : elle a **un plancher**. Une première capsule, qui s'est ouverte devant personne, puisqu'il n'y avait encore personne. Avant, il n'y a rien — pas un avant obscur, pas un avant mythique : rien.
 
-**C'est la même amnésie à deux échelles.** Le veilleur ne se rappelle rien d'avant sa capsule. Sa civilisation ne se rappelle rien d'avant la première. L'individu et l'espèce sortent tous les deux d'un contenant, vides, sans passé consultable. Le livre raconte déjà cette histoire à hauteur d'homme ; le monde la raconte en arrière-plan, à l'échelle de l'espèce, sans qu'on ait à y toucher.
+**Mais ce plancher est hors de portée.** Il existe, et personne ne peut le situer. Il ne s'est pas produit à une date que quelqu'un pourrait citer, il ne figure dans aucun registre, il ne se raconte dans aucune mémoire : **ça remonte à loin.** C'est une question d'origine, pas une date d'histoire — exactement le statut qu'a chez nous l'apparition de la vie. On sait que ça a eu lieu, on ne sait ni quand ni comment, il existe des théories, et ça n'intéresse presque personne au quotidien.
+
+Le calendrier ne change rien à cela. Cette société compte ses années, et son an 1 n'est pas la première capsule : c'est un point de départ quelconque, comme l'est le nôtre. Le roman ne le fixe pas et n'a rien à en dire.
+
+**Leurs théories.** Comme la nôtre, cette société a donc les siennes sur l'origine des capsules — d'où elles viennent, depuis quand, pourquoi. **Le roman n'en retient jamais aucune.** Elles peuvent s'entendre en passant, dans une leçon ou une conversation, au même titre que la rumeur du §9 sur l'Archiviste des autres espèces : de la spéculation, jamais de la connaissance, et jamais confirmée.
+
+**C'est la même amnésie à deux échelles.** Le veilleur ne se rappelle rien d'avant sa capsule. Sa civilisation ne se rappelle rien d'avant les premiers registres. L'individu et l'espèce sortent tous les deux d'un contenant, vides, sans passé consultable. Le livre raconte déjà cette histoire à hauteur d'homme ; le monde la raconte en arrière-plan, à l'échelle de l'espèce, sans qu'on ait à y toucher.
 
 Et de l'autre côté du décompte, **l'âge a lui aussi un plancher** : cinq ans, en dessous duquel on ne descend pas et par-dessous lequel on n'arrive pas (§7). C'est **le jardin**.
 
-**Un monde borné aux deux bouts.** Rien avant le premier jour, rien en dessous du jardin. Aucune profondeur nulle part — ni derrière, ni au fond.
+**Un monde borné aux deux bouts.** Rien au-delà de ce que les archives portent, rien en dessous du jardin. Aucune profondeur nulle part — ni derrière, ni au fond.
 
-### Questions ouvertes que cela soulève
+### Ce que cela règle
 
-Elles ne sont pas tranchées ici, et il n'est pas certain qu'elles doivent l'être dans le texte.
+- **Les registres de l'Archiviste ne remontent pas au premier jour.** Ils remontent aussi loin que des hommes ont tenu des registres, et avant ça il n'y a rien. C'est une limite d'archives, pas une limite du monde.
+- **Personne ne sait depuis combien de temps ça dure.** Le décompte des années existe et fonctionne ; il ne mesure pas l'origine, il ne fait que compter depuis un point quelconque.
+- **La question n'intéresse presque personne.** Elle est aussi banale pour eux que l'origine de la vie l'est pour nous — une chose qu'on sait ne pas savoir, dont on parle à l'école et jamais au dîner.
 
-- Les registres de l'Archiviste **remontent-ils jusqu'au premier jour** ? Sont-ils continus, ou est-ce que la série commence quelque part sans qu'on sache pourquoi là ?
-- **Quelqu'un sait-il depuis combien de temps ça dure ?** Y a-t-il un décompte des années, et si oui, à partir de quoi ?
-- **Est-ce que la question intéresse quelqu'un ?** Ou est-elle aussi banale pour eux que l'origine de la vie l'est pour nous — une chose qu'on sait ne pas savoir, dont on ne parle qu'à l'école et jamais au dîner ?
-
-Cette dernière est la plus utile des trois. Une civilisation qui se désintéresse de sa propre origine est un objet très inquiétant, et il ne coûte qu'une réplique.
+Ce dernier point est le plus utile des trois. Une civilisation qui se désintéresse de sa propre origine est un objet très inquiétant, et il ne coûte qu'une réplique.
 
 ---
 
@@ -182,10 +186,8 @@ Et il se décrit comme tout le reste : par ce qui est là. Des échafaudages, un
 
 ## À trancher
 
-- [ ] **Le premier jour.** Les registres de l'Archiviste remontent-ils jusque-là ? Le texte le dit-il, ou reste-ce hors champ ?
-- [ ] **L'intérêt porté à l'origine.** Est-ce une question vivante dans cette société, un point de doctrine, ou une indifférence complète ?
 - [ ] **La densité de reconnaissable.** Combien de noms réels le texte emploie-t-il, et à quel rythme ? Un fleuve nommé tous les cinquante pages ne produit pas le même effet qu'une géographie complète.
 - [ ] **Le rythme des scènes d'histoire.** Combien de fois le roman ouvre-t-il la petite porte — leçon, affiche, commémoration, chanson — avant que le procédé se voie ?
 - [ ] **La fréquence des fabulations du garçon voilé.** À quel intervalle, et jusqu'où peut-il aller avant qu'un autre personnage relève ?
 
-*Réglés : les toponymes (convention d'écriture, jamais commentée par un personnage) et les dates (guerres nommées, jamais datées).*
+*Réglés : les toponymes (convention d'écriture, jamais commentée par un personnage) ; les dates (leur calendrier, jamais le nôtre) ; l'origine des capsules (hors de portée des archives, jamais tranchée, jamais expliquée).*

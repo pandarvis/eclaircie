@@ -58,9 +58,9 @@
 
 **Ce qu'il protège.** L'intégrité de l'autre Terre. Tout ce qui est sorti d'une main humaine appartient à notre monde et n'a jamais eu lieu ici : ni tour Eiffel, ni Guernica, ni guerre froide, ni 14-18, ni de Vinci, ni Gaudí. Celle du roman a sa propre histoire, qu'on peut faire entrer par la petite porte : une institutrice traite en leçon du jour « la guerre du Sud » ou « la seconde guerre des côtes », et nous, lecteurs, l'ignorons et la découvrons en même temps que les personnages.
 
-**Corollaire — les dates.** Éviter les années chiffrées superposables aux nôtres. Une date installe un axe commun, et dès qu'il y a un axe le lecteur cherche le point de divergence : le livre devient une uchronie à résoudre. **On nomme les guerres, on ne les date pas.**
+**Corollaire — les dates.** Cette société date ses événements comme toutes les sociétés : elle a son calendrier, et une institutrice qui parle de la guerre du Sud la situe forcément quelque part. Mais son histoire humaine a été réécrite, donc **son compte des années n'a aucun rapport avec le nôtre** : une de ses dates ne se superpose à rien, et le lecteur ne peut rien en faire. **On date avec leur calendrier, jamais avec le nôtre.** Ce qui est interdit, c'est uniquement le nombre qui ressemble à une de nos années — pas la datation elle-même. Un chiffre reconnaissable installerait un axe commun, et dès qu'il y a un axe le lecteur cherche le point de divergence : le livre devient une uchronie à résoudre.
 
-**Exemple de ce qui est interdit.** « Comme après la guerre de 2024. » On écrit « depuis l'année des greniers vides », et on n'explique pas davantage.
+**Exemple de ce qui est interdit.** « Comme après la guerre de 2024. » On écrit « la guerre du Sud, il y a quarante ans » ou « depuis l'année des greniers vides », et on n'explique pas davantage.
 
 ## 7. Ne jamais faire remarquer que les toponymes n'ont pas de sens
 
