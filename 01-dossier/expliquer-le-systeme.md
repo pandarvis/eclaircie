@@ -41,7 +41,7 @@ C'est le point qui accroche tout le monde. Il se dit ainsi :
 
 > **Plus on arrive jeune, plus on descend lentement — de sorte qu'un petit chiffre ne veut pas dire une petite vie.**
 
-Voilà à quoi sert le ratio, et c'est la seule chose à en retenir. Sans lui, arriver à dix ans donnerait cinq ans à vivre et le monde serait une boucherie. Avec lui, ça donne trente ans, dont la moitié d'insouciance.
+Voilà à quoi sert le ratio, et c'est la seule chose à en retenir. Sans lui, un arrivant de dix ans n'aurait que cinq marches à descendre au rythme ordinaire : sa vie serait deux fois plus courte, et un petit chiffre voudrait dire exactement ce qu'il a l'air de dire. Avec lui, ça ne le veut plus.
 
 Si la personne veut le chiffre : au-dessus de cinquante ans, une année vécue enlève une année d'âge. Chez un arrivant de dix ans, il faut trois années vécues pour en enlever une. Entre les deux, ça s'étale.
 
