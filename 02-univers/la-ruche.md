@@ -101,7 +101,7 @@ C'est cet instrument qui alimente le registre. Il ne prédit rien, ne lit rien d
 
 **La cérémonie garde l'émotion et l'estimation ; le registre garde le nombre.** Deux régimes séparés, et un seul homme passe de l'un à l'autre.
 
-Le veilleur est ce passage. C'est **son geste de métier le plus banal et le plus important** : la salle est encore en train de réagir, et lui pose l'instrument, lit, et écrit. Personne ne le regarde faire. Il transforme un moment en donnée, tous les jours, depuis vingt ans.
+Le veilleur est ce passage. C'est **son geste de métier le plus banal et le plus important** : la salle est encore en train de réagir, et lui pose l'instrument, lit, et écrit. Personne ne le regarde faire. Il transforme un moment en donnée, tous les jours, depuis qu'il a pris le poste.
 
 C'est aussi **ce qui rend l'intrigue possible.** Les statistiques du mouvement 3, les registres du mouvement 15 et la signature des jumelles du mouvement 16 — même jour, même âge — supposent toutes des chiffres exacts consignés. Sans l'instrument, il n'y a rien à recouper, et l'enquête n'a pas d'objet. Voir [`../04-plan/incidences-2026-08-13.md`](../04-plan/incidences-2026-08-13.md).
 
@@ -126,6 +126,42 @@ Ce qui n'a pas éclairci entre au registre comme le reste : une travée, une dat
 Le registre est **consultable** : c'est un service d'archives, et un veilleur y accède par son métier, sans autorisation particulière. Ce n'est pas un secret ; c'est un document ennuyeux que personne ne lit. La désobéissance du mouvement 14 ne consiste donc pas à forcer un accès, mais à continuer de chercher quand on lui a dit d'arrêter.
 
 *Rester sobre. Ne pas inventer de bureaucratie détaillée : ce qui n'est pas nécessaire à une scène reste en question ouverte ci-dessous.*
+
+---
+
+## Le corps de métier
+
+**Décision de l'autrice.** Un veilleur ne travaille pas seul : il appartient à un service, avec une hiérarchie, une ancienneté et un tour de rôle.
+
+### L'ancienneté se lit à l'envers sur les visages
+
+C'est la règle de base, et elle ne s'énonce jamais dans le texte : **plus un veilleur a d'années de métier, plus il a eu le temps de rajeunir.** Les anciens du service sont donc les plus jeunes d'aspect. Un homme de trente ans de maison a l'air d'en avoir vingt ; celui qui vient d'être affecté a l'air d'en avoir soixante.
+
+Personne ne trouve cela remarquable. C'est le même mécanisme que la salle de classe du §9 — *« les formateurs sont toujours plus jeunes que leurs apprenants »* — appliqué à un lieu de travail. Le lecteur, lui, fait le calcul tout seul.
+
+### La répartition des tâches
+
+Le métier se partage, et il se partage par le haut : **l'ancienneté choisit ce qu'elle garde.**
+
+- **La cérémonie** revient aux anciens. C'est la partie visible, celle qu'on regarde, celle qui demande de la tenue.
+- **Le relevé de l'éclaircie** et **le report au registre** se distribuent selon les besoins et les travées.
+- **Le nettoyage de ce qui n'a pas éclairci** échoit aux derniers arrivés. Sans discussion, sans tour de garde négocié : c'est comme ça.
+
+**Le bizutage.** Des veilleurs d'apparence adolescente laissent la raclette à un homme qui paraît soixante ans, et l'ordre est parfaitement normal des deux côtés. Ce n'est pas une cruauté : c'est un rite de service, et celui qui le subit le trouve légitime — il sait qu'il le fera subir à son tour, quand il aura rajeuni.
+
+Cela range définitivement le nettoyage du côté de l'incident d'exploitation, comme le veut le §8 : une corvée d'affectation, pas une épreuve morale.
+
+### Les vétérans, mémoire vivante du service
+
+C'est leur fonction narrative, et elle est décisive.
+
+**Eux seuls peuvent dire que quelque chose a changé.** Les capsules sans éclaircie ne datent pas d'hier : ils en ont toujours vu, depuis toujours, à raison de quelques-unes par an. Ce qui est nouveau n'est pas le phénomène, c'est **la fréquence**.
+
+Un nouveau n'a aucun point de comparaison : il ne sait pas à quoi ressemble une année normale, donc il ne peut ni s'alarmer ni relativiser. **L'inquiétude du récit ne peut donc venir que des anciens** — d'une remarque de couloir, d'un chiffre lâché en passant, d'un « on n'en voyait pas autant avant ». Ils fournissent l'étalon sans savoir qu'ils le fournissent, et sans jamais comprendre ce qu'ils mesurent : c'est exactement le régime posé plus haut pour le sismographe.
+
+Ils sont aussi ce qui permet d'installer l'histoire du service sans une ligne d'exposition. Ce qu'ils racontent est du bavardage de métier, jamais un récit d'origine.
+
+*Contrainte : ne jamais leur faire théoriser. Un ancien constate, il n'explique pas. Personne dans la ruche ne dispose d'une explication, et la position d'ignorance vaut pour eux comme pour les autres.*
 
 ---
 

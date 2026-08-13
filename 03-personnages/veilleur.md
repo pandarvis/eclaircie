@@ -10,11 +10,57 @@
 |---|---|
 | **Arrivé à** | 62 ans |
 | **Vie d'avant** | enquêteur. Mort à 62 ans. |
-| **Métier** | veilleur, vétéran. Lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. |
+| **Métier** | veilleur, débutant. En poste depuis peu. Lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. |
+| **Ancienneté** | huit ans dans ce monde, et **54 ans** au début du roman. Arrivé vide, tout appris, formé, affecté. Il est le dernier arrivé du service. |
 | **Particularité** | voilé. Personne ne le sait. **Lui non plus, au début.** |
 | **Faute** | a cessé de creuser l'affaire des jumelles quand on le lui a demandé. Faute réparable → pardon → **le voile est le pardon.** |
 
 Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md).
+
+---
+
+## Sa place parmi les autres
+
+**Décision de l'autrice. Le protagoniste n'est pas un vétéran : c'est un débutant.**
+
+### L'inversion
+
+Dans ce monde, l'ancienneté et la jeunesse vont ensemble. Plus un veilleur a d'années de métier, plus il a eu le temps de rajeunir. **Les plus expérimentés sont donc les plus jeunes d'aspect.** Un vétéran de trente ans de service a l'air d'en avoir vingt ; lui, qui débute, a l'air d'en avoir soixante.
+
+**Personne dans le livre ne trouve ça remarquable.** C'est l'ordre normal des choses, et il ne faut jamais le commenter : c'est le prolongement direct de la satire déjà posée au §9 du dossier maître — *« les formateurs sont toujours plus jeunes que leurs apprenants »*.
+
+### Le bizutage
+
+La sale besogne — nettoyer les capsules qui n'ont pas éclairci — échoit aux derniers arrivés. Donc à ceux qui ont l'air vieux. Des veilleurs d'apparence adolescente laissent la raclette à un homme qui paraît soixante ans, et personne n'y voit une injustice : c'est le tour de rôle.
+
+**Ce que ça résout :** il racle parce qu'il est le dernier arrivé, pas parce qu'il fait ça depuis vingt ans. Le mouvement 2 du plan — la capsule sans éclaircie — trouve là sa justification de métier, et n'a plus besoin d'être expliqué.
+
+### Ce que les vétérans apportent au récit
+
+**Ils sont la mémoire du service.** Ce sont eux, et personne d'autre, qui permettent au lecteur de comprendre — sans exposition, sans cours magistral — que **les capsules sans éclaircie ne datent pas d'hier**. Ils en ont toujours vu. Ce qui est nouveau, ce n'est pas le phénomène : c'est la fréquence.
+
+C'est donc par eux que le mouvement 3 (« le chiffre qui monte ») prend sa mesure. **Un débutant seul n'aurait aucun point de comparaison** — il ne pourrait ni s'alarmer ni relativiser, faute de savoir à quoi ressemble une année normale. Le vétéran fournit l'étalon, en une phrase de couloir, sans savoir qu'il le fournit.
+
+### Il n'a aucun recul sur son propre métier
+
+Tout ce qu'il fait, il l'a appris récemment, et il le fait comme on le lui a montré. Il ne sait pas ce qui, dans le geste, est nécessaire et ce qui est coutume. Il ne peut pas dire si le métier a changé, si le lieu a changé, si le rythme a changé. **Il est neuf.** C'est une contrainte de point de vue, pas un trait de caractère : elle interdit au narrateur toute nostalgie professionnelle et toute autorité sur l'histoire du service.
+
+### Une image disponible, non imposée
+
+La hiérarchie qui lui dit de lâcher l'affaire au mouvement 13 peut donc être quelqu'un d'apparence beaucoup plus jeune que lui. *Signalé, pas tranché* : rien n'oblige à s'en servir, et si on s'en sert, il ne faut surtout pas que la scène le souligne.
+
+### Correction en attente sur le dossier maître
+
+Le [dossier maître](../L-ECLAIRCIE-dossier-complet.md) n'a **pas** été modifié. Deux mentions y sont désormais périmées :
+
+- **§12, « Le veilleur — protagoniste »** : *« Vétéran du métier »*. Faux — il débute.
+- **§13, mouvement 1** : *« vu par un professionnel blasé »*. Faux — il n'est pas blasé, il est neuf. Le regard d'ouverture n'est pas celui de l'habitude usée, c'est celui de l'application.
+
+### Conséquence à surveiller — la vitesse
+
+Sa vocation est revenue **très vite**. Un homme qui sort de capsule et se retrouve, en huit ans, au poste qui regarde et qui note : c'est un reliquat plus violent qu'une carrière de vingt ans. Ce n'est plus une pente, c'est un aimant.
+
+**À doser.** Le §12 pose que *« le reliquat n'est pas un souvenir, c'est une vocation »*, et la brièveté du délai rend la démonstration plus forte — mais elle la rend aussi plus visible. Si l'orientation paraît trop droite, trop rapide, trop improbable, le lecteur cesse de pouvoir croire au hasard, et **l'interdit n° 4 tombe** : l'hypothèse « il fabule » doit tenir jusqu'au bout. Il faut donc que sa trajectoire reste explicable par des voies ordinaires — une affectation, un besoin de bras, une aptitude remarquée — et que personne, lui compris, ne s'en étonne.
 
 ---
 
