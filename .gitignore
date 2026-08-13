@@ -1,0 +1,9 @@
+# Fichiers temporaires du système
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Fichiers de travail des traitements de texte
+~$*
+*.tmp
+*.bak
