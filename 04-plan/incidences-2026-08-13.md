@@ -15,7 +15,9 @@ La menace ne vient d'aucun groupe constitué : c'est **le mécontentement ambian
 La hiérarchie n'étouffe ni par bêtise ni par complot : **elle a peur**. Un gosse de dix ans qui dit des choses impossibles, dans un climat où l'on parle de « libérer plus tôt », c'est du carburant.
 
 **Mouvement 5 — Elle** *(inchangé — retour au plan d'origine)*
-**Rien n'est annoncé.** Aucun chiffre ne se dit à la cérémonie : l'âge se voit (§6). Une femme sort de la capsule, elle a l'aspect d'une femme de soixante ans passés — lui en a cinquante-quatre à ce moment-là. Elle est donc visiblement plus âgée que lui, et c'est tout ce que la salle en retient.
+**Rien n'est annoncé.** Aucun chiffre ne se dit à la cérémonie : l'âge se voit (§6). Une femme sort de la capsule, elle a l'aspect d'une femme de soixante ans passés — **elle en a soixante-quatre**, et **lui cinquante-deux** à ce moment-là : dix ans se sont écoulés depuis sa propre arrivée. Elle est donc visiblement plus âgée que lui — de douze ans — et c'est tout ce que la salle en retient.
+
+À noter pour le ton du mouvement : **il est encore un débutant**. Ces dix années lui ont servi à tout réapprendre depuis zéro — un tuteur, l'école reprise en accéléré, puis des tuteurs dans le métier — et il n'est veilleur que depuis quelques années.
 
 Ce qui le cloue, c'est **le visage**, et rien d'autre. Le §12 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) le pose déjà : *« quelque chose se réveille en lui. Pas un souvenir : un vertige. Une reconnaissance sans objet. »*
 
@@ -30,7 +32,9 @@ Décompte des âges dans [`../02-univers/les-ages-croises.md`](../02-univers/les
 **Mouvements 11-12 — Elle, en parallèle** *(corrigé)*
 Il la reconnaît depuis le mouvement 5 et il ne cessera jamais de la reconnaître. Ce qu'il calcule n'est donc **pas une échéance de reconnaissance** : c'est un repère privé, qu'il est seul à pouvoir établir et qui ne change rien à rien.
 
-Le repère : **seize ans après sa propre arrivée**, elle aura 54 ans — l'âge exact qu'elle avait le jour où il est mort. Lui en aura 46. Il sera alors **plus jeune qu'elle de huit ans**, exactement l'écart qui les séparait en sens inverse dans la vie d'avant.
+Le repère : **à l'année 20** — vingt ans après sa propre arrivée, dix ans après celle d'elle — elle aura 54 ans, l'âge exact qu'elle avait le jour où il est mort. Lui en aura 42. Il est **plus jeune qu'elle de douze ans**, et il l'a été dès le premier jour : rien ne change à l'année 20 de ce côté-là.
+
+Ce qui change, et qui est **en lui seul** : c'est le point haut du reliquat. Le reliquat est accroché à ce visage précis ; plus elle s'en rapproche, plus il lui en revient. Ces deux mouvements sont donc une montée, pas une attente.
 
 Ce qui doit se lire dans ces deux mouvements, ce n'est pas un compte à rebours : c'est un homme qui compte. Le chiffre ne lui donne aucun délai et ne lui impose rien — il lui sert à ne pas regarder ce qu'il a déjà sous les yeux. Détail dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md).
 
@@ -58,14 +62,14 @@ Il cherche **des anomalies, pas des lois**. Des dates qui se répondent, des cap
 
 **La seule signature qui vaut est celle des jumelles** — même jour, même âge (mouvement 16) — et la troisième capsule, même date, même travée, jamais éclaircie (mouvement 17). C'est cette suite-là, et elle seule, qui arme l'acte II-B. « Même âge » tient parce que c'est une mesure, pas une ressemblance remarquée par quelqu'un.
 
-**Le couple n'entre pas dans les registres comme une piste.** Qu'ils soient arrivés tous les deux à 62 ans à huit ans d'intervalle n'est pas une exception : c'est le fonctionnement par défaut. Ils avaient huit ans d'écart, ils sont morts au même âge à huit ans d'intervalle, ils arrivent au même âge à huit ans d'intervalle. Rien à traquer là-dedans.
+**Le couple n'entre pas dans les registres comme une piste.** Qu'il soit arrivé à 62 et elle à 64, à dix ans d'intervalle, n'est pas une exception : c'est le fonctionnement par défaut. Chacun revient à son âge de mort, et le décalage entre les deux morts se retrouve entre les deux arrivées. Deux chiffres qui ne se répondent même pas — rien à traquer là-dedans, et rien à remarquer.
 
 ---
 
 ## Acte III
 
 **Mouvement 21 — La constatation** *(tranché)*
-Le mouvement ne repose plus sur une fenêtre de douze mois — **il n'y a pas de fenêtre** — et il ne repose pas davantage sur un choix. Il l'a reconnue à la seconde où la capsule s'est ouverte, il la reconnaîtra à cinq ans ; huit ans d'écart ne défont pas un visage. L'année 16 reste dans le livre pour ce qu'elle est : un repère privé, calculable par lui seul, sans effet sur personne.
+Le mouvement ne repose plus sur une fenêtre de douze mois — **il n'y a pas de fenêtre** — et il ne repose pas davantage sur un choix. Il l'a reconnue à la seconde où la capsule s'est ouverte, il la reconnaîtra à cinq ans ; douze ans d'écart ne défont pas un visage. L'année 20 reste dans le livre pour ce qu'elle est : un repère privé, calculable par lui seul, sans effet sur personne.
 
 Voie retenue, détaillée dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md#ce-qui-se-joue-vraiment) :
 
@@ -74,17 +78,21 @@ Voie retenue, détaillée dans [`../02-univers/les-ages-croises.md`](../02-unive
 - **Le lien ne fait que ça.** Il rapproche, il n'oblige à rien. La vie décide autrement : elle en fait un ami, ou elle a déjà quelqu'un, ou elle ne le regarde pas comme ça. **L'échec doit être banal** — pas un destin contrarié, pas une sanction du système : un homme qui n'intéresse pas une femme.
 - **Aucune échéance.** Pas de compte à rebours, pas de date. Ce que le mouvement met en scène n'est pas une décision mais **une constatation** : ça ne marchera pas, et il le voit.
 
-**Piste ouverte, à développer ou à écarter :** peut-être qu'à ce moment-là il n'a plus de reliquat. Le §7 pose que la mémoire s'allège en descendant ; le voile pâlirait donc à mesure qu'il rajeunit, et il perdrait la chose même qu'il a passé le livre à retrouver.
+**Le reliquat culmine ici, et n'ouvre rien** *(corrigé — la piste inverse est écartée)*. Le reliquat est accroché au visage : c'est ce visage-là, celui de ses 54 ans, qu'il a connu. Plus elle s'en rapproche, plus il lui en revient. **Une courbe, pas une porte.** Le point haut est à l'année 20 — et c'est tout ce qui s'y passe.
+
+Ce qui doit être clair à l'écriture : ce n'est **ni une échéance ni une fenêtre**. Aucun délai ne court, rien ne se ferme, rien ne s'ouvre. C'est simplement le moment où il lui en revient le plus, et **ça ne change rien** : il ne peut toujours rien lui avouer, il essaie toujours autrement, elle en fait toujours un ami. Le reliquat atteint son maximum et n'ouvre aucune porte — **c'est exactement ce qui fait du mouvement 21 une constatation et pas une décision.**
+
+*(Ce qu'il advient du reliquat quand elle passe sous 54 ans reste volontairement non tranché.)*
 
 **Mouvement 24 — Dernière page** *(fixé)*
 Elle s'éloigne par le bas — elle continue de descendre, elle dépasse le visage, elle passe. Il se dit qu'il la retrouvera de l'autre côté. Elle ne peut pas le comprendre, et il ne le lui dit pas. **Le livre ne confirme rien** : la règle des retrouvailles n'est pas systématique, rien ne garantit qu'elle joue pour lui, et le lecteur qui a saisi le système sait ce que vaut cette phrase. Lui non. Le « On se reverra » n'est pas une promesse, c'est ce qui lui reste.
 
 L'arithmétique, elle, ne change pas — elle continue après la fin du livre, qu'on l'écrive ou non :
 
-- Il atteint le jardin **huit ans avant elle**.
-- Quand elle l'y rejoint, ils ont cinq ans tous les deux : **le seul moment de deux vies où ils ont le même âge.**
-- Sauf qu'au jardin, la mémoire est partie. Ce qu'il aura passé un livre à se rappeler, le jardin le lui reprend.
-- Puis il s'éteint **huit ans avant elle**, comme il est mort huit ans avant elle. Elle lui survit une deuxième fois.
+- Il atteint le jardin **douze ans avant elle**.
+- On ne reste au jardin qu'une douzaine d'années : **il s'éteint à peu près au moment où elle y entre.** Le seul instant de deux vies où ils ont le même âge est aussi celui où il s'en va — une année, peut-être moins, sur le seuil.
+- Sauf qu'au jardin, la mémoire est partie. Ce qu'il aura passé un livre à se rappeler, le jardin le lui reprend avant de la lui rendre.
+- Il s'éteint **une dizaine d'années avant elle**, comme il est mort dix ans avant elle. Elle lui survit une deuxième fois.
 
 > **À trancher.** Recommandation : **laisser tout ça hors champ.** Le mouvement 24 s'arrête où il s'arrête. Le lecteur qui a compris le système fera le calcul seul, et il ira plus loin que l'autrice (interdit n° 2).
 
@@ -96,7 +104,7 @@ L'arithmétique, elle, ne change pas — elle continue après la fin du livre, q
 - **L'Archiviste est-il humain ?** — question posée deux fois dans le livre au maximum, jamais résolue, aucun personnage n'a d'avis à la fin. Le veilleur non plus.
 - **Le groupe des jaloux** — il n'existe pas comme groupe. Jamais nommé, jamais organisé, pas de sigle, pas de manifeste, pas de porte-parole, pas de chef à démasquer. Le texte n'en montre que des symptômes : une remarque, une rumeur, une négligence administrative, une foule un soir. Rien qu'on puisse désigner, donc rien qu'on puisse dissoudre — et c'est ce qui doit faire peur. Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md).
 - **Une annonce chiffrée à la cérémonie** — il n'y en a aucune, et il n'y a rien à lire non plus : les capsules ne portent pas de numéro. L'âge **se voit** : un corps apparaît et c'est le corps qui le dit (§6). La foule estime à vue — d'où le *« presque »* dans les chiffres qu'elle lance. Le chiffre exact vient de la mesure du veilleur, après, et n'existe que dans le registre. Ne jamais écrire une scène où un officiant proclame un nombre.
-- **Une anomalie dans les chiffres du couple** — il n'y en a pas. Deux arrivées au même âge à huit ans d'intervalle, pour deux morts au même âge à huit ans d'intervalle : c'est le défaut du système, pas une exception. Ça ne peut donc rien débloquer, ni pour lui ni pour le lecteur.
-- **Une fenêtre de reconnaissance** — il n'y en a pas. Il la reconnaît dès le mouvement 5 et jusqu'au bout. L'année 16 est un repère privé, pas une échéance ; le livre ne contient aucun compte à rebours.
+- **Une anomalie dans les chiffres du couple** — il n'y en a pas. Chacun revient à son âge de mort et le décalage des deux morts se retrouve entre les deux arrivées : c'est le défaut du système, pas une exception. Les chiffres ne forment aucune symétrie, il n'y a donc même pas de figure à interpréter. Ça ne peut rien débloquer, ni pour lui ni pour le lecteur.
+- **Une fenêtre de reconnaissance** — il n'y en a pas. Il la reconnaît dès le mouvement 5 et jusqu'au bout. L'année 20 est un repère privé, pas une échéance ; le livre ne contient aucun compte à rebours. Le reliquat y culmine sans rien ouvrir.
 - **Un choix amoureux au mouvement 21** — il n'y en a pas. Ni aveu possible, ni renoncement noble, ni vie commune dans le mensonge : ces trois voies sont écartées. Le mouvement est une constatation, et l'échec est banal.
 - **La règle des retrouvailles** — jamais énoncée. Si le lecteur comprend que ceux qui s'aiment se retrouvent *toujours*, le livre devient une consolation, ce que le §1 refuse.

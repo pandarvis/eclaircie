@@ -10,7 +10,7 @@ Le décompte du couple central, d'un monde à l'autre.
 | | Vie d'avant | Vie d'après |
 |---|---|---|
 | **Lui** | meurt à **62 ans** | arrive à **62 ans** |
-| **Elle** | a **54 ans** à la mort de lui ; meurt **8 ans plus tard**, donc à **62 ans** | arrive à **62 ans**, **8 ans après lui** |
+| **Elle** | a **54 ans** à la mort de lui ; meurt **dix ans plus tard**, donc à **64 ans** | arrive à **64 ans**, **dix ans après lui** |
 
 Taux de descente à cet étage du barème : **1 an vécu = 1 an de moins** (le dossier maître donne 1:1 au-dessus de 50 ans).
 
@@ -22,24 +22,27 @@ Année 0 = son arrivée à lui.
 
 | Année | Lui | Elle | Ce qui se passe |
 |---:|---:|---:|---|
-| 0 | 62 | — | Il sort de sa capsule. Vide. |
-| 8 | 54 | **62** | Elle arrive. Il a l'âge qu'elle avait quand il est mort. |
-| 16 | 46 | **54** | **Le repère.** Elle a exactement l'âge qu'elle avait quand il est mort. Il est plus jeune qu'elle de huit ans. |
-| 24 | 38 | 46 | Elle a l'âge qu'il avait, lui, au moment du repère. La descente continue ; rien ne s'est refermé. |
-| 57 | **5** | 13 | Il atteint le jardin. |
-| 65 | 5 | **5** | Elle atteint le jardin. **Ils ont le même âge pour la première fois.** |
-| 69 | 5 | 9 ans de jardin restants | Il s'éteint. |
-| 77 | — | 5 | Elle s'éteint. Huit ans après lui. |
+| 0 | 62 | — | Il sort de sa capsule. Vide. Il apprend tout depuis zéro. |
+| 10 | **52** | **64** | Elle arrive, à l'âge auquel elle est morte. Il est veilleur depuis peu. **Elle a douze ans de plus que lui.** |
+| 20 | 42 | **54** | **Le repère.** Elle a exactement l'âge qu'elle avait le jour où il est mort. Dix ans après son arrivée à elle. |
+| 32 | 30 | 42 | Elle a l'âge qu'il avait, lui, au moment du repère. La descente continue ; rien ne s'est refermé. |
+| 57 | **5** | 17 | Il atteint le jardin. Elle est loin derrière, très au-dessus. |
+| 69 | **5** — il s'éteint | **5** | Elle atteint le jardin l'année même où il s'en va. **Le seul et unique instant où ils ont le même âge, et il coïncide avec sa fin à lui.** |
+| 80 | — | 5 | Elle s'éteint. Onze ans après lui. |
 
-*(Durée totale ≈ 69 ans pour une arrivée à 62 : environ 57 ans de descente, puis 12 ans au jardin. Chiffres à ajuster ; c'est la forme qui compte.)*
+*(Méthode : arrivée à 62 ≈ 69 ans à vivre — 57 ans de descente, puis une douzaine au jardin ; arrivée à 64 ≈ 70 ans à vivre — 59 ans de descente, puis une douzaine au jardin. **Chiffres exacts à ajuster : c'est la forme qui compte**, pas la décimale.)*
 
-### Ce que l'année 16 est, et ce qu'elle n'est pas
+**Les dix premières années.** Il sort vide et il reprend tout à zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans son travail. Il devient veilleur. Le partage entre l'apprentissage et le service n'est pas chiffré et ne doit pas l'être. Ce qu'il faut retenir : **au début du roman, il est encore un débutant** — quelques années de métier, pas davantage.
 
-**Il la reconnaît dès qu'elle sort de la capsule.** Pas l'année 16, pas au bout d'un délai : à la seconde où le couvercle s'ouvre, au mouvement 5. Huit ans de plus que lui ne défont pas un visage. Et il continuera de la reconnaître ensuite, à 54 ans, à 40, à 20, à 5 — les traits ne s'effacent pas, ils rajeunissent. **Il la reconnaîtra toujours.**
+### Ce que l'année 20 est, et ce qu'elle n'est pas
 
-L'année 16 n'ouvre donc aucune fenêtre et n'en ferme aucune. Elle marque une seule chose : le moment où elle a exactement l'âge qu'elle avait le jour où il est mort. Un état de fait arithmétique, sans effet sur personne.
+**Il la reconnaît dès qu'elle sort de la capsule.** Pas l'année 20, pas au bout d'un délai : à la seconde où le couvercle s'ouvre, au mouvement 5. Douze ans de plus que lui ne défont pas un visage. Et il continuera de la reconnaître ensuite, à 54 ans, à 40, à 20, à 5 — les traits ne s'effacent pas, ils rajeunissent. **Il la reconnaîtra toujours.**
 
-C'est **un anniversaire privé**. Elle ne le connaît pas et ne peut pas le connaître ; aucun autre personnage n'a les éléments pour le calculer ; le chiffre ne sert à rien, ne déclenche rien, n'oblige à rien. Il n'a de sens que pour un homme qui compte tout seul, et le fait qu'il le compte en dit plus long sur lui que sur elle.
+L'année 20 n'ouvre donc aucune fenêtre et n'en ferme aucune. Elle marque une seule chose : le moment où elle a exactement l'âge qu'elle avait le jour où il est mort. Il en a 42. C'est un état de fait arithmétique, qui n'oblige personne à rien.
+
+C'est **un anniversaire privé**. Elle ne le connaît pas et ne peut pas le connaître ; aucun autre personnage n'a les éléments pour le calculer ; le chiffre ne sert à rien, ne déclenche rien, n'autorise rien. Il n'a de sens que pour un homme qui compte tout seul, et le fait qu'il le compte en dit plus long sur lui que sur elle.
+
+La seule chose qui bouge cette année-là est **en lui** : c'est le point haut du reliquat (voir plus bas). Et le point haut du reliquat n'ouvre aucune porte.
 
 Il n'y a donc **pas de compte à rebours** dans ce livre. Ce qui avance, ce n'est pas une échéance : c'est un homme qui met des années à constater ce qui était vrai dès le premier jour.
 
@@ -47,36 +50,36 @@ Il n'y a donc **pas de compte à rebours** dans ce livre. Ce qui avance, ce n'es
 
 ## Ce que l'arithmétique produit
 
-### 1. Ils arrivent tous les deux à 62, et c'est le fonctionnement normal
+### 1. Chacun revient à son âge de mort, et c'est le défaut du système
 
-Il n'y a rien à voir là. **C'est le défaut du système.**
+Il n'y a rien à voir là. **C'est le fonctionnement par défaut.**
 
 Le barème posé dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md) le dit : qui n'a rien commis d'irréparable et n'a rien subi d'extraordinaire revient à l'âge auquel il est parti. Ni supplément, ni retranchement. C'est la ligne médiane du §11 — *le réparable est pardonné*.
 
-Lui a obéi quand il ne fallait pas : faute réparable, dossier ordinaire, chiffre reconduit. Elle n'a rien à réparer davantage. Deux verdicts lambda.
+Lui a obéi quand il ne fallait pas : faute réparable, dossier ordinaire, chiffre reconduit. Il est mort à 62, il arrive à 62. Elle n'a rien à réparer davantage : elle est morte à 64, elle arrive à 64. Deux verdicts lambda, deux chiffres simplement recopiés.
 
-Ils sont morts tous les deux à 62 ans, à huit ans d'intervalle ; ils arrivent tous les deux à 62 ans, à huit ans d'intervalle. Le chiffre se répète parce que la mécanique est la même et que les deux vies ont donné le même résultat. **L'écart de huit ans est simplement conservé d'un monde à l'autre** : la mécanique n'a aucune raison de le modifier, et elle ne le modifie pas.
+Et **le décalage entre les deux morts se retrouve entre les deux arrivées** : dix ans les séparaient là-bas, dix ans les séparent ici. La mécanique n'a aucune raison de toucher à ce délai, et elle n'y touche pas.
 
-Aucune exception, aucune coïncidence à interpréter, aucun fait dur à opposer au reste du livre. Si le lecteur veut y voir un signe, il y verra un signe ; l'autrice sait qu'il n'y a rien dedans, et c'est ce qui doit tenir l'écriture.
+Ce qui en sort n'a rien d'un miroir, et c'est voulu. Les deux chiffres ne se répondent pas, l'écart n'est pas le même qu'avant, rien ne se referme joliment. **Aucune symétrie à repérer, donc aucune symétrie à interpréter.** Si le lecteur cherche un signe, il ne trouvera qu'une addition banale.
 
 *Corollaire : la reconnaissance du mouvement 5 ne s'appuie sur aucun indice objectif. Elle est entièrement dans le vertige, sans preuve d'aucune sorte. C'est plus difficile à écrire et c'est ce que le §14 demande.*
 
-### 2. L'écart de huit ans change de signe
+### 2. L'écart change de camp, et de taille
 
-Vie d'avant : il avait huit ans **de plus** qu'elle.
-Dans ce monde-ci : elle a huit ans **de plus** que lui.
+Vie d'avant : il avait **huit ans de plus** qu'elle.
+Dans ce monde-ci : elle a **douze ans de plus** que lui.
 
-Le même écart, retourné. Ils ne peuvent jamais avoir le même âge, jamais se croiser au milieu — sauf à un endroit.
+Ce n'est pas le même écart retourné, c'est un autre écart, dans l'autre sens. Il vient de l'addition des deux : huit ans le séparaient d'elle, dix ans séparent les deux arrivées, et le résultat s'inverse. **Il ne se rattrapera jamais** : elle restera douze ans devant lui jusqu'au bout de la descente.
 
-### 3. Le jardin est le seul lieu où ils ont le même âge
+### 3. Le jardin ne leur laisse même pas ça
 
 **Le jardin**, dans ce monde, c'est l'âge de cinq ans où la descente s'arrête (le palier du barème) : on ne rajeunit plus, on reste là quelques années, puis on s'éteint. On dit d'un vieillard de cinq ans qu'il est au jardin. *« Il est au jardin depuis huit ans. »*
 
-Il atteint cinq ans huit ans avant elle. Puis elle le rejoint. Et pendant **quatre ans**, ils ont exactement le même âge pour la première et la dernière fois de deux vies.
+Il y entre douze ans avant elle. Et comme on ne reste au jardin qu'une douzaine d'années, **il s'éteint à peu près au moment où elle y arrive**. Le seul instant de deux vies où ils ont le même âge est aussi celui où il s'en va : ils se croisent sur le seuil, une année, peut-être moins.
 
 Sauf que le dossier pose aussi : *« la mémoire s'allège en descendant ; les mourants sont ceux qui ne peuvent plus témoigner. »*
 
-Donc au moment où ils sont enfin au même endroit, **il a tout perdu** — l'enquête, le voile, les jumelles, elle. Ce qu'il aura passé un livre entier à se rappeler, le jardin le lui reprend.
+Donc même cet instant-là ne vaut rien : **il a tout perdu** — l'enquête, le voile, les jumelles, elle. Ce qu'il aura passé un livre entier à se rappeler, le jardin le lui reprend, et il le lui reprend avant de la lui rendre.
 
 > **Question ouverte à trancher :** est-ce que le roman va jusque-là ?
 > Le mouvement 24 s'arrête au moment où elle dépasse le visage. La suite est arithmétiquement vraie qu'on l'écrive ou non. On peut la laisser hors champ et lui faire porter tout son poids — le lecteur calculera. Ou en faire une dernière page insoutenable.
@@ -84,9 +87,9 @@ Donc au moment où ils sont enfin au même endroit, **il a tout perdu** — l'en
 
 ### 4. Il part le premier. Encore.
 
-Il s'éteint huit ans avant elle, comme il est mort huit ans avant elle. Le même écart, la même deuxième place pour elle, la même vie de survivante. Rien n'a été corrigé de ce côté-là : un écart d'âge n'est ni un tort ni une blessure, le registre ne l'enregistre pas, et le système n'a donc aucune raison de le défaire.
+Il s'éteint une dizaine d'années avant elle, comme il est mort dix ans avant elle. Le même délai, la même deuxième place pour elle, la même vie de survivante. Rien n'a été corrigé de ce côté-là : un écart d'âge n'est ni un tort ni une blessure, le registre ne l'enregistre pas, et le système n'a donc aucune raison de le défaire.
 
-Si un monde suit celui-ci, l'écart de huit ans y repartira. **On se reverra** est donc vrai, et ne promet rien de plus que ça : se revoir, à huit ans près, indéfiniment.
+Si un monde suit celui-ci, le même décalage y repartira, et l'écart des âges s'y creusera encore. **On se reverra** est donc vrai, et ne promet rien de plus que ça : se revoir, toujours décalés, indéfiniment.
 
 ---
 
@@ -120,17 +123,19 @@ Et la vie décide autrement. Elle en fait un ami — un bon ami, un ami sûr, qu
 
 ### Il n'y a aucune échéance
 
-Pas de compte à rebours, pas de fenêtre, pas de date, pas de dernier délai. L'année 16 reste dans le livre pour ce qu'elle est : un repère privé, calculable par lui seul, sans effet sur personne et sans conséquence sur rien.
+Pas de compte à rebours, pas de fenêtre, pas de date, pas de dernier délai. L'année 20 reste dans le livre pour ce qu'elle est : un repère privé, calculable par lui seul, sans effet sur personne et sans conséquence sur rien.
 
 Ce que le mouvement 21 met en scène n'est donc pas une décision à prendre. **C'est une constatation** : ça ne marchera pas, et il le voit. Le mouvement ne se construit pas sur « que va-t-il choisir » mais sur le moment où il cesse de se raconter qu'il y a quelque chose à choisir.
 
-### Piste ouverte — le reliquat qui s'en va
+### Le reliquat monte au lieu de partir
 
-*À développer ou à écarter. Non tranché.*
+*Correction actée. La piste inverse — le voile qui pâlirait à mesure qu'il rajeunit, lui reprenant ce qu'il a passé le livre à retrouver — est **écartée**.*
 
-Peut-être qu'à ce moment-là il n'a déjà plus de reliquat. Le §7 du dossier maître pose que **la mémoire s'allège en descendant** ; le voile pourrait donc pâlir à mesure qu'il rajeunit, régulièrement, sans qu'il s'en aperçoive.
+**Le reliquat est accroché au visage.** Ce n'est pas un stock qui s'épuise, c'est une réponse à ce qu'il a sous les yeux. Et ce qu'il a connu, ce n'est pas elle en général : c'est **ce visage-là précisément**, celui de ses 54 ans, celui du jour où il est mort.
 
-Ce serait la dernière cruauté : il perd la chose même qu'il a passé le livre à retrouver. Non pas d'un coup, non pas comme une sanction — par simple usure arithmétique. Reste à décider si le texte le montre ou si le lecteur le déduit seul.
+Donc plus elle se rapproche de ce visage, plus il lui en revient. C'est **une courbe, pas une porte** : ça monte régulièrement pendant qu'elle descend de 64 vers 54, ça atteint son point haut à **l'année 20**, quand la ressemblance est exacte. Rien ne s'ouvre à ce moment-là, rien ne bascule : il en a simplement plus.
+
+> **Question laissée ouverte, volontairement :** que se passe-t-il ensuite, quand elle passe sous 54 et s'éloigne par le bas du visage qu'il a connu ? Le reliquat redescend-il symétriquement, reste-t-il au niveau atteint, se comporte-t-il autrement ? **Ne pas trancher pour l'instant.** Le mouvement 24 s'arrête à peu près là et n'a pas besoin de la réponse.
 
 ### Ce que ça donne à la dernière page (mouvement 24)
 

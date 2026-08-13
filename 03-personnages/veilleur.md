@@ -11,9 +11,11 @@
 | **Arrivé à** | 62 ans |
 | **Vie d'avant** | enquêteur. Mort à 62 ans. |
 | **Métier** | veilleur, débutant. En poste depuis peu. Lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. |
-| **Ancienneté** | huit ans dans ce monde, et **54 ans** au début du roman. Arrivé vide, tout appris, formé, affecté. Il est le dernier arrivé du service. |
+| **Ancienneté** | **dix ans** dans ce monde, et **52 ans** au début du roman. Arrivé vide, tout appris depuis zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans le métier. Il devient veilleur en cours de route, et n'a au début du roman **que quelques années de service** : c'est un débutant. Il est le dernier arrivé. |
 | **Particularité** | voilé. Personne ne le sait. **Lui non plus, au début.** |
 | **Faute** | a cessé de creuser l'affaire des jumelles quand on le lui a demandé. Faute réparable → pardon → **le voile est le pardon.** |
+
+**L'écart avec elle.** Elle arrive **dix ans après lui**, à **64 ans**. Elle a donc **douze ans de plus que lui** dans cette vie-ci, alors qu'il en avait **huit de plus qu'elle** dans la précédente. L'écart n'est pas seulement inversé : il est creusé.
 
 Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md).
 
@@ -25,13 +27,15 @@ Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-a
 
 ### L'inversion
 
-Dans ce monde, l'ancienneté et la jeunesse vont ensemble. Plus un veilleur a d'années de métier, plus il a eu le temps de rajeunir. **Les plus expérimentés sont donc les plus jeunes d'aspect.** Un vétéran de trente ans de service a l'air d'en avoir vingt ; lui, qui débute, a l'air d'en avoir soixante.
+Dans ce monde, l'ancienneté et la jeunesse vont ensemble. Plus un veilleur a d'années de métier, plus il a eu le temps de rajeunir. **Les plus expérimentés sont donc les plus jeunes d'aspect.** Un vétéran de trente ans de service a l'air d'en avoir vingt ; lui, qui débute, a l'air d'en avoir cinquante.
 
 **Personne dans le livre ne trouve ça remarquable.** C'est l'ordre normal des choses, et il ne faut jamais le commenter : c'est le prolongement direct de la satire déjà posée au §9 du dossier maître — *« les formateurs sont toujours plus jeunes que leurs apprenants »*.
 
 ### Le bizutage
 
-La sale besogne — nettoyer les capsules qui n'ont pas éclairci — échoit aux derniers arrivés. Donc à ceux qui ont l'air vieux. Des veilleurs d'apparence adolescente laissent la raclette à un homme qui paraît soixante ans, et personne n'y voit une injustice : c'est le tour de rôle.
+La sale besogne — nettoyer les capsules qui n'ont pas éclairci — échoit aux derniers arrivés. Donc à ceux qui ont l'air vieux. Des veilleurs d'apparence adolescente laissent la raclette à un homme qui paraît cinquante ans, et personne n'y voit une injustice : c'est le tour de rôle.
+
+**Précision de l'autrice — c'est l'apparence qui fait le tri.** La sale besogne échoit à qui a l'air le plus vieux, pas à qui est le plus récent. Les deux reviennent au même, et c'est exactement là qu'est la finesse : le critère énoncé est un critère de visage, et il désigne les derniers arrivés sans que personne ait à le formuler. On ne dit pas « tu débutes », on regarde qui, dans la pièce, fait le plus vieux — et la raclette lui revient. Le tri se fait tout seul, sans règlement, sans méchanceté, et sans que personne y voie autre chose qu'une évidence.
 
 **Ce que ça résout :** il racle parce qu'il est le dernier arrivé, pas parce qu'il fait ça depuis vingt ans. Le mouvement 2 du plan — la capsule sans éclaircie — trouve là sa justification de métier, et n'a plus besoin d'être expliqué.
 
@@ -58,7 +62,7 @@ Le [dossier maître](../L-ECLAIRCIE-dossier-complet.md) n'a **pas** été modifi
 
 ### Conséquence à surveiller — la vitesse
 
-Sa vocation est revenue **très vite**. Un homme qui sort de capsule et se retrouve, en huit ans, au poste qui regarde et qui note : c'est un reliquat plus violent qu'une carrière de vingt ans. Ce n'est plus une pente, c'est un aimant.
+Sa vocation est revenue **très vite**. Un homme qui sort de capsule et se retrouve, en dix ans — dix ans dont l'essentiel se passe à réapprendre à lire, à compter, à vivre —, au poste qui regarde et qui note : c'est un reliquat plus violent qu'une carrière de vingt ans. Ce n'est plus une pente, c'est un aimant.
 
 **À doser.** Le §12 pose que *« le reliquat n'est pas un souvenir, c'est une vocation »*, et la brièveté du délai rend la démonstration plus forte — mais elle la rend aussi plus visible. Si l'orientation paraît trop droite, trop rapide, trop improbable, le lecteur cesse de pouvoir croire au hasard, et **l'interdit n° 4 tombe** : l'hypothèse « il fabule » doit tenir jusqu'au bout. Il faut donc que sa trajectoire reste explicable par des voies ordinaires — une affectation, un besoin de bras, une aptitude remarquée — et que personne, lui compris, ne s'en étonne.
 

@@ -1,14 +1,18 @@
 # La mère et l'enfant
 
 *Personnage très secondaire — en réalité deux arrivants liés par une seule mort.*
-*Idée neuve de l'autrice. Proposition documentée : rien n'est tranché ici.*
+*Idée neuve de l'autrice. Proposition documentée ; seules les décisions signalées comme telles sont tranchées.*
 *Aucun prénom n'est proposé : l'autrice n'en a pas encore choisi.*
 
 ---
 
 ## 1. Le principe
 
-Une femme meurt en attendant un enfant ; l'enfant ne vit pas.
+**Décision de l'autrice : on ignore tout de ce qui s'est passé.**
+
+Le livre ne dit pas comment ils sont morts. Il ne le suggère pas, il ne permet pas de le déduire. Aucune circonstance, aucun lieu, aucune cause. Ni les personnages ni le lecteur ne peuvent le savoir, et le document ne le sait pas non plus : la question n'est pas laissée en suspens pour être tranchée plus tard, elle est retirée du livre.
+
+**La seule chose établie :** la mère et l'enfant étaient réunis au moment où leurs deux vies se sont arrêtées, et deux capsules se sont formées ensemble. C'est tout ce qui est connaissable, et c'est tout ce dont l'histoire a besoin.
 
 Deux vies s'arrêtent au même instant. Deux capsules se forment donc ensemble, à quelques travées d'écart, et mûrissent au même rythme — c'est la mécanique ordinaire décrite dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) : la maturation suit le souffle de vie restant de l'autre côté, et là il n'en restait pour personne.
 
@@ -22,7 +26,7 @@ Application directe du barème de [`../02-univers/ce-qui-est-juge.md`](../02-uni
 
 **La mère.** Rien d'irréparable, rien d'extraordinaire subi. Verdict lambda : elle est reconduite à son âge de mort. **Trente-cinq ans.** Le pardon sans supplément ni retranchement — la ligne médiane.
 
-**L'enfant.** Il n'a pas vécu. Le §7 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose que cinq ans est le plancher aux deux bouts, et que *« un enfant mort très jeune chez nous arrive au plancher : sa vie entière est un palier »*, ce qui est *« la grâce maximale que le système sache accorder »*. Il arrive donc à **cinq ans**, et **sa vie entière se passe au jardin**.
+**L'enfant.** Il n'a pas eu de vie à juger. Le §7 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose que cinq ans est le plancher aux deux bouts, et que *« un enfant mort très jeune chez nous arrive au plancher : sa vie entière est un palier »*, ce qui est *« la grâce maximale que le système sache accorder »*. Il arrive donc à **cinq ans**, et **sa vie entière se passe au jardin**.
 
 Deux verdicts sans mystère. C'est l'arithmétique qui suit qui fait le personnage.
 
@@ -46,9 +50,23 @@ Ils ne seront jamais du même âge. Ils ne seront jamais du même côté du déc
 
 ### Le renversement
 
-Dans la vie d'avant, l'enfant n'a pas vécu du tout. Dans celle-ci, **c'est elle qui lui survit** — d'une vingtaine d'années, qu'elle passera au jardin, à cinq ans, à l'âge exact qu'il a eu tout du long.
+Dans la vie d'avant, l'enfant n'a rien eu. Dans celle-ci, **c'est elle qui lui survit** — d'une vingtaine d'années, qu'elle passera au jardin, à cinq ans, à l'âge exact qu'il a eu tout du long.
 
 *Les chiffres exacts sont à ajuster : la table du §7 est elle-même donnée « à ajuster au feeling ». Ce qui compte est la forme — deux courbes qui vont l'une vers l'autre et ne se croisent jamais.*
+
+### La fin ouverte
+
+*C'est le vrai apport de la correction, et la raison d'être du personnage.*
+
+Elle lui survit **dans cette vie-ci**. Le document ne va pas plus loin, et surtout : rien ne dit qu'elle ne le retrouvera pas dans la suivante.
+
+La règle des retrouvailles de [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md) s'applique à eux comme à n'importe qui : **le lien tient malgré l'ignorance totale** des deux personnes — et ici l'ignorance est totale au carré, puisque même la mort qui les a réunis est inconnaissable. Le lien ne se sait pas, il ne se dit pas, il agit. Et, comme toujours, **ce n'est jamais systématique** : une chance, pas une loi. Le livre ne confirmera rien.
+
+**Ce que ça installe.** Ce personnage très secondaire porte donc, en miniature et sans un mot, exactement la même promesse invérifiable que la dernière page du roman : *on se reverra*. Une fois sur un couple, au mouvement 24. Une fois sur une mère et son enfant, quelque part dans l'acte I. **Le livre ne confirme ni l'une ni l'autre.**
+
+Deux fois la même phrase non dite, à deux échelles, sur deux formes d'amour. La seconde prépare la première sans que le lecteur s'en aperçoive — et si, à la relecture, il fait le rapprochement, il comprend que le livre lui a posé la question deux fois et n'y a jamais répondu.
+
+*Réserve inchangée : cela ne se formule jamais dans le texte. Ni elle, ni un veilleur, ni le narrateur. La chose est dans l'arithmétique, pas dans une réplique.*
 
 ---
 
@@ -91,30 +109,24 @@ C'est donc un personnage secondaire qui installe **gratuitement** une compétenc
 
 ---
 
-## 6. La précaution
+## 6. La consigne d'écriture
 
-Le §11 du dossier maître écarte explicitement l'avortement et la mort subite du nourrisson comme mécanismes : *« le livre deviendrait un argument sur un débat contemporain au lieu d'un monde. »*
+La précaution qui figurait ici — comment éviter que le cas ne devienne un argument sur un débat contemporain, au sens du §11 du dossier maître — **n'a plus lieu d'être.** L'ignorance décidée au §1 la règle d'elle-même : sans circonstances, il n'y a aucun terrain de débat. On ne peut pas discuter de ce qui n'est pas dit.
 
-**Ce personnage passe à côté de l'objection** parce qu'il n'y a **aucune décision humaine en jeu**. Une femme meurt, l'enfant meurt avec elle, personne n'a choisi. Il n'y a rien à arbitrer, donc rien à débattre.
+Il n'en reste donc qu'une consigne d'écriture, à tenir à la lettre :
 
-Garde-fous, à tenir à la lettre :
+- **ne jamais dater** — pas de moment, pas de durée, pas de stade ;
+- **ne jamais expliquer** — ni ce qui est arrivé, ni pourquoi deux capsules plutôt qu'une ;
+- **ne jamais employer de vocabulaire clinique.**
 
-- le texte **ne discute jamais** de la question ;
-- il **ne date jamais** la grossesse — pas de mois, pas de terme, pas de stade ;
-- il **n'emploie aucun vocabulaire clinique** ;
-- il **n'explique jamais** la règle, ni pourquoi deux capsules plutôt qu'une.
-
-On dit qu'elle attendait un enfant. Deux capsules se forment. Rien de plus.
-
-### Variante plus sûre — proposée, pas imposée
-
-**Elle meurt en accouchant, et l'enfant ne survit pas.** Ils ne se sont jamais rencontrés non plus, les deux verdicts sont identiques, l'arithmétique est inchangée, et la question ne se pose même pas. L'effet narratif est le même au mot près.
+Deux capsules se forment ensemble. Rien de plus n'est dit, et rien de plus n'est sous-entendu.
 
 ---
 
 ## 7. À trancher
 
-- [ ] **La variante retenue** : morte enceinte, ou morte en couches ?
+*La question de la variante a disparu : il n'y a plus de variante, puisqu'il n'y a plus de circonstances.*
+
 - [ ] **Le volume** : combien de scènes ce personnage occupe-t-il ? Une seule cérémonie double, ou une présence qui revient au fil du livre ?
 - [ ] **La rencontre** : le protagoniste la croise-t-il ? À quel moment — la cérémonie double, une visite au jardin, les deux ?
 - [ ] **Le moment de la compréhension** : le lecteur doit-il faire le lien tout de suite, ou seulement à la relecture ?
