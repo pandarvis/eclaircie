@@ -358,6 +358,24 @@
     padding: 3px 7px 2px;
   }
 
+  .beat .when {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 12px;
+    margin-top: 13px;
+    padding-top: 9px;
+    border-top: 1px solid var(--line-soft);
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .beat .when b { color: var(--c); font-weight: 600; }
+  .beat .when em { font-style: normal; color: var(--ink-2); font-weight: 600; }
+
   /* ---------- charnières d'acte ---------- */
 
   .hinge {
@@ -587,14 +605,41 @@
   ];
   const laneIndex = Object.fromEntries(LANES.map((l, i) => [l.key, i]));
 
+  // Où l'on en est : année du récit, et l'âge de qui est en scène.
+  // Année 0 = son arrivée à lui, à 62 ans. Le livre court de l'année 10 à l'année 22.
+  const WHEN = {
+    "01":    ["An 10",      [["lui", 52]]],
+    "02":    ["An 10",      [["lui", 52]]],
+    "03":    ["An 10",      [["lui", 52]]],
+    "04":    ["An 10",      [["lui", 52], ["le garçon", 8]]],
+    "05":    ["An 10",      [["lui", 52], ["elle", 64]]],
+    "—":     ["An 10",      [["lui", 52]]],
+    "06–09": ["Ans 11-13",  [["lui", "51 → 49"], ["le garçon", "7½ → 7"]]],
+    "10":    ["An 13",      [["lui", 49], ["le garçon", 7]]],
+    "11–12": ["Ans 11-14",  [["lui", "51 → 48"], ["elle", "63 → 60"]]],
+    "13":    ["An 14",      [["lui", 48]]],
+    "14":    ["Ans 15-19",  [["lui", "47 → 43"]]],
+    "15":    ["An 16",      [["lui", 46]]],
+    "16":    ["An 17",      [["lui", 45]]],
+    "17":    ["An 18",      [["lui", 44]]],
+    "17 bis":["An 19",      [["lui", 43], ["le garçon", 5]]],
+    "18":    ["An 19",      [["lui", 43]]],
+    "19":    ["An 19",      [["lui", 43]]],
+    "20":    ["An 19",      [["lui", 43]]],
+    "21":    ["An 20",      [["lui", 42], ["elle", 54]]],
+    "22":    ["An 20",      [["lui", 42]]],
+    "23":    ["An 21",      [["lui", 41]]],
+    "24":    ["An 22",      [["lui", 40], ["elle", 52]]]
+  };
+
   const COLS = [
     { type: "panel", kind: "open" },
 
-    { type: "hinge", act: "Acte I", title: "La routine et la fêlure", pct: "25 %" },
+    { type: "hinge", act: "Acte I", title: "La routine et la fêlure", pct: "Année 10" },
     { type: "beat", no: "01", lane: "monde", title: "Une cérémonie de l'Éclaircie",
       text: "Le rite vu de l'intérieur, par un veilleur encore neuf. Rien n'est annoncé : le corps dit l'âge, la salle l'estime à vue et réagit. Il mesurera après, pour le registre. Tout le système passe en une scène, sans un mot d'explication." },
     { type: "beat", no: "02", lane: "monde", title: "La capsule sans éclaircie",
-      text: "Combinaisons, raclette, seaux, odeur. C'est la corvée des nouveaux : les anciens, qui ont l'air d'avoir vingt ans, la laissent à un homme qui en paraît soixante. Il fait son travail, il rentre chez lui.", tag: "Le contraste" },
+      text: "Combinaisons, raclette, seaux, odeur. C'est la corvée des nouveaux : les anciens, qui ont l'air d'avoir vingt ans, la laissent à un homme qui en paraît cinquante. Il fait son travail, il rentre chez lui.", tag: "Le contraste" },
     { type: "stele", quote: "Il n'y a pas eu d'éclaircie.", src: "Phrase à garder" },
     { type: "beat", no: "03", lane: "enquete", title: "Le chiffre qui monte",
       text: "Réunion, statistiques, inquiétude administrative. Les anciens — ceux qui ont l'air d'avoir vingt ans — disent qu'ils en ont toujours vu. Ce qui est nouveau, c'est le nombre. On lui demande de regarder ça de plus près ; il accepte sans y croire.", tag: "Déclencheur" },
@@ -606,7 +651,7 @@
     { type: "beat", no: "—", lane: "voile", title: "La première fissure",
       text: "Fin d'acte I. Il note une phrase qu'il ne s'explique pas — quelque chose qui n'est pas de lui.", tag: "Charnière" },
 
-    { type: "hinge", act: "Acte II-A", title: "L'enquête impossible", pct: "25 %" },
+    { type: "hinge", act: "Acte II-A", title: "L'enquête impossible", pct: "Années 10-14" },
     { type: "beat", no: "06–09", lane: "enquete", title: "Le garçon parle, et ça ne colle pas",
       text: "Il décrit des lieux qui n'existent pas — un boulanger là où il y a un magasin de chaussures. Un mot revient. La méthode revient toute seule : classer, recouper, dater. Il s'entend penser comme quelqu'un d'autre.", tag: "Des années" },
     { type: "beat", no: "10", lane: "voile", title: "La contamination",
@@ -616,7 +661,7 @@
     { type: "beat", no: "13", lane: "enquete", title: "Le mur",
       text: "On lui retire l'affaire, ou on lui conseille de laisser tomber. Un écho qu'il ne perçoit pas encore." },
 
-    { type: "hinge", act: "Acte II-B", title: "Le registre", pct: "25 %" },
+    { type: "hinge", act: "Acte II-B", title: "Le registre", pct: "Années 15-19" },
     { type: "beat", no: "14", lane: "enquete", title: "La désobéissance",
       text: "Il continue en douce. Première fois de sa vie — sauf que non, justement." },
     { type: "beat", no: "15", lane: "enquete", title: "Les registres de l'Archiviste",
@@ -633,7 +678,7 @@
     { type: "beat", no: "19", lane: "voile", title: "Le garçon, relu",
       text: "Un assassin, un enfant, deux capsules le même jour. Il n'est pas fou : il a été gracié." },
 
-    { type: "hinge", act: "Acte III", title: "Le credo", pct: "25 %" },
+    { type: "hinge", act: "Acte III", title: "Le credo", pct: "Années 19-22" },
     { type: "beat", no: "20", lane: "monde", title: "La question morale",
       text: "Il sait maintenant ce qu'il racle depuis qu'il a pris le poste. Reconnaître, c'est gracier à moitié. Se taire, c'est achever la sentence." },
     { type: "beat", no: "21", lane: "elle", title: "Ce qui ne se dira pas",
@@ -707,11 +752,15 @@
       el.className = "beat reveal";
       el.style.setProperty("--c", `var(--${c.lane})`);
       el.style.gridRow = String(laneIndex[c.lane] + 1);
+      const w = WHEN[c.no];
       el.innerHTML =
         `<span class="no">${c.no}</span>` +
         `<h3>${c.title}</h3>` +
         `<p>${c.text}</p>` +
-        (c.tag ? `<span class="tag">${c.tag}</span>` : "");
+        (c.tag ? `<span class="tag">${c.tag}</span>` : "") +
+        (w ? `<div class="when"><b>${w[0]}</b>` +
+              w[1].map(a => `<span>${a[0]}&nbsp;<em>${a[1]}</em></span>`).join("") +
+             `</div>` : "");
     } else if (c.type === "hinge") {
       widths.push("var(--hinge-w)");
       el = document.createElement("div");
