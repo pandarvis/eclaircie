@@ -2,6 +2,7 @@
 
 Ce que les nouvelles idées changent, mouvement par mouvement.
 Le plan de référence reste le §13 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md).
+Calendrier et décompte dans [`duree-et-calendrier.md`](duree-et-calendrier.md).
 
 ---
 
@@ -29,6 +30,13 @@ Décompte des âges dans [`../02-univers/les-ages-croises.md`](../02-univers/les
 
 ## Acte II-A
 
+**Mouvements 6-9 — Le garçon parle** *(nouveau — le garçon est l'horloge)*
+Dans un monde où les gens rajeunissent, le temps doit se montrer sur un corps. Aucun adulte du livre ne change assez vite pour ça : lui passe de 52 à 40 ans en douze ans, elle de 64 à 52. **Entre neuf et cinq ans, en revanche, un corps d'enfant change vite et se voit.**
+
+**Aucun chapitre n'est jamais daté.** Pas d'année, pas de « trois ans plus tard ». À chaque retour du garçon, **il est plus petit et il dit moins** — c'est le seul repère donné au lecteur, et il suffit. C'est la réponse à la difficulté des sauts de temps sur douze ans : le problème est résolu par un personnage, pas par une convention typographique.
+
+L'horloge et le témoin sont le même garçon : chaque fois qu'on regarde l'heure, on constate qu'il en reste moins. Détail dans [`duree-et-calendrier.md`](duree-et-calendrier.md#le-garçon-est-lhorloge).
+
 **Mouvements 11-12 — Elle, en parallèle** *(corrigé)*
 Il la reconnaît depuis le mouvement 5 et il ne cessera jamais de la reconnaître. Ce qu'il calcule n'est donc **pas une échéance de reconnaissance** : c'est un repère privé, qu'il est seul à pouvoir établir et qui ne change rien à rien.
 
@@ -53,6 +61,8 @@ On lui dit de lâcher l'affaire. Il répond **une phrase qui n'est pas de cette 
 Ce n'est pas un rebondissement. **C'est la réparation elle-même.**
 Même question posée deux fois, dans deux mondes. La première fois il a obéi. Cette fois il désobéit. Le voile lui a rendu son dossier ; il repasse l'examen sans savoir qu'il le repasse, et il le réussit.
 
+**Et il désobéit pendant des années** *(ajout — conséquence du calendrier)*. L'enquête s'étale de l'année 10 à l'année 19 : **neuf ans**. Ce n'est pas un étirement subi, c'est ce qui la rend impossible — elle est impossible parce qu'elle traîne. On lui a retiré l'affaire, il continue en douce, personne ne l'aide, rien ne le presse et rien ne l'autorise. Il n'y a donc pas un moment où il décide de désobéir : il y a des années pendant lesquelles il ne cesse pas de le faire, seul et sans résultat. La première fois, il avait obéi tout de suite — c'est la comparaison qui donne son poids à la réparation.
+
 Conséquence : au mouvement 22, il est **absous depuis huit chapitres** et ne l'apprend qu'après. C'est ce qui autorise le mouvement 23 à le libérer alors que les jumelles ne comprennent rien.
 
 **Mouvement 15 — Les registres** *(précisé — d'où viennent les chiffres)*
@@ -63,6 +73,24 @@ Il cherche **des anomalies, pas des lois**. Des dates qui se répondent, des cap
 **La seule signature qui vaut est celle des jumelles** — même jour, même âge (mouvement 16) — et la troisième capsule, même date, même travée, jamais éclaircie (mouvement 17). C'est cette suite-là, et elle seule, qui arme l'acte II-B. « Même âge » tient parce que c'est une mesure, pas une ressemblance remarquée par quelqu'un.
 
 **Le couple n'entre pas dans les registres comme une piste.** Qu'il soit arrivé à 62 et elle à 64, à dix ans d'intervalle, n'est pas une exception : c'est le fonctionnement par défaut. Chacun revient à son âge de mort, et le décalage entre les deux morts se retrouve entre les deux arrivées. Deux chiffres qui ne se répondent même pas — rien à traquer là-dedans, et rien à remarquer.
+
+**Entre les mouvements 17 et 18 — Le garçon entre au jardin** *(nouveau — climax de l'acte II)*
+Année 19. Juste après la troisième capsule, juste avant le retournement. C'est **le point culminant de l'acte II**, et il ne ressemble à rien de ce qu'on attend à cette place.
+
+**Ce n'est pas une révélation, c'est une perte.** Le seul témoin s'éteint dans l'insouciance. Il n'est pas mort : il est là, dans la même pièce, il joue par terre, il va très bien — **et il n'a plus les mots.** On peut lui poser toutes les questions du monde, il n'y a plus personne pour y répondre.
+
+Le veilleur perd sa source. D'un coup, il ne lui reste que **les registres et lui-même**.
+
+Ça satisfait la contrainte du §14 sur la fausse piste mieux que tout le reste : **le garçon ne cesse jamais d'être utile — on le lui prend.** La piste n'était pas fausse, elle a été coupée, et le lecteur ne peut pas se sentir floué par une perte qu'il a vue arriver depuis neuf ans (le garçon rétrécit à chaque apparition, c'est l'horloge du livre).
+
+Rien à annoncer, rien à expliquer : la scène se joue entière dans un enfant qui joue par terre et qui ne répond pas.
+
+**Mouvement 18 — Le retournement** *(ajusté — il s'enchaîne sur la perte)*
+Le retournement ne vient plus d'une déduction brillante : **il vient de ce qui reste.** Privé de son témoin, le veilleur n'a plus d'extérieur où chercher — donc il cherche dedans. C'est la perte du mouvement précédent qui le provoque, et elle doit se lire ainsi : il ne se retourne pas vers lui-même par lucidité, mais **parce qu'il n'y a plus rien d'autre à interroger.**
+
+L'enchaînement complet : la troisième capsule (17) lui donne ce qu'il y avait dedans → le garçon entre au jardin et emporte tout le reste → il ne lui reste que les registres et lui-même (18) → s'il se souvient, c'est qu'il est voilé, et il n'a jamais enquêté sur le garçon.
+
+Le mouvement 19 — le garçon relu — se relit alors sur un garçon qui ne peut plus rien confirmer. **Tout ce qui sera dit de lui à partir de là est dit sans lui.**
 
 ---
 
