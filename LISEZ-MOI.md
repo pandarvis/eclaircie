@@ -32,6 +32,9 @@ Tout le reste en découle. Il reste à la racine exprès : on ne le cherche pas.
 ## Ce qui s'y trouve déjà
 
 ### `01-dossier/`
+- **[`recapitulatif-pour-validation.md`](01-dossier/recapitulatif-pour-validation.md)** — ⚠️ **à lire en premier.** Tout ce qui a été tranché, et les corrections en attente sur le dossier maître.
+- **[`expliquer-le-systeme.md`](01-dossier/expliquer-le-systeme.md)** — comment présenter le monde à quelqu'un d'extérieur, en trente secondes ou en deux minutes.
+- **[`phrases-a-garder.md`](01-dossier/phrases-a-garder.md)** — complément au §16.
 - **[`les-interdits.md`](01-dossier/les-interdits.md)** — ⚠️ **la liste de référence.** Les quatre interdits du §14, plus six dérivés. Numérotation figée : on y renvoie par leur numéro.
 - **[`notes-en-vrac-2026-08-13.md`](01-dossier/notes-en-vrac-2026-08-13.md)** — dépôt brut d'une session d'idées, avec le statut de chacune et où elle a été développée.
 
