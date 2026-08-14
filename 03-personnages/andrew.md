@@ -9,7 +9,7 @@
 | | |
 |---|---|
 | **Arrivé à** | 62 ans |
-| **Nom dans la vie d'avant** | **Joël** |
+| **Nom dans la vie d'avant** | **Joël** — nom de bible d'autrice, **prononcé une seule fois dans tout le roman**, à la poursuite finale |
 | **Vie d'avant** | enquêteur. Mort à 62 ans. |
 | **Métier** | veilleur, débutant. En poste depuis peu. Lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. |
 | **Ancienneté** | **dix ans** dans ce monde, et **52 ans** au début du roman. Arrivé vide, tout appris depuis zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans le métier. Il devient veilleur en cours de route, et n'a au début du roman **que quelques années de service** : c'est un débutant. Il est le dernier arrivé. |
@@ -24,7 +24,12 @@ Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-a
 
 ## Deux noms pour un homme
 
-**Tranché le 14 août 2026 : dans la vie d'avant, il s'appelait Joël.** Ce qui suit n'est pas une question de fiche, c'est une question de dispositif — et elle n'est pas tranchée.
+> **Tranché le 14 août 2026, en deux temps.**
+>
+> **1.** Dans la vie d'avant, il s'appelait **Joël**.
+> **2.** *« On n'a jamais son nom terre 1 de tout le roman, sauf à la toute fin quand il se lance à la poursuite de l'assassin. On peut entendre crier son partenaire dans son dos : "Joël non attend !" »*
+>
+> **Le nom ne se lit qu'une fois dans tout le livre**, sous la forme d'un cri : *« Joël, non, attends ! »*
 
 ### Pourquoi c'est un problème et pas un détail
 
@@ -32,24 +37,35 @@ Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-a
 
 Or un nom est le plus court chemin vers une identité. Si les chapitres de la vie d'avant appellent l'enquêteur **Joël** et que les autres appellent le veilleur **Andrew**, le lecteur voit deux hommes dès la première page, il les range dans deux cases, et il ne les en sortira plus. **Le procédé s'effondre avant d'avoir commencé** : il ne reste plus qu'un roman à deux fils qui finissent par se rejoindre, ce qui se voit venir de très loin.
 
-**L'interdiction existe déjà**, et elle est explicite : la section 4.6 de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) range **« son nom, ou qu'on l'appelle »** en tête du tableau de ce qui est proscrit dans les fragments de reliquat — *« un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul »*. Le nom de Joël ne change donc rien à la règle : il lui donne seulement un contenu. Ce qui était une précaution abstraite devient un mot précis qu'il faut décider de dire ou de taire.
+**L'interdiction existe déjà**, et elle est explicite : la section 4.6 de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) range **« son nom, ou qu'on l'appelle »** en tête du tableau de ce qui est proscrit dans les fragments de reliquat — *« un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul »*. Le nom de Joël ne change donc rien à la règle : il lui donne seulement un contenu. Ce qui était une précaution abstraite est devenu un mot précis, qu'on a décidé de taire partout et de dire une fois.
 
-### Les trois options
+### La décision
 
-*Exposées, aucune retenue. La décision appartient à l'autrice.*
+**Jamais nommé, sauf une fois.** Dans tous les chapitres de la vie d'avant, l'enquêteur n'est nommé par personne : ni par le narrateur, ni par les personnages qui l'entourent. On dit *l'enquêteur*, *il*, *l'homme*. La contrainte de la section 4.6 de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) s'applique telle quelle, sans dérogation, jusqu'à la dernière séquence.
 
-**1. Joël n'est jamais prononcé dans le texte.** C'est un nom de bible d'autrice, comme le barème du décompte ou le lien avec notre monde : il sert à écrire juste, il ne se lit nulle part. Les chapitres de la vie d'avant disent *l'enquêteur*, *il*, *l'homme*. La contrainte de la section 4.6 reste appliquée telle quelle jusqu'à la dernière page.
-*Ce que ça rapporte :* le dispositif est intact, sans effort et sans réglage. *Ce que ça coûte :* un homme qu'on suit pendant tout un livre sans jamais l'appeler, et il faut que la troisième personne tienne cette absence sans qu'elle se remarque — un texte qui évite un nom finit par avoir l'air de l'éviter.
+**L'unique occurrence tombe à la poursuite finale.** Il laisse ses collègues sur place et part seul derrière le coupable ; l'un d'eux crie dans son dos — *« Joël, non, attends ! »* — et il ne se retourne pas.
 
-**2. Joël est prononcé une seule fois, très tard, comme détonateur.** Quelqu'un l'appelle dans un fragment — une voix dans un couloir, un collègue, une phrase de rien. Andrew, qui n'a jamais entendu ce nom de sa vie d'ici, ne réagit pas. **Le lecteur, si.**
-*Ce que ça rapporte :* le nom cesse d'être un risque et devient l'arme ; c'est exactement le régime de la réplique du mouvement 13 — quelque chose qui porte pour le lecteur et pas pour le personnage. *Ce que ça coûte :* le placement devient critique. Trop tôt, il donne le retournement du 18 ; trop tard, il fait doublon avec lui. Et il faut que la scène ne souligne rien du tout, sous peine de transformer un détonateur en explication.
+Les cinq raisons de ce placement sont développées en [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §2.2, et la position exacte de la réplique en [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §1. En résumé : c'est **le dernier moment possible**, donc le dispositif tient sur tout le livre ; c'est **un cri de personnage et non une phrase de narrateur**, donc du bruit avant d'être une révélation ; et **Andrew, qui n'a jamais entendu ce nom, ne réagit pas.**
 
-**3. Joël est nommé dès le début.** Le livre change alors de forme. Le lecteur sait qu'il y a deux hommes, et le suspense ne porte plus sur leur nombre mais sur **leur lien** : qu'est-ce qui relie ce veilleur à cet enquêteur mort dans un monde dont personne ici n'a idée ?
-*Ce que ça rapporte :* une lecture plus lisible, une ironie dramatique franche et tenue de bout en bout, à la manière du registre *Goblin* déjà cité au §3 du dossier maître. *Ce que ça coûte :* le mouvement 18 n'est plus un recouvrement, c'est une confirmation. **C'est un autre roman — viable, mais ce n'est pas celui que l'autrice a décrit.**
+### Ce que le placement fait à sa faute — à retenir ici plus qu'ailleurs
 
-### Le point commun aux trois
+**C'est le point qui concerne cette fiche directement.** La seule fois du roman où l'on entend son nom est la seule fois où quelqu'un essaie de l'arrêter et où il n'écoute pas. Or sa faute est exactement l'inverse : **on lui a dit d'arrêter de creuser une fois, et il a obéi** — voir « Sa faute, dans la vie d'avant » plus bas.
 
-Quelle que soit l'option, **le nom n'est jamais un savoir de personnage.** Andrew ne peut pas apprendre qu'il s'est appelé Joël : il est sorti vide, et rien dans ce monde ne conserve un nom d'avant. Même au mouvement 18, ce qu'il lit sur la ligne de registre est **son nom d'arrivant**, pas l'autre. Le nom d'avant n'existe que pour le lecteur, ou pas du tout.
+Le partenaire crie *attends*. C'est le mot auquel il a cédé des semaines plus tôt, et auquel il ne cédera plus jamais. **Son identité et sa faute arrivent donc dans le même souffle, et en miroir** : on apprend son nom au moment précis où le lecteur peut voir, sans qu'on le lui dise, qu'il ne s'arrête plus. Il ne s'arrêtera plus, et ça le tue.
+
+C'est le tableau des deux fautes symétriques — d'abord en deçà, puis au-delà — exécuté en quatre mots par quelqu'un qui ne sait rien de tout cela. *Personne ne relève l'écho : ni le partenaire, qui n'a aucune raison, ni le narrateur, qui n'en a pas le droit.*
+
+### Ce qui ne change pas
+
+**Le nom n'est jamais un savoir de personnage, pas même là.** Andrew ne peut pas apprendre qu'il s'est appelé Joël : il est sorti vide, et rien dans ce monde ne conserve un nom d'avant. Il entend le cri comme il entend le reste de la scène, de l'extérieur, et il n'en fait rien. Au mouvement 18, ce qu'il lit sur la ligne de registre reste **son nom d'éclaircie** — celui qu'on lui a donné le matin de son arrivée —, pas l'autre. Le nom d'avant n'existe que pour le lecteur.
+
+### Et il n'a d'elles aucun nom
+
+**Le corollaire, souvent oublié, et il est décisif pour le mouvement 23.** La règle qui le protège ne fait pas d'exception : **aucun nom n'est prononcé dans les chapitres de la vie d'avant**, une seule fois mise à part. Elle vaut donc aussi pour les deux filles de son affaire.
+
+Ses reliquats lui rendent tout — la planque, la couleur de leur peau encore rose, l'heure de retard, la culpabilité — **et pas leurs noms.** Ils ne sont jamais revenus, parce qu'ils n'ont jamais été dits.
+
+**Les seuls noms qu'il ait pour elles sont ceux que ce monde-ci leur a donnés après coup : Chrissy et Tania**, leurs noms d'éclaircie, reçus à la même cérémonie que le sien. Il ira donc demander pardon avec des noms qu'elles n'avaient pas quand il a échoué, et il n'aura pas les mots justes pour s'excuser. Développement dans [`chrissy-et-tania.md`](chrissy-et-tania.md) §4 et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §2.3.
 
 ---
 
@@ -142,6 +158,8 @@ Ils finissent par trouver la planque. **Les filles sont mortes depuis moins d'un
 
 Le coupable est en train de fuir. Il se lance à sa poursuite en laissant ses collègues sur place. Poursuite en voiture. Accident. **Il meurt en même temps que l'assassin des jumelles.**
 
+*C'est à l'instant où il s'élance que son partenaire lui crie dans le dos — **« Joël, non, attends ! »** —, unique occurrence de son nom dans tout le roman. Voir « Deux noms pour un homme » ci-dessus.*
+
 ### La contrainte que ça doit respecter
 
 **Ce qui est jugé, c'est la vie. Pas la mort.** L'Archiviste ne décide pas quand on meurt ; il décide seulement de ce qu'on reçoit ensuite. Mourir à 62 ans n'est ni une sanction, ni un signe, ni une absurdité : c'est une conjonction de facteurs et de paramètres précis à un instant précis. Un corps, un âge, des circonstances. Rien de plus.
@@ -230,7 +248,7 @@ Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, *
 
 ## Reste à trouver
 
-- [ ] **Le sort du nom « Joël » dans le texte.** Jamais prononcé, prononcé une fois très tard, ou nommé dès le début. Voir « Deux noms pour un homme » ci-dessus : ce n'est pas une question de fiche, c'est le dispositif du livre.
+- [x] ~~Le sort du nom « Joël » dans le texte.~~ — **tranché le 14 août 2026 : jamais prononcé, sauf une fois, à la poursuite finale**, crié par son partenaire. Voir « Deux noms pour un homme » ci-dessus.
 - [ ] **Sa manie.** Piste : il compte. N'importe quoi — les marches, les travées, les secondes entre deux choses. Personne n'y voit rien, c'est un tic de vieux. La place est libre depuis que l'image du compte à rebours est écartée : la manie n'entre plus en concurrence avec rien.
 - [ ] **Sa honte quotidienne.** Piste : il ne se souvient plus des cérémonies. Il en a tenu des milliers, il note les chiffres et les oublie en sortant. Un homme dont le métier est de garder trace, et qui ne retient rien. À rapprocher de sa faute : il a déjà cessé de chercher une fois.
 - [ ] **Une piste ouverte par la faute** : une manie de non-arrêt. Il finit ce qu'il commence, même quand ça n'a plus d'objet — il relit une travée déjà relue, il rentre trois heures après tout le monde. Personne n'y voit qu'un excès de conscience professionnelle. Ce serait le même défaut que celui qui l'a tué, réduit à l'échelle d'une journée de travail. *Non tranché, à ne retenir que si ça ne se voit pas.*

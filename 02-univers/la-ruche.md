@@ -188,7 +188,21 @@ Vaut pour la narration comme pour les dialogues. Voir [`les-ages-croises.md`](le
 
 Un arrivant sort **vide** (§4 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)) : il ne sait rien, ne parle pas, ne se connaît pas. Il n'a donc pas de nom — et il ne peut pas s'en donner un, puisqu'il n'a ni langue ni idée de lui-même. **Quelqu'un le nomme donc**, et le dossier n'a jamais dit qui.
 
-La question était théorique tant que les personnages n'avaient pas de prénom. Elle est devenue concrète : Andrew, June, Eliott portent des noms que quelqu'un, dans ce monde, leur a donnés un jour.
+La question était théorique tant que les personnages n'avaient pas de prénom. Elle est devenue concrète : Andrew, June, Eliott, Chrissy, Tania portent des noms que quelqu'un, dans ce monde, leur a donnés un jour.
+
+### Le nom d'éclaircie — terme du monde
+
+**Décision de l'autrice, 14 août 2026.** Le nom qu'un arrivant reçoit à son arrivée s'appelle son **nom d'éclaircie**.
+
+C'est le seul nom qu'il aura jamais, et le mot le dit sans rien expliquer : il se reçoit **à l'éclaircie**, c'est-à-dire au terme d'une capsule et au moment du rite qui porte ce nom-là. Le terme est ordinaire dans la langue d'ici — on ne le prononce pas plus souvent que nous ne disons « nom de baptême », et pour la même raison : tout le monde en a un, personne n'en a un autre, il n'y a rien à distinguer.
+
+*Emploi dans le dossier : **Andrew**, **Chrissy** et **Tania** sont des noms d'éclaircie, reçus le même matin, à la cérémonie groupée de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §6. **Joël** n'en est pas un.*
+
+**Ce que le terme implique, et il faut le signaler sans trancher.** Si le nom se reçoit *à l'éclaircie*, alors il vient de **la cérémonie**, et non de celui qui prendra ensuite l'arrivant en charge. Le mot penche donc vers la première des deux pistes ci-dessous — le veilleur qui inscrit au registre. Ce n'est pas une preuve : une langue garde des mots dont l'usage a glissé, et rien n'interdit qu'on appelle *nom d'éclaircie* un nom donné trois jours plus tard, par une berceuse, à un enfant qui sort à peine. **La question reste ouverte. Elle penche.**
+
+> **Conséquence à garder pour l'écriture, si la piste 1 l'emporte : Andrew passe ses journées à donner leur nom à des inconnus, sans savoir que quelqu'un a fait ça pour lui.**
+
+*Régime habituel : il ne le remarque jamais, il n'y pense jamais, personne ne le lui fait remarquer. C'est un geste de métier de plus, dans le même mouvement que la travée et l'âge relevé à l'instrument. Le lecteur, lui, fait le calcul — et il le refait au chapitre de la cérémonie groupée, où trois arrivants reçoivent leur nom d'un veilleur qui finit sa matinée.*
 
 ### Deux pistes, exposées sans choisir
 
@@ -212,8 +226,8 @@ Un nom d'ici est toujours un nom neuf, donné par un vivant à un corps qui vien
 
 Le roman s'en sert deux fois, à deux endroits qu'il ne faut pas confondre :
 
-- **Andrew s'appelait Joël**, et il ne l'apprendra jamais. Ce que la ligne de registre lui rend au mouvement 18, c'est son nom d'arrivant, pas l'autre. Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md), section « Deux noms pour un homme ».
-- **Les deux filles de son affaire ne s'appellent plus Chrissy et Tania.** Il connaît deux prénoms qui ne désignent plus personne, et rien ne l'avertit. Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+- **Andrew s'appelait Joël**, et il ne l'apprendra jamais. Ce que la ligne de registre lui rend au mouvement 18, c'est son nom d'éclaircie, pas l'autre. Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md), section « Deux noms pour un homme ».
+- **Les deux filles de son affaire ne s'appelaient pas Chrissy et Tania.** Chrissy et Tania sont les noms que ce monde-ci leur a donnés en les recevant ; ceux qu'elles portaient avant ne sont jamais dits, à personne, et Andrew ne les a pas non plus — ses reliquats lui ont rendu deux visages et aucun nom. **Les seuls noms qu'il ait d'elles sont ceux d'ici.** Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
 
 *Comme le reste de ce document : un fonctionnement observé, jamais expliqué. Aucun personnage ne trouve remarquable qu'on l'ait nommé, pas plus qu'on ne s'étonne d'avoir un prénom chez nous.*
 
@@ -280,8 +294,10 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **La correspondance des lieux.** Est-elle assez régulière pour qu'un veilleur l'ait remarquée sans pouvoir la nommer, ou reste-t-elle entièrement hors champ ?
 - [ ] **Qui consulte le registre en dehors des veilleurs ?** L'administration du mouvement 3 en tire des statistiques : par quel canal ?
 - [ ] **La taille de la ruche.** Combien de travées, combien de veilleurs — c'est-à-dire : le protagoniste travaille-t-il seul, ou dans une équipe qui le voit faire ?
-- [ ] **Qui nomme un arrivant ?** Le veilleur qui l'inscrit au registre, ou celui qui le prend en charge. Voir la section correspondante : les deux pistes sont exposées, aucune n'est retenue.
+- [ ] **Qui nomme un arrivant ?** Le veilleur qui l'inscrit au registre, ou celui qui le prend en charge. Voir la section correspondante : les deux pistes sont exposées, aucune n'est retenue — mais **le terme « nom d'éclaircie » fait pencher vers la première**, puisqu'un nom reçu *à l'éclaircie* vient de la cérémonie.
 
 *Réglé : jusqu'où remontent les registres, et depuis combien de temps ça dure — non, et personne ne sait. Voir la section correspondante.*
 
 *Réglé : comment on nomme deux arrivants identiques — **une paire**, mot du registre ; « jumeau » n'existe pas dans ce monde et reste réservé aux chapitres de reliquat. Voir [« Une paire »](#une-paire).*
+
+*Réglé : comment s'appelle le nom qu'on reçoit en arrivant — **un nom d'éclaircie**. Voir « Qui nomme un arrivant ».*

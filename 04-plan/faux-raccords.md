@@ -6,7 +6,7 @@
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
-*Prénoms : **Andrew** pour ce monde-ci, **Joël** pour l'enquêteur de la vie d'avant — et dans ce document on écrit « l'enquêteur », parce que c'est une fonction et que le nom, lui, n'est pas un faux raccord. Voir la section 3.6, et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.*
+*Prénoms : **Andrew** pour ce monde-ci, **Joël** pour l'enquêteur de la vie d'avant — et dans ce document on écrit « l'enquêteur », parce que c'est une fonction et que le nom, lui, n'est pas un faux raccord. Le sort du nom est tranché depuis le 14 août 2026 : **il ne se dit qu'une fois dans tout le roman, à la poursuite finale.** Voir la section 3.6, et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.*
 
 ---
 
@@ -116,7 +116,17 @@ Le chiffre exact reste à l'autrice — la logique ci-dessus tient à trois comm
 
 La cicatrice, la main, la vue, la taille **différencient** — elles disent qu'il y a deux corps, sans dire qui ils sont. Le prénom **identifie** — il attribue, il sépare, il nomme, et il fait le travail du lecteur à sa place, au premier chapitre au lieu du dernier.
 
-*Ce qui suit du reste : le nom n'est pas un problème de dosage, il ne se règle pas dans ce document. Il se tranche en amont, comme forme du livre — trois options exposées dans [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2, aucune retenue à ce jour. Rien ne se sème avant que ce soit fait, puisque le choix de l'option 3 rendrait la moitié de ce document inutile.*
+### L'exception, unique, assumée et placée
+
+**Tranché par l'autrice le 14 août 2026 :** le nom se dit **une fois**, à la toute fin, crié par un partenaire dans le dos de l'enquêteur au moment où il se lance à la poursuite de l'assassin — *« Joël, non, attends ! »*. Détail complet en [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.2.
+
+**Cette exception ne contredit pas la règle : elle en donne la mesure exacte.** Le prénom reste ce que la section dit qu'il est — un identifiant, pas un différenciateur — et c'est précisément pour ça qu'il ne peut pas se **semer**. Semer, c'est déposer un détail qui attendra deux cents pages avant de servir ; or un nom ne patiente pas, il travaille à l'instant où il est lu. Il ne pouvait donc jamais devenir une paire, ni la première moitié d'une paire, ni un membre tardif venant compléter une plantation ancienne.
+
+> **La formule complétée : ce qui identifie ne se sème pas, mais peut se dire une fois, à la toute fin, quand il n'y a plus rien à protéger.**
+
+Ce que ça change, concrètement, pour ce document : **rien avant la dernière séquence, tout après.** Les faux raccords gardent l'intégralité de leur charge de travail — c'est encore à eux seuls que revient de prouver, à la relecture, qu'il y avait deux corps —, et ils la gardent **jusqu'à la fin**, puisque le nom n'arrive qu'après que la révélation a eu lieu. Le nom ne les remplace pas, ne les double pas, ne les rend pas superflus : il ferme derrière eux.
+
+*Corollaire pour le dosage (3.5) : la paire tardive reste indispensable et ne doit surtout pas être calée sur le cri. Elle doit tomber **avant**, dans le dernier tiers, là où le lecteur relira pour vérifier. Le cri, lui, n'appartient plus au dispositif des faux raccords — il vient après, et il ne prouve rien : il nomme.*
 
 ---
 
@@ -160,7 +170,7 @@ Ce que ça donne : le lecteur reçoit l'indice, le protagoniste ne reçoit aucun
 
 # À trancher
 
-- [ ] **Rien ne se sème avant que le nom soit tranché** ([`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2). L'option 3 — l'enquêteur nommé dès le début — rendrait les faux raccords sans objet : il n'y aurait plus rien à prouver à la relecture. Les deux autres options les rendent nécessaires.
+- [x] ~~Rien ne se sème avant que le nom soit tranché~~ — **tranché le 14 août 2026** ([`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2) : le nom ne se dit qu'une fois, à la poursuite finale. **Les faux raccords sont donc nécessaires et le semis peut commencer** — il n'y a plus rien à attendre.
 - [ ] **Le dosage exact** : trois paires ou quatre ?
 - [ ] **Quelles paires sont retenues.** La main et la cicatrice sont acquises si l'autrice les confirme ; laquelle ou lesquelles prendre dans la réserve de la section 4.1 ?
 - [ ] **Où placer la dernière paire.** Combien de chapitres avant la séquence de révélation, et faut-il qu'elle tombe avant ou après le doublon de scène ?

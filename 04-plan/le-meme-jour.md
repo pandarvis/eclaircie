@@ -6,13 +6,13 @@
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
-*Prénoms — règle stricte, détaillée dans [`deux-histoires-en-une.md`](deux-histoires-en-une.md) : **Joël**, **Chrissy** et **Tania** n'appartiennent qu'à la vie d'avant ; **Andrew**, **June** et **Eliott** à ce monde-ci. Les deux arrivantes identiques y forment **une paire** et portent d'autres prénoms, **qui restent à trouver** — n'en improviser aucun. Et voir la section 2 du même document : **savoir si Joël est prononcé une seule fois dans le livre n'est pas réglé**, et cette question commande l'écriture de tous les fragments.*
+*Prénoms — règle stricte, détaillée dans [`deux-histoires-en-une.md`](deux-histoires-en-une.md) : **Joël** n'appartient qu'à la vie d'avant ; **Andrew**, **June**, **Eliott**, **Isaac**, **Chrissy** et **Tania** appartiennent à ce monde-ci. **Chrissy et Tania sont les noms d'éclaircie de la paire** — ceux qu'elles ont reçus en arrivant. **Leurs noms de la vie d'avant ne sont jamais donnés**, à personne, nulle part : ce n'est pas une lacune du dossier, c'est une décision, et il n'y a rien à trouver. Et voir la section 2 du même document : **la question du nom est réglée depuis le 14 août 2026.** L'enquêteur n'est jamais nommé, dans aucun fragment, par personne — **sauf une seule fois, à la poursuite finale**, où son partenaire lui crie *« Joël, non, attends ! »* dans le dos. C'est l'unique occurrence d'un nom dans tous les chapitres de la vie d'avant ; partout ailleurs on écrit *l'enquêteur*, *il*, *l'homme*, *les deux filles*.*
 
 ---
 
 ## 1. La journée, des deux côtés
 
-Une disparition de jumelles — Chrissy et Tania. Au départ, on ignore qui les a enlevées ; au fil de l'enquête, l'étau se resserre sur un seul homme. Interventions sur plusieurs lieux, un vrai jeu de piste. Ils finissent par les retrouver — **trop tard**.
+Une disparition de jumelles — **deux filles que le livre ne nomme jamais**. Au départ, on ignore qui les a enlevées ; au fil de l'enquête, l'étau se resserre sur un seul homme. Interventions sur plusieurs lieux, un vrai jeu de piste. Ils finissent par les retrouver — **trop tard**.
 
 Le lecteur doit croire, à ce moment-là, qu'on va les retrouver vivantes. C'est la seule tension qui compte dans cette scène.
 
@@ -30,6 +30,23 @@ La règle est déjà posée par [`la-ruche.md`](../02-univers/la-ruche.md) : la 
 
 Et la correspondance des lieux fait le reste : quatre morts au même endroit, donc **la même ruche**. Aucun destin, aucune affinité. De la géographie.
 
+### La poursuite — la seule fois du roman où son nom se dit
+
+> **Tranché par l'autrice, 14 août 2026.** *« On n'a jamais son nom terre 1 de tout le roman, sauf à la toute fin quand il se lance à la poursuite de l'assassin. On peut entendre crier son partenaire dans son dos. »*
+>
+> **La réplique :** *« Joël, non, attends ! »*
+
+**Position exacte : au moment où il s'élance, pas avant, pas après.** Il vient de voir fuir le coupable, il laisse ses collègues sur place — le tableau ci-dessus le pose déjà —, et l'un d'eux crie derrière lui. Il ne se retourne pas. La voiture, la poursuite, l'accident suivent sans que le nom revienne : **il est dit une fois et il ne se répète jamais**, ni dans la scène, ni après, ni par le narrateur, qui ne le prononce à aucun moment du livre.
+
+Ce que la réplique règle d'un coup, développé en [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.2 :
+
+- **c'est le dernier endroit possible**, donc le lecteur n'a eu, jusqu'à cette page, aucun moyen de compter deux hommes ;
+- **c'est un cri de personnage, pas une phrase de narrateur** — du bruit dans une action, qui ne détonne qu'après coup ;
+- **le nom arrive attaché à un refus d'obéir** : la seule fois où on l'appelle est la seule fois où on essaie de l'arrêter et où il n'écoute pas. Le partenaire crie *attends* — le mot exact auquel il a cédé des semaines plus tôt, et qui est toute sa faute (voir « La faute » plus bas). Son identité et sa faute sont données dans le même souffle ;
+- **Andrew, qui regarde la scène de l'extérieur, ne réagit pas.** Ce nom ne désigne personne dans son monde. Le lecteur, lui, referme tout le livre d'un coup — c'est le sommet du procédé de la troisième personne du §4, et il tombe dans la même page que l'autre sommet, celui où Andrew regarde sa propre mort sans se reconnaître.
+
+*Précision de mise en scène qui en découle : il faut quelqu'un d'assez près pour crier dans son dos à l'instant où il part. C'est cohérent avec le déroulé — il laisse ses collègues sur place, donc ils y sont, et il part de leur côté. **Un partenaire, pas un supérieur** : on ne crie pas un prénom à quelqu'un qu'on vouvoie, et un ordre hiérarchique ferait de la scène une désobéissance, ce qu'elle n'est pas — c'est un homme qui n'entend plus personne.*
+
 ---
 
 ## 2. Les âges d'arrivée
@@ -38,11 +55,11 @@ Application du barème de [`ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.m
 
 | Qui | Entrée au registre | Chiffre | Ce que ça donne |
 |---|---|---|---|
-| Chrissy et Tania | meurtries | **plus bas que leur âge de mort** | elles arrivent jeunes, elles accèdent vite au jardin et y restent longtemps |
-| Joël | réparable | **62 ans**, son âge de mort | verdict lambda, la ligne médiane |
+| Les deux filles — **Chrissy** et **Tania** | meurtries | **plus bas que leur âge de mort** | elles arrivent jeunes, elles accèdent vite au jardin et y restent longtemps |
+| L'enquêteur — **Andrew** | réparable | **62 ans**, son âge de mort | verdict lambda, la ligne médiane |
 | L'assassin | irréparable | **pas de chiffre** | pas de capsule qui éclaircit |
 
-*Rappel : les trois prénoms de cette colonne sont ceux de la vie d'avant. Sur la ligne de registre d'ici, il n'y a que des noms d'arrivants — celui de Joël devient celui d'Andrew, et les deux autres restent à trouver.*
+*Rappel : les noms de cette colonne sont des **noms d'éclaircie**, reçus le jour même — pas des noms de la vie d'avant. Trois arrivants nommés le même matin : Andrew, Chrissy, Tania. De l'autre côté, l'enquêteur s'appelait Joël et les deux filles s'appelaient autrement ; **leurs noms d'avant à elles ne sont jamais donnés, et il n'y a rien à chercher de ce côté-là.** Le quatrième, l'assassin, n'a jamais été nommé du tout : sa capsule n'a pas éclairci, donc personne n'a eu à écrire quoi que ce soit.*
 
 De combien les jumelles descendent, le document ne le dit pas : c'est à l'autrice, et ça se réglera au moment où elles apparaissent en scène au mouvement 16 puis 23. Ce qui est acquis, c'est le sens de la flèche — **elles descendent**, et le §7 rappelle que descendre n'est pas une punition mais la seule grâce que le système sache accorder.
 
@@ -156,13 +173,31 @@ Sont interdits dans les fragments :
 
 | Interdit | Pourquoi |
 |---|---|
-| **Son nom** — Joël —, ou qu'on l'appelle | un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul |
+| **Son nom** — Joël —, ou qu'on l'appelle | un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul. **Une seule exception dans tout le livre, tranchée le 14 août 2026 : la poursuite finale, où son partenaire crie *« Joël, non, attends ! »*. Nulle part ailleurs, et jamais par le narrateur** |
 | **Un miroir**, une vitre, une photo, un reflet | le seul objet qui rende un visage à celui qui le porte |
 | **Une description physique qui pourrait être la sienne** — taille, âge, cheveux | tout signalement compatible est une pièce d'identité |
 | **Une adresse**, un domicile, un lieu qui lui appartienne | on se reconnaît d'abord chez soi |
 | **Un « je »**, une pensée intérieure, un accès à ce qu'il ressent | la troisième personne est la contrainte, pas un effet de style |
 
-**Le nom est le premier de la liste, et une seconde règle le vise, indépendante de celle-ci.** [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2 interdit Joël pour une tout autre raison : un prénom différent apprend au **lecteur**, dès la première page, qu'il y a deux hommes. Ici l'interdit protège Andrew, là il protège le procédé — **les deux contraintes convergent sur le même mot**, et l'une d'elles n'est pas encore tranchée. Rien ne s'écrit d'un fragment nommé avant que l'autrice ait choisi entre les trois options exposées là-bas.
+**Le nom est le premier de la liste, et une seconde règle le vise, indépendante de celle-ci.** [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2 interdit Joël pour une tout autre raison : un prénom différent apprend au **lecteur**, dès la première page, qu'il y a deux hommes. Ici l'interdit protège Andrew, là il protège le procédé — **les deux contraintes convergent sur le même mot**, et elles sont désormais tranchées ensemble.
+
+### La règle ne nomme personne — et elle dépouille les jumelles
+
+**À écrire clairement, parce que ça ne se voit pas au premier regard.**
+
+La règle ci-dessus a été posée pour protéger l'enquêteur : un nom se retient, il en a un autre ici, le rapprochement se ferait tout seul. Mais elle n'est pas écrite comme une exception le concernant. Elle est écrite comme un régime : **aucun nom n'est prononcé dans les chapitres de la vie d'avant.** Une seule règle, une seule exception — le cri du partenaire à la poursuite, *« Joël, non, attends ! »*.
+
+**Donc les deux filles n'ont pas de nom non plus.** Personne ne les appelle, aucun collègue ne les désigne, aucun dossier ne les porte, le narrateur ne les nomme pas. Elles traversent tout le livre comme *les deux filles*, *les sœurs*, *elles* — et **leurs noms de la vie d'avant ne sont jamais donnés, ni au lecteur, ni à personne.** Ce n'est pas une question ouverte, ce n'est pas un choix reporté : la règle a déjà répondu.
+
+> **Ce qui protège le protagoniste prive les victimes de leur nom. Ce n'est pas un effet secondaire : c'est le même geste.**
+
+**Souligner l'économie du dispositif.** Une seule contrainte d'écriture produit trois choses d'un coup : Andrew ne peut pas se reconnaître, le lecteur ne peut pas compter deux hommes, et les deux filles restent anonymes jusqu'à la dernière page. Rien n'a été ajouté pour obtenir la troisième — elle vient avec les deux autres, gratuitement, et elle est la plus cruelle.
+
+**Et c'est ce qui arme la scène des excuses.** Les seuls noms qu'Andrew ait pour elles sont **Chrissy et Tania**, leurs noms d'éclaircie, donnés par ce monde-ci des années après la planque. Il ira demander pardon avec des noms qu'elles n'avaient pas quand il a échoué. Développement complet dans [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md) §4, et au §7 ci-dessous.
+
+**L'exception unique, et elle est datée : une seule fois, à la poursuite, et jamais ailleurs.** Le nom se dit au tout dernier moment de la vie d'avant, crié par un partenaire dans le dos d'un homme qui court — *« Joël, non, attends ! »* — et il ne se dit nulle part d'autre. Ce qui reste donc entier pour tous les fragments antérieurs, sans une seule dérogation : personne ne l'appelle, personne ne le nomme à un tiers, aucun document ne le porte, et le narrateur ne le prononce à aucun moment du livre, pas même là.
+
+**Et l'exception ne coûte rien aux deux contraintes qu'elle lève**, parce qu'elle tombe là où elles n'ont plus rien à protéger : Andrew, à cette page, est en train de regarder mourir l'homme qu'il suit, et le lecteur est en train de comprendre. Le fragment nommé est le seul dont plus rien ne dépend. *Voir le développement complet en [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.2, et la position exacte au §1 ci-dessus.*
 
 **L'exception, et elle est précieuse : un détail physique qui *différencie* est autorisé, et c'est même le meilleur matériau disponible.**
 
@@ -192,7 +227,7 @@ Andrew se rend dans un poste de police **de ce monde-ci**. Il demande si on a qu
 
 *Note de vocabulaire : au comptoir, il ne peut pas dire « des jumelles » — le mot n'existe pas ici. Il dispose de **une paire**, qui est un mot de registre et sonne administratif dans une conversation. Il dira donc probablement ce qu'il peut : deux filles qui se ressemblent, exactement. Et ça n'aide pas à se faire prendre au sérieux.*
 
-*Corollaire sur les prénoms : s'il donne « Chrissy » et « Tania » au comptoir, il donne deux mots qui ne renvoient à personne dans aucun fichier de ce monde. La recherche revient vide **deux fois** — sur les faits et sur les noms —, et il n'a aucun moyen de savoir laquelle des deux réponses compte. À manier avec la même prudence que le reste : voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.3.*
+*Corollaire sur les noms, et il aggrave la scène : **il ne peut donner aucun nom.** Ses reliquats ne lui ont rendu ni celui des filles ni le sien — la règle du §4.6 ne laisse passer aucun nom hors de la poursuite finale. Au comptoir, il demande donc une disparition sans plaignant, sans date, sans lieu et **sans nom**, pour deux filles qu'il ne sait décrire que comme se ressemblant exactement. C'est la demande la moins recevable qu'on puisse faire à un poste de police, et elle est parfaitement sincère. Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.3.*
 
 ### 5.2 Ils n'ont rien
 
@@ -273,6 +308,8 @@ L'assemblée s'émerveille devant les deux arrivantes identiques : un cadeau de 
 
 *Personne n'a de prénom dans cette salle : trois arrivants sortis depuis quelques minutes, à qui on n'a encore rien donné. C'est le seul chapitre du livre où l'absence de noms n'est pas une contrainte d'écriture mais un fait de la scène.*
 
+*Et c'est **ce jour-là** qu'ils reçoivent les leurs. **Andrew, Chrissy, Tania** sont des **noms d'éclaircie**, donnés au terme de cette cérémonie-ci, dans le même mouvement que la travée et l'âge relevé à l'instrument. La scène ne le dit pas et ne le montre pas forcément ; mais le lecteur qui y revient après le mouvement 23 comprend qu'il a assisté au baptême des trois.*
+
 **Ce qui rend la scène écrivable :** lui est vide. Il vient de sortir, il ne comprend rien, il n'a même pas les mots pour nommer ce qu'il voit. Le narrateur ne peut donc rien dire de plus que des formes, du bruit et de la lumière. Le lecteur, lui, a tout : il sait qui sont les deux filles, il sait qui est l'homme entre elles, et il est le seul dans la salle à savoir.
 
 **Rappels de mécanique à respecter dans la scène :**
@@ -295,7 +332,7 @@ Détail complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), s
 
 *Règle de vocabulaire : **« jumelles » reste juste pour la vie d'avant** — elles en sont — donc dans le titre de ce document, dans le §12 du dossier maître et dans les chapitres de reliquat. **« Une paire » dans toute scène de ce monde-ci.***
 
-*Et la règle vaut pour les prénoms : **Chrissy et Tania sont des prénoms de la vie d'avant.** Dans ce monde-ci, les deux arrivantes en portent d'autres, **qui ne sont pas encore choisis** — aucun n'est proposé ici, aucun ne s'invente à l'écriture. Tant qu'ils manquent, elles se disent **une paire**, ou *elles*, ou *les deux arrivantes*.*
+*Et la règle des prénoms va dans l'autre sens : **Chrissy et Tania sont des noms de ce monde-ci**, leurs noms d'éclaircie. On peut donc les écrire librement dans toute scène d'ici — c'est ainsi qu'on les appelle. **Dans les chapitres de la vie d'avant, en revanche, elles n'ont aucun nom** : on écrit *les deux filles*, *les sœurs*, *elles*. Leurs noms d'alors ne sont jamais donnés, et il n'y a rien à trouver.*
 
 ---
 
@@ -312,7 +349,9 @@ Ce ne sont pas deux nuances du même mouvement. Le premier regarde en arrière e
 
 **Elles ne comprennent rien.** Deux jeunes filles qui rajeunissent tranquillement, qui ne le connaissent pas, et à qui un homme d'âge mûr vient demander pardon pour un monde dont elles n'ont aucun souvenir.
 
-*Piste signalée, non tranchée — voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.3 : **Andrew connaît deux prénoms qui ne désignent plus personne ici.** S'il dit « Chrissy » dans cette scène, personne ne se retourne — ni elles, qui portent d'autres prénoms encore à trouver, ni les autres, pour qui c'est un son. La décision appartient à l'autrice.*
+**Et il n'a pas les mots.** Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.3 et [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md) §4 : les seuls noms qu'il ait pour elles sont **Chrissy et Tania**, leurs noms d'éclaircie, que ce monde-ci leur a donnés des années après la planque. Il vient s'excuser auprès de deux personnes qui ont **succédé** aux filles qu'il a laissées mourir, en les appelant par des noms qu'elles n'avaient pas quand il a échoué. Quand il dit *Chrissy*, elle se retourne — et c'est pire qu'un silence : il obtient une réponse, il n'obtient pas la bonne.
+
+*Réglage : la scène ne commente rien de cela. Elle n'a pas à expliquer pourquoi il parle mal ; il suffit qu'il parle mal.*
 
 **Et c'est ce qui le libère.** Le pardon qu'il cherchait ne pouvait venir de personne ici : ni d'elles, qui sont vides, ni de l'Archiviste, qui ne répond jamais. Il avait déjà été absous huit chapitres plus tôt, au mouvement 14, sans le savoir. La scène ne lui apprend rien qu'il puisse vérifier — elle lui retire seulement l'idée qu'il attendait quelque chose.
 
@@ -383,18 +422,19 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [x] **Sa fausse explication est le garçon.** Il croit vérifier l'histoire du gosse. Section 4.2.
 - [x] **Le retournement du mouvement 18 porte sur l'identité**, pas sur le mécanisme : *l'homme que tu suis, c'est toi*. Section 4.4.
 - [x] **Le déclencheur du mouvement 13 est un poste de police de ce monde-ci**, et non la pression de sa hiérarchie, qui reste au mouvement 4. Section 5.
+- [x] **Le nom de l'enquêteur n'est prononcé qu'une seule fois dans tout le roman** : à la poursuite finale, crié par son partenaire — *« Joël, non, attends ! »*. Jamais ailleurs, jamais par le narrateur. Section 1, et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.
+- [x] **Chrissy et Tania sont des noms d'éclaircie**, reçus à l'arrivée dans ce monde-ci. **Les noms des deux filles dans la vie d'avant ne sont jamais donnés** — ni au lecteur, ni à un personnage, ni dans le dossier. La question est close : il n'y a pas de noms manquants. Section 4.6, section 7, et [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
 
 ---
 
 # À trancher
 
-- [ ] **Le nom de l'enquêteur est-il prononcé dans le texte ?** Question tenue par [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2 — trois options, aucune retenue. Elle commande l'écriture de tous les fragments : rien ne s'écrit avant.
-- [ ] **Les prénoms de la paire dans ce monde-ci**, qui ne sont pas choisis. Et : Andrew prononce-t-il « Chrissy » à la scène des excuses ?
+- [x] ~~Le nom de l'enquêteur est-il prononcé dans le texte ?~~ — **tranché le 14 août 2026** : une seule fois, à la poursuite finale, et nulle part ailleurs. Les fragments peuvent s'écrire. Voir §4.6 et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.
 - [ ] **La parade des fragments sans marqueur d'époque est-elle suffisante ?** La troisième personne règle l'ironie dramatique, pas l'interdit n° 2 : notre monde reste montré. Jusqu'où va-t-on dans le détail des lieux d'alors ?
 - [ ] **Combien de temps le lecteur doit-il ignorer qui est l'homme des fragments ?** Le mouvement 18 gagne à ce qu'il l'ait deviné un peu avant, pas dix chapitres avant. Où placer le premier indice recoupable ?
 - [ ] **Le poste de police est-il montré une fois ou deux ?** Une seule visite qui tourne court, ou un premier passage poli suivi d'un second où on se lasse ?
-- [ ] **Le policier de ce monde a-t-il un pendant nommé dans un fragment ?** Voir la piste facultative de l'écho — à ne pas appuyer si ça se voit. *Attention : « nommé » ne peut pas vouloir dire porter un prénom dans le fragment, tant que la section 2 de [`deux-histoires-en-une.md`](deux-histoires-en-une.md) n'est pas tranchée.*
-- [ ] **Ce qu'il demande exactement au comptoir**, et sous quel prétexte : un veilleur n'a aucun titre à enquêter sur une disparition. Dit-il d'où il tient l'histoire ? Donne-t-il les deux prénoms de la vie d'avant ?
+- [ ] **Le policier de ce monde a-t-il un pendant identifiable dans un fragment ?** Voir la piste facultative de l'écho — à ne pas appuyer si ça se voit. *Attention : « identifiable » ne peut jamais vouloir dire porter un prénom dans le fragment. La section 2 de [`deux-histoires-en-une.md`](deux-histoires-en-une.md) réserve l'unique nom prononcé du livre à la poursuite finale, et il est celui de l'enquêteur.*
+- [ ] **Ce qu'il demande exactement au comptoir**, et sous quel prétexte : un veilleur n'a aucun titre à enquêter sur une disparition. Dit-il d'où il tient l'histoire ? Et **comment nomme-t-il deux filles dont il n'a aucun nom** — jusqu'où va-t-il dans la description avant qu'on cesse de l'écouter ?
 - [ ] **L'aisance dans le poste** (section 5.6) : combien de gestes, et le narrateur peut-il en montrer un sans que le personnage le sente ?
 - [ ] **La faute.** Version « il a obéi puis il a repris » (recommandée), ou abandon de la faute au profit du dossier inachevé ?
 - [ ] **Pourquoi reprend-il l'affaire**, dans la version recommandée : de lui-même, ou parce qu'un élément ressort ?
@@ -404,4 +444,4 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **Où placer le chapitre de la cérémonie groupée** dans le livre : avant le mouvement 15, entre 17 et 18, ou après le retournement ?
 - [ ] **Le mouvement 18 devient une lecture de registre.** Faut-il alors déplacer ou alléger le mouvement 17, qui perd son rôle de dernier verrou ?
 - [ ] **Le nombre de fragments de reliquat** et leur répartition sur les douze ans du calendrier.
-- [ ] **La poursuite finale est-elle montrée ?** Si oui, c'est le fragment le plus tardif et le plus explicite du livre.
+- [x] ~~La poursuite finale est-elle montrée ?~~ — **oui, la décision du nom l'implique** : c'est le fragment le plus tardif et le plus explicite du livre, et il porte l'unique occurrence du nom. Reste ouvert : sa longueur, et le nombre de plans qu'on lui donne avant l'accident.
