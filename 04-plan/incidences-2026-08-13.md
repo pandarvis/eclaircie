@@ -5,6 +5,8 @@ Le plan de référence reste le §13 du [dossier maître](../L-ECLAIRCIE-dossier
 Calendrier et décompte dans [`duree-et-calendrier.md`](duree-et-calendrier.md).
 La vie d'avant — la faute, la mort — dans [`le-meme-jour.md`](le-meme-jour.md) et la [fiche du veilleur](../03-personnages/veilleur.md).
 
+*Mise à jour du 14 août 2026 : deux décisions de l'autrice sont intégrées ici — **les reliquats sont à la troisième personne** (mouvements 10 et 18) et **le déclencheur du mouvement 13 est un poste de police de ce monde-ci**. Développement complet dans [`le-meme-jour.md`](le-meme-jour.md), sections 4 et 5.*
+
 ---
 
 ## Acte I
@@ -15,6 +17,8 @@ Le garçon est arrivé à dix ans : il est la cible exacte de [la jalousie ordin
 La menace ne vient d'aucun groupe constitué : c'est **le mécontentement ambiant**, sans nom, sans porte-parole, sans organisation — des individus, une rumeur, une négligence, une foule un soir. Rien qu'on puisse désigner, donc rien qu'on puisse dissoudre.
 
 La hiérarchie n'étouffe ni par bêtise ni par complot : **elle a peur**. Un gosse de dix ans qui dit des choses impossibles, dans un climat où l'on parle de « libérer plus tôt », c'est du carburant.
+
+⚠️ **La pression de la hiérarchie reste ici, et elle ne déclenche rien** *(précisé le 14 août)*. C'est le mouvement 4 : sa propre hiérarchie de veilleurs veut étouffer l'histoire du garçon, par peur, au début du livre. Il ne faut pas la confondre avec la scène du poste de police, qui est **le mouvement 13** et qui, elle, déclenche la réplique. Deux scènes différentes, deux institutions différentes, neuf mouvements d'écart. Tableau comparatif dans [`le-meme-jour.md`](le-meme-jour.md).
 
 **Mouvement 5 — Elle** *(inchangé — retour au plan d'origine)*
 **Rien n'est annoncé.** Aucun chiffre ne se dit à la cérémonie : l'âge se voit (§6). Une femme sort de la capsule, elle a l'aspect d'une femme de soixante ans passés — **elle en a soixante-quatre**, et **lui cinquante-deux** à ce moment-là : dix ans se sont écoulés depuis sa propre arrivée. Elle est donc visiblement plus âgée que lui — de douze ans — et c'est tout ce que la salle en retient.
@@ -38,6 +42,13 @@ Dans un monde où les gens rajeunissent, le temps doit se montrer sur un corps. 
 
 L'horloge et le témoin sont le même garçon : chaque fois qu'on regarde l'heure, on constate qu'il en reste moins. Détail dans [`duree-et-calendrier.md`](duree-et-calendrier.md#le-garçon-est-lhorloge).
 
+**Mouvement 10 — La contamination** *(refondu le 14 août — les reliquats sont à la troisième personne)*
+**Les fragments ne disent jamais « je ».** Ce qui lui revient, c'est un homme : un enquêteur qui entre dans des pièces, qui interroge, qui roule la nuit. Vu de dehors, comme on suit quelqu'un. Il n'a aucune raison de penser que c'est lui — personne ici n'a de vie antérieure, la notion n'existe pas, il n'a pas même le mot pour la formuler. Il ne refuse pas l'idée : **il ne l'a pas.**
+
+**Et il a déjà une explication toute prête, qui est fausse : le garçon.** C'est ce mouvement-ci qui bascule. La phrase du plan d'origine — *« il ne sait plus si ce qu'il voit vient du garçon ou de lui »* — cesse d'être un trouble et devient **sa théorie de travail** : les images viennent des fabulations du gosse, il s'est laissé contaminer par son témoin, c'est une faute professionnelle et rien d'autre. Il déterre sa propre vie **en croyant vérifier celle d'un autre**.
+
+C'est ce qui rend sa cécité tenable jusqu'au mouvement 18 sans qu'elle paraisse forcée : il ne refuse aucune évidence, il a une bonne hypothèse fausse. Développement et contraintes d'écriture — aucun nom, aucun miroir, aucune description physique, aucune adresse dans les fragments — dans [`le-meme-jour.md`](le-meme-jour.md).
+
 **Mouvements 11-12 — Elle, en parallèle** *(corrigé)*
 Il la reconnaît depuis le mouvement 5 et il ne cessera jamais de la reconnaître. Ce qu'il calcule n'est donc **pas une échéance de reconnaissance** : c'est un repère privé, qu'il est seul à pouvoir établir et qui ne change rien à rien.
 
@@ -47,12 +58,35 @@ Ce qui change, et qui est **en lui seul** : c'est le point haut du reliquat. Le 
 
 Ce qui doit se lire dans ces deux mouvements, ce n'est pas un compte à rebours : c'est un homme qui compte. Le chiffre ne lui donne aucun délai et ne lui impose rien — il lui sert à ne pas regarder ce qu'il a déjà sous les yeux. Détail dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md).
 
-**Mouvement 13 — Le mur** *(changement notable, précisé le 13 août)*
-On lui dit de lâcher l'affaire. Il répond **une phrase qui n'est pas de cette vie-ci** — quelque chose comme *« C'est déjà ce qu'on m'a dit. »* Personne ne comprend, lui non plus. Blanc. Il enchaîne, il n'y repense pas.
+**Mouvement 13 — Le mur** *(refondu le 14 août — c'est maintenant un poste de police)*
+**Le mur n'est plus sa hiérarchie : c'est un comptoir.** Il se rend dans **un poste de police de ce monde-ci** pour demander si on a quelque chose sur cette affaire — deux filles disparues, identiques, un homme, des lieux. Il croit vérifier l'histoire du garçon (mouvement 10) : c'est la démarche normale d'un homme méthodique, et il la fait pour quelqu'un d'autre.
 
-**La réplique a maintenant un référent exact.** Sa faute est tranchée : au milieu de l'affaire des jumelles, on lui a dit d'arrêter de creuser et **il a obéi**. Le *« on m'a dit »* ne renvoie donc plus à un vague ras-le-bol de métier mais à une phrase entendue une seule fois, qui a coûté des semaines et deux vies. Ce qui remonte est précis ; l'amertume a un objet — dans l'autre monde. Voir la [fiche du veilleur](../03-personnages/veilleur.md) et [`le-meme-jour.md`](le-meme-jour.md).
+**Ce monde a une police.** Le §9 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose un niveau technique et des institutions semblables aux nôtres. Rien à inventer, rien à expliquer.
 
-⚠️ **Il ne doit pas se souvenir consciemment.** Le retournement est au 18. Une réplique, pas un souvenir. Le référent exact est une donnée d'autrice : il sert à écrire la phrase juste, il ne se dit pas dans la scène.
+**Ils n'ont rien.** Aucune trace, aucun dossier, aucune disparition qui corresponde. Rien, **parce que rien de tout cela n'a eu lieu ici** — les archives de ce monde sont vides de ce qui lui remplit la tête. Et ça ne prouve rien : il n'a aucun moyen de comprendre pourquoi c'est vide. Deux lectures seulement lui sont accessibles, le gosse a tout inventé, ou c'est ancien et mal classé ; la troisième n'existe dans aucune langue d'ici. La scène est un échec complet qui pointe exactement vers le mouvement 15 : le seul document qui contienne quelque chose est un registre de veilleur.
+
+**Un policier finit par lui dire de lâcher l'affaire.** Pas par complot, pas par secret : **par lassitude.** Un veilleur sans mandat, sans dossier, sans plaignant, qui insiste avec une histoire qui ne vient de nulle part — on lui demande poliment d'arrêter de faire perdre du temps. L'homme n'a rien à cacher et n'est pas antipathique : il a une journée à finir. **La banalité est ce qui rend la scène efficace** — il n'y a pas d'adversaire, donc rien à interpréter.
+
+**Et la phrase détonne.** C'est le déclenchement : la même phrase, dans le même genre de pièce, dite par le même genre d'homme, dans deux mondes. Il répond **quelque chose qui n'est pas de cette vie-ci** — *« C'est déjà ce qu'on m'a dit. »* Personne ne comprend, lui non plus. Blanc. Il enchaîne, il sort, il n'y repense pas.
+
+**La réplique a un référent exact.** Sa faute est tranchée : au milieu de l'affaire des jumelles, on lui a dit d'arrêter de creuser et **il a obéi**. Le *« on m'a dit »* ne renvoie pas à un vague ras-le-bol de métier mais à une phrase entendue une seule fois, qui a coûté des semaines et deux vies. Voir la [fiche du veilleur](../03-personnages/veilleur.md) et [`le-meme-jour.md`](le-meme-jour.md).
+
+⚠️ **Il ne doit pas comprendre.** Le retournement est au 18. Ce qui remonte n'est pas un souvenir, **c'est une réplique**. Le référent exact est une donnée d'autrice : il sert à écrire la phrase juste, il ne se dit pas dans la scène.
+
+**L'écho doit être exact : cop à cop, poste à poste.** C'est ce qui fait la rime.
+
+| Vie d'avant | Ici |
+|---|---|
+| un poste de police | un poste de police |
+| un homme du même métier | un homme du même métier |
+| *lâche l'affaire* | *lâchez l'affaire* |
+| il obéit — c'est **la faute** | il n'obéit pas — c'est **la réparation** (mouvement 14) |
+
+Une remontrance de sa hiérarchie de veilleurs n'aurait produit qu'une ressemblance vague : un supérieur qui tempère un subordonné, ça arrive dans tous les métiers. Là, c'est le même décor, la même fonction, la même phrase.
+
+**Détail gratuit, jamais commenté dans le texte :** il entre dans un poste de police, c'est-à-dire **dans le bâtiment de son ancien métier**. Le reliquat étant une vocation (§12), tout y est facile — il sait où se tenir, à qui parler, quoi demander, sur quel ton, et quand attendre. **Personne ne le remarque.** Ni les policiers, pour qui un homme qui sait se tenir dans un poste n'est rien du tout ; ni lui, qui n'a aucun point de comparaison. **Le lecteur, si.** C'est la seconde forme de preuve du §12 — la cuisinière qui cuisine — appliquée pour la seule fois du livre au protagoniste lui-même.
+
+**Ne pas confondre avec le mouvement 4.** La pression de sa hiérarchie, qui veut étouffer l'histoire du garçon par peur, reste au mouvement 4 et ne déclenche rien. Le poste de police est le mouvement 13, il vient de l'extérieur du service, et c'est lui qui déclenche.
 
 **Piste facultative :** celui qui lui dit de lâcher l'affaire est le même homme que la première fois. Aucun des deux ne peut le savoir, aucun personnage ne le remarque, ce n'est jamais confirmé. Ne pas y toucher si ça se voit.
 
@@ -94,6 +128,14 @@ Rien à annoncer, rien à expliquer : la scène se joue entière dans un enfant 
 Le retournement ne vient plus d'une déduction brillante : **il vient de ce qui reste.** Privé de son témoin, le veilleur n'a plus d'extérieur où chercher — donc il cherche dedans. C'est la perte du mouvement précédent qui le provoque, et elle doit se lire ainsi : il ne se retourne pas vers lui-même par lucidité, mais **parce qu'il n'y a plus rien d'autre à interroger.**
 
 L'enchaînement complet : la troisième capsule (17) lui donne ce qu'il y avait dedans → le garçon entre au jardin et emporte tout le reste → il ne lui reste que les registres et lui-même (18) → s'il se souvient, c'est qu'il est voilé, et il n'a jamais enquêté sur le garçon.
+
+**Ce sur quoi porte la bascule** *(précisé le 14 août — conséquence des reliquats à la troisième personne)*. La révélation n'est plus *« il existe une vie d'avant »* : le lecteur l'aura devinée depuis longtemps, et c'était le défaut du dispositif. Elle devient :
+
+> **L'homme que tu suis depuis le début du livre, c'est toi.**
+
+La bascule tient **même si le lecteur l'a deviné**, parce qu'elle porte sur une identité et non sur un mécanisme. Ce qui s'effondre n'est pas sa théorie du monde — c'est **la distance** qu'il tenait avec cet homme depuis le premier chapitre. À l'écriture, ce n'est donc pas un raisonnement mais un recouvrement : deux images qui se superposent d'un coup, celle de l'homme des fragments et celle de l'homme qui lit la ligne de registre. Et il n'a rien à déduire — la date est la sienne. Voir [`le-meme-jour.md`](le-meme-jour.md).
+
+Conséquence sur le garçon : sa théorie de travail depuis le mouvement 10 tombe ici, et elle avait commencé à se fissurer un mouvement plus tôt — la source à laquelle il attribuait tout est entrée au jardin, **et les fragments ont continué.**
 
 Le mouvement 19 — le garçon relu — se relit alors sur un garçon qui ne peut plus rien confirmer. **Tout ce qui sera dit de lui à partir de là est dit sans lui.**
 
@@ -164,3 +206,24 @@ L'arithmétique, elle, ne change pas — elle continue après la fin du livre, q
 - **Une mort douce dans la vie d'avant** — écartée le 13 août 2026. L'intervention chirurgicale, la complication, l'homme qui ne se réveille pas : abandonnée, sa mort est la poursuite. **L'image du compte à rebours sous anesthésie tombe avec elle** et ne doit pas être réemployée ailleurs. Archivée dans la [fiche du veilleur](../03-personnages/veilleur.md).
 - **Une mort en sacrifice** — il n'y en a pas. Il ne sauve personne, sa poursuite ne sert à rien, aucun personnage ne commente sa mort, et la coïncidence avec celle de l'assassin n'est pas une justice : le §11 pose que les coïncidences sont des anomalies, pas des lois. Si la mort semble réparer quelque chose, le mouvement 14 perd sa fonction.
 - **La règle des retrouvailles** — jamais énoncée. Si le lecteur comprend que ceux qui s'aiment se retrouvent *toujours*, le livre devient une consolation, ce que le §1 refuse.
+- **Un fragment de reliquat à la première personne** — il n'y en a aucun. Les fragments racontent un homme vu de dehors : pas de « je », pas de pensée intérieure, pas de nom, pas de miroir ni de reflet, pas de description physique, pas d'adresse. Le lecteur peut recouper, le protagoniste non. Un seul signe l'identifie dans tout le livre, et il n'appartient pas aux fragments : la date de la ligne de registre, au mouvement 18.
+- **Un poste de police tenu par un adversaire** — il n'y en a pas. Pas de dossier soustrait, pas de consigne d'en haut, pas d'homme qui sait quelque chose. Les archives sont vides parce qu'il n'y a rien dedans, et le policier se lasse parce qu'il a une journée à finir. Dès que quelqu'un cache quelque chose, la scène devient une intrigue policière et le mur devient une porte.
+- **Une hiérarchie qui déclenche la réplique** — ce n'est pas elle. Le mouvement 4 installe la peur et la menace sur le garçon, et s'arrête là. Le déclenchement est au mouvement 13, dans un poste de police, par un inconnu. Confondre les deux ferait de la rime une simple ressemblance de métier.
+
+---
+
+## À trancher
+
+*Ce que les décisions du 14 août laissent ouvert, mouvement par mouvement. Rien n'est écrit avant que l'autrice tranche.*
+
+- [ ] **Mouvement 10 — quand sa théorie du garçon apparaît-elle en clair ?** Se dit-elle une fois, à quelqu'un, ou reste-t-elle intérieure jusqu'au bout ?
+- [ ] **Mouvement 13 — le poste est-il montré une fois ou deux ?** Une visite qui tourne court, ou un premier passage poli suivi d'un second où l'on se lasse ?
+- [ ] **Mouvement 13 — ce qu'il demande au comptoir, et sous quel prétexte.** Un veilleur n'a aucun titre à enquêter sur une disparition. Dit-il d'où il tient l'histoire ?
+- [ ] **Mouvement 13 — combien de gestes pour l'aisance dans le bâtiment**, et lesquels ? Le narrateur doit pouvoir en montrer sans que le personnage le sente.
+- [ ] **La piste facultative du même homme** dans les deux mondes : retenue ou écartée ?
+- [ ] **Mouvement 18 — à quel moment le lecteur doit-il avoir deviné qui est l'homme des fragments ?** Un peu avant, pas dix chapitres avant. Où placer le premier indice recoupable ?
+- [ ] **Le nombre de fragments de reliquat** et leur répartition sur les douze ans du calendrier. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
+- [ ] **Jusqu'où va le détail des lieux d'alors ?** La troisième personne règle l'ironie dramatique, pas l'interdit n° 2 : notre monde reste montré.
+- [ ] **Mouvement 24 — l'arithmétique d'après le livre est-elle écrite ou laissée hors champ ?** Recommandation déjà formulée plus haut : hors champ.
+
+*Les questions ouvertes qui portent sur la vie d'avant elle-même — la faute, la durée de l'arrêt, le mot pour deux arrivantes identiques, la place du chapitre de la cérémonie groupée — sont tenues dans [`le-meme-jour.md`](le-meme-jour.md).*

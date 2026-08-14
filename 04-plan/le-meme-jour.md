@@ -164,7 +164,92 @@ Ce qui reste, et qui suffit : des gestes, une méthode, des pièces, des heures,
 
 ---
 
-## 5. La cérémonie groupée
+## 5. Le poste de police — mouvement 13
+
+> **Tranché par l'autrice, 14 août 2026.** *« Et pourquoi pas se rendre vraiment dans un centre de police pour demander s'ils ont des infos sur cet événement. Et c'est là qu'un policier lui dirait de lâcher l'affaire, et hop, déclenchement d'un souvenir. »*
+>
+> **C'est cette scène-là, et pas la pression de sa hiérarchie, qui déclenche la réplique du mouvement 13.**
+
+### 5.1 Ce qu'il va y faire
+
+Il se rend dans un poste de police **de ce monde-ci**. Il demande si on a quelque chose sur cette affaire : deux filles disparues, identiques, un homme, des lieux, une planque.
+
+**Il n'y va pas pour lui.** Il y va pour vérifier ce qu'il croit être l'histoire du garçon — c'est la suite logique de la section 4.2. Un témoin décrit une affaire criminelle ; un homme méthodique va voir si l'affaire existe. Il fait exactement ce qu'un enquêteur ferait, et il croit le faire pour quelqu'un d'autre.
+
+**Ce monde a une police.** Le §9 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose un niveau technique et des institutions semblables aux nôtres : il y a des postes, des dossiers, des disparitions signalées, un comptoir où l'on vient déclarer. Rien à inventer, rien à expliquer.
+
+*Note de vocabulaire : au comptoir, il ne peut pas dire « des jumelles » — le mot n'existe pas ici. Il dispose de **une paire**, qui est un mot de registre et sonne administratif dans une conversation. Il dira donc probablement ce qu'il peut : deux filles qui se ressemblent, exactement. Et ça n'aide pas à se faire prendre au sérieux.*
+
+### 5.2 Ils n'ont rien
+
+**Aucune trace. Aucun dossier. Aucune disparition qui corresponde.** On cherche devant lui, poliment d'abord, et il n'y a rien.
+
+Rien, **parce que rien de tout cela n'a eu lieu ici.** Les archives de ce monde sont vides de ce qui lui remplit la tête.
+
+C'est la force de la scène, et il faut la laisser muette : **ce vide ne prouve rien, et il n'a aucun moyen de comprendre pourquoi il est vide.** Pour lui, deux lectures seulement sont disponibles, et elles vont toutes les deux dans le mur :
+
+- le gosse a tout inventé, et il a perdu des années sur une fabulation ;
+- ou c'est ancien, mal classé, ailleurs, et il faudrait chercher autrement.
+
+La troisième lecture — celle du lecteur — n'existe dans aucune langue de ce monde. **Le seul document qui contienne quelque chose sur cette affaire est un registre de veilleur, et il ne sait pas encore qu'il faut le lire.** La scène est donc un échec complet qui pointe exactement vers le mouvement 15.
+
+### 5.3 Le policier lui dit de lâcher l'affaire
+
+**Pas par complot. Pas par secret. Par lassitude.**
+
+Un veilleur sans mandat, sans dossier, sans plaignant, qui revient avec une histoire qui ne vient de nulle part et qui ne correspond à aucun signalement : on finit par lui demander poliment d'arrêter de faire perdre du temps. Le policier n'a rien à cacher, il n'est pas antipathique, il ne ment pas. Il a une journée à finir.
+
+**La banalité est ce qui rend la scène efficace.** Il n'y a pas d'adversaire, donc rien à vaincre, donc rien à interpréter. C'est le pendant exact de ce que l'interdit n° 8 impose pour la jalousie : le mur n'est pas quelqu'un.
+
+### 5.4 Et la phrase détonne
+
+C'est le déclenchement. **La même phrase, dans le même genre de pièce, dite par le même genre d'homme — dans deux mondes.**
+
+Ce qui remonte alors n'est pas un souvenir : **c'est une réplique.** Quelque chose comme *« C'est déjà ce qu'on m'a dit. »* Elle sort de lui, elle est juste, et personne dans la pièce ne peut la comprendre — **lui compris.** Blanc. Le policier ne relève pas, ou relève à peine. Il enchaîne, il sort, il n'y repense pas.
+
+⚠️ **Réglage impératif, déjà écrit et inchangé : il ne doit pas comprendre.** Le retournement est au 18. Le référent exact de la phrase est une donnée d'autrice — il sert à écrire la phrase juste, il ne se dit pas dans la scène. Voir [`incidences-2026-08-13.md`](incidences-2026-08-13.md) et la [fiche du veilleur](../03-personnages/veilleur.md).
+
+### 5.5 L'écho exact — cop à cop, poste à poste
+
+C'est ce qui fait la valeur du dispositif, et il faut l'écrire au plus serré :
+
+| Vie d'avant | Ici |
+|---|---|
+| un poste de police | un poste de police |
+| un policier, un collègue, un supérieur du même métier | un policier du même métier |
+| *lâche l'affaire* | *lâchez l'affaire* |
+| il obéit — c'est **la faute** | il n'obéit pas — c'est **la réparation** (mouvement 14) |
+
+**La rime est parfaite parce que les deux termes sont de même nature.** Une remontrance de sa hiérarchie de veilleurs n'aurait produit qu'une ressemblance vague : un supérieur qui tempère un subordonné, ça arrive dans tous les métiers, et le lecteur n'aurait rien senti se refermer. Là, c'est le même décor, le même uniforme, la même phrase et le même homme — à deux mondes de distance.
+
+C'est aussi ce qui rend la parade de la section 4.6 tenable : le fragment qui répond à cette scène peut montrer un poste, une pièce, un homme qui dit d'arrêter — **et toujours pas de visage.**
+
+### 5.6 Le détail gratuit : il entre dans le bâtiment de son ancien métier
+
+**À poser sans le commenter une seule fois.**
+
+Le reliquat est une vocation (§12). Il entre donc dans un poste de police — c'est-à-dire chez lui, dans le lieu où il a passé sa vie d'avant — et **tout y est facile**. Il sait où se tenir, qui aborder, à qui ne pas s'adresser, quoi demander et sur quel ton. Il sait attendre au bon endroit. Il ne s'annonce pas comme on s'annonce quand on ne connaît pas.
+
+**Personne ne le remarque.** Ni les policiers, pour qui un homme qui sait se tenir dans un poste n'est rien du tout ; ni lui, qui n'a aucun point de comparaison et à qui ça ne coûte aucun effort. **Le lecteur, si.**
+
+C'est la « seconde forme de preuve » du §12 — la cuisinière qui cuisine, l'homme de 80 ans qui sait tenir un couteau — appliquée au protagoniste lui-même, et c'est la seule fois du livre où elle porte sur lui. Elle est indémontrable, elle ne fait avancer aucune enquête, et elle ne se dit jamais : elle se joue en trois gestes.
+
+### 5.7 Articulation avec le mouvement 4 — deux scènes différentes
+
+**Il ne faut jamais les confondre.**
+
+| | Qui parle | Pourquoi | Effet |
+|---|---|---|---|
+| **Mouvement 4** | sa propre hiérarchie de veilleurs | **elle a peur** — un gosse de dix ans qui dit des choses impossibles, dans un climat où l'on parle de « libérer plus tôt » | elle veut étouffer l'histoire du garçon. Pression institutionnelle, motivée, datée du début du livre |
+| **Mouvement 13** | un policier de ce monde, un inconnu, une fois | **il est lassé** — pas de dossier, pas de plaignant, une journée à finir | **le déclenchement.** Aucun enjeu de pouvoir, aucune conséquence administrative |
+
+La pression de sa hiérarchie **reste au mouvement 4** et garde sa fonction : elle installe le climat et la menace sur le garçon. Elle ne déclenche rien.
+
+Le poste de police **devient le mouvement 13**, et c'est lui qui déclenche. Il vient neuf mouvements plus loin, il vient de l'extérieur du service, et il ne ressemble en rien à ce qui a précédé — c'est pour ça que la phrase peut sortir.
+
+---
+
+## 6. La cérémonie groupée
 
 **Un chapitre à part, en flash-back : sa propre naissance dans ce monde-ci.**
 
@@ -182,23 +267,21 @@ L'assemblée s'émerveille devant les deux arrivantes identiques : un cadeau de 
 
 La quatrième capsule, elle, n'est pas dans la salle. Elle s'ouvrira seule, sans prévenir, et quelqu'un la raclera un matin.
 
-### Question ouverte — comment appelle-t-on deux arrivants identiques ?
+### Une paire — tranché le 14 août 2026
 
-Ce monde n'a ni naissances ni familles. **Le mot « jumeau » n'y existe pas** : il désigne une fraternité qui n'a aucun sens ici. Il leur faut donc un mot à eux. Trois pistes, aucune choisie :
+Ce monde n'a ni naissances ni familles. **Le mot « jumeau » n'y existe pas** : il désigne une fraternité qui n'a aucun sens ici. La ressemblance n'y est pas une parenté, c'est une anomalie de la ruche.
 
-| Piste | Registre | Effet |
-|---|---|---|
-| **une paire** | mot d'archive, plat, technique | va au registre, ne dit rien de l'émotion |
-| **des doubles** | intermédiaire | dit la ressemblance, un peu inquiétant |
-| **les mêmes** | ce que dit la foule | familier, et beaucoup plus glaçant |
+> **Deux arrivants identiques forment une paire.** C'est le mot du registre : *« une paire, travée douze. »*
 
-**Il en faut peut-être deux** : un mot administratif pour le registre, un mot de tous les jours pour la salle. C'est aussi ce qui permet au protagoniste, au mouvement 16, de lire un mot froid sur une ligne dont il ne sait pas encore qu'elle est la sienne.
+**Un seul mot suffit.** La salle n'a pas besoin d'un second terme : devant une paire, on dit *« elles sont pareilles »*, et l'émerveillement fait le reste — un cadeau de la nature. Le mot froid reste sur la ligne d'archive, et c'est exactement ce qu'il faut : au mouvement 16, le protagoniste lit **une paire** sur une ligne dont il ne sait pas encore qu'elle est la sienne.
 
-*Note : le titre de travail du présent document et le §12 du dossier maître emploient « les jumelles ». C'est un mot de bible d'autrice, à ne jamais laisser passer dans le texte tant que la question n'est pas tranchée.*
+Détail complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Une paire ».
+
+*Règle de vocabulaire : **« jumelles » reste juste pour la vie d'avant** — elles en sont — donc dans le titre de ce document, dans le §12 du dossier maître et dans les chapitres de reliquat. **« Une paire » dans toute scène de ce monde-ci.***
 
 ---
 
-## 6. La scène finale — mouvement 23
+## 7. La scène finale — mouvement 23
 
 Il va s'excuser auprès d'elles, presque en fondant en larmes.
 
@@ -274,13 +357,27 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 
 ---
 
+# Tranché le 14 août 2026
+
+- [x] **Les chapitres de reliquat sont à la troisième personne.** Il croit suivre un autre homme ; il ne se reconnaît pas. Section 4.
+- [x] **Sa fausse explication est le garçon.** Il croit vérifier l'histoire du gosse. Section 4.2.
+- [x] **Le retournement du mouvement 18 porte sur l'identité**, pas sur le mécanisme : *l'homme que tu suis, c'est toi*. Section 4.4.
+- [x] **Le déclencheur du mouvement 13 est un poste de police de ce monde-ci**, et non la pression de sa hiérarchie, qui reste au mouvement 4. Section 5.
+
+---
+
 # À trancher
 
-- [ ] **Les chapitres de reliquat renversent-ils la règle « le texte ne raconte jamais l'autre côté » ?** Si oui, la parade des fragments sans marqueur d'époque est-elle suffisante ?
+- [ ] **La parade des fragments sans marqueur d'époque est-elle suffisante ?** La troisième personne règle l'ironie dramatique, pas l'interdit n° 2 : notre monde reste montré. Jusqu'où va-t-on dans le détail des lieux d'alors ?
+- [ ] **Combien de temps le lecteur doit-il ignorer qui est l'homme des fragments ?** Le mouvement 18 gagne à ce qu'il l'ait deviné un peu avant, pas dix chapitres avant. Où placer le premier indice recoupable ?
+- [ ] **Le poste de police est-il montré une fois ou deux ?** Une seule visite qui tourne court, ou un premier passage poli suivi d'un second où on se lasse ?
+- [ ] **Le policier de ce monde a-t-il un pendant nommé dans un fragment ?** Voir la piste facultative de l'écho — à ne pas appuyer si ça se voit.
+- [ ] **Ce qu'il demande exactement au comptoir**, et sous quel prétexte : un veilleur n'a aucun titre à enquêter sur une disparition. Dit-il d'où il tient l'histoire ?
+- [ ] **L'aisance dans le poste** (section 5.6) : combien de gestes, et le narrateur peut-il en montrer un sans que le personnage le sente ?
 - [ ] **La faute.** Version « il a obéi puis il a repris » (recommandée), ou abandon de la faute au profit du dossier inachevé ?
 - [ ] **Pourquoi reprend-il l'affaire**, dans la version recommandée : de lui-même, ou parce qu'un élément ressort ?
 - [ ] **Combien de temps a duré l'arrêt ?** Des semaines, dit la proposition. À caler contre la durée de l'enquête d'alors.
-- [ ] **Le mot pour deux arrivants identiques.** Un mot ou deux — registre et salle ?
+- [x] ~~Le mot pour deux arrivants identiques~~ — **tranché : une paire.** Un seul mot, celui du registre ; la salle dit « elles sont pareilles ».
 - [ ] **De combien les jumelles descendent-elles ?** Le chiffre exact, jamais dans le texte, mais nécessaire à l'autrice.
 - [ ] **Où placer le chapitre de la cérémonie groupée** dans le livre : avant le mouvement 15, entre 17 et 18, ou après le retournement ?
 - [ ] **Le mouvement 18 devient une lecture de registre.** Faut-il alors déplacer ou alléger le mouvement 17, qui perd son rôle de dernier verrou ?
