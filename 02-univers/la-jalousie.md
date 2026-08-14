@@ -50,6 +50,47 @@ Leur colère est donc fondée sur une ignorance irréductible. C'est la tragédi
 
 ---
 
+## Rien, dans les chiffres, ne donne raison aux jaloux
+
+*Cette section dépend d'une règle proposée le 15 août 2026 et non encore validée par l'autrice — le plafond de la grâce, règle B de [`ce-qui-est-juge.md`](ce-qui-est-juge.md) et de [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md). Si la règle tombe, cette section tombe avec elle, et le climat décrit plus haut devient beaucoup plus difficile à tenir.*
+
+Le grief porte sur **l'accès**, jamais sur la durée. C'est ce qui le rend à la fois réel et impossible à formuler comme une injustice comptable : on envie un chemin, et un chemin ne se met pas en colonne.
+
+Sur la durée, en revanche, les jaloux n'ont rien. **Le petit chiffre ne vit pas plus longtemps qu'eux — il vit beaucoup moins.** Trente ans contre quatre-vingt-dix. Ce qu'il a de plus, c'est la proportion de ces années passées en bas, et la proportion n'est pas une quantité qu'on puisse réclamer.
+
+Le plafond de la grâce verrouille ce point. **Aucun gracié, si meurtri soit-il, ne vit plus longtemps qu'un grand chiffre ordinaire.** Le supplément allonge le jardin ; il ne fait jamais passer devant.
+
+### Pourquoi cette règle tient la société entière
+
+Sans plafond, le grief deviendrait **vérifiable**.
+
+*« Et en plus, ils vivent plus longtemps. »*
+
+C'est une phrase entièrement différente de celles qu'on entend au salon. Elle ne demande pas qu'on la croie : elle demande qu'on regarde. Elle s'appuierait sur des cérémonies, sur des registres, sur des dates d'ouverture de capsule que n'importe qui peut recouper — la ruche note tout, et [`la-ruche.md`](la-ruche.md) établit qu'on sait toujours depuis combien de temps quelqu'un est là.
+
+Le mécontentement changerait alors de nature, et le changement serait irréversible :
+
+| | Sans plafond | Avec plafond |
+|---|---|---|
+| Ce dont on se plaint | une durée | un chemin |
+| Ce qu'on peut produire | un tableau | rien |
+| Ce que ça devient | une revendication | une humeur |
+| Ce que ça trouve | un porte-parole | personne |
+
+**Une humeur ne se dissout pas, mais elle ne s'organise pas non plus.** Une revendication chiffrée, si : elle appelle un chiffre en réponse, donc un débat, donc une politique, donc quelqu'un pour la porter. Le §9 tient le tabou sur cinq appuis, dont un pacte — *chacun finira à cinq ans, chacun sait à peu près quand.* Ce pacte est un calcul de survie, et un calcul de survie ne résiste pas à un tableau qui montre qu'on a été perdant sur toute la ligne.
+
+**Le plafond garantit donc que personne ne puisse jamais opposer un tableau.** La colère reste sans preuve.
+
+### Ce qu'il faut tenir en écrivant
+
+- **Ils ont un grief réel sur l'accès, et aucun sur la durée.** Les deux à la fois, et jamais l'un sans l'autre.
+- **Personne ne le leur dira jamais.** Il n'existe aucun personnage capable de leur montrer qu'ils sont, en durée, les mieux servis de ce monde.
+- **Et personne n'a le tableau sous les yeux.** Ni eux, ni les veilleurs, ni le lecteur. Le tableau ci-dessus est un objet de bible d'autrice ; il n'a aucun équivalent dans le monde du livre.
+
+C'est la même mécanique que plus haut, d'un cran plus profond. Leur erreur n'est pas de croire à une loterie : **c'est de croire qu'il y a quelque chose à compter.**
+
+---
+
 ## La gradation
 
 Quatre étages, sans coordination entre eux. Ce n'est pas une chaîne de commandement, c'est un même climat qui se durcit à mesure qu'on descend.
@@ -119,6 +160,8 @@ Tuer un arrivant est un tort irréparable. Celui qui va au bout ne renaîtra pas
 
 ## À trancher
 
+- [ ] **Le plafond de la grâce — règle B, proposition à valider.** Aucun gracié ne vit plus longtemps qu'un grand chiffre ordinaire. C'est la règle dont dépend tout ce document : elle est ce qui empêche le grief de devenir chiffrable. À valider avec la règle A dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md).
+- [ ] **Le plancher de durée à trente ans — règle A, proposition à valider.** Il ne change rien à l'objet de la jalousie, mais il change la phrase du salon : *« Trente ans, quand même »* cesse d'être une approximation et devient le chiffre exact du plancher. **Trente est-il le bon plancher, ou faut-il monter ?** Si l'autrice monte, la réplique du salon monte avec.
 - [ ] Jusqu'où pousser la violence : menace de fond permanente, ou événement qui touche réellement le garçon ?
 - [ ] S'il y a un événement : le garçon est-il atteint, ou seulement approché ?
 - [ ] Combien de scènes consacrées à ce climat ? Une par acte, ou concentrées dans l'acte II ?

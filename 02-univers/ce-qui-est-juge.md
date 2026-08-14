@@ -87,7 +87,46 @@ C'est ce qui remplace l'ancienne formulation, et c'est meilleur pour quatre rais
 
 **Le §7 tient tel quel.** *« Un enfant mort très jeune chez nous arrive au plancher : sa vie entière est un palier […] c'est la grâce maximale que le système sache accorder. »* Sous le nouveau système c'est encore vrai — il arrive au plancher parce qu'il est mort en dessous, et toute sa vie est un jardin. Et s'il est en plus un meurtri, **la grâce peut allonger ce jardin-là aussi.** L'ancienne version ne savait rien faire pour lui : il était déjà au plancher, on ne pouvait pas le faire descendre davantage. La nouvelle a encore quelque chose à donner.
 
-Il n'y a pas de plafond posé au supplément. Il n'y a pas non plus de barème : **plus quelqu'un a été meurtri, plus le jardin est long**, et le rapport exact n'est jamais chiffré.
+Il n'y a pas de barème : **plus quelqu'un a été meurtri, plus le jardin est long**, et le rapport exact n'est jamais chiffré.
+
+En revanche, le supplément reçoit désormais une borne. Voir ci-dessous, « Les deux planchers et le plafond ».
+
+### 2 bis. Les deux planchers et le plafond
+
+> **Propositions à valider par l'autrice, 15 août 2026. Rien n'est acquis.**
+>
+> Elles répondent ensemble à une objection posée en ces termes : *un enfant arrivé à cinq ans n'en vit que vingt-cinq, c'est dur ; il faudrait allonger un peu, sans nourrir pour autant les dérives par jalousie.* Les deux exigences ne sont contradictoires qu'en apparence : la première se règle par un plancher, la seconde par un plafond.
+
+**Règle A — personne ne vit moins de trente ans.**
+
+Le système gagne un second plancher, symétrique du premier :
+
+| | Plancher | Ce qu'il arrête |
+|---|---|---|
+| **Le corps** | cinq ans | l'âge ne descend pas plus bas. Règle du §7, inchangée |
+| **Le temps** | trente ans | la durée de vie totale ne descend pas plus bas. Règle nouvelle |
+
+Conséquence : **qui arrive à cinq ans dispose de trente ans, comme qui arrive à dix.** Ce qui les sépare n'est plus une différence de quantité mais de nature — le premier passe ses trente années *entières* au jardin, le second en passe quinze à descendre l'escalier avant d'y entrer.
+
+> **La qualité change, la quantité non.**
+
+C'est cohérent avec tout ce qui précède : le système ne déplace que du temps et de la qualité de temps, et il vient de cesser d'en retirer à ceux qui en ont le moins.
+
+*Correction en attente sur le dossier maître : le tableau du §7 porte « ~25 ans » pour une arrivée à cinq ans, et la ligne des conséquences dit « vingt-cinq ans d'insouciance intégrale ». Sous la règle A, c'est trente aux deux endroits. Signalé ici, non appliqué — voir la liste des corrections en attente.*
+
+**Règle B — la grâce allonge le jardin, mais elle ne fait jamais passer devant.**
+
+Le supplément s'ajoute au jardin ordinaire du meurtri **sans jamais porter sa durée de vie totale au-delà de celle d'un grand chiffre.** Chrissy et Tania peuvent atteindre une soixantaine d'années de vie ; jamais quatre-vingt-dix.
+
+**C'est la règle qui tient la société, et c'est pour cela qu'elle compte plus que l'autre.**
+
+Le grief des jaloux, tel que [`la-jalousie.md`](la-jalousie.md) l'établit, porte sur **l'accès facile à l'âge d'innocence** — jamais sur la durée. C'est exactement ce qui le rend à la fois réel et impossible à formuler comme une injustice comptable : ils envient un chemin, et on ne met pas un chemin en colonne.
+
+Si la grâce pouvait faire dépasser les grands chiffres en durée totale, ce grief deviendrait **vérifiable**. *« En plus, ils vivent plus longtemps. »* Un mécontentement diffus, sans objet chiffrable et sans porte-parole, se changerait en revendication chiffrée — et une revendication chiffrée trouve toujours quelqu'un pour la porter. Le tabou du §9 ne tiendrait pas une génération.
+
+Le plafond garantit donc que **personne ne puisse jamais opposer un tableau.** La colère reste sans preuve. C'est exactement ce que le livre demande : un grief fondé, une ignorance irréductible, et aucun document capable de trancher.
+
+*Développement complet dans [`la-jalousie.md`](la-jalousie.md), section « Rien, dans les chiffres, ne donne raison aux jaloux ».*
 
 ### 3. La condamnation empêche d'arriver
 
@@ -133,6 +172,7 @@ Ce n'était qu'une formule de sermon. Avec la règle ci-dessus, c'est un tableau
 - **§11, dernière puce.** La phrase *« un pauvre ici devient riche là-bas »* est **abandonnée** : elle contredit frontalement le point 4 ci-dessus. À réécrire dans [`../L-ECLAIRCIE-dossier-complet.md`](../L-ECLAIRCIE-dossier-complet.md).
 - **§11, première puce.** *« Victime → réparation. Ce qu'on lui a arraché lui est rendu »* reste juste, et le devient même davantage. Mais **le §11 ne précise pas sous quelle forme.** À compléter : la réparation est un jardin allongé.
 - **§7.** Le tableau des durées ne dit pas non plus qu'il donne les **durées ordinaires**, ni qu'un meurtri reçoit un supplément par-dessus. À préciser au même endroit.
+- **§7, ligne « 5 ans ».** Le tableau donne **« ~25 ans »**, et la dernière puce des conséquences dit *« vingt-cinq ans d'insouciance intégrale »*. Sous la règle A ci-dessus, c'est **trente** aux deux endroits. Correction en attente, à appliquer seulement si l'autrice valide le plancher de durée.
 
 ---
 
@@ -162,11 +202,15 @@ Ce que ça donne, et qui n'était pas atteignable avec l'ancienne règle : **ell
 
 *Cette fiche est à mettre à jour : elle porte encore l'ancienne règle et laisse leur âge d'arrivée ouvert. Il ne l'est plus.*
 
-### L'enfant de la mère — inchangé, et améliorable
+### L'enfant arrivé à cinq ans — inchangé, et améliorable
 
 Mort avant cinq ans, donc arrivé au plancher : aucune marche à descendre, **toute sa vie est un jardin.** Le nouveau système ne change rien à son cas, et confirme la phrase du §7 — c'est la grâce maximale que le système sache accorder.
 
-À une nuance près, et elle est nouvelle : **la grâce peut désormais l'allonger encore.** L'ancienne règle butait sur le plancher et n'avait plus rien à lui donner.
+À deux nuances près, et elles sont nouvelles.
+
+**La grâce peut désormais l'allonger encore.** L'ancienne règle butait sur le plancher du corps et n'avait plus rien à lui donner.
+
+**Sous la règle A, il ne vit plus vingt-cinq ans mais trente** — autant que l'arrivant à dix ans, et il les passe tous au jardin quand l'autre en passe quinze dans l'escalier. C'est ce qui rend la phrase du §7 exacte au lieu d'approximative : la grâce maximale ne peut pas être, en même temps, la vie la plus courte du monde.
 
 ---
 
@@ -188,7 +232,8 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 
 ## À trancher
 
-- [ ] **La longueur du jardin de Chrissy et Tania.** Combien d'années au-delà de l'ordinaire. La forme est acquise, le chiffre non.
-- [ ] **Y a-t-il un plafond au jardin allongé ?** Une grâce peut-elle durer plus longtemps qu'une vie ordinaire entière ? Rien ne l'interdit pour l'instant.
+- [ ] **Règle A — le plancher de durée à trente ans.** *Proposition à valider.* Personne ne vit moins de trente ans ; l'arrivant à cinq ans en dispose autant que l'arrivant à dix, et les passe tous au jardin. **Trente est-il le bon plancher, ou faut-il monter ?** C'est le seul point ouvert de la règle : la forme tient à n'importe quel chiffre, mais au-delà de trente-cinq il faudrait relever aussi les arrivants à dix ans, et le calendrier du livre en dépend — voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+- [ ] **Règle B — le plafond de la grâce.** *Proposition à valider.* Le jardin allongé ne porte jamais la durée de vie totale au-delà de celle d'un grand chiffre. Reste à dire si le plafond est **un chiffre net** ou **une borne floue** que l'autrice tient sans jamais l'écrire.
+- [ ] **La longueur du jardin de Chrissy et Tania.** Combien d'années au-delà de l'ordinaire. La forme est acquise, le chiffre non. La règle B en fixe le haut ; le bas reste ouvert.
 - [ ] **Le jardin allongé se voit-il de l'extérieur ?** Un arrivant qui reste trente ans au jardin quand les autres y restent douze est un fait observable par un veilleur attentif. Est-ce une piste d'enquête ou un angle mort du monde ?
 - [x] ~~**L'attribution du chiffre d'arrivée.**~~ — **close, 15 août 2026.** Il n'y a plus d'attribution : l'âge d'arrivée est l'âge de mort.

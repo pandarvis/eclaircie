@@ -6,7 +6,7 @@ Fichier : [`frise-narrative.html`](frise-narrative.html) — s'ouvre dans un nav
 
 | Onglet | Contenu | Source |
 |---|---|---|
-| **La frise** | 25 mouvements, 4 actes, 4 voies, les âges à chaque étape | §13 + [`04-plan/`](../../04-plan/) |
+| **La frise** | 18 mouvements, 4 actes, 3 voies, les âges à chaque étape | §13 + [`04-plan/`](../../04-plan/) |
 | **Le décompte** | Le graphe des vies : chaque courbe descend puis devient plate au jardin | §7 + [`duree-et-calendrier.md`](../../04-plan/duree-et-calendrier.md) |
 | **Les interdits** | Les 10, numérotation figée | [`les-interdits.md`](../../01-dossier/les-interdits.md) |
 | **La ruche** | Le fonctionnement, en onze blocs | [`la-ruche.md`](../../02-univers/la-ruche.md) |
@@ -21,23 +21,24 @@ Source : section **13. LE PLAN** du [dossier de création](../../L-ECLAIRCIE-dos
 
 ## Le principe
 
-Défilement horizontal. Quatre voies parallèles courent d'un bout à l'autre du récit ; chaque mouvement du plan est posé sur la voie qu'il fait avancer.
+Défilement horizontal. Trois voies parallèles courent d'un bout à l'autre du récit ; chaque mouvement du plan est posé sur la voie qu'il fait avancer.
 
-| Voie | Couleur | Ce qu'elle porte | Mouvements |
-|---|---|---|---|
-| **Le monde** | acier | Le rite, la règle, la doctrine | 1, 2, 20 |
-| **L'enquête** | éclaircie (cyan pâle) | Les faits, les dates, les registres | 3, 4, 6-9, 13, 14, 15, 16, 17 |
-| **La fille** | rose sourd | Le décompte, le visage, l'échec | 5, 11-12, 21, 24 |
-| **Le voile** | ambre | L'ancien monde qui remonte | fin d'acte I, 10, 18, 19, 22, 23 |
+| Voie | Couleur | Ce qu'elle porte |
+|---|---|---|
+| **Andrew** | acier | Le monde d'après. Son présent. |
+| **L'enquête** | éclaircie (cyan pâle) | Les faits, les dates, les registres |
+| **Joël** | ambre | Le monde d'avant. Son passé. |
 
-Pas de cinquième voie : le garçon et les jumelles découlent de l'enquête, ils n'ont pas de fil propre.
+**Erin n'a plus de voie.** L'histoire d'amour est suspendue (décision du 15 août 2026) ; ses quatre cartes — mouvements 5, 11-12, 21, 24 — ont été retirées, et la dernière page reste à écrire. Son nom d'éclaircie est noté dans [`les-ages-croises.md`](../../02-univers/les-ages-croises.md) pour le jour où elle reviendra.
+
+> **La voie de Joël est presque vide : deux cartes sur dix-huit.**
+> Ce n'est pas un défaut de la frise, c'est un constat. L'ancien plan en 24 mouvements ne contient pas les chapitres de la vie d'avant, que la nouvelle architecture réclame. Voir [`deux-histoires-en-une.md`](../../04-plan/deux-histoires-en-une.md).
 
 ### Ce que le découpage rend visible
 
-- **Le voile** s'allume une fois en fin d'acte I, disparaît, revient au mouvement 10 — puis prend tout l'acte III. C'est le fil qui gouverne le livre et il est presque muet pendant la moitié du texte.
-- **La fille** ne compte que quatre points, très espacés. C'est le rythme juste pour une histoire d'amour qui ne peut pas se dire.
+- **Joël** ne compte que deux cartes. C'est le fil qui gouverne le livre, et il n'existe presque pas dans l'ancien plan. Tout le travail à venir est là.
 - **L'enquête** occupe massivement l'acte II puis s'éteint net après le mouvement 17 : à partir du retournement, il n'y a plus rien à enquêter.
-- **Le monde** n'intervient qu'aux extrémités : poser la règle (1, 2), puis la retourner en question morale (20).
+- **Andrew** n'intervient qu'aux extrémités : poser la règle (1, 2), puis la retourner en question morale (20).
 
 ### Parti pris graphique
 
@@ -47,23 +48,20 @@ Navigation : molette, flèches ← →, glisser à la souris, ou clic sur un act
 
 ---
 
-## État au 13 août 2026
+## État au 15 août 2026
 
-Intégré depuis la première version :
-
-- La voie **Elle** devient **La fille** ; la voie **Le voile** est glosée « l'ancien monde qui remonte ».
+- Les voies portent les deux hommes : **Andrew** (le monde d'après) et **Joël** (le monde d'avant), plus **L'enquête**.
+- Stèle ajoutée avant le credo : **« Joël, non, attends ! »** — la seule fois du roman où son nom se dit.
 - Le palier s'appelle **le jardin** — panneau d'ouverture, règle III.
 - Le panneau d'ouverture porte une ligne sur le monde : c'est la Terre, les fleuves ont gardé leur nom, rien de ce qu'ont fait les hommes n'a été gardé.
 - **Mouvement 1** : rien n'est annoncé à la cérémonie. Le corps dit l'âge, la salle l'estime à vue, le veilleur mesure après pour le registre.
-- **Mouvements 11-12** : plus de compte à rebours. Il croise la fille avec une facilité qui devrait l'alerter.
-- **Mouvement 21** : ne s'appelle plus « L'année ». Devient **Ce qui ne se dira pas** — il ne peut rien lui avouer, il essaie autrement, elle en fait un ami. Le lien met les gens sur le même chemin, il n'oblige à rien.
-- **Mouvement 24** et **panneau de fin** : il se dit qu'il la reverra dans l'autre monde. Elle n'a aucun moyen de comprendre ce qu'il se dit, et le livre ne le confirme jamais.
+- **Mouvements 5, 11-12, 21 et 24** : retirés avec la voie d'Erin. Le panneau de fin le dit — la dernière page reste à écrire.
 
 ---
 
 ## Arbitrages à revoir
 
-- [ ] **Conflit à trancher, hérité du dossier maître.** Le veilleur n'est en poste que depuis huit ans au début du livre. Le §12 le dit « vétéran du métier » et le mouvement 20 parlait de « ce qu'il racle depuis vingt ans ». J'ai retiré les vingt ans de la carte 20, mais « vu de l'intérieur » au mouvement 1 remplace provisoirement « professionnel blasé » : à confirmer.
+- [ ] **La frise entière est à refondre** sur la nouvelle architecture. Les 18 cartes restantes viennent du plan du §13, qui ne connaît pas les deux histoires en une. C'est le gros chantier, et il demande que l'autrice reconstruise le séquencier.
 - [ ] **Mouvement 3** (« le chiffre qui monte ») rangé dans *L'enquête* plutôt que dans *Le monde*, parce que c'est le déclencheur.
 - [ ] **Fin d'acte I** transformée en carte autonome sur la voie *Le voile*. Dans le plan c'est une ligne de bloc-note ; ici c'est le premier point du fil qui portera tout le livre.
 - [ ] Les mouvements 6-9 et 11-12 sont groupés comme dans le plan. À éclater si le découpage en chapitres se précise.

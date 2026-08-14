@@ -148,6 +148,45 @@ Sa vocation est revenue **très vite**. Un homme qui sort de capsule et se retro
 
 ---
 
+## Ce qui le met dans l'affaire — il y retourne de lui-même
+
+**C'est le premier geste du livre, et c'est celui qui le trahit.**
+
+> **Précision de l'autrice, 15 août 2026.** *« C'est bien Andrew qui vient rendre visite à Eliott chez June. Il a des échanges avec l'enfant, il essaye de le comprendre, et va peut-être le voir deux fois avant que la troisième fois il y retourne et que June lui apprend qu'il a disparu et qu'elle a prévenu la police. »*
+
+### Ni mission, ni hasard
+
+Il reçoit l'enfant à la cérémonie, ce qui est son travail. **Tout ce qui suit ne l'est pas.**
+
+June vient lui parler du comportement du petit ; elle rapporte, elle ne demande rien. **Et il y va.** Personne ne le lui demande, aucun service ne l'en charge, aucune procédure ne le prévoit. Un veilleur inscrit un nom au registre et passe au suivant : sa part est finie le matin même, elle ne comprend ni suite, ni suivi, ni visite. **Il n'a aucun mandat sur cet enfant, et il y retourne quand même.** Deux fois. Puis une troisième.
+
+Ce n'est pas non plus le hasard d'un homme qui passait par là : chaque visite est un déplacement décidé, sur son temps, sans motif qu'il puisse formuler. Il ne se dit pas qu'il enquête — le mot n'existe pas dans son métier. **Il se dit que ça l'interpelle**, ce qui n'est pas une raison, et il y va.
+
+### Ce que ça révèle, et que personne ne peut lire
+
+Le §12 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose la loi du monde : *« le reliquat n'est pas un souvenir, c'est une vocation. On ne se rappelle pas ce qu'on a été : on y retourne. »*
+
+**Ces trois visites en sont la première exécution du livre**, et elles arrivent avant qu'il y ait la moindre affaire. Il n'y a pas encore de disparition, pas de gendarmerie, pas d'Isaac, rien à élucider. Il n'y a qu'un enfant qui dit des choses qui ne vont pas, et **un homme qui ne lâche pas ce qui l'accroche.** L'enquêteur est déjà entièrement là, dans un homme qui ne sait pas qu'il l'a été.
+
+**Personne ne le remarque. Lui non plus.** June trouve normal qu'on s'intéresse à l'enfant dont elle a la charge, Isaac trouvera normal qu'un veilleur préoccupé passe au poste, et le service n'a aucune raison de compter les allées et venues d'un débutant. **Le seul à qui le geste puisse dire quelque chose est celui qui le fait, et il n'a rien pour le lire.**
+
+### Le réglage à l'écriture
+
+- **Aucune phrase ne doit justifier ses visites.** Ni le narrateur, ni lui, ni un tiers. Il y va, c'est tout. Une explication — même bonne — transforme un reliquat en décision, et la décision se voit.
+- **Aucune insistance non plus.** Pas de retour appuyé sur le fait qu'il n'a pas à être là, pas de collègue qui s'en étonne. C'est exactement le réglage de la question du nom, plus haut : le livre pose la pièce et ne la ramasse pas.
+- **C'est le même défaut que celui qui le tue.** Il ne s'arrête pas, il revient, il finit ce qu'il commence — voir « Une piste ouverte par la faute » dans *Reste à trouver*, et le tableau des deux fautes symétriques. À cette échelle-là, ça ne ressemble encore qu'à de la conscience professionnelle.
+- **Attention à la vitesse** (voir « Conséquence à surveiller » ci-dessus) : si l'insistance paraît trop droite, le lecteur cesse de pouvoir croire au hasard et **l'interdit n° 4** tombe. Trois visites suffisent ; il n'en faut pas dix.
+
+### Et c'est chez June que la disparition lui tombe dessus
+
+**Il ne reçoit pas la nouvelle, il tombe dessus.** La troisième fois qu'il vient voir l'enfant, l'enfant n'est plus là. Pas d'appel, pas de convocation, pas de signalement officiel qui remonterait jusqu'à lui — **il n'y a personne pour le prévenir, puisque personne ne le sait concerné.** C'est la conséquence exacte de tout ce qui précède : il n'a aucun titre à être là, donc l'affaire ne peut lui parvenir que par ses pieds.
+
+**June a déjà prévenu la police** quand il arrive. Il n'a rien à déclencher : il se rend à la gendarmerie, où il retrouve [Isaac](isaac.md), et l'enquête commence sans que quiconque ait eu à l'y appeler.
+
+Séquence complète en [`eliott.md`](eliott.md) §4 bis, rôle de June en [`june.md`](june.md) §2, trame d'ensemble en [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §4.
+
+---
+
 ## Sa faute, dans la vie d'avant
 
 **Tranché le 13 août 2026. Sa faute est d'avoir cessé.**

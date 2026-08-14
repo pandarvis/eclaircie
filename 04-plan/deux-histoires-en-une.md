@@ -261,13 +261,23 @@ Cette décision devient rétroactivement **l'infrastructure du dispositif**. Les
 
 # 4. La trame d'Andrew — ce monde-ci
 
-1. **Le livre s'ouvre sur une cérémonie** : celle de l'arrivant de dix ans, vue du point de vue d'Andrew, veilleur. Elle pose tout le système sans un mot d'explication. **On sent tout de suite que l'enfant fabule**, comme empreint d'une terreur qu'on ne comprend pas. C'est inquiétant. On passe outre, la cérémonie se termine.
-2. **Eliott est pris en charge par une berceuse, June.** Il fait de petits travaux d'ordre public, sans force ni difficulté — du travail adapté à un enfant de dix ans.
-3. **Andrew s'inquiète pour lui.** Ça l'interpelle. Il revient plusieurs fois chez June prendre des nouvelles.
-4. **Un jour, June est affolée : Eliott a disparu.** Elle a cherché partout, elle a déposé un avis à la gendarmerie.
-5. **Andrew s'y rend** et y retrouve un ami : un agent de police avec qui il s'entend bien. Ils collaborent régulièrement — travaillant à la ruche, Andrew est témoin de toutes les arrivées et consulte le registre au besoin. Le policier apprécie son aide, il le sait perspicace. Andrew est préoccupé par la disparition. **Travailler ensemble n'a rien d'incongru.**
-6. **L'enquête avance, stagne, les mène où elle les mène.** Une fausse piste, puis ils découvrent le lieu de séquestration.
-7. **Ils sont sur le point de trouver Eliott.**
+> **Précision de l'autrice, 15 août 2026 — la séquence d'ouverture est figée.** *« C'est bien Andrew qui vient rendre visite à Eliott chez June. Il a des échanges avec l'enfant, il essaye de le comprendre, et va peut-être le voir deux fois avant que la troisième fois il y retourne et que June lui apprend qu'il a disparu et qu'elle a prévenu la police. »*
+>
+> **Corrige une version antérieure de cette trame**, où June « déclenchait l'enquête » et où Andrew n'arrivait qu'après. C'est l'inverse : il est déjà là, de lui-même, et la disparition lui tombe dessus.
+
+**Six temps, dans cet ordre, et l'ordre est le sujet.**
+
+1. **La cérémonie.** Le livre s'ouvre dessus : celle de l'arrivant de dix ans, du point de vue d'Andrew, veilleur. Elle pose tout le système sans un mot d'explication. **On sent tout de suite que l'enfant fabule**, comme empreint d'une terreur qu'on ne comprend pas. C'est inquiétant. On passe outre, la cérémonie se termine.
+2. **Eliott est remis à une berceuse, June.** C'est le protocole. Il fait de petits travaux d'ordre public, sans force ni difficulté — du travail adapté à un enfant de dix ans.
+3. **June vient parler à Andrew du comportement anormal de l'enfant.** Elle rapporte, elle ne demande rien. **C'est ce signalement qui met la chose en route**, et c'est tout ce que June déclenche dans le livre.
+4. **Andrew vient rendre visite à Eliott, chez June.** Deux fois, peut-être. Il a des échanges avec lui, **il essaie de le comprendre**, et il repart avec des choses qu'il ne sait pas où ranger. **Personne ne le lui a demandé** : il n'a aucun mandat sur cet enfant, sa part de veilleur s'est arrêtée au registre. Il y retourne parce que ça l'interpelle — première exécution du §12, *« le reliquat n'est pas un souvenir, c'est une vocation »*, et **personne ne le remarque, lui compris.** Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md), « Ce qui le met dans l'affaire ».
+5. **La troisième fois qu'il y retourne, June lui apprend qu'Eliott a disparu** et qu'elle a **déjà prévenu la police**. Elle a cherché, elle n'a pas trouvé, elle a fait ce qu'il fallait dans l'ordre — et **son rôle s'arrête là**. La force de la scène tient à un point à ne pas perdre : **il ne reçoit pas la nouvelle, il tombe dessus.** Pas d'appel, pas d'avis, pas de convocation ; il vient voir l'enfant, et l'enfant n'est plus là. Il ne peut pas en être averti, puisque personne ne le sait concerné.
+6. **Andrew se rend à la gendarmerie** et y retrouve un ami : **Isaac**, un agent de police avec qui il s'entend bien. Ils collaborent régulièrement — travaillant à la ruche, Andrew est témoin de toutes les arrivées et consulte le registre au besoin. Le policier apprécie son aide, il le sait perspicace. Andrew est préoccupé par la disparition, et il connaissait déjà l'enfant. **Travailler ensemble n'a rien d'incongru.**
+
+**Puis l'enquête :**
+
+7. **Elle avance, stagne, les mène où elle les mène.** Une fausse piste, puis ils découvrent le lieu de séquestration.
+8. **Ils sont sur le point de trouver Eliott.**
 
 ## Ce que cette trame règle d'un coup
 

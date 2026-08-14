@@ -66,7 +66,32 @@ C'est la première page du roman, et elle installe en une scène ce que le livre
 
 Il est pris en charge par **June** — voir [`june.md`](june.md) pour la raison : un arrivant de dix ans relève d'une berceuse et non d'un tuteur, puisqu'il ne deviendra jamais adulte.
 
-Eliott fait de **petits travaux d'ordre public**, sans force ni difficulté, adaptés à un enfant de dix ans. Rien qui pèse, rien qui qualifie, rien qui mène quelque part : la société n'attend rien de lui et ne prépare rien pour lui. **Andrew vient prendre de ses nouvelles chez June**, plusieurs fois. C'est par là que le personnage entre dans l'intrigue.
+Eliott fait de **petits travaux d'ordre public**, sans force ni difficulté, adaptés à un enfant de dix ans. Rien qui pèse, rien qui qualifie, rien qui mène quelque part : la société n'attend rien de lui et ne prépare rien pour lui.
+
+---
+
+## 4 bis. Les visites — la séquence d'ouverture, à ne pas intervertir
+
+> **Précision de l'autrice, 15 août 2026.** *« C'est bien Andrew qui vient rendre visite à Eliott chez June. Il a des échanges avec l'enfant, il essaye de le comprendre, et va peut-être le voir deux fois avant que la troisième fois il y retourne et que June lui apprend qu'il a disparu et qu'elle a prévenu la police. »*
+
+**L'ordre exact, en six temps :**
+
+1. **La cérémonie.** Andrew le reçoit, dix ans. L'enfant dit d'emblée des choses inquiétantes, comme empreint d'une terreur qu'on ne comprend pas. On passe outre, la cérémonie se termine.
+2. **Il est remis à une berceuse**, June. C'est le protocole. Petits travaux d'ordre public.
+3. **June vient parler à Andrew du comportement anormal de l'enfant.** C'est ce signalement, et rien d'autre, qui met la chose en route.
+4. **Andrew vient lui rendre visite, chez June.** Deux fois, peut-être.
+5. **La troisième fois qu'il y retourne, June lui apprend qu'Eliott a disparu**, et qu'elle a prévenu la police.
+6. Andrew se rend à la gendarmerie, y retrouve [Isaac](isaac.md), et l'enquête commence.
+
+### Ce qui se passe pendant les deux visites
+
+**C'est le cœur de cette fiche.** Andrew n'inspecte pas, ne relève rien, ne cherche pas à établir quoi que ce soit : **il essaie de le comprendre.** Il s'assoit, il l'écoute, il repose la question autrement, il attend. Un veilleur en visite chez une berceuse, qui parle à un enfant dont personne ne lui a confié la charge.
+
+**C'est là qu'Eliott dit ce qu'il dit.** La règle du §5 vaut mot pour mot dans ces scènes : banal, local, invérifiable. Une devanture, un arrêt, une couleur de porte. Rien qui se recoupe avec ce qui remonte chez Andrew, rien qui devienne une preuve — l'interdit n° 4 tient ici son point de tension le plus haut, parce que c'est le seul endroit du livre où les deux voilés se parlent.
+
+**Et Andrew repart avec des choses qu'il ne sait pas où ranger.** Il ne comprend pas, il ne peut pas comprendre, et il n'a même pas de mot pour ce qui l'accroche. Il ne rapporte rien à personne : il n'a pas de rapport à faire, il n'a aucun mandat. Il garde ça, et il y retourne.
+
+*Réglage : ces scènes ne doivent jamais être écrites comme des auditions. Pas de notes prises, pas de questions en série, pas de vérification. Un homme qui vient voir un gosse, et un gosse qui parle.*
 
 ---
 
@@ -86,7 +111,11 @@ Le petit détail de quartier fait tout le travail et ne coûte rien : il est **i
 
 **Eliott est enlevé. C'est le déclencheur de toute l'intrigue.**
 
-C'est June qui constate la disparition, cherche partout, et dépose un avis à la gendarmerie. C'est donc elle qui déclenche l'enquête, et Andrew n'arrive qu'après — sa présence dans l'affaire étant rendue naturelle par son amitié avec [Isaac](isaac.md).
+**La disparition arrive pendant une visite.** Andrew ne la reçoit pas par un appel, ni par un avis, ni par un collègue : il vient voir l'enfant pour la troisième fois, et l'enfant n'est plus là. **Il ne reçoit pas la nouvelle, il tombe dessus** — c'est toute la force de la scène, et elle se perd dès qu'on la lui annonce à distance.
+
+**June a déjà prévenu la police.** Elle a cherché, elle n'a pas trouvé, elle a fait ce qu'il fallait dans l'ordre. Quand Andrew se présente, c'est déjà fait ; il n'a rien à déclencher et rien à conseiller. **Son rôle à elle s'arrête là** — voir [`june.md`](june.md).
+
+Andrew se rend ensuite à la gendarmerie, où il retrouve [Isaac](isaac.md) : sa présence dans l'affaire est rendue naturelle par cette amitié, et par le fait qu'il connaissait déjà l'enfant.
 
 **Il sera retrouvé vivant.**
 

@@ -1,7 +1,7 @@
 # June — berceuse
 
 *Personnage secondaire, et strictement de passage. Nom tranché le 14 août 2026 : **June**.*
-*Décision de l'autrice, 15 août 2026 : **elle signale l'enfant, Andrew l'interroge sur ce qu'il disait, et son intervention s'arrête là.***
+*Décision de l'autrice, 15 août 2026 : **elle signale l'enfant, elle héberge les visites d'Andrew, elle lui apprend la disparition — et son intervention s'arrête là.***
 
 ---
 
@@ -12,7 +12,7 @@
 | **Nom** | June |
 | **Métier** | berceuse |
 | **Sa charge** | [Eliott](eliott.md), arrivé à dix ans |
-| **Rôle dans l'intrigue** | elle constate la disparition d'Eliott et la signale ; puis elle dit à Andrew ce que l'enfant racontait |
+| **Rôle dans l'intrigue** | elle signale à Andrew le comportement de l'enfant, puis elle reçoit ses visites, puis elle lui apprend la disparition — qu'elle a déjà signalée à la police |
 | **Particularité** | aucune. Elle n'est pas voilée, elle ne dit jamais rien d'impossible, elle ne soupçonne rien |
 
 ---
@@ -27,13 +27,17 @@ Les berceurs et berceuses **accompagnent ceux qui sont au jardin, jusqu'au derni
 
 ---
 
-## 2. Ce qu'elle fait dans l'intrigue, et c'est tout
+## 2. Ce qu'elle fait dans l'intrigue, et dans cet ordre
 
-**Elle signale la disparition.** Elle a cherché partout, puis elle a déposé un avis à la gendarmerie. **C'est elle qui déclenche l'enquête** — pas Andrew, qui n'arrive qu'après, et pas la police, qui n'est saisie que par elle. L'intrigue entière part de l'affolement d'une femme qui n'a rien fait de mal et qui ne comprend rien à ce qui arrive.
+**Trois gestes, aucun de plus.**
 
-**Andrew l'interroge sur ce que disait l'enfant.** C'est le seul moment où elle compte : elle est la mémoire de ce qu'Eliott racontait, elle le restitue sans y rien ajouter, et **elle n'en comprend pas plus que les autres.** Pour elle, c'était un enfant qui inventait.
+1. **Elle signale le comportement.** Elle vient parler à Andrew de l'enfant, qui dit des choses qui ne vont pas. Elle ne demande rien, elle rapporte. **C'est ce signalement qui met la chose en route** — et c'est le seul déclenchement qui lui revienne.
+2. **Elle héberge les visites.** Andrew revient voir Eliott chez elle, deux fois peut-être. Elle ouvre, elle laisse parler, elle n'assiste pas forcément. Elle est aussi la mémoire de ce que le petit racontait, et elle le restitue sans y rien ajouter : pour elle, c'était un enfant qui inventait, et **elle n'en comprend pas plus que les autres.**
+3. **Elle lui apprend la disparition.** Andrew se présente pour la troisième fois ; l'enfant n'est plus là. Elle a cherché partout, elle n'a pas trouvé, **elle a déjà prévenu la police**. Elle a fait ce qu'il fallait, dans l'ordre, avant qu'il arrive.
 
 **Son intervention s'arrête là.** Elle ne revient pas, elle n'enquête pas, elle n'a pas d'arc, elle ne soupçonne rien.
+
+*Correction d'une version antérieure : elle ne « déclenche » pas l'enquête en tant que telle et Andrew n'arrive pas après coup. Il était déjà là, de sa propre initiative, et la disparition lui tombe dessus chez elle.*
 
 ---
 
