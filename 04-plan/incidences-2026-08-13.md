@@ -3,6 +3,7 @@
 Ce que les nouvelles idées changent, mouvement par mouvement.
 Le plan de référence reste le §13 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md).
 Calendrier et décompte dans [`duree-et-calendrier.md`](duree-et-calendrier.md).
+La vie d'avant — la faute, la mort — dans [`le-meme-jour.md`](le-meme-jour.md) et la [fiche du veilleur](../03-personnages/veilleur.md).
 
 ---
 
@@ -46,10 +47,12 @@ Ce qui change, et qui est **en lui seul** : c'est le point haut du reliquat. Le 
 
 Ce qui doit se lire dans ces deux mouvements, ce n'est pas un compte à rebours : c'est un homme qui compte. Le chiffre ne lui donne aucun délai et ne lui impose rien — il lui sert à ne pas regarder ce qu'il a déjà sous les yeux. Détail dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md).
 
-**Mouvement 13 — Le mur** *(changement notable)*
+**Mouvement 13 — Le mur** *(changement notable, précisé le 13 août)*
 On lui dit de lâcher l'affaire. Il répond **une phrase qui n'est pas de cette vie-ci** — quelque chose comme *« C'est déjà ce qu'on m'a dit. »* Personne ne comprend, lui non plus. Blanc. Il enchaîne, il n'y repense pas.
 
-⚠️ **Il ne doit pas se souvenir consciemment.** Le retournement est au 18. Une réplique, pas un souvenir. Voir la [fiche du veilleur](../03-personnages/veilleur.md).
+**La réplique a maintenant un référent exact.** Sa faute est tranchée : au milieu de l'affaire des jumelles, on lui a dit d'arrêter de creuser et **il a obéi**. Le *« on m'a dit »* ne renvoie donc plus à un vague ras-le-bol de métier mais à une phrase entendue une seule fois, qui a coûté des semaines et deux vies. Ce qui remonte est précis ; l'amertume a un objet — dans l'autre monde. Voir la [fiche du veilleur](../03-personnages/veilleur.md) et [`le-meme-jour.md`](le-meme-jour.md).
+
+⚠️ **Il ne doit pas se souvenir consciemment.** Le retournement est au 18. Une réplique, pas un souvenir. Le référent exact est une donnée d'autrice : il sert à écrire la phrase juste, il ne se dit pas dans la scène.
 
 **Piste facultative :** celui qui lui dit de lâcher l'affaire est le même homme que la première fois. Aucun des deux ne peut le savoir, aucun personnage ne le remarque, ce n'est jamais confirmé. Ne pas y toucher si ça se voit.
 
@@ -59,7 +62,9 @@ On lui dit de lâcher l'affaire. Il répond **une phrase qui n'est pas de cette 
 
 **Mouvement 14 — La désobéissance** *(réinterprété — c'est la découverte principale)*
 Ce n'est pas un rebondissement. **C'est la réparation elle-même.**
-Même question posée deux fois, dans deux mondes. La première fois il a obéi. Cette fois il désobéit. Le voile lui a rendu son dossier ; il repasse l'examen sans savoir qu'il le repasse, et il le réussit.
+Même question posée deux fois, dans deux mondes. La première fois il a obéi. Cette fois il désobéit. Le voile lui a rendu son dossier ; **c'est le même examen repassé**, sans savoir qu'il le repasse, et il le réussit.
+
+**Ce qui le motive n'est plus un principe** *(précisé le 13 août)*. La faute étant tranchée — il a cessé de creuser, des semaines ont passé, il est arrivé une heure trop tard —, la désobéissance cesse d'être une position morale abstraite. Il continue **parce que quelque chose dans le corps sait ce que coûte le fait de s'arrêter**. Il ne peut ni le nommer ni le justifier ; il ne se rappelle rien. À l'écriture, ça se traduit par un homme qui n'argumente pas et qui n'a pas de discours sur la désobéissance : il ne s'arrête pas, voilà tout, et il serait bien en peine de dire pourquoi. Voir [`le-meme-jour.md`](le-meme-jour.md).
 
 **Et il désobéit pendant des années** *(ajout — conséquence du calendrier)*. L'enquête s'étale de l'année 10 à l'année 19 : **neuf ans**. Ce n'est pas un étirement subi, c'est ce qui la rend impossible — elle est impossible parce qu'elle traîne. On lui a retiré l'affaire, il continue en douce, personne ne l'aide, rien ne le presse et rien ne l'autorise. Il n'y a donc pas un moment où il décide de désobéir : il y a des années pendant lesquelles il ne cesse pas de le faire, seul et sans résultat. La première fois, il avait obéi tout de suite — c'est la comparaison qui donne son poids à la réparation.
 
@@ -112,6 +117,27 @@ Ce qui doit être clair à l'écriture : ce n'est **ni une échéance ni une fen
 
 *(Ce qu'il advient du reliquat quand elle passe sous 54 ans reste volontairement non tranché.)*
 
+**Mouvement 22 — Sa propre faute** *(tranché le 13 août)*
+Ce jusqu'où il remonte est maintenant précis, et ce n'est pas ce qu'on attend. **Il ne remonte pas jusqu'aux corps, ni jusqu'à l'heure de trop : il remonte jusqu'aux semaines pendant lesquelles il n'a pas cherché.**
+
+- **La faute n'est pas d'avoir échoué.** Le système ne juge pas les échecs. La faute est **d'avoir cessé** : on lui a dit d'arrêter de creuser, il a obéi, il a perdu des semaines, il a repris — et il est arrivé une heure trop tard.
+- **Elle est ordinaire et réparable**, sans rien de monstrueux : c'est exactement ce que dit le plan d'origine — *« il n'était pas un monstre : il a obéi »*. Elle vaut un pardon, et le pardon a pris la forme du voile.
+- **Le contrecoup est la scène** : *j'aurais dû continuer*. Un remords d'échec se console ; un remords d'arrêt est **datable**, donc inépuisable. Il sait exactement ce qu'il n'a pas fait, et quand.
+- **Il est absous depuis huit chapitres** et ne l'apprend qu'ici. C'est ce qui autorise le mouvement 23 à le libérer alors que les jumelles ne comprennent rien.
+
+Le mouvement 22 n'est donc pas une scène de charnier, c'est une scène de jours vides. Détail dans la [fiche du veilleur](../03-personnages/veilleur.md) et [`le-meme-jour.md`](le-meme-jour.md).
+
+**Sa mort, en arrière-plan — les deux fautes symétriques** *(tranché le 13 août)*
+Sa mort, dans la vie d'avant, est fixée : **la poursuite du coupable, et l'accident**. Ils trouvent la planque, les filles sont mortes depuis moins d'une heure, l'homme fuit, il part seul derrière lui en laissant ses collègues sur place, et il meurt en même temps que l'assassin.
+
+**Ce n'est pas un rachat**, et l'ancienne objection tombe : la poursuite n'est pas le contraire de sa faute, **c'est le même défaut poussé dans l'autre sens**. Il s'était arrêté une fois ; maintenant il ne peut plus s'arrêter, et l'excès le tue. Rien d'héroïque là-dedans : c'est compulsif. Il ne sauve personne — les filles sont déjà mortes — et sa poursuite ne sert à rien.
+
+Le personnage tient donc entre **deux fautes symétriques : s'être arrêté, puis ne plus pouvoir s'arrêter.** Aucune leçon apprise entre les deux, aucune progression morale — le même homme incapable de tenir la mesure, d'abord en deçà puis au-delà.
+
+Conséquence pour le plan : **le mouvement 14 garde toute sa fonction.** La réparation ne peut pas être un excès, il en est déjà mort sans que ça répare quoi que ce soit. La réparation, c'est de continuer neuf ans sans s'arrêter et sans s'emballer, seul et sans résultat.
+
+⚠️ **Rien de tout ceci ne se raconte de front.** La vie d'avant n'est jamais mise en scène ; elle ne remonte que par bribes indémontrables (interdit n° 4). Ces pages sont de la charpente d'autrice.
+
 **Mouvement 24 — Dernière page** *(fixé)*
 Elle s'éloigne par le bas — elle continue de descendre, elle dépasse le visage, elle passe. Il se dit qu'il la retrouvera de l'autre côté. Elle ne peut pas le comprendre, et il ne le lui dit pas. **Le livre ne confirme rien** : la règle des retrouvailles n'est pas systématique, rien ne garantit qu'elle joue pour lui, et le lecteur qui a saisi le système sait ce que vaut cette phrase. Lui non. Le « On se reverra » n'est pas une promesse, c'est ce qui lui reste.
 
@@ -135,4 +161,6 @@ L'arithmétique, elle, ne change pas — elle continue après la fin du livre, q
 - **Une anomalie dans les chiffres du couple** — il n'y en a pas. Chacun revient à son âge de mort et le décalage des deux morts se retrouve entre les deux arrivées : c'est le défaut du système, pas une exception. Les chiffres ne forment aucune symétrie, il n'y a donc même pas de figure à interpréter. Ça ne peut rien débloquer, ni pour lui ni pour le lecteur.
 - **Une fenêtre de reconnaissance** — il n'y en a pas. Il la reconnaît dès le mouvement 5 et jusqu'au bout. L'année 20 est un repère privé, pas une échéance ; le livre ne contient aucun compte à rebours. Le reliquat y culmine sans rien ouvrir.
 - **Un choix amoureux au mouvement 21** — il n'y en a pas. Ni aveu possible, ni renoncement noble, ni vie commune dans le mensonge : ces trois voies sont écartées. Le mouvement est une constatation, et l'échec est banal.
+- **Une mort douce dans la vie d'avant** — écartée le 13 août 2026. L'intervention chirurgicale, la complication, l'homme qui ne se réveille pas : abandonnée, sa mort est la poursuite. **L'image du compte à rebours sous anesthésie tombe avec elle** et ne doit pas être réemployée ailleurs. Archivée dans la [fiche du veilleur](../03-personnages/veilleur.md).
+- **Une mort en sacrifice** — il n'y en a pas. Il ne sauve personne, sa poursuite ne sert à rien, aucun personnage ne commente sa mort, et la coïncidence avec celle de l'assassin n'est pas une justice : le §11 pose que les coïncidences sont des anomalies, pas des lois. Si la mort semble réparer quelque chose, le mouvement 14 perd sa fonction.
 - **La règle des retrouvailles** — jamais énoncée. Si le lecteur comprend que ceux qui s'aiment se retrouvent *toujours*, le livre devient une consolation, ce que le §1 refuse.
