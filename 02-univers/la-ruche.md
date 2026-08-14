@@ -1,6 +1,8 @@
 # La ruche
 
-*Document de référence sur le fonctionnement de la ruche. Reprend et organise le §5 (l'Archiviste), le §6 (l'Éclaircie), le §8 (les capsules sans éclaircie), le §10 (le lexique) et le §12 (les personnages) du [dossier maître](../L-ECLAIRCIE-dossier-complet.md), et intègre cinq décisions nouvelles de l'autrice.*
+*Document de référence sur le fonctionnement de la ruche. Reprend et organise le §5 (l'Archiviste), le §6 (l'Éclaircie), le §8 (les capsules sans éclaircie), le §10 (le lexique) et le §12 (les personnages) du [dossier maître](../L-ECLAIRCIE-dossier-complet.md), et intègre les décisions successives de l'autrice.*
+
+> ⚠️ **Ce document suppose la révision du §4 posée dans [`le-corps-des-arrivants.md`](le-corps-des-arrivants.md) : on sort de la capsule en sachant parler.** Sans elle, le protocole du nom ci-dessous est impossible. Le dossier maître n'a pas été modifié ; la correction y est en attente.
 
 ---
 
@@ -184,52 +186,135 @@ Vaut pour la narration comme pour les dialogues. Voir [`les-ages-croises.md`](le
 
 ## Qui nomme un arrivant
 
-**Question ouverte. Elle n'est pas tranchée, et elle ne doit pas l'être ici.**
+**Tranché par l'autrice, 15 août 2026 — et aucune des deux pistes documentées n'était la bonne.**
 
-Un arrivant sort **vide** (§4 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)) : il ne sait rien, ne parle pas, ne se connaît pas. Il n'a donc pas de nom — et il ne peut pas s'en donner un, puisqu'il n'a ni langue ni idée de lui-même. **Quelqu'un le nomme donc**, et le dossier n'a jamais dit qui.
+> *« Le veilleur demande à l'arrivant comment il s'appelle et c'est l'arrivant qui instinctivement va répondre. Le veilleur aura pris le soin, en une phrase courte, d'expliquer ce que signifie un prénom. Les arrivants de moins de 8 ans sont systématiquement accueillis par un veilleur, et une berceuse est appelée : c'est elle qui choisit le prénom. »*
 
-La question était théorique tant que les personnages n'avaient pas de prénom. Elle est devenue concrète : Andrew, June, Eliott, Chrissy, Tania portent des noms que quelqu'un, dans ce monde, leur a donnés un jour.
+Le document posait deux pistes : le veilleur qui inscrit au registre, ou celui qui prend l'arrivant en charge. **Ce n'est ni l'un ni l'autre. Le nom vient de l'arrivant lui-même.**
+
+Ce qui rend la chose possible est une décision du même jour : **on sort de la capsule en sachant parler.** Voir [`le-corps-des-arrivants.md`](le-corps-des-arrivants.md). Sans elle, on ne peut poser aucune question à un homme qui vient de sortir, et le protocole ci-dessous n'existe pas.
+
+### Le protocole
+
+C'est un geste de métier, il se fait tous les jours, et il tient en quatre temps.
+
+1. **Le veilleur explique en une phrase courte ce qu'est un prénom.** Une phrase, pas davantage : le mot par lequel on appelle quelqu'un, et par lequel il se sait appelé.
+2. **Il demande à l'arrivant comment il s'appelle.**
+3. **L'arrivant répond instinctivement. Le mot sort.**
+4. **Le veilleur l'inscrit au registre.** C'est le **nom d'éclaircie**.
+
+Rien de plus. Pas de délibération, pas de choix, pas de proposition, pas de liste. On demande, on obtient, on écrit.
+
+*Placement : le protocole vient après le relevé à l'instrument, dans le même mouvement de métier — la travée, l'âge, le nom. Trois choses à écrire sur une ligne, et un homme qui finit sa matinée.*
+
+### L'exception — les moins de huit ans
+
+**Le protocole ne s'applique pas à eux.**
+
+Un arrivant de moins de huit ans est **systématiquement accueilli par un veilleur** — ce n'est pas laissé au tour de rôle. Et **une berceuse est appelée** : c'est **elle** qui choisit le prénom.
+
+C'est la seule dérogation, et elle est de nature différente : ici le nom est bien donné par quelqu'un, et par quelqu'un qui va rester. Un très jeune arrivant ne deviendra jamais adulte ; il ira au jardin et il y restera. Le partage est le même que celui du berceur et du tuteur — *le tuteur instruit ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage* ([`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.6).
+
+*Incidence à ne pas manquer : **la paire relève du protocole ordinaire, donc Chrissy et Tania sont arrivées à huit ans ou plus.** Le chiffre exact reste à trancher — voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §2 —, mais le plancher est désormais fixé, puisque ce sont elles qui ont produit leurs deux mots.*
 
 ### Le nom d'éclaircie — terme du monde
 
-**Décision de l'autrice, 14 août 2026.** Le nom qu'un arrivant reçoit à son arrivée s'appelle son **nom d'éclaircie**.
+**Décision de l'autrice, 14 août 2026 — et le protocole ci-dessus la confirme.**
 
-C'est le seul nom qu'il aura jamais, et le mot le dit sans rien expliquer : il se reçoit **à l'éclaircie**, c'est-à-dire au terme d'une capsule et au moment du rite qui porte ce nom-là. Le terme est ordinaire dans la langue d'ici — on ne le prononce pas plus souvent que nous ne disons « nom de baptême », et pour la même raison : tout le monde en a un, personne n'en a un autre, il n'y a rien à distinguer.
+Le nom qu'un arrivant obtient à son arrivée s'appelle son **nom d'éclaircie**. C'est le seul nom qu'il aura jamais, et le mot le dit sans rien expliquer : il se fixe **à l'éclaircie**, c'est-à-dire au terme d'une capsule et au moment du rite qui porte ce nom-là.
 
-*Emploi dans le dossier : **Andrew**, **Chrissy** et **Tania** sont des noms d'éclaircie, reçus le même matin, à la cérémonie groupée de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §6. **Joël** n'en est pas un.*
+Le terme est ordinaire dans la langue d'ici — on ne le prononce pas plus souvent que nous ne disons « nom de baptême », et pour la même raison : tout le monde en a un, personne n'en a un autre, il n'y a rien à distinguer.
 
-**Ce que le terme implique, et il faut le signaler sans trancher.** Si le nom se reçoit *à l'éclaircie*, alors il vient de **la cérémonie**, et non de celui qui prendra ensuite l'arrivant en charge. Le mot penche donc vers la première des deux pistes ci-dessous — le veilleur qui inscrit au registre. Ce n'est pas une preuve : une langue garde des mots dont l'usage a glissé, et rien n'interdit qu'on appelle *nom d'éclaircie* un nom donné trois jours plus tard, par une berceuse, à un enfant qui sort à peine. **La question reste ouverte. Elle penche.**
+*Ce que la décision du 15 août change au mot : le nom d'éclaircie n'est plus **reçu**, il est **produit**. Le veilleur ne le donne pas, il le recueille et il l'écrit. Le mot reste exact — c'est bien à l'éclaircie que le nom apparaît —, mais il ne désigne plus un don. **Sauf pour les moins de huit ans, où la berceuse choisit vraiment.** Une même expression pour deux gestes différents : c'est une langue normale.*
 
-> **Conséquence à garder pour l'écriture, si la piste 1 l'emporte : Andrew passe ses journées à donner leur nom à des inconnus, sans savoir que quelqu'un a fait ça pour lui.**
+*Emploi dans le dossier : **Andrew**, **Chrissy** et **Tania** sont des noms d'éclaircie, fixés le même matin, à la cérémonie groupée de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §6. **Joël** n'en est pas un.*
 
-*Régime habituel : il ne le remarque jamais, il n'y pense jamais, personne ne le lui fait remarquer. C'est un geste de métier de plus, dans le même mouvement que la travée et l'âge relevé à l'instrument. Le lecteur, lui, fait le calcul — et il le refait au chapitre de la cérémonie groupée, où trois arrivants reçoivent leur nom d'un veilleur qui finit sa matinée.*
+### D'où vient le mot ? Personne ne pose la question
 
-### Deux pistes, exposées sans choisir
+**Et c'est la contrainte principale de toute la section.**
 
-**1. Le veilleur qui reçoit**, au moment de l'inscription au registre. Le nom serait alors **un acte d'archive**, posé dans le même mouvement que la travée, la date d'ouverture et l'âge relevé à l'instrument. Une ligne de plus sur un document ennuyeux.
-*Ce que ça rapporte :* c'est froid, administratif, et parfaitement cohérent avec un Archiviste qui classe et ne console pas. Le motif du registre s'en trouve renforcé — le même geste de métier qui transforme un moment en donnée donne aussi un nom, et personne ne s'arrête dessus. Cela ajoute aussi à la ligne du mouvement 18 : le nom d'arrivant y figure parce que c'est là qu'il a été écrit pour la première fois.
-*Ce que ça coûte :* les noms deviennent interchangeables, et il faut assumer un monde où l'on est nommé par un employé qui en nommera trois autres avant midi. Séduisant, mais ça retire à la scène toute chaleur — et il faudra veiller à ce que cela ne fasse pas glisser la ruche vers l'administration pure, ce que le document se garde de faire partout ailleurs.
+Dans ce monde, il n'y a rien à demander : c'est le protocole, on le fait tous les jours, et les gens répondent. Un veilleur qui pose la question obtient un mot, comme il obtient un chiffre en posant son instrument. Le mot arrive, il est plausible, il fait un prénom. **Aucun personnage ne s'en étonne, jamais** — pas plus qu'on ne s'étonne, chez nous, d'avoir un prénom ([interdits](../01-dossier/les-interdits.md) n° 3 et n° 10).
 
-**2. Celui qui prend l'arrivant en charge** — le tuteur, ou le berceur. Le nom serait alors **un acte de soin**, posé par la personne qui va passer des années avec lui. Ce serait donc June qui a nommé Eliott, et quelqu'un, il y a longtemps, qui a nommé Andrew.
-*Ce que ça rapporte :* un lien de plus, et il est gratuit — June n'a pas seulement la charge d'Eliott, elle lui a donné son nom, et elle le cherche partout au moment où elle le perd. Voir [`../03-personnages/june.md`](../03-personnages/june.md) et [`../03-personnages/eliott.md`](../03-personnages/eliott.md). Cela donne aussi au métier de berceur une profondeur qu'aucune scène n'aurait à expliquer.
-*Ce que ça coûte :* le registre perd la main sur le nom, donc une part de son emprise ; et il faut décider ce qui se passe entre la sortie de capsule et la prise en charge — un arrivant reste-t-il sans nom quelques jours, et la ligne de registre est-elle alors complétée après coup ?
+**Le lecteur, lui, se la posera, et dès la première cérémonie.** Un homme sorti vide, qui ne sait pas qui il est ni où il est, produit un nom sans savoir pourquoi. C'est un reliquat au sens du §12 — **pas un souvenir, une chose qui remonte** — et c'est exactement la « seconde forme de preuve » du dossier maître : la cuisinière qui cuisine, l'homme de quatre-vingts ans qui sait tenir un couteau. Sauf que celle-ci se produit **devant tout le monde, à voix haute, le premier jour, et sur chaque arrivant du livre.**
 
-*Les deux tiennent, et rien n'oblige à les départager pour écrire : c'est le genre de fait qu'un monde n'explique jamais à ses habitants.*
+**Le livre ne le dit jamais.** Ni le narrateur, ni un personnage, ni une doctrine. Le protocole est montré, il fonctionne, on passe à la suite.
 
-### La conséquence, et elle est commune aux deux
+### Et rien ne garantit que ce soit le nom d'avant
 
-Quelle que soit la réponse, une chose est acquise et elle vaut pour tout le livre :
+**C'est ici que la chose devient irrésistible, et il faut la tenir sans jamais la refermer.**
 
-> **Personne, dans ce monde, ne porte le nom qu'il avait avant. Et personne ne peut le savoir.**
+Certains produisent peut-être leur ancien nom. D'autres non — un mot quelconque, le premier qui vienne, un son. **Et personne ne peut vérifier.** Il n'existe dans ce monde aucun document, aucun témoin, aucune trace à quoi comparer : le registre n'enregistre pas une vérification, il enregistre un mot.
 
-Un nom d'ici est toujours un nom neuf, donné par un vivant à un corps qui vient de sortir. Rien ne traverse : ni le nom, ni ce qui allait avec.
+> **Le nom d'éclaircie est le premier mot de leur vie, et le seul qu'ils n'aient appris de personne.**
 
-Le roman s'en sert deux fois, à deux endroits qu'il ne faut pas confondre :
+Ce que ça change par rapport à ce que le document disait avant : **la question n'est plus tranchée dans le sens rassurant.** On ne peut plus écrire *« personne ne porte le nom qu'il avait avant »*. On écrit :
 
-- **Andrew s'appelait Joël**, et il ne l'apprendra jamais. Ce que la ligne de registre lui rend au mouvement 18, c'est son nom d'éclaircie, pas l'autre. Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md), section « Deux noms pour un homme ».
-- **Les deux filles de son affaire ne s'appelaient pas Chrissy et Tania.** Chrissy et Tania sont les noms que ce monde-ci leur a donnés en les recevant ; ceux qu'elles portaient avant ne sont jamais dits, à personne, et Andrew ne les a pas non plus — ses reliquats lui ont rendu deux visages et aucun nom. **Les seuls noms qu'il ait d'elles sont ceux d'ici.** Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+> **Personne ne peut savoir s'il porte le nom qu'il avait avant. Ni lui, ni un autre, ni le registre.**
 
-*Comme le reste de ce document : un fonctionnement observé, jamais expliqué. Aucun personnage ne trouve remarquable qu'on l'ait nommé, pas plus qu'on ne s'étonne d'avoir un prénom chez nous.*
+Le doute est devenu le fait, et il est bien meilleur : il ne se résout d'aucun côté, il n'ajoute aucune règle au monde, et il tient jusqu'à la dernière page.
+
+### Conséquence sur le protagoniste — à écrire
+
+> **Andrew s'est nommé lui-même.**
+
+Interrogé, vide, à peine sorti, l'esprit embrumé, devant une salle qui le regardait, il a produit un mot. Il a dit **Andrew**.
+
+**Il n'a pas dit Joël.**
+
+**Le livre ne commente jamais, ne suggère jamais, ne rapproche jamais.** Pas une phrase du narrateur, pas une réflexion du personnage, pas un silence appuyé. Le fait est posé dans la scène de la cérémonie groupée ([`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §6) et il n'est plus jamais touché.
+
+**Et il fait ce geste-là tous les jours, sur des inconnus.** Il explique en une phrase ce qu'est un prénom, il demande, il écrit. Il ne sait pas que quelqu'un l'a fait pour lui, il n'a aucune raison de le savoir, et personne ne le lui fera remarquer.
+
+*Régime habituel : c'est un geste de métier de plus, dans le même mouvement que la travée et l'âge relevé à l'instrument. Le lecteur fait le calcul — et il le refait au chapitre de la cérémonie groupée, où trois arrivants se nomment eux-mêmes devant un veilleur qui finit sa matinée.*
+
+### Conséquence sur la paire
+
+**Deux arrivantes identiques ont produit deux mots différents.**
+
+Même jour, même âge, deux travées d'écart, un seul visage — et deux mots qui ne se ressemblent pas : **Chrissy** et **Tania**. La salle s'émerveille de ce qui est pareil ; ce qui les sépare vient d'être prononcé par elles, et personne n'y prête attention.
+
+> **Le seul trait qui distingue les deux femmes de ce livre est celui que chacune a produit elle-même, le premier jour, sans savoir ce qu'elle disait.**
+
+*Le registre porte les deux mots l'un sous l'autre. C'est cette ligne-là qu'Andrew ira lire.*
+
+### Ce que le roman en fait — deux emplois à ne pas confondre
+
+- **Andrew s'appelait Joël, et il ne l'apprendra jamais.** Ce que la ligne de registre lui rend, c'est son nom d'éclaircie — celui qu'il a produit lui-même —, pas l'autre. Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md), section « Deux noms pour un homme ».
+- **Les deux filles de son affaire ne s'appelaient pas Chrissy et Tania.** Ce sont les mots qu'elles ont produits en arrivant ; ceux qu'elles portaient avant ne sont jamais dits, à personne, et Andrew ne les a pas non plus — ses reliquats lui ont rendu deux visages et aucun nom. **Les seuls noms qu'il ait d'elles sont ceux d'ici.** Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+
+*Comme le reste de ce document : un fonctionnement observé, jamais expliqué. Aucun personnage ne trouve remarquable qu'on lui ait demandé son nom, pas plus qu'on ne s'étonne d'avoir un prénom chez nous.*
+
+---
+
+## Il n'y a pas de noms de famille
+
+**Décision de l'autrice, 15 août 2026. C'est une règle du monde, et elle n'est jamais énoncée dans le roman.**
+
+> *« Dans ce monde il n'y a pas de nom de famille, car déjà la famille n'est pas un concept. »*
+
+**Personne, ici, n'a de nom de famille.** Ni particule, ni patronyme, ni nom d'usage, ni nom de maison. On a un prénom, un seul, et c'est celui qu'on a produit soi-même — ou, pour les moins de huit ans, celui qu'une berceuse a choisi.
+
+**La raison est mécanique, et elle était déjà là.** Il n'y a ni naissances, ni parents, ni sang, ni filiation : tout le monde est stérile et la ruche est la seule source d'arrivées (§4 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)). **Un nom hérité n'aurait rien à désigner.** C'est exactement le raisonnement qui vide le mot *jumeau* de son sens — voir [« Une paire »](#une-paire) —, appliqué cette fois à une catégorie entière du nom propre. La langue ne l'a jamais formée, faute d'objet.
+
+### Le régime : jamais dit, jamais montré comme une absence
+
+**La règle ne s'énonce nulle part dans le roman.** Aucun personnage ne la formule, aucun narrateur ne la signale, et surtout **on n'écrit jamais que quelque chose manque** — ce serait l'[interdit n° 5](../01-dossier/les-interdits.md), qui refuse toute description d'absence, et l'[interdit n° 1](../01-dossier/les-interdits.md) par une autre porte.
+
+On écrit simplement des gens qui s'appellent Andrew, June, Eliott, Isaac, Chrissy, Tania. On les présente, on les convoque, on les inscrit au registre, on les appelle dans un couloir — **avec un mot chacun, toujours.**
+
+**Le lecteur peut ne jamais le remarquer.** Ou le découvrir à la relecture, d'un coup, en s'apercevant que pas une personne de ce monde n'a jamais eu deux noms. C'est le régime exact de l'[interdit n° 1](../01-dossier/les-interdits.md) : ce qui n'est pas dit n'est pas caché, il est simplement à sa place.
+
+*Contrainte d'écriture, à vérifier à la relecture ligne à ligne : aucune formulation qui suppose un second nom. Pas de « monsieur », pas d'initiale, pas de nom sur une porte, pas de liste alphabétique par patronyme, pas de « les Andrew » au pluriel comme on dit une famille. Le service, l'administration et la police de ce monde-ci désignent les gens par un prénom, une fonction et une ligne de registre.*
+
+### Ce que ça ouvre du côté de la vie d'avant
+
+**C'est une trouvaille narrative, et elle est développée là où elle sert :** dans les fragments, on peut désigner le dossier par un **nom de famille** — *« l'affaire [Nom] »* —, comme se nomment les affaires de police chez nous.
+
+Ce que ça résout, et ce que ça produit chez Andrew : voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §4.7 et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §2.5.
+
+**Du côté de ce document, un seul point à retenir :** un nom de famille est, pour un habitant d'ici, **un mot dont la catégorie n'existe pas**. Ce n'est pas un mot qu'il ignore — c'est un mot qu'il ne peut pas classer. Il ne peut même pas savoir que c'est un nom.
+
+**N'inventer aucun nom de famille.** On écrit `[Nom]` partout dans le dossier tant que l'autrice n'a pas choisi. Voir « À trancher ».
 
 ---
 
@@ -294,9 +379,17 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **La correspondance des lieux.** Est-elle assez régulière pour qu'un veilleur l'ait remarquée sans pouvoir la nommer, ou reste-t-elle entièrement hors champ ?
 - [ ] **Qui consulte le registre en dehors des veilleurs ?** L'administration du mouvement 3 en tire des statistiques : par quel canal ?
 - [ ] **La taille de la ruche.** Combien de travées, combien de veilleurs — c'est-à-dire : le protagoniste travaille-t-il seul, ou dans une équipe qui le voit faire ?
-- [ ] **Qui nomme un arrivant ?** Le veilleur qui l'inscrit au registre, ou celui qui le prend en charge. Voir la section correspondante : les deux pistes sont exposées, aucune n'est retenue — mais **le terme « nom d'éclaircie » fait pencher vers la première**, puisqu'un nom reçu *à l'éclaircie* vient de la cérémonie.
+- [x] ~~**Qui nomme un arrivant ?**~~ — **tranché le 15 août 2026 : personne. L'arrivant se nomme lui-même**, et le veilleur inscrit le mot. Aucune des deux pistes documentées n'était la bonne ; elles sont supprimées. Exception : les moins de huit ans, nommés par une berceuse. Voir [« Qui nomme un arrivant »](#qui-nomme-un-arrivant).
+- [ ] **Le nom de famille de l'affaire — `[Nom]`.** Le mot que les fragments emploient pour désigner le dossier : *« l'affaire [Nom] »*. **Rien n'est inventé ici et rien ne doit l'être** ; le dossier écrit `[Nom]` en attendant que l'autrice choisisse. Points à peser avec elle : un nom courant ou singulier, court ou long, et s'il doit sonner comme un nom de famille de chez nous sans jamais situer un pays ([interdit n° 6](../01-dossier/les-interdits.md)). Voir [« Il n'y a pas de noms de famille »](#il-ny-a-pas-de-noms-de-famille).
+- [ ] **La phrase courte du veilleur.** Ce qu'il dit exactement pour expliquer ce qu'est un prénom, en une phrase, à quelqu'un qui vient de sortir. Elle sera prononcée au moins deux fois dans le livre — à la cérémonie d'ouverture, et à la cérémonie groupée — et il faut qu'elle soit la même les deux fois, usée comme une formule de métier.
+- [ ] **Que se passe-t-il quand le mot ne vient pas ?** Un arrivant qui ne répond rien, qui répond deux mots, qui répond une phrase entière, ou qui produit le même mot qu'un autre. Le protocole doit avoir une routine pour ça — **et elle doit rester banale**, du genre qu'on ne commente pas. À ne développer que si une scène en a besoin.
+- [ ] **L'âge d'arrivée de la paire.** Le protocole ordinaire ne s'applique qu'à partir de huit ans, et ce sont elles qui ont produit leurs noms : **le plancher est donc huit ans.** Le chiffre exact reste à trancher — voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §2.
 
 *Réglé : jusqu'où remontent les registres, et depuis combien de temps ça dure — non, et personne ne sait. Voir la section correspondante.*
+
+*Réglé : qui nomme un arrivant — **il se nomme lui-même**, le veilleur demande et inscrit ; une berceuse nomme les moins de huit ans. Voir [« Qui nomme un arrivant »](#qui-nomme-un-arrivant).*
+
+*Réglé : **il n'y a pas de noms de famille dans ce monde**, et la règle n'est jamais énoncée dans le roman. Voir [« Il n'y a pas de noms de famille »](#il-ny-a-pas-de-noms-de-famille).*
 
 *Réglé : comment on nomme deux arrivants identiques — **une paire**, mot du registre ; « jumeau » n'existe pas dans ce monde et reste réservé aux chapitres de reliquat. Voir [« Une paire »](#une-paire).*
 

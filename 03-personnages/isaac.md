@@ -1,6 +1,6 @@
 # Isaac — l'ami d'Andrew
 
-*Personnage secondaire. **Isaac** est son nom dans ce monde-ci — comme tout le monde, il en avait peut-être un autre avant, et personne ne peut le savoir.*
+*Personnage secondaire. **Isaac** est son **nom d'éclaircie** — le mot qu'il a produit lui-même, à peine sorti, le matin où un veilleur lui a demandé comment il s'appelait. Rien ne garantit que ce soit celui d'avant, et personne ne peut le vérifier. Il ne se l'est jamais demandé.*
 *Sa fonction est structurelle : c'est lui qui rend possible la présence d'un veilleur dans une enquête criminelle.*
 
 ---

@@ -19,7 +19,10 @@
 | **Isaac** | ce monde-ci | l'agent de police, ami d'Andrew |
 | **Joël** | **la vie d'avant uniquement** | le nom de l'enquêteur. Jamais dans une scène d'ici — et **prononcé une seule fois dans tout le roman**, à la poursuite finale (section 2) |
 | *(les deux filles de l'affaire)* | **la vie d'avant** | **aucun nom, jamais.** On écrit *les deux filles*, *les sœurs*, *elles* |
+| **`[Nom]`** | **la vie d'avant uniquement** | le **nom de famille** par lequel les fragments désignent le dossier : *« l'affaire [Nom] »*. **Non choisi — n'inventer aucun nom de famille.** Section 2.5 |
 
+- **Dans ce monde-ci, personne n'a de nom de famille**, et la règle n'est jamais énoncée dans le roman. On n'écrit donc jamais un second nom pour Andrew, June, Eliott, Isaac, Chrissy ou Tania — ni sur une porte, ni dans un registre, ni dans une convocation. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ».
+- **Ces prénoms-ci n'ont été donnés par personne : chacun a produit le sien** en sortant de la capsule, à la question du veilleur. Exception, les moins de huit ans, nommés par une berceuse. **Eliott, arrivé à dix ans, s'est donc nommé lui-même** — ce n'est pas June qui l'a nommé, et ce point est à répercuter dans [`../03-personnages/june.md`](../03-personnages/june.md) et [`../03-personnages/eliott.md`](../03-personnages/eliott.md), que ce document ne modifie pas. Protocole complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant ».
 - **Andrew et Joël ne se rencontrent jamais dans la même phrase**, sauf décision délibérée de l'autrice. Les mettre côte à côte, c'est écrire deux hommes.
 - **Chrissy et Tania existent dans ce monde-ci, et nulle part ailleurs.** Ce sont les noms que la ruche leur a donnés à leur arrivée. On les emploie librement dans toute scène d'ici. **Dans les chapitres de la vie d'avant, les deux filles n'ont aucun nom** — et **leurs noms d'alors ne sont jamais donnés**, ni au lecteur, ni à un personnage, ni dans ce dossier. Ce n'est pas une lacune, c'est une décision : il n'y a rien à trouver, et rien à inventer.
 - Les périphrases restent justes quand elles désignent une fonction — « le veilleur », « l'enquêteur », « le garçon », « les jumelles », « la berceuse ». On ne remplace un prénom par une périphrase, ni l'inverse, que pour alléger la lecture.
@@ -182,6 +185,49 @@ Quand il dit *Chrissy*, **elle se retourne** — et c'est pire qu'un silence. Il
 **Option 1 — Joël n'est jamais prononcé du tout.** Le prénom serait resté un pur nom de bible d'autrice, sans coût et sans réglage ; écartée parce qu'elle laissait perdre un effet qui ne coûte rien non plus, une fois placé au dernier endroit possible.
 
 **Option 3 — Joël est nommé dès le début.** Le livre changeait de forme, le lecteur sachant d'emblée qu'il y a deux hommes, et le suspense portant sur leur lien et non sur leur nombre ; écartée parce que ce n'était pas le roman décrit par l'autrice — c'en était un autre, viable, où la séquence de révélation de la section 5 et les faux raccords de [`faux-raccords.md`](faux-raccords.md) n'avaient plus d'objet.
+
+## 2.5 La sortie de secours : *« l'affaire [Nom] »*
+
+> **Décision de l'autrice, 15 août 2026.** *« On donne un nom de famille et on laisse une règle en suspens sans jamais la dire : dans ce monde-ci il n'y a pas de nom de famille, car déjà la famille n'est pas un concept. On pourrait alors dire l'affaire [Nom] pour ne pas éveiller les soupçons. »*
+>
+> **N'inventer aucun nom de famille.** On écrit `[Nom]` partout dans le dossier jusqu'à ce que l'autrice choisisse. Voir « À trancher ».
+
+**La règle du monde est établie ailleurs et n'est jamais énoncée dans le roman** : personne, ici, n'a de nom de famille, parce qu'il n'y a ni naissances, ni parents, ni sang, ni filiation, et qu'un nom hérité n'aurait rien à désigner. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ». Le développement narratif complet est en [`le-meme-jour.md`](le-meme-jour.md) §4.7. **Ce qui suit ne traite que de ce que ça fait au dispositif des deux récits.**
+
+### Ce que ça donne aux fragments sans rien leur retirer
+
+La section 2.2 impose que **rien** ne se prononce comme nom dans la vie d'avant. Une affaire criminelle qui n'a pas de nom se raconte pourtant mal : à force d'écrire *l'affaire*, *le dossier*, *l'enquête*, le texte finit par avoir l'air d'un texte qui contourne quelque chose — et un lecteur qui sent qu'on contourne se met à chercher qui.
+
+**Un nom de famille lève la difficulté sans toucher à la règle.** *L'affaire [Nom]* nomme le dossier, pas les gens. Aucun prénom n'est dit. Le compte des hommes est intact, l'anonymat des deux filles est intact, la règle de 2.2 n'a pas bougé d'une lettre.
+
+**Et il couvre les deux sœurs sans en désigner aucune.** C'est le seul type de mot qui puisse faire ça. Le §2.3 pose que le dispositif prive les victimes de leur nom ; ce mot-ci ne le leur rend pas — **il nomme ce qui leur est commun, c'est-à-dire ce que le monde d'ici n'a même pas de mot pour penser.**
+
+### Pourquoi ça ne coûte rien au dispositif, alors que ça devrait
+
+**Il faut le vérifier explicitement, parce que le §3.2 dit le contraire de tout le reste.**
+
+Le §3.2 pose que **tout ce qui particularise fortement l'un des deux mondes coûte quelque chose au dispositif** : si le lecteur peut trier les chapitres, les deux récits cessent de se lire comme un seul. Or un nom de famille est exactement ça — une catégorie qui existe d'un côté et pas de l'autre.
+
+**Et pourtant ça ne coûte rien, pour une raison précise : la particularité joue par l'absence, et du côté d'ici.**
+
+| | Ce qu'on lit | Ce que le lecteur en fait |
+|---|---|---|
+| **Vie d'avant** | *l'affaire [Nom]* | rien : c'est ainsi qu'on nomme une affaire |
+| **Ce monde-ci** | Andrew, June, Eliott, Isaac | rien : personne ne remarque un nom qu'on ne lui donne pas |
+
+Un marqueur présent d'un seul côté est un tri. **Un marqueur absent d'un seul côté n'en est pas un**, parce qu'on ne remarque pas ce qui n'est pas là — c'est l'[interdit n° 5](../01-dossier/les-interdits.md) retourné à l'avantage du livre. Il n'y a rien à gommer, rien à surveiller, aucune scène à écrire autrement.
+
+**C'est donc le premier élément du dossier qui distingue les deux mondes sans affaiblir la confusion.** Il vaut d'être signalé comme tel : ailleurs, il faut protéger le dispositif contre les particularités ; ici, la particularité travaille pour lui.
+
+*Et à la relecture, elle devient un cadeau : le lecteur qui revient sur le livre s'aperçoit que pas une personne de ce monde-ci n'a jamais porté deux noms. Il ne l'avait pas vu, il ne pouvait pas le voir, et rien ne lui a été caché.*
+
+### Ce qu'Andrew en fait — rien, et c'est le point
+
+**Il entend un mot dont il ne peut pas identifier la catégorie.** Ce genre de mot n'existe pas dans sa langue : il n'a pas de case où le ranger, pas d'usage à lui supposer, pas de question à poser à son sujet. **Il ne peut même pas savoir que c'est un nom.**
+
+Le mot passe donc sans rien lui apprendre — comme tout le reste. C'est le régime de la section 2.2.4, appliqué cette fois non plus à un prénom qu'il entend crier, mais à une catégorie entière de langue qu'il n'a pas.
+
+*Corollaire à ne pas perdre : cela ne rouvre en rien l'[interdit n° 1](../01-dossier/les-interdits.md). Un mot qu'un personnage ne peut pas classer ne lui apprend rien sur l'autre côté ; il ne lui apprend même pas qu'il y a un autre côté.*
 
 ---
 
@@ -412,5 +458,9 @@ Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux
 - [ ] La place du chapitre de sa propre cérémonie.
 - [ ] Le devenir de l'écho *cop à cop, poste à poste* : l'ami policier remplace-t-il l'inconnu lassé, ou les deux coexistent-ils ?
 - [x] ~~Le nom de l'agent de police~~ — **Isaac.** Voir [`../03-personnages/isaac.md`](../03-personnages/isaac.md).
-- [ ] L'entrée au lexique du berceur pour arrivants jeunes.
+- [ ] L'entrée au lexique du berceur pour arrivants jeunes. **Point nouveau à y intégrer : le berceur nomme aussi les arrivants de moins de huit ans**, systématiquement appelé par le veilleur d'accueil. C'est un acte de métier de plus, et il tombe exactement sur la ligne de partage posée au §10.6.
 - [ ] Où et combien de fois la croyance du voile-traumatisme se dit dans le livre.
+- [x] ~~Comment nomme-t-on l'affaire dans les fragments sans prononcer de prénom ?~~ — **tranché le 15 août 2026 : par un nom de famille, *« l'affaire [Nom] »*.** Section 2.5.
+- [ ] **Le nom de famille lui-même — `[Nom]`.** Non choisi, et rien ne doit être inventé. Il doit sonner comme un nom de famille sans situer aucun pays ([interdit n° 6](../01-dossier/les-interdits.md)), et il sera lu des dizaines de fois : c'est le mot le plus répété de tous les fragments.
+- [ ] **La révision du §4 du dossier maître** — *on sort de la capsule en sachant parler*. Elle est écrite dans [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md) et **le dossier maître n'a pas été corrigé**. À reprendre par l'autrice.
+- [ ] **L'incidence sur §10.3, *dix ans de métier ou dix ans dans ce monde ?*** La langue étant acquise dès la sortie, l'apprentissage d'Andrew est plus court qu'on ne le supposait. Aucun chiffre n'est proposé ; la question devient plus facile à trancher dans un sens que dans l'autre.

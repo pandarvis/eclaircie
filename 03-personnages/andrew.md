@@ -12,7 +12,7 @@
 | **Nom dans la vie d'avant** | **Joël** — nom de bible d'autrice, **prononcé une seule fois dans tout le roman**, à la poursuite finale |
 | **Vie d'avant** | enquêteur. Mort à 62 ans. |
 | **Métier** | veilleur, débutant. En poste depuis peu. Lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. |
-| **Ancienneté** | **dix ans** dans ce monde, et **52 ans** au début du roman. Arrivé vide, tout appris depuis zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans le métier. Il devient veilleur en cours de route, et n'a au début du roman **que quelques années de service** : c'est un débutant. Il est le dernier arrivé. |
+| **Ancienneté** | **dix ans** dans ce monde, et **52 ans** au début du roman. Arrivé vide — **la langue exceptée** —, tout appris depuis zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans le métier. Il devient veilleur en cours de route, et n'a au début du roman **que quelques années de service** : c'est un débutant. Il est le dernier arrivé. |
 | **Particularité** | voilé. Personne ne le sait. **Lui non plus, au début.** |
 | **Faute** | **d'avoir cessé.** On lui a dit d'arrêter de creuser l'affaire des jumelles ; il a obéi. Il a perdu des semaines, il a repris — et il est arrivé une heure trop tard. Ce n'est pas l'échec qui est jugé, c'est l'arrêt. Faute réparable → pardon → **le voile est le pardon.** |
 
@@ -30,6 +30,36 @@ Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-a
 > **2.** *« On n'a jamais son nom terre 1 de tout le roman, sauf à la toute fin quand il se lance à la poursuite de l'assassin. On peut entendre crier son partenaire dans son dos : "Joël non attend !" »*
 >
 > **Le nom ne se lit qu'une fois dans tout le livre**, sous la forme d'un cri : *« Joël, non, attends ! »*
+
+### Andrew s'est nommé lui-même
+
+**Règle du monde, posée par l'autrice.** Un nom d'éclaircie n'est pas donné : il est **retrouvé**. Le veilleur explique en une phrase courte ce qu'est un prénom, puis demande à l'arrivant comment il s'appelle. **L'arrivant répond**, instinctivement, sans réfléchir, sans savoir d'où lui vient le mot. Le veilleur l'inscrit au registre. Personne, jamais, ne se demande d'où sort le mot : c'est le déroulé normal d'une matinée. Rien ne garantit que ce soit le nom d'avant, et **personne ne peut le vérifier** — ni l'arrivant, qui est vide, ni le veilleur, qui n'a rien à comparer.
+
+*(Le seuil : cette question ne se pose qu'aux arrivants de huit ans et plus. En dessous, une berceuse est appelée et c'est elle qui choisit — voir [`june.md`](june.md).)*
+
+**Ce qui s'applique à lui.** Le matin de son arrivée, à peine sorti, le corps de soixante-deux ans et l'esprit vide, on lui a demandé son nom. Il a produit le mot **Andrew**.
+
+> **Il n'a pas dit Joël.**
+
+**Et le livre ne commente jamais.** Ni le narrateur, ni un personnage, ni cette fiche à l'écriture : aucune phrase ne suggère que le mot aurait pu être un autre, aucune ne rapproche les deux noms, aucune ne pose la question. Andrew est son nom, on l'inscrit, on passe au suivant. **C'est au lecteur seul de buter dessus** — des centaines de pages plus tard, quand un partenaire crie *Joël* dans un autre monde, et que rien dans le texte ne vient lui dire ce qu'il vient de comprendre.
+
+*C'est exactement le même réglage que partout ailleurs : le livre pose les pièces et ne les ramasse pas. Voir « Ce qui ne change pas » plus bas — le nom d'avant n'existe que pour le lecteur.*
+
+### La conséquence de métier — il fait ce geste tous les jours
+
+**C'est le point à ne pas manquer, et il ne coûte pas une ligne d'explication.**
+
+Andrew est veilleur. Demander son nom à un arrivant, c'est **son travail**. Il tient les cérémonies, il explique en une phrase ce qu'est un prénom, il pose la question à un corps qui vient de sortir, il note ce qu'on lui répond, il passe au suivant. Il l'a fait des dizaines de fois. Il le fera encore pendant tout le roman.
+
+**Et il ne s'est jamais demandé d'où ça venait.** Ni chez eux, ni chez lui. Le geste est trop ordinaire pour qu'une question s'y attache : on demande, on obtient un mot, on écrit. Un veilleur qui s'interrogerait là-dessus serait un veilleur bizarre, et il n'y en a pas.
+
+Ce que ça donne à l'écriture :
+
+- **Une scène de routine qui contient tout le livre.** Le lecteur voit Andrew poser à un inconnu, avec l'ennui du professionnel, exactement la question qu'on lui a posée à lui — et dont il ne sait pas ce qu'elle lui a fait produire.
+- **À jouer une fois, tôt, sans insistance.** Le mouvement 1 ou le mouvement 2 suffisent. Ensuite on n'y revient plus : la scène a été vue, elle attendra.
+- **Rien ne doit s'y arrêter.** Pas de silence appuyé, pas de main qui hésite au-dessus du registre, pas de phrase qui pèse. Il inscrit, il referme.
+
+*À rapprocher de sa honte quotidienne (voir « Reste à trouver ») : un homme dont le métier est de garder trace, et qui ne retient rien. Il a écrit des noms toute sa carrière sans jamais penser au sien.*
 
 ### Pourquoi c'est un problème et pas un détail
 
@@ -57,7 +87,7 @@ C'est le tableau des deux fautes symétriques — d'abord en deçà, puis au-del
 
 ### Ce qui ne change pas
 
-**Le nom n'est jamais un savoir de personnage, pas même là.** Andrew ne peut pas apprendre qu'il s'est appelé Joël : il est sorti vide, et rien dans ce monde ne conserve un nom d'avant. Il entend le cri comme il entend le reste de la scène, de l'extérieur, et il n'en fait rien. Au mouvement 18, ce qu'il lit sur la ligne de registre reste **son nom d'éclaircie** — celui qu'on lui a donné le matin de son arrivée —, pas l'autre. Le nom d'avant n'existe que pour le lecteur.
+**Le nom n'est jamais un savoir de personnage, pas même là.** Andrew ne peut pas apprendre qu'il s'est appelé Joël : il est sorti vide, et rien dans ce monde ne conserve un nom d'avant. Il entend le cri comme il entend le reste de la scène, de l'extérieur, et il n'en fait rien. Au mouvement 18, ce qu'il lit sur la ligne de registre reste **son nom d'éclaircie** — celui qu'il a produit lui-même, le matin de son arrivée, et qu'un veilleur a inscrit —, pas l'autre. Le nom d'avant n'existe que pour le lecteur.
 
 ### Et il n'a d'elles aucun nom
 
@@ -103,8 +133,9 @@ La hiérarchie qui lui dit de lâcher l'affaire au mouvement 13 peut donc être 
 
 ### Correction en attente sur le dossier maître
 
-Le [dossier maître](../L-ECLAIRCIE-dossier-complet.md) n'a **pas** été modifié. Deux mentions y sont désormais périmées :
+Le [dossier maître](../L-ECLAIRCIE-dossier-complet.md) n'a **pas** été modifié. Plusieurs mentions y sont désormais périmées :
 
+- **§4, « Le principe de l'univers »** : *« L'arrivant sort vide. Il ne sait pas qui il est, ne parle pas, ne sait rien. »* Périmé sur un point, et c'est un point majeur. **On sort de la capsule en sachant parler.** *« On ne sait faire que ça, l'esprit comme embrumé après un long sommeil. »* Le reste tient sans changement : on ne sait pas qui on est, on ne sait rien du monde, on ne sait rien faire. **La langue est là, et c'est la seule chose qui le soit.** C'est ce qui rend possible la question du nom au premier matin — et, dans son cas, la réponse *Andrew*.
 - **§12, « Le veilleur — protagoniste »** : *« Vétéran du métier »*. Faux — il débute.
 - **§13, mouvement 1** : *« vu par un professionnel blasé »*. Faux — il n'est pas blasé, il est neuf. Le regard d'ouverture n'est pas celui de l'habitude usée, c'est celui de l'application.
 - **§12, « Le veilleur — protagoniste »** : *« Il ne l'a pas résolue »*. À préciser depuis le 13 août 2026 — il l'a résolue, et trop tard : il a trouvé la planque, les filles étaient mortes depuis moins d'une heure, et il est mort en poursuivant le coupable. Ce qui reste exact et qui compte : *« on lui a dit d'arrêter de creuser, et il a obéi »*.

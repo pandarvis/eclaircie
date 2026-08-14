@@ -30,6 +30,19 @@ Application directe du barème de [`../02-univers/ce-qui-est-juge.md`](../02-uni
 
 Deux verdicts sans mystère. C'est l'arithmétique qui suit qui fait le personnage.
 
+### Et deux façons d'être nommé
+
+*Point neuf, et il tombe pile sur eux. Aucun prénom n'est proposé ici : seul le mécanisme est fixé.*
+
+Un nom d'éclaircie n'est pas donné, il est **retrouvé** : le veilleur explique en une phrase courte ce qu'est un prénom, demande à l'arrivant comment il s'appelle, et l'arrivant répond instinctivement. **Sauf en dessous de huit ans** : ces arrivants-là sont systématiquement accueillis par un veilleur, une berceuse est appelée, et **c'est elle qui choisit le prénom**.
+
+- **La mère**, arrivée à trente-cinq ans, a produit son nom elle-même, comme tout le monde.
+- **L'enfant**, arrivé à cinq, était sous le seuil. On ne lui a rien demandé. **Une berceuse a été appelée, et elle l'a nommé.**
+
+**Ce que ça ajoute, sans un mot de texte.** Elle sort la même matinée, à quelques minutes et quelques travées de lui. Elle dit son propre nom à un veilleur, pendant qu'à côté une inconnue choisit celui de son fils. Puis elle deviendra berceuse à son tour — et elle sera, un jour, celle qu'on appelle pour nommer l'enfant de quelqu'un d'autre.
+
+*Consigne inchangée et impérative : rien de tout cela ne se dit, ne se remarque, ne se commente. Elle ne sait pas que c'est son fils, personne ne le sait, et la coïncidence des deux matins n'est visible que pour le lecteur qui aura tout tenu ensemble. Voir la réserve du §4 — elle n'est pas voilée.*
+
 ---
 
 ## 3. L'arithmétique
@@ -78,7 +91,7 @@ C'est un reliquat au sens du §12 :
 
 > **Le reliquat n'est pas un souvenir, c'est une vocation.** On ne se rappelle pas ce qu'on a été : on y retourne.
 
-Elle ne se rappelle rien. Elle est sortie vide comme tout le monde. Elle y retourne.
+Elle ne se rappelle rien. Elle est sortie vide comme tout le monde — la langue exceptée, qui ne rend rien. Elle y retourne.
 
 ### Réserve importante
 

@@ -63,6 +63,8 @@ Application du barème de [`ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.m
 
 De combien les jumelles descendent, le document ne le dit pas : c'est à l'autrice, et ça se réglera au moment où elles apparaissent en scène au mouvement 16 puis 23. Ce qui est acquis, c'est le sens de la flèche — **elles descendent**, et le §7 rappelle que descendre n'est pas une punition mais la seule grâce que le système sache accorder.
 
+⚠️ **Contrainte nouvelle sur ce chiffre, 15 août 2026 : le plancher est huit ans.** Le protocole du nom ne s'applique qu'à partir de huit ans ; en dessous, une berceuse est appelée et c'est elle qui choisit ([`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant »). Or l'autrice pose que **ce sont elles qui ont produit leurs deux mots** — donc elles sont arrivées à huit ans au moins. Le chiffre exact reste ouvert ; sa borne basse ne l'est plus.
+
 **Les trois verdicts du credo se lisent donc sur une seule journée, à trois travées voisines.**
 
 > L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.
@@ -209,6 +211,53 @@ Ce qui reste, et qui suffit : des gestes, une méthode, des pièces, des heures,
 
 *Un signe est autorisé, un seul, et il n'appartient pas au fragment : c'est la ligne de registre du mouvement 18, qui porte une date. Elle ne décrit personne. Elle se contente d'être la sienne.*
 
+### 4.7 La sortie : on nomme l'affaire, pas les gens — *« l'affaire [Nom] »*
+
+> **Décision de l'autrice, 15 août 2026.** *« On donne un nom de famille et on laisse une règle en suspens sans jamais la dire : dans ce monde-ci il n'y a pas de nom de famille, car déjà la famille n'est pas un concept. On pourrait alors dire l'affaire [Nom] pour ne pas éveiller les soupçons. »*
+>
+> **N'inventer aucun nom de famille.** Le dossier écrit `[Nom]` tant que l'autrice n'a pas choisi. Voir « À trancher ».
+
+**Le fait de monde est établi ailleurs :** dans ce monde-ci, personne n'a de nom de famille — il n'y a ni naissances, ni parents, ni sang, ni filiation, donc un nom hérité n'a rien à désigner. **La règle n'est jamais énoncée dans le roman.** Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ».
+
+Ce qui suit est son usage narratif, et c'est la trouvaille.
+
+#### Le problème que ça résout
+
+Le §4.6 interdit **tout nom prononcé** dans les chapitres de la vie d'avant — une seule règle, une seule exception, le cri du partenaire à la poursuite. Les deux filles n'ont donc pas de nom, l'enquêteur non plus, et le narrateur ne nomme personne.
+
+**Restait un manque bien concret : comment désigne-t-on l'affaire ?** Une enquête se nomme. Des policiers qui travaillent dessus pendant des mois lui donnent forcément un nom, et un texte qui écrit sans relâche *l'affaire*, *cette affaire*, *l'enquête*, *le dossier* finit par sonner comme un texte qui évite quelque chose.
+
+**Un nom de famille répond exactement, et sans rien coûter :**
+
+| Ce que ça résout | Comment |
+|---|---|
+| **On peut nommer l'affaire** | *« l'affaire [Nom] »*, comme se nomment les affaires de police |
+| **Sans prononcer un seul prénom** | le §4.6 est intact — aucun prénom n'est dit, la règle n'a pas bougé d'un mot |
+| **Sans que le lecteur voie quoi que ce soit** | c'est ainsi qu'on nomme une affaire ; il n'y a rien d'anormal à signaler |
+| **Un seul mot pour les deux sœurs** | il les couvre toutes les deux et **n'en désigne aucune** |
+
+**La dernière ligne mérite qu'on s'y arrête.** Un nom de famille est le seul mot qui puisse s'appliquer à deux personnes à la fois sans distinguer laquelle. Il ne les nomme pas : il nomme ce qui leur est commun. Elles restent exactement aussi anonymes qu'avant — *les deux filles*, *les sœurs*, *elles* —, et l'affaire, elle, a un nom. **Le dispositif du §4.6 gagne un mot et n'en perd aucun.**
+
+#### Ce que ça produit chez Andrew — et c'est le meilleur
+
+**Il entend un mot dont il ne peut pas identifier la catégorie.**
+
+Ce n'est pas un mot qu'il ignore. Un mot ignoré se range : on comprend que c'est un objet, un lieu, un métier, quelque chose qu'on ne connaît pas encore. **Ce genre de mot-ci n'existe pas dans sa langue.** Il n'a aucune case où le mettre, aucun usage à lui supposer, aucune question à poser à son sujet.
+
+> **Il ne peut même pas savoir que c'est un nom.**
+
+Et donc il n'en fait rien. Il ne le retient pas comme un indice, ne le note pas, ne le cherche pas. Le mot passe. *C'est un signe de plus qui traverse le livre sans jamais rien lui apprendre — le régime de tout le dispositif.*
+
+#### C'est un faux raccord d'un genre nouveau
+
+**À signaler comme tel, parce que ça élargit le procédé.**
+
+Les faux raccords établis sont **physiques** : la cicatrice au visage de l'enquêteur, la main. Un détail du corps qui existe d'un côté et pas de l'autre, et qui donne au lecteur une contradiction apparente là où il n'y a que la règle du monde.
+
+Celui-ci n'est pas un détail. C'est **une catégorie de mot qui existe d'un côté et pas de l'autre** — un faux raccord de langue, pas de corps. Il ne se voit pas, il ne se décrit pas, il ne s'attrape qu'à la relecture : le lecteur s'aperçoit un jour que dans tous les chapitres d'ici, pas une personne n'a jamais eu deux noms.
+
+*Renvoi à [`faux-raccords.md`](faux-raccords.md), qui n'est pas modifié : la réserve de pistes y distingue le registre du corps et celui du comportement. **Un troisième registre apparaît — celui de la langue** — et il faudra décider s'il entre dans le dispositif ou s'il reste à part, puisqu'il n'obéit pas à la règle du dosage : il n'est pas placé, il est partout, tout le temps, et personne ne peut le compter.*
+
 ---
 
 ## 5. Le poste de police — mouvement 13
@@ -228,6 +277,8 @@ Andrew se rend dans un poste de police **de ce monde-ci**. Il demande si on a qu
 *Note de vocabulaire : au comptoir, il ne peut pas dire « des jumelles » — le mot n'existe pas ici. Il dispose de **une paire**, qui est un mot de registre et sonne administratif dans une conversation. Il dira donc probablement ce qu'il peut : deux filles qui se ressemblent, exactement. Et ça n'aide pas à se faire prendre au sérieux.*
 
 *Corollaire sur les noms, et il aggrave la scène : **il ne peut donner aucun nom.** Ses reliquats ne lui ont rendu ni celui des filles ni le sien — la règle du §4.6 ne laisse passer aucun nom hors de la poursuite finale. Au comptoir, il demande donc une disparition sans plaignant, sans date, sans lieu et **sans nom**, pour deux filles qu'il ne sait décrire que comme se ressemblant exactement. C'est la demande la moins recevable qu'on puisse faire à un poste de police, et elle est parfaitement sincère. Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.3.*
+
+*⚠️ **Point rouvert par la décision du 15 août 2026, et non tranché ici** : ses fragments lui ont peut-être rendu **un** mot — celui par lequel on nommait l'affaire, *[Nom]*. Peut-il le dire au comptoir ? **Il ne sait pas que c'est un nom** (§4.7), donc il ne le donnerait pas comme un nom : il le lâcherait comme on lâche un mot entendu, sans savoir ce qu'il fait. Les deux versions tiennent, et elles ne racontent pas la même scène. Voir « À trancher ».*
 
 ### 5.2 Ils n'ont rien
 
@@ -306,11 +357,24 @@ Les veilleurs de l'époque ont regroupé trois arrivants pour une même cérémo
 
 L'assemblée s'émerveille devant les deux arrivantes identiques : un cadeau de la nature. Quelqu'un dit n'avoir jamais vu ça. Un autre dit en avoir vu une fois, il y a des années.
 
-*Personne n'a de prénom dans cette salle : trois arrivants sortis depuis quelques minutes, à qui on n'a encore rien donné. C'est le seul chapitre du livre où l'absence de noms n'est pas une contrainte d'écriture mais un fait de la scène.*
+*Personne n'a de prénom en entrant dans cette salle : trois arrivants sortis depuis quelques minutes, et rien d'écrit sur aucune ligne. C'est le seul chapitre du livre où l'absence de noms n'est pas une contrainte d'écriture mais un fait de la scène.*
 
-*Et c'est **ce jour-là** qu'ils reçoivent les leurs. **Andrew, Chrissy, Tania** sont des **noms d'éclaircie**, donnés au terme de cette cérémonie-ci, dans le même mouvement que la travée et l'âge relevé à l'instrument. La scène ne le dit pas et ne le montre pas forcément ; mais le lecteur qui y revient après le mouvement 23 comprend qu'il a assisté au baptême des trois.*
+### C'est ce jour-là qu'ils se nomment — révision du 15 août 2026
 
-**Ce qui rend la scène écrivable :** lui est vide. Il vient de sortir, il ne comprend rien, il n'a même pas les mots pour nommer ce qu'il voit. Le narrateur ne peut donc rien dire de plus que des formes, du bruit et de la lumière. Le lecteur, lui, a tout : il sait qui sont les deux filles, il sait qui est l'homme entre elles, et il est le seul dans la salle à savoir.
+**La scène change de nature, et il faut le répercuter ici.** Les noms ne sont plus donnés à ces trois-là : **ils les produisent.**
+
+Un veilleur explique en une phrase courte ce qu'est un prénom, demande à chacun comment il s'appelle, et écrit le mot qui sort. Protocole complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant ».
+
+- **Andrew a dit *Andrew*.** Vide, embrumé, debout devant une salle. **Il n'a pas dit Joël.** *Le livre ne le commente jamais, ne le suggère jamais, ne le rapproche de rien.*
+- **Les deux arrivantes de la paire ont produit deux mots différents** — *Chrissy*, *Tania*. Un seul visage, deux mots. La salle s'émerveille de ce qui est pareil ; ce qui les sépare vient d'être dit par elles, et personne ne le relève.
+
+**Ce que ça change à l'écriture de la scène.** Ce n'était qu'un rite muet vu par un homme qui ne comprend rien ; **il y a maintenant du dialogue dedans** — une question posée à un corps qui vient de sortir, et une réponse. C'est possible parce qu'on sort de la capsule en sachant parler ([`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md)).
+
+Et cela reste écrivable dans les mêmes contraintes : **lui ne comprend toujours rien.** Il a les mots, il n'a pas ce à quoi ils se rapportent. On lui demande quelque chose, il répond, il ne sait pas ce qu'il vient de faire.
+
+*Le lecteur qui revient sur ce chapitre après le mouvement 23 y trouve donc autre chose qu'un baptême : trois personnes qui se sont nommées elles-mêmes, et dont aucune ne pourra jamais savoir d'où le mot venait.*
+
+**Ce qui rend la scène écrivable :** lui est vide. Il vient de sortir, il ne comprend rien, et rien de ce qu'il voit ne se rapporte à quoi que ce soit. Le narrateur ne peut donc rien dire de plus que des formes, du bruit et de la lumière — et, désormais, des voix. Le lecteur, lui, a tout : il sait qui sont les deux filles, il sait qui est l'homme entre elles, et il est le seul dans la salle à savoir.
 
 **Rappels de mécanique à respecter dans la scène :**
 
@@ -427,6 +491,14 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 
 ---
 
+# Tranché le 15 août 2026
+
+- [x] **On sort de la capsule en sachant parler**, l'esprit embrumé *comme après un long sommeil*. **Révision du §4 du dossier maître, qui n'est pas modifié.** Voir [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md). Conséquence ici : la cérémonie groupée a du dialogue dedans, et le protocole du nom devient possible.
+- [x] **Personne ne nomme un arrivant : il se nomme lui-même.** Le veilleur explique en une phrase ce qu'est un prénom, demande, et inscrit le mot qui sort. Exception : les moins de huit ans, nommés par une berceuse. **Andrew, Chrissy et Tania ont donc produit leurs propres noms** — et Andrew n'a pas dit Joël. Section 6, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
+- [x] **Il n'y a pas de noms de famille dans ce monde-ci**, et la règle n'est jamais énoncée. Les fragments peuvent donc dire *« l'affaire [Nom] »* : l'affaire est nommée, aucun prénom n'est prononcé, et Andrew entend un mot dont il ne peut pas identifier la catégorie. Section 4.7.
+
+---
+
 # À trancher
 
 - [x] ~~Le nom de l'enquêteur est-il prononcé dans le texte ?~~ — **tranché le 14 août 2026** : une seule fois, à la poursuite finale, et nulle part ailleurs. Les fragments peuvent s'écrire. Voir §4.6 et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.
@@ -440,7 +512,11 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **Pourquoi reprend-il l'affaire**, dans la version recommandée : de lui-même, ou parce qu'un élément ressort ?
 - [ ] **Combien de temps a duré l'arrêt ?** Des semaines, dit la proposition. À caler contre la durée de l'enquête d'alors.
 - [x] ~~Le mot pour deux arrivants identiques~~ — **tranché : une paire.** Un seul mot, celui du registre ; la salle dit « elles sont pareilles ».
-- [ ] **De combien les jumelles descendent-elles ?** Le chiffre exact, jamais dans le texte, mais nécessaire à l'autrice.
+- [ ] **Le nom de famille de l'affaire — `[Nom]`.** Rien n'est inventé, rien ne doit l'être : le dossier écrit `[Nom]` en attendant. Il doit sonner comme un nom de famille sans situer aucun pays ([interdit n° 6](../01-dossier/les-interdits.md)). Section 4.7.
+- [ ] **À partir de quel fragment l'affaire porte-t-elle son nom ?** Dès les premiers, où il n'y a encore ni lieux ni gens — ou seulement quand l'enquête prend forme, au deuxième temps du §4.3 ? Un nom d'affaire est un marqueur de dossier constitué, donc il date la scène dans l'enquête.
+- [ ] **Andrew donne-t-il ce mot au comptoir du poste de police ?** Voir §5.1. S'il le donne, il donne un nom sans savoir que c'en est un, et la scène change : ce n'est plus une demande entièrement vide. S'il ne le donne pas, le §5.2 tient inchangé. **Les deux versions sont écrivables, aucune n'est retenue.**
+- [ ] **Le troisième registre de faux raccord — celui de la langue.** Entre-t-il dans le dispositif de [`faux-raccords.md`](faux-raccords.md), ou reste-t-il à part ? Il n'obéit pas à la règle du dosage : il n'est pas placé, il est partout. Section 4.7.
+- [ ] **De combien les jumelles descendent-elles ?** Le chiffre exact, jamais dans le texte, mais nécessaire à l'autrice. **Borne basse désormais fixée : huit ans**, puisque ce sont elles qui ont produit leurs noms. Section 2.
 - [ ] **Où placer le chapitre de la cérémonie groupée** dans le livre : avant le mouvement 15, entre 17 et 18, ou après le retournement ?
 - [ ] **Le mouvement 18 devient une lecture de registre.** Faut-il alors déplacer ou alléger le mouvement 17, qui perd son rôle de dernier verrou ?
 - [ ] **Le nombre de fragments de reliquat** et leur répartition sur les douze ans du calendrier.

@@ -35,6 +35,28 @@ June s'occupe d'Eliott, un enfant de **dix ans**, qui n'est pas encore au jardin
 
 ---
 
+## 1 bis. Elle n'a pas nommé Eliott — mais elle nomme
+
+**Correction. Elle ne lui a pas donné son prénom.**
+
+Un nom d'éclaircie n'est pas distribué par la personne qui prend l'arrivant en charge. Le veilleur qui tient la cérémonie explique en une phrase courte ce qu'est un prénom, demande à l'arrivant comment il s'appelle, et **l'arrivant répond de lui-même**. Le mot est inscrit au registre. [Eliott](eliott.md) est arrivé à **dix ans** : il était donc au-dessus du seuil, on lui a posé la question comme à tout le monde, et **c'est lui qui a produit son prénom**. June arrive après le registre, pas avant.
+
+### Ce que son métier lui impose quand même
+
+**Il y a une exception, et elle est pour elle.** Les arrivants de **moins de huit ans** sont systématiquement accueillis par un veilleur, **une berceuse est appelée, et c'est elle qui choisit le prénom.** On ne demande rien à un enfant de cet âge-là : on le prend, et quelqu'un le nomme.
+
+June exerce ce métier. Elle a donc été appelée, et elle le sera encore. **Elle est de celles qui nomment ceux qui ne peuvent pas se nommer.**
+
+### Ce que ça dit d'elle — et c'est beaucoup
+
+- **Elle donne le seul mot que ces enfants porteront jamais.** Ils n'en auront pas d'autre, et ils ne sauront jamais qu'il a été choisi. Ailleurs, un nom remonte de l'arrivant lui-même ; là, il vient d'une femme qu'on a fait venir, et qui a décidé en quelques secondes.
+- **Elle nomme, puis elle accompagne jusqu'au bout.** C'est la particularité de sa fonction, et elle est entière : le petit chiffre qu'elle vient de nommer, c'est elle qui le suivra jusqu'au dernier jour. Elle ouvre et elle ferme. Un tuteur passe la main quand l'apprenant devient autonome ; une berceuse, non — **elle est là aux deux extrémités d'une vie qui n'a pas d'autre témoin.**
+- **Et il n'y a rien de solennel là-dedans.** C'est une tâche de service, dans une matinée de service. On l'appelle, elle vient, elle dit un mot, un veilleur l'écrit. Personne ne trouve ça grave. **À écrire comme une évidence du monde, jamais comme une explication** — c'est la même consigne que pour le reste de sa fiche.
+
+*Piste, non tranchée : ce qu'elle éprouve à choisir. Si l'on veut lui donner un relief propre — voir §4, le point de vigilance —, c'est peut-être là qu'il est, et il ne coûte rien à l'interdit n° 4 : rien de tout cela n'est un reliquat, c'est un métier.*
+
+---
+
 ## 2. Ce qu'on sait d'elle dans l'intrigue
 
 Elle a la charge d'[Eliott](eliott.md). **Andrew vient plusieurs fois prendre des nouvelles chez elle** — assez souvent pour que la visite devienne une habitude, assez peu pour qu'elle reste une visite. Voir [`andrew.md`](andrew.md).

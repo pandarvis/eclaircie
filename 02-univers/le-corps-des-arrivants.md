@@ -1,6 +1,8 @@
 # Le corps des arrivants
 
-*Document de référence sur le corps dans ce monde. Reprend et organise le §4 (le principe de l'univers), le §7 (le décompte et le palier), le §9 (la société) et le §12 (les personnages) du [dossier maître](../L-ECLAIRCIE-dossier-complet.md), et intègre une décision nouvelle de l'autrice : **le corps immaculé**.*
+*Document de référence sur le corps dans ce monde. Reprend et organise le §4 (le principe de l'univers), le §7 (le décompte et le palier), le §9 (la société) et le §12 (les personnages) du [dossier maître](../L-ECLAIRCIE-dossier-complet.md), et intègre deux décisions nouvelles de l'autrice : **le corps immaculé**, et **la langue déjà là**.*
+
+> ⚠️ **Ce document révise le §4 du dossier maître.** Le §4 pose que l'arrivant *« ne parle pas »* et que *« son esprit est celui d'un nourrisson »*. **C'est faux depuis le 15 août 2026.** Voir [« La décision : on sort de la capsule en sachant parler »](#la-décision--on-sort-de-la-capsule-en-sachant-parler). Le dossier maître n'a pas été modifié : la correction y est **en attente**.
 
 ---
 
@@ -14,7 +16,81 @@ Un arrivant de sept ans est un enfant de sept ans : sa taille, ses dents, sa voi
 
 Et c'est le seul décrochage du système. **Le corps a l'âge complet ; l'esprit n'a rien.**
 
-L'arrivant ne sait pas qui il est, ne parle pas, ne sait rien. Le corps d'un vieillard, l'esprit d'un nourrisson : il faut tout lui apprendre, à commencer par tenir une cuillère. C'est ce qui rend le métier de tuteur nécessaire, et ce qui rend l'école obligatoire quel que soit l'âge d'arrivée (§9).
+L'arrivant ne sait pas qui il est, ne sait rien du monde, ne sait rien faire. Il faut tout lui apprendre, à commencer par tenir une cuillère. C'est ce qui rend le métier de tuteur nécessaire, et ce qui rend l'école obligatoire quel que soit l'âge d'arrivée (§9).
+
+**Une seule chose est déjà là, et une seule : la langue.** Voir la section suivante, qui révise le §4 sur ce point.
+
+---
+
+## La décision : on sort de la capsule en sachant parler
+
+**Décision de l'autrice, 15 août 2026.**
+
+> *« On sort de la capsule, on sait déjà parler. On ne sait faire que ça, l'esprit comme embrumé après un long sommeil. »*
+
+> ⚠️ **CORRECTION EN ATTENTE SUR LE DOSSIER MAÎTRE — §4, LE PRINCIPE DE L'UNIVERS.**
+>
+> Le §4 dit aujourd'hui :
+>
+> > *« L'arrivant sort **vide**. Il ne sait pas qui il est, **ne parle pas**, ne sait rien. Son corps est celui d'un vieillard mais **son esprit est celui d'un nourrisson** : il faut tout lui apprendre. »*
+>
+> **Deux membres de phrase y sont désormais faux** : *ne parle pas*, et *son esprit est celui d'un nourrisson*. Le reste du paragraphe tient mot pour mot.
+>
+> **Le dossier maître n'a pas été modifié.** La correction attend l'autrice. **En cas de contradiction, c'est le présent document qui fait foi**, et sur ce point seulement.
+>
+> **Deux autres endroits du dossier portent la même phrase et devront être repris en même temps** — ils ne sont pas modifiés ici :
+> - [`../01-dossier/expliquer-le-systeme.md`](../01-dossier/expliquer-le-systeme.md), la réponse *« On sort vide »* : *« un corps de quatre-vingt-dix ans et l'esprit d'un nourrisson : il ne parle pas »* ;
+> - [`../03-personnages/andrew.md`](../03-personnages/andrew.md), à vérifier au passage sur sa sortie de capsule et ses années d'apprentissage.
+
+### Ce qui reste vrai
+
+**Il sort vide, et le mot garde tout son sens.** Il ne sait pas qui il est. Il ne sait rien du monde : ni où il est, ni ce qu'est ce lieu, ni ce que sont les gens autour de lui, ni ce qu'on attend de lui. Et il ne sait **rien faire** — tenir un couteau, se servir d'un économe, comprendre que le feu brûle (§9). Tout cela s'apprend, et tout cela s'apprend à partir de zéro.
+
+### Ce qui change
+
+**La langue est là. Elle est la seule chose qui soit là.**
+
+Elle n'a pas été apprise et elle ne se remarque pas : elle sort avec lui, entière, disponible à la seconde. Il a les mots, la syntaxe, la capacité de comprendre une phrase et d'en faire une.
+
+Ce qu'il n'a pas, c'est ce à quoi les mots se rapportent. Il peut dire *cuillère* si on le lui souffle ; il ne sait pas ce qu'on fait avec.
+
+**Et l'esprit n'est pas vide comme celui d'un nourrisson : il est embrumé.** C'est un autre état, et c'est le mot de l'autrice qu'il faut garder — *comme après un long sommeil*. Lent, flou, sans repères, en retard sur ce qui se passe. Un nourrisson n'a pas encore d'esprit ; un arrivant a un esprit qui n'est pas encore revenu. **Le premier n'a rien à retrouver, le second en a l'air.**
+
+### Ce que ça produit, et c'est considérable
+
+**1. La cérémonie devient une scène avec du dialogue.**
+
+On peut parler à un arrivant à la seconde où il sort, et il répond. Le veilleur n'a pas à attendre des semaines pour obtenir un mot : il pose une question au-dessus d'une capsule ouverte et quelqu'un lui répond. Tout le rite change de nature — ce n'était qu'une foule qui regarde un corps, c'est maintenant une foule qui peut entendre parler ce corps.
+
+C'est ce qui rend possible **la scène d'ouverture du roman** : l'enfant de dix ans dit d'emblée des choses inquiétantes ([`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §4, premier point de la trame). Sans cette décision, il faudrait des mois avant qu'Eliott puisse fabuler quoi que ce soit, et le livre ne pourrait pas commencer là où l'autrice veut qu'il commence.
+
+*Et cela vaut aussi pour le protocole du nom : c'est ce qui permet au veilleur de demander à l'arrivant comment il s'appelle. Voir [`la-ruche.md`](la-ruche.md), section « Qui nomme un arrivant ».*
+
+**2. Les tuteurs changent de métier sans perdre leur satire.**
+
+Ils n'apprennent plus à parler. Ils apprennent **tout le reste** — et tout le reste est immense : se tenir, se laver, cuisiner, travailler, comprendre ce qu'est une rue, une monnaie, une horaire, un métier.
+
+Le §9 tient donc tel quel, sans retouche : *« les formateurs sont toujours plus jeunes que leurs apprenants »*, et *« on apprend à un homme de 80 ans à tenir un couteau, à se servir d'un économe, à comprendre que le feu ça brûle »*. La satire porte exactement pareil. Elle porte même mieux : l'apprenant peut maintenant **répondre**, discuter, contester, se vexer.
+
+**3. Un vieillard qui parle couramment et ignore ce qu'est une cuillère est plus dérangeant qu'un vieillard muet.**
+
+À noter, parce que c'est un gain d'image net. Un vieillard muet se range tout seul dans une catégorie connue : le malade, le diminué, celui qui a perdu quelque chose. On sait le regarder.
+
+Un homme de quatre-vingt-dix ans qui parle une langue complète, articule des phrases nettes, et tient un couteau par la lame ne se range nulle part. **Rien en lui n'a l'air abîmé, et il ne sait rien.** C'est le décrochage du système rendu visible en un seul plan, et il n'y a rien à expliquer pour l'obtenir.
+
+**4. L'apprentissage est plus rapide qu'on ne le supposait.**
+
+La langue est le poste le plus long de toute éducation, et il est déjà payé. Ce qui reste à enseigner est du geste, de l'usage et du savoir — c'est-à-dire ce qui s'enseigne **par la parole**, et donc vite.
+
+⚠️ **Incidence à répercuter : cela allège les années d'apprentissage d'Andrew.** Le calendrier de [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md) pose dix ans entre son arrivée et le reste — tutorat, école reprise en accéléré, apprentissage du métier. Cette décision desserre cette contrainte. **Aucun chiffre n'est proposé ici** : c'est une question de calendrier, et elle appartient à l'autrice. Voir aussi la question ouverte du §10.3 de [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) — *dix ans de métier, ou dix ans dans ce monde ?* —, qui devient plus facile à trancher dans un sens que dans l'autre.
+
+**5. Et l'image reste disponible : *comme après un long sommeil*.**
+
+C'est un **vocabulaire de réveil**, et il est offert. Un homme qui émerge, qui a la voix pâteuse, qui met un temps à répondre, qui cligne des yeux dans la lumière, qui ne sait pas depuis combien de temps il est là.
+
+**Le livre peut s'en servir sans jamais rien expliquer.** C'est du vocabulaire ordinaire — on décrit quelqu'un qui se réveille, personne ne peut y objecter, et aucun personnage n'a à formuler la moindre hypothèse. Le lecteur, lui, entend ce qu'il entend : on ne se réveille que de quelque chose. Même régime que le sismographe et que la formule *« être immaculé »* — le calcul se fait de l'autre côté de la page ([interdits](../01-dossier/les-interdits.md) n° 1 et n° 2).
+
+*Contrainte : ne jamais appuyer. Le mot **sommeil** ne doit ni revenir en leitmotiv, ni être posé par le narrateur comme une comparaison réfléchie. C'est la manière dont les gens d'ici décrivent une sortie de capsule, pas une clé qu'on tend au lecteur.*
 
 ---
 
@@ -109,5 +185,11 @@ Deux lectures, et le choix engage le registre entier du livre.
 - [ ] **La maladie.** Peut-on tomber malade ici, et guérit-on en rajeunissant ? Le §7 pose que *le chiffre est un plafond, pas une garantie*, et que les accidents et maladies existent — donc oui, on tombe malade. Le détail n'est pas réglé : une maladie liée à l'âge lâche-t-elle prise d'elle-même à mesure qu'on descend ?
 - [ ] **Les capacités cognitives à l'envers.** À quel moment un arrivant de quatre-vingt-dix ans apprend-il le mieux ? Le §9 dit qu'ils apprennent mal au début puis de mieux en mieux — reste à savoir s'il y a un sommet, et où il tombe.
 - [ ] **Le corps au palier.** À cinq ans, au jardin, pendant des années sans changer : est-ce qu'il ne change vraiment pas du tout ? Ni taille, ni dents, ni cheveux ? C'est ce que la scène du berceur suppose — *il est là depuis huit ans et il n'a pas changé d'un jour* (§14).
+- [ ] **Jusqu'où va la langue qui sort avec lui ?** Elle est complète comme langue — mots, syntaxe, compréhension. Mais un arrivant a-t-il le mot d'une chose qu'il n'a jamais vue ? Dit-il *cuillère* devant une cuillère, ou faut-il le lui souffler ? La réponse règle le ton de tous les dialogues de cérémonie, et notamment de la scène d'ouverture.
+- [ ] **Combien de temps dure l'embrumement ?** Quelques minutes, quelques jours, des semaines ? Le mot de l'autrice — *comme après un long sommeil* — suggère quelque chose qui se dissipe. Reste à savoir en combien de temps, et si c'est le même délai pour tous les âges d'arrivée.
+- [ ] **De combien cela raccourcit l'apprentissage d'Andrew**, et donc le calendrier. Aucun chiffre n'est proposé. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md) et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.3.
+- [ ] **Pourquoi un arrivant sort avec la langue du lieu où il sort.** Ce n'est jamais expliqué et ne doit jamais l'être : même régime que la correspondance des lieux dans [`la-ruche.md`](la-ruche.md) — une régularité de fait que personne ne formule, parce que personne ne connaît d'autre cas. **Attention à l'[interdit n° 7](../01-dossier/les-interdits.md)** : aucun personnage ne doit s'étonner d'une langue, pas plus qu'il ne s'étonne d'un nom de fleuve.
 
 *Réglé : le corps ne porte aucune trace de la vie d'avant. Voir [« La décision : le corps est immaculé »](#la-décision--le-corps-est-immaculé).*
+
+*Réglé : on sort de la capsule en sachant parler, et c'est la seule chose qu'on sache. **Révise le §4 du dossier maître, qui n'est pas modifié.** Voir [« La décision : on sort de la capsule en sachant parler »](#la-décision--on-sort-de-la-capsule-en-sachant-parler).*
