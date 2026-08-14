@@ -11,8 +11,10 @@
 |---|---|
 | **Ici** | **Chrissy** et **Tania**. Une **paire** — deux capsules voisines, ouvertes le même jour, deux arrivantes identiques |
 | **Vie d'avant** | deux sœurs jumelles, enlevées et tuées par le même homme. **Sans nom dans tout le livre** |
-| **Entrée au registre** | **meurtries** → chiffre plus bas que leur âge de mort. Le chiffre exact n'est pas fixé |
-| **Trajectoire** | elles arrivent jeunes, elles accèdent vite au jardin, elles y restent longtemps |
+| **Âge** | **mortes à dix-huit ans, arrivées à dix-huit ans.** Tranché par l'autrice, 15 août 2026 |
+| **Entrée au registre** | **meurtries**. La grâce qui leur revient ne prend pas la forme d'un chiffre plus bas mais d'un **jardin allongé** — voir [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) |
+| **Nomination** | **elles-mêmes.** À dix-huit ans, très au-dessus du seuil des huit ans, elles ont produit leurs deux prénoms |
+| **Trajectoire** | une descente entière, puis un très long jardin |
 | **Ce qu'elles savent** | rien. Elles ne sauront jamais rien |
 | **Ce qu'on sait d'avant** | **rien non plus**, et le livre ne le comble jamais |
 
@@ -38,7 +40,7 @@ Elles sortent de **deux capsules voisines, le même jour**, à quelques travées
 
 **Elles sortent vides — la langue exceptée —, et on leur demande leur nom.** Le veilleur explique en une phrase courte ce qu'est un prénom, pose la question, et **chacune répond instinctivement**. Il inscrit les deux mots au registre. C'est ce jour-là qu'elles deviennent Chrissy et Tania : leurs **noms d'éclaircie**, les seuls qu'elles porteront jamais, et **ce sont elles qui les ont produits**.
 
-*Sous réserve de leur âge d'arrivée : en dessous de huit ans, la règle change entièrement. Voir §2 bis.*
+*Aucune réserve : **elles sont arrivées à dix-huit ans**, très au-dessus du seuil des huit ans. Le protocole ordinaire s'applique, et il s'applique entièrement.*
 
 ### Deux mots différents — et c'est tout ce qu'elles ont en propre
 
@@ -59,44 +61,38 @@ Ce qu'il faut en garder :
 
 **Le mot « jumelles » n'existe pas dans ce monde.** Il désigne une fraternité, et ce monde n'a ni naissances, ni parents, ni sang. La ressemblance n'y est pas une parenté : c'est une anomalie de la ruche, et elle se dit avec un mot de service — *une paire, travée douze*. La salle, elle, dit simplement *« elles sont pareilles »*, et s'émerveille comme devant un cadeau de la nature. Détail dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Une paire ».
 
+*Et ce n'est pas un cas isolé : **aucun mot de parenté n'existe dans cette langue** — ni sœur, ni mère, ni famille. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Aucun mot de parenté n'existe dans cette langue ». Les mots de la vie d'avant employés plus haut — sœurs, jumelles — ne valent que pour là-bas, et jamais dans une scène d'ici.*
+
 Leur cérémonie n'est pas la leur seule : les veilleurs de l'époque ont regroupé trois arrivants du même jour et de la même zone de travées — elles deux, et l'homme qui n'a pas su les retrouver. Personne dans la salle ne sait ce qui les relie, parce qu'il n'y a rien à savoir : c'est un service qui optimise une matinée.
 
 *Conséquence à ne pas perdre : les trois personnes de cette salle sont nommées le même matin, par la même bouche et la même main. Andrew, Chrissy, Tania — **les trois noms de cette histoire sont des noms d'éclaircie**, et aucun des trois ne sait qu'il en existait d'autres avant. Les trois ont répondu à la même question, l'un après l'autre, et aucun ne s'est demandé d'où lui venait son mot.*
 
 ---
 
-## 2 bis. La question qui commande tout — ont-elles huit ans ?
+## 2 bis. Leur âge — tranché
 
-*Question ouverte. Elle n'est pas tranchée ici, et elle ne doit pas l'être à la légère : la réponse défait ou confirme tout le paragraphe précédent.*
+> **Décision de l'autrice, 15 août 2026. Elles sont mortes à dix-huit ans et elles arrivent à dix-huit ans.**
 
-**La règle.** Le nom d'éclaircie se retrouve, il ne se donne pas — **sauf en dessous de huit ans**. Les arrivants de moins de huit ans sont systématiquement accueillis par un veilleur, **une berceuse est appelée, et c'est elle qui choisit le prénom.** On ne demande rien à un enfant de cet âge-là.
+La question qui figurait ici — *ont-elles huit ans ?* — est close, et elle l'est largement. **Dix-huit ans, c'est très au-dessus du seuil.** Aucune hésitation possible, aucune zone grise à surveiller.
 
-**Le problème.** Elles sont des **meurtries** : le barème leur rend ce qu'on leur a arraché, donc **un chiffre plus bas que leur âge de mort**. Elles sont arrivées jeunes, c'est acquis. Mais **leur chiffre n'est pas fixé** (voir §3 et §6), et le seuil tombe précisément dans la zone où il est plausible.
+**Ce qui en découle, et qui est désormais acquis :**
 
-> **Sont-elles arrivées au-dessus ou au-dessous de huit ans ?**
-
-**Ce que chaque réponse produit :**
-
-| | Si **huit ans ou plus** | Si **moins de huit ans** |
-|---|---|---|
-| **Qui nomme** | elles-mêmes, chacune répondant à la question du veilleur | une berceuse, appelée pour elles deux |
-| **La cérémonie** | trois arrivants alignés, trois questions, trois mots — dont celui d'Andrew | on ne leur demande rien ; on va chercher quelqu'un, et c'est cette personne qui décide |
-| **Leurs prénoms** | la seule chose qu'elles aient produite d'elles-mêmes, et le seul trait qui les distingue | un choix d'adulte, fait en quelques secondes, un matin de service |
-| **Le paragraphe ci-dessus** | il tient entièrement | **il tombe** — il n'y a plus rien qui vienne d'elles |
-
-**Ce que ça change au-delà des prénoms.** Si c'est une berceuse qui a choisi, alors deux femmes — ou la même — se tiennent au début de leur vie, et une question de §6 se trouve à moitié répondue : *ont-elles été prises en charge ensemble ?* Une berceuse appelée pour une paire nomme les deux dans la même minute, et **deux noms sortis de la même bouche le même matin ne se ressemblent pas de la même façon que deux mots produits par deux filles vides.**
-
-**Et ça change la scène des excuses.** Si Chrissy et Tania sont des mots que quelqu'un d'autre a posés sur elles, le §4 se durcit encore : Andrew n'a même plus, en les appelant, un mot qui soit venu d'elles. Il aurait deux noms d'emprunt intégral. *À l'inverse, s'il s'agit de mots qu'elles ont produits, il tient sans le savoir la seule chose que ces deux filles-là aient jamais fabriquée seules.*
-
-**Non tranché. À décider en même temps que leur chiffre, pas avant.**
+- **elles ont produit leurs prénoms elles-mêmes.** Le veilleur a expliqué en une phrase ce qu'est un prénom, il a posé la question, chacune a répondu. Aucune berceuse n'a été appelée pour elles ;
+- **le §2 tient entièrement.** *Le seul trait qui les sépare est celui que chacune a prononcé* — ce n'est plus une hypothèse suspendue à un chiffre, c'est un fait de dossier ;
+- **la cérémonie groupée est bien celle qu'on croyait** : trois arrivants alignés, trois questions, trois mots — dont celui d'Andrew. Voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §6 ;
+- **Andrew, au mouvement 23, tient sans le savoir la seule chose que ces deux filles-là aient jamais fabriquée seules.**
 
 ---
 
 ## 3. Ce qu'elles ont reçu
 
-Elles sont des **meurtries**. Le barème de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) leur donne donc **un chiffre plus bas que leur âge de mort** : ce qu'on leur a arraché leur est rendu.
+Elles sont des **meurtries**, et le barème de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) leur doit quelque chose.
 
-**De combien, ce n'est pas fixé, et ce document ne l'invente pas.** Ce qui est acquis, c'est le sens de la flèche — elles descendent, et le §7 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) rappelle que descendre n'est pas une punition mais la seule grâce que le système sache accorder. Un petit chiffre, c'est peu de descente et beaucoup de jardin : une vie courte en escalier et longue en insouciance.
+**Mais ce n'est pas un chiffre plus bas.** Elles arrivent à dix-huit ans, c'est-à-dire à leur âge de mort. **La grâce qui leur revient prend la forme d'un jardin allongé** — pas d'une entrée précoce dans la descente.
+
+*Le détail du barème n'est pas écrit ici et ne doit pas l'être : il est en cours de réécriture dans [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), qui fait seul foi. Cette fiche s'y tient et n'invente rien.*
+
+Ce qui est acquis pour elles : une descente entière depuis dix-huit ans, puis **un jardin plus long que celui de n'importe qui d'autre**. Le §7 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) rappelle que descendre n'est pas une punition mais la seule grâce que le système sache accorder ; ce qu'on leur rend, c'est du temps sans rien savoir.
 
 **Elles ne savent rien.** Elles sont sorties vides comme tout le monde, elles ont tout appris ici, et elles rajeunissent tranquillement. Elles n'ont ni angoisse, ni manque, ni trou — il n'y a rien à combler, puisqu'il n'y a rien eu. C'est la forme exacte de leur grâce, et c'est aussi ce qui la rend insupportable au seul homme qui sache.
 
@@ -112,7 +108,7 @@ Ce qui remonte à Andrew par ses reliquats, c'est **l'affaire** : la planque, l'
 
 Ils ne manquent pas parce qu'il les aurait oubliés : ils ne sont jamais revenus, comme rien de ce qui se nomme ne revient. Les fragments ne prononcent aucun nom — c'est la règle absolue de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §4.6, et elle vaut pour elles exactement comme pour lui.
 
-**Les seuls noms qu'il ait pour elles sont ceux de ce monde-ci.** Chrissy et Tania : deux noms d'éclaircie, inscrits au registre un matin, des années après la planque, et qui n'ont jamais servi à les appeler du temps où elles vivaient. *Qu'elles les aient produits elles-mêmes ou qu'une berceuse les ait choisis — voir §2 bis —, ça ne change rien pour lui : dans les deux cas, ce ne sont pas les noms qu'il cherchait.*
+**Les seuls noms qu'il ait pour elles sont ceux de ce monde-ci.** Chrissy et Tania : deux noms d'éclaircie, inscrits au registre un matin, des années après la planque, et qui n'ont jamais servi à les appeler du temps où elles vivaient. *Elles les ont produits elles-mêmes — voir §2 bis. Ce sont donc bien deux mots qui viennent d'elles, et ce ne sont quand même pas les noms qu'il cherchait.*
 
 ### Ce que ça produit à la scène des excuses
 
@@ -146,12 +142,13 @@ Elles ne font rien dans l'intrigue. **Elles sont une ligne de registre avant d'�
 
 *À poser, pas à trancher.*
 
-- [ ] **Leur âge d'arrivée.** Plus bas que leur âge de mort, le barème le dit ; de combien, non. Le chiffre ne paraît jamais dans le texte mais il est nécessaire à l'autrice, ne serait-ce que pour savoir à quoi elles ressemblent au mouvement 23. **Et il commande désormais bien plus que leur allure** : au-dessus ou au-dessous de huit ans, ce ne sont pas les mêmes prénoms ni la même cérémonie. Voir §2 bis.
-- [ ] **Leur âge au moment où Andrew les retrouve.** Il dépend du précédent et du calendrier du livre. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md). L'enjeu est concret : deux adolescentes, deux enfants ou deux petites filles au jardin ne produisent pas la même scène d'excuses — et si elles sont déjà au jardin, elles n'ont même plus les mots pour ne pas comprendre.
+- [x] ~~**Leur âge d'arrivée.**~~ — **tranché le 15 août 2026 : dix-huit ans**, leur âge de mort. Voir §2 bis.
+- [ ] **Leur âge au moment où Andrew les retrouve.** Il dépend du calendrier du livre : à dix-huit ans d'arrivée, tout dépend du temps écoulé depuis la cérémonie groupée. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md). L'enjeu est concret : deux adolescentes, deux enfants ou deux petites au jardin ne produisent pas la même scène d'excuses — et si elles sont déjà au jardin, elles n'ont même plus les mots pour ne pas comprendre.
 - [ ] **Apparaissent-elles tôt dans le livre, ou seulement à la fin ?** Une apparition précoce — croisées sans raison, aperçues à une cérémonie, mentionnées par quelqu'un — donnerait au lecteur une pièce à garder longtemps. Une apparition unique au mouvement 23 garderait à la scène toute sa charge. Les deux tiennent, et le choix appartient au plan, pas à cette fiche.
-- [ ] **Sont-elles ensemble ?** Deux arrivantes du même jour ont-elles été prises en charge ensemble, ou séparées comme deux dossiers distincts ? Ce monde n'a aucune raison de les garder côte à côte : rien, dans sa langue, ne dit qu'elles vont ensemble. *La question se rejoue si elles ont moins de huit ans : une berceuse appelée pour une paire les prend et les nomme dans la même minute. Voir §2 bis.*
-- [x] ~~**Qui les a nommées ?**~~ — **répondu par la règle générale.** Un nom d'éclaircie n'est pas attribué, il est **retrouvé** : le veilleur explique en une phrase ce qu'est un prénom, demande, l'arrivant répond, le veilleur inscrit. **La seule exception est le seuil des huit ans**, et c'est elle qui reste ouverte pour elles — voir §2 bis.
+- [ ] **Sont-elles ensemble ?** Deux arrivantes du même jour ont-elles été prises en charge ensemble, ou séparées comme deux dossiers distincts ? Ce monde n'a aucune raison de les garder côte à côte : rien, dans sa langue, ne dit qu'elles vont ensemble.
+- [x] ~~**Qui les a nommées ?**~~ — **elles-mêmes.** Un nom d'éclaircie n'est pas attribué, il est **retrouvé** : le veilleur explique en une phrase ce qu'est un prénom, demande, l'arrivant répond, le veilleur inscrit. La seule exception est le seuil des huit ans, et elles sont arrivées à dix-huit. Voir §2 bis.
+- [x] ~~**Leur grâce prend-elle la forme d'un chiffre plus bas ?**~~ — **non : un jardin allongé.** Le détail relève de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), pas de cette fiche.
 
 ---
 
-*Vocabulaire : le palier s'appelle **le jardin**. « Jumelles » est réservé à la vie d'avant ; ici, on dit **une paire**. Le nom du premier matin est un **nom d'éclaircie** : il n'est pas donné, il est retrouvé — sauf en dessous de huit ans.*
+*Vocabulaire : le palier s'appelle **le jardin**. « Jumelles » et « sœurs » sont réservés à la vie d'avant ; ici, on dit **une paire**, et **aucun mot de parenté n'existe** — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md). Le nom du premier matin est un **nom d'éclaircie** : il n'est pas donné, il est retrouvé — sauf en dessous de huit ans, ce qui n'est pas leur cas.*

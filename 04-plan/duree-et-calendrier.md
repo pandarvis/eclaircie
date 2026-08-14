@@ -2,6 +2,27 @@
 
 Chiffres du couple dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md).
 Règles du décompte au §7 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md).
+Ce que le verdict décide : [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md).
+
+---
+
+# Le système, en trois lignes
+
+> **Décision de l'autrice, 15 août 2026. Elle remplace tout barème antérieur.**
+
+> 1. **Tout le monde revient à l'âge où il est parti.**
+> 2. **Tout le monde descend jusqu'à cinq ans.**
+> 3. **La seule chose qui change d'une personne à l'autre, c'est le temps qu'on reste au jardin.**
+
+**Il n'existe plus aucun calcul d'attribution du chiffre d'arrivée.** L'âge d'arrivée *est* l'âge de mort, sans exception. Le plancher de cinq ans du §7 joue toujours aux deux bouts : qui est mort avant cinq ans arrive à cinq.
+
+Pour ce document, la conséquence tient en une phrase : **la colonne « Arrive à » n'est plus jamais à calculer, et la colonne « Jardin » est la seule qui puisse varier d'un dossier à l'autre.**
+
+- **Jardin ordinaire** — le verdict réparable. Ce sont les durées du tableau du §7, telles quelles.
+- **Jardin allongé** — le verdict meurtri. Le supplément s'ajoute par-dessus l'ordinaire.
+- **Pas de capsule qui éclaircit** — le verdict irréparable. Il n'entre dans aucun tableau.
+
+Rien d'autre ne bouge : la vitesse de descente, le plancher et les durées ordinaires sont ceux du §7, inchangés.
 
 ---
 
@@ -28,16 +49,19 @@ Elle vient du §7. Elle n'est pas la même pour tout le monde :
 
 | Arrive à | Années de descente | Années au jardin | **Vit en tout** |
 |---|---:|---:|---:|
-| Lui — 62 ans | 57 | 12 | **69 ans** |
-| Elle — 64 ans | 59 | 11 | **70 ans** |
-| Le garçon — 10 ans | 15 | 15 | **30 ans** |
-| L'enfant de la mère — 5 ans | 0 | 25 | **25 ans** |
+| Andrew — 62 ans | 57 | 12, ordinaire | **69 ans** |
+| Erin — 64 ans | 59 | 11, ordinaire | **70 ans** |
+| **Chrissy et Tania — 18 ans** | **~30** | **allongé, non fixé** | **~30 ans + le jardin** |
+| Le garçon — 10 ans | 15 | 15, ordinaire | **30 ans** |
+| L'enfant de la mère — 5 ans | 0 | 25, ordinaire, allongeable | **25 ans** |
 
-Lire une ligne : il arrive à 62 ans, il met 57 ans à descendre jusqu'à cinq, puis il passe 12 ans au jardin. 57 + 12 = 69. Il aura vécu 69 ans ici.
+Lire une ligne : Andrew arrive à 62 ans, il met 57 ans à descendre jusqu'à cinq, puis il passe 12 ans au jardin. 57 + 12 = 69. Il aura vécu 69 ans ici. Même lecture pour Erin, à 64 ans : 59 + 11 = 70. **Ni l'un ni l'autre ne bouge sous la nouvelle règle** — c'étaient déjà des dossiers ordinaires reconduits à leur âge de mort.
 
-Le garçon arrive à 10 ans : il n'a que cinq marches à descendre, mais chacune prend trois ans — 15 ans de descente. Puis 15 ans au jardin. 15 + 15 = 30.
+**Chrissy et Tania sont mortes à 18 ans : elles arrivent à 18 ans.** Treize marches à descendre, à la vitesse lente des jeunes arrivants — de l'ordre de deux à trois ans par marche —, soit **une trentaine d'années de descente**. Puis un jardin **allongé**, bien au-delà de l'ordinaire, parce qu'elles sont des meurtries. C'est la seule ligne du tableau dont le total ne se ferme pas, et c'est normal : le supplément appartient à l'autrice, il n'est pas fixé ici. **La forme compte plus que la décimale** — ce qui est acquis, c'est qu'elles arrivent à l'âge où on les a tuées et qu'elles restent en bas plus longtemps que quiconque.
 
-L'enfant arrivé à cinq ans n'a aucune marche à descendre : il est déjà en bas. Sa vie entière est un palier — 25 ans de jardin, et rien d'autre.
+**La ligne du garçon reste valable telle quelle.** Il arrive à 10 ans : il n'a que cinq marches à descendre, mais chacune prend trois ans — 15 ans de descente. Puis 15 ans au jardin. 15 + 15 = 30. La nouvelle règle ne le touche pas, et tout le calendrier du livre, qui repose sur lui, tient sans retouche.
+
+L'enfant arrivé à cinq ans n'a aucune marche à descendre : il est déjà en bas, parce qu'il est mort en dessous du plancher. Sa vie entière est un palier — 25 ans de jardin, et rien d'autre. *S'il compte aussi parmi les meurtris, ce jardin-là peut s'allonger encore : c'est ce que la nouvelle règle sait faire et que l'ancienne ne savait pas.*
 
 ### Le piège à ne jamais tomber dedans
 
@@ -73,6 +97,8 @@ C'est de la conjonction des deux que tout se déduit, et c'est ce qui donne au r
 ---
 
 *Ces chiffres sont à ajuster au feeling, comme tout le §7. **C'est la forme qui compte** : escalier plus palier, deux compteurs en sens inverse.*
+
+*Et depuis la simplification, une troisième chose : **les durées de jardin ci-dessus sont les durées ordinaires**, celles du verdict réparable. La grâce ne les remplace pas, elle s'y ajoute.*
 
 ---
 
@@ -160,9 +186,9 @@ Le veilleur perd sa source. D'un coup, il ne lui reste que les registres et lui-
 
 | | |
 |---|---|
-| Arrive à | 62 ans |
+| Arrive à | 62 ans — son âge de mort, comme tout le monde |
 | Descente | 57 ans |
-| Jardin | 12 ans |
+| Jardin | 12 ans, ordinaire |
 | **Vit en tout** | **69 ans** |
 | Âge au début du roman | 52 ans, année 10 |
 | Âge à la dernière page | 40 ans, année 22 |
@@ -180,3 +206,6 @@ Le livre prend douze ans dans une vie qui en compte soixante-neuf, et il s'arrê
 - [ ] Le nombre et la place exacts des sauts de temps dans l'acte III
 - [ ] Combien de fois l'acte III revoit le garçon au jardin, et si la scène du §14 en fait partie
 - [ ] Le détail des dernières apparitions du garçon dans l'acte II-B, à mesure qu'il perd les mots
+- [ ] **La longueur du jardin allongé de Chrissy et Tania.** Seul chiffre manquant du tableau à quatre colonnes.
+- [ ] **Où en sont Chrissy et Tania à chaque acte.** Arrivées à 18 ans et descendant d'une marche tous les deux à trois ans, elles traversent tout le livre en pleine descente — jamais au jardin pendant les vingt-deux années racontées. À vérifier contre le mouvement 23 : quel âge ont-elles quand Andrew vient leur parler ?
+- [x] ~~**L'âge d'arrivée de Chrissy et Tania.**~~ — **clos, 15 août 2026.** Mortes à 18 ans, elles arrivent à 18 ans. Il n'y a plus de chiffre à attribuer à personne.

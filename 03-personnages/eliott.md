@@ -115,4 +115,4 @@ Les deux tiennent. **Non tranché**, et à décider dans le plan, pas ici.
 
 ---
 
-*Vocabulaire : le palier s'appelle **le jardin**.*
+*Vocabulaire : le palier s'appelle **le jardin**. **Aucun mot de parenté n'existe dans ce monde** — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md). Vérifié : cette fiche n'en contient aucun, et ce qu'Eliott dit ne doit jamais en contenir non plus, pas même dans une fabulation.*

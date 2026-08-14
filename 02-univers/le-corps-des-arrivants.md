@@ -198,18 +198,25 @@ C'est le gain principal. Jusqu'ici, le livre n'avait qu'une archive : celle de l
 
 **Et c'est un endroit où l'on aurait pu remarquer.** Un enfant qui dit des choses impossibles a été examiné, plusieurs fois, par un professionnel dont le métier est précisément de voir si quelque chose ne va pas — mémoire, compréhension, langage. Ce que ce dossier contient, ce qu'on y a noté ou pas, à qui on l'a signalé ou pas, est disponible pour le récit et ne coûte rien.
 
-**2. La conséquence sur les voilés — question ouverte, et elle touche à l'[interdit n° 4](../01-dossier/les-interdits.md).**
+**2. Les voilés ne sont pas détectés — et la raison est dans le corps.**
 
-Il faut la poser franchement, parce qu'elle se posera à l'écriture : **un suivi médical obligatoire est exactement le dispositif qui devrait repérer une anomalie.** Des rendez-vous réguliers, des tests de mémoire, une évaluation du langage, un praticien formé, un dossier qui garde tout. Si quelqu'un dans ce monde doit voir passer un voilé, c'est lui.
+> **Tranché par l'autrice, 15 août 2026.** *« Un voilé n'est pas une anomalie qui est notée. Juste que quand ce sont des vieux qui arrivent, c'est moins perceptible. Ils sont plus hagards, ils ne sont pas matures, disons que c'est moins perceptible. Là, l'enfant à dix ans : un corps très jeune, très vif d'esprit. Et c'est ce qu'il dit qui interpelle. »*
 
-Deux réponses tiennent, et **aucune n'est tranchée ici** :
+**Il n'existe aucun dispositif de détection, et il n'y a rien à corriger : le monde n'a pas de case pour ça.** Le suivi médical mesure une pente — est-ce que ça progresse, est-ce que c'est dans la normale. Il ne note pas ce que l'arrivant dit, seulement la manière dont il le dit.
 
-- **Le protocole ne cherche pas ça.** Il mesure une pente : est-ce que ça progresse, est-ce que c'est dans la normale. Il n'a aucune case pour un contenu — ce que l'arrivant dit ne fait pas partie de ce qu'on note, seulement la manière dont il le dit. Un voilé passe parce qu'on ne l'écoute pas, on le mesure.
-- **Ce qu'il dit passe pour de la fabulation ordinaire.** C'est déjà ce que pose le §12 et toute la fiche d'Eliott : *il dit des choses impossibles ; tout le monde le prend pour un fabulateur.* Un praticien qui entend un enfant de dix ans parler d'un boulanger qui n'existe pas entend un enfant de dix ans. Le détail est banal, local, invérifiable — et c'est fait pour.
+**Mais la vraie raison est plus simple, et elle est physiologique.**
 
-**Ce qu'il ne faut pas faire, en revanche, est clair** : le suivi médical ne doit jamais devenir l'instance qui *établit* qu'Eliott est voilé. Une évaluation professionnelle qui conclurait à une anomalie réelle transformerait la fissure en fait démontré, et l'hypothèse « il fabule » tomberait — ce que l'interdit n° 4 refuse. Le dossier peut contenir une inquiétude, une ligne, une remarque prudente. Jamais une preuve.
+Tout arrivant sort hagard. La langue est là, le reste ne l'est pas : l'esprit est lent, flou, sans repères. **Chez un vieillard, cet état dure et il englobe tout.** Il parle mal, il confond, il dit des choses qui n'ont pas de sens — et c'est exactement ce qu'on attend de lui. Un voilé de quatre-vingts ans est **invisible dans le bruit de sa propre arrivée**. Ce qu'il dit d'impossible se noie dans tout ce qu'il dit d'incohérent.
 
-*Et la même question vaut pour Andrew, en plus discret : il est passé par là comme tout le monde, à soixante-deux ans, et rien n'a été relevé. Personne ne sait qu'il est voilé — lui non plus, au début. Son dossier de suivi existe quelque part, et il est parfaitement normal.*
+**Chez un jeune arrivant, rien ne se noie.** Un corps de dix ans est vif, l'élocution est nette, la brume se dissipe vite. Ce qu'il dit arrive donc **comme du contenu, pas comme de la confusion**. On l'entend. Et si ce qu'il dit ne colle pas, ça interpelle.
+
+### Ce que cette règle produit
+
+- **Les seuls voilés que ce monde puisse remarquer sont les jeunes.** Les autres passent, tous, toujours. La doctrine du voile (voir [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md)) repose donc sur une poignée d'enfants — et les arrivants jeunes sont déjà rares, et déjà un sujet gênant (§6).
+- **Personne n'a jamais rien vu chez Andrew.** Il est arrivé à soixante-deux ans, hagard comme tous les vieux, et quoi qu'il ait dit dans ses premiers jours, ça s'est confondu avec le reste. Son dossier de suivi existe quelque part, et il est parfaitement normal. **Lui non plus ne s'en souvient pas.**
+- **Le voile d'Andrew est passé inaperçu pour la raison exacte qui rend celui d'Eliott visible.** Même phénomène, deux âges, deux visibilités. C'est la seule différence entre eux, et elle est mécanique.
+
+**Ce qu'il ne faut jamais faire :** le suivi médical ne doit pas devenir l'instance qui *établit* qu'Eliott est voilé. Une évaluation professionnelle concluant à une anomalie réelle transformerait la fissure en fait démontré, et l'hypothèse « il fabule » tomberait — ce que l'[interdit n° 4](../01-dossier/les-interdits.md) refuse. Le dossier peut contenir une inquiétude, une ligne, une remarque prudente. Jamais une preuve.
 
 ---
 

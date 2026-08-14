@@ -271,7 +271,7 @@ Le §11 pose que *« un pardon n'est pas une remise de peine, c'est une seconde 
 
 **Et il ne le repasse pas au nom d'un principe.** C'est le gain de la faute tranchée : ce qui le fait continuer n'est ni une éthique de l'enquête ni un goût de la désobéissance, c'est **le souvenir corporel d'un prix payé** — une répugnance sans objet à laisser tomber, qu'il ne peut ni nommer ni justifier. Il ne sait pas qu'il a déjà obéi une fois. Il sait seulement, dans le corps, ce que ça coûte. Voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md).
 
-Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, **il a déjà été absous depuis huit chapitres.** Il ne l'apprend qu'après. Et ce jusqu'où il remonte est précis : **pas jusqu'à la planque, ni jusqu'à l'heure de trop — jusqu'aux semaines pendant lesquelles il n'a pas cherché.** Le mouvement 22 n'est pas la scène du corps des filles, c'est la scène des jours vides. C'est pour ça que le mouvement 23 peut le libérer alors que les jumelles ne comprennent rien : le pardon qu'il cherchait ne dépendait plus de personne.
+Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, **il a déjà été absous depuis huit chapitres.** Il ne l'apprend qu'après. Et ce jusqu'où il remonte est précis : **pas jusqu'à la planque, ni jusqu'à l'heure de trop — jusqu'aux semaines pendant lesquelles il n'a pas cherché.** Le mouvement 22 n'est pas la scène du corps des filles, c'est la scène des jours vides. C'est pour ça que le mouvement 23 peut le libérer alors que les deux arrivantes ne comprennent rien : le pardon qu'il cherchait ne dépendait plus de personne.
 
 *Rien de tout ceci n'est énoncé dans le texte. C'est la charpente, elle doit tenir sans être vue.*
 

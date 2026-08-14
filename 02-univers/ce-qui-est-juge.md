@@ -4,11 +4,27 @@
 
 ---
 
+# Le système, en trois lignes
+
+> **Décision de l'autrice, 15 août 2026. Elle remplace tout barème antérieur.**
+
+> 1. **Tout le monde revient à l'âge où il est parti.**
+> 2. **Tout le monde descend jusqu'à cinq ans.**
+> 3. **La seule chose qui change d'une personne à l'autre, c'est le temps qu'on reste au jardin.**
+
+**Il n'existe plus aucun calcul d'attribution du chiffre d'arrivée.** L'âge d'arrivée *est* l'âge de mort, sans exception et sans correctif. Le plancher de cinq ans du §7 continue de jouer aux deux bouts : personne ne descend en dessous, personne n'arrive en dessous — qui est mort avant cinq ans arrive à cinq.
+
+Le verdict ne porte donc que sur **une seule grandeur : la durée du jardin.**
+
+*Ce que la règle a coûté à l'ancienne version est détaillé plus bas, section « La grâce est du temps au jardin ». Ce qu'elle ne touche pas — la vitesse de descente, le plancher, les durées ordinaires — vient du §7 et n'a pas bougé.*
+
+---
+
 ## La règle
 
 **Ce qui est jugé, c'est la vie. Pas la mort.**
 
-L'âge d'arrivée répond au bilan d'une existence : ce qu'on a fait, ce qu'on a subi, ce qu'on a laissé derrière soi. Il ne répond jamais à la façon dont cette existence s'est terminée.
+Ce qu'on reçoit répond au bilan d'une existence : ce qu'on a fait, ce qu'on a subi, ce qu'on a laissé derrière soi. Cela ne répond jamais à la façon dont cette existence s'est terminée.
 
 L'Archiviste ne décide pas quand on meurt. Il décide de ce qu'on reçoit ensuite. Ce sont deux opérations distinctes, et une seule des deux lui appartient.
 
@@ -24,6 +40,8 @@ Une mort n'est pas un événement moral. C'est une conjonction de facteurs et de
 - **La manière de sortir n'entre pas dans le calcul.** Une vie courte n'est pas une vie légère : elle est jugée entière, telle qu'elle a eu lieu.
 
 > **La mort est la porte, pas la sentence.**
+
+Attention à ne pas mal lire la première des trois lignes. **Revenir à son âge de mort n'est pas un jugement sur la mort** : c'est le refus d'en faire un. On reconduit le corps là où il s'est arrêté parce que le système n'a rien à en dire — c'est un report, pas une note.
 
 ---
 
@@ -43,31 +61,37 @@ La prudence tenait donc à un seul point : que le lecteur ne croie pas voir un j
 
 ---
 
-## Le barème du verdict
+## Ce que le verdict décide
 
-> **Hypothèse de travail — à valider par l'autrice.**
+La règle ci-dessus dit ce que le système ne regarde pas. Voici ce qu'il fait de ce qu'il regarde.
 
-La règle ci-dessus dit ce que le système ne regarde pas. Elle ne disait pas encore comment le chiffre se forme. Voici la mécanique qui rend l'ensemble cohérent, et qui découle directement de l'épigraphe.
+### 1. L'âge d'arrivée n'est plus un enjeu
 
-### 1. Le défaut, c'est ton âge de mort
+Il ne se calcule pas, il se recopie. C'est une donnée du dossier, pas une décision : le corps repart de là où il s'est arrêté, et rien ni personne ne le déplace.
 
-Qui n'a rien commis d'irréparable et n'a rien subi d'extraordinaire **revient à l'âge auquel il est parti**. Rien ajouté, rien retiré.
+Le seul ajustement possible est le plancher : en dessous de cinq ans, on arrive à cinq, parce qu'il n'y a rien en dessous.
 
-C'est la ligne médiane du §11 : *le réparable est pardonné*. Le pardon n'est pas un cadeau, c'est une absence de retenue sur salaire. On rend la vie telle qu'elle était au moment où elle s'est arrêtée, et on la fait repartir dans l'autre sens.
+**Conséquence à tenir dans tout le dossier : il n'y a plus jamais lieu de se demander « à quel âge arrive-t-il ? ».** La question est toujours *combien de temps reste-t-il au jardin ?*
 
-Attention à ne pas confondre ceci avec ce que la règle interdit plus haut. **Le système ne juge toujours pas la mort.** L'âge de mort n'est pas une note, c'est simplement le point où l'existence s'est interrompue — la valeur par défaut du dossier, celle qu'on reconduit quand il n'y a rien à corriger. Le verdict ne porte que sur les écarts à ce défaut.
+### 2. La grâce est du temps au jardin
 
-### 2. La grâce fait descendre
+Le meurtri arrive à son âge de mort comme tout le monde. Ce qu'il reçoit en propre, c'est **un jardin allongé** : des années supplémentaires tout en bas de l'escalier, dans le seul endroit de ce monde où l'on est bien.
 
-Le meurtri reçoit **un chiffre plus bas que son âge de mort**. Plus il a été meurtri, plus il descend.
+C'est ce qui remplace l'ancienne formulation, et c'est meilleur pour quatre raisons.
 
-Descendre, ce n'est pas être puni : c'est accéder plus vite et plus longtemps à l'insouciance. Le §7 le pose déjà en toutes lettres — *« un enfant mort très jeune chez nous arrive au plancher : sa vie entière est un palier […] c'est la grâce maximale que le système sache accorder »*, et *« naître vieux donne plus de temps ; naître jeune donne un temps de meilleure qualité »*.
+**La grâce n'est plus « tu deviens un enfant plus vite ».** Cette phrase était bancale : arriver jeune allongeait proportionnellement la descente, puisque les jeunes arrivants descendent lentement. On promettait la vitesse et on livrait de la lenteur. La grâce se dit désormais d'un seul trait — **tu restes plus longtemps dans le seul endroit où l'on est bien.**
 
-Le plancher est à 5 ans. C'est la limite de la grâce : on ne peut pas gracier davantage.
+**C'est une restitution littérale, au sens du §11.** *« Ce qu'on lui a arraché lui est rendu. »* On a pris des décennies à quelqu'un ; on lui rend des décennies, et dans la meilleure qualité de temps que le système connaisse. La phrase du dossier maître cesse d'être une image : elle devient l'opération elle-même.
+
+**Ça reste immatériel.** Conforme à la décision de l'autrice : le karma ne compense qu'en temps et en qualité de temps, jamais en biens. Un jardin allongé ne donne ni argent, ni statut, ni revanche. Il donne des années d'insouciance et rien d'autre.
+
+**Le §7 tient tel quel.** *« Un enfant mort très jeune chez nous arrive au plancher : sa vie entière est un palier […] c'est la grâce maximale que le système sache accorder. »* Sous le nouveau système c'est encore vrai — il arrive au plancher parce qu'il est mort en dessous, et toute sa vie est un jardin. Et s'il est en plus un meurtri, **la grâce peut allonger ce jardin-là aussi.** L'ancienne version ne savait rien faire pour lui : il était déjà au plancher, on ne pouvait pas le faire descendre davantage. La nouvelle a encore quelque chose à donner.
+
+Il n'y a pas de plafond posé au supplément. Il n'y a pas non plus de barème : **plus quelqu'un a été meurtri, plus le jardin est long**, et le rapport exact n'est jamais chiffré.
 
 ### 3. La condamnation empêche d'arriver
 
-L'irréparable ne reçoit pas un mauvais chiffre : il ne reçoit **pas de chiffre du tout**. Sa capsule n'éclaircit pas (§8). Il n'y a pas de bas de barème, il y a une porte fermée.
+L'irréparable ne reçoit pas un mauvais jardin : il ne reçoit **rien du tout**. Sa capsule n'éclaircit pas (§8). Il n'y a pas de bas de barème, il y a une porte fermée.
 
 Le système n'a donc que trois sorties, et pas un continuum de récompenses : condamné, reconduit, gracié.
 
@@ -77,43 +101,72 @@ Le système n'a donc que trois sorties, et pas un continuum de récompenses : co
 
 Il n'existe aucun mécanisme par lequel un pauvre reviendrait riche, un raté reviendrait puissant, un humilié reviendrait admiré. Ce monde a ses inégalités comme le nôtre, et elles ne sont la traduction de rien.
 
-Ce que le système déplace, ce sont des années et leur qualité. Rien d'autre ne passe la porte.
+Ce que le système déplace, ce sont des années et leur qualité. Rien d'autre ne passe la porte. Et depuis la simplification, il ne les déplace plus qu'à un seul endroit : **au jardin.**
 
-**Conséquence sur la lecture du §11.** La réparation — *« ce qu'on lui a arraché lui est rendu »* — ne se lit donc pas en quantité d'années. On ne rend pas à une adolescente assassinée les soixante-dix ans qu'on lui a pris : ce serait un remboursement, et le système ne rembourse pas. On lui donne **l'insouciance tout de suite et pour longtemps**. Un chiffre bas, un palier étendu, une vie qui ne connaîtra ni le travail ni la peur. Ce n'est pas équivalent à ce qu'elle a perdu. Rien ne l'est. C'est ce que le système sait faire.
+### 5. Ce qui ne change pas
 
-### 5. L'épigraphe devient mécanique
+Tout le §7 tient, sans retouche.
+
+- **La vitesse de descente** reste celle du §7 : une marche par an au-dessus de cinquante ans, environ trois ans par marche chez les jeunes arrivants. *Plus on arrive jeune, plus on descend lentement.*
+- **La vitesse est fixée à l'arrivée, une fois pour toutes**, et ne se recalcule jamais ensuite.
+- **Le plancher est à cinq ans**, aux deux bouts.
+- **Les durées de jardin du tableau du §7 deviennent les durées ordinaires** : celles du verdict réparable. La grâce s'y ajoute ; elle ne les remplace pas.
+
+### 6. L'épigraphe devient mécanique
 
 > **L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.**
 
-Ce n'était qu'une formule de sermon. Avec la règle ci-dessus, c'est un barème complet :
+Ce n'était qu'une formule de sermon. Avec la règle ci-dessus, c'est un tableau à deux colonnes et il n'en faut pas une de plus :
 
-| Entrée au registre | Effet sur le chiffre | Ce que ça donne |
-|---|---|---|
-| Irréparable | pas de chiffre | capsule sans éclaircie (§8) |
-| Réparable | chiffre = âge de mort | on reprend là où on s'est arrêté |
-| Meurtri | chiffre < âge de mort | insouciance plus tôt, plus longtemps |
+| | Ce qu'on reçoit |
+|---|---|
+| L'irréparable | pas de capsule qui éclaircit |
+| Le réparable | son âge, jardin ordinaire |
+| **Le meurtri** | **son âge, jardin allongé** |
 
 **Trois entrées, et rien d'autre n'y est inscrit.** Ni la richesse, ni la pauvreté, ni le succès, ni l'échec, ni le talent, ni la notoriété, ni la beauté. Le registre est court parce que l'Archiviste ne tient les comptes que d'une seule chose.
 
-### Correction en attente sur le dossier maître
+### Corrections en attente sur le dossier maître
 
-Le §11 du dossier maître contient encore la phrase *« un pauvre ici devient riche là-bas »*. **Cette idée est abandonnée** : elle contredit frontalement le point 4 ci-dessus. La phrase est à réécrire dans `L-ECLAIRCIE-dossier-complet.md`, §11, dernière puce.
+*Ce document ne modifie pas le dossier maître. Les corrections sont signalées, pas appliquées.*
 
-*Ce document ne modifie pas le dossier maître. La correction est signalée, pas appliquée.*
+- **§11, dernière puce.** La phrase *« un pauvre ici devient riche là-bas »* est **abandonnée** : elle contredit frontalement le point 4 ci-dessus. À réécrire dans [`../L-ECLAIRCIE-dossier-complet.md`](../L-ECLAIRCIE-dossier-complet.md).
+- **§11, première puce.** *« Victime → réparation. Ce qu'on lui a arraché lui est rendu »* reste juste, et le devient même davantage. Mais **le §11 ne précise pas sous quelle forme.** À compléter : la réparation est un jardin allongé.
+- **§7.** Le tableau des durées ne dit pas non plus qu'il donne les **durées ordinaires**, ni qu'un meurtri reçoit un supplément par-dessus. À préciser au même endroit.
 
 ---
 
-## Conséquence pour le couple central
+## Conséquence pour les personnages
 
-Ils sont morts tous les deux à 62 ans, à huit ans d'intervalle. Ils arrivent tous les deux à 62 ans, à huit ans d'intervalle.
+### Andrew et Erin — le défaut, deux fois
 
-**Ce n'est pas une exception : c'est le défaut.** Aucun des deux n'a rien commis d'irréparable, aucun des deux n'a rien subi d'extraordinaire. Ils sont donc reconduits l'un et l'autre à leur âge de mort. Le chiffre se répète parce que la mécanique est la même et que les deux vies ont donné le même résultat — pas parce que quelque chose les a rapprochés.
+Andrew est mort à 62 ans : il arrive à 62 ans. Erin est morte à 64 ans, dix ans plus tard : elle arrive à 64 ans, dix ans plus tard.
 
-Ce que le système leur accorde, c'est **un pardon sans supplément ni retranchement**. Lui a obéi quand il ne fallait pas : faute réparable, ligne médiane. Elle n'a rien à réparer non plus. Deux dossiers ordinaires, deux verdicts ordinaires.
+**Ce n'est pas une exception : c'est le défaut**, et c'est désormais le défaut de tout le monde. Aucun des deux n'a rien commis d'irréparable, aucun des deux n'a rien subi d'extraordinaire. Ils sont donc reconduits l'un et l'autre à leur âge de mort, avec **un jardin ordinaire** — ni supplément, ni retranchement.
+
+Lui a obéi quand il ne fallait pas : faute réparable, ligne médiane. Elle n'a rien à réparer non plus. Deux dossiers ordinaires, deux verdicts ordinaires. **Leurs chiffres ne bougent pas** : 57 ans de descente et une douzaine d'années de jardin pour lui, environ 69 ans de vie ; 59 ans de descente et une douzaine de jardin pour elle, environ 70 ans de vie.
 
 Il n'y a donc rien à chercher là. Le lecteur qui voudrait y voir un signe se trompera, et le livre ne le détrompera pas — mais l'autrice, elle, sait qu'il n'y a rien dedans.
 
 Détail du décompte dans [`les-ages-croises.md`](les-ages-croises.md).
+
+### Chrissy et Tania — la grâce, enfin lisible
+
+Elles sont mortes à **18 ans**. **Elles arrivent donc à 18 ans.** Il n'y a plus rien à trancher de ce côté-là : le chiffre n'est plus un choix d'autrice, c'est une donnée.
+
+Treize marches à descendre, à la vitesse lente des jeunes arrivants — de l'ordre de deux à trois ans par marche, donc **une trentaine d'années de descente**. Puis **un jardin allongé, bien au-delà de l'ordinaire**, parce qu'elles sont des meurtries.
+
+**Le supplément n'est pas fixé ici.** Il appartient à l'autrice, et comme tout le §7, **c'est la forme qui compte, pas la décimale** : ce qui est acquis, c'est qu'elles arrivent à l'âge où on les a tuées et qu'elles restent au jardin bien plus longtemps que quiconque.
+
+Ce que ça donne, et qui n'était pas atteignable avec l'ancienne règle : **elles arrivent avec le corps qu'elles avaient à l'heure de la planque.** C'est ce corps-là, exactement, qui sort de la capsule devant une salle qui s'émerveille — et c'est ce corps-là que la descente va défaire lentement, pendant trente ans, avant de le déposer dans un jardin qui ne finit pas. Fiche : [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+
+*Cette fiche est à mettre à jour : elle porte encore l'ancienne règle et laisse leur âge d'arrivée ouvert. Il ne l'est plus.*
+
+### L'enfant de la mère — inchangé, et améliorable
+
+Mort avant cinq ans, donc arrivé au plancher : aucune marche à descendre, **toute sa vie est un jardin.** Le nouveau système ne change rien à son cas, et confirme la phrase du §7 — c'est la grâce maximale que le système sache accorder.
+
+À une nuance près, et elle est nouvelle : **la grâce peut désormais l'allonger encore.** L'ancienne règle butait sur le plancher et n'avait plus rien à lui donner.
 
 ---
 
@@ -123,8 +176,19 @@ Rien.
 
 Rappel de l'interdit d'écriture n° 3 du §14 : **pas de barème dans le texte.** Si le lecteur peut calculer, il arrête d'avoir peur.
 
-Tout ce qui précède, et le barème du verdict en particulier, appartient à la bible d'autrice. Ce n'est jamais énoncé dans le roman, jamais confirmé, jamais expliqué par un personnage. Au mieux, ça y existe comme **doctrine contestée** : ce que le culte de l'Éclaircie enseigne, ce qu'un veilleur croit et qu'un autre refuse, une phrase de sermon que personne ne sait démontrer.
+La simplification ne relâche pas cet interdit — elle l'aggrave. Une règle en trois lignes est une règle que le lecteur retiendrait du premier coup s'il l'entendait une fois. **Elle ne doit donc jamais être énoncée**, ni par un veilleur, ni par un sermon, ni par le narrateur. Au mieux, elle existe dans le livre comme **doctrine contestée** : ce que le culte de l'Éclaircie enseigne, ce qu'un veilleur croit et qu'un autre refuse, une phrase que personne ne sait démontrer.
+
+Ce qui reste montrable, en revanche, et qui ne dit rien du système : **on voit des gens rester très longtemps au jardin.** Le lecteur peut le remarquer. Il n'a aucun moyen d'en tirer une règle.
 
 Les personnages sortent vides. Aucun d'eux ne peut savoir ce qui a été jugé, ni qu'une vie a précédé. Ils voient un corps sortir d'une capsule et ils en pensent quelque chose. C'est tout ce que le livre montre.
 
 Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le lecteur comprenne.
+
+---
+
+## À trancher
+
+- [ ] **La longueur du jardin de Chrissy et Tania.** Combien d'années au-delà de l'ordinaire. La forme est acquise, le chiffre non.
+- [ ] **Y a-t-il un plafond au jardin allongé ?** Une grâce peut-elle durer plus longtemps qu'une vie ordinaire entière ? Rien ne l'interdit pour l'instant.
+- [ ] **Le jardin allongé se voit-il de l'extérieur ?** Un arrivant qui reste trente ans au jardin quand les autres y restent douze est un fait observable par un veilleur attentif. Est-ce une piste d'enquête ou un angle mort du monde ?
+- [x] ~~**L'attribution du chiffre d'arrivée.**~~ — **close, 15 août 2026.** Il n'y a plus d'attribution : l'âge d'arrivée est l'âge de mort.

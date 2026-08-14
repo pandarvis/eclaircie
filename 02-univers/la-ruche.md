@@ -151,6 +151,8 @@ C'est le cœur de la section, et il tient en trois temps.
 
 **« Jumeau » désigne une fraternité** — deux enfants d'une même naissance. Or ce monde n'a **ni naissances, ni parents, ni sang, ni filiation** : tout le monde est stérile, et la ruche est la seule source d'arrivées (§4 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)). Le mot n'a rien à quoi s'accrocher ; la langue ne l'a jamais formé.
 
+*Ce n'est pas un cas particulier : c'est un cas parmi tous les autres. **Aucun mot de parenté n'existe dans cette langue** — voir [« Aucun mot de parenté n'existe dans cette langue »](#aucun-mot-de-parenté-nexiste-dans-cette-langue), qui pose la règle entière dont celle-ci n'était que la partie visible.*
+
 **La ressemblance n'est donc pas une parenté : c'est une anomalie de la ruche.** Deux visages identiques ne renvoient à rien, ne s'expliquent par rien, et n'ont aucune cause connue. Personne n'a jamais vu deux personnes se ressembler pour une raison.
 
 **D'où un mot de service, plat et descriptif**, sorti d'un registre et non d'une langue de famille. *Une paire* décrit exactement ce que le veilleur constate : deux capsules, deux corps, un seul visage.
@@ -215,7 +217,7 @@ Un arrivant de moins de huit ans est **systématiquement accueilli par un veille
 
 C'est la seule dérogation, et elle est de nature différente : ici le nom est bien donné par quelqu'un, et par quelqu'un qui va rester. Un très jeune arrivant ne deviendra jamais adulte ; il ira au jardin et il y restera. Le partage est le même que celui du berceur et du tuteur — *le tuteur instruit ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage* ([`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.6).
 
-*Incidence à ne pas manquer : **la paire relève du protocole ordinaire, donc Chrissy et Tania sont arrivées à huit ans ou plus.** Le chiffre exact reste à trancher — voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §2 —, mais le plancher est désormais fixé, puisque ce sont elles qui ont produit leurs deux mots.*
+*Incidence, et elle est tranchée : **Chrissy et Tania sont mortes à dix-huit ans et arrivent à dix-huit ans.** Très au-dessus du seuil : elles relèvent du protocole ordinaire, et **ce sont elles qui ont produit leurs deux mots.** Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).*
 
 ### Le nom d'éclaircie — terme du monde
 
@@ -318,6 +320,53 @@ Ce que ça résout, et ce que ça produit chez Andrew : voir [`../04-plan/le-mem
 
 ---
 
+## Aucun mot de parenté n'existe dans cette langue
+
+**Décision de l'autrice, 15 août 2026. C'est la règle générale ; « il n'y a pas de noms de famille » n'en était que la partie visible.**
+
+> *« Il n'y a pas de notion de famille. Elle peut pas dire son fils. »*
+
+**Il n'y a ni naissances, ni parents, ni sang, ni filiation** — tout le monde est stérile, la ruche est la seule source d'arrivées (§4 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)). **Tout le vocabulaire de la parenté est donc absent de cette langue.**
+
+Pas de mère, pas de père, pas de fils, pas de fille au sens d'enfant, pas de frère, pas de sœur, pas de famille, pas de cousin, pas de grand-mère, pas d'oncle, pas de veuve, pas d'orphelin. **Ces mots ne désignent rien et n'ont jamais existé.** Ce ne sont pas des mots oubliés, ni tombés en désuétude, ni tabous : la langue ne les a jamais formés, faute d'objet — exactement comme elle n'a jamais formé de nom de famille.
+
+### La contrainte d'écriture, et elle est lourde
+
+**Aucun personnage ne peut employer ces mots. Le narrateur non plus, dès qu'il décrit ce monde-ci.** La règle est permanente, elle vaut ligne à ligne, et elle ne souffre aucune exception : ni dans un dialogue, ni dans une pensée rapportée, ni dans une comparaison, ni dans une formule toute faite.
+
+Il faudra donc chercher des tournures, et elles sont à inventer au fil du texte :
+
+- **« celui dont elle a la charge »** ;
+- **« l'arrivant qu'elle accompagne »** ;
+- **« les deux qui se ressemblent »** ;
+- **« l'homme avec qui elle vit »**, plutôt que tout terme d'alliance.
+
+*Ce que ça coûte : de la lourdeur, si l'on n'y prend garde. Ce que ça rapporte : cette langue-là est déjà celle du registre — un lien s'y dit toujours par une charge, une fonction ou une travée, jamais par un mot de sang. La contrainte pousse dans le sens du monde.*
+
+### Les chapitres de la vie d'avant, eux, peuvent tout dire
+
+**Là-bas, les mots existent.** Une sœur est une sœur, une mère est une mère, et rien n'interdit de l'écrire dans les fragments de reliquat.
+
+C'est donc **un faux raccord du registre de la langue, exactement comme le nom de famille** : une catégorie entière de vocabulaire présente d'un côté, absente de l'autre. Le lecteur passe d'un monde où l'on peut dire *ma sœur* à un monde où la phrase n'a pas de forme possible.
+
+**Et, comme le nom de famille, il joue par l'absence.** Il n'ajoute pas une ligne, ne demande pas une scène, ne réclame aucune explication : il ne coûte rien au dispositif. **Il échappe donc à la règle de dosage** — il n'y a rien à doser, puisqu'il n'y a rien de dit.
+
+### Ce que ça explique rétroactivement : « jumeau »
+
+**Le mot « jumeau » n'existe pas dans ce monde parce que c'était déjà un mot de parenté.** Voir [« Une paire »](#une-paire).
+
+La règle posée là n'était pas un cas particulier bien trouvé : c'était **le seul endroit du dossier où l'on avait vu affleurer celle-ci.** Le raisonnement était juste et il était incomplet — il valait pour *jumeau*, il vaut pour toute la catégorie. *Une paire* n'est pas un substitut trouvé pour un mot manquant : c'est le seul mot que cette langue pouvait produire.
+
+### Le régime : le lecteur ne le remarquera peut-être jamais
+
+**Et c'est très bien.** La règle ne s'énonce nulle part, aucun personnage ne la formule, et **on n'écrit jamais que quelque chose manque** — ce serait l'[interdit n° 5](../01-dossier/les-interdits.md).
+
+Le lecteur peut traverser le livre entier sans s'apercevoir que pas une phrase de ce monde-ci n'a nommé un lien de sang. Ou le découvrir d'un coup, à la relecture. Les deux lectures sont bonnes, et la seconde n'est pas meilleure : c'est le régime exact de l'[interdit n° 1](../01-dossier/les-interdits.md) — **ce qui n'est pas dit n'est pas caché, il est simplement à sa place.**
+
+*Vérification de relecture, ligne à ligne : traquer les mots de parenté dans toute scène de ce monde-ci, y compris les emplois figurés et les expressions lexicalisées. Le dossier de travail lui-même doit s'y tenir dès qu'il décrit ce monde ; il garde le droit de nommer les liens de la vie d'avant, et seulement ceux-là.*
+
+---
+
 ## Le corps de métier
 
 **Décision de l'autrice.** Un veilleur ne travaille pas seul : il appartient à un service, avec une hiérarchie, une ancienneté et un tour de rôle.
@@ -383,7 +432,9 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **Le nom de famille de l'affaire — `[Nom]`.** Le mot que les fragments emploient pour désigner le dossier : *« l'affaire [Nom] »*. **Rien n'est inventé ici et rien ne doit l'être** ; le dossier écrit `[Nom]` en attendant que l'autrice choisisse. Points à peser avec elle : un nom courant ou singulier, court ou long, et s'il doit sonner comme un nom de famille de chez nous sans jamais situer un pays ([interdit n° 6](../01-dossier/les-interdits.md)). Voir [« Il n'y a pas de noms de famille »](#il-ny-a-pas-de-noms-de-famille).
 - [ ] **La phrase courte du veilleur.** Ce qu'il dit exactement pour expliquer ce qu'est un prénom, en une phrase, à quelqu'un qui vient de sortir. Elle sera prononcée au moins deux fois dans le livre — à la cérémonie d'ouverture, et à la cérémonie groupée — et il faut qu'elle soit la même les deux fois, usée comme une formule de métier.
 - [ ] **Que se passe-t-il quand le mot ne vient pas ?** Un arrivant qui ne répond rien, qui répond deux mots, qui répond une phrase entière, ou qui produit le même mot qu'un autre. Le protocole doit avoir une routine pour ça — **et elle doit rester banale**, du genre qu'on ne commente pas. À ne développer que si une scène en a besoin.
-- [ ] **L'âge d'arrivée de la paire.** Le protocole ordinaire ne s'applique qu'à partir de huit ans, et ce sont elles qui ont produit leurs noms : **le plancher est donc huit ans.** Le chiffre exact reste à trancher — voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §2.
+- [x] ~~**L'âge d'arrivée de la paire.**~~ — **tranché : dix-huit ans.** Mortes à dix-huit, arrivées à dix-huit, très au-dessus du seuil ; elles ont produit leurs prénoms elles-mêmes. Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+
+*Réglé : **aucun mot de parenté n'existe dans cette langue** — la règle dont « pas de noms de famille » et « pas de jumeau » n'étaient que les affleurements. Voir la section correspondante.*
 
 *Réglé : jusqu'où remontent les registres, et depuis combien de temps ça dure — non, et personne ne sait. Voir la section correspondante.*
 
