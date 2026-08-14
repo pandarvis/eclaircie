@@ -74,30 +74,93 @@ Le §14 exige que *« le détective poursuive des faits, jamais le mystère »*.
 
 ---
 
-## 4. Les chapitres de reliquat
+## 4. Les chapitres de reliquat — à la troisième personne
 
-Ces scènes lui reviennent **par fragments, disséminés dans tout le livre** : le lecteur suit l'avancée de l'enquête d'alors en même temps que le présent.
+> **Tranché par l'autrice, 14 août 2026.** *« Peut-être même pas comprendre au départ que les reliquats lui rappellent sa propre vie. Comme s'il suivait un flic. »*
+>
+> **Les fragments ne disent jamais « je ». Ils racontent un homme, et il croit suivre quelqu'un d'autre.**
 
-Progression proposée en trois temps, **non figée** :
+Ces scènes lui reviennent **par fragments, disséminés dans tout le livre** : le lecteur suit l'avancée de l'enquête d'alors en même temps que le présent. Mais ce qui remonte n'est pas une vie retrouvée — c'est **une filature**.
+
+### 4.1 Il ne se reconnaît pas
+
+Ce qui revient, c'est **un homme**. Un enquêteur qui entre dans des pièces, qui interroge, qui attend devant une porte, qui roule la nuit. On le voit de dehors, comme on suit quelqu'un : ses gestes, son dos, sa méthode. Jamais un visage. Jamais un nom. **Jamais « je ».**
+
+Et il n'a **aucune raison** de penser que cet homme est lui. Ce n'est pas un déni, ce n'est même pas une résistance : c'est l'état normal d'un habitant de ce monde-ci. Personne n'a de vie antérieure, la notion n'existe pas, aucune langue ici ne la formule. **Il ne refuse pas l'idée : il ne l'a pas.** Pour se reconnaître dans cet homme, il lui faudrait d'abord soupçonner qu'on puisse avoir été quelqu'un — et rien, nulle part, ne le lui a jamais suggéré.
+
+C'est la lecture exacte du §12 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) :
+
+> *« Le reliquat n'est pas un souvenir, c'est une vocation. On ne se rappelle pas ce qu'on a été : on y retourne. »*
+
+**Il y retourne sans savoir qu'il y retourne.** Il refait, dans ce monde-ci, les gestes d'un homme qu'il croit observer dans l'autre — et il ne fait jamais le rapprochement, parce qu'un métier n'est pas une preuve et que tout le monde en a un.
+
+### 4.2 Il a déjà une explication toute prête, et elle est fausse : le garçon
+
+C'est le mouvement 10 du plan, la contamination — *« il ne sait plus si ce qu'il voit vient du garçon ou de lui »*. Cette phrase change de sens et devient le moteur de sa cécité.
+
+**Sa théorie de travail est que ces images viennent du gosse.** Elle est excellente, et c'est ce qui la rend redoutable :
+
+- le garçon parle depuis le mouvement 4, il décrit des lieux qui n'existent pas, il dit des choses impossibles ;
+- les fragments arrivent **après** que le garçon a commencé à parler, et sur le même matériau : des pièces, des routes, des gens qui ne sont d'ici ;
+- lui est veilleur, il note, il classe, il recoupe — un homme qui passe ses journées dans les fabulations d'un enfant finit forcément par en rêver ;
+- et surtout : **une hypothèse disponible en chasse une impensable.** Le garçon existe, il est là, on peut aller le voir. L'autre explication n'a pas de nom.
+
+Il déterre donc sa propre vie **en croyant vérifier celle d'un autre.** Chaque fragment nouveau ne fait que confirmer ce qu'il pense déjà : que le gosse déteint sur lui, qu'il travaille trop, qu'il ferait bien de prendre du recul. Il a même mauvaise conscience — un enquêteur qui se laisse contaminer par son témoin, c'est une faute professionnelle, pas une révélation.
+
+**C'est ce qui rend sa cécité tenable sur des centaines de pages sans qu'elle paraisse forcée.** Il n'y a rien à ne pas voir : il voit quelque chose, il l'explique, et son explication est raisonnable. Un personnage qui refuse une évidence est agaçant ; un personnage qui a une bonne théorie fausse est un enquêteur.
+
+**Corollaire, et il est cruel :** entre les mouvements 17 et 18, le garçon entre au jardin et perd les mots. La source à laquelle il attribuait tout se tait — et les fragments, eux, continuent. C'est aussi par là que la théorie du garçon commence à ne plus tenir.
+
+### 4.3 La progression des fragments
+
+Progression en trois temps, **non figée**. Elle est maintenant une progression de **filature** : on voit d'abord une silhouette, puis un travail, puis une journée.
 
 **Premier temps — l'insituable.** Une sensation, un couloir, une voix, une route la nuit. Rien qui se raconte, rien qui se date, rien qui se nomme. Même régime que l'image du compte à rebours de [`veilleur.md`](../03-personnages/veilleur.md) : ni un souvenir ni un fait.
 
-**Deuxième temps — les scènes qui se tiennent.** L'enquête avance, il y a des lieux, des gens, un étau qui se resserre. Le lecteur commence à pouvoir suivre une affaire.
+**Deuxième temps — les scènes qui se tiennent.** L'enquête avance, il y a des lieux, des gens, un étau qui se resserre autour d'un homme. Le lecteur commence à pouvoir suivre une affaire — et à suivre **celui qui la mène**.
 
-**Troisième temps — la journée entière.** La planque, l'heure de retard, la poursuite, l'accident. C'est le moment où le reliquat cesse d'être une fissure et devient un récit.
+**Troisième temps — la journée entière.** La planque, l'heure de retard, la poursuite, l'accident. C'est le moment où le reliquat cesse d'être une fissure et devient un récit. C'est aussi le seul endroit du livre où l'homme suivi meurt, et où le lecteur mesure ce que ça veut dire.
 
-### Le risque, signalé et non tranché
+### 4.4 Ce que ça change au mouvement 18 — le retournement est sauvé
 
-Le §11 du dossier maître pose que **« le texte ne raconte jamais l'autre côté »**, et l'interdit n° 1 défend de nommer le mécanisme côté « chez nous ». Des chapitres complets de la vie d'avant **renversent cette règle fondatrice**. Ce n'est pas un ajustement : c'est un changement de contrat.
+**C'est la conséquence la plus importante de la décision, et elle résout le problème signalé plus haut.**
 
-Deux conséquences à peser :
+Le retournement du mouvement 18 ne porte plus sur le mécanisme. La révélation n'est plus *« il existe une vie d'avant »* — celle-là, le lecteur l'aura devinée depuis longtemps, et c'était bien le défaut du dispositif. La révélation devient :
 
-1. **Le lecteur comprendra bien avant le protagoniste.** La surprise du mouvement 18 est remplacée par de l'ironie dramatique. Ce n'est pas forcément une perte — le §3 cite *Goblin* comme registre visé, et *Goblin* fonctionne entièrement à l'ironie dramatique : il sait, elle non. Mais le mouvement 18 doit alors être réécrit comme un **soulagement** ou un **effondrement**, jamais comme une révélation.
-2. **Notre monde se trouve montré au lieu d'être deviné.** L'interdit n° 2 pose que le lecteur fournit notre monde avec ses propres morts, et qu'il ira toujours plus loin que l'autrice. Chaque détail montré remplace le sien.
+> **L'homme que tu suis depuis le début du livre, c'est toi.**
 
-**Parade recommandée**, si l'autrice retient les chapitres de reliquat : commencer par des fragments dépourvus de tout marqueur d'époque — ne nommer aucun objet, aucune ville, aucune technologie, aucune institution — et ne laisser les scènes se préciser qu'à mesure que **lui-même** se rapproche. Le texte n'en sait jamais plus que lui. La règle « le texte ne raconte jamais l'autre côté » devient alors « le texte ne raconte de l'autre côté que ce qui lui est revenu », ce qui reste un point de vue et non une fenêtre.
+La bascule tient **même si le lecteur l'a deviné**, parce qu'elle porte sur une identité et non sur une explication. Une explication devinée est éventée ; une identité devinée reste à recevoir, et c'est le personnage qui la reçoit. On ne lit pas la fin d'*Œdipe* pour apprendre un fait.
 
-**Décision à l'autrice.** C'est le seul point du document qui touche à la charpente du livre entier.
+Conséquence d'écriture : le mouvement 18 n'est pas un raisonnement sur le monde, c'est un **recouvrement**. Deux images qui se superposent d'un coup — l'homme du fragment et l'homme qui lit la ligne de registre. Ce qui s'effondre n'est pas sa théorie du monde, c'est **la distance** qu'il tenait avec cet homme depuis le premier chapitre.
+
+Et la section 3 ci-dessus reste entière : il n'a pas à le déduire, il le lit. **La date est la sienne.**
+
+### 4.5 Le risque, atténué et non supprimé
+
+Le §11 du dossier maître pose que **« le texte ne raconte jamais l'autre côté »**, et l'interdit n° 1 défend de nommer le mécanisme côté « chez nous ». Des chapitres complets de la vie d'avant restent un déplacement de cette règle. Mais la troisième personne en désamorce la moitié :
+
+1. **L'ironie dramatique est fortement atténuée — elle ne disparaît pas.** Le lecteur comprendra toujours avant lui qu'il existe un ailleurs ; il ne comprendra pas forcément tout de suite **qui** est cet homme, et c'est là que porte le mouvement 18. La position du §3 (*Goblin* : il sait, elle non) reste utilisable en secours, mais le livre n'en dépend plus. Le mouvement 18 peut redevenir une bascule, à condition qu'il soit écrit comme un effondrement de distance et non comme une explication du monde.
+2. **Notre monde se trouve toujours montré au lieu d'être deviné.** L'interdit n° 2 est inchangé : chaque détail montré remplace celui du lecteur. Ce risque-là, la troisième personne ne le règle pas.
+
+**La parade reste recommandée**, et elle est maintenant doublement utile : commencer par des fragments dépourvus de tout marqueur d'époque — ne nommer aucun objet, aucune ville, aucune technologie, aucune institution — et ne laisser les scènes se préciser qu'à mesure que **lui-même** se rapproche. Le texte n'en sait jamais plus que lui. La règle « le texte ne raconte jamais l'autre côté » devient « le texte ne raconte de l'autre côté que ce qui lui est revenu », ce qui reste un point de vue et non une fenêtre.
+
+### 4.6 La contrainte d'écriture — aucun signe ne doit l'identifier
+
+**Aucun chapitre de reliquat ne contient un élément qui permettrait au protagoniste de reconnaître l'homme.** C'est une contrainte absolue, et elle vaut pour tous les fragments jusqu'au mouvement 18.
+
+Sont interdits dans les fragments :
+
+| Interdit | Pourquoi |
+|---|---|
+| **Son nom**, ou qu'on l'appelle | un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul |
+| **Un miroir**, une vitre, une photo, un reflet | le seul objet qui rende un visage à celui qui le porte |
+| **Une description physique** — taille, âge, cheveux, une cicatrice | tout signalement est une pièce d'identité |
+| **Une adresse**, un domicile, un lieu qui lui appartienne | on se reconnaît d'abord chez soi |
+| **Un « je »**, une pensée intérieure, un accès à ce qu'il ressent | la troisième personne est la contrainte, pas un effet de style |
+
+Ce qui reste, et qui suffit : des gestes, une méthode, des pièces, des heures, des voix, une fatigue. **Le lecteur peut recouper. Lui, non.** C'est exactement le partage que le §14 demande — le détective poursuit des faits, jamais le mystère —, appliqué cette fois au lecteur : on lui donne assez pour qu'il travaille, jamais assez pour que le personnage travaille à sa place.
+
+*Un signe est autorisé, un seul, et il n'appartient pas au fragment : c'est la ligne de registre du mouvement 18, qui porte une date. Elle ne décrit personne. Elle se contente d'être la sienne.*
 
 ---
 

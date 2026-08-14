@@ -139,6 +139,49 @@ Le registre est **consultable** : c'est un service d'archives, et un veilleur y 
 
 ---
 
+## Une paire
+
+**Décision de l'autrice.** Deux arrivants identiques, sortis de deux capsules voisines le même jour, s'appellent **une paire**. C'est le mot du registre, et c'est le seul : *« une paire, travée douze »*.
+
+### Pourquoi le mot « jumeau » n'existe pas dans ce monde
+
+C'est le cœur de la section, et il tient en trois temps.
+
+**« Jumeau » désigne une fraternité** — deux enfants d'une même naissance. Or ce monde n'a **ni naissances, ni parents, ni sang, ni filiation** : tout le monde est stérile, et la ruche est la seule source d'arrivées (§4 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)). Le mot n'a rien à quoi s'accrocher ; la langue ne l'a jamais formé.
+
+**La ressemblance n'est donc pas une parenté : c'est une anomalie de la ruche.** Deux visages identiques ne renvoient à rien, ne s'expliquent par rien, et n'ont aucune cause connue. Personne n'a jamais vu deux personnes se ressembler pour une raison.
+
+**D'où un mot de service, plat et descriptif**, sorti d'un registre et non d'une langue de famille. *Une paire* décrit exactement ce que le veilleur constate : deux capsules, deux corps, un seul visage.
+
+### Ce que dit la foule
+
+Le mot administratif suffit ; la salle n'a pas besoin d'un second terme. Devant une paire, on dit simplement *« elles sont pareilles »*, et l'émerveillement fait le reste.
+
+C'est reçu comme un cadeau de la nature, une chance, quelque chose qu'on raconte ensuite. Aucune inquiétude, aucun présage : la ruche a fait une chose jolie, on la regarde.
+
+### La rareté
+
+C'est rare, mais pas inouï. À une cérémonie où une paire se présente, quelqu'un peut dire n'avoir jamais vu ça, et quelqu'un d'autre en avoir vu une, des années plus tôt.
+
+Le veilleur de service, lui, note tout : l'heure, les travées, les âges relevés à l'instrument, et le fait qu'il y a une paire. Une ligne de plus dans un document ennuyeux.
+
+### L'effet, et c'est un outil d'écriture
+
+Le lecteur, lui, a le mot. Il sait ce que sont des jumelles. Les personnages ne l'ont pas et ne peuvent pas l'avoir.
+
+**Quand le protagoniste lit sa ligne de registre, il regarde des jumelles et il lui manque le concept.** Le décalage travaille tout seul, sans qu'aucun personnage ait à s'étonner de quoi que ce soit — et il faut que personne ne s'en étonne. Même régime que l'ancienneté qui se lit à l'envers sur les visages, plus bas : le calcul se fait de l'autre côté de la page.
+
+### Précision de vocabulaire pour le dossier de travail
+
+À écrire noir sur blanc, pour éviter la faute de langue en cours d'écriture :
+
+- **« jumelles » reste juste et employable pour la vie d'avant** — là où elles en sont — et donc dans les chapitres de reliquat ;
+- **le mot est proscrit dans toute scène se déroulant dans ce monde-ci**, où l'on dit *une paire*.
+
+Vaut pour la narration comme pour les dialogues. Voir [`les-ages-croises.md`](les-ages-croises.md) pour ce que leur arrivée simultanée doit à la correspondance des lieux.
+
+---
+
 ## Le corps de métier
 
 **Décision de l'autrice.** Un veilleur ne travaille pas seul : il appartient à un service, avec une hiérarchie, une ancienneté et un tour de rôle.
@@ -201,4 +244,6 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **Qui consulte le registre en dehors des veilleurs ?** L'administration du mouvement 3 en tire des statistiques : par quel canal ?
 - [ ] **La taille de la ruche.** Combien de travées, combien de veilleurs — c'est-à-dire : le protagoniste travaille-t-il seul, ou dans une équipe qui le voit faire ?
 
-*Réglé : jusqu'où remontent les registres, et depuis combien de temps ça dure — non, et personne ne sait. Voir la section ci-dessus.*
+*Réglé : jusqu'où remontent les registres, et depuis combien de temps ça dure — non, et personne ne sait. Voir la section correspondante.*
+
+*Réglé : comment on nomme deux arrivants identiques — **une paire**, mot du registre ; « jumeau » n'existe pas dans ce monde et reste réservé aux chapitres de reliquat. Voir [« Une paire »](#une-paire).*
