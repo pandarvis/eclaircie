@@ -123,6 +123,112 @@ C'est pour cela que **le relevé à l'instrument est possible et fiable** (voir 
 
 ---
 
+## Le suivi médical après l'éclaircie
+
+**Décision de l'autrice, 15 août 2026.**
+
+> *« Il existe des "pédiatres" pour vieux ! Des rdv médicaux obligatoires après éclaircie pour vérifier que tout va bien. Test de mémoire, de tonicité musculaire, évaluation de l'apprentissage, etc. »*
+
+**Toute éclaircie est suivie de rendez-vous médicaux obligatoires.** Ce n'est ni une faveur, ni un dépistage exceptionnel, ni une précaution réservée aux cas difficiles : c'est le régime commun. On sort d'une capsule, on est inscrit au registre, et on est attendu. Le premier rendez-vous vient tôt ; les autres s'échelonnent ensuite, et il y en a d'autant plus qu'on est arrivé haut.
+
+### Ce qu'on y vérifie
+
+Deux choses, et elles ne se confondent pas : **que l'arrivant va bien**, et **qu'il progresse**.
+
+- **la mémoire** — retient-il ce qu'on lui a montré la dernière fois ;
+- **la tonicité musculaire** — le corps répond-il, tient-il debout seul, se relève-t-il ;
+- **l'apprentissage** — où en est-il de ce qu'on lui enseigne, et à quelle vitesse il l'acquiert ;
+- **la coordination** — la main, le geste, l'objet saisi du premier coup ;
+- **l'élocution** — la langue est sortie avec lui, mais la parole est-elle nette, l'esprit encore embrumé ;
+- **la compréhension des consignes** — on demande, il exécute ; on demande deux choses à la suite, il en oublie une.
+
+Rien de tout cela n'est spectaculaire. C'est un examen, dans un cabinet, avec des exercices simples et un dossier qu'on remplit.
+
+### C'est une pédiatrie pour vieillards
+
+**Et c'est la satire du §9 poussée d'un cran.** L'école y installe déjà le renversement : *« les formateurs sont toujours plus jeunes que leurs apprenants »*, et *« on apprend à un homme de 80 ans à tenir un couteau, à se servir d'un économe, à comprendre que le feu ça brûle »*. Le suivi médical prend la suite et va plus loin, parce qu'il ne se contente pas d'enseigner : **il évalue.**
+
+On surveille le développement d'un homme de quatre-vingts ans exactement comme on surveille celui d'un enfant. Est-ce qu'il tient debout tout seul. Est-ce qu'il retient ce qu'on lui montre. Est-ce qu'il progresse normalement pour son cas. Un praticien plus jeune que lui note ses réponses, mesure sa poigne, lui demande de répéter trois mots, et conclut que tout va bien.
+
+> ⚠️ **Personne ne trouve ça drôle, et le texte ne le souligne jamais.**
+>
+> Ni le narrateur, ni un personnage, ni une réplique de couloir. Aucun sourire, aucun malaise, aucune ironie de service. C'est une consultation, c'est obligatoire, c'est fait tous les jours, et un rendez-vous manqué se rattrape. Le comique et l'effroi appartiennent entièrement au lecteur — même régime que le bizutage à la raclette de [`la-ruche.md`](la-ruche.md) et que l'ancienneté qui se lit à l'envers sur les visages.
+
+### Ce que le suivi mesure vraiment : la pente
+
+Il s'accroche à deux règles déjà posées, et il n'en ajoute aucune.
+
+**L'arrivant sort en sachant parler et ne sait rien faire.** Tout est à apprendre, à partir de zéro, quel que soit l'âge du corps. Il y a donc, dès le premier jour, quelque chose à évaluer — et un état initial à consigner.
+
+**L'apprentissage est plus rapide chez les vieux à mesure qu'ils rajeunissent** (§9) : on apprend mal au début, de mieux en mieux ensuite. Ce n'est pas une opinion de pédagogue, c'est une **courbe**, et elle est la même pour tout le monde dans le même sens.
+
+**Le suivi médical est la manière dont cette société mesure cette pente.** Il ne la découvre pas, il ne l'explique pas, il la constate à intervalles réguliers, sur chaque arrivant, avec les mêmes épreuves. Un homme arrivé à quatre-vingt-dix ans progresse lentement puis de plus en plus vite : le dossier le montre, ligne après ligne, et personne n'y voit autre chose que la normale.
+
+*D'où une conséquence tranquille : il existe des repères, des moyennes, des « normalement, à ce stade ». Ne jamais les chiffrer dans le texte — ce serait un barème ([interdit n° 3](../01-dossier/les-interdits.md)). Un praticien dit « c'est bien », ou « on se revoit dans trois mois », et cela suffit.*
+
+### Ce n'est pas le relevé, et il ne faut jamais les confondre
+
+Deux gestes, deux métiers, deux objets.
+
+| | **Le relevé** | **Le suivi médical** |
+|---|---|---|
+| Qui | le veilleur, à la ruche | un praticien, en cabinet |
+| Quand | une fois, à l'arrivée | plusieurs fois, et ça dure |
+| Ce que ça produit | **un âge** | **un état et un progrès** |
+| Où ça va | le registre de la ruche | un dossier médical |
+| Ce que ça dit de l'arrivant | ce qu'il est | ce qu'il devient |
+
+Le relevé à l'instrument donne l'âge **une fois pour toutes** : le corps dit l'âge exactement, il n'y a pas d'écart entre âge biologique et âge réel, la mesure est bonne le premier jour et ne se refait pas (voir la section précédente et [`la-ruche.md`](la-ruche.md)). Il n'y a rien à surveiller de ce côté-là.
+
+Le suivi, lui, ne mesure pas l'âge — il le connaît déjà. **Il mesure ce que l'âge ne dit pas** : l'état, et le progrès. Et il dure, parce que c'est la seule façon d'observer une pente.
+
+---
+
+### Ce que ça apporte au roman
+
+**1. Un second registre existe, et il n'appartient pas aux veilleurs.**
+
+C'est le gain principal. Jusqu'ici, le livre n'avait qu'une archive : celle de la ruche — travée, dates, éclaircie, âge relevé. Il y en a maintenant une autre, **d'une autre nature et tenue par d'autres gens** : des dossiers médicaux, avec des dates de consultation, des évaluations, un historique, et un praticien qui a vu la personne plusieurs fois.
+
+**Un arrivant a donc un dossier de suivi.** Toute personne de ce monde en a un, y compris ceux dont le roman ne parle pas. C'est banal, c'est administratif, ça se demande.
+
+**Eliott en a un, et c'est [June](../03-personnages/june.md) qui l'y emmène.** Cela découle de son métier : elle est sa berceuse, elle a sa charge, elle est la seule personne qui l'ait à charge dans ce monde — c'est donc elle qui l'accompagne aux rendez-vous, elle qui connaît le praticien, elle qui sait quand est le prochain. Voir [`../03-personnages/june.md`](../03-personnages/june.md) et [`../03-personnages/eliott.md`](../03-personnages/eliott.md).
+
+**C'est une ressource d'enquête**, et elle est propre : elle ne demande aucune fissure supplémentaire dans le monde, aucun personnage ne s'étonne de rien, et l'accès s'obtient par les voies ordinaires — une berceuse qui accompagne, un praticien qui reçoit, un dossier qui existe. Après la disparition d'Eliott, c'est un endroit où il y a quelque chose d'écrit sur lui, et quelqu'un qui l'a examiné.
+
+**Et c'est un endroit où l'on aurait pu remarquer.** Un enfant qui dit des choses impossibles a été examiné, plusieurs fois, par un professionnel dont le métier est précisément de voir si quelque chose ne va pas — mémoire, compréhension, langage. Ce que ce dossier contient, ce qu'on y a noté ou pas, à qui on l'a signalé ou pas, est disponible pour le récit et ne coûte rien.
+
+**2. La conséquence sur les voilés — question ouverte, et elle touche à l'[interdit n° 4](../01-dossier/les-interdits.md).**
+
+Il faut la poser franchement, parce qu'elle se posera à l'écriture : **un suivi médical obligatoire est exactement le dispositif qui devrait repérer une anomalie.** Des rendez-vous réguliers, des tests de mémoire, une évaluation du langage, un praticien formé, un dossier qui garde tout. Si quelqu'un dans ce monde doit voir passer un voilé, c'est lui.
+
+Deux réponses tiennent, et **aucune n'est tranchée ici** :
+
+- **Le protocole ne cherche pas ça.** Il mesure une pente : est-ce que ça progresse, est-ce que c'est dans la normale. Il n'a aucune case pour un contenu — ce que l'arrivant dit ne fait pas partie de ce qu'on note, seulement la manière dont il le dit. Un voilé passe parce qu'on ne l'écoute pas, on le mesure.
+- **Ce qu'il dit passe pour de la fabulation ordinaire.** C'est déjà ce que pose le §12 et toute la fiche d'Eliott : *il dit des choses impossibles ; tout le monde le prend pour un fabulateur.* Un praticien qui entend un enfant de dix ans parler d'un boulanger qui n'existe pas entend un enfant de dix ans. Le détail est banal, local, invérifiable — et c'est fait pour.
+
+**Ce qu'il ne faut pas faire, en revanche, est clair** : le suivi médical ne doit jamais devenir l'instance qui *établit* qu'Eliott est voilé. Une évaluation professionnelle qui conclurait à une anomalie réelle transformerait la fissure en fait démontré, et l'hypothèse « il fabule » tomberait — ce que l'interdit n° 4 refuse. Le dossier peut contenir une inquiétude, une ligne, une remarque prudente. Jamais une preuve.
+
+*Et la même question vaut pour Andrew, en plus discret : il est passé par là comme tout le monde, à soixante-deux ans, et rien n'a été relevé. Personne ne sait qu'il est voilé — lui non plus, au début. Son dossier de suivi existe quelque part, et il est parfaitement normal.*
+
+---
+
+### Le nom du métier n'est pas choisi
+
+**Rien n'est retenu ici, et rien ne doit l'être sans l'autrice.**
+
+*« Pédiatre pour vieux »* est **la formule de travail de l'autrice**, pas un mot du roman. Elle dit exactement ce qu'est la chose et c'est pour ça qu'elle est bonne en dossier — mais elle porte la blague, et le texte ne doit pas la porter. Aucun personnage ne dira jamais cela.
+
+Le mot du monde doit être **plat, administratif, usé** — du même bois que *veilleur*, *tuteur*, *berceur*, *travée*, *nom d'éclaircie* : des mots de service que personne ne trouve remarquables. Trois pistes, à peser :
+
+- **le suivi** — *« il a son suivi jeudi »*. Le plus plat, le plus employable au quotidien, et le nom du métier s'en déduit mal (*celui qui fait le suivi*) ;
+- **les visites** — *« elle l'emmène aux visites »*. Sonne comme une obligation scolaire ou professionnelle, ce qui est juste ; ambigu avec la visite ordinaire ;
+- **le contrôle d'arrivée** — plus administratif, plus froid, et il dit le lien avec l'éclaircie ; peut-être trop long pour un dialogue.
+
+*À noter : il faut peut-être deux mots, comme partout ailleurs dans ce dossier — un pour le rendez-vous, un pour celui qui le fait. La ruche a déjà ce doublet (le relevé, et le veilleur qui relève).*
+
+---
+
 ## La décision : le corps est immaculé
 
 **Décision de l'autrice.**
@@ -188,7 +294,13 @@ Deux lectures, et le choix engage le registre entier du livre.
 - [ ] **Jusqu'où va la langue qui sort avec lui ?** Elle est complète comme langue — mots, syntaxe, compréhension. Mais un arrivant a-t-il le mot d'une chose qu'il n'a jamais vue ? Dit-il *cuillère* devant une cuillère, ou faut-il le lui souffler ? La réponse règle le ton de tous les dialogues de cérémonie, et notamment de la scène d'ouverture.
 - [ ] **Combien de temps dure l'embrumement ?** Quelques minutes, quelques jours, des semaines ? Le mot de l'autrice — *comme après un long sommeil* — suggère quelque chose qui se dissipe. Reste à savoir en combien de temps, et si c'est le même délai pour tous les âges d'arrivée.
 - [ ] **De combien cela raccourcit l'apprentissage d'Andrew**, et donc le calendrier. Aucun chiffre n'est proposé. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md) et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.3.
+- [ ] **Le nom du métier et du rendez-vous** — *le suivi*, *les visites*, *le contrôle d'arrivée*, ou autre chose. **Rien n'est retenu.** Voir [« Le nom du métier n'est pas choisi »](#le-nom-du-métier-nest-pas-choisi). *« Pédiatre pour vieux »* est la formule de travail de l'autrice et n'entre pas dans le roman.
+- [ ] **La cadence du suivi.** Combien de rendez-vous, sur combien d'années, et jusqu'où — s'arrête-t-il quand l'arrivant est autonome, ou continue-t-il jusqu'au jardin ? Le principe posé est qu'il y en a d'autant plus qu'on est arrivé haut ; le détail n'est pas réglé, et **aucun chiffre n'est proposé**.
+- [ ] **Comment un voilé passe le suivi.** Le protocole ne cherche pas ça, ou ce qu'il dit passe pour de la fabulation ordinaire — voir la section. **Question ouverte, et elle touche à l'[interdit n° 4](../01-dossier/les-interdits.md)** : le suivi ne doit jamais devenir l'instance qui établit qu'Eliott est voilé.
+- [ ] **Ce que contient le dossier de suivi d'Eliott**, et qui peut le consulter. Ressource d'enquête ; à régler dans le plan, pas ici.
 - [ ] **Pourquoi un arrivant sort avec la langue du lieu où il sort.** Ce n'est jamais expliqué et ne doit jamais l'être : même régime que la correspondance des lieux dans [`la-ruche.md`](la-ruche.md) — une régularité de fait que personne ne formule, parce que personne ne connaît d'autre cas. **Attention à l'[interdit n° 7](../01-dossier/les-interdits.md)** : aucun personnage ne doit s'étonner d'une langue, pas plus qu'il ne s'étonne d'un nom de fleuve.
+
+*Réglé : **des rendez-vous médicaux obligatoires suivent toute éclaircie** — mémoire, tonicité, apprentissage —, et c'est ainsi que cette société mesure la pente du §9. Voir [« Le suivi médical après l'éclaircie »](#le-suivi-médical-après-léclaircie).*
 
 *Réglé : le corps ne porte aucune trace de la vie d'avant. Voir [« La décision : le corps est immaculé »](#la-décision--le-corps-est-immaculé).*
 

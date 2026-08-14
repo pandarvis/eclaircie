@@ -5,14 +5,42 @@ Le décompte du couple central, d'un monde à l'autre.
 
 ---
 
+> # ⚠️ L'HISTOIRE D'AMOUR EST SUSPENDUE
+>
+> **Décision de l'autrice, 15 août 2026.**
+>
+> > *« Je veux pas de ligne pour la fille, on l'oublie momentanément, on verra si elle est intégrée plus tard, et si oui elle s'appelle Erin dans le monde 2. »*
+>
+> **Ce que cela veut dire, exactement :**
+>
+> - **Elle n'a plus de ligne dans la frise narrative**, et elle n'entre pas dans l'architecture en cours. Aucun mouvement, aucun chapitre, aucun calendrier ne se construit sur elle tant que la décision n'est pas revenue.
+> - **Ce document n'est ni abandonné, ni périmé, ni à archiver.** Il reste valide et juste : le décompte, les conséquences arithmétiques et la voie retenue au mouvement 21 tiennent tels quels. **Rien n'en est supprimé.** Il est simplement mis en attente.
+> - **Il est à reprendre tel quel si l'autrice réintègre l'histoire d'amour.** C'est la raison pour laquelle on ne touche à rien : le jour où elle revient, tout est déjà là.
+>
+> **Son nom d'éclaircie est [Erin](#son-nom-déclaircie-est-erin).** C'est le nom qu'elle porte dans ce monde-ci, et le seul dont ce dossier dispose.
+>
+> *Conséquence pratique sur les autres documents : partout où un plan, une frise ou un calendrier s'appuyait sur elle, la ligne se retire — elle ne se réécrit pas autrement.*
+
+---
+
 ## Les données
 
 | | Vie d'avant | Vie d'après |
 |---|---|---|
 | **Lui** | meurt à **62 ans** | arrive à **62 ans** |
-| **Elle** | a **54 ans** à la mort de lui ; meurt **dix ans plus tard**, donc à **64 ans** | arrive à **64 ans**, **dix ans après lui** |
+| **Elle — Erin** | a **54 ans** à la mort de lui ; meurt **dix ans plus tard**, donc à **64 ans** | arrive à **64 ans**, **dix ans après lui** |
 
 Taux de descente à cet étage du barème : **1 an vécu = 1 an de moins** (le dossier maître donne 1:1 au-dessus de 50 ans).
+
+### Son nom d'éclaircie est Erin
+
+**Décision de l'autrice, 15 août 2026 — conditionnelle et suffisante.** Si l'histoire d'amour revient dans le livre, **elle s'appelle Erin dans ce monde-ci.**
+
+**Erin est un nom d'éclaircie**, au sens de [`la-ruche.md`](la-ruche.md) : le mot qu'elle a produit elle-même, à peine sortie, quand un veilleur lui a demandé comment elle s'appelait. Arrivée à soixante-quatre ans, elle relevait du protocole ordinaire ; personne ne l'a nommée.
+
+**Son nom de la vie d'avant n'est pas donné, et n'a pas à l'être.** Même règle que pour la paire : *les deux filles de son affaire ne s'appelaient pas Chrissy et Tania*, et Andrew n'a d'elles que les noms d'ici. Rien ne garantit qu'Erin porte le nom qu'elle avait avant — **et personne ne peut le savoir, ni elle, ni lui, ni le registre.**
+
+*Emploi dans ce document : **Erin** partout où « elle » serait ambigu, et uniquement pour la vie d'après. Dans les passages de vie d'avant, on écrit « elle » — le nom d'éclaircie n'existait pas encore.*
 
 ---
 
@@ -20,14 +48,14 @@ Taux de descente à cet étage du barème : **1 an vécu = 1 an de moins** (le d
 
 Année 0 = son arrivée à lui.
 
-| Année | Lui | Elle | Ce qui se passe |
+| Année | Lui | Erin | Ce qui se passe |
 |---:|---:|---:|---|
 | 0 | 62 | — | Il sort de sa capsule. Vide. Il apprend tout depuis zéro. |
-| 10 | **52** | **64** | Elle arrive, à l'âge auquel elle est morte. Il est veilleur depuis peu. **Elle a douze ans de plus que lui.** |
-| 20 | 42 | **54** | **Le repère.** Elle a exactement l'âge qu'elle avait le jour où il est mort. Dix ans après son arrivée à elle. |
+| 10 | **52** | **64** | Erin arrive, à l'âge auquel elle est morte. Il est veilleur depuis peu. **Elle a douze ans de plus que lui.** |
+| 20 | 42 | **54** | **Le repère.** Erin a exactement l'âge qu'elle avait le jour où il est mort. Dix ans après son arrivée. |
 | 32 | 30 | 42 | Elle a l'âge qu'il avait, lui, au moment du repère. La descente continue ; rien ne s'est refermé. |
-| 57 | **5** | 17 | Il atteint le jardin. Elle est loin derrière, très au-dessus. |
-| 69 | **5** — il s'éteint | **5** | Elle atteint le jardin l'année même où il s'en va. **Le seul et unique instant où ils ont le même âge, et il coïncide avec sa fin à lui.** |
+| 57 | **5** | 17 | Il atteint le jardin. Erin est loin derrière, très au-dessus. |
+| 69 | **5** — il s'éteint | **5** | Erin atteint le jardin l'année même où il s'en va. **Le seul et unique instant où ils ont le même âge, et il coïncide avec sa fin à lui.** |
 | 80 | — | 5 | Elle s'éteint. Onze ans après lui. |
 
 *(Méthode : arrivée à 62 ≈ 69 ans à vivre — 57 ans de descente, puis une douzaine au jardin ; arrivée à 64 ≈ 70 ans à vivre — 59 ans de descente, puis une douzaine au jardin. **Chiffres exacts à ajuster : c'est la forme qui compte**, pas la décimale.)*
@@ -56,7 +84,7 @@ Il n'y a rien à voir là. **C'est le fonctionnement par défaut.**
 
 Le barème posé dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md) le dit : qui n'a rien commis d'irréparable et n'a rien subi d'extraordinaire revient à l'âge auquel il est parti. Ni supplément, ni retranchement. C'est la ligne médiane du §11 — *le réparable est pardonné*.
 
-Lui a obéi quand il ne fallait pas : faute réparable, dossier ordinaire, chiffre reconduit. Il est mort à 62, il arrive à 62. Elle n'a rien à réparer davantage : elle est morte à 64, elle arrive à 64. Deux verdicts lambda, deux chiffres simplement recopiés.
+Lui a obéi quand il ne fallait pas : faute réparable, dossier ordinaire, chiffre reconduit. Il est mort à 62, il arrive à 62. Erin n'a rien à réparer davantage : elle est morte à 64, elle arrive à 64. Deux verdicts lambda, deux chiffres simplement recopiés.
 
 Et **le décalage entre les deux morts se retrouve entre les deux arrivées** : dix ans les séparaient là-bas, dix ans les séparent ici. La mécanique n'a aucune raison de toucher à ce délai, et elle n'y touche pas.
 
@@ -67,7 +95,7 @@ Ce qui en sort n'a rien d'un miroir, et c'est voulu. Les deux chiffres ne se ré
 ### 2. L'écart change de camp, et de taille
 
 Vie d'avant : il avait **huit ans de plus** qu'elle.
-Dans ce monde-ci : elle a **douze ans de plus** que lui.
+Dans ce monde-ci : **Erin a douze ans de plus que lui.**
 
 Ce n'est pas le même écart retourné, c'est un autre écart, dans l'autre sens. Il vient de l'addition des deux : huit ans le séparaient d'elle, dix ans séparent les deux arrivées, et le résultat s'inverse. **Il ne se rattrapera jamais** : elle restera douze ans devant lui jusqu'au bout de la descente.
 
@@ -75,7 +103,7 @@ Ce n'est pas le même écart retourné, c'est un autre écart, dans l'autre sens
 
 **Le jardin**, dans ce monde, c'est l'âge de cinq ans où la descente s'arrête (le palier du barème) : on ne rajeunit plus, on reste là quelques années, puis on s'éteint. On dit d'un vieillard de cinq ans qu'il est au jardin. *« Il est au jardin depuis huit ans. »*
 
-Il y entre douze ans avant elle. Et comme on ne reste au jardin qu'une douzaine d'années, **il s'éteint à peu près au moment où elle y arrive**. Le seul instant de deux vies où ils ont le même âge est aussi celui où il s'en va : ils se croisent sur le seuil, une année, peut-être moins.
+Il y entre douze ans avant Erin. Et comme on ne reste au jardin qu'une douzaine d'années, **il s'éteint à peu près au moment où elle y arrive**. Le seul instant de deux vies où ils ont le même âge est aussi celui où il s'en va : ils se croisent sur le seuil, une année, peut-être moins.
 
 Sauf que le dossier pose aussi : *« la mémoire s'allège en descendant ; les mourants sont ceux qui ne peuvent plus témoigner. »*
 
@@ -97,13 +125,13 @@ Si un monde suit celui-ci, le même décalage y repartira, et l'écart des âges
 
 Puisqu'il la reconnaît tout de suite et pour toujours, le moteur de l'histoire d'amour n'est pas le temps. Ce n'est pas non plus un choix. **C'est une impossibilité**, et le livre est le temps qu'il met à la constater.
 
-**Voie retenue.** Elle est tranchée ; les deux autres pistes sont abandonnées (voir en fin de section).
+**Voie retenue.** Elle est tranchée ; les deux autres pistes sont abandonnées (voir en fin de section). *Elle reste la voie retenue — elle est seulement **en attente**, comme tout ce document. Voir le bandeau en tête.*
 
 ### Il ne peut rien lui avouer
 
 Jamais. Ce n'est pas une confession qu'il repousse de chapitre en chapitre, c'est une chose qui n'a aucune manière d'arriver.
 
-Elle est sortie vide. Elle n'a pas un souvenir, pas une trace, pas un point de comparaison ; elle n'a aucun moyen de comprendre ce qu'on lui dirait, ni de vérifier quoi que ce soit. Il ne dispose d'aucune preuve, et il n'en existe pas : le monde n'en délivre pas. Dire ce qu'il sait ne produirait donc rien d'autre qu'un homme qui délire devant une femme qui l'écoute poliment.
+Erin est sortie vide. Elle n'a pas un souvenir, pas une trace, pas un point de comparaison ; elle n'a aucun moyen de comprendre ce qu'on lui dirait, ni de vérifier quoi que ce soit. Il ne dispose d'aucune preuve, et il n'en existe pas : le monde n'en délivre pas. Dire ce qu'il sait ne produirait donc rien d'autre qu'un homme qui délire devant une femme qui l'écoute poliment.
 
 Ce n'est pas tragique, ce n'est pas héroïque, il n'y a pas de sacrifice là-dedans. C'est simplement fermé. Le livre ne doit à aucun moment laisser croire qu'une bonne formulation, un bon moment, une bonne preuve auraient pu ouvrir la porte.
 
@@ -117,7 +145,7 @@ Et il y arrive. Avec une facilité qui devrait l'alerter : il la croise sans ces
 
 Il rapproche. Il n'oblige à rien, ni elle ni personne. Le lien met deux êtres dans la même rue ; il ne décide pas de ce qu'ils font l'un de l'autre.
 
-Et la vie décide autrement. Elle en fait un ami — un bon ami, un ami sûr, quelqu'un dont elle parle avec affection. Ou elle a déjà quelqu'un dans sa vie. Ou simplement elle ne le regarde pas comme ça, et il n'y a rien à expliquer.
+Et la vie décide autrement. Erin en fait un ami — un bon ami, un ami sûr, quelqu'un dont elle parle avec affection. Ou elle a déjà quelqu'un dans sa vie. Ou simplement elle ne le regarde pas comme ça, et il n'y a rien à expliquer.
 
 **Insister sur la banalité de l'échec.** Ce n'est pas un destin contrarié, ce n'est pas le système qui punit, ce n'est pas le voile qui reprend son dû. C'est un homme qui n'intéresse pas une femme. Ça arrive à tout le monde, ça n'a aucune grandeur, et c'est précisément ce qui doit faire mal : la mécanique la plus vertigineuse du monde débouche sur le plus ordinaire des refus.
 
