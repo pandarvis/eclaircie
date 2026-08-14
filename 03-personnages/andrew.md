@@ -1,6 +1,6 @@
-# Le veilleur — protagoniste
+# Andrew — le veilleur
 
-*Nom, manie et honte quotidienne : toujours à trouver.*
+*Nom tranché le 14 août 2026 : **Andrew**. Manie et honte quotidienne : toujours à trouver.*
 
 ---
 
@@ -139,7 +139,7 @@ Rien, dans la poursuite, ne doit ressembler à un sacrifice.
 - **Personne ne le lui demande.** Il n'exécute pas un ordre, il n'assure pas une couverture, il n'a pas de plan. Il y va.
 - **Aucun personnage ne commente sa mort**, ni pour la saluer, ni pour la déplorer, ni pour y lire quoi que ce soit.
 
-La coïncidence avec la mort de l'assassin n'est pas non plus une justice : le §11 pose que **les coïncidences sont des anomalies, pas des lois**. L'assassin, mort le jour de son crime, a payé de l'autre côté — c'est pour ça que sa capsule n'a jamais éclairci et qu'elle n'avait pas à le sanctionner deux fois. Le veilleur, lui, n'a rien payé en mourant. Il est passé par une porte, c'est tout.
+La coïncidence avec la mort de l'assassin n'est pas non plus une justice : le §11 pose que **les coïncidences sont des anomalies, pas des lois**. L'assassin, mort le jour de son crime, a payé de l'autre côté — c'est pour ça que sa capsule n'a jamais éclairci et qu'elle n'avait pas à le sanctionner deux fois. Andrew, lui, n'a rien payé en mourant. Il est passé par une porte, c'est tout.
 
 ### Les deux fautes symétriques
 
@@ -198,7 +198,6 @@ Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, *
 
 ## Reste à trouver
 
-- [ ] **Son nom.**
 - [ ] **Sa manie.** Piste : il compte. N'importe quoi — les marches, les travées, les secondes entre deux choses. Personne n'y voit rien, c'est un tic de vieux. La place est libre depuis que l'image du compte à rebours est écartée : la manie n'entre plus en concurrence avec rien.
 - [ ] **Sa honte quotidienne.** Piste : il ne se souvient plus des cérémonies. Il en a tenu des milliers, il note les chiffres et les oublie en sortant. Un homme dont le métier est de garder trace, et qui ne retient rien. À rapprocher de sa faute : il a déjà cessé de chercher une fois.
 - [ ] **Une piste ouverte par la faute** : une manie de non-arrêt. Il finit ce qu'il commence, même quand ça n'a plus d'objet — il relit une travée déjà relue, il rentre trois heures après tout le monde. Personne n'y voit qu'un excès de conscience professionnelle. Ce serait le même défaut que celui qui l'a tué, réduit à l'échelle d'une journée de travail. *Non tranché, à ne retenir que si ça ne se voit pas.*

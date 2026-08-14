@@ -2,7 +2,7 @@
 
 *Trouvaille de l'autrice. **L'affaire sur laquelle il enquêtait avant de mourir est l'affaire des jumelles.** Tout se noue sur une seule journée, vécue deux fois, des deux côtés.*
 
-*Sources : [dossier maître](../L-ECLAIRCIE-dossier-complet.md) §8, §11, §12, §13, §14 — [`../03-personnages/veilleur.md`](../03-personnages/veilleur.md) — [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) — [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) — [`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md) — [`duree-et-calendrier.md`](duree-et-calendrier.md).*
+*Sources : [dossier maître](../L-ECLAIRCIE-dossier-complet.md) §8, §11, §12, §13, §14 — [`../03-personnages/andrew.md`](../03-personnages/andrew.md) — [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) — [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) — [`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md) — [`duree-et-calendrier.md`](duree-et-calendrier.md).*
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
@@ -115,7 +115,7 @@ Il déterre donc sa propre vie **en croyant vérifier celle d'un autre.** Chaque
 
 Progression en trois temps, **non figée**. Elle est maintenant une progression de **filature** : on voit d'abord une silhouette, puis un travail, puis une journée.
 
-**Premier temps — l'insituable.** Une sensation, un couloir, une voix, une route la nuit. Rien qui se raconte, rien qui se date, rien qui se nomme. Même régime que l'image du compte à rebours de [`veilleur.md`](../03-personnages/veilleur.md) : ni un souvenir ni un fait.
+**Premier temps — l'insituable.** Une sensation, un couloir, une voix, une route la nuit. Rien qui se raconte, rien qui se date, rien qui se nomme. Même régime que l'image du compte à rebours de [`andrew.md`](../03-personnages/andrew.md) : ni un souvenir ni un fait.
 
 **Deuxième temps — les scènes qui se tiennent.** L'enquête avance, il y a des lieux, des gens, un étau qui se resserre autour d'un homme. Le lecteur commence à pouvoir suivre une affaire — et à suivre **celui qui la mène**.
 
@@ -154,9 +154,15 @@ Sont interdits dans les fragments :
 |---|---|
 | **Son nom**, ou qu'on l'appelle | un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul |
 | **Un miroir**, une vitre, une photo, un reflet | le seul objet qui rende un visage à celui qui le porte |
-| **Une description physique** — taille, âge, cheveux, une cicatrice | tout signalement est une pièce d'identité |
+| **Une description physique qui pourrait être la sienne** — taille, âge, cheveux | tout signalement compatible est une pièce d'identité |
 | **Une adresse**, un domicile, un lieu qui lui appartienne | on se reconnaît d'abord chez soi |
 | **Un « je »**, une pensée intérieure, un accès à ce qu'il ressent | la troisième personne est la contrainte, pas un effet de style |
+
+**L'exception, et elle est précieuse : un détail physique qui *différencie* est autorisé, et c'est même le meilleur matériau disponible.**
+
+La règle n'interdit pas la description physique en soi — elle interdit **ce qui pourrait le désigner, lui**. Un détail qu'Andrew ne possède pas fait l'inverse : il l'écarte. La cicatrice au visage de l'enquêteur, sur un homme dont le corps est immaculé depuis toujours (voir [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md)), n'est pas un risque d'identification : **c'est un alibi.** Elle donne à Andrew une raison solide de ne pas se reconnaître, et au lecteur un faux raccord de plus.
+
+Le miroir du rasage est donc admissible **à condition qu'on n'y voie que la marque** — la lame qui passe dessous, la peau qu'on tend — et jamais un visage. L'indice arrive, l'identité non. Voir [`faux-raccords.md`](faux-raccords.md).
 
 Ce qui reste, et qui suffit : des gestes, une méthode, des pièces, des heures, des voix, une fatigue. **Le lecteur peut recouper. Lui, non.** C'est exactement le partage que le §14 demande — le détective poursuit des faits, jamais le mystère —, appliqué cette fois au lecteur : on lui donne assez pour qu'il travaille, jamais assez pour que le personnage travaille à sa place.
 
@@ -207,7 +213,7 @@ C'est le déclenchement. **La même phrase, dans le même genre de pièce, dite 
 
 Ce qui remonte alors n'est pas un souvenir : **c'est une réplique.** Quelque chose comme *« C'est déjà ce qu'on m'a dit. »* Elle sort de lui, elle est juste, et personne dans la pièce ne peut la comprendre — **lui compris.** Blanc. Le policier ne relève pas, ou relève à peine. Il enchaîne, il sort, il n'y repense pas.
 
-⚠️ **Réglage impératif, déjà écrit et inchangé : il ne doit pas comprendre.** Le retournement est au 18. Le référent exact de la phrase est une donnée d'autrice — il sert à écrire la phrase juste, il ne se dit pas dans la scène. Voir [`incidences-2026-08-13.md`](incidences-2026-08-13.md) et la [fiche du veilleur](../03-personnages/veilleur.md).
+⚠️ **Réglage impératif, déjà écrit et inchangé : il ne doit pas comprendre.** Le retournement est au 18. Le référent exact de la phrase est une donnée d'autrice — il sert à écrire la phrase juste, il ne se dit pas dans la scène. Voir [`incidences-2026-08-13.md`](incidences-2026-08-13.md) et la [fiche du veilleur](../03-personnages/andrew.md).
 
 ### 5.5 L'écho exact — cop à cop, poste à poste
 
@@ -312,7 +318,7 @@ Ce ne sont pas deux nuances du même mouvement. Le premier regarde en arrière e
 
 **Il n'y avait plus de faute.**
 
-Le dossier maître et [`veilleur.md`](../03-personnages/veilleur.md) posent que sa faute réparable est d'avoir **cessé de creuser l'affaire des jumelles quand on le lui a demandé** (§13, mouvement 22 : *« il n'était pas un monstre : il a obéi »*). Toute l'architecture en dépend :
+Le dossier maître et [`andrew.md`](../03-personnages/andrew.md) posent que sa faute réparable est d'avoir **cessé de creuser l'affaire des jumelles quand on le lui a demandé** (§13, mouvement 22 : *« il n'était pas un monstre : il a obéi »*). Toute l'architecture en dépend :
 
 - la réplique du mouvement 13 — *« C'est déjà ce qu'on m'a dit »* ;
 - la désobéissance du mouvement 14 comme **réparation** — le second examen, réussi sans savoir qu'on le repasse ;
@@ -343,7 +349,7 @@ Ce que cette version sauve, point par point :
 
 La poursuite cesse d'être une contradiction : elle devient la première réparation, celle qui a lieu de l'autre côté et qui ne suffit pas, parce qu'elle vient après. La seconde aura lieu ici, au mouvement 14, et elle durera des années.
 
-**Réserve à vérifier :** le §11 pose que *le karma ne frappe pas deux fois*, et [`veilleur.md`](../03-personnages/veilleur.md) en tire que sa mort ne peut pas être la sanction de sa faute. La poursuite ne doit donc jamais se lire comme un rachat par la mort. [`ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) fournit la parade : **la mort est la porte, pas la sentence** — il ne meurt pas *parce que*, il meurt *pendant*. À surveiller à l'écriture, c'est exactement le risque signalé pour la lecture B de sa mort.
+**Réserve à vérifier :** le §11 pose que *le karma ne frappe pas deux fois*, et [`andrew.md`](../03-personnages/andrew.md) en tire que sa mort ne peut pas être la sanction de sa faute. La poursuite ne doit donc jamais se lire comme un rachat par la mort. [`ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) fournit la parade : **la mort est la porte, pas la sentence** — il ne meurt pas *parce que*, il meurt *pendant*. À surveiller à l'écriture, c'est exactement le risque signalé pour la lecture B de sa mort.
 
 ## L'autre option, plus radicale
 

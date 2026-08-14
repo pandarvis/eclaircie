@@ -3,7 +3,7 @@
 Ce que les nouvelles idées changent, mouvement par mouvement.
 Le plan de référence reste le §13 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md).
 Calendrier et décompte dans [`duree-et-calendrier.md`](duree-et-calendrier.md).
-La vie d'avant — la faute, la mort — dans [`le-meme-jour.md`](le-meme-jour.md) et la [fiche du veilleur](../03-personnages/veilleur.md).
+La vie d'avant — la faute, la mort — dans [`le-meme-jour.md`](le-meme-jour.md) et la [fiche du veilleur](../03-personnages/andrew.md).
 
 *Mise à jour du 14 août 2026 : deux décisions de l'autrice sont intégrées ici — **les reliquats sont à la troisième personne** (mouvements 10 et 18) et **le déclencheur du mouvement 13 est un poste de police de ce monde-ci**. Développement complet dans [`le-meme-jour.md`](le-meme-jour.md), sections 4 et 5.*
 
@@ -69,7 +69,7 @@ Ce qui doit se lire dans ces deux mouvements, ce n'est pas un compte à rebours 
 
 **Et la phrase détonne.** C'est le déclenchement : la même phrase, dans le même genre de pièce, dite par le même genre d'homme, dans deux mondes. Il répond **quelque chose qui n'est pas de cette vie-ci** — *« C'est déjà ce qu'on m'a dit. »* Personne ne comprend, lui non plus. Blanc. Il enchaîne, il sort, il n'y repense pas.
 
-**La réplique a un référent exact.** Sa faute est tranchée : au milieu de l'affaire des jumelles, on lui a dit d'arrêter de creuser et **il a obéi**. Le *« on m'a dit »* ne renvoie pas à un vague ras-le-bol de métier mais à une phrase entendue une seule fois, qui a coûté des semaines et deux vies. Voir la [fiche du veilleur](../03-personnages/veilleur.md) et [`le-meme-jour.md`](le-meme-jour.md).
+**La réplique a un référent exact.** Sa faute est tranchée : au milieu de l'affaire des jumelles, on lui a dit d'arrêter de creuser et **il a obéi**. Le *« on m'a dit »* ne renvoie pas à un vague ras-le-bol de métier mais à une phrase entendue une seule fois, qui a coûté des semaines et deux vies. Voir la [fiche du veilleur](../03-personnages/andrew.md) et [`le-meme-jour.md`](le-meme-jour.md).
 
 ⚠️ **Il ne doit pas comprendre.** Le retournement est au 18. Ce qui remonte n'est pas un souvenir, **c'est une réplique**. Le référent exact est une donnée d'autrice : il sert à écrire la phrase juste, il ne se dit pas dans la scène.
 
@@ -167,7 +167,7 @@ Ce jusqu'où il remonte est maintenant précis, et ce n'est pas ce qu'on attend.
 - **Le contrecoup est la scène** : *j'aurais dû continuer*. Un remords d'échec se console ; un remords d'arrêt est **datable**, donc inépuisable. Il sait exactement ce qu'il n'a pas fait, et quand.
 - **Il est absous depuis huit chapitres** et ne l'apprend qu'ici. C'est ce qui autorise le mouvement 23 à le libérer alors que les jumelles ne comprennent rien.
 
-Le mouvement 22 n'est donc pas une scène de charnier, c'est une scène de jours vides. Détail dans la [fiche du veilleur](../03-personnages/veilleur.md) et [`le-meme-jour.md`](le-meme-jour.md).
+Le mouvement 22 n'est donc pas une scène de charnier, c'est une scène de jours vides. Détail dans la [fiche du veilleur](../03-personnages/andrew.md) et [`le-meme-jour.md`](le-meme-jour.md).
 
 **Sa mort, en arrière-plan — les deux fautes symétriques** *(tranché le 13 août)*
 Sa mort, dans la vie d'avant, est fixée : **la poursuite du coupable, et l'accident**. Ils trouvent la planque, les filles sont mortes depuis moins d'une heure, l'homme fuit, il part seul derrière lui en laissant ses collègues sur place, et il meurt en même temps que l'assassin.
@@ -203,7 +203,7 @@ L'arithmétique, elle, ne change pas — elle continue après la fin du livre, q
 - **Une anomalie dans les chiffres du couple** — il n'y en a pas. Chacun revient à son âge de mort et le décalage des deux morts se retrouve entre les deux arrivées : c'est le défaut du système, pas une exception. Les chiffres ne forment aucune symétrie, il n'y a donc même pas de figure à interpréter. Ça ne peut rien débloquer, ni pour lui ni pour le lecteur.
 - **Une fenêtre de reconnaissance** — il n'y en a pas. Il la reconnaît dès le mouvement 5 et jusqu'au bout. L'année 20 est un repère privé, pas une échéance ; le livre ne contient aucun compte à rebours. Le reliquat y culmine sans rien ouvrir.
 - **Un choix amoureux au mouvement 21** — il n'y en a pas. Ni aveu possible, ni renoncement noble, ni vie commune dans le mensonge : ces trois voies sont écartées. Le mouvement est une constatation, et l'échec est banal.
-- **Une mort douce dans la vie d'avant** — écartée le 13 août 2026. L'intervention chirurgicale, la complication, l'homme qui ne se réveille pas : abandonnée, sa mort est la poursuite. **L'image du compte à rebours sous anesthésie tombe avec elle** et ne doit pas être réemployée ailleurs. Archivée dans la [fiche du veilleur](../03-personnages/veilleur.md).
+- **Une mort douce dans la vie d'avant** — écartée le 13 août 2026. L'intervention chirurgicale, la complication, l'homme qui ne se réveille pas : abandonnée, sa mort est la poursuite. **L'image du compte à rebours sous anesthésie tombe avec elle** et ne doit pas être réemployée ailleurs. Archivée dans la [fiche du veilleur](../03-personnages/andrew.md).
 - **Une mort en sacrifice** — il n'y en a pas. Il ne sauve personne, sa poursuite ne sert à rien, aucun personnage ne commente sa mort, et la coïncidence avec celle de l'assassin n'est pas une justice : le §11 pose que les coïncidences sont des anomalies, pas des lois. Si la mort semble réparer quelque chose, le mouvement 14 perd sa fonction.
 - **La règle des retrouvailles** — jamais énoncée. Si le lecteur comprend que ceux qui s'aiment se retrouvent *toujours*, le livre devient une consolation, ce que le §1 refuse.
 - **Un fragment de reliquat à la première personne** — il n'y en a aucun. Les fragments racontent un homme vu de dehors : pas de « je », pas de pensée intérieure, pas de nom, pas de miroir ni de reflet, pas de description physique, pas d'adresse. Le lecteur peut recouper, le protagoniste non. Un seul signe l'identifie dans tout le livre, et il n'appartient pas aux fragments : la date de la ligne de registre, au mouvement 18.

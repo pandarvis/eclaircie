@@ -29,7 +29,7 @@ Chaque entrée indique où elle a été développée et son statut.
 
 **Donné :** il serait mort après une intervention qui a mal tourné.
 
-→ Développé dans [`03-personnages/veilleur.md`](../03-personnages/veilleur.md).
+→ Développé dans [`03-personnages/andrew.md`](../03-personnages/andrew.md).
 **Statut : acquis, avec une lecture à trancher** — intervention chirurgicale ou intervention de police. Les deux ne racontent pas la même chose.
 
 ---

@@ -43,16 +43,24 @@ Tout le reste en découle. Il reste à la racine exprès : on ne le cherche pas.
 - **[`la-jalousie.md`](02-univers/la-jalousie.md)** — le mécontentement ordinaire, la violence, l'insécurité. Développement du §9.5.
 
 ### `03-personnages/`
-**[`veilleur.md`](03-personnages/veilleur.md)** — fiche du protagoniste : sa mort, sa faute, la réplique, ce qui reste à trouver.
+- **[`andrew.md`](03-personnages/andrew.md)** — le protagoniste, veilleur débutant : sa mort, sa faute, la réplique, ce qui reste à trouver.
+- **[`june.md`](03-personnages/june.md)** — berceuse. Elle a la charge du garçon, et c'est elle qui déclenche l'enquête.
+- **[`le-garcon.md`](03-personnages/le-garcon.md)** — arrivé à dix ans, second voilé du livre. Il est enlevé, il sera retrouvé vivant.
+- **[`le-policier.md`](03-personnages/le-policier.md)** — l'ami d'Andrew. Il rend naturelle la présence d'un veilleur dans une enquête.
+- **[`la-mere-et-l-enfant.md`](03-personnages/la-mere-et-l-enfant.md)** — deux arrivants liés par une seule mort. Le cas témoin qui apprend à lire un registre.
 
 ### `04-plan/`
-**[`incidences-2026-08-13.md`](04-plan/incidences-2026-08-13.md)** — ce que les nouvelles idées changent, mouvement par mouvement.
+- **[`deux-histoires-en-une.md`](04-plan/deux-histoires-en-une.md)** — ⚠️ **l'architecture du roman.** Deux enlèvements racontés comme un seul récit. À lire avant tout le reste du dossier.
+- **[`le-meme-jour.md`](04-plan/le-meme-jour.md)** — la journée des quatre capsules, vécue deux fois. L'affaire des jumelles, le poste de police, la cérémonie groupée.
+- **[`faux-raccords.md`](04-plan/faux-raccords.md)** — les dissonances semées pour qu'on comprenne, à la relecture, qu'on suivait deux hommes.
+- **[`duree-et-calendrier.md`](04-plan/duree-et-calendrier.md)** — comprendre le décompte, et le calendrier du livre.
+- **[`incidences-2026-08-13.md`](04-plan/incidences-2026-08-13.md)** — ce que les idées du 13 août changent, mouvement par mouvement. *Repose encore sur l'ancien découpage du §13.*
 
 ### `06-visuels/frise-narrative/`
 
-**[`frise-narrative.html`](06-visuels/frise-narrative/frise-narrative.html)** — la frise du récit, à ouvrir dans un navigateur.
-Défilement horizontal, 24 mouvements, 4 actes, 4 voies narratives : *le monde*, *l'enquête*, *elle*, *le voile*.
-La frise s'éclaircit de gauche à droite. Voir le [carnet du dossier](06-visuels/frise-narrative/NOTES.md).
+**[`frise-narrative.html`](06-visuels/frise-narrative/frise-narrative.html)** — le dossier en cinq onglets, à ouvrir dans un navigateur : la frise du récit, le décompte en graphe, les interdits, la ruche et les phrases à garder.
+La frise défile horizontalement et s'éclaircit de gauche à droite. Voir le [carnet du dossier](06-visuels/frise-narrative/NOTES.md).
+*Elle représente l'ancien découpage en 24 mouvements : à refondre selon la nouvelle architecture.*
 
 Version en ligne : <https://claude.ai/code/artifact/278c6576-e781-4aad-86ff-135f9932ef11>
 
