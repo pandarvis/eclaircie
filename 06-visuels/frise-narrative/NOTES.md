@@ -61,11 +61,12 @@ Navigation : molette, flèches ← →, glisser à la souris, ou clic sur un act
 
 ## Arbitrages à revoir
 
-- [ ] **La frise entière est à refondre** sur la nouvelle architecture. Les 18 cartes restantes viennent du plan du §13, qui ne connaît pas les deux histoires en une. C'est le gros chantier, et il demande que l'autrice reconstruise le séquencier.
-- [ ] **Mouvement 3** (« le chiffre qui monte ») rangé dans *L'enquête* plutôt que dans *Le monde*, parce que c'est le déclencheur.
-- [ ] **Fin d'acte I** transformée en carte autonome sur la voie *Le voile*. Dans le plan c'est une ligne de bloc-note ; ici c'est le premier point du fil qui portera tout le livre.
-- [ ] Les mouvements 6-9 et 11-12 sont groupés comme dans le plan. À éclater si le découpage en chapitres se précise.
-- [ ] **Mouvements 4 et 13** : la menace ambiante (voir [`la-jalousie.md`](../../02-univers/la-jalousie.md)) n'est pas encore portée sur les cartes. En attente.
+> **La frise entière est à refondre.** Les 18 cartes viennent du plan du §13, qui ne connaît pas les deux histoires en une. Depuis, la forme du livre a changé : quelques semaines pour le corps du roman, un épilogue quinze ans plus tard, et une voie de Joël à remplir. C'est le chantier de la prochaine séance, et il demande que l'autrice reconstruise le séquencier.
+
+En attendant, les points mineurs restés en suspens :
+
+- [ ] **Mouvement 3** (« le chiffre qui monte ») rangé dans *L'enquête*. À revoir : ce n'est plus le moteur de l'intrigue mais une critique de fond (voir [`la-ruche.md`](../../02-univers/la-ruche.md)).
+- [ ] **Mouvements 4 et 13** : la menace ambiante n'est pas encore portée sur les cartes.
 - [ ] Faut-il une stèle pour la règle du jardin, ou le panneau d'ouverture suffit-il ?
 
 ## Pour mettre à jour

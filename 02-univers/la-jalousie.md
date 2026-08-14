@@ -52,25 +52,37 @@ Leur colère est donc fondée sur une ignorance irréductible. C'est la tragédi
 
 ## Rien, dans les chiffres, ne donne raison aux jaloux
 
-*Cette section dépend d'une règle proposée le 15 août 2026 et non encore validée par l'autrice — le plafond de la grâce, règle B de [`ce-qui-est-juge.md`](ce-qui-est-juge.md) et de [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md). Si la règle tombe, cette section tombe avec elle, et le climat décrit plus haut devient beaucoup plus difficile à tenir.*
+*Mise à jour du 15 août 2026. Cette section reposait sur le **plafond de la grâce** — une garantie chiffrée, aucun gracié ne vivant plus longtemps qu'un grand chiffre ordinaire. **Ce plafond est abandonné** : les âges d'arrivée n'ont pas de borne haute, il y a des centenaires, et aucune garantie chiffrée n'est tenable. Il est remplacé par une règle plus forte — **la grâce ne se voit pas**, règle B de [`ce-qui-est-juge.md`](ce-qui-est-juge.md). La section tient toujours, mais pour une autre raison, et il faut savoir laquelle.*
 
 Le grief porte sur **l'accès**, jamais sur la durée. C'est ce qui le rend à la fois réel et impossible à formuler comme une injustice comptable : on envie un chemin, et un chemin ne se met pas en colonne.
 
-Sur la durée, en revanche, les jaloux n'ont rien. **Le petit chiffre ne vit pas plus longtemps qu'eux — il vit beaucoup moins.** Trente ans contre quatre-vingt-dix. Ce qu'il a de plus, c'est la proportion de ces années passées en bas, et la proportion n'est pas une quantité qu'on puisse réclamer.
+Sur la durée, les jaloux n'ont rien non plus — mais **pas parce qu'ils auraient tort. Parce qu'il n'y a rien à consulter.**
 
-Le plafond de la grâce verrouille ce point. **Aucun gracié, si meurtri soit-il, ne vit plus longtemps qu'un grand chiffre ordinaire.** Le supplément allonge le jardin ; il ne fait jamais passer devant.
+**Le petit chiffre ordinaire vit beaucoup moins qu'eux.** Trente ans contre quatre-vingt-dix. Ce qu'il a de plus, c'est la proportion de ces années passées en bas, et la proportion n'est pas une quantité qu'on puisse réclamer.
 
-### Pourquoi cette règle tient la société entière
+**Et le gracié, lui, remonte.** Depuis que la grâce est proportionnelle à ce qui a été pris (voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md), « 2 ter. La grâce est proportionnelle »), un meurtri mort très jeune peut approcher la durée totale d'un grand chiffre. Il ne l'égale pas par règle, il ne passe pas devant par règle — mais **il n'y a plus de règle qui l'en empêche**, seulement une pente que personne ne connaît.
 
-Sans plafond, le grief deviendrait **vérifiable**.
+### Pourquoi ça tient quand même, et mieux qu'avant
+
+Un plafond aurait été une réponse : *non, ils ne vivent pas plus longtemps.* Une réponse s'oppose, se vérifie, se conteste — et il aurait suffi d'une exception, d'un centenaire, d'un cas mal choisi pour la faire tomber.
+
+**L'invisibilité, elle, ne se conteste pas.**
 
 *« Et en plus, ils vivent plus longtemps. »*
 
-C'est une phrase entièrement différente de celles qu'on entend au salon. Elle ne demande pas qu'on la croie : elle demande qu'on regarde. Elle s'appuierait sur des cérémonies, sur des registres, sur des dates d'ouverture de capsule que n'importe qui peut recouper — la ruche note tout, et [`la-ruche.md`](la-ruche.md) établit qu'on sait toujours depuis combien de temps quelqu'un est là.
+C'est la phrase dangereuse, celle qui ne demande pas qu'on la croie mais qu'on regarde. Pour qu'elle devienne une preuve, il faudrait trois choses, et **le monde n'en fournit aucune** :
 
-Le mécontentement changerait alors de nature, et le changement serait irréversible :
+| Il faudrait | Ce qu'il y a |
+|---|---|
+| savoir quelle durée est « normale » pour un chiffre d'arrivée donné | personne ne tient ce tableau |
+| savoir qui a reçu un supplément | rien ne le marque : ni registre, ni corps, ni mot |
+| pouvoir comparer deux cas | il n'existe aucun couple de valeurs à mettre côte à côte |
 
-| | Sans plafond | Avec plafond |
+Ce que la ruche note — travées, dates, âges relevés — permet de savoir depuis combien de temps quelqu'un est là. **Cela ne permet jamais de savoir combien de temps il aurait dû rester.** C'est toute la différence, et elle est irréductible.
+
+Le mécontentement ne peut donc pas changer de nature :
+
+| | Si les durées étaient lisibles | Telles qu'elles sont |
 |---|---|---|
 | Ce dont on se plaint | une durée | un chemin |
 | Ce qu'on peut produire | un tableau | rien |
@@ -79,13 +91,14 @@ Le mécontentement changerait alors de nature, et le changement serait irrévers
 
 **Une humeur ne se dissout pas, mais elle ne s'organise pas non plus.** Une revendication chiffrée, si : elle appelle un chiffre en réponse, donc un débat, donc une politique, donc quelqu'un pour la porter. Le §9 tient le tabou sur cinq appuis, dont un pacte — *chacun finira à cinq ans, chacun sait à peu près quand.* Ce pacte est un calcul de survie, et un calcul de survie ne résiste pas à un tableau qui montre qu'on a été perdant sur toute la ligne.
 
-**Le plafond garantit donc que personne ne puisse jamais opposer un tableau.** La colère reste sans preuve.
+**L'absence de chiffres garantit donc que personne ne puisse jamais opposer un tableau.** La colère reste sans preuve — et, cette fois, sans réfutation non plus.
 
 ### Ce qu'il faut tenir en écrivant
 
-- **Ils ont un grief réel sur l'accès, et aucun sur la durée.** Les deux à la fois, et jamais l'un sans l'autre.
-- **Personne ne le leur dira jamais.** Il n'existe aucun personnage capable de leur montrer qu'ils sont, en durée, les mieux servis de ce monde.
-- **Et personne n'a le tableau sous les yeux.** Ni eux, ni les veilleurs, ni le lecteur. Le tableau ci-dessus est un objet de bible d'autrice ; il n'a aucun équivalent dans le monde du livre.
+- **Ils ont un grief réel sur l'accès, et rien de démontrable sur la durée.** Les deux à la fois, et jamais l'un sans l'autre.
+- **Ne jamais leur donner tort par un chiffre.** Le texte n'oppose aucune durée à aucune autre. La tentation de les corriger — même en douce, même par un détail — rouvre le calcul qu'on cherche à fermer.
+- **Personne ne le leur dira jamais**, et personne ne le pourrait : il n'existe aucun personnage en mesure de comparer deux vies.
+- **Et personne n'a de tableau sous les yeux.** Ni eux, ni les veilleurs, ni le lecteur. Les tableaux ci-dessus sont des objets de bible d'autrice ; ils n'ont aucun équivalent dans le monde du livre.
 
 C'est la même mécanique que plus haut, d'un cran plus profond. Leur erreur n'est pas de croire à une loterie : **c'est de croire qu'il y a quelque chose à compter.**
 
@@ -238,8 +251,9 @@ Tuer un arrivant est un tort irréparable. Celui qui va au bout ne renaîtra pas
 
 ## À trancher
 
-- [ ] **Le plafond de la grâce — règle B, proposition à valider.** Aucun gracié ne vit plus longtemps qu'un grand chiffre ordinaire. C'est la règle dont dépend tout ce document : elle est ce qui empêche le grief de devenir chiffrable. À valider avec la règle A dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md).
-- [ ] **Le plancher de durée à trente ans — règle A, proposition à valider.** Il ne change rien à l'objet de la jalousie, mais il change la phrase du salon : *« Trente ans, quand même »* cesse d'être une approximation et devient le chiffre exact du plancher. **Trente est-il le bon plancher, ou faut-il monter ?** Si l'autrice monte, la réplique du salon monte avec.
+- [x] ~~**Le plafond de la grâce — règle B.**~~ — **abandonné le 15 août 2026, et remplacé.** Aucune garantie chiffrée n'est tenable. Ce qui empêche le grief de devenir chiffrable n'est plus une borne mais **l'absence totale de chiffres consultables** : pas de barème, pas de durée ordinaire connue, pas de marque sur un gracié. Voir « Rien, dans les chiffres, ne donne raison aux jaloux », entièrement reprise.
+- [x] ~~**Le plancher de durée à trente ans — règle A.**~~ — **acquis le 15 août 2026.** Personne ne vit moins de trente ans. La phrase du salon — *« Trente ans, quand même »* — cesse d'être une approximation et devient le chiffre exact du plancher.
+- [ ] **La grâce proportionnelle rapproche les graciés des grands chiffres. Est-ce que ça fragilise le climat ?** Un meurtri mort très jeune peut approcher soixante ou soixante-dix ans de vie. Rien ne le rend lisible, donc rien n'est opposable — mais le confort d'écriture d'autrefois a disparu : on ne peut plus se dire que les jaloux ont objectivement tort sur la durée. **À tenir : c'est l'ignorance qui protège la société, plus la vérité.**
 - [x] ~~Jusqu'où pousser la violence : menace de fond permanente, ou événement qui touche réellement le garçon ?~~ — **tranché le 15 août 2026 : le ravisseur d'Eliott sort de ce milieu.** L'événement est l'enlèvement, et il est le centre du livre.
 - [x] ~~S'il y a un événement : le garçon est-il atteint, ou seulement approché ?~~ — **atteint, et retrouvé vivant.**
 - [ ] **Groupe ou pas de groupe ?** L'autrice parle d'un *« groupe de rebelles militants »* et note que c'est à approfondir ; ce document pose depuis le début qu'il n'y a **ni groupe, ni nom, ni organisation**. Piste proposée et non arbitrée : **le climat reste diffus et sans nom, et un seul homme va au bout.** Voir « La tension avec la décision antérieure ».

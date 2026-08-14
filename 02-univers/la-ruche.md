@@ -49,7 +49,48 @@ Rares. Spectaculaires. Immondes. La capsule s'ouvre brutalement, sans prévenir,
 
 Détail du dispositif au §8 du dossier maître, et dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md) pour ce qui le déclenche. Ce document ne traite ici que du côté matériel : **c'est un incident d'exploitation**, et il est traité comme tel.
 
-**Et elles se multiplient depuis quelques années.** Personne ne sait pourquoi. C'est le moteur de l'intrigue.
+**Et elles se multiplient depuis quelques années.** Personne ne sait pourquoi.
+
+### Ce que la multiplication n'est plus, et ce qu'elle est devenue
+
+> **Décision de l'autrice, 15 août 2026.**
+>
+> *« Ce n'est plus le moteur de l'intrigue, mais le fait que l'on comprenne que ce sont des raclures qui ne naissent pas laisse en suspens une critique de l'autrice sur la société actuelle. Il y en a de plus en plus parce que notre monde est malade… »*
+
+**Le §8 du dossier maître pose que la multiplication est « le moteur de l'intrigue ». Ce n'est plus le cas.** Le moteur est l'enlèvement d'[Eliott](../03-personnages/eliott.md). La courbe des capsules sans éclaircie reste dans le livre, elle reste visible, elle reste inexpliquée — mais elle ne tire plus l'histoire. *Correction en attente sur le dossier maître : la phrase « c'est le moteur de l'intrigue » du §8 est périmée. Signalée ici, non appliquée ; le dossier maître n'est pas modifié.*
+
+**Ce qu'elle devient est plus puissant : une critique laissée en suspens.**
+
+Le lecteur finit par comprendre ce que personne dans le livre ne comprendra jamais — que les capsules pourries sont des gens à qui l'entrée a été refusée. Il voit ensuite la courbe monter, année après année, dans des chiffres de service que des veilleurs se lisent en passant. **Et il tire lui-même la conclusion : il y en a de plus en plus parce que notre monde en produit de plus en plus.**
+
+### L'économie du dispositif
+
+C'est **un diagnostic porté sur nous, jamais formulé, entièrement déductible.**
+
+Il ne coûte pas une ligne. Il n'a besoin ni d'une scène, ni d'un personnage lucide, ni d'une réplique bien placée. Il tient dans un écart de lecture, et l'écart fait tout le travail :
+
+| | Ce qui est vu | Ce qui en est dit |
+|---|---|---|
+| **Les veilleurs** | une statistique qui monte | un défaut technique, une mauvaise série, du matériel qui se dégrade |
+| **Le lecteur** | la même statistique | ce qu'elle compte réellement, et d'où viennent les gens qu'elle compte |
+
+**Les veilleurs voient une statistique et parlent d'un défaut technique.** C'est tout ce que leur position leur permet : ils n'ont pas la moitié de l'information, et rien ne la leur donnera. Le lecteur, qui est de chez nous, lit autre chose sur la même ligne.
+
+C'est exactement l'**[interdit n° 2](../01-dossier/les-interdits.md)** — *c'est le lecteur qui fournit notre monde* — appliqué cette fois au thème du §2 : *est-ce que quelque chose, quelque part, tient les comptes ?* Ici quelque chose tient les comptes, la somme monte, et **le seul à pouvoir la lire est celui qui a payé pour**. Même régime que le sismographe, un cran plus haut : le sismographe fait comprendre un événement, la courbe fait comprendre une époque.
+
+### La contrainte, et elle est absolue
+
+> **Rien ne doit jamais être dit.**
+
+- **Pas un personnage qui s'interroge sur la cause.** Aucun veilleur ne se demande *pourquoi* il y en a plus, sinon en termes de matériel et de mauvaise saison.
+- **Pas une réplique qui pointe.** Rien qui ressemble à une remarque de moraliste, à une phrase sur ce que les gens sont devenus, à un vieux qui trouve que le monde va mal.
+- **Pas d'insistance du narrateur.** Le chiffre est donné, il est plus haut que l'an dernier, on passe.
+
+**La courbe monte, on note, on passe à autre chose.** C'est le seul régime possible.
+
+**Si quelqu'un tire la conclusion à la place du lecteur, la critique devient un discours et le livre perd tout.** Il cesse d'être un monde pour devenir une démonstration, et une démonstration se discute, se date, se congédie. Une déduction que le lecteur a faite seul ne se congédie pas : elle est de lui.
+
+*Rappel de la position d'ignorance posée en tête de ce document : les veilleurs savent lire la ruche comme on lit un ciel, par habitude, sans rien comprendre au mécanisme. La courbe entre dans cette catégorie-là et n'en sort jamais.*
 
 ---
 
@@ -310,13 +351,13 @@ On écrit simplement des gens qui s'appellent Andrew, June, Eliott, Isaac, Chris
 
 ### Ce que ça ouvre du côté de la vie d'avant
 
-**C'est une trouvaille narrative, et elle est développée là où elle sert :** dans les fragments, on peut désigner le dossier par un **nom de famille** — *« l'affaire [Nom] »* —, comme se nomment les affaires de police chez nous.
+**C'est une trouvaille narrative, et elle est développée là où elle sert :** dans les fragments, on peut désigner le dossier par un **nom de famille** — *« l'affaire Sorel »* —, comme se nomment les affaires de police chez nous.
 
 Ce que ça résout, et ce que ça produit chez Andrew : voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §4.7 et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §2.5.
 
 **Du côté de ce document, un seul point à retenir :** un nom de famille est, pour un habitant d'ici, **un mot dont la catégorie n'existe pas**. Ce n'est pas un mot qu'il ignore — c'est un mot qu'il ne peut pas classer. Il ne peut même pas savoir que c'est un nom.
 
-**N'inventer aucun nom de famille.** On écrit `[Nom]` partout dans le dossier tant que l'autrice n'a pas choisi. Voir « À trancher ».
+**Le nom est tranché : Sorel.** Un seul mot pour les deux filles, et aucun prénom prononcé.
 
 ---
 
@@ -429,10 +470,13 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **Qui consulte le registre en dehors des veilleurs ?** L'administration du mouvement 3 en tire des statistiques : par quel canal ?
 - [ ] **La taille de la ruche.** Combien de travées, combien de veilleurs — c'est-à-dire : le protagoniste travaille-t-il seul, ou dans une équipe qui le voit faire ?
 - [x] ~~**Qui nomme un arrivant ?**~~ — **tranché le 15 août 2026 : personne. L'arrivant se nomme lui-même**, et le veilleur inscrit le mot. Aucune des deux pistes documentées n'était la bonne ; elles sont supprimées. Exception : les moins de huit ans, nommés par une berceuse. Voir [« Qui nomme un arrivant »](#qui-nomme-un-arrivant).
-- [ ] **Le nom de famille de l'affaire — `[Nom]`.** Le mot que les fragments emploient pour désigner le dossier : *« l'affaire [Nom] »*. **Rien n'est inventé ici et rien ne doit l'être** ; le dossier écrit `[Nom]` en attendant que l'autrice choisisse. Points à peser avec elle : un nom courant ou singulier, court ou long, et s'il doit sonner comme un nom de famille de chez nous sans jamais situer un pays ([interdit n° 6](../01-dossier/les-interdits.md)). Voir [« Il n'y a pas de noms de famille »](#il-ny-a-pas-de-noms-de-famille).
+- [x] ~~Le nom de famille de l'affaire~~ — **tranché le 15 août 2026 : Sorel.** *« L'affaire Sorel. »* Deux syllabes, aucune couleur régionale, et ça se dit sans y penser — ce qu'il faut pour un mot qu'Andrew entendra sans pouvoir l'identifier.
 - [ ] **La phrase courte du veilleur.** Ce qu'il dit exactement pour expliquer ce qu'est un prénom, en une phrase, à quelqu'un qui vient de sortir. Elle sera prononcée au moins deux fois dans le livre — à la cérémonie d'ouverture, et à la cérémonie groupée — et il faut qu'elle soit la même les deux fois, usée comme une formule de métier.
 - [ ] **Que se passe-t-il quand le mot ne vient pas ?** Un arrivant qui ne répond rien, qui répond deux mots, qui répond une phrase entière, ou qui produit le même mot qu'un autre. Le protocole doit avoir une routine pour ça — **et elle doit rester banale**, du genre qu'on ne commente pas. À ne développer que si une scène en a besoin.
 - [x] ~~**L'âge d'arrivée de la paire.**~~ — **tranché : dix-huit ans.** Mortes à dix-huit, arrivées à dix-huit, très au-dessus du seuil ; elles ont produit leurs prénoms elles-mêmes. Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+
+- [x] ~~**Ce que la multiplication des capsules sans éclaircie porte dans le livre.**~~ — **tranché le 15 août 2026 : ce n'est plus le moteur de l'intrigue, c'est une critique laissée en suspens.** Le moteur est l'enlèvement d'Eliott. La courbe reste, elle n'est jamais expliquée par personne, et le lecteur seul en tire la conclusion. Voir [« Ce que la multiplication n'est plus, et ce qu'elle est devenue »](#ce-que-la-multiplication-nest-plus-et-ce-quelle-est-devenue).
+- [ ] **Par quel canal le chiffre arrive-t-il jusqu'au lecteur ?** Une remarque de vétéran, une ligne de statistique administrative, un relevé annuel affiché quelque part — il en faut au moins deux occurrences pour qu'une courbe existe, et pas davantage. À arrêter avec le mouvement 3.
 
 *Réglé : **aucun mot de parenté n'existe dans cette langue** — la règle dont « pas de noms de famille » et « pas de jumeau » n'étaient que les affleurements. Voir la section correspondante.*
 

@@ -142,7 +142,9 @@ Il déterre donc sa propre vie **en croyant vérifier celle d'un autre.** Chaque
 
 **C'est ce qui rend sa cécité tenable sur des centaines de pages sans qu'elle paraisse forcée.** Il n'y a rien à ne pas voir : il voit quelque chose, il l'explique, et son explication est raisonnable. Un personnage qui refuse une évidence est agaçant ; un personnage qui a une bonne théorie fausse est un enquêteur.
 
-**Corollaire, et il est cruel :** entre les mouvements 17 et 18, Eliott entre au jardin et perd les mots. La source à laquelle il attribuait tout se tait — et les fragments, eux, continuent. C'est aussi par là que la théorie du garçon commence à ne plus tenir.
+**Corollaire, et il est cruel :** la source à laquelle il attribuait tout disparaît — **Eliott est enlevé** — et les fragments, eux, continuent. C'est par là que la théorie du garçon commence à ne plus tenir. Un homme contaminé par un témoin devrait cesser de l'être quand le témoin n'est plus là ; lui continue de voir des couloirs et des routes de nuit, et il n'a plus personne à qui attribuer ça.
+
+*⚠️ **Correction du 15 août 2026.** Cette phrase reposait auparavant sur l'entrée d'Eliott au jardin entre les mouvements 17 et 18. **Ce n'est plus possible :** le corps du roman ne dure que quelques semaines, et l'entrée au jardin est devenue l'épilogue, quinze ans plus tard. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md). C'est **l'enlèvement**, et lui seul, qui retire la source à Andrew pendant le livre.*
 
 ### 4.3 La progression des fragments
 
@@ -221,11 +223,11 @@ Ce qui reste, et qui suffit : des gestes, une méthode, des pièces, des heures,
 
 *Un signe est autorisé, un seul, et il n'appartient pas au fragment : c'est la ligne de registre du mouvement 18, qui porte une date. Elle ne décrit personne. Elle se contente d'être la sienne.*
 
-### 4.7 La sortie : on nomme l'affaire, pas les gens — *« l'affaire [Nom] »*
+### 4.7 La sortie : on nomme l'affaire, pas les gens — *« l'affaire Sorel »*
 
-> **Décision de l'autrice, 15 août 2026.** *« On donne un nom de famille et on laisse une règle en suspens sans jamais la dire : dans ce monde-ci il n'y a pas de nom de famille, car déjà la famille n'est pas un concept. On pourrait alors dire l'affaire [Nom] pour ne pas éveiller les soupçons. »*
+> **Décision de l'autrice, 15 août 2026.** *« On donne un nom de famille et on laisse une règle en suspens sans jamais la dire : dans ce monde-ci il n'y a pas de nom de famille, car déjà la famille n'est pas un concept. On pourrait alors dire l'affaire Sorel pour ne pas éveiller les soupçons. »*
 >
-> **N'inventer aucun nom de famille.** Le dossier écrit `[Nom]` tant que l'autrice n'a pas choisi. Voir « À trancher ».
+> **N'inventer aucun nom de famille.** Le dossier écrit **Sorel** tant que l'autrice n'a pas choisi. Voir « À trancher ».
 
 **Le fait de monde est établi ailleurs :** dans ce monde-ci, personne n'a de nom de famille — il n'y a ni naissances, ni parents, ni sang, ni filiation, donc un nom hérité n'a rien à désigner. **La règle n'est jamais énoncée dans le roman.** Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ».
 
@@ -241,7 +243,7 @@ Le §4.6 interdit **tout nom prononcé** dans les chapitres de la vie d'avant �
 
 | Ce que ça résout | Comment |
 |---|---|
-| **On peut nommer l'affaire** | *« l'affaire [Nom] »*, comme se nomment les affaires de police |
+| **On peut nommer l'affaire** | *« l'affaire Sorel »*, comme se nomment les affaires de police |
 | **Sans prononcer un seul prénom** | le §4.6 est intact — aucun prénom n'est dit, la règle n'a pas bougé d'un mot |
 | **Sans que le lecteur voie quoi que ce soit** | c'est ainsi qu'on nomme une affaire ; il n'y a rien d'anormal à signaler |
 | **Un seul mot pour les deux sœurs** | il les couvre toutes les deux et **n'en désigne aucune** |
@@ -288,7 +290,7 @@ Andrew se rend dans un poste de police **de ce monde-ci**. Il demande si on a qu
 
 *Corollaire sur les noms, et il aggrave la scène : **il ne peut donner aucun nom.** Ses reliquats ne lui ont rendu ni celui des filles ni le sien — la règle du §4.6 ne laisse passer aucun nom hors de la poursuite finale. Au comptoir, il demande donc une disparition sans plaignant, sans date, sans lieu et **sans nom**, pour deux filles qu'il ne sait décrire que comme se ressemblant exactement. C'est la demande la moins recevable qu'on puisse faire à un poste de police, et elle est parfaitement sincère. Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.3.*
 
-*⚠️ **Point rouvert par la décision du 15 août 2026, et non tranché ici** : ses fragments lui ont peut-être rendu **un** mot — celui par lequel on nommait l'affaire, *[Nom]*. Peut-il le dire au comptoir ? **Il ne sait pas que c'est un nom** (§4.7), donc il ne le donnerait pas comme un nom : il le lâcherait comme on lâche un mot entendu, sans savoir ce qu'il fait. Les deux versions tiennent, et elles ne racontent pas la même scène. Voir « À trancher ».*
+*⚠️ **Point rouvert par la décision du 15 août 2026, et non tranché ici** : ses fragments lui ont peut-être rendu **un** mot — celui par lequel on nommait l'affaire, *Sorel*. Peut-il le dire au comptoir ? **Il ne sait pas que c'est un nom** (§4.7), donc il ne le donnerait pas comme un nom : il le lâcherait comme on lâche un mot entendu, sans savoir ce qu'il fait. Les deux versions tiennent, et elles ne racontent pas la même scène. Voir « À trancher ».*
 
 ### 5.2 Ils n'ont rien
 
@@ -433,6 +435,90 @@ Ce ne sont pas deux nuances du même mouvement. Le premier regarde en arrière e
 
 ---
 
+## 8. Le jour d'arrivée d'Eliott — le cas témoin
+
+> **Décision de l'autrice, 15 août 2026.** *« On pourrait aussi réaliser que l'enfant a été assassiné lui aussi dans l'autre monde — on le sait quand, le jour de son arrivée, il y a une capsule pourrie. »*
+
+### 8.1 Ce qui remplace le cas témoin, et ce que c'était
+
+Le dossier avait besoin d'un **cas témoin** : une journée montrée tôt dans le livre, où le lecteur voit une signature de registre pour la première fois et apprend à la lire, sans que rien ne lui soit expliqué. Cette fonction était portée par la mère et l'enfant, tenus en réserve dans [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md).
+
+**Ils sont sortis du casting. Le jour d'arrivée d'Eliott reprend la fonction, et il la remplit mieux.**
+
+Ce jour-là, à la première page du roman :
+
+| Ce qui se passe | Ce que le registre en garde |
+|---|---|
+| Une capsule s'ouvre sur un enfant de dix ans | une arrivée, un âge relevé à l'instrument, un nom produit par l'arrivant, une travée |
+| **Une capsule pourrie s'ouvre le même jour** | une ligne de rien : pas d'âge, pas de nom, une capsule qui n'a pas éclairci et qu'on racle |
+
+**Andrew y est.** Il tient le service, il relève, il inscrit. **Il ne remarque rien — c'est un jour de travail.**
+
+C'est la capsule de l'assassin d'Eliott, mort le jour de son crime. **Exactement la signature de Chrissy et Tania** : une victime et son meurtrier qui meurent ensemble, donc deux capsules qui apparaissent ensemble dans la même zone de travées, dont une qui ne mûrit jamais. La règle est celle de [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) — la maturation suit le souffle de vie restant de l'autre côté —, et le §2 ci-dessus la tenait déjà : l'irréparable est condamné, et son verdict se lit à ce qu'il n'y a rien à lire.
+
+### 8.2 Pourquoi c'est supérieur au cas témoin d'origine
+
+**Trois raisons, et la troisième est structurelle.**
+
+**a) Le lecteur voit la même signature deux fois, et les deux fois ne lui font pas le même effet.**
+
+| | Où | Ce que ça produit |
+|---|---|---|
+| **Première fois** | première page — l'arrivée d'Eliott, et la capsule qu'on racle le même matin | **elle lui apprend à lire.** Il ne comprend rien encore ; il enregistre une forme |
+| **Seconde fois** | mouvement 18 — la ligne de registre d'Andrew, quatre capsules d'une seule journée | **elle le foudroie.** Il reconnaît la forme avant de comprendre ce qu'elle dit, et il comprend une page avant Andrew |
+
+C'est le dispositif le plus économique que le livre puisse avoir : **rien n'est expliqué deux fois, et rien n'est expliqué une seule fois non plus.** La première occurrence n'enseigne rien, elle installe. La seconde n'explique rien, elle rappelle.
+
+**b) Ce n'est plus un personnage secondaire qui rend ce service.**
+
+Le cas témoin coûtait une famille, deux fiches, des scènes à écrire et une place dans le casting — pour une fonction purement pédagogique. Ici, la fonction est portée par **le protagoniste secondaire du livre**, dans une scène qui existe déjà et qui compte déjà pour trois autres choses : la première page, la terreur d'Eliott, l'accroche d'Andrew. **Coût nul.** On n'ajoute pas une ligne au casting, on ajoute une capsule à une matinée qui en compte plusieurs.
+
+**c) Et c'est ce qui apprend à Andrew à reconnaître sa propre ligne.**
+
+C'est l'apport le plus important, parce qu'il est de mécanique et non d'effet.
+
+Quand Andrew se met à chercher dans les registres — mouvements 15 à 18 —, il ne cherche pas au hasard : **il cherche un motif**, et il l'a déjà rencontré. Le jour de l'arrivée du garçon dont il s'occupe, il y avait une capsule pourrie. Il retrouve donc **deux fois la même configuration** — une arrivée et une capsule qui n'éclaircit pas, le même jour, la même zone :
+
+1. le jour d'Eliott, qu'il a lui-même consigné et qu'il peut relire ;
+2. le jour de sa propre arrivée, qu'il ne sait pas être la sienne.
+
+**Il apprend à lire sur le dossier du garçon, puis il applique et il tombe sur lui-même.** Le mouvement 18 gagne encore en factualité : il ne devine rien, il ne déduit rien, il **reconnaît un motif qu'un autre dossier lui a enseigné**. C'est exactement ce que le §14 demande — le détective poursuit des faits.
+
+*Et la boucle est propre : l'enfant qu'il cherche lui donne l'outil qui le trouvera, lui. Sans jamais rien dire, et sans que personne l'ait voulu.*
+
+### 8.3 Point de vigilance — la rime, et jusqu'où on la souligne
+
+**À signaler et à ne pas trancher ici.**
+
+Trois affaires du livre sont désormais bâties sur exactement la même structure :
+
+| Affaire | La victime | Le meurtrier |
+|---|---|---|
+| **Eliott** | arrive à dix ans, jour 0 | capsule pourrie le même jour |
+| **Chrissy et Tania** | arrivent à dix-huit ans | capsule pourrie le même jour |
+| **Andrew** | arrive à soixante-deux ans, même journée que la paire | la même capsule pourrie |
+
+**Le risque est réel : trois fois le même motif peut faire paraître le système mécanique** — une machine qui apparie les morts, dont le lecteur finit par anticiper le fonctionnement. Ce serait le contraire de ce que le dossier cherche, et l'interdit n° 3 comme la règle B de [`duree-et-calendrier.md`](duree-et-calendrier.md) tiennent précisément à ce qu'aucun barème ne soit lisible.
+
+**Mais c'est une rime, et une rime voulue est une force.** Le monde ne fait rien d'exceptionnel dans ces trois cas : il enregistre des morts violentes, et les morts violentes arrivent par paires parce que quelqu'un tue et meurt. **Ce n'est pas une machine à destins, c'est une conséquence de la géographie et de la simultanéité** — ce que le §1 posait déjà : *aucun destin, aucune affinité, de la géographie*.
+
+La question ouverte n'est donc pas s'il faut la garder, mais :
+
+> **Le texte souligne-t-il la rime, ou la laisse-t-il entièrement au lecteur ?**
+
+| Option | Ce qu'on gagne | Ce qu'on perd |
+|---|---|---|
+| **La souligner** — un personnage remarque que ça s'est déjà vu, un veilleur dit que ça arrive | le lecteur est sûr d'avoir vu, la mécanique du mouvement 18 est plus solide | le monde se met à ressembler à un système lisible, et l'interdit n° 3 se fissure |
+| **La laisser** — trois occurrences, jamais rapprochées par personne | le lecteur travaille, et c'est lui seul qui voit la figure. Régime habituel du livre | un lecteur distrait peut manquer la première occurrence, et le mouvement 18 perd son socle |
+
+*Piste de compromis, non retenue : ne souligner **qu'une fois**, et à l'intérieur du travail d'Andrew — il rapproche le jour d'Eliott et un autre jour parce que c'est son métier de rapprocher des lignes, pas parce que le monde a un motif. La remarque reste alors un geste d'enquêteur et non une clé donnée au lecteur.*
+
+### 8.4 Ce que ça change à l'épilogue
+
+Rien de ce qui précède n'est jamais dit dans le texte, et surtout pas par l'enfant. **Eliott ne sait pas qu'il est mort.** À l'épilogue, il raconte ce qui lui est arrivé de l'autre côté juste avant d'entrer au jardin, sans rien expliquer, sans rien conclure et sans rien relier à Andrew. Le lecteur, qui a vu la capsule pourrie à la première page, n'apprend aucun fait : il reçoit un adieu. Développement complet dans [`duree-et-calendrier.md`](duree-et-calendrier.md), « L'épilogue : l'entrée d'Eliott au jardin », et dans [`../03-personnages/eliott.md`](../03-personnages/eliott.md).
+
+---
+
 # La faute — tranché le 13 août 2026
 
 > **Validé par l'autrice.** *« Oui, c'est ce que j'imaginais. Le contrecoup de se dire : j'aurais dû continuer. »*
@@ -505,7 +591,9 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 
 - [x] **On sort de la capsule en sachant parler**, l'esprit embrumé *comme après un long sommeil*. **Révision du §4 du dossier maître, qui n'est pas modifié.** Voir [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md). Conséquence ici : la cérémonie groupée a du dialogue dedans, et le protocole du nom devient possible.
 - [x] **Personne ne nomme un arrivant : il se nomme lui-même.** Le veilleur explique en une phrase ce qu'est un prénom, demande, et inscrit le mot qui sort. Exception : les moins de huit ans, nommés par une berceuse. **Andrew, Chrissy et Tania ont donc produit leurs propres noms** — et Andrew n'a pas dit Joël. Section 6, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
-- [x] **Il n'y a pas de noms de famille dans ce monde-ci**, et la règle n'est jamais énoncée. Les fragments peuvent donc dire *« l'affaire [Nom] »* : l'affaire est nommée, aucun prénom n'est prononcé, et Andrew entend un mot dont il ne peut pas identifier la catégorie. Section 4.7.
+- [x] **Il n'y a pas de noms de famille dans ce monde-ci**, et la règle n'est jamais énoncée. Les fragments peuvent donc dire *« l'affaire Sorel »* : l'affaire est nommée, aucun prénom n'est prononcé, et Andrew entend un mot dont il ne peut pas identifier la catégorie. Section 4.7.
+- [x] **Eliott a été assassiné dans la vie d'avant, et une capsule pourrie est apparue le jour de son arrivée.** Même signature que celle de Chrissy et Tania. **Le jour d'arrivée d'Eliott devient le cas témoin du livre** et remplace la mère et l'enfant, sortis du casting. Section 8.
+- [x] **Le corps du roman tient sur quelques semaines, peut-être quelques mois.** Le calendrier sur douze ans est caduc : il n'existait que pour Erin, qui est suspendue. Conséquence ici : la théorie du garçon (§4.2) se défait par l'**enlèvement**, plus par l'entrée au jardin. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
 
 ---
 
@@ -522,7 +610,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **Pourquoi reprend-il l'affaire**, dans la version recommandée : de lui-même, ou parce qu'un élément ressort ?
 - [ ] **Combien de temps a duré l'arrêt ?** Des semaines, dit la proposition. À caler contre la durée de l'enquête d'alors.
 - [x] ~~Le mot pour deux arrivants identiques~~ — **tranché : une paire.** Un seul mot, celui du registre ; la salle dit « elles sont pareilles ».
-- [ ] **Le nom de famille de l'affaire — `[Nom]`.** Rien n'est inventé, rien ne doit l'être : le dossier écrit `[Nom]` en attendant. Il doit sonner comme un nom de famille sans situer aucun pays ([interdit n° 6](../01-dossier/les-interdits.md)). Section 4.7.
+- [ ] **Le nom de famille de l'affaire — **Sorel**.** Tranché le 15 août 2026 : Sorel : le dossier écrit **Sorel** en attendant. Il doit sonner comme un nom de famille sans situer aucun pays ([interdit n° 6](../01-dossier/les-interdits.md)). Section 4.7.
 - [ ] **À partir de quel fragment l'affaire porte-t-elle son nom ?** Dès les premiers, où il n'y a encore ni lieux ni gens — ou seulement quand l'enquête prend forme, au deuxième temps du §4.3 ? Un nom d'affaire est un marqueur de dossier constitué, donc il date la scène dans l'enquête.
 - [ ] **Andrew donne-t-il ce mot au comptoir du poste de police ?** Voir §5.1. S'il le donne, il donne un nom sans savoir que c'en est un, et la scène change : ce n'est plus une demande entièrement vide. S'il ne le donne pas, le §5.2 tient inchangé. **Les deux versions sont écrivables, aucune n'est retenue.**
 - [ ] **Le troisième registre de faux raccord — celui de la langue.** Entre-t-il dans le dispositif de [`faux-raccords.md`](faux-raccords.md), ou reste-t-il à part ? Il n'obéit pas à la règle du dosage : il n'est pas placé, il est partout. Section 4.7.
@@ -530,6 +618,9 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **Où placer le chapitre de la cérémonie groupée** dans le livre : avant le mouvement 15, entre 17 et 18, ou après le retournement ?
 - [ ] **Le mouvement 18 devient une lecture de registre.** Faut-il alors déplacer ou alléger le mouvement 17, qui perd son rôle de dernier verrou ?
 - [x] ~~Le nom du partenaire qui crie à la poursuite.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle, **jamais écrit dans le roman** : dans le texte, *son collègue*, *son partenaire*. Section 1. Il ne crée aucune exception au §4.6.
-- [ ] **Le nombre de fragments de reliquat** et leur répartition sur les douze ans du calendrier.
-- [ ] **Le parallèle des deux ravisseurs se joue-t-il quelque part ?** L'assassin de la vie d'avant n'a jamais éclairci ; celui d'Eliott, qui n'a pas tué, éclaircira comme tout le monde. Ce document tient déjà les quatre capsules d'une seule journée — **faut-il que le livre pose les deux hommes côte à côte, ou le lecteur doit-il faire seul tout le trajet ?** Le barème reste hors du texte dans les deux cas. Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), « Le verdict qui l'attend ».
+- [ ] **Le nombre de fragments de reliquat** et leur répartition. **Le cadre a changé** : ils ne se répartissent plus sur douze ans mais sur quelques semaines, peut-être quelques mois. La densité augmente d'autant, et il faut vérifier que le rythme reste tenable — voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
+- [ ] **La rime des trois affaires — la souligne-t-on ?** Eliott, la paire, Andrew : trois fois une arrivée et une capsule pourrie le même jour. Une rime voulue est une force, mais trois occurrences risquent de faire paraître le système mécanique. Souligner une fois à l'intérieur du travail d'Andrew, ou tout laisser au lecteur ? Section 8.3. **Non tranché.**
+- [ ] **Andrew relit-il vraiment la ligne du jour d'Eliott ?** La section 8.2 c) suppose qu'il y revient et qu'il y reconnaît un motif. À quel mouvement, et de sa propre initiative ou en cherchant autre chose ?
+- [ ] **La capsule pourrie du jour d'Eliott est-elle montrée à la première page, ou seulement inscrite ?** Vue de loin dans le couloir, mentionnée dans une phrase de service, ou uniquement présente sur la ligne qu'on relira plus tard. Les trois dosages ne donnent pas la même leçon de lecture.
+- [ ] **Le parallèle des deux ravisseurs se joue-t-il quelque part ?** L'assassin de la vie d'avant n'a jamais éclairci ; celui d'Eliott, qui n'a pas tué, éclaircira comme tout le monde. Ce document tient déjà les quatre capsules d'une seule journée — **faut-il que le livre pose les deux hommes côte à côte, ou le lecteur doit-il faire seul tout le trajet ?** Le barème reste hors du texte dans les deux cas. *⚠️ La question se complique depuis la section 8 : **Eliott a maintenant deux ravisseurs**, celui de la vie d'avant qui l'a tué et n'a jamais éclairci, et celui d'ici qui ne le tue pas et éclaircira comme tout le monde. Le même enfant, enlevé deux fois, et deux verdicts opposés. C'est peut-être le meilleur endroit du livre pour montrer le barème sans jamais l'énoncer — ou le plus démonstratif. Non tranché.* Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), « Le verdict qui l'attend ».
 - [x] ~~La poursuite finale est-elle montrée ?~~ — **oui, la décision du nom l'implique** : c'est le fragment le plus tardif et le plus explicite du livre, et il porte l'unique occurrence du nom. Reste ouvert : sa longueur, et le nombre de plans qu'on lui donne avant l'accident.

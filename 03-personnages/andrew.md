@@ -11,8 +11,8 @@
 | **Arrivé à** | 62 ans |
 | **Nom dans la vie d'avant** | **Joël** — nom de bible d'autrice, **prononcé une seule fois dans tout le roman**, à la poursuite finale |
 | **Vie d'avant** | enquêteur. Mort à 62 ans. |
-| **Métier** | veilleur, débutant. En poste depuis peu. Lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. |
-| **Ancienneté** | **dix ans** dans ce monde, et **52 ans** au début du roman. Arrivé vide — **la langue exceptée** —, tout appris depuis zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans le métier. Il devient veilleur en cours de route, et n'a au début du roman **que quelques années de service** : c'est un débutant. Il est le dernier arrivé. |
+| **Métier** | veilleur. Lit les capsules, tient les cérémonies, note les chiffres. **Il a raclé, il ne racle plus** : d'autres sont arrivés après lui. |
+| **Ancienneté** | **dix ans dans ce monde** — pas dix ans de métier —, et **52 ans** au début du roman. Il a pris son poste **rapidement**. **Ni un débutant, ni un vétéran** : plusieurs années de service, assez pour n'être plus le dernier arrivé. |
 | **Particularité** | voilé. Personne ne le sait. **Lui non plus, au début.** |
 | **Faute** | **d'avoir cessé.** On lui a dit d'arrêter de creuser l'affaire des jumelles ; il a obéi. Il a perdu des semaines, il a repris — et il est arrivé une heure trop tard. Ce n'est pas l'échec qui est jugé, c'est l'arrêt. Faute réparable → pardon → **le voile est le pardon.** |
 
@@ -127,31 +127,62 @@ Ses reliquats lui rendent tout — la planque, la couleur de leur peau encore ro
 
 ## Sa place parmi les autres
 
-**Décision de l'autrice. Le protagoniste n'est pas un vétéran : c'est un débutant.**
+**Décision de l'autrice, 15 août 2026. Le protagoniste n'est ni un vétéran, ni un débutant.**
+
+### Dix ans en tout — la question est tranchée
+
+> *« Dix ans en tout, il a pris son poste rapidement avec des cours en accéléré grâce à son tuteur et le fonctionnement de la société pour aider à l'intégration. »*
+
+**Dix ans dans ce monde, pas dix ans de métier.** Le chiffre compte le temps écoulé depuis sa sortie de capsule, et rien d'autre. Il est arrivé à 62 ans, il en a **52 au début du roman**.
+
+**Il a pris son poste rapidement.** Trois choses l'expliquent, et aucune n'est extraordinaire :
+
+- **des cours en accéléré**, donnés par son tuteur — on ne remet pas un arrivant adulte sur les bancs pour douze ans ;
+- **une société organisée pour l'intégration des arrivants**, parce que c'est la seule manière dont elle se peuple : recevoir, instruire vite, affecter. Ce n'est pas une faveur qu'on lui fait, c'est le fonctionnement normal ;
+- **la langue, acquise dès la sortie de capsule** — *« on ne sait faire que ça, l'esprit comme embrumé après un long sommeil »* —, ce qui raccourcit encore. On n'apprend pas à parler à quelqu'un qui parle déjà : on lui apprend à lire, à compter, et un métier. Voir [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md).
+
+**Il n'est donc ni un débutant ni un vétéran.** Quelques années à réapprendre, puis **plusieurs années de service** — assez pour connaître les gestes, tenir une cérémonie sans y penser, et **n'être plus le dernier arrivé.** Pas assez pour avoir vu changer quoi que ce soit.
+
+> **La place exacte : au milieu, et personne ne le remarque.**
+
+*Incidence signalée, non appliquée — cette fiche ne modifie qu'elle-même. [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md) porte encore « au début du roman, il est encore un débutant — quelques années de métier, pas davantage ». La seconde moitié reste juste ; le mot **débutant** ne l'est plus. À corriger là-bas.*
 
 ### L'inversion
 
-Dans ce monde, l'ancienneté et la jeunesse vont ensemble. Plus un veilleur a d'années de métier, plus il a eu le temps de rajeunir. **Les plus expérimentés sont donc les plus jeunes d'aspect.** Un vétéran de trente ans de service a l'air d'en avoir vingt ; lui, qui débute, a l'air d'en avoir cinquante.
+Dans ce monde, l'ancienneté et la jeunesse vont ensemble. Plus un veilleur a d'années de métier, plus il a eu le temps de rajeunir. **Les plus expérimentés sont donc les plus jeunes d'aspect.** Un vétéran de trente ans de service a l'air d'en avoir vingt ; lui, avec ses quelques années, a l'air d'en avoir cinquante — et ceux qui viennent d'être affectés ont l'air d'en avoir soixante.
 
 **Personne dans le livre ne trouve ça remarquable.** C'est l'ordre normal des choses, et il ne faut jamais le commenter : c'est le prolongement direct de la satire déjà posée au §9 du dossier maître — *« les formateurs sont toujours plus jeunes que leurs apprenants »*.
 
-### Le bizutage
+### Le bizutage — il l'a subi, et maintenant il le regarde
 
-La sale besogne — nettoyer les capsules qui n'ont pas éclairci — échoit aux derniers arrivés. Donc à ceux qui ont l'air vieux. Des veilleurs d'apparence adolescente laissent la raclette à un homme qui paraît cinquante ans, et personne n'y voit une injustice : c'est le tour de rôle.
+La sale besogne — nettoyer les capsules qui n'ont pas éclairci — échoit aux derniers arrivés. Donc à ceux qui ont l'air vieux. Des veilleurs d'apparence adolescente laissent la raclette à un homme qui paraît soixante ans, et personne n'y voit une injustice : c'est le tour de rôle.
 
 **Précision de l'autrice — c'est l'apparence qui fait le tri.** La sale besogne échoit à qui a l'air le plus vieux, pas à qui est le plus récent. Les deux reviennent au même, et c'est exactement là qu'est la finesse : le critère énoncé est un critère de visage, et il désigne les derniers arrivés sans que personne ait à le formuler. On ne dit pas « tu débutes », on regarde qui, dans la pièce, fait le plus vieux — et la raclette lui revient. Le tri se fait tout seul, sans règlement, sans méchanceté, et sans que personne y voie autre chose qu'une évidence.
 
-**Ce que ça résout :** il racle parce qu'il est le dernier arrivé, pas parce qu'il fait ça depuis vingt ans. Le mouvement 2 du plan — la capsule sans éclaircie — trouve là sa justification de métier, et n'a plus besoin d'être expliqué.
+**Ce que ses quelques années de service changent, et c'est la scène :** il a raclé, au début, comme tout le monde. **Ce n'est plus son tour.** D'autres sont arrivés après lui, plus vieux d'aspect, et **il regarde un autre se faire bizuter au lieu de racler lui-même.**
+
+| | Ce qu'il fait | Ce qu'il en pense |
+|---|---|---|
+| **À son arrivée** | il racle | c'est le tour de rôle, c'est normal, il le fera faire à son tour |
+| **Au début du roman** | il regarde quelqu'un racler | c'est le tour de rôle, c'est normal |
+
+**Et il ne trouve rien à en dire.** Ni gêne, ni complicité, ni souvenir attendri de l'époque où c'était lui : c'est le fonctionnement du service, il l'a trouvé légitime quand il le subissait, il le trouve légitime maintenant. *Le lecteur, lui, voit un homme de cinquante ans d'aspect regarder un homme de soixante ans d'aspect racler ce qui reste d'un homme — et fait le calcul seul.*
+
+*Incidence sur le plan, signalée et non appliquée : le mouvement 2 — la capsule sans éclaircie — ne peut plus se justifier par « il racle parce qu'il est le dernier arrivé ». Soit la scène se joue de l'extérieur, soit elle relève d'un renfort ponctuel. À arbitrer avec [`../04-plan/`](../04-plan/), que cette fiche ne modifie pas.*
 
 ### Ce que les vétérans apportent au récit
 
 **Ils sont la mémoire du service.** Ce sont eux, et personne d'autre, qui permettent au lecteur de comprendre — sans exposition, sans cours magistral — que **les capsules sans éclaircie ne datent pas d'hier**. Ils en ont toujours vu. Ce qui est nouveau, ce n'est pas le phénomène : c'est la fréquence.
 
-C'est donc par eux que le mouvement 3 (« le chiffre qui monte ») prend sa mesure. **Un débutant seul n'aurait aucun point de comparaison** — il ne pourrait ni s'alarmer ni relativiser, faute de savoir à quoi ressemble une année normale. Le vétéran fournit l'étalon, en une phrase de couloir, sans savoir qu'il le fournit.
+C'est donc par eux que le mouvement 3 (« le chiffre qui monte ») prend sa mesure. **Ses quelques années ne lui font pas un étalon** — il sait à quoi ressemble une année, pas à quoi ressemblait une année d'avant lui, et c'est précisément l'échelle qui manque. Il ne peut donc ni s'alarmer ni relativiser tout seul. Le vétéran fournit la mesure, en une phrase de couloir, sans savoir qu'il la fournit.
 
-### Il n'a aucun recul sur son propre métier
+### Il n'a aucun recul sur l'histoire de son métier
 
-Tout ce qu'il fait, il l'a appris récemment, et il le fait comme on le lui a montré. Il ne sait pas ce qui, dans le geste, est nécessaire et ce qui est coutume. Il ne peut pas dire si le métier a changé, si le lieu a changé, si le rythme a changé. **Il est neuf.** C'est une contrainte de point de vue, pas un trait de caractère : elle interdit au narrateur toute nostalgie professionnelle et toute autorité sur l'histoire du service.
+Tout ce qu'il fait, il l'a appris ici, en accéléré, et il le fait comme on le lui a montré. Il ne sait pas ce qui, dans le geste, est nécessaire et ce qui est coutume. Il ne peut pas dire si le métier a changé, si le lieu a changé, si le rythme a changé. **Il fait le travail sans hésiter et il n'a aucune profondeur de champ.**
+
+C'est une contrainte de point de vue, pas un trait de caractère : elle interdit au narrateur toute nostalgie professionnelle et toute autorité sur l'histoire du service.
+
+*Distinction à tenir, et c'est elle qui remplace l'ancien « il est neuf » : **l'aisance est acquise, la mémoire ne l'est pas.** Il n'est plus maladroit — il l'a été, on ne le voit pas —, mais dix ans de monde et quelques années de service ne font pas un homme qui a vu le service d'avant. Le regard d'ouverture n'est donc ni celui de l'application anxieuse, ni celui de l'habitude usée : c'est celui d'un homme qui sait faire et qui ne sait rien.*
 
 ### Une image disponible, non imposée
 
@@ -162,15 +193,20 @@ La hiérarchie qui lui dit de lâcher l'affaire au mouvement 13 peut donc être 
 Le [dossier maître](../L-ECLAIRCIE-dossier-complet.md) n'a **pas** été modifié. Plusieurs mentions y sont désormais périmées :
 
 - **§4, « Le principe de l'univers »** : *« L'arrivant sort vide. Il ne sait pas qui il est, ne parle pas, ne sait rien. »* Périmé sur un point, et c'est un point majeur. **On sort de la capsule en sachant parler.** *« On ne sait faire que ça, l'esprit comme embrumé après un long sommeil. »* Le reste tient sans changement : on ne sait pas qui on est, on ne sait rien du monde, on ne sait rien faire. **La langue est là, et c'est la seule chose qui le soit.** C'est ce qui rend possible la question du nom au premier matin — et, dans son cas, la réponse *Andrew*.
-- **§12, « Le veilleur — protagoniste »** : *« Vétéran du métier »*. Faux — il débute.
-- **§13, mouvement 1** : *« vu par un professionnel blasé »*. Faux — il n'est pas blasé, il est neuf. Le regard d'ouverture n'est pas celui de l'habitude usée, c'est celui de l'application.
+- **§12, « Le veilleur — protagoniste »** : *« Vétéran du métier »*. Faux — **dix ans dans ce monde, plusieurs années de service, et rien derrière.** Ni vétéran, ni débutant.
+- **§13, mouvement 1** : *« vu par un professionnel blasé »*. Faux — il n'est pas blasé, il n'en a pas eu le temps. Le regard d'ouverture n'est ni celui de l'habitude usée, ni celui du premier jour : c'est celui d'un homme qui sait faire et qui n'a rien vu d'autre.
+- **§8** : *« Et elles se multiplient depuis quelques années. […] C'est le moteur de l'intrigue. »* Périmé depuis le 15 août 2026 — le moteur est l'enlèvement d'Eliott, et la multiplication devient une critique laissée en suspens. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
 - **§12, « Le veilleur — protagoniste »** : *« Il ne l'a pas résolue »*. À préciser depuis le 13 août 2026 — il l'a résolue, et trop tard : il a trouvé la planque, les filles étaient mortes depuis moins d'une heure, et il est mort en poursuivant le coupable. Ce qui reste exact et qui compte : *« on lui a dit d'arrêter de creuser, et il a obéi »*.
 
 ### Conséquence à surveiller — la vitesse
 
-Sa vocation est revenue **très vite**. Un homme qui sort de capsule et se retrouve, en dix ans — dix ans dont l'essentiel se passe à réapprendre à lire, à compter, à vivre —, au poste qui regarde et qui note : c'est un reliquat plus violent qu'une carrière de vingt ans. Ce n'est plus une pente, c'est un aimant.
+Sa vocation est revenue **très vite**. Un homme sort de capsule, apprend en accéléré, et se retrouve **en quelques années** au poste qui regarde et qui note : c'est un reliquat plus violent qu'une carrière de vingt ans. Ce n'est plus une pente, c'est un aimant.
+
+*Et la rapidité de la prise de poste aggrave le problème plutôt qu'elle ne le résout : les dix ans ne sont plus dix ans d'école, ils sont quelques années d'école et plusieurs années de métier. **Le délai entre la capsule et le registre est plus court qu'on ne le croyait.***
 
 **À doser.** Le §12 pose que *« le reliquat n'est pas un souvenir, c'est une vocation »*, et la brièveté du délai rend la démonstration plus forte — mais elle la rend aussi plus visible. Si l'orientation paraît trop droite, trop rapide, trop improbable, le lecteur cesse de pouvoir croire au hasard, et **l'interdit n° 4 tombe** : l'hypothèse « il fabule » doit tenir jusqu'au bout. Il faut donc que sa trajectoire reste explicable par des voies ordinaires — une affectation, un besoin de bras, une aptitude remarquée — et que personne, lui compris, ne s'en étonne.
+
+**Et l'explication ordinaire est désormais fournie par le monde lui-même :** cette société est organisée pour intégrer vite ses arrivants, parce qu'elle n'a pas d'autre manière de se peupler. Un tuteur, des cours en accéléré, une affectation. **Rien, dans son parcours, ne dépasse ce que le monde fait de tout le monde** — c'est ce qui permet à sa vitesse de ne pas se voir.
 
 ---
 
@@ -200,7 +236,7 @@ Le §12 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose la loi du m
 
 **Ces trois visites en sont la première exécution du livre**, et elles arrivent avant qu'il y ait la moindre affaire. Il n'y a pas encore de disparition, pas de gendarmerie, pas d'Isaac, rien à élucider. Il n'y a qu'un enfant qui dit des choses qui ne vont pas, et **un homme qui ne lâche pas ce qui l'accroche.** L'enquêteur est déjà entièrement là, dans un homme qui ne sait pas qu'il l'a été.
 
-**Personne ne le remarque. Lui non plus.** June trouve normal qu'on s'intéresse à l'enfant dont elle a la charge, Isaac trouvera normal qu'un veilleur préoccupé passe au poste, et le service n'a aucune raison de compter les allées et venues d'un débutant. **Le seul à qui le geste puisse dire quelque chose est celui qui le fait, et il n'a rien pour le lire.**
+**Personne ne le remarque. Lui non plus.** June trouve normal qu'on s'intéresse à l'enfant dont elle a la charge, Isaac trouvera normal qu'un veilleur préoccupé passe au poste, et le service n'a aucune raison de compter les allées et venues d'un veilleur qui fait son travail. **Le seul à qui le geste puisse dire quelque chose est celui qui le fait, et il n'a rien pour le lire.**
 
 ### Le réglage à l'écriture
 
@@ -354,6 +390,9 @@ Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, *
 - [x] ~~Le sort du nom « Joël » dans le texte.~~ — **tranché le 14 août 2026 : jamais prononcé, sauf une fois, à la poursuite finale**, crié par son partenaire. Voir « Deux noms pour un homme » ci-dessus.
 - [x] ~~Le nom du collègue qui crie.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle : **jamais écrit dans le roman**. Dans le texte, *son collègue*, *son partenaire*.
 - [x] ~~Ce qui le met dans l'affaire.~~ — **tranché le 15 août 2026 : rien ni personne.** Le signalement de June est supprimé ; il décide seul d'aller revoir l'enfant.
+- [x] ~~**Dix ans de métier, ou dix ans dans ce monde ?**~~ — **tranché le 15 août 2026 : dix ans dans ce monde.** Prise de poste rapide — cours en accéléré avec son tuteur, société organisée pour l'intégration, langue acquise dès la sortie de capsule. **Ni débutant, ni vétéran** : plusieurs années de service, et il n'est plus le dernier arrivé. Voir « Dix ans en tout — la question est tranchée ».
+- [ ] **Combien d'années de service, exactement ?** La forme est acquise — assez pour ne plus racler, pas assez pour avoir un point de comparaison —, le nombre non. **Il n'a probablement pas à être dit dans le texte** ; à fixer seulement si une scène l'exige.
+- [ ] **A-t-il fait autre chose avant d'être veilleur ?** Les quelques années entre la sortie de capsule et le poste peuvent être vides, ou contenir une affectation quelconque dont il ne parle jamais. *Attention à la vitesse : un détour rend la trajectoire moins droite, donc moins visible.*
 - [ ] **Ce qui l'accroche chez Eliott, exactement.** L'autrice pose qu'il est fin observateur et que l'arrivée le prend à cœur *malgré lui*. Reste à savoir si quelque chose de précis retient son attention à la cérémonie — un mot, un regard, la terreur elle-même — ou s'il n'y a rien à montrer, et si c'est le vide de la cause qui fait tout le travail. **Le second est plus fidèle au §12 ; le premier est plus facile à écrire.**
 - [ ] **Sa manie.** Piste : il compte. N'importe quoi — les marches, les travées, les secondes entre deux choses. Personne n'y voit rien, c'est un tic de vieux. La place est libre depuis que l'image du compte à rebours est écartée : la manie n'entre plus en concurrence avec rien.
 - [ ] **Sa honte quotidienne.** Piste : il ne se souvient plus des cérémonies. Il en a tenu des milliers, il note les chiffres et les oublie en sortant. Un homme dont le métier est de garder trace, et qui ne retient rien. À rapprocher de sa faute : il a déjà cessé de chercher une fois.

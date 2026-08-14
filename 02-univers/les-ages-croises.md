@@ -60,7 +60,7 @@ Année 0 = son arrivée à lui.
 
 *(Méthode : arrivée à 62 ≈ 69 ans à vivre — 57 ans de descente, puis une douzaine au jardin ; arrivée à 64 ≈ 70 ans à vivre — 59 ans de descente, puis une douzaine au jardin. **Chiffres exacts à ajuster : c'est la forme qui compte**, pas la décimale.)*
 
-**Les dix premières années.** Il sort vide et il reprend tout à zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans son travail. Il devient veilleur. Le partage entre l'apprentissage et le service n'est pas chiffré et ne doit pas l'être. Ce qu'il faut retenir : **au début du roman, il est encore un débutant** — quelques années de métier, pas davantage.
+**Les dix premières années.** Il sort vide et il reprend tout à zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans son travail. Il devient veilleur. Le partage entre l'apprentissage et le service n'est pas chiffré et ne doit pas l'être. Ce qu'il faut retenir : **au début du roman, il n'est ni un débutant ni un vétéran** — plusieurs années de service, assez pour n'être plus le dernier arrivé. Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md).
 
 ### Ce que l'année 20 est, et ce qu'elle n'est pas
 

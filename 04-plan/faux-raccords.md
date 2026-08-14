@@ -89,9 +89,33 @@ Corollaire : les deux membres d'une paire doivent être écrits dans le même re
 
 L'écart idéal se règle à l'usage. Le principe : **le faux raccord n'existe qu'à la relecture.** À la première lecture, il ne doit pas exister du tout.
 
+## 3.4 bis La question de fond — tranchée
+
+> **Tranché par l'autrice, 15 août 2026.** *« Le lecteur doit penser jusqu'au bout qu'il suit une seule enquête. »*
+
+**La question qui commandait tout ce document — *le lecteur doit-il pouvoir reconstruire dès la première lecture, ou seulement à la seconde ?* — est close : seulement à la seconde.**
+
+Le cahier des charges complet est en [`deux-histoires-en-une.md`](deux-histoires-en-une.md) **section 1 bis**, *Ce que le lecteur vit, dans l'ordre*, et il fait seul foi. Ce qui en tombe sur les faux raccords, et qui devient ici une règle et non plus une préférence :
+
+**Les faux raccords ne doivent jamais suffire à faire comprendre.** Leur charge de travail est entière — c'est à eux seuls que revient de prouver qu'il y avait deux corps —, mais **elle s'exerce à la relecture, et à la relecture seulement.** Un faux raccord qui fait comprendre quoi que ce soit au premier passage n'est pas un faux raccord réussi qui va trop loin : c'est un raté, et il coûte le sommet du livre.
+
+**Ce que ça fixe, sans appel :**
+
+| Réglage | État |
+|---|---|
+| **Peu de paires** | l'arbitrage de 3.5 penche désormais vers le bas de la fourchette |
+| **Très espacées** | 3.4 cesse d'être une recommandation d'usage : c'est ce qui garantit l'invisibilité |
+| **Aucune paire nette avant la planque** | **règle nouvelle, et c'est la plus contraignante** |
+
+**La règle nouvelle, en clair : avant la découverte du lieu de séquestration, aucun faux raccord ne doit être assez net pour déclencher un soupçon.** Pas assez net pour être remarqué, pas assez net pour être retenu, pas assez net pour qu'un lecteur attentif se dise *« attendez, ce n'est peut-être pas le même homme »*. Le critère n'est pas la subtilité de la plantation prise seule — c'est ce qu'un lecteur peut en faire à l'instant où il la lit.
+
+*Et la nuance à ne pas manquer, parce qu'elle a l'air de contredire ce qui précède : la section 1 bis admet un **trouble** au moment de la découverte des corps — le lecteur peut se dire « bizarre ». Ce trouble ne vient **pas** des faux raccords : il vient de la reconnaissance de deux visages aperçus au début du livre. Les faux raccords, eux, n'ont aucune part à la soupape, et ne doivent jamais chercher à en avoir une. Leur cible reste la seconde lecture, entière et exclusive.*
+
 ## 3.5 Le dosage — recommandation, à valider
 
 **Trois ou quatre paires dans tout le roman, pas davantage, dont au moins une tardive.**
+
+*Depuis 3.4 bis, l'arbitrage n'est plus symétrique : en cas d'hésitation, on descend. Une paire de trop se paie au temps 1 du dispositif — c'est-à-dire sur le livre entier —, une paire de moins ne se paie qu'à la relecture.*
 
 L'arbitrage se fait entre deux échecs symétriques :
 
@@ -171,7 +195,8 @@ Ce que ça donne : le lecteur reçoit l'indice, le protagoniste ne reçoit aucun
 # À trancher
 
 - [x] ~~Rien ne se sème avant que le nom soit tranché~~ — **tranché le 14 août 2026** ([`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2) : le nom ne se dit qu'une fois, à la poursuite finale. **Les faux raccords sont donc nécessaires et le semis peut commencer** — il n'y a plus rien à attendre.
-- [ ] **Le dosage exact** : trois paires ou quatre ?
+- [x] ~~**Le lecteur doit-il pouvoir reconstruire dès la première lecture, ou seulement à la seconde ?**~~ — **tranché le 15 août 2026 : seulement à la seconde.** Les faux raccords sont invisibles au premier passage et évidents au second ; **aucune paire nette avant la planque.** Section 3.4 bis, et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) section 1 bis.
+- [ ] **Le dosage exact** : trois paires ou quatre ? *La décision du 15 août 2026 fait pencher vers trois — voir 3.4 bis.*
 - [ ] **Quelles paires sont retenues.** La main et la cicatrice sont acquises si l'autrice les confirme ; laquelle ou lesquelles prendre dans la réserve de la section 4.1 ?
 - [ ] **Où placer la dernière paire.** Combien de chapitres avant la séquence de révélation, et faut-il qu'elle tombe avant ou après le doublon de scène ?
 - [ ] **Le lecteur doit-il pouvoir reconstruire dès la première lecture, ou seulement à la seconde ?** C'est la question de fond : elle commande le dosage, l'écartement des paires et le degré de discrétion de chaque plantation.

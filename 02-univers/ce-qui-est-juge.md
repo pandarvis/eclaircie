@@ -89,7 +89,7 @@ C'est ce qui remplace l'ancienne formulation, et c'est meilleur pour quatre rais
 
 Il n'y a pas de barème : **plus quelqu'un a été meurtri, plus le jardin est long**, et le rapport exact n'est jamais chiffré.
 
-Et il n'y a pas non plus de borne publiée. Voir ci-dessous, « Le plancher, et l'invisibilité de la grâce ».
+Et il n'y a pas non plus de borne publiée. Voir ci-dessous, « Le plancher, et l'invisibilité de la grâce ». Ce que le supplément suit, en revanche, est désormais arrêté : voir « 2 ter. La grâce est proportionnelle ».
 
 ### 2 bis. Le plancher, et l'invisibilité de la grâce
 
@@ -135,6 +135,54 @@ Le grief des jaloux, tel que [`la-jalousie.md`](la-jalousie.md) l'établit, port
 **Et les exceptions existent, comme partout.** Des vies très longues, des vies courtes, des cas dont personne ne s'explique la durée. **Un monde sans exception serait une mécanique**, et celui-ci n'en est pas une. Le seul énoncé ferme est le plancher de la règle A ; au-dessus, rien n'est promis à personne.
 
 *Développement complet dans [`la-jalousie.md`](la-jalousie.md), section « Rien, dans les chiffres, ne donne raison aux jaloux ».*
+
+### 2 ter. La grâce est proportionnelle
+
+> **Décision de l'autrice, 15 août 2026.** *« Fais quelque chose de proportionnel, entre les plus vieux et un enfant de 5 qui peut avoir 30 ans en tout de vie. »*
+>
+> Elle remplace la question ouverte qui traînait ici depuis la simplification : *de combien allonge-t-on un jardin ?* La réponse n'est pas un nombre, c'est une pente.
+
+**Le supplément est proportionnel à ce qui a été pris.**
+
+C'est la seule grandeur que le système ait à comparer, et elle est déjà au dossier : l'âge de mort. **Plus on est mort jeune, plus on a perdu, plus le jardin s'allonge.** Quelqu'un tué à soixante-dix ans a perdu peu — il avait déjà eu sa vie. Quelqu'un tué à dix-huit a perdu presque tout.
+
+| Meurtri à | Ce qui lui a été pris | Ce que la grâce fait du jardin |
+|---|---|---|
+| soixante-dix ans | peu — la vie était faite | à peine plus long que l'ordinaire |
+| quarante ans | la moitié | sensiblement allongé |
+| dix-huit ans | presque tout | allongé au point de changer la forme de la vie |
+
+*Le tableau donne la pente, pas un barème. Il n'existe nulle part dans le monde du livre, et il ne doit jamais devenir une colonne de chiffres, même en bible d'autrice — voir plus bas.*
+
+**La grâce rapproche la durée totale de celle d'un grand chiffre, sans mécanique ni garantie.**
+
+C'est ainsi qu'il faut la comprendre, et ainsi seulement. Il y a un écart entre les deux bouts du monde : le plancher de trente ans de la règle A d'un côté, les longues vies des grands chiffres de l'autre — soixante-dix, quatre-vingts, davantage. **La grâce comble une partie de cet écart. Jamais la totalité.**
+
+- Elle ne fait pas passer devant, et elle ne le promet pas ;
+- elle ne rattrape pas exactement, et elle ne le promet pas non plus ;
+- **elle n'a aucune régularité opposable** : deux meurtris du même âge ne reçoivent pas forcément la même chose, et personne n'est en position de le remarquer.
+
+*Compatibilité avec la règle B : rien de tout ceci n'est lisible. La proportionnalité est une pente d'autrice, pas un mécanisme du monde — elle n'introduit ni tableau, ni durée ordinaire connue, ni signe. Elle ne rouvre donc pas la porte au calcul des jaloux ; voir [`la-jalousie.md`](la-jalousie.md).*
+
+#### L'application — Chrissy et Tania
+
+**Mortes à dix-huit, elles arrivent à dix-huit.** Treize marches à descendre, à la vitesse lente des jeunes arrivants : **une trentaine d'années de descente**. Puis le jardin, et c'est là que la grâce travaille.
+
+Un jardin ordinaire leur donnerait une vie totale de l'ordre de la quarantaine d'années. **Leur jardin allongé les porte aux alentours de soixante à soixante-dix ans de vie** — près de ce qu'aurait vécu un grand chiffre, sans jamais l'égaler par règle.
+
+> **Le chiffre exact appartient à l'autrice, et rien, dans le monde, ne permet de le lire.**
+
+Ni elles, ni un veilleur, ni le registre. Leur jardin sera simplement long, comme d'autres jardins sont longs sans qu'on sache pourquoi — c'est la règle B, déjà écrite, et elle s'applique ici sans exception. Voir « 2 bis. Le plancher, et l'invisibilité de la grâce ».
+
+#### Le statut de cette règle
+
+**Une intuition d'autrice, jamais un barème.**
+
+- **Aucun personnage ne la connaît**, et aucun ne pourrait la déduire : il faudrait pour cela disposer d'âges de mort, dont personne n'a idée.
+- **Aucun document du monde ne la contient.** Pas une doctrine du culte, pas une ligne de registre, pas une phrase de sermon.
+- **Le §14 interdit qu'elle soit calculable dans le texte** ([interdit n° 3](../01-dossier/les-interdits.md)) : pas de barème, sous peine que le lecteur cesse d'avoir peur. La proportionnalité est là pour que l'autrice ne se contredise pas d'un personnage à l'autre. Rien d'autre.
+
+*Ce qu'elle règle, et c'est son seul emploi : quand un dossier de meurtri se présente, on sait de quel côté pencher. On ne sait toujours pas de combien, et il n'y a pas à le savoir.*
 
 ### 3. La condamnation empêche d'arriver
 
@@ -204,7 +252,9 @@ Elles sont mortes à **18 ans**. **Elles arrivent donc à 18 ans.** Il n'y a plu
 
 Treize marches à descendre, à la vitesse lente des jeunes arrivants — de l'ordre de deux à trois ans par marche, donc **une trentaine d'années de descente**. Puis **un jardin allongé, bien au-delà de l'ordinaire**, parce qu'elles sont des meurtries.
 
-**Le supplément n'est pas fixé ici.** Il appartient à l'autrice, et comme tout le §7, **c'est la forme qui compte, pas la décimale** : ce qui est acquis, c'est qu'elles arrivent à l'âge où on les a tuées et qu'elles restent au jardin bien plus longtemps que quiconque.
+**Et le supplément a désormais une pente.** Elles sont mortes à dix-huit ans : on leur a pris presque tout, donc leur jardin est parmi les plus longs que le système sache accorder. Là où un jardin ordinaire leur donnerait une quarantaine d'années de vie, **le leur les porte aux alentours de soixante à soixante-dix ans** — l'écart avec un grand chiffre est comblé en partie, jamais en totalité. Voir « 2 ter. La grâce est proportionnelle ».
+
+**Le chiffre exact n'est pas fixé ici.** Il appartient à l'autrice, et comme tout le §7, **c'est la forme qui compte, pas la décimale**.
 
 *Aucune borne haute ne leur est opposée — la règle B n'en pose pas. Et rien, dans le monde, ne permet de lire leur supplément : leur jardin est simplement long, comme d'autres jardins sont longs sans qu'on sache pourquoi.*
 
@@ -244,7 +294,8 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 
 ## À trancher
 
-- [ ] **La longueur du jardin de Chrissy et Tania.** Combien d'années au-delà de l'ordinaire. La forme est acquise, le chiffre non — et il n'a plus de borne haute à respecter, seulement le goût de l'autrice.
+- [x] ~~**La longueur du jardin allongé.**~~ — **tranchée le 15 août 2026 : elle est proportionnelle à ce qui a été pris.** Plus on est mort jeune, plus le jardin s'allonge ; la grâce rapproche la durée totale de celle d'un grand chiffre sans jamais l'atteindre par règle. Chrissy et Tania, mortes à dix-huit, tournent autour de soixante à soixante-dix ans de vie au lieu de la quarantaine ordinaire. **Le chiffre exact appartient à l'autrice et reste illisible dans le monde.** Voir « 2 ter. La grâce est proportionnelle ».
+- [ ] **La pente ne doit jamais devenir un barème.** Vérification permanente à l'écriture du dossier comme du roman : aucun tableau de correspondance âge de mort → années de jardin, aucun exemple chiffré supplémentaire au-delà de ceux déjà posés. La proportionnalité est un sens, pas une courbe.
 - [ ] **Un veilleur peut-il soupçonner une grâce ?** La règle B interdit qu'il la lise ; elle n'interdit pas qu'il ait une intuition invérifiable. À décider : piste d'enquête, ou angle mort complet du monde ?
 - [ ] **Les exceptions de durée, quel usage dans le texte ?** Des vies très longues et des vies courtes que rien n'explique. Faut-il en montrer une, ou laisser cela hors champ ?
 - [x] ~~**Règle A — le plancher de durée à trente ans.**~~ — **acquis, 15 août 2026.** Personne ne vit moins de trente ans. Une arrivée à cinq ans en dispose autant qu'une arrivée à dix, et les passe toutes au jardin. Le chiffre est arrêté, il ne monte pas.

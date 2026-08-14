@@ -112,9 +112,15 @@ Aucun nom de monde n'est à inventer ; *l'Aval* est abandonné. Restent à régl
 
 ## Ce qui reste ouvert après cette session
 
-- [ ] **Le monde** — la géographie est tranchée (reconnaissable, et le nom reste « la Terre »). Restent les **toponymes** — valider la convention d'écriture et la règle du silence des personnages — et les **dates** : guerres nommées plutôt que datées ? Voir [`02-univers/la-terre.md`](../02-univers/la-terre.md).
-- [ ] **Le mouvement 21** — laquelle des voies : A (il vit avec elle sans rien dire), B (il renonce par scrupule), C (il réalise trop tard) ? Le mouvement 24 en découle.
-- [ ] Intervention chirurgicale ou intervention de police ? (voir fiche du veilleur)
-- [ ] Jusqu'où pousser la violence : menace de fond, ou événement qui touche le garçon ?
-- [ ] Le veilleur atteint le palier huit ans avant elle. Est-ce que le livre va jusque-là ?
-- [ ] Il cesse d'être un adulte avant elle, vers l'année 42. Est-ce que le livre le montre ?
+> **Mise à jour du 15 août 2026.** Cette liste datait du 13 août. La quasi-totalité a été tranchée depuis, et l'architecture du roman a changé entre-temps — voir [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md). Les questions vivantes sont désormais en bas de chaque fichier, pas ici.
+
+**Tranché depuis :**
+
+- [x] ~~Le monde~~ — c'est la Terre, géographie reconnaissable en partie, toponymes traités comme convention d'écriture jamais remarquée. Voir [`../02-univers/la-terre.md`](../02-univers/la-terre.md).
+- [x] ~~Le mouvement 21, voies A / B / C~~ — la voie était tranchée (il ne peut rien avouer, il essaie, elle en fait un ami), puis **l'histoire d'amour a été suspendue**. Erin sort du livre pour l'instant.
+- [x] ~~Intervention chirurgicale ou intervention de police ?~~ — **la poursuite.** Il meurt en même temps que l'assassin des jumelles. Voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md).
+- [x] ~~Le veilleur atteint le palier huit ans avant elle~~ et ~~il cesse d'être un adulte avant elle~~ — les deux dépendaient d'Erin et du calendrier sur douze ans, tous deux abandonnés. Le livre se déroule maintenant sur quelques semaines, avec un épilogue.
+
+**Encore vivant :**
+
+- [ ] **Jusqu'où pousser la violence** : menace de fond permanente, ou événement qui touche réellement Eliott ? Le ravisseur est acquis ; le climat autour ne l'est pas. Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md).

@@ -14,7 +14,10 @@
 | **Nom** | Eliott — **nom d'éclaircie qu'il a produit lui-même**, à sa cérémonie. Arrivé à dix ans, il est au-dessus du seuil des huit ans : personne ne l'a nommé |
 | **Prise en charge** | [June](june.md), berceuse — c'est **sa** berceuse. Petits travaux d'ordre public, sans force ni difficulté |
 | **Dans l'intrigue** | il est enlevé. Il sera retrouvé vivant |
+| **Dans la vie d'avant** | **il a été assassiné.** Une capsule pourrie est apparue le jour de son arrivée — celle de son meurtrier. Personne ne l'a remarqué. Voir §9 |
+| **Âge pendant le livre** | **dix ans du début à la fin.** Le corps du roman ne dure que quelques semaines, peut-être quelques mois |
 | **Décompte** | 15 ans de descente, puis 15 ans au jardin |
+| **À l'épilogue** | **cinq ans.** Il entre au jardin quinze ans après le corps du roman ; Andrew a alors 37 ans. Voir §10 |
 
 ---
 
@@ -126,24 +129,81 @@ Andrew se rend ensuite à la gendarmerie, où il retrouve [Isaac](isaac.md) : sa
 
 ## 7. Son décompte
 
-Arrivé à dix ans, il descend d'un an tous les trois ans : **environ quinze ans de descente, puis quinze ans au jardin.** Trente ans en tout. Détail année par année et place dans les actes : [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+Arrivé à dix ans, il descend d'un an tous les trois ans : **environ quinze ans de descente, puis quinze ans au jardin.** Trente ans en tout. Détail et place dans le livre : [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
 
-C'est ce décompte qui fait de lui **l'horloge du livre** : à chaque retour, il est plus petit, et il dit moins.
+> **Révision du 15 août 2026.** **Il n'est plus l'horloge du corps du roman.** Le livre ne dure plus douze ans mais quelques semaines, peut-être quelques mois : il a **dix ans à la première page et dix ans à la dernière**, sa première marche tombe trois ans après. Il n'a plus rien à mesurer, puisque plus rien ne dure.
+
+**Le procédé n'est pas perdu, il est concentré.** Il ne reste qu'un seul saut de temps dans le livre — les quinze ans qui mènent à l'épilogue —, et c'est là que l'horloge sert, une fois et pleinement : le lecteur retrouve un enfant de cinq ans là où il avait laissé un enfant de dix, et aucune ligne n'a besoin de lui dire combien de temps a passé.
+
+*Ce qui tombe avec les douze ans : la série de retours échelonnés, « à chaque visite, plus petit, et il dit moins ». Il n'y a plus de série. Il y a une seule marche, très haute, et elle est en dernière page.*
 
 ---
 
-## 8. La question ouverte majeure
+## 8. La place de son entrée au jardin — tranché : c'est l'épilogue
 
-*À poser, et surtout pas à trancher ici.*
+> **Décision de l'autrice, 15 août 2026.** *« L'épilogue, c'est son entrée au jardin. »*
 
-Dans l'ancien découpage, **son entrée au jardin était le climax de l'acte II** : le témoin qui s'éteint, et qui prive Andrew de sa source. La piste n'était pas fausse, elle était coupée — et c'est ce qui empêchait le lecteur de se sentir floué.
+La question posée ici était : l'enlèvement et l'entrée au jardin coexistent-ils comme deux ruptures, ou l'une remplace-t-elle l'autre ? **Elles coexistent, mais pas au même endroit du livre**, et le calendrier court a réglé la question tout seul.
 
-**Où se place ce moment maintenant qu'il est enlevé puis retrouvé vivant ?** Le livre dispose désormais de deux ruptures possibles au même endroit :
+| | Où | Ce que c'est |
+|---|---|---|
+| **L'enlèvement** | corps du roman | la perte qui ouvre l'enquête. Il y a un coupable, on peut chercher, et **on le retrouve vivant** |
+| **L'entrée au jardin** | **l'épilogue**, quinze ans plus tard | la perte qu'on ne peut pas contester. Aucun coupable, rien à poursuivre, personne à qui en vouloir |
 
-- **Elles coexistent, dans cet ordre** — l'enlèvement d'abord, qui ouvre l'enquête ; l'entrée au jardin ensuite, qui la referme autrement. On lui rend l'enfant, puis on le lui reprend pour de bon, sans coupable cette fois. C'est deux fois la même perte, la seconde irréparable et sans personne à poursuivre.
-- **L'une remplace l'autre** — l'enlèvement devient le climax, et l'entrée au jardin redevient un simple passage du calendrier.
+**Deux fois la même perte, la seconde irréparable et sans personne à poursuivre.** On lui rend l'enfant ; puis, longtemps après, le monde le reprend sans faute de personne.
 
-Les deux tiennent. **Non tranché**, et à décider dans le plan, pas ici.
+**Ce qui change par rapport à l'ancien découpage, et c'est important :** son entrée au jardin ne prive plus Andrew de sa source au milieu du livre, et **elle ne déclenche donc plus le retournement du mouvement 18.** Pendant le roman, c'est **l'enlèvement** qui retire la source à Andrew — et les fragments continuent sans lui, ce qui commence à défaire la théorie du garçon ([`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §4.2). *Le ressort du mouvement 18 est à revoir dans le plan, pas ici.*
+
+---
+
+## 9. Il a été assassiné dans la vie d'avant
+
+> **Décision de l'autrice, 15 août 2026.** *« On pourrait aussi réaliser que l'enfant a été assassiné lui aussi dans l'autre monde — on le sait quand, le jour de son arrivée, il y a une capsule pourrie. »*
+
+**Le jour de son arrivée, une capsule pourrie est apparue.** Celle de son meurtrier, mort le jour même de son crime. Elle n'a pas éclairci ; quelqu'un l'a raclée un matin, et personne n'a fait le rapprochement — c'était un jour de travail, et Andrew tenait le service.
+
+**C'est exactement la signature de Chrissy et Tania** : une victime et son assassin qui meurent ensemble, donc deux capsules qui apparaissent ensemble et mûrissent vite, dont une qui ne s'ouvre sur personne.
+
+Ce que ça produit, et le détail complet est dans [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §8 :
+
+- **son jour d'arrivée devient le cas témoin du livre**, à la place de la mère et de l'enfant, sortis du casting. Le lecteur y voit une signature de registre pour la première fois, sans qu'on lui explique rien ;
+- il la reverra une seconde fois, sur la ligne d'Andrew, et c'est là qu'elle le foudroie ;
+- et Andrew, qui cherche dans les registres, retrouvera **deux fois le même motif** — une arrivée et une capsule pourrie le même jour. Il apprend à lire sur le dossier du garçon, puis il tombe sur le sien.
+
+**Rien de tout cela n'est su par Eliott.** Il ignore qu'il est mort, il n'a jamais entendu parler d'une vie d'avant, et le mot *capsule pourrie* ne désigne rien pour lui. Il porte sa propre mort sans en avoir la notion — **c'est la terreur de la première page** (§3), et elle continue de ne rien expliquer.
+
+*Réglage : le livre ne relie jamais la terreur et la capsule. Les deux sont dans la même matinée, et c'est tout ce que le texte en dit.*
+
+---
+
+## 10. L'épilogue — ce qu'il raconte avant d'entrer
+
+> **Décision de l'autrice, 15 août 2026.** *« Il pourrait presque nous en apporter des détails glaçants à la fin de l'histoire, avant de rentrer au jardin. Tout est déjà révélé au lecteur, et on achève son arc en expliquant rapidement ce qui lui est arrivé, dans un dialogue par exemple. »*
+
+**Quinze ans après le corps du roman.** Il a cinq ans, il va entrer au jardin, et **il raconte** — des détails glaçants sur ce qui lui est arrivé de l'autre côté. Un dialogue court, quelques répliques, puis il s'en va.
+
+### L'effet, et il tient en une phrase
+
+> **C'est le dernier moment où il a encore les mots.**
+
+Le témoin livre son témoignage à la seconde exacte où il cesse de pouvoir en donner un. Il descend depuis quinze ans, il n'a plus que quelques phrases devant lui, et il s'en sert pour dire ce que personne n'a su lui arracher pendant tout le livre. Une heure plus tard, la même question n'aurait plus de réponse — et il n'y aura plus jamais personne pour la poser.
+
+**Ce n'est pas une révélation.** Tout est déjà révélé au lecteur : il a vu la capsule pourrie à la première page, il a compris la ligne d'Andrew. Rien de ce que dit l'enfant ne lui apprend un fait nouveau. **C'est la fermeture de son arc** — le seul personnage dont on ne savait pas ce qui lui était arrivé le dit lui-même, brièvement, et sort. *Une révélation en épilogue serait une pirouette ; un adieu qui confirme ce qu'on savait déjà est un adieu.*
+
+### Les contraintes de la scène
+
+| Interdit | Pourquoi |
+|---|---|
+| **Il n'explique rien du système** | **interdit n° 1.** Il ne sait pas qu'il est mort, il ignore ce qu'est une capsule qui n'éclaircit pas, il n'a aucun mot pour une vie d'avant. Il raconte des faits, pas un monde |
+| **Il ne conclut rien** | pas de morale, pas de bilan, aucun « alors c'est que ». Il raconte, il s'arrête, on l'emmène |
+| **Il ne relie rien à Andrew** | **interdit n° 4.** Les deux fissures ne se recoupent jamais, et c'est ici qu'elles se frôlent le plus. Rien de ce qu'il dit ne valide une lecture d'Andrew ni ne s'emboîte dans un fragment de reliquat |
+| **Il raconte comme un enfant raconte** | des choses concrètes, dans le désordre, sans hiérarchie — une pièce, une odeur, une phrase qu'on lui a dite. C'est ce qui glace, et c'est aussi ce qui protège la scène |
+
+**L'hypothèse « il fabule » doit tenir jusqu'à la dernière ligne du livre.** Personne dans la pièce n'a de raison de le croire, rien n'est vérifiable, et c'est ce qui interdit à la scène de devenir une preuve. Elle ne peut être qu'un adieu.
+
+*Réglage de langue : il descend depuis quinze ans et il est à la veille du jardin. **Sa langue est déjà entamée.** Ce qu'il dit doit sortir avec les moyens d'un enfant de cinq ans, pas de dix — phrases courtes, vocabulaire pauvre. C'est exactement ce qui rend les détails insoutenables.*
+
+*Et la symétrie se ferme d'elle-même, sans qu'on la commente : à la première page, il parle d'emblée et ce qu'il dit ne va pas ; à la dernière, il parle une dernière fois et ce qu'il dit ne va toujours pas. Entre les deux, personne ne l'a écouté.*
 
 ---
 
@@ -151,9 +211,14 @@ Les deux tiennent. **Non tranché**, et à décider dans le plan, pas ici.
 
 - [x] ~~Le signalement de June.~~ — **supprimé le 15 août 2026.** Elle ne vient trouver personne : Andrew décide seul d'aller le revoir. La séquence est à cinq temps.
 - [x] ~~Le garçon est-il atteint par le climat de [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) ?~~ — **oui : son ravisseur sort de ce milieu.** Décision du 15 août 2026.
-- [ ] **La place de son entrée au jardin** (§8 ci-dessus). Non tranché.
-- [ ] **Combien de visites exactement ?** Deux puis la troisième, dit l'autrice — *« peut-être »*. Le chiffre est à confirmer : il règle la vitesse à laquelle l'insistance d'Andrew devient visible ([`andrew.md`](andrew.md), « Attention à la vitesse »).
+- [x] ~~**La place de son entrée au jardin.**~~ — **tranché le 15 août 2026 : c'est l'épilogue**, quinze ans après le corps du roman. §8 et §10.
+- [x] ~~Est-il l'horloge du livre ?~~ — **caduc, 15 août 2026.** Le corps du roman tient sur quelques semaines : il a dix ans du début à la fin. Le procédé ne sert plus qu'au saut de l'épilogue. §7.
+- [ ] **Combien de visites exactement ?** Deux puis la troisième, dit l'autrice — *« peut-être »*. Le chiffre est à confirmer : il règle la vitesse à laquelle l'insistance d'Andrew devient visible ([`andrew.md`](andrew.md), « Attention à la vitesse »). **Le calendrier court le resserre** : les visites tiennent maintenant sur des jours, pas sur des mois.
 - [ ] **Que dit-il exactement pendant les visites ?** La règle est fixée — banal, local, invérifiable (§5) —, les phrases non.
+- [ ] **Que dit-il exactement à l'épilogue ?** Les contraintes sont fixées (§10), les détails non. Combien de phrases, et jusqu'où elles vont — trois suffisent probablement, et le risque est la surenchère.
+- [ ] **Qui est présent à l'épilogue ?** Andrew seul, ou June aussi, qui est sa berceuse et devrait y être. Un troisième témoin qui n'entend qu'un enfant raconter n'importe quoi change la scène.
+- [ ] **Combien de temps dure son enlèvement ?** C'est le compteur du livre. Il doit rester dans le délai où l'on espère encore — voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+- [ ] **La rime des trois affaires est-elle soulignée ?** Eliott, la paire, Andrew : trois fois une arrivée et une capsule pourrie le même jour. Une rime voulue est une force, mais trois occurrences risquent de faire paraître le système mécanique. **Non tranché** — voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §8.3.
 
 ---
 

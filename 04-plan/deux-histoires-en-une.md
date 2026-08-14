@@ -20,7 +20,7 @@
 | **Joël** | **la vie d'avant uniquement** | le nom de l'enquêteur. Jamais dans une scène d'ici — et **prononcé une seule fois dans tout le roman**, à la poursuite finale (section 2) |
 | **Liam** | **la vie d'avant uniquement** | le collègue de Joël, celui qui crie *« Joël, non, attends ! »*. **Nom de bible personnelle : il ne sortira nulle part dans le roman.** Dans le texte, il reste *son collègue*, *son partenaire*. Section 2.2.5 |
 | *(les deux filles de l'affaire)* | **la vie d'avant** | **aucun nom, jamais.** On écrit *les deux filles*, *les sœurs*, *elles* |
-| **`[Nom]`** | **la vie d'avant uniquement** | le **nom de famille** par lequel les fragments désignent le dossier : *« l'affaire [Nom] »*. **Non choisi — n'inventer aucun nom de famille.** Section 2.5 |
+| **Sorel** | **la vie d'avant uniquement** | le **nom de famille** par lequel les fragments désignent le dossier : *« l'affaire Sorel »*. **Tranché le 15 août 2026.** Section 2.5 |
 
 - **Dans ce monde-ci, personne n'a de nom de famille**, et la règle n'est jamais énoncée dans le roman. On n'écrit donc jamais un second nom pour Andrew, June, Eliott, Isaac, Chrissy ou Tania — ni sur une porte, ni dans un registre, ni dans une convocation. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ».
 - **Ces prénoms-ci n'ont été donnés par personne : chacun a produit le sien** en sortant de la capsule, à la question du veilleur. Exception, les moins de huit ans, nommés par une berceuse. **Eliott, arrivé à dix ans, s'est donc nommé lui-même** — ce n'est pas June qui l'a nommé, et ce point est à répercuter dans [`../03-personnages/june.md`](../03-personnages/june.md) et [`../03-personnages/eliott.md`](../03-personnages/eliott.md), que ce document ne modifie pas. Protocole complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant ».
@@ -48,6 +48,99 @@ Deux temporalités qui ne communiquent pas, deux récits qui n'ont aucun point d
 **Les deux histoires sont des affaires d'enlèvement.** C'est ce qui rend la confusion possible, et c'est ce qui la rend honnête : le lecteur ne se trompe pas parce qu'on lui cache quelque chose, il se trompe parce que les deux récits racontent la même chose.
 
 **Les reliquats ne sont jamais nommés.** Le mot, la notion, l'explication : rien. Aucun personnage ne dit qu'il se souvient, aucun narrateur ne signale un basculement, aucune typographie ne trie les chapitres. On garde tout pour la fin, quand on réalise d'un coup que le veilleur est un arrivant voilé, et que le voilé est l'enquêteur.
+
+---
+
+# 1 bis. Ce que le lecteur vit, dans l'ordre
+
+> **Tranché par l'autrice, 15 août 2026.** *« Le lecteur doit penser jusqu'au bout qu'il suit une seule enquête. Là où il doit buguer, c'est quand le chapitre recommence. Même pas avant, quand on découvre les filles décédées — car il peut se dire "wtf, les paires du début, qu'est-ce qu'elles foutent là ?". Quand le chapitre recommence, on est choqué. Quand il se lance à la poursuite de l'assassin et qu'on entend "Joël", le lecteur sait définitivement et fait le lien. La relecture du registre confirme leur théorie. »*
+
+**Cette section est le cahier des charges du dispositif.** Elle ne décrit pas ce que le livre raconte, elle décrit **l'état d'esprit du lecteur page après page** — et c'est cet état d'esprit qui commande tout le reste. Le séquencier à venir (§10.1), le dosage des faux raccords ([`faux-raccords.md`](faux-raccords.md)), l'alternance des chapitres, la place de chaque apparition : **tout se règle sur les cinq temps ci-dessous, et rien ne peut les contredire.**
+
+Le tableau d'ensemble, à garder sous les yeux :
+
+| Temps | Ce que le lecteur lit | Ce qu'il croit | Ce qu'il ressent |
+|---|---|---|---|
+| **1** | tout le livre jusqu'à la planque | **une seule enquête, un seul homme** | rien à signaler — il lit un roman policier |
+| **2** | la découverte des corps (chapitre B) | toujours une seule enquête | **un trouble** qu'il ne sait pas où ranger |
+| **3** | **le chapitre qui recommence** (chapitre C) | *il y a deux histoires* | **le choc** — le point de bascule du roman |
+| **4** | *« Joël, non, attends ! »* (chapitre D) | il sait, et il fait le lien complet | **la certitude** |
+| **5** | la ligne de registre | il avait raison | **la confirmation, par un document** |
+
+## Temps 1 — jusqu'à la planque : une seule enquête
+
+**Le lecteur ne doit à aucun moment soupçonner qu'il en suit deux. C'est la contrainte absolue du livre**, et elle vaut de la première page jusqu'au seuil du lieu de séquestration — c'est-à-dire sur la quasi-totalité du volume.
+
+Non pas « il ne doit pas comprendre », mais **il ne doit pas même se poser la question.** Un lecteur qui formule l'hypothèse et la met de côté a déjà tout perdu : il ne lira plus les chapitres, il les triera. Le procédé ne survit pas à une hypothèse formulée, même fausse, même abandonnée.
+
+**Ce que cette contrainte commande, et qui est à répercuter partout :**
+
+- **le nom** — il ne se dit pas une seule fois avant le temps 4 (§2.2), et c'est la raison première de l'interdit ;
+- **les fragments** — aucun nom, aucun marqueur d'époque, aucun tri possible entre les deux mondes (§3.2) ;
+- **les faux raccords** — semés, mais jamais assez nets pour déclencher un soupçon. Voir ci-dessous, *Ce que ça impose* ;
+- **l'alternance des chapitres** — elle ne doit jamais dessiner un rythme régulier qui se lirait comme deux séries. Le lecteur ne compte pas des alternances : il suit un homme qui avance.
+
+*Le critère de réglage, pour toute décision à venir : est-ce qu'un lecteur attentif pourrait, à cet endroit, se dire « attendez, ce n'est peut-être pas le même » ? Si oui, l'élément est trop fort, quel qu'il soit et si beau qu'il soit.*
+
+## Temps 2 — la découverte des corps : un trouble, pas une révélation
+
+Chapitre B (§5). On décrit un premier corps ; **le lecteur croit à Eliott.** Puis un second. Puis deux corps féminins identiques.
+
+**Le lecteur peut avoir un doute** — *« la paire du début, qu'est-ce qu'elles font là ? »* — **et c'est admis, c'est même souhaitable.** Ce n'est pas un raté de dosage, c'est le fonctionnement voulu de la scène. Il vient de reconnaître deux visages qu'il a croisés au début du livre, et il ne peut rien en faire.
+
+**Ce n'est pas encore la bascule.** C'est une gêne qu'il ne sait pas où ranger : il a une pièce de trop dans les mains, et aucune case où la mettre. Il n'a pas d'hypothèse, il a un inconfort.
+
+> **Implication forte, et elle contraint le plan : Chrissy et Tania doivent être apparues tôt dans le livre**, assez tôt et assez nettement pour que le lecteur les reconnaisse ici sans qu'on ait à les lui rappeler.
+
+Sans cette apparition précoce, il n'y a pas de trouble du tout : deux corps identiques ne sont plus que deux corps identiques, la scène perd sa charge, et le temps 2 disparaît du dispositif. **La question qui restait ouverte dans [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md) — *apparaissent-elles tôt ou seulement à la fin ?* — est donc tranchée : tôt, et le dispositif en dépend.**
+
+*Réglage à l'écriture : la reconnaissance doit venir du lecteur seul. Aucun personnage ne rapproche ces corps de deux arrivantes, aucun narrateur ne souligne la ressemblance. Andrew, lui, ne peut rien rapprocher du tout — il ne les a pas encore rencontrées dans l'ordre du récit, et de toute façon il ne sait rien.*
+
+## Temps 3 — le chapitre qui recommence : le choc
+
+Chapitre C (§5). Même lieu, même arrivée, même lourdeur — **autre issue : l'enfant est vivant.**
+
+**C'est là, et seulement là, que le lecteur comprend qu'il y a deux histoires. C'est le point de bascule du roman.**
+
+Rien avant ne doit produire cette compréhension, et rien après n'a à la produire une seconde fois. Le lecteur ne la reçoit pas d'une phrase, d'un narrateur ou d'un personnage : **il la reçoit de la forme du livre**, qui se dédouble sous ses yeux. Une scène qu'il vient de lire recommence et finit autrement ; il n'y a qu'une explication possible, il la trouve seul, et elle est juste.
+
+*C'est aussi le seul endroit du livre où l'autrice n'a rien à écrire pour être comprise : c'est la répétition elle-même qui parle. Voir §6, « le doublon de scène est le moment où les deux récits se séparent enfin ».*
+
+## Temps 4 — le cri : la certitude
+
+Chapitre D (§5). *« Joël, non, attends ! »*
+
+**Le lecteur sait définitivement, et il fait le lien complet.** Le temps 3 lui a appris qu'il y avait deux histoires ; le temps 4 lui apprend **qui** est le second homme, et referme le livre entier d'un coup : le veilleur est l'enquêteur, les fragments étaient sa vie d'avant, les deux corps étaient les filles de son affaire, et il vient de regarder mourir un homme sans savoir que c'était lui.
+
+Le nom ne révèle donc pas le dispositif — **le dispositif est déjà révélé.** Il révèle l'identité, une seule fois, en quatre mots, par la bouche d'un personnage qui ne sait rien de ce qu'il vient de faire. Réglage complet en §2.2.
+
+## Temps 5 — le registre : la confirmation
+
+La ligne d'archive (§5, « Plus tard »). **Elle ne révèle rien de neuf au lecteur : elle confirme ce qu'il a déjà compris, et elle le confirme par un document.**
+
+**C'est le bon ordre, et il faut l'écrire noir sur blanc : le lecteur devine, puis on lui prouve.** L'inverse serait plat. Un registre qui apprendrait la vérité ferait de la révélation une information administrative, remise par un objet, à un homme qui la lit — c'est-à-dire tout ce que le §14 refuse. Ici, le document ne détient aucun savoir que le lecteur n'ait déjà : il détient la **preuve**, ce qui n'est pas la même chose et n'a pas la même valeur.
+
+Deux capsules en paire, moins d'une heure plus tard la sienne, et une autre qui n'a jamais éclairci. Le lecteur ne découvre rien ; **il vérifie**, et c'est la satisfaction la plus solide qu'un roman puisse donner — celle d'avoir eu raison contre un document qui ne lui devait rien.
+
+*Et c'est la lecture d'Andrew, pas la sienne : Andrew, lui, lit des dates. Le vertige arrive par une colonne de chiffres, à un homme qui cherche autre chose. Voir §6.*
+
+## Ce que ça impose
+
+**1. Le doublon de scène est le sommet du livre.** Tout est construit pour lui — l'alternance, le silence sur le nom, la ressemblance des deux enquêtes, le poste de police habité, jusqu'à la décision de décor du §3.2. **Rien avant ne doit le déflorer.** Toute idée qui, ailleurs dans le roman, ferait comprendre au lecteur qu'il y a deux histoires est à écarter sans discussion, quelle que soit sa qualité par ailleurs : elle ne coûte pas une scène, elle coûte le livre.
+
+**2. Les faux raccords ne doivent jamais suffire à faire comprendre.** Ils sont **invisibles à la première lecture et évidents à la seconde** — c'est leur définition, et c'est désormais une contrainte close et non plus une préférence. Répercussion dans [`faux-raccords.md`](faux-raccords.md) : la question ouverte *« le lecteur doit-il pouvoir reconstruire dès la première lecture ? »* est **tranchée — non, seulement à la seconde.** Le dosage en découle mécaniquement : **peu de paires, très espacées, et surtout aucune, avant la planque, qui soit assez nette pour déclencher un soupçon.**
+
+**3. Le trouble du temps 2 est une soupape, pas une fuite.** La nuance est fine et elle est décisive :
+
+| Ce que le lecteur doit pouvoir se dire | Ce qu'il ne doit pas pouvoir se dire |
+|---|---|
+| *« bizarre »* | *« ce sont deux histoires »* |
+| *« qu'est-ce qu'elles font là ? »* | *« le veilleur est l'enquêteur »* |
+| une gêne sans objet | une hypothèse formulable |
+
+**Si le doute devient une hypothèse formulable, le temps 3 est perdu** — et avec lui le sommet du livre. La soupape existe pour que la scène des corps ait sa charge, pas pour donner au lecteur de quoi conclure. Elle laisse passer un inconfort ; elle ne laisse jamais passer une phrase qu'il pourrait s'énoncer à lui-même.
+
+*Réglage pratique : le trouble doit rester sans destinataire. Le lecteur ne doit pas savoir à qui, ni à quoi, adresser sa question — c'est ce qui l'empêche de la transformer en théorie. Dès qu'il peut la poser à un personnage, à une scène ou à une page précise, elle devient une piste.*
 
 ---
 
@@ -193,11 +286,11 @@ Quand il dit *Chrissy*, **elle se retourne** — et c'est pire qu'un silence. Il
 
 **Option 3 — Joël est nommé dès le début.** Le livre changeait de forme, le lecteur sachant d'emblée qu'il y a deux hommes, et le suspense portant sur leur lien et non sur leur nombre ; écartée parce que ce n'était pas le roman décrit par l'autrice — c'en était un autre, viable, où la séquence de révélation de la section 5 et les faux raccords de [`faux-raccords.md`](faux-raccords.md) n'avaient plus d'objet.
 
-## 2.5 La sortie de secours : *« l'affaire [Nom] »*
+## 2.5 La sortie de secours : *« l'affaire Sorel »*
 
-> **Décision de l'autrice, 15 août 2026.** *« On donne un nom de famille et on laisse une règle en suspens sans jamais la dire : dans ce monde-ci il n'y a pas de nom de famille, car déjà la famille n'est pas un concept. On pourrait alors dire l'affaire [Nom] pour ne pas éveiller les soupçons. »*
+> **Décision de l'autrice, 15 août 2026.** *« On donne un nom de famille et on laisse une règle en suspens sans jamais la dire : dans ce monde-ci il n'y a pas de nom de famille, car déjà la famille n'est pas un concept. On pourrait alors dire l'affaire Sorel pour ne pas éveiller les soupçons. »*
 >
-> **N'inventer aucun nom de famille.** On écrit `[Nom]` partout dans le dossier jusqu'à ce que l'autrice choisisse. Voir « À trancher ».
+> **Le nom est tranché : Sorel.** C'est le nom de famille des deux filles dans la vie d'avant, donc un seul mot qui les couvre toutes les deux sans en désigner aucune.
 
 **La règle du monde est établie ailleurs et n'est jamais énoncée dans le roman** : personne, ici, n'a de nom de famille, parce qu'il n'y a ni naissances, ni parents, ni sang, ni filiation, et qu'un nom hérité n'aurait rien à désigner. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ». Le développement narratif complet est en [`le-meme-jour.md`](le-meme-jour.md) §4.7. **Ce qui suit ne traite que de ce que ça fait au dispositif des deux récits.**
 
@@ -205,7 +298,7 @@ Quand il dit *Chrissy*, **elle se retourne** — et c'est pire qu'un silence. Il
 
 La section 2.2 impose que **rien** ne se prononce comme nom dans la vie d'avant. Une affaire criminelle qui n'a pas de nom se raconte pourtant mal : à force d'écrire *l'affaire*, *le dossier*, *l'enquête*, le texte finit par avoir l'air d'un texte qui contourne quelque chose — et un lecteur qui sent qu'on contourne se met à chercher qui.
 
-**Un nom de famille lève la difficulté sans toucher à la règle.** *L'affaire [Nom]* nomme le dossier, pas les gens. Aucun prénom n'est dit. Le compte des hommes est intact, l'anonymat des deux filles est intact, la règle de 2.2 n'a pas bougé d'une lettre.
+**Un nom de famille lève la difficulté sans toucher à la règle.** *L'affaire Sorel* nomme le dossier, pas les gens. Aucun prénom n'est dit. Le compte des hommes est intact, l'anonymat des deux filles est intact, la règle de 2.2 n'a pas bougé d'une lettre.
 
 **Et il couvre les deux sœurs sans en désigner aucune.** C'est le seul type de mot qui puisse faire ça. Le §2.3 pose que le dispositif prive les victimes de leur nom ; ce mot-ci ne le leur rend pas — **il nomme ce qui leur est commun, c'est-à-dire ce que le monde d'ici n'a même pas de mot pour penser.**
 
@@ -219,7 +312,7 @@ Le §3.2 pose que **tout ce qui particularise fortement l'un des deux mondes co�
 
 | | Ce qu'on lit | Ce que le lecteur en fait |
 |---|---|---|
-| **Vie d'avant** | *l'affaire [Nom]* | rien : c'est ainsi qu'on nomme une affaire |
+| **Vie d'avant** | *l'affaire Sorel* | rien : c'est ainsi qu'on nomme une affaire |
 | **Ce monde-ci** | Andrew, June, Eliott, Isaac | rien : personne ne remarque un nom qu'on ne lui donne pas |
 
 Un marqueur présent d'un seul côté est un tri. **Un marqueur absent d'un seul côté n'en est pas un**, parce qu'on ne remarque pas ce qui n'est pas là — c'est l'[interdit n° 5](../01-dossier/les-interdits.md) retourné à l'avantage du livre. Il n'y a rien à gommer, rien à surveiller, aucune scène à écrire autrement.
@@ -312,6 +405,8 @@ La contrainte du §14 — *« la fausse piste doit être vraie »* — est donc 
 # 5. La séquence de révélation
 
 *C'est le centre du livre. Le dispositif entier s'y révèle, en quatre chapitres.*
+
+*Ces quatre chapitres exécutent les temps 2, 3 et 4 de la **section 1 bis**, qui fait seule foi sur ce que le lecteur doit vivre à chacun d'eux. Ce qui suit décrit les scènes ; la section 1 bis décrit l'effet, et l'effet commande.*
 
 ## Fin du chapitre A
 
@@ -481,8 +576,11 @@ Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux
 - [x] ~~Les prénoms de la paire dans ce monde-ci~~ — **tranché le 14 août 2026 : Chrissy et Tania**, leurs noms d'éclaircie. Et **les noms des deux filles dans la vie d'avant ne sont jamais donnés** : la question est close, il n'y a rien à trouver. Section 2.3.
 - [x] ~~Ce qui met Andrew dans l'affaire.~~ — **tranché le 15 août 2026 : rien d'extérieur.** Le signalement de June est supprimé ; la trame passe de six temps à cinq. Section 4.
 - [x] ~~Le nom du partenaire qui crie à la poursuite~~ — **Liam**, nom de bible personnelle, **jamais écrit dans le roman**. Section 2.2.5.
+- [x] ~~Ce que le lecteur doit comprendre, et quand~~ — **tranché le 15 août 2026 : cinq temps, et l'ordre est intangible.** Une seule enquête jusqu'à la planque, un trouble sans hypothèse à la découverte des corps, le choc au chapitre qui recommence, la certitude au cri, la confirmation par le registre. **Section 1 bis**, qui commande tout le séquencier.
+- [x] ~~Le lecteur doit-il pouvoir reconstruire dès la première lecture ?~~ — **tranché le 15 août 2026 : non, seulement à la seconde.** Les faux raccords sont invisibles au premier passage. Répercuté dans [`faux-raccords.md`](faux-raccords.md). Section 1 bis, *Ce que ça impose*.
+- [x] ~~Chrissy et Tania apparaissent-elles tôt dans le livre ?~~ — **tranché le 15 août 2026 : tôt**, et le temps 2 en dépend. Le lecteur doit les reconnaître à la découverte des corps. Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
 - [ ] **D'où sort le ravisseur, et ce que ça fait à la trame.** Décision du 15 août 2026 : il vient du milieu de [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md). Deux points y restent ouverts et ils touchent le séquencier — **groupe informel ou homme seul**, et **combien on le voit avant la fin**.
-- [ ] Le séquencier complet de la nouvelle architecture — combien de chapitres, quelle alternance des deux récits, où tombent A, B, C, D.
+- [ ] Le séquencier complet de la nouvelle architecture — combien de chapitres, quelle alternance des deux récits, où tombent A, B, C, D. **Il se règle sur la section 1 bis, et non l'inverse** : deux points sont déjà contraints — la première apparition de Chrissy et Tania doit tomber tôt, et aucune paire de faux raccords ne doit être assez nette, avant la planque, pour déclencher un soupçon.
 - [ ] **Le moteur du §8** : fils réunis, ou toile de fond ? *La décision du 15 août 2026 sur le ravisseur donne un candidat de jointure — le climat de la jalousie —, sans rien trancher.*
 - [ ] **Dix ans de métier ou dix ans dans ce monde ?**
 - [ ] La place d'Eliott au jardin.
@@ -491,7 +589,7 @@ Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux
 - [x] ~~Le nom de l'agent de police~~ — **Isaac.** Voir [`../03-personnages/isaac.md`](../03-personnages/isaac.md).
 - [ ] L'entrée au lexique du berceur pour arrivants jeunes. **Point nouveau à y intégrer : le berceur nomme aussi les arrivants de moins de huit ans**, systématiquement appelé par le veilleur d'accueil. C'est un acte de métier de plus, et il tombe exactement sur la ligne de partage posée au §10.6.
 - [ ] Où et combien de fois la croyance du voile-traumatisme se dit dans le livre.
-- [x] ~~Comment nomme-t-on l'affaire dans les fragments sans prononcer de prénom ?~~ — **tranché le 15 août 2026 : par un nom de famille, *« l'affaire [Nom] »*.** Section 2.5.
-- [ ] **Le nom de famille lui-même — `[Nom]`.** Non choisi, et rien ne doit être inventé. Il doit sonner comme un nom de famille sans situer aucun pays ([interdit n° 6](../01-dossier/les-interdits.md)), et il sera lu des dizaines de fois : c'est le mot le plus répété de tous les fragments.
+- [x] ~~Comment nomme-t-on l'affaire dans les fragments sans prononcer de prénom ?~~ — **tranché le 15 août 2026 : par un nom de famille, *« l'affaire Sorel »*.** Section 2.5.
+- [x] ~~Le nom de famille lui-même~~ — **tranché le 15 août 2026 : Sorel.** C'est le mot le plus répété de tous les fragments, et il ne situe rien.
 - [ ] **La révision du §4 du dossier maître** — *on sort de la capsule en sachant parler*. Elle est écrite dans [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md) et **le dossier maître n'a pas été corrigé**. À reprendre par l'autrice.
 - [ ] **L'incidence sur §10.3, *dix ans de métier ou dix ans dans ce monde ?*** La langue étant acquise dès la sortie, l'apprentissage d'Andrew est plus court qu'on ne le supposait. Aucun chiffre n'est proposé ; la question devient plus facile à trancher dans un sens que dans l'autre.

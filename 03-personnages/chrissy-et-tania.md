@@ -138,13 +138,39 @@ Elles ne font rien dans l'intrigue. **Elles sont une ligne de registre avant d'�
 
 ---
 
+## 5 bis. Elles apparaissent tôt — tranché, et le dispositif en dépend
+
+> **Décision de l'autrice, 15 août 2026.** *« Quand on découvre les filles décédées, le lecteur peut se dire "wtf, les paires du début, qu'est-ce qu'elles foutent là ?". »*
+
+**La question qui figurait en §6 — *apparaissent-elles tôt dans le livre, ou seulement à la fin ?* — est close : tôt.** Ce n'est plus un choix de plan laissé ouvert : **c'est une contrainte du dispositif d'ensemble**, posée en [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md), section 1 bis, *Ce que le lecteur vit, dans l'ordre*.
+
+**Pourquoi c'est obligatoire.** Au chapitre de la découverte des corps, on décrit un premier corps — le lecteur croit à Eliott —, puis un second, puis deux corps féminins identiques. **Le lecteur doit pouvoir les reconnaître**, et se dire : *la paire du début, qu'est-ce qu'elle fait là ?* Ce trouble est un temps du dispositif, il porte la charge de la scène, et il n'existe que si le lecteur a déjà croisé ces deux visages-là. **Sans apparition précoce, deux corps identiques ne sont plus que deux corps identiques, et le temps 2 disparaît du livre.**
+
+**Ce que l'apparition précoce doit être — et ce qu'elle ne doit surtout pas être :**
+
+| Elle doit | Elle ne doit pas |
+|---|---|
+| donner deux visages identiques et deux noms, assez pour qu'on s'en souvienne | avoir un rôle, une réplique décisive, une place dans l'enquête |
+| passer pour du décor du monde — *une paire, travée douze* | être présentée comme une pièce à garder |
+| être **une**, brève, et ne pas se répéter | revenir à intervalles réguliers, ce qui la signalerait |
+
+**Le réglage exact : mémorable et sans importance.** C'est la même mécanique que la réplique du collègue sur la peau immaculée dans [`../04-plan/faux-raccords.md`](../04-plan/faux-raccords.md) §2.2 — la scène doit avoir un objet plus vaste qu'elles. Ce que le lecteur croit y apprendre, c'est **une règle de ce monde** : il arrive parfois deux capsules voisines et deux arrivants identiques, la salle s'en émerveille, on appelle ça une paire. Il enregistre une curiosité du monde. Il n'enregistre pas deux personnages.
+
+*Elles n'ont donc rien à faire, et c'est la condition : deux filles qu'on voit, qu'on nomme et dont on n'entend plus parler. Le §5 tient entièrement — elles ne font rien dans l'intrigue, elles sont une ligne de registre avant d'être deux personnes. La seule chose qui change est qu'on a vu les visages avant de lire la ligne.*
+
+**Et la limite, qui est absolue.** Le trouble qu'elles produisent à la découverte des corps est **une soupape, pas une fuite** : le lecteur doit pouvoir se dire *« bizarre »* sans pouvoir se dire *« ce sont deux histoires »*. Rien, dans leur apparition précoce, ne doit lui donner de quoi formuler l'hypothèse — pas un rapprochement, pas une insistance, pas un personnage qui s'interroge. **Si le doute devient une hypothèse, le chapitre qui recommence est perdu**, et avec lui le sommet du roman.
+
+*Placement exact — quel chapitre, quelle scène, avec qui — laissé au séquencier ([`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.1). Seule la contrainte est fixée ici : tôt, une fois, et sans importance apparente.*
+
+---
+
 ## 6. Questions ouvertes
 
 *À poser, pas à trancher.*
 
 - [x] ~~**Leur âge d'arrivée.**~~ — **tranché le 15 août 2026 : dix-huit ans**, leur âge de mort. Voir §2 bis.
 - [ ] **Leur âge au moment où Andrew les retrouve.** Il dépend du calendrier du livre : à dix-huit ans d'arrivée, tout dépend du temps écoulé depuis la cérémonie groupée. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md). L'enjeu est concret : deux adolescentes, deux enfants ou deux petites au jardin ne produisent pas la même scène d'excuses — et si elles sont déjà au jardin, elles n'ont même plus les mots pour ne pas comprendre.
-- [ ] **Apparaissent-elles tôt dans le livre, ou seulement à la fin ?** Une apparition précoce — croisées sans raison, aperçues à une cérémonie, mentionnées par quelqu'un — donnerait au lecteur une pièce à garder longtemps. Une apparition unique au mouvement 23 garderait à la scène toute sa charge. Les deux tiennent, et le choix appartient au plan, pas à cette fiche.
+- [x] ~~**Apparaissent-elles tôt dans le livre, ou seulement à la fin ?**~~ — **tranché le 15 août 2026 : tôt**, et ce n'est pas un choix de confort : **le dispositif en dépend.** Le lecteur doit pouvoir les reconnaître à la découverte des corps. Voir §5 bis, et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) section 1 bis.
 - [ ] **Sont-elles ensemble ?** Deux arrivantes du même jour ont-elles été prises en charge ensemble, ou séparées comme deux dossiers distincts ? Ce monde n'a aucune raison de les garder côte à côte : rien, dans sa langue, ne dit qu'elles vont ensemble.
 - [x] ~~**Qui les a nommées ?**~~ — **elles-mêmes.** Un nom d'éclaircie n'est pas attribué, il est **retrouvé** : le veilleur explique en une phrase ce qu'est un prénom, demande, l'arrivant répond, le veilleur inscrit. La seule exception est le seuil des huit ans, et elles sont arrivées à dix-huit. Voir §2 bis.
 - [x] ~~**Leur grâce prend-elle la forme d'un chiffre plus bas ?**~~ — **non : un jardin allongé.** Le détail relève de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), pas de cette fiche.
