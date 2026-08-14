@@ -1,7 +1,7 @@
 # June — berceuse
 
 *Personnage secondaire. Nom tranché le 14 août 2026 : **June**.*
-*C'est elle qui prend en charge le garçon arrivé à dix ans, et c'est elle qui déclenche l'enquête.*
+*Elle est **la berceuse d'Eliott**, l'arrivant de dix ans — et c'est elle qui déclenche l'enquête.*
 
 ---
 
@@ -11,7 +11,8 @@
 |---|---|
 | **Nom** | June |
 | **Métier** | berceuse |
-| **Rôle dans l'intrigue** | elle a la charge du garçon ; elle constate sa disparition et la signale |
+| **Sa charge** | [Eliott](eliott.md), arrivé à dix ans. **Elle est sa berceuse** — la seule personne, dans ce monde, qui l'ait à sa charge |
+| **Rôle dans l'intrigue** | elle constate la disparition d'Eliott et la signale |
 | **Particularité** | aucune. Elle n'est pas voilée, et elle ne doit jamais rien dire d'impossible |
 
 ---
@@ -22,7 +23,7 @@ Le §10 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) définit les ber
 
 ### L'extension du lexique, et pourquoi elle tient
 
-June s'occupe d'un enfant de **dix ans**, qui n'est pas encore au jardin. Le lexique s'en trouve légèrement étendu, et c'est cohérent — il faut le noter une fois pour toutes, parce que la question se posera à la relecture.
+June s'occupe d'Eliott, un enfant de **dix ans**, qui n'est pas encore au jardin. Le lexique s'en trouve légèrement étendu, et c'est cohérent — il faut le noter une fois pour toutes, parce que la question se posera à la relecture.
 
 **Un arrivant de dix ans ne deviendra jamais adulte.** Il descend, il ne monte pas. Il n'a donc **aucun besoin d'un tuteur** : le métier de tuteur est d'apprendre à vivre et à travailler à des arrivants âgés, dépendants et ignorants, qu'on prépare à des décennies de vie active. Rien de tout cela ne concerne un petit chiffre. On ne prépare pas à une carrière quelqu'un dont toute la trajectoire est une décroissance.
 
@@ -36,9 +37,9 @@ June s'occupe d'un enfant de **dix ans**, qui n'est pas encore au jardin. Le lex
 
 ## 2. Ce qu'on sait d'elle dans l'intrigue
 
-Elle a la charge du garçon. **Andrew vient plusieurs fois prendre des nouvelles chez elle** — assez souvent pour que la visite devienne une habitude, assez peu pour qu'elle reste une visite. Voir [`andrew.md`](andrew.md).
+Elle a la charge d'[Eliott](eliott.md). **Andrew vient plusieurs fois prendre des nouvelles chez elle** — assez souvent pour que la visite devienne une habitude, assez peu pour qu'elle reste une visite. Voir [`andrew.md`](andrew.md).
 
-**Puis, un jour, il la trouve affolée : l'enfant a disparu.**
+**Puis, un jour, il la trouve affolée : Eliott a disparu.**
 
 Elle a cherché partout. Elle a déposé un avis à la gendarmerie. **C'est elle qui déclenche l'enquête** — pas Andrew, qui n'arrive qu'après, et pas la police, qui n'est saisie que par elle.
 
@@ -61,7 +62,7 @@ Cette place est structurelle et il ne faut pas la lui retirer : l'intrigue enti�
 
 [`la-mere-et-l-enfant.md`](la-mere-et-l-enfant.md) pose une autre arrivante qui devient berceuse, **avec un sérieux que personne ne s'explique, elle-même comprise**. Le motif est le même : une femme, un métier d'accompagnement, une intensité inexpliquée.
 
-**Ce ne sont pas le même personnage.** June a la charge d'un garçon de dix ans qui disparaît ; l'autre a la charge d'un enfant de cinq ans qui est le sien sans que personne le sache. Deux femmes, deux fonctions, deux places dans le plan.
+**Ce ne sont pas le même personnage.** June a la charge d'Eliott, dix ans, qui disparaît ; l'autre a la charge d'un enfant de cinq ans qui est le sien sans que personne le sache. Deux femmes, deux fonctions, deux places dans le plan.
 
 **Le point de vigilance.** Deux berceuses inexplicablement dévouées dans le même livre, c'est une fois de trop pour un effet qui ne vaut que s'il reste discret. Si les deux jouent le reliquat, le lecteur cesse de voir une singularité et voit une règle — et une règle démontrée ferme le livre (interdit n° 4). Il faudra donc, au moment du plan : soit n'en charger qu'une, soit les éloigner franchement l'une de l'autre dans le récit, soit donner à June un tout autre relief. **À surveiller, non tranché.**
 

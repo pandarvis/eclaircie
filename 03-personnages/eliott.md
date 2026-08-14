@@ -1,6 +1,6 @@
-# Le garçon — arrivé à dix ans
+# Eliott — l'arrivant de dix ans
 
-*Personnage majeur, **sans nom pour l'instant**. Aucun prénom n'est proposé : l'autrice n'en a pas choisi.*
+*Personnage majeur. Nom tranché le 14 août 2026 : **Eliott**.*
 *Il est le second voilé du livre, et le seul autre. Son enlèvement déclenche toute l'intrigue.*
 
 ---
@@ -11,7 +11,8 @@
 |---|---|
 | **Arrivé à** | 10 ans |
 | **Particularité** | **voilé**. Il dit des choses impossibles ; tout le monde le prend pour un fabulateur |
-| **Prise en charge** | [June](june.md), berceuse. Petits travaux d'ordre public, sans force ni difficulté |
+| **Nom** | Eliott |
+| **Prise en charge** | [June](june.md), berceuse — c'est **sa** berceuse. Petits travaux d'ordre public, sans force ni difficulté |
 | **Dans l'intrigue** | il est enlevé. Il sera retrouvé vivant |
 | **Décompte** | 15 ans de descente, puis 15 ans au jardin |
 
@@ -23,7 +24,7 @@
 
 L'**interdit n° 4** ([`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md)) est ici à son point de tension maximal : *« une fissure = une intrigue ; trois = une contradiction »*, et **l'hypothèse « il fabule » doit tenir debout jusqu'au bout.**
 
-Deux fissures, c'est le plafond. Rien de ce que dit le garçon ne doit être vérifiable, rien ne doit se recouper avec ce qui remonte chez Andrew, aucune de ses phrases ne doit devenir une preuve. Le lecteur doit pouvoir, jusqu'à la dernière page, tenir l'explication simple — un enfant qui invente. C'est la contrainte qui gouverne tout ce qui suit.
+Deux fissures, c'est le plafond. Rien de ce que dit Eliott ne doit être vérifiable, rien ne doit se recouper avec ce qui remonte chez Andrew, aucune de ses phrases ne doit devenir une preuve. Le lecteur doit pouvoir, jusqu'à la dernière page, tenir l'explication simple — un enfant qui invente. C'est la contrainte qui gouverne tout ce qui suit.
 
 ---
 
@@ -43,7 +44,7 @@ C'est la première page du roman, et elle installe en une scène ce que le livre
 
 Il est pris en charge par **June** — voir [`june.md`](june.md) pour la raison : un arrivant de dix ans relève d'une berceuse et non d'un tuteur, puisqu'il ne deviendra jamais adulte.
 
-Il fait de **petits travaux d'ordre public**, sans force ni difficulté, adaptés à un enfant de dix ans. Rien qui pèse, rien qui qualifie, rien qui mène quelque part : la société n'attend rien de lui et ne prépare rien pour lui. **Andrew vient prendre de ses nouvelles chez June**, plusieurs fois. C'est par là que le personnage entre dans l'intrigue.
+Eliott fait de **petits travaux d'ordre public**, sans force ni difficulté, adaptés à un enfant de dix ans. Rien qui pèse, rien qui qualifie, rien qui mène quelque part : la société n'attend rien de lui et ne prépare rien pour lui. **Andrew vient prendre de ses nouvelles chez June**, plusieurs fois. C'est par là que le personnage entre dans l'intrigue.
 
 ---
 
@@ -61,9 +62,9 @@ Le petit détail de quartier fait tout le travail et ne coûte rien : il est **i
 
 ## 5. Son enlèvement
 
-**Il est enlevé. C'est le déclencheur de toute l'intrigue.**
+**Eliott est enlevé. C'est le déclencheur de toute l'intrigue.**
 
-C'est June qui constate la disparition, cherche partout, et dépose un avis à la gendarmerie. C'est donc elle qui déclenche l'enquête, et Andrew n'arrive qu'après — sa présence dans l'affaire étant rendue naturelle par son amitié avec [le policier](le-policier.md).
+C'est June qui constate la disparition, cherche partout, et dépose un avis à la gendarmerie. C'est donc elle qui déclenche l'enquête, et Andrew n'arrive qu'après — sa présence dans l'affaire étant rendue naturelle par son amitié avec [Isaac](isaac.md).
 
 **Il sera retrouvé vivant.**
 

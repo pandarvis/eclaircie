@@ -6,11 +6,13 @@
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
+*Prénoms — règle stricte, détaillée dans [`deux-histoires-en-une.md`](deux-histoires-en-une.md) : **Joël**, **Chrissy** et **Tania** n'appartiennent qu'à la vie d'avant ; **Andrew**, **June** et **Eliott** à ce monde-ci. Les deux arrivantes identiques y forment **une paire** et portent d'autres prénoms, **qui restent à trouver** — n'en improviser aucun. Et voir la section 2 du même document : **savoir si Joël est prononcé une seule fois dans le livre n'est pas réglé**, et cette question commande l'écriture de tous les fragments.*
+
 ---
 
 ## 1. La journée, des deux côtés
 
-Une disparition de jumelles. Au départ, on ignore qui les a enlevées ; au fil de l'enquête, l'étau se resserre sur un seul homme. Interventions sur plusieurs lieux, un vrai jeu de piste. Ils finissent par les retrouver — **trop tard**.
+Une disparition de jumelles — Chrissy et Tania. Au départ, on ignore qui les a enlevées ; au fil de l'enquête, l'étau se resserre sur un seul homme. Interventions sur plusieurs lieux, un vrai jeu de piste. Ils finissent par les retrouver — **trop tard**.
 
 Le lecteur doit croire, à ce moment-là, qu'on va les retrouver vivantes. C'est la seule tension qui compte dans cette scène.
 
@@ -36,9 +38,11 @@ Application du barème de [`ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.m
 
 | Qui | Entrée au registre | Chiffre | Ce que ça donne |
 |---|---|---|---|
-| Les jumelles | meurtries | **plus bas que leur âge de mort** | elles arrivent jeunes, elles accèdent vite au jardin et y restent longtemps |
-| Lui | réparable | **62 ans**, son âge de mort | verdict lambda, la ligne médiane |
+| Chrissy et Tania | meurtries | **plus bas que leur âge de mort** | elles arrivent jeunes, elles accèdent vite au jardin et y restent longtemps |
+| Joël | réparable | **62 ans**, son âge de mort | verdict lambda, la ligne médiane |
 | L'assassin | irréparable | **pas de chiffre** | pas de capsule qui éclaircit |
+
+*Rappel : les trois prénoms de cette colonne sont ceux de la vie d'avant. Sur la ligne de registre d'ici, il n'y a que des noms d'arrivants — celui de Joël devient celui d'Andrew, et les deux autres restent à trouver.*
 
 De combien les jumelles descendent, le document ne le dit pas : c'est à l'autrice, et ça se réglera au moment où elles apparaissent en scène au mouvement 16 puis 23. Ce qui est acquis, c'est le sens de la flèche — **elles descendent**, et le §7 rappelle que descendre n'est pas une punition mais la seule grâce que le système sache accorder.
 
@@ -94,22 +98,22 @@ C'est la lecture exacte du §12 du [dossier maître](../L-ECLAIRCIE-dossier-comp
 
 **Il y retourne sans savoir qu'il y retourne.** Il refait, dans ce monde-ci, les gestes d'un homme qu'il croit observer dans l'autre — et il ne fait jamais le rapprochement, parce qu'un métier n'est pas une preuve et que tout le monde en a un.
 
-### 4.2 Il a déjà une explication toute prête, et elle est fausse : le garçon
+### 4.2 Il a déjà une explication toute prête, et elle est fausse : Eliott
 
 C'est le mouvement 10 du plan, la contamination — *« il ne sait plus si ce qu'il voit vient du garçon ou de lui »*. Cette phrase change de sens et devient le moteur de sa cécité.
 
-**Sa théorie de travail est que ces images viennent du gosse.** Elle est excellente, et c'est ce qui la rend redoutable :
+**Sa théorie de travail est que ces images viennent d'Eliott.** Elle est excellente, et c'est ce qui la rend redoutable :
 
-- le garçon parle depuis le mouvement 4, il décrit des lieux qui n'existent pas, il dit des choses impossibles ;
-- les fragments arrivent **après** que le garçon a commencé à parler, et sur le même matériau : des pièces, des routes, des gens qui ne sont d'ici ;
+- Eliott parle depuis le mouvement 4, il décrit des lieux qui n'existent pas, il dit des choses impossibles ;
+- les fragments arrivent **après** qu'Eliott a commencé à parler, et sur le même matériau : des pièces, des routes, des gens qui ne sont d'ici ;
 - lui est veilleur, il note, il classe, il recoupe — un homme qui passe ses journées dans les fabulations d'un enfant finit forcément par en rêver ;
-- et surtout : **une hypothèse disponible en chasse une impensable.** Le garçon existe, il est là, on peut aller le voir. L'autre explication n'a pas de nom.
+- et surtout : **une hypothèse disponible en chasse une impensable.** Eliott existe, il est là, on peut aller le voir. L'autre explication n'a pas de nom.
 
 Il déterre donc sa propre vie **en croyant vérifier celle d'un autre.** Chaque fragment nouveau ne fait que confirmer ce qu'il pense déjà : que le gosse déteint sur lui, qu'il travaille trop, qu'il ferait bien de prendre du recul. Il a même mauvaise conscience — un enquêteur qui se laisse contaminer par son témoin, c'est une faute professionnelle, pas une révélation.
 
 **C'est ce qui rend sa cécité tenable sur des centaines de pages sans qu'elle paraisse forcée.** Il n'y a rien à ne pas voir : il voit quelque chose, il l'explique, et son explication est raisonnable. Un personnage qui refuse une évidence est agaçant ; un personnage qui a une bonne théorie fausse est un enquêteur.
 
-**Corollaire, et il est cruel :** entre les mouvements 17 et 18, le garçon entre au jardin et perd les mots. La source à laquelle il attribuait tout se tait — et les fragments, eux, continuent. C'est aussi par là que la théorie du garçon commence à ne plus tenir.
+**Corollaire, et il est cruel :** entre les mouvements 17 et 18, Eliott entre au jardin et perd les mots. La source à laquelle il attribuait tout se tait — et les fragments, eux, continuent. C'est aussi par là que la théorie du garçon commence à ne plus tenir.
 
 ### 4.3 La progression des fragments
 
@@ -152,11 +156,13 @@ Sont interdits dans les fragments :
 
 | Interdit | Pourquoi |
 |---|---|
-| **Son nom**, ou qu'on l'appelle | un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul |
+| **Son nom** — Joël —, ou qu'on l'appelle | un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul |
 | **Un miroir**, une vitre, une photo, un reflet | le seul objet qui rende un visage à celui qui le porte |
 | **Une description physique qui pourrait être la sienne** — taille, âge, cheveux | tout signalement compatible est une pièce d'identité |
 | **Une adresse**, un domicile, un lieu qui lui appartienne | on se reconnaît d'abord chez soi |
 | **Un « je »**, une pensée intérieure, un accès à ce qu'il ressent | la troisième personne est la contrainte, pas un effet de style |
+
+**Le nom est le premier de la liste, et une seconde règle le vise, indépendante de celle-ci.** [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2 interdit Joël pour une tout autre raison : un prénom différent apprend au **lecteur**, dès la première page, qu'il y a deux hommes. Ici l'interdit protège Andrew, là il protège le procédé — **les deux contraintes convergent sur le même mot**, et l'une d'elles n'est pas encore tranchée. Rien ne s'écrit d'un fragment nommé avant que l'autrice ait choisi entre les trois options exposées là-bas.
 
 **L'exception, et elle est précieuse : un détail physique qui *différencie* est autorisé, et c'est même le meilleur matériau disponible.**
 
@@ -178,13 +184,15 @@ Ce qui reste, et qui suffit : des gestes, une méthode, des pièces, des heures,
 
 ### 5.1 Ce qu'il va y faire
 
-Il se rend dans un poste de police **de ce monde-ci**. Il demande si on a quelque chose sur cette affaire : deux filles disparues, identiques, un homme, des lieux, une planque.
+Andrew se rend dans un poste de police **de ce monde-ci**. Il demande si on a quelque chose sur cette affaire : deux filles disparues, identiques, un homme, des lieux, une planque.
 
 **Il n'y va pas pour lui.** Il y va pour vérifier ce qu'il croit être l'histoire du garçon — c'est la suite logique de la section 4.2. Un témoin décrit une affaire criminelle ; un homme méthodique va voir si l'affaire existe. Il fait exactement ce qu'un enquêteur ferait, et il croit le faire pour quelqu'un d'autre.
 
 **Ce monde a une police.** Le §9 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose un niveau technique et des institutions semblables aux nôtres : il y a des postes, des dossiers, des disparitions signalées, un comptoir où l'on vient déclarer. Rien à inventer, rien à expliquer.
 
 *Note de vocabulaire : au comptoir, il ne peut pas dire « des jumelles » — le mot n'existe pas ici. Il dispose de **une paire**, qui est un mot de registre et sonne administratif dans une conversation. Il dira donc probablement ce qu'il peut : deux filles qui se ressemblent, exactement. Et ça n'aide pas à se faire prendre au sérieux.*
+
+*Corollaire sur les prénoms : s'il donne « Chrissy » et « Tania » au comptoir, il donne deux mots qui ne renvoient à personne dans aucun fichier de ce monde. La recherche revient vide **deux fois** — sur les faits et sur les noms —, et il n'a aucun moyen de savoir laquelle des deux réponses compte. À manier avec la même prudence que le reste : voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.3.*
 
 ### 5.2 Ils n'ont rien
 
@@ -259,9 +267,11 @@ Le poste de police **devient le mouvement 13**, et c'est lui qui déclenche. Il 
 
 **Un chapitre à part, en flash-back : sa propre naissance dans ce monde-ci.**
 
-Les veilleurs de l'époque ont regroupé trois arrivants pour une même cérémonie d'Éclaircie : lui et les deux jumelles. Sans que personne sache ce qui les relie — il n'y a rien à savoir, c'est simplement le même jour, la même zone de travées, et un service qui optimise.
+Les veilleurs de l'époque ont regroupé trois arrivants pour une même cérémonie d'Éclaircie : lui et la paire. Sans que personne sache ce qui les relie — il n'y a rien à savoir, c'est simplement le même jour, la même zone de travées, et un service qui optimise.
 
 L'assemblée s'émerveille devant les deux arrivantes identiques : un cadeau de la nature. Quelqu'un dit n'avoir jamais vu ça. Un autre dit en avoir vu une fois, il y a des années.
+
+*Personne n'a de prénom dans cette salle : trois arrivants sortis depuis quelques minutes, à qui on n'a encore rien donné. C'est le seul chapitre du livre où l'absence de noms n'est pas une contrainte d'écriture mais un fait de la scène.*
 
 **Ce qui rend la scène écrivable :** lui est vide. Il vient de sortir, il ne comprend rien, il n'a même pas les mots pour nommer ce qu'il voit. Le narrateur ne peut donc rien dire de plus que des formes, du bruit et de la lumière. Le lecteur, lui, a tout : il sait qui sont les deux filles, il sait qui est l'homme entre elles, et il est le seul dans la salle à savoir.
 
@@ -285,6 +295,8 @@ Détail complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), s
 
 *Règle de vocabulaire : **« jumelles » reste juste pour la vie d'avant** — elles en sont — donc dans le titre de ce document, dans le §12 du dossier maître et dans les chapitres de reliquat. **« Une paire » dans toute scène de ce monde-ci.***
 
+*Et la règle vaut pour les prénoms : **Chrissy et Tania sont des prénoms de la vie d'avant.** Dans ce monde-ci, les deux arrivantes en portent d'autres, **qui ne sont pas encore choisis** — aucun n'est proposé ici, aucun ne s'invente à l'écriture. Tant qu'ils manquent, elles se disent **une paire**, ou *elles*, ou *les deux arrivantes*.*
+
 ---
 
 ## 7. La scène finale — mouvement 23
@@ -299,6 +311,8 @@ Il va s'excuser auprès d'elles, presque en fondant en larmes.
 Ce ne sont pas deux nuances du même mouvement. Le premier regarde en arrière et ne se répare pas ; le second regarde la pièce où il se trouve, et constate. Il pleure de honte et de gratitude dans la même phrase, et il ne peut expliquer ni l'une ni l'autre.
 
 **Elles ne comprennent rien.** Deux jeunes filles qui rajeunissent tranquillement, qui ne le connaissent pas, et à qui un homme d'âge mûr vient demander pardon pour un monde dont elles n'ont aucun souvenir.
+
+*Piste signalée, non tranchée — voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.3 : **Andrew connaît deux prénoms qui ne désignent plus personne ici.** S'il dit « Chrissy » dans cette scène, personne ne se retourne — ni elles, qui portent d'autres prénoms encore à trouver, ni les autres, pour qui c'est un son. La décision appartient à l'autrice.*
 
 **Et c'est ce qui le libère.** Le pardon qu'il cherchait ne pouvait venir de personne ici : ni d'elles, qui sont vides, ni de l'Archiviste, qui ne répond jamais. Il avait déjà été absous huit chapitres plus tôt, au mouvement 14, sans le savoir. La scène ne lui apprend rien qu'il puisse vérifier — elle lui retire seulement l'idée qu'il attendait quelque chose.
 
@@ -374,11 +388,13 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 
 # À trancher
 
+- [ ] **Le nom de l'enquêteur est-il prononcé dans le texte ?** Question tenue par [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2 — trois options, aucune retenue. Elle commande l'écriture de tous les fragments : rien ne s'écrit avant.
+- [ ] **Les prénoms de la paire dans ce monde-ci**, qui ne sont pas choisis. Et : Andrew prononce-t-il « Chrissy » à la scène des excuses ?
 - [ ] **La parade des fragments sans marqueur d'époque est-elle suffisante ?** La troisième personne règle l'ironie dramatique, pas l'interdit n° 2 : notre monde reste montré. Jusqu'où va-t-on dans le détail des lieux d'alors ?
 - [ ] **Combien de temps le lecteur doit-il ignorer qui est l'homme des fragments ?** Le mouvement 18 gagne à ce qu'il l'ait deviné un peu avant, pas dix chapitres avant. Où placer le premier indice recoupable ?
 - [ ] **Le poste de police est-il montré une fois ou deux ?** Une seule visite qui tourne court, ou un premier passage poli suivi d'un second où on se lasse ?
-- [ ] **Le policier de ce monde a-t-il un pendant nommé dans un fragment ?** Voir la piste facultative de l'écho — à ne pas appuyer si ça se voit.
-- [ ] **Ce qu'il demande exactement au comptoir**, et sous quel prétexte : un veilleur n'a aucun titre à enquêter sur une disparition. Dit-il d'où il tient l'histoire ?
+- [ ] **Le policier de ce monde a-t-il un pendant nommé dans un fragment ?** Voir la piste facultative de l'écho — à ne pas appuyer si ça se voit. *Attention : « nommé » ne peut pas vouloir dire porter un prénom dans le fragment, tant que la section 2 de [`deux-histoires-en-une.md`](deux-histoires-en-une.md) n'est pas tranchée.*
+- [ ] **Ce qu'il demande exactement au comptoir**, et sous quel prétexte : un veilleur n'a aucun titre à enquêter sur une disparition. Dit-il d'où il tient l'histoire ? Donne-t-il les deux prénoms de la vie d'avant ?
 - [ ] **L'aisance dans le poste** (section 5.6) : combien de gestes, et le narrateur peut-il en montrer un sans que le personnage le sente ?
 - [ ] **La faute.** Version « il a obéi puis il a repris » (recommandée), ou abandon de la faute au profit du dossier inachevé ?
 - [ ] **Pourquoi reprend-il l'affaire**, dans la version recommandée : de lui-même, ou parce qu'un élément ressort ?

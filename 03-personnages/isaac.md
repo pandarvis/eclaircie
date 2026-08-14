@@ -1,6 +1,6 @@
-# Le policier — l'ami d'Andrew
+# Isaac — l'ami d'Andrew
 
-*Personnage secondaire, **sans nom pour l'instant**. Aucun prénom n'est proposé : l'autrice n'en a pas choisi.*
+*Personnage secondaire. **Isaac** est son nom dans ce monde-ci — comme tout le monde, il en avait peut-être un autre avant, et personne ne peut le savoir.*
 *Sa fonction est structurelle : c'est lui qui rend possible la présence d'un veilleur dans une enquête criminelle.*
 
 ---
@@ -9,7 +9,7 @@
 
 | | |
 |---|---|
-| **Nom** | à trouver |
+| **Nom** | Isaac |
 | **Métier** | agent de police |
 | **Lien** | ami d'Andrew. Ils s'entendent bien et collaborent régulièrement |
 | **Particularité** | aucune. Il ne soupçonne rien, jamais |
@@ -22,7 +22,7 @@ C'est un ami d'[Andrew](andrew.md), et un collaborateur de fait.
 
 **La collaboration a une raison de métier, et elle est solide.** Andrew travaille à la ruche : il est **témoin de toutes les arrivées**, il tient les cérémonies, il note les chiffres, et il peut **consulter le registre** au besoin. Autrement dit, il dispose de la seule source qui dise qui est apparu, quand, à quel âge et à quelle travée. Pour un policier, c'est une ressource ordinaire et précieuse.
 
-Le policier fait donc appel à lui, régulièrement, pour des affaires qui n'ont rien à voir avec celle du garçon. Il apprécie son aide. **Il le sait perspicace** — un homme qui regarde, qui note, et qui remarque ce qui ne colle pas.
+Isaac fait donc appel à lui, régulièrement, pour des affaires qui n'ont rien à voir avec celle du garçon. Il apprécie son aide. **Il le sait perspicace** — un homme qui regarde, qui note, et qui remarque ce qui ne colle pas.
 
 De cette habitude naît l'amitié, et de l'amitié naît le reste.
 

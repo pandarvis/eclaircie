@@ -6,7 +6,23 @@
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
-*Le veilleur s'appelle désormais **Andrew**, la berceuse **June**. Les autres documents disent encore « le veilleur » : correction à répercuter. L'agent de police et le garçon n'ont pas de nom.*
+*Le veilleur s'appelle désormais **Andrew**, la berceuse **June**, le garçon **Eliott**. Les autres documents disent encore « le veilleur » : correction à répercuter. L'agent de police n'a pas de nom.*
+
+**Les prénoms et leur monde — règle stricte, valable dans tout le dossier :**
+
+| Prénom | Monde | Emploi |
+|---|---|---|
+| **Andrew** | ce monde-ci | le veilleur, du premier chapitre à la fin |
+| **June** | ce monde-ci | la berceuse |
+| **Eliott** | ce monde-ci | l'arrivant de dix ans |
+| **Joël** | **la vie d'avant uniquement** | le nom de l'enquêteur. Jamais dans une scène d'ici |
+| **Chrissy** et **Tania** | **la vie d'avant uniquement** | les jumelles. Ici elles forment **une paire** |
+
+- **Andrew et Joël ne se rencontrent jamais dans la même phrase**, sauf décision délibérée de l'autrice. Les mettre côte à côte, c'est écrire deux hommes.
+- **Chrissy et Tania n'existent pas dans ce monde-ci.** Les deux arrivantes identiques y portent d'autres prénoms, **qui restent à trouver** : aucun n'est proposé ici, aucun ne doit être improvisé à l'écriture. Tant qu'ils manquent, on dit **une paire**, ou *elles*.
+- Les périphrases restent justes quand elles désignent une fonction — « le veilleur », « l'enquêteur », « le garçon », « les jumelles », « la berceuse ». On ne remplace un prénom par une périphrase, ni l'inverse, que pour alléger la lecture.
+
+*Le point critique est traité à part : voir la section 2, **Le problème du nom**.*
 
 ---
 
@@ -19,7 +35,7 @@ Le lecteur croit suivre un seul homme. Il en suit deux :
 | | Qui | Où |
 |---|---|---|
 | Récit A | **Andrew**, veilleur | ce monde-ci |
-| Récit B | **l'enquêteur qu'il a été** | la vie d'avant |
+| Récit B | **l'enquêteur qu'il a été** — **Joël** en bible d'autrice | la vie d'avant |
 
 Deux temporalités qui ne communiquent pas, deux récits qui n'ont aucun point de contact, et **une seule voix pour les porter**.
 
@@ -29,11 +45,67 @@ Deux temporalités qui ne communiquent pas, deux récits qui n'ont aucun point d
 
 ---
 
-# 2. Pourquoi c'est un twist et non une entourloupe
+# 2. Le problème du nom
+
+*Le point le plus exposé de tout le dispositif. Il ne se règle pas à l'écriture : il se tranche avant.*
+
+## 2.1 Ce qui est en jeu
+
+**Si les chapitres de la vie d'avant appellent l'enquêteur Joël et les autres Andrew, le lecteur voit deux hommes dès la première page, et le procédé s'effondre.**
+
+Toute l'architecture de la section 1 repose sur une seule chose : on croit suivre un homme. Or **un prénom différent est le signal le plus fort et le plus précoce qu'un texte puisse donner.** Il ne se sème pas, il ne se nuance pas, il ne se rattrape pas — il arrive avant toute autre information et il tranche la question à la place du lecteur. Aucune quantité de ressemblances de méthode, de gestes ou de phrases ne compense un prénom qui diffère : le lecteur a compté deux hommes, et il ne les recomptera plus.
+
+**La contrainte existait déjà, pour une autre raison.** [`le-meme-jour.md`](le-meme-jour.md) §4.6 interdit le nom dans les chapitres de reliquat, au premier rang de son tableau des interdits :
+
+> *« Son nom, ou qu'on l'appelle — un nom se retient, et il en a un autre ici. »*
+
+Là, l'interdit protège **Andrew**, qui ne doit pas se reconnaître. Ici, il protège **le lecteur**, qui ne doit pas encore compter deux hommes. **Les deux contraintes convergent, et elles convergent sur le même mot.** C'est le seul endroit du dossier où deux règles indépendantes désignent exactement le même interdit — à signaler comme tel.
+
+## 2.2 Trois options, aucune retenue
+
+*Exposées pour être tranchées par l'autrice. Rien n'est recommandé.*
+
+### Option 1 — Joël n'est jamais prononcé dans le texte
+
+**Le prénom reste un nom de bible d'autrice.** Il sert à écrire, à classer, à parler du personnage entre autrice et dossier — et il ne franchit jamais la page. Les chapitres de la vie d'avant disent *l'enquêteur*, *il*, *l'homme*. Personne ne l'appelle, personne ne le nomme, aucun collègue ne s'adresse à lui par son nom.
+
+**Coût : zéro.** Le régime de la troisième personne établi par [`le-meme-jour.md`](le-meme-jour.md) §4 le permet déjà — on suit un homme de dehors, ses gestes, son dos, sa méthode. Un homme qu'on suit n'a pas besoin d'être appelé. C'est la solution qui protège le dispositif sans rien sacrifier.
+
+### Option 2 — Joël est prononcé une seule fois, très tard, comme détonateur
+
+**Quelqu'un l'appelle par son nom dans un fragment.** Un collègue au bout d'un couloir, une voix dans une pièce, une seule fois, et le plus tard possible.
+
+**Andrew, qui n'a jamais entendu ce nom, ne réagit pas.** Ce n'est pas de la retenue, ce n'est pas un refus : il n'a aucune raison de réagir. Le nom ne désigne personne dans son monde, il n'a jamais servi à l'appeler, il ne veut rien dire. **Le lecteur, lui, comprend.**
+
+À signaler : **c'est une des rares façons de faire porter une révélation par un mot unique.** Rien n'est expliqué, rien n'est montré, aucun narrateur n'intervient — un homme est appelé, il ne se retourne pas, et le livre bascule. C'est aussi une option qui se règle au chapitre près : trop tôt elle éventre le procédé, trop tard elle double la séquence de révélation, qui n'a besoin de personne.
+
+### Option 3 — Joël est nommé dès le début
+
+**Le livre change de forme.** Le lecteur sait, dès les premiers chapitres, qu'il y a deux hommes. Le suspense ne porte plus sur leur **nombre** mais sur leur **lien** : qu'est-ce que cet enquêteur a à voir avec ce veilleur, et pourquoi les lit-on ensemble ?
+
+C'est viable. Un roman se tient très bien sur cette question-là, et les faux raccords de [`faux-raccords.md`](faux-raccords.md) y deviendraient inutiles plutôt que faux — il n'y aurait plus rien à prouver à la relecture, puisque la différence serait acquise.
+
+**Mais ce n'est pas le roman que l'autrice a décrit.** La section 1 pose que les deux récits sont « délibérément donnés à lire comme une seule » histoire, et la séquence de révélation de la section 5 vaut par le dédoublement d'une scène lue comme unique. Cette option-là ne les abîme pas : elle les remplace. *Signalé sans être condamné — c'est un autre livre, pas un livre raté.*
+
+## 2.3 Remarque de méthode — la même question se pose pour les jumelles
+
+**Andrew connaît, par ses reliquats, deux prénoms qui ne désignent plus personne ici : Chrissy et Tania.**
+
+Les deux arrivantes de la paire portent d'autres prénoms dans ce monde-ci — des prénoms **qui restent à trouver**. Les anciens, eux, ne sont attachés à rien : ce sont deux mots que la vie d'avant lui a laissés, et que personne autour de lui ne peut reconnaître.
+
+**Conséquence, à la scène des excuses ([`le-meme-jour.md`](le-meme-jour.md) §7) : s'il prononce « Chrissy », personne ne se retourne.** Ni elles, qui ne l'ont jamais porté ; ni les autres, pour qui c'est un son. Il appelle deux jeunes filles par des noms qui n'existent plus, devant elles, et le vide de la salle est la seule réponse qu'il obtiendra.
+
+**C'est une piste très forte, et elle est signalée sans être tranchée.** Elle a la même mécanique que l'option 2 — un nom lancé, aucun visage qui se tourne — mais elle porte sur des personnages vides, non sur lui, ce qui n'a pas du tout le même coût. Elle est également compatible avec l'option 1 : les prénoms des jumelles peuvent être prononçables même si celui de l'enquêteur ne l'est pas, puisqu'ils ne l'identifient pas, lui.
+
+*Ce qui reste vrai dans tous les cas : aucun prénom de la paire dans ce monde-ci n'est choisi. Aucun ne doit être inventé en cours d'écriture, ni ici, ni ailleurs dans le dossier.*
+
+---
+
+# 3. Pourquoi c'est un twist et non une entourloupe
 
 *Le §14 pose la contrainte : « c'est la différence entre un twist et une entourloupe ». Le dispositif y répond deux fois, et il faut tenir les deux raisons, parce qu'elles ne protègent pas la même chose.*
 
-## 2.1 Les deux hommes se comportent réellement de la même façon
+## 3.1 Les deux hommes se comportent réellement de la même façon
 
 Ce n'est pas un tour de passe-passe narratif. Le §12 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) l'a écrit avant que le dispositif existe :
 
@@ -43,7 +115,7 @@ Andrew enquête comme l'enquêteur parce qu'**il est** l'enquêteur. Il ne l'imi
 
 C'est ce qui met le procédé hors d'atteinte du reproche. Une entourloupe se démonte en montrant ce que l'auteur a caché ; ici, il n'y a rien à démonter. Le lecteur relit et trouve la règle à sa place, appliquée sans exception. **Il a été trompé par une cohérence, pas par une omission.**
 
-## 2.2 Le §9 avait posé l'infrastructure sans le savoir
+## 3.2 Le §9 avait posé l'infrastructure sans le savoir
 
 Décision très ancienne, prise pour de simples raisons de vraisemblance :
 
@@ -57,15 +129,15 @@ Cette décision devient rétroactivement **l'infrastructure du dispositif**. Les
 
 ---
 
-# 3. La trame d'Andrew — ce monde-ci
+# 4. La trame d'Andrew — ce monde-ci
 
 1. **Le livre s'ouvre sur une cérémonie** : celle de l'arrivant de dix ans, vue du point de vue d'Andrew, veilleur. Elle pose tout le système sans un mot d'explication. **On sent tout de suite que l'enfant fabule**, comme empreint d'une terreur qu'on ne comprend pas. C'est inquiétant. On passe outre, la cérémonie se termine.
-2. **Le garçon est pris en charge par une berceuse, June.** Il fait de petits travaux d'ordre public, sans force ni difficulté — du travail adapté à un enfant de dix ans.
+2. **Eliott est pris en charge par une berceuse, June.** Il fait de petits travaux d'ordre public, sans force ni difficulté — du travail adapté à un enfant de dix ans.
 3. **Andrew s'inquiète pour lui.** Ça l'interpelle. Il revient plusieurs fois chez June prendre des nouvelles.
-4. **Un jour, June est affolée : l'enfant a disparu.** Elle a cherché partout, elle a déposé un avis à la gendarmerie.
+4. **Un jour, June est affolée : Eliott a disparu.** Elle a cherché partout, elle a déposé un avis à la gendarmerie.
 5. **Andrew s'y rend** et y retrouve un ami : un agent de police avec qui il s'entend bien. Ils collaborent régulièrement — travaillant à la ruche, Andrew est témoin de toutes les arrivées et consulte le registre au besoin. Le policier apprécie son aide, il le sait perspicace. Andrew est préoccupé par la disparition. **Travailler ensemble n'a rien d'incongru.**
 6. **L'enquête avance, stagne, les mène où elle les mène.** Une fausse piste, puis ils découvrent le lieu de séquestration.
-7. **Ils sont sur le point de trouver l'enfant.**
+7. **Ils sont sur le point de trouver Eliott.**
 
 ## Ce que cette trame règle d'un coup
 
@@ -73,13 +145,13 @@ Cette décision devient rétroactivement **l'infrastructure du dispositif**. Les
 
 La contrainte du §14 — *« la fausse piste doit être vraie »* — est donc satisfaite sans effort, et pour une raison inattendue : **la piste n'est plus fausse du tout.** Elle ne vaut plus « pour elle-même » à titre de compensation, elle est l'intrigue. La peur du lecteur pour ce gosse n'a plus besoin d'être rachetée par le retournement, puisqu'elle porte sur ce qui se passe vraiment.
 
-**Le poste de police devient un lieu habité, et non une visite.** Andrew n'y entre plus une fois, sans titre, avec une histoire qui ne vient de nulle part : il y a un ami et une raison d'y être. C'est une refonte du mouvement 13 tel que [`incidences-2026-08-13.md`](incidences-2026-08-13.md) l'établissait, et il faudra décider ce que devient l'écho *cop à cop, poste à poste* — voir la section 7.
+**Le poste de police devient un lieu habité, et non une visite.** Andrew n'y entre plus une fois, sans titre, avec une histoire qui ne vient de nulle part : il y a un ami et une raison d'y être. C'est une refonte du mouvement 13 tel que [`incidences-2026-08-13.md`](incidences-2026-08-13.md) l'établissait, et il faudra décider ce que devient l'écho *cop à cop, poste à poste* — voir « À trancher ».
 
 **Le détail gratuit du §12 s'installe sur la durée.** L'aisance d'Andrew dans un poste de police n'est plus un effet ponctuel de trois gestes : c'est un homme qu'on voit, chapitre après chapitre, être chez lui dans un bâtiment où il n'a rien à faire. Personne ne le remarque. Le lecteur, si.
 
 ---
 
-# 4. La séquence de révélation
+# 5. La séquence de révélation
 
 *C'est le centre du livre. Le dispositif entier s'y révèle, en quatre chapitres.*
 
@@ -89,11 +161,11 @@ Le veilleur arrive sur le lieu de séquestration. **L'air ambiant est lourd.** R
 
 ## Chapitre B
 
-On décrit un premier corps. Le lecteur se dit que c'est tristement celui du petit garçon.
+On décrit un premier corps. Le lecteur se dit que c'est tristement celui d'Eliott.
 
 **Mais on décrit un deuxième corps.**
 
-Et à mesure qu'on approfondit, on réalise que ce sont **deux corps féminins, identiques**. Leur mort remonte à très peu de temps : elles sont encore roses de l'afflux sanguin. La culpabilité d'être arrivé trop tard s'empare de lui.
+Et à mesure qu'on approfondit, on réalise que ce sont **deux corps féminins, identiques** — Chrissy et Tania, que le texte ne nomme évidemment pas. Leur mort remonte à très peu de temps : elles sont encore roses de l'afflux sanguin. La culpabilité d'être arrivé trop tard s'empare de lui.
 
 > **Exigence de l'autrice : cette description doit être effroyable, glaçante, prendre aux tripes.** Et il ne faut pas comprendre au départ que ce sont elles.
 
@@ -101,7 +173,7 @@ Deux conditions d'écriture en découlent, et elles se contrarient : il faut que
 
 ## Chapitre C
 
-On décrit **la même scène**. Le même lieu, la même entrée, la même lourdeur — mais l'ambiance est moins lourde dans sa finalité : le veilleur **retrouve le petit garçon vivant**. Il aperçoit le ravisseur. Fin de chapitre.
+On décrit **la même scène**. Le même lieu, la même entrée, la même lourdeur — mais l'ambiance est moins lourde dans sa finalité : le veilleur **retrouve Eliott vivant**. Il aperçoit le ravisseur. Fin de chapitre.
 
 ## Chapitre D
 
@@ -117,7 +189,7 @@ Le registre. **Deux capsules en paire**, et moins d'une heure plus tard, la sien
 
 ---
 
-# 5. Pourquoi chaque effet fonctionne
+# 6. Pourquoi chaque effet fonctionne
 
 **Le doublon de scène est le moment où les deux récits se séparent enfin.** Ils ont été lus comme un seul pendant tout le livre ; ils se dédoublent en une page, et rétroactivement le lecteur comprend qu'il a lu deux enquêtes. Le dispositif ne s'explique pas : il se dédouble sous les yeux, ce qui est la seule démonstration qui n'ait besoin de personne pour la formuler.
 
@@ -133,13 +205,13 @@ C'est la seconde chance, et elle n'est pas expliquée : elle est **jouée**. Le 
 
 ---
 
-# 6. Les deux cérémonies
+# 7. Les deux cérémonies
 
 **Décision de l'autrice : le livre contient deux descriptions de cérémonie, toutes deux du point de vue d'Andrew.**
 
 | | Laquelle | Régime |
 |---|---|---|
-| La première | celle où il accueille l'enfant de dix ans | **très analytique** — le professionnel au travail |
+| La première | celle où il accueille Eliott | **très analytique** — le professionnel au travail |
 | La seconde | **sa propre arrivée** | vue de l'accueilli — il ne comprend rien, il vient de sortir, il est vide |
 
 **L'effet : le même rite vu depuis les deux bouts.**
@@ -154,7 +226,7 @@ Dans la seconde, on lui retire tout : ni vocabulaire, ni fonction, ni compréhen
 
 ---
 
-# 7. La capsule qui n'éclaircit pas
+# 8. La capsule qui n'éclaircit pas
 
 **Décision de l'autrice : la scène doit être choquante.**
 
@@ -171,7 +243,7 @@ Le mécanisme est déjà documenté dans [`../02-univers/la-ruche.md`](../02-uni
 
 ---
 
-# 8. Le voile expliqué comme un traumatisme
+# 9. Le voile expliqué comme un traumatisme
 
 **Décision de l'autrice, à traiter comme une doctrine du monde et non comme une vérité énoncée.**
 
@@ -190,11 +262,11 @@ Ce que ça donne au livre :
 
 ---
 
-# 9. Ce qui reste à résoudre
+# 10. Ce qui reste à résoudre
 
 *Signalé, non tranché. Rien n'est écrit avant que l'autrice décide.*
 
-## 9.1 Le plan du §13 est caduc dans sa forme actuelle
+## 10.1 Le plan du §13 est caduc dans sa forme actuelle
 
 **Les vingt-quatre mouvements ne décrivent plus ce livre-ci.** Ils supposaient une enquête sur la multiplication des capsules sans éclaircie, avec le garçon en fausse piste, un mur administratif au mouvement 13 et un retournement par lecture de registre au 18. La nouvelle architecture redistribue tout : l'enlèvement devient le corps du récit, la révélation se joue en quatre chapitres consécutifs, et la lecture du registre passe **après** le pont, en confirmation.
 
@@ -207,35 +279,35 @@ Ce que ça donne au livre :
 
 *Rien n'y est faux — ce sont des décisions valides sur un plan qui a changé. À reprendre après le nouveau séquencier, pas avant.*
 
-## 9.2 Où passe le moteur du §8 ?
+## 10.2 Où passe le moteur du §8 ?
 
 Le dossier maître pose que les capsules sans éclaircie *« se multiplient depuis quelques années »* et que c'est **le moteur de l'intrigue**. Dans la nouvelle trame, le moteur est un enlèvement.
 
 **Les deux fils doivent-ils se rejoindre, ou le second devient-il une toile de fond ?** Toile de fond, le §8 garde son rôle de climat et perd son rôle de moteur ; jointure, il faut trouver ce qui relie une statistique à un ravisseur, et le risque est d'inventer une causalité que le monde n'a pas.
 
-## 9.3 Une arithmétique à reprendre
+## 10.3 Une arithmétique à reprendre
 
 L'autrice écrit qu'Andrew est **« en fonction depuis dix ans »**.
 
 Les documents existants posent dix ans **entre son arrivée et celle de la femme** — [`duree-et-calendrier.md`](duree-et-calendrier.md), année 0 / année 10 — dont une partie en tutorat, école reprise en accéléré, puis apprentissage du métier. [`incidences-2026-08-13.md`](incidences-2026-08-13.md) en tire explicitement qu'*« il n'est veilleur que depuis quelques années »* et qu'il est encore un débutant.
 
-**Dix ans de métier, ou dix ans dans ce monde ?** Le choix décale tout le calendrier — et il touche directement la section 7 : un homme en fonction depuis longtemps, qui regarde un autre nettoyer, n'est pas un débutant.
+**Dix ans de métier, ou dix ans dans ce monde ?** Le choix décale tout le calendrier — et il touche directement la section 8 : un homme en fonction depuis longtemps, qui regarde un autre nettoyer, n'est pas un débutant.
 
-## 9.4 Le garçon entre au jardin
+## 10.4 Eliott entre au jardin
 
 C'était le climax de l'acte II dans l'ancien découpage : la perte du seul témoin, qui provoquait le retournement.
 
 **Où se place-t-il maintenant qu'il est enlevé puis retrouvé vivant ?** Avant l'enlèvement, après, ou à la toute fin — un enfant sauvé qui perd les mots quelques années plus tard, et à qui plus personne ne pourra rien demander.
 
-## 9.5 L'histoire d'amour
+## 10.5 L'histoire d'amour
 
 **Mise de côté par l'autrice pour l'instant.** Elle n'est ni écartée ni contredite : elle est hors du fil conducteur.
 
 Trois points de rebranchement existent, si elle revient : la cérémonie où elle sort de la capsule, qui est déjà une scène de reconnaissance sans objet ; l'année du visage, qui est un repère privé et n'exige aucune place dans l'intrigue ; et la dernière page, qui ne dépend d'aucun mouvement. *Rien n'est proposé ici : le sujet est simplement laissé branchable.*
 
-## 9.6 Une berceuse pour un enfant de dix ans
+## 10.6 Une berceuse pour un enfant de dix ans
 
-Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux **arrivants âgés**. June accompagne un enfant de dix ans qui n'est pas encore au jardin.
+Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux **arrivants âgés**. June accompagne Eliott, dix ans, qui n'est pas encore au jardin.
 
 **L'usage de l'autrice est cohérent et mérite d'être inscrit au lexique.** Un arrivant de dix ans ne deviendra jamais adulte : il n'a donc pas besoin d'un tuteur qui lui apprenne à travailler et à tenir dans le monde. Un **berceur**, qui accompagne, est le bon métier — et la ligne de partage n'est pas l'âge courant mais **ce qui reste à faire de la vie**.
 
@@ -245,12 +317,15 @@ Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux
 
 # À trancher
 
+- [ ] **Le problème du nom (section 2) — la décision la plus urgente**, parce qu'elle commande la première page : option 1, Joël jamais prononcé ; option 2, prononcé une seule fois très tard ; option 3, nommé dès le début et le livre change de forme.
+- [ ] **Les prénoms de la paire dans ce monde-ci.** Ils restent à trouver, et rien ne s'écrit sur elles avant. Chrissy et Tania ne valent que pour la vie d'avant.
+- [ ] **« Chrissy » prononcé à la scène des excuses** ([`le-meme-jour.md`](le-meme-jour.md) §7) : piste très forte, signalée en 2.3, non tranchée.
 - [ ] Le séquencier complet de la nouvelle architecture — combien de chapitres, quelle alternance des deux récits, où tombent A, B, C, D.
 - [ ] **Le moteur du §8** : fils réunis, ou toile de fond ?
 - [ ] **Dix ans de métier ou dix ans dans ce monde ?**
-- [ ] La place du garçon au jardin.
+- [ ] La place d'Eliott au jardin.
 - [ ] La place du chapitre de sa propre cérémonie.
 - [ ] Le devenir de l'écho *cop à cop, poste à poste* : l'ami policier remplace-t-il l'inconnu lassé, ou les deux coexistent-ils ?
-- [ ] Le nom de l'agent de police et celui du garçon.
+- [ ] Le nom de l'agent de police.
 - [ ] L'entrée au lexique du berceur pour arrivants jeunes.
 - [ ] Où et combien de fois la croyance du voile-traumatisme se dit dans le livre.

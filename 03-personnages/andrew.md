@@ -1,6 +1,6 @@
 # Andrew — le veilleur
 
-*Nom tranché le 14 août 2026 : **Andrew**. Manie et honte quotidienne : toujours à trouver.*
+*Nom tranché le 14 août 2026 : **Andrew** ici, **Joël** dans la vie d'avant. Manie et honte quotidienne : toujours à trouver.*
 
 ---
 
@@ -9,6 +9,7 @@
 | | |
 |---|---|
 | **Arrivé à** | 62 ans |
+| **Nom dans la vie d'avant** | **Joël** |
 | **Vie d'avant** | enquêteur. Mort à 62 ans. |
 | **Métier** | veilleur, débutant. En poste depuis peu. Lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. |
 | **Ancienneté** | **dix ans** dans ce monde, et **52 ans** au début du roman. Arrivé vide, tout appris depuis zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans le métier. Il devient veilleur en cours de route, et n'a au début du roman **que quelques années de service** : c'est un débutant. Il est le dernier arrivé. |
@@ -18,6 +19,37 @@
 **L'écart avec elle.** Elle arrive **dix ans après lui**, à **64 ans**. Elle a donc **douze ans de plus que lui** dans cette vie-ci, alors qu'il en avait **huit de plus qu'elle** dans la précédente. L'écart n'est pas seulement inversé : il est creusé.
 
 Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md).
+
+---
+
+## Deux noms pour un homme
+
+**Tranché le 14 août 2026 : dans la vie d'avant, il s'appelait Joël.** Ce qui suit n'est pas une question de fiche, c'est une question de dispositif — et elle n'est pas tranchée.
+
+### Pourquoi c'est un problème et pas un détail
+
+[`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) pose l'architecture du roman : **deux histoires données à lire comme une seule.** Tout le livre tient à ce que le lecteur ne sache pas d'emblée combien d'hommes il suit. [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) le dit dans les mêmes termes : la révélation du mouvement 18 ne porte pas sur le mécanisme du monde mais sur une identité — *l'homme que tu suis depuis le début, c'est toi.*
+
+Or un nom est le plus court chemin vers une identité. Si les chapitres de la vie d'avant appellent l'enquêteur **Joël** et que les autres appellent le veilleur **Andrew**, le lecteur voit deux hommes dès la première page, il les range dans deux cases, et il ne les en sortira plus. **Le procédé s'effondre avant d'avoir commencé** : il ne reste plus qu'un roman à deux fils qui finissent par se rejoindre, ce qui se voit venir de très loin.
+
+**L'interdiction existe déjà**, et elle est explicite : la section 4.6 de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) range **« son nom, ou qu'on l'appelle »** en tête du tableau de ce qui est proscrit dans les fragments de reliquat — *« un nom se retient, et il en a un autre ici — le rapprochement se ferait tout seul »*. Le nom de Joël ne change donc rien à la règle : il lui donne seulement un contenu. Ce qui était une précaution abstraite devient un mot précis qu'il faut décider de dire ou de taire.
+
+### Les trois options
+
+*Exposées, aucune retenue. La décision appartient à l'autrice.*
+
+**1. Joël n'est jamais prononcé dans le texte.** C'est un nom de bible d'autrice, comme le barème du décompte ou le lien avec notre monde : il sert à écrire juste, il ne se lit nulle part. Les chapitres de la vie d'avant disent *l'enquêteur*, *il*, *l'homme*. La contrainte de la section 4.6 reste appliquée telle quelle jusqu'à la dernière page.
+*Ce que ça rapporte :* le dispositif est intact, sans effort et sans réglage. *Ce que ça coûte :* un homme qu'on suit pendant tout un livre sans jamais l'appeler, et il faut que la troisième personne tienne cette absence sans qu'elle se remarque — un texte qui évite un nom finit par avoir l'air de l'éviter.
+
+**2. Joël est prononcé une seule fois, très tard, comme détonateur.** Quelqu'un l'appelle dans un fragment — une voix dans un couloir, un collègue, une phrase de rien. Andrew, qui n'a jamais entendu ce nom de sa vie d'ici, ne réagit pas. **Le lecteur, si.**
+*Ce que ça rapporte :* le nom cesse d'être un risque et devient l'arme ; c'est exactement le régime de la réplique du mouvement 13 — quelque chose qui porte pour le lecteur et pas pour le personnage. *Ce que ça coûte :* le placement devient critique. Trop tôt, il donne le retournement du 18 ; trop tard, il fait doublon avec lui. Et il faut que la scène ne souligne rien du tout, sous peine de transformer un détonateur en explication.
+
+**3. Joël est nommé dès le début.** Le livre change alors de forme. Le lecteur sait qu'il y a deux hommes, et le suspense ne porte plus sur leur nombre mais sur **leur lien** : qu'est-ce qui relie ce veilleur à cet enquêteur mort dans un monde dont personne ici n'a idée ?
+*Ce que ça rapporte :* une lecture plus lisible, une ironie dramatique franche et tenue de bout en bout, à la manière du registre *Goblin* déjà cité au §3 du dossier maître. *Ce que ça coûte :* le mouvement 18 n'est plus un recouvrement, c'est une confirmation. **C'est un autre roman — viable, mais ce n'est pas celui que l'autrice a décrit.**
+
+### Le point commun aux trois
+
+Quelle que soit l'option, **le nom n'est jamais un savoir de personnage.** Andrew ne peut pas apprendre qu'il s'est appelé Joël : il est sorti vide, et rien dans ce monde ne conserve un nom d'avant. Même au mouvement 18, ce qu'il lit sur la ligne de registre est **son nom d'arrivant**, pas l'autre. Le nom d'avant n'existe que pour le lecteur, ou pas du tout.
 
 ---
 
@@ -198,6 +230,7 @@ Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, *
 
 ## Reste à trouver
 
+- [ ] **Le sort du nom « Joël » dans le texte.** Jamais prononcé, prononcé une fois très tard, ou nommé dès le début. Voir « Deux noms pour un homme » ci-dessus : ce n'est pas une question de fiche, c'est le dispositif du livre.
 - [ ] **Sa manie.** Piste : il compte. N'importe quoi — les marches, les travées, les secondes entre deux choses. Personne n'y voit rien, c'est un tic de vieux. La place est libre depuis que l'image du compte à rebours est écartée : la manie n'entre plus en concurrence avec rien.
 - [ ] **Sa honte quotidienne.** Piste : il ne se souvient plus des cérémonies. Il en a tenu des milliers, il note les chiffres et les oublie en sortant. Un homme dont le métier est de garder trace, et qui ne retient rien. À rapprocher de sa faute : il a déjà cessé de chercher une fois.
 - [ ] **Une piste ouverte par la faute** : une manie de non-arrêt. Il finit ce qu'il commence, même quand ça n'a plus d'objet — il relit une travée déjà relue, il rentre trois heures après tout le monde. Personne n'y voit qu'un excès de conscience professionnelle. Ce serait le même défaut que celui qui l'a tué, réduit à l'échelle d'une journée de travail. *Non tranché, à ne retenir que si ça ne se voit pas.*

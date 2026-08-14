@@ -182,6 +182,43 @@ Vaut pour la narration comme pour les dialogues. Voir [`les-ages-croises.md`](le
 
 ---
 
+## Qui nomme un arrivant
+
+**Question ouverte. Elle n'est pas tranchée, et elle ne doit pas l'être ici.**
+
+Un arrivant sort **vide** (§4 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)) : il ne sait rien, ne parle pas, ne se connaît pas. Il n'a donc pas de nom — et il ne peut pas s'en donner un, puisqu'il n'a ni langue ni idée de lui-même. **Quelqu'un le nomme donc**, et le dossier n'a jamais dit qui.
+
+La question était théorique tant que les personnages n'avaient pas de prénom. Elle est devenue concrète : Andrew, June, Eliott portent des noms que quelqu'un, dans ce monde, leur a donnés un jour.
+
+### Deux pistes, exposées sans choisir
+
+**1. Le veilleur qui reçoit**, au moment de l'inscription au registre. Le nom serait alors **un acte d'archive**, posé dans le même mouvement que la travée, la date d'ouverture et l'âge relevé à l'instrument. Une ligne de plus sur un document ennuyeux.
+*Ce que ça rapporte :* c'est froid, administratif, et parfaitement cohérent avec un Archiviste qui classe et ne console pas. Le motif du registre s'en trouve renforcé — le même geste de métier qui transforme un moment en donnée donne aussi un nom, et personne ne s'arrête dessus. Cela ajoute aussi à la ligne du mouvement 18 : le nom d'arrivant y figure parce que c'est là qu'il a été écrit pour la première fois.
+*Ce que ça coûte :* les noms deviennent interchangeables, et il faut assumer un monde où l'on est nommé par un employé qui en nommera trois autres avant midi. Séduisant, mais ça retire à la scène toute chaleur — et il faudra veiller à ce que cela ne fasse pas glisser la ruche vers l'administration pure, ce que le document se garde de faire partout ailleurs.
+
+**2. Celui qui prend l'arrivant en charge** — le tuteur, ou le berceur. Le nom serait alors **un acte de soin**, posé par la personne qui va passer des années avec lui. Ce serait donc June qui a nommé Eliott, et quelqu'un, il y a longtemps, qui a nommé Andrew.
+*Ce que ça rapporte :* un lien de plus, et il est gratuit — June n'a pas seulement la charge d'Eliott, elle lui a donné son nom, et elle le cherche partout au moment où elle le perd. Voir [`../03-personnages/june.md`](../03-personnages/june.md) et [`../03-personnages/eliott.md`](../03-personnages/eliott.md). Cela donne aussi au métier de berceur une profondeur qu'aucune scène n'aurait à expliquer.
+*Ce que ça coûte :* le registre perd la main sur le nom, donc une part de son emprise ; et il faut décider ce qui se passe entre la sortie de capsule et la prise en charge — un arrivant reste-t-il sans nom quelques jours, et la ligne de registre est-elle alors complétée après coup ?
+
+*Les deux tiennent, et rien n'oblige à les départager pour écrire : c'est le genre de fait qu'un monde n'explique jamais à ses habitants.*
+
+### La conséquence, et elle est commune aux deux
+
+Quelle que soit la réponse, une chose est acquise et elle vaut pour tout le livre :
+
+> **Personne, dans ce monde, ne porte le nom qu'il avait avant. Et personne ne peut le savoir.**
+
+Un nom d'ici est toujours un nom neuf, donné par un vivant à un corps qui vient de sortir. Rien ne traverse : ni le nom, ni ce qui allait avec.
+
+Le roman s'en sert deux fois, à deux endroits qu'il ne faut pas confondre :
+
+- **Andrew s'appelait Joël**, et il ne l'apprendra jamais. Ce que la ligne de registre lui rend au mouvement 18, c'est son nom d'arrivant, pas l'autre. Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md), section « Deux noms pour un homme ».
+- **Les deux filles de son affaire ne s'appellent plus Chrissy et Tania.** Il connaît deux prénoms qui ne désignent plus personne, et rien ne l'avertit. Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+
+*Comme le reste de ce document : un fonctionnement observé, jamais expliqué. Aucun personnage ne trouve remarquable qu'on l'ait nommé, pas plus qu'on ne s'étonne d'avoir un prénom chez nous.*
+
+---
+
 ## Le corps de métier
 
 **Décision de l'autrice.** Un veilleur ne travaille pas seul : il appartient à un service, avec une hiérarchie, une ancienneté et un tour de rôle.
@@ -243,6 +280,7 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **La correspondance des lieux.** Est-elle assez régulière pour qu'un veilleur l'ait remarquée sans pouvoir la nommer, ou reste-t-elle entièrement hors champ ?
 - [ ] **Qui consulte le registre en dehors des veilleurs ?** L'administration du mouvement 3 en tire des statistiques : par quel canal ?
 - [ ] **La taille de la ruche.** Combien de travées, combien de veilleurs — c'est-à-dire : le protagoniste travaille-t-il seul, ou dans une équipe qui le voit faire ?
+- [ ] **Qui nomme un arrivant ?** Le veilleur qui l'inscrit au registre, ou celui qui le prend en charge. Voir la section correspondante : les deux pistes sont exposées, aucune n'est retenue.
 
 *Réglé : jusqu'où remontent les registres, et depuis combien de temps ça dure — non, et personne ne sait. Voir la section correspondante.*
 

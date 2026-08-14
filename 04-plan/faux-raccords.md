@@ -6,6 +6,8 @@
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
+*Prénoms : **Andrew** pour ce monde-ci, **Joël** pour l'enquêteur de la vie d'avant — et dans ce document on écrit « l'enquêteur », parce que c'est une fonction et que le nom, lui, n'est pas un faux raccord. Voir la section 3.6, et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.*
+
 ---
 
 # 1. Le principe directeur
@@ -100,6 +102,22 @@ L'arbitrage se fait entre deux échecs symétriques :
 
 Le chiffre exact reste à l'autrice — la logique ci-dessus tient à trois comme à quatre.
 
+## 3.6 Le contre-exemple — le prénom
+
+*À lire comme la limite du dispositif : c'est le seul détail qui, à lui seul, révélerait tout.*
+
+**L'enquêteur s'appelle Joël, Andrew s'appelle Andrew — et ce n'est pas un faux raccord.** C'est la tentation évidente, puisqu'un nom différent dit exactement ce que le dispositif veut dire : deux hommes. Il faut donc écrire noir sur blanc pourquoi il en tombe **hors**.
+
+**Il viole la règle 3.2 avant toutes les autres.** Un faux raccord doit être parfaitement anodin pris isolément — un poignet qui se lève, une peau sans marque, un papier tenu à bout de bras. **Un prénom ne l'est jamais.** Il ne se lit pas comme un détail, il se lit comme une identité : c'est sa fonction unique dans une langue. Le lecteur ne le range pas au fond de sa mémoire pour l'y retrouver deux cents pages plus tard — il s'en sert immédiatement pour compter les personnages, et il compte juste.
+
+**Il viole aussi 3.3 et 3.4.** Un nom n'est pas un fait de corps, c'est ce que les autres font de vous ; et il est impossible de l'espacer, puisqu'il revient à chaque fois qu'on parle de l'homme.
+
+> **La formule à retenir : ce qui identifie ne se sème pas, ce qui différencie se sème.**
+
+La cicatrice, la main, la vue, la taille **différencient** — elles disent qu'il y a deux corps, sans dire qui ils sont. Le prénom **identifie** — il attribue, il sépare, il nomme, et il fait le travail du lecteur à sa place, au premier chapitre au lieu du dernier.
+
+*Ce qui suit du reste : le nom n'est pas un problème de dosage, il ne se règle pas dans ce document. Il se tranche en amont, comme forme du livre — trois options exposées dans [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2, aucune retenue à ce jour. Rien ne se sème avant que ce soit fait, puisque le choix de l'option 3 rendrait la moitié de ce document inutile.*
+
 ---
 
 # 4. Réserve de pistes
@@ -142,9 +160,10 @@ Ce que ça donne : le lecteur reçoit l'indice, le protagoniste ne reçoit aucun
 
 # À trancher
 
+- [ ] **Rien ne se sème avant que le nom soit tranché** ([`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2). L'option 3 — l'enquêteur nommé dès le début — rendrait les faux raccords sans objet : il n'y aurait plus rien à prouver à la relecture. Les deux autres options les rendent nécessaires.
 - [ ] **Le dosage exact** : trois paires ou quatre ?
 - [ ] **Quelles paires sont retenues.** La main et la cicatrice sont acquises si l'autrice les confirme ; laquelle ou lesquelles prendre dans la réserve de la section 4.1 ?
 - [ ] **Où placer la dernière paire.** Combien de chapitres avant la séquence de révélation, et faut-il qu'elle tombe avant ou après le doublon de scène ?
 - [ ] **Le lecteur doit-il pouvoir reconstruire dès la première lecture, ou seulement à la seconde ?** C'est la question de fond : elle commande le dosage, l'écartement des paires et le degré de discrétion de chaque plantation.
 - [ ] **La parade du miroir** : suffisante, ou la cicatrice se plante-t-elle hors de toute scène de rasage ?
-- [ ] **Faut-il inscrire les paires au séquencier** dès sa reconstruction ([`deux-histoires-en-une.md`](deux-histoires-en-une.md) §9.1), ou les semer après coup une fois les chapitres écrits ?
+- [ ] **Faut-il inscrire les paires au séquencier** dès sa reconstruction ([`deux-histoires-en-une.md`](deux-histoires-en-une.md) §10.1), ou les semer après coup une fois les chapitres écrits ?

@@ -20,7 +20,7 @@ Tout le reste en découle. Il reste à la racine exprès : on ne le cherche pas.
 |---|---|
 | `01-dossier/` | Annexes et développements du dossier maître — notes de doctrine, arbitrages, versions de travail d'une section |
 | `02-univers/` | Le système : barème du décompte, chronologie du monde, lexique, institutions, géographie, ce que croient les veilleurs |
-| `03-personnages/` | Une fiche par personnage. Le veilleur, elle, le garçon, les jumelles, les seconds rôles |
+| `03-personnages/` | Une fiche par personnage. Andrew, elle, Eliott, la paire, les seconds rôles |
 | `04-plan/` | Le plan et ses états successifs : séquencier, découpage en chapitres, arcs par personnage |
 | `05-manuscrit/chapitres/` | Le texte. Un fichier par chapitre |
 | `06-visuels/` | Tout ce qui se regarde : frises, schémas, cartes, moodboards |
@@ -36,17 +36,18 @@ Tout le reste en découle. Il reste à la racine exprès : on ne le cherche pas.
 - **[`notes-en-vrac-2026-08-13.md`](01-dossier/notes-en-vrac-2026-08-13.md)** — dépôt brut d'une session d'idées, avec le statut de chacune et où elle a été développée.
 
 ### `02-univers/`
-- **[`la-ruche.md`](02-univers/la-ruche.md)** — comment ça marche : l'Archiviste, la maturation, l'éclaircie, les travées, l'instrument qui mesure l'âge.
+- **[`la-ruche.md`](02-univers/la-ruche.md)** — comment ça marche : l'Archiviste, la maturation, l'éclaircie, les travées, l'instrument qui mesure l'âge, la paire, et la question ouverte de qui nomme un arrivant.
 - **[`la-terre.md`](02-univers/la-terre.md)** — le monde est la Terre. Ce qui est identique, ce qui a été réécrit, et comment le montrer sans le dire.
 - **[`ce-qui-est-juge.md`](02-univers/ce-qui-est-juge.md)** — ce qui est jugé, c'est la vie, pas la mort. Le barème du verdict.
 - **[`les-ages-croises.md`](02-univers/les-ages-croises.md)** — le décompte du couple d'un monde à l'autre, et la règle des retrouvailles.
 - **[`la-jalousie.md`](02-univers/la-jalousie.md)** — le mécontentement ordinaire, la violence, l'insécurité. Développement du §9.5.
 
 ### `03-personnages/`
-- **[`andrew.md`](03-personnages/andrew.md)** — le protagoniste, veilleur débutant : sa mort, sa faute, la réplique, ce qui reste à trouver.
-- **[`june.md`](03-personnages/june.md)** — berceuse. Elle a la charge du garçon, et c'est elle qui déclenche l'enquête.
-- **[`le-garcon.md`](03-personnages/le-garcon.md)** — arrivé à dix ans, second voilé du livre. Il est enlevé, il sera retrouvé vivant.
-- **[`le-policier.md`](03-personnages/le-policier.md)** — l'ami d'Andrew. Il rend naturelle la présence d'un veilleur dans une enquête.
+- **[`andrew.md`](03-personnages/andrew.md)** — le protagoniste, veilleur débutant. **Joël** dans la vie d'avant : sa mort, sa faute, la réplique, et ce que ce second nom fait au dispositif du livre.
+- **[`june.md`](03-personnages/june.md)** — berceuse, **la berceuse d'Eliott**. C'est elle qui déclenche l'enquête.
+- **[`eliott.md`](03-personnages/eliott.md)** — arrivé à dix ans, second voilé du livre. Il est enlevé, il sera retrouvé vivant.
+- **[`chrissy-et-tania.md`](03-personnages/chrissy-et-tania.md)** — les jumelles de la vie d'avant, **une paire** dans celle-ci. Elles ne portent plus ces noms-là, et personne ne peut le leur dire.
+- **[`isaac.md`](03-personnages/isaac.md)** — l'agent de police, ami d'Andrew. Il rend naturelle la présence d'un veilleur dans une enquête.
 - **[`la-mere-et-l-enfant.md`](03-personnages/la-mere-et-l-enfant.md)** — deux arrivants liés par une seule mort. Le cas témoin qui apprend à lire un registre.
 
 ### `04-plan/`
