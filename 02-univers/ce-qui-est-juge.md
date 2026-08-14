@@ -89,15 +89,15 @@ C'est ce qui remplace l'ancienne formulation, et c'est meilleur pour quatre rais
 
 Il n'y a pas de barème : **plus quelqu'un a été meurtri, plus le jardin est long**, et le rapport exact n'est jamais chiffré.
 
-En revanche, le supplément reçoit désormais une borne. Voir ci-dessous, « Les deux planchers et le plafond ».
+Et il n'y a pas non plus de borne publiée. Voir ci-dessous, « Le plancher, et l'invisibilité de la grâce ».
 
-### 2 bis. Les deux planchers et le plafond
+### 2 bis. Le plancher, et l'invisibilité de la grâce
 
-> **Propositions à valider par l'autrice, 15 août 2026. Rien n'est acquis.**
+> **Règles arrêtées par l'autrice, 15 août 2026.**
 >
-> Elles répondent ensemble à une objection posée en ces termes : *un enfant arrivé à cinq ans n'en vit que vingt-cinq, c'est dur ; il faudrait allonger un peu, sans nourrir pour autant les dérives par jalousie.* Les deux exigences ne sont contradictoires qu'en apparence : la première se règle par un plancher, la seconde par un plafond.
+> Elles répondent ensemble à une objection posée en ces termes : *un arrivant au plancher n'en vit que vingt-cinq ans, c'est dur ; il faudrait allonger un peu, sans nourrir pour autant les dérives par jalousie.* Les deux exigences ne sont contradictoires qu'en apparence : la première se règle par un plancher, la seconde **non par un plafond, mais par l'absence de tout chiffre consultable.**
 
-**Règle A — personne ne vit moins de trente ans.**
+**Règle A — personne ne vit moins de trente ans. Acquis.**
 
 Le système gagne un second plancher, symétrique du premier :
 
@@ -108,23 +108,31 @@ Le système gagne un second plancher, symétrique du premier :
 
 Conséquence : **qui arrive à cinq ans dispose de trente ans, comme qui arrive à dix.** Ce qui les sépare n'est plus une différence de quantité mais de nature — le premier passe ses trente années *entières* au jardin, le second en passe quinze à descendre l'escalier avant d'y entrer.
 
+*Une arrivée à cinq ans est ici **un cas limite du système**, celui qui illustre le plancher. Ce n'est pas un personnage du roman.*
+
 > **La qualité change, la quantité non.**
 
 C'est cohérent avec tout ce qui précède : le système ne déplace que du temps et de la qualité de temps, et il vient de cesser d'en retirer à ceux qui en ont le moins.
 
 *Correction en attente sur le dossier maître : le tableau du §7 porte « ~25 ans » pour une arrivée à cinq ans, et la ligne des conséquences dit « vingt-cinq ans d'insouciance intégrale ». Sous la règle A, c'est trente aux deux endroits. Signalé ici, non appliqué — voir la liste des corrections en attente.*
 
-**Règle B — la grâce allonge le jardin, mais elle ne fait jamais passer devant.**
+**Règle B — la grâce ne se voit pas.**
 
-Le supplément s'ajoute au jardin ordinaire du meurtri **sans jamais porter sa durée de vie totale au-delà de celle d'un grand chiffre.** Chrissy et Tania peuvent atteindre une soixantaine d'années de vie ; jamais quatre-vingt-dix.
+> **Rien ne marque un jardin allongé. Personne ne sait quelle est la durée « normale » pour un chiffre d'arrivée donné, parce que personne ne tient ce tableau.**
 
-**C'est la règle qui tient la société, et c'est pour cela qu'elle compte plus que l'autre.**
+*Cette règle remplace l'ancienne, qui promettait un plafond chiffré — « jamais quatre-vingt-dix ». Objection de l'autrice, 15 août 2026 : « on parle de 90 ans, mais il peut très bien y avoir des exceptions comme on en a chez nous avec les centenaires ; ça on peut pas vraiment l'assurer ». Elle a raison. Les âges d'arrivée n'ont pas de plafond, il y a des centenaires, et **aucune garantie chiffrée n'est tenable.** Ne jamais réécrire une borne de ce genre nulle part dans le dossier.*
 
-Le grief des jaloux, tel que [`la-jalousie.md`](la-jalousie.md) l'établit, porte sur **l'accès facile à l'âge d'innocence** — jamais sur la durée. C'est exactement ce qui le rend à la fois réel et impossible à formuler comme une injustice comptable : ils envient un chemin, et on ne met pas un chemin en colonne.
+**Le problème n'était jamais mathématique, il était social.** Il s'agissait d'empêcher que le grief des jaloux devienne un calcul. C'est cela, et cela seul, qu'il fallait obtenir.
 
-Si la grâce pouvait faire dépasser les grands chiffres en durée totale, ce grief deviendrait **vérifiable**. *« En plus, ils vivent plus longtemps. »* Un mécontentement diffus, sans objet chiffrable et sans porte-parole, se changerait en revendication chiffrée — et une revendication chiffrée trouve toujours quelqu'un pour la porter. Le tabou du §9 ne tiendrait pas une génération.
+**Or il ne peut pas le devenir — non parce que les chiffres leur donneraient tort, mais parce qu'il n'y a pas de chiffres à consulter.** Aucun barème n'est publié. Aucune durée ordinaire n'est connue. Aucun supplément n'est marqué. Un jardin long ressemble à un jardin long, et rien ne dit s'il est long parce qu'il a été allongé ou long parce que c'est ainsi.
 
-Le plafond garantit donc que **personne ne puisse jamais opposer un tableau.** La colère reste sans preuve. C'est exactement ce que le livre demande : un grief fondé, une ignorance irréductible, et aucun document capable de trancher.
+**Personne ne sait qui a reçu une grâce.** Pas de mention au registre, pas de signe sur le corps, pas de mot pour le dire. La comparaison est donc impossible **même en principe** : il n'existe aucun couple de valeurs qu'on pourrait mettre côte à côte, ni personne à qui les demander.
+
+Le grief des jaloux, tel que [`la-jalousie.md`](la-jalousie.md) l'établit, porte sur **l'accès facile à l'âge d'innocence** — jamais sur la durée. C'est ce qui le rend à la fois réel et impossible à formuler comme une injustice comptable : ils envient un chemin, et on ne met pas un chemin en colonne. La règle B garantit qu'ils n'en trouveront pas davantage du côté des durées. *« En plus, ils vivent plus longtemps »* est une phrase que personne ne peut ni prouver ni réfuter, faute de document. Un mécontentement diffus reste diffus, et le tabou du §9 tient parce qu'il n'y a rien à lui opposer.
+
+**C'est l'interdit d'écriture n° 3 du §14 appliqué à l'intérieur du monde** — *pas de barème dans le texte, si le lecteur peut calculer il arrête d'avoir peur.* Les personnages sont exactement dans la position du lecteur : ils voient des durées, ils n'ont pas la règle. C'est la même ignorance, des deux côtés de la page.
+
+**Et les exceptions existent, comme partout.** Des vies très longues, des vies courtes, des cas dont personne ne s'explique la durée. **Un monde sans exception serait une mécanique**, et celui-ci n'en est pas une. Le seul énoncé ferme est le plancher de la règle A ; au-dessus, rien n'est promis à personne.
 
 *Développement complet dans [`la-jalousie.md`](la-jalousie.md), section « Rien, dans les chiffres, ne donne raison aux jaloux ».*
 
@@ -172,7 +180,7 @@ Ce n'était qu'une formule de sermon. Avec la règle ci-dessus, c'est un tableau
 - **§11, dernière puce.** La phrase *« un pauvre ici devient riche là-bas »* est **abandonnée** : elle contredit frontalement le point 4 ci-dessus. À réécrire dans [`../L-ECLAIRCIE-dossier-complet.md`](../L-ECLAIRCIE-dossier-complet.md).
 - **§11, première puce.** *« Victime → réparation. Ce qu'on lui a arraché lui est rendu »* reste juste, et le devient même davantage. Mais **le §11 ne précise pas sous quelle forme.** À compléter : la réparation est un jardin allongé.
 - **§7.** Le tableau des durées ne dit pas non plus qu'il donne les **durées ordinaires**, ni qu'un meurtri reçoit un supplément par-dessus. À préciser au même endroit.
-- **§7, ligne « 5 ans ».** Le tableau donne **« ~25 ans »**, et la dernière puce des conséquences dit *« vingt-cinq ans d'insouciance intégrale »*. Sous la règle A ci-dessus, c'est **trente** aux deux endroits. Correction en attente, à appliquer seulement si l'autrice valide le plancher de durée.
+- **§7, ligne « 5 ans ».** Le tableau donne **« ~25 ans »**, et la dernière puce des conséquences dit *« vingt-cinq ans d'insouciance intégrale »*. Sous la règle A, désormais acquise, c'est **trente** aux deux endroits. Correction à appliquer.
 
 ---
 
@@ -198,19 +206,23 @@ Treize marches à descendre, à la vitesse lente des jeunes arrivants — de l'o
 
 **Le supplément n'est pas fixé ici.** Il appartient à l'autrice, et comme tout le §7, **c'est la forme qui compte, pas la décimale** : ce qui est acquis, c'est qu'elles arrivent à l'âge où on les a tuées et qu'elles restent au jardin bien plus longtemps que quiconque.
 
+*Aucune borne haute ne leur est opposée — la règle B n'en pose pas. Et rien, dans le monde, ne permet de lire leur supplément : leur jardin est simplement long, comme d'autres jardins sont longs sans qu'on sache pourquoi.*
+
 Ce que ça donne, et qui n'était pas atteignable avec l'ancienne règle : **elles arrivent avec le corps qu'elles avaient à l'heure de la planque.** C'est ce corps-là, exactement, qui sort de la capsule devant une salle qui s'émerveille — et c'est ce corps-là que la descente va défaire lentement, pendant trente ans, avant de le déposer dans un jardin qui ne finit pas. Fiche : [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
 
 *Cette fiche est à mettre à jour : elle porte encore l'ancienne règle et laisse leur âge d'arrivée ouvert. Il ne l'est plus.*
 
-### L'enfant arrivé à cinq ans — inchangé, et améliorable
+### Une arrivée à cinq ans — cas limite du système, et non un personnage
 
-Mort avant cinq ans, donc arrivé au plancher : aucune marche à descendre, **toute sa vie est un jardin.** Le nouveau système ne change rien à son cas, et confirme la phrase du §7 — c'est la grâce maximale que le système sache accorder.
+> **Ce n'est le dossier de personne.** L'arrivant au plancher sert à illustrer la règle A et rien d'autre ; aucun rôle du roman ne lui correspond, et l'autrice n'a pas d'enfant de cet âge à son casting. À lire comme une ligne de démonstration.
+
+Mort avant cinq ans, donc arrivé au plancher : aucune marche à descendre, **toute sa vie est un jardin.** Le nouveau système ne change rien à ce cas, et confirme la phrase du §7 — c'est la grâce maximale que le système sache accorder.
 
 À deux nuances près, et elles sont nouvelles.
 
-**La grâce peut désormais l'allonger encore.** L'ancienne règle butait sur le plancher du corps et n'avait plus rien à lui donner.
+**La grâce peut désormais allonger ce jardin encore.** L'ancienne règle butait sur le plancher du corps et n'avait plus rien à donner.
 
-**Sous la règle A, il ne vit plus vingt-cinq ans mais trente** — autant que l'arrivant à dix ans, et il les passe tous au jardin quand l'autre en passe quinze dans l'escalier. C'est ce qui rend la phrase du §7 exacte au lieu d'approximative : la grâce maximale ne peut pas être, en même temps, la vie la plus courte du monde.
+**Sous la règle A, un arrivant au plancher ne vit plus vingt-cinq ans mais trente** — autant qu'une arrivée à dix ans, et il les passe tous au jardin quand l'autre en passe quinze dans l'escalier. C'est ce qui rend la phrase du §7 exacte au lieu d'approximative : la grâce maximale ne peut pas être, en même temps, la vie la plus courte du monde.
 
 ---
 
@@ -222,7 +234,7 @@ Rappel de l'interdit d'écriture n° 3 du §14 : **pas de barème dans le texte.
 
 La simplification ne relâche pas cet interdit — elle l'aggrave. Une règle en trois lignes est une règle que le lecteur retiendrait du premier coup s'il l'entendait une fois. **Elle ne doit donc jamais être énoncée**, ni par un veilleur, ni par un sermon, ni par le narrateur. Au mieux, elle existe dans le livre comme **doctrine contestée** : ce que le culte de l'Éclaircie enseigne, ce qu'un veilleur croit et qu'un autre refuse, une phrase que personne ne sait démontrer.
 
-Ce qui reste montrable, en revanche, et qui ne dit rien du système : **on voit des gens rester très longtemps au jardin.** Le lecteur peut le remarquer. Il n'a aucun moyen d'en tirer une règle.
+Ce qui reste montrable, en revanche, et qui ne dit rien du système : **on voit des gens rester très longtemps au jardin.** Le lecteur peut le remarquer. Il n'a aucun moyen d'en tirer une règle — **et les personnages non plus**, c'est tout le sens de la règle B.
 
 Les personnages sortent vides. Aucun d'eux ne peut savoir ce qui a été jugé, ni qu'une vie a précédé. Ils voient un corps sortir d'une capsule et ils en pensent quelque chose. C'est tout ce que le livre montre.
 
@@ -232,8 +244,10 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 
 ## À trancher
 
-- [ ] **Règle A — le plancher de durée à trente ans.** *Proposition à valider.* Personne ne vit moins de trente ans ; l'arrivant à cinq ans en dispose autant que l'arrivant à dix, et les passe tous au jardin. **Trente est-il le bon plancher, ou faut-il monter ?** C'est le seul point ouvert de la règle : la forme tient à n'importe quel chiffre, mais au-delà de trente-cinq il faudrait relever aussi les arrivants à dix ans, et le calendrier du livre en dépend — voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
-- [ ] **Règle B — le plafond de la grâce.** *Proposition à valider.* Le jardin allongé ne porte jamais la durée de vie totale au-delà de celle d'un grand chiffre. Reste à dire si le plafond est **un chiffre net** ou **une borne floue** que l'autrice tient sans jamais l'écrire.
-- [ ] **La longueur du jardin de Chrissy et Tania.** Combien d'années au-delà de l'ordinaire. La forme est acquise, le chiffre non. La règle B en fixe le haut ; le bas reste ouvert.
-- [ ] **Le jardin allongé se voit-il de l'extérieur ?** Un arrivant qui reste trente ans au jardin quand les autres y restent douze est un fait observable par un veilleur attentif. Est-ce une piste d'enquête ou un angle mort du monde ?
+- [ ] **La longueur du jardin de Chrissy et Tania.** Combien d'années au-delà de l'ordinaire. La forme est acquise, le chiffre non — et il n'a plus de borne haute à respecter, seulement le goût de l'autrice.
+- [ ] **Un veilleur peut-il soupçonner une grâce ?** La règle B interdit qu'il la lise ; elle n'interdit pas qu'il ait une intuition invérifiable. À décider : piste d'enquête, ou angle mort complet du monde ?
+- [ ] **Les exceptions de durée, quel usage dans le texte ?** Des vies très longues et des vies courtes que rien n'explique. Faut-il en montrer une, ou laisser cela hors champ ?
+- [x] ~~**Règle A — le plancher de durée à trente ans.**~~ — **acquis, 15 août 2026.** Personne ne vit moins de trente ans. Une arrivée à cinq ans en dispose autant qu'une arrivée à dix, et les passe toutes au jardin. Le chiffre est arrêté, il ne monte pas.
+- [x] ~~**Règle B — le plafond de la grâce.**~~ — **abandonné, 15 août 2026**, et remplacé. Aucune garantie chiffrée n'est tenable : les âges d'arrivée n'ont pas de plafond et il y a des centenaires. La règle est désormais que **la grâce ne se voit pas** — pas de barème, pas de durée ordinaire connue, pas de marque. Le grief ne peut pas devenir un calcul faute de chiffres, pas faute de raison.
 - [x] ~~**L'attribution du chiffre d'arrivée.**~~ — **close, 15 août 2026.** Il n'y a plus d'attribution : l'âge d'arrivée est l'âge de mort.
+- [x] ~~**Le sort de l'arrivant à cinq ans comme personnage.**~~ — **clos, 15 août 2026.** Ce n'en est pas un. C'est un exemple du système, le cas limite qui illustre le plancher. Voir aussi [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md), hors casting.

@@ -6,7 +6,7 @@
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
-*Prénoms — règle stricte, détaillée dans [`deux-histoires-en-une.md`](deux-histoires-en-une.md) : **Joël** n'appartient qu'à la vie d'avant ; **Andrew**, **June**, **Eliott**, **Isaac**, **Chrissy** et **Tania** appartiennent à ce monde-ci. **Chrissy et Tania sont les noms d'éclaircie de la paire** — ceux qu'elles ont reçus en arrivant. **Leurs noms de la vie d'avant ne sont jamais donnés**, à personne, nulle part : ce n'est pas une lacune du dossier, c'est une décision, et il n'y a rien à trouver. Et voir la section 2 du même document : **la question du nom est réglée depuis le 14 août 2026.** L'enquêteur n'est jamais nommé, dans aucun fragment, par personne — **sauf une seule fois, à la poursuite finale**, où son partenaire lui crie *« Joël, non, attends ! »* dans le dos. C'est l'unique occurrence d'un nom dans tous les chapitres de la vie d'avant ; partout ailleurs on écrit *l'enquêteur*, *il*, *l'homme*, *les deux filles*.*
+*Prénoms — règle stricte, détaillée dans [`deux-histoires-en-une.md`](deux-histoires-en-une.md) : **Joël** n'appartient qu'à la vie d'avant ; **Andrew**, **June**, **Eliott**, **Isaac**, **Chrissy** et **Tania** appartiennent à ce monde-ci. **Chrissy et Tania sont les noms d'éclaircie de la paire** — ceux qu'elles ont reçus en arrivant. **Leurs noms de la vie d'avant ne sont jamais donnés**, à personne, nulle part : ce n'est pas une lacune du dossier, c'est une décision, et il n'y a rien à trouver. Et voir la section 2 du même document : **la question du nom est réglée depuis le 14 août 2026.** L'enquêteur n'est jamais nommé, dans aucun fragment, par personne — **sauf une seule fois, à la poursuite finale**, où son partenaire lui crie *« Joël, non, attends ! »* dans le dos. C'est l'unique occurrence d'un nom dans tous les chapitres de la vie d'avant ; partout ailleurs on écrit *l'enquêteur*, *il*, *l'homme*, *les deux filles*. **Et le collègue qui crie s'appelle Liam — nom de bible personnelle, jamais écrit dans le roman** : dans le texte il reste *son collègue*, *son partenaire*. Section 1.*
 
 ---
 
@@ -46,6 +46,16 @@ Ce que la réplique règle d'un coup, développé en [`deux-histoires-en-une.md`
 - **Andrew, qui regarde la scène de l'extérieur, ne réagit pas.** Ce nom ne désigne personne dans son monde. Le lecteur, lui, referme tout le livre d'un coup — c'est le sommet du procédé de la troisième personne du §4, et il tombe dans la même page que l'autre sommet, celui où Andrew regarde sa propre mort sans se reconnaître.
 
 *Précision de mise en scène qui en découle : il faut quelqu'un d'assez près pour crier dans son dos à l'instant où il part. C'est cohérent avec le déroulé — il laisse ses collègues sur place, donc ils y sont, et il part de leur côté. **Un partenaire, pas un supérieur** : on ne crie pas un prénom à quelqu'un qu'on vouvoie, et un ordre hiérarchique ferait de la scène une désobéissance, ce qu'elle n'est pas — c'est un homme qui n'entend plus personne.*
+
+#### Ce collègue s'appelle Liam — et ça ne se lit jamais
+
+> **Précision de l'autrice, 15 août 2026.** Le collègue de Joël, celui qui crie *« Joël, non, attends ! »*, s'appelle **Liam**. **C'est un nom de bible personnelle : il ne sortira nulle part dans le roman.**
+
+**Le mot *Liam* n'est écrit dans aucune page du livre.** Dans le texte, cet homme reste *son collègue*, *son partenaire*, *l'un d'eux* — jamais autre chose. Le nom sert uniquement à l'autrice pour savoir de qui elle parle en écrivant la scène.
+
+**Il ne crée donc aucune exception au §4.6.** La règle est intacte, mot pour mot : le seul nom prononcé dans toute la vie d'avant est *Joël*, une fois, à cette page-ci. Le nom qui compte dans cette réplique n'est pas celui de qui parle.
+
+*La liste complète des personnages, pour mémoire. **Ce monde-ci : Andrew, Chrissy, Tania, Eliott, Isaac, June.** **La vie d'avant : Joël, les jumelles, Liam.** Sur les trois de la vie d'avant, un seul se lit dans le roman, et une seule fois ; les deux filles n'ont aucun nom d'alors, et Liam n'en a que dans la bible.*
 
 ---
 
@@ -519,5 +529,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **De combien les jumelles descendent-elles ?** Le chiffre exact, jamais dans le texte, mais nécessaire à l'autrice. **Borne basse désormais fixée : huit ans**, puisque ce sont elles qui ont produit leurs noms. Section 2.
 - [ ] **Où placer le chapitre de la cérémonie groupée** dans le livre : avant le mouvement 15, entre 17 et 18, ou après le retournement ?
 - [ ] **Le mouvement 18 devient une lecture de registre.** Faut-il alors déplacer ou alléger le mouvement 17, qui perd son rôle de dernier verrou ?
+- [x] ~~Le nom du partenaire qui crie à la poursuite.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle, **jamais écrit dans le roman** : dans le texte, *son collègue*, *son partenaire*. Section 1. Il ne crée aucune exception au §4.6.
 - [ ] **Le nombre de fragments de reliquat** et leur répartition sur les douze ans du calendrier.
+- [ ] **Le parallèle des deux ravisseurs se joue-t-il quelque part ?** L'assassin de la vie d'avant n'a jamais éclairci ; celui d'Eliott, qui n'a pas tué, éclaircira comme tout le monde. Ce document tient déjà les quatre capsules d'une seule journée — **faut-il que le livre pose les deux hommes côte à côte, ou le lecteur doit-il faire seul tout le trajet ?** Le barème reste hors du texte dans les deux cas. Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), « Le verdict qui l'attend ».
 - [x] ~~La poursuite finale est-elle montrée ?~~ — **oui, la décision du nom l'implique** : c'est le fragment le plus tardif et le plus explicite du livre, et il porte l'unique occurrence du nom. Reste ouvert : sa longueur, et le nombre de plans qu'on lui donne avant l'accident.

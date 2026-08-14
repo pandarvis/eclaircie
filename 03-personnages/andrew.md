@@ -75,6 +75,32 @@ Or un nom est le plus court chemin vers une identité. Si les chapitres de la vi
 
 **L'unique occurrence tombe à la poursuite finale.** Il laisse ses collègues sur place et part seul derrière le coupable ; l'un d'eux crie dans son dos — *« Joël, non, attends ! »* — et il ne se retourne pas.
 
+### Le collègue qui crie s'appelle Liam
+
+> **Précision de l'autrice, 15 août 2026.** Le collègue de Joël, celui qui crie *« Joël, non, attends ! »*, s'appelle **Liam**. **C'est un nom de bible personnelle : il ne sortira nulle part dans le roman.**
+
+Le mot **Liam** n'est donc écrit dans aucune page du livre. Dans le texte, cet homme reste *son collègue*, *son partenaire*, *l'un d'eux* — et c'est cohérent avec la règle générale : le seul nom prononcé dans toute la vie d'avant est *Joël*, une fois, et **le nom qui compte dans cette réplique n'est pas celui de qui parle**.
+
+Il sert uniquement à l'autrice, pour savoir de qui elle parle en écrivant la scène. Aucune fiche ne lui est due : ce n'est pas un personnage, c'est une voix derrière lui.
+
+### La liste complète des personnages
+
+**Ce monde-ci — Andrew, Chrissy, Tania, Eliott, Isaac, June.**
+**La vie d'avant — Joël, les jumelles, Liam.**
+
+| Nom | Qui | Se lit dans le roman ? |
+|---|---|---|
+| **Andrew** | le veilleur | oui, partout |
+| **Chrissy**, **Tania** | la paire | oui |
+| **Eliott** | l'arrivant de dix ans | oui |
+| **Isaac** | l'agent de police | oui |
+| **June** | la berceuse | oui |
+| **Joël** | l'enquêteur qu'il a été | **une seule fois**, crié |
+| *les jumelles* | les deux filles de l'affaire | **jamais** — elles n'ont aucun nom d'alors |
+| **Liam** | le collègue de Joël | **jamais** — bible personnelle |
+
+*Deux noms de la vie d'avant ne se lisent nulle part : **Liam**, qui ne se dit jamais, et ceux des deux filles, qui n'existent pas. Le troisième, **Joël**, se dit une fois.*
+
 Les cinq raisons de ce placement sont développées en [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §2.2, et la position exacte de la réplique en [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §1. En résumé : c'est **le dernier moment possible**, donc le dispositif tient sur tout le livre ; c'est **un cri de personnage et non une phrase de narrateur**, donc du bruit avant d'être une révélation ; et **Andrew, qui n'a jamais entendu ce nom, ne réagit pas.**
 
 ### Ce que le placement fait à sa faute — à retenir ici plus qu'ailleurs
@@ -152,15 +178,21 @@ Sa vocation est revenue **très vite**. Un homme qui sort de capsule et se retro
 
 **C'est le premier geste du livre, et c'est celui qui le trahit.**
 
-> **Précision de l'autrice, 15 août 2026.** *« C'est bien Andrew qui vient rendre visite à Eliott chez June. Il a des échanges avec l'enfant, il essaye de le comprendre, et va peut-être le voir deux fois avant que la troisième fois il y retourne et que June lui apprend qu'il a disparu et qu'elle a prévenu la police. »*
+> **Correction de l'autrice, 15 août 2026 — l'étape du signalement est supprimée.** *« Non, je ne veux pas que June vienne le voir. C'est lui, fin observateur, qui malgré lui prend l'arrivée du garçon très à cœur. C'est lui qui décide de le revoir, et oui c'est lui qui reçoit la nouvelle quand il retourne le voir et qu'il n'est plus là. »*
 
-### Ni mission, ni hasard
+### Ni signalement, ni mission, ni hasard
 
 Il reçoit l'enfant à la cérémonie, ce qui est son travail. **Tout ce qui suit ne l'est pas.**
 
-June vient lui parler du comportement du petit ; elle rapporte, elle ne demande rien. **Et il y va.** Personne ne le lui demande, aucun service ne l'en charge, aucune procédure ne le prévoit. Un veilleur inscrit un nom au registre et passe au suivant : sa part est finie le matin même, elle ne comprend ni suite, ni suivi, ni visite. **Il n'a aucun mandat sur cet enfant, et il y retourne quand même.** Deux fois. Puis une troisième.
+**Rien d'extérieur ne le met dans l'affaire.** June ne vient pas le trouver, elle ne lui signale rien, aucun service ne l'en charge, aucune procédure ne le prévoit. Un veilleur inscrit un nom au registre et passe au suivant : sa part est finie le matin même, elle ne comprend ni suite, ni suivi, ni visite.
 
-Ce n'est pas non plus le hasard d'un homme qui passait par là : chaque visite est un déplacement décidé, sur son temps, sans motif qu'il puisse formuler. Il ne se dit pas qu'il enquête — le mot n'existe pas dans son métier. **Il se dit que ça l'interpelle**, ce qui n'est pas une raison, et il y va.
+**Ce qui le met en route est en lui.** Il est fin observateur — c'est le seul trait de métier qu'on lui connaisse et il ne s'en sert jamais qu'à noter des chiffres —, et cette arrivée-là l'a accroché. Il prend la chose à cœur **malgré lui**, sans se l'expliquer et sans se le formuler. Il ne se dit pas qu'il enquête : le mot n'existe pas dans son métier. **Il se dit que ça l'interpelle**, ce qui n'est pas une raison, et il décide d'y retourner. Deux fois. Puis une troisième.
+
+Ce n'est pas non plus le hasard d'un homme qui passait par là : chaque visite est un déplacement décidé, sur son temps, sans motif qu'il puisse formuler.
+
+> **Un homme sans mandat revient voir un enfant dont il n'a pas la charge, parce que ça l'accroche et qu'il ne s'explique pas pourquoi.**
+
+*Ce que la suppression du signalement change, et c'est tout le sujet : tant que June rapportait quelque chose, il y avait une cause extérieure, si mince fût-elle, et le geste d'Andrew restait une réponse. Sans elle, il n'y a plus rien devant lui — **le mouvement ne vient que de lui**, et il n'a rien pour le justifier, pas même une phrase entendue.*
 
 ### Ce que ça révèle, et que personne ne peut lire
 
@@ -175,6 +207,7 @@ Le §12 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose la loi du m
 - **Aucune phrase ne doit justifier ses visites.** Ni le narrateur, ni lui, ni un tiers. Il y va, c'est tout. Une explication — même bonne — transforme un reliquat en décision, et la décision se voit.
 - **Aucune insistance non plus.** Pas de retour appuyé sur le fait qu'il n'a pas à être là, pas de collègue qui s'en étonne. C'est exactement le réglage de la question du nom, plus haut : le livre pose la pièce et ne la ramasse pas.
 - **C'est le même défaut que celui qui le tue.** Il ne s'arrête pas, il revient, il finit ce qu'il commence — voir « Une piste ouverte par la faute » dans *Reste à trouver*, et le tableau des deux fautes symétriques. À cette échelle-là, ça ne ressemble encore qu'à de la conscience professionnelle.
+- **Et c'est le réglage délicat de toute la séquence : il faut que ça passe pour de la conscience professionnelle.** Un veilleur consciencieux qui s'inquiète d'un gosse bizarre, voilà ce que doivent voir June, le service, et le lecteur du premier chapitre. Trop peu et le geste paraît arbitraire ; trop et il devient une enquête, donc une décision, donc quelque chose qui se voit. **La bonne mesure est celle où personne n'a de raison d'en parler.**
 - **Attention à la vitesse** (voir « Conséquence à surveiller » ci-dessus) : si l'insistance paraît trop droite, le lecteur cesse de pouvoir croire au hasard et **l'interdit n° 4** tombe. Trois visites suffisent ; il n'en faut pas dix.
 
 ### Et c'est chez June que la disparition lui tombe dessus
@@ -319,6 +352,9 @@ Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, *
 ## Reste à trouver
 
 - [x] ~~Le sort du nom « Joël » dans le texte.~~ — **tranché le 14 août 2026 : jamais prononcé, sauf une fois, à la poursuite finale**, crié par son partenaire. Voir « Deux noms pour un homme » ci-dessus.
+- [x] ~~Le nom du collègue qui crie.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle : **jamais écrit dans le roman**. Dans le texte, *son collègue*, *son partenaire*.
+- [x] ~~Ce qui le met dans l'affaire.~~ — **tranché le 15 août 2026 : rien ni personne.** Le signalement de June est supprimé ; il décide seul d'aller revoir l'enfant.
+- [ ] **Ce qui l'accroche chez Eliott, exactement.** L'autrice pose qu'il est fin observateur et que l'arrivée le prend à cœur *malgré lui*. Reste à savoir si quelque chose de précis retient son attention à la cérémonie — un mot, un regard, la terreur elle-même — ou s'il n'y a rien à montrer, et si c'est le vide de la cause qui fait tout le travail. **Le second est plus fidèle au §12 ; le premier est plus facile à écrire.**
 - [ ] **Sa manie.** Piste : il compte. N'importe quoi — les marches, les travées, les secondes entre deux choses. Personne n'y voit rien, c'est un tic de vieux. La place est libre depuis que l'image du compte à rebours est écartée : la manie n'entre plus en concurrence avec rien.
 - [ ] **Sa honte quotidienne.** Piste : il ne se souvient plus des cérémonies. Il en a tenu des milliers, il note les chiffres et les oublie en sortant. Un homme dont le métier est de garder trace, et qui ne retient rien. À rapprocher de sa faute : il a déjà cessé de chercher une fois.
 - [ ] **Une piste ouverte par la faute** : une manie de non-arrêt. Il finit ce qu'il commence, même quand ça n'a plus d'objet — il relit une travée déjà relue, il rentre trois heures après tout le monde. Personne n'y voit qu'un excès de conscience professionnelle. Ce serait le même défaut que celui qui l'a tué, réduit à l'échelle d'une journée de travail. *Non tranché, à ne retenir que si ça ne se voit pas.*

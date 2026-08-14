@@ -18,6 +18,7 @@
 | **Chrissy** et **Tania** | ce monde-ci | les deux arrivantes de **la paire**. Ce sont leurs **noms d'éclaircie** |
 | **Isaac** | ce monde-ci | l'agent de police, ami d'Andrew |
 | **Joël** | **la vie d'avant uniquement** | le nom de l'enquêteur. Jamais dans une scène d'ici — et **prononcé une seule fois dans tout le roman**, à la poursuite finale (section 2) |
+| **Liam** | **la vie d'avant uniquement** | le collègue de Joël, celui qui crie *« Joël, non, attends ! »*. **Nom de bible personnelle : il ne sortira nulle part dans le roman.** Dans le texte, il reste *son collègue*, *son partenaire*. Section 2.2.5 |
 | *(les deux filles de l'affaire)* | **la vie d'avant** | **aucun nom, jamais.** On écrit *les deux filles*, *les sœurs*, *elles* |
 | **`[Nom]`** | **la vie d'avant uniquement** | le **nom de famille** par lequel les fragments désignent le dossier : *« l'affaire [Nom] »*. **Non choisi — n'inventer aucun nom de famille.** Section 2.5 |
 
@@ -137,6 +138,12 @@ C'est **le sommet du procédé de la troisième personne** posé en [`le-meme-jo
 Ce que ça fixe, sans rien inventer : il y a du monde autour de lui à la planque, l'un d'eux le voit partir, et il est assez proche pour l'appeler par son nom plutôt que par son grade ou sa fonction. **Un partenaire, donc, et non un supérieur** — on ne crie pas un prénom à quelqu'un qu'on vouvoie, et un ordre hiérarchique changerait la nature de la scène : il désobéirait à un supérieur, ce qui est une autre histoire que celle d'un homme qui n'entend plus personne.
 
 *Ce partenaire n'a pas besoin d'exister ailleurs dans le livre, et il vaut sans doute mieux qu'il n'y existe pas beaucoup : ce n'est pas un personnage, c'est une voix derrière lui. Son nom à lui n'est pas nécessaire — le nom qui compte dans cette réplique n'est pas celui de qui parle.*
+
+> **Précision de l'autrice, 15 août 2026 : il s'appelle Liam.** *C'est un nom de bible personnelle — **il ne sortira nulle part dans le roman.***
+
+**Le mot *Liam* n'est écrit dans aucune page du livre.** Dans le texte, cet homme reste *son collègue*, *son partenaire*, *l'un d'eux*. Le nom sert uniquement à l'autrice, pour savoir de qui elle parle en écrivant la scène — et il ne crée aucune exception à la règle de 2.2 : **le seul nom prononcé dans toute la vie d'avant reste *Joël*, une fois.**
+
+**La liste complète des personnages, pour mémoire.** Ce monde-ci : **Andrew, Chrissy, Tania, Eliott, Isaac, June.** La vie d'avant : **Joël, les jumelles, Liam.** Sur les trois de la vie d'avant, un seul se lit dans le roman, et une seule fois.
 
 ## 2.3 La même règle dépouille les jumelles — et c'est le vrai prix du dispositif
 
@@ -261,18 +268,29 @@ Cette décision devient rétroactivement **l'infrastructure du dispositif**. Les
 
 # 4. La trame d'Andrew — ce monde-ci
 
-> **Précision de l'autrice, 15 août 2026 — la séquence d'ouverture est figée.** *« C'est bien Andrew qui vient rendre visite à Eliott chez June. Il a des échanges avec l'enfant, il essaye de le comprendre, et va peut-être le voir deux fois avant que la troisième fois il y retourne et que June lui apprend qu'il a disparu et qu'elle a prévenu la police. »*
+> **Correction de l'autrice, 15 août 2026 — la séquence d'ouverture est figée, et l'étape du signalement est supprimée.** *« Non, je ne veux pas que June vienne le voir. C'est lui, fin observateur, qui malgré lui prend l'arrivée du garçon très à cœur. C'est lui qui décide de le revoir, et oui c'est lui qui reçoit la nouvelle quand il retourne le voir et qu'il n'est plus là. »*
 >
-> **Corrige une version antérieure de cette trame**, où June « déclenchait l'enquête » et où Andrew n'arrivait qu'après. C'est l'inverse : il est déjà là, de lui-même, et la disparition lui tombe dessus.
+> **Corrige deux versions antérieures de cette trame** : celle où June « déclenchait l'enquête » et où Andrew n'arrivait qu'après, et celle où elle venait lui signaler le comportement de l'enfant. **Il n'y a plus de signalement du tout.** Il est déjà là, de lui-même, et la disparition lui tombe dessus.
 
-**Six temps, dans cet ordre, et l'ordre est le sujet.**
+**Cinq temps, dans cet ordre, et l'ordre est le sujet.**
 
 1. **La cérémonie.** Le livre s'ouvre dessus : celle de l'arrivant de dix ans, du point de vue d'Andrew, veilleur. Elle pose tout le système sans un mot d'explication. **On sent tout de suite que l'enfant fabule**, comme empreint d'une terreur qu'on ne comprend pas. C'est inquiétant. On passe outre, la cérémonie se termine.
 2. **Eliott est remis à une berceuse, June.** C'est le protocole. Il fait de petits travaux d'ordre public, sans force ni difficulté — du travail adapté à un enfant de dix ans.
-3. **June vient parler à Andrew du comportement anormal de l'enfant.** Elle rapporte, elle ne demande rien. **C'est ce signalement qui met la chose en route**, et c'est tout ce que June déclenche dans le livre.
-4. **Andrew vient rendre visite à Eliott, chez June.** Deux fois, peut-être. Il a des échanges avec lui, **il essaie de le comprendre**, et il repart avec des choses qu'il ne sait pas où ranger. **Personne ne le lui a demandé** : il n'a aucun mandat sur cet enfant, sa part de veilleur s'est arrêtée au registre. Il y retourne parce que ça l'interpelle — première exécution du §12, *« le reliquat n'est pas un souvenir, c'est une vocation »*, et **personne ne le remarque, lui compris.** Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md), « Ce qui le met dans l'affaire ».
-5. **La troisième fois qu'il y retourne, June lui apprend qu'Eliott a disparu** et qu'elle a **déjà prévenu la police**. Elle a cherché, elle n'a pas trouvé, elle a fait ce qu'il fallait dans l'ordre — et **son rôle s'arrête là**. La force de la scène tient à un point à ne pas perdre : **il ne reçoit pas la nouvelle, il tombe dessus.** Pas d'appel, pas d'avis, pas de convocation ; il vient voir l'enfant, et l'enfant n'est plus là. Il ne peut pas en être averti, puisque personne ne le sait concerné.
-6. **Andrew se rend à la gendarmerie** et y retrouve un ami : **Isaac**, un agent de police avec qui il s'entend bien. Ils collaborent régulièrement — travaillant à la ruche, Andrew est témoin de toutes les arrivées et consulte le registre au besoin. Le policier apprécie son aide, il le sait perspicace. Andrew est préoccupé par la disparition, et il connaissait déjà l'enfant. **Travailler ensemble n'a rien d'incongru.**
+3. **Andrew prend cette arrivée à cœur, malgré lui, et décide d'aller le revoir.** Il est fin observateur ; quelque chose l'accroche et il ne sait pas quoi. Il vient chez June, deux fois peut-être, il a des échanges avec l'enfant, **il essaie de le comprendre**, et il repart avec des choses qu'il ne sait pas où ranger. **Personne ne le lui a demandé, personne ne lui a rien signalé** : sa part de veilleur s'est arrêtée au registre. C'est la première exécution du §12 — *« le reliquat n'est pas un souvenir, c'est une vocation »* — et **personne ne le remarque, lui compris.** Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md), « Ce qui le met dans l'affaire ».
+4. **La troisième fois qu'il y retourne, l'enfant n'est plus là.** June le lui apprend et lui dit qu'elle a **déjà prévenu la police**. Elle a cherché, elle n'a pas trouvé, elle a fait ce qu'il fallait dans l'ordre — et **son rôle s'arrête là**. La force de la scène tient à un point à ne pas perdre : **il ne reçoit pas la nouvelle, il tombe dessus.** Pas d'appel, pas d'avis, pas de convocation ; il vient voir l'enfant, et l'enfant n'est plus là. Il ne peut pas en être averti, puisque personne ne le sait concerné.
+5. **Andrew se rend à la gendarmerie** et y retrouve un ami : **Isaac**, un agent de police avec qui il s'entend bien. Ils collaborent régulièrement — travaillant à la ruche, Andrew est témoin de toutes les arrivées et consulte le registre au besoin. Le policier apprécie son aide, il le sait perspicace. Andrew est préoccupé par la disparition, et il connaissait déjà l'enfant. **Travailler ensemble n'a rien d'incongru.**
+
+**June est un témoin de passage.** Elle héberge, elle constate, elle annonce, elle a prévenu la police. Rien de plus, et surtout rien avant. Fiche : [`../03-personnages/june.md`](../03-personnages/june.md).
+
+### Ce que la suppression du signalement change — c'est le premier geste du livre
+
+**Rien d'extérieur ne met Andrew dans l'affaire.** Pas de signalement, pas de mission, pas de hasard, pas de service qui l'en charge. **C'est entièrement lui.**
+
+Tant qu'une berceuse venait rapporter quelque chose, il existait une cause devant lui, si mince fût-elle, et son geste restait une réponse. Il n'y en a plus. Un homme sans mandat revient voir un enfant dont il n'a pas la charge, parce que ça l'accroche et qu'il ne s'explique pas pourquoi.
+
+**C'est la première exécution du §12, et elle arrive avant qu'il y ait la moindre affaire** — pas de disparition, pas de gendarmerie, rien à élucider. L'enquêteur est déjà entièrement là, dans un homme qui ne sait pas qu'il l'a été. Personne ne le remarque, lui compris.
+
+*Réglage à l'écriture, et il est délicat : **il faut que ça passe pour de la conscience professionnelle.** Trop peu, le geste paraît arbitraire ; trop, il devient une enquête, donc une décision, donc quelque chose qui se voit. La bonne mesure est celle où personne n'a de raison d'en parler.*
 
 **Puis l'enquête :**
 
@@ -461,8 +479,11 @@ Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux
 
 - [x] ~~Le problème du nom (section 2)~~ — **tranché le 14 août 2026 : Joël n'est prononcé qu'une seule fois dans tout le roman**, crié par son partenaire au moment où il se lance à la poursuite de l'assassin. Nulle part ailleurs. Section 2.
 - [x] ~~Les prénoms de la paire dans ce monde-ci~~ — **tranché le 14 août 2026 : Chrissy et Tania**, leurs noms d'éclaircie. Et **les noms des deux filles dans la vie d'avant ne sont jamais donnés** : la question est close, il n'y a rien à trouver. Section 2.3.
+- [x] ~~Ce qui met Andrew dans l'affaire.~~ — **tranché le 15 août 2026 : rien d'extérieur.** Le signalement de June est supprimé ; la trame passe de six temps à cinq. Section 4.
+- [x] ~~Le nom du partenaire qui crie à la poursuite~~ — **Liam**, nom de bible personnelle, **jamais écrit dans le roman**. Section 2.2.5.
+- [ ] **D'où sort le ravisseur, et ce que ça fait à la trame.** Décision du 15 août 2026 : il vient du milieu de [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md). Deux points y restent ouverts et ils touchent le séquencier — **groupe informel ou homme seul**, et **combien on le voit avant la fin**.
 - [ ] Le séquencier complet de la nouvelle architecture — combien de chapitres, quelle alternance des deux récits, où tombent A, B, C, D.
-- [ ] **Le moteur du §8** : fils réunis, ou toile de fond ?
+- [ ] **Le moteur du §8** : fils réunis, ou toile de fond ? *La décision du 15 août 2026 sur le ravisseur donne un candidat de jointure — le climat de la jalousie —, sans rien trancher.*
 - [ ] **Dix ans de métier ou dix ans dans ce monde ?**
 - [ ] La place d'Eliott au jardin.
 - [ ] La place du chapitre de sa propre cérémonie.

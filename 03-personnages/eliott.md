@@ -72,16 +72,19 @@ Eliott fait de **petits travaux d'ordre public**, sans force ni difficulté, ada
 
 ## 4 bis. Les visites — la séquence d'ouverture, à ne pas intervertir
 
-> **Précision de l'autrice, 15 août 2026.** *« C'est bien Andrew qui vient rendre visite à Eliott chez June. Il a des échanges avec l'enfant, il essaye de le comprendre, et va peut-être le voir deux fois avant que la troisième fois il y retourne et que June lui apprend qu'il a disparu et qu'elle a prévenu la police. »*
+> **Correction de l'autrice, 15 août 2026 — l'étape du signalement est supprimée.** *« Non, je ne veux pas que June vienne le voir. C'est lui, fin observateur, qui malgré lui prend l'arrivée du garçon très à cœur. C'est lui qui décide de le revoir, et oui c'est lui qui reçoit la nouvelle quand il retourne le voir et qu'il n'est plus là. »*
+>
+> **June ne signale rien et ne vient trouver personne.** Toute version antérieure de cette fiche qui lui donne ce rôle est périmée.
 
-**L'ordre exact, en six temps :**
+**L'ordre exact, en cinq temps :**
 
 1. **La cérémonie.** Andrew le reçoit, dix ans. L'enfant dit d'emblée des choses inquiétantes, comme empreint d'une terreur qu'on ne comprend pas. On passe outre, la cérémonie se termine.
-2. **Il est remis à une berceuse**, June. C'est le protocole. Petits travaux d'ordre public.
-3. **June vient parler à Andrew du comportement anormal de l'enfant.** C'est ce signalement, et rien d'autre, qui met la chose en route.
-4. **Andrew vient lui rendre visite, chez June.** Deux fois, peut-être.
-5. **La troisième fois qu'il y retourne, June lui apprend qu'Eliott a disparu**, et qu'elle a prévenu la police.
-6. Andrew se rend à la gendarmerie, y retrouve [Isaac](isaac.md), et l'enquête commence.
+2. **Il est remis à une berceuse**, June. C'est le protocole. Petits travaux d'ordre public, adaptés à un enfant.
+3. **Andrew prend cette arrivée à cœur, malgré lui.** Il est fin observateur ; quelque chose l'accroche et il ne sait pas quoi. **C'est lui, et lui seul, qui décide d'aller le revoir** — deux visites, peut-être. Il a des échanges avec l'enfant, il essaie de le comprendre.
+4. **La troisième fois qu'il y retourne, l'enfant n'est plus là.** June le lui apprend et lui dit qu'elle a prévenu la police.
+5. Andrew se rend à la gendarmerie, y retrouve [Isaac](isaac.md), et l'enquête commence.
+
+**Ce qui compte, et qui est le sujet de la séquence : rien d'extérieur ne met Andrew dans l'affaire.** Pas de signalement, pas de mission, pas de hasard. C'est entièrement lui. Développement dans [`andrew.md`](andrew.md), « Ce qui le met dans l'affaire ».
 
 ### Ce qui se passe pendant les deux visites
 
@@ -141,6 +144,16 @@ Dans l'ancien découpage, **son entrée au jardin était le climax de l'acte II*
 - **L'une remplace l'autre** — l'enlèvement devient le climax, et l'entrée au jardin redevient un simple passage du calendrier.
 
 Les deux tiennent. **Non tranché**, et à décider dans le plan, pas ici.
+
+---
+
+## À trancher
+
+- [x] ~~Le signalement de June.~~ — **supprimé le 15 août 2026.** Elle ne vient trouver personne : Andrew décide seul d'aller le revoir. La séquence est à cinq temps.
+- [x] ~~Le garçon est-il atteint par le climat de [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) ?~~ — **oui : son ravisseur sort de ce milieu.** Décision du 15 août 2026.
+- [ ] **La place de son entrée au jardin** (§8 ci-dessus). Non tranché.
+- [ ] **Combien de visites exactement ?** Deux puis la troisième, dit l'autrice — *« peut-être »*. Le chiffre est à confirmer : il règle la vitesse à laquelle l'insistance d'Andrew devient visible ([`andrew.md`](andrew.md), « Attention à la vitesse »).
+- [ ] **Que dit-il exactement pendant les visites ?** La règle est fixée — banal, local, invérifiable (§5) —, les phrases non.
 
 ---
 

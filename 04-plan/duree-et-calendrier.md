@@ -26,13 +26,13 @@ Rien d'autre ne bouge : la vitesse de descente, le plancher et les durées ordin
 
 ---
 
-## Deux propositions à valider — les planchers et le plafond
+## Les deux règles — le plancher, et l'invisibilité de la grâce
 
-> **Proposition de travail, 15 août 2026. Rien n'est acquis tant que l'autrice n'a pas tranché.**
+> **Arrêté par l'autrice, 15 août 2026.**
 >
-> Elle a posé la difficulté ainsi : *un enfant arrivé à cinq ans n'en vit que vingt-cinq, c'est dur ; on devrait allonger un peu, sans pour autant ouvrir la porte aux dérives par jalousie.* Les deux règles ci-dessous répondent ensemble à ces deux exigences, et ne tiennent qu'ensemble.
+> Elle avait posé la difficulté ainsi : *une arrivée à cinq ans ne vit que vingt-cinq ans, c'est dur ; on devrait allonger un peu, sans pour autant ouvrir la porte aux dérives par jalousie.* La première exigence se règle par un plancher. La seconde **ne se règle pas par un plafond** — voir la règle B, qui a changé de nature.
 
-### Règle A — personne ne vit moins de trente ans
+### Règle A — personne ne vit moins de trente ans. Acquis
 
 Le système gagne un **second plancher**, symétrique du premier :
 
@@ -49,13 +49,17 @@ C'est ce qui répond à la demande d'allonger : on ne rallonge pas au jugé, on 
 
 *Correction en attente sur le dossier maître : le tableau du §7 donne « ~25 ans » pour une arrivée à cinq ans. Sous la règle A, c'est 30. À signaler dans [`../L-ECLAIRCIE-dossier-complet.md`](../L-ECLAIRCIE-dossier-complet.md) — ce document ne le modifie pas.*
 
-### Règle B — la grâce allonge le jardin, jamais le classement
+### Règle B — la grâce ne se voit pas
 
-Le supplément accordé au meurtri s'ajoute à son jardin ordinaire, **sans jamais porter sa durée de vie totale au-delà de celle d'un grand chiffre.**
+> **Rien ne marque un jardin allongé. Personne ne sait quelle est la durée « normale » pour un chiffre d'arrivée donné, parce que personne ne tient ce tableau.**
 
-Chrissy et Tania peuvent atteindre une soixantaine d'années de vie. Jamais quatre-vingt-dix.
+*Remplace la version précédente, qui posait un plafond chiffré — « jamais quatre-vingt-dix ». Objection de l'autrice, 15 août 2026 : il y a des centenaires, les âges d'arrivée n'ont pas de plafond, et **on ne peut pas garantir** qu'aucun meurtri ne dépasse en durée quelqu'un arrivé vieux. **Aucune borne chiffrée ne doit plus figurer nulle part dans ce document.***
 
-C'est un plafond, et c'est la règle qui tient la société entière. Le détail du raisonnement est dans [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), section « Rien, dans les chiffres, ne donne raison aux jaloux ». En une ligne : si la grâce pouvait faire dépasser les grands chiffres en durée totale, le grief des jaloux deviendrait **vérifiable**, et le tabou du §9 ne tiendrait pas.
+Ce que la règle obtient quand même, et c'était le seul enjeu : **le grief des jaloux ne peut pas devenir un calcul.** Non parce que les chiffres leur donneraient tort, mais **parce qu'il n'y a pas de chiffres à consulter.** Aucun barème publié, aucune durée ordinaire connue, aucun supplément marqué, aucune mention au registre, aucun signe sur le corps, aucun mot pour le dire. Un jardin long ressemble à un jardin long. La comparaison est impossible même en principe.
+
+C'est l'interdit n° 3 du §14 appliqué à l'intérieur du monde : les personnages sont dans la même position que le lecteur. Et les exceptions existent, comme partout — des vies très longues, des vies courtes, des durées que personne ne s'explique. **Un monde sans exception serait une mécanique.**
+
+Détail du raisonnement dans [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), section « Le plancher, et l'invisibilité de la grâce », et dans [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md).
 
 ---
 
@@ -84,19 +88,21 @@ Elle vient du §7. Elle n'est pas la même pour tout le monde :
 |---|---:|---:|---:|
 | Andrew — 62 ans | 57 | 12, ordinaire | **69 ans** |
 | Erin — 64 ans | 59 | 11, ordinaire | **70 ans** |
-| **Chrissy et Tania — 18 ans** | **~30** | **allongé, non fixé, sous plafond** | **~60 ans, jamais 90** |
+| **Chrissy et Tania — 18 ans** | **~30** | **allongé, non fixé, sans borne haute** | **ouvert** |
 | Le garçon — 10 ans | 15 | 15, ordinaire | **30 ans** |
-| L'enfant arrivé à cinq ans | 0 | 30, ordinaire, allongeable | **30 ans** |
+| *Exemple du système — une arrivée à cinq ans* | 0 | 30, ordinaire, allongeable | **30 ans** |
+
+*La dernière ligne n'est le dossier de personne : c'est le cas limite qui illustre le plancher de la règle A. Aucun personnage du roman n'arrive à cet âge-là.*
 
 Lire une ligne : Andrew arrive à 62 ans, il met 57 ans à descendre jusqu'à cinq, puis il passe 12 ans au jardin. 57 + 12 = 69. Il aura vécu 69 ans ici. Même lecture pour Erin, à 64 ans : 59 + 11 = 70. **Ni l'un ni l'autre ne bouge sous la nouvelle règle** — c'étaient déjà des dossiers ordinaires reconduits à leur âge de mort.
 
 **Chrissy et Tania sont mortes à 18 ans : elles arrivent à 18 ans.** Treize marches à descendre, à la vitesse lente des jeunes arrivants — de l'ordre de deux à trois ans par marche —, soit **une trentaine d'années de descente**. Puis un jardin **allongé**, bien au-delà de l'ordinaire, parce qu'elles sont des meurtries. C'est la seule ligne du tableau dont le total ne se ferme pas, et c'est normal : le supplément appartient à l'autrice, il n'est pas fixé ici. **La forme compte plus que la décimale** — ce qui est acquis, c'est qu'elles arrivent à l'âge où on les a tuées et qu'elles restent en bas plus longtemps que quiconque.
 
-*Sous la règle B, le supplément a désormais une borne haute : leur durée de vie totale ne dépasse pas celle d'un grand chiffre. Une soixantaine d'années est confortablement à leur portée ; quatre-vingt-dix ne l'est pas, et ne le sera jamais.*
+*Sous la règle B, leur ligne reste **ouverte** : le supplément n'a pas de borne haute, parce qu'aucune ne serait tenable. Il appartient à l'autrice, il ne s'écrit nulle part, et **rien, dans le monde, ne permet de le lire** — leur jardin sera simplement long, comme d'autres jardins sont longs sans que personne sache pourquoi.*
 
 **La ligne du garçon reste valable telle quelle.** Il arrive à 10 ans : il n'a que cinq marches à descendre, mais chacune prend trois ans — 15 ans de descente. Puis 15 ans au jardin. 15 + 15 = 30. La nouvelle règle ne le touche pas, et tout le calendrier du livre, qui repose sur lui, tient sans retouche.
 
-**L'enfant arrivé à cinq ans** n'a aucune marche à descendre : il est déjà en bas, parce qu'il est mort en dessous du plancher. Sa vie entière est un palier — **30 ans de jardin sous la règle A**, et rien d'autre. Il vit donc exactement aussi longtemps que le garçon arrivé à dix ans, et il passe au jardin les quinze années que l'autre passe dans l'escalier. *S'il compte aussi parmi les meurtris, ce jardin-là peut s'allonger encore, dans la limite du plafond de la règle B : c'est ce que la nouvelle règle sait faire et que l'ancienne ne savait pas.*
+**Une arrivée à cinq ans** — *exemple du système, pas un personnage* — n'a aucune marche à descendre : elle est déjà en bas, parce qu'elle est morte en dessous du plancher. La vie entière est un palier : **30 ans de jardin sous la règle A**, et rien d'autre. Cela fait exactement la durée du garçon arrivé à dix ans, avec au jardin les quinze années que l'autre passe dans l'escalier. *Et si ce dossier compte aussi parmi les meurtris, le jardin peut s'allonger encore, sans borne écrite : c'est ce que la nouvelle règle sait faire et que l'ancienne ne savait pas.*
 
 ### Le piège à ne jamais tomber dedans
 
@@ -241,8 +247,9 @@ Le livre prend douze ans dans une vie qui en compte soixante-neuf, et il s'arrê
 - [ ] Le nombre et la place exacts des sauts de temps dans l'acte III
 - [ ] Combien de fois l'acte III revoit le garçon au jardin, et si la scène du §14 en fait partie
 - [ ] Le détail des dernières apparitions du garçon dans l'acte II-B, à mesure qu'il perd les mots
-- [ ] **Règle A — le plancher de durée à trente ans.** *Proposition à valider.* Personne ne vit moins de trente ans ; qui arrive à cinq en dispose autant que qui arrive à dix. **Trente est-il le bon plancher, ou faut-il monter ?** Trente-cinq, quarante — la question est ouverte, et c'est le seul point de la règle qui le soit. Monter écrase la ligne du garçon, qui est l'horloge du livre : au-delà de trente-cinq, il faudrait relever aussi les arrivants à dix ans, et tout le calendrier bouge.
-- [ ] **Règle B — le plafond de la grâce.** *Proposition à valider.* Le jardin allongé ne porte jamais la durée de vie totale au-delà de celle d'un grand chiffre. Corollaire à confirmer : **le plafond est-il un chiffre net (quatre-vingt-dix) ou une borne floue** que l'autrice tient sans jamais l'écrire ?
-- [ ] **La longueur du jardin allongé de Chrissy et Tania.** Seul chiffre manquant du tableau à quatre colonnes. La règle B en fixe désormais le haut ; le bas reste à l'autrice.
+- [ ] **La longueur du jardin allongé de Chrissy et Tania.** Seul chiffre manquant du tableau à quatre colonnes, et il n'a plus de haut : la règle B ne borne rien. Il appartient entièrement à l'autrice et n'a pas à être écrit dans le dossier.
 - [ ] **Où en sont Chrissy et Tania à chaque acte.** Arrivées à 18 ans et descendant d'une marche tous les deux à trois ans, elles traversent tout le livre en pleine descente — jamais au jardin pendant les vingt-deux années racontées. À vérifier contre le mouvement 23 : quel âge ont-elles quand Andrew vient leur parler ?
+- [x] ~~**Règle A — le plancher de durée à trente ans.**~~ — **acquis, 15 août 2026.** Le chiffre est arrêté à trente et ne monte pas. La ligne du garçon, horloge du livre, n'est pas touchée et le calendrier tient sans retouche.
+- [x] ~~**Règle B — le plafond de la grâce.**~~ — **abandonné et remplacé, 15 août 2026.** Aucune borne chiffrée n'est tenable : il y a des centenaires. La règle est désormais que **la grâce ne se voit pas** — pas de barème, pas de durée ordinaire connue, pas de marque. Plus aucune ligne de ce document ne doit porter « jamais 90 ».
 - [x] ~~**L'âge d'arrivée de Chrissy et Tania.**~~ — **clos, 15 août 2026.** Mortes à 18 ans, elles arrivent à 18 ans. Il n'y a plus de chiffre à attribuer à personne.
+- [x] ~~**L'arrivant à cinq ans dans le tableau.**~~ — **clos, 15 août 2026.** C'est un exemple du système, pas un personnage : aucun enfant de cet âge ne figure au casting. Voir [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md), tenu en réserve.

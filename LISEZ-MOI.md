@@ -44,7 +44,7 @@ Tout le reste en découle. Il reste à la racine exprès : on ne le cherche pas.
 
 ### `03-personnages/`
 - **[`andrew.md`](03-personnages/andrew.md)** — le protagoniste, veilleur débutant. **Joël** dans la vie d'avant : sa mort, sa faute, la réplique, et ce que ce second nom fait au dispositif du livre.
-- **[`june.md`](03-personnages/june.md)** — berceuse, **la berceuse d'Eliott**. C'est elle qui déclenche l'enquête.
+- **[`june.md`](03-personnages/june.md)** — la berceuse d'Eliott. Témoin de passage : elle héberge, elle constate, elle annonce.
 - **[`eliott.md`](03-personnages/eliott.md)** — arrivé à dix ans, second voilé du livre. Il est enlevé, il sera retrouvé vivant.
 - **[`chrissy-et-tania.md`](03-personnages/chrissy-et-tania.md)** — **une paire.** Chrissy et Tania sont leurs **noms d'éclaircie**, reçus ici ; ceux de leur vie d'avant ne sont jamais donnés, et Andrew ne les a pas non plus.
 - **[`isaac.md`](03-personnages/isaac.md)** — l'agent de police, ami d'Andrew. Il rend naturelle la présence d'un veilleur dans une enquête.

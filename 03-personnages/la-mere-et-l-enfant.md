@@ -1,5 +1,22 @@
 # La mère et l'enfant
 
+> # HORS CASTING — DOCUMENT TENU EN RÉSERVE
+>
+> **Décision de l'autrice, 15 août 2026. Ces deux-là ne sont pas des personnages du roman.**
+>
+> L'autrice a arrêté la liste de ses personnages et **ce couple n'y figure pas.** Aucune scène ne leur revient, aucun mouvement ne les prévoit, et l'arrivante de trente-cinq ans comme l'arrivant de cinq ans **ne doivent apparaître dans aucun autre document de l'architecture en cours.** Là où un tableau porte une arrivée à cinq ans, c'est **un exemple du système** — le cas limite qui illustre le plancher — et non ce dossier.
+>
+> **Rien n'est supprimé ici, et rien ne doit l'être.** L'idée plaisait à l'autrice, l'arithmétique des deux courbes est juste, et elle pourra revenir telle quelle dans un autre livre ou dans une version ultérieure. Le document reste **en réserve, complet, à la disposition de qui reprendra la question.** Il est simplement **hors de l'architecture en cours, exactement comme Erin.**
+>
+> **La liste actuelle des personnages, pour que le statut soit sans ambiguïté :**
+>
+> | | Qui |
+> |---|---|
+> | **Dans ce monde-ci** | Andrew, Chrissy, Tania, Eliott, Isaac, June |
+> | **Dans la vie d'avant** | Joël, les jumelles, et son collègue |
+>
+> *Le collègue est nommé **Liam** dans la bible d'autrice et **n'est jamais nommé dans le roman.** Aucun des deux arrivants du présent document ne figure dans l'une ou l'autre colonne.*
+
 *Personnage très secondaire — en réalité deux arrivants liés par une seule mort.*
 *Idée neuve de l'autrice. Proposition documentée ; seules les décisions signalées comme telles sont tranchées.*
 *Aucun prénom n'est proposé : l'autrice n'en a pas encore choisi.*
@@ -55,6 +72,8 @@ Un nom d'éclaircie n'est pas donné, il est **retrouvé** : le veilleur expliqu
 *C'est le cœur du document.*
 
 **L'arrivant de cinq ans** va au jardin et n'en bougera pas. Environ vingt-cinq ans d'insouciance intégrale, à cinq ans, sans jamais rien apprendre de sa condition, sans jamais soupçonner qu'il a été autre chose. Un berceur, des jeux par terre, et rien d'autre jamais.
+
+*Note de réserve : depuis la règle A du 15 août 2026, personne ne vit moins de trente ans — ce serait donc trente ici, et non vingt-cinq. Le chiffre est signalé, non appliqué : le document est gelé hors casting, et les deux courbes ne se croisent pas davantage à trente qu'à vingt-cinq.*
 
 **Elle** arrive à trente-cinq ans. D'après la table du §7 — quarante-cinq ans de vie pour une arrivée à trente, soixante pour une arrivée à cinquante — elle dispose d'environ **cinquante années**. Soit une **trentaine d'années de descente**, puis une **vingtaine au jardin**.
 
@@ -174,14 +193,18 @@ Deux capsules se forment ensemble. Rien de plus n'est dit, et rien de plus n'est
 
 ## 7. À trancher
 
-*La question de la variante a disparu : il n'y a plus de variante, puisqu'il n'y a plus de circonstances.*
+> **Toutes les questions ci-dessous sont suspendues, 15 août 2026** — le dossier est hors casting et tenu en réserve. Elles ne se rouvrent que si l'autrice réintègre ce couple. Aucune ne doit être tranchée, ni répercutée ailleurs, en l'état.
 
-- [ ] **Le volume** : combien de scènes ce personnage occupe-t-il ? Une seule cérémonie double, ou une présence qui revient au fil du livre ?
-- [ ] **La rencontre** : le protagoniste la croise-t-il ? À quel moment — la cérémonie double, une visite au jardin, les deux ?
-- [ ] **Se croisent-ils, elle et lui ?** Piste ouverte, et non acquise — voir §4. Si oui, le hasard reste du hasard et rien ne se passe. Si non, l'arithmétique tient quand même.
-- [ ] **Le moment de la compréhension** : le lecteur doit-il faire le lien tout de suite, ou seulement à la relecture ?
-- [ ] **La place dans le plan** : ce cas témoin doit-il tomber dans l'acte I, en même temps que les deux cérémonies contrastées du mouvement 1 et 2 ?
-- [ ] **L'enfant est-il montré ?** Le §14 prévoit déjà une scène de jardin pour installer le palier : est-ce celle-là, ou faut-il les garder distinctes ?
+*La question de la variante avait déjà disparu : il n'y a plus de variante, puisqu'il n'y a plus de circonstances.*
+
+- [ ] *Suspendu.* **Le volume** : combien de scènes ce personnage occuperait-il ? Une seule cérémonie double, ou une présence qui revient au fil du livre ?
+- [ ] *Suspendu.* **La rencontre** : le protagoniste la croiserait-il ? À quel moment — la cérémonie double, une visite au jardin, les deux ?
+- [ ] *Suspendu.* **Se croisent-ils, elle et lui ?** Piste ouverte et non acquise — voir §4. Si oui, le hasard reste du hasard et rien ne se passe. Si non, l'arithmétique tient quand même.
+- [ ] *Suspendu.* **Le moment de la compréhension** : le lecteur devrait-il faire le lien tout de suite, ou seulement à la relecture ?
+- [ ] *Suspendu.* **La place dans le plan** : ce cas témoin tomberait-il dans l'acte I, en même temps que les deux cérémonies contrastées des mouvements 1 et 2 ?
+- [ ] *Suspendu.* **L'enfant est-il montré ?** Le §14 prévoit déjà une scène de jardin pour installer le palier : serait-ce celle-là, ou faudrait-il les garder distinctes ?
+- [ ] **Ce que devient le cas témoin du §5, lui, n'est pas suspendu.** Le service qu'il rendait — apprendre au lecteur à lire un registre, pour que la signature de la paire se détache plus tard au mouvement 16 — **doit être repris par autre chose.** Deux capsules ordinaires ouvertes le même jour à des âges différents suffisent ; il n'est pas nécessaire qu'un lien les unisse. À porter au plan.
+- [x] ~~**Le statut de ce couple dans le roman.**~~ — **clos, 15 août 2026.** Hors casting. Document conservé en réserve, sans rien en retirer, comme Erin.
 
 ---
 
