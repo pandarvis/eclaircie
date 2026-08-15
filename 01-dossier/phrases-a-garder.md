@@ -47,3 +47,17 @@ Usage : conversation, quatrième de couverture, présentation. **Pas dans le tex
 Ce qu'il faut obtenir dans le texte : deux personnes qui parlent, chacune avec sa part de vrai, et **le narrateur qui ne tranche pas.** Le lecteur doit rester en travers.
 
 *Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) et le §9 du dossier maître — « tout le monde y pense, la règle tient quand même ».*
+
+---
+
+## Sous nos yeux
+
+*Retenue par l'autrice, 16 août 2026. Formulation de bible — le texte n'aura pas à le dire, il suffira que le lecteur ait compté les visites.*
+
+> **Elle vit à cent mètres de chez June. Andrew est passé devant sa porte à chacune de ses trois visites.**
+>
+> Ce n'est pas une formule de fin d'enquête, c'est un fait : il a marché devant cette maison en allant voir le petit, trois fois, et il n'avait aucune raison de la regarder.
+
+**Usage.** Andrew peut lancer *« c'était là sous nos yeux depuis le début »* à Isaac au téléphone, au moment de lui donner l'adresse. C'est une réplique de policier, elle a le droit d'être banale — **c'est le lecteur qui saura qu'elle est littérale.**
+
+*Voir [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) et [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md).*

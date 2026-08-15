@@ -3,6 +3,8 @@
 *Personnage. **Elle n'a pas de nom, et ce dossier ne lui en invente aucun** : « la berceuse » est ce qu'on écrit, et c'est déjà tout ce qu'il faut savoir d'elle.*
 *Elle a enlevé [Eliott](eliott.md). C'est elle qu'on menotte à la scène 19 du [parcours de l'enquête](../04-plan/le-parcours-de-l-enquete.md).*
 
+*⚠️ **Deux décisions de l'autrice du 19 août 2026 s'ajoutent à cette fiche et en changent la portée** : **elle n'était pas une inconnue** (§5) — elle vit à quelques pas de chez June, et Eliott est parti avec quelqu'un qu'il connaissait ; et **le repaire est une maison ordinaire dont la cave a été aménagée** (§6). Contexte d'enquête : [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.*
+
 ---
 
 ## État civil
@@ -12,6 +14,7 @@
 | **Nom** | aucun. **À ne pas inventer sans décision de l'autrice** — voir « Questions ouvertes » |
 | **Métier** | berceuse. Des décennies de service, au jardin |
 | **Sa situation** | elle approche de sa relève. On commence à lui confier des tâches plus simples |
+| **Où elle vit** | **à côté du jardin, comme les berceuses** — donc **à quelques pas de chez June.** Une maison ordinaire, dans une rue ordinaire. §5 |
 | **Rôle dans l'intrigue** | **la ravisseuse.** Elle n'apparaît qu'à la fin, et elle est l'exact contraire de ce qu'on cherchait |
 | **Particularité** | aucune. Elle n'est pas porteuse de voiles, elle ne dit rien d'impossible, et rien sur elle ne se remarque |
 
@@ -94,13 +97,69 @@ Et c'est là que tout se referme :
 
 ---
 
+## 5. Ce n'était pas une inconnue — décision de l'autrice, 19 août 2026
+
+**C'est la conséquence la plus lourde qu'ait reçue cette fiche, et elle change la nature du crime.**
+
+**Les berceuses habitent à côté du jardin** — c'est déjà établi pour [June](june.md). **Elle vit donc à quelques pas de chez elle.** Une voisine, une collègue, un visage qu'Eliott croisait.
+
+> **Il n'a pas été enlevé par quelqu'un : il est parti avec quelqu'un qu'il connaissait.**
+
+**Et c'est ce qui rend l'absence de violence évidente.** La fiche posait déjà que personne ne se retourne sur une berceuse qui marche avec un jeune arrivant ; il faut maintenant l'écrire un cran plus loin : **lui non plus ne s'est pas retourné.** Il n'y a eu ni ruse, ni force, ni promesse, ni piège. Il y a eu quelqu'un qu'il avait déjà vu, et une raison ordinaire de la suivre.
+
+> **C'est bien pire.**
+
+Un enlèvement suppose un moment où la victime comprend. **Ici, il n'y en a pas eu.** Le passage à l'acte n'a pas de scène, pas de seuil, pas de bascule — il a la forme exacte de ce qu'elle a fait toute sa vie : accompagner quelqu'un quelque part.
+
+### Ce que ça impose à l'écriture
+
+- **Elle doit avoir été croisée tôt, et sans un mot de plus que pour n'importe quelle silhouette.** Andrew est passé devant sa porte à chacune de ses trois visites, en allant voir Eliott, **sans aucune raison de la regarder** ([`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.6).
+- **Rien ne la distingue à ce moment-là.** Pas un regard appuyé, pas une phrase qui reste, pas une gentillesse notable. **Si elle est aimable dans une scène, elle est aimable comme tout le monde**, et le lecteur ne doit pouvoir la retrouver qu'à la relecture.
+- **Personne ne rapproche jamais les deux choses.** Ni Andrew à la scène 19, ni June, ni le narrateur. **Il n'y a pas de phrase du genre *elle était là depuis le début.*** La seule qui existe est celle qu'Andrew dit au téléphone, avant de savoir ce qu'il dit : *« c'était là sous nos yeux. »*
+
+*Et ça referme la seconde fausse piste : l'enquête a buté sur le mur du secret médical du jardin, elle a écarté ce côté-là — **et elle habitait dedans.** Voir [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.*
+
+---
+
+## 6. Le repaire — ce n'est pas une planque, c'est une maison
+
+> **Décision de l'autrice, 19 août 2026.** Ordinaire, dans une rue, comme les autres.
+
+**La porte qu'Andrew ouvre donne sur une cave**, et cette cave a été **réaménagée en chambre colorée pour un jeune arrivant.**
+
+### Le soin est l'horreur
+
+**Elle a peint, elle a meublé, elle a choisi.**
+
+Ce n'est pas de la négligence, et ce n'est pas non plus une ravisseuse qui se rachète. **C'est de la préparation** : du temps, des courses, des décisions prises une par une, des semaines avant qu'il y ait quelqu'un dedans.
+
+> **Ça dit qu'elle comptait rester.**
+
+**Et c'est la forme matérielle du mobile de cette fiche.** *Elle ne veut pas le garder un moment : elle a aménagé une pièce.* Le §4 posait que l'issue découle du mobile — la cave le prouve avant qu'aucun personnage n'ait à le formuler, et elle le prouve mieux qu'une réplique ne le ferait.
+
+*Elle éclaire aussi, sans le dire, la question ouverte « ce qu'elle comptait faire ensuite » : quelqu'un qui peint une pièce n'a pas prévu de partir. **Ça ne la referme pas** — voir « Questions ouvertes ».*
+
+### ⚠️ Note d'écriture — le mot est impossible
+
+**« Une chambre d'enfant » ne peut pas s'écrire**, et aucune tournure de remplacement ne doit venir le doubler. Le mot *enfant* n'existe pas de ce côté-ci ([interdit n° 11](../01-dossier/les-interdits.md)).
+
+**Il faudra décrire :** les couleurs, la taille des meubles, ce qu'il y a par terre. Une hauteur de table. Un lit court.
+
+> **Le lecteur nommera lui-même, et ça frappera plus fort.**
+
+*Ce que le contraste fait au doublon de scène — la même descente, la même porte, deux corps chez Joël — est traité dans [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §5 quater, et n'est pas à recopier ici.*
+
+---
+
 ## Questions ouvertes
 
 - [ ] **Son âge, et sa proximité exacte avec la relève.** Un berceur exerce jusqu'à douze ans ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §5). **Où est-elle sur cette pente ?** Assez près pour que les tâches simples aient commencé, assez loin pour qu'il lui reste des années. *Le chiffre décide du reste : trop près du jardin, elle devient pitoyable ; trop loin, la relève n'explique plus rien.*
-- [ ] **Ce qu'elle comptait faire ensuite.** Rien, probablement — et c'est peut-être la réponse. Pas de plan, pas d'endroit où aller, pas de suite. **Avait-elle seulement pensé à après ?**
-- [ ] **Andrew ou June la connaissaient-ils de vue ?** Le métier est petit : une berceuse en connaît d'autres, un veilleur a tenu des cérémonies avec elle. *Si oui, la scène 19 devient beaucoup plus dure — et il faut alors l'avoir croisée tôt, sans un mot de plus que pour n'importe quelle silhouette.*
+- [ ] **Ce qu'elle comptait faire ensuite.** Rien, probablement — et c'est peut-être la réponse. Pas de plan, pas d'endroit où aller, pas de suite. **Avait-elle seulement pensé à après ?** *⚠️ La cave aménagée du §6 pousse dans un sens et ne tranche pas : elle prouve qu'elle comptait rester, elle ne dit pas qu'elle avait prévu comment.*
+- [x] ~~**Andrew ou June la connaissaient-ils de vue ?**~~ — **tranché le 19 août 2026, et dans le sens le plus dur.** *Elle vit à quelques pas de chez June ; Andrew est passé devant sa porte à chacune de ses trois visites ; Eliott la croisait.* **Il n'a pas été enlevé par quelqu'un : il est parti avec quelqu'un qu'il connaissait.** §5.
+- [ ] **Que savaient exactement l'une de l'autre les deux berceuses ?** June et elle sont voisines et du même métier. *Se parlaient-elles, se relayaient-elles, June l'a-t-elle mentionnée devant Andrew sans que rien ne s'accroche ?* **Attention : June n'est pas un relais d'information** ([june.md](june.md) §2), et une réplique qui désignerait la voisine, même en passant, ferait basculer sa fiche.
+- [ ] **Eliott passait-il devant chez elle sur sa tournée de portage ?** *La question est celle du dernier trou du parcours* — ce qu'il a dit exactement à Andrew, et qui le relance. Voir [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §6. **La version où il avait donné son nom est la plus cruelle, et elle n'est pas tranchée.**
 - [ ] **Ce qu'elle dit, ou ne dit pas, au moment de l'arrestation.** Elle est menottée et déjà prête à être embarquée quand Andrew la voit. *Le silence est la version la plus dure ; une seule phrase est la plus risquée.*
-- [ ] **Le livre lui donne-t-il un nom ?** Il n'y en a aucun ici. Un nom d'éclaircie la rendrait comparable aux autres ; son absence la laisse à son métier, qui est déjà tout son mobile. **Non tranché, et à trancher par l'autrice seule.**
+- [ ] **Le livre lui donne-t-il un nom ?** Il n'y en a aucun ici. Un nom d'éclaircie la rendrait comparable aux autres ; son absence la laisse à son métier, qui est déjà tout son mobile. **Non tranché, et à trancher par l'autrice seule.** *⚠️ **La question n'est plus indépendante** : si l'on retient la version où Eliott avait donné son nom à Andrew, alors elle en a un, il est prononcé une fois dans le livre, et il l'est bien avant qu'on sache à qui il appartient. Les deux décisions se prennent ensemble.*
 
 ---
 

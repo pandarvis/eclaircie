@@ -565,6 +565,46 @@ Un homme qui a enlevé et n'a pas tué éclaircira comme tout le monde ; un homm
 
 ---
 
+## 5 quater. Le même escalier, deux fois — et le contraste est la révélation
+
+> **Décision de l'autrice, 19 août 2026.** **Le repaire d'ici n'est pas une planque : c'est une maison ordinaire, et la porte qu'Andrew ouvre donne sur une cave.** Fiche du personnage : [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md) §6.
+
+**C'est le doublage le plus serré de tout le dispositif, et il ne coûte pas une ligne de plus que les deux scènes qui existaient déjà.**
+
+| | Là-bas, la planque | Ici, la maison |
+|---|---|---|
+| Ce qu'on traverse | **un escalier qui descend** | **un escalier qui descend** |
+| Ce qu'on ouvre | **une porte** | **une porte** |
+| Ce qu'il y a derrière | **un mouroir, et deux corps** | **une cave repeinte, meublée, et quelqu'un de vivant** |
+
+> **Le lecteur descend deux fois le même escalier et ouvre deux fois la même porte.**
+
+**La première fois, deux corps. La seconde, des couleurs.**
+
+### Pourquoi ça marche — et pourquoi il ne faut rien y ajouter
+
+**Le contraste est la révélation.** C'est le seul endroit du livre où le procédé produit son effet **par la différence** et non par la ressemblance : partout ailleurs, le doublage sert à ce que le lecteur ne compte qu'un homme (§5 de [`le-parcours-de-l-enquete.md`](le-parcours-de-l-enquete.md)). **Ici la forme est identique et le contenu s'oppose**, et c'est cette opposition, à la relecture, qui dit tout le livre en deux images.
+
+*Et le §4 bis.3 du parcours gagne une quatrième occurrence du même motif — **Joël en retard, Andrew à l'heure** —, mais celle-ci n'est pas un geste : c'est un décor. Le lecteur ne l'assemble pas, il le voit.*
+
+**Contraintes, et elles sont les mêmes que pour tous les doublages :**
+
+- **Les deux scènes ne se citent jamais.** Rien dans la seconde ne ressemble à un rappel de la première, pas une phrase, pas un écho de vocabulaire calculé. *Le réglage général du §5 du parcours s'applique mot pour mot.*
+- **Aucun personnage ne remarque le contraste.** Andrew n'a rien à comparer — il n'a jamais vu l'autre cave. Le narrateur non plus.
+- **La couture du §5 bis ne se refait pas ici.** Ce dispositif-ci n'est ni une phrase dite d'un côté et rappelée de l'autre, ni un faux raccord : **les deux scènes sont jouées, entières, chacune dans son monde.** Elles n'ont rien à se passer.
+
+### ⚠️ Note d'écriture — le mot est impossible de ce côté-ci
+
+**« Une chambre d'enfant » ne peut pas s'écrire dans la scène d'ici**, et aucune tournure de remplacement ne doit venir la doubler : le mot *enfant* n'existe pas de ce côté ([interdit n° 11](../01-dossier/les-interdits.md)).
+
+**Il faudra décrire :** les couleurs, la taille des meubles, ce qu'il y a par terre. Une hauteur de table. Un lit court.
+
+> **Le lecteur nommera lui-même, et ça frappera plus fort.**
+
+*Et l'asymétrie de langue joue en plus : **la scène de la planque, elle, a tous les mots** — c'est la vie d'avant, et l'interdit n° 11 n'y vaut pas. Deux caves, deux escaliers, et une seule des deux descriptions a le droit de dire ce qu'elle voit. C'est le faux raccord de langue du §4.7, à son endroit le plus chargé.*
+
+---
+
 ## 6. La cérémonie groupée
 
 **Un chapitre à part, en flash-back : sa propre naissance dans ce monde-ci.**
@@ -828,6 +868,13 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 
 ---
 
+# Tranché le 19 août 2026
+
+- [x] **Le repaire d'ici est une maison ordinaire, et la porte donne sur une cave aménagée.** Chez Joël, la même descente donne un mouroir et deux corps. **Le lecteur descend deux fois le même escalier et ouvre deux fois la même porte : la première fois deux corps, la seconde des couleurs — et le contraste est la révélation.** Section 5 quater, et [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md) §6.
+- [x] **La seconde fausse piste est trouvée, et elle ne fragilise pas le registre.** *Le registre ne connaît que les arrivées et il est infaillible ; ce qui vient après est ailleurs, sous le secret médical du jardin.* **C'était la condition de tout le §3 ci-dessus** — un registre faillible rendrait le mouvement 18 discutable. Voir [`le-parcours-de-l-enquete.md`](le-parcours-de-l-enquete.md) §4 ter.1.
+
+---
+
 # À trancher
 
 - [x] ~~Le nom de l'enquêteur est-il prononcé dans le texte ?~~ — **tranché le 14 août 2026** : une seule fois, à la poursuite finale, et nulle part ailleurs. Les fragments peuvent s'écrire. Voir §4.6 et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.
@@ -859,4 +906,6 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **Andrew relit-il vraiment la ligne du jour d'Eliott ?** La section 8.2 c) suppose qu'il y revient et qu'il y reconnaît un motif. À quel mouvement, et de sa propre initiative ou en cherchant autre chose ?
 - [ ] **La capsule pourrie du jour d'Eliott est-elle montrée à la première page, ou seulement inscrite ?** Vue de loin dans le couloir, mentionnée dans une phrase de service, ou uniquement présente sur la ligne qu'on relira plus tard. Les trois dosages ne donnent pas la même leçon de lecture.
 - [ ] **Le parallèle des deux ravisseurs se joue-t-il quelque part ?** L'assassin de la vie d'avant n'a jamais éclairci ; celui d'Eliott, qui n'a pas tué, éclaircira comme tout le monde. Ce document tient déjà les quatre capsules d'une seule journée — **faut-il que le livre pose les deux hommes côte à côte, ou le lecteur doit-il faire seul tout le trajet ?** Le barème reste hors du texte dans les deux cas. *⚠️ La question se complique depuis la section 8 : **Eliott a maintenant deux ravisseurs**, celui de la vie d'avant qui l'a tué et n'a jamais éclairci, et celui d'ici qui ne le tue pas et éclaircira comme tout le monde. Le même enfant, enlevé deux fois, et deux verdicts opposés. C'est peut-être le meilleur endroit du livre pour montrer le barème sans jamais l'énoncer — ou le plus démonstratif. Non tranché.* Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), « Le verdict qui l'attend ».
+- [ ] **Dans quel ordre le lecteur descend-il les deux escaliers ?** La section 5 quater suppose la planque d'abord et la cave ensuite — c'est l'ordre du récit, puisque le troisième temps des fragments (§4.3) porte la journée entière et qu'il tombe tard. **À vérifier contre le placement réel des deux scènes** : si la cave venait avant, le contraste jouerait dans l'autre sens et le livre se terminerait sur deux corps.
+- [ ] **Combien de plans pour la cave ?** Le mot est interdit de ce côté-ci, donc tout passe par ce qu'on voit. *Trop peu ne se comprend pas ; trop long fait de la scène un inventaire, et le lecteur a déjà nommé la pièce à la troisième ligne.* Section 5 quater.
 - [x] ~~La poursuite finale est-elle montrée ?~~ — **oui, la décision du nom l'implique** : c'est le fragment le plus tardif et le plus explicite du livre, et il porte l'unique occurrence du nom. Reste ouvert : sa longueur, et le nombre de plans qu'on lui donne avant l'accident.
