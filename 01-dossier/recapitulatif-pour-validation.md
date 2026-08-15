@@ -13,8 +13,13 @@
 > 1. Tout le monde revient à l'âge où il est parti.
 > 2. Tout le monde descend jusqu'à cinq ans — **le jardin**.
 > 3. La seule chose qui change d'une personne à l'autre, c'est le temps qu'on y reste.
+> 4. **Puis l'âge repart vers le bas. On meurt à zéro.**
 
-- **Plancher du corps : cinq ans.** Plancher du temps : **trente ans**, personne ne vit moins.
+> ⚠️ **Correction majeure du 15 août, à confirmer.** Le dossier supposait qu'on s'arrêtait à cinq ans définitivement. C'est faux : le jardin est un **plateau**, pas un terminus. Passé le plateau, quatre, trois, deux, un — et zéro.
+> Ta phrase en devient littérale : *on ne perd pas son innocence, on la regagne, et **on disparaît dedans**.* On descend en dessous de l'enfance, on rétrécit, on disparaît.
+
+- **Cinq ans est le plancher d'arrivée** — personne n'arrive en dessous. Ce n'est plus un plancher de descente.
+- Plancher du temps : **trente ans**, personne ne vit moins.
 - **La grâce est du temps au jardin**, proportionnelle à ce qui a été pris. Elle ne se voit pas : aucun barème n'est publié, personne ne sait qui a été gracié.
 - **L'irréparable n'a pas de capsule.** Le réparable revient à son âge, jardin ordinaire.
 
@@ -62,23 +67,52 @@ Ce qu'il vit, dans l'ordre :
 
 ---
 
-## 2. Les corrections à remonter dans le dossier maître
+## 2. Le dossier maître
 
-Je ne touche à rien tant que tu n'as pas validé. Git garde l'original.
+### Corrigé le 15 août, sur ta liste
+
+| § | Ce qui a changé |
+|---|---|
+| **§4** | La ménopause remplacée par des marqueurs valables pour tous : vue, audition, dents, articulations, os, cheveux. |
+| **§6** | Le prénom d'exemple retiré du barème social. |
+| **§7** | **Refondu en trois temps** — descente, plateau, décroissance jusqu'à zéro. Ton tableau de durées n'a pas été touché. |
+| **§8** | Le veilleur **constate sans formuler**. Et la consigne : la scène doit révulser d'abord, pour que le lecteur éprouve la satisfaction de la punition avant d'avoir à la juger. |
+| **§9 / §10** | Les premières leçons généralisées à tous les métiers ; les chuchoteurs élargis à tous les domaines. |
+| **§11** | *« Un pauvre ici devient riche là-bas »* supprimé. Le karma n'est pas matériel. |
+| **§12** | Andrew et Joël, ni débutant ni vétéran ; l'affaire résolue trop tard d'une heure ; la faute d'avoir cessé ; Erin, Eliott, Chrissy et Tania ; l'assassin qui meurt dans la poursuite. |
+
+### Encore en attente de ton feu vert
 
 | § | Ce qui est périmé | Ce qui le remplace |
 |---|---|---|
-| **§4** | *« ne parle pas »*, *« esprit d'un nourrisson »* | On sort **en sachant parler**. L'esprit est embrumé, pas vide. Le reste du §4 tient. |
-| **§7** | *« 5 ans → ~25 ans »* | **30 ans.** Et les durées du tableau deviennent les **durées ordinaires** : la grâce s'y ajoute. |
+| **§4** | *« ne parle pas »*, *« esprit d'un nourrisson »* | On sort **en sachant parler**. L'esprit est embrumé, pas vide. |
 | **§8** | *« c'est le moteur de l'intrigue »* | Le moteur est l'enlèvement. La multiplication devient **une critique laissée en suspens**. |
-| **§10** | *« l'Étale »* comme piste | **« Le jardin »**, tranché. Et à ajouter au lexique : **une paire**, **nom d'éclaircie**, pas de noms de famille, aucun mot de parenté. |
-| **§11** | *« un pauvre ici devient riche là-bas »* | Coupé. Le karma n'est pas matériel. La réparation prend la forme d'un **jardin allongé**. |
-| **§12** | *« Vétéran du métier »* | **Andrew.** Ni débutant ni vétéran : dix ans dans ce monde, plusieurs années de service. |
-| **§12** | *« Il ne l'a pas résolue »* | Il l'a résolue — **trop tard d'une heure**. Sa faute est d'avoir cessé de creuser, pas d'avoir échoué. |
-| **§12** | *« Elle — l'arrivante »* | **Erin.** Suspendue pour l'instant. |
-| **§13** | Le plan en 24 mouvements | **Caduc dans sa forme.** À reconstruire sur la nouvelle architecture — c'est le chantier suivant, pas une correction. |
-| **§15** | Plusieurs questions | Réglées : le nom du veilleur, les noms, l'Étale, ce que fait un veilleur au quotidien. |
-| **§16** | — | À enrichir des phrases nées en travaillant. Voir [`phrases-a-garder.md`](phrases-a-garder.md). |
+| **§10** | *« l'Étale »* comme piste | **« Le jardin »**. Et à ajouter : **une paire**, **nom d'éclaircie**, pas de noms de famille, aucun mot de parenté. |
+| **§13** | Le plan en 24 mouvements | **Caduc dans sa forme.** À reconstruire — c'est le chantier suivant, pas une correction. |
+| **§16** | — | À enrichir. Voir [`phrases-a-garder.md`](phrases-a-garder.md). |
+
+---
+
+## 2 bis. La seule chose que j'ai déduite sans que tu me la dises
+
+**La décroissance finale s'ajoute-t-elle à ton tableau du §7, ou s'y compte-t-elle ?**
+
+Tu m'as donné un point : arrivée à cinq ans, trente ans de vie, **vingt-cinq de plateau puis cinq à décroître**. Les cinq années de décroissance sont donc *dans* les trente. Si j'applique la même logique à tes autres lignes :
+
+| Arrive à | Descente | Plateau | Fin |
+|---:|---:|---:|---:|
+| 90 | 85 ans | **aucun** | 5 ans |
+| 62 | 57 ans | 7 ans | 5 ans |
+| 10 | 15 ans | 10 ans | 5 ans |
+| 5 | — | 25 ans | 5 ans |
+
+**Celui qui arrive à quatre-vingt-dix ans n'a alors aucun plateau.** Il touche cinq ans et repart aussitôt vers le bas — pas une seule année d'insouciance stable. Ce qui rendrait le grief des jaloux plus juste encore.
+
+L'autre lecture : la décroissance **s'ajoute**, tout le monde vit un peu plus longtemps que ce que dit ton tableau, et le grand chiffre garde ses cinq ans de plateau.
+
+**Les deux tiennent, et elles ne donnent pas le même monde.** C'est la question qui reste.
+
+Trois autres en découlent, plus petites : la vitesse de la décroissance (une marche par an ?), si plateau et fin sont liés, et **si les berceurs accompagnent aussi cette dernière phase** — leur métier était défini comme « jusqu'au dernier jour », et le dernier jour est maintenant en dessous de cinq ans.
 
 ---
 
