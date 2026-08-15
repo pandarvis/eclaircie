@@ -301,6 +301,46 @@ Le coupable est en train de fuir. Il se lance à sa poursuite en laissant ses co
 
 *C'est à l'instant où il s'élance que son partenaire lui crie dans le dos — **« Joël, non, attends ! »** —, unique occurrence de son nom dans tout le roman. Voir « Deux noms pour un homme » ci-dessus.*
 
+### Ce qui le met dans la voiture — tranché le 16 août 2026
+
+> **Décision de l'autrice.** *« Comme si les jumelles auraient pu être ses propres filles. Il veut voir cette raclure morte. C'est un véritable taureau qui voit rouge. »*
+>
+> *(Les mots de parenté sont permis ici : c'est la vie d'avant.)*
+
+**Devant les corps, la phrase revient** — celle qu'on lui a dite des semaines plus tôt : *on m'avait dit de laisser tomber, et je l'ai fait.*
+
+**Ce n'est pas de la tristesse. C'est un compte qui tombe.** Des jours identifiables, des heures pendant lesquelles il faisait autre chose, et une heure au bout. Rien de diffus, rien que quelqu'un puisse dissoudre.
+
+**Et la culpabilité se retourne en rage sous nos yeux**, dans la pièce, en quelques secondes. Puis il part.
+
+> **Il ne poursuit pas pour arrêter. Il poursuit pour tuer.**
+
+Ce n'est pas une interpellation qui dérape, ce n'est pas un excès de zèle, ce n'est pas l'élan du métier. **Il veut voir cet homme mort.** Un taureau qui voit rouge. Comme si les deux filles avaient pu être les siennes — et à cet instant-là, dans sa tête, elles le sont. **Il n'est plus lui-même**, et c'est la seule fois du livre où ça lui arrive.
+
+*Le cri du partenaire prend alors son sens plein : on n'essaie pas de retenir un collègue qui court après un fuyard, on essaie de retenir un homme qui va commettre quelque chose.*
+
+### Ce que la rage change — trois conséquences
+
+**1. Sa mort cesse d'être un accident et devient une conséquence.**
+
+Elle n'est plus la mauvaise chance d'une poursuite : **il meurt parce qu'il voulait tuer.** Ce qui le met dans cette voiture, à cette vitesse, c'est une intention, et elle est mauvaise. **Rien d'héroïque, aucun rachat possible.**
+
+C'est exactement ce que cette fiche cherchait depuis le début en interdisant que la scène ressemble à un sacrifice — **et c'est enfin obtenu par le contenu et non par des précautions d'écriture.** On n'a plus à empêcher le lecteur d'y lire une rédemption : **il n'y en a plus à y lire.** La sous-section « Ce que la scène ne doit jamais contenir » devient une conséquence du déroulé au lieu d'être une liste de garde-fous.
+
+**2. Ses deux fautes prennent la même forme.**
+
+Elles ne sont plus seulement inverses, elles sont identiques : **il a obéi quand il ne fallait pas ; puis il n'obéit plus à rien, pas même à lui-même.** Deux fois le même défaut — aucune mesure —, une fois en deçà et une fois au-delà. **Trop passif, puis trop. Et c'est la seconde qui le tue.**
+
+**3. Et le système le pardonne quand même.**
+
+**Il meurt en voulant tuer un homme.** Mais le verdict porte sur les actes, pas sur les intentions ([`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md)). Il n'a tué personne. Il revient donc **à soixante-deux ans, dossier ordinaire, réparable** — la ligne médiane, le verdict lambda.
+
+> **La même froideur qui absoudra le ravisseur d'Eliott absout Joël.**
+
+Un homme qui a enlevé sans tuer éclaircira comme tout le monde ; un homme qui a voulu tuer sans tuer revient à son âge de mort. **C'est le même barème, appliqué deux fois, sans état d'âme.** Le livre ne le dira jamais, et **le lecteur qui a compris le barème le calculera seul.**
+
+*Développement en [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) section 5 ter.*
+
 ### La contrainte que ça doit respecter
 
 **Ce qui est jugé, c'est la vie. Pas la mort.** L'Archiviste ne décide pas quand on meurt ; il décide seulement de ce qu'on reçoit ensuite. Mourir à 62 ans n'est ni une sanction, ni un signe, ni une absurdité : c'est une conjonction de facteurs et de paramètres précis à un instant précis. Un corps, un âge, des circonstances. Rien de plus.
@@ -321,6 +361,8 @@ On opposait jusqu'ici une chose à cette lecture : mourir en service, c'est risq
 
 Il laisse ses collègues sur place et part seul derrière un homme, non par courage mais parce qu'il n'a plus de mécanisme d'arrêt. L'excès le tue. **Ce n'est pas héroïque, c'est compulsif** — et un excès ne rachète rien : il constate.
 
+*Et depuis le 16 août 2026, l'objection ne peut même plus se poser : **il part pour tuer.** Il n'y a plus rien dans cette poursuite qu'un lecteur puisse prendre pour un sacrifice. Voir « Ce qui le met dans la voiture » ci-dessus.*
+
 ### Ce que la scène ne doit jamais contenir
 
 Rien, dans la poursuite, ne doit ressembler à un sacrifice.
@@ -336,10 +378,12 @@ La coïncidence avec la mort de l'assassin n'est pas non plus une justice : le �
 
 C'est ce qui fait tenir le portrait, et il faut l'écrire comme tel : **il est pris entre deux fautes de même nature, orientées à l'inverse.**
 
-| | La faute | Le contrecoup |
-|---|---|---|
-| **Au milieu de l'affaire** | il s'arrête quand on le lui dit | des semaines perdues, une heure de trop |
-| **À la fin de l'affaire** | il ne s'arrête plus, il poursuit seul | l'accident |
+| | La faute | La forme | Le contrecoup |
+|---|---|---|---|
+| **Au milieu de l'affaire** | **il obéit quand il ne fallait pas** | aucune mesure — il s'en remet entièrement à ce qu'on lui dit | des semaines perdues, une heure de trop |
+| **À la fin de l'affaire** | **il n'obéit plus à rien, pas même à lui-même** | aucune mesure — il ne s'en remet plus à rien | l'accident |
+
+> **Trop passif, puis trop. Et c'est la seconde qui le tue.**
 
 Entre les deux, aucune leçon apprise, aucune progression morale : le même homme, incapable de tenir la mesure, d'abord en deçà puis au-delà. Sa mort n'est pas la réponse à sa faute, **c'est sa faute vue de l'autre côté.**
 
@@ -353,18 +397,62 @@ Et c'est précisément pour ça que le mouvement 14 garde toute sa fonction. La 
 
 **Acquis :** au mouvement 13, quand on lui dit de lâcher l'affaire du garçon, quelque chose remonte de la fois où on le lui a dit pour les jumelles.
 
-### Le réglage obligatoire
+### Ce que dit le policier — tranché le 16 août 2026
+
+> **Ce n'est pas de la lassitude administrative. C'est un réaliste qui annonce une mort.**
+>
+> *« Lâche l'affaire. À l'heure qu'il est, les vers ont commencé le travail. »*
+
+**Le policier ne le renvoie pas : il lui dit une vérité sur les chances de survie de quelqu'un qu'on a enlevé.** Il n'est ni hostile, ni pressé, ni cynique — il est exact, et c'est son métier de l'être. **C'est ce qui le rend défendable, et c'est ce qui rend la phrase insoutenable.**
+
+**Ce que ça donne à Andrew : quelque chose de concret à refuser.** Une fin de non-recevoir se contourne ; un pronostic de mort, non — il se refuse ou il se croit. Le mouvement 14 cesse donc d'être une désobéissance de procédure pour devenir **un homme qui refuse un chiffre**, et c'est la seule forme que sa réparation puisse prendre.
+
+Développement complet en [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) section 5.3.
+
+### Le moteur moral — la même phrase, deux fois, fausse les deux fois
+
+**C'est ce que ce personnage porte, et il ne le sait jamais.**
+
+| | Quand | Ce qu'il en fait | Ce que ça donne |
+|---|---|---|---|
+| **Joël** | on la lui dit **alors que les filles sont encore vivantes** | **il obéit.** Des semaines | elles meurent **moins d'une heure** avant qu'il arrive |
+| **Andrew** | on la lui dit alors qu'Eliott est encore vivant | **il refuse** | **Eliott est vivant** |
+
+> **Celui qui l'a crue a perdu deux filles. Celui qui l'a refusée a sauvé un vivant.**
+
+**Personne ne le dit jamais dans le livre.** Ni lui, ni un personnage, ni le narrateur. **Le lecteur l'assemble seul**, et seulement à la fin, quand il sait qu'il y avait deux hommes.
+
+*Et la phrase n'était pas un mensonge : les deux policiers avaient raison sur le calcul et tort sur le cas. C'est toute la morale du livre, et elle ne parle ni de courage ni de vertu.*
+
+### Le réglage obligatoire — c'est le corps qui sait, pas lui
 
 **Il ne doit pas comprendre.** Le retournement est au mouvement 18 ; s'il se souvient consciemment au 13, le livre est dépensé cinq chapitres trop tôt.
 
 Ce qui remonte n'est donc **pas un souvenir : c'est une réplique.** Une phrase qui sort trop vite et trop juste, avec une amertume qui n'a pas d'objet dans cette vie-ci.
 
-Piste : il répond quelque chose comme **« C'est déjà ce qu'on m'a dit. »**
-Personne ne comprend — l'autre veilleur non plus, parce que dans cette vie-ci, personne ne le lui a jamais dit. Un blanc. Il enchaîne. Il n'y repense pas.
+Il répond quelque chose comme **« C'est déjà ce qu'on m'a dit. »**
 
-**La phrase a désormais un référent exact.** Depuis que la faute est tranchée, le *« on m'a dit »* renvoie à un moment daté et unique : la consigne d'arrêter de creuser, au milieu de l'affaire des jumelles. Ce n'est plus une amertume générale de métier, c'est la citation littérale d'une phrase entendue une fois, dans un autre monde. **Lui ne doit toujours rien comprendre** — le retournement reste au 18 — mais ce qui remonte n'est plus vague : c'est une phrase précise qui a coûté des semaines et deux vies.
+> **Calibrage validé par l'autrice, 16 août 2026.** *« Comme une migraine, quelque chose qui lui souffle un sentiment de déjà-vu sans que ce soit trop obvious. »*
+>
+> **Pas d'illumination.** Il dit la phrase, et **quelque chose se ferme dans sa tête.** Une pression, un blanc, deux secondes de trop. Il enchaîne. **C'est le corps qui sait, pas lui.**
 
-**Le lecteur, lui, garde la phrase.** Elle est reprise telle quelle au mouvement 18.
+**À écrire comme un symptôme, jamais comme une pensée.** Ça serre, ça ralentit, ça passe — un homme de son âge met ça sur le compte de la fatigue, et il a toutes les raisons du monde de le faire. Personne ne comprend, le policier ne relève pas ou relève à peine, il sort, il n'y repense pas.
+
+⚠️ **Toute formulation qui ferait de ce moment une prise de conscience est fausse et doit être corrigée**, y compris les formes atténuées — *il chasse l'idée*, *il refuse d'y penser*, *quelque chose lui échappe*. **Il n'y a aucune idée à chasser.**
+
+**La phrase a un référent exact, et c'est une donnée d'autrice.** Le *« on m'a dit »* renvoie à un moment daté et unique : la consigne d'arrêter de creuser, au milieu de l'affaire des jumelles. Ce n'est pas une amertume générale de métier, c'est la citation d'une phrase entendue une fois, dans un autre monde. Le référent sert à écrire la phrase juste ; **il ne se dit pas dans la scène.**
+
+**Le lecteur, lui, garde la phrase.**
+
+### Où la phrase revient — et elle ne se répète jamais
+
+> **Trouvaille de l'autrice, 16 août 2026.** *La phrase est dite **ici**, au commissariat. Elle est rappelée **là-bas**, plus tard, devant les corps.*
+
+**La scène de Joël se faisant dire de lâcher l'affaire n'est pas montrée.** Ce que le livre donne, c'est un homme debout dans une planque, devant deux corps, à qui la phrase revient.
+
+**Le lecteur, qui croit suivre un seul homme, y lit une continuité parfaite** — on lui a dit de lâcher, et maintenant ça lui revient — et **il n'a aucune répétition à repérer, parce qu'il n'y en a pas.** À la relecture : deux hommes, deux scènes, deux mondes.
+
+Dispositif complet en [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) section 5 bis, et [`../04-plan/faux-raccords.md`](../04-plan/faux-raccords.md) section 2 ter.
 
 ### Et ce que ça révèle sur l'architecture du livre
 
@@ -444,6 +532,10 @@ C'est ce qui donne sa forme à la fin du livre. Le pardon, ici, ne vient jamais 
 
 ## Reste à trouver
 
+- [x] ~~**Ce que dit exactement le policier du mouvement 13.**~~ — **tranché le 16 août 2026 :** *« Lâche l'affaire. À l'heure qu'il est, les vers ont commencé le travail. »* **Pas de lassitude : un réaliste qui annonce une mort.** Voir « La réplique ».
+- [x] ~~**Comment jouer la phrase dans les deux mondes sans que la répétition se voie ?**~~ — **tranché le 16 août 2026 : elle est dite ici, et rappelée là-bas, devant les corps.** Une seule scène jouée. Voir « Où la phrase revient ».
+- [x] ~~**Le degré de conscience au mouvement 13.**~~ — **tranché le 16 août 2026 : aucun.** Une migraine, une pression, deux secondes de trop. **C'est le corps qui sait, pas lui.**
+- [x] ~~**Pourquoi il se lance dans la poursuite finale.**~~ — **tranché le 16 août 2026 : la culpabilité se retourne en rage devant les corps, et il part pour tuer.** Voir « Ce qui le met dans la voiture ».
 - [x] ~~Le sort du nom « Joël » dans le texte.~~ — **tranché le 14 août 2026 : jamais prononcé, sauf une fois, à la poursuite finale**, crié par son partenaire. Voir « Deux noms pour un homme » ci-dessus.
 - [x] ~~Le nom du collègue qui crie.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle : **jamais écrit dans le roman**. Dans le texte, *son collègue*, *son partenaire*.
 - [x] ~~Ce qui le met dans l'affaire.~~ — **tranché le 15 août 2026 : rien ni personne.** Le signalement de June est supprimé ; il décide seul d'aller revoir l'enfant.

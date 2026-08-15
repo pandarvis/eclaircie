@@ -85,6 +85,58 @@ Ce qui ne coûte rien au **dispositif** coûte énormément à l'**écriture**. 
 
 ---
 
+# 2 ter. Un dispositif d'un genre nouveau — la continuité fabriquée
+
+> **Trouvaille de l'autrice, 16 août 2026.** Elle règle la réplique du poste de police, et elle ouvre bien plus large que ce cas-là.
+>
+> **Andrew se fait dire la phrase au commissariat. Joël se la rappelle, plus tard, devant les corps.** Développement complet en [`le-meme-jour.md`](le-meme-jour.md) section 5 bis.
+
+## Ce n'est ni un faux raccord du corps, ni un de la langue
+
+Les deux registres établis fonctionnent par **contradiction** : un poignet qui n'est pas le bon, une peau sans marque, une catégorie de mot qui manque. Le lecteur reçoit deux données incompatibles et ne s'en aperçoit qu'à la relecture.
+
+**Celui-ci fonctionne à l'envers.** Il ne donne aucune contradiction : il donne **une continuité**, et elle est fausse.
+
+| | Ce qui est semé | Ce que le lecteur fait |
+|---|---|---|
+| **Faux raccord du corps** | deux détails physiques incompatibles | il ne les rapproche pas — et, à la relecture, il voit deux corps |
+| **Faux raccord de la langue** | une catégorie de mots présente d'un côté, absente de l'autre | il ne compte pas les mots manquants — et, à la relecture, il voit deux langues |
+| **Continuité fabriquée** | **un fragment de vie A et un fragment de vie B, taillés pour s'emboîter** | **il les recoud en un seul souvenir, et il a tort** |
+
+> **Deux fragments de deux vies que le lecteur recoud lui-même, et la couture ne se voit pas parce que c'est lui qui l'a faite.**
+
+## Pourquoi c'est invisible, et c'est le point
+
+Une phrase dite au chapitre X, la même phrase rappelée au chapitre Y : c'est **la manière la plus ordinaire du monde d'articuler deux scènes.** Un romancier l'écrit sans y penser, un lecteur la lit sans y penser. Il n'y a rien d'anormal à signaler, rien à excuser, rien à remarquer — **et surtout aucune répétition à repérer, parce qu'il n'y en a pas.** La phrase n'est dite qu'une fois.
+
+À la relecture, la même page donne autre chose : deux hommes, deux scènes, deux mondes, et un souvenir qui n'appartenait à personne.
+
+## Ce que ça change aux règles de la section 3
+
+**Ce dispositif n'obéit pas au même régime, et il faut le dire nettement :**
+
+- **il ne se dose pas comme une paire** — il ne consomme pas l'un des trois ou quatre emplois de 3.5, parce qu'il ne produit aucun soupçon possible au premier passage. Rien n'est contradictoire, donc rien ne peut alerter ;
+- **la règle d'espacement (3.4) s'inverse.** Une paire doit être très écartée pour que le lecteur oublie le premier membre ; ici il faut **qu'il se souvienne**, sinon le rappel ne raccroche à rien. **Assez près pour que la couture prenne, assez loin pour qu'elle ne se regarde pas** ;
+- **la règle 3.4 bis est respectée sans effort** : rien n'est net, rien n'est reconstructible, et le lecteur n'a rien à faire de ce qu'il lit ;
+- **3.1 tient toujours** : personne, jamais, ne commente le rappel ni ne relève l'écho.
+
+## Et ça ouvre une famille de procédés à exploiter
+
+**C'est le vrai apport de la trouvaille : ce n'est pas un cas particulier, c'est une méthode.**
+
+Partout où une scène de ce monde-ci et un fragment de la vie d'avant peuvent s'emboîter **comme cause et effet, ou comme événement et souvenir**, on obtient la même chose : une continuité fausse, gratuite, invisible, et dévastatrice à la relecture. Pistes du même ordre, non retenues et non écrites :
+
+- **un geste appris ici, et refait là-bas** — le lecteur croit voir une habitude qui s'installe ;
+- **une question posée ici, et une réponse qui lui vient là-bas**, plus tard, comme si elle avait mûri ;
+- **une fatigue, une douleur, un réveil** attribués à ce qui vient d'arriver dans l'autre monde ;
+- **une décision prise ici et exécutée là-bas** — la plus dangereuse, parce qu'elle produit une chronologie, et une chronologie se vérifie.
+
+> **Et ça ne coûte rien.** Pas une paire consommée, pas une scène ajoutée, pas un mot d'explication, aucun risque au premier passage. **C'est le seul élément du dossier qui augmente le dispositif sans rien lui prendre.**
+
+*Réserve, et elle est la seule : plus il y en a, plus le récit se met à ressembler à un seul fil très serré — ce qui est le but au temps 1, et ce qui peut devenir une facilité au temps 2. Deux ou trois occurrences bien placées font plus qu'une série.*
+
+---
+
 # 3. Les règles d'usage
 
 *C'est le vrai contenu du document. Un faux raccord mal posé ne rate pas son effet : il abîme le livre, parce qu'il se lit comme une erreur.*
@@ -197,7 +249,7 @@ Ce que ça change, concrètement, pour ce document : **rien avant la dernière s
 
 - **L'ordre dans lequel il inspecte une pièce.** Le même parcours, à deux mondes de distance.
 - **Sa façon de reposer la même question autrement**, plus tard, sans annoncer qu'il la repose.
-- **Une phrase qui revient**, la même dans les deux récits — le voisinage direct de la réplique du poste de police établie par [`le-meme-jour.md`](le-meme-jour.md) §5.4.
+- **Une phrase qui revient** — ⚠️ **à corriger depuis le 16 août 2026 : la réplique du poste de police ne se dit pas deux fois.** Elle est dite une fois, ici, et **rappelée** là-bas, devant les corps. Ce n'est donc pas un reliquat gestuel mais une **continuité fabriquée** — voir la section 2 ter, et [`le-meme-jour.md`](le-meme-jour.md) section 5 bis. *Une phrase réellement répétée dans les deux récits reste possible comme reliquat, mais ce ne peut plus être celle-là.*
 - **Le fait de compter des choses.** Les marches, les portes, les jours ; §12 du dossier maître, l'homme qui calcule une date.
 
 *Ces quatre-là doivent se ressembler exactement. C'est leur ressemblance qui travaille, et elle travaille contre les faux raccords — c'est voulu.*
@@ -224,6 +276,9 @@ Ce que ça donne : le lecteur reçoit l'indice, le protagoniste ne reçoit aucun
 
 - [x] ~~Rien ne se sème avant que le nom soit tranché~~ — **tranché le 14 août 2026** ([`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2) : le nom ne se dit qu'une fois, à la poursuite finale. **Les faux raccords sont donc nécessaires et le semis peut commencer** — il n'y a plus rien à attendre.
 - [x] ~~**Le lecteur doit-il pouvoir reconstruire dès la première lecture, ou seulement à la seconde ?**~~ — **tranché le 15 août 2026 : seulement à la seconde.** Les faux raccords sont invisibles au premier passage et évidents au second ; **aucune paire nette avant la planque.** Section 3.4 bis, et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) section 1 bis.
+- [x] ~~**Comment jouer deux fois la réplique du poste de police sans que la répétition se voie ?**~~ — **tranché le 16 août 2026 : on ne la joue qu'une fois.** Dite ici, au commissariat ; **rappelée** là-bas, devant les corps. C'est **une continuité fabriquée** — un dispositif d'un genre nouveau, ni du corps ni de la langue. Section 2 ter, et [`le-meme-jour.md`](le-meme-jour.md) section 5 bis.
+- [ ] **La continuité fabriquée entre-t-elle dans le dosage de 3.5 ?** *La section 2 ter dit non — elle ne consomme aucune paire, puisqu'elle ne produit aucun soupçon au premier passage. À confirmer par l'autrice.*
+- [ ] **Combien d'occurrences de continuité fabriquée dans le livre ?** Une seule est acquise, la réplique. Deux ou trois bien placées valent mieux qu'une série. **Lesquelles, et où.** Section 2 ter.
 - [ ] **Le dosage exact** : trois paires ou quatre ? *La décision du 15 août 2026 fait pencher vers trois — voir 3.4 bis.*
 - [ ] **Quelles paires sont retenues.** La main et la cicatrice sont acquises si l'autrice les confirme ; laquelle ou lesquelles prendre dans la réserve de la section 4.1 ?
 - [ ] **Où placer la dernière paire.** Combien de chapitres avant la séquence de révélation, et faut-il qu'elle tombe avant ou après le doublon de scène ?

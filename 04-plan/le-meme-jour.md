@@ -20,7 +20,7 @@ Le lecteur doit croire, à ce moment-là, qu'on va les retrouver vivantes. C'est
 |---|---|
 | Les filles meurent dans la planque | Deux capsules apparaissent, à quelques travées d'écart |
 | Ils arrivent moins d'une heure plus tard | — |
-| Le coupable est en train de fuir ; il se lance à sa poursuite en laissant ses collègues sur place | — |
+| Devant les corps, la culpabilité se retourne en rage — **il part pour le tuer**, en laissant ses collègues sur place (§5 ter) | — |
 | Poursuite en voiture. Accident | — |
 | **Il meurt en même temps que l'assassin des jumelles** | Deux capsules de plus, le même jour, dans la même zone |
 
@@ -369,21 +369,57 @@ C'est la force de la scène, et il faut la laisser muette : **ce vide ne prouve 
 
 La troisième lecture — celle du lecteur — n'existe dans aucune langue de ce monde. **Le seul document qui contienne quelque chose sur cette affaire est un registre de veilleur, et il ne sait pas encore qu'il faut le lire.** La scène est donc un échec complet qui pointe exactement vers le mouvement 15.
 
-### 5.3 Le policier lui dit de lâcher l'affaire
+### 5.3 Le policier lui dit de lâcher l'affaire — et il annonce une mort
 
-**Pas par complot. Pas par secret. Par lassitude.**
+> **Tranché par l'autrice, 16 août 2026. Ce n'est pas de la lassitude administrative.** C'est **un réaliste qui annonce une mort.**
+>
+> **La réplique :** *« Lâche l'affaire. À l'heure qu'il est, les vers ont commencé le travail. »*
 
-Un veilleur sans mandat, sans dossier, sans plaignant, qui revient avec une histoire qui ne vient de nulle part et qui ne correspond à aucun signalement : on finit par lui demander poliment d'arrêter de faire perdre du temps. Le policier n'a rien à cacher, il n'est pas antipathique, il ne ment pas. Il a une journée à finir.
+**Le policier ne renvoie pas Andrew.** Il ne le congédie pas, il ne le trouve pas encombrant, il n'a pas une journée à finir. **Il lui dit une vérité sur les chances de survie de quelqu'un qu'on a enlevé** — et c'est un homme dont c'est le métier de savoir combien elles valent après un certain nombre de jours.
 
-**La banalité est ce qui rend la scène efficace.** Il n'y a pas d'adversaire, donc rien à vaincre, donc rien à interpréter. C'est le pendant exact de ce que l'interdit n° 8 impose pour la jalousie : le mur n'est pas quelqu'un.
+**C'est ce qui le rend défendable, et c'est ce qui rend la phrase insoutenable.** Un policier qui expédie un gêneur, on lui donne tort et on passe. Celui-ci a raison, statistiquement, professionnellement, et il n'y a rien à lui opposer que le refus d'y croire. Il n'est ni cruel ni cynique : il est exact. La brutalité n'est pas dans le ton, elle est dans le fait.
+
+**Ce que ça change, et c'est le gain de la décision :** Andrew reçoit **quelque chose de concret à refuser.** Une fin de non-recevoir administrative ne se refuse pas, elle se contourne ; un pronostic de mort, si. Le mouvement 14 cesse d'être une désobéissance de procédure pour devenir ce qu'il doit être : **un homme qui refuse un chiffre.**
+
+*L'interdit n° 8 tient toujours, et mieux qu'avant : **le mur n'est toujours pas quelqu'un.** Il n'y a rien à vaincre dans cette pièce, aucun adversaire, aucun secret — seulement un homme raisonnable qui dit ce que tout le monde sait. Ce qu'Andrew affronte, ce n'est pas le policier : c'est la probabilité.*
+
+*Note de vocabulaire, contraignante ici : la phrase doit se tenir **sans un mot de parenté et sans le mot « enfant »** ([interdit n° 11](../01-dossier/les-interdits.md)). Le policier parle d'un disparu de dix ans, d'un délai, d'un état de corps. La langue du monde le pousse d'elle-même vers le clinique, et le clinique est exactement le registre qu'il faut.*
+
+### 5.3 bis Le moteur moral du livre — la même phrase, deux fois, fausse les deux fois
+
+**C'est le cœur du dossier, et rien de tout cela ne se dit jamais dans le roman.**
+
+| | À qui | Quand | Ce qu'il en fait | Ce que ça donne |
+|---|---|---|---|---|
+| **Là-bas** | à **Joël**, au milieu de l'affaire | **les deux filles sont encore vivantes** | **il obéit.** Des semaines | elles meurent **moins d'une heure** avant qu'il arrive |
+| **Ici** | à **Andrew**, au poste, mouvement 13 | Eliott est encore vivant | **il refuse** | **Eliott est vivant** |
+
+> **La même phrase, dite deux fois, dans deux mondes, par le même genre d'homme — et fausse les deux fois.**
+> **Celui qui l'a crue a perdu deux filles. Celui qui l'a refusée a sauvé un vivant.**
+
+Ce que ça installe, et il faut le tenir jusqu'au bout :
+
+- **la phrase n'était pas un mensonge.** Personne n'a menti à Joël, personne ne ment à Andrew. Les deux policiers disaient ce qu'il fallait dire. Ils avaient raison sur le calcul et tort sur le cas — et **c'est exactement là qu'est la morale du livre**, qui n'a rien à voir avec le courage ou la vertu : un pronostic juste appliqué à quelqu'un est une phrase fausse ;
+- **le prix de l'obéissance est chiffré, et il tient dans une heure.** Ce n'est pas une faute d'appréciation, c'est un écart de temps ;
+- **et la réparation ne consiste pas à mieux enquêter.** Elle consiste à ne pas croire la phrase.
+
+> **Personne ne le dit jamais dans le livre.** Aucun personnage ne rapproche les deux scènes, le narrateur non plus, et Andrew moins que tous. **Le lecteur l'assemble seul** — et il ne peut l'assembler qu'à la fin, quand il sait qu'il y avait deux hommes.
+
+*C'est le régime habituel du dossier, poussé à son point le plus haut : la seule chose que le livre ait à dire est la seule chose qu'il ne dise nulle part.*
 
 ### 5.4 Et la phrase détonne
 
 C'est le déclenchement. **La même phrase, dans le même genre de pièce, dite par le même genre d'homme — dans deux mondes.**
 
-Ce qui remonte alors n'est pas un souvenir : **c'est une réplique.** Quelque chose comme *« C'est déjà ce qu'on m'a dit. »* Elle sort de lui, elle est juste, et personne dans la pièce ne peut la comprendre — **lui compris.** Blanc. Le policier ne relève pas, ou relève à peine. Il enchaîne, il sort, il n'y repense pas.
+Ce qui remonte alors n'est pas un souvenir : **c'est une réplique.** Quelque chose comme *« C'est déjà ce qu'on m'a dit. »* Elle sort de lui, elle est juste, et personne dans la pièce ne peut la comprendre — **lui compris.**
 
-⚠️ **Réglage impératif, déjà écrit et inchangé : il ne doit pas comprendre.** Le retournement est au 18. Le référent exact de la phrase est une donnée d'autrice — il sert à écrire la phrase juste, il ne se dit pas dans la scène. Voir [`incidences-2026-08-13.md`](incidences-2026-08-13.md) et la [fiche du veilleur](../03-personnages/andrew.md).
+> **Calibrage validé par l'autrice, 16 août 2026.** *« Comme une migraine, quelque chose qui lui souffle un sentiment de déjà-vu sans que ce soit trop obvious. »*
+>
+> **Pas d'illumination.** Il dit la phrase, et **quelque chose se ferme dans sa tête.** Une pression, un blanc, deux secondes de trop. Il enchaîne. **C'est le corps qui sait, pas lui.**
+
+**À écrire comme un symptôme, jamais comme une pensée.** Ce qui lui arrive a la forme d'une migraine qui monte : ça serre, ça ralentit, ça passe. Il n'a rien reconnu, rien retrouvé, rien soupçonné — il a eu deux secondes de moins bien dans un poste de police, et il n'y a rien là qu'un homme de son âge ne mette sur le compte de la fatigue. **Le policier ne relève pas, ou relève à peine.** Il enchaîne, il sort, il n'y repense pas.
+
+⚠️ **Réglage impératif, déjà écrit et renforcé : il ne doit pas comprendre.** Le retournement est au 18. Toute formulation qui ferait de ce moment une prise de conscience — même partielle, même refoulée, même « il chasse l'idée » — est fausse et doit être corrigée : **il n'y a aucune idée à chasser.** Le référent exact de la phrase est une donnée d'autrice ; il sert à écrire la phrase juste, il ne se dit pas dans la scène. Voir [`incidences-2026-08-13.md`](incidences-2026-08-13.md) et la [fiche du veilleur](../03-personnages/andrew.md).
 
 ### 5.5 L'écho exact — cop à cop, poste à poste
 
@@ -393,10 +429,12 @@ C'est ce qui fait la valeur du dispositif, et il faut l'écrire au plus serré :
 |---|---|
 | un poste de police | un poste de police |
 | un policier, un collègue, un supérieur du même métier | un policier du même métier |
-| *lâche l'affaire* | *lâchez l'affaire* |
+| *lâche l'affaire* — **et le fragment ne le montre pas : il s'en souvient** (§5 bis) | *lâchez l'affaire* — **dit devant Andrew, au comptoir** |
 | il obéit — c'est **la faute** | il n'obéit pas — c'est **la réparation** (mouvement 14) |
 
 **La rime est parfaite parce que les deux termes sont de même nature.** Une remontrance de sa hiérarchie de veilleurs n'aurait produit qu'une ressemblance vague : un supérieur qui tempère un subordonné, ça arrive dans tous les métiers, et le lecteur n'aurait rien senti se refermer. Là, c'est le même décor, le même uniforme, la même phrase et le même homme — à deux mondes de distance.
+
+**Mais la troisième ligne du tableau n'est pas symétrique, et c'est voulu.** Voir la section suivante : **une seule des deux scènes est jouée.**
 
 C'est aussi ce qui rend la parade de la section 4.6 tenable : le fragment qui répond à cette scène peut montrer un poste, une pièce, un homme qui dit d'arrêter — **et toujours pas de visage.**
 
@@ -417,11 +455,113 @@ C'est la « seconde forme de preuve » du §12 — la cuisinière qui cuisine, l
 | | Qui parle | Pourquoi | Effet |
 |---|---|---|---|
 | **Mouvement 4** | sa propre hiérarchie de veilleurs | **elle a peur** — un gosse de dix ans qui dit des choses impossibles, dans un climat où l'on parle de « libérer plus tôt » | elle veut étouffer l'histoire du garçon. Pression institutionnelle, motivée, datée du début du livre |
-| **Mouvement 13** | un policier de ce monde, un inconnu, une fois | **il est lassé** — pas de dossier, pas de plaignant, une journée à finir | **le déclenchement.** Aucun enjeu de pouvoir, aucune conséquence administrative |
+| **Mouvement 13** | un policier de ce monde, un inconnu, une fois | **il est réaliste** — il sait ce que vaut un disparu après un certain nombre de jours, et il le dit | **le déclenchement.** Aucun enjeu de pouvoir, aucune conséquence administrative, et **rien à lui reprocher** |
 
 La pression de sa hiérarchie **reste au mouvement 4** et garde sa fonction : elle installe le climat et la menace sur le garçon. Elle ne déclenche rien.
 
 Le poste de police **devient le mouvement 13**, et c'est lui qui déclenche. Il vient neuf mouvements plus loin, il vient de l'extérieur du service, et il ne ressemble en rien à ce qui a précédé — c'est pour ça que la phrase peut sortir.
+
+---
+
+## 5 bis. La couture — la phrase est dite ici, et rappelée là-bas
+
+**C'est la trouvaille de l'autrice du 16 août 2026, et elle règle à elle seule le problème le plus lourd du dispositif.**
+
+### Le problème qui se posait
+
+La phrase du policier est la plus marquante du livre, et elle doit exister dans les deux mondes : c'est ce qui fait toute la section 5.5. Or **une phrase pareille ne se répète pas impunément.** Un lecteur retient *les vers ont commencé le travail* ; s'il la lit deux fois, il la reconnaît, il se demande pourquoi elle revient, et il cherche — donc il trouve. Le procédé de [`deux-histoires-en-une.md`](deux-histoires-en-une.md) suppose l'inverse : **il doit croire jusqu'au bout qu'il suit une seule enquête.**
+
+Les parades envisagées — la dire autrement la seconde fois, l'atténuer, ne la donner qu'en résumé — coûtaient toutes quelque chose : soit l'écho, soit la force de la phrase.
+
+### La solution, et il n'y a rien à payer
+
+> **Andrew se fait dire la phrase au commissariat. Joël se la rappelle, plus tard, devant les corps.**
+
+**Une seule des deux scènes est jouée.** Le poste de police du mouvement 13 est écrit en entier, avec la réplique dedans. La scène symétrique de la vie d'avant — Joël au poste, à qui on dit la même chose — **n'est pas montrée.** Ce que le livre en donne, c'est **un homme debout dans une planque, devant deux corps, à qui la phrase revient.**
+
+### Pourquoi la couture est invisible
+
+**Le lecteur, qui croit suivre un seul homme, lit ça comme une continuité parfaite.** On lui a dit de lâcher l'affaire au chapitre précédent ; maintenant, dans la planque, ça lui revient. **C'est exactement ce que ferait un seul personnage** — et c'est ce qu'un romancier écrirait sans y penser, parce que c'est la manière la plus banale d'articuler deux scènes.
+
+> **Il n'y a donc aucune répétition à repérer, parce qu'il n'y en a pas.** Une phrase dite dans un monde, rappelée dans l'autre. Le lecteur n'a pas à excuser un doublon : il n'en voit aucun.
+
+**À la relecture, la même page donne autre chose :** deux hommes, deux scènes, deux mondes. La phrase que le second se rappelle, il ne l'a jamais entendue — c'est un autre qui l'a entendue, ailleurs, et l'un des deux est mort avant que l'autre arrive.
+
+### Ce que la couture fait gagner, point par point
+
+| Ce qu'on craignait | Ce qui se passe |
+|---|---|
+| La phrase se répète et se remarque | **elle ne se dit qu'une fois** |
+| Il faut affaiblir l'une des deux versions | **aucune des deux n'est affaiblie** : l'une est dite, l'autre est portée |
+| L'écho entre les deux mondes se perd | **il est plus serré qu'avant** : le rappel colle la phrase aux deux corps, ce qu'une seconde scène de commissariat n'aurait jamais fait |
+| Une scène de plus à écrire dans la vie d'avant | **une scène de moins** |
+
+**Et le rappel tombe au meilleur endroit possible.** Devant les corps, la phrase n'est plus une consigne : c'est un compte qui tombe. Voir la section 5 ter.
+
+*Conséquence sur le §4.3 : le fragment qui porte le rappel appartient au **troisième temps** — la journée entière, la planque, l'heure de retard. Il ne peut pas venir plus tôt, puisque son effet dépend de ce qu'il y a par terre dans la pièce.*
+
+*Et la contrainte du §4.6 est intacte : le fragment ne montre ni visage, ni nom, ni miroir. Un homme debout dans une pièce, une phrase qui lui revient, et rien qui le désigne.*
+
+**Ce dispositif est d'un genre nouveau — ni un faux raccord du corps, ni un de la langue. Voir [`faux-raccords.md`](faux-raccords.md), section 2 ter.**
+
+---
+
+## 5 ter. Devant les corps — la culpabilité se retourne en rage
+
+> **Décision de l'autrice, 16 août 2026.** *« Comme si les jumelles auraient pu être ses propres filles. Il veut voir cette raclure morte. C'est un véritable taureau qui voit rouge. »*
+>
+> *(Les mots de parenté sont permis ici : c'est la vie d'avant, et [l'interdit n° 11](../01-dossier/les-interdits.md) ne vaut que pour ce monde-ci.)*
+
+### La chaîne, dans l'ordre, et elle tient en une page
+
+1. **Il trouve la planque.** Les deux filles sont mortes depuis moins d'une heure.
+2. **La phrase revient** — celle qu'on lui a dite des semaines plus tôt, et à laquelle il a obéi. *On m'avait dit de laisser tomber, et je l'ai fait.*
+3. **Ce n'est pas de la tristesse.** C'est **un compte qui tombe** : des jours identifiables, des heures pendant lesquelles il faisait autre chose, et une heure au bout. Rien de diffus, rien de consolable.
+4. **La culpabilité se retourne en rage sous nos yeux**, dans la pièce, en quelques secondes, et le lecteur la voit tourner.
+5. **Il part.**
+
+### Ce qu'il va faire, et il faut l'écrire sans le déguiser
+
+> **Il ne poursuit pas pour arrêter. Il poursuit pour tuer.**
+
+Ce n'est pas une arrestation qui dérape, ce n'est pas un excès de zèle, ce n'est pas un homme emporté par l'élan. **Il veut voir cet homme mort.** Un taureau qui voit rouge. Comme si les deux filles avaient pu être les siennes — et à cet instant-là, dans sa tête, elles le sont.
+
+**Il n'est plus lui-même**, et c'est la seule fois du livre où ça lui arrive. *C'est aussi la dernière chose qu'il fait de son vivant.*
+
+*C'est ici que tombe le cri du partenaire — **« Joël, non, attends ! »** — et le cri prend son sens plein : on n'essaie pas de retenir un collègue qui va faire une interpellation, on essaie de retenir un homme qui va commettre quelque chose. Voir §1.*
+
+### Trois conséquences, et elles sont lourdes
+
+**1. Sa mort cesse d'être un accident et devient une conséquence.**
+
+Elle n'est plus la mauvaise chance d'une poursuite en voiture : **il meurt parce qu'il voulait tuer.** Ce qui le met dans cette voiture, à cette vitesse, sur cette route, c'est une intention, et elle est mauvaise. **Rien d'héroïque, et aucun rachat possible** — c'est exactement ce que [`../03-personnages/andrew.md`](../03-personnages/andrew.md) cherchait à obtenir depuis le début en interdisant que la scène ressemble à un sacrifice. La contrainte est enfin obtenue par le contenu, et non par des précautions d'écriture : on n'a plus besoin d'empêcher le lecteur d'y lire une rédemption, **il n'y en a plus à y lire.**
+
+**2. Ses deux fautes prennent la même forme.**
+
+Le tableau des deux fautes symétriques ne dit plus seulement « trop peu, puis trop » : il dit **la même chose deux fois.**
+
+| | Ce qu'il fait | La forme |
+|---|---|---|
+| **Au milieu de l'affaire** | **il obéit quand il ne fallait pas** | il n'a pas de mesure — il s'en remet entièrement à ce qu'on lui dit |
+| **À la fin de l'affaire** | **il n'obéit plus à rien, pas même à lui-même** | il n'a pas de mesure — il ne s'en remet plus à rien |
+
+> **Trop passif, puis trop. Et c'est la seconde qui le tue.**
+
+Entre les deux, aucune leçon apprise, aucune progression morale, aucune conversion : le même défaut, retourné. *Sa mort n'est pas la réponse à sa faute — c'est sa faute vue de l'autre côté.*
+
+**3. Et le système le pardonne quand même.**
+
+C'est le point le plus froid du dossier, et il ne se dit nulle part.
+
+Il meurt en voulant tuer un homme. **Le verdict, lui, porte sur les actes, pas sur les intentions** ([`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md)). Il n'a tué personne. Il revient donc **à soixante-deux ans, dossier ordinaire, réparable** — la ligne médiane, le verdict lambda du §2 ci-dessus.
+
+> **La même froideur qui absoudra le ravisseur d'Eliott absout Joël.**
+
+Un homme qui a enlevé et n'a pas tué éclaircira comme tout le monde ; un homme qui a voulu tuer et n'a pas tué revient à son âge de mort. **C'est le même barème, appliqué deux fois, sans état d'âme, et il tombe une fois du bon côté et une fois du mauvais.**
+
+**Le livre ne le dira jamais.** Aucun personnage ne compare les deux dossiers, aucun narrateur ne relève la symétrie, et l'Archiviste ne s'explique pas ([interdit n° 10](../01-dossier/les-interdits.md)). **Le lecteur qui a compris le barème le calculera seul** — c'est le même travail que celui demandé au §2, et c'est la dernière chose que le dispositif lui demande.
+
+*Renvoi : le parcours de la seconde enquête est tenu à part, dans [`le-parcours-de-l-enquete.md`](le-parcours-de-l-enquete.md).*
 
 ---
 
@@ -680,6 +820,11 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [x] **Le voile est aussi un poids** : on arrive voilé quand on n'est pas en paix, et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce, et elle ne se confirme jamais. Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §9 bis.
 - [x] **Le seuil de nommage se lit désormais « huit ans et en dessous »**, huit inclus, et non « moins de huit ans ». Section 2.
 - [x] **Chaque arrivant reçoit un numéro**, attribué par le veilleur en même temps que le nom est inscrit au registre. Commodité administrative, aucun sens, **on l'écrit sans y penser**. Conséquence ici : **le mouvement 18 devient une reconnaissance immédiate et non une déduction.** Section 3 bis, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
+- [x] **Le policier du mouvement 13 n'est pas lassé : il est réaliste, et il annonce une mort.** *« Lâche l'affaire. À l'heure qu'il est, les vers ont commencé le travail. »* Il a raison sur le calcul et tort sur le cas — et c'est ce qui rend la phrase défendable et insoutenable. Section 5.3.
+- [x] **Le moteur moral du livre : la même phrase, deux fois, fausse les deux fois.** Joël l'a crue et a perdu deux filles ; Andrew la refuse et Eliott est vivant. **Personne ne le dit jamais dans le livre.** Section 5.3 bis.
+- [x] **La couture : la phrase est dite ici, et rappelée là-bas.** Andrew se l'entend dire au commissariat ; Joël se la rappelle, plus tard, devant les corps. **Une seule scène jouée, donc aucune répétition à repérer.** Section 5 bis, et [`faux-raccords.md`](faux-raccords.md) section 2 ter.
+- [x] **Le calibrage sur Andrew : pas d'illumination.** Il dit la phrase, quelque chose se ferme — une migraine, une pression, deux secondes de trop — et il enchaîne. **C'est le corps qui sait, pas lui.** Section 5.4.
+- [x] **Devant les corps, la culpabilité se retourne en rage, et il poursuit pour tuer.** Sa mort devient une conséquence et non un accident ; ses deux fautes prennent la même forme ; **et le système le pardonne quand même.** Section 5 ter, et [`../03-personnages/andrew.md`](../03-personnages/andrew.md).
 
 ---
 
@@ -688,7 +833,8 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [x] ~~Le nom de l'enquêteur est-il prononcé dans le texte ?~~ — **tranché le 14 août 2026** : une seule fois, à la poursuite finale, et nulle part ailleurs. Les fragments peuvent s'écrire. Voir §4.6 et [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §2.
 - [ ] **La parade des fragments sans marqueur d'époque est-elle suffisante ?** La troisième personne règle l'ironie dramatique, pas l'interdit n° 2 : notre monde reste montré. Jusqu'où va-t-on dans le détail des lieux d'alors ?
 - [ ] **Combien de temps le lecteur doit-il ignorer qui est l'homme des fragments ?** Le mouvement 18 gagne à ce qu'il l'ait deviné un peu avant, pas dix chapitres avant. Où placer le premier indice recoupable ?
-- [ ] **Le poste de police est-il montré une fois ou deux ?** Une seule visite qui tourne court, ou un premier passage poli suivi d'un second où on se lasse ?
+- [ ] **Le poste de police est-il montré une fois ou deux ?** Une seule visite qui tourne court, ou un premier passage poli suivi d'un second où l'on finit par lui dire les choses ?
+- [ ] **La scène de Joël se faisant dire « lâche l'affaire » est-elle montrée en entier un jour ?** *La question reste ouverte, mais **elle n'est plus nécessaire** : la couture de la section 5 bis suffit, et elle suffit seule. Le rappel devant les corps porte tout ce que cette scène aurait porté, sans la répétition et sans le fragment supplémentaire. Si elle est un jour écrite, ce sera pour autre chose que pour l'écho — et il faudra alors rouvrir tout le §5 bis.*
 - [ ] **Le policier de ce monde a-t-il un pendant identifiable dans un fragment ?** Voir la piste facultative de l'écho — à ne pas appuyer si ça se voit. *Attention : « identifiable » ne peut jamais vouloir dire porter un prénom dans le fragment. La section 2 de [`deux-histoires-en-une.md`](deux-histoires-en-une.md) réserve l'unique nom prononcé du livre à la poursuite finale, et il est celui de l'enquêteur.*
 - [ ] **Ce qu'il demande exactement au comptoir**, et sous quel prétexte : un veilleur n'a aucun titre à enquêter sur une disparition. Dit-il d'où il tient l'histoire ? Et **comment nomme-t-il deux filles dont il n'a aucun nom** — jusqu'où va-t-il dans la description avant qu'on cesse de l'écouter ?
 - [ ] **L'aisance dans le poste** (section 5.6) : combien de gestes, et le narrateur peut-il en montrer un sans que le personnage le sente ?
