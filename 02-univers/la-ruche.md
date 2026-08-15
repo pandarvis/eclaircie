@@ -250,15 +250,40 @@ Rien de plus. Pas de délibération, pas de choix, pas de proposition, pas de li
 
 *Placement : le protocole vient après le relevé à l'instrument, dans le même mouvement de métier — la travée, l'âge, le nom. Trois choses à écrire sur une ligne, et un homme qui finit sa matinée.*
 
-### L'exception — les moins de huit ans
+### L'exception — huit ans et en dessous
+
+> **Précisé par l'autrice le 16 août 2026, et la précision change tout : le berceur nomme même si l'enfant sait parler et pourrait choisir.**
 
 **Le protocole ne s'applique pas à eux.**
 
-Un arrivant de moins de huit ans est **systématiquement accueilli par un veilleur** — ce n'est pas laissé au tour de rôle. Et **une berceuse est appelée** : c'est **elle** qui choisit le prénom.
+Un arrivant **de huit ans ou moins** est **systématiquement accueilli par un veilleur** — ce n'est pas laissé au tour de rôle. Et **un berceur est appelé : c'est lui qui choisit le prénom.**
 
-C'est la seule dérogation, et elle est de nature différente : ici le nom est bien donné par quelqu'un, et par quelqu'un qui va rester. Un très jeune arrivant ne deviendra jamais adulte ; il ira au jardin et il y restera. Le partage est le même que celui du berceur et du tuteur — *le tuteur instruit ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage* ([`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.6).
+**Ce n'est pas une question de capacité.** Un arrivant de six ans parle, comprend la phrase courte du veilleur, et produirait un mot si on le lui demandait. **On ne le lui demande pas.** C'est le protocole par défaut, il ne souffre pas d'exception, et personne dans le service ne se rappelle pourquoi il est ainsi.
 
-*Incidence, et elle est tranchée : **Chrissy et Tania sont mortes à dix-huit ans et arrivent à dix-huit ans.** Très au-dessus du seuil : elles relèvent du protocole ordinaire, et **ce sont elles qui ont produit leurs deux mots.** Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).*
+*Ce que le lecteur peut en penser et que le monde ne dira jamais : **c'est le seul endroit du système où l'on retire quelque chose à quelqu'un qui aurait pu l'avoir.** Le geste est administratif, il est doux, il se fait tous les jours, et il prive un enfant du seul mot de sa vie qu'il aurait produit lui-même. Aucun personnage ne le formule.*
+
+**Le seuil du nom est exactement le seuil du système.** Huit ans est le point vers lequel tout converge ([`ce-qui-est-juge.md`](ce-qui-est-juge.md)) ; huit ans est aussi la ligne au-dessus de laquelle on se nomme et en dessous de laquelle on est nommé. Personne n'a décidé de faire coïncider les deux : c'est ce que le service a fini par faire.
+
+**Et la dérogation est de nature différente :** ici le nom est bien donné par quelqu'un, et par quelqu'un qui va rester. Le partage est le même que celui du berceur et du tuteur — *le tuteur instruit ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage* ([`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.6).
+
+*⚠️ Ce document portait ici : **« un très jeune arrivant ne deviendra jamais adulte ; il ira au jardin et il y restera »**. **Les deux moitiés sont fausses.** On ne reste pas au jardin — on en repart vers le bas et on meurt à zéro. Et **un arrivant sous huit ans ne descend pas : il grandit jusqu'à huit**, à un an par an. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md).*
+
+**Deux incidences, et elles sont tranchées :**
+
+- **Chrissy et Tania** sont mortes à dix-huit ans et arrivent à dix-huit. Très au-dessus du seuil : protocole ordinaire, **ce sont elles qui ont produit leurs deux mots.** Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+- **Eliott** arrive à dix ans. **Deux ans au-dessus du seuil, et c'est tout ce qui l'en sépare** : il s'est nommé lui-même, devant un veilleur, le premier jour. Deux ans de moins et un berceur l'aurait fait pour lui. Voir [`../03-personnages/eliott.md`](../03-personnages/eliott.md).
+
+### Le tabou du berceur : on ne dit pas que la descente a commencé
+
+> **Décision de l'autrice, 16 août 2026. Elle appartient au métier de berceur ; elle est notée ici parce que c'est ici qu'est décrit le protocole.**
+
+**Quand un enfant bascule du plateau vers la descente, on ne le lui dit pas.** Il est trop petit et trop innocent pour qu'on lui pose cette bombe. **Les berceurs savent et se taisent.**
+
+> **C'est un métier dont la moitié consiste à ne pas dire.**
+
+Ils nomment au premier jour, ils accompagnent, et ils se taisent au dernier tiers. Rien de tout cela ne se voit : le corps n'annonce rien, sept ans ressemble à huit, et l'enfant n'a aucune raison de compter.
+
+*Développement dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md), « Le nom, et le tabou ». Fiche du métier : [`../03-personnages/june.md`](../03-personnages/june.md), hors périmètre de ce lot et à reprendre.*
 
 ### Le nom d'éclaircie — terme du monde
 
@@ -268,7 +293,7 @@ Le nom qu'un arrivant obtient à son arrivée s'appelle son **nom d'éclaircie**
 
 Le terme est ordinaire dans la langue d'ici — on ne le prononce pas plus souvent que nous ne disons « nom de baptême », et pour la même raison : tout le monde en a un, personne n'en a un autre, il n'y a rien à distinguer.
 
-*Ce que la décision du 15 août change au mot : le nom d'éclaircie n'est plus **reçu**, il est **produit**. Le veilleur ne le donne pas, il le recueille et il l'écrit. Le mot reste exact — c'est bien à l'éclaircie que le nom apparaît —, mais il ne désigne plus un don. **Sauf pour les moins de huit ans, où la berceuse choisit vraiment.** Une même expression pour deux gestes différents : c'est une langue normale.*
+*Ce que la décision du 15 août change au mot : le nom d'éclaircie n'est plus **reçu**, il est **produit**. Le veilleur ne le donne pas, il le recueille et il l'écrit. Le mot reste exact — c'est bien à l'éclaircie que le nom apparaît —, mais il ne désigne plus un don. **Sauf à huit ans et en dessous, où le berceur choisit vraiment.** Une même expression pour deux gestes différents : c'est une langue normale.*
 
 *Emploi dans le dossier : **Andrew**, **Chrissy** et **Tania** sont des noms d'éclaircie, fixés le même matin, à la cérémonie groupée de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §6. **Joël** n'en est pas un.*
 
@@ -335,7 +360,7 @@ Même jour, même âge, deux travées d'écart, un seul visage — et deux mots 
 
 > *« Dans ce monde il n'y a pas de nom de famille, car déjà la famille n'est pas un concept. »*
 
-**Personne, ici, n'a de nom de famille.** Ni particule, ni patronyme, ni nom d'usage, ni nom de maison. On a un prénom, un seul, et c'est celui qu'on a produit soi-même — ou, pour les moins de huit ans, celui qu'une berceuse a choisi.
+**Personne, ici, n'a de nom de famille.** Ni particule, ni patronyme, ni nom d'usage, ni nom de maison. On a un prénom, un seul, et c'est celui qu'on a produit soi-même — ou, à huit ans et en dessous, celui qu'un berceur a choisi.
 
 **La raison est mécanique, et elle était déjà là.** Il n'y a ni naissances, ni parents, ni sang, ni filiation : tout le monde est stérile et la ruche est la seule source d'arrivées (§4 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)). **Un nom hérité n'aurait rien à désigner.** C'est exactement le raisonnement qui vide le mot *jumeau* de son sens — voir [« Une paire »](#une-paire) —, appliqué cette fois à une catégorie entière du nom propre. La langue ne l'a jamais formée, faute d'objet.
 
@@ -469,7 +494,9 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **La correspondance des lieux.** Est-elle assez régulière pour qu'un veilleur l'ait remarquée sans pouvoir la nommer, ou reste-t-elle entièrement hors champ ?
 - [ ] **Qui consulte le registre en dehors des veilleurs ?** L'administration du mouvement 3 en tire des statistiques : par quel canal ?
 - [ ] **La taille de la ruche.** Combien de travées, combien de veilleurs — c'est-à-dire : le protagoniste travaille-t-il seul, ou dans une équipe qui le voit faire ?
-- [x] ~~**Qui nomme un arrivant ?**~~ — **tranché le 15 août 2026 : personne. L'arrivant se nomme lui-même**, et le veilleur inscrit le mot. Aucune des deux pistes documentées n'était la bonne ; elles sont supprimées. Exception : les moins de huit ans, nommés par une berceuse. Voir [« Qui nomme un arrivant »](#qui-nomme-un-arrivant).
+- [x] ~~**Qui nomme un arrivant ?**~~ — **tranché le 15 août 2026 : personne. L'arrivant se nomme lui-même**, et le veilleur inscrit le mot. Aucune des deux pistes documentées n'était la bonne ; elles sont supprimées. **Exception, précisée le 16 août : à huit ans et en dessous, un berceur nomme — même si l'enfant sait parler.** Voir [« Qui nomme un arrivant »](#qui-nomme-un-arrivant).
+- [ ] **Que fait le veilleur d'un arrivant de huit ans pile ?** Le seuil est inclusif — huit ans relève du berceur —, mais c'est aussi l'arrivant qui entre au jardin le premier jour, sans un an de vie ordinaire. Le protocole d'accueil est-il le même que pour un arrivant de six ans ? *Question neuve : ce cas n'existait pas avant le 16 août 2026.*
+- [ ] **Qui prend en charge un arrivant qui va grandir ?** Un arrivant de deux ans a six ans de croissance devant lui avant le jardin. Un berceur l'a nommé — est-ce lui qui le garde, ou un tuteur prend-il le relais quand l'enfant commence à pouvoir apprendre ? **Le partage berceur / tuteur n'avait pas prévu quelqu'un qui monte.**
 - [x] ~~Le nom de famille de l'affaire~~ — **tranché le 15 août 2026 : Sorel.** *« L'affaire Sorel. »* Deux syllabes, aucune couleur régionale, et ça se dit sans y penser — ce qu'il faut pour un mot qu'Andrew entendra sans pouvoir l'identifier.
 - [ ] **La phrase courte du veilleur.** Ce qu'il dit exactement pour expliquer ce qu'est un prénom, en une phrase, à quelqu'un qui vient de sortir. Elle sera prononcée au moins deux fois dans le livre — à la cérémonie d'ouverture, et à la cérémonie groupée — et il faut qu'elle soit la même les deux fois, usée comme une formule de métier.
 - [ ] **Que se passe-t-il quand le mot ne vient pas ?** Un arrivant qui ne répond rien, qui répond deux mots, qui répond une phrase entière, ou qui produit le même mot qu'un autre. Le protocole doit avoir une routine pour ça — **et elle doit rester banale**, du genre qu'on ne commente pas. À ne développer que si une scène en a besoin.
@@ -482,7 +509,9 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 
 *Réglé : jusqu'où remontent les registres, et depuis combien de temps ça dure — non, et personne ne sait. Voir la section correspondante.*
 
-*Réglé : qui nomme un arrivant — **il se nomme lui-même**, le veilleur demande et inscrit ; une berceuse nomme les moins de huit ans. Voir [« Qui nomme un arrivant »](#qui-nomme-un-arrivant).*
+*Réglé : qui nomme un arrivant — **il se nomme lui-même**, le veilleur demande et inscrit ; **un berceur nomme à huit ans et en dessous**, même si l'enfant sait parler. Voir [« Qui nomme un arrivant »](#qui-nomme-un-arrivant).*
+
+*Réglé : **on ne dit pas à un enfant qu'il a quitté le plateau.** Les berceurs savent et se taisent. Voir [« Le tabou du berceur »](#le-tabou-du-berceur--on-ne-dit-pas-que-la-descente-a-commencé).*
 
 *Réglé : **il n'y a pas de noms de famille dans ce monde**, et la règle n'est jamais énoncée dans le roman. Voir [« Il n'y a pas de noms de famille »](#il-ny-a-pas-de-noms-de-famille).*
 

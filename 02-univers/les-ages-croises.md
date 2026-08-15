@@ -32,6 +32,17 @@ Le décompte du couple central, d'un monde à l'autre.
 
 Taux de descente à cet étage du barème : **1 an vécu = 1 an de moins** (le dossier maître donne 1:1 au-dessus de 50 ans).
 
+> **⚠️ Recalcul du 16 août 2026 — le jardin est à huit ans, pas à cinq.**
+>
+> | | Marches | Descente |
+> |---|---:|---:|
+> | **Lui**, arrivé à 62 | **54** | **54 ans** |
+> | **Erin**, arrivée à 64 | **56** | **56 ans** |
+>
+> *Les valeurs antérieures — 57 et 59 ans — étaient calculées sur un palier à cinq ans. **Elles sont fausses de trois ans chacune**, et toute la table du décompte a été refaite. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md).*
+>
+> **Et les deux sont des grands chiffres : leur fin est incertaine.** Ni la durée de leur plateau, ni celle de leur descente finale ne sont fixées, et rien ne les leur promet. C'est la décision du 16 août — *j'aimerais que les gros chiffres voient leur fin incertaine* —, et elle a une conséquence directe sur ce document, énoncée plus bas.
+
 ### Son nom d'éclaircie est Erin
 
 **Décision de l'autrice, 15 août 2026 — conditionnelle et suffisante.** Si l'histoire d'amour revient dans le livre, **elle s'appelle Erin dans ce monde-ci.**
@@ -54,37 +65,51 @@ Année 0 = son arrivée à lui.
 | 10 | **52** | **64** | Erin arrive, à l'âge auquel elle est morte. Il est veilleur depuis peu. **Elle a douze ans de plus que lui.** |
 | 20 | 42 | **54** | **Le repère.** Erin a exactement l'âge qu'elle avait le jour où il est mort. Dix ans après son arrivée. |
 | 32 | 30 | 42 | Elle a l'âge qu'il avait, lui, au moment du repère. La descente continue ; rien ne s'est refermé. |
-| 57 | **5** | 17 | Il entre au jardin. Erin est loin derrière, très au-dessus. |
-| 69 | **5** — fin de son plateau | **5** | Erin entre au jardin l'année même où il en sort. **Le seul et unique instant où ils ont le même âge.** |
-| après 69 | 4, 3, 2, 1… | 5 | **Il passe sous elle.** Pour la première fois de deux vies, c'est lui le plus jeune — et il s'éloigne par le bas pendant qu'elle reste au palier. |
-| — | **0** — il disparaît | 5 | **Date non fixée.** Elle est encore au jardin quand il s'en va. |
-| — | — | puis 4, 3, 2, 1, **0** | Elle quitte le plateau à son tour, et disparaît. **Non chiffré.** |
+| **54** | **8** | 20 | **Il entre au jardin.** Erin est loin derrière, très au-dessus. |
+| **66** | **8**, *s'il y est encore* | **8** | **Erin entre au jardin, douze ans après lui.** S'il n'a pas quitté le plateau, **c'est la seule année de deux vies où ils ont le même âge.** |
+| — | 7, 6, 5, 4… | — | Il quitte le plateau et descend. **Date non fixée, et elle ne peut pas l'être.** |
+| — | **0** — il disparaît | — | **Non chiffré.** |
+| — | — | puis 7, 6, 5, 4… **0** | Elle quitte le plateau à son tour, et disparaît. **Non chiffré.** |
 
-*(Méthode : arrivée à 62 ≈ 69 ans jusqu'à la fin du plateau — 57 ans de descente, puis une douzaine de plateau au jardin ; arrivée à 64 ≈ 70 ans — 59 de descente, puis une douzaine de plateau. **Chiffres exacts à ajuster : c'est la forme qui compte**, pas la décimale.)*
+*(Méthode : arrivée à 62 → 54 marches à une par an → 54 ans de descente. Arrivée à 64 → 56 marches → 56 ans. **Rien d'autre n'est calculable** : ni la durée du plateau, ni celle de la fin.)*
 
-> **⚠️ Correction majeure du 15 août 2026 — cette table portait deux erreurs.**
+> **⚠️ Double correction, 15 et 16 août 2026. Cette table portait trois erreurs.**
 >
-> Elle disait *« il s'éteint »* à l'année 69 et *« elle s'éteint »* à l'année 80. **Personne ne s'éteint à cinq ans.** Le jardin est un plateau : on y arrive, on y reste, **puis on en repart vers le bas et on meurt à zéro.** Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md), « La correction majeure ».
->
-> **La durée et la vitesse de cette dernière phase ne sont pas fixées**, ni pour lui, ni pour elle. Les deux dernières lignes du tableau n'ont donc pas d'année, et il ne faut pas leur en inventer une. *Reste également à trancher si les totaux de 69 et 70 ans comprennent déjà la décroissance ou s'ajoutent à elle.*
+> 1. Elle disait *« il s'éteint »* et *« elle s'éteint »* au palier. **Personne ne s'éteint au jardin** : on en repart vers le bas et on meurt à zéro.
+> 2. Elle calculait sur un **palier à cinq ans**. C'est **huit** — trois marches de moins pour chacun, donc trois ans de descente en moins.
+> 3. Elle donnait **une douzaine d'années de plateau** et des totaux de **69 et 70 ans**. **Ces chiffres n'ont jamais été des données d'autrice**, et depuis le 16 août ils sont proscrits : la fin des grands chiffres est indatable par règle. **Ne pas les réécrire.**
 
-### Ce que la correction fait à cette table, et c'est considérable
+### Ce que le recalcul fait à cette table, et c'est considérable
 
-**L'ancienne lecture** : ils atteignent le même âge une seule fois, et cet instant est l'instant de sa mort à lui. Une coïncidence cruelle, refermée d'un coup.
+**Première lecture** (avant le 15 août) : ils atteignent le même âge une seule fois, et cet instant est celui de sa mort à lui. Une coïncidence cruelle, refermée d'un coup.
 
-**La nouvelle** : l'année 69 n'est plus une fin, **c'est un croisement.** Ils sont au même âge une année — puis il passe dessous.
+**Deuxième lecture** (15 août) : ce n'était pas une fin mais **un croisement** — même âge une année, puis il passe dessous.
 
-> **Il aura été plus vieux qu'elle toute sa vie d'avant, plus jeune qu'elle toute sa vie d'ici, et exactement son égal une seule année.**
+**Troisième lecture, et c'est celle qui tient : le croisement n'est plus garanti.**
 
-Et l'écart continue de se creuser après le croisement, dans l'autre sens : il descend vers zéro pendant qu'elle est immobile au palier. **La femme qu'il a aimée le regarde devenir un nourrisson.** Ni elle ni lui n'ont les moyens de savoir ce que c'est.
+Il entre au jardin à l'année 54. Elle y entre à l'année 66. **Douze ans les séparent, et il faudrait que son plateau à lui dure au moins douze ans pour qu'ils s'y trouvent ensemble une seule année.**
 
-*C'est plus dur que ce que la table disait, et ça ne demande aucun chiffre supplémentaire : le croisement, lui, était déjà calculé.*
+> **Personne ne sait combien de temps dure un plateau, et la fin d'un grand chiffre n'est pas datable. La seule année où ils auraient eu le même âge est donc exactement l'année que le système refuse de promettre.**
+
+Trois issues, toutes possibles, et **aucune ne doit être tranchée** :
+
+| Si son plateau dure | Ce qui a lieu |
+|---|---|
+| **plus de douze ans** | ils ont huit ans tous les deux, une année. Puis il passe dessous et s'éloigne par le bas pendant qu'elle reste au plateau |
+| **douze ans juste** | ils se croisent sur le seuil, elle entrant, lui sortant — une saison, peut-être moins |
+| **moins de douze ans** | **ils ne se rejoignent jamais.** Il a commencé à descendre avant qu'elle arrive, et l'écart n'a jamais cessé de se creuser d'un bout à l'autre de deux vies |
+
+> **Il aura été plus vieux qu'elle toute sa vie d'avant, plus jeune qu'elle toute sa vie d'ici — et la seule année où ils auraient pu être égaux n'est promise à personne.**
+
+*C'est plus dur que ce que la table disait, et ça ne coûte aucun chiffre : c'est l'incertitude elle-même qui fait le travail. Le lecteur qui sait compter ne peut plus compter jusqu'au bout, exactement comme les personnages.*
+
+**Et dans les deux premières issues, l'image reste :** il descend vers zéro pendant qu'elle est immobile au plateau. **La femme qu'il a aimée le regarde devenir un nourrisson.** Ni elle ni lui n'ont les moyens de savoir ce que c'est.
 
 **Les dix premières années.** Il sort vide et il reprend tout à zéro : un tuteur, une reprise accélérée de l'école, puis des tuteurs dans son travail. Il devient veilleur. Le partage entre l'apprentissage et le service n'est pas chiffré et ne doit pas l'être. Ce qu'il faut retenir : **au début du roman, il n'est ni un débutant ni un vétéran** — plusieurs années de service, assez pour n'être plus le dernier arrivé. Voir [`../03-personnages/andrew.md`](../03-personnages/andrew.md).
 
 ### Ce que l'année 20 est, et ce qu'elle n'est pas
 
-**Il la reconnaît dès qu'elle sort de la capsule.** Pas l'année 20, pas au bout d'un délai : à la seconde où le couvercle s'ouvre, au mouvement 5. Douze ans de plus que lui ne défont pas un visage. Et il continuera de la reconnaître ensuite, à 54 ans, à 40, à 20, à 5 — les traits ne s'effacent pas, ils rajeunissent. **Il la reconnaîtra toujours.**
+**Il la reconnaît dès qu'elle sort de la capsule.** Pas l'année 20, pas au bout d'un délai : à la seconde où le couvercle s'ouvre, au mouvement 5. Douze ans de plus que lui ne défont pas un visage. Et il continuera de la reconnaître ensuite, à 54 ans, à 40, à 20, à 8 — les traits ne s'effacent pas, ils rajeunissent. **Il la reconnaîtra toujours.**
 
 L'année 20 n'ouvre donc aucune fenêtre et n'en ferme aucune. Elle marque une seule chose : le moment où elle a exactement l'âge qu'elle avait le jour où il est mort. Il en a 42. C'est un état de fait arithmétique, qui n'oblige personne à rien.
 
@@ -121,27 +146,39 @@ Ce n'est pas le même écart retourné, c'est un autre écart, dans l'autre sens
 
 ### 3. Le jardin ne leur laisse même pas ça
 
-**Le jardin**, dans ce monde, c'est l'âge de cinq ans où la descente s'interrompt (le palier du barème) : on ne rajeunit plus, on reste là quelques années — **puis on repart vers le bas, et on meurt à zéro.** On dit d'un vieillard de cinq ans qu'il est au jardin. *« Il est au jardin depuis huit ans. »*
+**Le jardin**, dans ce monde, c'est **l'âge de huit ans** où la descente s'interrompt : on ne rajeunit plus, on reste là un temps variable — **puis on repart vers le bas, et on meurt à zéro.** On dit d'un vieillard de huit ans qu'il est au jardin. *« Il est au jardin depuis huit ans. »*
 
-*Correction du 15 août 2026 : cette section disait *« on reste là quelques années, puis on s'éteint »*. **Le jardin n'est pas un terminus, c'est un plateau.***
+*Deux corrections. **15 août :** le jardin n'est pas un terminus, c'est un plateau. **16 août :** ce n'est pas cinq ans, c'est huit — et **on peut y arriver par le bas**, en grandissant, ce qui ne concerne ni lui ni elle.*
 
-Il y entre douze ans avant Erin. Et comme le plateau ne dure qu'une douzaine d'années, **il en repart à peu près au moment où elle y arrive**. Le seul instant de deux vies où ils ont le même âge est celui où il en sort : ils se croisent sur le seuil, une année, peut-être moins — **elle entrant, lui sortant par le bas.**
+Il y entre **douze ans avant Erin**, et c'est tout ce que l'arithmétique donne. **Combien de temps il y reste n'est pas une donnée** : c'est un grand chiffre, et un grand chiffre n'a aucune durée promise.
 
 Sauf que le dossier pose aussi : *« la mémoire s'allège en descendant ; les mourants sont ceux qui ne peuvent plus témoigner. »*
 
-Donc même cet instant-là ne vaut rien : **il a tout perdu** — l'enquête, le voile, les jumelles, elle. Ce qu'il aura passé un livre entier à se rappeler, le jardin le lui reprend, et il le lui reprend avant de la lui rendre.
+**Et une décision du 16 août va plus loin :** on peut supposer, sans jamais le vérifier, que **les reliquats disparaissent une fois qu'on a rejoint le jardin** — la dernière grâce, l'oubli accordé. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md), « Le voile, et ce que le jardin en fait ».
+
+Donc l'instant, s'il a lieu, ne vaut rien : **il aura tout perdu** — l'enquête, le voile, les deux visages, elle. Ce qu'il aura passé un livre entier à se rappeler, le jardin le lui reprend, et **il le lui reprend avant de la lui rendre.**
+
+> **Elle entre au jardin douze ans après lui, et s'il l'y voit encore, il ne sait plus qui elle est.**
+
+*C'est la conséquence la plus dure du dossier, et elle est arithmétiquement gratuite : elle ne demande pas un chiffre de plus.*
 
 > **Question ouverte à trancher :** est-ce que le roman va jusque-là ?
 > Le mouvement 24 s'arrête au moment où elle dépasse le visage. La suite est arithmétiquement vraie qu'on l'écrive ou non. On peut la laisser hors champ et lui faire porter tout son poids — le lecteur calculera. Ou en faire une dernière page insoutenable.
 > *Recommandation : hors champ. Le lecteur ira plus loin que l'autrice.*
 >
-> **Et « jusque-là » va désormais plus loin qu'on ne le croyait.** L'ancienne fin de la table était le croisement de l'année 69 ; il y a maintenant, derrière, une descente sous cinq ans et une disparition à zéro. **La recommandation ne change pas — elle se renforce** : plus il y a de choses vraies après la dernière page, plus il y a de raisons de ne pas les écrire.
+> **Et « jusque-là » va désormais plus loin qu'on ne le croyait.** L'ancienne fin de la table était un croisement daté ; il y a maintenant, derrière, un plateau de durée inconnue, une descente sous huit ans, une perte de la parole vers quatre, et une disparition à zéro. **La recommandation ne change pas — elle se renforce** : plus il y a de choses vraies après la dernière page, plus il y a de raisons de ne pas les écrire.
+>
+> *Et depuis le 16 août, une raison de plus, décisive : **la fin d'un grand chiffre est indatable par règle.** Écrire la sienne reviendrait à la fixer, donc à contredire le système au moment même où le livre s'achève.*
 
-### 4. Il part le premier. Encore.
+### 4. Il part le premier — probablement, et plus jamais sûrement
 
-Il quitte le plateau une dizaine d'années avant qu'elle y entre, et il disparaît le premier, comme il est mort dix ans avant elle. Le même délai, la même deuxième place pour elle, la même vie de survivante.
+Il est mort dix ans avant elle. Il est arrivé dix ans avant elle. Il entre au jardin douze ans avant elle. **Trois fois devant, et les trois sont calculées.**
 
-*L'écart exact entre les deux disparitions n'est pas calculable tant que la durée de la décroissance n'est pas fixée. **Ce qui est acquis, c'est l'ordre** : il part devant, une troisième fois.* Rien n'a été corrigé de ce côté-là : un écart d'âge n'est ni un tort ni une blessure, le registre ne l'enregistre pas, et le système n'a donc aucune raison de le défaire.
+**La quatrième ne l'est plus.** Qui disparaît le premier dépend de deux durées que le système ne promet à personne : la longueur de son plateau à lui, la longueur du sien à elle. Il partirait devant si les plateaux se ressemblaient — et rien ne dit qu'ils se ressemblent.
+
+> **Ce qui est acquis, c'est l'avance. Ce qui ne l'est plus, c'est l'ordre d'arrivée au bout.**
+
+*C'est un gain, pas une perte : le document n'a plus à porter une quatrième symétrie, et l'ancienne formule — « il part devant, une troisième fois » — devenait une régularité, c'est-à-dire exactement ce que le §11 interdit.* Rien n'a été corrigé de ce côté-là par le système : un écart d'âge n'est ni un tort ni une blessure, le registre ne l'enregistre pas, et le système n'a aucune raison de le défaire.
 
 Si un monde suit celui-ci, le même décalage y repartira, et l'écart des âges s'y creusera encore. **On se reverra** est donc vrai, et ne promet rien de plus que ça : se revoir, toujours décalés, indéfiniment.
 

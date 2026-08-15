@@ -24,9 +24,37 @@
 
 Les berceurs et berceuses **accompagnent ceux qui sont au jardin, jusqu'au dernier jour** (§10 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)). Métier financé, organisé, respecté : ici, personne n'atteint sa fin autrement que par eux.
 
-**Une berceuse est appelée à chaque arrivée de moins de huit ans, et c'est elle qui choisit le prénom de ces enfants-là.** On ne demande rien à un arrivant de cet âge : on va chercher quelqu'un, et ce quelqu'un décide en quelques secondes. C'est une tâche de service dans une matinée de service, et personne ne trouve ça grave.
+### Le seuil de nommage — huit ans et en dessous
 
-**Mais Eliott est arrivé à dix ans.** Il était au-dessus du seuil : on lui a posé la question comme à tout le monde, et **il s'est nommé lui-même**. June arrive après le registre, pas avant — elle ne l'a pas nommé. S'il relève d'une berceuse et non d'un tuteur, c'est qu'il descend et ne deviendra jamais adulte : il n'a rien à apprendre pour une vie active. **À écrire comme une évidence du monde, jamais comme une explication.**
+> **Correction du 16 août 2026.** Le seuil se lit désormais ainsi : **une berceuse est appelée à chaque arrivée de huit ans ou moins, et c'est elle qui choisit le prénom de ces arrivants-là.** *La fiche portait « moins de huit ans » ; c'est huit ans inclus.*
+
+On ne demande rien à un arrivant de cet âge : on va chercher quelqu'un, et ce quelqu'un décide en quelques secondes. C'est une tâche de service dans une matinée de service, et personne ne trouve ça grave.
+
+**Et le chiffre n'est pas arbitraire : huit ans est l'âge du jardin.** Qui arrive à huit pile y entre directement — donc le berceur qu'on appelle pour l'accompagner est **le même** qui vient de le nommer. Qui arrive en dessous **grandit** jusqu'à huit, à un an par an, et le rejoindra. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+
+> **Le seuil de nommage et le seuil du jardin sont le même chiffre.** Ce n'est jamais énoncé dans le roman, et personne dans le monde ne le remarque : c'est simplement la ligne à partir de laquelle un arrivant relève des berceurs.
+
+**Mais Eliott est arrivé à dix ans.** Il était **au-dessus** du seuil : on lui a posé la question comme à tout le monde, et **il s'est nommé lui-même**. June arrive après le registre, pas avant — elle ne l'a pas nommé. S'il relève d'une berceuse et non d'un tuteur, c'est qu'il descend et ne deviendra jamais adulte : il n'a rien à apprendre pour une vie active. **À écrire comme une évidence du monde, jamais comme une explication.**
+
+---
+
+## 1 bis. Le tabou — ce que son métier lui demande de taire
+
+> **Décision de l'autrice, 16 août 2026.**
+>
+> **Quand un enfant bascule du plateau vers la descente, on ne le lui dit pas. Les berceurs savent, et ils se taisent.**
+
+**C'est le seul endroit du monde où quelqu'un détient une information et la garde.** Partout ailleurs, personne ne sait rien : pas de barème publié, pas de durée ordinaire connue, rien à cacher parce qu'il n'y a rien à consulter. **Ici, il y a un savoir, il est détenu par un corps de métier, et il ne remonte jamais à l'intéressé.**
+
+Ce que ça fait à la fiche, et ce n'est pas mince pour un personnage de passage :
+
+- **Son métier change de nature sans changer de définition.** *Accompagner ceux qui sont au jardin jusqu'au dernier jour* devient aussi : **savoir quel jour c'est, et ne pas le dire.**
+- **Elle n'est pas une menteuse, et il ne faut jamais l'écrire comme telle.** Elle fait ce que fait tout le monde dans son métier, elle l'a appris ainsi, et elle n'a jamais eu à se demander si c'était bien. **C'est une évidence de service**, exactement comme le reste.
+- **Le corps ne la trahit pas.** L'appareil du relevé lit huit ans, et il lit huit ans dans les deux sens — celui qui vient d'arriver au plateau et celui qui va en repartir donnent le même chiffre. **L'information n'est pas sur l'enfant, elle est dans le registre**, et un enfant du jardin ne lit pas de registre.
+
+*À l'écriture, la règle absolue : **ne jamais lui faire dire qu'elle se tait.** Le tabou ne se formule pas — il se voit à ce que personne, jamais, ne répond à cette question-là. Une seule réplique qui l'énoncerait ferait du monde un système lisible, et l'interdit n° 3 tomberait avec.*
+
+**Et c'est ce qui charge l'épilogue si elle y est.** Andrew regarde l'enfant entrer au jardin en sachant ce que c'est, et il se tait. **June, elle, se tait par métier** — et c'est la seule personne de la pièce pour qui ce silence est une habitude. Voir [`eliott.md`](eliott.md) §10.
 
 ---
 
@@ -47,9 +75,14 @@ Les berceurs et berceuses **accompagnent ceux qui sont au jardin, jusqu'au derni
 ## À trancher
 
 - [x] ~~Le signalement du comportement d'Eliott.~~ — **supprimé le 15 août 2026.** Elle ne signale rien : Andrew y retourne de lui-même.
+- [x] ~~Le seuil de nommage.~~ — **corrigé le 16 août 2026 : huit ans et en dessous**, et non « moins de huit ans ». §1.
 - [ ] **Assiste-t-elle aux visites, ou laisse-t-elle la pièce ?** Sa présence donne un témoin adulte aux propos d'Eliott ; son absence rend les deux voilés seuls dans la pièce.
-- [ ] **La revoit-on après l'annonce ?** La fiche pose que non. À confirmer si l'enquête a besoin d'un retour chez elle.
+- [ ] **La revoit-on après l'annonce ?** La fiche pose que non. À confirmer si l'enquête a besoin d'un retour chez elle. **L'épilogue rouvre la question** : elle est la berceuse d'Eliott et devrait être là quand il entre au jardin.
+- [ ] **Est-elle présente à l'épilogue ?** Voir [`eliott.md`](eliott.md). Si oui, elle y est la seule personne pour qui le silence est une habitude de métier — et elle n'a pas une ligne à dire pour que ça se voie.
+- [ ] **Les berceurs accompagnent-ils aussi la descente sous huit ans ?** Le métier est défini comme *accompagner ceux qui sont au jardin jusqu'au dernier jour*, **et le dernier jour n'est plus au jardin.** Suit-elle jusqu'à zéro, quelqu'un prend-il le relais, ou personne ? **Explicitement laissé ouvert par l'autrice le 16 août 2026**, et c'est une question de monde avant d'être une question de fiche.
 
 ---
 
-*Vocabulaire : le palier s'appelle **le jardin**. Aucun mot de parenté n'existe dans ce monde — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md). Correction en attente sur le dossier maître : la ligne « Berceurs / Berceuses » du §10 dit « ceux qui sont au palier » — à élargir, et à écrire « le jardin ».*
+*Vocabulaire : le palier s'appelle **le jardin**, et il est **à huit ans** depuis le 16 août 2026. Aucun mot de parenté n'existe dans ce monde — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).*
+
+*Corrections en attente sur le dossier maître, signalées et non appliquées : la ligne « Berceurs / Berceuses » du §10 dit « ceux qui sont au palier » — à élargir, et à écrire « le jardin ». **Et il faut y ajouter les deux actes de métier qui s'y rattachent désormais : le berceur nomme les arrivants de huit ans et moins, et il sait — sans le dire — quand un enfant quitte le plateau.***

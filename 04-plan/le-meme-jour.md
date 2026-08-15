@@ -71,9 +71,11 @@ Application du barème de [`ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.m
 
 *Rappel : les noms de cette colonne sont des **noms d'éclaircie**, reçus le jour même — pas des noms de la vie d'avant. Trois arrivants nommés le même matin : Andrew, Chrissy, Tania. De l'autre côté, l'enquêteur s'appelait Joël et les deux filles s'appelaient autrement ; **leurs noms d'avant à elles ne sont jamais donnés, et il n'y a rien à chercher de ce côté-là.** Le quatrième, l'assassin, n'a jamais été nommé du tout : sa capsule n'a pas éclairci, donc personne n'a eu à écrire quoi que ce soit.*
 
-De combien les jumelles descendent, le document ne le dit pas : c'est à l'autrice, et ça se réglera au moment où elles apparaissent en scène au mouvement 16 puis 23. Ce qui est acquis, c'est le sens de la flèche — **elles descendent**, et le §7 rappelle que descendre n'est pas une punition mais la seule grâce que le système sache accorder.
+**Leur chiffre est tranché : dix-huit ans, leur âge de mort** (15 août 2026). Ce qui reste à l'autrice, ce n'est plus le chiffre d'arrivée mais leur âge à la scène des excuses — voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md). Ce qui est acquis, c'est le sens de la flèche — **elles descendent**, et descendre n'est pas une punition mais la seule grâce que le système sache accorder.
 
-⚠️ **Contrainte nouvelle sur ce chiffre, 15 août 2026 : le plancher est huit ans.** Le protocole du nom ne s'applique qu'à partir de huit ans ; en dessous, une berceuse est appelée et c'est elle qui choisit ([`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant »). Or l'autrice pose que **ce sont elles qui ont produit leurs deux mots** — donc elles sont arrivées à huit ans au moins. Le chiffre exact reste ouvert ; sa borne basse ne l'est plus.
+**Ce que leur descente donne, depuis la correction du 16 août 2026** : le palier est **à huit ans**, elles ont donc **dix marches à descendre**, à la vitesse lente des jeunes arrivantes — soit **une trentaine d'années**. Puis le plateau allongé, puis la fin. Détail dans [`duree-et-calendrier.md`](duree-et-calendrier.md).
+
+⚠️ **La contrainte de seuil qui figurait ici est devenue sans objet, mais son énoncé a changé et il faut le corriger.** Le protocole du nom ne s'applique qu'**au-dessus de huit ans** ; **à huit ans et en dessous**, une berceuse est appelée et c'est elle qui choisit ([`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant »). *La borne basse qu'on en tirait — « huit ans au moins, puisqu'elles ont produit leurs mots » — serait donc désormais **neuf ans**. Elle ne sert plus à rien : leur chiffre est fixé à dix-huit.*
 
 **Les trois verdicts du credo se lisent donc sur une seule journée, à trois travées voisines.**
 
@@ -144,7 +146,7 @@ Il déterre donc sa propre vie **en croyant vérifier celle d'un autre.** Chaque
 
 **Corollaire, et il est cruel :** la source à laquelle il attribuait tout disparaît — **Eliott est enlevé** — et les fragments, eux, continuent. C'est par là que la théorie du garçon commence à ne plus tenir. Un homme contaminé par un témoin devrait cesser de l'être quand le témoin n'est plus là ; lui continue de voir des couloirs et des routes de nuit, et il n'a plus personne à qui attribuer ça.
 
-*⚠️ **Correction du 15 août 2026.** Cette phrase reposait auparavant sur l'entrée d'Eliott au jardin entre les mouvements 17 et 18. **Ce n'est plus possible :** le corps du roman ne dure que quelques semaines, et l'entrée au jardin est devenue l'épilogue, quinze ans plus tard. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md). C'est **l'enlèvement**, et lui seul, qui retire la source à Andrew pendant le livre.*
+*⚠️ **Correction du 15 août 2026, chiffre revu le 16.** Cette phrase reposait auparavant sur l'entrée d'Eliott au jardin entre les mouvements 17 et 18. **Ce n'est plus possible :** le corps du roman ne dure que quelques semaines, et l'entrée au jardin est devenue l'épilogue, **six ans plus tard** — le palier étant passé de cinq à huit ans, l'enfant n'a plus que deux marches à descendre. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md). C'est **l'enlèvement**, et lui seul, qui retire la source à Andrew pendant le livre.*
 
 ### 4.3 La progression des fragments
 
@@ -515,7 +517,13 @@ La question ouverte n'est donc pas s'il faut la garder, mais :
 
 ### 8.4 Ce que ça change à l'épilogue
 
-Rien de ce qui précède n'est jamais dit dans le texte, et surtout pas par l'enfant. **Eliott ne sait pas qu'il est mort.** À l'épilogue, il raconte ce qui lui est arrivé de l'autre côté juste avant d'entrer au jardin, sans rien expliquer, sans rien conclure et sans rien relier à Andrew. Le lecteur, qui a vu la capsule pourrie à la première page, n'apprend aucun fait : il reçoit un adieu. Développement complet dans [`duree-et-calendrier.md`](duree-et-calendrier.md), « L'épilogue : l'entrée d'Eliott au jardin », et dans [`../03-personnages/eliott.md`](../03-personnages/eliott.md).
+Rien de ce qui précède n'est jamais dit dans le texte, et surtout pas par l'enfant. **Eliott ne sait pas qu'il est mort.** À l'épilogue — **six ans après le corps du roman, à huit ans** —, il raconte ce qui lui est arrivé de l'autre côté **juste avant d'entrer au jardin**, sans rien expliquer, sans rien conclure et sans rien relier à Andrew. Le lecteur, qui a vu la capsule pourrie à la première page, n'apprend aucun fait : il reçoit un aveu.
+
+> **Un seul moment, pas deux.** La confession et l'entrée sont la même scène : **il dépose ce qu'il portait, puis il entre.** C'est la règle du voile appliquée à lui — on arrive voilé parce qu'on n'est pas en paix, et l'on suppose, sans certitude, que les reliquats s'effacent une fois au jardin.
+
+*Et il n'a rien perdu de sa langue : **à huit ans la parole est intacte.** Elle se dégrade vers quatre ans, bien plus tard, et le livre ne le montre pas. Toute version antérieure qui faisait de cette scène « le dernier moment où il a encore les mots » est fausse.*
+
+Développement complet dans [`duree-et-calendrier.md`](duree-et-calendrier.md), « L'épilogue : Eliott dépose, puis il entre », et dans [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §10.
 
 ---
 
@@ -590,10 +598,24 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 # Tranché le 15 août 2026
 
 - [x] **On sort de la capsule en sachant parler**, l'esprit embrumé *comme après un long sommeil*. **Révision du §4 du dossier maître, qui n'est pas modifié.** Voir [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md). Conséquence ici : la cérémonie groupée a du dialogue dedans, et le protocole du nom devient possible.
-- [x] **Personne ne nomme un arrivant : il se nomme lui-même.** Le veilleur explique en une phrase ce qu'est un prénom, demande, et inscrit le mot qui sort. Exception : les moins de huit ans, nommés par une berceuse. **Andrew, Chrissy et Tania ont donc produit leurs propres noms** — et Andrew n'a pas dit Joël. Section 6, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
+- [x] **Personne ne nomme un arrivant : il se nomme lui-même.** Le veilleur explique en une phrase ce qu'est un prénom, demande, et inscrit le mot qui sort. Exception : **les arrivants de huit ans et moins**, nommés par une berceuse — *seuil précisé le 16 août 2026, huit inclus.* **Andrew, Chrissy et Tania ont donc produit leurs propres noms** — et Andrew n'a pas dit Joël. Section 6, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
 - [x] **Il n'y a pas de noms de famille dans ce monde-ci**, et la règle n'est jamais énoncée. Les fragments peuvent donc dire *« l'affaire Sorel »* : l'affaire est nommée, aucun prénom n'est prononcé, et Andrew entend un mot dont il ne peut pas identifier la catégorie. Section 4.7.
 - [x] **Eliott a été assassiné dans la vie d'avant, et une capsule pourrie est apparue le jour de son arrivée.** Même signature que celle de Chrissy et Tania. **Le jour d'arrivée d'Eliott devient le cas témoin du livre** et remplace la mère et l'enfant, sortis du casting. Section 8.
 - [x] **Le corps du roman tient sur quelques semaines, peut-être quelques mois.** Le calendrier sur douze ans est caduc : il n'existait que pour Erin, qui est suspendue. Conséquence ici : la théorie du garçon (§4.2) se défait par l'**enlèvement**, plus par l'entrée au jardin. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
+
+---
+
+# Tranché le 16 août 2026
+
+- [x] **Le palier passe de cinq à huit ans**, et **ce n'est pas un plancher : c'est le point vers lequel tout converge.** On y descend si l'on arrive au-dessus, **on y grandit à 1:1 si l'on arrive en dessous**, et l'on y entre directement si l'on arrive à huit pile — auquel cas un berceur est appelé, et c'est lui qui nomme. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
+- [x] **Le plancher de vie passe de trente à quarante ans**, et il n'est acquis qu'à qui arrive jeune. **Pour les grands chiffres, la fin ne se date pas** : la descente de huit à zéro varie, et personne ne peut savoir combien il lui reste.
+- [x] **Les chiffres du dossier, recalculés.** Andrew : **54 ans de descente**. Erin : **56**. Chrissy et Tania : **une trentaine**, dix marches. Eliott : **six ans**, deux marches. *Plateaux et fins non chiffrés, et à ne pas inventer.*
+- [x] **L'épilogue passe de quinze ans à six.** Eliott y a **huit ans**, Andrew **quarante-six**. Section 8.4.
+- [x] **La confession et l'entrée au jardin sont un seul moment.** Il dépose ce qu'il portait, puis il entre — et **personne ne lui dit dans quoi il entre.** Section 8.4.
+- [x] **Eliott ne perd pas les mots à l'épilogue.** À huit ans la parole est intacte ; elle se dégrade vers quatre ans, bien plus tard, et le livre ne le montre pas.
+- [x] **Le tabou.** Quand un enfant bascule du plateau vers la descente, **on ne le lui dit pas. Les berceurs savent et se taisent.** C'est le seul savoir détenu et gardé de tout le système. Voir [`../03-personnages/june.md`](../03-personnages/june.md).
+- [x] **Le voile est aussi un poids** : on arrive voilé quand on n'est pas en paix, et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce, et elle ne se confirme jamais. Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §9 bis.
+- [x] **Le seuil de nommage se lit désormais « huit ans et en dessous »**, huit inclus, et non « moins de huit ans ». Section 2.
 
 ---
 
@@ -614,7 +636,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **À partir de quel fragment l'affaire porte-t-elle son nom ?** Dès les premiers, où il n'y a encore ni lieux ni gens — ou seulement quand l'enquête prend forme, au deuxième temps du §4.3 ? Un nom d'affaire est un marqueur de dossier constitué, donc il date la scène dans l'enquête.
 - [ ] **Andrew donne-t-il ce mot au comptoir du poste de police ?** Voir §5.1. S'il le donne, il donne un nom sans savoir que c'en est un, et la scène change : ce n'est plus une demande entièrement vide. S'il ne le donne pas, le §5.2 tient inchangé. **Les deux versions sont écrivables, aucune n'est retenue.**
 - [ ] **Le troisième registre de faux raccord — celui de la langue.** Entre-t-il dans le dispositif de [`faux-raccords.md`](faux-raccords.md), ou reste-t-il à part ? Il n'obéit pas à la règle du dosage : il n'est pas placé, il est partout. Section 4.7.
-- [ ] **De combien les jumelles descendent-elles ?** Le chiffre exact, jamais dans le texte, mais nécessaire à l'autrice. **Borne basse désormais fixée : huit ans**, puisque ce sont elles qui ont produit leurs noms. Section 2.
+- [x] ~~**De combien les jumelles descendent-elles ?**~~ — **calculable depuis le 16 août 2026 : dix marches, de dix-huit à huit**, soit **une trentaine d'années de descente**. Le palier est à huit ans, leur chiffre d'arrivée est fixé à dix-huit, il n'y a plus rien à choisir. Section 2. *Ce qui reste ouvert est leur âge à la scène des excuses, et il relève du calendrier du livre.*
 - [ ] **Où placer le chapitre de la cérémonie groupée** dans le livre : avant le mouvement 15, entre 17 et 18, ou après le retournement ?
 - [ ] **Le mouvement 18 devient une lecture de registre.** Faut-il alors déplacer ou alléger le mouvement 17, qui perd son rôle de dernier verrou ?
 - [x] ~~Le nom du partenaire qui crie à la poursuite.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle, **jamais écrit dans le roman** : dans le texte, *son collègue*, *son partenaire*. Section 1. Il ne crée aucune exception au §4.6.

@@ -6,7 +6,7 @@
 
 > **L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.**
 
-*Corrections appliquées le 15 août 2026 : §6, §4, §7, §8, §9, §10 (chuchoteurs), §11, §12, §15. **D'autres corrections restent en attente de validation** — voir [`01-dossier/recapitulatif-pour-validation.md`](01-dossier/recapitulatif-pour-validation.md).*
+*Corrections appliquées les 15 et 16 août 2026 : §6, §4, §7, §8, §9, §10 (chuchoteurs), §11, §12, §15. **Le 16 août : le palier passe de cinq à huit ans, les moins de huit ans grandissent, le plancher de vie passe à quarante ans, et la fin devient incertaine pour les grands chiffres.** **D'autres corrections restent en attente de validation** — voir [`01-dossier/recapitulatif-pour-validation.md`](01-dossier/recapitulatif-pour-validation.md).*
 
 ---
 
@@ -134,21 +134,36 @@ L'âge d'arrivée détermine la durée de vie, **mais pas au ratio 1:1**. Plus o
 - Arrivé à 90 → environ 90 ans à vivre (1 an vécu = 1 an de moins)
 - Arrivé à 10 → environ 30 ans à vivre (3 ans vécus = 1 an de moins)
 
-### Le palier
+### Le palier — huit ans
 
-L'âge descend jusqu'à **5 ans** — l'âge optimal de l'insouciance — **et s'y arrête un temps.** Le palier est un plateau : l'âge ne varie plus, les années passent. Sa durée change d'un dossier à l'autre.
+**Huit ans n'est pas un plancher : c'est le point vers lequel tout converge**, des deux côtés.
 
-**Puis l'âge repart vers le bas.** Quatre, trois, deux, un. **On meurt à zéro.**
+- **Arrivé au-dessus de huit**, on descend jusqu'à huit, à la vitesse du barème.
+- **Arrivé en dessous de huit**, on ne régresse pas : **on grandit jusqu'à huit, à raison d'un an par an.**
+- **Arrivé à huit pile**, on entre directement au palier.
+
+Puis l'âge s'arrête un temps. Le palier est un plateau : l'âge ne varie plus, les années passent, et sa durée change d'un dossier à l'autre.
+
+**Ensuite l'âge repart vers le bas.** Sept, six, cinq, quatre. **On meurt à zéro.**
+**La parole se dégrade vers quatre ans** — c'est la dernière chose qu'on perde, comme elle avait été la première qu'on ait.
 
 **Une vie a donc trois temps :**
 
-1. **La descente** — de l'âge d'arrivée jusqu'à cinq ans, à la vitesse du barème.
-2. **Le palier** — le plateau à cinq ans, qui dure des années.
-3. **La fin** — l'âge redescend en dessous de cinq et s'éteint à zéro.
+1. **La convergence** — vers huit ans, en descendant ou en grandissant.
+2. **Le palier** — le plateau à huit ans, qui dure des années.
+3. **La fin** — l'âge redescend en dessous de huit et s'éteint à zéro.
 
-**5 ans est le plancher d'arrivée :** personne n'arrive en dessous. **Ce n'est pas un plancher de descente** — c'est un palier, pas un terminus.
+> **Un arrivant de deux ans grandit six ans. Un arrivant de dix ans en descend six.**
+> Ils entrent au palier au même moment, par les deux côtés.
 
-> **Exemple de l'autrice.** Une arrivée à cinq ans avec trente ans de vie devant elle : **vingt-cinq ans passés à cinq ans, puis cinq ans à décroître vers zéro.**
+### La fin n'est pas la même pour tout le monde
+
+**Aux petits chiffres, le système garantit. Aux grands, il ne promet rien.**
+
+- **Le plancher de vie est de quarante ans.** Il est acquis pour qui arrive jeune, et c'est la grâce.
+- **Pour les grands chiffres, la descente de huit à zéro est incertaine** — plus vite, plus lentement, avec un mini-palier. Personne ne peut dater sa fin.
+
+C'est notre monde, exactement : quelqu'un qui atteint quatre-vingt-dix ans est à un bel âge, et ses proches comptent les années en espérant une bougie de plus. Ici aussi, et c'est voulu.
 
 | Arrivé à | Vit environ | Dont palier |
 |---|---|---|
@@ -157,9 +172,9 @@ L'âge descend jusqu'à **5 ans** — l'âge optimal de l'insouciance — **et s
 | 50 ans | 60 ans | ~15 ans |
 | 30 ans | 45 ans | ~20 ans |
 | 10 ans | 30 ans | ~15 ans |
-| 5 ans | ~25 ans | tout |
+| 2 ans | 40 ans minimum | le reste |
 
-*La colonne « dont palier » désigne le **plateau** — les années passées à cinq ans sans bouger. La décroissance finale, en dessous de cinq, s'y ajoute ou s'y compte selon ce que l'autrice décidera : la question n'est pas tranchée et aucun chiffre du tableau n'a été retouché.*
+*⚠️ **Tableau à refaire.** Il datait du palier à cinq ans et du plancher à trente. La colonne « dont palier » désigne le **plateau à huit ans** ; la descente finale de huit à zéro n'y figure pas encore, et le plancher de vie est passé à quarante ans. **Les durées exactes de plateau et de fin ne sont pas fixées.** Aucun chiffre n'a été inventé ici.*
 
 *Les chiffres exacts sont à ajuster au feeling. Ce qui compte est la forme : la durée monte avec l'âge d'arrivée, mais moins vite que l'âge lui-même. Naître vieux donne plus de temps ; naître jeune donne un temps de meilleure qualité.*
 
@@ -172,7 +187,9 @@ L'âge descend jusqu'à **5 ans** — l'âge optimal de l'insouciance — **et s
 - **On ne perd pas son innocence : on la regagne, et on disparaît dedans.** *La phrase — reprise au §16 — est littérale, et c'est le cœur de l'image : passé le palier, on descend en dessous de l'enfance, on rétrécit, et on s'éteint dans l'insouciance même.*
 - **On ne peut fauter que dans la première moitié de sa vie.** Après, on est moralement inatteignable.
 - **Les mourants sont ceux qui ne peuvent plus témoigner.** La mémoire s'allège en descendant ; les années hautes deviennent floues, sans être impossibles.
-- Un enfant mort très jeune chez nous arrive au plancher : **il n'a aucune marche à descendre, il entre directement au palier.** Il y stagne vingt-cinq ans, puis décroît jusqu'à zéro comme tout le monde. Il ne saura jamais qu'il a été autre chose. C'est la grâce maximale que le système sache accorder.
+- Un enfant mort très jeune chez nous arrive très bas — et **il grandit jusqu'à huit ans**, ce que personne d'autre au monde ne fait. Puis le palier, puis la descente. Quarante ans au moins, et il ne saura jamais qu'il a été autre chose. C'est la grâce maximale que le système sache accorder.
+- **Les enfants qui grandissent sont la seule chose que l'Archiviste fasse qui se voie à l'œil nu.** Tout le reste est un verdict rendu une fois. Là, c'est une réparation qui se déroule en public, pendant des années. Personne ne fait le lien : c'est trop lent pour qu'on y voie un geste.
+- **Quand un enfant bascule du palier vers la descente, on ne le lui dit pas.** Trop petit, trop innocent pour qu'on lui pose ça. Les berceurs savent et se taisent — c'est un métier dont la moitié consiste à ne pas dire.
 
 ---
 
@@ -235,7 +252,7 @@ Question centrale, parce que l'humain reste l'humain : pourquoi ne pas se débar
 
 **1. La prémisse économique est fausse.** Un né à dix ans coûte trente ans de besoins d'enfant : presque rien. Un né à quatre-vingt-dix arrive incontinent, aveugle, incapable de tenir une cuillère — il faut le porter des années avant qu'il travaille, et il coûte une fortune en soins. **Ce qui pèse sur la société, ce sont les grands chiffres.** Mais personne ne le dira jamais, parce que naître vieux est la norme honorable, et qu'on ne remet pas en cause la norme.
 
-**2. Le pacte.** Tout le monde finit à cinq ans. Sans exception. Chacun terminera sa vie inutile, dépendant, entretenu par les autres — et chacun sait à peu près quand. Le jour où l'on admet qu'on peut disposer de ceux qui ne servent à rien, **on signe son propre arrêt à date connue**. Ce n'est pas de la charité, c'est de l'assurance.
+**2. Le pacte.** Tout le monde finit au palier, puis en dessous. Sans exception. Chacun terminera sa vie inutile, dépendant, entretenu par les autres — et chacun sait à peu près quand. Le jour où l'on admet qu'on peut disposer de ceux qui ne servent à rien, **on signe son propre arrêt à date connue**. Ce n'est pas de la charité, c'est de l'assurance.
 
 **3. Le soin est institutionnel.** Dans un monde sans enfants et sans parents, personne n'a de famille pour l'accompagner. Les tuteurs et les berceurs sont donc des métiers financés, organisés, respectés. Sans eux, personne n'atteint sa fin.
 
@@ -426,7 +443,7 @@ L'assassin des jumelles, **mort dans la poursuite, en même temps que Joël.** S
 
 **Une comparaison suffit.** Deux cérémonies dans le premier tiers, deux chiffres très différents, deux ambiances. Le système est transmis, on n'y revient plus.
 
-**Le palier se montre en une scène.** Le veilleur passe voir quelqu'un ; c'est un enfant de cinq ans qui joue par terre, et son berceur dit qu'il est là depuis huit ans et qu'il n'a pas changé d'un jour. Le lecteur a compris, et il ne l'oubliera pas.
+**Le palier se montre en une scène.** Le veilleur passe voir quelqu'un ; c'est un enfant de huit ans, et son berceur dit qu'il est là depuis huit ans et qu'il n'a pas changé d'un jour. Le lecteur a compris, et il ne l'oubliera pas. *À huit ans, l'enfant peut répondre — c'est tout l'intérêt d'avoir déplacé le palier : le jardin cesse d'être un endroit qu'on regarde pour devenir un endroit où l'on parle.*
 
 > **L'autrice doit connaître le système au chiffre près, pour que le monde soit solide. Le lecteur doit juste savoir qui envier.**
 

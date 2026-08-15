@@ -15,6 +15,8 @@
 | **Ancienneté** | **dix ans dans ce monde** — pas dix ans de métier —, et **52 ans** au début du roman. Il a pris son poste **rapidement**. **Ni un débutant, ni un vétéran** : plusieurs années de service, assez pour n'être plus le dernier arrivé. |
 | **Particularité** | voilé. Personne ne le sait. **Lui non plus, au début.** |
 | **Faute** | **d'avoir cessé.** On lui a dit d'arrêter de creuser l'affaire des jumelles ; il a obéi. Il a perdu des semaines, il a repris — et il est arrivé une heure trop tard. Ce n'est pas l'échec qui est jugé, c'est l'arrêt. Faute réparable → pardon → **le voile est le pardon.** |
+| **Décompte** | **54 ans de descente** — de 62 à huit, un an par an. Puis le plateau au jardin, puis la fin jusqu'à zéro : **ni l'un ni l'autre ne sont chiffrés, et sa fin n'est pas datable.** Voir « Son décompte » plus bas |
+| **Âge à l'épilogue** | **46 ans**, six ans après le corps du roman |
 
 **L'écart avec elle.** Elle arrive **dix ans après lui**, à **64 ans**. Elle a donc **douze ans de plus que lui** dans cette vie-ci, alors qu'il en avait **huit de plus qu'elle** dans la précédente. L'écart n'est pas seulement inversé : il est creusé.
 
@@ -35,7 +37,7 @@ Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-a
 
 **Règle du monde, posée par l'autrice.** Un nom d'éclaircie n'est pas donné : il est **retrouvé**. Le veilleur explique en une phrase courte ce qu'est un prénom, puis demande à l'arrivant comment il s'appelle. **L'arrivant répond**, instinctivement, sans réfléchir, sans savoir d'où lui vient le mot. Le veilleur l'inscrit au registre. Personne, jamais, ne se demande d'où sort le mot : c'est le déroulé normal d'une matinée. Rien ne garantit que ce soit le nom d'avant, et **personne ne peut le vérifier** — ni l'arrivant, qui est vide, ni le veilleur, qui n'a rien à comparer.
 
-*(Le seuil : cette question ne se pose qu'aux arrivants de huit ans et plus. En dessous, une berceuse est appelée et c'est elle qui choisit — voir [`june.md`](june.md).)*
+*(Le seuil : cette question ne se pose qu'**au-dessus de huit ans**. **À huit ans et en dessous**, une berceuse est appelée et c'est elle qui choisit — voir [`june.md`](june.md). Précision du 16 août 2026 : huit ans est aussi l'âge du jardin, et qui arrive à huit pile y entre directement.)*
 
 **Ce qui s'applique à lui.** Le matin de son arrivée, à peine sorti, le corps de soixante-deux ans et l'esprit vide, on lui a demandé son nom. Il a produit le mot **Andrew**.
 
@@ -341,7 +343,7 @@ C'est ce qui fait tenir le portrait, et il faut l'écrire comme tel : **il est p
 
 Entre les deux, aucune leçon apprise, aucune progression morale : le même homme, incapable de tenir la mesure, d'abord en deçà puis au-delà. Sa mort n'est pas la réponse à sa faute, **c'est sa faute vue de l'autre côté.**
 
-Et c'est précisément pour ça que le mouvement 14 garde toute sa fonction. La réparation ne peut pas être un excès — un excès, il en est déjà mort sans que ça répare rien. **La réparation, c'est de continuer sans s'arrêter et sans s'emballer, pendant neuf ans, seul, sans résultat.** Ce que sa mort n'a pas pu faire, la désobéissance lente le fait.
+Et c'est précisément pour ça que le mouvement 14 garde toute sa fonction. La réparation ne peut pas être un excès — un excès, il en est déjà mort sans que ça répare rien. **La réparation, c'est de continuer sans s'arrêter et sans s'emballer, seul, sans résultat, aussi longtemps que dure l'affaire.** Ce que sa mort n'a pas pu faire, la désobéissance le fait. *Le chiffre de « neuf ans » qui figurait ici vient de l'ancien calendrier sur douze ans, caduc depuis le 15 août 2026 : le corps du roman tient sur quelques semaines, peut-être quelques mois.*
 
 > **Écarté le 13 août 2026 — la lecture A, l'intervention chirurgicale.** Une opération banale à 62 ans, une complication, il ne se réveille pas : écartée parce que sa mort est désormais la poursuite. **L'image du compte à rebours sous anesthésie disparaît avec elle** — la voix calme qui compte à l'envers, la lumière au plafond, et le monde entier qui compte à rebours autour de lui. Conservée ici pour mémoire, à ne pas réemployer telle quelle.
 
@@ -382,6 +384,61 @@ Le §11 pose que *« un pardon n'est pas une remise de peine, c'est une seconde 
 Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, **il a déjà été absous depuis huit chapitres.** Il ne l'apprend qu'après. Et ce jusqu'où il remonte est précis : **pas jusqu'à la planque, ni jusqu'à l'heure de trop — jusqu'aux semaines pendant lesquelles il n'a pas cherché.** Le mouvement 22 n'est pas la scène du corps des filles, c'est la scène des jours vides. C'est pour ça que le mouvement 23 peut le libérer alors que les deux arrivantes ne comprennent rien : le pardon qu'il cherchait ne dépendait plus de personne.
 
 *Rien de tout ceci n'est énoncé dans le texte. C'est la charpente, elle doit tenir sans être vue.*
+
+---
+
+## Son décompte — et ce que la dernière grâce lui fera
+
+> **Correction du 16 août 2026. Le palier passe de cinq à huit ans, et le plancher de durée de trente à quarante.** Détail complet dans [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md) ; cette fiche n'en garde que ce qui le concerne.
+
+| | |
+|---|---|
+| Arrive à | **62 ans** — son âge de mort, comme tout le monde |
+| Descente jusqu'à huit | **54 ans**, à raison d'un an par an |
+| Plateau au jardin | **non fixé** |
+| Fin — de huit à zéro | **non fixée**, et **non datable** |
+| Âge au début du roman | **52 ans** — il est ici depuis dix ans |
+| Âge à l'épilogue | **46 ans** |
+| Entre au jardin | **54 ans après son arrivée** |
+
+**Ce qui compte pour le personnage, et c'est une règle et non un chiffre : sa fin ne se date pas.** Le plancher de quarante ans est acquis à qui arrive jeune ; lui arrive à soixante-deux, et sa seule descente en fait déjà cinquante-quatre. **Personne, dans sa situation, ne peut savoir combien il lui reste** — et lui moins que quiconque, puisque rien dans ce monde ne publie ce genre de chose.
+
+> **À la dernière page, il a la plus grande partie de sa vie devant lui, et aucun moyen de savoir combien.**
+
+*Écart signalé à l'autrice, non arbitré ici : la consigne du 16 août 2026 place son entrée au jardin « cinquante-quatre ans après le livre ». L'arithmétique de la fiche donne **54 ans après son arrivée**, donc **44 ans après le corps du roman**, puisqu'il est ici depuis dix ans quand le livre commence. Rien dans le roman n'en dépend. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md), « Le veilleur, au-delà du livre ».*
+
+### La conséquence, signalée et non développée
+
+**Le voile est un pardon, et c'est aussi un poids : on arrive voilé parce qu'on n'était pas en paix.** Et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce.
+
+Appliquée à lui, la supposition dit une seule chose, et il faut la poser sans y revenir :
+
+> **Il perdra tout.**
+
+Les filles, la planque, l'heure de retard, la culpabilité inépuisable, l'homme qu'il a suivi pendant tout le livre sans le reconnaître — **tout ce qui fait ce personnage s'effacerait à son entrée au jardin.** Cinquante-quatre ans après son arrivée, quarante-quatre après la dernière page du corps du roman.
+
+**Le roman n'en dit rien.** Pas une phrase, pas une allusion, aucun personnage n'y pense, et surtout pas lui. *Le lecteur sait compter, et c'est tout ce qu'on lui demande.*
+
+*Contrainte d'écriture : ne jamais faire de cette perspective une consolation ni une menace. Ce n'est ni une délivrance promise ni un châtiment annoncé — c'est une supposition de ce monde, invérifiable comme tout le reste, et elle ne doit pas être posée dans une scène. Elle est dans l'arithmétique.*
+
+---
+
+## Le parallèle des deux voilés
+
+**Andrew et Eliott sont les deux seuls voilés du livre, et ils se libèrent exactement de la même façon.**
+
+| | Ce qu'il porte | Comment il s'en défait | Ce qu'il obtient |
+|---|---|---|---|
+| **Andrew** | **un dossier à finir** — une faute, un pardon | il désobéit (mouvement 14), puis il va s'excuser auprès de deux jeunes filles qui ne comprennent rien (mouvement 23) | **rien.** Elles ne savent pas de quoi il parle |
+| **Eliott** | **une blessure à dire** | il raconte ce qui lui est arrivé, juste avant d'entrer au jardin | **rien.** Personne dans la pièce n'a de raison de le croire |
+
+> **Les deux se libèrent en parlant, et aucun des deux n'obtient de réponse.**
+
+C'est ce qui donne sa forme à la fin du livre. Le pardon, ici, ne vient jamais de celui à qui on le demande : il vient du fait d'avoir parlé. Andrew avait déjà été absous huit chapitres avant de le savoir ; Eliott entre dans l'insouciance en ayant dit ce qu'il avait à dire, et personne ne lui aura répondu non plus.
+
+**À l'écriture, la contrainte est absolue :** les deux scènes ne se citent jamais l'une l'autre, ne se répondent pas, ne se commentent pas. **Interdit n° 4** — les deux fissures ne se recoupent jamais. Le parallèle est pour le lecteur, et pour lui seul.
+
+*Et il se referme sur un silence : à l'épilogue, Andrew regarde l'enfant entrer au jardin en sachant ce que c'est, et il ne lui dit rien. C'est le tabou, et c'est la dernière chose que fait ce personnage. Voir [`eliott.md`](eliott.md) §10.*
 
 ---
 

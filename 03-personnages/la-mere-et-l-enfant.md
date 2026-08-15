@@ -48,7 +48,17 @@ Application directe du barème de [`../02-univers/ce-qui-est-juge.md`](../02-uni
 
 **Elle.** Rien d'irréparable, rien d'extraordinaire subi. Verdict lambda : elle est reconduite à son âge de mort. **Trente-cinq ans.** Le pardon sans supplément ni retranchement — la ligne médiane.
 
-**L'enfant.** Il n'a pas eu de vie à juger. Le §7 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) pose que cinq ans est le plancher aux deux bouts, et que *« un enfant mort très jeune chez nous arrive au plancher : sa vie entière est un palier »*, ce qui est *« la grâce maximale que le système sache accorder »*. Il arrive donc à **cinq ans**, et **sa vie entière se passe au jardin**.
+**L'enfant.** Il n'a pas eu de vie à juger. Il arrive à **cinq ans**, son âge de mort.
+
+> **⚠️ Correction du 16 août 2026 — et c'est le point que ce document avait faux.**
+>
+> L'ancienne version disait, d'après le §7 : *« cinq ans est le plancher aux deux bouts »*, *« un enfant mort très jeune arrive au plancher : sa vie entière est un palier »*. **Les deux propositions sont périmées.**
+>
+> **Le palier est à huit ans, et c'est un point de convergence, pas un plancher.** Qui arrive en dessous **ne reste pas où il est et ne régresse pas : il grandit jusqu'à huit, à un an par an.**
+
+**Cet enfant grandit donc.** Cinq, six, sept, huit — **trois ans à 1:1** — et il entre au jardin à huit ans comme tout le monde. Puis le plateau, puis la fin jusqu'à zéro. **Sa vie entière n'est pas un palier** : elle en a un, précédé de trois années où il grandit, et suivi d'une descente.
+
+Et sous le plancher de durée, porté de trente à quarante ans le 16 août 2026, **il a au moins quarante ans de vie**, dont trois de croissance. *La répartition des trente-sept autres entre plateau et fin n'est pas fixée, et ce document ne l'invente pas.*
 
 Deux verdicts sans mystère. C'est l'arithmétique qui suit qui fait le personnage.
 
@@ -56,7 +66,7 @@ Deux verdicts sans mystère. C'est l'arithmétique qui suit qui fait le personna
 
 *Point neuf, et il tombe pile sur eux. Aucun prénom n'est proposé ici : seul le mécanisme est fixé.*
 
-Un nom d'éclaircie n'est pas donné, il est **retrouvé** : le veilleur explique en une phrase courte ce qu'est un prénom, demande à l'arrivant comment il s'appelle, et l'arrivant répond instinctivement. **Sauf en dessous de huit ans** : ces arrivants-là sont systématiquement accueillis par un veilleur, une berceuse est appelée, et **c'est elle qui choisit le prénom**.
+Un nom d'éclaircie n'est pas donné, il est **retrouvé** : le veilleur explique en une phrase courte ce qu'est un prénom, demande à l'arrivant comment il s'appelle, et l'arrivant répond instinctivement. **Sauf à huit ans et en dessous** — *seuil corrigé le 16 août 2026, huit ans inclus* : ces arrivants-là sont systématiquement accueillis par un veilleur, une berceuse est appelée, et **c'est elle qui choisit le prénom**.
 
 - **L'arrivante de trente-cinq ans** a produit son nom elle-même, comme tout le monde.
 - **L'arrivant de cinq ans** était sous le seuil. On ne lui a rien demandé. **Une berceuse a été appelée, et elle l'a nommé.**
@@ -71,27 +81,45 @@ Un nom d'éclaircie n'est pas donné, il est **retrouvé** : le veilleur expliqu
 
 *C'est le cœur du document.*
 
-**L'arrivant de cinq ans** va au jardin et n'en bougera pas. Environ vingt-cinq ans d'insouciance intégrale, à cinq ans, sans jamais rien apprendre de sa condition, sans jamais soupçonner qu'il a été autre chose. Un berceur, des jeux par terre, et rien d'autre jamais.
+> ## ⚠️ CETTE SECTION EST À REFAIRE — signalée le 16 août 2026, non réécrite
+>
+> **Le palier passe de cinq à huit ans, on grandit désormais jusqu'à huit, et le plancher de durée passe de trente à quarante.** Les trois changements tombent exactement sur les deux courbes de ce document, et **ils ne les décalent pas : ils peuvent les inverser.**
+>
+> **Le calcul n'est pas refait ici, et il ne doit pas l'être.** Le dossier est gelé hors casting, plusieurs vitesses nécessaires ne sont pas fixées, et **combler au jugé serait une invention.** Ce qui suit conserve l'ancien raisonnement, barré de ses chiffres périmés, plus l'état exact de la question. *À l'autrice, si elle réintègre ce couple.*
 
-*Note de réserve : depuis la règle A du 15 août 2026, personne ne vit moins de trente ans — ce serait donc trente ici, et non vingt-cinq. Le chiffre est signalé, non appliqué : le document est gelé hors casting, et les deux courbes ne se croisent pas davantage à trente qu'à vingt-cinq.*
+**L'arrivant de cinq ans** ~~va au jardin et n'en bougera pas~~ — **il grandit trois ans, entre au jardin à huit, y reste, puis redescend jusqu'à zéro.** Il a **au moins quarante ans de vie**. Il ne saura jamais rien de sa condition, ne soupçonnera jamais qu'il a été autre chose : un berceur, des jeux par terre, et rien d'autre jamais. *Cela seul est intact.*
 
-**Elle** arrive à trente-cinq ans. D'après la table du §7 — quarante-cinq ans de vie pour une arrivée à trente, soixante pour une arrivée à cinquante — elle dispose d'environ **cinquante années**. Soit une **trentaine d'années de descente**, puis une **vingtaine au jardin**.
+**Elle** arrive à trente-cinq ans. Elle a **vingt-sept marches à descendre** avant le jardin — de trente-cinq à huit. **À quelle vitesse, on ne le sait pas** : le dossier chiffre un an par an au-dessus de cinquante et environ trois ans par marche chez les jeunes arrivants, et **la zone intermédiaire n'est pas fixée.** Sa descente est donc comprise entre vingt-sept et quatre-vingts ans, ce qui n'est pas un chiffre.
 
-### La conséquence
+*Chiffres périmés de cette section, conservés pour mémoire et à ne pas réemployer : « environ cinquante années », « une trentaine d'années de descente, puis une vingtaine au jardin », « environ vingt-cinq ans d'insouciance ». Ils sortaient de la table du §7, qui reposait sur un palier à cinq ans.*
 
-**Il s'éteint avant qu'elle atteigne le jardin.**
+### La conséquence — et c'est elle qui est menacée
 
-Il s'éteint vers la vingt-cinquième année. Elle y arrive vers la trentième. **Elle le manque de quelques années.**
+L'effet du personnage tenait à une phrase :
 
-Ils ne seront jamais du même âge. Ils ne seront jamais du même côté du décompte. Elle descend pendant toute la durée de cette vie-là vers un endroit où il est déjà — adulte, puis adolescente, puis enfant — et quand elle arrive enfin là où il était, il n'y est plus.
+> **Il s'éteint avant qu'elle atteigne le jardin.** Elle le manque de quelques années.
+
+**Cette phrase n'est plus démontrée, et elle pourrait être devenue fausse.** Il faut le dire net :
+
+| Ce qui a changé | Ce que ça fait aux deux courbes |
+|---|---|
+| **Il entre au jardin trois ans plus tard** (il grandit de cinq à huit) | l'écart se creuse en sa défaveur à lui — **favorable à l'effet** |
+| **Il vit au moins quarante ans, et non vingt-cinq** | **il reste au jardin quinze ans de plus qu'on ne le croyait — défavorable à l'effet** |
+| **Elle n'a plus que vingt-sept marches, et non trente** | elle arrive plus tôt — **défavorable à l'effet** |
+
+**Le risque est donc précis : elle pourrait désormais le rejoindre au jardin.** Ce serait le contraire exact de ce que le personnage était fait pour dire, et **le document ne peut pas trancher seul** — il faudrait fixer la vitesse de descente entre huit et cinquante, ce que personne n'a fait.
+
+*Ce qui survit sans calcul, et qui reste vrai quelle que soit la réponse :*
+
+**Ils ne seront jamais du même âge au même moment.** Elle descend pendant toute cette vie-là vers un endroit où il est déjà — adulte, puis adolescente, puis enfant. **Que les deux courbes se manquent ou se croisent, elles ne se superposent jamais**, parce qu'elles ne vont pas à la même vitesse et qu'elles ne sont pas parties du même point. L'arithmétique du personnage est fragile ; **sa forme ne l'est pas.**
 
 **Et il faut bien voir que ce calcul ne suppose aucune rencontre.** Les deux courbes existent que les deux personnes se soient croisées ou non, qu'elles aient su l'une de l'autre ou non, qu'elles aient vécu à deux travées ou à deux quartiers d'écart. **L'arithmétique est le personnage ; le reste est du hasard.**
 
 ### Le renversement
 
-Dans la vie d'avant, l'enfant n'a rien eu. Dans celle-ci, **c'est elle qui lui survit** — d'une vingtaine d'années, qu'elle passera au jardin, à cinq ans, à l'âge exact qu'il a eu tout du long.
+Dans la vie d'avant, l'enfant n'a rien eu. Dans celle-ci, ~~**c'est elle qui lui survit**~~ — **on ne sait plus lequel des deux survit à l'autre**, et c'est précisément ce que la correction du 16 août 2026 a rouvert. Voir l'avertissement du §3.
 
-*Les chiffres exacts sont à ajuster : la table du §7 est elle-même donnée « à ajuster au feeling ». Ce qui compte est la forme — deux courbes qui vont l'une vers l'autre et ne se croisent jamais.*
+*Les chiffres exacts sont à ajuster : la table du §7 est elle-même donnée « à ajuster au feeling », et elle est désormais périmée par le palier à huit ans. Ce qui compte est la forme — deux courbes qui vont l'une vers l'autre sans jamais se superposer.*
 
 ### La fin ouverte
 
@@ -204,10 +232,12 @@ Deux capsules se forment ensemble. Rien de plus n'est dit, et rien de plus n'est
 - [ ] *Suspendu.* **La place dans le plan** : ce cas témoin tomberait-il dans l'acte I, en même temps que les deux cérémonies contrastées des mouvements 1 et 2 ?
 - [ ] *Suspendu.* **L'enfant est-il montré ?** Le §14 prévoit déjà une scène de jardin pour installer le palier : serait-ce celle-là, ou faudrait-il les garder distinctes ?
 - [ ] **Ce que devient le cas témoin du §5, lui, n'est pas suspendu.** Le service qu'il rendait — apprendre au lecteur à lire un registre, pour que la signature de la paire se détache plus tard au mouvement 16 — **doit être repris par autre chose.** Deux capsules ordinaires ouvertes le même jour à des âges différents suffisent ; il n'est pas nécessaire qu'un lien les unisse. À porter au plan.
+- [ ] **⚠️ NON SUSPENDU — l'arithmétique des deux courbes est à refaire.** Le palier à huit ans, la croissance des arrivants jeunes et le plancher à quarante ans **peuvent avoir inversé la conclusion du §3** : elle pourrait désormais rejoindre l'enfant au jardin au lieu de le manquer. **Le calcul suppose une vitesse de descente entre huit et cinquante ans, qui n'est fixée nulle part.** Rien n'est comblé ici. *À l'autrice, et avant toute réintégration de ce couple.*
 - [x] ~~**Le statut de ce couple dans le roman.**~~ — **clos, 15 août 2026.** Hors casting. Document conservé en réserve, sans rien en retirer, comme Erin.
+- [x] ~~**L'enfant reste-t-il à cinq ans toute sa vie ?**~~ — **non, corrigé le 16 août 2026 : il grandit jusqu'à huit ans**, à un an par an, puis entre au jardin comme tout le monde. §2 et §3.
 
 ---
 
-*Vocabulaire : le palier s'appelle **le jardin** (« il est au jardin depuis huit ans »). Décision de l'autrice du 13 août 2026 ; la piste « l'Étale » du §10 est abandonnée, correction en attente sur le dossier maître.*
+*Vocabulaire : le palier s'appelle **le jardin** (« il est au jardin depuis l'hiver dernier »). Décision de l'autrice du 13 août 2026 ; la piste « l'Étale » du §10 est abandonnée, correction en attente sur le dossier maître. **Le jardin est à huit ans** depuis le 16 août 2026 — éviter donc les tournures qui mêlent une durée de séjour et un âge, elles se lisent mal maintenant que le chiffre est le même.*
 
 *Vocabulaire, suite : **aucun mot de parenté n'existe dans ce monde.** Les mots du titre de ce document appartiennent à la vie d'avant et n'entrent jamais dans une scène d'ici. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).*

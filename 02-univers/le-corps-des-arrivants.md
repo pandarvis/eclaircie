@@ -38,9 +38,9 @@ L'arrivant ne sait pas qui il est, ne sait rien du monde, ne sait rien faire. Il
 >
 > **Le dossier maître n'a pas été modifié.** La correction attend l'autrice. **En cas de contradiction, c'est le présent document qui fait foi**, et sur ce point seulement.
 >
-> **Deux autres endroits du dossier portent la même phrase et devront être repris en même temps** — ils ne sont pas modifiés ici :
-> - [`../01-dossier/expliquer-le-systeme.md`](../01-dossier/expliquer-le-systeme.md), la réponse *« On sort vide »* : *« un corps de quatre-vingt-dix ans et l'esprit d'un nourrisson : il ne parle pas »* ;
-> - [`../03-personnages/andrew.md`](../03-personnages/andrew.md), à vérifier au passage sur sa sortie de capsule et ses années d'apprentissage.
+> **Deux autres endroits du dossier portaient la même phrase :**
+> - [x] [`../01-dossier/expliquer-le-systeme.md`](../01-dossier/expliquer-le-systeme.md), la réponse *« On sort vide »* — **corrigée le 16 août 2026** : la langue est là, l'esprit est embrumé ;
+> - [ ] [`../03-personnages/andrew.md`](../03-personnages/andrew.md), à vérifier sur sa sortie de capsule et ses années d'apprentissage. *Hors périmètre de ce lot.*
 
 ### Ce qui reste vrai
 
@@ -96,6 +96,8 @@ C'est un **vocabulaire de réveil**, et il est offert. Un homme qui émerge, qui
 
 ## Puis on rajeunit, et tout se renverse
 
+*Vaut pour tous ceux qui arrivent **au-dessus de huit ans**, c'est-à-dire la quasi-totalité du monde. Pour l'autre cas, voir la section suivante.*
+
 Les anniversaires se comptent à rebours, et **tout se renverse physiologiquement**. La condition physique à l'envers, sans exception connue :
 
 - **la vigueur et la force** montent au lieu de baisser ;
@@ -103,25 +105,55 @@ Les anniversaires se comptent à rebours, et **tout se renverse physiologiquemen
 - **la ménopause** est un seuil qu'on repasse dans l'autre sens ;
 - les fatigues, les raideurs, les diminutions de l'âge s'annulent à mesure qu'on les remonte.
 
-Descendre n'est donc jamais s'affaiblir. C'est le contraire, et c'est ce qui rend le palier tenable : on n'arrive pas à cinq ans épuisé, on y arrive intact.
+Descendre n'est donc jamais s'affaiblir. C'est le contraire, et c'est ce qui rend le jardin tenable : **on n'arrive pas à huit ans épuisé, on y arrive intact.**
+
+### Ce que le renversement produit, et qui est vrai hors du roman aussi
+
+**Plus on arrive jeune, moins on a de chances d'être malade.** Ce n'est pas une règle du système, c'est la conséquence physiologique de tout ce qui précède : un corps jeune est un corps sain, et celui qui arrive à dix ans ne connaîtra jamais un corps usé. Celui qui arrive à quatre-vingt-dix passe des décennies dedans.
+
+*C'est le seul grief vérifiable des jaloux, et il est développé là où il sert : [`la-jalousie.md`](la-jalousie.md), « L'argument de la santé ». Retenir ici un seul point : **le système ne distribue pas la santé. Il distribue des âges, et la santé suit.***
 
 ---
 
-## ⚠️ Le corps ne s'arrête pas à cinq ans
+## ⚠️ LE CORPS CONVERGE VERS HUIT ANS — DES DEUX CÔTÉS
 
-> **Décision de l'autrice, 15 août 2026.**
->
-> > *« On a une durée de vie au jardin qui stagne selon les âges mais qui finit par décroître. Un enfant de 5 ans qui a donc 30 ans de vie devant lui va en faire 25 à l'âge de 5 ans puis décroître jusqu'à 0. »*
+> **Décision de l'autrice, 16 août 2026. Elle remplace le palier de cinq ans partout dans cette fiche.**
 
-**Ce document, comme tout le dossier, supposait que le corps se figeait à cinq ans pour de bon. C'est faux.**
+**Ce document, comme tout le dossier, supposait que le corps se figeait à cinq ans, et qu'on n'arrivait jamais en dessous. Les deux sont faux.**
 
-Une vie a trois temps : la descente, **le plateau** au jardin, puis **la décroissance jusqu'à zéro.** Cinq ans est le plancher d'**arrivée** — personne n'arrive en dessous — mais ce n'est plus le plancher du corps. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md), « La correction majeure ».
+Le nombre est **huit**, et ce n'est pas une borne : c'est **le point vers lequel le corps converge, quel que soit le côté d'où il part.** Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md).
 
-**Ce que ça veut dire ici, et c'est brutal :** après le plateau, **le corps repart.** Quatre ans, trois ans, deux ans, un an. Il redevient un tout petit enfant, puis un nourrisson, puis rien. **On disparaît à zéro.**
+| Arrivée | Ce que fait le corps | Vitesse |
+|---|---|---|
+| **au-dessus de huit** | il rajeunit, comme ci-dessus | vitesse du §7 |
+| **à huit** | rien | — |
+| **en dessous de huit** | **il grandit, à l'endroit, comme chez nous** | **1:1** |
 
-*La phrase du §16 — « on ne perd pas son innocence : on la regagne, et on disparaît dedans » — décrit exactement cela. Ce n'était pas une image.*
+### Le cas neuf : un corps qui va dans le bon sens
 
-**Ce que le renversement physiologique ci-dessus permet d'affirmer, et rien de plus :** un corps de quatre ans est un corps de quatre ans, complet et sain, comme un corps de cinq ans l'était. La descente n'abîme pas ; elle n'abîmait pas au-dessus du palier, et rien ne dit qu'elle abîme en dessous. **Ce qui reste entièrement ouvert, c'est le bas de la course** — voir la question refondue plus bas.
+**C'est la seule chose de ce monde qui ressemble au nôtre**, et le dossier ne l'avait jamais envisagée.
+
+Un arrivant de deux ans **grandit**. Il prend des centimètres, il perd ses dents, il apprend à courir, et il met six ans à atteindre huit — exactement le temps qu'un enfant d'ici mettrait. Rien ne se renverse chez lui : ni la vigueur, ni les capacités, ni rien. **Il n'a pas de reconquête à faire, parce qu'il n'a rien perdu.**
+
+**Et il croise l'autre.** Un arrivant de dix ans descend six ans, lui monte six ans, et **ils entrent au jardin le même jour, par les deux côtés.** Deux enfants de huit ans, assis au même endroit, dont l'un a rétréci pour y venir et l'autre a poussé. **Rien sur les corps ne dit lequel est lequel.**
+
+### Puis, pour tous, le corps repart
+
+Après le plateau, **le corps repart vers le bas.** Sept ans, six, cinq, quatre, trois, deux, un. Il redevient un tout petit enfant, puis un nourrisson, puis rien. **On disparaît à zéro.**
+
+*La phrase du §16 — « on ne perd pas son innocence : on la regagne, et on disparaît dedans » — décrit exactement cela, et elle vaut maintenant dans les deux sens : l'un la regagne en descendant, l'autre en montant, tous deux disparaissent dedans.*
+
+### La parole se dégrade vers quatre ans
+
+> **Décision de l'autrice, 16 août 2026. C'est le seul repère chiffré du troisième temps.**
+
+En descendant, **la langue s'en va aux alentours de quatre ans.** Ce qui suit se passe sans mots.
+
+**C'est l'exact renversement de la décision du 15 août**, et le rapprochement est à tenir : on sort de la capsule **en sachant parler, et c'est la seule chose qu'on sache** ; on s'en va **en ayant tout appris, et en ne sachant plus le dire.** La langue est la première chose donnée et la dernière reprise.
+
+*Conséquence sur les berceurs, signalée et non développée ici : la moitié basse de leur métier se passe auprès de quelqu'un qui ne parle plus. Voir [`../03-personnages/june.md`](../03-personnages/june.md), hors périmètre de ce lot.*
+
+**Ce que le renversement physiologique permet d'affirmer, et rien de plus :** un corps de quatre ans est un corps de quatre ans, complet et sain, comme un corps de huit ans l'était. La descente n'abîme pas ; elle n'abîmait pas au-dessus du jardin, et rien ne dit qu'elle abîme en dessous. **Ce qui reste entièrement ouvert, c'est le bas de la course** — voir la question refondue plus bas.
 
 ### Tout le monde est stérile
 
@@ -304,7 +336,9 @@ Deux lectures, et le choix engage le registre entier du livre.
 
 *Et depuis la correction majeure, cette lecture gagne du poids : **le corps fait déjà la même chose que la morale**, littéralement, puisqu'il descend sous l'enfance et disparaît dedans. La phrase du §16 n'est plus une image. Choisir « elle s'efface » ne serait donc plus greffer une seconde propriété au surnaturel — ce serait prolonger celle qui existe. **À repeser, la balance a bougé.***
 
-**Elle reste.** Le corps rajeunit, les dommages non. Plus austère, plus crédible, et cohérent avec le fait que le chiffre est un plafond et pas une garantie. Cela donne aussi, au palier, des vieux de cinq ans avec des corps d'enfants marqués — image terrible, et parfaitement exploitable. *Et au troisième temps, la même marque sur un corps de deux ans : à voir si le dossier veut aller là.*
+**Elle reste.** Le corps rajeunit, les dommages non. Plus austère, plus crédible, et cohérent avec le fait que le chiffre est un plafond et pas une garantie. Cela donne aussi, au jardin, des vieillards de huit ans avec des corps d'enfants marqués — image terrible, et parfaitement exploitable. *Et au troisième temps, la même marque sur un corps de deux ans : à voir si le dossier veut aller là.*
+
+*Cas nouveau depuis le 16 août, et il tranche peut-être la question tout seul : **celui qui arrive en dessous de huit grandit.** Une blessure prise à trois ans, chez lui, ne peut pas s'effacer en repassant sous trois ans, puisqu'il ne repassera jamais dessous — il monte. La lecture « elle s'efface » ne vaudrait donc que dans un sens de circulation, et le monde en aurait deux. **À verser au débat ; ce n'est pas une objection décisive, c'est une asymétrie de plus.***
 
 *À peser.* La première lecture est belle, mais elle **ajoute du merveilleux à un monde qui n'en a pas** : le rajeunissement est la seule règle surnaturelle du livre, et lui greffer une seconde propriété la rend moins nette. La seconde **coûte moins cher** : elle n'ajoute rien, elle se contente de ne pas prolonger la règle au-delà de ce qu'elle dit.
 
@@ -317,17 +351,24 @@ Deux lectures, et le choix engage le registre entier du livre.
 - [ ] **La blessure prise ici.** S'efface-t-elle en repassant sous l'âge, ou reste-t-elle ? Voir la section ci-dessus.
 - [ ] **La maladie.** Peut-on tomber malade ici, et guérit-on en rajeunissant ? Le §7 pose que *le chiffre est un plafond, pas une garantie*, et que les accidents et maladies existent — donc oui, on tombe malade. Le détail n'est pas réglé : une maladie liée à l'âge lâche-t-elle prise d'elle-même à mesure qu'on descend ?
 - [ ] **Les capacités cognitives à l'envers.** À quel moment un arrivant de quatre-vingt-dix ans apprend-il le mieux ? Le §9 dit qu'ils apprennent mal au début puis de mieux en mieux — reste à savoir s'il y a un sommet, et où il tombe.
-- [x] ~~**Le corps au palier — est-ce qu'il ne change vraiment pas du tout ?**~~ — **répondu à moitié, 15 août 2026.** **Pendant le plateau, il ne change pas** : ni taille, ni dents, ni cheveux, et la scène du berceur tient mot pour mot — *il est là depuis huit ans et il n'a pas changé d'un jour* (§14). **Puis il redescend.** La question, telle qu'elle était posée, supposait que le palier durait jusqu'à la fin ; il n'y a plus de fin au palier. Reformulée juste en dessous.
-- [ ] **Ce que devient un corps en dessous de cinq ans, et jusqu'où.** *C'est la question ouverte qui remplace la précédente, et c'est la plus lourde de cette fiche.* Il repart du plateau et descend jusqu'à zéro : quatre ans, trois ans, deux ans, un an. **Un corps de deux ans, dans ce monde, est-il un corps de deux ans ?** — c'est-à-dire un enfant qui ne marche presque plus, ne parle plus, ne mange plus seul, et qu'il faut porter. La règle générale de cette fiche dit oui, sans exception connue : *le corps est l'âge*. Mais elle n'a jamais été énoncée pour cette zone-là, et personne ne l'y a jamais appliquée.
+- [x] ~~**Le corps au palier — est-ce qu'il ne change vraiment pas du tout ?**~~ — **répondu à moitié, 15 août 2026.** **Pendant le plateau, il ne change pas** : ni taille, ni dents, ni cheveux, et la scène du berceur tient mot pour mot — *il est là depuis huit ans et il n'a pas changé d'un jour* (§14). **Puis il redescend.** Reformulée juste en dessous.
+- [ ] **Ce que devient un corps en dessous de huit ans, et jusqu'où.** *C'est la plus lourde question de cette fiche.* Il repart du plateau et descend jusqu'à zéro. **Un corps de deux ans, dans ce monde, est-il un corps de deux ans ?** — c'est-à-dire un enfant qui ne marche presque plus, ne mange plus seul, et qu'il faut porter. La règle générale de cette fiche dit oui, sans exception connue : *le corps est l'âge*. **Un seul point est acquis : la parole s'en va vers quatre ans.** Tout le reste est ouvert.
   **Et « jusqu'où » est la seconde moitié de la question.** Zéro est un chiffre de barème, pas une image : on ne sait pas ce qu'on voit à la fin, ni s'il y a quelque chose à voir. **Rien n'est proposé ici.** *À l'autrice, et cela commande le registre de toute scène de fin.*
+- [ ] **Le corps qui grandit — jusqu'où la ressemblance avec chez nous ?** Un arrivant de deux ans monte à 1:1 pendant six ans. Est-ce en tout point la croissance d'un enfant d'ici, ou y a-t-il quelque chose qui cloche ? *Aucune règle n'existe pour cette zone : le cas n'était pas prévu avant le 16 août 2026.*
+- [ ] **Le plancher d'arrivée, et la contradiction de la parole.** Jusqu'où peut-on arriver bas ? **Tout le monde sort de la capsule en sachant parler**, et **la parole se dégrade vers quatre ans en descendant.** Un arrivant de un an devrait donc parler alors qu'un descendant de un an ne parle plus. **Les deux règles ne peuvent pas être vraies ensemble sous quatre ans.** À arbitrer : soit le plancher d'arrivée se situe vers quatre, soit la langue à l'arrivée ne dépend pas de l'âge. *Ne rien trancher ici.*
+- [ ] **Un arrivant sous le seuil est-il suivi comme les autres ?** Le principe posé est qu'il y a d'autant plus de rendez-vous qu'on est arrivé haut. Celui qui arrive à deux ans est arrivé le plus bas possible — et c'est celui dont il y aurait le plus à mesurer, puisqu'il est le seul dont le corps progresse.
 - [ ] **Jusqu'où va la langue qui sort avec lui ?** Elle est complète comme langue — mots, syntaxe, compréhension. Mais un arrivant a-t-il le mot d'une chose qu'il n'a jamais vue ? Dit-il *cuillère* devant une cuillère, ou faut-il le lui souffler ? La réponse règle le ton de tous les dialogues de cérémonie, et notamment de la scène d'ouverture.
 - [ ] **Combien de temps dure l'embrumement ?** Quelques minutes, quelques jours, des semaines ? Le mot de l'autrice — *comme après un long sommeil* — suggère quelque chose qui se dissipe. Reste à savoir en combien de temps, et si c'est le même délai pour tous les âges d'arrivée.
 - [ ] **De combien cela raccourcit l'apprentissage d'Andrew**, et donc le calendrier. Aucun chiffre n'est proposé. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md) et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.3.
 - [ ] **Le nom du métier et du rendez-vous** — *le suivi*, *les visites*, *le contrôle d'arrivée*, ou autre chose. **Rien n'est retenu.** Voir [« Le nom du métier n'est pas choisi »](#le-nom-du-métier-nest-pas-choisi). *« Pédiatre pour vieux »* est la formule de travail de l'autrice et n'entre pas dans le roman.
-- [ ] **La cadence du suivi.** Combien de rendez-vous, sur combien d'années, et jusqu'où — s'arrête-t-il quand l'arrivant est autonome, ou continue-t-il jusqu'au jardin ? Le principe posé est qu'il y en a d'autant plus qu'on est arrivé haut ; le détail n'est pas réglé, et **aucun chiffre n'est proposé**. *Et « jusqu'au jardin » n'est plus une borne : il y a un troisième temps derrière. Un corps qui redescend sous cinq ans est-il encore suivi, et par qui ?*
+- [ ] **La cadence du suivi.** Combien de rendez-vous, sur combien d'années, et jusqu'où — s'arrête-t-il quand l'arrivant est autonome, ou continue-t-il jusqu'au jardin ? Le principe posé est qu'il y en a d'autant plus qu'on est arrivé haut ; le détail n'est pas réglé, et **aucun chiffre n'est proposé**. *Et « jusqu'au jardin » n'est plus une borne : il y a un troisième temps derrière. Un corps qui redescend sous huit ans est-il encore suivi, et par qui — sachant qu'il cesse de parler vers quatre ?*
 - [ ] **Comment un voilé passe le suivi.** Le protocole ne cherche pas ça, ou ce qu'il dit passe pour de la fabulation ordinaire — voir la section. **Question ouverte, et elle touche à l'[interdit n° 4](../01-dossier/les-interdits.md)** : le suivi ne doit jamais devenir l'instance qui établit qu'Eliott est voilé.
 - [ ] **Ce que contient le dossier de suivi d'Eliott**, et qui peut le consulter. Ressource d'enquête ; à régler dans le plan, pas ici.
 - [ ] **Pourquoi un arrivant sort avec la langue du lieu où il sort.** Ce n'est jamais expliqué et ne doit jamais l'être : même régime que la correspondance des lieux dans [`la-ruche.md`](la-ruche.md) — une régularité de fait que personne ne formule, parce que personne ne connaît d'autre cas. **Attention à l'[interdit n° 7](../01-dossier/les-interdits.md)** : aucun personnage ne doit s'étonner d'une langue, pas plus qu'il ne s'étonne d'un nom de fleuve.
+
+*Réglé : **le corps converge vers huit ans des deux côtés** — il rajeunit si l'on arrive au-dessus, **il grandit à 1:1 si l'on arrive en dessous** —, puis il repart du plateau vers zéro. Voir la section « Le corps converge vers huit ans — des deux côtés », et [`ce-qui-est-juge.md`](ce-qui-est-juge.md).*
+
+*Réglé : **la parole se dégrade vers quatre ans** en descendant. C'est le seul repère chiffré du troisième temps, et l'exact renversement de la langue donnée à l'arrivée.*
 
 *Réglé : **des rendez-vous médicaux obligatoires suivent toute éclaircie** — mémoire, tonicité, apprentissage —, et c'est ainsi que cette société mesure la pente du §9. Voir [« Le suivi médical après l'éclaircie »](#le-suivi-médical-après-léclaircie).*
 

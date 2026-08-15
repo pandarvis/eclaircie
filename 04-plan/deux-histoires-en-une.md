@@ -23,7 +23,7 @@
 | **Sorel** | **la vie d'avant uniquement** | le **nom de famille** par lequel les fragments désignent le dossier : *« l'affaire Sorel »*. **Tranché le 15 août 2026.** Section 2.5 |
 
 - **Dans ce monde-ci, personne n'a de nom de famille**, et la règle n'est jamais énoncée dans le roman. On n'écrit donc jamais un second nom pour Andrew, June, Eliott, Isaac, Chrissy ou Tania — ni sur une porte, ni dans un registre, ni dans une convocation. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ».
-- **Ces prénoms-ci n'ont été donnés par personne : chacun a produit le sien** en sortant de la capsule, à la question du veilleur. Exception, les moins de huit ans, nommés par une berceuse. **Eliott, arrivé à dix ans, s'est donc nommé lui-même** — ce n'est pas June qui l'a nommé, et ce point est à répercuter dans [`../03-personnages/june.md`](../03-personnages/june.md) et [`../03-personnages/eliott.md`](../03-personnages/eliott.md), que ce document ne modifie pas. Protocole complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant ».
+- **Ces prénoms-ci n'ont été donnés par personne : chacun a produit le sien** en sortant de la capsule, à la question du veilleur. Exception, **les arrivants de huit ans et moins**, nommés par une berceuse — *seuil corrigé le 16 août 2026, huit ans inclus, parce que huit ans est aussi l'âge du jardin.* **Eliott, arrivé à dix ans, s'est donc nommé lui-même** — ce n'est pas June qui l'a nommé, et ce point est à répercuter dans [`../03-personnages/june.md`](../03-personnages/june.md) et [`../03-personnages/eliott.md`](../03-personnages/eliott.md), que ce document ne modifie pas. Protocole complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant ».
 - **Andrew et Joël ne se rencontrent jamais dans la même phrase**, sauf décision délibérée de l'autrice. Les mettre côte à côte, c'est écrire deux hommes.
 - **Chrissy et Tania existent dans ce monde-ci, et nulle part ailleurs.** Ce sont les noms que la ruche leur a donnés à leur arrivée. On les emploie librement dans toute scène d'ici. **Dans les chapitres de la vie d'avant, les deux filles n'ont aucun nom** — et **leurs noms d'alors ne sont jamais donnés**, ni au lecteur, ni à un personnage, ni dans ce dossier. Ce n'est pas une lacune, c'est une décision : il n'y a rien à trouver, et rien à inventer.
 - Les périphrases restent justes quand elles désignent une fonction — « le veilleur », « l'enquêteur », « le garçon », « les jumelles », « la berceuse ». On ne remplace un prénom par une périphrase, ni l'inverse, que pour alléger la lecture.
@@ -515,6 +515,34 @@ Ce que ça donne au livre :
 
 *Contrainte : personne ne doit appliquer cette croyance à Andrew devant lui. Si un personnage lui dit qu'il a l'air de quelqu'un qui n'est pas en paix, la doctrine devient un diagnostic, et le diagnostic devient une preuve.*
 
+## 9 bis. Le voile est un poids — et la dernière grâce
+
+> **Décision de l'autrice, 16 août 2026.** **On arrive voilé quand on n'est pas en paix.** Et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce.
+
+**La section 9 ci-dessus devient plus qu'une croyance populaire : elle devient la règle, et elle gagne une suite.** Deux choses à tenir ensemble, et elles ne disent pas la même chose du monde :
+
+| | Ce que le voile est |
+|---|---|
+| **Un pardon** | §11 : *un dossier qu'on lui rend*, une seconde chance |
+| **Un poids** | on ne le porte que parce qu'on n'était pas en paix, et on le porte tout du long |
+
+**Et il y a une sortie, mais elle est au bout.** Une fois au jardin, on suppose que ça s'efface.
+
+**La supposition doit rester une supposition, et c'est ce qui la rend écrivable.** Personne ne l'a vérifiée, personne ne peut la vérifier — un arrivant au jardin ne raconte pas ce qu'il ne porte plus. **Elle se dit exactement comme la croyance du §9** : dans une cuisine, sur le ton dont on parle des fantômes, et quelqu'un peut hausser les épaules. Elle est vraie, et rien ne le confirme.
+
+**Ce que ça produit dans le livre, et c'est le fil des deux voilés :**
+
+| | Ce qu'il porte | Comment il s'en défait | Ce qu'il obtient |
+|---|---|---|---|
+| **Andrew** | un dossier à finir | il désobéit, puis il s'excuse auprès de deux jeunes filles qui ne comprennent rien | **rien** |
+| **Eliott** | une blessure à dire | il raconte, juste avant d'entrer au jardin | **rien** |
+
+> **Les deux se libèrent en parlant, et aucun des deux n'obtient de réponse.**
+
+**C'est ce qui explique l'épilogue.** Eliott se confesse *avant* d'entrer, parce que c'est le dernier moment où il a encore quelque chose à déposer. **Un seul moment, pas deux.** Voir [`duree-et-calendrier.md`](duree-et-calendrier.md), « L'épilogue », et [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §10.
+
+*Contrainte, la même qu'au §9 et elle est plus stricte encore : **aucun personnage ne dit à un voilé qu'il se libérera.** Ce serait une promesse, donc une consolation, donc une confirmation du système — et l'interdit n° 3 tomberait. Le savoir est au lecteur, qui l'aura entendu une fois, en passant, dans la bouche de quelqu'un qui n'en savait rien.*
+
 ---
 
 # 10. Ce qui reste à résoudre
@@ -530,7 +558,7 @@ Ce que ça donne au livre :
 | Document | Ce qui y est indexé sur les mouvements |
 |---|---|
 | [`incidences-2026-08-13.md`](incidences-2026-08-13.md) | tout le document, mouvement par mouvement |
-| [`duree-et-calendrier.md`](duree-et-calendrier.md) | le calendrier des douze ans, l'enquête sur neuf ans, l'entrée au jardin à l'année 19 |
+| [`duree-et-calendrier.md`](duree-et-calendrier.md) | **plus rien** — le document a été refait les 15 et 16 août 2026. Le calendrier des douze ans est supprimé, le corps du roman tient sur quelques semaines, **et l'épilogue est à six ans** |
 
 *Rien n'y est faux — ce sont des décisions valides sur un plan qui a changé. À reprendre après le nouveau séquencier, pas avant.*
 
@@ -548,11 +576,15 @@ Les documents existants posent dix ans **entre son arrivée et celle de la femme
 
 **Dix ans de métier, ou dix ans dans ce monde ?** Le choix décale tout le calendrier — et il touche directement la section 8 : un homme en fonction depuis longtemps, qui regarde un autre nettoyer, n'est pas un débutant.
 
-## 10.4 Eliott entre au jardin
+## 10.4 Eliott entre au jardin — tranché, et ce n'est plus une question de plan
 
-C'était le climax de l'acte II dans l'ancien découpage : la perte du seul témoin, qui provoquait le retournement.
+> **Clos les 15 et 16 août 2026 : c'est l'épilogue, six ans après le corps du roman.** Il y a **huit ans**, Andrew en a **quarante-six**, et **la confession vient juste avant l'entrée, dans le même mouvement.**
 
-**Où se place-t-il maintenant qu'il est enlevé puis retrouvé vivant ?** Avant l'enlèvement, après, ou à la toute fin — un enfant sauvé qui perd les mots quelques années plus tard, et à qui plus personne ne pourra rien demander.
+C'était le climax de l'acte II dans l'ancien découpage : la perte du seul témoin, qui provoquait le retournement. **Ce rôle est supprimé** — pendant le livre, c'est **l'enlèvement**, et lui seul, qui retire sa source à Andrew ([`le-meme-jour.md`](le-meme-jour.md) §4.2). **Le ressort du mouvement 18 est donc à retrouver ailleurs, et c'est un vrai trou dans le séquencier.**
+
+*Deux formulations qui traînaient encore ici sont fausses et ne doivent pas être reprises : « un enfant sauvé qui perd les mots quelques années plus tard » — **il ne perd pas les mots, la parole est intacte à huit ans** — et « à qui plus personne ne pourra rien demander », qui reste vrai mais pour une autre raison : il n'aura plus rien à répondre, non parce qu'il ne pourra plus.*
+
+**Ce que le séquencier doit encore régler**, et c'est neuf : **comment situer l'épilogue dans le temps.** Le corps de l'enfant ne date plus le saut — dix ans à huit ans, ça ne se voit presque pas, là où dix ans à cinq ans disait tout. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md), « Le garçon était l'horloge ».
 
 ## 10.5 L'histoire d'amour
 
@@ -567,6 +599,13 @@ Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux
 **L'usage de l'autrice est cohérent et mérite d'être inscrit au lexique.** Un arrivant de dix ans ne deviendra jamais adulte : il n'a donc pas besoin d'un tuteur qui lui apprenne à travailler et à tenir dans le monde. Un **berceur**, qui accompagne, est le bon métier — et la ligne de partage n'est pas l'âge courant mais **ce qui reste à faire de la vie**.
 
 *Formulation à valider avant correction du §10 : le tuteur instruit ceux qui auront à s'en servir ; le berceur accompagne ceux qui n'en auront pas l'usage.*
+
+**Et le métier a gagné deux choses le 16 août 2026, à porter au lexique en même temps :**
+
+- **il nomme les arrivants de huit ans et moins** — huit inclus, parce que huit ans est aussi l'âge du jardin : qui arrive à huit pile y entre directement, et le berceur qu'on appelle pour l'accompagner est celui qui vient de le nommer ;
+- **il sait quand un enfant quitte le plateau, et il ne le dit pas.** C'est le tabou. **Le seul savoir détenu et gardé de tout le système** — partout ailleurs, personne ne sait rien. Voir [`../03-personnages/june.md`](../03-personnages/june.md) §1 bis.
+
+*Ce second point change la définition du métier plus que le premier : « accompagner jusqu'au dernier jour » devient aussi « savoir quel jour c'est, et se taire ». **À ne jamais énoncer dans le roman** — le tabou se voit à ce que personne ne répond jamais à cette question-là.*
 
 ---
 
@@ -583,12 +622,14 @@ Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux
 - [ ] Le séquencier complet de la nouvelle architecture — combien de chapitres, quelle alternance des deux récits, où tombent A, B, C, D. **Il se règle sur la section 1 bis, et non l'inverse** : deux points sont déjà contraints — la première apparition de Chrissy et Tania doit tomber tôt, et aucune paire de faux raccords ne doit être assez nette, avant la planque, pour déclencher un soupçon.
 - [ ] **Le moteur du §8** : fils réunis, ou toile de fond ? *La décision du 15 août 2026 sur le ravisseur donne un candidat de jointure — le climat de la jalousie —, sans rien trancher.*
 - [ ] **Dix ans de métier ou dix ans dans ce monde ?**
-- [ ] La place d'Eliott au jardin.
+- [x] ~~La place d'Eliott au jardin.~~ — **close, 15 et 16 août 2026 : c'est l'épilogue, six ans après le corps du roman.** Il y a huit ans, Andrew quarante-six, et la confession vient juste avant l'entrée. **Ce qui reste ouvert n'est plus sa place mais deux autres choses** : le ressort de remplacement du mouvement 18, et la manière de situer l'épilogue dans le temps maintenant que le corps de l'enfant ne le date plus. Section 10.4.
 - [ ] La place du chapitre de sa propre cérémonie.
 - [ ] Le devenir de l'écho *cop à cop, poste à poste* : l'ami policier remplace-t-il l'inconnu lassé, ou les deux coexistent-ils ?
 - [x] ~~Le nom de l'agent de police~~ — **Isaac.** Voir [`../03-personnages/isaac.md`](../03-personnages/isaac.md).
-- [ ] L'entrée au lexique du berceur pour arrivants jeunes. **Point nouveau à y intégrer : le berceur nomme aussi les arrivants de moins de huit ans**, systématiquement appelé par le veilleur d'accueil. C'est un acte de métier de plus, et il tombe exactement sur la ligne de partage posée au §10.6.
-- [ ] Où et combien de fois la croyance du voile-traumatisme se dit dans le livre.
+- [ ] L'entrée au lexique du berceur pour arrivants jeunes. **Deux points nouveaux à y intégrer, 16 août 2026** : le berceur **nomme les arrivants de huit ans et moins** — huit inclus —, et **il sait qu'un enfant a quitté le plateau sans jamais le lui dire.** Section 10.6.
+- [ ] Où et combien de fois la croyance du voile-traumatisme se dit dans le livre. **Et la suite qu'elle a gagnée le 16 août 2026** — *les reliquats disparaîtraient une fois au jardin* — se dit-elle dans la même bouche, ou ailleurs ? Section 9 bis.
+- [ ] **Le ressort de remplacement du mouvement 18.** L'entrée d'Eliott au jardin ne le déclenche plus, puisqu'elle est à l'épilogue. **Trou identifié, non comblé.** Section 10.4.
+- [ ] **Comment situer l'épilogue dans le temps.** Le corps de l'enfant ne date plus le saut : dix ans à huit ans, ça ne se voit presque pas. **Question neuve du 16 août 2026.** Section 10.4.
 - [x] ~~Comment nomme-t-on l'affaire dans les fragments sans prononcer de prénom ?~~ — **tranché le 15 août 2026 : par un nom de famille, *« l'affaire Sorel »*.** Section 2.5.
 - [x] ~~Le nom de famille lui-même~~ — **tranché le 15 août 2026 : Sorel.** C'est le mot le plus répété de tous les fragments, et il ne situe rien.
 - [ ] **La révision du §4 du dossier maître** — *on sort de la capsule en sachant parler*. Elle est écrite dans [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md) et **le dossier maître n'a pas été corrigé**. À reprendre par l'autrice.

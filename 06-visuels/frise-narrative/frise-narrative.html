@@ -810,23 +810,24 @@
       <div class="doc doc--wide">
         <p class="eyebrow">Le système, en une image</p>
         <h2>On descend un escalier, puis on s'assoit</h2>
-        <p class="lede">Chaque courbe est une vie. Elle part de l'âge d'arrivée, descend jusqu'à cinq ans, et devient plate : c'est <strong>le jardin</strong>, où l'âge ne bouge plus et où le temps continue de passer. Le point marque la fin.</p>
+        <p class="lede">Chaque courbe est une vie, et elle a <strong>trois temps</strong> : on descend jusqu'à cinq ans, on stagne — c'est <strong>le jardin</strong> —, puis <strong>on décroît jusqu'à zéro</strong>. Le point marque la mort, et elle est à zéro : on ne s'éteint pas enfant, on rétrécit jusqu'à disparaître.</p>
 
         <div class="chart-wrap"><svg class="chart" id="chart" viewBox="0 0 1040 520" role="img" aria-label="Courbes de l'âge en fonction des années vécues, pour différents âges d'arrivée"></svg></div>
         <div class="chart-legend" id="chartLegend"></div>
 
         <h3>Ce que le graphe montre</h3>
-        <p><strong>Le palier grandit à mesure que le chiffre baisse.</strong> Celui qui arrive à quatre-vingt-dix ans passe presque toute sa vie à descendre et n'a que cinq ans de plat au bout. Celui qui arrive à dix ans est plat pendant la moitié de son existence. Celui qui arrive à cinq ans n'est que du plat.</p>
+        <p><strong>Le plateau grandit à mesure que le chiffre baisse.</strong> Celui qui arrive à quatre-vingt-dix ans passe presque toute sa vie à descendre et n'a aucun plat : il touche cinq ans et il repart vers le bas. Celui qui arrive à cinq ans a vingt-cinq ans de plat, puis les cinq dernières années.</p>
+        <p><strong>Et toutes les courbes finissent au même endroit.</strong> Quel que soit le chiffre reçu, on meurt à zéro — après être repassé sous l'enfance. C'est ce qui rend la phrase du dossier littérale : <em>on ne perd pas son innocence, on la regagne, et on disparaît dedans.</em></p>
         <p><strong>Les pentes ne sont pas les mêmes.</strong> Au-dessus de cinquante ans, une année vécue enlève une année d'âge : la courbe descend à quarante-cinq degrés. Chez un arrivant de dix ans, il faut trois années vécues pour en enlever une : la pente est trois fois plus douce. C'est ce qui fait qu'un petit chiffre ne veut pas dire une petite vie.</p>
         <p><strong>Personne ne descend sous cinq ans, et personne n'arrive en dessous.</strong> C'est le plancher aux deux bouts.</p>
 
         <h3>Le tableau, si tu préfères les chiffres</h3>
         <table class="readtable">
-          <thead><tr><th>Arrive à</th><th>Descente</th><th>Au jardin</th><th>Vit en tout</th></tr></thead>
+          <thead><tr><th>Arrive à</th><th>Descente</th><th>Plateau</th><th>Fin</th><th>Vit en tout</th></tr></thead>
           <tbody id="readtable"></tbody>
         </table>
         <p><strong>Attention au piège :</strong> « vit 69 ans » n'est pas un âge. Personne n'a jamais soixante-neuf ans dans ce monde. Il y a deux compteurs, et ils tournent en sens inverse — l'âge qui descend, le temps vécu qui monte.</p>
-        <p style="color:var(--ink-3)">Chiffres à ajuster au feeling, comme tout le §7. C'est la forme qui compte.</p>
+        <p style="color:var(--ink-3)">Chiffres à ajuster au feeling, comme tout le §7. C'est la forme qui compte. <strong>La durée de la décroissance finale n'est pas fixée</strong> — cinq ans partout sur ce graphe, à confirmer.</p>
       </div>
     </section>
 
@@ -1325,16 +1326,21 @@
 
   /* ---------- le graphe du décompte ---------- */
 
-  // [âge d'arrivée, années de descente, années au jardin, étiquette, couleur]
+  // [âge d'arrivée, années de descente, plateau au jardin, fin, étiquette, couleur]
+  // Trois temps : on descend, on stagne à cinq ans, puis on décroît jusqu'à zéro.
+  // La durée de la décroissance finale n'est pas fixée — cinq ans ici, à confirmer.
+  const PALIER = 8, FIN = 8;
   const LIVES = [
-    [90, 85,  5, "90 ans",            "var(--ink-3)"],
-    [70, 65, 10, "70 ans",            "var(--ink-3)"],
-    [62, 57, 12, "62 — lui",          "var(--ink)"],
-    [50, 45, 15, "50 ans",            "var(--ink-3)"],
-    [30, 25, 20, "30 ans",            "var(--ink-3)"],
-    [10, 15, 15, "10 — le garçon",    "var(--enquete)"],
-    [ 5,  0, 25, "5 — l'enfant",      "var(--elle)"]
+    [90, 82,  0, FIN, "90 ans",         "var(--ink-3)"],
+    [70, 62,  5, FIN, "70 ans",         "var(--ink-3)"],
+    [62, 54,  7, FIN, "62 — Andrew",    "var(--ink)"],
+    [50, 42, 10, FIN, "50 ans",         "var(--ink-3)"],
+    [30, 22, 15, FIN, "30 ans",         "var(--ink-3)"],
+    [18, 30, 30, FIN, "18 — la paire",  "var(--voile)"],
+    [10,  6, 26, FIN, "10 — Eliott",    "var(--enquete)"],
+    [ 2,  6, 26, FIN, "2 — il grandit", "var(--elle)"]
   ];
+
 
   const W = 1040, H = 520, PL = 58, PR = 42, PT = 26, PB = 46;
   const TMAX = 92, AMAX = 95;
@@ -1354,9 +1360,9 @@
   });
 
   // le jardin
-  svg += `<line class="bandline" x1="${px(0)}" y1="${py(5)}" x2="${px(TMAX)}" y2="${py(5)}"/>`;
-  svg += `<text class="tickmaj" x="${px(0) - 10}" y="${py(5) + 3.5}" text-anchor="end">5</text>`;
-  svg += `<text class="tickmaj" x="${px(TMAX)}" y="${py(5) - 9}" text-anchor="end" style="letter-spacing:.18em">LE JARDIN</text>`;
+  svg += `<line class="bandline" x1="${px(0)}" y1="${py(PALIER)}" x2="${px(TMAX)}" y2="${py(PALIER)}"/>`;
+  svg += `<text class="tickmaj" x="${px(0) - 10}" y="${py(PALIER) + 3.5}" text-anchor="end">8</text>`;
+  svg += `<text class="tickmaj" x="${px(TMAX)}" y="${py(PALIER) - 9}" text-anchor="end" style="letter-spacing:.18em">LE JARDIN — 8 ANS</text>`;
 
   // axes
   svg += `<line class="axis" x1="${px(0)}" y1="${py(AMAX)}" x2="${px(0)}" y2="${py(0)}"/>`;
@@ -1365,20 +1371,20 @@
   svg += `<text x="${px(0) - 10}" y="${py(AMAX) - 10}" text-anchor="end" style="letter-spacing:.18em">ÂGE</text>`;
 
   // courbes
-  LIVES.forEach(([a0, desc, jard, label, color]) => {
-    const total = desc + jard;
-    const d = `M ${px(0)} ${py(a0)} L ${px(desc)} ${py(5)} L ${px(total)} ${py(5)}`;
+  LIVES.forEach(([a0, desc, plat, fin, label, color]) => {
+    const total = desc + plat + fin;
+    const d = `M ${px(0)} ${py(a0)} L ${px(desc)} ${py(PALIER)} L ${px(desc + plat)} ${py(PALIER)} L ${px(total)} ${py(0)}`;
     svg += `<path class="curve" d="${d}" style="stroke:${color}"/>`;
-    svg += `<circle class="end" cx="${px(total)}" cy="${py(5)}" r="4" style="fill:${color}"/>`;
+    svg += `<circle class="end" cx="${px(total)}" cy="${py(0)}" r="4" style="fill:${color}"/>`;
     svg += `<text class="lbl" x="${px(0) + 9}" y="${py(a0) - 8}" style="fill:${color}">${label}</text>`;
   });
 
   document.getElementById("chart").innerHTML = svg;
 
   document.getElementById("chartLegend").innerHTML = LIVES.map(l =>
-    `<span style="--c:${l[4]}"><i></i>${l[3]}</span>`).join("");
+    `<span style="--c:${l[5]}"><i></i>${l[4]}</span>`).join("");
 
-  document.getElementById("readtable").innerHTML = LIVES.map(([a0, desc, jard]) =>
-    `<tr><td>${a0} ans</td><td>${desc} ans</td><td>${jard} ans</td><td>${desc + jard} ans</td></tr>`).join("");
+  document.getElementById("readtable").innerHTML = LIVES.map(([a0, desc, plat, fin]) =>
+    `<tr><td>${a0} ans</td><td>${desc} ans</td><td>${plat} ans</td><td>${fin} ans</td><td>${desc + plat + fin} ans</td></tr>`).join("");
 })();
 </script>

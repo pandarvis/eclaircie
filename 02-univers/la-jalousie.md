@@ -23,14 +23,28 @@ On ne leur envie pas de ne rien faire. On ne leur envie pas d'échapper au trava
 
 **On leur envie d'accéder si facilement à l'âge d'innocence.**
 
-Le monde n'a qu'une destination et elle est la même pour tous : cinq ans, le palier, l'insouciance dans laquelle on disparaît. Personne n'en est privé. Personne n'y arrive plus tôt qu'un autre au sens du mérite : on y arrive tous, un jour, et on y reste jusqu'au bout.
+Le monde n'a qu'une destination et elle est la même pour tous : **huit ans**, le jardin, l'insouciance dans laquelle on finit par disparaître. Personne n'en est privé. Personne n'y arrive plus tôt qu'un autre au sens du mérite.
+
+*Correction du 16 août 2026 : ce document disait *« on y arrive tous, un jour, et on y reste jusqu'au bout »*. **On n'y reste pas.** Le jardin est un plateau : on en repart vers le bas, et on meurt à zéro. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md).*
 
 Mais on n'y arrive pas par le même chemin.
 
-- Celui qui est arrivé à dix ans y accède presque tout de suite. Quelques années et il y est. Il y passera quinze ans.
-- Celui qui est arrivé à quatre-vingt-dix doit descendre tout l'escalier. La dépendance des premières années, l'apprentissage humiliant devant des formateurs plus jeunes que lui, quarante ans de travail, les maladies, la lente reconquête de son corps — et au bout, exactement la même insouciance. Il y passera cinq ans, s'il y arrive.
+- Celui qui est arrivé à dix ans y accède presque tout de suite. **Deux marches, six ans, et il y est.** Ses quarante ans sont acquis, et il en passera la plus grande partie assis.
+- Celui qui est arrivé à quatre-vingt-dix doit descendre tout l'escalier. La dépendance des premières années, l'apprentissage humiliant devant des formateurs plus jeunes que lui, quarante ans de travail, les maladies, la lente reconquête de son corps — et au bout, exactement la même insouciance, **pour un temps que personne ne lui promet.**
 
 **Même récompense. Chemins radicalement inégaux.** Voilà ce qui ronge. Pas l'oisiveté du petit chiffre : la facilité de son accès. On a fait toutes les marches pour la même chose. Certains ont pris l'escalier, d'autres sont arrivés sur le palier.
+
+### Et depuis le 16 août, le grief a un second objet
+
+**Le plancher de quarante ans est public, et l'incertitude des grands chiffres l'est aussi.**
+
+Ce n'est pas un barème et cela ne permet toujours aucun calcul — un minimum n'est pas une norme, et personne ne sait ce qu'il « aurait dû » avoir. Mais c'est une chose que tout le monde sait, et qui se dit à table :
+
+> **Eux, on leur a garanti quarante ans. Nous, on ne nous a rien garanti du tout.**
+
+C'est vrai. C'est même la formulation exacte de la règle. Et cela ne leur donne toujours rien à réclamer, parce qu'il n'y a personne à qui le réclamer et rien à mettre en face.
+
+*Le grief a toujours porté sur le chiffre d'arrivée, jamais sur le verdict — dont ils ignorent jusqu'à l'existence. Cette section ne change pas cela : elle ajoute une conséquence visible du chiffre, pas un accès au verdict.*
 
 (L'image de l'escalier vient du §7 — *« naître vieux, c'est avoir tout l'escalier »*. Elle sert à décrire, jamais à nommer un groupe.)
 
@@ -58,7 +72,7 @@ Le grief porte sur **l'accès**, jamais sur la durée. C'est ce qui le rend à l
 
 Sur la durée, les jaloux n'ont rien non plus — mais **pas parce qu'ils auraient tort. Parce qu'il n'y a rien à consulter.**
 
-**Le petit chiffre ordinaire vit beaucoup moins qu'eux.** Trente ans contre quatre-vingt-dix. Ce qu'il a de plus, c'est la proportion de ces années passées en bas, et la proportion n'est pas une quantité qu'on puisse réclamer.
+**Le petit chiffre ordinaire vit beaucoup moins qu'eux.** Quarante ans contre quatre-vingt-dix. Ce qu'il a de plus, c'est la proportion de ces années passées en bas, et la proportion n'est pas une quantité qu'on puisse réclamer. *Chiffre corrigé le 16 août 2026 : le plancher est passé de trente à quarante.*
 
 **Et le gracié, lui, remonte.** Depuis que la grâce est proportionnelle à ce qui a été pris (voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md), « 2 ter. La grâce est proportionnelle »), un meurtri mort très jeune peut approcher la durée totale d'un grand chiffre. Il ne l'égale pas par règle, il ne passe pas devant par règle — mais **il n'y a plus de règle qui l'en empêche**, seulement une pente que personne ne connaît.
 
@@ -89,7 +103,9 @@ Le mécontentement ne peut donc pas changer de nature :
 | Ce que ça devient | une revendication | une humeur |
 | Ce que ça trouve | un porte-parole | personne |
 
-**Une humeur ne se dissout pas, mais elle ne s'organise pas non plus.** Une revendication chiffrée, si : elle appelle un chiffre en réponse, donc un débat, donc une politique, donc quelqu'un pour la porter. Le §9 tient le tabou sur cinq appuis, dont un pacte — *chacun finira à cinq ans, chacun sait à peu près quand.* Ce pacte est un calcul de survie, et un calcul de survie ne résiste pas à un tableau qui montre qu'on a été perdant sur toute la ligne.
+**Une humeur ne se dissout pas, mais elle ne s'organise pas non plus.** Une revendication chiffrée, si : elle appelle un chiffre en réponse, donc un débat, donc une politique, donc quelqu'un pour la porter. Le §9 tient le tabou sur cinq appuis, dont un pacte — *chacun finira au jardin.* Ce pacte est un calcul de survie, et un calcul de survie ne résiste pas à un tableau qui montre qu'on a été perdant sur toute la ligne.
+
+*⚠️ Le §9 formulait ce pacte ainsi : **« chacun finira à cinq ans, chacun sait à peu près quand »**. **Les deux moitiés sont périmées.** C'est huit, et depuis le 16 août 2026 **personne ne sait quand** : la fin des grands chiffres est indatable. Le pacte tient encore — chacun finira au jardin —, mais il ne tient plus sur une échéance connue. Correction en attente sur le dossier maître.*
 
 **L'absence de chiffres garantit donc que personne ne puisse jamais opposer un tableau.** La colère reste sans preuve — et, cette fois, sans réfutation non plus.
 
@@ -104,13 +120,96 @@ C'est la même mécanique que plus haut, d'un cran plus profond. Leur erreur n'e
 
 ---
 
+## Les enfants qui grandissent
+
+> **Décision de l'autrice, 16 août 2026.** *« Ceux qui ne comprennent pas les détestent et trouvent leur condition injuste par rapport à la leur. Les autres sont étonnés, mais en même temps ils voient bien que quand tu es trop petit, ton existence se résume à celle d'un bébé. Tu ne fais rien, on s'occupe de toi tout le temps, tu ne profites pas des premières années de ta vie. Ce n'est que plus juste que l'univers te donne la chance de grandir jusqu'à huit ans. »*
+
+**Depuis la convergence vers huit ans, ce monde a des enfants qui grandissent** — les arrivants sous le seuil, qui montent à 1:1 jusqu'au jardin. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md). C'est rare, c'est visible, et c'est la seule chose de ce monde qui aille dans le même sens que le nôtre.
+
+**La société se partage en deux, et la fracture n'est pas celle qu'on attendrait.**
+
+| | Ce qu'ils voient | Ce qu'ils en disent |
+|---|---|---|
+| **Ceux qui ne comprennent pas** | un enfant à qui l'univers offre des années **en plus** | *« et nous, on nous offre quoi ? »* — leur condition est injuste par rapport à la sienne, et ils le détestent pour ça |
+| **Les autres** | un arrivant de deux ans, qui ne fait rien, qu'on porte, qu'on lave, qu'on nourrit | l'étonnement d'abord, puis la conclusion : **il ne profitait pas de ses premières années. Qu'on les lui rende est le minimum** |
+
+### Les deux camps ont raison, et c'est pour ça que la dispute ne se referme jamais
+
+**C'est le point à écrire, et c'est le seul qui compte dans cette section.**
+
+**Les premiers ont raison sur le fait.** Un arrivant de deux ans reçoit six années que personne d'autre ne reçoit. Elles ne se déduisent d'aucun mérite, elles ne se réclament pas, et le monde ne les explique pas. C'est un supplément, il est visible, et il n'a pas de raison.
+
+**Les seconds ont raison sur le sens.** Une existence de nourrisson n'est pas une vie. Celui qui arrive à deux ans n'a rien à quoi employer ces années-là : il est porté, changé, couché, et il ne le sait même pas. Lui rendre de quoi atteindre l'âge où l'on joue par terre n'est pas une faveur, c'est **une correction.** Sans elle, il aurait reçu du temps qu'il n'aurait pas pu vivre.
+
+> **Personne ne peut gagner cette dispute, parce que les deux camps parlent de choses différentes en croyant parler de la même.**
+
+Les uns comptent des années, les autres comptent ce qu'on peut en faire. Il n'existe aucune grandeur commune où les deux positions se rencontreraient, donc aucune démonstration possible, donc **aucune fin à l'échange.** Il reprend à chaque table, à chaque génération, dans les mêmes termes, et il n'a jamais avancé d'un pas.
+
+**C'est exactement le §9 :** *tout le monde y pense, la règle tient quand même.* Le tabou ne tient pas parce que la question serait réglée — il tient parce qu'elle ne peut pas l'être, et que tout le monde le sait sans se le dire.
+
+### Ce qu'il faut tenir en écrivant
+
+- **Ne jamais donner raison à un camp.** Ni par le narrateur, ni par un personnage sympathique, ni par la construction d'une scène.
+- **Ne jamais mettre les deux arguments dans la même bouche.** Celui qui les tiendrait tous les deux aurait pris de la hauteur, et personne ici n'en a.
+- **Ne jamais faire trancher par un événement.** Le livre ne doit pas produire un enfant qui grandit et qui donne tort à quelqu'un.
+- **Ils s'ignorent.** Ce n'est pas un débat public avec deux positions constituées : c'est deux manières de réagir devant le même enfant, et elles ne se répondent presque jamais en face.
+
+---
+
+## L'argument de la santé
+
+> **Décision de l'autrice, 16 août 2026.** Les jaloux pointent désormais **l'inégalité de santé en faveur de ceux qui arrivent jeunes.**
+
+**Plus on arrive jeune, moins on a de chances d'être malade. On est plus robuste, et on l'est plus longtemps.**
+
+### C'est le seul de leurs arguments qui soit vrai et vérifiable
+
+**Et il faut l'écrire sans l'atténuer.** Tout le reste de leur grief repose sur une ignorance irréductible — ils croient à une loterie, ils croient qu'il y a quelque chose à compter. **Celui-ci, non.** Il se constate, il se vérifie, il ne demande aucun document.
+
+**Ce n'est pas une injustice du système. C'est de la biologie.** Un corps jeune est un corps sain, ici comme ailleurs. Le système ne distribue pas la santé : il distribue des âges, et la santé suit l'âge comme elle le fait partout.
+
+| | Ce que son corps connaîtra |
+|---|---|
+| Celui qui arrive à dix ans | **jamais un corps usé.** Deux marches, six ans, et le jardin. Il n'aura pas eu le temps |
+| Celui qui arrive à quatre-vingt-dix | **des décennies dedans.** Les articulations, le souffle, la vue, les maladies de l'âge, et la lente reconquête à raison d'un an par an |
+
+**Ils ont raison, et personne ne leur répondra jamais** — pour la raison exposée ci-dessous, qui n'a rien à voir avec la vérité.
+
+### Le nœud, et il est superbe
+
+**Le §9.1 du dossier maître pose que ce sont les grands chiffres qui coûtent une fortune en soins.** L'arrivant de quatre-vingt-dix ans qu'il faut porter des années, soigner, rééduquer, suivre, avant qu'il produise quoi que ce soit.
+
+> **Le groupe qui consomme le plus de soin est donc exactement celui qui réclame qu'on le redistribue.**
+
+Le ressentiment se blanchit en revendication budgétaire, et la phrase se dit dans des salles, avec des chiffres, devant des gens qui hochent la tête :
+
+> *« Pourquoi tant de moyens pour ceux qui n'en ont pas besoin ? »*
+
+Elle est imparable en apparence, et fausse en fait. **Et personne ne les corrigera jamais** — non par lâcheté, non par calcul politique, mais parce que **dire la vérité reviendrait à dire que naître vieux coûte cher.** Cela, personne ne le dira. Ni un administrateur, ni un tuteur, ni un praticien, ni un veilleur. C'est le tabou du §9 par une autre porte, et il est plus solide que le premier : celui-là protège l'orgueil de la majorité.
+
+*C'est le même mécanisme que le discours « libérer plus tôt » de la gradation, étage 2, et il faut les tenir ensemble : dans les deux cas l'argument budgétaire est retourné, dans les deux cas la correction est disponible, dans les deux cas personne ne la prononce.*
+
+### Andrew sait de quoi ils parlent
+
+**Et c'est ce qui le place exactement où il faut.**
+
+Arrivé à soixante-deux ans, il a passé ses premières années dans un corps de soixante-deux ans : l'apprentissage devant des formateurs plus jeunes, le corps lent, les rendez-vous obligatoires, la fatigue de tout. **Il n'a pas à imaginer ce qu'ils décrivent — il l'a vécu, et il lui reste des décennies de descente avant d'en sortir.**
+
+> **Il peut les écouter sans les approuver.**
+
+C'est une position rare dans ce livre, et elle ne coûte rien : il n'a ni argument à leur opposer, ni sympathie à leur accorder. Il entend une chose vraie dite par des gens qui en tirent une conclusion qu'il ne partage pas, et il ne répond pas. **Le livre n'a pas besoin qu'il réponde.**
+
+*Contrainte : ne jamais lui faire formuler le nœud ci-dessus. Il n'a pas les chiffres, il n'a pas le §9.1, et un veilleur qui démonterait un argument budgétaire cesserait d'être un veilleur. Il écoute, il s'en va, il pense à autre chose.*
+
+---
+
 ## La gradation
 
 Quatre étages, sans coordination entre eux. Ce n'est pas une chaîne de commandement, c'est un même climat qui se durcit à mesure qu'on descend.
 
 ### 1. Le salon
 
-Une phrase à table. *« Trente ans, quand même. »* Un silence. On parle d'autre chose.
+Une phrase à table. *« Quarante ans, quand même. »* Un silence. On parle d'autre chose.
 
 Le §9 le pose déjà : **tout le monde y pense, la règle tient quand même.** C'est le sol sur lequel pousse le reste, et c'est le seul étage où presque tout le monde se trouve.
 
@@ -119,6 +218,8 @@ Le §9 le pose déjà : **tout le monde y pense, la règle tient quand même.** 
 Le courant politique qui parle de **« libérer plus tôt »** ceux qui ne connaîtront jamais autre chose (§9.5). Il ne dit jamais *tuons-les*. Il dit qu'il est cruel de faire durer une vie qui n'ira nulle part, et il le dit avec des chiffres, dans des salles, devant des gens qui hochent la tête.
 
 Ses arguments budgétaires sont faux, et le §9.1 le démontre : ce sont les grands chiffres qui coûtent une fortune — l'arrivant de quatre-vingt-dix ans qu'il faut porter des années avant qu'il produise quoi que ce soit —, pas les petits. Mais **on ne remet pas en cause la norme honorable.** L'erreur tient parce que la corriger obligerait à dire que naître vieux coûte cher, et cela, personne ne le dira.
+
+*C'est le même retournement que celui de [« L'argument de la santé »](#largument-de-la-santé), et il faut les tenir ensemble : le discours respectable et le grief sanitaire s'appuient sur le même sophisme budgétaire, et bénéficient du même silence.*
 
 ### 3. Ce qui déborde
 
@@ -252,7 +353,13 @@ Tuer un arrivant est un tort irréparable. Celui qui va au bout ne renaîtra pas
 ## À trancher
 
 - [x] ~~**Le plafond de la grâce — règle B.**~~ — **abandonné le 15 août 2026, et remplacé.** Aucune garantie chiffrée n'est tenable. Ce qui empêche le grief de devenir chiffrable n'est plus une borne mais **l'absence totale de chiffres consultables** : pas de barème, pas de durée ordinaire connue, pas de marque sur un gracié. Voir « Rien, dans les chiffres, ne donne raison aux jaloux », entièrement reprise.
-- [x] ~~**Le plancher de durée à trente ans — règle A.**~~ — **acquis le 15 août 2026.** Personne ne vit moins de trente ans. La phrase du salon — *« Trente ans, quand même »* — cesse d'être une approximation et devient le chiffre exact du plancher.
+- [x] ~~**Le plancher de durée à trente ans — règle A.**~~ — **porté à quarante le 16 août 2026.** Personne ne vit moins de quarante ans. La phrase du salon devient *« Quarante ans, quand même »*, et c'est le chiffre exact du plancher.
+- [x] ~~**Le palier à cinq ans.**~~ — **remplacé le 16 août 2026 : huit**, et ce n'est plus un plancher mais un point de convergence. Toutes les durées de ce document ont été recalculées : une arrivée à dix ans fait **six ans** de descente, pas quinze.
+- [x] ~~**Ce que la société pense des enfants qui grandissent.**~~ — **tranché le 16 août 2026 : les deux camps ont raison**, et la dispute ne se referme jamais. Voir [« Les enfants qui grandissent »](#les-enfants-qui-grandissent).
+- [x] ~~**L'argument de la santé.**~~ — **acquis le 16 août 2026.** C'est le seul grief vrai et vérifiable ; il relève de la biologie, pas du système ; et le groupe qui réclame la redistribution des soins est celui qui les consomme. Voir [« L'argument de la santé »](#largument-de-la-santé).
+- [ ] **Le grief sanitaire déborde-t-il vers le discours respectable ?** *« Pourquoi tant de moyens pour ceux qui n'en ont pas besoin ? »* est une phrase d'estrade, pas de trottoir. Est-ce que le courant « libérer plus tôt » la reprend, ou reste-t-elle au salon ?
+- [ ] **Combien de fois voit-on un enfant qui grandit, et à quelle distance ?** Le cas est neuf et il est spectaculaire ; il peut aussi voler la vedette au fil d'Eliott. Une silhouette entrevue, une conversation entendue, ou rien du tout ?
+- [ ] **Andrew croise-t-il l'argument de la santé en scène ?** Il est le seul du casting à pouvoir l'écouter sans le contester ni l'approuver. Une occurrence suffit-elle, et où ?
 - [ ] **La grâce proportionnelle rapproche les graciés des grands chiffres. Est-ce que ça fragilise le climat ?** Un meurtri mort très jeune peut approcher soixante ou soixante-dix ans de vie. Rien ne le rend lisible, donc rien n'est opposable — mais le confort d'écriture d'autrefois a disparu : on ne peut plus se dire que les jaloux ont objectivement tort sur la durée. **À tenir : c'est l'ignorance qui protège la société, plus la vérité.**
 - [x] ~~Jusqu'où pousser la violence : menace de fond permanente, ou événement qui touche réellement le garçon ?~~ — **tranché le 15 août 2026 : le ravisseur d'Eliott sort de ce milieu.** L'événement est l'enlèvement, et il est le centre du livre.
 - [x] ~~S'il y a un événement : le garçon est-il atteint, ou seulement approché ?~~ — **atteint, et retrouvé vivant.**
