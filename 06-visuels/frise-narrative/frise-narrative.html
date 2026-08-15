@@ -582,6 +582,14 @@
   .beat .when b { color: var(--c); font-weight: 600; }
   .beat .when em { font-style: normal; color: var(--ink-2); font-weight: 600; }
 
+  .beat--todo {
+    background: transparent;
+    border-style: dashed;
+    box-shadow: none;
+  }
+  .beat--todo h3 { color: var(--ink-2); font-style: italic; }
+  .beat--todo p { color: var(--ink-3); }
+
   /* ---------- charnières d'acte ---------- */
 
   .hinge {
@@ -778,7 +786,7 @@
     <div class="brand">
       <p class="kicker">Roman · dossier de création</p>
       <h1>L'Éclaircie</h1>
-      <p class="sub">Deux histoires données à lire comme une seule. <strong>Andrew</strong> dans le monde d'après, <strong>Joël</strong> dans celui d'avant — et le lecteur croit suivre un seul homme.</p>
+      <p class="sub">Le tableau des scènes. Deux voies, deux mondes, et le lecteur qui croit suivre un seul homme. <strong>Les cartes en pointillés sont des trous à combler.</strong></p>
     </div>
     <div class="legend" id="legend"></div>
   </header>
@@ -800,7 +808,8 @@
 
       <footer class="footnote">
         <span>Flèches ← → · molette · glisser</span>
-        <span>Le + compte les années depuis la première page — repère d'écriture, jamais dans le livre</span>
+        <span>27 scènes, dont 5 à trouver</span>
+        <span>L'ordre est provisoire — c'est un tableau de travail, pas un séquencier</span>
         <span>Ne jamais confirmer que c'est vrai</span>
       </footer>
     </section>
@@ -868,85 +877,86 @@
 <script>
 (function () {
   const LANES = [
-    { key: "monde",   name: "Andrew",    desc: "Le monde d'après. Son présent.", color: "var(--monde)" },
-    { key: "enquete", name: "L'enquête", desc: "Les faits, les dates, les registres", color: "var(--enquete)" },
-    { key: "voile",   name: "Joël",      desc: "Le monde d'avant. Son passé.", color: "var(--voile)" }
+    { key: "andrew", name: "Andrew",  desc: "Ce monde-ci. Le présent.", color: "var(--monde)" },
+    { key: "joel",   name: "Joël",    desc: "La vie d'avant. Les fragments.", color: "var(--voile)" }
   ];
   const laneIndex = Object.fromEntries(LANES.map((l, i) => [l.key, i]));
-
-  // Où l'on en est : année du récit, et l'âge de qui est en scène.
-  // Le repère est le temps écoulé depuis la première page. Le livre couvre douze ans.
-  const WHEN = {
-    "01":    ["Début",      [["lui", 52]]],
-    "02":    ["Début",      [["lui", 52]]],
-    "03":    ["Début",      [["lui", 52]]],
-    "04":    ["Début",      [["lui", 52], ["le garçon", 8]]],
-    "—":     ["Début",      [["lui", 52]]],
-    "06–09": ["+1 à +3 ans",  [["lui", "51 → 49"], ["le garçon", "7½ → 7"]]],
-    "10":    ["+3 ans",      [["lui", 49], ["le garçon", 7]]],
-    "13":    ["+4 ans",      [["lui", 48]]],
-    "14":    ["+5 à +9 ans",  [["lui", "47 → 43"]]],
-    "15":    ["+6 ans",      [["lui", 46]]],
-    "16":    ["+7 ans",      [["lui", 45]]],
-    "17":    ["+8 ans",      [["lui", 44]]],
-    "17 bis":["+9 ans",      [["lui", 43], ["le garçon", 5]]],
-    "18":    ["+9 ans",      [["lui", 43]]],
-    "19":    ["+9 ans",      [["lui", 43]]],
-    "20":    ["+9 ans",      [["lui", 43]]],
-    "22":    ["+10 ans",      [["lui", 42]]],
-    "23":    ["+11 ans",      [["lui", 41]]],
-  };
 
   const COLS = [
     { type: "panel", kind: "open" },
 
-    { type: "hinge", act: "Acte I", title: "La routine et la fêlure", pct: "Début" },
-    { type: "beat", no: "01", lane: "monde", title: "Une cérémonie de l'Éclaircie",
-      text: "Le rite vu de l'intérieur, par un veilleur encore neuf. Rien n'est annoncé : le corps dit l'âge, la salle l'estime à vue et réagit. Il mesurera après, pour le registre. Tout le système passe en une scène, sans un mot d'explication." },
-    { type: "beat", no: "02", lane: "monde", title: "La capsule sans éclaircie",
-      text: "Combinaisons, raclette, seaux, odeur. C'est la corvée des nouveaux : les anciens, qui ont l'air d'avoir vingt ans, la laissent à un homme qui en paraît cinquante. Il fait son travail, il rentre chez lui.", tag: "Le contraste" },
+    { type: "hinge", act: "Ouverture", title: "Le monde, sans un mot d'explication", pct: "" },
+    { type: "beat", lane: "andrew", title: "L'éclaircie d'Eliott", tag: "Première page",
+      text: "Une capsule s'ouvre sur un arrivant de dix ans. Il parle avant qu'on lui demande quoi que ce soit, avec une terreur qu'on ne s'explique pas. On passe outre, la cérémonie se termine. Tout le système passe là." },
+    { type: "beat", lane: "andrew", title: "La capsule qui n'éclaircit pas", tag: "Choquante",
+      text: "Combinaisons, raclette, seaux, odeur. La scène doit révulser, sans une once de compassion. Andrew n'y touche pas : il regarde un plus récent se faire bizuter. Très analytique." },
     { type: "stele", quote: "Il n'y a pas eu d'éclaircie.", src: "Phrase à garder" },
-    { type: "beat", no: "03", lane: "enquete", title: "Le chiffre qui monte",
-      text: "Réunion, statistiques, inquiétude administrative. Les anciens — ceux qui ont l'air d'avoir vingt ans — disent qu'ils en ont toujours vu. Ce qui est nouveau, c'est le nombre. On lui demande de regarder ça de plus près ; il accepte sans y croire.", tag: "Déclencheur" },
-    { type: "beat", no: "04", lane: "enquete", title: "Le garçon",
-      text: "Un arrivant de dix ans dit des choses qu'il ne devrait pas savoir. Les tuteurs s'agacent, la hiérarchie veut étouffer. Il croit tenir son sujet. Le garçon en a huit, et il rétrécit.", tag: "Fausse piste" },
-    { type: "beat", no: "—", lane: "voile", title: "La première fissure",
-      text: "Fin d'acte I. Il note une phrase qu'il ne s'explique pas — quelque chose qui n'est pas de lui.", tag: "Charnière" },
+    { type: "beat", lane: "andrew", title: "Le ratio, en passant", tag: "À planter tôt",
+      text: "Une bouche banale, tôt, à propos de quelqu'un dont on ne reparlera jamais : « ils mettent trois fois plus longtemps à descendre, en plus. » Un silence. On parle d'autre chose." },
+    { type: "beat", lane: "andrew", title: "Une journée ordinaire", todo: true,
+      text: "Ce qui installe le métier, le lieu, la ville. Le relevé, le registre, les travées. Rien ne s'y passe, et c'est le but." },
 
-    { type: "hinge", act: "Acte II-A", title: "L'enquête impossible", pct: "+0 à +4 ans" },
-    { type: "beat", no: "06–09", lane: "enquete", title: "Le garçon parle, et ça ne colle pas",
-      text: "Il décrit des lieux qui n'existent pas — un boulanger là où il y a un magasin de chaussures. Un mot revient. La méthode revient toute seule : classer, recouper, dater. Il s'entend penser comme quelqu'un d'autre.", tag: "Des années" },
-    { type: "beat", no: "10", lane: "voile", title: "La contamination",
-      text: "Il ne sait plus si ce qu'il voit vient du garçon ou de lui. Il aura peut-être passé le livre à confondre le souvenir d'un autre avec le sien." },
-    { type: "beat", no: "13", lane: "enquete", title: "Le mur",
-      text: "On lui retire l'affaire, ou on lui conseille de laisser tomber. Un écho qu'il ne perçoit pas encore." },
+    { type: "hinge", act: "L'inquiétude", title: "Il y retourne de lui-même", pct: "" },
+    { type: "beat", lane: "andrew", title: "Première visite chez June",
+      text: "Personne ne le lui a demandé. Il n'a aucun mandat, l'arrivant n'est pas sa charge. Il y va parce que ça l'accroche et qu'il ne sait pas pourquoi." },
+    { type: "beat", lane: "andrew", title: "Deuxième visite",
+      text: "Eliott décrit une rue, une boutique, quelqu'un derrière un comptoir. Rien de tout ça n'existe. Andrew note sans savoir ce qu'il note." },
+    { type: "beat", lane: "joel", title: "Premier fragment", when: "La vie d'avant", tag: "Troisième personne",
+      text: "Pas de nom, pas de visage, pas de « je ». Un homme, un couloir, une attente devant une porte. Aucun marqueur d'époque." },
 
-    { type: "hinge", act: "Acte II-B", title: "Le registre", pct: "+5 à +9 ans" },
-    { type: "beat", no: "14", lane: "enquete", title: "La désobéissance",
-      text: "Il continue en douce. Première fois de sa vie — sauf que non, justement." },
-    { type: "beat", no: "15", lane: "enquete", title: "Les registres de l'Archiviste",
-      text: "Il cherche des anomalies, pas des lois. Des dates qui se répondent, des capsules apparues le même jour à quelques travées d'écart. Rien de systématique : des exceptions." },
-    { type: "beat", no: "16", lane: "enquete", title: "Les jumelles",
-      text: "Deux éclaircies, même jour, même âge. Il se souvient d'une affaire — deux adolescentes disparues, retrouvées le même jour. Il ne comprend pas d'où lui vient ce souvenir.", tag: "La signature" },
-    { type: "beat", no: "17", lane: "enquete", title: "La troisième capsule",
-      text: "Même date, même travée. Jamais éclairci. Il comprend ce qu'il y avait dedans." },
-    { type: "stele", quote: "Quelqu'un l'a raclée, un matin, et est rentré chez lui sans y penser.", src: "L'assassin des jumelles" },
-    { type: "beat", no: "17 bis", lane: "enquete", title: "Le garçon entre au jardin",
-      text: "Il n'est pas mort. Il est là, il joue par terre, et il n'a plus les mots. Le seul témoin s'éteint dans l'insouciance — on ne le perd pas, on le lui prend.", tag: "Climax de l'acte II" },
-    { type: "beat", no: "18", lane: "voile", title: "Le retournement",
-      text: "Il n'a plus de source. Privé de l'extérieur, il ne lui reste que les registres et lui-même — et c'est là qu'il trouve. S'il se souvient, c'est qu'il est voilé. Depuis toujours. Il n'a jamais enquêté sur le garçon : il enquêtait sur lui-même.", tag: "Pivot" },
-    { type: "beat", no: "19", lane: "voile", title: "Le garçon, relu",
-      text: "Un assassin, un enfant, deux capsules le même jour. Il n'est pas fou : il a été gracié." },
+    { type: "hinge", act: "La disparition", title: "Il tombe dessus", pct: "" },
+    { type: "beat", lane: "andrew", title: "Troisième visite : la place est vide", tag: "Déclencheur",
+      text: "June lui apprend qu'Eliott a disparu et qu'elle a prévenu la police. Il ne reçoit pas la nouvelle — il vient voir quelqu'un, et il n'y a personne." },
+    { type: "beat", lane: "andrew", title: "La gendarmerie",
+      text: "Il y retrouve Isaac, qu'il connaît depuis des années. Un veilleur dans une enquête n'a rien d'incongru : il tient le registre, il voit toutes les arrivées." },
 
-    { type: "hinge", act: "Acte III", title: "Le credo", pct: "+9 à +12 ans" },
-    { type: "beat", no: "20", lane: "monde", title: "La question morale",
-      text: "Il sait maintenant ce qu'il racle depuis qu'il a pris le poste. Reconnaître, c'est gracier à moitié. Se taire, c'est achever la sentence." },
-    { type: "beat", no: "22", lane: "voile", title: "Sa propre faute",
-      text: "Il remonte jusqu'à son abandon de l'affaire. Il n'était pas un monstre : il a obéi. Faute réparable. Il a été pardonné — et le pardon, c'était le voile." },
+    { type: "hinge", act: "L'enquête", title: "Deux affaires pour une seule", pct: "" },
+    { type: "beat", lane: "joel", title: "L'affaire Sorel", when: "La vie d'avant",
+      text: "Deux filles disparues. Au départ on ignore qui les a prises ; l'étau se resserre sur un seul homme. Interventions sur plusieurs lieux, un vrai jeu de piste." },
+    { type: "beat", lane: "andrew", title: "La première piste", todo: true,
+      text: "Elle mène quelque part, puis nulle part. À trouver : ce qu'ils cherchent, et pourquoi ça ne donne rien." },
+    { type: "beat", lane: "andrew", title: "Le registre",
+      text: "Il cherche des anomalies, pas des lois. Des dates qui se répondent, des travées voisines, des numéros qui se suivent. Rien de systématique." },
+    { type: "beat", lane: "joel", title: "On lui dit d'arrêter", when: "La vie d'avant", tag: "La faute",
+      text: "Quelqu'un de raisonnable lui demande de laisser tomber. Il obéit. Des semaines passent." },
+    { type: "beat", lane: "andrew", title: "Le commissariat — « lâche l'affaire »", tag: "L'écho",
+      text: "Sans mandat, sans dossier, sans plaignant. Un policier lassé lui demande d'arrêter de faire perdre du temps. Et il répond une phrase qui n'est pas de cette vie-ci." },
+    { type: "beat", lane: "joel", title: "Ce qui le fait reprendre", todo: true, when: "La vie d'avant",
+      text: "De lui-même, ou parce qu'un élément ressort ? À trouver. C'est ce qui décide de combien de temps l'arrêt a duré." },
+    { type: "beat", lane: "andrew", title: "La contamination",
+      text: "Il ne sait plus si ce qu'il voit vient d'Eliott ou de lui. Sa théorie de travail — c'est l'arrivant de dix ans qui déteint — est excellente, et elle est fausse." },
+
+    { type: "hinge", act: "Le lieu", title: "Deux fois la même arrivée", pct: "" },
+    { type: "beat", lane: "joel", title: "La planque", when: "La vie d'avant",
+      text: "Ils trouvent l'endroit. L'air est lourd. Fin de chapitre." },
+    { type: "beat", lane: "joel", title: "Les corps", when: "La vie d'avant", tag: "Références notées",
+      text: "Un premier corps — on croit à Eliott. Puis un second. Deux corps identiques, encore roses. Mortes depuis moins d'une heure. <strong>L'espoir doit tenir jusqu'au dernier instant</strong> : angoisse, puis soulagement, puis horreur. Effroyable sans complaisance — c'est la reconnaissance qui fait mal, pas la description." },
+    { type: "beat", lane: "andrew", title: "Le même lieu, l'autre issue", tag: "LE CHOC",
+      text: "Le chapitre recommence. Même arrivée, même pesanteur — et Eliott est vivant. Il aperçoit le ravisseur. Fin de chapitre." },
     { type: "stele", quote: "Joël, non, attends !", src: "La seule fois du roman où son nom se dit" },
+    { type: "beat", lane: "joel", title: "La poursuite", when: "La vie d'avant", tag: "La certitude",
+      text: "Rage folle. Il laisse ses collègues sur place et part seul. Poursuite en voiture, accident. Il meurt en même temps que l'assassin." },
+
+    { type: "hinge", act: "La bascule", title: "Ce qu'il lit", pct: "" },
+    { type: "beat", lane: "andrew", title: "La ligne de registre", tag: "La confirmation",
+      text: "Une date, une travée, deux numéros collés — et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Et un trou dans la suite." },
+    { type: "beat", lane: "andrew", title: "Sa cérémonie, vue de l'intérieur", when: "Dix ans plus tôt", tag: "Placement à trancher",
+      text: "Sa propre arrivée. Trois capsules groupées, une paire dont la salle s'émerveille, un veilleur qui note tout. Il ne comprenait rien : il venait de sortir." },
+    { type: "beat", lane: "andrew", title: "L'heure qui suit", todo: true,
+      text: "À trouver : ce qu'il fait quand il a compris. À qui il parle, ou à personne." },
+
+    { type: "hinge", act: "La fin", title: "Ce qui ne se dit pas", pct: "" },
+    { type: "beat", lane: "andrew", title: "La question morale", todo: true,
+      text: "Il sait maintenant ce qu'il racle depuis qu'il a pris le poste. Reconnaître, c'est gracier à moitié. Se taire, c'est achever la sentence. À trouver : est-ce qu'il le dit, et à qui." },
+    { type: "beat", lane: "andrew", title: "Les excuses",
+      text: "Deux adolescentes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir." },
     { type: "stele", quote: "L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.", src: "Le credo" },
-    { type: "beat", no: "23", lane: "voile", title: "Les jumelles, en face",
-      text: "Deux jeunes filles qui rajeunissent tranquillement et ne le connaissent pas. Il s'excuse pour un monde dont elles n'ont aucun souvenir. Ça le libère quand même." },
+
+    { type: "hinge", act: "Épilogue", title: "Six ans plus tard", pct: "" },
+    { type: "beat", lane: "andrew", title: "La confession d'Eliott", when: "Six ans plus tard",
+      text: "Il raconte ce qui lui est arrivé de l'autre côté. Des détails glaçants. Il a encore tous les mots — c'est la dernière fois qu'il s'en sert pour ça. Rien n'est une révélation : le lecteur sait déjà tout." },
+    { type: "beat", lane: "andrew", title: "L'entrée au jardin", when: "Six ans plus tard", tag: "Dernière page",
+      text: "Il dépose ce qui le faisait souffrir, et il entre. Personne ne lui dit dans quoi il entre. Andrew le regarde faire en sachant, et se tait." },
 
     { type: "panel", kind: "end" }
   ];
@@ -1010,15 +1020,13 @@
       el.className = "beat reveal";
       el.style.setProperty("--c", `var(--${c.lane})`);
       el.style.gridRow = String(laneIndex[c.lane] + 1);
-      const w = WHEN[c.no];
       el.innerHTML =
-        `<span class="no">${c.no}</span>` +
+        (c.no ? `<span class="no">${c.no}</span>` : "") +
         `<h3>${c.title}</h3>` +
         `<p>${c.text}</p>` +
         (c.tag ? `<span class="tag">${c.tag}</span>` : "") +
-        (w ? `<div class="when"><b>${w[0]}</b>` +
-              w[1].map(a => `<span>${a[0]}&nbsp;<em>${a[1]}</em></span>`).join("") +
-             `</div>` : "");
+        (c.when ? `<div class="when"><b>${c.when}</b></div>` : "");
+      if (c.todo) el.classList.add("beat--todo");
     } else if (c.type === "hinge") {
       widths.push("var(--hinge-w)");
       el = document.createElement("div");
