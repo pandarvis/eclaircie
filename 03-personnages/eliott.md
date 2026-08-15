@@ -17,7 +17,7 @@
 | **Dans la vie d'avant** | **il a été assassiné.** Une capsule pourrie est apparue le jour de son arrivée — celle de son meurtrier. Personne ne l'a remarqué. Voir §9 |
 | **Âge pendant le livre** | **dix ans du début à la fin.** Le corps du roman ne dure que quelques semaines, peut-être quelques mois |
 | **Décompte** | **six ans de descente** — deux marches, une tous les trois ans —, puis le **plateau** au jardin, **puis la fin jusqu'à zéro. Ni l'un ni l'autre ne sont chiffrés.** Il a **au moins quarante ans de vie** au total |
-| **À l'épilogue** | **huit ans.** Il **entre** au jardin **six ans** après le corps du roman ; Andrew a alors **46 ans**. **C'est une entrée, pas une fin : il lui reste le plateau, puis la fin.** Voir §10 |
+| **À l'épilogue** | **huit ans.** Il **entre** au jardin **six ans** après le corps du roman ; Andrew a alors **46 ans**. **C'est une entrée, pas une fin — et c'est une entrée dans le dernier lieu :** il y vivra le plateau, puis la descente, puis le dernier jour, sans en ressortir. Voir §10 |
 
 ---
 
@@ -176,7 +176,9 @@ La question posée ici était : l'enlèvement et l'entrée au jardin coexistent-
 
 > **⚠️ Précision, et elle est double depuis le 16 août 2026 : ce n'est pas sa mort, et ce n'est pas non plus la perte de sa langue.**
 >
-> Entrer au jardin, ce n'est pas s'arrêter. C'est atteindre le palier — et **il lui reste ensuite le plateau, puis la fin jusqu'à zéro.** Sa vie est loin d'être finie quand le livre l'est.
+> Entrer au jardin, ce n'est pas s'arrêter. **C'est entrer dans le dernier lieu de vie** ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), 17 août 2026) — et **il lui reste ensuite le plateau, puis la fin jusqu'à zéro**, au même endroit. Sa vie est loin d'être finie quand le livre l'est.
+>
+> **Et il n'entre pas dans une salle de gens de son âge.** Le jardin abrite tous les âges de huit à zéro : le premier jour, il voit exactement ce qui l'attend. *Le texte n'a pas à le souligner — il suffit que la pièce soit décrite telle qu'elle est.*
 >
 > **Et il ne perd pas les mots.** À huit ans, la parole est intacte ; elle se dégrade vers quatre ans, bien plus tard, et le livre n'a pas à le montrer. *La formule « ce qu'il perd, ce sont les mots, pas le temps » figurait ici : elle est fausse.*
 >
@@ -294,7 +296,7 @@ Tout est déjà révélé au lecteur : il a vu la capsule pourrie à la premièr
 - [ ] **Que dit-il exactement pendant les visites ?** La règle est fixée — banal, local, invérifiable (§5) —, les phrases non.
 - [ ] **Que dit-il exactement à l'épilogue ?** Les contraintes sont fixées (§10), les détails non. Combien de phrases, et jusqu'où elles vont — trois suffisent probablement, et le risque est la surenchère.
 - [ ] **Qui est présent à l'épilogue ?** Andrew seul, ou June aussi, qui est sa berceuse et devrait y être. **Depuis le tabou, sa présence charge la scène au lieu de la diluer** : elle est celle qui sait dans quoi il entre, et qui ne le dit pas.
-- [ ] **June l'accompagne-t-elle au-delà du plateau ?** Le métier de berceur est défini comme *accompagner ceux qui sont au jardin jusqu'au dernier jour* — **et le dernier jour est maintenant en dessous de huit ans.** Suit-elle jusqu'à zéro, quelqu'un prend-il le relais, ou personne ? **La définition du métier est à reprendre**, et c'est une question de monde avant d'être une question de fiche. *Explicitement laissé ouvert par l'autrice le 16 août 2026.*
+- [ ] **June l'accompagne-t-elle au-delà du plateau ?** *La définition du métier n'est plus en cause : le dernier jour est au jardin, et le §10 tient dès qu'on écrit le bon mot (17 août 2026).* Ce qui reste ouvert : **garde-t-elle la même charge jusqu'à zéro**, ou passe-t-elle la main quand il cesse de parler ? Voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md).
 - [ ] **Comment l'épilogue se situe-t-il dans le temps ?** Son corps ne suffit plus à dater le saut — dix ans à huit ans, ça ne se voit presque pas. **Question neuve du 16 août 2026**, et elle appartient au plan. §7.
 - [ ] **Le plateau et la fin d'Eliott : durées et vitesse.** Non fixées. Ce qui est acquis : **au moins quarante ans de vie en tout**, dont six de descente. Le reste appartient à l'autrice, et le dossier ne l'invente pas.
 - [ ] **Combien de temps dure son enlèvement ?** C'est le compteur du livre. Il doit rester dans le délai où l'on espère encore — voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).

@@ -10,8 +10,8 @@
 
 > 1. **Tout le monde revient à l'âge où il est parti.**
 > 2. **Tout le monde converge vers huit ans** — en descendant si l'on arrive au-dessus, **en grandissant si l'on arrive en dessous.**
-> 3. **Huit ans, c'est le jardin.** On y reste un temps variable.
-> 4. **Puis on repart du jardin, vers le bas, et on meurt à zéro.**
+> 3. **Huit ans, c'est le plateau — et c'est l'entrée au jardin.** Le plateau dure un temps variable.
+> 4. **Puis l'âge repart vers le bas, et on meurt à zéro — sans quitter le jardin.**
 > 5. **Personne ne vit moins de quarante ans.**
 > 6. **La seule chose que le verdict décide, c'est la durée du séjour au jardin.**
 
@@ -42,10 +42,12 @@ Le nombre est **huit**, et ce n'est pas une borne. C'est **le point vers lequel 
 | | Le temps | Ce que fait l'âge | Ce que fait le temps vécu |
 |---|---|---|---|
 | **1** | **L'approche** | descente depuis le haut, **ou croissance depuis le bas**, jusqu'à huit | il monte |
-| **2** | **Le jardin** | rien. L'âge ne bouge plus. C'est un **plateau** à huit ans, de durée variable | il monte |
+| **2** | **Le plateau** | rien. L'âge ne bouge plus. Un **plateau** à huit ans, de durée variable | il monte |
 | **3** | **La fin** | l'âge repart vers le bas — sept, six, cinq, quatre, trois, deux, un | il monte jusqu'au bout |
 
 > **On meurt à zéro.**
+
+> **⚠️ Le jardin n'est pas le deuxième temps : c'est le lieu où se passent le deuxième et le troisième.** *Décision de l'autrice du 17 août 2026. **Le plateau est une phase, le jardin est un lieu** — le dernier lieu de vie, où l'on entre à huit ans et dont on ne sort pas. Il abrite en même temps des enfants de huit, de cinq, de deux. Partout où ce document dit « le jardin » pour désigner le plateau, lire **le plateau**. Développement complet dans [`le-jardin.md`](le-jardin.md).*
 
 **La parole se dégrade vers quatre ans.** C'est le repère du troisième temps, et le seul qui soit posé : en descendant, la langue s'en va aux alentours de quatre. Ce qui suit se passe sans mots.
 
@@ -80,7 +82,8 @@ Ces formules traînent dans tout le dossier et **aucune n'est exacte** :
 | *le plancher est à cinq ans, aux deux bouts* | **il n'y a pas de plancher.** Huit ans est le point de convergence |
 | *personne n'arrive en dessous de cinq ans* | **on arrive en dessous, et on grandit jusqu'à huit** |
 | *il s'éteint à cinq ans* | il entame la décroissance, puis il disparaît à zéro |
-| *il atteint le jardin et n'en bouge plus* | il atteint le jardin, il y reste un temps, puis il en repart vers le bas |
+| *il atteint le jardin et n'en bouge plus* | il entre au jardin, son âge y reste un temps, puis il repart vers le bas — **et il ne quitte pas le jardin pour autant** |
+| *le jardin, c'est huit ans* | **huit ans, c'est le plateau.** Le jardin est le lieu, et il va de huit à zéro |
 | *sa vie entière est un palier* | sa vie entière est un plateau **puis** une décroissance |
 | *personne ne vit moins de trente ans* | **quarante** |
 | *ils ont cinq ans tous les deux jusqu'au bout* | ils ont huit ans jusqu'à la fin du plateau, et pas au-delà |
@@ -236,6 +239,8 @@ Il ne se calcule pas, il se recopie. C'est une donnée du dossier, pas une déci
 
 Le meurtri arrive à son âge de mort comme tout le monde. Ce qu'il reçoit en propre, c'est **un jardin allongé** : des années supplémentaires dans le seul endroit de ce monde où l'on est bien.
 
+*⚠️ **Ce qui s'allonge est le plateau, pas le séjour.** Tout le monde reste au jardin jusqu'à zéro ; ce que la grâce ajoute, ce sont des années à huit ans. L'expression « jardin allongé » se garde — elle est juste et elle est belle —, à condition de savoir qu'elle désigne **un plateau long, vécu au jardin**. Voir [`le-jardin.md`](le-jardin.md).*
+
 **La grâce n'est pas « tu deviens un enfant plus vite ».** Cette phrase était bancale : arriver jeune allonge la descente, puisque les jeunes arrivants descendent lentement. La grâce se dit d'un seul trait — **tu restes plus longtemps dans le seul endroit où l'on est bien.**
 
 **C'est une restitution littérale, au sens du §11.** *« Ce qu'on lui a arraché lui est rendu. »* On a pris des décennies à quelqu'un ; on lui rend des décennies, et dans la meilleure qualité de temps que le système connaisse.
@@ -252,7 +257,7 @@ Il n'y a pas de barème : **plus quelqu'un a été meurtri, plus le jardin est l
 
 *Le chiffre était trente au 15 août. Il est quarante depuis le 16, et il faut le corriger partout où il figure.*
 
-Conséquence : **qui arrive à deux ans dispose de quarante ans, comme qui arrive à dix, comme qui arrive à huit.** Ce qui les sépare n'est pas une quantité mais une forme — l'un passe six ans à grandir, l'autre six ans à descendre, le troisième entre au jardin le premier jour, et **aucun des trois n'y reste jusqu'au bout.**
+Conséquence : **qui arrive à deux ans dispose de quarante ans, comme qui arrive à dix, comme qui arrive à huit.** Ce qui les sépare n'est pas une quantité mais une forme — l'un passe six ans à grandir, l'autre six ans à descendre, le troisième entre au jardin le premier jour, et **aucun des trois ne reste à huit ans jusqu'au bout.**
 
 > **La qualité change, la quantité non.**
 
@@ -461,7 +466,7 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 
 | Fichier | Ce qui y est faux |
 |---|---|
-| [`../03-personnages/june.md`](../03-personnages/june.md) | *« accompagnent ceux qui sont au jardin, jusqu'au dernier jour »* — **le dernier jour n'est plus au jardin.** Et le métier gagne deux charges nouvelles : **elle nomme les huit ans et en dessous**, et **elle se tait quand la descente commence**. C'est le signalement le plus urgent du lot |
+| [`../03-personnages/june.md`](../03-personnages/june.md) | *« accompagnent ceux qui sont au jardin, jusqu'au dernier jour »* — **la formule est exacte depuis le 17 août 2026**, le dernier jour étant au jardin. Ce qui reste à corriger : le métier gagne deux charges — **elle nomme les huit ans et en dessous**, et **elle se tait quand la descente commence** — et sa charge n'est pas faite que d'enfants de huit ans |
 | [`../03-personnages/eliott.md`](../03-personnages/eliott.md) | tout calcul fondé sur quinze ans de descente. C'est **six** |
 | [`../03-personnages/andrew.md`](../03-personnages/andrew.md) | 57 ans de descente, 69 ans de vie. C'est **54 ans de descente**, et le total n'est pas calculable |
 | [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md) | treize marches. C'est **dix** |
@@ -479,7 +484,7 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 - [ ] **La durée du plateau.** Non fixée, pour personne. Est-elle du même ordre pour tout le monde, ou dépend-elle du chiffre d'arrivée ? **Aucun chiffre n'est proposé ici, et il ne faut pas en inventer.**
 - [ ] **La durée de la fin, de huit à zéro.** Non fixée non plus. Acquis : **elle varie chez les grands chiffres** — plus vite, plus lentement, avec un mini-palier —, et c'est ce qui rend leur fin indatable. Reste ouvert : varie-t-elle aussi chez les petits, ou le plancher de quarante ans la borne-t-il par le bas ?
 - [ ] **Le plancher d'arrivée : jusqu'où peut-on arriver bas ?** Personne n'a tranché. **La contrainte pratique est écrite ailleurs et elle est forte** : tout le monde sort de la capsule en sachant parler ([`le-corps-des-arrivants.md`](le-corps-des-arrivants.md)), et la parole se dégrade vers quatre ans en descendant. Un arrivant de un an devrait donc parler alors que celui qui descend à un an ne parle plus. **Contradiction à arbitrer, pas à résoudre ici.**
-- [ ] **Est-ce que les berceurs accompagnent aussi la descente sous huit ans ?** *« Jusqu'au dernier jour »* : le dernier jour est passé sous huit. Le métier est à redéfinir dans un sens ou dans l'autre — soit ils suivent jusqu'à zéro, soit quelqu'un d'autre prend le relais, soit personne.
+- [ ] **Est-ce que les berceurs accompagnent aussi la descente sous huit ans ?** *La question se posait parce qu'on croyait le dernier jour passé hors du jardin. **Depuis le 17 août 2026, il est au jardin** : la définition « jusqu'au dernier jour » tient sans retouche.* Reste ouvert : **est-ce le même berceur du haut en bas**, ou change-t-on de personne quand l'enfant cesse de parler ? Voir [`le-jardin.md`](le-jardin.md).
 - [ ] **Est-ce que les berceurs accompagnent aussi la croissance sous huit ans ?** Un arrivant de deux ans a six ans à monter. Qui s'en occupe — un berceur, un tuteur, les deux ? **Question entièrement neuve : le cas n'existait pas avant le 16 août.**
 - [ ] **Le livre montre-t-il une fin, ou est-ce entièrement hors champ ?** Aucun personnage du casting n'y arrive pendant le roman.
 - [ ] **La vitesse de la décroissance finale.** La même que la descente, ou autre chose ? Elle n'est pas énoncée.

@@ -24,6 +24,8 @@
 
 Les berceurs et berceuses **accompagnent ceux qui sont au jardin, jusqu'au dernier jour** (§10 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)). Métier financé, organisé, respecté : ici, personne n'atteint sa fin autrement que par eux.
 
+> **Et le jardin n'est pas un âge, c'est un lieu** — le dernier lieu de vie, de huit ans à zéro ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), 17 août 2026). **June travaille donc auprès d'enfants de tous les âges du jardin**, pas seulement des huit ans : elle en accompagne qui parlent et qui jouent, et d'autres, plus bas, qui ne parlent plus. *C'est un décor de fiche, pas une scène à écrire.*
+
 ### Le seuil de nommage — huit ans et en dessous
 
 > **Correction du 16 août 2026.** Le seuil se lit désormais ainsi : **une berceuse est appelée à chaque arrivée de huit ans ou moins, et c'est elle qui choisit le prénom de ces arrivants-là.** *La fiche portait « moins de huit ans » ; c'est huit ans inclus.*
@@ -87,7 +89,7 @@ Ce que ça fait à la fiche, et ce n'est pas mince pour un personnage de passage
 - [ ] **Assiste-t-elle aux visites, ou laisse-t-elle la pièce ?** Sa présence donne un témoin adulte aux propos d'Eliott ; son absence rend les deux voilés seuls dans la pièce.
 - [ ] **La revoit-on après l'annonce ?** La fiche pose que non. À confirmer si l'enquête a besoin d'un retour chez elle. **L'épilogue rouvre la question** : elle est la berceuse d'Eliott et devrait être là quand il entre au jardin.
 - [ ] **Est-elle présente à l'épilogue ?** Voir [`eliott.md`](eliott.md). Si oui, elle y est la seule personne pour qui le silence est une habitude de métier — et elle n'a pas une ligne à dire pour que ça se voie.
-- [ ] **Les berceurs accompagnent-ils aussi la descente sous huit ans ?** Le métier est défini comme *accompagner ceux qui sont au jardin jusqu'au dernier jour*, **et le dernier jour n'est plus au jardin.** Suit-elle jusqu'à zéro, quelqu'un prend-il le relais, ou personne ? **Explicitement laissé ouvert par l'autrice le 16 août 2026**, et c'est une question de monde avant d'être une question de fiche.
+- [ ] **Suit-elle le même enfant du haut en bas ?** *La question posée ici — « le dernier jour n'est plus au jardin » — **est caduque depuis le 17 août 2026** : le dernier jour est au jardin, et la définition du métier tient sans retouche.* Ce qui reste ouvert : un berceur garde-t-il sa charge jusqu'à zéro, ou passe-t-il la main quand l'enfant cesse de parler ? **Question de monde avant d'être une question de fiche** — voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md).
 
 ---
 
