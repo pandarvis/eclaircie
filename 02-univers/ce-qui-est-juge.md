@@ -4,19 +4,95 @@
 
 ---
 
-# Le système, en trois lignes
+# Le système, en quatre lignes
 
 > **Décision de l'autrice, 15 août 2026. Elle remplace tout barème antérieur.**
 
 > 1. **Tout le monde revient à l'âge où il est parti.**
 > 2. **Tout le monde descend jusqu'à cinq ans.**
 > 3. **La seule chose qui change d'une personne à l'autre, c'est le temps qu'on reste au jardin.**
+> 4. **Puis on repart du jardin, vers le bas, et on meurt à zéro.**
 
-**Il n'existe plus aucun calcul d'attribution du chiffre d'arrivée.** L'âge d'arrivée *est* l'âge de mort, sans exception et sans correctif. Le plancher de cinq ans du §7 continue de jouer aux deux bouts : personne ne descend en dessous, personne n'arrive en dessous — qui est mort avant cinq ans arrive à cinq.
+**Il n'existe plus aucun calcul d'attribution du chiffre d'arrivée.** L'âge d'arrivée *est* l'âge de mort, sans exception et sans correctif. Le plancher de cinq ans du §7 ne joue plus qu'à un seul bout : **personne n'arrive en dessous de cinq ans** — qui est mort avant cinq ans arrive à cinq. En revanche, **on descend bien en dessous** : cinq ans est un palier, ce n'est pas un terminus.
 
-Le verdict ne porte donc que sur **une seule grandeur : la durée du jardin.**
+Le verdict ne porte donc que sur **une seule grandeur : la durée du plateau au jardin.**
 
-*Ce que la règle a coûté à l'ancienne version est détaillé plus bas, section « La grâce est du temps au jardin ». Ce qu'elle ne touche pas — la vitesse de descente, le plancher, les durées ordinaires — vient du §7 et n'a pas bougé.*
+*Ce que la règle a coûté à l'ancienne version est détaillé plus bas, section « La grâce est du temps au jardin ». Ce qu'elle ne touche pas — la vitesse de descente, le plancher d'arrivée, les durées ordinaires — vient du §7 et n'a pas bougé.*
+
+---
+
+# ⚠️ LA CORRECTION MAJEURE — UNE VIE A TROIS TEMPS
+
+> **Décision de l'autrice, 15 août 2026.**
+>
+> > *« On a une durée de vie au jardin qui stagne selon les âges mais qui finit par décroître. Un enfant de 5 ans qui a donc 30 ans de vie devant lui va en faire 25 à l'âge de 5 ans puis décroître jusqu'à 0. »*
+
+**Tout ce dossier supposait qu'on s'arrêtait à cinq ans et qu'on s'y éteignait. C'est faux.**
+
+| | Le temps | Ce que fait l'âge | Ce que fait le temps vécu |
+|---|---|---|---|
+| **1** | **La descente** | de l'âge d'arrivée jusqu'à cinq ans, à la vitesse du barème du §7 | il monte |
+| **2** | **Le jardin** | rien. L'âge ne bouge plus. C'est un **plateau** à cinq ans | il monte |
+| **3** | **La fin** | l'âge repart vers le bas — quatre, trois, deux, un | il monte jusqu'au bout |
+
+> **On meurt à zéro.**
+
+**Cinq ans reste le plancher d'arrivée. Ce n'est plus le plancher du corps.** Personne n'arrive en dessous ; tout le monde y descend.
+
+## Ce que la phrase du §16 voulait dire
+
+> *« On ne perd pas son innocence : on la regagne, et on disparaît dedans. »*
+
+**Ce n'était pas une métaphore. C'est la description littérale du troisième temps**, et personne dans ce dossier ne l'avait vu.
+
+On descend en dessous de l'enfance. On rétrécit. On redevient un très jeune enfant, puis un nourrisson, puis rien. La phrase la plus imagée du dossier maître se révèle être la plus exacte : c'est **le cœur de l'image du livre**, et il était écrit depuis le début sans que rien ne s'y accroche.
+
+## La mort change de nature
+
+**On ne s'éteint plus à cinq ans, assis au jardin. On redevient nourrisson, et on disparaît.**
+
+C'est une image **beaucoup plus dure et beaucoup plus belle** que celle qu'on avait. Plus dure : la fin n'est pas un arrêt paisible au palier, c'est une régression jusqu'à la disparition, et elle se voit sur un corps. Plus belle : elle boucle l'innocence regagnée du §7 et du §16 sans qu'aucun personnage ait à la formuler.
+
+> **Elle demandera du soin à l'écriture, et c'est le point le plus délicat du livre.**
+
+Aucune scène ne peut être écrite au jugé sur ce troisième temps : ni le vocabulaire, ni le point de vue, ni la durée du plan ne sont réglés. Rien n'est décidé ici sur ce que le livre en montre — voir « Questions ouvertes sur le troisième temps ».
+
+## Le vocabulaire à corriger partout
+
+Ces formules traînent dans tout le dossier et **aucune n'est exacte** :
+
+| Formule fausse | Ce qu'il faut dire |
+|---|---|
+| *il s'éteint* (à cinq ans) | il entame la décroissance, puis il disparaît à zéro |
+| *il atteint le jardin et n'en bouge plus* | il atteint le jardin, il y reste un temps, puis il en repart vers le bas |
+| *sa vie entière est un palier* | sa vie entière est un plateau **puis** une décroissance |
+| *ils ont cinq ans tous les deux jusqu'au bout* | ils ont cinq ans jusqu'à la fin du plateau, et pas au-delà |
+| *le plancher est à cinq ans, aux deux bouts* | le plancher **d'arrivée** est à cinq ans ; il n'y a plus de plancher du corps |
+
+*Corrigé dans les fichiers de ce lot. Le dossier maître n'est pas modifié : correction en attente, voir la liste plus bas.*
+
+## Les tableaux de durées : ce que la colonne veut dire maintenant
+
+**« Années au jardin » désigne désormais le plateau seul.** La décroissance finale est un **troisième temps qui s'ajoute**, et il n'entre dans aucune des colonnes existantes.
+
+**Aucun chiffre n'est inventé ici.** Ni la durée de cette dernière phase, ni sa vitesse ne sont fixées — l'autrice ne les a pas données, et rien dans le dossier ne permet de les déduire.
+
+Le seul exemple disponible est le sien, et il est appliqué tel quel :
+
+| | Arrivée | Descente | **Plateau** | **Décroissance** | Vit en tout |
+|---|---:|---:|---:|---:|---:|
+| L'exemple de l'autrice | 5 ans | 0 | **25 ans** | **5 ans, jusqu'à zéro** | **30 ans** |
+
+*C'est la seule ligne complète du dossier. Toutes les autres ont un troisième temps non chiffré, et il ne faut pas le combler.*
+
+## Questions ouvertes sur le troisième temps
+
+*À poser à l'autrice. Rien n'est tranché ici.*
+
+- **La vitesse de la décroissance finale** — la même que celle de la descente (une marche par an en haut, une tous les trois ans chez les jeunes arrivants), ou plus rapide ? Dans l'exemple donné, cinq ans pour cinq marches font une marche par an — mais cet arrivant est un jeune arrivant, qui descendrait normalement trois fois plus lentement. **Il y a donc peut-être là une règle différente, et elle n'est pas énoncée.**
+- **La durée du plateau et celle de la décroissance sont-elles liées, ou indépendantes ?** Un jardin allongé s'accompagne-t-il d'une fin allongée, ou la fin dure-t-elle le même temps pour tout le monde ?
+- **Est-ce que les berceurs accompagnent aussi cette dernière phase ?** Leur métier était défini comme *accompagner ceux qui sont au jardin jusqu'au dernier jour* — **et le dernier jour est maintenant en dessous de cinq ans.** La définition du métier est à reprendre dans un sens ou dans l'autre : soit ils suivent jusqu'à zéro, soit quelqu'un d'autre prend le relais, soit personne.
+- **Est-ce que le livre montre une fin, ou est-ce entièrement hors champ ?** Aucun personnage du casting n'y arrive pendant le roman ; la question est donc entièrement libre, et elle engage le registre du livre.
 
 ---
 
@@ -85,7 +161,7 @@ C'est ce qui remplace l'ancienne formulation, et c'est meilleur pour quatre rais
 
 **Ça reste immatériel.** Conforme à la décision de l'autrice : le karma ne compense qu'en temps et en qualité de temps, jamais en biens. Un jardin allongé ne donne ni argent, ni statut, ni revanche. Il donne des années d'insouciance et rien d'autre.
 
-**Le §7 tient tel quel.** *« Un enfant mort très jeune chez nous arrive au plancher : sa vie entière est un palier […] c'est la grâce maximale que le système sache accorder. »* Sous le nouveau système c'est encore vrai — il arrive au plancher parce qu'il est mort en dessous, et toute sa vie est un jardin. Et s'il est en plus un meurtri, **la grâce peut allonger ce jardin-là aussi.** L'ancienne version ne savait rien faire pour lui : il était déjà au plancher, on ne pouvait pas le faire descendre davantage. La nouvelle a encore quelque chose à donner.
+**Le §7 tient presque tel quel.** *« Un enfant mort très jeune chez nous arrive au plancher : sa vie entière est un palier […] c'est la grâce maximale que le système sache accorder. »* La grâce maximale reste vraie ; **« sa vie entière est un palier » ne l'est plus.** Il arrive au plancher parce qu'il est mort en dessous, il n'a aucune marche à descendre, et il passe presque toute sa vie au jardin — **mais il en repart à la fin, comme tout le monde.** Dans l'exemple de l'autrice : vingt-cinq ans de plateau, puis cinq ans de décroissance. Et s'il est en plus un meurtri, **la grâce peut allonger ce plateau-là aussi.** L'ancienne version ne savait rien faire pour lui : il était déjà au plancher, on ne pouvait pas le faire descendre davantage. La nouvelle a encore quelque chose à donner.
 
 Il n'y a pas de barème : **plus quelqu'un a été meurtri, plus le jardin est long**, et le rapport exact n'est jamais chiffré.
 
@@ -103,10 +179,12 @@ Le système gagne un second plancher, symétrique du premier :
 
 | | Plancher | Ce qu'il arrête |
 |---|---|---|
-| **Le corps** | cinq ans | l'âge ne descend pas plus bas. Règle du §7, inchangée |
+| **Le corps, à l'arrivée** | cinq ans | on n'arrive jamais en dessous. Règle du §7, inchangée |
 | **Le temps** | trente ans | la durée de vie totale ne descend pas plus bas. Règle nouvelle |
 
-Conséquence : **qui arrive à cinq ans dispose de trente ans, comme qui arrive à dix.** Ce qui les sépare n'est plus une différence de quantité mais de nature — le premier passe ses trente années *entières* au jardin, le second en passe quinze à descendre l'escalier avant d'y entrer.
+*⚠️ Ce tableau portait « Le corps — l'âge ne descend pas plus bas ». **C'était faux** : l'âge repart en dessous de cinq ans au troisième temps. Le plancher de cinq ans ne vaut qu'à l'arrivée. Voir « La correction majeure » en tête de document.*
+
+Conséquence : **qui arrive à cinq ans dispose de trente ans, comme qui arrive à dix.** Ce qui les sépare n'est plus une différence de quantité mais de nature — le premier n'a aucun escalier à descendre et passe la quasi-totalité de sa vie au jardin, le second en passe quinze à descendre avant d'y entrer. **Ni l'un ni l'autre n'y reste jusqu'au bout** : les deux en repartent vers zéro.
 
 *Une arrivée à cinq ans est ici **un cas limite du système**, celui qui illustre le plancher. Ce n'est pas un personnage du roman.*
 
@@ -166,9 +244,11 @@ C'est ainsi qu'il faut la comprendre, et ainsi seulement. Il y a un écart entre
 
 #### L'application — Chrissy et Tania
 
-**Mortes à dix-huit, elles arrivent à dix-huit.** Treize marches à descendre, à la vitesse lente des jeunes arrivants : **une trentaine d'années de descente**. Puis le jardin, et c'est là que la grâce travaille.
+**Mortes à dix-huit, elles arrivent à dix-huit.** Treize marches à descendre, à la vitesse lente des jeunes arrivants : **une trentaine d'années de descente**. Puis le plateau au jardin, et c'est là — et là seulement — que la grâce travaille.
 
-Un jardin ordinaire leur donnerait une vie totale de l'ordre de la quarantaine d'années. **Leur jardin allongé les porte aux alentours de soixante à soixante-dix ans de vie** — près de ce qu'aurait vécu un grand chiffre, sans jamais l'égaler par règle.
+Un plateau ordinaire leur donnerait une vie totale de l'ordre de la quarantaine d'années. **Leur plateau allongé les porte aux alentours de soixante à soixante-dix ans de vie** — près de ce qu'aurait vécu un grand chiffre, sans jamais l'égaler par règle.
+
+**Puis elles en repartent, comme tout le monde, et elles meurent à zéro.** La grâce leur a donné du plateau ; elle ne leur a pas donné une exemption. *Durée et vitesse de cette dernière phase : non fixées, question à l'autrice.*
 
 > **Le chiffre exact appartient à l'autrice, et rien, dans le monde, ne permet de le lire.**
 
@@ -203,9 +283,9 @@ Ce que le système déplace, ce sont des années et leur qualité. Rien d'autre 
 Tout le §7 tient, sans retouche.
 
 - **La vitesse de descente** reste celle du §7 : une marche par an au-dessus de cinquante ans, environ trois ans par marche chez les jeunes arrivants. *Plus on arrive jeune, plus on descend lentement.*
-- **La vitesse est fixée à l'arrivée, une fois pour toutes**, et ne se recalcule jamais ensuite.
-- **Le plancher est à cinq ans**, aux deux bouts.
-- **Les durées de jardin du tableau du §7 deviennent les durées ordinaires** : celles du verdict réparable. La grâce s'y ajoute ; elle ne les remplace pas.
+- **La vitesse est fixée à l'arrivée, une fois pour toutes**, et ne se recalcule jamais ensuite. *Reste ouvert : vaut-elle aussi pour la décroissance finale ?*
+- **Le plancher d'arrivée est à cinq ans.** *Correction : il ne joue plus « aux deux bouts ». On n'arrive pas en dessous, mais on y descend.*
+- **Les durées de jardin du tableau du §7 deviennent les durées ordinaires du plateau** : celles du verdict réparable. La grâce s'y ajoute ; elle ne les remplace pas. **Le troisième temps n'y figure pas.**
 
 ### 6. L'épigraphe devient mécanique
 
@@ -216,8 +296,10 @@ Ce n'était qu'une formule de sermon. Avec la règle ci-dessus, c'est un tableau
 | | Ce qu'on reçoit |
 |---|---|
 | L'irréparable | pas de capsule qui éclaircit |
-| Le réparable | son âge, jardin ordinaire |
-| **Le meurtri** | **son âge, jardin allongé** |
+| Le réparable | son âge, plateau ordinaire au jardin |
+| **Le meurtri** | **son âge, plateau allongé au jardin** |
+
+*Les trois lignes se terminent de la même façon : par la décroissance jusqu'à zéro. **La grâce ne dispense de rien** — elle allonge le milieu, elle ne supprime pas la fin.*
 
 **Trois entrées, et rien d'autre n'y est inscrit.** Ni la richesse, ni la pauvreté, ni le succès, ni l'échec, ni le talent, ni la notoriété, ni la beauté. Le registre est court parce que l'Archiviste ne tient les comptes que d'une seule chose.
 
@@ -228,7 +310,20 @@ Ce n'était qu'une formule de sermon. Avec la règle ci-dessus, c'est un tableau
 - **§11, dernière puce.** La phrase *« un pauvre ici devient riche là-bas »* est **abandonnée** : elle contredit frontalement le point 4 ci-dessus. À réécrire dans [`../L-ECLAIRCIE-dossier-complet.md`](../L-ECLAIRCIE-dossier-complet.md).
 - **§11, première puce.** *« Victime → réparation. Ce qu'on lui a arraché lui est rendu »* reste juste, et le devient même davantage. Mais **le §11 ne précise pas sous quelle forme.** À compléter : la réparation est un jardin allongé.
 - **§7.** Le tableau des durées ne dit pas non plus qu'il donne les **durées ordinaires**, ni qu'un meurtri reçoit un supplément par-dessus. À préciser au même endroit.
-- **§7, ligne « 5 ans ».** Le tableau donne **« ~25 ans »**, et la dernière puce des conséquences dit *« vingt-cinq ans d'insouciance intégrale »*. Sous la règle A, désormais acquise, c'est **trente** aux deux endroits. Correction à appliquer.
+- **§7, ligne « 5 ans ».** Le tableau donne **« ~25 ans »**, et la dernière puce des conséquences dit *« vingt-cinq ans d'insouciance intégrale »*. Sous la règle A, désormais acquise, c'est **trente** aux deux endroits. Correction à appliquer. *Nuance apportée par le troisième temps : les vingt-cinq ans du chiffre initial étaient peut-être le **plateau seul** — c'est exactement l'exemple donné par l'autrice, vingt-cinq de plateau et cinq de décroissance pour trente en tout. À vérifier avec elle avant de corriger le §7.*
+- [x] ~~**§7 et §16 — le troisième temps.**~~ **Déjà appliqué au dossier maître**, vérifié le 15 août 2026 : le §7 porte les trois temps, l'exemple de l'autrice, la mention que cinq ans est le plancher d'arrivée et non de descente, et la note que la phrase du §16 est littérale. **Rien à faire de ce côté.**
+
+### Signalements hors périmètre — fichiers non modifiés par ce lot
+
+*Le troisième temps n'y est pas encore, et chacun porte une formule fausse. Signalé, non appliqué.*
+
+| Fichier | Ce qui y est faux |
+|---|---|
+| [`../03-personnages/june.md`](../03-personnages/june.md) | *« accompagnent ceux qui sont au jardin, jusqu'au dernier jour »* et *« personne n'atteint sa fin autrement que par eux »* — **le dernier jour n'est plus au jardin.** C'est le signalement le plus urgent du lot : il touche la définition d'un métier |
+| [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md) | *« cinq ans est le plancher aux deux bouts »*, *« sa vie entière se passe au jardin »*, *« il s'éteint vers la vingt-cinquième année »*. Fiche hors casting, mais tout son calcul de croisement repose sur ces phrases |
+| [`la-jalousie.md`](la-jalousie.md) | *« on y arrive tous, un jour, et on y reste jusqu'au bout »* — on n'y reste pas |
+| [`la-terre.md`](la-terre.md) | *« rien en dessous du jardin »* — il y a maintenant quelque chose en dessous du jardin, et c'est cinq ans de vie |
+| [`../04-plan/incidences-2026-08-13.md`](../04-plan/incidences-2026-08-13.md) | reprend les deux *« il s'éteint »* de la table des âges croisés, désormais corrigés à la source |
 
 ---
 
@@ -240,7 +335,9 @@ Andrew est mort à 62 ans : il arrive à 62 ans. Erin est morte à 64 ans, dix a
 
 **Ce n'est pas une exception : c'est le défaut**, et c'est désormais le défaut de tout le monde. Aucun des deux n'a rien commis d'irréparable, aucun des deux n'a rien subi d'extraordinaire. Ils sont donc reconduits l'un et l'autre à leur âge de mort, avec **un jardin ordinaire** — ni supplément, ni retranchement.
 
-Lui a obéi quand il ne fallait pas : faute réparable, ligne médiane. Elle n'a rien à réparer non plus. Deux dossiers ordinaires, deux verdicts ordinaires. **Leurs chiffres ne bougent pas** : 57 ans de descente et une douzaine d'années de jardin pour lui, environ 69 ans de vie ; 59 ans de descente et une douzaine de jardin pour elle, environ 70 ans de vie.
+Lui a obéi quand il ne fallait pas : faute réparable, ligne médiane. Elle n'a rien à réparer non plus. Deux dossiers ordinaires, deux verdicts ordinaires. **Leurs chiffres ne bougent pas** : 57 ans de descente et une douzaine d'années de plateau pour lui, environ 69 ans de vie ; 59 ans de descente et une douzaine de plateau pour elle, environ 70 ans de vie.
+
+*Réserve, depuis la correction majeure : ces totaux comptaient descente + plateau, sans troisième temps. **Contiennent-ils déjà la décroissance, ou faut-il l'ajouter ?** Question à l'autrice — aucun chiffre n'est modifié ici.*
 
 Il n'y a donc rien à chercher là. Le lecteur qui voudrait y voir un signe se trompera, et le livre ne le détrompera pas — mais l'autrice, elle, sait qu'il n'y a rien dedans.
 
@@ -250,15 +347,15 @@ Détail du décompte dans [`les-ages-croises.md`](les-ages-croises.md).
 
 Elles sont mortes à **18 ans**. **Elles arrivent donc à 18 ans.** Il n'y a plus rien à trancher de ce côté-là : le chiffre n'est plus un choix d'autrice, c'est une donnée.
 
-Treize marches à descendre, à la vitesse lente des jeunes arrivants — de l'ordre de deux à trois ans par marche, donc **une trentaine d'années de descente**. Puis **un jardin allongé, bien au-delà de l'ordinaire**, parce qu'elles sont des meurtries.
+Treize marches à descendre, à la vitesse lente des jeunes arrivants — de l'ordre de deux à trois ans par marche, donc **une trentaine d'années de descente**. Puis **un plateau allongé, bien au-delà de l'ordinaire**, parce qu'elles sont des meurtries. **Puis la décroissance, jusqu'à zéro, comme pour tout le monde.**
 
-**Et le supplément a désormais une pente.** Elles sont mortes à dix-huit ans : on leur a pris presque tout, donc leur jardin est parmi les plus longs que le système sache accorder. Là où un jardin ordinaire leur donnerait une quarantaine d'années de vie, **le leur les porte aux alentours de soixante à soixante-dix ans** — l'écart avec un grand chiffre est comblé en partie, jamais en totalité. Voir « 2 ter. La grâce est proportionnelle ».
+**Et le supplément a désormais une pente.** Elles sont mortes à dix-huit ans : on leur a pris presque tout, donc leur plateau est parmi les plus longs que le système sache accorder. Là où un plateau ordinaire leur donnerait une quarantaine d'années de vie, **le leur les porte aux alentours de soixante à soixante-dix ans** — l'écart avec un grand chiffre est comblé en partie, jamais en totalité. Voir « 2 ter. La grâce est proportionnelle ».
 
 **Le chiffre exact n'est pas fixé ici.** Il appartient à l'autrice, et comme tout le §7, **c'est la forme qui compte, pas la décimale**.
 
 *Aucune borne haute ne leur est opposée — la règle B n'en pose pas. Et rien, dans le monde, ne permet de lire leur supplément : leur jardin est simplement long, comme d'autres jardins sont longs sans qu'on sache pourquoi.*
 
-Ce que ça donne, et qui n'était pas atteignable avec l'ancienne règle : **elles arrivent avec le corps qu'elles avaient à l'heure de la planque.** C'est ce corps-là, exactement, qui sort de la capsule devant une salle qui s'émerveille — et c'est ce corps-là que la descente va défaire lentement, pendant trente ans, avant de le déposer dans un jardin qui ne finit pas. Fiche : [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
+Ce que ça donne, et qui n'était pas atteignable avec l'ancienne règle : **elles arrivent avec le corps qu'elles avaient à l'heure de la planque.** C'est ce corps-là, exactement, qui sort de la capsule devant une salle qui s'émerveille — et c'est ce corps-là que la descente va défaire lentement, pendant trente ans, avant de le déposer dans un jardin très long. *Très long, et non sans fin : la formule « un jardin qui ne finit pas », qui figurait ici, est fausse depuis la correction majeure.* Fiche : [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
 
 *Cette fiche est à mettre à jour : elle porte encore l'ancienne règle et laisse leur âge d'arrivée ouvert. Il ne l'est plus.*
 
@@ -266,13 +363,21 @@ Ce que ça donne, et qui n'était pas atteignable avec l'ancienne règle : **ell
 
 > **Ce n'est le dossier de personne.** L'arrivant au plancher sert à illustrer la règle A et rien d'autre ; aucun rôle du roman ne lui correspond, et l'autrice n'a pas d'enfant de cet âge à son casting. À lire comme une ligne de démonstration.
 
-Mort avant cinq ans, donc arrivé au plancher : aucune marche à descendre, **toute sa vie est un jardin.** Le nouveau système ne change rien à ce cas, et confirme la phrase du §7 — c'est la grâce maximale que le système sache accorder.
+Mort avant cinq ans, donc arrivé au plancher d'arrivée : **aucune marche à descendre, il entre au jardin le premier jour.** C'est la grâce maximale que le système sache accorder, et la phrase du §7 le dit bien.
 
-À deux nuances près, et elles sont nouvelles.
+**C'est aussi la ligne où le troisième temps se lit le plus clairement, et c'est l'exemple même de l'autrice :**
 
-**La grâce peut désormais allonger ce jardin encore.** L'ancienne règle butait sur le plancher du corps et n'avait plus rien à donner.
+| Descente | Plateau | Décroissance | Vit en tout |
+|---:|---:|---:|---:|
+| 0 | **25 ans** | **5 ans, jusqu'à zéro** | **30 ans** |
 
-**Sous la règle A, un arrivant au plancher ne vit plus vingt-cinq ans mais trente** — autant qu'une arrivée à dix ans, et il les passe tous au jardin quand l'autre en passe quinze dans l'escalier. C'est ce qui rend la phrase du §7 exacte au lieu d'approximative : la grâce maximale ne peut pas être, en même temps, la vie la plus courte du monde.
+*« Toute sa vie est un jardin » était donc faux, de cinq ans exactement. Sa vie est un plateau **puis** une décroissance, et c'est la seule ligne du dossier où l'autrice a donné les deux chiffres.*
+
+Deux nuances, et elles sont nouvelles.
+
+**La grâce peut désormais allonger ce plateau encore.** L'ancienne règle butait sur le plancher du corps — lequel n'existe plus — et n'avait plus rien à donner.
+
+**Sous la règle A, un arrivant au plancher ne vit plus vingt-cinq ans mais trente** — autant qu'une arrivée à dix ans, et il n'en passe aucun dans l'escalier quand l'autre en passe quinze. La grâce maximale ne peut pas être, en même temps, la vie la plus courte du monde.
 
 ---
 
@@ -293,6 +398,14 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 ---
 
 ## À trancher
+
+**Le troisième temps, d'abord — c'est le lot le plus lourd du dossier.**
+
+- [ ] **La vitesse de la décroissance finale.** La même que la descente, ou plus rapide ? L'exemple de l'autrice donne cinq marches en cinq ans pour un arrivant qui descendrait normalement en quinze — **ce qui suggère une autre règle, non énoncée.**
+- [ ] **Plateau et décroissance sont-ils liés ou indépendants ?** Un plateau allongé entraîne-t-il une fin allongée ?
+- [ ] **Les berceurs accompagnent-ils la dernière phase ?** *« Jusqu'au dernier jour »* : le dernier jour est passé sous cinq ans. Le métier est à redéfinir.
+- [ ] **Le livre montre-t-il une fin, ou est-ce hors champ ?**
+- [ ] **Les totaux existants incluent-ils la décroissance ?** 69 ans pour Andrew, 70 pour Erin, 30 pour Eliott : plateau compris et fin en plus, ou fin comprise ?
 
 - [x] ~~**La longueur du jardin allongé.**~~ — **tranchée le 15 août 2026 : elle est proportionnelle à ce qui a été pris.** Plus on est mort jeune, plus le jardin s'allonge ; la grâce rapproche la durée totale de celle d'un grand chiffre sans jamais l'atteindre par règle. Chrissy et Tania, mortes à dix-huit, tournent autour de soixante à soixante-dix ans de vie au lieu de la quarantaine ordinaire. **Le chiffre exact appartient à l'autrice et reste illisible dans le monde.** Voir « 2 ter. La grâce est proportionnelle ».
 - [ ] **La pente ne doit jamais devenir un barème.** Vérification permanente à l'écriture du dossier comme du roman : aucun tableau de correspondance âge de mort → années de jardin, aucun exemple chiffré supplémentaire au-delà de ceux déjà posés. La proportionnalité est un sens, pas une courbe.

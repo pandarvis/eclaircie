@@ -12,9 +12,9 @@
 | **Ici** | **Chrissy** et **Tania**. Une **paire** — deux capsules voisines, ouvertes le même jour, deux arrivantes identiques |
 | **Vie d'avant** | deux sœurs jumelles, enlevées et tuées par le même homme. **Sans nom dans tout le livre** |
 | **Âge** | **mortes à dix-huit ans, arrivées à dix-huit ans.** Tranché par l'autrice, 15 août 2026 |
-| **Entrée au registre** | **meurtries**. La grâce qui leur revient ne prend pas la forme d'un chiffre plus bas mais d'un **jardin allongé** — voir [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) |
+| **Entrée au registre** | **meurtries**. La grâce qui leur revient ne prend pas la forme d'un chiffre plus bas mais d'un **plateau allongé au jardin** — voir [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) |
 | **Nomination** | **elles-mêmes.** À dix-huit ans, très au-dessus du seuil des huit ans, elles ont produit leurs deux prénoms |
-| **Trajectoire** | une descente entière, puis un très long jardin |
+| **Trajectoire** | une descente entière, un très long plateau au jardin, **puis la décroissance jusqu'à zéro comme tout le monde** |
 | **Ce qu'elles savent** | rien. Elles ne sauront jamais rien |
 | **Ce qu'on sait d'avant** | **rien non plus**, et le livre ne le comble jamais |
 
@@ -46,7 +46,7 @@ Elles sortent de **deux capsules voisines, le même jour**, à quelques travées
 
 **C'est le point à tenir, et il ne se dit jamais dans le texte.**
 
-Elles sont **identiques**. Même jour, même âge, même visage, deux travées d'écart. Le monde ne dispose d'aucun mot pour ce qu'elles sont l'une à l'autre — pas de sœurs, pas de sang, pas de parenté — et il les traite en conséquence : *une paire, travée douze*. Rien, dans leur dossier, ne les distingue. Rien, dans leur apparence, ne permet de les trier. Elles descendront au même rythme, atteindront le jardin la même année, et seront identiques jusqu'au bout.
+Elles sont **identiques**. Même jour, même âge, même visage, deux travées d'écart. Le monde ne dispose d'aucun mot pour ce qu'elles sont l'une à l'autre — pas de sœurs, pas de sang, pas de parenté — et il les traite en conséquence : *une paire, travée douze*. Rien, dans leur dossier, ne les distingue. Rien, dans leur apparence, ne permet de les trier. Elles descendront au même rythme, entreront au jardin la même année, **en repartiront la même année, et disparaîtront la même année.** Identiques jusqu'à zéro.
 
 Et pourtant, ce matin-là, **on leur a posé la même question et elles ont produit deux mots différents.**
 
@@ -88,11 +88,25 @@ La question qui figurait ici — *ont-elles huit ans ?* — est close, et elle l
 
 Elles sont des **meurtries**, et le barème de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) leur doit quelque chose.
 
-**Mais ce n'est pas un chiffre plus bas.** Elles arrivent à dix-huit ans, c'est-à-dire à leur âge de mort. **La grâce qui leur revient prend la forme d'un jardin allongé** — pas d'une entrée précoce dans la descente.
+**Mais ce n'est pas un chiffre plus bas.** Elles arrivent à dix-huit ans, c'est-à-dire à leur âge de mort. **La grâce qui leur revient prend la forme d'un plateau allongé au jardin** — pas d'une entrée précoce dans la descente.
 
 *Le détail du barème n'est pas écrit ici et ne doit pas l'être : il est en cours de réécriture dans [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), qui fait seul foi. Cette fiche s'y tient et n'invente rien.*
 
-Ce qui est acquis pour elles : une descente entière depuis dix-huit ans, puis **un jardin plus long que celui de n'importe qui d'autre**. Le §7 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) rappelle que descendre n'est pas une punition mais la seule grâce que le système sache accorder ; ce qu'on leur rend, c'est du temps sans rien savoir.
+Ce qui est acquis pour elles : une descente entière depuis dix-huit ans, puis **un plateau plus long que celui de n'importe qui d'autre**. Le §7 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) rappelle que descendre n'est pas une punition mais la seule grâce que le système sache accorder ; ce qu'on leur rend, c'est du temps sans rien savoir.
+
+### ⚠️ Leur jardin allongé est un plateau, pas une fin — correction du 15 août 2026
+
+> **Une vie a trois temps** : la descente, le plateau au jardin, **puis la décroissance jusqu'à zéro.** Voir [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), « La correction majeure ».
+
+**Ce que la grâce leur donne, c'est un plateau plus long. Rien d'autre.**
+
+Elles descendent trente ans depuis dix-huit. Elles restent à cinq ans plus longtemps que quiconque. **Puis elles repartent vers le bas, comme tout le monde, et elles meurent à zéro.**
+
+- **La grâce n'exempte de rien.** Elle allonge le milieu de la vie ; elle ne supprime pas la fin, et rien dans le dossier ne suggère qu'elle le pourrait.
+- **La durée et la vitesse de cette dernière phase ne sont pas fixées**, pour elles pas plus que pour les autres. *Question à l'autrice — voir §6. Aucun chiffre n'est avancé ici.*
+- **Et elles la traversent ensemble.** Elles sont identiques en tout : même descente, même plateau, même décroissance. **Elles quitteront le jardin la même année et disparaîtront la même année.** C'est la seule chose de plus que la correction ajoute à leur dossier, et elle ne coûte aucun calcul — elle découle de ce que le §2 pose déjà.
+
+*Ce que ça fait à la fiche, et il ne faut pas le surjouer : ce qui leur a été rendu reste du temps, et beaucoup de temps. La correction n'annule pas leur grâce. Elle dit seulement que le mot « jardin » désignait deux choses — un endroit où l'on est bien, et une fin de course — et qu'il n'a jamais désigné que la première.*
 
 **Elles ne savent rien.** Elles sont sorties vides comme tout le monde, elles ont tout appris ici, et elles rajeunissent tranquillement. Elles n'ont ni angoisse, ni manque, ni trou — il n'y a rien à combler, puisqu'il n'y a rien eu. C'est la forme exacte de leur grâce, et c'est aussi ce qui la rend insupportable au seul homme qui sache.
 
@@ -173,7 +187,9 @@ Elles ne font rien dans l'intrigue. **Elles sont une ligne de registre avant d'�
 - [x] ~~**Apparaissent-elles tôt dans le livre, ou seulement à la fin ?**~~ — **tranché le 15 août 2026 : tôt**, et ce n'est pas un choix de confort : **le dispositif en dépend.** Le lecteur doit pouvoir les reconnaître à la découverte des corps. Voir §5 bis, et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) section 1 bis.
 - [ ] **Sont-elles ensemble ?** Deux arrivantes du même jour ont-elles été prises en charge ensemble, ou séparées comme deux dossiers distincts ? Ce monde n'a aucune raison de les garder côte à côte : rien, dans sa langue, ne dit qu'elles vont ensemble.
 - [x] ~~**Qui les a nommées ?**~~ — **elles-mêmes.** Un nom d'éclaircie n'est pas attribué, il est **retrouvé** : le veilleur explique en une phrase ce qu'est un prénom, demande, l'arrivant répond, le veilleur inscrit. La seule exception est le seuil des huit ans, et elles sont arrivées à dix-huit. Voir §2 bis.
-- [x] ~~**Leur grâce prend-elle la forme d'un chiffre plus bas ?**~~ — **non : un jardin allongé.** Le détail relève de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), pas de cette fiche.
+- [x] ~~**Leur grâce prend-elle la forme d'un chiffre plus bas ?**~~ — **non : un plateau allongé au jardin.** Le détail relève de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), pas de cette fiche.
+- [ ] **Combien de temps dure leur décroissance finale, et à quelle vitesse ?** Leur plateau est le plus long du livre ; **rien ne dit si leur fin l'est aussi.** Plateau et décroissance sont-ils liés, ou la seconde dure-t-elle le même temps pour tout le monde ? **Aucun chiffre n'est proposé ici.** *À l'autrice.*
+- [ ] **Le livre les montre-t-il descendre sous cinq ans ?** Elles sont, avec Eliott, les seuls personnages dont la trajectoire va aussi loin dans le futur du monde. La question rejoint celle du registre général : **le troisième temps est-il entièrement hors champ ?**
 
 ---
 

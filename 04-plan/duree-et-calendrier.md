@@ -6,23 +6,71 @@ Ce que le verdict décide : [`../02-univers/ce-qui-est-juge.md`](../02-univers/c
 
 ---
 
-# Le système, en trois lignes
+# Le système, en quatre lignes
 
 > **Décision de l'autrice, 15 août 2026. Elle remplace tout barème antérieur.**
 
 > 1. **Tout le monde revient à l'âge où il est parti.**
 > 2. **Tout le monde descend jusqu'à cinq ans.**
 > 3. **La seule chose qui change d'une personne à l'autre, c'est le temps qu'on reste au jardin.**
+> 4. **Puis on repart du jardin, vers le bas, et on meurt à zéro.**
 
-**Il n'existe plus aucun calcul d'attribution du chiffre d'arrivée.** L'âge d'arrivée *est* l'âge de mort, sans exception. Le plancher de cinq ans du §7 joue toujours aux deux bouts : qui est mort avant cinq ans arrive à cinq.
+**Il n'existe plus aucun calcul d'attribution du chiffre d'arrivée.** L'âge d'arrivée *est* l'âge de mort, sans exception. Le plancher de cinq ans du §7 joue **à l'arrivée seulement** : qui est mort avant cinq ans arrive à cinq — mais tout le monde finit par descendre en dessous.
 
-Pour ce document, la conséquence tient en une phrase : **la colonne « Arrive à » n'est plus jamais à calculer, et la colonne « Jardin » est la seule qui puisse varier d'un dossier à l'autre.**
+Pour ce document, la conséquence tient en une phrase : **la colonne « Arrive à » n'est plus jamais à calculer, la colonne « Jardin » ne mesure plus que le plateau, et une quatrième colonne s'ajoute que personne n'a chiffrée.**
 
-- **Jardin ordinaire** — le verdict réparable. Ce sont les durées du tableau du §7, telles quelles.
-- **Jardin allongé** — le verdict meurtri. Le supplément s'ajoute par-dessus l'ordinaire.
+- **Plateau ordinaire** — le verdict réparable. Ce sont les durées du tableau du §7, telles quelles.
+- **Plateau allongé** — le verdict meurtri. Le supplément s'ajoute par-dessus l'ordinaire.
 - **Pas de capsule qui éclaircit** — le verdict irréparable. Il n'entre dans aucun tableau.
+- **La décroissance finale** — elle vient après, pour tout le monde, et **elle n'est fixée nulle part.**
 
-Rien d'autre ne bouge : la vitesse de descente, le plancher et les durées ordinaires sont ceux du §7, inchangés.
+Rien d'autre ne bouge : la vitesse de descente, le plancher d'arrivée et les durées ordinaires sont ceux du §7, inchangés.
+
+---
+
+# ⚠️ LA CORRECTION MAJEURE — UNE VIE A TROIS TEMPS
+
+> **Décision de l'autrice, 15 août 2026.**
+>
+> > *« On a une durée de vie au jardin qui stagne selon les âges mais qui finit par décroître. Un enfant de 5 ans qui a donc 30 ans de vie devant lui va en faire 25 à l'âge de 5 ans puis décroître jusqu'à 0. »*
+
+**Ce document supposait partout qu'on s'arrêtait à cinq ans et qu'on s'y éteignait. C'est faux.**
+
+| | Le temps | Ce que fait l'âge |
+|---|---|---|
+| **1** | **La descente** | de l'âge d'arrivée jusqu'à cinq ans, à la vitesse du §7 |
+| **2** | **Le jardin** | rien. **Un plateau** à cinq ans, dont la durée varie selon les dossiers |
+| **3** | **La fin** | l'âge repart vers le bas — quatre, trois, deux, un. **On meurt à zéro** |
+
+**Cinq ans n'est plus un terminus. C'est un palier, et on en repart.** Le plancher de cinq ans ne vaut qu'à l'arrivée.
+
+*Le raisonnement complet, l'image du §16 devenue littérale et le vocabulaire à corriger sont dans [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), section « La correction majeure ». Ce document en tire les conséquences arithmétiques et graphiques.*
+
+## Le graphe du décompte change de forme
+
+Le graphe décrit ici représentait, pour chaque personnage, une courbe qui **descend puis devient plate**. Une équerre. **Ce n'est plus la forme.**
+
+> **Chaque courbe descend, devient plate, puis redescend jusqu'à zéro.**
+
+Trois segments, pas deux :
+
+| Segment | Forme | Ce qui varie d'un personnage à l'autre |
+|---|---|---|
+| **La descente** | une pente, raide chez les grands chiffres, très douce chez les jeunes arrivants | la hauteur de départ et l'inclinaison |
+| **Le plateau** | une horizontale à la hauteur « cinq ans » | **sa longueur — c'est la seule chose que le verdict décide** |
+| **La chute finale** | une seconde pente, jusqu'à l'axe | **rien n'est fixé : ni sa longueur, ni son inclinaison** |
+
+**Toutes les courbes finissent sur l'axe, à zéro, et aucune ne s'interrompt en l'air.** C'est le changement visuel principal : l'ancien graphe donnait des lignes plates qui s'arrêtaient net, ce qui laissait croire à une extinction au palier. Le nouveau donne des courbes qui reviennent toucher le sol.
+
+*Le dessin lui-même n'est pas fait ici — un autre travail s'en occupe. Ce qu'il lui faut : trois segments par personnage, un axe des âges de zéro à l'âge d'arrivée, un axe du temps vécu, et **la troisième pente en trait discontinu** tant que sa durée n'est pas arrêtée par l'autrice.*
+
+## Ce qu'il ne faut surtout pas inventer
+
+**Aucun chiffre de troisième temps n'est posé dans ce document.** L'autrice n'a donné qu'un exemple, et il est appliqué tel quel, sans être étendu à qui que ce soit d'autre :
+
+| | Arrivée | Descente | **Plateau** | **Décroissance** | Vit en tout |
+|---|---:|---:|---:|---:|---:|
+| L'exemple de l'autrice | 5 ans | 0 | **25 ans** | **5 ans, jusqu'à zéro** | **30 ans** |
 
 ---
 
@@ -38,10 +86,12 @@ Le système gagne un **second plancher**, symétrique du premier :
 
 | | Plancher | Ce qu'il arrête |
 |---|---|---|
-| **Le corps** | cinq ans | l'âge ne descend pas plus bas — règle du §7, inchangée |
+| **Le corps, à l'arrivée** | cinq ans | on n'arrive jamais en dessous — règle du §7, inchangée |
 | **Le temps** | trente ans | la durée de vie totale ne descend pas plus bas — règle nouvelle |
 
-Conséquence : **qui arrive à cinq ans dispose de trente ans, comme qui arrive à dix.** La différence entre eux cesse d'être une différence de quantité pour devenir une différence de nature — le premier passe ses trente années *entières* au jardin, le second en passe quinze à descendre l'escalier avant d'y entrer.
+*⚠️ La première ligne portait « l'âge ne descend pas plus bas ». **C'est faux** : l'âge repart sous cinq ans au troisième temps. Voir la correction majeure ci-dessus.*
+
+Conséquence : **qui arrive à cinq ans dispose de trente ans, comme qui arrive à dix.** La différence entre eux cesse d'être une différence de quantité pour devenir une différence de nature — le premier n'a aucun escalier et entre au jardin le premier jour, le second passe quinze ans à descendre avant d'y entrer. **Ni l'un ni l'autre n'y reste jusqu'au bout.**
 
 > **La qualité change, la quantité non.**
 
@@ -67,11 +117,13 @@ Détail du raisonnement dans [`../02-univers/ce-qui-est-juge.md`](../02-univers/
 
 ### Le principe unique
 
-**La descente s'arrête à cinq ans, mais le temps continue.**
+**La descente s'interrompt à cinq ans, mais elle ne s'arrête pas là. Et le temps, lui, ne s'interrompt jamais.**
 
-On descend un escalier. Arrivé en bas, on s'assoit sur le palier — **le jardin** — et on y reste des années.
+On descend un escalier. Arrivé en bas, on s'assoit sur le palier — **le jardin** — et on y reste des années. **Puis on se relève et on continue de descendre, sous l'enfance, jusqu'à zéro.**
 
-Une durée de vie, c'est donc **l'escalier plus le palier**. Jamais l'un des deux tout seul.
+Une durée de vie, c'est donc **l'escalier, le palier, et la volée du bas**. Jamais deux des trois.
+
+*L'ancienne formule de ce document — « escalier plus palier » — est incomplète et a induit en erreur tout le reste du dossier. La bonne image est **un escalier, un palier, un escalier**.*
 
 ### La vitesse de descente
 
@@ -82,29 +134,40 @@ Elle vient du §7. Elle n'est pas la même pour tout le monde :
 
 > **Plus on naît jeune, plus on descend lentement.**
 
-### Le calcul, en quatre colonnes
+### Le calcul, en cinq colonnes
 
-| Arrive à | Années de descente | Années au jardin | **Vit en tout** |
-|---|---:|---:|---:|
-| Andrew — 62 ans | 57 | 12, ordinaire | **69 ans** |
-| Erin — 64 ans | 59 | 11, ordinaire | **70 ans** |
-| **Chrissy et Tania — 18 ans** | **~30** | **allongé, non fixé, sans borne haute** | **ouvert** |
-| Le garçon — 10 ans | 15 | 15, ordinaire | **30 ans** |
-| *Exemple du système — une arrivée à cinq ans* | 0 | 30, ordinaire, allongeable | **30 ans** |
+> **La colonne « Années au jardin » ne désigne plus que le plateau.** La décroissance finale est un troisième temps, et **elle n'est chiffrée pour personne.**
 
-*La dernière ligne n'est le dossier de personne : c'est le cas limite qui illustre le plancher de la règle A. Aucun personnage du roman n'arrive à cet âge-là.*
+| Arrive à | Années de descente | Plateau au jardin | Décroissance | **Vit en tout** |
+|---|---:|---:|---:|---:|
+| Andrew — 62 ans | 57 | 12, ordinaire | **non fixée** | 69 ans + la fin |
+| Erin — 64 ans | 59 | 11, ordinaire | **non fixée** | 70 ans + la fin |
+| **Chrissy et Tania — 18 ans** | **~30** | **allongé, non fixé, sans borne haute** | **non fixée** | **ouvert** |
+| Le garçon — 10 ans | 15 | 15, ordinaire | **non fixée** | 30 ans + la fin |
+| *Exemple du système — une arrivée à cinq ans* | 0 | **25** | **5, jusqu'à zéro** | **30 ans** |
+
+*La dernière ligne n'est le dossier de personne : c'est le cas limite qui illustre le plancher de la règle A. Aucun personnage du roman n'arrive à cet âge-là. **C'est aussi la seule ligne complète du tableau**, parce que c'est l'exemple que l'autrice a donné elle-même.*
+
+> **⚠️ Question ouverte, et elle commande tout ce tableau.** Les totaux de 69, 70 et 30 ans ont été calculés **avant** que le troisième temps existe. Deux lectures possibles, et il faut trancher :
+>
+> - **la décroissance est comprise dedans** — le plateau d'Andrew n'est alors pas de douze ans mais de moins, et la fin occupe le reste ;
+> - **la décroissance s'ajoute** — Andrew vit alors plus de soixante-neuf ans.
+>
+> **Aucune des deux n'est retenue ici**, et aucun chiffre n'est modifié. *À l'autrice.* La ligne de l'exemple penche pour la première lecture — vingt-cinq et cinq font trente, pas trente-cinq — mais un exemple ne fait pas une règle, et le dossier ne l'étendra pas tout seul.
 
 *⚠️ **La ligne d'Erin est conservée mais dort.** Erin est suspendue du casting pour l'instant (décision du 15 août 2026, voir « Le calendrier » plus bas) : son décompte reste juste et n'a pas à être refait, mais **le calendrier du livre ne s'accroche plus à elle**. C'est cette suspension qui a rendu les douze ans caducs.*
 
-Lire une ligne : Andrew arrive à 62 ans, il met 57 ans à descendre jusqu'à cinq, puis il passe 12 ans au jardin. 57 + 12 = 69. Il aura vécu 69 ans ici. Même lecture pour Erin, à 64 ans : 59 + 11 = 70. **Ni l'un ni l'autre ne bouge sous la nouvelle règle** — c'étaient déjà des dossiers ordinaires reconduits à leur âge de mort.
+Lire une ligne : Andrew arrive à 62 ans, il met 57 ans à descendre jusqu'à cinq, puis il passe 12 ans au jardin — **et il en repart.** 57 + 12 = 69, plus la décroissance. Même lecture pour Erin, à 64 ans : 59 + 11 = 70, plus la décroissance. **Ni l'un ni l'autre ne bouge sous la nouvelle règle du verdict** — c'étaient déjà des dossiers ordinaires reconduits à leur âge de mort. Ce qui bouge est ailleurs : leur vie ne s'arrêtait pas là où ce document le disait.
 
 **Chrissy et Tania sont mortes à 18 ans : elles arrivent à 18 ans.** Treize marches à descendre, à la vitesse lente des jeunes arrivants — de l'ordre de deux à trois ans par marche —, soit **une trentaine d'années de descente**. Puis un jardin **allongé**, bien au-delà de l'ordinaire, parce qu'elles sont des meurtries. C'est la seule ligne du tableau dont le total ne se ferme pas, et c'est normal : le supplément appartient à l'autrice, il n'est pas fixé ici. **La forme compte plus que la décimale** — ce qui est acquis, c'est qu'elles arrivent à l'âge où on les a tuées et qu'elles restent en bas plus longtemps que quiconque.
 
 *Sous la règle B, leur ligne reste **ouverte** : le supplément n'a pas de borne haute, parce qu'aucune ne serait tenable. Il appartient à l'autrice, il ne s'écrit nulle part, et **rien, dans le monde, ne permet de le lire** — leur jardin sera simplement long, comme d'autres jardins sont longs sans que personne sache pourquoi.*
 
-**La ligne du garçon reste valable telle quelle.** Il arrive à 10 ans : il n'a que cinq marches à descendre, mais chacune prend trois ans — 15 ans de descente. Puis 15 ans au jardin. 15 + 15 = 30. La nouvelle règle ne le touche pas, et tout le calendrier du livre, qui repose sur lui, tient sans retouche.
+**La ligne du garçon reste valable pour tout ce dont le livre a besoin.** Il arrive à 10 ans : il n'a que cinq marches à descendre, mais chacune prend trois ans — 15 ans de descente. Puis 15 ans de plateau au jardin. **Puis la décroissance, non chiffrée.** Le calendrier du livre, qui repose sur ses quinze ans de descente et sur eux seuls, tient sans retouche : **l'épilogue tombe à son entrée au jardin, et le troisième temps est très loin derrière la dernière page.**
 
-**Une arrivée à cinq ans** — *exemple du système, pas un personnage* — n'a aucune marche à descendre : elle est déjà en bas, parce qu'elle est morte en dessous du plancher. La vie entière est un palier : **30 ans de jardin sous la règle A**, et rien d'autre. Cela fait exactement la durée du garçon arrivé à dix ans, avec au jardin les quinze années que l'autre passe dans l'escalier. *Et si ce dossier compte aussi parmi les meurtris, le jardin peut s'allonger encore, sans borne écrite : c'est ce que la nouvelle règle sait faire et que l'ancienne ne savait pas.*
+**Une arrivée à cinq ans** — *exemple du système, pas un personnage* — n'a aucune marche à descendre : elle est déjà en bas, parce qu'elle est morte en dessous du plancher d'arrivée. **Vingt-cinq ans de plateau, puis cinq ans de décroissance jusqu'à zéro : trente ans en tout, sous la règle A.** C'est exactement la durée du garçon arrivé à dix ans, avec au jardin les quinze années que l'autre passe dans l'escalier. *Et si ce dossier compte aussi parmi les meurtris, le plateau peut s'allonger encore, sans borne écrite — la décroissance, elle, ne se supprime pour personne.*
+
+*La formule « la vie entière est un palier », qui figurait ici, est fausse : il en manquait cinq ans par le bas.*
 
 ### Le piège à ne jamais tomber dedans
 
@@ -112,10 +175,14 @@ Lire une ligne : Andrew arrive à 62 ans, il met 57 ans à descendre jusqu'à ci
 
 Il y a **deux compteurs, et ils tournent en sens inverse** :
 
-- **L'âge**, qui descend : 62, 61, 60… jusqu'à cinq, et s'arrête là.
+- **L'âge**, qui descend : 62, 61, 60… jusqu'à cinq, **s'immobilise le temps du plateau, puis repart : quatre, trois, deux, un, zéro.**
 - **Le temps vécu**, qui monte : 1 an, 2 ans, 3 ans… et ne s'arrête jamais avant la fin.
 
-Il n'a jamais 69 ans. Personne n'a jamais 69 ans dans ce monde. Il *vit* 69 ans. Quand il s'éteint, son corps a cinq ans et son compteur de vie en affiche soixante-neuf.
+Il n'a jamais 69 ans. Personne n'a jamais 69 ans dans ce monde. Il *vit* 69 ans — et quelques années de plus, celles de la fin.
+
+**Et il ne meurt pas à cinq ans.** *C'est la formule que ce document portait, et elle était fausse.* Il atteint cinq ans, il y reste douze ans, puis il redescend. **Quand il disparaît, son corps n'a plus d'âge du tout** : le compteur des âges est à zéro, et celui du temps vécu affiche tout ce qu'il a vécu.
+
+Ne jamais écrire *« il s'éteint à cinq ans »*, ni *« son corps a cinq ans quand il meurt »*. Les deux compteurs finissent en même temps, l'un à zéro et l'autre au plus haut.
 
 Ne jamais confondre les deux. Presque toutes les erreurs d'arithmétique du dossier viennent de là.
 
@@ -139,9 +206,11 @@ C'est de la conjonction des deux que tout se déduit, et c'est ce qui donne au r
 
 ---
 
-*Ces chiffres sont à ajuster au feeling, comme tout le §7. **C'est la forme qui compte** : escalier plus palier, deux compteurs en sens inverse.*
+*Ces chiffres sont à ajuster au feeling, comme tout le §7. **C'est la forme qui compte** : escalier, palier, escalier — et deux compteurs en sens inverse.*
 
-*Et depuis la simplification, une troisième chose : **les durées de jardin ci-dessus sont les durées ordinaires**, celles du verdict réparable. La grâce ne les remplace pas, elle s'y ajoute.*
+*Et depuis la simplification, une deuxième chose : **les durées de jardin ci-dessus sont les durées ordinaires du plateau**, celles du verdict réparable. La grâce ne les remplace pas, elle s'y ajoute.*
+
+*Et depuis la correction majeure, une troisième : **la décroissance finale n'est chiffrée nulle part**, et elle ne doit pas l'être ici. Toute ligne qui la comblerait au jugé serait une invention.*
 
 ---
 
@@ -201,7 +270,7 @@ L'ancien calendrier faisait porter la prémisse par les corps du casting — lui
 |---|---|
 | **Les cérémonies** | des capsules qui s'ouvrent sur des vieillards, semaine après semaine, comme une routine de service. Le fait de monde se répète devant lui au lieu de s'expliquer |
 | **Les vétérans qui ont l'air d'avoir vingt ans** | un homme arrivé il y a quarante ans, qui parle comme un ancien, à qui l'on donnerait vingt ans, et que personne ne trouve étrange |
-| **Un vieillard de cinq ans au jardin** | le bout de la course, montré une fois, sans un mot de commentaire |
+| **Un vieillard de cinq ans au jardin** | le palier, montré une fois, sans un mot de commentaire. *Ce n'est pas « le bout de la course » — la formule était fausse : il en repartira* |
 | **Le suivi médical** | le relevé à l'instrument, la ligne au registre, la mesure d'un corps qui recule — le rajeunissement comme écriture administrative |
 
 **Aucun personnage n'a besoin de changer pour que le lecteur comprenne.** Le monde entier est plein de gens qui descendent ; il suffit de les regarder. Et c'est plus sûr : ce que le livre montre ainsi, il le montre au présent, sans jamais demander au lecteur de tenir un calendrier dans sa tête.
@@ -248,6 +317,12 @@ C'est exactement le temps qu'il met à descendre de dix ans à cinq : cinq march
 | **Saut : quinze ans** | — | — |
 | **Épilogue — l'entrée au jardin** | **5 ans** | **37 ans** |
 
+> **L'épilogue est une entrée, pas une fin, et le mot compte.**
+>
+> Il lui reste ensuite **quinze ans de plateau**, puis **la décroissance jusqu'à zéro**. Le livre se ferme sur un enfant qui franchit un seuil, pas sur un enfant qui s'arrête. *Aucune formulation du plan ne doit faire de son entrée au jardin le terme de sa vie.*
+>
+> **Ce que ça change à la scène :** rien de ce qui s'y passe, tout de ce qu'elle signifie. La perte est réelle — il perd les mots, et le livre perd son témoin — mais elle n'est pas une mort. Ce qu'on lui retire est la langue, pas le temps. **Il en a encore beaucoup, et personne ne le regardera plus.**
+
 **C'est le seul saut de temps du livre, et le seul endroit où le rajeunissement se lit sur les protagonistes.** Andrew a perdu quinze ans d'âge dans une page blanche ; le garçon a perdu cinq ans et tout son langage. La prémisse, qui se montrait par le monde pendant tout le roman, se montre une dernière fois sur les deux corps qu'on connaît — et une fois suffit, parce qu'elle arrive après.
 
 ### Eliott a été assassiné dans la vie d'avant
@@ -293,21 +368,34 @@ Le témoin livre son témoignage à la seconde exacte où il cesse de pouvoir en
 |---|---|
 | Arrive à | 62 ans — son âge de mort, comme tout le monde |
 | Descente | 57 ans |
-| Jardin | 12 ans, ordinaire |
-| **Vit en tout** | **69 ans** |
+| Plateau au jardin | 12 ans, ordinaire |
+| Décroissance | **non fixée** |
+| **Vit en tout** | **69 ans, plus la fin** |
 | Âge au début du roman | 52 ans — il est ici depuis dix ans |
 | Âge à la dernière page du corps du roman | **52 ans**, inchangé |
 | Âge à l'épilogue | 37 ans, quinze ans plus tard |
-| Atteint le jardin | 57 ans après son arrivée, soit très longtemps après l'épilogue |
-| S'éteint | 69 ans après son arrivée |
+| Entre au jardin | 57 ans après son arrivée, soit très longtemps après l'épilogue |
+| En repart | 69 ans après son arrivée |
+| Disparaît | quand son âge atteint zéro — **date non fixée** |
 
-Le corps du livre prend quelques semaines, ou quelques mois, dans une vie qui compte soixante-neuf ans, et l'épilogue lui-même s'arrête à un moment sans importance particulière pour le décompte.
+*La ligne « S'éteint — 69 ans après son arrivée » a été corrigée : à soixante-neuf ans de vie, il ne s'éteint pas, **il quitte le plateau et recommence à descendre.***
 
-**À la dernière page, il a encore les trois quarts de sa vie devant lui.** Il n'est nulle part près de la fin, aucune échéance ne se rapproche, aucun compte ne se solde. **Rien ne se referme** — et c'est voulu.
+Le corps du livre prend quelques semaines, ou quelques mois, dans une vie qui compte soixante-neuf ans et davantage, et l'épilogue lui-même s'arrête à un moment sans importance particulière pour le décompte.
+
+**À la dernière page, il a encore les trois quarts de sa vie devant lui.** Il n'est nulle part près de la fin, aucune échéance ne se rapproche, aucun compte ne se solde. **Rien ne se referme** — et c'est voulu. *La correction majeure ne fait qu'accentuer ce point : il en a même un peu plus que ce qu'on croyait, et la fin est encore plus loin.*
 
 ---
 
 ## À trancher
+
+**Le troisième temps — questions posées, aucune n'est tranchée ici.**
+
+- [ ] **La vitesse de la décroissance finale.** La même que la descente, ou plus rapide ? L'exemple de l'autrice donne cinq marches en cinq ans à un jeune arrivant, qui descendrait normalement en quinze : **il y a peut-être là une seconde vitesse, et elle n'est pas énoncée.**
+- [ ] **Plateau et décroissance : liés ou indépendants ?** Un plateau allongé traîne-t-il une fin allongée derrière lui ?
+- [ ] **Les totaux du tableau incluent-ils la décroissance ?** 69, 70 et 30 ans ont été calculés sans elle. Il faut dire si elle est dedans ou en plus — c'est la seule question du lot qui touche des chiffres déjà écrits.
+- [ ] **Les berceurs accompagnent-ils cette dernière phase ?** Le métier était *« accompagner ceux qui sont au jardin jusqu'au dernier jour »*, et le dernier jour n'est plus au jardin.
+- [ ] **Le livre montre-t-il une fin, ou est-ce entièrement hors champ ?** Aucun personnage du casting n'y arrive pendant le roman ni à l'épilogue : la question est libre, et elle engage le registre du livre.
+- [ ] **Le dessin du graphe.** Trois segments par courbe, toutes finissant sur l'axe. **À faire ailleurs**, et la troisième pente reste en pointillé tant qu'elle n'est pas arrêtée.
 
 - [ ] **Semaines ou mois ?** La fourchette est posée, le chiffre non. Il dépend du déroulé de l'enquête : combien de temps l'affaire reste ouverte, combien de temps on la lui laisse, combien de temps il désobéit. **À l'autrice, et rien ne s'écrit avant.**
 - [ ] **Combien de temps s'écoule entre l'enlèvement et le moment où Eliott est retrouvé vivant ?** C'est le vrai compteur du livre, et il doit rester dans le délai où l'on espère encore.

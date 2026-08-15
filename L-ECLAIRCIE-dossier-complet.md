@@ -6,6 +6,8 @@
 
 > **L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.**
 
+*Corrections appliquées le 15 août 2026 : §6, §4, §7, §8, §9, §10 (chuchoteurs), §11, §12, §15. **D'autres corrections restent en attente de validation** — voir [`01-dossier/recapitulatif-pour-validation.md`](01-dossier/recapitulatif-pour-validation.md).*
+
 ---
 
 # SOMMAIRE
@@ -73,7 +75,9 @@ On ne naît pas bébé. **On naît à un âge**, et cet âge est l'âge réel �
 
 Puis **on rajeunit**. Les anniversaires se comptent à rebours.
 
-Tout se renverse physiologiquement : la vigueur, la force, les capacités cognitives, la ménopause. La condition physique à l'envers.
+Tout se renverse physiologiquement : la vigueur, la force, les capacités cognitives, la vue, l'audition, les dents, les articulations, la densité des os, les cheveux. La condition physique à l'envers.
+
+*Aucun marqueur de fertilité n'entre dans la liste : tout le monde est stérile, il n'y a rien là à renverser.*
 
 L'arrivant sort **vide**. Il ne sait pas qui il est, ne parle pas, ne sait rien. Son corps est celui d'un vieillard mais son esprit est celui d'un nourrisson : il faut tout lui apprendre.
 
@@ -115,7 +119,7 @@ La cérémonie a lieu **avant** l'ouverture, pour porter chance. L'âge n'est pa
 
 | Ce qu'on reçoit | Ce que la société en pense |
 |---|---|
-| Naître vieux (80-95) | Le classique, l'honorable — *« Jeanette, presque 98 ans, whouaaa ! »* |
+| Naître vieux (80-95) | Le classique, l'honorable — *« Quatre-vingt-quinze ans, au moins ! Vous avez vu ça ? »* |
 | Naître jeune | Un lot de consolation. Chance inexpliquée. Jalousie, tabou, malaise |
 | Ne pas naître | La condamnation suprême |
 
@@ -132,9 +136,19 @@ L'âge d'arrivée détermine la durée de vie, **mais pas au ratio 1:1**. Plus o
 
 ### Le palier
 
-**On ne descend jamais jusqu'à zéro.** L'âge s'arrête à **5 ans** — l'âge optimal de l'insouciance — et ne bouge plus. Le temps restant se vit à cet âge-là, sans changer.
+L'âge descend jusqu'à **5 ans** — l'âge optimal de l'insouciance — **et s'y arrête un temps.** Le palier est un plateau : l'âge ne varie plus, les années passent. Sa durée change d'un dossier à l'autre.
 
-**5 ans est le plancher aux deux bouts :** personne ne descend en dessous, et personne n'arrive en dessous.
+**Puis l'âge repart vers le bas.** Quatre, trois, deux, un. **On meurt à zéro.**
+
+**Une vie a donc trois temps :**
+
+1. **La descente** — de l'âge d'arrivée jusqu'à cinq ans, à la vitesse du barème.
+2. **Le palier** — le plateau à cinq ans, qui dure des années.
+3. **La fin** — l'âge redescend en dessous de cinq et s'éteint à zéro.
+
+**5 ans est le plancher d'arrivée :** personne n'arrive en dessous. **Ce n'est pas un plancher de descente** — c'est un palier, pas un terminus.
+
+> **Exemple de l'autrice.** Une arrivée à cinq ans avec trente ans de vie devant elle : **vingt-cinq ans passés à cinq ans, puis cinq ans à décroître vers zéro.**
 
 | Arrivé à | Vit environ | Dont palier |
 |---|---|---|
@@ -145,6 +159,8 @@ L'âge d'arrivée détermine la durée de vie, **mais pas au ratio 1:1**. Plus o
 | 10 ans | 30 ans | ~15 ans |
 | 5 ans | ~25 ans | tout |
 
+*La colonne « dont palier » désigne le **plateau** — les années passées à cinq ans sans bouger. La décroissance finale, en dessous de cinq, s'y ajoute ou s'y compte selon ce que l'autrice décidera : la question n'est pas tranchée et aucun chiffre du tableau n'a été retouché.*
+
 *Les chiffres exacts sont à ajuster au feeling. Ce qui compte est la forme : la durée monte avec l'âge d'arrivée, mais moins vite que l'âge lui-même. Naître vieux donne plus de temps ; naître jeune donne un temps de meilleure qualité.*
 
 **Le chiffre est un plafond, pas une garantie.** Accidents et maladies existent. On peut ne jamais atteindre son palier — comme, chez nous, on peut ne pas atteindre la retraite.
@@ -153,10 +169,10 @@ L'âge d'arrivée détermine la durée de vie, **mais pas au ratio 1:1**. Plus o
 
 - Naître jeune, c'est **ne jamais devenir adulte** : pas de travail, pas de premiers émois, pas de soucis.
 - Naître vieux, c'est avoir **tout l'escalier** : dépendance, autonomie, travail, maladies — puis l'enfance, puis le palier.
-- **On ne perd pas son innocence : on la regagne, et on disparaît dedans.**
+- **On ne perd pas son innocence : on la regagne, et on disparaît dedans.** *La phrase — reprise au §16 — est littérale, et c'est le cœur de l'image : passé le palier, on descend en dessous de l'enfance, on rétrécit, et on s'éteint dans l'insouciance même.*
 - **On ne peut fauter que dans la première moitié de sa vie.** Après, on est moralement inatteignable.
 - **Les mourants sont ceux qui ne peuvent plus témoigner.** La mémoire s'allège en descendant ; les années hautes deviennent floues, sans être impossibles.
-- Un enfant mort très jeune chez nous arrive au plancher : **sa vie entière est un palier.** Vingt-cinq ans d'insouciance intégrale. Il ne saura jamais qu'il a été autre chose. C'est la grâce maximale que le système sache accorder.
+- Un enfant mort très jeune chez nous arrive au plancher : **il n'a aucune marche à descendre, il entre directement au palier.** Il y stagne vingt-cinq ans, puis décroît jusqu'à zéro comme tout le monde. Il ne saura jamais qu'il a été autre chose. C'est la grâce maximale que le système sache accorder.
 
 ---
 
@@ -174,7 +190,15 @@ On nettoie. Ça révulse. On conclut à une capsule défaillante et on passe à 
 >
 > **La reconnaissance est une grâce.** La seule que l'univers autorise. Et elle n'est pas entre les mains d'un dieu : elle est entre les mains d'un type qui tient une raclette.
 >
-> *Quand un veilleur comprend, est-ce un acte de pitié ou un crime contre l'ordre du monde ?*
+> *Ce qu'un veilleur atteint n'est pas une conclusion : c'est **un constat sans mots**. Il voit que quelque chose tient les comptes. Il ne le dit pas, ne le théorise pas, ne le nomme pas — et la question reste entière : pitié, ou crime contre l'ordre du monde ?*
+
+### Consigne d'écriture — la scène doit dégoûter avant de poser une question
+
+> *« La description d'une capsule sans éclaircie doit être assez révulsante pour qu'ensuite, quand on réalise que c'était un humain, le spectateur se dise : mais bien fait pour sa gueule à ce connard. »*
+
+La scène de nettoyage se joue **sans une once de compassion** : l'odeur, la matière, le dégoût, et rien d'autre. Aucune phrase ne doit ménager par avance ce qu'on apprendra plus tard.
+
+**Le lecteur doit éprouver la satisfaction de la punition avant d'avoir à la juger.** C'est ce qui rend la question morale du livre vivante au lieu d'être abstraite : quand elle se pose, il l'a déjà ressentie dans le corps, et il doit faire quelque chose de ce qu'il a ressenti.
 
 **Et elles se multiplient depuis quelques années.** Personne ne sait pourquoi. C'est le moteur de l'intrigue.
 
@@ -184,13 +208,26 @@ On nettoie. Ça révulse. On conclut à une capsule défaillante et on passe à 
 
 Niveau technique et géographie : similaires aux nôtres. Politique en place, représentants plutôt jeunes ; les plus vieux s'entourent de **chuchoteurs**, de jeunes bras droits.
 
+**Les chuchoteurs ne sont pas propres au pouvoir politique.** Il y en a dans n'importe quel domaine, dès lors qu'un vieil arrivant est aux commandes : entreprise, service, atelier, administration. **Ce sont des formateurs de terrain, en quelque sorte** — ils ne donnent pas de cours, ils soufflent ce qu'il faut savoir, à mesure et à voix basse.
+
 ### L'école
 
 Obligatoire en début de vie, quel que soit l'âge d'arrivée.
 
 - Les vieux apprennent mal au début — cerveau âgé, pas une éponge — puis de mieux en mieux à mesure qu'ils rajeunissent.
 - Les 60-30 ans suivent des cours accélérés, des formations, des cours du soir après le travail.
-- **Les formateurs sont toujours plus jeunes que leurs apprenants.** On apprend à un homme de 80 ans à tenir un couteau, à se servir d'un économe, à comprendre que le feu ça brûle. *(Satire assumée des vieux de notre monde qui croient avoir tout vu.)*
+- **Les formateurs sont toujours plus jeunes que leurs apprenants.** *(Satire assumée des vieux de notre monde qui croient avoir tout vu.)*
+
+**Les premières leçons ne portent jamais sur le cœur du métier.** Elles portent sur **ce qu'il implique et que tout le monde est censé savoir** — les choses qu'un enfant apprend en premier, et qu'un arrivant de quatre-vingts ans ignore.
+
+| Métier | Ce qu'il faut d'abord apprendre |
+|---|---|
+| Cuisinier | un couteau coupe, le feu brûle |
+| Pêcheur | un poisson est un être vivant |
+| Agent immobilier | une maison est un endroit qu'on construit avec des murs, des fenêtres, une porte et un toit, et on habite dedans |
+| Banquier | l'argent sert à acheter des choses, et un plus un font deux |
+
+*Piste : ça ouvre des situations cocasses. Un veilleur en poste qui ignore comment un objet s'utilise, et un tuteur plus jeune que lui qui le lui apprend sans que personne trouve la scène remarquable.*
 
 ### Pourquoi on tolère les arrivants jeunes
 
@@ -224,7 +261,7 @@ Les autres espèces auraient elles aussi leur Archiviste. On en parle. On n'en s
 | **Veilleurs** | Surveillent les capsules, lisent l'éclaircie, tiennent la cérémonie, enregistrent — et nettoient les capsules sans éclaircie |
 | **Tuteurs** | Élèvent et instruisent les arrivants âgés, dépendants et ignorants. *Celui qui instruit, et le piquet qui tient debout ce qui ne tient pas seul* |
 | **Berceurs / Berceuses** | Accompagnent ceux qui sont au palier, jusqu'au dernier jour |
-| **Chuchoteurs** | Jeunes bras droits des vieux au pouvoir |
+| **Chuchoteurs** | Jeunes bras droits des vieux aux commandes, dans n'importe quel domaine. Des formateurs de terrain, en quelque sorte |
 | **Voilés** | Ceux qui gardent des reliquats d'avant. Leur capsule n'a jamais complètement éclairci. Passent pour fous |
 
 *Piste non tranchée : « l'Étale » pour nommer le palier — le moment où la marée ne monte plus et ne descend pas encore.*
@@ -242,7 +279,7 @@ Notre monde est le précédent. Les âges d'arrivée y répondent.
 - Torts irréparables → capsule sans éclaircie.
 - **Le karma ne frappe pas deux fois** : si la sanction a déjà eu lieu de l'autre côté, elle n'est pas rejouée. L'agresseur mort d'un accident a déjà payé.
 - **Pas de régularité.** Un agresseur ne meurt pas systématiquement en même temps que sa victime. Les coïncidences sont des anomalies, pas des lois.
-- Le cycle tourne dans les deux sens et rééquilibre en permanence : un pauvre ici devient riche là-bas ; s'il fait des dégâts réparables il renaît lambda. Rien ne se règle définitivement — ça se compense, ça repasse, ça recommence.
+- Le cycle tourne dans les deux sens et rééquilibre en permanence — **mais jamais en matériel.** Ni biens, ni argent, ni statut, ni revanche : la seule monnaie du système est **le temps et sa qualité**. Un pauvre ne devient pas riche de l'autre côté ; ce monde a ses inégalités comme le nôtre, et elles ne traduisent rien. Ce qui se compense se compense en années et en qualité d'années. Rien ne se règle définitivement — ça se compense, ça repasse, ça recommence.
 
 ### Le reliquat n'est pas un défaut : c'est la forme du pardon
 
@@ -262,19 +299,25 @@ L'Archiviste, qui ne parle jamais et ne console personne, a quand même fait que
 
 # 12. LES PERSONNAGES
 
-## Le veilleur — protagoniste
+## Andrew — le veilleur, protagoniste
 
-Vétéran du métier. Il lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. Personne ne sait qu'il est voilé. **Lui non plus, au début.**
+**Il s'appelle Andrew.** Dans la vie d'avant, il s'appelait **Joël**.
 
-**Dans la vie d'avant : enquêteur.** Il a supervisé l'affaire des jumelles. Il ne l'a pas résolue — on lui a dit d'arrêter de creuser, et il a obéi.
+**Ni débutant, ni vétéran :** dix ans dans ce monde, cinquante-deux ans au début du roman, plusieurs années de service. Assez pour tenir une cérémonie sans y penser, pas assez pour avoir vu changer quoi que ce soit.
+
+Il lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. Personne ne sait qu'il est voilé. **Lui non plus, au début.**
+
+**Dans la vie d'avant : enquêteur.** Il a supervisé l'affaire des jumelles. **Il l'a résolue — trop tard d'une heure.** Sa faute n'est pas d'avoir échoué : on lui a dit d'arrêter de creuser, et il a obéi. Des semaines perdues. Quand ils ont trouvé la planque, les filles étaient mortes depuis moins d'une heure. Il s'est alors lancé seul à la poursuite de l'assassin, et il est mort avec lui.
 
 > **Le reliquat n'est pas un souvenir, c'est une vocation.** On ne se rappelle pas ce qu'on a été : on y retourne. Il est devenu veilleur — le métier qui regarde et qui note — sans que personne ne l'oriente.
 
 Cette idée fournit une seconde forme de preuve, disséminée dans tout le livre et jamais réfutable : la cuisinière qui cuisine, la femme qui materne un arrivant qui n'est pas le sien, l'homme de 80 ans qui sait tenir un couteau avant qu'on le lui apprenne. Personne ne le remarque, parce que personne n'a de vie antérieure à comparer.
 
-*Reste à trouver : son nom, sa manie, sa honte quotidienne.*
+*Reste à trouver : sa manie, sa honte quotidienne.*
 
-## Elle — l'arrivante
+## Erin — l'arrivante
+
+> **Section suspendue pour l'instant.** L'histoire d'amour n'est pas supprimée, elle est mise de côté : rien de ce qui suit n'est abandonné, tout reste récupérable.
 
 Elle sort d'une capsule et quelque chose se réveille en lui. Pas un souvenir : un vertige. Une reconnaissance sans objet.
 
@@ -286,20 +329,22 @@ Puis elle continuera — adolescente, enfant, palier — et elle ne saura jamais
 
 **Il tombe amoureux d'elle sans comprendre pourquoi il l'aime.** L'amour qui se retrouve par-delà les mondes, sans jamais pouvoir se dire.
 
-## Le garçon — arrivé à 10 ans
+## Eliott — le garçon, arrivé à 10 ans
 
 Voilé lui aussi. Insouciant, entouré de tuteurs jaloux de sa condition. Il dit des choses impossibles ; tout le monde le prend pour un fabulateur.
 
 Il porte l'attention du lecteur, qui croit tenir là l'anomalie du livre.
 **L'anomalie était le narrateur.**
 
-## Les jumelles
+## Chrissy et Tania — les jumelles
 
 Deux arrivantes, même jour, même âge. La signature qui débloque tout. Elles ne savent rien, ne sauront jamais rien, et continuent de rajeunir.
 
+**Chrissy et Tania sont leurs noms d'éclaircie** — ceux de ce monde-ci, reçus à leur arrivée. **Leurs prénoms d'avant ne sont jamais donnés**, ni au lecteur, ni à lui. C'est important : il ira leur demander pardon avec des noms qu'elles n'avaient pas quand il a échoué.
+
 ## Ce qu'on ne voit jamais
 
-L'assassin des jumelles, mort le jour de son crime. Sa capsule s'est formée aussitôt, à côté des leurs. **Elle n'a jamais éclairci.** Quelqu'un l'a raclée, un matin, et est rentré chez lui sans y penser.
+L'assassin des jumelles, **mort dans la poursuite, en même temps que Joël.** Sa capsule s'est formée aussitôt, à côté des leurs. **Elle n'a jamais éclairci.** Quelqu'un l'a raclée, un matin, et est rentré chez lui sans y penser.
 
 ---
 
@@ -394,8 +439,8 @@ L'assassin des jumelles, mort le jour de son crime. Sa capsule s'est formée aus
 
 # 15. CE QUI RESTE À TROUVER
 
-- [ ] Le nom du veilleur, sa manie, sa honte
-- [ ] Le nom d'elle, du garçon, des jumelles
+- [ ] La manie du veilleur, sa honte *(son nom est tranché : **Andrew** — **Joël** dans la vie d'avant)*
+- [x] ~~Le nom d'elle, du garçon, des jumelles~~ — **Erin**, **Eliott**, **Chrissy et Tania**. Voir §12
 - [ ] Faut-il retenir « l'Étale » pour nommer le palier ?
 - [ ] **Qui croit quoi ?** Dogme officiel de l'Éclaircie, hérésie concurrente, un veilleur avec une théorie que personne ne veut entendre
 - [ ] Ce que fait un veilleur quand il n'y a pas de naissance

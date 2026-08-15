@@ -16,8 +16,8 @@
 | **Dans l'intrigue** | il est enlevé. Il sera retrouvé vivant |
 | **Dans la vie d'avant** | **il a été assassiné.** Une capsule pourrie est apparue le jour de son arrivée — celle de son meurtrier. Personne ne l'a remarqué. Voir §9 |
 | **Âge pendant le livre** | **dix ans du début à la fin.** Le corps du roman ne dure que quelques semaines, peut-être quelques mois |
-| **Décompte** | 15 ans de descente, puis 15 ans au jardin |
-| **À l'épilogue** | **cinq ans.** Il entre au jardin quinze ans après le corps du roman ; Andrew a alors 37 ans. Voir §10 |
+| **Décompte** | 15 ans de descente, puis 15 ans de **plateau** au jardin, **puis la décroissance jusqu'à zéro — non chiffrée** |
+| **À l'épilogue** | **cinq ans.** Il **entre** au jardin quinze ans après le corps du roman ; Andrew a alors 37 ans. **C'est une entrée, pas une fin : il lui reste le plateau, puis la décroissance.** Voir §10 |
 
 ---
 
@@ -129,7 +129,15 @@ Andrew se rend ensuite à la gendarmerie, où il retrouve [Isaac](isaac.md) : sa
 
 ## 7. Son décompte
 
-Arrivé à dix ans, il descend d'un an tous les trois ans : **environ quinze ans de descente, puis quinze ans au jardin.** Trente ans en tout. Détail et place dans le livre : [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+Arrivé à dix ans, il descend d'un an tous les trois ans : **environ quinze ans de descente, puis quinze ans de plateau au jardin.** Détail et place dans le livre : [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+
+> **⚠️ Correction majeure du 15 août 2026 — il y a un troisième temps.**
+>
+> Cette fiche disait *« trente ans en tout »*, et elle comptait deux temps : la descente et le jardin. **Il y en a trois.** Après le plateau, **l'âge repart vers le bas — quatre, trois, deux, un — et on meurt à zéro.** Voir [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), « La correction majeure ».
+>
+> **Sa durée et sa vitesse ne sont pas fixées**, et rien n'est inventé ici. *Reste aussi à trancher si les trente ans comprenaient déjà cette phase ou s'ajoutent à elle — question posée dans [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).*
+>
+> **Ce que ça ne change pas :** le calendrier du livre repose entièrement sur ses quinze ans de descente, et rien d'autre. L'épilogue tombe à son entrée au jardin. **Le troisième temps est très loin derrière la dernière page**, et aucun chapitre n'a à en tenir compte.
 
 > **Révision du 15 août 2026.** **Il n'est plus l'horloge du corps du roman.** Le livre ne dure plus douze ans mais quelques semaines, peut-être quelques mois : il a **dix ans à la première page et dix ans à la dernière**, sa première marche tombe trois ans après. Il n'a plus rien à mesurer, puisque plus rien ne dure.
 
@@ -151,6 +159,14 @@ La question posée ici était : l'enlèvement et l'entrée au jardin coexistent-
 | **L'entrée au jardin** | **l'épilogue**, quinze ans plus tard | la perte qu'on ne peut pas contester. Aucun coupable, rien à poursuivre, personne à qui en vouloir |
 
 **Deux fois la même perte, la seconde irréparable et sans personne à poursuivre.** On lui rend l'enfant ; puis, longtemps après, le monde le reprend sans faute de personne.
+
+> **⚠️ Précision qui devient nécessaire depuis la correction du 15 août 2026 : ce n'est pas sa mort.**
+>
+> Entrer au jardin, ce n'est pas s'arrêter. C'est atteindre le palier — et **il lui reste ensuite quinze ans de plateau, puis la décroissance jusqu'à zéro.** Sa vie est loin d'être finie quand le livre l'est.
+>
+> **Ce qu'il perd à l'épilogue, ce sont les mots, pas le temps.** La perte est entière et elle est vraie : il n'a plus la langue, plus personne à qui dire, et personne pour l'écouter. Mais **le lecteur ne doit pas refermer le livre en croyant qu'il vient de mourir.**
+>
+> *Toute formulation du plan ou des fiches qui ferait de son entrée au jardin une fin de vie est à corriger. Il entre quelque part ; il ne s'éteint pas.*
 
 **Ce qui change par rapport à l'ancien découpage, et c'est important :** son entrée au jardin ne prive plus Andrew de sa source au milieu du livre, et **elle ne déclenche donc plus le retournement du mouvement 18.** Pendant le roman, c'est **l'enlèvement** qui retire la source à Andrew — et les fragments continuent sans lui, ce qui commence à défaire la théorie du garçon ([`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §4.2). *Le ressort du mouvement 18 est à revoir dans le plan, pas ici.*
 
@@ -180,7 +196,9 @@ Ce que ça produit, et le détail complet est dans [`../04-plan/le-meme-jour.md`
 
 > **Décision de l'autrice, 15 août 2026.** *« Il pourrait presque nous en apporter des détails glaçants à la fin de l'histoire, avant de rentrer au jardin. Tout est déjà révélé au lecteur, et on achève son arc en expliquant rapidement ce qui lui est arrivé, dans un dialogue par exemple. »*
 
-**Quinze ans après le corps du roman.** Il a cinq ans, il va entrer au jardin, et **il raconte** — des détails glaçants sur ce qui lui est arrivé de l'autre côté. Un dialogue court, quelques répliques, puis il s'en va.
+**Quinze ans après le corps du roman.** Il a cinq ans, il va **entrer** au jardin, et **il raconte** — des détails glaçants sur ce qui lui est arrivé de l'autre côté. Un dialogue court, quelques répliques, puis il s'en va.
+
+*Il s'en va vers quelque chose, et non hors du monde : le plateau l'attend, et la décroissance après. **La scène est un adieu, pas une agonie**, et c'est le seul point que la correction du 15 août 2026 impose de tenir en l'écrivant.*
 
 ### L'effet, et il tient en une phrase
 
@@ -217,6 +235,8 @@ Le témoin livre son témoignage à la seconde exacte où il cesse de pouvoir en
 - [ ] **Que dit-il exactement pendant les visites ?** La règle est fixée — banal, local, invérifiable (§5) —, les phrases non.
 - [ ] **Que dit-il exactement à l'épilogue ?** Les contraintes sont fixées (§10), les détails non. Combien de phrases, et jusqu'où elles vont — trois suffisent probablement, et le risque est la surenchère.
 - [ ] **Qui est présent à l'épilogue ?** Andrew seul, ou June aussi, qui est sa berceuse et devrait y être. Un troisième témoin qui n'entend qu'un enfant raconter n'importe quoi change la scène.
+- [ ] **June l'accompagne-t-elle au-delà du plateau ?** Le métier de berceur est défini comme *accompagner ceux qui sont au jardin jusqu'au dernier jour* — **et le dernier jour est maintenant en dessous de cinq ans.** Suit-elle jusqu'à zéro, quelqu'un prend-il le relais, ou personne ? **La définition du métier est à reprendre**, et c'est une question de monde avant d'être une question de fiche.
+- [ ] **Le troisième temps d'Eliott : durée et vitesse.** Non fixées. Sans effet sur le livre, qui s'arrête à son entrée au jardin, mais le dossier ne doit pas les inventer. *À l'autrice.*
 - [ ] **Combien de temps dure son enlèvement ?** C'est le compteur du livre. Il doit rester dans le délai où l'on espère encore — voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
 - [ ] **La rime des trois affaires est-elle soulignée ?** Eliott, la paire, Andrew : trois fois une arrivée et une capsule pourrie le même jour. Une rime voulue est une force, mais trois occurrences risquent de faire paraître le système mécanique. **Non tranché** — voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §8.3.
 
