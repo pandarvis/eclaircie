@@ -12,6 +12,7 @@
 | **Ici** | **Chrissy** et **Tania**. Une **paire** — deux capsules voisines, ouvertes le même jour, deux arrivantes identiques |
 | **Vie d'avant** | deux sœurs jumelles, enlevées et tuées par le même homme. **Sans nom dans tout le livre** |
 | **Âge** | **mortes à dix-huit ans, arrivées à dix-huit ans.** Tranché par l'autrice, 15 août 2026 |
+| **Âge pendant le livre** | **une quinzaine d'années.** Arrivées il y a dix ans, trois marches perdues — voir §2 ter. Le chiffre ne figure jamais dans le texte |
 | **Entrée au registre** | **meurtries**. La grâce qui leur revient ne prend pas la forme d'un chiffre plus bas mais d'un **plateau allongé au jardin** — voir [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) |
 | **Nomination** | **elles-mêmes.** À dix-huit ans, très au-dessus du seuil — qui est à huit ans et en dessous —, elles ont produit leurs deux prénoms |
 | **Décompte** | **une trentaine d'années de descente** — dix marches, de dix-huit à huit, à la vitesse lente des jeunes arrivantes |
@@ -85,6 +86,111 @@ La question qui figurait ici — *ont-elles huit ans ?* — est close, et elle l
 
 ---
 
+## 2 ter. Elles ont une quinzaine d'années pendant le livre — et le lecteur ne doit pas pouvoir compter
+
+> **Constat de l'autrice, 16 août 2026.** *« Il va falloir réussir à expliquer que le ratio de rajeunissement n'est pas 1:1, sinon le lecteur ne comprend pas qu'elles ont quinze. »*
+
+**Le chiffre est acquis, et il sort du barème.** Elles sont arrivées à dix-huit ans le jour où Andrew est arrivé, c'est-à-dire **dix ans avant la première page**. À la vitesse lente des jeunes arrivantes — **une marche tous les trois ans environ** —, dix ans de vie leur ont coûté **trois marches**.
+
+> **Elles ont une quinzaine d'années pendant tout le livre.**
+
+Le livre tenant sur quelques semaines, ce chiffre ne bouge pas d'une page à l'autre. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+
+### Le problème, et il est entièrement du côté du lecteur
+
+**Le lecteur, lui, calculera 1:1.** Dix-huit moins dix font huit, et huit est un chiffre qu'il connaît déjà — c'est le jardin, c'est le point de convergence, c'est le nombre que tout le livre répète. Le calcul faux est donc plus facile à faire que le vrai, et il tombe sur une valeur qui a l'air juste.
+
+**Il croira prendre l'autrice en défaut**, et c'est le pire des accidents : pas une incompréhension, une accusation d'erreur.
+
+### Le diagnostic — il faut trois informations pour se tromper
+
+**C'est le point à tenir, et il rend le problème beaucoup plus petit qu'il n'en a l'air.**
+
+Le lecteur ne peut faire la soustraction que s'il tient **les trois choses à la fois** :
+
+| | Ce qu'il lui faut | D'où ça viendrait |
+|---|---|---|
+| **1** | elles sont **arrivées à dix-huit ans** | la ligne de registre du mouvement 16 |
+| **2** | c'était **il y a dix ans** | la même ligne, ou la date de la cérémonie groupée |
+| **3** | elles en ont **quinze** aujourd'hui | ce qu'Andrew voit d'elles au mouvement 23 |
+
+> **Retire-lui une des trois, et la contradiction disparaît. Il n'y a plus rien à soustraire.**
+
+### Et l'objectif n'est pas celui qu'on croit
+
+**L'interdit n° 3 du §14 ne demande pas que le lecteur calcule juste. Il demande qu'il ne puisse pas calculer du tout.**
+
+*« Pas de barème dans le texte. Si le lecteur peut calculer, il arrête d'avoir peur. »*
+
+Le but n'est donc **pas** qu'il trouve quinze. Le but est **qu'il ne se pose jamais la question.** Toute solution qui consisterait à lui donner de quoi refaire l'opération correctement — un taux, une règle, une équivalence énoncée — serait une défaite déguisée en correction.
+
+### Les quatre parades, de la plus économique à la plus lourde
+
+#### 1. Séparer les deux informations dans le livre — **et ça suffit presque à tout régler**
+
+**Le registre donne l'âge d'arrivée et la date. Leurs quinze ans, Andrew les voit avec ses yeux — ailleurs, et plus tard.**
+
+Ces deux moments n'ont **aucune raison d'être dans le même chapitre**. Le premier est un document, lu seul, dans une salle d'archives, au milieu d'une enquête. Le second est une porte qui s'ouvre sur deux adolescentes, un après-midi ordinaire, à la toute fin du livre. Entre les deux, il y a l'essentiel du roman.
+
+**Un lecteur ne garde pas un chiffre précis sur trente pages. Il garde une impression** — *deux filles arrivées ensemble, il y a longtemps, jeunes.* C'est exactement ce qu'on veut qu'il ait.
+
+> **C'est gratuit.** Ça ne demande pas une ligne de texte, pas une réplique, pas un personnage : seulement de ne pas rapprocher deux informations qui n'ont pas besoin de l'être.
+
+*Corollaire, et il est contraignant : ne jamais faire dire à personne, ni au narrateur, ni à Andrew, quelque chose comme « elles sont là depuis dix ans » dans la même scène que leur apparence. La date appartient au document, l'âge appartient au regard, et les deux ne se croisent pas.*
+
+#### 2. Planter le ratio une fois, très tôt, dans une bouche banale
+
+> **⚠️ Décision de l'autrice.** **La réplique doit venir d'une personne banale — pas d'un jaloux — et tomber tôt dans l'histoire.**
+
+Le modèle, à propos d'un tiers dont on ne reparlera jamais :
+
+> *« Lui, il est arrivé à douze. Ça fait une éternité qu'il est là. Il en a dix. »*
+
+Ou la formule que l'autrice a retenue, plus courte encore :
+
+> *« Ils mettent trois fois plus longtemps à descendre, en plus. »*
+
+**Ce que ça contient, et ce que ça ne contient pas :**
+
+| Il y a | Il n'y a pas |
+|---|---|
+| deux âges — celui d'arrivée, celui d'aujourd'hui | un chiffre de barème |
+| une durée vague — *une éternité* | une durée exacte |
+| quelqu'un que ça n'étonne pas | une règle énoncée, une explication, un « c'est parce que » |
+
+**C'est la méthode du §14 : une comparaison suffit.** Le dossier maître le pose déjà pour tout le reste du système — deux cérémonies, deux chiffres, deux ambiances, et le lecteur a compris sans qu'on lui ait rien dit. Ici c'est la même économie : **un cas, en passant, et le taux est installé.**
+
+**Et la bouche compte autant que la phrase.** Dans une bouche ordinaire, ça devient une évidence de comptoir — le genre de chose qu'on dit parce que tout le monde le sait. Dans une bouche jalouse, ça devient une revendication, donc un argument, donc quelque chose que le lecteur va soupeser au lieu de l'enregistrer.
+
+*Registre exact : celui du **salon**, premier étage de la gradation de [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) — **une phrase à table, un silence, on parle d'autre chose.** Elle ne se répète pas, elle n'appelle pas de réponse, et personne ne la relève. La réplique y est écrite en toutes lettres, section « La phrase qui installe le ratio ».*
+
+#### 3. Andrew ne calcule jamais — il sait
+
+**C'est son métier.** Il tient des registres, il assiste aux cérémonies, il relève des corps depuis dix ans. **Il sait à quoi ressemble une arrivée de dix-huit ans au bout de dix ans**, comme une infirmière sait à quoi ressemble une plaie au dixième jour : sans compter, sans hésiter, et sans pouvoir dire comment elle le sait.
+
+**Une demi-phrase suffit.** Le lecteur reçoit l'information **par l'expertise du personnage**, jamais par une règle — et l'expertise ne se conteste pas, elle s'observe.
+
+> **La contrainte, et elle est absolue : Andrew ne pose jamais l'opération.** Pas de « donc elles ont quinze », pas de calcul mental montré, pas une seconde d'arithmétique dans sa tête. **Un veilleur qui compterait serait un veilleur qui explique**, et le §14 l'interdit deux fois — au titre du barème et au titre du personnage.
+
+#### 4. En dernier recours seulement — le mépris
+
+**Le même barème, dans une bouche hostile.** *« Trois ans pour perdre un an, eux. Nous c'est un par an. »*
+
+Ça marche : l'information passe, et elle passe avec une charge. **Mais elle cesse d'être une explication pour devenir une plainte** — et une plainte se juge. Le lecteur ne l'enregistre plus comme une donnée du monde, il l'entend comme le grief d'un personnage qui a peut-être tort, dans un livre qui pose partout que ces gens-là se trompent.
+
+> **L'autrice préfère la solution 2, et c'est noté ici comme un choix, pas comme un défaut de la 4.**
+
+*Elle reste disponible si le climat en a besoin ailleurs — mais elle ne doit pas être le seul endroit où le lecteur peut apprendre le taux.*
+
+### Ce qu'il faut retenir
+
+- **Le chiffre est quinze**, il ne bouge pas, et il n'est jamais écrit dans le livre.
+- **La parade principale est structurelle** : le registre et le regard dans deux chapitres différents. Elle ne coûte rien et elle règle presque tout.
+- **La parade d'appoint est une réplique**, tôt, banale, sans chiffre de barème, dans une bouche que ça n'agace pas.
+- **Aucune des quatre ne consiste à expliquer le taux.** Le lecteur doit pouvoir arriver au mouvement 23 sans avoir rien à soustraire.
+
+---
+
 ## 3. Ce qu'elles ont reçu
 
 Elles sont des **meurtries**, et le barème de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md) leur doit quelque chose.
@@ -144,6 +250,30 @@ Ce ne sont pas non plus tout à fait les mêmes personnes : ce sont **celles qui
 
 *Et l'effet tient sans une ligne d'explication, parce que le livre a déjà tout posé : personne ici ne porte le nom qu'il avait avant (voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), « Qui nomme un arrivant »), et le lecteur l'a appris à propos d'Andrew des chapitres plus tôt.*
 
+### ⚠️ Elles ont presque exactement l'âge des corps qu'il a trouvés
+
+**C'est ce que le chiffre de quinze ajoute à la scène, et ça n'avait pas été vu tant que leur âge restait ouvert.**
+
+Elles sont mortes à dix-huit ans. Il les retrouve à **une quinzaine**. **Trois ans d'écart, rien de plus.**
+
+> **Ce ne sont pas d'autres personnes. Ce sont presque exactement celles qu'il a trouvées trop tard.**
+
+Il a dans ses reliquats deux corps de dix-huit ans sur un sol de planque, et il a devant lui deux filles qui leur ressemblent à trois ans près — le même visage, deux fois, un peu plus jeune, vivant, en train de faire quelque chose d'ordinaire un après-midi. **Il n'a pas à imaginer la ressemblance : elle est là, et elle est presque parfaite.**
+
+**Ce que ça règle, et il faut corriger toute formulation contraire de cette fiche et du plan :**
+
+| Ce qu'elles ne sont pas | Ce qu'elles sont |
+|---|---|
+| **deux enfants** — elles ne sont pas au jardin, elles n'y seront pas avant une vingtaine d'années | **deux adolescentes**, en pleine descente, à mi-chemin |
+| **deux petites** à qui l'on parle en se baissant | deux personnes qui répondent, qui comprennent, et qui pourraient très bien lui demander ce qu'il veut |
+| **deux femmes**, ni tout à fait ce qu'elles étaient | **presque l'âge d'avant**, et c'est là que ça fait mal |
+
+**Elles peuvent donc entendre ce qu'il dit, et c'est le pire réglage possible.** L'ancienne inquiétude — *si elles sont déjà au jardin, elles n'ont même plus les mots pour ne pas comprendre* — tombe : elles ont tous les mots. Elles écoutent un homme de cinquante-deux ans leur demander pardon pour quelque chose dont elles n'ont aucun souvenir, et elles sont parfaitement équipées pour trouver ça bizarre.
+
+> **Il n'obtient ni l'absolution, ni l'incompréhension d'un enfant. Il obtient de la politesse.**
+
+*À l'écriture : rien de tout cela ne se commente. La scène ne dit pas qu'elles ressemblent aux corps, ne compare pas, ne rappelle pas le chiffre. **Le lecteur, qui a vu la planque, voit deux visages et fait le rapprochement seul** — et c'est la seule chose que le livre attende de lui à ce moment-là.*
+
 ---
 
 ## 5. Leur place dans l'enquête
@@ -187,14 +317,15 @@ Elles ne font rien dans l'intrigue. **Elles sont une ligne de registre avant d'�
 *À poser, pas à trancher.*
 
 - [x] ~~**Leur âge d'arrivée.**~~ — **tranché le 15 août 2026 : dix-huit ans**, leur âge de mort. Voir §2 bis.
-- [ ] **Leur âge au moment où Andrew les retrouve.** Il dépend du calendrier du livre : à dix-huit ans d'arrivée, tout dépend du temps écoulé depuis la cérémonie groupée. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md). L'enjeu est concret : deux adolescentes, deux enfants ou deux petites au jardin ne produisent pas la même scène d'excuses — et si elles sont déjà au jardin, elles n'ont même plus les mots pour ne pas comprendre.
+- [x] ~~**Leur âge au moment où Andrew les retrouve.**~~ — **une quinzaine d'années.** Arrivées à dix-huit, il y a dix ans, à trois ans par marche. **Ce sont des adolescentes** — ni des enfants, ni des petites au jardin —, et elles ont tous les mots. Voir §2 ter et §4.
 - [x] ~~**Apparaissent-elles tôt dans le livre, ou seulement à la fin ?**~~ — **tranché le 15 août 2026 : tôt**, et ce n'est pas un choix de confort : **le dispositif en dépend.** Le lecteur doit pouvoir les reconnaître à la découverte des corps. Voir §5 bis, et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) section 1 bis.
 - [ ] **Sont-elles ensemble ?** Deux arrivantes du même jour ont-elles été prises en charge ensemble, ou séparées comme deux dossiers distincts ? Ce monde n'a aucune raison de les garder côte à côte : rien, dans sa langue, ne dit qu'elles vont ensemble.
 - [x] ~~**Qui les a nommées ?**~~ — **elles-mêmes.** Un nom d'éclaircie n'est pas attribué, il est **retrouvé** : le veilleur explique en une phrase ce qu'est un prénom, demande, l'arrivant répond, le veilleur inscrit. La seule exception est le seuil des huit ans, et elles sont arrivées à dix-huit. Voir §2 bis.
 - [x] ~~**Leur grâce prend-elle la forme d'un chiffre plus bas ?**~~ — **non : un plateau allongé au jardin.** Le détail relève de [`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md), pas de cette fiche.
 - [ ] **Combien de temps dure leur fin, et à quelle vitesse ?** Leur plateau est le plus long du livre ; **rien ne dit si leur fin l'est aussi.** Plateau et fin sont-ils liés, ou la seconde dure-t-elle le même temps pour tout le monde ? **Aucun chiffre n'est proposé ici.** *À l'autrice.*
 - [ ] **Le livre les montre-t-il descendre sous huit ans ?** Elles sont, avec Eliott, les seuls personnages dont la trajectoire va aussi loin dans le futur du monde. La question rejoint celle du registre général : **le troisième temps est-il entièrement hors champ ?**
-- [ ] **Leur âge à la scène des excuses.** Le livre tenant sur quelques semaines, leur âge y est fixe. Elles sont **en pleine descente** — quelque part entre dix-huit et huit —, et le chiffre reste à poser. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+- [x] ~~**Leur âge à la scène des excuses.**~~ — **une quinzaine**, et il est fixe puisque le livre tient sur quelques semaines. Elles sont **en pleine descente**, à trois ans de l'âge auquel elles sont mortes. Voir §2 ter, §4, et [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
+- [ ] **Où tombe exactement la réplique du ratio, et dans quelle bouche ?** Le principe est acquis — tôt, banale, sans chiffre de barème (§2 ter, parade 2) —, mais la scène qui la porte n'est pas choisie. *Au séquencier, et à l'autrice.*
 
 ---
 

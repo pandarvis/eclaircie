@@ -175,7 +175,7 @@ Une durée de vie, c'est donc **l'escalier, le palier, et la volée du bas**. Ja
 |---|---:|---:|---:|---:|
 | **Andrew — 62 ans** | **54 ans de descente** | **non fixé** | **non fixée, et indatable** | **ouvert** |
 | **Erin — 64 ans** | **56 ans de descente** | **non fixé** | **non fixée, et indatable** | **ouvert** |
-| **Chrissy et Tania — 18 ans** | **~30 ans de descente** | **allongé, non fixé, sans borne haute** | **non fixée** | **ouvert** |
+| **Chrissy et Tania — 18 ans** | **~30 ans de descente** — *arrivées il y a dix ans : elles en ont **quinze** pendant le livre* | **allongé, non fixé, sans borne haute** | **non fixée** | **ouvert** |
 | **Eliott — 10 ans** | **6 ans de descente** | **non fixé** | **non fixée** | **40 ans au moins** |
 | *Exemple — une arrivée à 5 ans* | **3 ans de croissance, à 1:1** | **non fixé** | **non fixée** | **40 ans au moins** |
 | *Exemple — une arrivée à 8 ans pile* | **rien : entrée directe au jardin** | **non fixé** | **non fixée** | **40 ans au moins** |
@@ -187,6 +187,10 @@ Une durée de vie, c'est donc **l'escalier, le palier, et la volée du bas**. Ja
 **Lire une ligne.** Andrew arrive à 62 ans ; il met 54 ans à descendre jusqu'à huit ; **puis il entre au jardin, et plus rien ne se calcule.** Même lecture pour Erin, à 64 ans : 56 ans de descente, puis le silence du tableau. Ce n'est pas une lacune du dossier — **c'est la règle A bis, et c'est ce que ces deux-là ont réellement devant eux.**
 
 **Chrissy et Tania sont mortes à 18 ans : elles arrivent à 18 ans.** Dix marches à descendre, à la vitesse lente des jeunes arrivantes — soit **une trentaine d'années de descente**. Puis un jardin **allongé**, bien au-delà de l'ordinaire, parce qu'elles sont des meurtries. Le supplément appartient à l'autrice ; il n'est pas fixé ici, et **rien, dans le monde, ne permet de le lire.**
+
+> **Et pendant le livre, elles ont une quinzaine d'années.** Elles sont arrivées le jour d'Andrew, **il y a dix ans** : trois marches perdues, et il leur en reste sept. Le chiffre est fixe puisque le livre tient sur quelques semaines.
+>
+> ⚠️ **C'est le calcul que le lecteur ratera**, parce qu'il comptera 1:1 et trouvera huit. **Le dispositif qui l'en empêche est écrit dans [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md) §2 ter**, et il ne relève pas de ce document : il tient à l'ordre des chapitres et à une réplique de salon, pas à l'arithmétique.
 
 **Eliott arrive à 10 ans : il n'a que deux marches à descendre, et chacune prend trois ans — six ans de descente.** C'est le seul chiffre dont le livre ait besoin, et c'est lui qui porte tout le calendrier. **Puis le plateau, puis la fin, non chiffrés.** Ce qui est acquis, sous la règle A : **il a au moins quarante ans de vie**, dont six sont derrière lui à l'épilogue. *La répartition des trente-quatre autres entre plateau et fin n'est pas fixée, et ce document ne la fixe pas.*
 
@@ -296,25 +300,40 @@ Il arrive à dix ans au jour 0, et il a **dix ans** tout du long. Sa première m
 
 ---
 
-## Le garçon était l'horloge — et le procédé s'est affaibli
+## ⚠️ OUTIL ÉCARTÉ — « le garçon comme horloge »
 
-> **Requalifié une seconde fois, 16 août 2026.** Le raisonnement ci-dessous reste vrai, mais **il porte beaucoup moins loin qu'avant**, et il faut le dire.
+> **Décision de l'autrice, 16 août 2026. Le procédé est abandonné.**
+>
+> **Il servait aux sauts de temps du calendrier sur douze ans, et ce calendrier n'existe plus.**
 
-Dans un monde où les gens rajeunissent, **le temps doit se montrer sur un corps.** Entre neuf et cinq ans, c'est un corps d'enfant qui change le plus vite et le plus visiblement.
+**La trace du raisonnement est conservée ici, et rien d'autre.** Aucune ligne de cette section n'est une consigne d'écriture ; ce qui suit explique pourquoi un outil a existé et pourquoi il ne sert plus.
 
-**Mais Eliott ne va plus de dix ans à cinq. Il va de dix ans à huit.**
+### Ce que le procédé était
 
-| | Ancienne version | Nouvelle version |
+Dans un monde où les gens rajeunissent, **le temps doit se montrer sur un corps.** Entre neuf et cinq ans, c'est un corps d'enfant qui change le plus vite et le plus visiblement — d'où l'idée de faire d'Eliott l'horloge du livre : à chaque retour, plus petit, et le lecteur mesure le temps écoulé sans qu'on le lui date.
+
+### Pourquoi il tombe — deux causes, et la seconde suffirait seule
+
+| | Ce qui a changé | Ce que ça fait au procédé |
 |---|---|---|
-| Saut de l'épilogue | quinze ans | **six ans** |
-| Ce que le lecteur retrouve | un enfant de cinq ans, plus petit, qui dit moins | **un enfant de huit ans, un peu plus petit, qui parle exactement aussi bien** |
-| Ce que le corps donne au lecteur | la mesure entière du temps écoulé | **un signe faible, et insuffisant seul** |
+| **1. Le calendrier** | le corps du roman tient sur **quelques semaines**, plus sur douze ans. Il n'y a plus de sauts de temps à couvrir | **l'outil n'a plus d'emploi.** On ne date pas ce qui ne dure pas |
+| **2. L'amplitude** | Eliott ne va plus de dix ans à cinq, mais **de dix ans à huit** — **deux marches en six ans** | **il n'y a plus rien à lire sur le corps.** Deux ans d'écart sur un enfant, ça se voit à peine ; six ans de temps vécu, ça ne se lit pas dessus |
 
-**Conséquence à porter au séquencier : le corps ne suffit plus à dater l'épilogue.** Deux ans d'écart sur un enfant, ça se voit un peu ; six ans de temps vécu, ça ne se lit pas dessus. Il faudra que la scène situe autrement — par les circonstances, par l'entourage, par ce qui a changé autour de lui.
+**Un enfant qui perd deux ans en six ans n'est pas une horloge.** C'est un enfant un peu plus petit, qui parle exactement aussi bien, et qui ne renseigne le lecteur sur rien.
+
+### Ce qui tombe avec lui
+
+- **La série de retours échelonnés** — *« à chaque visite, plus petit »*. Elle n'a plus de calendrier où s'inscrire.
+- **L'idée que le lecteur mesurerait le temps à ce que l'enfant a perdu les mots.** **Il ne les a pas perdus** : la parole se dégrade vers quatre ans, très loin derrière la dernière page.
+- **Et le rôle lui-même.** Eliott redevient ce qu'il est : un enfant de dix ans, enlevé, cherché, retrouvé vivant, qui parle.
+
+> **Le rajeunissement ne se montre plus sur les protagonistes. Il se montre par le monde** — les cérémonies, les vétérans qui ont l'air d'avoir vingt ans, le vieillard de huit ans au jardin, le relevé au registre. Voir « Andrew ne vieillit pas pendant le livre ».
+
+### Ce que ça laisse ouvert
+
+**Le seul saut de temps qui subsiste est celui de l'épilogue — six ans —, et il faut le situer autrement que par un corps.** Par les circonstances, par l'entourage, par ce qui a changé autour de l'enfant.
 
 **Aucun chapitre n'est jamais daté.** Pas d'année, pas de mention de durée, pas de « six ans plus tard ». Cette règle-là ne bouge pas, et elle vient de devenir plus difficile à tenir.
-
-*Ce qui tombe définitivement : la série de retours échelonnés — « à chaque visite, plus petit » — et l'idée que le lecteur mesurerait le temps à ce que l'enfant a perdu les mots. **Il ne les a pas perdus.***
 
 ---
 
@@ -421,14 +440,14 @@ Le corps du livre prend quelques semaines dans une vie qui compte au moins cinqu
 
 - [ ] **Plateau et fin : liés ou indépendants ?** Un plateau allongé traîne-t-il une fin allongée derrière lui ?
 - [ ] **Le livre montre-t-il une fin, ou est-ce entièrement hors champ ?** Aucun personnage du casting n'y arrive pendant le roman ni à l'épilogue.
-- [ ] **Comment l'épilogue se situe-t-il dans le temps**, maintenant que le corps d'Eliott ne suffit plus à dater le saut ? Voir « Le garçon était l'horloge ».
+- [ ] **Comment l'épilogue se situe-t-il dans le temps**, maintenant que le corps d'Eliott ne date plus rien ? Voir « Outil écarté — le garçon comme horloge ».
 - [ ] **Le dessin du graphe.** Trois segments par courbe, un premier segment qui peut monter, une ligne de repère à huit, toutes finissant sur l'axe. **À faire ailleurs.**
 - [ ] **Semaines ou mois ?** Le chiffre dépend du déroulé de l'enquête. **À l'autrice, et rien ne s'écrit avant.**
 - [ ] **Combien de temps s'écoule entre l'enlèvement et le moment où Eliott est retrouvé vivant ?**
 - [ ] **La longueur de l'épilogue.** Le dialogue est court par décision ; ce qui l'entoure ne l'est pas forcément.
 - [ ] **Andrew est-il seul avec lui à l'épilogue ?** June est sa berceuse et devrait y être — et, sous la règle C, **elle est celle qui sait et qui se tait.** Sa présence charge la scène au lieu de la diluer.
 - [ ] **Combien de détails glaçants exactement**, et jusqu'où ils vont. Trois phrases suffisent probablement. Le risque est la surenchère.
-- [ ] **Où en sont Chrissy et Tania.** En pleine descente pendant tout le livre, et leur âge est fixe puisque le livre ne dure que quelques semaines. **Il reste à fixer** — c'est celui qu'elles ont au mouvement 23.
+- [x] ~~**Où en sont Chrissy et Tania.**~~ — **une quinzaine d'années**, fixe pendant tout le livre : arrivées à dix-huit, il y a dix ans, à trois ans par marche. C'est l'âge qu'elles ont au mouvement 23, et **elles ressemblent à trois ans près aux corps qu'Andrew a trouvés.** Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md) §2 ter et §4.
 
 **Clos :**
 
@@ -437,6 +456,7 @@ Le corps du livre prend quelques semaines dans une vie qui compte au moins cinqu
 - [x] ~~**Les totaux du tableau incluent-ils la décroissance ?**~~ — **question dissoute, 16 août 2026.** Les totaux sont supprimés : sous la règle A bis, ils ne sont pas calculables pour les grands chiffres.
 - [x] ~~**L'épilogue à quinze ans.**~~ — **caduc, 16 août 2026 : six ans**, et Eliott y a huit ans, Andrew quarante-six.
 - [x] ~~**Eliott perd les mots à l'épilogue.**~~ — **faux, 16 août 2026.** À huit ans la parole est intacte ; elle se dégrade vers quatre ans, bien plus tard, et le livre ne le montre pas.
+- [x] ~~**Le garçon comme horloge.**~~ — **outil abandonné, 16 août 2026.** Il servait aux sauts de temps du calendrier sur douze ans, qui n'existe plus ; et deux marches en six ans ne se lisent pas sur un corps. Trace du raisonnement conservée sous « Outil écarté ».
 - [x] ~~**Le calendrier sur douze ans.**~~ — **caduc, 15 août 2026.**
 - [x] ~~**Où placer l'entrée d'Eliott au jardin.**~~ — **tranché : c'est l'épilogue**, et la confession vient juste avant, dans le même mouvement.
 - [x] ~~**Règle B — le plafond de la grâce.**~~ — **abandonné et remplacé, 15 août 2026 : la grâce ne se voit pas.**

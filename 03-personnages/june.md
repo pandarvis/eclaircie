@@ -56,6 +56,14 @@ Ce que ça fait à la fiche, et ce n'est pas mince pour un personnage de passage
 
 **Et c'est ce qui charge l'épilogue si elle y est.** Andrew regarde l'enfant entrer au jardin en sachant ce que c'est, et il se tait. **June, elle, se tait par métier** — et c'est la seule personne de la pièce pour qui ce silence est une habitude. Voir [`eliott.md`](eliott.md) §10.
 
+### Trois lignes de plus, et la fiche reste courte
+
+> **Décisions du 16 août 2026. Développement complet dans [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) ; ne pas le recopier ici.**
+
+- **Elle est dans la confidence des pédiatres du jardin, et c'est un secret professionnel.** Les berceurs sont les seuls à l'être. Elle connaît donc, pour chaque enfant dont elle a la charge, la date où la descente a commencé — et elle ne la dit pas.
+- **Elle sera relayée à douze ans**, affectée d'ici là à des tâches plus simples, et **elle entrera au jardin à huit**. Quelqu'un d'autre l'y accompagnera.
+- *Aucune de ces deux choses n'a besoin d'apparaître dans le roman. Elles disent seulement de quoi est faite la femme qui ouvre la porte à Andrew.*
+
 ---
 
 ## 2. Ce qu'elle fait dans l'intrigue, et dans cet ordre

@@ -232,6 +232,24 @@ Le relevé à l'instrument donne l'âge **une fois pour toutes** : le corps dit 
 
 Le suivi, lui, ne mesure pas l'âge — il le connaît déjà. **Il mesure ce que l'âge ne dit pas** : l'état, et le progrès. Et il dure, parce que c'est la seule façon d'observer une pente.
 
+### Et ce ne sont pas non plus les pédiatres du jardin
+
+> **Décision de l'autrice, 16 août 2026. Développement complet dans [`le-jardin.md`](le-jardin.md) ; seule la distinction est posée ici.**
+
+**Il existe un second corps médical, propre au jardin, et il est tenu au secret.** Ne jamais le confondre avec ce qui précède.
+
+| | **Le suivi ordinaire** | **Les pédiatres du jardin** |
+|---|---|---|
+| Qui | un praticien, en cabinet | un corps médical propre au jardin |
+| Pour qui | **tout le monde**, après toute éclaircie | **les huit ans**, et eux seuls |
+| Ce que ça mesure | l'état et le progrès — la pente du §9 | **la date où la descente a commencé** |
+| Régime | banal, administratif, obligatoire, sans mystère | **secret médical** |
+| Qui d'autre est au courant | la personne elle-même, sa berceuse ou son tuteur, l'administration | **les berceurs, et personne d'autre** |
+
+**Toute la différence est là :** le suivi ordinaire produit un dossier qu'on ouvre devant l'intéressé, et [June](../03-personnages/june.md) y emmène Eliott sans que cela pose la moindre question. Les pédiatres du jardin produisent **une date que l'intéressé ne connaîtra jamais**, et le cercle est fermé exprès — *pour protéger les enfants*.
+
+*Rappel de la limite, elle est dans [`le-jardin.md`](le-jardin.md) : **le secret ne porte que sur la date de bascule, jamais sur l'état.** Qu'un enfant soit au jardin est un fait public que personne ne peut rater.*
+
 ---
 
 ### Ce que ça apporte au roman
@@ -369,6 +387,8 @@ Deux lectures, et le choix engage le registre entier du livre.
 *Réglé : **le corps converge vers huit ans des deux côtés** — il rajeunit si l'on arrive au-dessus, **il grandit à 1:1 si l'on arrive en dessous** —, puis il repart du plateau vers zéro. Voir la section « Le corps converge vers huit ans — des deux côtés », et [`ce-qui-est-juge.md`](ce-qui-est-juge.md).*
 
 *Réglé : **la parole se dégrade vers quatre ans** en descendant. C'est le seul repère chiffré du troisième temps, et l'exact renversement de la langue donnée à l'arrivée.*
+
+*Réglé : **le suivi ordinaire et les pédiatres du jardin sont deux choses**, et il ne faut jamais les confondre — l'un est public et mesure une pente, l'autre est sous secret et détient une date. Voir [`le-jardin.md`](le-jardin.md).*
 
 *Réglé : **des rendez-vous médicaux obligatoires suivent toute éclaircie** — mémoire, tonicité, apprentissage —, et c'est ainsi que cette société mesure la pente du §9. Voir [« Le suivi médical après l'éclaircie »](#le-suivi-médical-après-léclaircie).*
 

@@ -213,6 +213,34 @@ Une phrase à table. *« Quarante ans, quand même. »* Un silence. On parle d'a
 
 Le §9 le pose déjà : **tout le monde y pense, la règle tient quand même.** C'est le sol sur lequel pousse le reste, et c'est le seul étage où presque tout le monde se trouve.
 
+#### La phrase qui installe le ratio — **et elle ne doit pas être portée par le mécontentement**
+
+> **Décision de l'autrice, 16 août 2026.** La descente n'est pas au rythme d'un an par an chez les jeunes arrivants, et **le lecteur doit l'apprendre une fois, tôt, sans qu'on le lui explique.** Le problème complet est posé dans [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md) §2 ter.
+
+**C'est ce document qui fournit le véhicule, parce que le registre du salon est le seul qui convienne.** Une remarque sur quelqu'un d'autre, à propos de rien, que personne ne relève :
+
+> *« Ils mettent trois fois plus longtemps à descendre, en plus. »*
+
+Ou, à propos d'un tiers dont on ne reparlera jamais :
+
+> *« Lui, il est arrivé à douze. Ça fait une éternité qu'il est là. Il en a dix. »*
+
+**Deux âges et une durée vague. Aucun chiffre de barème, aucune règle énoncée.** Le lecteur repart avec un taux qu'il n'a pas eu à retenir, et l'interdit n° 3 du §14 est intact : il n'y a rien à consulter, rien à recalculer, rien qui ressemble à un tableau.
+
+##### ⚠️ Le point qui décide de tout : la bouche
+
+**Elle doit être banale. Pas jalouse.**
+
+| Dans une bouche ordinaire | Dans une bouche mécontente |
+|---|---|
+| **une évidence de comptoir** — le genre de chose qu'on dit parce que tout le monde le sait | **une revendication** — un grief qu'on avance, donc qu'on défend |
+| le lecteur enregistre une donnée du monde et passe à la suite | le lecteur soupèse, se demande si c'est vrai, et attend qu'on lui réponde |
+| ça ne demande rien à personne | ça demande quelque chose, donc ça ouvre un débat que le livre ne veut pas |
+
+**C'est le seul endroit du dossier où une information du barème passe par une réplique**, et c'est précisément pour ça qu'elle ne doit pas ressembler à ce que dit ce document partout ailleurs. **Le grief déforme tout ce qu'il touche** : mis dans la bouche d'un jaloux, le même taux cesse d'être une donnée pour devenir une plainte, et le lecteur ne l'entend plus — il le juge.
+
+*Réglage : tôt dans le livre, une seule fois, à propos de quelqu'un qui n'a aucune importance. Elle ne se répète pas, elle n'appelle pas de réponse, et la scène a un objet plus vaste qu'elle. **La variante hostile — « trois ans pour perdre un an, eux ; nous c'est un par an » — reste disponible pour le climat, mais elle ne doit jamais être le seul endroit où le lecteur peut l'apprendre.***
+
 ### 2. Le discours respectable
 
 Le courant politique qui parle de **« libérer plus tôt »** ceux qui ne connaîtront jamais autre chose (§9.5). Il ne dit jamais *tuons-les*. Il dit qu'il est cruel de faire durer une vie qui n'ira nulle part, et il le dit avec des chiffres, dans des salles, devant des gens qui hochent la tête.
@@ -298,7 +326,7 @@ Et [`ce-qui-est-juge.md`](ce-qui-est-juge.md) pose que le système juge **les ac
 
 | | Ce qu'il a fait | Ce qu'il reçoit |
 |---|---|---|
-| **L'assassin des jumelles** | il a tué deux enfants, et il est mort le jour même | **pas de capsule qui éclaircit.** Elle a été raclée un matin, par un veilleur qui n'a rien su |
+| **L'assassin des jumelles** | il a tué **deux filles de dix-huit ans**, et il est mort le jour même | **pas de capsule qui éclaircit.** Elle a été raclée un matin, par un veilleur qui n'a rien su |
 | **Le ravisseur d'Eliott** | il a pris un enfant, et l'enfant est vivant | **son âge, un jardin ordinaire.** Il éclaircira comme tout le monde |
 
 **Deux hommes, deux mondes, deux enfants pris.** Une différence de résultat, pas d'intention — et deux sorties qui n'ont rien de commun.
@@ -357,6 +385,8 @@ Tuer un arrivant est un tort irréparable. Celui qui va au bout ne renaîtra pas
 - [x] ~~**Le palier à cinq ans.**~~ — **remplacé le 16 août 2026 : huit**, et ce n'est plus un plancher mais un point de convergence. Toutes les durées de ce document ont été recalculées : une arrivée à dix ans fait **six ans** de descente, pas quinze.
 - [x] ~~**Ce que la société pense des enfants qui grandissent.**~~ — **tranché le 16 août 2026 : les deux camps ont raison**, et la dispute ne se referme jamais. Voir [« Les enfants qui grandissent »](#les-enfants-qui-grandissent).
 - [x] ~~**L'argument de la santé.**~~ — **acquis le 16 août 2026.** C'est le seul grief vrai et vérifiable ; il relève de la biologie, pas du système ; et le groupe qui réclame la redistribution des soins est celui qui les consomme. Voir [« L'argument de la santé »](#largument-de-la-santé).
+- [x] ~~**Qui porte la phrase qui installe le ratio de descente ?**~~ — **tranché le 16 août 2026 : une personne banale, tôt, au salon.** Surtout pas un jaloux : le grief transformerait une donnée du monde en revendication. Voir [« La phrase qui installe le ratio »](#la-phrase-qui-installe-le-ratio--et-elle-ne-doit-pas-être-portée-par-le-mécontentement).
+- [ ] **Où tombe-t-elle exactement, et qui la dit ?** *Au séquencier.*
 - [ ] **Le grief sanitaire déborde-t-il vers le discours respectable ?** *« Pourquoi tant de moyens pour ceux qui n'en ont pas besoin ? »* est une phrase d'estrade, pas de trottoir. Est-ce que le courant « libérer plus tôt » la reprend, ou reste-t-elle au salon ?
 - [ ] **Combien de fois voit-on un enfant qui grandit, et à quelle distance ?** Le cas est neuf et il est spectaculaire ; il peut aussi voler la vedette au fil d'Eliott. Une silhouette entrevue, une conversation entendue, ou rien du tout ?
 - [ ] **Andrew croise-t-il l'argument de la santé en scène ?** Il est le seul du casting à pouvoir l'écouter sans le contester ni l'approuver. Une occurrence suffit-elle, et où ?
