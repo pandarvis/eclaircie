@@ -152,6 +152,30 @@ Pour relancer l'enquête, il lui faut **séparer ce qui venait d'ici de ce qui v
 
 ---
 
+## 3.3 La parade de l'interdit n° 4 — le déclencheur ne prouve rien
+
+*Si le déclencheur établit qu'Eliott disait vrai, l'hypothèse « il fabule » s'écroule, et avec elle la fissure unique qu'impose l'[interdit n° 4](../01-dossier/les-interdits.md).*
+
+**Ce qui se vérifie, c'est une phrase. Jamais le personnage.**
+
+Un lieu d'ici, un seul, au milieu de tout le reste qui demeure impossible. Ça ne démontre rien : un arrivant de dix ans mélange les choses, et une description juste parmi vingt fausses n'est pas un miracle — c'est une coïncidence.
+
+**Le mécanisme, si l'autrice le retient :** Eliott a vu ce lieu en faisant ses petits travaux d'ordre public. Il en a parlé — dans la même phrase qu'une boulangerie qui n'existe pas. Andrew a rangé les deux au même endroit.
+
+> **La vérité était indiscernable du délire parce qu'elle était dans la même phrase.**
+
+C'est là qu'est sa faute, et elle est nette : **il n'a pas manqué l'indice, il a refusé de trier.** Ce qui répète, sans qu'il puisse le savoir, la faute de la vie d'avant — cesser de chercher quand on le lui a demandé.
+
+*Conséquence à trancher : le ravisseur l'a probablement repéré là-bas, pendant qu'il travaillait. Le lieu où Eliott a été vu et celui où il est retenu peuvent donc être le même.*
+
+## 3.4 Celui qui crie n'est pas celui qui fait
+
+*Découle du climat diffus posé dans [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) : pas d'organisation, pas de groupe, et un seul homme qui va au bout.*
+
+**Le nom qui ressort au beat 4 a un alibi parce qu'il est bruyant.** Il crie, il est connu pour crier, tout le monde peut dire où il était. Il donne à l'enquête une piste évidente et fausse — et il donne au livre la scène où le grief se dit, dans sa bouche et jamais dans celle du narrateur.
+
+**Le vrai est silencieux.** On ne le remarque pas, précisément parce qu'il ne dit rien. Personne ne le range du côté de ceux qui détestent, parce que ceux qui détestent, on les entend.
+
 # 4. Les beats en double — conséquence directe de la méthode
 
 **Si l'on écrit une enquête et qu'on l'attribue, alors certains beats existent en double, et le lecteur n'en lit qu'un.**
