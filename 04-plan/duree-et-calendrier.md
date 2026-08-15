@@ -128,7 +128,7 @@ Ce que ça installe, et le livre n'a pas à l'expliquer :
 
 > **Décision de l'autrice, 16 août 2026.**
 >
-> **On arrive voilé quand on n'est pas en paix.** Et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce.
+> **On arrive porteur de voiles quand on n'est pas en paix.** Et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce.
 
 Deux choses, et il faut tenir les deux :
 
@@ -339,7 +339,7 @@ Dans un monde où les gens rajeunissent, **le temps doit se montrer sur un corps
 
 ## L'épilogue : Eliott dépose, puis il entre
 
-> **Décision de l'autrice, 15 et 16 août 2026.** *« Pour moi c'est essentiel qu'Eliott témoigne de ce qui lui est arrivé. S'il est arrivé voilé, c'est bien parce qu'il n'était pas en paix avec lui-même. En se confessant avant son entrée au jardin, il expie ce qui le faisait souffrir et entre dans l'insouciance. On peut supposer, sans en être certain, que les reliquats disparaissent quand on a rejoint le jardin. C'est la dernière grâce. Ça expliquerait qu'il se confesse avant d'y entrer. »*
+> **Décision de l'autrice, 15 et 16 août 2026.** *« Pour moi c'est essentiel qu'Eliott témoigne de ce qui lui est arrivé. S'il est arrivé porteur de voiles, c'est bien parce qu'il n'était pas en paix avec lui-même. En se confessant avant son entrée au jardin, il expie ce qui le faisait souffrir et entre dans l'insouciance. On peut supposer, sans en être certain, que les reliquats disparaissent quand on a rejoint le jardin. C'est la dernière grâce. Ça expliquerait qu'il se confesse avant d'y entrer. »*
 
 ### Quand — six ans après le corps du roman
 

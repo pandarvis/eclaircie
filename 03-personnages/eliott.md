@@ -1,7 +1,7 @@
 # Eliott — l'arrivant de dix ans
 
 *Personnage majeur. Nom tranché le 14 août 2026 : **Eliott**.*
-*Il est le second voilé du livre, et le seul autre. Son enlèvement déclenche toute l'intrigue.*
+*Il est le second porteur de voiles du livre, et le seul autre. Son enlèvement déclenche toute l'intrigue.*
 
 ---
 
@@ -10,7 +10,7 @@
 | | |
 |---|---|
 | **Arrivé à** | 10 ans |
-| **Particularité** | **voilé**. Il dit des choses impossibles ; tout le monde le prend pour un fabulateur |
+| **Particularité** | **porteur de voiles**. Il dit des choses impossibles ; tout le monde le prend pour un fabulateur |
 | **Nom** | Eliott — **nom d'éclaircie qu'il a produit lui-même**, à sa cérémonie. Arrivé à dix ans, il est **au-dessus** du seuil : à huit ans et en dessous, c'est un berceur qu'on appelle et qui nomme. Personne ne l'a nommé |
 | **Prise en charge** | [June](june.md), berceuse — c'est **sa** berceuse. Petits travaux d'ordre public, sans force ni difficulté |
 | **Dans l'intrigue** | il est enlevé. Il sera retrouvé vivant |
@@ -21,9 +21,9 @@
 
 ---
 
-## 1. Le second voilé — et la contrainte qui va avec
+## 1. Le second porteur de voiles — et la contrainte qui va avec
 
-**Il est voilé, comme Andrew, et il est le seul autre voilé du livre.**
+**Il est porteur de voiles, comme Andrew, et il est le seul autre porteur de voiles du livre.**
 
 L'**interdit n° 4** ([`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md)) est ici à son point de tension maximal : *« une fissure = une intrigue ; trois = une contradiction »*, et **l'hypothèse « il fabule » doit tenir debout jusqu'au bout.**
 
@@ -95,7 +95,7 @@ Eliott fait de **petits travaux d'ordre public**, sans force ni difficulté, ada
 
 **C'est le cœur de cette fiche.** Andrew n'inspecte pas, ne relève rien, ne cherche pas à établir quoi que ce soit : **il essaie de le comprendre.** Il s'assoit, il l'écoute, il repose la question autrement, il attend. Un veilleur en visite chez une berceuse, qui parle à un enfant dont personne ne lui a confié la charge.
 
-**C'est là qu'Eliott dit ce qu'il dit.** La règle du §5 vaut mot pour mot dans ces scènes : banal, local, invérifiable. Une devanture, un arrêt, une couleur de porte. Rien qui se recoupe avec ce qui remonte chez Andrew, rien qui devienne une preuve — l'interdit n° 4 tient ici son point de tension le plus haut, parce que c'est le seul endroit du livre où les deux voilés se parlent.
+**C'est là qu'Eliott dit ce qu'il dit.** La règle du §5 vaut mot pour mot dans ces scènes : banal, local, invérifiable. Une devanture, un arrêt, une couleur de porte. Rien qui se recoupe avec ce qui remonte chez Andrew, rien qui devienne une preuve — l'interdit n° 4 tient ici son point de tension le plus haut, parce que c'est le seul endroit du livre où les deux porteurs de voiles se parlent.
 
 **Et Andrew repart avec des choses qu'il ne sait pas où ranger.** Il ne comprend pas, il ne peut pas comprendre, et il n'a même pas de mot pour ce qui l'accroche. Il ne rapporte rien à personne : il n'a pas de rapport à faire, il n'a aucun mandat. Il garde ça, et il y retourne.
 
@@ -214,7 +214,7 @@ Ce que ça produit, et le détail complet est dans [`../04-plan/le-meme-jour.md`
 
 > **Décision de l'autrice, 16 août 2026, et c'est le point important de toute la fiche.**
 >
-> *« Pour moi c'est essentiel qu'Eliott témoigne de ce qui lui est arrivé. S'il est arrivé voilé, c'est bien parce qu'il n'était pas en paix avec lui-même. En se confessant avant son entrée au jardin, il expie ce qui le faisait souffrir et entre dans l'insouciance. On peut supposer, sans en être certain, que les reliquats disparaissent quand on a rejoint le jardin. C'est la dernière grâce. Ça expliquerait qu'il se confesse avant d'y entrer. »*
+> *« Pour moi c'est essentiel qu'Eliott témoigne de ce qui lui est arrivé. S'il est arrivé porteur de voiles, c'est bien parce qu'il n'était pas en paix avec lui-même. En se confessant avant son entrée au jardin, il expie ce qui le faisait souffrir et entre dans l'insouciance. On peut supposer, sans en être certain, que les reliquats disparaissent quand on a rejoint le jardin. C'est la dernière grâce. Ça expliquerait qu'il se confesse avant d'y entrer. »*
 
 **Six ans après le corps du roman.** Il a **huit ans**, il va **entrer** au jardin, et **il raconte** — des détails glaçants sur ce qui lui est arrivé de l'autre côté. Un dialogue court, quelques répliques, puis il s'en va.
 
@@ -224,7 +224,7 @@ Ce que ça produit, et le détail complet est dans [`../04-plan/le-meme-jour.md`
 
 > **Il se libère en parlant, et il entre dans l'insouciance.**
 
-C'est la règle du voile appliquée à lui : **on arrive voilé quand on n'est pas en paix**, et **on suppose — sans certitude — que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce, et c'est ce qui explique qu'il se confesse juste avant d'y entrer. *La supposition doit rester une supposition : personne ne l'a vérifiée, aucun personnage n'en a la preuve, et le texte ne la confirme jamais.*
+C'est la règle du voile appliquée à lui : **on arrive porteur de voiles quand on n'est pas en paix**, et **on suppose — sans certitude — que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce, et c'est ce qui explique qu'il se confesse juste avant d'y entrer. *La supposition doit rester une supposition : personne ne l'a vérifiée, aucun personnage n'en a la preuve, et le texte ne la confirme jamais.*
 
 ### ⚠️ Il ne perd pas les mots — correction du 16 août 2026
 
@@ -254,9 +254,9 @@ L'effet ne s'en trouve pas affaibli, il se déplace : ce n'est plus la dernière
 
 Tout est déjà révélé au lecteur : il a vu la capsule pourrie à la première page, il a compris la ligne d'Andrew. Rien de ce que dit l'enfant ne lui apprend un fait nouveau. **C'est la fermeture de son arc** — le seul personnage dont on ne savait pas ce qui lui était arrivé le dit lui-même, brièvement, et sort. *Une révélation en épilogue serait une pirouette ; un aveu qui confirme ce qu'on savait déjà est un aveu.*
 
-### Le parallèle des deux voilés — à ne pas manquer
+### Le parallèle des deux porteurs de voiles — à ne pas manquer
 
-**Andrew et lui sont les deux seuls voilés du livre, et ils se libèrent de la même façon.**
+**Andrew et lui sont les deux seuls porteurs de voiles du livre, et ils se libèrent de la même façon.**
 
 | | Ce qu'il porte | Comment il s'en défait | Ce qu'il obtient |
 |---|---|---|---|

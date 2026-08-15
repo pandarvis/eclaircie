@@ -13,7 +13,7 @@
 | **Vie d'avant** | enquêteur. Mort à 62 ans. |
 | **Métier** | veilleur. Lit les capsules, tient les cérémonies, note les chiffres. **Il a raclé, il ne racle plus** : d'autres sont arrivés après lui. |
 | **Ancienneté** | **dix ans dans ce monde** — pas dix ans de métier —, et **52 ans** au début du roman. Il a pris son poste **rapidement**. **Ni un débutant, ni un vétéran** : plusieurs années de service, assez pour n'être plus le dernier arrivé. |
-| **Particularité** | voilé. Personne ne le sait. **Lui non plus, au début.** |
+| **Particularité** | porteur de voiles. Personne ne le sait. **Lui non plus, au début.** |
 | **Faute** | **d'avoir cessé.** On lui a dit d'arrêter de creuser l'affaire des jumelles ; il a obéi. Il a perdu des semaines, il a repris — et il est arrivé une heure trop tard. Ce n'est pas l'échec qui est jugé, c'est l'arrêt. Faute réparable → pardon → **le voile est le pardon.** |
 | **Décompte** | **54 ans de descente** — de 62 à huit, un an par an. Puis le plateau au jardin, puis la fin jusqu'à zéro : **ni l'un ni l'autre ne sont chiffrés, et sa fin n'est pas datable.** Voir « Son décompte » plus bas |
 | **Âge à l'épilogue** | **46 ans**, six ans après le corps du roman |
@@ -266,7 +266,7 @@ Au cours de l'enquête sur les jumelles, on lui a dit d'arrêter de creuser. **I
 
 ### Ce qui n'est pas la faute
 
-**Échouer n'est pas une faute.** Le système ne juge pas les résultats : personne n'est sanctionné pour n'avoir pas su, pas trouvé, pas été assez rapide. S'il avait cherché sans relâche et perdu quand même, il n'aurait rien eu à réparer et il ne serait pas voilé.
+**Échouer n'est pas une faute.** Le système ne juge pas les résultats : personne n'est sanctionné pour n'avoir pas su, pas trouvé, pas été assez rapide. S'il avait cherché sans relâche et perdu quand même, il n'aurait rien eu à réparer et il ne serait pas porteur de voiles.
 
 Ce qui est jugé, c'est **l'arrêt**. Pas le fait d'avoir manqué les filles : le fait d'avoir, pendant des semaines, cessé de les chercher.
 
@@ -497,7 +497,7 @@ Ce qui veut dire qu'au mouvement 22, quand il remonte enfin jusqu'à sa faute, *
 
 ### La conséquence, signalée et non développée
 
-**Le voile est un pardon, et c'est aussi un poids : on arrive voilé parce qu'on n'était pas en paix.** Et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce.
+**Le voile est un pardon, et c'est aussi un poids : on arrive porteur de voiles parce qu'on n'était pas en paix.** Et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce.
 
 Appliquée à lui, la supposition dit une seule chose, et il faut la poser sans y revenir :
 
@@ -511,9 +511,9 @@ Les filles, la planque, l'heure de retard, la culpabilité inépuisable, l'homme
 
 ---
 
-## Le parallèle des deux voilés
+## Le parallèle des deux porteurs de voiles
 
-**Andrew et Eliott sont les deux seuls voilés du livre, et ils se libèrent exactement de la même façon.**
+**Andrew et Eliott sont les deux seuls porteurs de voiles du livre, et ils se libèrent exactement de la même façon.**
 
 | | Ce qu'il porte | Comment il s'en défait | Ce qu'il obtient |
 |---|---|---|---|

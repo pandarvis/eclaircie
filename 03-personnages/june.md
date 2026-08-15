@@ -16,7 +16,7 @@
 | **Métier** | berceuse |
 | **Sa charge** | [Eliott](eliott.md), arrivé à dix ans |
 | **Rôle dans l'intrigue** | **témoin de passage.** Elle héberge, elle constate, elle annonce — et elle a prévenu la police |
-| **Particularité** | aucune. Elle n'est pas voilée, elle ne dit jamais rien d'impossible, elle ne soupçonne rien |
+| **Particularité** | aucune. Elle n'est pas porteuse de voiles et ne dit jamais rien d'impossible. **Mais elle a une intuition, et elle ne la formule jamais** — §2 bis |
 
 ---
 
@@ -76,9 +76,25 @@ Ce que ça fait à la fiche, et ce n'est pas mince pour un personnage de passage
 2. **Elle constate la disparition, et elle prévient la police.** Elle a cherché partout, elle n'a pas trouvé, elle a fait ce qu'il fallait dans l'ordre — **avant qu'Andrew arrive**, et sans savoir qu'il viendrait.
 3. **Elle le lui apprend.** Il se présente pour la troisième fois ; l'enfant n'est plus là. C'est elle qui le dit, parce qu'elle est là et qu'il faut bien que quelqu'un le dise. Elle est aussi la mémoire de ce que le petit racontait, et elle le restitue sans y rien ajouter : pour elle, c'était un enfant qui inventait, et **elle n'en comprend pas plus que les autres.**
 
-**Son intervention s'arrête là.** Elle ne revient pas, elle n'enquête pas, elle n'a pas d'arc, elle ne soupçonne rien.
+**Son intervention s'arrête là.** Elle ne revient pas, elle n'enquête pas, elle n'a pas d'arc, et elle ne conclut jamais rien.
 
 *Réglage : elle n'est pas un relais d'information, elle est un lieu où la nouvelle attend. Si une seule de ses répliques a l'air d'appeler Andrew à faire quelque chose, la séquence entière bascule et la fiche est trahie.*
+
+---
+
+## 2 bis. La suspicion qu'elle n'ose pas formuler — correction
+
+> **Décision de l'autrice.** Cette fiche posait qu'elle ne soupçonne rien. **C'est corrigé : elle a une intuition, et elle ne la formule jamais.**
+
+À la deuxième visite ([`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md), scène 2), dépassée, **elle évoque une suspicion de voile sans oser aller au bout de sa phrase.** C'est tabou, et en plus il est jeune. **Ce cas de figure, elle ne l'a jamais eu personnellement.** L'exemple de l'autrice, à garder tel quel :
+
+> *« Un porteur de voiles de cet âge… je n'en avais jamais vu. »*
+
+**Elle ne conclut rien, et personne ne la confirme.** L'[interdit n° 4](../01-dossier/les-interdits.md) tient donc entier : l'hypothèse « il fabule » reste debout, parce qu'une gêne n'est pas une hypothèse et qu'une phrase qui s'arrête ne prouve rien.
+
+**Ce que ça sert, et c'est le seul rendement de la chose : c'est par elle que le lecteur apprend ce qu'est un porteur de voiles**, sans qu'aucun narrateur ne l'explique. **Elle en parle comme d'une chose gênante, à moitié crue, qu'on ne dit pas** — et le mot arrive au lecteur déjà chargé de son malaise.
+
+*Réglage : une fois, une demi-phrase, et elle passe à autre chose. Elle ne le redit jamais, elle ne le rapporte à personne, et elle ne le reprend pas quand le garçon disparaît.*
 
 ---
 
@@ -86,13 +102,14 @@ Ce que ça fait à la fiche, et ce n'est pas mince pour un personnage de passage
 
 - [x] ~~Le signalement du comportement d'Eliott.~~ — **supprimé le 15 août 2026.** Elle ne signale rien : Andrew y retourne de lui-même.
 - [x] ~~Le seuil de nommage.~~ — **corrigé le 16 août 2026 : huit ans et en dessous**, et non « moins de huit ans ». §1.
-- [ ] **Assiste-t-elle aux visites, ou laisse-t-elle la pièce ?** Sa présence donne un témoin adulte aux propos d'Eliott ; son absence rend les deux voilés seuls dans la pièce.
+- [x] ~~**Elle ne soupçonne rien.**~~ — **corrigé : elle a une intuition qu'elle ne formule jamais.** §2 bis.
+- [ ] **Assiste-t-elle aux visites, ou laisse-t-elle la pièce ?** Sa présence donne un témoin adulte aux propos d'Eliott ; son absence laisse les deux porteurs de voiles seuls dans la pièce.
 - [ ] **La revoit-on après l'annonce ?** La fiche pose que non. À confirmer si l'enquête a besoin d'un retour chez elle. **L'épilogue rouvre la question** : elle est la berceuse d'Eliott et devrait être là quand il entre au jardin.
 - [ ] **Est-elle présente à l'épilogue ?** Voir [`eliott.md`](eliott.md). Si oui, elle y est la seule personne pour qui le silence est une habitude de métier — et elle n'a pas une ligne à dire pour que ça se voie.
 - [ ] **Suit-elle le même enfant du haut en bas ?** *La question posée ici — « le dernier jour n'est plus au jardin » — **est caduque depuis le 17 août 2026** : le dernier jour est au jardin, et la définition du métier tient sans retouche.* Ce qui reste ouvert : un berceur garde-t-il sa charge jusqu'à zéro, ou passe-t-il la main quand l'enfant cesse de parler ? **Question de monde avant d'être une question de fiche** — voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md).
 
 ---
 
-*Vocabulaire : le palier s'appelle **le jardin**, et il est **à huit ans** depuis le 16 août 2026. Aucun mot de parenté n'existe dans ce monde — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).*
+*Vocabulaire : le palier s'appelle **le jardin**, et il est **à huit ans** depuis le 16 août 2026. **On dit « porteur de voiles », jamais « arrivant porteur de voiles »** — le mot est trop connoté, décision de l'autrice ; « le voile » comme phénomène ne change pas. Aucun mot de parenté n'existe dans ce monde — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).*
 
 *Corrections en attente sur le dossier maître, signalées et non appliquées : la ligne « Berceurs / Berceuses » du §10 dit « ceux qui sont au palier » — à élargir, et à écrire « le jardin ». **Et il faut y ajouter les deux actes de métier qui s'y rattachent désormais : le berceur nomme les arrivants de huit ans et moins, et il sait — sans le dire — quand un enfant quitte le plateau.***

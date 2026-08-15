@@ -279,7 +279,7 @@ Les autres espèces auraient elles aussi leur Archiviste. On en parle. On n'en s
 | **Tuteurs** | Élèvent et instruisent les arrivants âgés, dépendants et ignorants. *Celui qui instruit, et le piquet qui tient debout ce qui ne tient pas seul* |
 | **Berceurs / Berceuses** | Accompagnent ceux qui sont au palier, jusqu'au dernier jour |
 | **Chuchoteurs** | Jeunes bras droits des vieux aux commandes, dans n'importe quel domaine. Des formateurs de terrain, en quelque sorte |
-| **Voilés** | Ceux qui gardent des reliquats d'avant. Leur capsule n'a jamais complètement éclairci. Passent pour fous |
+| **Porteurs de voiles** | Ceux qui gardent des reliquats d'avant. Leur capsule n'a jamais complètement éclairci. Passent pour fous |
 
 *Piste non tranchée : « l'Étale » pour nommer le palier — le moment où la marée ne monte plus et ne descend pas encore.*
 
@@ -302,7 +302,7 @@ Notre monde est le précédent. Les âges d'arrivée y répondent.
 
 Un pardon n'est pas une remise de peine, c'est **une seconde chance**. Or on ne peut pas réparer ce qu'on ne se rappelle pas.
 
-Le voilé garde son voile parce qu'il a quelque chose à finir. Ce n'est pas une avarie de capsule : c'est un dossier qu'on lui rend.
+Le porteur de voiles garde son voile parce qu'il a quelque chose à finir. Ce n'est pas une avarie de capsule : c'est un dossier qu'on lui rend.
 
 L'Archiviste, qui ne parle jamais et ne console personne, a quand même fait quelque chose pour lui. Une fois. Sans le dire.
 
@@ -322,7 +322,7 @@ L'Archiviste, qui ne parle jamais et ne console personne, a quand même fait que
 
 **Ni débutant, ni vétéran :** dix ans dans ce monde, cinquante-deux ans au début du roman, plusieurs années de service. Assez pour tenir une cérémonie sans y penser, pas assez pour avoir vu changer quoi que ce soit.
 
-Il lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. Personne ne sait qu'il est voilé. **Lui non plus, au début.**
+Il lit les capsules, tient les cérémonies, note les chiffres, racle ce qui n'a pas éclairci. Personne ne sait qu'il est porteur de voiles. **Lui non plus, au début.**
 
 **Dans la vie d'avant : enquêteur.** Il a supervisé l'affaire des jumelles. **Il l'a résolue — trop tard d'une heure.** Sa faute n'est pas d'avoir échoué : on lui a dit d'arrêter de creuser, et il a obéi. Des semaines perdues. Quand ils ont trouvé la planque, les filles étaient mortes depuis moins d'une heure. Il s'est alors lancé seul à la poursuite de l'assassin, et il est mort avec lui.
 
@@ -348,7 +348,7 @@ Puis elle continuera — adolescente, enfant, palier — et elle ne saura jamais
 
 ## Eliott — le garçon, arrivé à 10 ans
 
-Voilé lui aussi. Insouciant, entouré de tuteurs jaloux de sa condition. Il dit des choses impossibles ; tout le monde le prend pour un fabulateur.
+Porteur de voiles lui aussi. Insouciant, entouré de tuteurs jaloux de sa condition. Il dit des choses impossibles ; tout le monde le prend pour un fabulateur.
 
 Il porte l'attention du lecteur, qui croit tenir là l'anomalie du livre.
 **L'anomalie était le narrateur.**
@@ -401,7 +401,7 @@ L'assassin des jumelles, **mort dans la poursuite, en même temps que Joël.** S
 
 **17. La troisième capsule.** Même date, même travée, jamais éclairci. **Il comprend ce qu'il y avait dedans.**
 
-**18. Le retournement.** S'il se souvient, c'est qu'il est voilé. Depuis toujours. Il n'a jamais enquêté sur le garçon : il enquêtait sur lui-même.
+**18. Le retournement.** S'il se souvient, c'est qu'il est porteur de voiles. Depuis toujours. Il n'a jamais enquêté sur le garçon : il enquêtait sur lui-même.
 
 **19. Le garçon, relu.** Un assassin, un enfant, deux capsules le même jour. Il n'est pas fou : **il a été gracié.**
 
@@ -433,7 +433,7 @@ L'assassin des jumelles, **mort dans la poursuite, en même temps que Joël.** S
 
 3. **Pas de barème dans le texte.** Si le lecteur peut calculer, il arrête d'avoir peur. Tout ce dossier n'existe, dans le livre, que comme **doctrine** : ce que les veilleurs croient, ce que leur culte enseigne, ce que certains contestent. Jamais confirmé.
 
-4. **Rationner les reliquats.** Un seul voilé au centre. L'hypothèse « il fabule » doit rester debout jusqu'au bout. Une fissure = une intrigue ; trois = une contradiction.
+4. **Rationner les reliquats.** Un seul porteur de voiles au centre. L'hypothèse « il fabule » doit rester debout jusqu'au bout. Une fissure = une intrigue ; trois = une contradiction.
 
 ### Comment transmettre les règles sans les énoncer
 

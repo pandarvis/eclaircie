@@ -127,7 +127,7 @@ Rien à annoncer, rien à expliquer : la scène se joue entière dans un enfant 
 **Mouvement 18 — Le retournement** *(ajusté — il s'enchaîne sur la perte)*
 Le retournement ne vient plus d'une déduction brillante : **il vient de ce qui reste.** Privé de son témoin, le veilleur n'a plus d'extérieur où chercher — donc il cherche dedans. C'est la perte du mouvement précédent qui le provoque, et elle doit se lire ainsi : il ne se retourne pas vers lui-même par lucidité, mais **parce qu'il n'y a plus rien d'autre à interroger.**
 
-L'enchaînement complet : la troisième capsule (17) lui donne ce qu'il y avait dedans → le garçon entre au jardin et emporte tout le reste → il ne lui reste que les registres et lui-même (18) → s'il se souvient, c'est qu'il est voilé, et il n'a jamais enquêté sur le garçon.
+L'enchaînement complet : la troisième capsule (17) lui donne ce qu'il y avait dedans → le garçon entre au jardin et emporte tout le reste → il ne lui reste que les registres et lui-même (18) → s'il se souvient, c'est qu'il est porteur de voiles, et il n'a jamais enquêté sur le garçon.
 
 **Ce sur quoi porte la bascule** *(précisé le 14 août — conséquence des reliquats à la troisième personne)*. La révélation n'est plus *« il existe une vie d'avant »* : le lecteur l'aura devinée depuis longtemps, et c'était le défaut du dispositif. Elle devient :
 
@@ -196,7 +196,7 @@ L'arithmétique, elle, ne change pas — elle continue après la fin du livre, q
 
 ## Ce qui n'entre pas dans le plan et ne doit pas y entrer
 
-- **Les grands inventeurs voilés** — collision avec les interdits n° 1 et n° 4. Version conservée : un seul bâtiment inachevé, aperçu une fois, jamais expliqué, jamais relié. Aucun nom de notre monde n'est prononcé. Voir les [notes du 13 août](../01-dossier/notes-en-vrac-2026-08-13.md#7-les-grands-inventeurs-légèrement-voilés).
+- **Les grands inventeurs porteurs de voiles** — collision avec les interdits n° 1 et n° 4. Version conservée : un seul bâtiment inachevé, aperçu une fois, jamais expliqué, jamais relié. Aucun nom de notre monde n'est prononcé. Voir les [notes du 13 août](../01-dossier/notes-en-vrac-2026-08-13.md#7-les-grands-inventeurs-légèrement-porteurs-de-voiles).
 - **L'Archiviste est-il humain ?** — question posée deux fois dans le livre au maximum, jamais résolue, aucun personnage n'a d'avis à la fin. Le veilleur non plus.
 - **Le groupe des jaloux** — il n'existe pas comme groupe. Jamais nommé, jamais organisé, pas de sigle, pas de manifeste, pas de porte-parole, pas de chef à démasquer. Le texte n'en montre que des symptômes : une remarque, une rumeur, une négligence administrative, une foule un soir. Rien qu'on puisse désigner, donc rien qu'on puisse dissoudre — et c'est ce qui doit faire peur. Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md).
 - **Une annonce chiffrée à la cérémonie** — il n'y en a aucune, et il n'y a rien à lire non plus : les capsules ne portent pas de numéro. L'âge **se voit** : un corps apparaît et c'est le corps qui le dit (§6). La foule estime à vue — d'où le *« presque »* dans les chiffres qu'elle lance. Le chiffre exact vient de la mesure du veilleur, après, et n'existe que dans le registre. Ne jamais écrire une scène où un officiant proclame un nombre.

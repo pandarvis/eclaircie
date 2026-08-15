@@ -266,25 +266,25 @@ C'est le gain principal. Jusqu'ici, le livre n'avait qu'une archive : celle de l
 
 **Et c'est un endroit où l'on aurait pu remarquer.** Un enfant qui dit des choses impossibles a été examiné, plusieurs fois, par un professionnel dont le métier est précisément de voir si quelque chose ne va pas — mémoire, compréhension, langage. Ce que ce dossier contient, ce qu'on y a noté ou pas, à qui on l'a signalé ou pas, est disponible pour le récit et ne coûte rien.
 
-**2. Les voilés ne sont pas détectés — et la raison est dans le corps.**
+**2. Les porteurs de voiles ne sont pas détectés — et la raison est dans le corps.**
 
-> **Tranché par l'autrice, 15 août 2026.** *« Un voilé n'est pas une anomalie qui est notée. Juste que quand ce sont des vieux qui arrivent, c'est moins perceptible. Ils sont plus hagards, ils ne sont pas matures, disons que c'est moins perceptible. Là, l'enfant à dix ans : un corps très jeune, très vif d'esprit. Et c'est ce qu'il dit qui interpelle. »*
+> **Tranché par l'autrice, 15 août 2026.** *« Un porteur de voiles n'est pas une anomalie qui est notée. Juste que quand ce sont des vieux qui arrivent, c'est moins perceptible. Ils sont plus hagards, ils ne sont pas matures, disons que c'est moins perceptible. Là, l'enfant à dix ans : un corps très jeune, très vif d'esprit. Et c'est ce qu'il dit qui interpelle. »*
 
 **Il n'existe aucun dispositif de détection, et il n'y a rien à corriger : le monde n'a pas de case pour ça.** Le suivi médical mesure une pente — est-ce que ça progresse, est-ce que c'est dans la normale. Il ne note pas ce que l'arrivant dit, seulement la manière dont il le dit.
 
 **Mais la vraie raison est plus simple, et elle est physiologique.**
 
-Tout arrivant sort hagard. La langue est là, le reste ne l'est pas : l'esprit est lent, flou, sans repères. **Chez un vieillard, cet état dure et il englobe tout.** Il parle mal, il confond, il dit des choses qui n'ont pas de sens — et c'est exactement ce qu'on attend de lui. Un voilé de quatre-vingts ans est **invisible dans le bruit de sa propre arrivée**. Ce qu'il dit d'impossible se noie dans tout ce qu'il dit d'incohérent.
+Tout arrivant sort hagard. La langue est là, le reste ne l'est pas : l'esprit est lent, flou, sans repères. **Chez un vieillard, cet état dure et il englobe tout.** Il parle mal, il confond, il dit des choses qui n'ont pas de sens — et c'est exactement ce qu'on attend de lui. Un porteur de voiles de quatre-vingts ans est **invisible dans le bruit de sa propre arrivée**. Ce qu'il dit d'impossible se noie dans tout ce qu'il dit d'incohérent.
 
 **Chez un jeune arrivant, rien ne se noie.** Un corps de dix ans est vif, l'élocution est nette, la brume se dissipe vite. Ce qu'il dit arrive donc **comme du contenu, pas comme de la confusion**. On l'entend. Et si ce qu'il dit ne colle pas, ça interpelle.
 
 ### Ce que cette règle produit
 
-- **Les seuls voilés que ce monde puisse remarquer sont les jeunes.** Les autres passent, tous, toujours. La doctrine du voile (voir [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md)) repose donc sur une poignée d'enfants — et les arrivants jeunes sont déjà rares, et déjà un sujet gênant (§6).
+- **Les seuls porteurs de voiles que ce monde puisse remarquer sont les jeunes.** Les autres passent, tous, toujours. La doctrine du voile (voir [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md)) repose donc sur une poignée d'enfants — et les arrivants jeunes sont déjà rares, et déjà un sujet gênant (§6).
 - **Personne n'a jamais rien vu chez Andrew.** Il est arrivé à soixante-deux ans, hagard comme tous les vieux, et quoi qu'il ait dit dans ses premiers jours, ça s'est confondu avec le reste. Son dossier de suivi existe quelque part, et il est parfaitement normal. **Lui non plus ne s'en souvient pas.**
 - **Le voile d'Andrew est passé inaperçu pour la raison exacte qui rend celui d'Eliott visible.** Même phénomène, deux âges, deux visibilités. C'est la seule différence entre eux, et elle est mécanique.
 
-**Ce qu'il ne faut jamais faire :** le suivi médical ne doit pas devenir l'instance qui *établit* qu'Eliott est voilé. Une évaluation professionnelle concluant à une anomalie réelle transformerait la fissure en fait démontré, et l'hypothèse « il fabule » tomberait — ce que l'[interdit n° 4](../01-dossier/les-interdits.md) refuse. Le dossier peut contenir une inquiétude, une ligne, une remarque prudente. Jamais une preuve.
+**Ce qu'il ne faut jamais faire :** le suivi médical ne doit pas devenir l'instance qui *établit* qu'Eliott est porteur de voiles. Une évaluation professionnelle concluant à une anomalie réelle transformerait la fissure en fait démontré, et l'hypothèse « il fabule » tomberait — ce que l'[interdit n° 4](../01-dossier/les-interdits.md) refuse. Le dossier peut contenir une inquiétude, une ligne, une remarque prudente. Jamais une preuve.
 
 ---
 
@@ -380,7 +380,7 @@ Deux lectures, et le choix engage le registre entier du livre.
 - [ ] **De combien cela raccourcit l'apprentissage d'Andrew**, et donc le calendrier. Aucun chiffre n'est proposé. Voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md) et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §10.3.
 - [ ] **Le nom du métier et du rendez-vous** — *le suivi*, *les visites*, *le contrôle d'arrivée*, ou autre chose. **Rien n'est retenu.** Voir [« Le nom du métier n'est pas choisi »](#le-nom-du-métier-nest-pas-choisi). *« Pédiatre pour vieux »* est la formule de travail de l'autrice et n'entre pas dans le roman.
 - [ ] **La cadence du suivi.** Combien de rendez-vous, sur combien d'années, et jusqu'où — s'arrête-t-il quand l'arrivant est autonome, ou continue-t-il jusqu'au jardin ? Le principe posé est qu'il y en a d'autant plus qu'on est arrivé haut ; le détail n'est pas réglé, et **aucun chiffre n'est proposé**. *Et « jusqu'au jardin » n'est plus une borne : il y a un troisième temps derrière. Un corps qui redescend sous huit ans est-il encore suivi, et par qui — sachant qu'il cesse de parler vers quatre ?*
-- [ ] **Comment un voilé passe le suivi.** Le protocole ne cherche pas ça, ou ce qu'il dit passe pour de la fabulation ordinaire — voir la section. **Question ouverte, et elle touche à l'[interdit n° 4](../01-dossier/les-interdits.md)** : le suivi ne doit jamais devenir l'instance qui établit qu'Eliott est voilé.
+- [ ] **Comment un porteur de voiles passe le suivi.** Le protocole ne cherche pas ça, ou ce qu'il dit passe pour de la fabulation ordinaire — voir la section. **Question ouverte, et elle touche à l'[interdit n° 4](../01-dossier/les-interdits.md)** : le suivi ne doit jamais devenir l'instance qui établit qu'Eliott est porteur de voiles.
 - [ ] **Ce que contient le dossier de suivi d'Eliott**, et qui peut le consulter. Ressource d'enquête ; à régler dans le plan, pas ici.
 - [ ] **Pourquoi un arrivant sort avec la langue du lieu où il sort.** Ce n'est jamais expliqué et ne doit jamais l'être : même régime que la correspondance des lieux dans [`la-ruche.md`](la-ruche.md) — une régularité de fait que personne ne formule, parce que personne ne connaît d'autre cas. **Attention à l'[interdit n° 7](../01-dossier/les-interdits.md)** : aucun personnage ne doit s'étonner d'une langue, pas plus qu'il ne s'étonne d'un nom de fleuve.
 

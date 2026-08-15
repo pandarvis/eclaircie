@@ -73,7 +73,7 @@ Un nom d'éclaircie n'est pas donné, il est **retrouvé** : le veilleur expliqu
 
 **Ce que ça ajoute, sans un mot de texte.** Elle sort la même matinée, à quelques minutes et quelques travées de lui. Elle dit son propre nom à un veilleur ; à côté, dans la même matinée de service, une inconnue qu'on a fait venir choisit le mot d'un petit chiffre qu'elle ne connaît pas. **Deux gestes qui n'ont aucun rapport, et qui n'en auront jamais.** Elle deviendra berceuse à son tour, et elle sera un jour, elle aussi, celle qu'on appelle pour nommer un arrivant qui n'est rien pour elle.
 
-*Consigne impérative, et elle est plus stricte qu'avant : rien de tout cela ne se dit, ne se remarque, ne se commente — **et rien de tout cela n'est pensable dans ce monde.** Elle ne peut pas savoir ce qu'il est pour elle, parce que ce lien n'a pas de nom ici et pas d'existence non plus. Personne ne le sait. La coïncidence des deux matins n'est visible que pour le lecteur qui aura tout tenu ensemble. Voir la réserve du §4 — elle n'est pas voilée.*
+*Consigne impérative, et elle est plus stricte qu'avant : rien de tout cela ne se dit, ne se remarque, ne se commente — **et rien de tout cela n'est pensable dans ce monde.** Elle ne peut pas savoir ce qu'il est pour elle, parce que ce lien n'a pas de nom ici et pas d'existence non plus. Personne ne le sait. La coïncidence des deux matins n'est visible que pour le lecteur qui aura tout tenu ensemble. Voir la réserve du §4 — elle n'est pas porteuse de voiles.*
 
 ---
 
@@ -177,9 +177,9 @@ Le livre **peut** les faire se croiser — un après-midi au jardin, une relève
 
 ### Réserve importante
 
-**L'interdit n° 4** ([`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md)) impose un seul voilé au centre du livre : *« une fissure = une intrigue ; trois = une contradiction »*.
+**L'interdit n° 4** ([`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md)) impose un seul porteur de voiles au centre du livre : *« une fissure = une intrigue ; trois = une contradiction »*.
 
-Elle n'est donc **pas** une voilée. Conséquences fermes :
+Elle n'est donc **pas** une porteuse de voiles. Conséquences fermes :
 
 - elle ne dit jamais rien d'impossible ;
 - elle n'a jamais de souvenir, jamais de vertige, jamais de reconnaissance ;

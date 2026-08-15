@@ -71,19 +71,19 @@ Le dossier maître dit déjà, à propos de la reconnaissance des capsules sans 
 
 ---
 
-## 7. Les grands inventeurs légèrement voilés
+## 7. Les grands inventeurs légèrement porteur de voiless
 
-**Donné :** certains grands inventeurs seraient des arrivants légèrement voilés — des reliquats qu'ils n'exploitent pas comme tels. Les frères Lumière, de Vinci, Gaudí.
+**Donné :** certains grands inventeurs seraient des arrivants légèrement porteur de voiless — des reliquats qu'ils n'exploitent pas comme tels. Les frères Lumière, de Vinci, Gaudí.
 
 **⚠️ Problème.** L'idée entre en collision frontale avec deux des quatre interdits du dossier maître :
 - **Interdit n° 1** — ne jamais nommer le mécanisme côté « chez nous ». Citer de Vinci ou Gaudí situe explicitement ce monde *après* le nôtre. Le livre cesse d'être un monde et devient une devinette résolue.
-- **Interdit n° 4** — rationner les reliquats. Un seul voilé au centre. L'hypothèse « il fabule » doit tenir jusqu'au bout. Une galerie de génies voilés fait trois fissures au lieu d'une.
+- **Interdit n° 4** — rationner les reliquats. Un seul porteur de voiles au centre. L'hypothèse « il fabule » doit tenir jusqu'au bout. Une galerie de génies porteurs de voiles fait trois fissures au lieu d'une.
 
 **Ce qui est récupérable — et qui est même déjà dans le dossier.**
 Le §12 pose que *« le reliquat n'est pas un souvenir, c'est une vocation »* : la cuisinière qui cuisine, l'homme de 80 ans qui sait tenir un couteau avant qu'on le lui apprenne. Les inventeurs sont exactement ça, poussé à son maximum.
 
 **Version qui tient :**
-- Dans ce monde-ci, il existe des gens d'un talent inexplicable. Personne ne les appelle voilés. On les appelle **doués, audacieux, ou fous**.
+- Dans ce monde-ci, il existe des gens d'un talent inexplicable. Personne ne les appelle porteur de voiless. On les appelle **doués, audacieux, ou fous**.
 - Un seul, aperçu une fois, jamais expliqué, jamais relié à l'intrigue. Proposition : **un bâtiment inachevé** dans la ville, d'une ambition que rien ne justifie, commencé par un arrivant qui a atteint le palier avant de le finir. On passe devant. Un personnage dit une phrase. On n'y revient jamais.
 - **Aucun nom de chez nous n'est prononcé.** Jamais. C'est le lecteur qui pensera à Gaudí — et il ira plus loin que l'autrice, comme le dit l'interdit n° 2.
 

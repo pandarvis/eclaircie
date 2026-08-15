@@ -118,7 +118,7 @@ Elle produit trois conséquences, et c'est là toute sa valeur : **elle fait le 
 
 **Les jumelles, disparues ensemble, arrivent dans la même ruche.** Leur signature — même jour, même âge, à quelques travées d'écart — n'est plus une coïncidence coûteuse : c'est ce que produit une ruche quand deux personnes meurent au même endroit au même moment.
 
-### Et la fabulation du garçon voilé
+### Et la fabulation d'un jeune porteur de voiles
 
 C'est ce qui la rend crédible : **il parle des lieux d'ici**, ceux qu'il a sous les yeux. Il n'évoque pas un ailleurs, il corrige un ici.
 

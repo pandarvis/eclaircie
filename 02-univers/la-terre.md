@@ -116,7 +116,7 @@ Deux conséquences, et aucune n'exige d'être expliquée dans le texte.
 
 **Des gens d'une même vie se retrouvent au même endroit.** C'est le point le plus utile : la mécanique rend vraisemblables, sans un mot, des retrouvailles qui autrement sentiraient la coïncidence. Deux personnes mortes dans la même ville, la même semaine, arrivent dans la même ruche. Le lecteur n'a pas besoin qu'on lui explique pourquoi ; il ne remarquera même pas qu'on ne le lui a pas expliqué. La règle n'a jamais à être énoncée : il suffit qu'elle soit respectée pour que rien ne cloche.
 
-**Le garçon voilé a de quoi fabuler sur des lieux qu'il a réellement sous les yeux.** Puisqu'il est ressorti à l'endroit même où il vivait, ce qui lui remonte porte sur des rues qu'il traverse tous les jours. Ce n'est plus une réminiscence flottante : c'est un désaccord entre ce qu'il voit et ce qu'il croit se rappeler, à un mètre près.
+**Un jeune porteur de voiles a de quoi fabuler sur des lieux qu'il a réellement sous les yeux.** Puisqu'il est ressorti à l'endroit même où il vivait, ce qui lui remonte porte sur des rues qu'il traverse tous les jours. Ce n'est plus une réminiscence flottante : c'est un désaccord entre ce qu'il voit et ce qu'il croit se rappeler, à un mètre près.
 
 Sa fabulation doit rester **banale et locale**. Du registre de : *mais si, il y avait un boulanger ici, pas un magasin de chaussures.* Une devanture, un arbre, un passage, une couleur de façade. Rien de plus.
 
@@ -130,7 +130,7 @@ Si les fleuves et les montagnes portent nos noms, ces noms viennent de nos langu
 
 **Parade retenue :** le traiter comme une **convention d'écriture**, jamais comme un fait du monde. Au même titre que tous les personnages d'un roman français parlent français, quel que soit le pays où ils sont censés vivre. La convention ne se justifie pas, elle s'emploie.
 
-Ce qui suppose une règle stricte : **ne jamais laisser un personnage remarquer que les noms de lieux n'ont aucun sens dans sa langue.** Dès qu'un personnage le remarque, la convention devient un fait, le fait devient une énigme, et l'énigme devient un indice. Or l'interdit n° 4 du §14 impose de rationner les reliquats : **un seul voilé au centre**. Le monde lui-même ne doit pas devenir une fissure supplémentaire.
+Ce qui suppose une règle stricte : **ne jamais laisser un personnage remarquer que les noms de lieux n'ont aucun sens dans sa langue.** Dès qu'un personnage le remarque, la convention devient un fait, le fait devient une énigme, et l'énigme devient un indice. Or l'interdit n° 4 du §14 impose de rationner les reliquats : **un seul porteur de voiles au centre**. Le monde lui-même ne doit pas devenir une fissure supplémentaire.
 
 ---
 
@@ -176,7 +176,7 @@ L'invention se concentre là où elle a de la valeur : **les bâtiments, les ins
 
 ## Le bâtiment inachevé
 
-La piste du bâtiment inachevé — une ambition que rien ne justifie, commencée par un arrivant qui a atteint le jardin avant de la finir, façon retenue de suggérer les grandes figures voilées sans jamais nommer personne de notre monde — **trouve ici sa place naturelle**.
+La piste du bâtiment inachevé — une ambition que rien ne justifie, commencée par un arrivant qui a atteint le jardin avant de la finir, façon retenue de suggérer les grandes figures porteuses de voiles sans jamais nommer personne de notre monde — **trouve ici sa place naturelle**.
 
 C'est une œuvre humaine. Elle appartient donc, par construction, à ce qui diffère. Elle n'a besoin d'aucune justification supplémentaire : dans un monde où tout ce qui est bâti est autre, un bâtiment impossible est simplement un bâtiment de plus. Le lecteur seul y verra autre chose.
 
@@ -188,6 +188,6 @@ Et il se décrit comme tout le reste : par ce qui est là. Des échafaudages, un
 
 - [ ] **La densité de reconnaissable.** Combien de noms réels le texte emploie-t-il, et à quel rythme ? Un fleuve nommé tous les cinquante pages ne produit pas le même effet qu'une géographie complète.
 - [ ] **Le rythme des scènes d'histoire.** Combien de fois le roman ouvre-t-il la petite porte — leçon, affiche, commémoration, chanson — avant que le procédé se voie ?
-- [ ] **La fréquence des fabulations du garçon voilé.** À quel intervalle, et jusqu'où peut-il aller avant qu'un autre personnage relève ?
+- [ ] **La fréquence des fabulations d'un jeune porteur de voiles.** À quel intervalle, et jusqu'où peut-il aller avant qu'un autre personnage relève ?
 
 *Réglés : les toponymes (convention d'écriture, jamais commentée par un personnage) ; les dates (leur calendrier, jamais le nôtre) ; l'origine des capsules (hors de portée des archives, jamais tranchée, jamais expliquée).*

@@ -104,7 +104,7 @@ Ce que ça rend possible, concrètement :
 - elle porte **son nom d'arrivant** ;
 - et elle porte **son numéro**.
 
-Conséquence sur le mouvement 18 : **ce n'est plus une intuition, c'est une lecture.** Il n'a pas à déduire qu'il est voilé par un raisonnement sur ses propres sensations. Il lui suffit de regarder la date, et de reconnaître la sienne. Le retournement cesse d'être une déduction brillante — ce que [`duree-et-calendrier.md`](duree-et-calendrier.md) refuse déjà explicitement — pour devenir ce qu'il doit être : un homme qui lit une ligne administrative et comprend qu'elle parle de lui.
+Conséquence sur le mouvement 18 : **ce n'est plus une intuition, c'est une lecture.** Il n'a pas à déduire qu'il est porteur de voiles par un raisonnement sur ses propres sensations. Il lui suffit de regarder la date, et de reconnaître la sienne. Le retournement cesse d'être une déduction brillante — ce que [`duree-et-calendrier.md`](duree-et-calendrier.md) refuse déjà explicitement — pour devenir ce qu'il doit être : un homme qui lit une ligne administrative et comprend qu'elle parle de lui.
 
 Le §14 exige que *« le détective poursuive des faits, jamais le mystère »*. Ici il poursuit une date. On ne peut pas faire plus factuel.
 
@@ -722,7 +722,7 @@ La question ouverte n'est donc pas s'il faut la garder, mais :
 
 Rien de ce qui précède n'est jamais dit dans le texte, et surtout pas par l'enfant. **Eliott ne sait pas qu'il est mort.** À l'épilogue — **six ans après le corps du roman, à huit ans** —, il raconte ce qui lui est arrivé de l'autre côté **juste avant d'entrer au jardin**, sans rien expliquer, sans rien conclure et sans rien relier à Andrew. Le lecteur, qui a vu la capsule pourrie à la première page, n'apprend aucun fait : il reçoit un aveu.
 
-> **Un seul moment, pas deux.** La confession et l'entrée sont la même scène : **il dépose ce qu'il portait, puis il entre.** C'est la règle du voile appliquée à lui — on arrive voilé parce qu'on n'est pas en paix, et l'on suppose, sans certitude, que les reliquats s'effacent une fois au jardin.
+> **Un seul moment, pas deux.** La confession et l'entrée sont la même scène : **il dépose ce qu'il portait, puis il entre.** C'est la règle du voile appliquée à lui — on arrive porteur de voiles parce qu'on n'est pas en paix, et l'on suppose, sans certitude, que les reliquats s'effacent une fois au jardin.
 
 *Et il n'a rien perdu de sa langue : **à huit ans la parole est intacte.** Elle se dégrade vers quatre ans, bien plus tard, et le livre ne le montre pas. Toute version antérieure qui faisait de cette scène « le dernier moment où il a encore les mots » est fausse.*
 
@@ -779,7 +779,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 
 **Abandonner l'idée de faute.** Il n'a rien à réparer ; le voile n'est plus un pardon mais **un dossier inachevé qu'on lui rend** — ce que le §11 dit déjà textuellement :
 
-> *« Le voilé garde son voile parce qu'il a quelque chose à finir. Ce n'est pas une avarie de capsule : c'est un dossier qu'on lui rend. »*
+> *« Le porteur de voiles garde son voile parce qu'il a quelque chose à finir. Ce n'est pas une avarie de capsule : c'est un dossier qu'on lui rend. »*
 
 **Ce que ça coûte :** la réparation du mouvement 14 disparaît — désobéir ne répare plus rien, ce n'est plus qu'un trait de caractère. Le mouvement 22 perd son objet. Le mouvement 23 perd sa culpabilité et ne garde que le soulagement. **L'acte III s'affaiblit** : il n'y a plus de dette, donc plus de quittance, et le livre se termine sur une constatation au lieu d'une libération.
 
@@ -817,7 +817,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [x] **La confession et l'entrée au jardin sont un seul moment.** Il dépose ce qu'il portait, puis il entre — et **personne ne lui dit dans quoi il entre.** Section 8.4.
 - [x] **Eliott ne perd pas les mots à l'épilogue.** À huit ans la parole est intacte ; elle se dégrade vers quatre ans, bien plus tard, et le livre ne le montre pas.
 - [x] **Le tabou.** Quand un enfant bascule du plateau vers la descente, **on ne le lui dit pas. Les berceurs savent et se taisent.** C'est le seul savoir détenu et gardé de tout le système. Voir [`../03-personnages/june.md`](../03-personnages/june.md).
-- [x] **Le voile est aussi un poids** : on arrive voilé quand on n'est pas en paix, et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce, et elle ne se confirme jamais. Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §9 bis.
+- [x] **Le voile est aussi un poids** : on arrive porteur de voiles quand on n'est pas en paix, et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce, et elle ne se confirme jamais. Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §9 bis.
 - [x] **Le seuil de nommage se lit désormais « huit ans et en dessous »**, huit inclus, et non « moins de huit ans ». Section 2.
 - [x] **Chaque arrivant reçoit un numéro**, attribué par le veilleur en même temps que le nom est inscrit au registre. Commodité administrative, aucun sens, **on l'écrit sans y penser**. Conséquence ici : **le mouvement 18 devient une reconnaissance immédiate et non une déduction.** Section 3 bis, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
 - [x] **Le policier du mouvement 13 n'est pas lassé : il est réaliste, et il annonce une mort.** *« Lâche l'affaire. À l'heure qu'il est, les vers ont commencé le travail. »* Il a raison sur le calcul et tort sur le cas — et c'est ce qui rend la phrase défendable et insoutenable. Section 5.3.

@@ -153,7 +153,7 @@ Arriver jeune *est* la grâce — le §7 le dit depuis toujours : *« c'est la g
 
 ## Le voile n'est pas seulement un dossier qu'on rend : c'est un poids
 
-**On arrive voilé quand on n'est pas en paix avec soi-même.** Ce n'est pas une fonction administrative du système, une pièce qui aurait mal été classée. C'est un état : quelque chose n'a pas été soldé de l'autre côté, et le poids traverse.
+**On arrive porteur de voiles quand on n'est pas en paix avec soi-même.** Ce n'est pas une fonction administrative du système, une pièce qui aurait mal été classée. C'est un état : quelque chose n'a pas été soldé de l'autre côté, et le poids traverse.
 
 ## La dernière grâce, et elle n'est jamais confirmée
 

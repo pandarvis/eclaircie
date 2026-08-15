@@ -31,7 +31,7 @@
 - On sort de la capsule **en sachant parler**, et c'est tout — l'esprit embrumé comme après un très long sommeil.
 - **Le nom n'est pas donné, il est retrouvé** : le veilleur demande, et un mot sort. C'est le **nom d'éclaircie**. Sous huit ans, une berceuse choisit.
 - **Un suivi médical obligatoire** suit chaque éclaircie. Une pédiatrie pour vieillards que personne ne trouve drôle.
-- **Les voilés ne sont pas détectés** : un vieillard sort hagard, et ce qu'il dit d'impossible se noie dans ce qu'il dit d'incohérent. Seuls les jeunes se remarquent.
+- **Les porteurs de voiles ne sont pas détectés** : un vieillard sort hagard, et ce qu'il dit d'impossible se noie dans ce qu'il dit d'incohérent. Seuls les jeunes se remarquent.
 
 ### Le dispositif
 

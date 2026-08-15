@@ -4,7 +4,9 @@
 
 *⚠️ **Le jeu de piste détaillé de l'autrice, 18 août 2026, remplace intégralement les treize beats génériques de la section 2.** La méthode (§1), le déclencheur (§4) et les beats en double (§5) sont conservés ; le parcours compte désormais **dix-neuf scènes**, et l'analyse qu'il appelle est en section 3.*
 
-*Sources : [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §1 bis, §2, §3, §5, §6 — [`le-meme-jour.md`](le-meme-jour.md) §1, §4, §5 — [`faux-raccords.md`](faux-raccords.md) — [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) — [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) — [`duree-et-calendrier.md`](duree-et-calendrier.md) — [`../03-personnages/andrew.md`](../03-personnages/andrew.md) — [`../03-personnages/eliott.md`](../03-personnages/eliott.md) — [`../03-personnages/june.md`](../03-personnages/june.md) — [`../03-personnages/isaac.md`](../03-personnages/isaac.md).*
+*Sources : [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §1 bis, §2, §3, §5, §6 — [`le-meme-jour.md`](le-meme-jour.md) §1, §4, §5 — [`faux-raccords.md`](faux-raccords.md) — [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) — [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) — [`duree-et-calendrier.md`](duree-et-calendrier.md) — [`../03-personnages/andrew.md`](../03-personnages/andrew.md) — [`../03-personnages/eliott.md`](../03-personnages/eliott.md) — [`../03-personnages/june.md`](../03-personnages/june.md) — [`../03-personnages/isaac.md`](../03-personnages/isaac.md) — [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md).*
+
+*⚠️ **Trois décisions neuves de l'autrice sont intégrées ici** : le **mobile de la berceuse**, qui ferme le trou le plus important du document et qui a désormais sa fiche ; le **nadir et la relance par un reliquat**, en section 4 bis ; et la **suspicion que June n'ose pas formuler**, scène 2. **Le vocabulaire change aussi : on dit « porteur de voiles », jamais « arrivant porteur de voiles ».***
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
@@ -79,7 +81,7 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 | # | Temps | Scène | Ce qui s'y joue |
 |---|---|---|---|
 | 1 | Avant la disparition | **Première visite chez June** | un homme qui s'acclimate mal, et un veilleur qui revient sans mandat |
-| 2 | Avant la disparition | **Deuxième visite** | **personne ne le croit, et ça le blesse** — June dépassée, une suspicion qu'elle n'ose pas formuler |
+| 2 | Avant la disparition | **Deuxième visite** | **personne ne le croit, et ça le blesse** — June dépassée, et **une suspicion de voile qu'elle n'ose pas formuler** |
 | 3 | La disparition | **Troisième visite, un mois après** | il vient voir le garçon ; il n'est pas rentré du travail |
 | 4 | La disparition | **Au poste** | Isaac donne des faits et rien d'autre — **jamais le comportement** |
 | 5 | La disparition | **Retour chez June, avec Isaac** | l'état d'esprit, la peur de l'eau, les genoux en sang de la veille |
@@ -93,8 +95,8 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 | 13 | La fausse piste s'éteint | **L'alibi tient** | fausse piste. Tout ce qui précède reste acquis au lecteur |
 | 14 | L'enlisement | **La seconde piste** | ⚠️ **TROU.** Longue, coûteuse, et fausse elle aussi |
 | 15 | L'enlisement | **« Lâche l'affaire »** | après deux semaines de disparition comptées |
-| 16 | L'enlisement | **Isaac lâche l'affaire** | Andrew reste seul |
-| 17 | La remontée | **L'enquête en solo** | ⚠️ **TROU.** Ce qui mène au repaire — et c'est là que tombe le déclencheur du §4 |
+| 16 | L'enlisement | **Isaac lâche l'affaire** | **le nadir. Il part par objectivité, pas par résignation** — et Andrew reste seul |
+| 17 | La remontée | **L'enquête en solo** | ⚠️ **TROU partiel.** Ce qui mène au repaire — le déclencheur du §4 y tombe, **et la relance est trouvée : voir §4 bis** |
 | 18 | La remontée | **Il entre seul, sans attendre** | il a appelé, il n'attend pas |
 | 19 | La remontée | **Il retrouve Eliott** | ses reliquats arrivent, il réalise sa propre mort — **et une berceuse est menottée** |
 
@@ -102,7 +104,11 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 
 **1. Première visite chez June.** Andrew revient de lui-même, sans mandat et sans que personne le lui ait demandé, et il échange avec Eliott. **Le garçon s'acclimate comme il peut, mais il semble très mal à l'aise** — ce n'est pas de la timidité, c'est un corps qui ne trouve pas sa place dans une pièce. Andrew s'assoit, il écoute, il repose la question autrement. Il ne relève rien, il ne note rien : il essaie de comprendre, et il repart avec des choses qu'il ne sait pas où ranger. *Contrainte tenue depuis [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §4 bis : ce n'est jamais une audition. Un homme qui vient voir un gosse, et un gosse qui parle.*
 
-**2. Deuxième visite.** Eliott est retrouvé **à bouder dans un coin**. La raison est nette et elle est le cœur de la scène : **personne ne le croit, et ça le blesse énormément.** Grosse discussion, puis ils sortent, ils vont faire un tour — c'est dehors, en marchant, que le garçon dit ce qu'il dit. **June semble un peu dépassée par les événements.** Elle peut **évoquer une suspicion de voile sans oser la formuler** : c'est tabou, et en plus il est jeune. **Ce cas de figure, elle ne l'a jamais eu personnellement.** *Réglage : la suspicion doit rester une phrase qui s'arrête, pas une hypothèse. June n'est pas un relais d'information ([`../03-personnages/june.md`](../03-personnages/june.md) §2) — elle bute sur un mot et passe à autre chose.*
+**2. Deuxième visite.** Eliott est retrouvé **à bouder dans un coin**. La raison est nette et elle est le cœur de la scène : **personne ne le croit, et ça le blesse énormément.** Grosse discussion, puis ils sortent, ils vont faire un tour — c'est dehors, en marchant, que le garçon dit ce qu'il dit. **June semble un peu dépassée par les événements.** Et — **décision de l'autrice, sa fiche est corrigée en conséquence** — elle **évoque une suspicion de voile sans oser la formuler** : c'est tabou, et en plus il est jeune. **Ce cas de figure, elle ne l'a jamais eu personnellement.** L'exemple donné par l'autrice, à garder tel quel : *« un porteur de voiles de cet âge… je n'en avais jamais vu. »*
+
+*Réglage : la suspicion doit rester **une phrase qui s'arrête**, jamais une hypothèse. June n'est pas un relais d'information ([`../03-personnages/june.md`](../03-personnages/june.md) §2 bis) — elle bute sur un mot et passe à autre chose. **C'est compatible avec l'[interdit n° 4](../01-dossier/les-interdits.md) tant qu'elle ne conclut rien et que personne ne la confirme** : une gêne n'est pas une fissure.*
+
+*Et c'est le rendement de la scène : **c'est par elle que le lecteur apprend ce qu'est un porteur de voiles**, sans qu'aucun narrateur ne l'explique. Elle en parle comme d'une chose gênante, à moitié crue, qu'on ne dit pas — et le lecteur comprend d'un coup que ça existe, que ça a un nom, et que le nom ne se prononce pas volontiers.*
 
 ## La disparition
 
@@ -142,6 +148,8 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 
 **16. Isaac lâche l'affaire** et laisse Andrew seul. La porte ne claque pas : on lui retire une place, pas un droit ([`../03-personnages/isaac.md`](../03-personnages/isaac.md) §2). **Il n'y a plus de second homme dans les scènes**, plus de véhicule, plus de poste où entrer sans s'annoncer, et c'est ce manque qui doit se sentir dans les pages suivantes plutôt que dans une réplique d'adieu.
 
+> **C'est le point le plus bas du livre, et il est tranché : Isaac part par objectivité, pas par résignation.** Développement complet en **§4 bis**, avec la relance qui en sort.
+
 ## La remontée
 
 **17. L'enquête en solo, et ce qui mène au repaire.** ⚠️ **TROU — à trouver par l'autrice.** Rebondissement : **il trouve la planque et appelle Isaac pour qu'il le rejoigne vite.** *C'est ici, et nulle part ailleurs, que tombe le déclencheur de la §4 — Andrew comprend que tout n'était pas de la fabulation. **L'articulation exacte entre ce déclencheur et la découverte de l'adresse n'est pas faite** : le déclencheur donne une direction, pas une porte. Le trou est celui-là, et c'est le plus lourd du parcours.*
@@ -150,9 +158,15 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 
 **19. Il retrouve Eliott.** **Ses reliquats arrivent, et il réalise sa propre mort.** Isaac les a rejoints entre-temps. **Une berceuse est menottée, déjà prête à être embarquée.** *C'est le point où le parcours cesse d'être commun : la fin du chapitre A de [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §5, et le seuil que le lecteur franchit deux fois.*
 
-> **La ravisseuse était une berceuse.** Elle a passé sa vie au contact des arrivants les plus jeunes. ⚠️ **Ses motivations restent à trouver, et c'est le trou le plus important du document.**
+> **La ravisseuse était une berceuse.** Elle a passé sa vie au contact des arrivants les plus jeunes. **✅ Ses motivations sont trouvées, et elles ont désormais leur fiche : [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md).**
 
-*⚠️ **Contradiction à arbitrer, et elle n'est pas mince** : [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) porte une décision de l'autrice du 15 août 2026 — « son ravisseur fait partie des gens qui détestent les arrivants jeunes », il sort du dernier étage de la gradation. **Une berceuse n'en sort pas.** Elle est l'exact contraire du milieu : un métier financé, respecté, dans la confidence des pédiatres du jardin. Toute la section « Le ravisseur d'Eliott sort de ce milieu-là », le verdict qui l'attend et la scène du grief au §7 de ce parcours reposent sur l'ancienne décision. Signalé, non arbitré — voir §6.*
+**Le trou le plus important du document est comblé, et en une phrase :**
+
+> **Elle a passé sa vie à donner des arrivants au jardin. Elle n'en a jamais gardé un seul.**
+
+Ce n'est pas une idéologie, c'est de l'amour possessif — et **c'est son tour** : on commence à lui confier des tâches plus simples, personne ne lui dit pourquoi, et elle prend un arrivant au moment exact où on la retire du monde. **Elle ne veut pas le tuer**, donc Eliott est vivant ; **personne ne se retourne** sur une berceuse qui marche avec un jeune arrivant, donc l'enlèvement n'a demandé ni ruse ni force. *Le reste, la folie comprise, est dans la fiche et n'est pas à recopier ici.*
+
+*✅ **Et la contradiction signalée est arbitrée par l'autrice** : [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) porte une décision du 15 août 2026 — « son ravisseur fait partie des gens qui détestent les arrivants jeunes ». **Elle est périmée.** Le milieu de la jalousie est **une fausse piste, et rien de plus** : la coupable est à l'exact opposé, celle qui les aime trop. Le grief garde toute sa place dans le parcours — scènes 7 et 12 —, **mais il ne mène plus à personne.** Corrections en attente sur `la-jalousie.md`, signalées et non appliquées : voir §6.*
 
 ---
 
@@ -292,7 +306,84 @@ C'est là qu'est sa faute, et elle est nette : **il n'a pas manqué l'indice, il
 
 > **Et le jeu de piste va beaucoup plus loin que cette section ne l'avait prévu : le coupable n'est pas un silencieux du même milieu, c'est une berceuse.**
 
-**La figure se retourne entièrement.** On cherchait quelqu'un de discret parmi des gens hostiles ; c'est quelqu'un dont le métier est d'accompagner les plus jeunes, financé, organisé, respecté, et dans la confidence des pédiatres du jardin. **Personne ne peut la ranger du côté de ceux qui détestent, non parce qu'elle se tait, mais parce qu'elle est du côté opposé.** *C'est plus fort — et ça rouvre la décision du 15 août 2026 signalée en fin de §2. À arbitrer, pas ici.*
+**La figure se retourne entièrement.** On cherchait quelqu'un de discret parmi des gens hostiles ; c'est quelqu'un dont le métier est d'accompagner les plus jeunes, financé, organisé, respecté, et dans la confidence des pédiatres du jardin. **Personne ne peut la ranger du côté de ceux qui détestent, non parce qu'elle se tait, mais parce qu'elle est du côté opposé.** *✅ **Arbitré depuis** : le milieu de la jalousie est une fausse piste et rien de plus, et le mobile de la berceuse est écrit — [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md) §4.*
+
+---
+
+# 4 bis. Le nadir et la relance
+
+## 4 bis.1 Le point le plus bas — tranché
+
+**Isaac lâche l'affaire après deux échecs.** Deux fausses pistes, deux semaines de disparition comptées, et ce que ces deux chiffres valent ensemble. **Et c'est important : il ne part pas par résignation, il part par objectivité.**
+
+> **Il a raison, et c'est ce qui rend son départ insupportable.**
+
+Il n'y a rien à lui reprocher. Il ne se décourage pas, il ne se lasse pas, il n'obéit pas non plus à quelqu'un : il fait le calcul que son métier lui demande de faire, et le calcul dit d'arrêter. Un homme qui se trompe, on lui répond ; **un homme qui a raison, on ne peut rien lui opposer que de vouloir.** C'est exactement ce qui reste à Andrew, et rien d'autre : **il ne veut pas.**
+
+*Terme de scénario, pour situer : c'est le **« All Is Lost »** — le nadir —, et ce qui suit est le **« Break Into Three »**, le second seuil. Le moment où tout semble perdu, puis celui où l'on repart. Le mot n'appartient qu'à cette bible et ne dit rien du texte.*
+
+*Réglage : ne jamais faire d'Isaac un lâche, ni un tiède, ni un fonctionnaire. Il a fait son travail correctement du début à la fin, et il le fait encore en partant. **La scène ne se joue pas entre un bon et un mauvais, elle se joue entre la raison et l'entêtement** — et le livre ne donne tort ni à l'un ni à l'autre, comme partout ailleurs.*
+
+## 4 bis.2 La relance — c'est un reliquat
+
+> **Proposition de l'autrice :** *« Et si c'était un reliquat qui le relançait ? »*
+
+**Retenue — et avec une contrainte à écrire noir sur blanc.**
+
+### ⚠️ La contrainte absolue : un reliquat ne peut pas donner une information
+
+**Les deux affaires sont différentes.** Un souvenir de l'affaire Sorel ne contient pas l'adresse d'une planque d'ici, ni un nom d'ici, ni un visage d'ici. Il n'y a aucun objet commun aux deux mondes, et il ne doit jamais y en avoir.
+
+> **Faire passer un fait d'un monde à l'autre serait une tricherie, et le lecteur la sentirait.**
+
+Il la sentirait même s'il ne pouvait pas la nommer : le livre aurait cessé de payer ses indices et se serait mis à en importer. *C'est aussi, mot pour mot, l'[interdit n° 4](../01-dossier/les-interdits.md) et le §1.4 de ce document — rien de ce que porte un fragment ne doit être utilisable ici.*
+
+### Ce qu'un reliquat peut rendre, en revanche
+
+> **Il peut lui rendre le réflexe.**
+
+C'est exactement le §12 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) : ***le reliquat n'est pas un souvenir, c'est une vocation.*** Ce qui revient n'est jamais ce qu'il faut chercher — **c'est comment on cherche.** Un geste de métier, une façon de s'asseoir devant un dossier, l'idée qu'une chose écartée puisse être reprise.
+
+**Aucune information ne traverse. Seule une manière de faire traverse**, et elle a toujours traversé : c'est le régime du livre entier depuis le premier chapitre.
+
+### La version retenue
+
+> **Le reliquat qui le relance, c'est Joël retournant à ses notes après avoir été écarté de l'affaire.**
+
+**Andrew regarde un homme reprendre un dossier qu'on lui avait fait lâcher.** Il ne le reconnaît pas, il ne comprend rien, il n'a pas de mot pour ce qu'il vient de voir — et **il fait la même chose, peu après, sans faire le lien.**
+
+> **Joël est reparti trop tard. Andrew repart à temps.**
+
+*Et rien de tout cela n'est dit. Personne ne commente, aucune phrase ne rapproche les deux hommes, et Andrew ne s'étonne de rien.*
+
+## 4 bis.3 C'est la troisième occurrence du même geste
+
+**Le motif est déjà installé deux fois, et il se referme ici.**
+
+| | Le geste | De quel côté |
+|---|---|---|
+| **1** | **la phrase dite deux fois** — *« lâche l'affaire »*, scène 15 | une fois chacun, et le lecteur croit n'en lire qu'une (§5) |
+| **2** | **l'obéissance, puis le refus** | Joël a obéi ; Andrew entre seul sans attendre, scène 18 |
+| **3** | **le retour au dossier** | **Joël en retard, Andrew à l'heure** |
+
+**Rien n'est expliqué. Le lecteur assemble.** C'est le même régime de preuve que la vocation de veilleur et que l'aisance d'Andrew dans un poste de police ([`../03-personnages/isaac.md`](../03-personnages/isaac.md) §3) : une évidence disséminée, jamais énoncée, jamais réfutable.
+
+*Et le rendement est double : le doublage du §5 ne produit plus seulement un écho, **il produit une différence** — le même homme, deux fois, et une seule fois à temps. La réparation dont parle le §5 cesse d'être une figure et devient un fait de calendrier.*
+
+## 4 bis.4 L'articulation avec le déclencheur — elle est sans couture
+
+**Les deux moitiés de la scène 17 se répartissent proprement, et elles ne se marchent pas dessus :**
+
+> **Le reliquat lui rend le geste. Ses notes lui donnent le lieu.**
+
+| | Ce que ça fournit | D'où ça vient |
+|---|---|---|
+| **Le reliquat** | **de repartir** — reprendre ce qu'on a lâché | de l'autre monde, et ça ne contient aucun fait |
+| **Le déclencheur du §4** | **où aller** — une phrase d'Eliott qui décrivait un endroit d'ici | d'ici, entièrement, et c'était sur la page depuis le début |
+
+**Aucune information ne traverse**, et la scène 17 cesse d'être un trou entier : il y reste le trajet entre un lieu reconnu et une porte devant laquelle on se tient, et **il ne reste plus que celui-là.**
+
+---
 
 # 5. Les beats en double — conséquence directe de la méthode
 
@@ -316,17 +407,18 @@ Le *« lâche l'affaire »* en est le modèle, et il est déjà écrit ([`le-mem
 
 # 6. Ce qui reste à trouver
 
-## Les cinq trous du parcours
+## Les trous du parcours — il en reste trois
 
-- [ ] **Les motivations de la berceuse.** ⚠️ **TROU, et c'est le plus important du document.** Elle a passé sa vie au contact des arrivants les plus jeunes, et elle enlève l'un d'eux. **Rien n'est proposé ici.** *Sans elles, la scène 19 a un coupable mais pas de fin, et les dix-huit scènes qui précèdent ne savent pas encore vers quoi elles montent.*
+- [x] ~~**Les motivations de la berceuse.**~~ — **comblé, et c'était le plus important du document.** *Elle a passé sa vie à donner des arrivants au jardin, elle n'en a jamais gardé un seul ; c'est de l'amour possessif, pas une idéologie ; et c'est son tour.* Fiche complète : [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md). **Les dix-huit scènes qui précèdent savent désormais vers quoi elles montent.**
+- [x] ~~**La relance après le nadir.**~~ — **trouvée : un reliquat, et c'est Joël retournant à ses notes.** §4 bis. *Elle n'était pas listée comme un trou ; elle en était un.*
 - [ ] **La nature du travail d'Eliott.** ⚠️ **TROU.** *« Petits travaux d'ordre public, sans force ni difficulté »* est tout ce qu'on a. La scène 6 en dépend entièrement : c'est elle qui doit donner l'économie de ce monde, et elle ne peut pas la donner sans un métier.
 - [ ] **Le prénom de l'homme de vingt-deux ans.** ⚠️ **TROU.** Un nom d'éclaircie. Il traverse huit scènes sans être nommé.
 - [ ] **La seconde fausse piste — scène 14.** ⚠️ **TROU.** Le détail sur lequel l'enquête repart n'est pas trouvé. **Sa fonction, elle, est désormais posée au §3.4** : plus courte que la première, et coûtant autre chose que du temps.
-- [ ] **L'enquête en solo et ce qui mène au repaire — scène 17.** ⚠️ **TROU, et c'est le plus lourd en volume.** Le déclencheur du §4 y tombe, mais il donne une direction, pas une adresse. **Il reste tout le travail entre un lieu reconnu et une porte devant laquelle on se tient.**
+- [ ] **L'enquête en solo et ce qui mène au repaire — scène 17.** ⚠️ **TROU réduit de moitié.** *Ce qui est trouvé : le reliquat lui rend le geste (§4 bis), le déclencheur du §4 lui donne la direction.* **Ce qui reste : le trajet entre un lieu reconnu et une porte devant laquelle on se tient**, et rien d'autre.
 
-## Les contradictions signalées, à arbitrer
+## Les contradictions — arbitrées et à répercuter
 
-- [ ] **Le ravisseur sortait du milieu de la jalousie ; c'est une berceuse.** [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) porte une décision du 15 août 2026 que le jeu de piste contredit frontalement. **Sont concernés :** la section « Le ravisseur d'Eliott sort de ce milieu-là », « Le verdict qui l'attend », et la question ouverte « groupe ou pas de groupe ». *Le grief garde toute sa place dans le parcours — scènes 7 et 12 —, mais il ne mène plus au coupable.*
+- [x] ~~**Le ravisseur sortait du milieu de la jalousie ; c'est une berceuse.**~~ — **arbitré par l'autrice : le milieu est une fausse piste, et rien de plus.** La coupable est à l'exact opposé, celle qui les aime trop. **Correction à porter sur [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), signalée et non appliquée** — sont concernés : la section « Le ravisseur d'Eliott sort de ce milieu-là », « Le verdict qui l'attend », et la question ouverte « groupe ou pas de groupe », qui tombe d'elle-même. *Le grief garde toute sa place dans le parcours — scènes 7 et 12 —, mais il ne mène plus à personne.*
 - [ ] **Le mois entre l'arrivée et la disparition** (scène 3) contre le calendrier court de [`../03-personnages/eliott.md`](../03-personnages/eliott.md), qui pose des visites tenant « sur des jours, pas sur des mois ». **L'un des deux documents est à corriger.**
 - [ ] **Vingt-trois arrivants de six ans basculés directement au jardin** (scène 11) contre [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), qui pose qu'on entre au jardin **à huit ans** et qu'en dessous on grandit ailleurs — « le seul temps de la vie qui n'a pas de lieu attribué ». **Le jeu de piste tranche de fait une question ouverte ; il faut le confirmer ou corriger la scène.**
 - [ ] **« Au silence » est à porter au lexique**, et aucun fichier de lexique n'existe dans le dossier. *À créer, ou à ranger dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) avec le reste du vocabulaire institutionnel.*
@@ -338,8 +430,9 @@ Le *« lâche l'affaire »* en est le modèle, et il est déjà écrit ([`le-mem
 - [ ] **Lesquels seront doublés**, et combien. Un seul doublage est acquis — le *« lâche l'affaire »*, scène 15. Trois autres sont proposés au §5.
 - [ ] **Où tombe l'indice du déclencheur dans une scène de visite** — scène 1 ou scène 2 —, et comment il passe inaperçu la première fois. *La scène 2 est le meilleur emplacement : ils sortent faire un tour, et le garçon parle en marchant dans des rues réelles.*
 - [ ] **Combien de temps dure la détention d'Eliott ?** Deux semaines sont comptées à la scène 15, et la scène 14 en ajoute « énormément ». *C'est le compteur du livre — voir [`duree-et-calendrier.md`](duree-et-calendrier.md).*
-- [ ] **La suspicion de voile de June (scène 2) est-elle reprise plus tard ?** Sa fiche pose qu'elle ne relance rien et ne soupçonne rien ; **le jeu de piste lui donne une demi-phrase qui soupçonne.** À tenir au minimum, ou à corriger sa fiche.
+- [x] ~~**La suspicion de voile de June (scène 2) contre sa fiche, qui posait qu'elle ne soupçonne rien.**~~ — **tranché : elle a une intuition, et elle ne la formule jamais.** [`../03-personnages/june.md`](../03-personnages/june.md) est corrigée en conséquence (§2 bis). *Reste ouvert, et c'est mineur : **est-elle reprise plus tard ?** La réponse par défaut est non — une phrase qui s'arrête ne se reprend pas.*
+- [ ] **Où le lecteur apprend-il ce qu'est un porteur de voiles, s'il ne l'apprend pas d'elle ?** La scène 2 est désormais le canal principal, et elle est la seule à ne rien expliquer en l'expliquant. *Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.*
 
 ---
 
-*Vocabulaire vérifié : le palier s'appelle **le jardin** ; deux arrivantes identiques forment **une paire** ; les prénoms d'ici sont des **noms d'éclaircie** ; la cellule temporaire est **« au silence »**. **Joël**, **Liam** et **Sorel** n'appartiennent qu'à la vie d'avant. Aucun mot de parenté ne figure dans ce document ; ni « enfant » ni « vieillard » n'y désignent quiconque de ce monde-ci (interdit n° 11), et personne n'y est désigné autrement que par son âge. **On désigne les gens par leur âge : un arrivant de dix ans, un de vingt-deux, un de quatre-vingt-onze.** *« Garçon » et « gosse » subsistent dans ce document, comme dans les fiches : l'interdit n° 11 les laisse en question ouverte et ne porte de toute façon que sur le texte du roman.*
+*Vocabulaire vérifié : le palier s'appelle **le jardin** ; deux arrivantes identiques forment **une paire** ; les prénoms d'ici sont des **noms d'éclaircie** ; la cellule temporaire est **« au silence »**. **⚠️ Changement de vocabulaire, décision de l'autrice : « arrivant porteur de voiles » est abandonné — trop connoté. On dit désormais « porteur de voiles », au pluriel.** *« Un porteur de voiles de cet âge… je n'en avais jamais vu. »* **Attention : « le voile » comme phénomène ne change pas** — c'est seulement la désignation de la personne. À répercuter dans les fiches et documents qui portent l'ancienne formule. **Joël**, **Liam** et **Sorel** n'appartiennent qu'à la vie d'avant. Aucun mot de parenté ne figure dans ce document ; ni « enfant » ni « vieillard » n'y désignent quiconque de ce monde-ci (interdit n° 11), et personne n'y est désigné autrement que par son âge. **On désigne les gens par leur âge : un arrivant de dix ans, un de vingt-deux, un de quatre-vingt-onze.** *« Garçon » et « gosse » subsistent dans ce document, comme dans les fiches : l'interdit n° 11 les laisse en question ouverte et ne porte de toute façon que sur le texte du roman.*

@@ -36,7 +36,7 @@
 
 ## 4. Rationner les reliquats
 
-> « Un seul voilé au centre. L'hypothèse "il fabule" doit rester debout jusqu'au bout. Une fissure = une intrigue ; trois = une contradiction. »
+> « Un seul porteur de voiles au centre. L'hypothèse "il fabule" doit rester debout jusqu'au bout. Une fissure = une intrigue ; trois = une contradiction. »
 
 **Ce qu'il protège.** Le doute, qui doit survivre à la dernière page. Chaque fissure supplémentaire dans le monde transforme une anomalie en règle, et une règle démontrée ferme le livre.
 

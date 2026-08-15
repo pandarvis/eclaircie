@@ -48,7 +48,7 @@ Deux temporalités qui ne communiquent pas, deux récits qui n'ont aucun point d
 
 **Les deux histoires sont des affaires d'enlèvement.** C'est ce qui rend la confusion possible, et c'est ce qui la rend honnête : le lecteur ne se trompe pas parce qu'on lui cache quelque chose, il se trompe parce que les deux récits racontent la même chose.
 
-**Les reliquats ne sont jamais nommés.** Le mot, la notion, l'explication : rien. Aucun personnage ne dit qu'il se souvient, aucun narrateur ne signale un basculement, aucune typographie ne trie les chapitres. On garde tout pour la fin, quand on réalise d'un coup que le veilleur est un arrivant voilé, et que le voilé est l'enquêteur.
+**Les reliquats ne sont jamais nommés.** Le mot, la notion, l'explication : rien. Aucun personnage ne dit qu'il se souvient, aucun narrateur ne signale un basculement, aucune typographie ne trie les chapitres. On garde tout pour la fin, quand on réalise d'un coup que le veilleur est un arrivant porteur de voiles, et que le porteur de voiles est l'enquêteur.
 
 ---
 
@@ -551,7 +551,7 @@ Le mécanisme est déjà documenté dans [`../02-univers/la-ruche.md`](../02-uni
 
 **Décision de l'autrice, à traiter comme une doctrine du monde et non comme une vérité énoncée.**
 
-Un arrivant voilé a des reliquats qui **peuvent s'expliquer comme des traumatismes de l'ancienne vie**. Là où certains passent à autre chose, certains n'y arrivent pas — comme on parle d'esprits restés sur terre parce qu'ils ne sont pas en paix.
+Un arrivant porteur de voiles a des reliquats qui **peuvent s'expliquer comme des traumatismes de l'ancienne vie**. Là où certains passent à autre chose, certains n'y arrivent pas — comme on parle d'esprits restés sur terre parce qu'ils ne sont pas en paix.
 
 **La finesse est là, et il faut la nommer : c'est une croyance populaire de ce monde-ci, elle a l'air d'une superstition, et elle est vraie.**
 
@@ -566,7 +566,7 @@ Ce que ça donne au livre :
 
 ## 9 bis. Le voile est un poids — et la dernière grâce
 
-> **Décision de l'autrice, 16 août 2026.** **On arrive voilé quand on n'est pas en paix.** Et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce.
+> **Décision de l'autrice, 16 août 2026.** **On arrive porteur de voiles quand on n'est pas en paix.** Et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce.
 
 **La section 9 ci-dessus devient plus qu'une croyance populaire : elle devient la règle, et elle gagne une suite.** Deux choses à tenir ensemble, et elles ne disent pas la même chose du monde :
 
@@ -579,7 +579,7 @@ Ce que ça donne au livre :
 
 **La supposition doit rester une supposition, et c'est ce qui la rend écrivable.** Personne ne l'a vérifiée, personne ne peut la vérifier — un arrivant au jardin ne raconte pas ce qu'il ne porte plus. **Elle se dit exactement comme la croyance du §9** : dans une cuisine, sur le ton dont on parle des fantômes, et quelqu'un peut hausser les épaules. Elle est vraie, et rien ne le confirme.
 
-**Ce que ça produit dans le livre, et c'est le fil des deux voilés :**
+**Ce que ça produit dans le livre, et c'est le fil des deux porteurs de voiles :**
 
 | | Ce qu'il porte | Comment il s'en défait | Ce qu'il obtient |
 |---|---|---|---|
@@ -590,7 +590,7 @@ Ce que ça donne au livre :
 
 **C'est ce qui explique l'épilogue.** Eliott se confesse *avant* d'entrer, parce que c'est le dernier moment où il a encore quelque chose à déposer. **Un seul moment, pas deux.** Voir [`duree-et-calendrier.md`](duree-et-calendrier.md), « L'épilogue », et [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §10.
 
-*Contrainte, la même qu'au §9 et elle est plus stricte encore : **aucun personnage ne dit à un voilé qu'il se libérera.** Ce serait une promesse, donc une consolation, donc une confirmation du système — et l'interdit n° 3 tomberait. Le savoir est au lecteur, qui l'aura entendu une fois, en passant, dans la bouche de quelqu'un qui n'en savait rien.*
+*Contrainte, la même qu'au §9 et elle est plus stricte encore : **aucun personnage ne dit à un porteur de voiles qu'il se libérera.** Ce serait une promesse, donc une consolation, donc une confirmation du système — et l'interdit n° 3 tomberait. Le savoir est au lecteur, qui l'aura entendu une fois, en passant, dans la bouche de quelqu'un qui n'en savait rien.*
 
 ---
 
