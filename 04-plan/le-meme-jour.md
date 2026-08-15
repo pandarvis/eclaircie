@@ -101,11 +101,73 @@ Ce que ça rend possible, concrètement :
 - elle est **consultable** — le registre n'est pas un secret, c'est un document ennuyeux que personne ne lit ([`la-ruche.md`](../02-univers/la-ruche.md)) ;
 - elle est **datée** : date d'apparition, date d'ouverture, travée ;
 - elle porte les âges relevés à l'instrument ;
-- et elle porte **son nom d'arrivant**.
+- elle porte **son nom d'arrivant** ;
+- et elle porte **son numéro**.
 
 Conséquence sur le mouvement 18 : **ce n'est plus une intuition, c'est une lecture.** Il n'a pas à déduire qu'il est voilé par un raisonnement sur ses propres sensations. Il lui suffit de regarder la date, et de reconnaître la sienne. Le retournement cesse d'être une déduction brillante — ce que [`duree-et-calendrier.md`](duree-et-calendrier.md) refuse déjà explicitement — pour devenir ce qu'il doit être : un homme qui lit une ligne administrative et comprend qu'elle parle de lui.
 
 Le §14 exige que *« le détective poursuive des faits, jamais le mystère »*. Ici il poursuit une date. On ne peut pas faire plus factuel.
+
+### 3 bis. Le numéro — et le mouvement 18 cesse d'être une déduction
+
+> **Décision de l'autrice, 16 août 2026.** *« Le nom de famille n'existe pas, mais dans notre société les veilleurs attribuent des chiffres pour faciliter l'administratif. »*
+>
+> Fait de monde établi dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Chaque arrivant reçoit un numéro ». **C'est l'apport le plus important qu'ait reçu ce mouvement.**
+
+**Chaque arrivant reçoit un numéro, attribué par le veilleur en même temps que son nom est inscrit.** Ce n'est rien : une commodité de service, une colonne de plus sur une ligne, un chiffre qu'on donne au comptoir et qu'on recopie sur un formulaire sans le regarder.
+
+#### Ce que ça fait quand il trouve sa ligne
+
+**Il n'a aucun calcul à faire et aucune date à recouper.**
+
+Le numéro est là. C'est le sien. **Celui qu'il écrit sur des formulaires depuis dix ans**, sur des relevés, sur des dossiers, dans des couloirs, sans le regarder une seule fois.
+
+> **Le retournement cesse d'être une déduction pour devenir une reconnaissance immédiate.**
+
+Il n'y a plus rien entre lui et le fait. Pas de raisonnement, pas de rapprochement de dates, pas de motif à retrouver : **la chose la plus banale du monde, vue au mauvais endroit.** Un homme reconnaît son propre numéro comme il reconnaît sa propre écriture — instantanément, sans y penser, et sans pouvoir se tromper.
+
+*Et le §14 est servi mieux qu'il ne l'a jamais été. Il exige que* « le détective poursuive des faits, jamais le mystère ». **On ne peut pas faire plus factuel qu'un numéro sur une ligne.** Ce n'est même plus un indice : c'est une pièce d'identité administrative, écrite par un homme qui finissait sa matinée, et elle attendait dans un document ennuyeux.
+
+#### Si les numéros se suivent — ceux de la paire sont collés au sien
+
+> ⚠️ **Repose sur une proposition non tranchée** : *les numéros suivent l'ordre des arrivées* ([`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), « Chaque arrivant reçoit un numéro »). **L'autrice peut la refuser**, et tout ce paragraphe tombe avec elle sans que le reste du mouvement 18 bouge.
+
+**Quatre capsules pour une seule journée, trois qui éclaircissent : trois numéros consécutifs.** Ceux de Chrissy et Tania sont **collés au sien.**
+
+Et il les a vus mille fois. Le registre est son outil de travail ; il l'a ouvert des centaines de fois pour autre chose ; ces chiffres-là étaient sur la même page, à un rang du sien, depuis le début.
+
+> **Ils étaient à côté du sien depuis toujours, et il n'avait aucune raison de les remarquer.**
+
+*C'est le régime exact du reste du livre : rien n'a été caché, rien n'a été déplacé, rien n'a manqué. Ce qu'il cherchait était rangé à sa place, dans l'ordre, sous ses yeux, pendant dix ans.*
+
+#### Et l'assassin est un numéro manquant
+
+**C'est le point le plus économique du dispositif, et il ne coûte pas une ligne.**
+
+Une capsule qui n'éclaircit jamais ne donne personne. Pas de nom à inscrire, donc pas de numéro à attribuer. Le compteur passe au suivant.
+
+**Sur cette ligne-là, entre les leurs et le sien, il y a un trou.** La capsule qui n'a jamais éclairci n'a laissé qu'une ligne courte — une travée, deux dates, rien d'autre — et, dans la colonne des numéros, un chiffre qui n'a été donné à personne.
+
+> **Il n'a pas de nom, pas de chiffre, pas de ligne. Il a une absence dans une colonne, et personne ne l'a jamais regardée.**
+
+C'est la forme la plus économique possible de ce que décrit le §8. La doctrine tient en une phrase — *l'irréparable est condamné* — et le monde, lui, n'en exécute rien de spectaculaire : il ne juge pas devant témoin, il ne prononce rien, il **n'inscrit pas**. Le verdict le plus lourd du livre se lit à ce qu'il n'y a rien à lire, et il tient dans un intervalle entre deux chiffres consécutifs qui ne le sont pas.
+
+*Le §2 ci-dessus le disait déjà de l'âge : « son verdict se lit à ce qu'il n'y a rien à lire ». Le numéro donne à cette phrase sa forme la plus serrée. Un homme qui n'a jamais éclairci n'est pas absent du registre : **il est le seul endroit du registre où il n'y a rien.***
+
+**Point de vigilance, et il vaut pour toute la scène :** l'[interdit n° 5](../01-dossier/les-interdits.md) refuse toute description d'absence. **On montre les numéros, on n'écrit jamais qu'il en manque un.** Andrew lit une colonne ; le lecteur compte. Si le narrateur signale le trou, la scène devient une démonstration et le mouvement 18 perd exactement ce qu'il vient de gagner.
+
+#### Ce que ça ne remplace pas
+
+**Le numéro renforce, il ne se substitue à rien.** Tout ce que la section 3 pose reste entier et reste nécessaire :
+
+| Ce qui était déjà là | Ce que ça fait toujours |
+|---|---|
+| **La date** | elle est la sienne, et c'est elle qui rattache la ligne à une journée |
+| **La travée** | elle pose les quatre capsules dans la même zone, donc dans la même journée de service |
+| **Les âges relevés à l'instrument** | dix-huit, dix-huit, soixante-deux — et rien pour la quatrième |
+| **Le motif appris sur le dossier d'Eliott** (§8.2 c) | c'est lui qui l'a conduit à chercher, et il le conduit encore |
+
+**Le numéro est simplement ce qui rend la reconnaissance instantanée.** Sans lui, il lit et il comprend ; avec lui, il a compris avant d'avoir fini de lire.
 
 ---
 
@@ -394,6 +456,7 @@ Et cela reste écrivable dans les mêmes contraintes : **lui ne comprend toujour
 
 - rien n'est annoncé — **l'âge se voit**, la foule estime à vue (§6) ;
 - c'est **le veilleur de l'époque qui relève les chiffres à l'instrument** et les consigne : l'heure d'arrivée, les âges, la travée, et le fait que deux se ressemblent sur trois ;
+- **il attribue aussi les trois numéros**, dans le même mouvement que les trois mots qu'il vient d'entendre. C'est le geste le plus insignifiant de sa matinée, et c'est celui que le mouvement 18 rouvrira ([§3 bis](#3-bis-le-numéro--et-le-mouvement-18-cesse-dêtre-une-déduction)). *Aucun chiffre n'est écrit dans le dossier : la forme du numéro n'est pas fixée.* ;
 - c'est **ce document-là** que le protagoniste ira lire, des années plus tard, sans savoir qu'il y figure.
 
 La quatrième capsule, elle, n'est pas dans la salle. Elle s'ouvrira seule, sans prévenir, et quelqu'un la raclera un matin.
@@ -616,6 +679,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [x] **Le tabou.** Quand un enfant bascule du plateau vers la descente, **on ne le lui dit pas. Les berceurs savent et se taisent.** C'est le seul savoir détenu et gardé de tout le système. Voir [`../03-personnages/june.md`](../03-personnages/june.md).
 - [x] **Le voile est aussi un poids** : on arrive voilé quand on n'est pas en paix, et **on suppose, sans certitude, que les reliquats disparaissent une fois au jardin.** C'est la dernière grâce, et elle ne se confirme jamais. Voir [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §9 bis.
 - [x] **Le seuil de nommage se lit désormais « huit ans et en dessous »**, huit inclus, et non « moins de huit ans ». Section 2.
+- [x] **Chaque arrivant reçoit un numéro**, attribué par le veilleur en même temps que le nom est inscrit au registre. Commodité administrative, aucun sens, **on l'écrit sans y penser**. Conséquence ici : **le mouvement 18 devient une reconnaissance immédiate et non une déduction.** Section 3 bis, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
 
 ---
 
@@ -638,7 +702,11 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **Le troisième registre de faux raccord — celui de la langue.** Entre-t-il dans le dispositif de [`faux-raccords.md`](faux-raccords.md), ou reste-t-il à part ? Il n'obéit pas à la règle du dosage : il n'est pas placé, il est partout. Section 4.7.
 - [x] ~~**De combien les jumelles descendent-elles ?**~~ — **calculable depuis le 16 août 2026 : dix marches, de dix-huit à huit**, soit **une trentaine d'années de descente**. Le palier est à huit ans, leur chiffre d'arrivée est fixé à dix-huit, il n'y a plus rien à choisir. Section 2. *Ce qui reste ouvert est leur âge à la scène des excuses, et il relève du calendrier du livre.*
 - [ ] **Où placer le chapitre de la cérémonie groupée** dans le livre : avant le mouvement 15, entre 17 et 18, ou après le retournement ?
-- [ ] **Le mouvement 18 devient une lecture de registre.** Faut-il alors déplacer ou alléger le mouvement 17, qui perd son rôle de dernier verrou ?
+- [ ] **Le mouvement 18 devient une lecture de registre.** Faut-il alors déplacer ou alléger le mouvement 17, qui perd son rôle de dernier verrou ? *La question se durcit depuis le 16 août 2026 : avec le numéro, la lecture est instantanée. Il reste encore moins de place pour un verrou intermédiaire.*
+- [ ] **Les numéros suivent-ils l'ordre des arrivées ?** *Proposition de [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), non imposée, et c'est la décision la plus lourde de conséquences du lot.* Si oui : ceux de Chrissy et Tania sont **collés au sien**, et l'assassin est **un numéro manquant entre les leurs et le sien**. Si non : le numéro reste une commodité, le mouvement 18 garde la date, la travée et les âges, et il redevient une lecture au lieu d'une reconnaissance. Section 3 bis.
+- [ ] **Une capsule sans éclaircie laisse-t-elle un trou dans la suite ?** *Ne se tranche pas séparément de la question précédente.* Si oui, c'est la forme la plus économique du §8 : **pas de nom, pas de chiffre, pas de ligne — une absence dans une colonne.** Section 3 bis.
+- [ ] **Combien de fois le numéro se lit-il avant le mouvement 18 ?** Il faut qu'il soit passé sous les yeux du lecteur assez souvent pour qu'il ne soit rien — un comptoir, un formulaire, une convocation — et jamais une fois de trop, sous peine d'annoncer la scène. **À régler contre la section 1 bis de [`deux-histoires-en-une.md`](deux-histoires-en-une.md), qui commande.**
+- [ ] **La forme du numéro** — longueur, présentation, façon de le dire à voix haute. **Rien n'est fixé, et rien ne doit être inventé avant décision de l'autrice.**
 - [x] ~~Le nom du partenaire qui crie à la poursuite.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle, **jamais écrit dans le roman** : dans le texte, *son collègue*, *son partenaire*. Section 1. Il ne crée aucune exception au §4.6.
 - [ ] **Le nombre de fragments de reliquat** et leur répartition. **Le cadre a changé** : ils ne se répartissent plus sur douze ans mais sur quelques semaines, peut-être quelques mois. La densité augmente d'autant, et il faut vérifier que le rythme reste tenable — voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
 - [ ] **La rime des trois affaires — la souligne-t-on ?** Eliott, la paire, Andrew : trois fois une arrivée et une capsule pourrie le même jour. Une rime voulue est une force, mais trois occurrences risquent de faire paraître le système mécanique. Souligner une fois à l'intérieur du travail d'Andrew, ou tout laisser au lecteur ? Section 8.3. **Non tranché.**

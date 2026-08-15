@@ -57,6 +57,34 @@ C'est ainsi qu'il faut planter tous les autres : **la remarque doit avoir un obj
 
 ---
 
+# 2 bis. L'autre registre — la langue
+
+*Les paires de la section 2 sont du registre du **corps**. Il en existe un second, d'une tout autre nature, et il vient de s'élargir.*
+
+**Ce n'était d'abord qu'un mot isolé — le nom de famille.** Ce sont désormais **trois catégories entières de vocabulaire**, arrêtées le 16 août 2026 et rassemblées à l'[interdit n° 11](../01-dossier/les-interdits.md) :
+
+1. **les mots de parenté** — mère, père, fils, fille, frère, sœur, famille, jumeau ;
+2. **les noms de famille** ;
+3. **« enfant » et « vieillard »**, remplacés par l'âge — *un arrivant de dix ans*, *un de quatre-vingts*, *ceux du jardin*.
+
+Ces mots sont partout dans les chapitres de l'enquêteur, et absents de bout en bout de ceux d'Andrew.
+
+## C'est le faux raccord le plus étendu et le moins visible du livre
+
+Il ne se plante pas, il ne se dose pas, il ne se place pas : **il joue entièrement par l'absence.** Aucune scène ne le porte, aucune réplique ne l'installe, et **personne ne compte les mots qui manquent.** Le lecteur passe d'un monde où l'on peut dire *ma sœur* à un monde où la phrase n'a pas de forme possible, et il ne s'aperçoit de rien — au mieux, à la relecture, il s'avise d'un coup que pas une personne de ce monde-ci n'a jamais eu deux noms, ni été appelée autrement que par un chiffre d'âge.
+
+**Il échappe donc à la règle de dosage (3.5)**, comme déjà noté pour le nom de famille seul : il n'y a rien à doser puisqu'il n'y a rien de dit. Il ne consomme aucune des trois paires, ne se compte pas parmi elles, et ne peut pas déclencher le soupçon prématuré que 3.4 bis interdit.
+
+## Mais c'est la contrainte d'écriture la plus lourde du roman, et il faut le dire franchement
+
+Ce qui ne coûte rien au **dispositif** coûte énormément à l'**écriture**. Un faux raccord du corps s'écrit une fois, dans une phrase, et c'est fini. Celui-ci **porte sur chaque page, chaque dialogue, chaque description** de ce monde-ci, sans une exception : ni dans une pensée rapportée, ni dans une comparaison, ni dans une formule toute faite. Il faudra chercher des tournures en permanence, et les inventer au fil du texte — *celui dont elle a la charge*, *l'arrivant qu'elle accompagne*, *les deux qui se ressemblent*, *une de huit ans*.
+
+**Et c'est ce qui donnera au texte son étrangeté**, sans qu'un mot d'explication soit nécessaire. Une langue qui ne peut pas dire le sang, ni le nom, ni les âges de la vie, est déjà la langue du registre : un lien s'y dit par une charge, une fonction ou une travée. La contrainte pousse dans le sens du monde — elle est pénible à tenir et elle fait le livre.
+
+*Vérification obligatoire à la relecture ligne à ligne, et pas seulement au moment d'écrire : ces mots reviennent tout seuls.*
+
+---
+
 # 3. Les règles d'usage
 
 *C'est le vrai contenu du document. Un faux raccord mal posé ne rate pas son effet : il abîme le livre, parce qu'il se lit comme une erreur.*

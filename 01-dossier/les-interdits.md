@@ -86,6 +86,40 @@
 
 **Exemple de ce qui est interdit.** Une scène où l'on comprend enfin comment fonctionne la ruche, un personnage qui tranche entre l'entité et la machine, une réponse arrachée aux registres. On consulte l'Archiviste, on ne le prie pas, et il ne répond jamais.
 
+## 11. Le vocabulaire de ce monde — trois catégories de mots qui n'existent pas
+
+*Cet interdit ne pose rien de neuf sur les deux premiers points : il rassemble des règles déjà établies et dispersées, pour qu'on puisse enfin y renvoyer par un numéro. Le troisième point, lui, est une décision de l'autrice du 16 août 2026.*
+
+**Ce qu'il protège.** La langue elle-même, qui est le dernier endroit où un monde se trahit. Un mot suppose toujours quelque chose ; employer un mot dont l'objet n'existe pas ici, c'est réintroduire par la grammaire ce que tout le reste du livre s'interdit de dire.
+
+### 1. Aucun mot de parenté
+
+Ni mère, ni père, ni fils, ni fille au sens d'enfant, ni frère, ni sœur, ni famille, ni jumeau — ni rien de ce qui en dérive. **Il n'y a ni naissances, ni sang, ni filiation : ces mots ne désignent rien.** Ce ne sont pas des mots tabous ni tombés en désuétude, c'est une langue qui ne les a jamais formés, faute d'objet. Règle entière et tournures de remplacement dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Aucun mot de parenté n'existe dans cette langue ».
+
+### 2. Aucun nom de famille
+
+Pour exactement la même raison — la famille n'étant pas un concept, elle ne peut pas donner de nom. **On n'a qu'un prénom, celui qu'on a produit soi-même**, un nom d'éclaircie, et un numéro administratif. Un mot chacun, toujours. Règle et contraintes de formulation dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ».
+
+### 3. Ni « enfant », ni « vieillard »
+
+> **Décision de l'autrice, 16 août 2026.** *« Je pense qu'on va éviter de parler dans le livre de vieillard et enfant. Bien sûr on peut parler de tissu vieillissant, de corps rajeunissant, mais je ne peux pas utiliser les mots enfant et vieillard. On restera surtout sur des arrivants de x ans. »*
+
+**Le raisonnement, et il faut le tenir : ces deux mots mentent.**
+
+*Enfant* ne dit pas un âge — il dit une filiation et un avenir : quelqu'un qui vient de quelque part et qui a tout devant lui. *Vieillard* ne dit pas un âge non plus — il dit une vie derrière soi, une usure accumulée, un savoir gagné par les années. **Aucun des deux n'est vrai ici.**
+
+Quelqu'un de huit ans au jardin a peut-être quarante ans d'expérience derrière lui, et il le sait sans savoir qu'il le sait. Quelqu'un de quatre-vingt-dix qui sort d'une capsule est né ce matin : il ne sait pas tenir une cuillère, il ne connaît personne, il n'a rien vécu du tout. Les deux mots importent des suppositions qui ne tiennent pas debout dans ce monde — ils font croire à un sens de la vie qui n'existe pas ici.
+
+**On désigne donc les gens par leur âge, jamais par une catégorie.** *Un arrivant de dix ans.* *Un de quatre-vingts.* *Ceux du jardin.* Le chiffre ne suppose rien : il constate.
+
+**Ce qui reste permis, et l'autrice le précise.** Le corps peut se décrire, et doit pouvoir se décrire. *Tissu vieillissant*, *corps qui rajeunit*, *articulations qui se dénouent*, *peau*, *mains*, *voix qui mue à l'envers* : le physique n'est pas interdit une seconde. **C'est la catégorie sociale qui l'est**, pas la matière.
+
+**Question ouverte, non tranchée.** Est-ce que *garçon*, *fille*, *môme*, *gosse*, *adolescent* tombent aussi ? Ce ne sont ni des mots de parenté ni les deux mots visés, mais ils supposent la même chose : une place dans une vie qui aurait un ordre. La question est posée et reste à l'autrice.
+
+### Ce qui vaut pour les trois
+
+**Ces mots existent parfaitement dans les chapitres de la vie d'avant.** Là-bas il y a des familles, des noms de famille, des enfants et des vieillards, et rien n'interdit de les écrire — c'est même ce qui fait le contraste. **La langue change avec le monde**, et le lecteur ne verra probablement jamais le partage : c'est exactement le régime voulu. Conséquences côté dispositif : [`../04-plan/faux-raccords.md`](../04-plan/faux-raccords.md).
+
 ---
 
 # Ce qui n'est pas un interdit

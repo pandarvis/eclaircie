@@ -162,9 +162,10 @@ Ce qu'un veilleur note, pour chaque capsule :
 - la date d'apparition ;
 - l'avancée de l'éclaircie, relevée au fil des visites ;
 - la date d'ouverture ;
-- **l'âge relevé à l'instrument.**
+- **l'âge relevé à l'instrument** ;
+- et, pour une capsule qui a donné quelqu'un, **le nom d'éclaircie et le numéro** — voir [« Chaque arrivant reçoit un numéro »](#chaque-arrivant-reçoit-un-numéro).
 
-Ce qui n'a pas éclairci entre au registre comme le reste : une travée, une date d'apparition, une date d'ouverture — et pas d'âge. C'est une ligne courte, et personne ne s'y arrête.
+Ce qui n'a pas éclairci entre au registre comme le reste : une travée, une date d'apparition, une date d'ouverture — et pas d'âge, **pas de nom, pas de numéro**. C'est une ligne courte, et personne ne s'y arrête.
 
 Le registre est **consultable** : c'est un service d'archives, et un veilleur y accède par son métier, sans autorisation particulière. Ce n'est pas un secret ; c'est un document ennuyeux que personne ne lit. La désobéissance du mouvement 14 ne consiste donc pas à forcer un accès, mais à continuer de chercher quand on lui a dit d'arrêter.
 
@@ -386,6 +387,62 @@ Ce que ça résout, et ce que ça produit chez Andrew : voir [`../04-plan/le-mem
 
 ---
 
+## Chaque arrivant reçoit un numéro
+
+**Décision de l'autrice, 16 août 2026. C'est le complément direct de la section précédente, et c'est une pièce d'administration, pas une pièce de monde.**
+
+> *« Le nom de famille n'existe pas, mais dans notre société les veilleurs attribuent des chiffres pour faciliter l'administratif. »*
+
+**Chaque arrivant reçoit un numéro, attribué par le veilleur, en même temps que son nom d'éclaircie est inscrit au registre.** Un seul geste, une seule ligne : la travée, l'âge relevé à l'instrument, le mot qui vient d'être produit, et le numéro qui va avec.
+
+**C'est une commodité administrative, et rien d'autre.** Il n'y a pas de noms de famille, donc rien pour distinguer deux personnes qui ont produit le même mot — et deux personnes finissent forcément par produire le même mot. Le service a fait ce que font les services : il a numéroté.
+
+**Le numéro suit l'arrivant toute sa vie.** Formulaires, affectations, dossiers médicaux, école. Il se donne au comptoir, il se recopie sur une convocation, il se demande quand on ouvre un dossier.
+
+> **On l'écrit sans y penser.**
+
+**Personne n'y voit un sens.** Ce n'est ni une place, ni un rang, ni un signe : ça n'ouvre aucune porte, ça ne dit rien de qui l'on est, et nul ne saurait dire d'où vient le sien. **C'est du papier.** Un habitant d'ici connaît son numéro comme nous connaissons le nôtre : par cœur, sans y avoir jamais réfléchi.
+
+*Régime habituel du document : un fonctionnement observé, jamais expliqué. Aucun personnage ne trouve remarquable d'avoir un numéro, et le roman ne s'y arrête pas plus qu'il ne s'arrête sur le fait qu'on ait un prénom ([interdits](../01-dossier/les-interdits.md) n° 3 et n° 10).*
+
+### Ce que ça ne contredit pas
+
+**À écrire noir sur blanc, parce que ce document dit ailleurs qu'il n'y a aucun chiffre.** La section [« Aucun chiffre n'est inscrit »](#aucun-chiffre-nest-inscrit) porte sur **les capsules** : rien n'est marqué, rien n'est gravé, rien ne s'affiche, et rien n'est annoncé à la cérémonie. **Elle reste vraie mot pour mot.**
+
+Le numéro n'est pas sur la capsule : **il est sur la ligne, et il est écrit par un homme, après coup.** Comme l'âge, il vient de l'autre régime — celui du registre, pas celui du rite. La capsule ne dit toujours rien de ce qui en sortira.
+
+### Proposition — les numéros suivent l'ordre des arrivées
+
+> ⚠️ **C'est une proposition, elle n'est pas imposée, et l'autrice doit pouvoir la refuser.** Elle a des effets considérables sur l'intrigue : voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §3 et [`../04-plan/deux-histoires-en-une.md`](../04-plan/deux-histoires-en-une.md) §2.6. **Rien n'est écrit avant qu'elle tranche.**
+
+C'est la façon la plus banale de numéroter, et la plus plausible pour un service d'archives : **on attribue à la suite, dans l'ordre où les gens sortent.**
+
+**Conséquence immédiate, et c'est là que ça devient précieux : deux capsules ouvertes le même jour donnent des numéros qui se suivent.** Une paire porte deux numéros collés ; une matinée chargée en produit une petite série. Rien n'a été ajouté au monde pour obtenir ça — c'est ce que produit mécaniquement un compteur tenu par un service.
+
+*Si l'autrice refuse : le numéro reste, et il garde tout ce qui précède — la commodité, l'usage quotidien, le fait qu'on l'écrive sans y penser. **Ce qu'il perd est le voisinage**, et avec lui la reconnaissance instantanée du mouvement 18 et le trou décrit ci-dessous. L'intrigue retombe alors sur ce qui existe déjà : la date, la travée, les âges relevés à l'instrument. Elle tient, elle est simplement moins immédiate.*
+
+### Et la question qui vaut d'être posée — piste très forte
+
+**Une capsule qui n'éclaircit jamais ne donne personne. Donc pas de nom. Donc pas de numéro.**
+
+Sa ligne existe pourtant : une travée, une date d'apparition, une date d'ouverture, et rien d'autre. Le compteur, lui, ne s'arrête pas. Il passe au suivant.
+
+> **Elle laisse un trou dans la suite. Un numéro manquant, entre deux autres, et rien pour l'expliquer.**
+
+**C'est ainsi qu'une capsule sans éclaircie existe dans un registre : par une absence.** Pas par une mention, pas par une note de service, pas par un signe — par un chiffre qui n'a été attribué à personne, sur une colonne que personne ne lit dans l'ordre.
+
+*Dépendance à ne pas perdre : **le trou n'existe que si les numéros suivent les arrivées.** Sans la proposition ci-dessus, il n'y a pas de suite, donc pas de manque, et cette piste tombe avec elle. Les deux se tranchent ensemble.*
+
+**Point de vigilance, et il est réel.** L'[interdit n° 5](../01-dossier/les-interdits.md) refuse toute description d'absence : on n'écrit jamais que quelque chose manque. Ici, le manque est **sur la page**, pas dans une phrase du narrateur — c'est une colonne de chiffres qu'un homme lit, et il n'y a rien à signaler. La contrainte tient donc à une chose : **montrer les numéros, jamais dire qu'il en manque un.** Le lecteur compte tout seul, comme il compte tout le reste.
+
+### Ce qui n'est pas fixé, et qu'il ne faut pas inventer
+
+**La forme du numéro elle-même** — sa longueur, sa présentation, la manière dont il se dit à voix haute — **n'est pas décidée.** Aucun format, aucun chiffre, aucun exemple n'est écrit dans ce dossier tant que l'autrice n'a pas choisi. Voir « À trancher ».
+
+*Contrainte d'écriture : il doit être assez court pour se dire au comptoir sans y penser, et assez long pour distinguer tout le monde. Rien de plus n'est décidé.*
+
+---
+
 ## Aucun mot de parenté n'existe dans cette langue
 
 **Décision de l'autrice, 15 août 2026. C'est la règle générale ; « il n'y a pas de noms de famille » n'en était que la partie visible.**
@@ -503,6 +560,9 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [x] ~~**L'âge d'arrivée de la paire.**~~ — **tranché : dix-huit ans.** Mortes à dix-huit, arrivées à dix-huit, très au-dessus du seuil ; elles ont produit leurs prénoms elles-mêmes. Voir [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md).
 
 - [x] ~~**Ce que la multiplication des capsules sans éclaircie porte dans le livre.**~~ — **tranché le 15 août 2026 : ce n'est plus le moteur de l'intrigue, c'est une critique laissée en suspens.** Le moteur est l'enlèvement d'Eliott. La courbe reste, elle n'est jamais expliquée par personne, et le lecteur seul en tire la conclusion. Voir [« Ce que la multiplication n'est plus, et ce qu'elle est devenue »](#ce-que-la-multiplication-nest-plus-et-ce-quelle-est-devenue).
+- [ ] **Les numéros suivent-ils l'ordre des arrivées ?** *Proposition, non imposée.* Si oui, **deux capsules ouvertes le même jour donnent des numéros qui se suivent** — et ceux de Chrissy et Tania sont collés à celui d'Andrew. **C'est la décision qui a le plus d'effet sur le mouvement 18** : voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §3. Si non, le numéro reste une commodité et l'intrigue retombe sur la date, la travée et les âges.
+- [ ] **Une capsule sans éclaircie laisse-t-elle un trou dans la suite ?** Pas de personne, donc pas de numéro, donc un chiffre qui n'a été attribué à personne. **C'est la forme la plus économique de ce que décrit le §8 : l'assassin n'a pas de ligne, il a une absence dans une colonne.** *Ne se tranche pas séparément de la question précédente : sans suite, pas de trou.*
+- [ ] **La forme du numéro** — longueur, présentation, façon de le dire à voix haute. **Rien n'est fixé, et rien ne doit être inventé avant décision.** Assez court pour se donner au comptoir sans y penser, assez long pour distinguer tout le monde.
 - [ ] **Par quel canal le chiffre arrive-t-il jusqu'au lecteur ?** Une remarque de vétéran, une ligne de statistique administrative, un relevé annuel affiché quelque part — il en faut au moins deux occurrences pour qu'une courbe existe, et pas davantage. À arrêter avec le mouvement 3.
 
 *Réglé : **aucun mot de parenté n'existe dans cette langue** — la règle dont « pas de noms de famille » et « pas de jumeau » n'étaient que les affleurements. Voir la section correspondante.*
@@ -518,3 +578,5 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 *Réglé : comment on nomme deux arrivants identiques — **une paire**, mot du registre ; « jumeau » n'existe pas dans ce monde et reste réservé aux chapitres de reliquat. Voir [« Une paire »](#une-paire).*
 
 *Réglé : comment s'appelle le nom qu'on reçoit en arrivant — **un nom d'éclaircie**. Voir « Qui nomme un arrivant ».*
+
+*Réglé : **chaque arrivant reçoit un numéro**, attribué par le veilleur en même temps que le nom est inscrit. Commodité administrative, aucun sens, on l'écrit sans y penser. **Restent ouverts l'ordre, le trou et la forme** — voir ci-dessus. Section [« Chaque arrivant reçoit un numéro »](#chaque-arrivant-reçoit-un-numéro).*

@@ -23,6 +23,7 @@
 | **Sorel** | **la vie d'avant uniquement** | le **nom de famille** par lequel les fragments désignent le dossier : *« l'affaire Sorel »*. **Tranché le 15 août 2026.** Section 2.5 |
 
 - **Dans ce monde-ci, personne n'a de nom de famille**, et la règle n'est jamais énoncée dans le roman. On n'écrit donc jamais un second nom pour Andrew, June, Eliott, Isaac, Chrissy ou Tania — ni sur une porte, ni dans un registre, ni dans une convocation. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Il n'y a pas de noms de famille ».
+- **En revanche, chacun a un numéro**, attribué par le veilleur en même temps que son nom d'éclaircie est inscrit au registre — *décision du 16 août 2026*. Ce n'est pas un second nom : c'est une commodité administrative qui sert à distinguer deux personnes ayant produit le même mot. **Il se donne au comptoir, il se recopie sur un formulaire, on l'écrit sans y penser.** Il peut donc s'écrire dans une scène d'ici, à condition qu'il n'y soit rien du tout — **et aucun format, aucun chiffre n'est fixé : ne rien inventer.** Section 2.6, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Chaque arrivant reçoit un numéro ».
 - **Ces prénoms-ci n'ont été donnés par personne : chacun a produit le sien** en sortant de la capsule, à la question du veilleur. Exception, **les arrivants de huit ans et moins**, nommés par une berceuse — *seuil corrigé le 16 août 2026, huit ans inclus, parce que huit ans est aussi l'âge du jardin.* **Eliott, arrivé à dix ans, s'est donc nommé lui-même** — ce n'est pas June qui l'a nommé, et ce point est à répercuter dans [`../03-personnages/june.md`](../03-personnages/june.md) et [`../03-personnages/eliott.md`](../03-personnages/eliott.md), que ce document ne modifie pas. Protocole complet dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Qui nomme un arrivant ».
 - **Andrew et Joël ne se rencontrent jamais dans la même phrase**, sauf décision délibérée de l'autrice. Les mettre côte à côte, c'est écrire deux hommes.
 - **Chrissy et Tania existent dans ce monde-ci, et nulle part ailleurs.** Ce sont les noms que la ruche leur a donnés à leur arrivée. On les emploie librement dans toute scène d'ici. **Dans les chapitres de la vie d'avant, les deux filles n'ont aucun nom** — et **leurs noms d'alors ne sont jamais donnés**, ni au lecteur, ni à un personnage, ni dans ce dossier. Ce n'est pas une lacune, c'est une décision : il n'y a rien à trouver, et rien à inventer.
@@ -123,6 +124,8 @@ La ligne d'archive (§5, « Plus tard »). **Elle ne révèle rien de neuf au le
 Deux capsules en paire, moins d'une heure plus tard la sienne, et une autre qui n'a jamais éclairci. Le lecteur ne découvre rien ; **il vérifie**, et c'est la satisfaction la plus solide qu'un roman puisse donner — celle d'avoir eu raison contre un document qui ne lui devait rien.
 
 *Et c'est la lecture d'Andrew, pas la sienne : Andrew, lui, lit des dates. Le vertige arrive par une colonne de chiffres, à un homme qui cherche autre chose. Voir §6.*
+
+> **Précision du 16 août 2026 : la ligne porte aussi son numéro**, celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. **Sa lecture cesse d'être un recoupement pour devenir une reconnaissance** — la chose la plus banale du monde, vue au mauvais endroit. Le temps 5 ne change pas de fonction pour autant : le lecteur, lui, ne découvre toujours rien, **il vérifie**. Section 2.6, et [`le-meme-jour.md`](le-meme-jour.md) §3 bis.
 
 ## Ce que ça impose
 
@@ -329,6 +332,48 @@ Le mot passe donc sans rien lui apprendre — comme tout le reste. C'est le rég
 
 *Corollaire à ne pas perdre : cela ne rouvre en rien l'[interdit n° 1](../01-dossier/les-interdits.md). Un mot qu'un personnage ne peut pas classer ne lui apprend rien sur l'autre côté ; il ne lui apprend même pas qu'il y a un autre côté.*
 
+## 2.6 Le numéro — ce que le registre a en plus du nom
+
+> **Décision de l'autrice, 16 août 2026.** *« Le nom de famille n'existe pas, mais dans notre société les veilleurs attribuent des chiffres pour faciliter l'administratif. »*
+>
+> Fait de monde dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), section « Chaque arrivant reçoit un numéro ». Développement narratif dans [`le-meme-jour.md`](le-meme-jour.md) §3 bis. **Ce qui suit ne traite que de ce que ça fait au dispositif des deux récits.**
+
+**Le §2.5 avait réglé la vie d'avant : l'affaire porte un nom de famille, et personne n'y a de prénom. Le numéro règle l'autre côté**, et il le règle par le bas : ici, un mot chacun, et un chiffre que personne ne remarque.
+
+### Ce que ça change au temps 5
+
+**Le temps 5 est la confirmation par un document** : le lecteur a déjà compris, et la ligne d'archive lui prouve qu'il avait raison. Cette fonction ne bouge pas d'un mot. Ce qui change est **la lecture d'Andrew, qui se produit dans la même page.**
+
+| | Ce qu'il lui fallait avant | Ce qu'il lui faut maintenant |
+|---|---|---|
+| **Andrew** | lire une date, la reconnaître, faire tenir ensemble une paire, une heure et une capsule qui n'a pas éclairci | **rien.** Le numéro est le sien, il l'écrit depuis dix ans |
+| **Le lecteur** | vérifier ce qu'il avait deviné | **la même chose, et il n'a rien perdu** |
+
+**C'est le meilleur des deux : le document reste administratif, et il devient instantané.** Le §6 pose que *le vertige arrive par une colonne de dates* — il arrive désormais par une colonne de chiffres qu'un homme recopie sans les lire depuis qu'il a pris le poste.
+
+*Et l'ordre du temps 5 est intact : **le lecteur devine, puis on lui prouve.** Le numéro ne lui apprend rien qu'il n'ait déjà. Il ne fait que retirer à Andrew le dernier geste de raisonnement qui le séparait encore du fait — et c'est exactement ce que le §14 demande.*
+
+### Pourquoi ça ne coûte rien au dispositif — même raison qu'au §2.5, à l'envers
+
+**Le §3.2 pose que tout ce qui particularise fortement l'un des deux mondes coûte quelque chose : si le lecteur peut trier les chapitres, les deux récits cessent de se lire comme un seul.** Un numéro qu'on porte toute sa vie ressemble à une particularité de ce monde-ci.
+
+**Et pourtant ça ne coûte rien, à une condition, et elle est simple : il faut qu'il n'ait l'air de rien.** Chez nous aussi, tout le monde a des numéros — dossiers, sécurité sociale, formulaires. **Un chiffre donné à un comptoir ne trie aucun chapitre.** Il ne particularise ce monde-ci que si le texte s'y arrête ; il n'a donc à ne jamais s'y arrêter.
+
+| | Ce qu'on lit | Ce que le lecteur en fait |
+|---|---|---|
+| **Vie d'avant** | *l'affaire Sorel* | rien : c'est ainsi qu'on nomme une affaire |
+| **Ce monde-ci** | un prénom, et un chiffre sur un formulaire | rien : c'est ainsi qu'on remplit un formulaire |
+
+**Le §2.5 avait signalé le premier élément du dossier qui distingue les deux mondes sans affaiblir la confusion. Celui-ci est le second, et il fonctionne à l'envers** : là, une catégorie absente d'un côté ; ici, une commodité présente des deux côtés, qui ne dit rien de personne. **Aucun des deux ne donne au lecteur de quoi trier.**
+
+*Réglage à l'écriture, et c'est le seul : **le numéro doit être passé plusieurs fois sous les yeux du lecteur avant le mouvement 18, et n'avoir jamais rien voulu dire.** Trop peu, la reconnaissance finale ne repose sur rien ; trop appuyé, on annonce la scène et la contrainte du temps 1 se fissure. Voir la section 1 bis, qui commande.*
+
+### Ce que ça fait au temps 1 — rien, et il faut le vérifier
+
+**Le temps 1 est la contrainte absolue : le lecteur ne doit pas même se poser la question.** Un numéro ne la lui pose pas. Il ne désigne personne d'autre qu'un habitant d'ici, il n'existe pas dans les fragments, il ne se compare à rien, et il ne peut pas se lire comme le signe qu'il y a deux hommes.
+
+**C'est même l'inverse : il travaille pour le dispositif.** Chaque fois qu'Andrew écrit son numéro sans le regarder, le lecteur voit un homme accomplir un geste administratif de plus — et il verra, à la relecture, un homme recopier sa propre place dans la journée où il est mort.
+
 ---
 
 # 3. Pourquoi c'est un twist et non une entourloupe
@@ -456,7 +501,11 @@ C'est la seconde chance, et elle n'est pas expliquée : elle est **jouée**. Le 
 
 **La confirmation par le registre est parfaite parce qu'elle est administrative.** Le §14 exige que le détective poursuive des faits, jamais le mystère. Il lit l'horodatage de sa propre mort dans un document ennuyeux : une paire, une travée, une heure, puis une ligne courte sans âge. Aucune révélation ne lui est adressée, aucun document n'a été écrit pour lui, personne ne l'attendait là. **Le vertige arrive par une colonne de dates.**
 
-*Rappel de [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) : la ligne existe, elle a été écrite par un veilleur de l'époque, elle est consultable sans autorisation, et elle porte son nom d'arrivant. Rien n'a à être forcé, rien n'a à être inventé.*
+**Et depuis le 16 août 2026, par une colonne de chiffres.** La ligne porte son numéro — celui qu'il donne au comptoir, celui qu'il recopie sur des relevés depuis dix ans. **Il n'a plus rien à recouper : il reconnaît.** Si les numéros suivent l'ordre des arrivées, ceux de la paire sont collés au sien, et là où l'assassin devrait figurer il n'y a rien du tout : **pas de nom, pas de chiffre, pas de ligne — une absence dans une colonne, que personne n'a jamais regardée.** Développement complet dans [`le-meme-jour.md`](le-meme-jour.md) §3 bis ; **l'ordre des numéros reste une proposition et l'autrice peut la refuser.**
+
+*Contrainte qui vient avec : l'[interdit n° 5](../01-dossier/les-interdits.md) refuse toute description d'absence. **On montre la colonne, on n'écrit jamais qu'il y manque un chiffre.** Le lecteur compte seul, comme partout ailleurs dans le livre.*
+
+*Rappel de [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) : la ligne existe, elle a été écrite par un veilleur de l'époque, elle est consultable sans autorisation, et elle porte son nom d'arrivant et son numéro. Rien n'a à être forcé, rien n'a à être inventé.*
 
 ---
 
@@ -632,5 +681,9 @@ Le §10 réserve les berceurs à ceux qui sont **au jardin**, et les tuteurs aux
 - [ ] **Comment situer l'épilogue dans le temps.** Le corps de l'enfant ne date plus le saut : dix ans à huit ans, ça ne se voit presque pas. **Question neuve du 16 août 2026.** Section 10.4.
 - [x] ~~Comment nomme-t-on l'affaire dans les fragments sans prononcer de prénom ?~~ — **tranché le 15 août 2026 : par un nom de famille, *« l'affaire Sorel »*.** Section 2.5.
 - [x] ~~Le nom de famille lui-même~~ — **tranché le 15 août 2026 : Sorel.** C'est le mot le plus répété de tous les fragments, et il ne situe rien.
+- [x] ~~Comment distingue-t-on deux personnes qui ont produit le même mot ?~~ — **tranché le 16 août 2026 : par un numéro**, attribué par le veilleur en même temps que le nom est inscrit. Commodité administrative, aucun sens, **on l'écrit sans y penser**. Section 2.6.
+- [ ] **Les numéros suivent-ils l'ordre des arrivées ?** *Proposition de [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md), non imposée.* Si oui, ceux de Chrissy et Tania sont **collés à celui d'Andrew**, et l'assassin est **un numéro manquant entre les leurs et le sien**. **Elle a des effets considérables sur le mouvement 18** — voir [`le-meme-jour.md`](le-meme-jour.md) §3 bis. *Le trou laissé par une capsule sans éclaircie ne se tranche pas séparément : sans suite, pas de manque.*
+- [ ] **Combien de fois le numéro se lit-il avant le temps 5**, et dans quelles scènes ? Il doit n'avoir jamais rien voulu dire, et avoir été vu. **Se règle sur la section 1 bis, et non l'inverse.**
+- [ ] **La forme du numéro** — longueur, présentation, façon de le dire à voix haute. **Rien n'est fixé ; ne rien inventer avant décision de l'autrice.**
 - [ ] **La révision du §4 du dossier maître** — *on sort de la capsule en sachant parler*. Elle est écrite dans [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md) et **le dossier maître n'a pas été corrigé**. À reprendre par l'autrice.
 - [ ] **L'incidence sur §10.3, *dix ans de métier ou dix ans dans ce monde ?*** La langue étant acquise dès la sortie, l'apprentissage d'Andrew est plus court qu'on ne le supposait. Aucun chiffre n'est proposé ; la question devient plus facile à trancher dans un sens que dans l'autre.
