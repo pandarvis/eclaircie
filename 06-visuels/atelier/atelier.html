@@ -828,8 +828,8 @@ const ACTES = [
   { t: `La fausse piste s'éteint`, c0: 14, c1: 16 },
   { t: `L'enlisement`,         c0: 17, c1: 23 },
   { t: `La remontée`,          c0: 24, c1: 27 },
-  { t: `Le seuil franchi deux fois`, c0: 28, c1: 32 },
-  { t: `Épilogue`,             c0: 33, c1: 35 }
+  { t: `Le seuil franchi deux fois`, c0: 28, c1: 33 },
+  { t: `Épilogue`,             c0: 34, c1: 36 }
 ];
 
 const SCENES = [
@@ -1104,7 +1104,7 @@ const SCENES = [
   id: `ceremonie2`, no: `Entre 12 et 13`, col: 15, row: `andrew`, acte: `La fausse piste s'éteint`,
   titre: `Sa cérémonie, vue de l'intérieur`,
   statut: `acquis`, pivot: true,
-  resume: `Sa propre arrivée, dix ans plus tôt. Trois capsules groupées, une paire dont la salle s'émerveille, un veilleur qui note tout. Il ne comprenait rien : il venait de sortir.`,
+  resume: `Sa propre arrivée, dix ans plus tôt. **Il se réveille comme d'un sommeil profond**, aveuglé par la lumière, les voix lui parviennent étouffées. Une paire dont la salle s'émerveille, un veilleur qui note tout. Puis on s'adresse à lui : *« Quel sera ton prénom ? Comment veux-tu qu'on t'appelle pour te désigner ? »*`,
   produit: `Le livre contient deux descriptions de cérémonie, toutes deux d'Andrew : celle où il accueille — le prologue, le professionnel au travail — et celle où il est accueilli, par quelqu'un qui n'a aucun mot pour ce qu'il voit. **Le même rite depuis les deux bouts, et c'est le dispositif d'ensemble à l'échelle d'un chapitre.**`,
   clef: `**Elle s'intercale entre les deux scènes de Joël, et c'est quelque chose dans le discours de l'homme qui donne prétexte à se souvenir.** Décision de l'autrice, 16 août 2026. *Le lecteur croit lire une seule pensée continue : un homme sort d'un pas de porte et une chose qu'on vient de lui dire lui rappelle son propre premier jour. Il y a deux hommes, deux mondes, et il ne le saura pas.*`,
   monde: `La cérémonie vue par quelqu'un qui ne sait rien. Et, sans que personne le sache, la journée des quatre capsules : la paire, lui, et une quatrième qui n'éclaircit pas.`,
@@ -1112,7 +1112,9 @@ const SCENES = [
   gardes: [
     `Il ne comprend rien et ne doit rien comprendre.`,
     `La salle s'émerveille de la paire : « elles sont pareilles », « première fois que j'en vois », « j'en ai déjà vu il y a quelques années ». Rien de plus.`,
-    `**La quatrième capsule doit être là et ne rien peser.** Une corvée au fond de l'allée, deux hommes en combinaison, une odeur. Personne ne s'y arrête, le narrateur non plus.`,
+    `**La quatrième capsule doit être là et ne rien peser.** Un veilleur s'occupe des arrivants pendant qu'un autre racle, plus loin, pour que l'infamie de la chose n'entrave pas la cérémonie. *Un chifoumi silencieux s'est joué entre eux ce matin-là, et personne ne le racontera jamais.* Ce qu'Andrew en attrape est une odeur, mentionnée par quelqu'un au loin, et rien de plus.`,
+    `⚠️ **Le récit doit montrer qu'il n'entend pas.** Une bouche qui bouge, des mots qui ne se forment pas, une phrase d'accueil dont il ne retient que les deux premiers mots. **C'est la condition pour que la seconde version, au chapitre F, soit un blanc qu'on comble et non une information qu'on avait gardée sous le coude.**`,
+    `De la phrase d'ouverture, il n'attrape que *« Bienvenue à tous »*. La suite se perd, et le lecteur voit qu'elle se perd.`,
     `Aucun personnage ne rapproche jamais les trois arrivées. Le lecteur seul aura vu la pièce.`
   ],
   pourquoi: [
@@ -1123,7 +1125,8 @@ const SCENES = [
     `**Et ça change la nature du temps 5.** Quand il lit sa ligne, le lecteur ne reçoit pas une explication : il se souvient d'une pièce où il était. *Un souvenir frappe plus fort qu'une révélation.*`
   ],
   contre: `**Ce que ce placement coûte, et il faut le savoir :** la paire n'apparaît plus tôt dans le livre, mais au milieu — et dans une scène chargée, pas en décor. *Le risque est que le lecteur rapproche trop vite les deux corps identiques du chapitre B de la paire qu'il vient de voir naître.* **Ce qui l'en empêche est l'interdit n° 1 :** il ignore que les arrivées répondent à des morts, donc il n'a pas la marche à monter. **Mais la marche existe, et elle est plus courte qu'avant.**`,
-  ouvert: [`⚠️ **Ce que l'homme dit qui donne prétexte au souvenir.** Il est du monde d'avant, donc Andrew ne l'entend pas : **le déclenchement ne vaut que pour le lecteur.** Pistes d'équivoque, à trancher — *« ça fait dix ans que ça dure »* (le chiffre exact de son arrivée) ; *« on est arrivés en même temps, lui et moi »* (embauchés la même semaine là-bas, trois capsules le même matin ici) ; *« vous croyez que je me souviens de ce que j'ai dit il y a dix ans ? »*`,
+  ouvert: [`✅ **Ce chapitre est repris une seconde fois, au chapitre F**, après la mort de Joël — plus bref, moins tourné vers lui, et cette fois il entend la phrase entière. *Les deux récits doivent être vérifiables l'un contre l'autre : rien dans le second qui ne pouvait être manqué dans le premier.*`,
+           `⚠️ **Ce que l'homme dit qui donne prétexte au souvenir.** Il est du monde d'avant, donc Andrew ne l'entend pas : **le déclenchement ne vaut que pour le lecteur.** Pistes d'équivoque, à trancher — *« ça fait dix ans que ça dure »* (le chiffre exact de son arrivée) ; *« on est arrivés en même temps, lui et moi »* (embauchés la même semaine là-bas, trois capsules le même matin ici) ; *« vous croyez que je me souviens de ce que j'ai dit il y a dix ans ? »*`,
            `⚠️ **Contrainte de loyauté, et elle est absolue.** Le texte ne doit **jamais** placer Andrew chez l'homme. Pas de « en repartant de chez lui », pas de voiture qu'on referme, pas de porte dans le dos. *On l'ouvre ailleurs — à la ruche, dans un couloir, devant un lavabo — et le lecteur fait le raccord tout seul. Rien n'est caché : quelque chose n'est simplement pas dit.*`,
            `Si la paire apparaît ici, la scène « la paire, en passant » disparaît — ou se réduit à la seule réplique du ratio, à placer ailleurs et plus tôt.`],
   src: `04-plan/deux-histoires-en-une.md §7 — 04-plan/le-meme-jour.md §1`
@@ -1500,11 +1503,41 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/la-berceuse.md — décision du 16 août 2026`
 },
 {
-  id: `registre-fin`, no: `Temps 5`, col: 32, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `ceremonie3`, no: `Chapitre F`, col: 32, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  titre: `La cérémonie, une seconde fois`,
+  statut: `acquis`, pivot: true,
+  resume: `Le souvenir revient, et il n'est plus le même. **Plus bref, moins tourné vers lui.** Cette fois il entend la phrase d'ouverture en entier — *« la cérémonie du jour nous offre trois arrivants au lieu de deux ; le troisième nous ayant surpris par son éclaircissement inopiné »* — et il entend, au loin, quelqu'un parler d'une odeur.`,
+  produit: `🔴 **C'est son défaut qui se rejoue une dernière fois, et c'est la seule fois où le lecteur le voit se produire en direct.** L'information était dans sa tête depuis dix ans. Il ne l'a pas manquée : **il ne l'a pas écoutée** — exactement comme il n'a pas écouté un arrivant de dix ans qui lui parlait.`,
+  clef: `**Et ce n'est pas une tricherie, parce que le monde a déjà expliqué pourquoi il n'entendait pas.** Un arrivant sort embrumé, aveuglé, les voix lui parviennent étouffées : *le premier récit montrait déjà une bouche qui bougeait sans qu'il attrape les mots.* **Le texte n'a rien caché — il a rendu une perception, et elle était fidèle.**`,
+  lecture: `Il ne reçoit aucun fait nouveau : il reçoit un fait ancien, à sa place. *Et il peut relire les deux versions et vérifier que la seconde ne contient rien que la première ait escamoté.*`,
+  monde: `**Deux choses, et aucune n'est expliquée.** Les capsules de la paire étaient attendues ; la sienne, non. *Une vie qui s'éteint lentement fait mûrir lentement ; une mort soudaine fait mûrir vite.* Et l'odeur, au loin : un veilleur s'occupait des arrivants pendant qu'un autre raclait, pour que l'infamie de la quatrième capsule n'entrave pas la cérémonie.`,
+  qui: [`andrew`,`chrissy`],
+  gardes: [
+    `**Le premier récit doit montrer qu'il n'entend pas.** Des voix étouffées, une bouche qui bouge, des mots qui ne se forment pas. *Sans ça, la seconde version ressemble à une information qu'on avait gardée sous le coude ; avec ça, elle est un blanc que le lecteur avait sous les yeux.*`,
+    `**Personne ne commente.** Il ne dit pas « je me souviens maintenant », le narrateur ne signale pas que la version a changé, et aucune phrase ne rapproche les deux récits.`,
+    `Il ne comprend toujours rien. Il a un fait de plus et pas une conclusion.`,
+    `**L'odeur reste une odeur.** Personne ne dit ce qui la produisait, et surtout pas lui.`
+  ],
+  phrases: [
+    { t: `Bienvenue à tous.`, n: `Ouverture du premier récit, et tout ce qu'il en attrape.` },
+    { t: `Bienvenue à tous. La cérémonie du jour nous offre trois arrivants au lieu de deux, le troisième nous ayant surpris par son éclaircissement inopiné.`, n: `**La même phrase, entendue en entier.** Formulation de l'autrice. *Elle dit, sans que personne puisse le lire ainsi, que deux morts étaient prévisibles et qu'une ne l'était pas.*` },
+    { t: `Quel sera ton prénom ? Comment veux-tu qu'on t'appelle pour te désigner ?`, n: `Formulation de l'autrice, identique dans les deux récits — c'est elle qui prouve au lecteur que c'est bien la même scène.` }
+  ],
+  pourquoi: [
+    `**Le souvenir vient avant le registre, et il le motive.** Un homme qu'un reliquat vient de frapper ne va pas d'abord aux archives : quelque chose remonte, et c'est ce quelque chose qui l'envoie vérifier. *Le dossier cherchait depuis longtemps une raison qu'Andrew ait d'aller au registre. Elle est là, et elle arrive à la fin.*`,
+    `**Le souvenir n'établit rien, le registre établit tout.** L'un rouvre, l'autre prouve. Les intervertir donnerait une preuve avant une question, et il ne resterait plus qu'à commenter.`,
+    `**Et le doute vit un chapitre de plus.** Un souvenir ne se vérifie pas ; l'hypothèse « il fabule » sort de cette scène aussi solide qu'elle y est entrée.`
+  ],
+  ouvert: [`⚠️ **Ce que le lecteur peut déduire de l'éclaircissement inopiné, et il faut le vouloir avant de l'écrire.** Si les capsules de la paire étaient attendues, c'est que leur vie s'est éteinte lentement — *donc qu'elles ont agonisé pendant que Joël les cherchait, et que la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler. Le lecteur, lui, a la règle depuis le premier chapitre.**`,
+           `La longueur du second récit. *Plus bref que le premier — c'est ce qui signale, sans un mot, qu'on n'y cherche plus la même chose.*`],
+  src: `04-plan/deux-histoires-en-une.md §7 — 02-univers/la-ruche.md — décision du 16 août 2026`
+},
+{
+  id: `registre-fin`, no: `Temps 5`, col: 33, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La ligne de registre`,
   statut: `acquis`,
-  resume: `Une date, une travée, deux numéros collés — et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Moins d'une heure plus tard, une autre capsule, qui n'a jamais éclairci.`,
-  produit: `La ligne ne révèle rien de neuf : elle confirme, et elle confirme par un document. C'est le bon ordre — le lecteur devine, puis on lui prouve. Il ne découvre rien, il vérifie.`,
+  resume: `**Il y va parce que le souvenir l'y envoie.** Une date, une travée, **trois arrivants** — deux numéros collés, et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Et une quatrième ligne, courte : une travée, deux dates, et rien d'autre. **Ni âge, ni nom, ni numéro.**`,
+  produit: `La ligne ne révèle rien de neuf : elle confirme, et elle confirme par un document. C'est le bon ordre — **le lecteur devine, puis on lui prouve.** Il ne découvre rien, il vérifie. *Et la scène cesse d'être gratuite : le chapitre précédent lui a donné une raison d'ouvrir le registre.*`,
   clef: `Il a déjà vu la figure une fois, propre, gratuite, sans conséquence, à la scène 8 : deux arrivées le même jour signifient une seule mort. Il sait ce qu'elle veut dire avant qu'on la lui remontre.`,
   monde: `Le numéro, qu'il faut avoir fait passer plusieurs fois sous les yeux du lecteur avant, en n'ayant jamais rien voulu dire — un comptoir, un formulaire, une convocation.`,
   qui: [`andrew`],
@@ -1519,7 +1552,7 @@ const SCENES = [
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 33, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 34, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1534,7 +1567,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Épilogue · six ans plus tard`, col: 34, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Épilogue · six ans plus tard`, col: 35, row: `andrew`, acte: `Épilogue`,
   titre: `La confession d'Eliott`,
   statut: `acquis`, pivot: true,
   resume: `Il a huit ans, Andrew en a quarante-six. Il raconte ce qui lui est arrivé de l'autre côté : une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, racontés comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. C'est le calme qui glace.`,
@@ -1553,7 +1586,7 @@ const SCENES = [
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Dernière page`, col: 35, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Dernière page`, col: 36, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `acquis`,
   resume: `Il dépose ce qui le faisait souffrir, et il entre. Personne ne lui dit dans quoi il entre. Andrew le regarde faire en sachant, et se tait.`,
@@ -1582,7 +1615,7 @@ const LIENS = [
   [`s15b`,`s15c`,`a`], [`s15c`,`s16`,``], [`s16`,`s17a`,``], [`s17a`,`s17b`,`j`], [`s17b`,`s17c`,`a`],
   [`s17c`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19a`,`a`],
-  [`s19a`,`poursuite`,`j`], [`poursuite`,`s19c`,`a`], [`s19c`,`registre-fin`,`a`],
+  [`s19a`,`poursuite`,`j`], [`poursuite`,`s19c`,`a`], [`s19c`,`ceremonie3`,`a`], [`ceremonie3`,`registre-fin`,`a`],
   [`registre-fin`,`excuses`,`a`], [`excuses`,`confession`,`a`], [`confession`,`jardin-fin`,`a`]
 ];
 
@@ -2111,6 +2144,18 @@ const NOTES = [
   v:`La scène recommence, Andrew vient de retrouver Eliott. Isaac les rejoint. Il sent pourtant une présence derrière eux. Une silhouette apparaît. Fin du chapitre. // Chapitre suivant, la silhouette prend la fuite. Sans réfléchir, il s'élance à sa poursuite. Une rage, la colère, l'envie de tuer. « Joël attends ! » La poursuite, la mort. // On revient ensuite côté Andrew, qui réalise sa propre mort. Il observe dubitativement la berceuse qui a compris qu'elle était prise sur le fait. Elle n'a pas tenté de s'enfuir, elle semblait juste profondément triste. Isaac lui passe les menottes.`,
   q:`**La silhouette existe dans les deux mondes ; seule la fuite n'appartient qu'à un seul.** Le chapitre d'Andrew se ferme sur une apparition et rien de plus — *rien ne dit qu'elle bouge, c'est le lecteur qui la fait courir.* **Le cri tombe donc au milieu d'une course entièrement investie comme celle d'Andrew**, au moment où le lecteur est le moins capable de s'en défendre. Puis le chapitre suivant apprend, sans une ligne pour le dire, que personne n'a couru de ce côté-ci. *Elle n'a pas fui : on ne fuit pas quand on n'a nulle part où aller et rien à sauver.*` },
 
+{ d:`16 août`, s:`Ce qu'Andrew fait de la révélation`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`Est-ce que ce ne serait pas le meilleur moment pour qu'il consulte le registre ? Soit ça, soit il se remémore un détail de la cérémonie, des phrases qui n'ont pas été dites, du moins qu'il n'a pas jugé bon de se souvenir à la première description. Un veilleur qui précise que les capsules étaient prévues pour les paires, mais que la sienne ne l'était pas.`,
+  q:`**Les deux, et dans cet ordre : le souvenir d'abord, le registre ensuite.** *L'un rouvre, l'autre prouve.* Un homme qu'un reliquat vient de frapper ne va pas d'abord aux archives : quelque chose remonte, et c'est ce quelque chose qui l'y envoie. **Et ça bouche un trou que le dossier traînait depuis le début — le motif qu'Andrew a d'ouvrir le registre.** Les intervertir donnerait une preuve avant une question, et il ne resterait plus qu'à commenter.` },
+
+{ d:`16 août`, s:`Ce qu'il n'avait pas entendu`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`« Bienvenue à tous. La cérémonie du jour nous offre 3 arrivants au lieu de 2, le troisième nous ayant surpris par son éclaircissement inopiné. » // Quelqu'un au loin parlant d'une odeur horrible, comme si un chifoumi silencieux s'était joué chez les veilleurs : un veilleur s'est occupé des arrivants et l'autre a nettoyé la capsule pourrie pour ne pas entraver la cérémonie par son aspect infâme.`,
+  q:`**Et ce n'est pas une tricherie, parce que le monde avait déjà expliqué pourquoi il n'entendait pas.** Un arrivant sort embrumé, aveuglé, les voix étouffées. *La condition, écrite comme une contrainte ferme : le premier récit doit montrer qu'il n'entend pas* — une bouche qui bouge, des mots qui ne se forment pas, deux mots attrapés sur une phrase entière. **Alors la seconde version est un blanc qu'on comble, et non une information qu'on avait gardée sous le coude.**` },
+
+{ d:`16 août`, s:`Ce que le lecteur peut en déduire`, e:`ouvert`, t:[`monde`,`dispositif`],
+  v:`—`,
+  q:`**Conséquence à vouloir avant de l'écrire.** Si les capsules de la paire étaient prévues et pas la sienne, c'est que leur vie s'est éteinte lentement quand la sienne s'est arrêtée net — *donc qu'elles ont agonisé pendant que Joël les cherchait, et que la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler. Le lecteur, lui, a la règle depuis le premier chapitre.**` },
+
 { d:`16 août`, s:`Le mot qui protège tout seul`, e:`acquis`, t:[`écriture`,`dispositif`],
   v:`—`,
   q:`Remarque d'écriture née de la scène : **« silhouette » est féminin en français.** On peut donc écrire *la silhouette prend la fuite* aussi bien pour l'assassin des filles que pour la berceuse, **sans qu'un seul accord trahisse quoi que ce soit.** *Le dispositif reçoit là une protection gratuite, et il n'y en a pas beaucoup.*` },
@@ -2234,6 +2279,7 @@ const REGLES = [
 ["Administration","Les numéros suivent-ils l'ordre des arrivées ? Si oui, deux capsules ouvertes le même jour donnent des numéros qui se suivent, et une capsule sans éclaircie laisse un trou.","ouvert"],
 ["Ruche","Les capsules se forment de manière irrégulière et mûrissent plus ou moins vite selon le souffle de vie restant de l'autre côté : mort soudaine, maturation rapide ; vie qui s'éteint lentement, des années.","acquis"],
 ["Ruche","L'éclaircie est le seul signe lisible : ni son, ni mouvement, ni chaleur, ni indication de ce qui sortira.","acquis"],
+["Ruche","La vitesse de maturation dit la mort : une vie qui s'éteint lentement fait mûrir lentement et se prévoit ; une mort soudaine fait mûrir vite et surprend. **Le service parle d'un éclaircissement inopiné.** Personne n'en tire jamais de conclusion.","acquis"],
 ["Ruche","Les capsules sans éclaircie se multiplient depuis quelques années et personne ne sait pourquoi. Rien ne doit jamais être dit.","acquis"],
 ["Ruche","Le nettoyage est un incident d'exploitation, pas une épreuve morale : une corvée d'affectation qui échoit aux derniers arrivés.","acquis"],
 ["Ruche","Dans le corps de métier, l'ancienneté se lit à l'envers sur les visages. Les anciens du service sont les plus jeunes d'aspect, et personne ne trouve cela remarquable.","acquis"],
