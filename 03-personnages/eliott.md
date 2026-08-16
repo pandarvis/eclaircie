@@ -67,7 +67,7 @@ C'est la première page du roman, et elle installe en une scène ce que le livre
 
 ### 3 bis. Le bug silencieux — il dévisage l'arrivant de quarante ans
 
-> **Décision de l'autrice, 19 août 2026. C'est le geste le plus important du livre, et personne ne le remarquera.**
+> **Décision de l'autrice, 15 août 2026. C'est le geste le plus important du livre, et personne ne le remarquera.**
 
 **Ils sont deux à sortir ce matin-là, à la même cérémonie : lui, dix ans, et un arrivant de quarante ans.** Ils sont morts du même événement, à quelques minutes d'écart (§9). Rien dans la salle ne le dit, rien dans le registre ne le dira, et aucun personnage du livre ne le saura jamais.
 
@@ -199,7 +199,7 @@ La question posée ici était : l'enlèvement et l'entrée au jardin coexistent-
 
 > **⚠️ Précision, et elle est double depuis le 16 août 2026 : ce n'est pas sa mort, et ce n'est pas non plus la perte de sa langue.**
 >
-> Entrer au jardin, ce n'est pas s'arrêter. **C'est entrer dans le dernier lieu de vie** ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), 17 août 2026) — et **il lui reste ensuite le plateau, puis la fin jusqu'à zéro**, au même endroit. Sa vie est loin d'être finie quand le livre l'est.
+> Entrer au jardin, ce n'est pas s'arrêter. **C'est entrer dans le dernier lieu de vie** ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), 15 août 2026) — et **il lui reste ensuite le plateau, puis la fin jusqu'à zéro**, au même endroit. Sa vie est loin d'être finie quand le livre l'est.
 >
 > **Et il n'entre pas dans une salle de gens de son âge.** Le jardin abrite tous les âges de huit à zéro : le premier jour, il voit exactement ce qui l'attend. *Le texte n'a pas à le souligner — il suffit que la pièce soit décrite telle qu'elle est.*
 >
@@ -215,7 +215,7 @@ La question posée ici était : l'enlèvement et l'entrée au jardin coexistent-
 
 ## 9. Il s'est noyé — la disparition bête
 
-> **Version B, validée par l'autrice le 19 août 2026. Elle remplace intégralement la version où il était assassiné.**
+> **Version B, validée par l'autrice le 15 août 2026. Elle remplace intégralement la version où il était assassiné.**
 >
 > ⚠️ **Tout ce qui suivait de l'ancienne version est faux et doit être corrigé partout où il traîne** : le meurtre, le meurtrier, la capsule pourrie du jour de son arrivée, la « signature » commune avec Chrissy et Tania, et le motif qu'Andrew aurait appris sur le dossier du garçon. **Rien de tout cela n'a lieu.**
 
@@ -391,14 +391,14 @@ Tout est déjà en place chez le lecteur : il a vu deux arrivants à la premièr
 - [x] ~~Est-il l'horloge du livre ?~~ — **caduc, 15 août 2026.** Le corps du roman tient sur quelques semaines : il a dix ans du début à la fin. Le procédé ne sert plus qu'au saut de l'épilogue. §7.
 - [ ] **Combien de visites exactement ?** Deux puis la troisième, dit l'autrice — *« peut-être »*. Le chiffre est à confirmer : il règle la vitesse à laquelle l'insistance d'Andrew devient visible ([`andrew.md`](andrew.md), « Attention à la vitesse »). **Le calendrier court le resserre** : les visites tiennent maintenant sur des jours, pas sur des mois.
 - [ ] **Que dit-il exactement pendant les visites ?** La règle est fixée — banal, local, invérifiable (§5) —, les phrases non.
-- [x] ~~**Que dit-il exactement à l'épilogue ?**~~ — **la phrase centrale est acquise mot pour mot le 19 août 2026** : *« Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui ! »* §10. *Ce qui l'entoure reste ouvert — voir plus bas.*
+- [x] ~~**Que dit-il exactement à l'épilogue ?**~~ — **la phrase centrale est acquise mot pour mot le 16 août 2026** : *« Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui ! »* §10. *Ce qui l'entoure reste ouvert — voir plus bas.*
 - [ ] **Qui est présent à l'épilogue ?** Andrew seul, ou June aussi, qui est sa berceuse et devrait y être. **Depuis le tabou, sa présence charge la scène au lieu de la diluer** : elle est celle qui sait dans quoi il entre, et qui ne le dit pas.
-- [ ] **June l'accompagne-t-elle au-delà du plateau ?** *La définition du métier n'est plus en cause : le dernier jour est au jardin, et le §10 tient dès qu'on écrit le bon mot (17 août 2026).* Ce qui reste ouvert : **garde-t-elle la même charge jusqu'à zéro**, ou passe-t-elle la main quand il cesse de parler ? Voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md).
+- [ ] **June l'accompagne-t-elle au-delà du plateau ?** *La définition du métier n'est plus en cause : le dernier jour est au jardin, et le §10 tient dès qu'on écrit le bon mot (15 août 2026).* Ce qui reste ouvert : **garde-t-elle la même charge jusqu'à zéro**, ou passe-t-elle la main quand il cesse de parler ? Voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md).
 - [ ] **Comment l'épilogue se situe-t-il dans le temps ?** Son corps ne suffit plus à dater le saut — dix ans à huit ans, ça ne se voit presque pas. **Question neuve du 16 août 2026**, et elle appartient au plan. §7.
 - [ ] **Le plateau et la fin d'Eliott : durées et vitesse.** Non fixées. Ce qui est acquis : **au moins quarante ans de vie en tout**, dont six de descente. Le reste appartient à l'autrice, et le dossier ne l'invente pas.
 - [ ] **Combien de temps dure son enlèvement ?** C'est le compteur du livre. Il doit rester dans le délai où l'on espère encore — voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
-- [x] ~~**La rime des trois affaires est-elle soulignée ?**~~ — **sans objet depuis le 19 août 2026.** Il n'y a plus trois affaires : Eliott n'a pas été assassiné, il n'y a pas de capsule pourrie le jour de son arrivée, et **il reste un crime dans chaque monde.** §9.
-- [x] ~~**A-t-il été assassiné dans la vie d'avant ?**~~ — **non, tranché le 19 août 2026.** Une noyade, un accident, aucun coupable. §9.
+- [x] ~~**La rime des trois affaires est-elle soulignée ?**~~ — **sans objet depuis le 15 août 2026.** Il n'y a plus trois affaires : Eliott n'a pas été assassiné, il n'y a pas de capsule pourrie le jour de son arrivée, et **il reste un crime dans chaque monde.** §9.
+- [x] ~~**A-t-il été assassiné dans la vie d'avant ?**~~ — **non, tranché le 15 août 2026.** Une noyade, un accident, aucun coupable. §9.
 - [ ] **Combien de répliques à l'épilogue, et lesquelles autour de la phrase de l'autrice ?** La réplique du sentiment est acquise mot pour mot ; ce qui l'entoure ne l'est pas. **Le risque est la surenchère : elle se suffit probablement, avec une ou deux phrases d'eau devant.** §10.
 - [ ] **Andrew réagit-il visiblement à la phrase du sentiment ?** Il ne comprend rien et ne doit rien comprendre (§9 bis) — mais un homme qui a demandé pardon à deux jeunes filles pourrait reconnaître la forme d'un amour sans objet. **À doser au plus bas, ou à supprimer.**
 - [ ] **Le dévisagement de la première page : combien de lignes ?** Trop peu ne s'imprime pas et le lecteur ne s'en souviendra pas à l'épilogue ; trop long l'annonce. §3 bis.
@@ -407,4 +407,4 @@ Tout est déjà en place chez le lecteur : il a vu deux arrivants à la premièr
 
 *Vocabulaire : le palier s'appelle **le jardin**, la phase s'appelle **le plateau**, et deux arrivants identiques forment **une paire**. **Aucun mot de parenté n'existe dans ce monde** — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).*
 
-*⚠️ **Précision depuis le 19 août 2026 : cette fiche en contient désormais, et c'est volontaire.** Le §9 raconte la vie d'avant, où *père* et *fils* existent et se disent ([interdit n° 11](../01-dossier/les-interdits.md), « ce qui vaut pour les trois »). **Aucun de ces mots ne peut sortir dans une scène de ce monde-ci** — ni dans la bouche d'Eliott, pas même en fabulation, ni dans celle du narrateur quand il décrit d'ici. C'est précisément la contrainte qui produit la réplique du §10 : il a le sentiment, il n'a pas le mot.*
+*⚠️ **Précision depuis le 15 août 2026 : cette fiche en contient désormais, et c'est volontaire.** Le §9 raconte la vie d'avant, où *père* et *fils* existent et se disent ([interdit n° 11](../01-dossier/les-interdits.md), « ce qui vaut pour les trois »). **Aucun de ces mots ne peut sortir dans une scène de ce monde-ci** — ni dans la bouche d'Eliott, pas même en fabulation, ni dans celle du narrateur quand il décrit d'ici. C'est précisément la contrainte qui produit la réplique du §10 : il a le sentiment, il n'a pas le mot.*

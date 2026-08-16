@@ -2,7 +2,7 @@
 
 *Document de référence sur le jardin comme **lieu** et comme **institution**. Le dossier n'en avait jamais eu : le §7 et le §10 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) décrivent le palier comme un état du corps, [`ce-qui-est-juge.md`](ce-qui-est-juge.md) comme un temps de la vie. Personne n'avait encore écrit l'endroit, ni les gens qui le tiennent.*
 
-*Intègre trois décisions de l'autrice du 16 août 2026 — **les pédiatres du jardin**, **la relève des berceurs**, **la piste du piratage mise en réserve** — et **la correction du 17 août 2026, qui refonde le document entier.***
+*Intègre trois décisions de l'autrice du 16 août 2026 — **les pédiatres du jardin**, **la relève des berceurs**, **la piste du piratage mise en réserve** — et **la correction du 15 août 2026, qui refonde le document entier.***
 
 *Et **la règle d'entrée du 16 août 2026**, qui achève le mouvement : le jardin n'est plus un seuil qu'on franchit, **c'est la tranche d'âge de huit à zéro tout entière.** Avertissement en tête.*
 
@@ -44,7 +44,7 @@ Ce document posait qu'on entre au jardin **par** quelque chose — descendu du h
 
 ## ⚠️ La correction : le jardin n'est pas un âge, c'est un lieu
 
-> **Décision de l'autrice, 17 août 2026.**
+> **Décision de l'autrice, 15 août 2026.**
 >
 > *« Le jardin est le dernier lieu de vie. Il englobe tous les enfants de 8 à 0, pas seulement les 8 ans. »*
 
@@ -402,7 +402,7 @@ Le dispositif la rend possible : il y a des dates, elles sont écrites, elles so
 
 - [ ] **Que devient le tabou pour un enfant qui a grandi au jardin ?** Sa croissance était publique ; l'inversion, elle, ne l'est pas. **Remarque-t-il l'arrêt ?** Que lui répond un berceur, puisque la réplique du §2 ne vaut que pour la descente commencée ? Et celui qui n'a jamais rien connu d'autre que le lieu sait-il qu'il existe un dehors ? *Développement en §2, et il est signalé comme conséquence à travailler, pas comme règle.*
 
-**Les deux questions de fond, ouvertes le 17 août 2026 :**
+**Les deux questions de fond, ouvertes le 15 août 2026 :**
 
 - [ ] **Le jardin est-il un lieu unique et fermé, ou plusieurs endroits ?** Un bâtiment par ville, un par région, une maison, un quartier, un domaine ? **La question a changé de poids deux fois** : ce n'est plus « où logent les huit ans », c'est « où se passent les quarante dernières années de tout le monde » — **et, depuis la règle d'entrée, « où se passe la vie entière de ceux qui arrivent en dessous de huit ».** *Sous-questions : y entre-t-on définitivement, ou en sort-on la journée ? Sépare-t-on les âges en salles, ou tout se mélange-t-il — la réponse commande la « moitié silencieuse » du §1 et le plan large qui en dépend. **Et le mot au singulier ne tranche toujours rien.***
 - [ ] **Qui, des berceurs ou des grands du jardin, fait quoi ?** Les deux relèves du §5 se recouvrent, et le partage n'est pas fait. Les berceurs assurent-ils tout, et l'aide des grands n'est-elle qu'une chose qui arrive ? Le service s'appuie-t-il dessus, l'organise-t-il, l'a-t-il institué ? **La version la plus dure est celle où c'est compté dans l'effectif** : le lieu fonctionne parce que ceux qui vont y mourir y travaillent. *Elle est aussi la plus cohérente avec un monde qui n'a jamais rien décidé et qui a laissé faire.*
@@ -417,7 +417,7 @@ Le dispositif la rend possible : il y a des dates, elles sont écrites, elles so
 - [ ] **Que voit un enfant de huit ans, exactement, le premier jour ?** Le §2 pose qu'il voit la suite ; le dosage appartient à l'écriture. **Trop montrer en fait une horreur, trop peu en fait un mensonge.**
 
 - [x] ~~**Qui s'occupe de la croissance, en dessous de huit ?**~~ — **tranché le 16 août 2026, et c'était la dernière zone sans adresse.** Un arrivant sous le seuil ne grandit pas ailleurs : **il grandit au jardin**, où il est dès le premier jour, et ce sont **les berceurs**. *La formule qui traînait ici — « c'est le seul temps de la vie qui n'a pas de lieu attribué » — est fausse et ne doit être réécrite nulle part.* Voir la règle d'entrée en tête. **Reste ouvert, mais ailleurs : le partage exact avec les tuteurs, s'il y en a un** ([`ce-qui-est-juge.md`](ce-qui-est-juge.md)).
-- [x] ~~**Le jardin est-il le plateau à huit ans ?**~~ — **non, tranché le 17 août 2026.** Le plateau est une phase, **le jardin est le dernier lieu de vie**, de huit à zéro. Voir la correction en tête.
+- [x] ~~**Le jardin est-il le plateau à huit ans ?**~~ — **non, tranché le 15 août 2026.** Le plateau est une phase, **le jardin est le dernier lieu de vie**, de huit à zéro. Voir la correction en tête.
 - [x] ~~**Y entre-t-on par trois portes ?**~~ — **non, tranché le 16 août 2026 : il n'y a pas de portes.** Le jardin est la tranche de huit à zéro ; on y est par défaut, dans les deux sens de trajectoire.
 - [x] ~~**Que fait un pédiatre du jardin en dehors de dater la bascule ?**~~ — **il suit l'enfant jusqu'en bas.** La question venait de ce qu'on croyait le lieu limité au plateau ; il y a une pente à mesurer, et elle occupe le plus clair d'une vie. §4.
 

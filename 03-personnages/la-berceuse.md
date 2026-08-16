@@ -3,7 +3,7 @@
 *Personnage. **Elle n'a pas de nom, et ce dossier ne lui en invente aucun** : « la berceuse » est ce qu'on écrit, et c'est déjà tout ce qu'il faut savoir d'elle.*
 *Elle a enlevé [Eliott](eliott.md). C'est elle qu'on menotte à la scène 19 du [parcours de l'enquête](../04-plan/le-parcours-de-l-enquete.md).*
 
-*⚠️ **Deux décisions de l'autrice du 19 août 2026 s'ajoutent à cette fiche et en changent la portée** : **elle n'était pas une inconnue** (§5) — elle vit à quelques pas de chez June, et Eliott est parti avec quelqu'un qu'il connaissait ; et **le repaire est une maison ordinaire dont la cave a été aménagée** (§6). Contexte d'enquête : [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.*
+*⚠️ **Deux décisions de l'autrice du 15 août 2026 s'ajoutent à cette fiche et en changent la portée** : **elle n'était pas une inconnue** (§5) — elle vit à quelques pas de chez June, et Eliott est parti avec quelqu'un qu'il connaissait ; et **le repaire est une maison ordinaire dont la cave a été aménagée** (§6). Contexte d'enquête : [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.*
 
 *🟡 **Piste forte, validée provisoirement le 16 août 2026 — à revoir : c'est peut-être elle qu'Andrew regarde porter un mourant, au milieu du livre** (§7). L'enquête traverse désormais le jardin au bout de la seconde fausse piste, et la scène la plus douce du livre s'y trouve — [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §6. **L'autrice veut y revenir : rien n'est tranché.***
 
@@ -99,7 +99,7 @@ Et c'est là que tout se referme :
 
 ---
 
-## 5. Ce n'était pas une inconnue — décision de l'autrice, 19 août 2026
+## 5. Ce n'était pas une inconnue — décision de l'autrice, 15 août 2026
 
 **C'est la conséquence la plus lourde qu'ait reçue cette fiche, et elle change la nature du crime.**
 
@@ -125,7 +125,7 @@ Un enlèvement suppose un moment où la victime comprend. **Ici, il n'y en a pas
 
 ## 6. Le repaire — ce n'est pas une planque, c'est une maison
 
-> **Décision de l'autrice, 19 août 2026.** Ordinaire, dans une rue, comme les autres.
+> **Décision de l'autrice, 15 août 2026.** Ordinaire, dans une rue, comme les autres.
 
 **La porte qu'Andrew ouvre donne sur une cave**, et cette cave a été **réaménagée en chambre colorée pour un jeune arrivant.**
 
@@ -205,7 +205,7 @@ Ce n'est pas de la négligence, et ce n'est pas non plus une ravisseuse qui se r
 - [ ] 🟡 **Est-ce la même piste que celle du nom ?** *Si elle lui parle au jardin, elle a un nom et il peut l'entendre là.* **Attention : la version où Eliott lui donne le nom est déjà ouverte** (voir plus bas), **et les deux ensemble feraient deux fois trop.** Il faut choisir par où le nom passe, s'il passe.
 - [ ] **Son âge, et sa proximité exacte avec la relève.** Un berceur exerce jusqu'à douze ans ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §5). **Où est-elle sur cette pente ?** Assez près pour que les tâches simples aient commencé, assez loin pour qu'il lui reste des années. *Le chiffre décide du reste : trop près du jardin, elle devient pitoyable ; trop loin, la relève n'explique plus rien.*
 - [ ] **Ce qu'elle comptait faire ensuite.** Rien, probablement — et c'est peut-être la réponse. Pas de plan, pas d'endroit où aller, pas de suite. **Avait-elle seulement pensé à après ?** *⚠️ La cave aménagée du §6 pousse dans un sens et ne tranche pas : elle prouve qu'elle comptait rester, elle ne dit pas qu'elle avait prévu comment.*
-- [x] ~~**Andrew ou June la connaissaient-ils de vue ?**~~ — **tranché le 19 août 2026, et dans le sens le plus dur.** *Elle vit à quelques pas de chez June ; Andrew est passé devant sa porte à chacune de ses trois visites ; Eliott la croisait.* **Il n'a pas été enlevé par quelqu'un : il est parti avec quelqu'un qu'il connaissait.** §5.
+- [x] ~~**Andrew ou June la connaissaient-ils de vue ?**~~ — **tranché le 15 août 2026, et dans le sens le plus dur.** *Elle vit à quelques pas de chez June ; Andrew est passé devant sa porte à chacune de ses trois visites ; Eliott la croisait.* **Il n'a pas été enlevé par quelqu'un : il est parti avec quelqu'un qu'il connaissait.** §5.
 - [ ] **Que savaient exactement l'une de l'autre les deux berceuses ?** June et elle sont voisines et du même métier. *Se parlaient-elles, se relayaient-elles, June l'a-t-elle mentionnée devant Andrew sans que rien ne s'accroche ?* **Attention : June n'est pas un relais d'information** ([june.md](june.md) §2), et une réplique qui désignerait la voisine, même en passant, ferait basculer sa fiche.
 - [ ] **Eliott passait-il devant chez elle sur sa tournée de portage ?** *La question est celle du dernier trou du parcours* — ce qu'il a dit exactement à Andrew, et qui le relance. Voir [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §6. **La version où il avait donné son nom est la plus cruelle, et elle n'est pas tranchée.**
 - [ ] **Ce qu'elle dit, ou ne dit pas, au moment de l'arrestation.** Elle est menottée et déjà prête à être embarquée quand Andrew la voit. *Le silence est la version la plus dure ; une seule phrase est la plus risquée.*

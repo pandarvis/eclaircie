@@ -168,7 +168,7 @@ C'est la forme la plus économique possible de ce que décrit le §8. La doctrin
 
 **Le numéro est simplement ce qui rend la reconnaissance instantanée.** Sans lui, il lit et il comprend ; avec lui, il a compris avant d'avoir fini de lire.
 
-> ⚠️ **Une quatrième ligne figurait ici et elle est supprimée le 19 août 2026 : « le motif appris sur le dossier d'Eliott ».**
+> ⚠️ **Une quatrième ligne figurait ici et elle est supprimée le 15 août 2026 : « le motif appris sur le dossier d'Eliott ».**
 >
 > **Ce motif n'existe plus.** Il n'y a pas de capsule pourrie le jour de l'arrivée d'Eliott (§8), donc Andrew n'a jamais rencontré la configuration ailleurs, et **il n'a rien appris à lire sur le dossier du garçon.**
 >
@@ -572,7 +572,7 @@ Un homme qui a enlevé et n'a pas tué éclaircira comme tout le monde ; un homm
 
 ## 5 quater. Le même escalier, deux fois — et le contraste est la révélation
 
-> **Décision de l'autrice, 19 août 2026.** **Le repaire d'ici n'est pas une planque : c'est une maison ordinaire, et la porte qu'Andrew ouvre donne sur une cave.** Fiche du personnage : [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md) §6.
+> **Décision de l'autrice, 15 août 2026.** **Le repaire d'ici n'est pas une planque : c'est une maison ordinaire, et la porte qu'Andrew ouvre donne sur une cave.** Fiche du personnage : [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md) §6.
 
 **C'est le doublage le plus serré de tout le dispositif, et il ne coûte pas une ligne de plus que les deux scènes qui existaient déjà.**
 
@@ -687,7 +687,7 @@ Ce ne sont pas deux nuances du même mouvement. Le premier regarde en arrière e
 
 ## 8. Le jour d'arrivée d'Eliott — le cas témoin
 
-> **⚠️ VERSION B, validée par l'autrice le 19 août 2026. Elle remplace intégralement la décision du 15 août.**
+> **⚠️ VERSION B, validée par l'autrice le 15 août 2026. Elle remplace intégralement la décision du 15 août.**
 >
 > **Eliott n'a pas été assassiné.** Il s'est **noyé** — un accident, une randonnée, une chute à l'eau, le courant. **Le père se jette pour le sauver et se noie à son tour.** Rien d'autre.
 >
@@ -873,7 +873,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [x] **On sort de la capsule en sachant parler**, l'esprit embrumé *comme après un long sommeil*. **Révision du §4 du dossier maître, qui n'est pas modifié.** Voir [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md). Conséquence ici : la cérémonie groupée a du dialogue dedans, et le protocole du nom devient possible.
 - [x] **Personne ne nomme un arrivant : il se nomme lui-même.** Le veilleur explique en une phrase ce qu'est un prénom, demande, et inscrit le mot qui sort. Exception : **les arrivants de huit ans et moins**, nommés par une berceuse — *seuil précisé le 16 août 2026, huit inclus.* **Andrew, Chrissy et Tania ont donc produit leurs propres noms** — et Andrew n'a pas dit Joël. Section 6, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
 - [x] **Il n'y a pas de noms de famille dans ce monde-ci**, et la règle n'est jamais énoncée. Les fragments peuvent donc dire *« l'affaire Sorel »* : l'affaire est nommée, aucun prénom n'est prononcé, et Andrew entend un mot dont il ne peut pas identifier la catégorie. Section 4.7.
-- [x] ~~**Eliott a été assassiné dans la vie d'avant, et une capsule pourrie est apparue le jour de son arrivée.**~~ — ⚠️ **ABANDONNÉ le 19 août 2026.** C'est une **noyade**, il n'y a **aucune capsule pourrie ce jour-là**, et la signature des jumelles ne se répète pas. **Ce qui subsiste de la décision du 15 août : le jour d'arrivée d'Eliott reste le cas témoin du livre** et remplace toujours la mère et l'enfant. Section 8.
+- [x] ~~**Eliott a été assassiné dans la vie d'avant, et une capsule pourrie est apparue le jour de son arrivée.**~~ — ⚠️ **ABANDONNÉ le 15 août 2026.** C'est une **noyade**, il n'y a **aucune capsule pourrie ce jour-là**, et la signature des jumelles ne se répète pas. **Ce qui subsiste de la décision du 15 août : le jour d'arrivée d'Eliott reste le cas témoin du livre** et remplace toujours la mère et l'enfant. Section 8.
 - [x] **Le corps du roman tient sur quelques semaines, peut-être quelques mois.** Le calendrier sur douze ans est caduc : il n'existait que pour Erin, qui est suspendue. Conséquence ici : la théorie du garçon (§4.2) se défait par l'**enlèvement**, plus par l'entrée au jardin. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
 
 ---
@@ -898,7 +898,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 
 ---
 
-# Tranché le 19 août 2026
+# Tranché le 15 août 2026
 
 - [x] **Le repaire d'ici est une maison ordinaire, et la porte donne sur une cave aménagée.** Chez Joël, la même descente donne un mouroir et deux corps. **Le lecteur descend deux fois le même escalier et ouvre deux fois la même porte : la première fois deux corps, la seconde des couleurs — et le contraste est la révélation.** Section 5 quater, et [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md) §6.
 - [x] **Eliott ne s'est pas fait assassiner : il s'est noyé.** Une randonnée, une chute à l'eau, le courant — **et le père se jette pour le sauver et se noie à son tour.** Aucun coupable, rien à réparer, rien à venger. **Version B, elle remplace la décision du 15 août 2026.** Section 8, et [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §9.
@@ -938,7 +938,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **La forme du numéro** — longueur, présentation, façon de le dire à voix haute. **Rien n'est fixé, et rien ne doit être inventé avant décision de l'autrice.**
 - [x] ~~Le nom du partenaire qui crie à la poursuite.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle, **jamais écrit dans le roman** : dans le texte, *son collègue*, *son partenaire*. Section 1. Il ne crée aucune exception au §4.6.
 - [ ] **Le nombre de fragments de reliquat** et leur répartition. **Le cadre a changé** : ils ne se répartissent plus sur douze ans mais sur quelques semaines, peut-être quelques mois. La densité augmente d'autant, et il faut vérifier que le rythme reste tenable — voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
-- [x] ~~**La rime des trois affaires — la souligne-t-on ?**~~ — **sans objet depuis le 19 août 2026 : il n'y a plus trois affaires.** Section 8.3.
+- [x] ~~**La rime des trois affaires — la souligne-t-on ?**~~ — **sans objet depuis le 15 août 2026 : il n'y a plus trois affaires.** Section 8.3.
 - [x] ~~**Andrew relit-il vraiment la ligne du jour d'Eliott ?**~~ — **non, et il ne doit jamais y revenir.** Il n'y a plus de motif à y apprendre, et la section 8.5 en fait une contrainte ferme. *Ce qui reste ouvert, et qui appartient à [`le-parcours-de-l-enquete.md`](le-parcours-de-l-enquete.md) : **ce qui le fait ouvrir les registres**, maintenant que le dossier du garçon ne l'y conduit plus.*
 - [x] ~~**La capsule pourrie du jour d'Eliott est-elle montrée à la première page ?**~~ — **il n'y en a pas.** Section 8.1.
 - [ ] **Comment se lisent les deux arrivées de la première page ?** Deux corps dans la même salle, deux chiffres relevés, et rien qui les rapproche. **Le dosage est délicat dans l'autre sens que l'ancien** : il faut que le lecteur retienne l'homme de quarante ans sans qu'on ait l'air de le lui montrer, sinon l'épilogue ne referme rien. Sections 8.1 et 8.2 a.
