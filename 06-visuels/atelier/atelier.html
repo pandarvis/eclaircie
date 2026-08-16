@@ -829,7 +829,7 @@ const ACTES = [
   { t: `L'enlisement`,         c0: 17, c1: 23 },
   { t: `La remontée`,          c0: 24, c1: 27 },
   { t: `Le seuil franchi deux fois`, c0: 28, c1: 33 },
-  { t: `Épilogue`,             c0: 34, c1: 36 }
+  { t: `Épilogue`,             c0: 34, c1: 37 }
 ];
 
 const SCENES = [
@@ -1528,7 +1528,7 @@ const SCENES = [
     `**Le souvenir n'établit rien, le registre établit tout.** L'un rouvre, l'autre prouve. Les intervertir donnerait une preuve avant une question, et il ne resterait plus qu'à commenter.`,
     `**Et le doute vit un chapitre de plus.** Un souvenir ne se vérifie pas ; l'hypothèse « il fabule » sort de cette scène aussi solide qu'elle y est entrée.`
   ],
-  ouvert: [`⚠️ **Ce que le lecteur peut déduire de l'éclaircissement inopiné, et il faut le vouloir avant de l'écrire.** Si les capsules de la paire étaient attendues, c'est que leur vie s'est éteinte lentement — *donc qu'elles ont agonisé pendant que Joël les cherchait, et que la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler. Le lecteur, lui, a la règle depuis le premier chapitre.**`,
+  ouvert: [`✅ **Les deux autres étaient attendues — décision de l'autrice, et la déduction est donc voulue.** Leur vie s'est éteinte lentement quand la sienne s'est arrêtée net : *elles ont agonisé pendant que Joël les cherchait, et la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler ; le lecteur a la règle depuis le premier chapitre.** À l'écriture : ne jamais appuyer. Le mot *inopiné* suffit, et le contraste se fait tout seul.`,
            `La longueur du second récit. *Plus bref que le premier — c'est ce qui signale, sans un mot, qu'on n'y cherche plus la même chose.*`],
   src: `04-plan/deux-histoires-en-une.md §7 — 02-univers/la-ruche.md — décision du 16 août 2026`
 },
@@ -1547,12 +1547,39 @@ const SCENES = [
     `Il n'apprend jamais qu'il s'est appelé Joël. Le nom d'avant n'existe que pour le lecteur.`
   ],
   ouvert: [`Le nombre exact d'occurrences du numéro avant cette scène, et sa forme.`],
+  pourquoi: [`**Et c'est de là que part tout ce qui suit.** Il apprend que deux personnes sont arrivées en même temps que lui, et il n'a personne à qui le dire — *un veilleur ne va pas expliquer à son service qu'il pense que quelque chose a traversé.* **Il ira donc voir les deux, puis il retournera voir le seul à qui il puisse poser la question.**`],
   src: `04-plan/deux-histoires-en-une.md §1 bis, §2.6 — 04-plan/le-meme-jour.md §3, §3 bis`
 },
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 34, row: `andrew`, acte: `Épilogue`,
+  id: `retour`, no: `Épilogue`, col: 34, row: `andrew`, acte: `Épilogue`,
+  titre: `Il retourne le voir`,
+  statut: `acquis`, pivot: true,
+  resume: `**Décision de l'autrice, 16 août 2026.** La ligne du registre le renvoie chez Eliott. Il veut comprendre qui ont pu être, pour lui, ces deux personnes arrivées le même jour que lui. **Et il y retournera pendant six ans.**`,
+  produit: `**C'est le seul à qui il puisse poser la question.** Un veilleur ne va pas expliquer à son service qu'il pense que quelque chose a traversé ; il a devant lui la seule personne au monde qui ne le trouvera pas fou, parce qu'on ne la croit pas non plus. *Deux hommes que personne n'écoute, dans la même pièce.*`,
+  clef: `**Et il fait, pour la seconde fois de sa vie, l'inverse de son geste.** Il a lu le document ; maintenant il va voir la personne. *C'est exactement ce qui l'avait sauvé à la scène 17 c, et il ne s'en aperçoit pas davantage cette fois-ci.*`,
+  lecture: `Il comprend enfin pourquoi Andrew sera là, six ans plus tard, le jour où le garçon parlera. **Il n'a jamais cessé de venir**, et ça ne s'explique nulle part ailleurs.`,
+  monde: `Rien de neuf. C'est une habitude qui s'installe, pas une enquête.`,
+  qui: [`andrew`,`eliott`,`june`],
+  gardes: [
+    `⚠️ **La contrainte absolue, et elle ne bouge pas : sa question ne porte que sur sa propre journée.** Il ne consulte jamais la ligne d'Eliott, il ne se demande jamais qui d'autre est arrivé le jour du garçon, et personne ne le fait à sa place. *Le lecteur, lui, se souvient de l'homme debout à côté du petit à la première page — et il restera seul avec.*`,
+    `**Rien ne se confirme jamais.** Ils ne comparent pas leurs impressions, ne se reconnaissent pas mutuellement porteurs de voiles, et aucun des deux ne conclut. L'hypothèse « il fabule » doit sortir de ces scènes exactement aussi solide qu'elle y entre.`,
+    `**Eliott n'a pas la réponse.** Il a des sentiments sans mots ; il ne peut rien apprendre à Andrew, et il ne s'en rend pas compte.`,
+    `Andrew ne dit jamais ce qu'il a vu dans la cave. Il pose des questions obliques, et il repart avec rien.`,
+    `Aucun mot de parenté, jamais, d'aucun des deux côtés de la conversation.`
+  ],
+  pourquoi: [
+    `**Ça comble un trou que le dossier n'avait pas nommé :** pourquoi Andrew est-il présent, six ans plus tard, quand le garçon se confesse avant d'entrer au jardin ? *Il n'y avait aucune raison écrite. Il y en a une maintenant, et elle est de lui.*`,
+    `**Et ça referme sa faute par le haut.** Il a passé le livre à croire les documents et pas les gens. Il finit par passer six ans à interroger une personne que personne ne croit, sans jamais rien obtenir. **Il n'en tire aucun bénéfice : il a seulement changé de geste.**`
+  ],
+  ouvert: [`⚠️ **Ce qu'il lui demande exactement.** *Il ne peut pas dire ce qu'il cherche sans nommer le mécanisme, ce que l'interdit n° 1 refuse. Il faut donc une question qui tourne autour — sur ce qu'on ressent, sur ce qui reste, sur ce qu'on croit se rappeler.*`,
+           `**Combien de visites le livre en montre.** *Une seule suffit peut-être, avec une phrase qui dit qu'il y en aura d'autres.*`,
+           `La dernière est-elle celle de la confession, ou y a-t-il un écart ?`],
+  src: `04-plan/le-parcours-de-l-enquete.md §3.3 — décision du 16 août 2026`
+},
+{
+  id: `excuses`, no: `Épilogue`, col: 35, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1567,7 +1594,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Épilogue · six ans plus tard`, col: 35, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Épilogue · six ans plus tard`, col: 36, row: `andrew`, acte: `Épilogue`,
   titre: `La confession d'Eliott`,
   statut: `acquis`, pivot: true,
   resume: `Il a huit ans, Andrew en a quarante-six. Il raconte ce qui lui est arrivé de l'autre côté : une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, racontés comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. C'est le calme qui glace.`,
@@ -1581,12 +1608,13 @@ const SCENES = [
     `Andrew ne fait jamais le lien avec la ligne du registre.`
   ],
   phrases: [{ t: `Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui !`, n: `Réplique du texte, à prononcer telle quelle. C'est exactement ainsi qu'on décrirait un père si l'on n'avait jamais eu le concept — par l'identité, par la confusion des deux personnes, par cette surenchère d'amour qui ne veut rien dire et qui dit tout. Elle ne coûte rien à l'interdit n° 4 : un sentiment ne se confirme ni ne se réfute.` }],
-  ouvert: [`Andrew réagit-il visiblement à cette phrase ?`,
+  ouvert: [`✅ **Pourquoi Andrew est là est désormais écrit** : il n'a jamais cessé de revenir depuis la ligne du registre. *Et c'est ce qui rend la scène plus cruelle — il vient depuis six ans chercher une réponse, il en reçoit une, et elle ne répond pas à sa question.*`,
+           `Andrew réagit-il visiblement à cette phrase ?`,
            `Qui est présent. Combien de répliques autour de la phrase acquise.`],
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Dernière page`, col: 36, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Dernière page`, col: 37, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `acquis`,
   resume: `Il dépose ce qui le faisait souffrir, et il entre. Personne ne lui dit dans quoi il entre. Andrew le regarde faire en sachant, et se tait.`,
@@ -1616,7 +1644,7 @@ const LIENS = [
   [`s17c`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19a`,`a`],
   [`s19a`,`poursuite`,`j`], [`poursuite`,`s19c`,`a`], [`s19c`,`ceremonie3`,`a`], [`ceremonie3`,`registre-fin`,`a`],
-  [`registre-fin`,`excuses`,`a`], [`excuses`,`confession`,`a`], [`confession`,`jardin-fin`,`a`]
+  [`registre-fin`,`retour`,`a`], [`retour`,`excuses`,`a`], [`excuses`,`confession`,`a`], [`confession`,`jardin-fin`,`a`]
 ];
 
 /* ==========================================================================
@@ -2152,13 +2180,21 @@ const NOTES = [
   v:`« Bienvenue à tous. La cérémonie du jour nous offre 3 arrivants au lieu de 2, le troisième nous ayant surpris par son éclaircissement inopiné. » // Quelqu'un au loin parlant d'une odeur horrible, comme si un chifoumi silencieux s'était joué chez les veilleurs : un veilleur s'est occupé des arrivants et l'autre a nettoyé la capsule pourrie pour ne pas entraver la cérémonie par son aspect infâme.`,
   q:`**Et ce n'est pas une tricherie, parce que le monde avait déjà expliqué pourquoi il n'entendait pas.** Un arrivant sort embrumé, aveuglé, les voix étouffées. *La condition, écrite comme une contrainte ferme : le premier récit doit montrer qu'il n'entend pas* — une bouche qui bouge, des mots qui ne se forment pas, deux mots attrapés sur une phrase entière. **Alors la seconde version est un blanc qu'on comble, et non une information qu'on avait gardée sous le coude.**` },
 
-{ d:`16 août`, s:`Ce que le lecteur peut en déduire`, e:`ouvert`, t:[`monde`,`dispositif`],
-  v:`—`,
-  q:`**Conséquence à vouloir avant de l'écrire.** Si les capsules de la paire étaient prévues et pas la sienne, c'est que leur vie s'est éteinte lentement quand la sienne s'est arrêtée net — *donc qu'elles ont agonisé pendant que Joël les cherchait, et que la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler. Le lecteur, lui, a la règle depuis le premier chapitre.**` },
+{ d:`16 août`, s:`Ce que le lecteur peut en déduire`, e:`acquis`, t:[`monde`,`dispositif`],
+  v:`Si si, les deux autres étaient attendues.`,
+  q:`**Confirmé, donc la déduction est voulue.** Si les capsules de la paire étaient prévues et pas la sienne, c'est que leur vie s'est éteinte lentement quand la sienne s'est arrêtée net — *donc qu'elles ont agonisé pendant que Joël les cherchait, et que la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler. Le lecteur, lui, a la règle depuis le premier chapitre.**` },
 
 { d:`16 août`, s:`Le mot qui protège tout seul`, e:`acquis`, t:[`écriture`,`dispositif`],
   v:`—`,
   q:`Remarque d'écriture née de la scène : **« silhouette » est féminin en français.** On peut donc écrire *la silhouette prend la fuite* aussi bien pour l'assassin des filles que pour la berceuse, **sans qu'un seul accord trahisse quoi que ce soit.** *Le dispositif reçoit là une protection gratuite, et il n'y en a pas beaucoup.*` },
+
+{ d:`16 août`, s:`Il retourne voir l'enfant`, e:`acquis`, t:[`dispositif`,`personnages`],
+  v:`Il retourne consulter les registres et il voit la ligne en question. Est-ce que ce ne serait pas ça qui le pousserait à retourner voir l'enfant plus tard ? Pour peut-être comprendre justement qui aurait pu être cette personne pour lui, arrivée en même temps que lui.`,
+  q:`**Oui — et ça comble un trou que le dossier n'avait même pas nommé :** pourquoi Andrew est-il présent, six ans plus tard, quand le garçon se confesse ? *Il n'y avait aucune raison écrite. Il n'a jamais cessé de revenir.* **Et ça referme sa faute par le haut** : l'homme qui croyait les documents et pas les gens passe six ans à interroger quelqu'un que personne ne croit, sans rien obtenir. Il n'en tire aucun bénéfice — il a seulement changé de geste.` },
+
+{ d:`16 août`, s:`La réserve, et je la défends`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`—`,
+  q:`**Sa question ne porte que sur sa propre journée.** Il ne consulte jamais la ligne d'Eliott, il ne se demande jamais qui d'autre est arrivé le jour du garçon, et personne ne le fait à sa place. *S'il l'apprenait, la dernière réplique du livre cesserait d'être un cri que personne n'entend pour devenir la réponse à une question posée — et c'est tout ce qui la rend insupportable.* **Deux porteurs de voiles dans la même pièce pendant six ans, et rien qui se confirme jamais : c'est aussi la seule façon de tenir l'interdit n° 4 jusqu'au bout.**` },
 
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
