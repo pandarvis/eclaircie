@@ -828,8 +828,8 @@ const ACTES = [
   { t: `La fausse piste s'éteint`, c0: 14, c1: 16 },
   { t: `L'enlisement`,         c0: 17, c1: 23 },
   { t: `La remontée`,          c0: 24, c1: 27 },
-  { t: `Le seuil franchi deux fois`, c0: 28, c1: 31 },
-  { t: `Épilogue`,             c0: 32, c1: 34 }
+  { t: `Le seuil franchi deux fois`, c0: 28, c1: 32 },
+  { t: `Épilogue`,             c0: 33, c1: 35 }
 ];
 
 const SCENES = [
@@ -1439,45 +1439,68 @@ const SCENES = [
   src: `07-recherches/references-de-scenes.md — 04-plan/le-meme-jour.md`
 },
 {
-  id: `s19`, no: `Scène 19 · Chapitre C`, col: 29, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19a`, no: `Chapitre C`, col: 29, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `Le même lieu, l'autre issue`,
   statut: `acquis`, pivot: true,
-  resume: `Le chapitre recommence. Même arrivée, même pesanteur — et Eliott est vivant. Isaac les a rejoints entre-temps. Une berceuse est menottée, déjà prête à être embarquée.`,
-  produit: `C'est la bascule du roman. Le lecteur comprend qu'il y a deux histoires — et il ne la reçoit ni d'une phrase ni d'un personnage : il la reçoit de la forme du livre, qui se dédouble sous ses yeux.`,
-  clef: `La ravisseuse était une berceuse. Elle a passé sa vie à donner des arrivants au jardin, elle n'en a jamais gardé un seul. Ce n'est pas une idéologie, c'est de l'amour possessif — et c'est son tour : on commence à lui confier des tâches plus simples, personne ne lui dit pourquoi, et elle prend un arrivant au moment exact où on la retire du monde.`,
-  monde: `La cave réaménagée : elle a peint, elle a meublé, elle a choisi. Ce n'est pas de la négligence retournée en gentillesse — c'est de la préparation. Du temps, des courses, des décisions prises une par une, des semaines avant. Ça dit qu'elle comptait rester.`,
-  qui: [`andrew`,`eliott`,`berceuse`,`isaac`],
+  resume: `Le chapitre recommence. Même arrivée, même pesanteur — et Eliott est vivant. Isaac les rejoint. **Andrew sent pourtant une présence derrière eux. Une silhouette apparaît. Fin de chapitre.**`,
+  produit: `C'est la bascule du roman. Le lecteur comprend qu'il y a deux histoires — et il ne la reçoit ni d'une phrase ni d'un personnage : **il la reçoit de la forme du livre, qui se dédouble sous ses yeux.**`,
+  clef: `🔴 **Et le chapitre se ferme sur la silhouette, ce qui arme tout le reste.** Le lecteur y voit le ravisseur pris sur le fait, et il attend la course. *Il l'aura — mais pas dans ce monde-ci.*`,
+  lecture: `Il croit lire la fin d'une traque. Il lit la fin de deux traques, et une seule des deux va se terminer par une course.`,
+  monde: `La cave réaménagée : elle a peint, elle a meublé, elle a choisi. Ce n'est pas de la négligence retournée en gentillesse — **c'est de la préparation.** Du temps, des courses, des décisions prises une par une, des semaines avant. Ça dit qu'elle comptait rester.`,
+  qui: [`andrew`,`eliott`,`isaac`,`berceuse`],
   gardes: [
-    `« Une chambre d'enfant » ne peut pas s'écrire, et aucune tournure de remplacement ne doit venir la doubler. Il faudra décrire : les couleurs, la taille des meubles, ce qu'il y a par terre. Une hauteur de table. Un lit court. Ce qui est rangé et à quelle portée. Le lecteur nommera lui-même, et ça frappera plus fort.`,
-    `Aucun personnage ne remarque le contraste avec l'autre cave.`,
-    `Elle ne s'explique pas, personne ne formule son motif à sa place, et le livre n'a pas de scène qui rende son geste intelligible.`,
-    `Elle ne doit jamais s'écrire comme une démente qu'on range et qu'on oublie.`,
-    `Aucun personnage ne rapproche jamais sa présence ancienne et son arrestation. Pas de « elle était là depuis le début ».`
+    `**La silhouette n'est décrite par rien.** Ni vêtement, ni taille, ni âge, ni sexe. *Le mot « silhouette » est féminin en français, ce qui protège gratuitement les deux lectures : on peut écrire « la silhouette » des deux côtés sans qu'un accord trahisse quoi que ce soit.*`,
+    `**Rien ne dit qu'elle bouge.** Elle apparaît, et le chapitre s'arrête. C'est le lecteur qui la fera courir.`,
+    `« Une chambre d'enfant » ne peut pas s'écrire, et aucune tournure de remplacement ne doit venir la doubler. Il faudra décrire les couleurs, la taille des meubles, une hauteur de table, un lit court. **Le lecteur nommera lui-même, et ça frappera plus fort.**`,
+    `Aucun personnage ne remarque le contraste avec l'autre cave.`
   ],
-  ouvert: [`Ce qu'elle dit, ou ne dit pas, au moment de l'arrestation. Le silence est la version la plus dure ; une seule phrase est la plus risquée.`,
-           `Le livre lui donne-t-il un nom ? Trois canaux possibles, et il n'en faut qu'un.`],
-  src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — 03-personnages/la-berceuse.md`
+  ouvert: [`Combien de lignes tient la silhouette avant la coupe. *Trop, et on la décrit ; trop peu, et le lecteur ne la charge pas assez pour vouloir la poursuivre.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — décision du 16 août 2026`
 },
 {
   id: `poursuite`, no: `Chapitre D`, col: 30, row: `joel`, acte: `Le seuil franchi deux fois`,
   titre: `La poursuite`,
   statut: `acquis`, pivot: true,
-  resume: `Rage folle. Il laisse ses collègues sur place et part seul. Il ne veut pas l'arrêter, il veut le tuer — comme si les deux filles avaient pu être les siennes. Poursuite en voiture, accident. Il meurt en même temps que l'assassin.`,
-  produit: `Le cri. Le temps 3 avait appris qu'il y avait deux histoires ; celui-ci apprend qui est le second homme, et referme le livre d'un coup. Le veilleur est l'enquêteur, les fragments étaient sa vie d'avant, les deux corps étaient les filles de son affaire — et il vient de regarder mourir un homme sans savoir que c'était lui.`,
-  clef: `Le nom arrive attaché à un refus d'obéir. La seule fois du roman où l'on entend son nom est la seule fois où quelqu'un essaie de l'arrêter et où il n'écoute pas. Son partenaire crie « attends » — le mot exact auquel il a cédé des semaines plus tôt, et qui est toute sa faute. Son identité et sa faute sont données dans le même souffle, et en miroir.`,
+  resume: `**La silhouette prend la fuite.** Sans réfléchir, il s'élance. Une rage, la colère, l'envie de tuer. « Joël, attends ! » La poursuite en voiture, l'accident. Il meurt en même temps que l'assassin.`,
+  produit: `🔴 **Le cri tombe désormais au milieu d'une course que le lecteur a entièrement investie comme celle d'Andrew.** Il vient de voir la silhouette apparaître dans la cave d'ici ; il lit la suite. *Le nom ne révèle pas le dispositif : il révèle l'identité, et il arrive quand le lecteur est le moins capable de s'en défendre.*`,
+  clef: `**Le nom arrive attaché à un refus d'obéir.** La seule fois du roman où l'on entend son nom est la seule fois où quelqu'un essaie de l'arrêter et où il n'écoute pas. Son partenaire crie *attends* — le mot exact auquel il a cédé des semaines plus tôt, et qui est toute sa faute. **Son identité et sa faute sont données dans le même souffle, et en miroir.**`,
+  lecture: `Il croit qu'Andrew court après la ravisseuse. **Personne ne court, de ce côté-ci** — et il l'apprendra au chapitre suivant, sans qu'une ligne le lui dise.`,
   monde: `Rien.`,
   qui: [`joel`,`liam`],
   gardes: [
-    `Un nom donné par le narrateur est une information ; un nom crié par un personnage est du bruit. Le narrateur ne le prononce jamais, pas même là.`,
+    `**Le chapitre s'ouvre sur la fuite, pas sur un lieu.** Aucune reprise du décor de la cave, aucun raccord visuel avec le chapitre précédent : c'est le lecteur qui raccorde, et s'il est aidé, il voit la couture.`,
+    `Un nom donné par le narrateur est une information ; un nom crié par un personnage est du bruit. **Le narrateur ne le prononce jamais, pas même là.**`,
     `Le mot « attends » n'est ni répété, ni souligné, ni mis en italique.`,
     `Il ne meurt pas en sauvant quelqu'un. Sa poursuite ne sert à rien, personne ne la lui demande, aucun personnage ne commente sa mort.`,
-    `Rien de sa mort ne doit ressembler à un sacrifice.`
+    `Il ne veut pas l'arrêter, il veut le tuer — comme si les deux filles avaient pu être les siennes. **C'est la seule fois du livre où il n'est plus lui-même.**`
   ],
-  phrases: [{ t: `Joël, non, attends !`, n: `Crié par son collègue. Unique occurrence de son nom dans tout le roman, et le dernier endroit possible du livre : le dispositif tient sur la totalité du volume, pas sur les neuf dixièmes.` }],
-  src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3`
+  phrases: [{ t: `Joël, attends !`, n: `Crié par son collègue. **Unique occurrence de son nom dans tout le roman**, et le dernier endroit possible du livre : le dispositif tient sur la totalité du volume, pas sur les neuf dixièmes.` }],
+  src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3 — décision du 16 août 2026`
 },
 {
-  id: `registre-fin`, no: `Temps 5`, col: 31, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19c`, no: `Chapitre E`, col: 31, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  titre: `Elle n'a pas fui`,
+  statut: `acquis`, pivot: true,
+  resume: `On revient chez Andrew. **Il réalise sa propre mort.** Il observe, dubitatif, la berceuse qui a compris qu'elle était prise sur le fait. **Elle n'a pas tenté de s'enfuir.** Elle semblait juste profondément triste. Isaac lui passe les menottes.`,
+  produit: `🔴 **Et le lecteur comprend, sans qu'une ligne le lui dise, que personne n'a couru de ce côté-ci.** La course qu'il vient de lire n'appartenait pas à cette cave. *Il n'a pas été trompé : on ne lui a jamais dit que la silhouette fuyait — il l'a supposé.*`,
+  clef: `**Elle n'a pas fui, et c'est ce qui la referme.** Elle ne voulait pas le tuer, elle voulait le garder ; on ne fuit pas quand on n'a nulle part où aller et rien à sauver. *Sa tristesse n'est pas du remords : c'est la fin de la seule chose qu'elle avait.*`,
+  lecture: `Deux images se superposent chez lui pour toujours : un homme qui court et meurt, et une femme qui ne bouge pas. **Il n'aura jamais les mots pour dire que c'est la même seconde.**`,
+  monde: `Rien de neuf. C'est le premier endroit du livre où le reliquat frappe en pleine scène, et personne ne le remarque.`,
+  qui: [`andrew`,`berceuse`,`isaac`,`eliott`],
+  gardes: [
+    `**Il ne comprend rien.** Il voit sa propre mort et il n'a aucun nom pour ça — pas de « c'était lui », pas de « il se reconnut ». Le corps sait, pas lui.`,
+    `**Il n'apprend jamais qu'il s'est appelé Joël.** Le nom n'existe que pour le lecteur.`,
+    `Elle ne s'explique pas, personne ne formule son motif à sa place, et le livre n'a pas de scène qui rende son geste intelligible.`,
+    `**Elle ne doit jamais s'écrire comme une démente qu'on range et qu'on oublie.** Sa tristesse est celle de quelqu'un à qui on reprend quelque chose, et elle ne se commente pas.`,
+    `Aucun personnage ne rapproche jamais sa présence ancienne et son arrestation. Pas de « elle était là depuis le début ».`
+  ],
+  ouvert: [`Ce qu'elle dit, ou ne dit pas, au moment de l'arrestation. *Le silence est la version la plus dure ; une seule phrase est la plus risquée.*`,
+           `Le livre lui donne-t-il un nom ? Trois canaux possibles, et il n'en faut qu'un.`,
+           `⚠️ **Ce qu'Andrew fait de sa stupeur dans les pages qui suivent.** Il vient de voir mourir un homme qui était lui ; le livre ne peut ni l'expliquer ni l'ignorer. *C'est la seule zone du dénouement qui reste à régler.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/la-berceuse.md — décision du 16 août 2026`
+},
+{
+  id: `registre-fin`, no: `Temps 5`, col: 32, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La ligne de registre`,
   statut: `acquis`,
   resume: `Une date, une travée, deux numéros collés — et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Moins d'une heure plus tard, une autre capsule, qui n'a jamais éclairci.`,
@@ -1496,7 +1519,7 @@ const SCENES = [
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 32, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 33, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1511,7 +1534,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Épilogue · six ans plus tard`, col: 33, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Épilogue · six ans plus tard`, col: 34, row: `andrew`, acte: `Épilogue`,
   titre: `La confession d'Eliott`,
   statut: `acquis`, pivot: true,
   resume: `Il a huit ans, Andrew en a quarante-six. Il raconte ce qui lui est arrivé de l'autre côté : une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, racontés comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. C'est le calme qui glace.`,
@@ -1530,7 +1553,7 @@ const SCENES = [
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Dernière page`, col: 34, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Dernière page`, col: 35, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `acquis`,
   resume: `Il dépose ce qui le faisait souffrir, et il entre. Personne ne lui dit dans quoi il entre. Andrew le regarde faire en sachant, et se tait.`,
@@ -1558,8 +1581,8 @@ const LIENS = [
   [`s14a`,`j2`,`j`], [`j2`,`s14b`,`a`], [`s14b`,`s14c`,`a`], [`s14c`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
   [`s15b`,`s15c`,`a`], [`s15c`,`s16`,``], [`s16`,`s17a`,``], [`s17a`,`s17b`,`j`], [`s17b`,`s17c`,`a`],
   [`s17c`,`s18`,``],
-  [`s18`,`corps`,`j`], [`corps`,`s19`,`j`],
-  [`s19`,`poursuite`,`j`], [`poursuite`,`registre-fin`,`a`],
+  [`s18`,`corps`,`j`], [`corps`,`s19a`,`a`],
+  [`s19a`,`poursuite`,`j`], [`poursuite`,`s19c`,`a`], [`s19c`,`registre-fin`,`a`],
   [`registre-fin`,`excuses`,`a`], [`excuses`,`confession`,`a`], [`confession`,`jardin-fin`,`a`]
 ];
 
@@ -2083,6 +2106,14 @@ const NOTES = [
 { d:`16 août`, s:`Une scène de Joël dans le creux`, e:`acquis`, t:[`enquête`],
   v:`On aura une scène entre la 14a et la 14b, une scène côté Joël.`,
   q:`**Elle sépare le refus au comptoir de la traversée du jardin**, et elle arme la scène 15 : une enquête qui n'a plus rien est une enquête qu'on peut demander d'arrêter. *Le contenu exact reste à trouver — et elle absorbe l'ancienne carte « On lui dit d'arrêter », devenue un doublon depuis que le « lâche l'affaire » est passé du côté de Joël.*` },
+
+{ d:`16 août`, s:`Le dénouement, refait`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`La scène recommence, Andrew vient de retrouver Eliott. Isaac les rejoint. Il sent pourtant une présence derrière eux. Une silhouette apparaît. Fin du chapitre. // Chapitre suivant, la silhouette prend la fuite. Sans réfléchir, il s'élance à sa poursuite. Une rage, la colère, l'envie de tuer. « Joël attends ! » La poursuite, la mort. // On revient ensuite côté Andrew, qui réalise sa propre mort. Il observe dubitativement la berceuse qui a compris qu'elle était prise sur le fait. Elle n'a pas tenté de s'enfuir, elle semblait juste profondément triste. Isaac lui passe les menottes.`,
+  q:`**La silhouette existe dans les deux mondes ; seule la fuite n'appartient qu'à un seul.** Le chapitre d'Andrew se ferme sur une apparition et rien de plus — *rien ne dit qu'elle bouge, c'est le lecteur qui la fait courir.* **Le cri tombe donc au milieu d'une course entièrement investie comme celle d'Andrew**, au moment où le lecteur est le moins capable de s'en défendre. Puis le chapitre suivant apprend, sans une ligne pour le dire, que personne n'a couru de ce côté-ci. *Elle n'a pas fui : on ne fuit pas quand on n'a nulle part où aller et rien à sauver.*` },
+
+{ d:`16 août`, s:`Le mot qui protège tout seul`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`—`,
+  q:`Remarque d'écriture née de la scène : **« silhouette » est féminin en français.** On peut donc écrire *la silhouette prend la fuite* aussi bien pour l'assassin des filles que pour la berceuse, **sans qu'un seul accord trahisse quoi que ce soit.** *Le dispositif reçoit là une protection gratuite, et il n'y en a pas beaucoup.*` },
 
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
