@@ -130,7 +130,7 @@ Eliott fait de **petits travaux d'ordre public**, sans force ni difficulté, ada
 
 **Banal et local.** Toujours.
 
-Le genre de : *« mais si, il y avait un boulanger ici, pas un magasin de chaussures »*. Une rue, une devanture, un arrêt, une couleur de porte. Des riens qu'aucun adulte ne prend au sérieux et que personne ne peut vérifier.
+Le genre de : *« mais si, il y avait un magasin de chaussures ici, pas une épicerie »*. Une rue, une devanture, un arrêt, une couleur de porte. Des riens qu'aucun adulte ne prend au sérieux et que personne ne peut vérifier.
 
 **Jamais un monument. Jamais un nom qui situe le monde.** L'interdit n° 6 est formel : ni lieu, ni œuvre, ni figure, ni événement de notre monde. Un garçon qui nommerait une tour, une guerre ou un peintre donnerait au lecteur un axe commun entre les deux mondes, et le livre deviendrait une énigme à résoudre.
 

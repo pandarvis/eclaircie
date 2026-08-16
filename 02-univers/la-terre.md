@@ -118,7 +118,7 @@ Deux conséquences, et aucune n'exige d'être expliquée dans le texte.
 
 **Un jeune porteur de voiles a de quoi fabuler sur des lieux qu'il a réellement sous les yeux.** Puisqu'il est ressorti à l'endroit même où il vivait, ce qui lui remonte porte sur des rues qu'il traverse tous les jours. Ce n'est plus une réminiscence flottante : c'est un désaccord entre ce qu'il voit et ce qu'il croit se rappeler, à un mètre près.
 
-Sa fabulation doit rester **banale et locale**. Du registre de : *mais si, il y avait un boulanger ici, pas un magasin de chaussures.* Une devanture, un arbre, un passage, une couleur de façade. Rien de plus.
+Sa fabulation doit rester **banale et locale**. Du registre de : *mais si, il y avait un magasin de chaussures ici, pas une épicerie.* Une devanture, un arbre, un passage, une couleur de façade. Rien de plus.
 
 **Jamais un monument connu.** Dès qu'il évoque un lieu que le lecteur pourrait nommer, on quitte le malaise pour la devinette, et l'on tombe sous l'**interdit n° 6** de [`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md). Un boulanger disparu est irréfutable et sans grandeur ; c'est précisément ce qui le rend juste.
 

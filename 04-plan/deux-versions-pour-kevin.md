@@ -104,7 +104,7 @@ qui s'excuse d'exister.**
 ### La scène
 
 Même promenade, même homme qui suit un fantôme. Et une phrase du garçon lui revient —
-*« mais si, là il y a un magasin de chaussures, pas une épicerie »*. **Alors il entre
+*« mais si, il y avait un magasin de chaussures ici, pas une épicerie »*. **Alors il entre
 dans l'épicerie.**
 
 Pas pour chercher quelque chose : le magasin ne contient rien, et il n'y cherche rien.
@@ -116,10 +116,16 @@ deuil, pas d'enquête.** Il flâne dans les rayons, il passe en caisse.
 Elle est devant lui dans la file. **Elle l'a vu, lui pas.**
 
 1. **Elle est nerveuse et elle laisse tomber sa monnaie.**
-2. Il s'accroupit pour l'aider à ramasser. **« Heu… pardon… »**
+2. **« Heu… pardon… »** — *elle s'excuse auprès du caissier, pas auprès de lui*, pendant
+   qu'il s'accroupit pour l'aider à ramasser.
 3. **Leurs regards se croisent. Un micro-blanc** — une seconde de trop, un regard qui ne
    se détourne pas assez vite — et elle se remet à compter sa monnaie.
 4. Elle finit de payer maladroitement et **sort en trombe**.
+
+**Andrew relit deux fois la même scène sans le savoir.** Au jardin, le pédiatre relevait
+ses larmes et elle bredouillait pardon ; ici, c'est au caissier qu'elle s'excuse. Deux
+fois quelqu'un derrière un comptoir, deux fois la même femme qui s'excuse d'exister — et
+il n'est l'interlocuteur ni de l'une ni de l'autre.
 
 **Andrew ne la reconnaît pas. C'est sa voix qui la reconnaît, et ça l'interpelle — rien
 de plus.** Il ne la soupçonne de rien : il aide quelqu'un à ramasser des pièces, c'est

@@ -122,7 +122,7 @@ Elle produit trois conséquences, et c'est là toute sa valeur : **elle fait le 
 
 C'est ce qui la rend crédible : **il parle des lieux d'ici**, ceux qu'il a sous les yeux. Il n'évoque pas un ailleurs, il corrige un ici.
 
-La contrainte d'écriture est stricte. Ce qu'il dit doit rester **banal et local** — le genre de *« mais si, il y avait un boulanger ici, pas un magasin de chaussures »*. Une rue, un commerce, un arbre, une pente, un raccourci. Jamais un monument connu, jamais un nom qui situe le monde : c'est l'**interdit n° 6** (voir [`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md)).
+La contrainte d'écriture est stricte. Ce qu'il dit doit rester **banal et local** — le genre de *« mais si, il y avait un magasin de chaussures ici, pas une épicerie »*. Une rue, un commerce, un arbre, une pente, un raccourci. Jamais un monument connu, jamais un nom qui situe le monde : c'est l'**interdit n° 6** (voir [`../01-dossier/les-interdits.md`](../01-dossier/les-interdits.md)).
 
 L'avantage est double. Le détail banal est invérifiable, donc l'hypothèse « il fabule » tient debout jusqu'au bout. Et il est irrésistible : personne ne ment sur un boulanger.
 
