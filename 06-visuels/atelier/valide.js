@@ -36,6 +36,18 @@ d.SCENES.forEach(s => {
 const voies = Object.keys(d.VOIES);
 d.SCENES.forEach(s => { if (!voies.includes(s.row)) pb.push('voie inconnue : ' + s.row); });
 
+/* Une liste ecrite en texte ne casse rien au chargement : elle tue l'ecran
+   au rendu, et tout ce qui se construit apres. On la cherche donc ici. */
+[[`NOTES`, d.NOTES, [`t`]],
+ [`SCENES`, d.SCENES, [`qui`,`gardes`,`ouvert`,`pourquoi`,`phrases`,`refs`]],
+ [`QUESTIONS`, d.QUESTIONS, [`o`]],
+ [`TEXTES`, d.TEXTES, [`p`,`tenu`,`ouvre`]]].forEach(([nom, tab, champs]) => {
+  tab.forEach((e, i) => champs.forEach(c => {
+    if (e && e[c] !== undefined && !Array.isArray(e[c]))
+      pb.push(nom + `[` + i + `].` + c + ` devrait etre une liste, pas ` + JSON.stringify(e[c]).slice(0, 46));
+  }));
+});
+
 /* les mots que le texte du roman ne peut pas employer */
 const bannis = /\b(enfants?|vieillards?|gar[çc]ons?|gamins?|gosses?|p[èe]res?|m[èe]res?|fils|famille|jumeaux?|jumelles?)\b/i;
 d.TEXTES.forEach(t => {
