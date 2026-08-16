@@ -20,7 +20,7 @@
   --commun:#94A3B1; --commun-sourd:#3A4854;
   --alerte:#D0705F; --acquis:#8CB887; --provisoire:#DCB95E;
   --lueur:rgba(124,198,220,.18);
-  --pic:#AC8BE4; --lot:#5A6B80;
+  --pic:#AC8BE4; --lot:#5A6B80; --fin:#5FD3A4;
   --serif:Constantia,"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
   --sans:Corbel,Candara,"Segoe UI",Tahoma,sans-serif;
   --mono:Consolas,"Cascadia Mono","DejaVu Sans Mono",monospace;
@@ -36,8 +36,7 @@
     --commun:#5A6C7C; --commun-sourd:#CBD5DD;
     --alerte:#A6392B; --acquis:#3B7345; --provisoire:#87681A;
     --lueur:rgba(27,118,144,.12);
-  --pic:#6B44BC; --lot:#7C8CA2;
-    --pic:#6B44BC; --lot:#7C8CA2;
+    --pic:#6B44BC; --lot:#7C8CA2; --fin:#12805A;
   }
 }
 :root[data-theme="light"]{
@@ -49,7 +48,7 @@
   --commun:#5A6C7C; --commun-sourd:#CBD5DD;
   --alerte:#A6392B; --acquis:#3B7345; --provisoire:#87681A;
   --lueur:rgba(27,118,144,.12);
-  --pic:#6B44BC; --lot:#7C8CA2;
+  --pic:#6B44BC; --lot:#7C8CA2; --fin:#12805A;
 }
 :root[data-theme="dark"]{
   --fond:#0A0E13; --fond-2:#101720; --fond-3:#161F2A; --fond-4:#1D2836;
@@ -60,7 +59,7 @@
   --commun:#94A3B1; --commun-sourd:#3A4854;
   --alerte:#D0705F; --acquis:#8CB887; --provisoire:#DCB95E;
   --lueur:rgba(124,198,220,.18);
-  --pic:#AC8BE4; --lot:#5A6B80;
+  --pic:#AC8BE4; --lot:#5A6B80; --fin:#5FD3A4;
 }
 
 *{box-sizing:border-box}
@@ -216,6 +215,16 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
   color:var(--pic);border-color:color-mix(in srgb,var(--pic) 60%,transparent);
   box-shadow:0 0 18px -6px color-mix(in srgb,var(--pic) 60%,transparent);
 }
+.lot.pic.vert{
+  border-color:color-mix(in srgb,var(--fin) 62%,transparent);
+  background:color-mix(in srgb,var(--fin) 8%,transparent);
+  box-shadow:0 0 46px -10px color-mix(in srgb,var(--fin) 55%,transparent),
+             inset 0 0 60px -30px color-mix(in srgb,var(--fin) 70%,transparent);
+}
+.lot.pic.vert > b{
+  color:var(--fin);border-color:color-mix(in srgb,var(--fin) 60%,transparent);
+  box-shadow:0 0 18px -6px color-mix(in srgb,var(--fin) 60%,transparent);
+}
 @media (prefers-reduced-motion:reduce){ .lot.pic{box-shadow:none} }
 
 .acte{
@@ -366,6 +375,7 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .legende .ech.a{background:var(--andrew)} .legende .ech.j{background:var(--joel)}
 .legende .ech.t{background:none;border-top:2px dashed var(--alerte);height:0}
 .legende .ech.p{background:none;border:1.5px solid var(--pic);height:9px;border-radius:2px}
+.legende .ech.f{background:none;border:1.5px solid var(--fin);height:9px;border-radius:2px}
 .legende .aide{margin-left:auto;color:var(--texte-4)}
 
 /* ============================================================
@@ -797,7 +807,8 @@ kbd{
         <span><i class="ech"></i> Les étapes — le beat, sans son monde</span>
         <span><i class="ech j"></i> Joël — la vie d'avant, que le lecteur ne voit pas</span>
         <span><i class="ech t"></i> reste à trouver</span>
-        <span><i class="ech p"></i> un lot — des chapitres qui se lisent d'un seul tenant</span>
+        <span><i class="ech p"></i> le point culminant</span>
+        <span><i class="ech f"></i> la scène jouée deux fois</span>
         <span><i class="ech" style="border-top:2px dotted var(--texte-4);background:none;height:0"></i> repère — ne s'écrira pas</span>
         <span class="aide"><kbd>←</kbd> <kbd>→</kbd> pour circuler · <kbd>Échap</kbd> pour fermer</span>
       </footer>
@@ -957,7 +968,7 @@ const BLOCS = [
     q: `Elle meurt sur une erreur administrative, et personne n'a rien fait de mal.` },
   { c0: 22, c1: 24, pic: true, t: `Le point culminant`,
     q: `Trois chapitres, une seule scène pour le lecteur — deux hommes, deux issues.` },
-  { c0: 27, c1: 31, pic: true, t: `La même scène, jouée deux fois`,
+  { c0: 27, c1: 31, pic: true, vert: true, t: `La même scène, jouée deux fois`,
     q: `Il entre seul. D'un côté deux corps ; de l'autre, un garçon vivant.` }
 ];
 
@@ -3734,7 +3745,7 @@ function construirePlateau(){
   /* les lots : posés avant tout le reste, ils passent derrière */
   if (filtreVoie === `tous`) BLOCS.forEach(b => {
     const d = document.createElement(`div`);
-    d.className = `lot` + (b.pic ? ` pic` : ``);
+    d.className = `lot` + (b.pic ? ` pic` : ``) + (b.vert ? ` vert` : ``);
     d.style.left = (colX(b.c0) - 26) + `px`;
     d.style.width = (colX(b.c1) - colX(b.c0) + NODEW + 52) + `px`;
     d.style.top = (ROWY.andrew - 32) + `px`;
