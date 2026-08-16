@@ -199,10 +199,19 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 
 /* liens */
 .liens{position:absolute;top:0;left:0;pointer-events:none;z-index:5;overflow:visible}
-.liens path{fill:none;stroke-width:1.4;stroke:var(--commun);opacity:.55}
-.liens path.l-andrew{stroke:var(--andrew);opacity:.5}
-.liens path.l-joel{stroke:var(--joel);opacity:.55}
-.liens circle{fill:var(--commun);opacity:.7}
+.liens path{
+  fill:none;stroke-width:2.4;stroke:var(--commun);opacity:.9;
+  filter:drop-shadow(0 0 4px color-mix(in srgb,var(--commun) 45%,transparent));
+}
+.liens path.l-andrew{
+  stroke:var(--andrew);
+  filter:drop-shadow(0 0 5px color-mix(in srgb,var(--andrew) 50%,transparent));
+}
+.liens path.l-joel{
+  stroke:var(--joel);
+  filter:drop-shadow(0 0 5px color-mix(in srgb,var(--joel) 50%,transparent));
+}
+.liens polygon{opacity:.95}
 .liens path.vif{stroke:var(--andrew);opacity:1;stroke-width:1.9;filter:drop-shadow(0 0 5px var(--lueur))}
 .liens circle{fill:var(--trait-fort)}
 
@@ -262,14 +271,20 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
   color:var(--texte-4);margin-bottom:2px;
 }
 
-/* scène non écrite, seulement pour situer */
+/* scène non écrite : plus petite, en retrait — elle ne porte pas la ligne */
 .noeud.gris{
-  background:transparent;border-style:dotted;opacity:.62;
+  background:transparent;border-style:dotted;opacity:.55;
+  width:172px;padding:9px 11px 10px;
+  clip-path:polygon(0 0,calc(100% - 9px) 0,100% 9px,100% 100%,9px 100%,0 calc(100% - 9px));
 }
-.noeud.gris h3{color:var(--texte-3);font-weight:400}
-.noeud.gris p{color:var(--texte-4)}
-.noeud.gris .bandeau{opacity:.4}
+.noeud.gris .no{font-size:9px}
+.noeud.gris h3{color:var(--texte-3);font-weight:400;font-size:13px}
+.noeud.gris p{color:var(--texte-4);font-size:10.5px;-webkit-line-clamp:3}
+.noeud.gris .bandeau{opacity:.35;top:9px}
 .noeud.gris:hover{opacity:1}
+
+/* scène écrite : c'est elle qui porte la ligne */
+.noeud:not(.gris){box-shadow:0 2px 10px color-mix(in srgb,var(--ombre) 60%,transparent)}
 
 /* nœud à trouver */
 .noeud.trou{
@@ -737,6 +752,7 @@ kbd{
         </div>
       </div>
       <footer class="legende">
+        <span><b style="font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--texte-4)">Le fil</b> — l'ordre de lecture</span>
         <span><i class="ech a"></i> Andrew — ce monde-ci, le présent</span>
         <span><i class="ech"></i> Les étapes — le beat, sans son monde</span>
         <span><i class="ech j"></i> Joël — la vie d'avant, que le lecteur ne voit pas</span>
@@ -862,11 +878,10 @@ const ACTES = [
   { t: `Le monde comme terrain`, c0: 7, c1: 8 },
   { t: `Le registre`,          c0: 9,  c1: 13 },
   { t: `La fausse piste s'éteint`, c0: 14, c1: 16 },
-  { t: `L'enlisement`,         c0: 17, c1: 25 },
-  { t: `La remontée`,          c0: 26, c1: 29 },
-  { t: `Le seuil franchi deux fois`, c0: 30, c1: 35 },
-  { t: `Épilogue`,             c0: 36, c1: 38 },
-  { t: `Sans place encore`,    c0: 39, c1: 40 }
+  { t: `L'enlisement`,         c0: 17, c1: 24 },
+  { t: `La remontée`,          c0: 25, c1: 28 },
+  { t: `Le seuil franchi deux fois`, c0: 29, c1: 34 },
+  { t: `Épilogue`,             c0: 35, c1: 37 }
 ];
 
 /* le tronc : le beat generique, ni ecrit ni attribue.
@@ -881,13 +896,13 @@ const ETAPES = [
   { c0: 12, c1: 12, t: `L'homme qui était là ce jour-là` },
   { c0: 14, c1: 14, t: `Chez le suspect` },
   { c0: 16, c1: 16, t: `L'alibi se vérifie` },
-  { c0: 19, c1: 19, t: `L'enquête n'a plus rien` },
-  { c0: 22, c1: 24, t: `« Lâche l'affaire »` },
-  { c0: 25, c1: 25, t: `L'appui se retire` },
-  { c0: 26, c1: 28, t: `Seul — puis la solution` },
-  { c0: 29, c1: 29, t: `On entre` },
-  { c0: 30, c1: 31, t: `Le lieu de séquestration` },
-  { c0: 32, c1: 32, t: `La poursuite` }
+  { c0: 18, c1: 18, t: `Ce qu'il reste à suivre` },
+  { c0: 21, c1: 23, t: `« Lâche l'affaire »` },
+  { c0: 24, c1: 24, t: `L'appui se retire` },
+  { c0: 25, c1: 27, t: `Seul — puis la solution` },
+  { c0: 28, c1: 28, t: `On entre` },
+  { c0: 29, c1: 30, t: `Le lieu de séquestration` },
+  { c0: 31, c1: 31, t: `La poursuite` }
 ];
 
 const SCENES = [
@@ -1018,7 +1033,7 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
-  id: `g-piste`, no: `Non écrite`, col: 28, row: `joel`, acte: `La remontée`, gris: true,
+  id: `g-piste`, no: `Non écrite`, col: 27, row: `joel`, acte: `La remontée`, gris: true,
   face: `s17c`,
   titre: `Il a trouvé une piste seul`,
   statut: `ouvert`,
@@ -1029,7 +1044,7 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
-  id: `g-entre`, no: `Non écrite`, col: 29, row: `joel`, acte: `La remontée`, gris: true,
+  id: `g-entre`, no: `Non écrite`, col: 28, row: `joel`, acte: `La remontée`, gris: true,
   face: `s18`,
   titre: `Il entre seul, sans attendre`,
   statut: `ouvert`,
@@ -1040,7 +1055,7 @@ const SCENES = [
   src: `04-plan/le-meme-jour.md §5 quater`
 },
 {
-  id: `g-seul`, no: `Non écrite`, col: 25, row: `joel`, acte: `L'enlisement`, gris: true,
+  id: `g-seul`, no: `Non écrite`, col: 24, row: `joel`, acte: `L'enlisement`, gris: true,
   face: `s16`,
   titre: `Il reste seul`,
   statut: `ouvert`,
@@ -1072,43 +1087,6 @@ const SCENES = [
   lecture: `Première lecture : un gamin bizarre. Seconde lecture : il regarde quelqu'un qui lui fait éprouver une chose qu'il ne sait pas nommer.`,
   src: `04-plan/le-parcours-de-l-enquete.md — « Avant le parcours »`
 },
-{
-  id: `capsule`, no: `À placer`, col: 41, row: `andrew`, acte: `Sans place`,
-  titre: `La capsule qui n'éclaircit pas`,
-  statut: `ouvert`, flottant: true,
-  resume: `Combinaisons, raclette, seaux, odeur. Andrew n'y touche pas : ce n'est plus son tour. Il regarde un plus récent se faire bizuter, et il ne trouve rien à en dire.`,
-  produit: `La scène doit révulser franchement, sans une once de compassion — pour que plus tard, quand le lecteur réalise qu'il y avait quelqu'un là-dedans, sa première réaction soit « bien fait pour sa gueule », et qu'il ait à la juger après coup.`,
-  monde: `Le tour de rôle, le bizutage, l'ancienneté qui se lit à l'envers sur les visages : la sale besogne va aux derniers arrivés, c'est-à-dire à ceux qui ont l'air les plus vieux.`,
-  qui: [`andrew`],
-  gardes: [
-    `Le nettoyage est un incident d'exploitation, pas une épreuve morale. Personne ne s'attendrit, personne ne s'interroge.`,
-    `Ce souvenir n'a plus rien à voir avec Eliott : un autre jour, une autre travée. Il ne doit surtout pas atterrir sur la ligne du registre de la scène 8.`,
-    `Les capsules sans éclaircie se multiplient depuis quelques années et personne ne sait pourquoi. Deux occurrences dans le livre, pas davantage, et jamais un personnage qui pointe la courbe.`
-  ],
-  ouvert: [`Où elle tombe exactement dans le livre. Elle est très en amont dans le dossier maître, elle n'a pas encore de place dans le parcours.`],
-  src: `L-ECLAIRCIE-dossier-complet.md §8 — 02-univers/la-ruche.md`
-},
-{
-  id: `paire-tot`, no: `À placer`, col: 42, row: `andrew`, acte: `Sans place`,
-  titre: `La paire, en passant`,
-  statut: `trou`, flottant: true,
-  resume: `Chrissy et Tania apparaissent une fois, tôt, comme du décor du monde : deux visages et deux noms mémorables et sans importance.`,
-  produit: `Le lecteur doit les avoir vues, sans savoir qu'il les a vues. C'est ce qui rend possible le trouble du chapitre B — « la paire du début, qu'est-ce qu'elles font là ? ».`,
-  monde: `Le mot du registre : une paire. Deux capsules voisines, le même jour, deux visages identiques. Le mot jumeau n'existe pas dans cette langue.`,
-  qui: [`chrissy`,`andrew`],
-  gardes: [
-    `Une apparition, brève, sans rôle ni réplique décisive.`,
-    `Elle ne doit jamais donner de quoi formuler l'hypothèse des deux histoires.`,
-    `Le lecteur ne doit jamais pouvoir soustraire : la date appartient au document, l'âge appartient au regard, et les deux ne se croisent jamais dans la même scène.`,
-    `Leur âge — une quinzaine d'années — n'est jamais écrit. Andrew ne pose jamais l'opération.`
-  ],
-  phrases: [{ t: `Ils mettent trois fois plus longtemps à descendre, en plus.`, n: `À mettre dans une bouche banale, tôt, à propos de quelqu'un dont on ne reparlera jamais. C'est la parade au lecteur qui calculerait 1:1 et trouverait huit au lieu de quinze.` }],
-  ouvert: [`🟡 **Cette scène disparaît peut-être.** Si l'apparition de la paire se fait à la cérémonie d'Andrew — placement recommandé, trois colonnes plus tôt —, il ne reste ici que la réplique du ratio, à placer dans n'importe quelle bouche banale.`,
-           `Où exactement, et dans quelle scène, si elle survit.`],
-  src: `03-personnages/chrissy-et-tania.md — 04-plan/duree-et-calendrier.md`
-},
-
-/* ---------- LES VISITES ---------- */
 {
   id: `s1`, no: `Scène 1`, col: 1, row: `andrew`, acte: `Avant la disparition`,
   titre: `Première visite chez June`,
@@ -1343,11 +1321,13 @@ const SCENES = [
   ouvert: [`✅ **Ce chapitre est repris une seconde fois, au chapitre F**, après la mort de Joël — plus bref, moins tourné vers lui, et cette fois il entend la phrase entière. *Les deux récits doivent être vérifiables l'un contre l'autre : rien dans le second qui ne pouvait être manqué dans le premier.*`,
            `⚠️ **Ce que l'homme dit qui donne prétexte au souvenir.** Il est du monde d'avant, donc Andrew ne l'entend pas : **le déclenchement ne vaut que pour le lecteur.** Pistes d'équivoque, à trancher — *« ça fait dix ans que ça dure »* (le chiffre exact de son arrivée) ; *« on est arrivés en même temps, lui et moi »* (embauchés la même semaine là-bas, trois capsules le même matin ici) ; *« vous croyez que je me souviens de ce que j'ai dit il y a dix ans ? »*`,
            `⚠️ **Contrainte de loyauté, et elle est absolue.** Le texte ne doit **jamais** placer Andrew chez l'homme. Pas de « en repartant de chez lui », pas de voiture qu'on referme, pas de porte dans le dos. *On l'ouvre ailleurs — à la ruche, dans un couloir, devant un lavabo — et le lecteur fait le raccord tout seul. Rien n'est caché : quelque chose n'est simplement pas dit.*`,
-           `Si la paire apparaît ici, la scène « la paire, en passant » disparaît — ou se réduit à la seule réplique du ratio, à placer ailleurs et plus tôt.`],
+           `✅ **La paire apparaît ici, et nulle part ailleurs avant.** *La carte « la paire, en passant » est supprimée — elle faisait doublon.* **C'est donc cette scène qui doit laisser au lecteur deux visages identiques dont il ne fera rien**, pour qu'il puisse se dire, six cents pages plus tard, « la paire du début, qu'est-ce qu'elles font là ? »`,
+           `⚠️ **Et il faut replacer la réplique du ratio.** *« Ils mettent trois fois plus longtemps à descendre, en plus »* devait tomber dans cette scène-là. **La foule de la cérémonie peut la porter** — une bouche banale, à propos de quelqu'un dont on ne reparlera jamais. *Sans elle, le lecteur calcule 1:1 et trouve huit au lieu de quinze.*`],
   src: `04-plan/deux-histoires-en-une.md §7 — 04-plan/le-meme-jour.md §1`
 },
 {
-  id: `j2`, no: `Entre 14a et 14b`, col: 19, row: `joel`, acte: `L'enlisement`,
+  id: `j2`, no: `Scène 14 · a bis`, col: 18, row: `joel`, acte: `L'enlisement`,
+  face: `s14-appel`,
   titre: `Il n'a plus rien`,
   statut: `trou`,
   resume: `**Une scène de Joël s'intercale dans la seconde fausse piste.** Son enquête à lui s'épuise en même temps : *il est parti sur un dossier ancien qui ressemblait à un précédent, et il n'en reste rien.* Il reprend ce qu'il a, il demande quelque chose, on le lui refuse. **Le contenu exact reste à trouver.**`,
@@ -1445,11 +1425,13 @@ const SCENES = [
 },
 {
   id: `s14-appel`, no: `Scène 14 · a bis`, col: 18, row: `andrew`, acte: `L'enlisement`,
+  face: `j2`,
   titre: `Il appelle Isaac`,
   statut: `acquis`,
   resume: `Il a une piste, un nom, un lieu. **Il prévient Isaac et ils se donnent rendez-vous au jardin.**`,
   produit: `Rien d'autre qu'un raccord, et c'est ce qu'il faut : *il a quelque chose, il appelle son ami, ils se retrouvent là-bas.* **La scène doit être plate.**`,
-  clef: `🔴 **Parce que c'est le premier de deux coups de fil, et que le second est celui qui compte.** *À la scène 17 c, il appellera de nouveau — et cette fois il dira « c'était là sous nos yeux ».* **Si celui-ci a le moindre relief, l'autre perd le sien.**`,
+  clef: `**Et en face, au même moment, l'autre n'a plus rien.** *Même beat, deux issues : l'un a un nom et une adresse, l'autre a un dossier vide.* **C'est la troisième fois que le livre joue cette figure — et celle-ci est la plus discrète des trois.**
+  🔴 **C'est aussi le premier de deux coups de fil, et le second est celui qui compte.** *À la scène 17 c, il appellera de nouveau — et cette fois il dira « c'était là sous nos yeux ».* **Si celui-ci a le moindre relief, l'autre perd le sien.**`,
   garde_bis: `**Il ne sait pas qu'il a besoin d'un policier.** Il appelle Isaac parce que c'est ce qu'il fait, depuis des années, sur des affaires qui n'ont rien à voir. *Ce n'est qu'au jardin qu'une porte s'ouvrira pour une raison qu'aucun des deux n'aura prévue.*`,
   monde: `Rien.`,
   qui: [`andrew`,`isaac`],
@@ -1462,7 +1444,7 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
-  id: `s14b`, no: `Scène 14 · b`, col: 20, row: `andrew`, acte: `L'enlisement`,
+  id: `s14b`, no: `Scène 14 · b`, col: 19, row: `andrew`, acte: `L'enlisement`,
   titre: `L'entretien en marchant`,
   statut: `acquis`, pivot: true,
   resume: `Ils vont voir le pédiatre au jardin. **Il est un peu sur la réserve — puis il comprend qu'il a affaire à un policier, et il coopère normalement.** Il est très occupé : il leur propose de le suivre pendant qu'il répond. **Ils traversent le jardin en marchant à côté de lui.**`,
@@ -1482,7 +1464,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 ter.2 bis — décision du 16 août 2026`
 },
 {
-  id: `s14c`, no: `Scène 14 · c`, col: 21, row: `andrew`, acte: `L'enlisement`,
+  id: `s14c`, no: `Scène 14 · c`, col: 20, row: `andrew`, acte: `L'enlisement`,
   titre: `La salle, en passant`,
   statut: `acquis`, pivot: true,
   resume: `Ils passent devant une salle. **Dedans, une berceuse en tête à tête avec un tout-petit sur le point de disparaître.** Andrew s'arrête. Le pédiatre sait que c'est rare de voir ça quand on est extérieur au jardin : **il laisse passer.**`,
@@ -1505,7 +1487,7 @@ const SCENES = [
   src: `02-univers/le-jardin.md §6 — 03-personnages/la-berceuse.md §7 — décision du 16 août 2026`
 },
 {
-  id: `s15a`, no: `Scène 15 · a`, col: 22, row: `andrew`, acte: `L'enlisement`,
+  id: `s15a`, no: `Scène 15 · a`, col: 21, row: `andrew`, acte: `L'enlisement`,
   face: `s15b`,
   titre: `Au commissariat`,
   statut: `acquis`, pivot: true,
@@ -1523,7 +1505,7 @@ const SCENES = [
   src: `04-plan/le-meme-jour.md §5.3, §5.5 — décision du 16 août 2026`
 },
 {
-  id: `s15b`, no: `Scène 15 · b`, col: 23, row: `joel`, acte: `L'enlisement`,
+  id: `s15b`, no: `Scène 15 · b`, col: 22, row: `joel`, acte: `L'enlisement`,
   face: `s15a`,
   titre: `« Lâche l'affaire »`,
   statut: `acquis`, pivot: true,
@@ -1547,7 +1529,7 @@ const SCENES = [
   src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — décision du 16 août 2026`
 },
 {
-  id: `s15c`, no: `Scène 15 · c`, col: 24, row: `andrew`, acte: `L'enlisement`,
+  id: `s15c`, no: `Scène 15 · c`, col: 23, row: `andrew`, acte: `L'enlisement`,
   titre: `Il passe outre`,
   statut: `trou`, pivot: true,
   resume: `La scène continue, et on est chez Andrew. **Là où l'autre s'est arrêté net, celui-ci ne s'arrête pas.** Un élément le décide — il reste à trouver — et il passe outre ce qu'Isaac vient de lui dire.`,
@@ -1570,7 +1552,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.3 — décision du 16 août 2026`
 },
 {
-  id: `s16`, no: `Scène 16`, col: 25, row: `andrew`, acte: `L'enlisement`,
+  id: `s16`, no: `Scène 16`, col: 24, row: `andrew`, acte: `L'enlisement`,
   face: `g-seul`,
   titre: `Isaac lâche l'affaire`,
   statut: `acquis`, pivot: true,
@@ -1590,7 +1572,7 @@ const SCENES = [
 
 /* ---------- LA REMONTÉE ---------- */
 {
-  id: `s17a`, no: `Scène 17 · a`, col: 26, row: `andrew`, acte: `La remontée`,
+  id: `s17a`, no: `Scène 17 · a`, col: 25, row: `andrew`, acte: `La remontée`,
   face: `s17b`,
   titre: `Il se fait des nœuds au cerveau`,
   statut: `trou`,
@@ -1607,7 +1589,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis — décision du 16 août 2026`
 },
 {
-  id: `s17b`, no: `Scène 17 · b`, col: 27, row: `joel`, acte: `La remontée`,
+  id: `s17b`, no: `Scène 17 · b`, col: 26, row: `joel`, acte: `La remontée`,
   face: `s17a`,
   titre: `Il rentre chez lui`,
   statut: `acquis`, pivot: true,
@@ -1630,7 +1612,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.2 — décision du 16 août 2026`
 },
 {
-  id: `s17c`, no: `Scène 17 · c`, col: 28, row: `andrew`, acte: `La remontée`,
+  id: `s17c`, no: `Scène 17 · c`, col: 27, row: `andrew`, acte: `La remontée`,
   face: `g-piste`,
   titre: `Il a trouvé`,
   statut: `trou`, pivot: true,
@@ -1651,7 +1633,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 ter.4, §4 ter.6`
 },
 {
-  id: `s18`, no: `Scène 18`, col: 29, row: `andrew`, acte: `La remontée`,
+  id: `s18`, no: `Scène 18`, col: 28, row: `andrew`, acte: `La remontée`,
   face: `g-entre`,
   titre: `Il entre seul, sans attendre`,
   statut: `acquis`, pivot: true,
@@ -1667,7 +1649,7 @@ const SCENES = [
 
 /* ---------- LE SEUIL FRANCHI DEUX FOIS ---------- */
 {
-  id: `corps`, no: `Chapitre B`, col: 30, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `corps`, no: `Chapitre B`, col: 29, row: `joel`, acte: `Le seuil franchi deux fois`,
   face: `s19a`,
   titre: `Les corps`,
   statut: `acquis`, pivot: true,
@@ -1694,7 +1676,7 @@ const SCENES = [
   src: `07-recherches/references-de-scenes.md — 04-plan/le-meme-jour.md`
 },
 {
-  id: `s19a`, no: `Chapitre C`, col: 31, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19a`, no: `Chapitre C`, col: 30, row: `andrew`, acte: `Le seuil franchi deux fois`,
   face: `corps`,
   titre: `Le même lieu, l'autre issue`,
   statut: `acquis`, pivot: true,
@@ -1714,7 +1696,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — décision du 16 août 2026`
 },
 {
-  id: `poursuite`, no: `Chapitre D`, col: 32, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `poursuite`, no: `Chapitre D`, col: 31, row: `joel`, acte: `Le seuil franchi deux fois`,
   face: `s19c`,
   titre: `La poursuite`,
   statut: `acquis`, pivot: true,
@@ -1735,7 +1717,7 @@ const SCENES = [
   src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3 — décision du 16 août 2026`
 },
 {
-  id: `s19c`, no: `Chapitre E`, col: 33, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19c`, no: `Chapitre E`, col: 32, row: `andrew`, acte: `Le seuil franchi deux fois`,
   face: `poursuite`,
   titre: `Elle n'a pas fui`,
   statut: `acquis`, pivot: true,
@@ -1759,14 +1741,16 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/la-berceuse.md — décision du 16 août 2026`
 },
 {
-  id: `ceremonie3`, no: `Chapitre F`, col: 34, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `ceremonie3`, no: `Chapitre F`, col: 33, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La cérémonie, une seconde fois`,
   statut: `acquis`, pivot: true,
   resume: `Le souvenir revient, et il n'est plus le même. **Plus bref, moins tourné vers lui.** Cette fois il entend la phrase d'ouverture en entier — *« la cérémonie du jour nous offre trois arrivants au lieu de deux ; le troisième nous ayant surpris par son éclaircissement inopiné »* — et il entend, au loin, quelqu'un parler d'une odeur.`,
   produit: `🔴 **C'est son défaut qui se rejoue une dernière fois, et c'est la seule fois où le lecteur le voit se produire en direct.** L'information était dans sa tête depuis dix ans. Il ne l'a pas manquée : **il ne l'a pas écoutée** — exactement comme il n'a pas écouté un arrivant de dix ans qui lui parlait.`,
   clef: `**Et ce n'est pas une tricherie, parce que le monde a déjà expliqué pourquoi il n'entendait pas.** Un arrivant sort embrumé, aveuglé, les voix lui parviennent étouffées : *le premier récit montrait déjà une bouche qui bougeait sans qu'il attrape les mots.* **Le texte n'a rien caché — il a rendu une perception, et elle était fidèle.**`,
   lecture: `Il ne reçoit aucun fait nouveau : il reçoit un fait ancien, à sa place. *Et il peut relire les deux versions et vérifier que la seconde ne contient rien que la première ait escamoté.*`,
-  monde: `**Deux choses, et aucune n'est expliquée.** Les capsules de la paire étaient attendues ; la sienne, non. *Une vie qui s'éteint lentement fait mûrir lentement ; une mort soudaine fait mûrir vite.* Et l'odeur, au loin : un veilleur s'occupait des arrivants pendant qu'un autre raclait, pour que l'infamie de la quatrième capsule n'entrave pas la cérémonie.`,
+  monde: `🔴 **Et c'est ici qu'on comprend ce qu'est une capsule qui n'éclaircit pas.** *Décision de l'autrice, 16 août 2026 : la chose n'a pas de scène à elle — elle se noie dans ce second récit.* Le lecteur avait entendu parler d'une odeur, au loin ; il sait maintenant ce qu'il y avait au bout de l'allée, et pourquoi on raclait pendant que les autres se nommaient. **Personne ne le lui dit : il le pose lui-même.**
+
+**Deux autres choses, et aucune n'est expliquée.** Les capsules de la paire étaient attendues ; la sienne, non. *Une vie qui s'éteint lentement fait mûrir lentement ; une mort soudaine fait mûrir vite.* Et l'odeur, au loin : un veilleur s'occupait des arrivants pendant qu'un autre raclait, pour que l'infamie de la quatrième capsule n'entrave pas la cérémonie.`,
   qui: [`andrew`,`chrissy`],
   gardes: [
     `**Le premier récit doit montrer qu'il n'entend pas.** Des voix étouffées, une bouche qui bouge, des mots qui ne se forment pas. *Sans ça, la seconde version ressemble à une information qu'on avait gardée sous le coude ; avec ça, elle est un blanc que le lecteur avait sous les yeux.*`,
@@ -1785,11 +1769,12 @@ const SCENES = [
     `**Et le doute vit un chapitre de plus.** Un souvenir ne se vérifie pas ; l'hypothèse « il fabule » sort de cette scène aussi solide qu'elle y est entrée.`
   ],
   ouvert: [`✅ **Les deux autres étaient attendues — décision de l'autrice, et la déduction est donc voulue.** Leur vie s'est éteinte lentement quand la sienne s'est arrêtée net : *elles ont agonisé pendant que Joël les cherchait, et la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler ; le lecteur a la règle depuis le premier chapitre.** À l'écriture : ne jamais appuyer. Le mot *inopiné* suffit, et le contraste se fait tout seul.`,
-           `La longueur du second récit. *Plus bref que le premier — c'est ce qui signale, sans un mot, qu'on n'y cherche plus la même chose.*`],
+           `La longueur du second récit. *Plus bref que le premier — c'est ce qui signale, sans un mot, qu'on n'y cherche plus la même chose.*`,
+           `⚠️ **Ce que devient la scène révulsante du dossier maître.** Le §8 demandait une description crue d'une capsule sans éclaircie, faite pour dégoûter avant qu'on ait à juger. *En noyant la chose ici, la compréhension devient froide et rétrospective — ce qui est plus juste, mais la révulsion n'a plus de logement.* **À trancher : on l'abandonne, ou elle se replace ailleurs, tôt, dans une journée de service ordinaire.**`],
   src: `04-plan/deux-histoires-en-une.md §7 — 02-univers/la-ruche.md — décision du 16 août 2026`
 },
 {
-  id: `registre-fin`, no: `Temps 5`, col: 35, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `registre-fin`, no: `Temps 5`, col: 34, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La ligne de registre`,
   statut: `acquis`,
   resume: `**Il y va parce que le souvenir l'y envoie.** Une date, une travée, **trois arrivants** — deux numéros collés, et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Et une quatrième ligne, courte : une travée, deux dates, et rien d'autre. **Ni âge, ni nom, ni numéro.**`,
@@ -1810,7 +1795,7 @@ const SCENES = [
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 36, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 35, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1825,7 +1810,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Dernière page`, col: 38, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Dernière page`, col: 37, row: `andrew`, acte: `Épilogue`,
   titre: `En tête à tête`,
   statut: `acquis`, pivot: true,
   resume: `June partie, Andrew reste seul avec lui. **C'est là qu'il raconte.** Une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, dits comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. **C'est le calme qui glace.** Et le livre se ferme sur sa réplique.`,
@@ -1847,7 +1832,7 @@ const SCENES = [
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Épilogue · six ans plus tard`, col: 37, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Épilogue · six ans plus tard`, col: 36, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `trou`, pivot: true,
   resume: `**Comment se déroule une arrivée au jardin.** Eliott a huit ans, Andrew quarante-six. On l'installe, on lui montre. **June passe la main à une consœur du jardin, fait ses adieux et s'en va en lui souhaitant le meilleur.** Andrew reste.`,
@@ -1876,7 +1861,7 @@ const LIENS = [
   [`s3`,`s4`,``], [`s4`,`s5`,``], [`s5`,`s6`,``], [`s6`,`s7`,``],
   [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
   [`s11`,`s12`,`j`], [`s12`,`ceremonie2`,`a`], [`ceremonie2`,`s13`,`j`], [`s13`,`s14a`,`a`],
-  [`s14a`,`s14-appel`,`a`], [`s14-appel`,`j2`,`j`], [`j2`,`s14b`,`a`], [`s14b`,`s14c`,`a`], [`s14c`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
+  [`s14a`,`s14-appel`,`a`], [`s14a`,`j2`,`j`], [`s14-appel`,`s14b`,`a`], [`j2`,`s14b`,`j`], [`s14b`,`s14c`,`a`], [`s14c`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
   [`s15b`,`s15c`,`a`], [`s15c`,`s16`,``], [`s16`,`s17a`,``], [`s17a`,`s17b`,`j`], [`s17b`,`s17c`,`a`],
   [`s17c`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19a`,`a`],
@@ -2549,6 +2534,18 @@ const NOTES = [
 { d:`16 août`, s:`Il ne sait pas qu'il a besoin d'un policier`, e:`acquis`, t:[`personnages`],
   v:`—`,
   q:`À noter en écrivant l'appel : **il appelle Isaac parce que c'est ce qu'il fait**, depuis des années, sur des affaires qui n'ont rien à voir. *Ce n'est qu'au jardin qu'une porte s'ouvrira pour une raison qu'aucun des deux n'aura prévue.* **Ni l'un ni l'autre ne formule jamais que le secret médical vient de leur fermer une porte — ils vont voir quelqu'un, c'est tout.**` },
+
+{ d:`16 août`, s:`La capsule qui n'éclaircit pas n'a pas de scène`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`Concrètement, elle se noie dans la seconde lecture de sa propre arrivée. C'est à cet instant qu'on comprend ce qu'est une capsule qui n'éclaircit pas.`,
+  q:`**Carte supprimée : la chose n'a pas de scène à elle.** Le lecteur avait entendu parler d'une odeur, au loin, à la première cérémonie ; au chapitre F il sait ce qu'il y avait au bout de l'allée et pourquoi on raclait pendant que les autres se nommaient. *Personne ne le lui dit — il le pose lui-même.* **La compréhension devient froide et rétrospective, ce qui est le régime du livre.**` },
+
+{ d:`16 août`, s:`Ce que ça laisse en suspens`, e:`ouvert`, t:[`écriture`],
+  v:`—`,
+  q:`Conséquence à trancher : **le §8 du dossier maître demandait une description crue d'une capsule sans éclaircie**, faite pour dégoûter avant qu'on ait à juger — *« bien fait pour sa gueule », puis la gêne.* En noyant la chose au chapitre F, **la révulsion n'a plus de logement.** *On l'abandonne, ou elle se replace ailleurs, tôt, dans une journée de service ordinaire.*` },
+
+{ d:`16 août`, s:`Ce qu'était « la paire, en passant »`, e:`acquis`, t:[`dispositif`],
+  v:`« La paire, en passant », je comprends pas.`,
+  q:`**Une contrainte du dossier, devenue inutile.** Chrissy et Tania devaient apparaître une fois, tôt, comme du décor — *sinon le trouble du chapitre B ne s'accroche à rien : le lecteur ne peut pas se dire « la paire du début, qu'est-ce qu'elles font là ? » s'il ne les a jamais vues.* **Mais la cérémonie d'Andrew les montre déjà.** Carte supprimée, et la contrainte passe sur la cérémonie : *elle doit laisser au lecteur deux visages identiques dont il ne fera rien.*` },
 
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
@@ -3680,7 +3677,8 @@ function construirePlateau(){
                 + (s.pivot ? ` pivot` : ``) + (s.gris ? ` gris` : ``);
     b.style.left = colX(s.col) + `px`;
     b.style.top = ROWY[s.row] + `px`;
-    b.style.height = NODEH + `px`;
+    b.style.height = (s.gris ? NODEH - 26 : NODEH) + `px`;
+    if (s.gris) b.style.top = (ROWY[s.row] + 13) + `px`;
     b.style.animationDelay = Math.min(i * 26, 900) + `ms`;
     b.dataset.id = s.id;
     b.innerHTML =
@@ -3707,9 +3705,11 @@ function construirePlateau(){
     if (!A || !Z || !visibles.has(a) || !visibles.has(z)) return;
     const x1 = colX(A.col) + NODEW, y1 = ROWY[A.row] + NODEH / 2;
     const x2 = colX(Z.col),          y2 = ROWY[Z.row] + NODEH / 2;
+    const teinte = cls === `a` ? `var(--andrew)` : cls === `j` ? `var(--joel)` : `var(--commun)`;
     p += `<path class="${cls ? `l-` + (cls === `a` ? `andrew` : `joel`) : ``}" d="${trace(x1, y1, x2, y2)}" `
        + `stroke-dasharray="1400" stroke-dashoffset="1400" style="animation-delay:${Math.min(i * 30, 900)}ms"/>`;
-    p += `<circle cx="${x2 - 4}" cy="${y2}" r="2"/>`;
+    /* pointe de direction */
+    p += `<polygon points="${x2 - 9},${y2 - 5} ${x2},${y2} ${x2 - 9},${y2 + 5}" fill="${teinte}"/>`;
   });
   sv.innerHTML = p;
 
