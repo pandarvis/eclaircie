@@ -826,10 +826,10 @@ const ACTES = [
   { t: `Le monde comme terrain`, c0: 7, c1: 8 },
   { t: `Le registre`,          c0: 9,  c1: 13 },
   { t: `La fausse piste s'éteint`, c0: 14, c1: 16 },
-  { t: `L'enlisement`,         c0: 17, c1: 22 },
-  { t: `La remontée`,          c0: 23, c1: 25 },
-  { t: `Le seuil franchi deux fois`, c0: 26, c1: 29 },
-  { t: `Épilogue`,             c0: 30, c1: 32 }
+  { t: `L'enlisement`,         c0: 17, c1: 23 },
+  { t: `La remontée`,          c0: 24, c1: 26 },
+  { t: `Le seuil franchi deux fois`, c0: 27, c1: 30 },
+  { t: `Épilogue`,             c0: 31, c1: 33 }
 ];
 
 const SCENES = [
@@ -1278,10 +1278,10 @@ const SCENES = [
   id: `s15b`, no: `Scène 15 · b`, col: 21, row: `joel`, acte: `L'enlisement`,
   titre: `« Lâche l'affaire »`,
   statut: `acquis`, pivot: true,
-  resume: `Le ton est monté. On se répond, on hausse la voix, quelqu'un répète ce qu'il a déjà dit. **Il obéit, et des semaines passent.**`,
+  resume: `Le ton est monté. On se répond, on hausse la voix, quelqu'un répète ce qu'il a déjà dit. **Puis il regarde les dossiers, et il n'y touche plus.** Le chapitre se ferme sur un abandon.`,
   produit: `🔴 **Le chapitre suivant, et on a changé de monde sans que le lecteur le sache.** Il croit lire la suite de la dispute : même pièce, mêmes hommes, ton qui monte d'un cran. *Ce sont deux disputes, dans deux mondes, à dix ans d'écart — et c'est la coupe de chapitre qui fait tout le travail.*`,
   clef: `**« Je te le répète » est la charnière, et c'est une équivoque parfaite.** Chez Joël, elle renvoie à ce qui a déjà été dit dans sa propre conversation. Pour le lecteur, elle renvoie au chapitre d'avant. **Les deux lectures sont exactes, et aucune n'est un mensonge.**`,
-  lecture: `Il vient de voir Isaac dire à Andrew de lâcher. Il lit la suite. Il n'y a pas de suite — *et il aura fabriqué lui-même la scène la plus importante du dispositif.*`,
+  lecture: `Il vient de voir Isaac dire à Andrew de lâcher. Il lit la suite. Il n'y a pas de suite — *et il aura fabriqué lui-même la scène la plus importante du dispositif.* **Et il croit voir un homme abandonner**, ce qui rend le chapitre d'après plus fort qu'il n'a le droit de l'être.`,
   monde: `Rien, et surtout rien. Un commissariat se ressemble partout, une engueulade entre deux collègues aussi : c'est exactement ce qui rend la méprise possible.`,
   qui: [`joel`],
   gardes: [
@@ -1298,7 +1298,30 @@ const SCENES = [
   src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — décision du 16 août 2026`
 },
 {
-  id: `s16`, no: `Scène 16`, col: 22, row: `commun`, acte: `L'enlisement`,
+  id: `s15c`, no: `Scène 15 · c`, col: 22, row: `andrew`, acte: `L'enlisement`,
+  titre: `Il passe outre`,
+  statut: `trou`, pivot: true,
+  resume: `La scène continue, et on est chez Andrew. **Là où l'autre s'est arrêté net, celui-ci ne s'arrête pas.** Un élément le décide — il reste à trouver — et il passe outre ce qu'Isaac vient de lui dire.`,
+  produit: `🔴 **Décision du 16 août 2026, et elle referme la séquence des trois chapitres.** Le lecteur a lu une seule scène : un homme sommé d'arrêter, qui désespère, qui regarde ses dossiers — puis qui décide de continuer quand même. **Il y avait deux hommes. Le premier s'est arrêté et il a perdu deux filles ; le second a continué et il retrouvera le garçon vivant.**`,
+  clef: `*C'est le §4 bis.3 rendu invisible : l'obéissance puis le refus, le même geste à deux issues, livré en trois coupes de chapitre et sans une phrase pour le signaler.* **Le lecteur croit assister à une hésitation. Il assiste à une bifurcation.**`,
+  lecture: `Il ne peut pas savoir qu'il vient de voir la différence entre les deux vies du même homme. Il la verra à la relecture, et il n'y aura toujours rien à corriger : personne n'a menti.`,
+  monde: `Rien de neuf, sauf peut-être un geste administratif — et ce serait le bon endroit pour lui en faire refuser un.`,
+  qui: [`andrew`,`isaac`],
+  gardes: [
+    `**Aucun personnage ne rapproche les trois chapitres**, ni sur le moment ni plus tard.`,
+    `Andrew ne comprend rien à ce qui vient de se passer. Pas d'illumination, pas de déjà-vu formulé.`,
+    `Le déclencheur ne doit contenir aucune information venue de l'autre monde. **Rien ne traverse.**`
+  ],
+  pourquoi: [
+    `**Piste pour le déclencheur, et elle est la plus juste :** on lui demande de signer quelque chose qui clôt le dossier — un formulaire, un classement, une restitution. **Et il ne le fait pas.** *C'est son défaut retourné pour la première fois : l'homme qui croit les documents et pas les gens refuse un document. Trois chapitres plus tôt, il proposait d'aller vérifier des registres ; ici il refuse d'en remplir un.*`,
+    `**Autre piste, plus sèche :** il n'y a pas d'élément. Isaac se détourne, et Andrew ne bouge pas. *Ça marche, mais ça donne moins à la relecture.*`
+  ],
+  ouvert: [`⚠️ **Quel est l'élément déclencheur.** C'est un trou neuf, et il est petit mais réel.`,
+           `⚠️ **Attention : trois déclenchements se suivent maintenant** — celui-ci, le reliquat qui lui rend le geste, et la phrase d'Eliott qui lui donne le lieu. *Deux, c'est une remontée ; trois, c'est une machine.* **Celui-ci doit rester le plus petit des trois : il décide seulement qu'il ne s'arrête pas, il ne lui donne aucune direction.**`],
+  src: `04-plan/le-parcours-de-l-enquete.md §4 bis.3 — décision du 16 août 2026`
+},
+{
+  id: `s16`, no: `Scène 16`, col: 23, row: `commun`, acte: `L'enlisement`,
   titre: `Isaac lâche l'affaire`,
   statut: `acquis`, pivot: true,
   resume: `Il laisse Andrew seul. La porte ne claque pas : on lui retire une place, pas un droit. Plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer.`,
@@ -1317,7 +1340,7 @@ const SCENES = [
 
 /* ---------- LA REMONTÉE ---------- */
 {
-  id: `j3`, no: `Fragment`, col: 23, row: `joel`, acte: `La remontée`,
+  id: `j3`, no: `Fragment`, col: 24, row: `joel`, acte: `La remontée`,
   titre: `Joël retourne à ses notes`,
   statut: `acquis`,
   resume: `Andrew regarde un homme reprendre un dossier qu'on lui avait fait lâcher. Il ne le reconnaît pas, il ne comprend rien, il n'a pas de mot pour ce qu'il vient de voir — et il fait la même chose, peu après, sans faire le lien.`,
@@ -1332,7 +1355,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.2, §4 bis.3`
 },
 {
-  id: `s17`, no: `Scène 17`, col: 24, row: `commun`, acte: `La remontée`,
+  id: `s17`, no: `Scène 17`, col: 25, row: `commun`, acte: `La remontée`,
   titre: `L'enquête en solo — le déclencheur`,
   statut: `trou`, pivot: true,
   resume: `Andrew réalise qu'une partie de ce qu'Eliott racontait décrivait un endroit réel, d'ici — banal, local, vérifiable — qu'un arrivant de dix ans n'aurait pas dû connaître. Il trouve la maison et appelle Isaac pour qu'il le rejoigne vite.`,
@@ -1352,7 +1375,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 bis.4, §4 ter.4, §4 ter.6`
 },
 {
-  id: `s18`, no: `Scène 18`, col: 25, row: `commun`, acte: `La remontée`,
+  id: `s18`, no: `Scène 18`, col: 26, row: `commun`, acte: `La remontée`,
   titre: `Il entre seul, sans attendre`,
   statut: `acquis`, pivot: true,
   resume: `Il a appelé, il sait que l'autre arrive, et il n'attend pas. Ce n'est pas du courage et ce n'est pas de l'imprudence : c'est exactement la faute d'avant refaite à l'envers. On lui a dit d'arrêter de creuser une fois, et il a obéi. Cette fois, personne ne l'arrête parce que personne n'est là.`,
@@ -1367,7 +1390,7 @@ const SCENES = [
 
 /* ---------- LE SEUIL FRANCHI DEUX FOIS ---------- */
 {
-  id: `corps`, no: `Chapitre B`, col: 26, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `corps`, no: `Chapitre B`, col: 27, row: `joel`, acte: `Le seuil franchi deux fois`,
   titre: `Les corps`,
   statut: `acquis`, pivot: true,
   resume: `On décrit un premier corps, et on croit que c'est le garçon. Puis un second, plus loin. Deux corps identiques, encore roses de l'afflux sanguin, mortes depuis moins d'une heure.`,
@@ -1393,7 +1416,7 @@ const SCENES = [
   src: `07-recherches/references-de-scenes.md — 04-plan/le-meme-jour.md`
 },
 {
-  id: `s19`, no: `Scène 19 · Chapitre C`, col: 27, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19`, no: `Scène 19 · Chapitre C`, col: 28, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `Le même lieu, l'autre issue`,
   statut: `acquis`, pivot: true,
   resume: `Le chapitre recommence. Même arrivée, même pesanteur — et Eliott est vivant. Isaac les a rejoints entre-temps. Une berceuse est menottée, déjà prête à être embarquée.`,
@@ -1413,7 +1436,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — 03-personnages/la-berceuse.md`
 },
 {
-  id: `poursuite`, no: `Chapitre D`, col: 28, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `poursuite`, no: `Chapitre D`, col: 29, row: `joel`, acte: `Le seuil franchi deux fois`,
   titre: `La poursuite`,
   statut: `acquis`, pivot: true,
   resume: `Rage folle. Il laisse ses collègues sur place et part seul. Il ne veut pas l'arrêter, il veut le tuer — comme si les deux filles avaient pu être les siennes. Poursuite en voiture, accident. Il meurt en même temps que l'assassin.`,
@@ -1431,7 +1454,7 @@ const SCENES = [
   src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3`
 },
 {
-  id: `registre-fin`, no: `Temps 5`, col: 29, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `registre-fin`, no: `Temps 5`, col: 30, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La ligne de registre`,
   statut: `acquis`,
   resume: `Une date, une travée, deux numéros collés — et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Moins d'une heure plus tard, une autre capsule, qui n'a jamais éclairci.`,
@@ -1450,7 +1473,7 @@ const SCENES = [
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 30, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 31, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1465,7 +1488,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Épilogue · six ans plus tard`, col: 31, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Épilogue · six ans plus tard`, col: 32, row: `andrew`, acte: `Épilogue`,
   titre: `La confession d'Eliott`,
   statut: `acquis`, pivot: true,
   resume: `Il a huit ans, Andrew en a quarante-six. Il raconte ce qui lui est arrivé de l'autre côté : une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, racontés comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. C'est le calme qui glace.`,
@@ -1484,7 +1507,7 @@ const SCENES = [
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Dernière page`, col: 32, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Dernière page`, col: 33, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `acquis`,
   resume: `Il dépose ce qui le faisait souffrir, et il entre. Personne ne lui dit dans quoi il entre. Andrew le regarde faire en sachant, et se tait.`,
@@ -1510,7 +1533,7 @@ const LIENS = [
   [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
   [`s11`,`s12`,`j`], [`s12`,`ceremonie2`,`a`], [`ceremonie2`,`s13`,`j`], [`s13`,`s14a`,`a`],
   [`s14a`,`j2`,`j`], [`j2`,`s14b`,`a`], [`s14b`,`s14c`,`a`], [`s14c`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
-  [`s15b`,`s16`,`j`], [`s16`,`j3`,`j`], [`j3`,`s17`,`j`], [`s16`,`s17`,``],
+  [`s15b`,`s15c`,`a`], [`s15c`,`s16`,``], [`s16`,`j3`,`j`], [`j3`,`s17`,`j`], [`s16`,`s17`,``],
   [`s17`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19`,`j`],
   [`s19`,`poursuite`,`j`], [`poursuite`,`registre-fin`,`a`],
@@ -2024,7 +2047,7 @@ const NOTES = [
 
 { d:`16 août`, s:`Le « lâche l'affaire » est de Joël`, e:`acquis`, t:[`dispositif`,`enquête`],
   v:`La scène du lâche l'affaire, on sera explicitement du côté de Joël alors que le lecteur à la première lecture sera persuadé de suivre une scène se déroulant dans le monde 2.`,
-  q:`**Précisé le même jour, et c'est plus fort : la scène se scinde en deux chapitres.** Le premier est explicitement d'Andrew, au commissariat — il insiste, il propose de vérifier des registres, il panique un peu, et Isaac tranche : *« Lâche l'affaire, Andrew… on court déjà après un cadavre ! »* **Le chapitre suivant a changé de monde et le lecteur ne le sait pas** : le ton est monté, on se répond, quelqu'un dit *« je te le répète »*. *Deux disputes, deux mondes, dix ans d'écart — et c'est la coupe de chapitre qui fait tout le travail.*` },
+  q:`**Précisé le même jour, et c'est plus fort : la scène se scinde en trois chapitres.** Le premier est explicitement d'Andrew, au commissariat — il insiste, il propose de vérifier des registres, il panique un peu, et Isaac tranche : *« Lâche l'affaire, Andrew… on court déjà après un cadavre ! »* **Le chapitre suivant a changé de monde et le lecteur ne le sait pas** : le ton est monté, on se répond, quelqu'un dit *« je te le répète »*. **Et le troisième referme tout.** Le chapitre de Joël se termine sur un abandon — il regarde les dossiers et il n'y touche plus. Le suivant est d'Andrew : quelque chose le décide, et là où l'autre s'est arrêté net, celui-ci passe outre. *Le lecteur croit assister à une hésitation. Il assiste à une bifurcation : le premier s'est arrêté et il a perdu deux filles, le second continue et il retrouvera le garçon vivant.*` },
 
 { d:`16 août`, s:`Les scènes 12 et 13 aussi`, e:`acquis`, t:[`dispositif`,`enquête`],
   v:`La scène 12 c'est aussi une scène pour Joël. Il rend visite à un homme qui aurait harcelé les 2 jumelles. On ne dit jamais son nom de famille, on n'évoque pas les jumelles. « Vous en seriez venus aux mains. » Le responsable dit l'avoir entendu tenir des propos déplacés — le mot est ambigu, l'homme a tenu des propos sexistes aux jumelles. Il faut donc lui trouver une raison, qu'il se défende et donne un alibi, tandis que l'on croit toujours écouter un marginal du monde 2 mais qui est un type du monde 1. // L'alibi tient : nouvelle fois Joël qui part interroger quelqu'un dans un lieu pour valider l'alibi de l'homme.`,
