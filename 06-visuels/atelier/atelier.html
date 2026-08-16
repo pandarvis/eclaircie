@@ -827,9 +827,9 @@ const ACTES = [
   { t: `Le registre`,          c0: 9,  c1: 13 },
   { t: `La fausse piste s'éteint`, c0: 14, c1: 16 },
   { t: `L'enlisement`,         c0: 17, c1: 23 },
-  { t: `La remontée`,          c0: 24, c1: 26 },
-  { t: `Le seuil franchi deux fois`, c0: 27, c1: 30 },
-  { t: `Épilogue`,             c0: 31, c1: 33 }
+  { t: `La remontée`,          c0: 24, c1: 27 },
+  { t: `Le seuil franchi deux fois`, c0: 28, c1: 31 },
+  { t: `Épilogue`,             c0: 32, c1: 34 }
 ];
 
 const SCENES = [
@@ -1340,42 +1340,65 @@ const SCENES = [
 
 /* ---------- LA REMONTÉE ---------- */
 {
-  id: `j3`, no: `Fragment`, col: 24, row: `joel`, acte: `La remontée`,
-  titre: `Joël retourne à ses notes`,
-  statut: `acquis`,
-  resume: `Andrew regarde un homme reprendre un dossier qu'on lui avait fait lâcher. Il ne le reconnaît pas, il ne comprend rien, il n'a pas de mot pour ce qu'il vient de voir — et il fait la même chose, peu après, sans faire le lien.`,
-  produit: `La relance après le nadir. Un reliquat ne peut pas donner une information : il ne contient ni adresse, ni nom, ni visage d'ici. Il peut rendre le réflexe — le reliquat n'est pas un souvenir, c'est une vocation.`,
-  clef: `Joël est reparti trop tard. Andrew repart à temps. C'est la troisième occurrence du même geste, après la phrase dite deux fois et l'obéissance devenue refus — et la seule qui produise une différence au lieu d'un écho.`,
-  monde: `Rien.`,
-  qui: [`joel`,`andrew`],
+  id: `s17a`, no: `Scène 17 · a`, col: 24, row: `andrew`, acte: `La remontée`,
+  titre: `Il se fait des nœuds au cerveau`,
+  statut: `trou`,
+  resume: `Andrew enquête seul. Il tourne en rond, il se fait des nœuds au cerveau, il est un peu désespéré — et il fait comme il peut. **Le contenu exact reste à trouver.**`,
+  produit: `Il n'y a plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer, et c'est ce manque qui doit se sentir. *Il ne devient pas meilleur enquêteur : il devient un homme seul qui continue.*`,
+  monde: `Rien de neuf, et ce n'est pas le moment d'en mettre.`,
+  qui: [`andrew`],
   gardes: [
-    `Aucune information ne traverse. Seule une manière de faire traverse.`,
-    `Rien de tout cela n'est dit. Personne ne commente, aucune phrase ne rapproche les deux hommes, et Andrew ne s'étonne de rien.`
+    `Pas de progrès. C'est la condition pour que le bloc suivant se lise comme une pause méritée.`,
+    `Aucune illumination, aucune intuition qui le mette sur la voie : la solution ne viendra qu'au troisième bloc.`,
+    `**Le bloc doit se fermer sur une fin de journée**, pour que le suivant se lise comme un soir et le troisième comme un lendemain.`
   ],
-  src: `04-plan/le-parcours-de-l-enquete.md §4 bis.2, §4 bis.3`
+  ouvert: [`⚠️ **Ce qu'il fait exactement.** Trou neuf. *Ce qui est acquis : il doit s'épuiser assez pour qu'une fin de journée éreintante paraisse normale au chapitre suivant.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §4 bis — décision du 16 août 2026`
 },
 {
-  id: `s17`, no: `Scène 17`, col: 25, row: `commun`, acte: `La remontée`,
-  titre: `L'enquête en solo — le déclencheur`,
+  id: `s17b`, no: `Scène 17 · b`, col: 25, row: `joel`, acte: `La remontée`,
+  titre: `Il rentre chez lui`,
+  statut: `acquis`, pivot: true,
+  resume: `Il est rentré chez lui, dépité. Il s'affale sur son canapé. Il fait des choses banales. **C'est un abandon complet.**`,
+  produit: `🔴 **Et le lecteur ne doit surtout pas le lire comme tel.** Pour lui, on est toujours chez Andrew : une fin de journée éreintante, une pause après tous ces nœuds au cerveau. *Un homme qui souffle, rien de plus.* **C'est le chapitre le plus dangereux du livre à écrire, parce qu'il doit être deux choses opposées à la fois sans qu'un seul mot penche d'un côté.**`,
+  clef: `**Ce que Joël fait ici, c'est renoncer. Ce que le lecteur voit, c'est quelqu'un qui se repose.** La seule différence entre les deux est dans ce qui suit — et le lecteur croira que ce qui suit, c'est le même homme qui repart.`,
+  lecture: `Il aura vu un homme s'obstiner, puis souffler, puis trouver. Trois chapitres, un seul arc. **Il y a deux hommes, et l'un des deux ne s'est jamais relevé.**`,
+  monde: `⚠️ **Un intérieur est l'endroit du livre où un monde se trahit le plus vite.** Rien chez lui ne doit être impossible chez Andrew : pas d'image de quelqu'un, pas d'objet qui suppose une histoire, rien qui vienne d'avant. *Corollaire de plan : mieux vaut que le lecteur n'ait jamais vu le logement d'Andrew avant ce chapitre — sinon il compare.*`,
+  qui: [`joel`],
+  gardes: [
+    `**Aucune phrase de renoncement.** Pas de « il n'y retournerait pas », pas de dossier qu'on repousse, pas de décision. Il rentre, il s'assoit, il fait des gestes.`,
+    `**Et aucune phrase de repos non plus.** Pas de « il avait besoin de souffler », pas de fatigue commentée. Le narrateur ne qualifie rien : il décrit des gestes, et le lecteur choisit — il choisira mal.`,
+    `Aucun nom, aucun marqueur de monde, aucun mot de parenté.`,
+    `**Ne rien y faire arriver.** Pas d'appel, pas de pensée qui relance, pas de détail qui reviendra plus tard. Une page où il ne se passe rien, et c'est tout le travail.`
+  ],
+  pourquoi: [
+    `**C'est l'endroit du livre où poser un faux raccord de corps.** Une scène domestique donne le rasage, le miroir, la main qui prend un verre, la façon de s'asseoir. *Le dossier cherchait une scène où la cicatrice puisse se voir sans qu'on montre un visage : elle est là.*`,
+    `**Et ça absorbe la carte « Joël retourne à ses notes », qui n'a plus lieu d'être.** L'ancien mécanisme voulait qu'Andrew regarde un homme reprendre un dossier lâché ; la doctrine du 16 août l'interdit — Andrew ne regarde rien, c'est le lecteur qui attribue. *Le retour de Joël à l'affaire se fait donc hors champ, entre ce chapitre et la planque, et le livre n'a jamais eu besoin de le montrer.*`
+  ],
+  src: `04-plan/le-parcours-de-l-enquete.md §4 bis.2 — décision du 16 août 2026`
+},
+{
+  id: `s17c`, no: `Scène 17 · c`, col: 26, row: `andrew`, acte: `La remontée`,
+  titre: `Il a trouvé`,
   statut: `trou`, pivot: true,
-  resume: `Andrew réalise qu'une partie de ce qu'Eliott racontait décrivait un endroit réel, d'ici — banal, local, vérifiable — qu'un arrivant de dix ans n'aurait pas dû connaître. Il trouve la maison et appelle Isaac pour qu'il le rejoigne vite.`,
-  produit: `Sa culpabilité devient exacte. Ce n'est pas qu'il a manqué de chance : il a cessé d'écouter. C'est la faute d'avant refaite à l'identique, dans la même vie, avec le même geste, et sans qu'il puisse le savoir.`,
-  clef: `Le reliquat lui rend le geste. Ses notes lui donnent le lieu. Aucune information ne traverse d'un monde à l'autre. Et il fait, une fois, l'inverse de son geste habituel : il repart en retournant à ce qu'un jeune arrivant lui a dit, pas à ce qu'un registre lui montre.`,
+  resume: `**Le lendemain.** On rebascule chez Andrew, et il s'y recolle. Il a la solution. Une partie de ce qu'Eliott racontait décrivait un endroit réel, d'ici — banal, local, vérifiable — qu'un arrivant de dix ans n'aurait pas dû connaître. Il trouve la maison et appelle Isaac pour qu'il le rejoigne vite.`,
+  produit: `Sa culpabilité devient exacte. Ce n'est pas qu'il a manqué de chance : **il a cessé d'écouter.** C'est la faute d'avant refaite à l'identique, dans la même vie, avec le même geste, et sans qu'il puisse le savoir.`,
+  clef: `Et il fait, une fois, l'inverse de son geste habituel : **il repart en retournant à ce qu'un jeune arrivant lui a dit, pas à ce qu'un registre lui montre.** *L'indice était sur la page depuis le début, écrit en clair, au milieu d'autres phrases qui ne mènent nulle part. Le lecteur peut relire et le retrouver.*`,
   monde: `Rien. C'est de la matière du livre, pas du décor.`,
   qui: [`andrew`,`isaac`],
   gardes: [
     `Ce qui se vérifie, c'est une phrase. Jamais le personnage. L'hypothèse « il fabule » doit rester debout jusqu'à la dernière page.`,
     `Un lieu d'ici, un seul, au milieu de tout le reste qui demeure impossible. Ça ne démontre rien : une description juste parmi vingt fausses n'est pas un miracle, c'est une coïncidence.`,
     `« C'était là sous nos yeux » est dit une fois, au téléphone, dans l'urgence, et personne ne le relève. Ça ne doit jamais être expliqué.`,
-    `Rien de ce qu'Eliott a dit ne doit se recouper avec un fragment d'Andrew.`
+    `Rien de ce qu'Eliott a dit ne doit se recouper avec un fragment de la vie d'avant.`
   ],
   phrases: [{ t: `c'était là sous nos yeux`, n: `Réplique d'Andrew à Isaac, au téléphone, au moment de donner l'adresse. C'est une réplique de policier, elle a le droit d'être banale — c'est le lecteur qui saura qu'elle est littérale. Les berceuses habitent à côté du jardin ; elle vit à quelques pas de chez June ; Andrew est passé devant sa porte à chacune de ses trois visites.` }],
-  ouvert: [`Ce qu'Eliott a dit exactement. C'est le dernier trou du parcours. Il ne peut pas avoir décrit la cave : il n'y était jamais allé. Deux pistes, aucune tranchée — (1) la maison vue de la rue, sur sa tournée de portage ; (2) elle, une personne qui lui a parlé, mentionnée dans la même phrase qu'une boulangerie qui n'existe pas : il avait donné son nom, et Andrew ne l'a pas entendu.`,
-           `La seconde est nettement plus cruelle : elle fait passer la faute d'Andrew de « il n'a pas su lire un indice » à « il a eu le nom de la coupable et il l'a laissé tomber par terre ». Elle sert exactement son défaut, et elle est la seule des deux qui le serve.`],
-  src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 bis.4, §4 ter.4, §4 ter.6`
+  ouvert: [`⚠️ **Ce qu'Eliott a dit exactement. C'est le dernier gros trou du parcours.** Il ne peut pas avoir décrit la cave : il n'y était jamais allé. Deux pistes, aucune tranchée — (1) la maison vue de la rue, sur sa tournée de portage ; (2) **elle**, une personne qui lui a parlé, mentionnée dans la même phrase qu'une boulangerie qui n'existe pas : *il avait donné son nom, et Andrew ne l'a pas entendu.*`,
+           `La seconde est nettement plus cruelle : elle fait passer la faute d'Andrew de « il n'a pas su lire un indice » à **« il a eu le nom de la coupable et il l'a laissé tomber par terre »**. Elle sert exactement son défaut, et elle est la seule des deux qui le serve.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 ter.4, §4 ter.6`
 },
 {
-  id: `s18`, no: `Scène 18`, col: 26, row: `commun`, acte: `La remontée`,
+  id: `s18`, no: `Scène 18`, col: 27, row: `commun`, acte: `La remontée`,
   titre: `Il entre seul, sans attendre`,
   statut: `acquis`, pivot: true,
   resume: `Il a appelé, il sait que l'autre arrive, et il n'attend pas. Ce n'est pas du courage et ce n'est pas de l'imprudence : c'est exactement la faute d'avant refaite à l'envers. On lui a dit d'arrêter de creuser une fois, et il a obéi. Cette fois, personne ne l'arrête parce que personne n'est là.`,
@@ -1390,7 +1413,7 @@ const SCENES = [
 
 /* ---------- LE SEUIL FRANCHI DEUX FOIS ---------- */
 {
-  id: `corps`, no: `Chapitre B`, col: 27, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `corps`, no: `Chapitre B`, col: 28, row: `joel`, acte: `Le seuil franchi deux fois`,
   titre: `Les corps`,
   statut: `acquis`, pivot: true,
   resume: `On décrit un premier corps, et on croit que c'est le garçon. Puis un second, plus loin. Deux corps identiques, encore roses de l'afflux sanguin, mortes depuis moins d'une heure.`,
@@ -1416,7 +1439,7 @@ const SCENES = [
   src: `07-recherches/references-de-scenes.md — 04-plan/le-meme-jour.md`
 },
 {
-  id: `s19`, no: `Scène 19 · Chapitre C`, col: 28, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19`, no: `Scène 19 · Chapitre C`, col: 29, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `Le même lieu, l'autre issue`,
   statut: `acquis`, pivot: true,
   resume: `Le chapitre recommence. Même arrivée, même pesanteur — et Eliott est vivant. Isaac les a rejoints entre-temps. Une berceuse est menottée, déjà prête à être embarquée.`,
@@ -1436,7 +1459,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — 03-personnages/la-berceuse.md`
 },
 {
-  id: `poursuite`, no: `Chapitre D`, col: 29, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `poursuite`, no: `Chapitre D`, col: 30, row: `joel`, acte: `Le seuil franchi deux fois`,
   titre: `La poursuite`,
   statut: `acquis`, pivot: true,
   resume: `Rage folle. Il laisse ses collègues sur place et part seul. Il ne veut pas l'arrêter, il veut le tuer — comme si les deux filles avaient pu être les siennes. Poursuite en voiture, accident. Il meurt en même temps que l'assassin.`,
@@ -1454,7 +1477,7 @@ const SCENES = [
   src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3`
 },
 {
-  id: `registre-fin`, no: `Temps 5`, col: 30, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `registre-fin`, no: `Temps 5`, col: 31, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La ligne de registre`,
   statut: `acquis`,
   resume: `Une date, une travée, deux numéros collés — et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Moins d'une heure plus tard, une autre capsule, qui n'a jamais éclairci.`,
@@ -1473,7 +1496,7 @@ const SCENES = [
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 31, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 32, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1488,7 +1511,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Épilogue · six ans plus tard`, col: 32, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Épilogue · six ans plus tard`, col: 33, row: `andrew`, acte: `Épilogue`,
   titre: `La confession d'Eliott`,
   statut: `acquis`, pivot: true,
   resume: `Il a huit ans, Andrew en a quarante-six. Il raconte ce qui lui est arrivé de l'autre côté : une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, racontés comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. C'est le calme qui glace.`,
@@ -1507,7 +1530,7 @@ const SCENES = [
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Dernière page`, col: 33, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Dernière page`, col: 34, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `acquis`,
   resume: `Il dépose ce qui le faisait souffrir, et il entre. Personne ne lui dit dans quoi il entre. Andrew le regarde faire en sachant, et se tait.`,
@@ -1533,8 +1556,8 @@ const LIENS = [
   [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
   [`s11`,`s12`,`j`], [`s12`,`ceremonie2`,`a`], [`ceremonie2`,`s13`,`j`], [`s13`,`s14a`,`a`],
   [`s14a`,`j2`,`j`], [`j2`,`s14b`,`a`], [`s14b`,`s14c`,`a`], [`s14c`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
-  [`s15b`,`s15c`,`a`], [`s15c`,`s16`,``], [`s16`,`j3`,`j`], [`j3`,`s17`,`j`], [`s16`,`s17`,``],
-  [`s17`,`s18`,``],
+  [`s15b`,`s15c`,`a`], [`s15c`,`s16`,``], [`s16`,`s17a`,``], [`s17a`,`s17b`,`j`], [`s17b`,`s17c`,`a`],
+  [`s17c`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19`,`j`],
   [`s19`,`poursuite`,`j`], [`poursuite`,`registre-fin`,`a`],
   [`registre-fin`,`excuses`,`a`], [`excuses`,`confession`,`a`], [`confession`,`jardin-fin`,`a`]
