@@ -10,6 +10,8 @@
 
 *✅ **Décision de l'autrice, 19 août 2026 — la seconde fausse piste est trouvée, et le trou du beat 14 est comblé.** Elle est développée en **section 4 ter**, avec ce qu'elle coûte à Isaac, ce qu'elle nomme du défaut d'Andrew, et le creux narratif qu'elle produit. **Le repaire et la réplique « c'était là sous nos yeux » sont tranchés au même moment** : voir la même section. **Contrainte absolue qui commande tout : le registre ne peut pas être faux.***
 
+*🔴 **Décision de l'autrice, 16 août 2026 — Eliott n'a pas été assassiné, et la scène 8 est corrigée en conséquence.** Il est mort dans un accident : une marche, l'eau, le courant, et l'homme qui est entré derrière lui s'est noyé en essayant de le reprendre. **Cet homme arrive le même jour qu'Eliott, à la même cérémonie, à quarante ans.** **Il n'y a donc pas de capsule défaillante ce jour-là** — l'ancienne version de la scène 8 et du §3.3 est périmée, et la ligne du registre porte désormais tout autre chose : **deux arrivées le même jour.** Voir la scène 8, le §3.3 réécrit, et la scène d'ouverture du roman ci-dessous.*
+
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
 
 ---
@@ -89,7 +91,7 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 | 5 | La disparition | **Retour chez June, avec Isaac** | l'état d'esprit, la peur de l'eau, les genoux en sang de la veille |
 | 6 | Le monde comme terrain | **Sur son lieu de travail** | ✅ **le portage est validé.** Un responsable blasé, une bagarre, un congédiement |
 | 7 | Le monde comme terrain | **Les autres travailleurs** | **le grief se dit, dans leur bouche et jamais dans celle du narrateur** |
-| 8 | Le registre | **Retour à la ruche** | la ligne de l'homme, celle d'Eliott — et une capsule défaillante mentionnée en passant |
+| 8 | Le registre | **Retour à la ruche** | la ligne de l'homme, celle d'Eliott — et **deux arrivées le même jour**, que personne ne relève |
 | 9 | Le registre | **Au téléphone, en parallèle** | la vie de l'homme, les altercations, les jours **« au silence »** |
 | 10 | Le registre | **Vingt-six arrivants simultanés** | une cérémonie exceptionnelle — **et le sismographe que personne ne lira** |
 | 11 | Le registre | **Au jardin, le veilleur de l'époque** | la cérémonie racontée, le manque de berceurs, le marginal dans le public |
@@ -101,6 +103,20 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 | 17 | La remontée | **L'enquête en solo** | ⚠️ **TROU réduit à un point.** Le déclencheur du §4 y tombe, la relance est au §4 bis — **et le repaire est trouvé : §4 ter** |
 | 18 | La remontée | **Il entre seul, sans attendre** | il a appelé, il n'attend pas |
 | 19 | La remontée | **Il retrouve Eliott** | ses reliquats arrivent, il réalise sa propre mort — **et une berceuse est menottée** |
+
+## Avant le parcours — la scène d'ouverture du roman
+
+*Elle n'appartient pas aux dix-neuf scènes et n'est pas attribuable : elle précède l'enquête. **Mais c'est là que se pose ce que la scène 8 fera remonter, et c'est la première page du livre.***
+
+**La cérémonie d'éclaircie d'Eliott.** Deux capsules s'ouvrent à la même heure : la sienne, et celle d'un arrivant de quarante ans. La cérémonie se déroule normalement, il n'y a rien à signaler, et **le texte ne signale rien.**
+
+**Ce qui s'y joue, en deux secondes :** debout à côté de l'homme, **Eliott le dévisage.** Quelque chose se ferme sur son visage, ça dure le temps que ça dure, **et il enchaîne.** Personne ne le remarque, personne ne le lui demande, et le récit passe à autre chose immédiatement.
+
+> **Première lecture : un gamin bizarre. Seconde lecture : il regarde quelqu'un qui lui fait éprouver une chose qu'il ne sait pas nommer.**
+
+**Puis ils sont affectés ailleurs, et ils ne se revoient jamais.** Aucune retrouvaille, aucune seconde rencontre, aucun personnage qui rapproche les deux noms. *C'est l'[interdit n° 9](../01-dossier/les-interdits.md) tenu à la lettre : ceux qui se sont aimés ont une chance de se recroiser, et cette chance-là a été une cérémonie et deux secondes.*
+
+*Réglage, et il est strict : **la scène ne doit rien peser.** Pas de gros plan, pas de phrase de narrateur sur ce regard, pas de retour dessus dans les pages suivantes. Un détail parmi les détails d'une matinée chargée. **Le lecteur ne le retrouvera que parce qu'il était en première page** — voir §3.3.*
 
 ## Avant la disparition — les visites
 
@@ -128,7 +144,15 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 
 ## Le registre
 
-**8. Andrew retourne à la ruche** et enquête sur plusieurs lignes du registre. **D'abord celle de l'homme : un arrivant de quatre-vingt-onze ans.** Puis la cérémonie d'éclaircie d'Eliott. **La journée de sa venue, à son heure, comporte deux données : une capsule défaillante — il s'en souvient pour avoir vu un collègue se faire bizuter — et la capsule d'Eliott.** Il relit le rapport en cherchant la moindre anomalie et n'en trouve aucune : **capsule nickel, belle forme, belle couleur, survenue assez vite, pas de développement. Une capsule non préméditée.** *Voir §3.3 : c'est ici que l'indice le plus lourd du livre est planté, et il l'est au milieu d'une enquête sur autre chose.*
+**8. Andrew retourne à la ruche** et enquête sur plusieurs lignes du registre. **D'abord celle de l'homme : un arrivant de quatre-vingt-onze ans.** Puis la cérémonie d'éclaircie d'Eliott.
+
+**🔴 Corrigé le 16 août 2026. Il n'y a pas de capsule défaillante ce jour-là.** *Andrew a bien vu un collègue se faire bizuter devant une capsule qui n'éclaircissait pas — mais c'était un autre jour, ailleurs, sur une autre travée. **C'est un souvenir de métier ordinaire, sans le moindre rapport avec Eliott**, et si on le garde quelque part, il ne doit surtout pas atterrir sur cette ligne-ci.*
+
+**Ce que la journée porte, à son heure, ce sont deux arrivées : Eliott, dix ans, et un arrivant de quarante ans.** Andrew ne s'y arrête pas une seconde, et il a raison de ne pas s'y arrêter : **deux arrivées le même jour, c'est banal.** Les gens meurent ensemble — une route, un immeuble, une nuit d'hiver. Il lit la ligne, il la note, il passe.
+
+**Ce qu'il cherche et ne trouve pas, c'est une anomalie.** Il relit le rapport de la capsule d'Eliott et n'a rien à en tirer : **capsule nickel, belle forme, belle couleur, survenue assez vite, pas de développement. Une capsule non préméditée.** *Ces détails-là ne bougent pas — ils étaient là avant la décision et ils restent exacts après : la mort d'Eliott n'a été préméditée par personne, et la capsule le dit sans que personne sache le lire.*
+
+*Voir §3.3, entièrement réécrit : ce n'est plus un indice qu'on plante ici, **c'est le cas témoin du livre.***
 
 **9. Au téléphone, en parallèle, Isaac a fait des recherches sur l'homme.** Andrew partage ses infos ; Isaac détaille sa vie. **Plusieurs altercations, dont certaines ont dérapé.** Et **il a fait quelques jours « au silence »** — la cellule temporaire — **après avoir tenté, avec un groupe d'autres marginaux, d'empêcher l'entrée au jardin d'un groupe d'arrivants de six ans.** Une manifestation. *La scène installe deux choses d'un coup, et aucune n'est expliquée : un régime pénal qui existe et qui a un nom, et un homme dont l'hostilité a déjà pris la forme d'un acte public.*
 
@@ -184,7 +208,7 @@ Ce n'est pas une idéologie, c'est de l'amour possessif — et **c'est son tour*
 |---|---|
 | **6 — le lieu de travail** | l'économie : qui travaille, à quelles conditions, ce qu'on tolère pour tenir un effectif |
 | **7 — les collègues** | le grief, entier, dans la bouche de ceux qui le portent |
-| **8 — le registre** | la ruche, ce qu'on y note, et ce qu'un veilleur peut y lire |
+| **8 — le registre** | la ruche, ce qu'on y note, ce qu'un veilleur peut y lire — **et le cas témoin : deux arrivées le même jour, une seule mort** (§3.3) |
 | **9 — les recherches d'Isaac** | un régime pénal qui existe et qui a un nom |
 | **10 et 11 — la cérémonie des vingt-six** | le sismographe, et le fonctionnement du jardin |
 | **11 — le jardin** | un lieu d'innocence, et des marginaux qui viennent y mettre le bazar |
@@ -208,15 +232,43 @@ Personne ne peut le savoir ici. Le veilleur de l'époque y a vu une matinée cha
 
 **C'est peut-être le plus fort effet gratuit du livre, et la seule chose à faire est de ne rien faire.** Pas de personnage qui s'étonne trop longtemps, pas de phrase qui pèse, pas de retour dessus plus tard. **Il ne faut surtout pas l'expliquer** — l'expliquer le détruirait, et rien ne le remplacerait.
 
-## 3.3 La capsule défaillante — l'indice planté au milieu d'autre chose
+## 3.3 Les deux arrivées du même jour — le cas témoin du livre
 
-**Elle est déjà posée dans [`le-meme-jour.md`](le-meme-jour.md) : c'est celle du meurtrier d'Eliott**, morte le jour même de son crime, et qui n'a jamais éclairci.
+> **🔴 Section entièrement réécrite le 16 août 2026.** *L'ancienne version — une capsule défaillante mentionnée comme souvenir de bizutage, celle du meurtrier d'Eliott — est périmée : **Eliott n'a pas été assassiné.** Ce que porte la ligne du registre n'est plus un indice de crime, c'est autre chose, et c'est plus utile.*
 
-**Andrew la mentionne en passant, comme un souvenir de bizutage** — il se rappelle ce jour-là parce qu'il a vu un collègue se faire bizuter, pas parce qu'une capsule était défaillante. **L'indice arrive donc par une anecdote de service**, et il arrive au milieu d'une enquête sur un tout autre homme.
+**Ce que la journée d'Eliott comporte, c'est deux arrivées : lui, dix ans, et un arrivant de quarante ans.**
 
-> **Rien n'est caché, rien n'est déplacé : c'est écrit en clair, et ça ne ressemble à rien.**
+Rien n'est caché et rien n'est souligné. **Andrew ne s'y arrête pas**, et c'est le point : deux arrivées le même jour, c'est banal, ça arrive tout le temps, les gens meurent ensemble. Il n'a aucune raison de lire cette ligne autrement qu'il ne la lit — et personne dans le livre ne la lira jamais autrement.
 
-*C'est le régime de loyauté de tout le livre. Le lecteur peut relire la scène 8 et retrouver la phrase exacte. Et il la retrouvera d'autant mieux qu'il l'aura lue une première fois sans y prêter attention — parce que la scène était occupée à autre chose.*
+### Ce que le lecteur, lui, apprend là
+
+> **Que deux arrivées le même jour signifient une seule mort.**
+
+**Il l'apprend sur un cas parfaitement innocent**, dans une scène occupée à tout autre chose, au milieu d'une enquête sur un homme de quatre-vingt-onze ans qui n'a rien fait. Aucun enjeu, aucune tension, rien à résoudre : **c'est un cas témoin, et c'est exactement ce que doit être un cas témoin** — une leçon qu'on reçoit sans savoir qu'on la reçoit, parce qu'elle ne sert à rien sur le moment.
+
+### Et il s'en servira bien plus tard
+
+**Sur la ligne de la paire.** Même structure, même journée partagée — **plus une capsule qui n'éclaircit pas.** Le lecteur n'aura besoin d'aucune explication : il a déjà vu la figure une fois, propre, gratuite, sans conséquence, et il sait ce qu'elle veut dire avant qu'on la lui remontre.
+
+> **Le cas témoin perdu avec la fiche [`la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md) est ainsi restitué — et il est désormais dans la scène d'ouverture du roman.**
+
+*Le service que cette fiche rendait est repris intégralement, et sans rien coûter au casting : deux capsules ordinaires ouvertes le même jour à des âges différents, c'est tout ce qu'il fallait. **Le titre de la fiche est un titre de bible ; ces mots-là n'entrent dans le texte du roman à aucun moment** ([interdit n° 11](../01-dossier/les-interdits.md)).*
+
+*Le gain est double, et il est considérable. Le premier : la figure est enseignée une fois **avant** de servir, ce qui est la condition pour qu'elle porte quand elle sert. Le second : elle est enseignée en première page, dans la scène la moins suspecte du livre, **par une cérémonie où il ne se passe rien.***
+
+### ⚠️ La protection — et elle s'écrit comme une contrainte ferme
+
+> **Andrew ne fait jamais le lien.**
+
+Il entend, à la fin, une histoire d'eau et de courant. **Et il ne va pas vérifier qui d'autre est arrivé ce jour-là.** Il ne rouvre pas le registre, il ne recoupe pas la date, il ne pense même pas à le faire — l'affaire est close, le garçon est retrouvé, et rien dans son métier ne lui commande de retourner voir une ligne qu'il a déjà lue et qui ne disait rien.
+
+**Personne ne le fait à sa place.** Pas Isaac, pas June, pas un veilleur, pas le narrateur. *La ligne reste ce qu'elle a toujours été dans ce monde : une journée à deux arrivées, c'est-à-dire rien.*
+
+> ### **C'est le lecteur qui se souvient de l'homme debout à côté du petit, à la première page.**
+
+*Et c'est le régime de loyauté de tout le livre : rien n'a été caché, rien n'a été déplacé, tout était écrit en clair — et ça ne ressemblait à rien. Le lecteur peut relire la première page et la scène 8, et retrouver les deux lignes. Il les retrouvera d'autant mieux qu'il les aura lues une première fois sans y prêter attention.*
+
+*⚠️ Ce que ça interdit, et il faut le tenir jusqu'au dernier chapitre : **aucune phrase du texte ne rapproche jamais les deux arrivées.** Pas un personnage qui compte, pas un narrateur qui rappelle la cérémonie, pas une reprise du regard de la première page. **La seconde lecture doit être entièrement à la charge du lecteur** — c'est l'[interdit n° 2](../01-dossier/les-interdits.md), et c'est aussi la seule façon que la chose ne s'effondre pas en coïncidence expliquée.*
 
 ## 3.4 Le risque des deux fausses pistes consécutives — ✅ levé
 
@@ -603,6 +655,8 @@ Le *« lâche l'affaire »* en est le modèle, et il est déjà écrit ([`le-mem
 ## Les contradictions — arbitrées et à répercuter
 
 - [x] ~~**Le ravisseur sortait du milieu de la jalousie ; c'est une berceuse.**~~ — **arbitré par l'autrice : le milieu est une fausse piste, et rien de plus.** La coupable est à l'exact opposé, celle qui les aime trop. **Correction à porter sur [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), signalée et non appliquée** — sont concernés : la section « Le ravisseur d'Eliott sort de ce milieu-là », « Le verdict qui l'attend », et la question ouverte « groupe ou pas de groupe », qui tombe d'elle-même. *Le grief garde toute sa place dans le parcours — scènes 7 et 12 —, mais il ne mène plus à personne.*
+- [x] ~~**La capsule défaillante du jour d'Eliott.**~~ — **supprimée par l'autrice, 16 août 2026 : Eliott n'a pas été assassiné, il n'y a pas de crime et donc pas de capsule pourrie ce jour-là.** *La scène 8 et le §3.3 sont corrigés ; le bizutage devient un souvenir de métier ordinaire, d'un autre jour et d'ailleurs.* **Correction à porter sur [`le-meme-jour.md`](le-meme-jour.md), signalée et non appliquée ici** — ce document ne touche pas à cette fiche.
+- [ ] **Le nom d'éclaircie de l'arrivant de quarante ans.** *Il en produit un à la cérémonie comme tout le monde, et il figure sur la ligne du registre qu'Andrew lit à la scène 8.* **Mineur mais nécessaire** : c'est le seul mot par lequel il existe dans le livre, il apparaît deux fois — première page et scène 8 —, **et rien ne doit inviter à le rapprocher de celui d'Eliott.**
 - [ ] **Le mois entre l'arrivée et la disparition** (scène 3) contre le calendrier court de [`../03-personnages/eliott.md`](../03-personnages/eliott.md), qui pose des visites tenant « sur des jours, pas sur des mois ». **L'un des deux documents est à corriger.**
 - [ ] **Vingt-trois arrivants de six ans basculés directement au jardin** (scène 11) contre [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), qui pose qu'on entre au jardin **à huit ans** et qu'en dessous on grandit ailleurs — « le seul temps de la vie qui n'a pas de lieu attribué ». **Le jeu de piste tranche de fait une question ouverte ; il faut le confirmer ou corriger la scène.**
 - [ ] **« Au silence » est à porter au lexique**, et aucun fichier de lexique n'existe dans le dossier. *À créer, ou à ranger dans [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) avec le reste du vocabulaire institutionnel.*
@@ -620,4 +674,4 @@ Le *« lâche l'affaire »* en est le modèle, et il est déjà écrit ([`le-mem
 
 ---
 
-*Vocabulaire vérifié : le palier s'appelle **le jardin** ; deux arrivantes identiques forment **une paire** ; les prénoms d'ici sont des **noms d'éclaircie** ; la cellule temporaire est **« au silence »**. **⚠️ Changement de vocabulaire, décision de l'autrice : « arrivant porteur de voiles » est abandonné — trop connoté. On dit désormais « porteur de voiles », au pluriel.** *« Un porteur de voiles de cet âge… je n'en avais jamais vu. »* **Attention : « le voile » comme phénomène ne change pas** — c'est seulement la désignation de la personne. À répercuter dans les fiches et documents qui portent l'ancienne formule. **Joël**, **Liam** et **Sorel** n'appartiennent qu'à la vie d'avant. Aucun mot de parenté ne figure dans ce document ; ni « enfant » ni « vieillard » n'y désignent quiconque de ce monde-ci (interdit n° 11), et personne n'y est désigné autrement que par son âge. **On désigne les gens par leur âge : un arrivant de dix ans, un de vingt-deux, un de quatre-vingt-onze.** *« Garçon » et « gosse » subsistent dans ce document, comme dans les fiches : l'interdit n° 11 les laisse en question ouverte et ne porte de toute façon que sur le texte du roman.*
+*Vocabulaire vérifié : le palier s'appelle **le jardin** ; deux arrivantes identiques forment **une paire** ; les prénoms d'ici sont des **noms d'éclaircie** ; la cellule temporaire est **« au silence »**. **⚠️ Changement de vocabulaire, décision de l'autrice : « arrivant porteur de voiles » est abandonné — trop connoté. On dit désormais « porteur de voiles », au pluriel.** *« Un porteur de voiles de cet âge… je n'en avais jamais vu. »* **Attention : « le voile » comme phénomène ne change pas** — c'est seulement la désignation de la personne. À répercuter dans les fiches et documents qui portent l'ancienne formule. **Joël**, **Liam** et **Sorel** n'appartiennent qu'à la vie d'avant. Aucun mot de parenté n'y désigne quiconque — **la seule occurrence est le titre de la fiche [`la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md), citée au §3.3, et c'est un titre de bible** ; ni « enfant » ni « vieillard » n'y désignent quiconque de ce monde-ci (interdit n° 11), et personne n'y est désigné autrement que par son âge. **On désigne les gens par leur âge : un arrivant de dix ans, un de vingt-deux, un de quatre-vingt-onze.** *« Garçon » et « gosse » subsistent dans ce document, comme dans les fiches : l'interdit n° 11 les laisse en question ouverte et ne porte de toute façon que sur le texte du roman.*

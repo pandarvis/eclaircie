@@ -165,9 +165,14 @@ C'est la forme la plus économique possible de ce que décrit le §8. La doctrin
 | **La date** | elle est la sienne, et c'est elle qui rattache la ligne à une journée |
 | **La travée** | elle pose les quatre capsules dans la même zone, donc dans la même journée de service |
 | **Les âges relevés à l'instrument** | dix-huit, dix-huit, soixante-deux — et rien pour la quatrième |
-| **Le motif appris sur le dossier d'Eliott** (§8.2 c) | c'est lui qui l'a conduit à chercher, et il le conduit encore |
 
 **Le numéro est simplement ce qui rend la reconnaissance instantanée.** Sans lui, il lit et il comprend ; avec lui, il a compris avant d'avoir fini de lire.
+
+> ⚠️ **Une quatrième ligne figurait ici et elle est supprimée le 19 août 2026 : « le motif appris sur le dossier d'Eliott ».**
+>
+> **Ce motif n'existe plus.** Il n'y a pas de capsule pourrie le jour de l'arrivée d'Eliott (§8), donc Andrew n'a jamais rencontré la configuration ailleurs, et **il n'a rien appris à lire sur le dossier du garçon.**
+>
+> **Ce que ça coûte, et ce que ça ne coûte pas.** La reconnaissance du mouvement 18 ne perd rien : elle tient sur la date, la travée, les âges et le numéro, et le numéro seul suffit. **Ce qui perd son moteur, c'est ce qui l'amène au registre** — il ne peut plus y venir en cherchant un motif déjà vu. *Ce point appartient à [`le-parcours-de-l-enquete.md`](le-parcours-de-l-enquete.md), qui tient le trajet de la seconde enquête : c'est là qu'il faut trouver ce qui le fait ouvrir les registres. **Signalé, non arbitré ici.***
 
 ---
 
@@ -682,91 +687,116 @@ Ce ne sont pas deux nuances du même mouvement. Le premier regarde en arrière e
 
 ## 8. Le jour d'arrivée d'Eliott — le cas témoin
 
-> **Décision de l'autrice, 15 août 2026.** *« On pourrait aussi réaliser que l'enfant a été assassiné lui aussi dans l'autre monde — on le sait quand, le jour de son arrivée, il y a une capsule pourrie. »*
+> **⚠️ VERSION B, validée par l'autrice le 19 août 2026. Elle remplace intégralement la décision du 15 août.**
+>
+> **Eliott n'a pas été assassiné.** Il s'est **noyé** — un accident, une randonnée, une chute à l'eau, le courant. **Le père se jette pour le sauver et se noie à son tour.** Rien d'autre.
+>
+> **Il n'y a donc pas de capsule pourrie le jour de son arrivée**, et il n'y a jamais eu de meurtrier. Ce qu'il y a ce matin-là, c'est **deux arrivants** : un de dix ans et un de quarante, morts du même événement, sortis à la même cérémonie.
+>
+> *Tout ce que l'ancienne version faisait dépendre du meurtre est faux : la « signature » commune avec Chrissy et Tania, la capsule qu'on racle, le motif appris par Andrew, la rime des trois affaires. **Corrigé ci-dessous, section par section.*** Fiche : [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §9.
 
-### 8.1 Ce qui remplace le cas témoin, et ce que c'était
+### 8.1 Ce que le cas témoin devait faire, et ce qui le fait maintenant
 
 Le dossier avait besoin d'un **cas témoin** : une journée montrée tôt dans le livre, où le lecteur voit une signature de registre pour la première fois et apprend à la lire, sans que rien ne lui soit expliqué. Cette fonction était portée par la mère et l'enfant, tenus en réserve dans [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md).
 
-**Ils sont sortis du casting. Le jour d'arrivée d'Eliott reprend la fonction, et il la remplit mieux.**
+**Ils sont sortis du casting. Le jour d'arrivée d'Eliott reprend la fonction — et la version B la lui rend sous sa forme d'origine, celle qu'on croyait perdue avec eux.**
 
 Ce jour-là, à la première page du roman :
 
 | Ce qui se passe | Ce que le registre en garde |
 |---|---|
-| Une capsule s'ouvre sur un enfant de dix ans | une arrivée, un âge relevé à l'instrument, un nom produit par l'arrivant, une travée |
-| **Une capsule pourrie s'ouvre le même jour** | une ligne de rien : pas d'âge, pas de nom, une capsule qui n'a pas éclairci et qu'on racle |
+| Une capsule s'ouvre sur un arrivant de dix ans | une arrivée, un âge relevé à l'instrument, un nom produit par l'arrivant, une travée |
+| **Une capsule s'ouvre le même jour sur un arrivant de quarante ans** | une arrivée, un âge, un nom produit par l'arrivant, une travée voisine |
+| Une capsule pourrie | **aucune. Il n'y en a pas ce jour-là** |
 
-**Andrew y est.** Il tient le service, il relève, il inscrit. **Il ne remarque rien — c'est un jour de travail.**
+**Andrew y est.** Il tient le service, il relève, il inscrit — **deux arrivées ordinaires dans une matinée qui en compte plusieurs. Il ne remarque rien, et il n'y a rien à remarquer.**
 
-C'est la capsule de l'assassin d'Eliott, mort le jour de son crime. **Exactement la signature de Chrissy et Tania** : une victime et son meurtrier qui meurent ensemble, donc deux capsules qui apparaissent ensemble dans la même zone de travées, dont une qui ne mûrit jamais. La règle est celle de [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) — la maturation suit le souffle de vie restant de l'autre côté —, et le §2 ci-dessus la tenait déjà : l'irréparable est condamné, et son verdict se lit à ce qu'il n'y a rien à lire.
+**Un seul événement a tué les deux.** Une chute à l'eau, un courant, et quelqu'un qui se jette et ne ressort pas. La règle est celle de [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md) — la maturation suit le souffle de vie restant de l'autre côté —, et deux morts simultanées au même endroit donnent deux capsules qui apparaissent ensemble, mûrissent vite, et s'ouvrent dans la même zone de travées. **Aucun destin, aucune affinité. De la géographie**, exactement comme au §1.
 
-### 8.2 Pourquoi c'est supérieur au cas témoin d'origine
+*Et les deux verdicts sont d'une banalité totale : l'un revient à dix ans, l'autre à quarante, **personne n'a rien à réparer ni à venger**, et le second n'intervient jamais dans le livre. Ils sont affectés ailleurs et ne se revoient pas. Voir [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §3 bis.*
 
-**Trois raisons, et la troisième est structurelle.**
+### 8.2 Pourquoi c'est supérieur au cas témoin d'origine — et pourquoi la version B est meilleure que la version A
 
-**a) Le lecteur voit la même signature deux fois, et les deux fois ne lui font pas le même effet.**
+**a) Le lecteur apprend à lire *le même jour* sur un cas parfaitement innocent.**
+
+C'est le point que la version A avait perdu et que la version B restitue.
 
 | | Où | Ce que ça produit |
 |---|---|---|
-| **Première fois** | première page — l'arrivée d'Eliott, et la capsule qu'on racle le même matin | **elle lui apprend à lire.** Il ne comprend rien encore ; il enregistre une forme |
-| **Seconde fois** | mouvement 18 — la ligne de registre d'Andrew, quatre capsules d'une seule journée | **elle le foudroie.** Il reconnaît la forme avant de comprendre ce qu'elle dit, et il comprend une page avant Andrew |
+| **Première fois** | **première page** — deux arrivants, dix ans et quarante ans, une seule matinée | **elle lui apprend à lire.** Il ne comprend rien encore ; il enregistre une forme : *même jour = même mort* |
+| **Seconde fois** | mouvement 18 — la ligne d'Andrew, **quatre** capsules d'une seule journée, **dont une qui n'éclaircit pas** | **elle le foudroie.** Il reconnaît la forme, il voit ce qu'elle porte en plus, et il comprend une page avant Andrew |
 
-C'est le dispositif le plus économique que le livre puisse avoir : **rien n'est expliqué deux fois, et rien n'est expliqué une seule fois non plus.** La première occurrence n'enseigne rien, elle installe. La seconde n'explique rien, elle rappelle.
+**La leçon est donnée sur un cas où il n'y a ni crime, ni coupable, ni rien à soupçonner** — et c'est ce qui la rend imperceptible. Le lecteur n'apprend pas à repérer une signature de meurtre ; il apprend seulement que deux capsules d'une même journée peuvent venir d'un seul événement. **Quand la ligne des jumelles arrivera, il aura la grammaire et il n'aura eu aucun soupçon à porter pendant trois cents pages.**
+
+*C'est exactement ce que la mère et l'enfant faisaient, et rien d'autre. **La fonction est restituée intacte, sans les deux fiches ni la place au casting.***
 
 **b) Ce n'est plus un personnage secondaire qui rend ce service.**
 
-Le cas témoin coûtait une famille, deux fiches, des scènes à écrire et une place dans le casting — pour une fonction purement pédagogique. Ici, la fonction est portée par **le protagoniste secondaire du livre**, dans une scène qui existe déjà et qui compte déjà pour trois autres choses : la première page, la terreur d'Eliott, l'accroche d'Andrew. **Coût nul.** On n'ajoute pas une ligne au casting, on ajoute une capsule à une matinée qui en compte plusieurs.
+Le cas témoin coûtait une famille, deux fiches, des scènes à écrire et une place dans le casting — pour une fonction purement pédagogique. Ici, la fonction est portée par **le protagoniste secondaire du livre**, dans une scène qui existe déjà et qui compte déjà pour trois autres choses : la première page, la terreur d'Eliott, l'accroche d'Andrew. **Coût nul** — on ajoute un corps debout dans une salle, et il n'a ni nom, ni fiche, ni réplique.
 
-**c) Et c'est ce qui apprend à Andrew à reconnaître sa propre ligne.**
+**c) Et la répétition qui menaçait le dispositif disparaît.**
 
-C'est l'apport le plus important, parce qu'il est de mécanique et non d'effet.
+C'est le gain structurel de la version B, et il est plus important que tout ce qui précède.
 
-Quand Andrew se met à chercher dans les registres — mouvements 15 à 18 —, il ne cherche pas au hasard : **il cherche un motif**, et il l'a déjà rencontré. Le jour de l'arrivée du garçon dont il s'occupe, il y avait une capsule pourrie. Il retrouve donc **deux fois la même configuration** — une arrivée et une capsule qui n'éclaircit pas, le même jour, la même zone :
+La version A donnait **trois affaires bâties pareil** : les jumelles tuées, Eliott tué, une capsule pourrie à chaque fois. Trois occurrences du même motif, et le monde commençait à ressembler à une machine qui apparie les morts — dont le lecteur aurait fini par anticiper le fonctionnement. **C'est exactement ce que l'[interdit n° 3](../01-dossier/les-interdits.md) refuse.**
 
-1. le jour d'Eliott, qu'il a lui-même consigné et qu'il peut relire ;
-2. le jour de sa propre arrivée, qu'il ne sait pas être la sienne.
+> **Désormais il y a un crime dans chaque monde, et rien de plus.**
 
-**Il apprend à lire sur le dossier du garçon, puis il applique et il tombe sur lui-même.** Le mouvement 18 gagne encore en factualité : il ne devine rien, il ne déduit rien, il **reconnaît un motif qu'un autre dossier lui a enseigné**. C'est exactement ce que le §14 demande — le détective poursuit des faits.
-
-*Et la boucle est propre : l'enfant qu'il cherche lui donne l'outil qui le trouvera, lui. Sans jamais rien dire, et sans que personne l'ait voulu.*
-
-### 8.3 Point de vigilance — la rime, et jusqu'où on la souligne
-
-**À signaler et à ne pas trancher ici.**
-
-Trois affaires du livre sont désormais bâties sur exactement la même structure :
-
-| Affaire | La victime | Le meurtrier |
+| | Le crime | Ce qu'il produit au registre |
 |---|---|---|
-| **Eliott** | arrive à dix ans, jour 0 | capsule pourrie le même jour |
-| **Chrissy et Tania** | arrivent à dix-huit ans | capsule pourrie le même jour |
-| **Andrew** | arrive à soixante-deux ans, même journée que la paire | la même capsule pourrie |
+| **La vie d'avant** | l'affaire des jumelles — deux filles tuées, un assassin mort le même jour | **quatre capsules, dont une pourrie.** §1 |
+| **Ce monde-ci** | **l'enlèvement d'Eliott** — et il est retrouvé vivant | rien. Personne n'est mort |
+| **La mort d'Eliott** | **aucun.** Une noyade | **deux capsules ordinaires, et aucune pourrie** |
 
-**Le risque est réel : trois fois le même motif peut faire paraître le système mécanique** — une machine qui apparie les morts, dont le lecteur finit par anticiper le fonctionnement. Ce serait le contraire de ce que le dossier cherche, et l'interdit n° 3 comme la règle B de [`duree-et-calendrier.md`](duree-et-calendrier.md) tiennent précisément à ce qu'aucun barème ne soit lisible.
+**La mort d'Eliott n'est ni l'un ni l'autre**, et c'est précisément ce qui la rend utilisable en ouverture : elle n'apprend au lecteur aucune règle sur le crime.
 
-**Mais c'est une rime, et une rime voulue est une force.** Le monde ne fait rien d'exceptionnel dans ces trois cas : il enregistre des morts violentes, et les morts violentes arrivent par paires parce que quelqu'un tue et meurt. **Ce n'est pas une machine à destins, c'est une conséquence de la géographie et de la simultanéité** — ce que le §1 posait déjà : *aucun destin, aucune affinité, de la géographie*.
+**d) Et c'est le §1 du dossier maître, jamais encore mis en scène.**
 
-La question ouverte n'est donc pas s'il faut la garder, mais :
+*La disparition bête* — une extinction sans grandeur, sans coupable, sans personne à qui en vouloir. **C'est la genèse du projet**, et elle n'avait pas de scène dans le livre. Elle en a une, et c'est la première.
 
-> **Le texte souligne-t-il la rime, ou la laisse-t-il entièrement au lecteur ?**
+### 8.3 ⚠️ Ce qui tombe avec la version A — à corriger partout
 
-| Option | Ce qu'on gagne | Ce qu'on perd |
-|---|---|---|
-| **La souligner** — un personnage remarque que ça s'est déjà vu, un veilleur dit que ça arrive | le lecteur est sûr d'avoir vu, la mécanique du mouvement 18 est plus solide | le monde se met à ressembler à un système lisible, et l'interdit n° 3 se fissure |
-| **La laisser** — trois occurrences, jamais rapprochées par personne | le lecteur travaille, et c'est lui seul qui voit la figure. Régime habituel du livre | un lecteur distrait peut manquer la première occurrence, et le mouvement 18 perd son socle |
+**Cinq choses, et il ne doit rien en rester dans le dossier.**
 
-*Piste de compromis, non retenue : ne souligner **qu'une fois**, et à l'intérieur du travail d'Andrew — il rapproche le jour d'Eliott et un autre jour parce que c'est son métier de rapprocher des lignes, pas parce que le monde a un motif. La remarque reste alors un geste d'enquêteur et non une clé donnée au lecteur.*
+| Ce que posait la version A | Ce qui est vrai |
+|---|---|
+| Eliott a été assassiné | **il s'est noyé.** Accident, aucun coupable |
+| Une capsule pourrie le jour de son arrivée | **il n'y en a pas.** Deux arrivées ordinaires |
+| Même signature que Chrissy et Tania | **non.** La signature des jumelles porte une capsule qui n'éclaircit pas ; celle-ci n'en porte aucune |
+| Andrew apprend le motif sur le dossier du garçon (§8.2 c de la version A) | **supprimé.** Il n'y a pas de motif à apprendre. Voir §3 bis, encadré du 19 août |
+| Eliott a deux ravisseurs, et deux verdicts opposés | **non.** Il en a **un** — celui d'ici, qui ne le tue pas et qui éclaircira comme tout le monde |
+
+*Et le point de vigilance qui occupait cette section — **la rime des trois affaires, la souligne-t-on ?** — est **sans objet** : il n'y a plus trois affaires. La question est close par la structure, sans qu'on ait eu à trancher un dosage.*
+
+*Andrew, enfin, a vu une scène de bizutage **ailleurs, ou un autre jour**. C'est un souvenir de métier ordinaire, sans aucun lien avec Eliott ; toute version qui le place dans cette matinée est périmée.*
 
 ### 8.4 Ce que ça change à l'épilogue
 
-Rien de ce qui précède n'est jamais dit dans le texte, et surtout pas par l'enfant. **Eliott ne sait pas qu'il est mort.** À l'épilogue — **six ans après le corps du roman, à huit ans** —, il raconte ce qui lui est arrivé de l'autre côté **juste avant d'entrer au jardin**, sans rien expliquer, sans rien conclure et sans rien relier à Andrew. Le lecteur, qui a vu la capsule pourrie à la première page, n'apprend aucun fait : il reçoit un aveu.
+Rien de ce qui précède n'est jamais dit dans le texte, et surtout pas par l'enfant. **Eliott ne sait pas qu'il est mort.** À l'épilogue — **six ans après le corps du roman, à huit ans** —, il raconte ce qui lui est arrivé de l'autre côté **juste avant d'entrer au jardin**, sans rien expliquer, sans rien conclure et sans rien relier à Andrew. Le lecteur, qui a vu **deux arrivants** à la première page, n'apprend aucun fait : il reçoit un aveu, et il comprend enfin qui était l'homme debout à côté du petit.
+
+**Ce qu'il dit tient dans un sentiment, et c'est intraduisible dans sa langue** : *« J'avais l'impression qu'il était moi et que moi j'étais lui. »* **Il n'a aucun mot de parenté** — ils n'existent pas ici ([interdit n° 11](../01-dossier/les-interdits.md)) —, donc il décrit ce qu'il éprouve avec ce qu'il a, et personne autour de lui ne comprend ce qu'il essaie de dire. Développement complet dans [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §10.
+
+> **C'est le reliquat le plus sûr du livre au regard de l'[interdit n° 4](../01-dossier/les-interdits.md) : il n'y a rien à vérifier.** Pas un lieu, pas un nom, pas un fait — un sentiment. Personne ne peut le confirmer ni le contredire.
+
+**Et c'est ce qui donne enfin son sens exact au mot de l'autrice.** Devant le jardin, il *« expie ce qui le faisait souffrir »* — **or on n'expie pas d'avoir été assassiné.** Une victime a subi, elle n'a rien à expier, et la version A rendait cette phrase approximative. Ici il porte **une faute qui n'en est pas une** : il est tombé, et quelqu'un est mort en venant le chercher. **C'est la culpabilité du survivant, et c'est ça qu'il dépose avant d'entrer.**
 
 > **Un seul moment, pas deux.** La confession et l'entrée sont la même scène : **il dépose ce qu'il portait, puis il entre.** C'est la règle du voile appliquée à lui — on arrive porteur de voiles parce qu'on n'est pas en paix, et l'on suppose, sans certitude, que les reliquats s'effacent une fois au jardin.
 
 *Et il n'a rien perdu de sa langue : **à huit ans la parole est intacte.** Elle se dégrade vers quatre ans, bien plus tard, et le livre ne le montre pas. Toute version antérieure qui faisait de cette scène « le dernier moment où il a encore les mots » est fausse.*
 
 Développement complet dans [`duree-et-calendrier.md`](duree-et-calendrier.md), « L'épilogue : Eliott dépose, puis il entre », et dans [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §10.
+
+### 8.5 La protection absolue — Andrew ne fait jamais le lien
+
+**Contrainte ferme, et elle vaut jusqu'à la dernière page.**
+
+Andrew entend une histoire d'eau et de courant. **Il ne va pas vérifier qui d'autre est arrivé ce jour-là.** Il n'ouvre pas le registre à cette date, il ne recoupe pas les travées, il ne compte pas les arrivants du matin — **et rien ne l'y pousse**, puisque l'idée qu'une seule mort puisse en emporter deux n'existe dans aucune langue de ce monde.
+
+> **C'est le lecteur qui se souvient de l'homme debout à côté du petit, à la première page. Personne dans le livre ne le saura jamais.**
+
+*Ce que ça interdit, sans souplesse : aucune scène où Andrew retourne au registre pour ce motif, aucune phrase de narrateur qui rapproche les deux arrivées, aucun personnage qui se rappelle une cérémonie à deux. **Le rapprochement n'existe nulle part dans le texte.***
+
+*Et c'est cohérent avec tout le reste du dispositif : la seule chose que la première page ait à dire est la seule chose que le livre ne dise nulle part.*
 
 ---
 
@@ -843,7 +873,7 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [x] **On sort de la capsule en sachant parler**, l'esprit embrumé *comme après un long sommeil*. **Révision du §4 du dossier maître, qui n'est pas modifié.** Voir [`../02-univers/le-corps-des-arrivants.md`](../02-univers/le-corps-des-arrivants.md). Conséquence ici : la cérémonie groupée a du dialogue dedans, et le protocole du nom devient possible.
 - [x] **Personne ne nomme un arrivant : il se nomme lui-même.** Le veilleur explique en une phrase ce qu'est un prénom, demande, et inscrit le mot qui sort. Exception : **les arrivants de huit ans et moins**, nommés par une berceuse — *seuil précisé le 16 août 2026, huit inclus.* **Andrew, Chrissy et Tania ont donc produit leurs propres noms** — et Andrew n'a pas dit Joël. Section 6, et [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).
 - [x] **Il n'y a pas de noms de famille dans ce monde-ci**, et la règle n'est jamais énoncée. Les fragments peuvent donc dire *« l'affaire Sorel »* : l'affaire est nommée, aucun prénom n'est prononcé, et Andrew entend un mot dont il ne peut pas identifier la catégorie. Section 4.7.
-- [x] **Eliott a été assassiné dans la vie d'avant, et une capsule pourrie est apparue le jour de son arrivée.** Même signature que celle de Chrissy et Tania. **Le jour d'arrivée d'Eliott devient le cas témoin du livre** et remplace la mère et l'enfant, sortis du casting. Section 8.
+- [x] ~~**Eliott a été assassiné dans la vie d'avant, et une capsule pourrie est apparue le jour de son arrivée.**~~ — ⚠️ **ABANDONNÉ le 19 août 2026.** C'est une **noyade**, il n'y a **aucune capsule pourrie ce jour-là**, et la signature des jumelles ne se répète pas. **Ce qui subsiste de la décision du 15 août : le jour d'arrivée d'Eliott reste le cas témoin du livre** et remplace toujours la mère et l'enfant. Section 8.
 - [x] **Le corps du roman tient sur quelques semaines, peut-être quelques mois.** Le calendrier sur douze ans est caduc : il n'existait que pour Erin, qui est suspendue. Conséquence ici : la théorie du garçon (§4.2) se défait par l'**enlèvement**, plus par l'entrée au jardin. Voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
 
 ---
@@ -871,6 +901,12 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 # Tranché le 19 août 2026
 
 - [x] **Le repaire d'ici est une maison ordinaire, et la porte donne sur une cave aménagée.** Chez Joël, la même descente donne un mouroir et deux corps. **Le lecteur descend deux fois le même escalier et ouvre deux fois la même porte : la première fois deux corps, la seconde des couleurs — et le contraste est la révélation.** Section 5 quater, et [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md) §6.
+- [x] **Eliott ne s'est pas fait assassiner : il s'est noyé.** Une randonnée, une chute à l'eau, le courant — **et le père se jette pour le sauver et se noie à son tour.** Aucun coupable, rien à réparer, rien à venger. **Version B, elle remplace la décision du 15 août 2026.** Section 8, et [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §9.
+- [x] **Ils arrivent le même jour, à la même cérémonie** — dix ans et quarante ans, leurs âges de mort. **Il n'y a pas de capsule pourrie ce matin-là.** Le lecteur apprend *même jour = même mort* sur un cas parfaitement innocent, à la première page : **le cas témoin perdu avec la mère et l'enfant est restitué**, et il ne coûte rien. Section 8.1 et 8.2.
+- [x] **Le bug silencieux : Eliott dévisage l'arrivant de quarante ans, deux secondes, et il enchaîne.** Même calibrage que la migraine d'Andrew au poste de police — **c'est le corps qui sait, pas lui.** Puis ils sont affectés ailleurs et ne se revoient jamais. **L'homme n'a ni nom, ni fiche, ni scène.** [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §3 bis.
+- [x] **Il reste un crime dans chaque monde, et rien de plus.** L'affaire des jumelles là-bas, l'enlèvement ici. **La mort d'Eliott n'est ni l'un ni l'autre**, et la rime des trois affaires disparaît avec elle — la répétition qui menaçait de faire paraître le système mécanique n'existe plus. Section 8.2 c et 8.3.
+- [x] **Andrew ne fait jamais le lien.** Il entend une histoire d'eau, **il ne va pas vérifier qui d'autre est arrivé ce jour-là**, et personne dans le livre ne le saura jamais. **Contrainte ferme.** Section 8.5.
+- [x] **La confession tient dans un sentiment, sans un mot de parenté** — *« J'avais l'impression qu'il était moi et que moi j'étais lui. »* **C'est le reliquat le plus sûr du livre au regard de l'interdit n° 4 : il n'y a rien à vérifier.** Section 8.4, et [`../03-personnages/eliott.md`](../03-personnages/eliott.md) §10.
 - [x] **La seconde fausse piste est trouvée, et elle ne fragilise pas le registre.** *Le registre ne connaît que les arrivées et il est infaillible ; ce qui vient après est ailleurs, sous le secret médical du jardin.* **C'était la condition de tout le §3 ci-dessus** — un registre faillible rendrait le mouvement 18 discutable. Voir [`le-parcours-de-l-enquete.md`](le-parcours-de-l-enquete.md) §4 ter.1.
 
 ---
@@ -902,10 +938,11 @@ La poursuite cesse d'être une contradiction : elle devient la première répara
 - [ ] **La forme du numéro** — longueur, présentation, façon de le dire à voix haute. **Rien n'est fixé, et rien ne doit être inventé avant décision de l'autrice.**
 - [x] ~~Le nom du partenaire qui crie à la poursuite.~~ — **Liam, tranché le 15 août 2026.** Nom de bible personnelle, **jamais écrit dans le roman** : dans le texte, *son collègue*, *son partenaire*. Section 1. Il ne crée aucune exception au §4.6.
 - [ ] **Le nombre de fragments de reliquat** et leur répartition. **Le cadre a changé** : ils ne se répartissent plus sur douze ans mais sur quelques semaines, peut-être quelques mois. La densité augmente d'autant, et il faut vérifier que le rythme reste tenable — voir [`duree-et-calendrier.md`](duree-et-calendrier.md).
-- [ ] **La rime des trois affaires — la souligne-t-on ?** Eliott, la paire, Andrew : trois fois une arrivée et une capsule pourrie le même jour. Une rime voulue est une force, mais trois occurrences risquent de faire paraître le système mécanique. Souligner une fois à l'intérieur du travail d'Andrew, ou tout laisser au lecteur ? Section 8.3. **Non tranché.**
-- [ ] **Andrew relit-il vraiment la ligne du jour d'Eliott ?** La section 8.2 c) suppose qu'il y revient et qu'il y reconnaît un motif. À quel mouvement, et de sa propre initiative ou en cherchant autre chose ?
-- [ ] **La capsule pourrie du jour d'Eliott est-elle montrée à la première page, ou seulement inscrite ?** Vue de loin dans le couloir, mentionnée dans une phrase de service, ou uniquement présente sur la ligne qu'on relira plus tard. Les trois dosages ne donnent pas la même leçon de lecture.
-- [ ] **Le parallèle des deux ravisseurs se joue-t-il quelque part ?** L'assassin de la vie d'avant n'a jamais éclairci ; celui d'Eliott, qui n'a pas tué, éclaircira comme tout le monde. Ce document tient déjà les quatre capsules d'une seule journée — **faut-il que le livre pose les deux hommes côte à côte, ou le lecteur doit-il faire seul tout le trajet ?** Le barème reste hors du texte dans les deux cas. *⚠️ La question se complique depuis la section 8 : **Eliott a maintenant deux ravisseurs**, celui de la vie d'avant qui l'a tué et n'a jamais éclairci, et celui d'ici qui ne le tue pas et éclaircira comme tout le monde. Le même enfant, enlevé deux fois, et deux verdicts opposés. C'est peut-être le meilleur endroit du livre pour montrer le barème sans jamais l'énoncer — ou le plus démonstratif. Non tranché.* Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), « Le verdict qui l'attend ».
+- [x] ~~**La rime des trois affaires — la souligne-t-on ?**~~ — **sans objet depuis le 19 août 2026 : il n'y a plus trois affaires.** Section 8.3.
+- [x] ~~**Andrew relit-il vraiment la ligne du jour d'Eliott ?**~~ — **non, et il ne doit jamais y revenir.** Il n'y a plus de motif à y apprendre, et la section 8.5 en fait une contrainte ferme. *Ce qui reste ouvert, et qui appartient à [`le-parcours-de-l-enquete.md`](le-parcours-de-l-enquete.md) : **ce qui le fait ouvrir les registres**, maintenant que le dossier du garçon ne l'y conduit plus.*
+- [x] ~~**La capsule pourrie du jour d'Eliott est-elle montrée à la première page ?**~~ — **il n'y en a pas.** Section 8.1.
+- [ ] **Comment se lisent les deux arrivées de la première page ?** Deux corps dans la même salle, deux chiffres relevés, et rien qui les rapproche. **Le dosage est délicat dans l'autre sens que l'ancien** : il faut que le lecteur retienne l'homme de quarante ans sans qu'on ait l'air de le lui montrer, sinon l'épilogue ne referme rien. Sections 8.1 et 8.2 a.
+- [ ] **Le parallèle des deux ravisseurs se joue-t-il quelque part ?** L'assassin de la vie d'avant n'a jamais éclairci ; celui d'Eliott, qui n'a pas tué, éclaircira comme tout le monde. Ce document tient déjà les quatre capsules d'une seule journée — **faut-il que le livre pose les deux hommes côte à côte, ou le lecteur doit-il faire seul tout le trajet ?** Le barème reste hors du texte dans les deux cas. *⚠️ **La complication signalée ici le 15 août est annulée le 19** : Eliott n'a **qu'un seul ravisseur**, celui d'ici, qui ne le tue pas et éclaircira comme tout le monde. Il n'a jamais été enlevé dans la vie d'avant — il s'est noyé (section 8). La question redevient donc celle qu'elle était : **deux hommes de la seule affaire des jumelles**, l'assassin qui n'a jamais éclairci et Joël qui a voulu tuer et revient à soixante-deux ans (section 5 ter). Non tranché.* Voir [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md), « Le verdict qui l'attend ».
 - [ ] **Dans quel ordre le lecteur descend-il les deux escaliers ?** La section 5 quater suppose la planque d'abord et la cave ensuite — c'est l'ordre du récit, puisque le troisième temps des fragments (§4.3) porte la journée entière et qu'il tombe tard. **À vérifier contre le placement réel des deux scènes** : si la cave venait avant, le contraste jouerait dans l'autre sens et le livre se terminerait sur deux corps.
 - [ ] **Combien de plans pour la cave ?** Le mot est interdit de ce côté-ci, donc tout passe par ce qu'on voit. *Trop peu ne se comprend pas ; trop long fait de la scène un inventaire, et le lecteur a déjà nommé la pièce à la troisième ligne.* Section 5 quater.
 - [x] ~~La poursuite finale est-elle montrée ?~~ — **oui, la décision du nom l'implique** : c'est le fragment le plus tardif et le plus explicite du livre, et il porte l'unique occurrence du nom. Reste ouvert : sa longueur, et le nombre de plans qu'on lui donne avant l'accident.

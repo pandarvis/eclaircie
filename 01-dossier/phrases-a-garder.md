@@ -61,3 +61,23 @@ Ce qu'il faut obtenir dans le texte : deux personnes qui parlent, chacune avec s
 **Usage.** Andrew peut lancer *« c'était là sous nos yeux depuis le début »* à Isaac au téléphone, au moment de lui donner l'adresse. C'est une réplique de policier, elle a le droit d'être banale — **c'est le lecteur qui saura qu'elle est littérale.**
 
 *Voir [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) et [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md).*
+
+---
+
+## Le mot qui n'existe pas
+
+*16 août 2026, née de la décision sur la mort d'Eliott. **Eliott, devant le jardin, racontant ce qui lui est arrivé.***
+
+> ### *« Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui ! »*
+
+**Usage — et il est inverse de presque tout ce fichier.** Les autres entrées sont des formulations d'autrice, faites pour écrire les scènes et jamais pour être dites. **Celle-ci est une réplique du texte.** Elle est faite pour être prononcée, telle quelle, par un arrivant de dix ans qui cherche ses mots et n'en trouve aucun — parce qu'il n'y en a aucun à trouver ([interdit n° 11](les-interdits.md), point 1 : aucun mot de parenté n'existe dans cette langue).
+
+**Ce qu'elle fait.** Il a le sentiment entier et il n'a pas le nom. Il le décrit donc par l'identité et par la confusion des deux personnes — **c'est exactement ainsi qu'on décrirait un père si l'on n'avait jamais eu le concept.** Le lecteur, lui, comprend au premier mot.
+
+**Ce qu'il ne faut jamais faire, et c'est la seule chose à surveiller :**
+
+> **Personne ne la traduit, personne ne la commente, personne n'a l'air de comprendre.**
+
+Pas de narrateur qui éclaire, pas d'interlocuteur qui hoche la tête, pas de silence appuyé, pas de phrase juste après qui pèse. On entend un jeune arrivant qui s'échauffe et qui s'emmêle ; **on enchaîne.** Un seul personnage qui aurait l'air de saisir, et la réplique cesse d'être une trouvaille pour devenir un aveu.
+
+*Elle ne coûte rien à l'[interdit n° 4](les-interdits.md) : il n'y a ni lieu, ni nom, ni date à vérifier. **Un sentiment ne se confirme ni ne se réfute.** Développement complet en interdit n° 11, section « La contrepartie ».*

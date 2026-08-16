@@ -116,6 +116,30 @@ Quelqu'un de huit ans au jardin a peut-être quarante ans d'expérience derrièr
 
 **Question ouverte, non tranchée.** Est-ce que *garçon*, *fille*, *môme*, *gosse*, *adolescent* tombent aussi ? Ce ne sont ni des mots de parenté ni les deux mots visés, mais ils supposent la même chose : une place dans une vie qui aurait un ordre. La question est posée et reste à l'autrice.
 
+### La contrepartie — le point 1 n'est pas qu'une contrainte, c'est un moyen
+
+*Ajouté le 16 août 2026, après la décision de l'autrice sur la mort d'Eliott. **La règle ne change pas d'un mot** : ce qui change, c'est ce qu'on en attend.*
+
+**Le point 1 a été écrit comme un empêchement.** Il produit pourtant, tel quel et sans qu'on ait rien à ajouter, la ligne la plus forte du livre.
+
+**Le cas.** Devant le jardin, Eliott raconte ce qui lui est arrivé : une marche, l'eau, le courant, et l'homme qui est entré derrière lui. **Il ne dira jamais « papa » ni « père ».** Les mots n'existent pas, il ne les a jamais eus, et il ne peut donc pas même sentir qu'ils lui manquent. Il évoquera un sentiment, avec les moyens du bord :
+
+> ### *« Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui ! »*
+
+**Il a le sentiment, et il n'a pas le mot.** Le reliquat lui rend l'amour entier — pas un souvenir, pas une scène, l'amour lui-même, à la même intensité qu'il avait de l'autre côté. Et le monde où il se réveille ne lui donne **aucun nom pour le poser dessus.** Il tient quelque chose d'énorme dans les mains et il n'y a pas une étagère où le mettre.
+
+**Alors il tâtonne, et en tâtonnant il invente.** Il ne cherche pas un mot perdu : il en fabrique un, en le décrivant. Et ce qu'il fabrique est juste — *il était moi et moi j'étais lui* —, **c'est exactement ainsi qu'on décrirait un père si l'on n'avait jamais eu le concept.** Par l'identité, par la confusion des deux personnes, par cette surenchère d'amour qui ne veut rien dire et qui dit tout. Aucune définition ne ferait mieux, parce qu'aucune définition ne dirait ça.
+
+**Personne autour de lui ne comprend ce qu'il essaie de dire.** On entend un jeune arrivant qui s'emmêle, qui s'échauffe, qui parle d'un inconnu comme s'il parlait de lui-même — une phrase de plus dans un flot de phrases impossibles. **Le lecteur, lui, comprend tout.** Il comprend au premier mot, il fournit le mot manquant tout seul, et il le fournit avec ses propres morts : c'est l'[interdit n° 2](#2-cest-le-lecteur-qui-fournit-notre-monde) qui travaille à plein rendement, sur une seule réplique.
+
+> ### **La règle posée pour la cohérence du monde devient le moteur de l'émotion.**
+
+**Et c'est un renseignement de méthode qui vaut bien au-delà de ce cas.** Une contrainte de langue tenue jusqu'au bout ne se contente pas d'interdire : elle force le personnage à contourner, et le contournement dit davantage que le mot n'aurait dit. **Une phrase directe — *il aimait son père* — serait passée sans laisser de trace.** Ce qui reste au lecteur, c'est un gosse qui essaie de nommer une chose sans nom et qui n'y arrive pas. **On n'obtient ça qu'en s'étant interdit le mot des années plus tôt, et pour de tout autres raisons.**
+
+*Corollaire de travail : chaque fois qu'un interdit de ce fichier semble bloquer une scène, la question n'est pas comment le contourner mais **ce que le contournement va produire.** Le blocage est souvent la scène elle-même.*
+
+**Et c'est le reliquat le plus sûr du livre au regard de l'[interdit n° 4](#4-rationner-les-reliquats).** Il n'y a rien à vérifier : pas un lieu, pas un nom, pas une date, pas un fait. **Un sentiment ne se confirme ni ne se réfute.** Aucun personnage ne peut aller voir si c'est vrai, aucun document ne peut le contredire, et l'hypothèse « il fabule » sort de la scène exactement aussi solide qu'elle y est entrée. **Le livre gagne sa plus grande émotion sans dépenser un gramme de son doute** — c'est le seul endroit du roman où ça se produit.
+
 ### Ce qui vaut pour les trois
 
 **Ces mots existent parfaitement dans les chapitres de la vie d'avant.** Là-bas il y a des familles, des noms de famille, des enfants et des vieillards, et rien n'interdit de les écrire — c'est même ce qui fait le contraste. **La langue change avec le monde**, et le lecteur ne verra probablement jamais le partage : c'est exactement le régime voulu. Conséquences côté dispositif : [`../04-plan/faux-raccords.md`](../04-plan/faux-raccords.md).

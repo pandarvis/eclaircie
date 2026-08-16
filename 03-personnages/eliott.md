@@ -14,7 +14,7 @@
 | **Nom** | Eliott — **nom d'éclaircie qu'il a produit lui-même**, à sa cérémonie. Arrivé à dix ans, il est **au-dessus** du seuil : à huit ans et en dessous, c'est un berceur qu'on appelle et qui nomme. Personne ne l'a nommé |
 | **Prise en charge** | [June](june.md), berceuse — c'est **sa** berceuse. Petits travaux d'ordre public, sans force ni difficulté |
 | **Dans l'intrigue** | il est enlevé. Il sera retrouvé vivant |
-| **Dans la vie d'avant** | **il a été assassiné.** Une capsule pourrie est apparue le jour de son arrivée — celle de son meurtrier. Personne ne l'a remarqué. Voir §9 |
+| **Dans la vie d'avant** | **il s'est noyé.** Un accident bête et méchant : une randonnée, une chute à l'eau, le courant. **Personne n'a commis l'irréparable, et il n'y a pas de capsule pourrie ce jour-là.** Voir §9 |
 | **Âge pendant le livre** | **dix ans du début à la fin.** Le corps du roman ne dure que quelques semaines, peut-être quelques mois |
 | **Décompte** | **six ans de descente** — deux marches, une tous les trois ans —, puis le **plateau** au jardin, **puis la fin jusqu'à zéro. Ni l'un ni l'autre ne sont chiffrés.** Il a **au moins quarante ans de vie** au total |
 | **À l'épilogue** | **huit ans.** Il **entre** au jardin **six ans** après le corps du roman ; Andrew a alors **46 ans**. **C'est une entrée, pas une fin — et c'est une entrée dans le dernier lieu :** il y vivra le plateau, puis la descente, puis le dernier jour, sans en ressortir. Voir §10 |
@@ -65,6 +65,29 @@ C'est la première page du roman, et elle installe en une scène ce que le livre
 
 *Réglage : la terreur ne s'explique pas, ne se commente pas, et ne revient pas comme motif. Elle est là, elle passe.*
 
+### 3 bis. Le bug silencieux — il dévisage l'arrivant de quarante ans
+
+> **Décision de l'autrice, 19 août 2026. C'est le geste le plus important du livre, et personne ne le remarquera.**
+
+**Ils sont deux à sortir ce matin-là, à la même cérémonie : lui, dix ans, et un arrivant de quarante ans.** Ils sont morts du même événement, à quelques minutes d'écart (§9). Rien dans la salle ne le dit, rien dans le registre ne le dira, et aucun personnage du livre ne le saura jamais.
+
+**À un moment, Eliott dévisage l'homme à côté de lui.** Quelque chose se ferme. Deux secondes. **Il enchaîne.**
+
+| | Ce que le lecteur voit |
+|---|---|
+| **Première lecture** | un arrivant de dix ans en fixe un autre, c'est bizarre, on passe |
+| **Seconde lecture** | il dévisage **quelqu'un qui lui fait éprouver une chose qu'il ne sait pas nommer** |
+
+**C'est le corps qui sait, exactement comme la migraine d'Andrew** au poste de police ([`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §5.4) : une pression, un blanc, deux secondes de trop, et on enchaîne. **Le calibrage est le même, mot pour mot, et il n'est jamais commenté.**
+
+> **Les deux porteurs de voiles ont des reliquats de corps, et rien d'autre.** Andrew a la migraine ; Eliott a l'eau et ce regard.
+
+**Puis ils sont affectés ailleurs et ne se revoient jamais.** Par défaut, deux arrivants du même matin partent à deux endroits différents : lui reste sous la surveillance d'un arrivant plus expérimenté, l'autre reprend une vie d'arrivant de quarante ans, et **il n'existe aucun moyen qu'ils se recroisent.** Voir l'[interdit n° 9](../01-dossier/les-interdits.md) — ce monde n'a pas de règle de retrouvailles, il a des occasions, et celle-ci ne se représente pas.
+
+**L'homme de quarante ans n'a ni nom, ni fiche, ni scène, ni réplique.** Il est un corps debout à côté d'un autre, à la première page, et il sort du livre à la fin du chapitre. *Ne jamais lui en donner davantage : tout ce qu'on lui ajouterait ferait de la scène une annonce.*
+
+> **Le livre entier est dans ce plan, et personne dans le livre ne le verra.**
+
 ---
 
 ## 4. Sa vie ordinaire
@@ -83,7 +106,7 @@ Eliott fait de **petits travaux d'ordre public**, sans force ni difficulté, ada
 
 **L'ordre exact, en cinq temps :**
 
-1. **La cérémonie.** Andrew le reçoit, dix ans. L'enfant dit d'emblée des choses inquiétantes, comme empreint d'une terreur qu'on ne comprend pas. On passe outre, la cérémonie se termine.
+1. **La cérémonie.** Andrew le reçoit, dix ans. Il dit d'emblée des choses inquiétantes, comme empreint d'une terreur qu'on ne comprend pas. **Il dévisage deux secondes l'arrivant de quarante ans à côté de lui** (§3 bis). On passe outre, la cérémonie se termine.
 2. **Il est remis à une berceuse**, June. C'est le protocole. Petits travaux d'ordre public, adaptés à un enfant.
 3. **Andrew prend cette arrivée à cœur, malgré lui.** Il est fin observateur ; quelque chose l'accroche et il ne sait pas quoi. **C'est lui, et lui seul, qui décide d'aller le revoir** — deux visites, peut-être. Il a des échanges avec l'enfant, il essaie de le comprendre.
 4. **La troisième fois qu'il y retourne, l'enfant n'est plus là.** June le lui apprend et lui dit qu'elle a prévenu la police.
@@ -190,23 +213,70 @@ La question posée ici était : l'enlèvement et l'entrée au jardin coexistent-
 
 ---
 
-## 9. Il a été assassiné dans la vie d'avant
+## 9. Il s'est noyé — la disparition bête
 
-> **Décision de l'autrice, 15 août 2026.** *« On pourrait aussi réaliser que l'enfant a été assassiné lui aussi dans l'autre monde — on le sait quand, le jour de son arrivée, il y a une capsule pourrie. »*
+> **Version B, validée par l'autrice le 19 août 2026. Elle remplace intégralement la version où il était assassiné.**
+>
+> ⚠️ **Tout ce qui suivait de l'ancienne version est faux et doit être corrigé partout où il traîne** : le meurtre, le meurtrier, la capsule pourrie du jour de son arrivée, la « signature » commune avec Chrissy et Tania, et le motif qu'Andrew aurait appris sur le dossier du garçon. **Rien de tout cela n'a lieu.**
 
-**Le jour de son arrivée, une capsule pourrie est apparue.** Celle de son meurtrier, mort le jour même de son crime. Elle n'a pas éclairci ; quelqu'un l'a raclée un matin, et personne n'a fait le rapprochement — c'était un jour de travail, et Andrew tenait le service.
+### Ce qui s'est passé
 
-**C'est exactement la signature de Chrissy et Tania** : une victime et son assassin qui meurent ensemble, donc deux capsules qui apparaissent ensemble et mûrissent vite, dont une qui ne s'ouvre sur personne.
+**Un accident bête et méchant.** Une randonnée prévue entre un père et son fils. L'enfant tombe à l'eau ; le courant l'emporte. **Le père se jette pour le sauver et se noie à son tour.**
 
-Ce que ça produit, et le détail complet est dans [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §8 :
+Fin de l'histoire. Il n'y a rien d'autre à trouver, personne à qui en vouloir, et aucune enquête possible d'aucun côté.
 
-- **son jour d'arrivée devient le cas témoin du livre**, à la place de la mère et de l'enfant, sortis du casting. Le lecteur y voit une signature de registre pour la première fois, sans qu'on lui explique rien ;
-- il la reverra une seconde fois, sur la ligne d'Andrew, et c'est là qu'elle le foudroie ;
-- et Andrew, qui cherche dans les registres, retrouvera **deux fois le même motif** — une arrivée et une capsule pourrie le même jour. Il apprend à lire sur le dossier du garçon, puis il tombe sur le sien.
+*(Les mots de parenté sont employés ici parce qu'on parle de la vie d'avant, où ils existent — [interdit n° 11](../01-dossier/les-interdits.md). **Ils ne peuvent jamais figurer dans une scène de ce monde-ci**, ni dans la bouche d'Eliott, ni dans celle du narrateur quand il décrit d'ici.)*
 
-**Rien de tout cela n'est su par Eliott.** Il ignore qu'il est mort, il n'a jamais entendu parler d'une vie d'avant, et le mot *capsule pourrie* ne désigne rien pour lui. Il porte sa propre mort sans en avoir la notion — **c'est la terreur de la première page** (§3), et elle continue de ne rien expliquer.
+### Ce qui en découle, et c'est toute la première page
 
-*Réglage : le livre ne relie jamais la terreur et la capsule. Les deux sont dans la même matinée, et c'est tout ce que le texte en dit.*
+**Eliott meurt à dix ans, il arrive à dix ans. Le père meurt vers quarante, il arrive à quarante — le même jour, à la même cérémonie.** Application stricte du barème : l'âge d'arrivée est l'âge de mort ([`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md)).
+
+| | Ce que le registre inscrit ce matin-là |
+|---|---|
+| **Eliott** | une arrivée, dix ans relevés à l'instrument, un nom produit par lui, une travée |
+| **L'arrivant de quarante ans** | une arrivée, quarante ans, un nom produit par lui, une travée voisine |
+| **Une capsule pourrie** | **aucune. Il n'y en a pas.** |
+
+**Personne n'a commis l'irréparable, donc rien ne manque au registre.** Le père n'a rien à réparer et rien à venger : verdict ordinaire, il revient à son âge de mort, et le livre n'en fait rien de plus.
+
+**Il n'intervient pas dans l'histoire.** Ils sont affectés à deux endroits différents, ils ne se revoient jamais, et **il n'a ni nom, ni fiche, ni scène** — voir §3 bis, qui tient toute sa présence dans le livre.
+
+*⚠️ Andrew a vu une scène de bizutage ailleurs, ou un autre jour. **C'est un souvenir de métier ordinaire, sans aucun lien avec Eliott**, et toute version qui la place dans cette matinée est périmée.*
+
+### Pourquoi cette version est la bonne — quatre raisons, et elles tiennent ensemble
+
+**1. Le mot de l'autrice l'exigeait.** Elle a écrit qu'Eliott, devant le jardin, *« expie ce qui le faisait souffrir »* (§10). **On n'expie pas d'avoir été assassiné.** Une victime a subi ; elle n'a rien à expier, et une confession d'assassiné n'est pas un aveu mais une plainte. Ici, il porte une faute qui n'en est pas une : **il est tombé, et quelqu'un est mort en venant le chercher.** C'est la culpabilité du survivant, elle n'a aucun fondement, et **c'est exactement ce qu'on dépose avant d'entrer.** Le mot de l'autrice devient littéral au lieu d'être approximatif.
+
+**2. Ça casse une répétition qui devenait visible.** Trois affaires bâties pareil — les jumelles tuées, Eliott tué, une capsule pourrie à chaque fois — faisaient ressembler le monde à une machine qui apparie les morts, ce que l'[interdit n° 3](../01-dossier/les-interdits.md) refuse. **Désormais il y a un crime dans chaque monde, et rien de plus** : l'affaire des jumelles là-bas, l'enlèvement ici. **La mort d'Eliott n'est ni l'un ni l'autre.** Le point de vigilance de [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §8.3 tombe avec elle.
+
+**3. C'est le §1 du dossier maître, enfin mis en scène.** *La disparition bête* — une extinction sans grandeur, sans coupable, sans personne à qui en vouloir. C'est la genèse du projet, et elle n'avait jamais eu de scène. Elle en a une, et c'est la première.
+
+**4. Ça restitue le cas témoin perdu avec la mère et l'enfant.** Deux arrivants le même jour, un de dix ans et un de quarante : **un seul événement a tué les deux.** Le lecteur apprend *même jour = même mort* sur un cas parfaitement innocent, **à la première page**, sans qu'on lui explique rien. Quand il verra plus tard la ligne des jumelles — même structure, plus une capsule qui n'éclaircit pas —, **il saura lire.** Le cas témoin est devenu la scène d'ouverture du roman, et il ne coûte pas une ligne au casting.
+
+### Ce qui reste vrai et ne bouge pas
+
+**La peur bleue de l'eau, et la colère noire au premier cours de natation.** C'est le **reliquat corporel de sa noyade**, et c'était déjà planté avant la décision ([`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md), l'interrogatoire de June). Il ne s'explique pas, il ne se commente pas, et **personne ne peut l'interpréter** : tout le monde connaît quelqu'un qui a peur de l'eau. C'est un reliquat parfaitement sûr au regard de l'[interdit n° 4](../01-dossier/les-interdits.md).
+
+**Et la terreur de la première page ne change pas de nature.** Il ignore qu'il est mort, il n'a jamais entendu parler d'une vie d'avant, et il porte sa noyade sans en avoir la notion. *Le livre ne relie jamais la terreur à quoi que ce soit. Elle est là, elle passe.*
+
+---
+
+## 9 bis. La protection absolue — Andrew ne fait jamais le lien
+
+**Contrainte ferme, et elle vaut jusqu'à la dernière page.**
+
+À l'épilogue, Andrew entend une histoire d'eau et de courant. **Il ne va pas vérifier qui d'autre est arrivé ce jour-là.** Il n'ouvre pas le registre à cette date, il ne recoupe pas les travées, il ne compte pas les arrivants du matin. **Rien ne l'y pousse et rien ne l'y autorise** : il n'a aucune raison de chercher un second nom, puisque l'idée qu'une mort puisse en emporter deux n'existe dans aucune langue de ce monde.
+
+| Qui sait quoi | |
+|---|---|
+| **Eliott** | rien. Il a un sentiment et pas de mot |
+| **Andrew** | une histoire d'eau, racontée par un arrivant de huit ans qu'on emmène au jardin |
+| **June, Isaac, le service** | rien du tout |
+| **Le lecteur** | **il se souvient de l'homme debout à côté du petit, à la première page** |
+
+> **Personne dans le livre ne le saura jamais. Le lecteur seul referme la boucle, et il la referme tout seul.**
+
+*Ce que ça interdit, et il n'y a aucune souplesse : pas de scène où Andrew retourne au registre pour ce motif, pas de phrase de narrateur qui rapproche les deux arrivées, pas de personnage qui se rappelle une cérémonie à deux. **Le rapprochement n'existe nulle part dans le texte.** C'est le régime de tout le dispositif, poussé à son point le plus strict : la seule chose que cette scène ait à dire est la seule chose que le livre ne dise nulle part.*
 
 ---
 
@@ -216,7 +286,27 @@ Ce que ça produit, et le détail complet est dans [`../04-plan/le-meme-jour.md`
 >
 > *« Pour moi c'est essentiel qu'Eliott témoigne de ce qui lui est arrivé. S'il est arrivé porteur de voiles, c'est bien parce qu'il n'était pas en paix avec lui-même. En se confessant avant son entrée au jardin, il expie ce qui le faisait souffrir et entre dans l'insouciance. On peut supposer, sans en être certain, que les reliquats disparaissent quand on a rejoint le jardin. C'est la dernière grâce. Ça expliquerait qu'il se confesse avant d'y entrer. »*
 
-**Six ans après le corps du roman.** Il a **huit ans**, il va **entrer** au jardin, et **il raconte** — des détails glaçants sur ce qui lui est arrivé de l'autre côté. Un dialogue court, quelques répliques, puis il s'en va.
+**Six ans après le corps du roman.** Il a **huit ans**, il va **entrer** au jardin, et **il raconte** — l'eau, le courant, et quelqu'un qui est venu le chercher et qui n'est pas ressorti. Un dialogue court, quelques répliques, puis il s'en va.
+
+### Ce qu'il dit — mots de l'autrice, à conserver
+
+**Il ne dira jamais le mot *papa* ni le mot *père*.** Ces mots n'existent pas dans ce monde ([interdit n° 11](../01-dossier/les-interdits.md)), et il ne les a jamais entendus : il n'a rien à taire, il n'a rien à contourner, **il n'a simplement pas le mot.** Alors il évoque un sentiment.
+
+> *« Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui ! »*
+
+**Le tout est là : il a le sentiment et il n'a pas le mot.**
+
+Le reliquat lui rend l'amour entier — la chose elle-même, à pleine intensité, telle qu'un enfant de dix ans l'éprouvait. **Et le monde ne lui donne aucun nom pour le poser dessus.** Il n'a ni *père*, ni *fils*, ni *famille*, ni même l'idée qu'un lien de ce genre puisse exister entre deux personnes. Il lui reste une sensation énorme et pas une seule case où la ranger.
+
+**Alors il tâtonne, et il invente.** Il prend ce qu'il a — l'intensité, la réciprocité, la confusion des deux — et il construit avec ça une description approximative. *Il était moi, j'étais lui.* **C'est exactement ainsi qu'on décrirait un père si l'on n'avait jamais eu le concept**, et c'est ce qui rend la réplique bouleversante : elle est juste, elle est fausse de tous les mots, et elle est la seule formulation possible.
+
+**Personne autour de lui ne comprend ce qu'il essaie de dire.** Ils entendent un arrivant de huit ans qui parle d'un sentiment très fort pour quelqu'un dont il ne sait rien dire. Il n'y a rien à en faire, rien à demander, rien à noter. On l'écoute, on ne comprend pas, on l'emmène.
+
+> **C'est le reliquat le plus sûr du livre au regard de l'[interdit n° 4](../01-dossier/les-interdits.md) : il n'y a rien à vérifier.**
+
+**Pas un lieu, pas un nom, pas une date, pas un fait — un sentiment.** Personne ne peut le confirmer, personne ne peut le contredire, et il n'existe aucun document au monde qui puisse le recouper. **L'hypothèse « il fabule » n'est même pas mise à l'épreuve** : elle n'a rien contre quoi buter. Là où le §5 devait ruser pour rendre ses phrases invérifiables, celle-ci l'est par nature.
+
+*Réglage : ne jamais ajouter derrière cette réplique une phrase qui l'explique, ni un personnage qui s'étonne, ni un narrateur qui souligne qu'il manque un mot — ce serait décrire une absence ([interdit n° 5](../01-dossier/les-interdits.md)). Il dit sa phrase, elle tombe dans le silence, on passe.*
 
 ### Un seul moment, en deux gestes
 
@@ -252,7 +342,11 @@ L'effet ne s'en trouve pas affaibli, il se déplace : ce n'est plus la dernière
 
 ### Ce n'est pas une révélation
 
-Tout est déjà révélé au lecteur : il a vu la capsule pourrie à la première page, il a compris la ligne d'Andrew. Rien de ce que dit l'enfant ne lui apprend un fait nouveau. **C'est la fermeture de son arc** — le seul personnage dont on ne savait pas ce qui lui était arrivé le dit lui-même, brièvement, et sort. *Une révélation en épilogue serait une pirouette ; un aveu qui confirme ce qu'on savait déjà est un aveu.*
+Tout est déjà en place chez le lecteur : il a vu deux arrivants à la première page, il a compris la ligne d'Andrew, il sait ce que veut dire *le même jour*. **Il n'apprend aucun fait nouveau — il reçoit la clé du premier chapitre**, et il la reçoit six ans plus tard, de la bouche d'un arrivant de huit ans qui ne sait pas qu'il la donne.
+
+**C'est la fermeture de son arc** — le seul personnage dont on ne savait pas ce qui lui était arrivé le dit lui-même, brièvement, et sort. *Une révélation en épilogue serait une pirouette ; un aveu qui rend lisible une scène lue trois cents pages plus tôt est un aveu.*
+
+*Et c'est le seul endroit du livre où le lecteur en sait davantage qu'à la relecture : **il vient de comprendre qui était l'homme debout à côté du petit**, et il est absolument seul à le savoir (§9 bis).*
 
 ### Le parallèle des deux porteurs de voiles — à ne pas manquer
 
@@ -260,10 +354,12 @@ Tout est déjà révélé au lecteur : il a vu la capsule pourrie à la premièr
 
 | | Ce qu'il porte | Comment il s'en défait | Ce qu'il obtient |
 |---|---|---|---|
-| **Andrew** | un dossier à finir — une faute, un pardon | il désobéit, puis il va s'excuser auprès de deux jeunes filles | **rien.** Elles ne comprennent pas |
-| **Eliott** | une blessure à dire | il raconte, juste avant d'entrer | **rien.** Personne n'a de raison de le croire |
+| **Andrew** | un dossier à finir — **une faute réelle**, un pardon à demander | il désobéit, puis il va s'excuser auprès de deux jeunes filles | **rien.** Elles ne comprennent pas |
+| **Eliott** | **une faute qui n'en est pas une** — il est tombé, et quelqu'un est mort en venant le chercher | il raconte, juste avant d'entrer | **rien.** Personne n'a de raison de le croire |
 
 > **Les deux se libèrent en parlant, et aucun des deux n'obtient de réponse.**
+
+**Et la dissymétrie est le sujet.** L'un a quelque chose à se reprocher et n'obtient pas d'absolution ; l'autre n'a rien à se reprocher et se confesse quand même. **Le système ne fait pas la différence** : il rend le voile à qui n'est pas en paix, et n'a jamais demandé si le poids était mérité. *Rien de tout cela n'est énoncé.*
 
 *Rien de ce parallèle n'est énoncé dans le texte, et les deux scènes ne se citent jamais l'une l'autre — interdit n° 4. Le lecteur seul les met côte à côte. Voir [`andrew.md`](andrew.md).*
 
@@ -271,7 +367,8 @@ Tout est déjà révélé au lecteur : il a vu la capsule pourrie à la premièr
 
 | Interdit | Pourquoi |
 |---|---|
-| **Il n'explique rien du système** | **interdit n° 1.** Il ne sait pas qu'il est mort, il ignore ce qu'est une capsule qui n'éclaircit pas, il n'a aucun mot pour une vie d'avant. Il raconte des faits, pas un monde |
+| **Il n'explique rien du système** | **interdit n° 1.** Il ne sait pas qu'il est mort, il n'a aucun mot pour une vie d'avant, et il ne soupçonne pas que le second noyé soit arrivé ici. Il raconte une eau et un sentiment, pas un monde |
+| **Il ne nomme aucun lien** | **interdit n° 11.** Ni *papa*, ni *père*, ni aucun mot de parenté — **ils n'existent pas dans sa langue**, et il ne les cherche même pas. Il dit un sentiment, faute d'avoir autre chose |
 | **Il ne conclut rien** | pas de morale, pas de bilan, aucun « alors c'est que ». Il raconte, il s'arrête, on l'emmène |
 | **Il ne relie rien à Andrew** | **interdit n° 4.** Les deux fissures ne se recoupent jamais, et c'est ici qu'elles se frôlent le plus. Rien de ce qu'il dit ne valide une lecture d'Andrew ni ne s'emboîte dans un fragment de reliquat |
 | **Il raconte comme un enfant raconte** | des choses concrètes, dans le désordre, sans hiérarchie — une pièce, une odeur, une phrase qu'on lui a dite. C'est ce qui glace, et c'est aussi ce qui protège la scène |
@@ -294,14 +391,20 @@ Tout est déjà révélé au lecteur : il a vu la capsule pourrie à la premièr
 - [x] ~~Est-il l'horloge du livre ?~~ — **caduc, 15 août 2026.** Le corps du roman tient sur quelques semaines : il a dix ans du début à la fin. Le procédé ne sert plus qu'au saut de l'épilogue. §7.
 - [ ] **Combien de visites exactement ?** Deux puis la troisième, dit l'autrice — *« peut-être »*. Le chiffre est à confirmer : il règle la vitesse à laquelle l'insistance d'Andrew devient visible ([`andrew.md`](andrew.md), « Attention à la vitesse »). **Le calendrier court le resserre** : les visites tiennent maintenant sur des jours, pas sur des mois.
 - [ ] **Que dit-il exactement pendant les visites ?** La règle est fixée — banal, local, invérifiable (§5) —, les phrases non.
-- [ ] **Que dit-il exactement à l'épilogue ?** Les contraintes sont fixées (§10), les détails non. Combien de phrases, et jusqu'où elles vont — trois suffisent probablement, et le risque est la surenchère.
+- [x] ~~**Que dit-il exactement à l'épilogue ?**~~ — **la phrase centrale est acquise mot pour mot le 19 août 2026** : *« Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui ! »* §10. *Ce qui l'entoure reste ouvert — voir plus bas.*
 - [ ] **Qui est présent à l'épilogue ?** Andrew seul, ou June aussi, qui est sa berceuse et devrait y être. **Depuis le tabou, sa présence charge la scène au lieu de la diluer** : elle est celle qui sait dans quoi il entre, et qui ne le dit pas.
 - [ ] **June l'accompagne-t-elle au-delà du plateau ?** *La définition du métier n'est plus en cause : le dernier jour est au jardin, et le §10 tient dès qu'on écrit le bon mot (17 août 2026).* Ce qui reste ouvert : **garde-t-elle la même charge jusqu'à zéro**, ou passe-t-elle la main quand il cesse de parler ? Voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md).
 - [ ] **Comment l'épilogue se situe-t-il dans le temps ?** Son corps ne suffit plus à dater le saut — dix ans à huit ans, ça ne se voit presque pas. **Question neuve du 16 août 2026**, et elle appartient au plan. §7.
 - [ ] **Le plateau et la fin d'Eliott : durées et vitesse.** Non fixées. Ce qui est acquis : **au moins quarante ans de vie en tout**, dont six de descente. Le reste appartient à l'autrice, et le dossier ne l'invente pas.
 - [ ] **Combien de temps dure son enlèvement ?** C'est le compteur du livre. Il doit rester dans le délai où l'on espère encore — voir [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md).
-- [ ] **La rime des trois affaires est-elle soulignée ?** Eliott, la paire, Andrew : trois fois une arrivée et une capsule pourrie le même jour. Une rime voulue est une force, mais trois occurrences risquent de faire paraître le système mécanique. **Non tranché** — voir [`../04-plan/le-meme-jour.md`](../04-plan/le-meme-jour.md) §8.3.
+- [x] ~~**La rime des trois affaires est-elle soulignée ?**~~ — **sans objet depuis le 19 août 2026.** Il n'y a plus trois affaires : Eliott n'a pas été assassiné, il n'y a pas de capsule pourrie le jour de son arrivée, et **il reste un crime dans chaque monde.** §9.
+- [x] ~~**A-t-il été assassiné dans la vie d'avant ?**~~ — **non, tranché le 19 août 2026.** Une noyade, un accident, aucun coupable. §9.
+- [ ] **Combien de répliques à l'épilogue, et lesquelles autour de la phrase de l'autrice ?** La réplique du sentiment est acquise mot pour mot ; ce qui l'entoure ne l'est pas. **Le risque est la surenchère : elle se suffit probablement, avec une ou deux phrases d'eau devant.** §10.
+- [ ] **Andrew réagit-il visiblement à la phrase du sentiment ?** Il ne comprend rien et ne doit rien comprendre (§9 bis) — mais un homme qui a demandé pardon à deux jeunes filles pourrait reconnaître la forme d'un amour sans objet. **À doser au plus bas, ou à supprimer.**
+- [ ] **Le dévisagement de la première page : combien de lignes ?** Trop peu ne s'imprime pas et le lecteur ne s'en souviendra pas à l'épilogue ; trop long l'annonce. §3 bis.
 
 ---
 
-*Vocabulaire : le palier s'appelle **le jardin**. **Aucun mot de parenté n'existe dans ce monde** — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md). Vérifié : cette fiche n'en contient aucun, et ce qu'Eliott dit ne doit jamais en contenir non plus, pas même dans une fabulation.*
+*Vocabulaire : le palier s'appelle **le jardin**, la phase s'appelle **le plateau**, et deux arrivants identiques forment **une paire**. **Aucun mot de parenté n'existe dans ce monde** — voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).*
+
+*⚠️ **Précision depuis le 19 août 2026 : cette fiche en contient désormais, et c'est volontaire.** Le §9 raconte la vie d'avant, où *père* et *fils* existent et se disent ([interdit n° 11](../01-dossier/les-interdits.md), « ce qui vaut pour les trois »). **Aucun de ces mots ne peut sortir dans une scène de ce monde-ci** — ni dans la bouche d'Eliott, pas même en fabulation, ni dans celle du narrateur quand il décrit d'ici. C'est précisément la contrainte qui produit la réplique du §10 : il a le sentiment, il n'a pas le mot.*
