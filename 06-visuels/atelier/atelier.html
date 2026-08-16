@@ -1410,27 +1410,37 @@ const SCENES = [
 /* ---------- L'ENLISEMENT ---------- */
 {
   id: `s14a`, no: `Scène 14 · a`, col: 17, row: `andrew`, acte: `L'enlisement`,
-  titre: `La seconde piste — on lui refuse le dossier`,
-  statut: `acquis`,
-  resume: `Andrew retourne au registre et tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date. Il est arrivé, c'est certain, la ligne est là et elle est parfaite ; ensuite les traces s'arrêtent. Ça ressemble exactement à ce qu'il cherche : quelqu'un qui s'en prend aux jeunes arrivants, et un précédent.`,
-  produit: `Andrew apprend qu'il existe une partie de ce monde qu'un veilleur n'a pas le droit de voir — et il l'apprend avec le lecteur, ce qui n'arrive nulle part ailleurs dans le livre.`,
-  clef: `Le registre ne s'est pas trompé. Il n'a simplement jamais eu à savoir : il ne note que les arrivées, et ce qui vient après est ailleurs, dans des dossiers ordinaires — incomplets, dispersés, tenus par des gens. Les dossiers du jardin, eux, sont sous secret médical.`,
-  monde: `Le second registre, celui du suivi. Le secret médical du jardin. Le fait qu'un veilleur ne soit pas au-dessus de tout.`,
+  face: `g-piste`,
+  titre: `Deux portes fermées`,
+  statut: `acquis`, pivot: true,
+  resume: `Andrew retourne au registre et **tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date.** La ligne est là, parfaite ; ensuite, les traces s'arrêtent. Il va demander la suite — **et on la lui refuse deux fois.**`,
+  produit: `Andrew apprend qu'il existe une partie de ce monde qu'un veilleur n'a pas le droit de voir — et il l'apprend **avec le lecteur**, ce qui n'arrive nulle part ailleurs dans le livre.`,
+  clef: `**Le registre ne s'est pas trompé : il n'a jamais eu à savoir.** Il ne note que les arrivées ; ce qui vient après est ailleurs, dans les dossiers du suivi. Et ceux du jardin sont sous secret médical.`,
+  monde: `Le second registre, celui du suivi. Le secret médical du jardin. Et le fait qu'un veilleur ne soit pas au-dessus de tout.`,
   qui: [`andrew`,`isaac`],
+  garde_forme: `🔴 **Trois marches, décidées par l'autrice le 16 août 2026 — et aucune n'est une explication.**
+**1. Le secrétariat.** Il demande le dossier de suivi. *Non.* Mais l'administratif lâche deux miettes en s'en débarrassant, parce que ce sont des miettes : **par qui l'arrivant a été suivi**, et **ce que cette pédiatre fait maintenant** — elle exerce au jardin. *Personne n'a rien décidé : on l'a renvoyé ailleurs, et le renvoi est l'information.*
+**2. La pédiatre, seul.** Il y va de lui-même. **Refus catégorique.** Il n'obtient rien du tout — *et c'est le fond de la scène : l'homme du registre, devant quelqu'un qui ne lui doit rien.*
+**3. La pédiatre, avec Isaac.** La présence d'un policier sur une disparition la contraint. **Elle parle : le dossier, et l'erreur administrative.**`,
+  garde_bis: `**Ce que ça dit d'eux deux, et personne ne le formulera.** Isaac suivait Andrew parce qu'il est l'homme du registre ; ici, c'est Andrew qui ne peut rien sans Isaac. *Une porte s'ouvre parce qu'il y a un policier dans le couloir, pas parce qu'il y a un veilleur.* **Et ça rend la scène 16 concrète : quand Isaac s'en va, les portes se referment pour de bon.**`,
   gardes: [
-    `Le registre ne peut pas être faux. La fausse piste ne vient donc pas d'une erreur d'archive — elle vient du fait qu'il ne note qu'une chose.`,
-    `Ce doit être un refus reçu au comptoir, jamais une explication. Quelqu'un répond à une question qu'on lui a posée, et la réponse est non.`,
-    `Il y va parce que c'est son terrain, et Isaac le suit parce qu'Andrew est l'homme du registre. Ce n'est pas une intuition qu'Isaac suit, c'est une compétence.`
+    `🔴 **Le registre ne peut pas être faux, et il ne l'est pas.** L'erreur est dans les dossiers d'après — le suivi, les affectations, tenus par des gens. *Si le registre devient discutable, le mouvement où Andrew lit sa propre ligne s'effondre.*`,
+    `**La loi du monde ne s'énonce jamais, elle se heurte.** Quelqu'un répond non à une question qu'on lui a posée, et c'est tout. Pas un paragraphe sur le secret médical, pas un personnage qui expose le fonctionnement du jardin.`,
+    `**Test à appliquer :** si l'on peut retirer la question sans perdre l'information, la scène est une description déguisée et elle est à réécrire.`,
+    `La pédiatre ne s'excuse pas et ne se justifie pas. Elle applique une règle, puis elle en applique une autre quand la première ne tient plus.`,
+    `Il y va parce que c'est son terrain, et Isaac le suit parce qu'Andrew est l'homme du registre. **Ce n'est pas une intuition qu'Isaac suit, c'est une compétence.**`
   ],
-  src: `04-plan/le-parcours-de-l-enquete.md §4 ter.1, §4 ter.2`
+  ouvert: [`⚠️ **Quelle est l'erreur administrative, exactement.** *Un transfert non consigné, une fiche jamais rouverte, un service qui a changé de nom : il faut que ce soit assez banal pour qu'on n'en veuille à personne, et assez net pour avoir coûté deux semaines.*`,
+           `Combien de temps sépare la marche 2 de la marche 3. *Si Andrew revient le lendemain avec Isaac, l'humiliation est fraîche ; s'il attend, elle a eu le temps de le travailler.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §4 ter.1, §4 ter.2 — décision du 16 août 2026`
 },
 {
   id: `s14b`, no: `Scène 14 · b`, col: 19, row: `andrew`, acte: `L'enlisement`,
   titre: `La traversée du jardin`,
   statut: `provisoire`,
-  resume: `Deux semaines de silence administratif — et au bout, il y a quelqu'un, par terre, qui va très bien. L'autre arrivant n'est ni mort ni disparu : il a trois ans, et il écoule ses dernières années au jardin.`,
+  resume: `**La pédiatre a parlé, alors ils y vont.** Ils entrent au jardin, ils le traversent, ils repartent. Au bout des deux semaines, il y a quelqu'un, par terre, qui va très bien : l'autre arrivant n'est ni mort ni disparu — **il a trois ans, et il écoule ses dernières années là.**`,
   produit: `L'anticlimax est total, et il est humain : personne n'a rien fait de mal. Ni victime, ni négligence, ni faute administrative. Une administration qui protège quelqu'un, et quelqu'un qui n'avait aucun besoin d'être cherché. Deux semaines d'enquête tombent sur la seule chose qu'une enquête ne sait pas traiter : rien à faire, personne à mettre en cause, tout va bien.`,
-  clef: `Le mur est un dossier, jamais une porte. Ils entrent, ils traversent, ils repartent — et elle y était. « C'était là sous nos yeux » devient littéral une seconde fois, et bien plus tôt dans le livre.`,
+  clef: `Le mur est un dossier, jamais une porte. **Ils y entrent d'ailleurs pour voir quelqu'un** — la pédiatre — et c'est comme ça qu'ils traversent. *Et elle y était.* « C'était là sous nos yeux » devient littéral une seconde fois, et bien plus tôt dans le livre.`,
   monde: `Le bas de la courbe, vu une fois, en entier. À trois ans la parole est partie depuis longtemps : ils ont cherché deux semaines quelqu'un qui n'avait jamais disparu, et qui n'aurait pas pu répondre même s'il l'avait été. Et Andrew voit, sans le formuler, ce qu'Eliott va devenir.`,
   qui: [`andrew`,`isaac`,`berceuse`],
   gardes: [
@@ -2450,6 +2460,18 @@ const NOTES = [
   v:`—`,
   q:`Conséquence à trancher : une vie compte **au moins deux adieux** — celui de huit ans, quand on quitte le dehors pour le jardin, et celui de zéro. *June dit le premier à Eliott à la dernière page.* **Est-ce la même personne qui les dit tous les deux ?** La question du métier traînait depuis des jours ; elle a maintenant un enjeu.` },
 
+{ d:`16 août`, s:`Comment on lui refuse le dossier`, e:`acquis`, t:[`enquête`,`écriture`],
+  v:`Il a un dossier de l'arrivant et il pourrait savoir quel service médical l'a pris en charge. Peut-être que le côté très secrétariat lui dirait alors non, et qu'il déciderait lui-même d'aller voir la pédiatre en charge de cet arrivant, qui exerce au jardin. Il aurait alors pu soutirer que 2 infos : par qui l'arrivant a été suivi, et ce qu'elle fait maintenant — mais avec un refus catégorique sur la demande du dossier. C'est alors avec la présence d'Isaac que la pédiatre pourrait parler du dossier, de l'erreur administrative, contrainte d'en parler face à la présence d'un policier.`,
+  q:`**Trois marches au lieu d'un mur, et aucune n'est une explication.** Le secrétariat refuse mais lâche deux miettes en s'en débarrassant — *le renvoi est l'information.* La pédiatre refuse catégoriquement à Andrew seul. Puis elle parle devant un policier, contrainte. **Et ça donne enfin une raison d'entrer au jardin : ils y vont pour la voir, et c'est comme ça qu'ils le traversent.**` },
+
+{ d:`16 août`, s:`Ce que la scène dit d'eux deux`, e:`acquis`, t:[`personnages`],
+  v:`—`,
+  q:`Conséquence non cherchée, et elle est bonne. **Isaac suivait Andrew parce qu'il est l'homme du registre ; ici, Andrew ne peut rien sans Isaac.** *Une porte s'ouvre parce qu'il y a un policier dans le couloir, pas parce qu'il y a un veilleur.* **Et ça rend la scène 16 concrète : quand Isaac s'en va, les portes se referment pour de bon.**` },
+
+{ d:`16 août`, s:`L'erreur ne touche jamais le registre`, e:`acquis`, t:[`enquête`,`monde`],
+  v:`—`,
+  q:`**Contrainte absolue à tenir en écrivant l'erreur administrative :** elle est dans les dossiers d'après — le suivi, les affectations, tenus par des gens — **jamais dans le registre.** *S'il devient discutable, le mouvement où Andrew lit sa propre ligne s'effondre, et avec lui la fin du livre.*` },
+
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
   q:`**Règle permanente.** À chaque décision : on corrige la fiche concernée, on répercute ici, on reconstruit, on vérifie, on commite. *Un atelier qui retarde d'une séance ne sert plus à rien.* Et les étapes se marquent par des tags git — `+"`"+`v1`+"`"+` à `+"`"+`v4`+"`"+` pour la mise en place du monde, `+"`"+`v5`+"`"+` pour l'atelier — ce qui permet de retrouver n'importe quelle version d'un document et de comparer deux états.` },
@@ -2878,6 +2900,21 @@ const GENS = [
   phrases:[`Joël, non, attends !`],
   ouvert:[],
   src:`03-personnages/andrew.md` },
+
+{ id:`pediatre`, nom:`La pédiatre du jardin`, voie:`andrew`, role:`Celle qui a suivi l'autre arrivant. Le mur de la seconde piste.`,
+  age:`Non fixé. Elle exerce au jardin, donc elle est au-dessus de huit ans et sans doute loin encore.`,
+  resume:`Elle a suivi l'arrivant dont les traces s'arrêtent, et elle est tenue au secret médical. **Elle refuse catégoriquement à Andrew seul.** Puis, la présence d'un policier sur une disparition la contraignant, elle parle : le dossier, et l'erreur administrative qui a fait disparaître quelqu'un qui n'a jamais disparu.`,
+  traits:[`Elle applique une règle, puis elle en applique une autre quand la première ne tient plus.`,
+    `Elle ne s'excuse pas et ne se justifie pas.`,
+    `Elle connaît la date de chaque enfant dont elle a la charge, et c'est tout ce qu'elle ne dira jamais.`],
+  faille:`—`,
+  arc:`Elle apparaît deux fois : un refus, puis une réponse. Elle ne revient pas.`,
+  gardes:[`**Elle n'explique jamais le fonctionnement du jardin.** Elle répond à des questions qu'on lui pose, et elle s'arrête là.`,
+    `Ce qu'elle finit par lâcher ne touche jamais le registre : l'erreur est dans les dossiers d'après.`,
+    `Elle ne parle jamais de l'âge d'un enfant du jardin, ni du jour où sa descente a commencé.`],
+  phrases:[],
+  ouvert:[`Son nom, si elle en a un dans le texte.`,`Est-ce elle qu'on retrouve dans la scène de la mort d'un zéro, ou une autre ?`],
+  src:`décision du 16 août 2026` },
 
 { id:`la-mere`, nom:`Leur mère`, voie:`joel`, role:`Le pendant de June. La vie d'avant.`,
   age:`—`,
