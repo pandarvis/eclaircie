@@ -128,13 +128,13 @@ sort qui, une minute plus tard, transforme l'écharde en question.**
 
 ### La suite
 
-4. Il retourne au jardin demander à voir la berceuse de l'autre jour. **On lui donne un
+5. Il retourne au jardin demander à voir la berceuse de l'autre jour. **On lui donne un
    nom, et on refuse l'adresse** — rien d'hostile, la même administration qui protège
    des gens et qui le fait bien.
-5. **Le lendemain, il la prend en filature.**
-6. Ne sachant pas qu'elle est suivie, **elle le mène droit à Eliott.** Le lieu n'est pas
+6. **Le lendemain, il la prend en filature.**
+7. Ne sachant pas qu'elle est suivie, **elle le mène droit à Eliott.** Le lieu n'est pas
    forcément sa maison.
-7. Il attend qu'elle s'en éloigne et appelle Isaac : il pense avoir trouvé quelque chose.
+8. Il attend qu'elle s'en éloigne et appelle Isaac : il pense avoir trouvé quelque chose.
 
 ### Ce que ça produit
 
