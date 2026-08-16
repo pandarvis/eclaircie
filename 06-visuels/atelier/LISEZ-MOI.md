@@ -32,6 +32,22 @@ et de la transcription intégrale des séances. Chaque scène porte sa source en
 **Ce document est un miroir, pas une source.** Quand une décision change, elle se corrige dans les fichiers,
 puis on la répercute ici.
 
+---
+
+## Comment il se maintient
+
+**Il se met à jour à chaque décision.** Une validation, une correction, une idée retenue : on corrige d'abord la fiche Markdown concernée, puis on répercute ici, on reconstruit, on vérifie dans le navigateur, on commite. *Un atelier qui retarde d'une séance ne sert plus à rien.*
+
+**Les étapes sont marquées par des tags git.** `git tag -l -n1` les liste ; chaque tag porte l'état du récit à sa date.
+
+| | |
+|---|---|
+| `v1` – `v4` | la mise en place du monde, du casting et du système |
+| `v5` | l'atelier — le dossier devient un outil d'écriture |
+
+Pour retrouver une version : `git show v4:04-plan/le-parcours-de-l-enquete.md`
+Pour comparer : `git diff v4 v5 -- 02-univers/`
+
 ## Ce qu'il ne fait pas
 
 Il ne remplace pas la bible : il la rend consultable pendant qu'on écrit.
