@@ -1005,6 +1005,19 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
+  id: `g-coldcase`, no: `Repère`, col: 17, row: `joel`, acte: `L'enlisement`, gris: true,
+  face: `s14a`,
+  titre: `Un cold case qui n'en est pas un`,
+  statut: `ouvert`,
+  resume: `**Le pendant du départ de la seconde enquête.** Deux jeunes filles du même âge, disparues quelques années plus tôt, dans la même région. Un dossier ancien qui ressemble exactement à ce qu'il cherche : un précédent.`,
+  produit: `**Et ça ne mène nulle part, pour la même raison qu'en face.** Les deux sont vivantes. *Le dossier n'a simplement jamais été classé correctement — une défaillance administrative, et rien d'autre.*`,
+  clef: `🔴 **Ce que la symétrie produit, et personne ne l'écrira jamais.** Il court après deux filles qui vont très bien — *pendant que les deux qu'il cherche vraiment sont en train de mourir.* **Le lecteur ne peut pas le savoir ; l'autrice, si.**`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Repère d'écriture. La scène ne s'écrira pas — c'est le chapitre du creux, juste après, qui portera ce qu'il faut en garder.`,
+           `**Ce qui en passe dans le texte ne compte jamais les disparues, ne les sexue pas et ne leur donne pas d'âge.** *Une vieille affaire mal classée : c'est tout ce que le lecteur doit pouvoir lire, et c'est ce qu'il rapportera au dossier de l'arrivant.*`],
+  src: `décision du 16 août 2026`
+},
+{
   id: `g-piste`, no: `Non écrite`, col: 27, row: `joel`, acte: `La remontée`, gris: true,
   face: `s17c`,
   titre: `Il a trouvé une piste seul`,
@@ -1337,13 +1350,15 @@ const SCENES = [
   id: `j2`, no: `Entre 14a et 14b`, col: 18, row: `joel`, acte: `L'enlisement`,
   titre: `Il n'a plus rien`,
   statut: `trou`,
-  resume: `Décision de l'autrice, 16 août 2026 : **une scène de Joël s'intercale dans la seconde fausse piste.** Son enquête à lui s'épuise en même temps — il reprend ce qu'il a, il n'y a rien de neuf, il demande quelque chose et on le lui refuse. **Le contenu exact reste à trouver.**`,
+  resume: `**Une scène de Joël s'intercale dans la seconde fausse piste.** Son enquête à lui s'épuise en même temps : *il est parti sur un dossier ancien qui ressemblait à un précédent, et il n'en reste rien.* Il reprend ce qu'il a, il demande quelque chose, on le lui refuse. **Le contenu exact reste à trouver.**`,
   produit: `**C'est le creux, et c'est le meilleur endroit du dispositif.** Les deux semaines perdues d'Andrew et les semaines perdues de Joël sont les mêmes semaines. Les deux voies s'enlisent en parallèle, et elles ne se ressemblent pas par un effet d'écriture : *une enquête qui piétine se ressemble partout.*`,
   clef: `Et elle prépare la suivante. Une enquête qui n'a plus rien est une enquête qu'on peut demander d'arrêter — **le « lâche l'affaire » de la scène 15 devient une conséquence au lieu d'une intervention.**`,
+  garde_bis: `**Ce qu'il vient de perdre, et que le texte ne dira pas :** il a couru après une vieille affaire mal classée, et tout le monde y va bien. *Exactement comme en face.* **Et pendant ces semaines-là, les deux qu'il cherche vraiment sont en train de mourir.**`,
   monde: `Rien, et surtout rien. C'est la seule portion du livre où il n'y a aucun monde à expliquer : des portes, des refus, des jours qui tombent, et un homme qui rentre le soir sans rien. **C'est ce qui la rend indépartageable.**`,
   qui: [`joel`],
   gardes: [
     `Aucun marqueur de monde, aucun nom, aucun âge, et les victimes jamais évoquées.`,
+    `🔴 **On ne compte jamais.** Ni les disparues de l'affaire, ni celles du vieux dossier. *Le lecteur doit pouvoir lire « une vieille affaire mal classée » et la rapporter au dossier de l'arrivant dont les traces s'arrêtent.*`,
     `**Ne pas égayer le creux.** Pas de rebondissement, pas de demi-indice, pas de scène de monde pour tenir le lecteur.`,
     `Le refus n'est pas hostile : c'est de l'arithmétique. Personne n'a tort.`
   ],
@@ -1410,8 +1425,8 @@ const SCENES = [
 /* ---------- L'ENLISEMENT ---------- */
 {
   id: `s14a`, no: `Scène 14 · a`, col: 17, row: `andrew`,
-  face: `g-piste`, acte: `L'enlisement`,
-  titre: `Le secrétariat refuse`,
+  face: `g-coldcase`, acte: `L'enlisement`,
+  titre: `Le départ de la seconde enquête`,
   statut: `acquis`, pivot: true,
   resume: `Andrew retourne au registre et **tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date.** La ligne est là, parfaite ; ensuite, les traces s'arrêtent. Il va demander la suite à l'administratif — **et on la lui refuse.**`,
   produit: `Andrew apprend qu'il existe une partie de ce monde qu'un veilleur n'a pas le droit de voir — et il l'apprend **avec le lecteur**, ce qui n'arrive nulle part ailleurs dans le livre.`,
@@ -1442,7 +1457,8 @@ const SCENES = [
     `**Il ne s'excuse pas et ne se justifie pas.** Il applique une règle, puis il en applique une autre quand un policier est là.`,
     `Aucun personnage ne formule l'ironie de la piste morte. Elle est dans le fait, pas dans une réplique.`,
     `Il ne parle jamais de l'âge d'un enfant du jardin ni du jour où sa descente a commencé. **C'est la seule chose qu'il ne dira pas, même à un policier.**`,
-    `Le lecteur, lui, a la fiche complète d'Eliott en tête. **C'est le seul endroit du livre où l'épilogue est visible en avance, et il l'est par accident.**`
+    `Le lecteur, lui, a la fiche complète d'Eliott en tête. **C'est le seul endroit du livre où l'épilogue est visible en avance, et il l'est par accident.**`,
+    `✅ **Un berceur, un homme, croisé en passant.** *Décision de l'autrice, 16 août 2026.* Le métier est mixte — le lexique dit « le berceur, la berceuse » — et le livre ne le montrait nulle part. **Il ne fait rien de particulier et personne ne le remarque :** il traverse, il porte quelque chose, il dit bonjour. *S'il devient un personnage, la correction se voit ; s'il n'est qu'un passant, elle s'installe.*`
   ],
   ouvert: [`Validée provisoirement le 16 août 2026 — l'autrice veut y revenir.`],
   src: `04-plan/le-parcours-de-l-enquete.md §4 ter.2 bis — décision du 16 août 2026`
@@ -2496,6 +2512,18 @@ const NOTES = [
   v:`C'est en passant de manière impromptue devant une salle avec un tout petit sur le point de disparaître qu'Andrew peut s'arrêter pour observer. La pédiatre sait que c'est rare de voir ce genre de scène quand on est extérieur au jardin, elle laisse passer. On a le temps de décrire, les gestes, les émotions, comme si tout le monde se concentrait sur ce qu'on voyait alors qu'on décrit une scène hors du temps. La berceuse, en tête à tête avec le tout petit. Une scène presque mère-enfant, dans une grâce et un amour profond.`,
   q:`**Trois personnes debout s'arrêtent et regardent, et la narration se dilate.** *C'est ce qui autorise enfin la description longue, sans que le livre ait l'air de s'attarder : ce sont les personnages qui s'attardent.* **Et le mot « mère » est impossible à écrire**, ce qui oblige à faire tenir la chose entière dans les gestes — c'est le régime du livre à son maximum de rendement.` },
 
+{ d:`16 août`, s:`Le cold case qui n'en est pas un`, e:`acquis`, t:[`enquête`,`dispositif`],
+  v:`« Le secrétariat refuse » : je nommerais plutôt cette partie « départ de la seconde enquête ». Elle équivaudrait pour Joël à une seconde affaire de disparitions, deux jeunes filles du même âge disparues quelques années auparavant dans la même région, un cold case qui en fait n'en était pas un — les deux jeunes filles sont bien vivantes, mais les dossiers n'ont jamais été correctement classifiés côté administratif.`,
+  q:`**La symétrie est exacte des deux côtés : une trace qui s'arrête pour une raison administrative, et au bout, des gens qui vont très bien.** *Andrew trouve un arrivant de trois ans au jardin ; Joël trouve deux filles vivantes et un dossier mal classé.* **Et ça produit quelque chose que personne n'écrira jamais : il court après deux filles qui vont bien pendant que les deux qu'il cherche vraiment sont en train de mourir.** *Le lecteur ne peut pas le savoir. L'autrice, si.*` },
+
+{ d:`16 août`, s:`Ce que ça interdit au chapitre du creux`, e:`acquis`, t:[`écriture`],
+  v:`—`,
+  q:`Le repère peut dire « deux jeunes filles » — **il ne s'écrira pas.** Mais le chapitre du creux, lui, s'écrit, et il tombe sous la règle absolue : *on ne compte jamais, on ne sexue jamais, on ne donne aucun âge.* **Le lecteur doit pouvoir lire « une vieille affaire mal classée » et la rapporter tout seul au dossier de l'arrivant dont les traces s'arrêtent.**` },
+
+{ d:`16 août`, s:`Un berceur, croisé en passant`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`« Un berceur croisé en passant au jardin suffirait, si tu veux le corriger. » Validé.`,
+  q:`**Il ne fait rien de particulier et personne ne le remarque** : il traverse, il porte quelque chose, il dit bonjour. *S'il devient un personnage, la correction se voit ; s'il n'est qu'un passant, elle s'installe.* **C'est le même principe que partout ailleurs dans ce livre : ce qui est montré sans être souligné est ce qui est cru.**` },
+
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
   q:`**Règle permanente.** À chaque décision : on corrige la fiche concernée, on répercute ici, on reconstruit, on vérifie, on commite. *Un atelier qui retarde d'une séance ne sert plus à rien.* Et les étapes se marquent par des tags git — `+"`"+`v1`+"`"+` à `+"`"+`v4`+"`"+` pour la mise en place du monde, `+"`"+`v5`+"`"+` pour l'atelier — ce qui permet de retrouver n'importe quelle version d'un document et de comparer deux états.` },
@@ -2524,6 +2552,7 @@ const LEXIQUE = [
 ["Le registre","Archive de la ruche, tenue par les veilleurs. On y note pour chaque capsule la travée, la date d'apparition, l'avancée de l'éclaircie, la date d'ouverture, l'âge relevé, le nom d'éclaircie et le numéro. Consultable par métier, sans autorisation : un document ennuyeux que personne ne lit.","02-univers/la-ruche.md","Il est infaillible, et il le reste. C'est la condition du temps 5."],
 ["L'instrument","Outil de mesure de l'âge dont se sert le veilleur. Il ne prédit rien, ne lit rien de la capsule : il donne un nombre sur un corps déjà sorti. Et il ne dit pas de quel côté du plateau on se trouve.","02-univers/la-ruche.md","À quoi il ressemble, quel geste il demande, combien de temps il prend — jamais décrit en détail."],
 ["Le veilleur","Homme de métier de la ruche. Il surveille la maturation, relève l'éclaircie, tient le registre, nettoie ce qui n'a pas éclairci, mesure l'âge, demande son nom à l'arrivant et l'inscrit.","02-univers/la-ruche.md","Ce que le livre montre du métier ordinaire."],
+["Le métier est mixte","**Berceurs et berceuses, et le livre doit le montrer au moins une fois** — un homme croisé en passant au jardin, qui ne fait rien de particulier. *Sans ça, tous les personnages de la petite enfance du roman sont des femmes, et le monde reproduit sans le vouloir le codage du nôtre.*","décision du 16 août 2026",""],
 ["Le berceur, la berceuse","Métier de l'accompagnement. Nomme les arrivants de huit ans et en dessous, accompagne jusqu'au dernier jour, et fait partie du seul cercle mis dans la confidence des pédiatres du jardin. **C'est un métier payé, et c'est aussi de la tendresse et de l'amour** — l'équivalent d'une assistante maternelle. Exerce jusqu'à douze ans, puis tâches simples, puis entre au jardin à huit.","02-univers/la-ruche.md","Est-ce le même berceur du haut en bas de la descente, ou change-t-on de personne quand l'enfant cesse de parler ? *La question a désormais un enjeu : c'est celle de savoir combien d'adieux compte une vie.*"],
 ["Le tuteur","Métier de l'apprentissage. Instruit ceux qui auront à s'en servir : se tenir, se laver, cuisiner, travailler, comprendre une rue, une monnaie, un métier. Le tuteur instruit ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage.","02-univers/la-ruche.md","Qui prend en charge un arrivant qui va grandir ? Le partage n'avait pas prévu quelqu'un qui monte."],
 ["Le formateur","Celui qui enseigne à l'école obligatoire, quel que soit l'âge d'arrivée. Les formateurs sont toujours plus jeunes que leurs apprenants. Les premières leçons ne portent jamais sur le cœur du métier mais sur ce qu'il suppose : le couteau coupe, le feu brûle.","02-univers/le-corps-des-arrivants.md",""],
