@@ -1162,7 +1162,7 @@ const SCENES = [
   titre: `Deuxième visite`,
   statut: `acquis`, pivot: true,
   resume: `Eliott est retrouvé à bouder dans un coin. La raison est nette et elle est le cœur de la scène : personne ne le croit, et ça le blesse énormément. Grosse discussion, puis ils sortent faire un tour — c'est dehors, en marchant, que le garçon dit ce qu'il dit.`,
-  produit: `C'est la scène la plus chargée d'avant la disparition : elle blesse le garçon, elle installe le mot « porteur de voiles » sans l'expliquer, et elle contient probablement l'indice qui relancera tout à la scène 17.`,
+  produit: `C'est la scène la plus chargée d'avant la disparition : **elle blesse le garçon** et elle installe le mot « porteur de voiles » sans l'expliquer. *Elle ne porte plus d'indice — décision du 16 août 2026 : la scène 17 c n'en a plus besoin.*`,
   clef: `June, dépassée, évoque une suspicion de voile sans oser la formuler. C'est tabou, et en plus il est jeune. Ce cas de figure, elle ne l'a jamais eu personnellement.`,
   monde: `C'est par elle que le lecteur apprend ce qu'est un porteur de voiles, sans qu'aucun narrateur ne l'explique. Elle en parle comme d'une chose gênante, à moitié crue, qu'on ne dit pas.`,
   qui: [`andrew`,`eliott`,`june`],
@@ -1170,19 +1170,14 @@ const SCENES = [
     `La suspicion doit rester une phrase qui s'arrête, jamais une hypothèse. June n'est pas un relais d'information : elle bute sur un mot et passe à autre chose.`,
     `Personne ne la confirme. Une gêne n'est pas une fissure — c'est ce qui la rend compatible avec l'interdit n° 4.`,
     `Elle n'est jamais reprise, pas même quand le garçon disparaît.`,
-    `Si l'indice du déclencheur tombe ici, il doit être dans la même phrase qu'un détail impossible. La vérité doit être indiscernable du délire parce qu'elle est dans la même phrase.`,
-    `⚠️ **La promenade est la clé de voûte de la scène 17 c, et c'est ici qu'elle se fabrique.** *Décision de l'autrice, 16 août 2026 : Andrew la refera seul, comme un homme qui suit un fantôme, et les mots lui reviendront là où ils ont été dits.* **Donc les endroits qu'ils traversent doivent être nommés, banalement, comme du décor** — et chaque phrase du garçon doit être dite devant quelque chose. *« Il y avait un boulanger ici » n'a de sens que debout devant.*`,
-    `⛔ **Aucune insistance sur l'itinéraire.** Pas de description de trajet, pas de rue nommée deux fois, rien qui ait l'air d'être posé pour servir. *Le lecteur doit pouvoir y revenir, jamais le sentir venir.*`
+    `**Ce que dit le garçon ne mène nulle part, et c'est maintenant la règle.** *Rien de ce qui sort de sa bouche ne se vérifiera jamais* — ni ici, ni plus tard, ni à la relecture. **L'hypothèse « il fabulait » doit rester debout jusqu'à la dernière page.**`,
+    `⚠️ **La promenade se fabrique ici, et elle sert encore — autrement.** *Andrew la refera seul à la scène 17 c, comme un homme qui suit un fantôme.* **Elle n'a plus à porter de phrase à retrouver : elle amène ses pieds dans ce quartier-là, et c'est tout ce qu'on lui demande.** *Un chemin de deuil qui passe par hasard là où il fallait passer.*`,
+    `⛔ **Aucune insistance sur l'itinéraire.** Pas de description de trajet, pas de rue nommée deux fois, rien qui ait l'air d'être posé pour servir.`
   ],
   phrases: [{ t: `Un porteur de voiles de cet âge… je n'en avais jamais vu.`, n: `Exemple donné par l'autrice, à garder tel quel.` },
-            { t: `mais si, il y avait un boulanger ici, pas un magasin de chaussures`, n: `Le régime de la fabulation : banale, locale, jamais un monument.` },
-            { t: `Elle, elle fait comme June. Elle m'a dit bonjour.`,
-              n: `⚠️ **Proposition du 16 août 2026 — la réplique qui revient à la scène 17 c.** Dite dehors, en marchant, devant une porte, et coincée entre deux fabulations : le boulanger avant, autre chose après.
+            { t: `mais si, il y avait un boulanger ici, pas un magasin de chaussures`, n: `Le régime de la fabulation : banale, locale, jamais un monument.` }],
 
-Andrew ne la range pas dans le délire — il ne la range nulle part. Une voisine qui dit bonjour à un gamin n'est pas une information, et il n'y a rien à en faire.
-
-**Elle n'a pas à être un argument, et c'est tout le point.** Seule, elle ne prouve rien et n'envoie personne chez personne. Sa banalité est ce qui la fait disparaître à la première lecture, et elle ne s'allumera qu'au contact d'une silhouette derrière une fenêtre. *Le lecteur, lui, peut revenir en arrière et la retrouver écrite en clair.*` }],
-  ouvert: [`Ce qu'Eliott dit exactement, et qui relancera Andrew à la scène 17. C'est le dernier trou du parcours.`,
+  ouvert: [`✅ **Ce qu'Eliott dit exactement n'est plus un trou.** *La scène 17 c ne repose plus sur une phrase à retrouver : elle repose sur une voix et sur une femme qui s'excuse trop vite.* **Le garçon peut donc dire n'importe quoi, du moment que c'est invérifiable** — le seul cahier des charges qui lui reste.`,
            `Où le lecteur apprend ce qu'est un porteur de voiles s'il ne l'apprend pas d'elle. Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.`],
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/june.md §2 bis`
 },
@@ -1687,6 +1682,7 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   titre: `Il a trouvé`,
   statut: `trou`, pivot: true,
   resume: `Il refait la promenade qu'il avait faite avec le garçon, comme un homme qui suit un fantôme. Et il rentre dans quelqu'un sans faire attention. Elle s'excuse — trop vite pour être innocente — et elle s'en va en se retournant. Il ne l'a pas reconnue. Mais il a reconnu la voix.`,
+  clefFin: `✅ **Et sa culpabilité reste exacte, sans qu'aucune phrase n'ait à être retrouvée.** *Ce n'est pas qu'il a manqué un indice : il est resté trois mètres devant elle et il ne l'a pas regardée.* **Il regardait le bébé.** *L'homme qui lit les documents et pas les gens était dans la même pièce que la coupable, et il n'a emporté qu'un timbre de voix.* **C'est la faute d'avant refaite à l'identique, dans la même vie, avec le même geste — et sans qu'il puisse le savoir.**`,
   produit: `**C'est sa peur d'être reconnue qui la fait reconnaître.** *Elle, elle sait qui il est : elle l'a vu au jardin avec le policier.* Andrew, lui, serait passé outre — il n'avait pas retenu son visage. **Elle fabrique elle-même ce qu'elle redoute.**`,
   clef: `**Il ne déduit rien de toute la scène : elle fait tout le travail.** Elle s'excuse trop vite, elle se retourne, et le lendemain elle le conduit à l'enfant sans savoir qu'elle est suivie. *Le chapitre s'appelle « Il a trouvé » et il n'y a pas une déduction dedans — seulement de l'entêtement, le même exactement qu'à la scène 15 a où il avait tort.*`,
   garde_forme: `**Le déroulé, et il tient en quatre morceaux.** ① il lui rentre dedans, « p… pardon », elle part vite et elle se retourne ; ② il retourne au jardin demander qui est la berceuse de l'autre jour — **on lui donne un nom, pas une adresse** ; ③ le lendemain, il la prend en filature ; ④ elle le mène droit au lieu, elle en repart, il appelle.
@@ -1710,7 +1706,7 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
     `**Et il ne trouve toujours rien lui-même : c'est elle qui le conduit.** *Ne sachant pas qu'elle est suivie, elle va là où il faut aller.* **L'homme qui croit les documents et pas les gens est sauvé en suivant quelqu'un.**`,
     `⛔ **Écartées, notées pour ne pas y revenir :** la voiture qu'il n'a pas ; la voisine qui dit bonjour ; le nom prononcé et laissé tomber ; le gamin qui décrivait un intérieur ; **la fenêtre, la lumière qui s'éteint et le cadenas.** *Cette dernière marchait, mais elle obligeait le lieu à être sa maison — et elle donnait la scène à un homme qui déduit.*`
   ],
-  ouvert: [`⚠️ **Est-ce que la réplique d'Eliott sert encore.** *Elle n'est plus nécessaire, et c'est une perte : le lecteur avait un indice écrit en clair à retrouver.* **Piste : elle revient juste après le choc, et c'est elle qui transforme « une femme bizarre » en « va savoir qui c'est ».** À trancher.`,
+  ouvert: [`✅ **La réplique d'Eliott saute — décision du 16 août 2026.** *Elle ne servait plus, et ce qu'elle emportait est remplacé par mieux :* **l'indice à retrouver n'est plus une phrase, c'est une personne.** Le lecteur a passé la plus belle page du livre à la regarder. *Il n'avait pas à la déchiffrer : il avait juste à la voir, et il ne l'a pas vue non plus.*`,
            `⚠️ **Où il la suit — sa maison, ou ailleurs.** *Ailleurs est plus fort : plus rien à déduire, il voit l'endroit.* **Et ça libère « c'était là sous nos yeux » de la géographie** — la phrase ne parle plus d'un lieu, elle parle d'elle. *Ils sont restés trois mètres devant elle pendant qu'elle berçait un enfant.*`,
            `⚠️ **Est-ce que ça tient en un chapitre ou en deux.** *Le refus d'adresse au jardin ferme très bien, et « le lendemain » rouvre.*`],
   phrases: [{ t: `c'était là sous nos yeux`, n: `⚠️ **Et depuis le 16 août 2026, elle ne parle plus d'un lieu : elle parle d'elle.** *Ils sont restés trois mètres devant elle, au jardin, pendant qu'elle berçait un enfant — et ils cherchaient le garçon qu'elle avait pris.* **C'est le sens le plus littéral que la phrase puisse avoir, et personne ne l'entend.**
