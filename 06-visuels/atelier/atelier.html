@@ -897,6 +897,7 @@ const ETAPES = [
   { c0: 14, c1: 14, t: `Chez le suspect` },
   { c0: 16, c1: 16, t: `L'alibi se vérifie` },
   { c0: 18, c1: 18, t: `Ce qu'il reste à suivre` },
+  { c0: 19, c1: 20, t: `La fausse piste tombe — et on continue quand même` },
   { c0: 21, c1: 23, t: `« Lâche l'affaire »` },
   { c0: 24, c1: 24, t: `L'appui se retire` },
   { c0: 25, c1: 27, t: `Seul — puis la solution` },
@@ -1508,6 +1509,29 @@ const SCENES = [
   src: `02-univers/le-jardin.md §6 — 03-personnages/la-berceuse.md §7 — décision du 16 août 2026`
 },
 {
+  id: `j3`, no: `Scène 14 · d`, col: 20, row: `joel`, acte: `L'enlisement`,
+  titre: `Il continue quand même`,
+  statut: `acquis`,
+  resume: `🔴 **Décision de l'autrice, 16 août 2026.** On le voit acculé. **C'était évidemment une fausse piste.** Une scène de lassitude, énervé d'avoir perdu du temps. *Et pourtant : il pense que ça vaut le coup de continuer.* **Il décide de retourner au commissariat pour parler avec son ami.**`,
+  produit: `**Le raccord le plus large du livre.** Le lecteur regarde un homme décider d'aller au commissariat — et le chapitre suivant montre Andrew au commissariat. *Il n'a pas à supposer quoi que ce soit : il a vu la décision, il voit l'arrivée, il coud.* **La décision appartient à Joël, l'arrivée appartient à Andrew, et rien dans le texte ne ment.**`,
+  lecture: `**Ce que croit le lecteur :** Andrew sort du jardin, l'erreur administrative lui a mangé deux semaines, il est vidé, il rentre, il rumine — et il se dit que non, il ne lâche pas, et qu'il va aller voir Isaac. *La scène suivante lui donne raison.* **Ce qui se passe vraiment :** un autre homme, un autre monde, un autre ami.`,
+  clef: `🔴 **Et c'est ce qui rend la scène 15 a beaucoup plus dure.** *Le lecteur vient de regarder quelqu'un décider que ça valait le coup* — et à la page suivante, on lui dit de lâcher l'affaire. **La gifle n'est possible que si la main s'est levée dans le chapitre d'avant.**`,
+  garde_forme: `**Aucune phrase de décision.** Pas de « il ne lâcherait pas », pas de mâchoire serrée, pas de résolution formulée. *Ça se voit à ce qu'il fait : il ne rentre pas chez lui, il reprend la voiture, il regarde l'heure et il y va quand même.*`,
+  garde_bis: `**L'énervement est celui du temps perdu, pas celui de l'échec.** Il n'en veut pas à l'affaire, il en veut aux jours. *Et le livre sait, lui, que pendant ces jours-là les deux qu'il cherche vraiment sont en train de mourir — mais aucune phrase ne le dit ici.*`,
+  monde: `Rien, et c'est volontaire. Un bureau, une route, une fin de journée. **La deuxième portion du livre où il n'y a aucun monde à expliquer** — et c'est exactement ce qui la rend indépartageable.`,
+  qui: [`joel`],
+  gardes: [
+    `🔴 **Il ne nomme pas son ami.** *« L'autre », « lui », « son collègue » — jamais le prénom.* **C'est la seule condition du raccord** : un nom qui n'est pas Isaac casse tout, et un nom qui est Isaac serait un mensonge.`,
+    `⚠️ **À vérifier contre les autres chapitres de Joël.** *Si Liam y est nommé couramment, ne pas le nommer ici devient une anomalie repérable à la première lecture.* **Alors il faut que l'absence de nom soit la règle dans toute la branche, pas une exception dans ce chapitre-là.**`,
+    `La fatigue est physique et banale. Elle se dit par des choses : la faim qui est passée, la lumière du tableau de bord, une porte qu'on ferme trop fort.`,
+    `**Il ne récapitule pas l'affaire.** Pas de bilan mental, pas de liste de ce qu'il a éliminé. *Le lecteur en sait déjà assez — et un récapitulatif obligerait à nommer des choses qui n'existent que d'un côté.*`,
+    `Ni chiffre, ni date, ni lieu identifiable. **Le chapitre doit pouvoir se lire dans les deux mondes sans qu'un seul mot ait à être repris.**`
+  ],
+  ouvert: [`Quelle était la fausse piste, exactement. *Elle dépend de ce que devient le creux de la scène 14 · a bis, encore à trouver.*`,
+           `Est-ce qu'il y va le soir même, ou le lendemain matin ? **Le soir même resserre le raccord ; le lendemain laisse une nuit au lecteur pour s'installer dans son erreur.**`],
+  src: `décision du 16 août 2026`
+},
+{
   id: `s15a`, no: `Scène 15 · a`, col: 21, row: `andrew`, acte: `L'enlisement`,
   face: `s15b`,
   titre: `Au commissariat`,
@@ -1884,7 +1908,7 @@ const LIENS = [
   [`s3`,`s4`,``], [`s4`,`s5`,``], [`s5`,`s6`,``], [`s6`,`s7`,``],
   [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
   [`s11`,`s12`,`j`], [`s12`,`ceremonie2`,`a`], [`ceremonie2`,`s13`,`j`], [`s13`,`s14a`,`a`],
-  [`s14a`,`s14-appel`,`a`], [`s14a`,`j2`,`j`], [`s14-appel`,`s14b`,`a`], [`j2`,`s14b`,`j`], [`s14b`,`s14c`,`a`], [`s14c`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
+  [`s14a`,`s14-appel`,`a`], [`s14a`,`j2`,`j`], [`s14-appel`,`s14b`,`a`], [`j2`,`s14b`,`j`], [`s14b`,`s14c`,`a`], [`s14c`,`j3`,`j`], [`j3`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
   [`s15b`,`s15c`,`a`], [`s15c`,`s16`,``], [`s16`,`s17a`,``], [`s17a`,`s17b`,`j`], [`s17b`,`s17c`,`a`],
   [`s17c`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19a`,`a`],
@@ -2223,6 +2247,10 @@ const NOTES = [
 { d:`15 août`, s:`Le ratio doit se comprendre`, e:`acquis`, t:[`décompte`,`écriture`],
   v:`Il va falloir réussir à expliquer que le ratio de rajeunissement n'est pas 1:1. Sinon le lecteur ne comprend pas qu'elles ont 15. Il fait le calcul : elle avait 18 ans il y a 10 ans à leur mort, elle devrait avoir 10. Ils seraient donc dans l'erreur.`,
   q:`**Le seul endroit du livre où le lecteur peut se tromper d'arithmétique.** La parade retenue : une phrase banale — « ils mettent trois fois plus longtemps à descendre, en plus ». ✅ **Placée le 16 août 2026 : à la découverte du jardin, dans la bouche du pédiatre**, qui a les données techniques en main et l'énonce comme un médecin cite une posologie. *Il ne dit l'âge de personne : il énonce une propriété du barème.* **C'est parce qu'il la trouve banale que le lecteur la garde.**` },
+
+{ d:`16 août`, s:`La décision d'un homme, l'arrivée d'un autre`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`On pourra rajouter une scène pour Joël ici. On le voit acculé, c'était évidemment une fausse piste. Une scène de lassitude, énervé d'avoir bien sûr perdu du temps. Et pourtant, il pense que ça vaut le coup de continuer ! Et il décide de retourner au commissariat pour parler avec son ami. Ensuite c'est la 15 a et on rebascule bien sûr sur Andrew qui insiste avec Isaac.`,
+  q:`**Le raccord le plus large du livre, et le seul qui n'exige rien du lecteur.** *Ailleurs, il faut qu'il suppose ; ici, il voit.* **Un homme décide d'aller au commissariat ; au chapitre suivant, Andrew y est.** La décision appartient à Joël, l'arrivée appartient à Andrew, et pas un mot n'est faux. \n\n**Effet de bord : la scène 15 a devient beaucoup plus dure.** Le lecteur vient de regarder quelqu'un décider que ça valait le coup — et Isaac lui dit de lâcher. *La gifle n'est possible que parce que la main s'est levée dans le chapitre d'avant.* \n\n**Prix à payer :** l'ami de Joël ne peut pas être nommé dans ce chapitre. Un prénom qui n'est pas Isaac casse le raccord ; un prénom qui est Isaac serait un mensonge. **À vérifier dans toute la branche.**` },
 
 { d:`16 août`, s:`La capsule qui n'éclaircit pas est gardée`, e:`acquis`, t:[`écriture`,`monde`],
   v:`Ah si… tu as raison, il faut la garder cette scène. Le rappel de l'odeur peut venir du même champ lexical, pour inciter le lecteur à raccrocher l'odeur à l'image. // Soit on la rajoute entre deux visites chez Eliott, soit on frappe fort et c'est le prologue… Est-ce que le lecteur voudrait lire la suite si une description aussi révulsante occupait les premières pages de ce bouquin ? Bonne question…`,
