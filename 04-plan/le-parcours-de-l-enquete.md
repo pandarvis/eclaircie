@@ -10,6 +10,8 @@
 
 *✅ **Décision de l'autrice, 19 août 2026 — la seconde fausse piste est trouvée, et le trou du beat 14 est comblé.** Elle est développée en **section 4 ter**, avec ce qu'elle coûte à Isaac, ce qu'elle nomme du défaut d'Andrew, et le creux narratif qu'elle produit. **Le repaire et la réplique « c'était là sous nos yeux » sont tranchés au même moment** : voir la même section. **Contrainte absolue qui commande tout : le registre ne peut pas être faux.***
 
+*🟡 **Décision validée provisoirement, 16 août 2026 — à revoir. La résolution de la seconde fausse piste change.** L'ancienne version s'arrêtait sur un mur — le secret médical du jardin, et rien de plus. **Elle est corrigée : au bout des deux semaines, il y a quelqu'un.** L'autre arrivant n'est ni mort ni disparu ; **il écoule ses dernières années tranquillement au jardin, et il a trois ans.** Ils entrent dans le jardin, ils le traversent, ils repartent — **et elle y était.** Développement en **§4 ter.2 bis** ; la scène que l'autrice demande là-dedans est écrite dans [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md). **L'autrice veut y revenir : rien de cette décision n'est définitif.***
+
 *🔴 **Décision de l'autrice, 16 août 2026 — Eliott n'a pas été assassiné, et la scène 8 est corrigée en conséquence.** Il est mort dans un accident : une marche, l'eau, le courant, et l'homme qui est entré derrière lui s'est noyé en essayant de le reprendre. **Cet homme arrive le même jour qu'Eliott, à la même cérémonie, à quarante ans.** **Il n'y a donc pas de capsule défaillante ce jour-là** — l'ancienne version de la scène 8 et du §3.3 est périmée, et la ligne du registre porte désormais tout autre chose : **deux arrivées le même jour.** Voir la scène 8, le §3.3 réécrit, et la scène d'ouverture du roman ci-dessous.*
 
 **Bible d'autrice. Rien de ce document n'est énoncé dans le texte.**
@@ -97,7 +99,7 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 | 11 | Le registre | **Au jardin, le veilleur de l'époque** | la cérémonie racontée, le manque de berceurs, le marginal dans le public |
 | 12 | La fausse piste s'éteint | **Chez l'homme** | il ne veut pas leur parler, il a un alibi en béton |
 | 13 | La fausse piste s'éteint | **L'alibi tient** | fausse piste. Tout ce qui précède reste acquis au lecteur |
-| 14 | L'enlisement | **La seconde piste** | ✅ **comblé.** Un arrivant dont plus rien n'est écrit après une certaine date — **deux semaines, et rien** |
+| 14 | L'enlisement | **La seconde piste** | ✅ **comblé.** Un arrivant dont plus rien n'est écrit après une certaine date — deux semaines, **et au bout il y a quelqu'un, par terre, qui va très bien** |
 | 15 | L'enlisement | **« Lâche l'affaire »** | après deux semaines de disparition comptées |
 | 16 | L'enlisement | **Isaac lâche l'affaire** | **le nadir. Il part par objectivité, pas par résignation** — et il ne se laissera pas emmener une seconde fois |
 | 17 | La remontée | **L'enquête en solo** | ⚠️ **TROU réduit à un point.** Le déclencheur du §4 y tombe, la relance est au §4 bis — **et le repaire est trouvé : §4 ter** |
@@ -168,7 +170,9 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 
 ## L'enlisement
 
-**14. La seconde piste.** ✅ **Trouvée par l'autrice, 19 août 2026.** Andrew retourne au registre et **tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date.** Il est arrivé, c'est certain, la ligne est là et elle est parfaite ; ensuite les traces s'arrêtent. Ça ressemble exactement à ce qu'il cherche : quelqu'un qui s'en prend aux jeunes arrivants, et un précédent. **Il y va parce que c'est son terrain, et Isaac le suit parce qu'Andrew est l'homme du registre.** **Deux semaines. Rien.** *Mécanique complète, coût et rendement : **section 4 ter**, qui est neuve. **Isaac commence à compter les jours.***
+**14. La seconde piste.** ✅ **Trouvée par l'autrice, 19 août 2026.** Andrew retourne au registre et **tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date.** Il est arrivé, c'est certain, la ligne est là et elle est parfaite ; ensuite les traces s'arrêtent. Ça ressemble exactement à ce qu'il cherche : quelqu'un qui s'en prend aux jeunes arrivants, et un précédent. **Il y va parce que c'est son terrain, et Isaac le suit parce qu'Andrew est l'homme du registre.** **Deux semaines de silence administratif** — les dossiers du jardin sont sous secret, les traces s'arrêtent — **et au bout il y a quelqu'un, par terre, qui va très bien.** *Mécanique complète, coût et rendement : **section 4 ter**, qui est neuve. **Isaac commence à compter les jours.***
+
+> 🟡 **Validé provisoirement, 16 août 2026 — à revoir. Ce n'est pas un mur, c'est une personne.** L'autre arrivant n'est ni mort ni disparu : **il a trois ans, et il écoule ses dernières années au jardin.** **L'anticlimax est total, et il est humain : personne n'a rien fait de mal.** Quatre conséquences, et la scène qui en sort : **§4 ter.2 bis**.
 
 **15. « Lâche l'affaire »**, **après deux semaines de disparition comptées.** Sous-entendu, et personne ne le dira autrement : il est déjà mort. Ce n'est ni un complot ni un secret — c'est de la lassitude, une journée à finir, un homme raisonnable en face. *Réglage complet dans [`le-meme-jour.md`](le-meme-jour.md) §5.3 : le mur n'est pas quelqu'un. Et c'est la scène doublée par excellence — voir §5.*
 
@@ -213,6 +217,7 @@ Ce n'est pas une idéologie, c'est de l'amour possessif — et **c'est son tour*
 | **10 et 11 — la cérémonie des vingt-six** | le sismographe, et le fonctionnement du jardin |
 | **11 — le jardin** | un lieu d'innocence, et des marginaux qui viennent y mettre le bazar |
 | **14 — la seconde piste** | **qu'il existe une partie de ce monde qu'un veilleur n'a pas le droit de voir** — et Andrew l'apprend avec le lecteur, ce qui n'arrive nulle part ailleurs |
+| **14 — le jardin traversé** | 🟡 **le bas de la courbe**, vu une fois, en entier — et **la mort d'un zéro portée par une berceuse** ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md)). *Le livre n'a aucun autre endroit pour ça, et cette scène-là ne coûte rien structurellement puisqu'elle tombe au milieu d'une fausse piste.* |
 
 > **Une piste qui ne mène nulle part mais qui apprend quelque chose n'est pas une perte pour le lecteur.**
 
@@ -323,7 +328,9 @@ Joël a obéi et n'a pas cherché ; Andrew a cherché et n'a rien trouvé. **Les
 
 **Le creux devient donc le meilleur endroit du dispositif**, et il faut le traiter comme tel : ne pas chercher à l'égayer, ne pas l'accélérer, ne pas y glisser une scène de monde pour tenir le lecteur. *La seule chose à surveiller est la longueur réelle en pages — le creux doit se sentir, pas s'installer.*
 
-*⚠️ **Une seule scène de la seconde piste échappe au creux et n'est pas attribuable** : celle où le mur se nomme, c'est-à-dire où l'on apprend que les dossiers du jardin sont sous secret médical. Elle est du monde, donc elle est d'Andrew, et elle relève entièrement du §3.5 — **elle doit être un refus reçu au comptoir, jamais une explication.** Quelqu'un répond à une question qu'on lui a posée, et la réponse est non.*
+*⚠️ **Deux scènes de la seconde piste échappent au creux et ne sont pas attribuables.** La première est celle où le mur se nomme, c'est-à-dire où l'on apprend que les dossiers du jardin sont sous secret médical : elle est du monde, donc elle est d'Andrew, et elle relève entièrement du §3.5 — **elle doit être un refus reçu au comptoir, jamais une explication.** Quelqu'un répond à une question qu'on lui a posée, et la réponse est non.*
+
+*🟡 **La seconde est neuve, et elle est la plus chargée du document : la traversée du jardin, au bout des deux semaines** (§4 ter.2 bis). Elle n'est pas attribuable non plus — Joël n'a pas de jardin —, **et elle contient la mort d'un zéro.** C'est le point où cette section atteint sa limite : le creux reste un creux, mais il porte en son milieu la scène la plus douce du livre. **Rien n'y avance, et c'est justement ce qui permet de l'y mettre.***
 
 ---
 
@@ -492,7 +499,7 @@ S'il peut se tromper, **le mouvement où Andrew lit sa propre ligne s'effondre.*
 
 **Il y va parce que c'est son terrain**, et **Isaac le suit parce qu'Andrew est l'homme du registre.** Cette phrase est à retenir telle quelle : ce n'est pas une intuition qu'Isaac suit, c'est une compétence.
 
-**Deux semaines. Rien.**
+**Deux semaines de silence administratif.**
 
 ### L'explication n'est pas une erreur, c'est le secret
 
@@ -514,11 +521,87 @@ Lui, l'homme du registre. Celui dont le métier est de consulter, de recouper, d
 
 > **Derrière ce mur, il y a elle.**
 
-**Ils n'éliminent pas le jardin — on leur en refuse l'accès.** Ce n'est pas une négligence d'enquête, ce n'est pas un angle mort de raisonnement : c'est une porte, et elle est légale. Ils écartent ce côté-là parce qu'on ne leur a pas laissé le regarder.
+**Le mur est un dossier, jamais une porte.** 🟡 *Corrigé le 16 août 2026 : **ils entrent dans le jardin**, ils le traversent et ils repartent — voir §4 ter.2 bis. Ce qu'on leur refuse est ce qui est écrit, pas ce qui est là.* Ce n'est ni une négligence d'enquête ni un angle mort de raisonnement : c'est un secret médical, et il est légal. **Ils écartent ce côté-là parce qu'on ne leur a pas laissé lire, alors même qu'on les a laissés regarder.**
 
-**C'est pour ça qu'ils ne la trouvent pas.**
+**C'est pour ça qu'ils ne la trouvent pas — et elle était dans la pièce.**
 
-*À ne jamais formuler dans le texte. Personne ne dit qu'on cherche du mauvais côté, et surtout pas après coup : la scène 19 ne comporte aucune phrase qui rapproche le mur du secret et la porte de la cave.*
+*À ne jamais formuler dans le texte. Personne ne dit qu'on cherche du mauvais côté, et surtout pas après coup : la scène 19 ne comporte aucune phrase qui rapproche le mur du secret, la traversée du jardin et la porte de la cave.*
+
+## 4 ter.2 bis 🟡 Ce n'est pas un mur, c'est une personne — validée provisoirement, 16 août 2026, à revoir
+
+> **L'autre arrivant n'est ni mort ni disparu. Il écoule ses dernières années tranquillement au jardin. Il a trois ans.**
+
+**L'ancienne version de cette section s'arrêtait au refus, et c'était trop peu.** Ils passent deux semaines à se battre contre un silence administratif — les dossiers sont sous secret, les traces s'arrêtent, on ne leur répond pas —, **et au bout il y a quelqu'un, par terre, qui va très bien.**
+
+> ### **L'anticlimax est total, et il est humain : personne n'a rien fait de mal.**
+
+*Il n'y a ni victime, ni négligence, ni faute administrative, ni même une mauvaise volonté quelque part. Il y a une administration qui protège quelqu'un, et quelqu'un qui n'avait aucun besoin d'être cherché. **Deux semaines d'enquête tombent sur la seule chose qu'une enquête ne sait pas traiter : rien à faire, personne à mettre en cause, tout va bien.***
+
+### 1. Ils entrent dans le jardin
+
+**Ils le traversent, ils regardent partout, ils repartent.**
+
+Ils n'ont pas été refoulés à la porte : **ils sont passés dedans.** On leur a refusé un dossier, pas un lieu — le mur est administratif, il n'est pas physique, et cette distinction est exactement ce qui produit tout le reste.
+
+> **Et elle y était.**
+
+**Le *« c'était là sous nos yeux »* devient littéral une seconde fois, et bien plus tôt dans le livre.** Le §4 ter.6 en tient déjà une occurrence, à la fin, sur une porte devant laquelle Andrew est passé trois fois. Celle-ci arrive au milieu, dans un creux, sur une piste morte — **et c'est celle que personne ne peut soupçonner d'être un indice, parce que la scène est occupée à autre chose.**
+
+*Contrainte, et elle est la même que partout : **rien ne la désigne.** Personne ne s'arrête sur elle, aucune phrase ne la détache du décor, et le narrateur ne revient jamais sur cette traversée. Voir la réserve du §4 ter.2 quater.*
+
+### 2. Il ne peut pas leur parler
+
+**À trois ans, la parole est partie depuis longtemps.** Elle se dégrade vers quatre ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §1, « La moitié silencieuse »), et trois est en dessous.
+
+> **Ils ont cherché pendant deux semaines quelqu'un qui n'avait jamais disparu, et qui n'aurait pas pu répondre même s'il l'avait été.**
+
+**Il n'y a donc pas d'entretien, pas de témoignage, pas même un non.** Ils ont devant eux la fin exacte de leur piste, elle est vivante, elle est en bonne santé, et **il n'y a rien à en tirer.** *Aucun personnage ne formule cette ironie-là. Elle est dans le fait, elle n'est pas dans une réplique.*
+
+### 3. Andrew voit ce qu'Eliott va devenir
+
+**Au milieu de sa recherche, il regarde quelqu'un de trois ans qui a été, il y a longtemps, un jeune arrivant.**
+
+> **Personne ne le lui dit, il ne le formule pas. C'est là, et c'est tout.**
+
+*Régime habituel : pas de phrase de narrateur, pas de personnage qui fait le rapprochement, pas de retour dessus dans les pages suivantes. **Le lecteur, lui, a la fiche complète d'Eliott en tête** — six ans de descente, puis le jardin, puis le plateau, puis la fin — et il n'a besoin d'aucune ligne pour poser l'un sur l'autre. **C'est le seul endroit du livre où l'épilogue est visible en avance, et il l'est par accident.***
+
+### 4. C'est la scène qui montre le bas de la courbe
+
+**Le livre n'a aucun autre endroit pour ça.** [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §1 pose que le lieu se lit d'un seul regard — celui qui vient d'entrer, celui du milieu, celui qui ne dit plus rien, et ce qui vient après —, et rien dans le parcours n'y menait. L'épilogue s'arrête à l'entrée d'Eliott, à huit ans ; le reste de la vie n'a jamais de scène.
+
+> **Ici il en a une, et elle tombe au milieu d'une fausse piste : elle ne coûte rien structurellement.**
+
+*C'est le rendement du §3.1 poussé à son maximum — une piste qui ne mène nulle part et qui montre au lecteur la seule chose que le livre n'avait pas les moyens de lui montrer. **Et elle ne peut pas être lue comme une leçon, puisque la scène est occupée à chercher quelqu'un d'autre.***
+
+## 4 ter.2 ter 🟡 La mort d'un zéro — la scène que l'autrice demande
+
+**Elle est écrite dans [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), et elle n'est pas à recopier ici.** *Ce que ce document doit en retenir : **elle tombe pendant la traversée du jardin, scène 14**, et c'est le seul emplacement possible.*
+
+> **Assister à la mort naturelle de quelqu'un arrivé à zéro. Tout en douceur, porté par une berceuse, avec des gestes de métier — parce que c'est son métier.**
+
+**Aucun pathos, aucune explication, et la douceur est la matière de la scène.** C'est la seule fois du livre où le monde est entièrement bon avec quelqu'un. *Et c'est là qu'on comprend, sans un mot, jusqu'où va le métier de berceuse : jusqu'au dernier jour, littéralement, en portant.*
+
+## 4 ter.2 quater 🟡 LA PISTE FORTE — à écrire comme piste, pas comme acquis
+
+> ### **Et si c'était elle qui le portait ?**
+
+**La berceuse qu'Andrew regarde faire ce jour-là, dans la plus douce scène du livre.**
+
+- **Il ne retient pas son visage.** Il y a plusieurs berceuses, elles se ressemblent toutes dans leur travail, et **il est là pour autre chose.**
+- **Le lecteur non plus ne la retient pas.**
+- Et à la fin, quand elle sort menottée de la maison (scène 19), **le lecteur se souvient.** Il l'a vue porter un mourant avec une tendresse parfaite, **et il a trouvé ça beau.**
+
+> **C'est le meilleur endroit possible pour la planter : la scène qui fait aimer les berceuses est celle qui prépare la révélation.**
+
+### ⚠️ La réserve, et elle commande l'écriture de la scène
+
+> **Elle doit rester anonyme et non détaillée au moment de la scène.**
+
+**Si le texte s'attarde sur elle, le lecteur la retiendra et la révélation s'émousse.** Un geste, une silhouette, pas un portrait. Pas de visage, pas de nom, pas de réplique qui reste, pas une gentillesse qu'on remarque plus que les autres.
+
+*C'est mot pour mot la contrainte déjà posée sur elle à [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md) §5 — **si elle est aimable dans une scène, elle est aimable comme tout le monde** —, et elle s'applique ici avec un cran de plus : ce n'est plus une silhouette devant une porte, c'est une silhouette en train de faire le plus beau geste du livre. **Le risque est symétrique : trop peu et la scène ne porte rien, trop et le lecteur sait déjà.***
+
+**Rien n'est tranché.** *C'est une piste, elle est forte, et elle appartient à l'autrice. Voir [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md), « La piste forte ».*
 
 ## 4 ter.3 Le coût, et pourquoi Isaac part
 
@@ -607,9 +690,11 @@ Ce n'est pas de la négligence retournée en gentillesse, ce n'est pas un raviss
 - **Elle vit donc à quelques pas de chez June.**
 - **Andrew est passé devant sa porte à chacune de ses trois visites**, en allant voir Eliott, **sans aucune raison de la regarder.**
 
-**Et ça referme la seconde fausse piste :** ils ont buté sur le mur du secret du jardin, ils ont écarté ce côté-là — **et elle habitait dedans.**
+**Et ça referme la seconde fausse piste :** ils ont buté sur le secret du jardin, ils ont écarté ce côté-là — **et elle habitait dedans.**
 
 > **Le seul endroit qu'on leur a refusé est le seul endroit où elle était.**
+
+*🟡 **Et depuis le 16 août 2026, la phrase porte deux fois** : ils n'ont pas seulement écarté ce côté-là, **ils l'ont traversé** (§4 ter.2 bis). La réplique du téléphone est donc exacte une troisième fois, et personne ne le saura jamais. **Ce qui ne change pas : elle n'est dite qu'une fois, et elle n'est jamais expliquée.***
 
 *Contrainte : la réplique est dite une fois, au téléphone, dans l'urgence, et personne ne la relève. **Elle ne doit jamais être expliquée** — ni par Andrew qui la dirait deux fois, ni par Isaac qui répondrait quelque chose, ni par le narrateur. C'est une phrase d'homme pressé, et le lecteur seul mesure ce qu'elle vaut.*
 
@@ -644,6 +729,7 @@ Le *« lâche l'affaire »* en est le modèle, et il est déjà écrit ([`le-mem
 - [x] ~~**Les motivations de la berceuse.**~~ — **comblé, et c'était le plus important du document.** *Elle a passé sa vie à donner des arrivants au jardin, elle n'en a jamais gardé un seul ; c'est de l'amour possessif, pas une idéologie ; et c'est son tour.* Fiche complète : [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md). **Les dix-huit scènes qui précèdent savent désormais vers quoi elles montent.**
 - [x] ~~**La relance après le nadir.**~~ — **trouvée : un reliquat, et c'est Joël retournant à ses notes.** §4 bis. *Elle n'était pas listée comme un trou ; elle en était un.*
 - [x] ~~**La seconde fausse piste — scène 14.**~~ — **comblée le 19 août 2026, et c'était le dernier gros trou du parcours.** *Un jeune arrivant dont plus rien n'est écrit après une certaine date ; le registre ne connaît que les arrivées, et ce qui vient après est ailleurs ; l'explication est le secret médical du jardin.* **Le registre reste infaillible**, ce qui était la condition. §4 ter.
+- [x] ~~**Ce qu'il y a au bout de la seconde fausse piste.**~~ — 🟡 **validée provisoirement le 16 août 2026, à revoir. Ce n'est pas un mur, c'est une personne.** *L'autre arrivant n'est ni mort ni disparu : il a trois ans, il écoule ses dernières années au jardin, et il ne peut plus parler.* **Ils entrent dans le jardin, ils le traversent, ils repartent — et elle y était.** §4 ter.2 bis. **L'autrice veut y revenir.**
 - [x] ~~**La nature du travail d'Eliott.**~~ — **le portage est validé par l'autrice, 19 août 2026.** *Ce qui reste ouvert n'est plus le métier : c'est ce que le portage porte, à qui, et sur quel périmètre.* La scène 6 peut s'écrire ; **et la tournée est aussi ce qui fait passer Eliott devant des portes de ce monde-ci**, ce dont dépend le trou ci-dessous.
 - [ ] **Le prénom de l'homme de vingt-deux ans.** ⚠️ **TROU.** Un nom d'éclaircie. Il traverse huit scènes sans être nommé.
 - [ ] **Ce qu'Eliott a dit exactement, et qui relance Andrew — scène 17.** ⚠️ **TROU, et c'est le dernier du parcours.** *Ce qui est trouvé : le reliquat lui rend le geste (§4 bis), le déclencheur du §4 lui donne la direction, le repaire est une maison connue et la phrase du téléphone est écrite (§4 ter).* **Ce qui manque est la phrase du garçon**, et elle seule. **Il ne peut pas avoir décrit la cave : il n'y était jamais allé.** Deux pistes, aucune tranchée :
@@ -670,6 +756,8 @@ Le *« lâche l'affaire »* en est le modèle, et il est déjà écrit ([`le-mem
 - [ ] **Combien de temps dure la détention d'Eliott ?** **Deux semaines sont comptées à la scène 15, et la scène 14 en compte deux aussi** — les deux chiffres sont désormais les mêmes, et il faut décider s'ils se recouvrent ou s'ils s'ajoutent. *C'est le compteur du livre — voir [`duree-et-calendrier.md`](duree-et-calendrier.md).*
 - [ ] **La longueur de la seconde fausse piste en pages.** Le §3.4 recommandait qu'elle soit plus courte que la première ; le contenu trouvé compte deux semaines, soit autant. **La recommandation n'est pas caduque, elle se déplace** : ce n'est plus la durée racontée qui doit être plus courte, c'est le nombre de scènes. *Et le §3.7 dit pourquoi il ne faut pas la raccourcir trop : c'est le meilleur endroit du dispositif.*
 - [x] ~~**La suspicion de voile de June (scène 2) contre sa fiche, qui posait qu'elle ne soupçonne rien.**~~ — **tranché : elle a une intuition, et elle ne la formule jamais.** [`../03-personnages/june.md`](../03-personnages/june.md) est corrigée en conséquence (§2 bis). *Reste ouvert, et c'est mineur : **est-elle reprise plus tard ?** La réponse par défaut est non — une phrase qui s'arrête ne se reprend pas.*
+- [ ] 🟡 **Est-ce qu'Andrew lui parle, ce jour-là, ou est-ce qu'il la croise seulement ?** *La berceuse qui porte le mourant, pendant la traversée du jardin, scène 14* (§4 ter.2 quater). **Les deux versions ne coûtent pas la même chose :** une berceuse qu'il croise reste une silhouette et ne peut pas s'accrocher ; une berceuse à qui il adresse la parole devient quelqu'un qu'il a interrogé sans le savoir — **c'est bien plus cruel, et c'est bien plus risqué.** *Question liée : s'il lui parle, lui donne-t-elle un nom, et lequel ? Voir [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md), « Le livre lui donne-t-il un nom ? ».*
+- [ ] 🟡 **La traversée du jardin est-elle une scène ou deux ?** *Le refus au comptoir, la traversée, et la mort d'un zéro peuvent tenir ensemble ou se séparer.* **Le §3.7 demande de ne pas égayer le creux ; la scène de la mort est ce qui s'en rapproche le plus dangereusement.** À doser.
 - [ ] **Où le lecteur apprend-il ce qu'est un porteur de voiles, s'il ne l'apprend pas d'elle ?** La scène 2 est désormais le canal principal, et elle est la seule à ne rien expliquer en l'expliquant. *Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.*
 
 ---

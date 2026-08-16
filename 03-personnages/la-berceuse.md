@@ -5,6 +5,8 @@
 
 *⚠️ **Deux décisions de l'autrice du 19 août 2026 s'ajoutent à cette fiche et en changent la portée** : **elle n'était pas une inconnue** (§5) — elle vit à quelques pas de chez June, et Eliott est parti avec quelqu'un qu'il connaissait ; et **le repaire est une maison ordinaire dont la cave a été aménagée** (§6). Contexte d'enquête : [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.*
 
+*🟡 **Piste forte, validée provisoirement le 16 août 2026 — à revoir : c'est peut-être elle qu'Andrew regarde porter un mourant, au milieu du livre** (§7). L'enquête traverse désormais le jardin au bout de la seconde fausse piste, et la scène la plus douce du livre s'y trouve — [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §6. **L'autrice veut y revenir : rien n'est tranché.***
+
 ---
 
 ## État civil
@@ -15,7 +17,7 @@
 | **Métier** | berceuse. Des décennies de service, au jardin |
 | **Sa situation** | elle approche de sa relève. On commence à lui confier des tâches plus simples |
 | **Où elle vit** | **à côté du jardin, comme les berceuses** — donc **à quelques pas de chez June.** Une maison ordinaire, dans une rue ordinaire. §5 |
-| **Rôle dans l'intrigue** | **la ravisseuse.** Elle n'apparaît qu'à la fin, et elle est l'exact contraire de ce qu'on cherchait |
+| **Rôle dans l'intrigue** | **la ravisseuse.** Elle n'est identifiée qu'à la fin, et elle est l'exact contraire de ce qu'on cherchait. **🟡 Piste forte : elle serait déjà passée au milieu du livre, anonyme, en train de porter un mourant** — §7 |
 | **Particularité** | aucune. Elle n'est pas porteuse de voiles, elle ne dit rien d'impossible, et rien sur elle ne se remarque |
 
 ---
@@ -151,15 +153,63 @@ Ce n'est pas de la négligence, et ce n'est pas non plus une ravisseuse qui se r
 
 ---
 
+## 7. 🟡 La piste forte — c'est peut-être elle qui portait
+
+> **Piste de l'autrice, validée provisoirement le 16 août 2026 — à revoir. Elle s'écrit comme une piste, jamais comme un acquis.**
+
+**L'enquête entre dans le jardin, au bout de la seconde fausse piste** ([`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.2 bis). Andrew le traverse, il regarde partout, il repart bredouille. **Et il y a là, ce jour-là, une berceuse qui accompagne quelqu'un arrivé à zéro** — tout en douceur, avec des gestes de métier, dans la scène la plus douce du livre ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §6).
+
+> ### **Et si c'était elle ?**
+
+### 7.1 Pourquoi ça ne s'accroche pas sur le moment
+
+- **Il ne retient pas son visage.** *Il y a plusieurs berceuses, elles se ressemblent toutes dans leur travail, et il est là pour autre chose.* Il cherche un arrivant dont plus rien n'est écrit ; ce qui se passe dans la pièce n'est pas son affaire.
+- **Le lecteur non plus ne la retient pas.** Il regarde un geste, pas quelqu'un. Et il le regarde au milieu d'un creux d'enquête, dans une scène dont il sait déjà qu'elle ne mènera à rien.
+- **Rien ne la distingue.** C'est la contrainte du §5 reprise mot pour mot : si elle est douce dans une scène, **elle est douce comme le métier l'est**, et pas une ligne de plus.
+
+### 7.2 Ce que ça vaut à la fin
+
+**Elle sort menottée de la maison, scène 19, déjà prête à être embarquée.**
+
+> **Et le lecteur se souvient.**
+
+**Il l'a vue porter un mourant avec une tendresse parfaite, et il a trouvé ça beau.** Il ne l'avait pas notée, il ne l'aurait pas retrouvée si on la lui avait demandée — **et elle lui revient d'un coup, entière, avec ce qu'il a ressenti à ce moment-là.**
+
+> ### **C'est le meilleur endroit possible pour la planter : la scène qui fait aimer les berceuses est celle qui prépare la révélation.**
+
+*Ce n'est pas un retournement, et il ne faut surtout pas l'écrire comme tel. **Rien n'est démenti** : elle portait vraiment, c'était vraiment beau, et le métier est vraiment ce qu'il paraissait être. Le lecteur n'apprend pas qu'il s'était trompé — il apprend que les deux choses sont la même personne, et le livre ne l'aide pas à en faire quoi que ce soit.*
+
+**Et ça referme le §1 par l'image au lieu du raisonnement :** *elle a passé sa vie à donner des arrivants au jardin, elle n'en a jamais gardé un seul.* **Le lecteur a vu, une fois, ce que ça veut dire — jusqu'au dernier jour, littéralement, en portant.**
+
+### 7.3 ⚠️ La réserve, et elle commande tout
+
+> **Elle doit rester anonyme et non détaillée au moment de la scène.**
+
+**Si le texte s'attarde sur elle, le lecteur la retiendra et la révélation s'émousse.**
+
+| À écrire | À ne jamais écrire |
+|---|---|
+| un geste, une silhouette, une façon de tenir un poids | **un portrait** |
+| ce qu'elle fait | qui elle est |
+| rien qui la sépare des autres berceuses | un visage, un nom, une réplique qui reste, une gentillesse qu'on remarque plus que les autres |
+
+*Le risque est symétrique, et c'est ce qui rend le dosage difficile : **trop peu, et la scène ne porte rien** — le lecteur n'aura rien à retrouver à la fin ; **trop, et il sait déjà**, ou pire, il sent qu'on lui montre quelqu'un. **Ce qui doit rester en mémoire est le geste, et le geste seul.***
+
+**Rien n'est tranché.** *Et la contrainte ne coûte rien même si l'autrice écarte la piste : une scène qui montre un métier et non une personne est de toute façon la bonne version.*
+
+---
+
 ## Questions ouvertes
 
+- [ ] 🟡 **Est-ce qu'Andrew lui parle, ce jour-là, ou est-ce qu'il la croise seulement ?** *La scène du jardin, §7.* **Croisée**, elle reste une silhouette et rien ne peut s'y accrocher — sûr, et moins fort. **Adressée**, elle devient quelqu'un à qui il a parlé sans savoir à qui il parlait, **et il l'a laissé tomber par terre comme il a laissé tomber le reste** — c'est exactement le défaut nommé au §4 ter.4 du [parcours](../04-plan/le-parcours-de-l-enquete.md), et c'est bien plus cruel. *Le risque est celui du §7.3 : une réplique reste en mémoire, un geste non.*
+- [ ] 🟡 **Est-ce la même piste que celle du nom ?** *Si elle lui parle au jardin, elle a un nom et il peut l'entendre là.* **Attention : la version où Eliott lui donne le nom est déjà ouverte** (voir plus bas), **et les deux ensemble feraient deux fois trop.** Il faut choisir par où le nom passe, s'il passe.
 - [ ] **Son âge, et sa proximité exacte avec la relève.** Un berceur exerce jusqu'à douze ans ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §5). **Où est-elle sur cette pente ?** Assez près pour que les tâches simples aient commencé, assez loin pour qu'il lui reste des années. *Le chiffre décide du reste : trop près du jardin, elle devient pitoyable ; trop loin, la relève n'explique plus rien.*
 - [ ] **Ce qu'elle comptait faire ensuite.** Rien, probablement — et c'est peut-être la réponse. Pas de plan, pas d'endroit où aller, pas de suite. **Avait-elle seulement pensé à après ?** *⚠️ La cave aménagée du §6 pousse dans un sens et ne tranche pas : elle prouve qu'elle comptait rester, elle ne dit pas qu'elle avait prévu comment.*
 - [x] ~~**Andrew ou June la connaissaient-ils de vue ?**~~ — **tranché le 19 août 2026, et dans le sens le plus dur.** *Elle vit à quelques pas de chez June ; Andrew est passé devant sa porte à chacune de ses trois visites ; Eliott la croisait.* **Il n'a pas été enlevé par quelqu'un : il est parti avec quelqu'un qu'il connaissait.** §5.
 - [ ] **Que savaient exactement l'une de l'autre les deux berceuses ?** June et elle sont voisines et du même métier. *Se parlaient-elles, se relayaient-elles, June l'a-t-elle mentionnée devant Andrew sans que rien ne s'accroche ?* **Attention : June n'est pas un relais d'information** ([june.md](june.md) §2), et une réplique qui désignerait la voisine, même en passant, ferait basculer sa fiche.
 - [ ] **Eliott passait-il devant chez elle sur sa tournée de portage ?** *La question est celle du dernier trou du parcours* — ce qu'il a dit exactement à Andrew, et qui le relance. Voir [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §6. **La version où il avait donné son nom est la plus cruelle, et elle n'est pas tranchée.**
 - [ ] **Ce qu'elle dit, ou ne dit pas, au moment de l'arrestation.** Elle est menottée et déjà prête à être embarquée quand Andrew la voit. *Le silence est la version la plus dure ; une seule phrase est la plus risquée.*
-- [ ] **Le livre lui donne-t-il un nom ?** Il n'y en a aucun ici. Un nom d'éclaircie la rendrait comparable aux autres ; son absence la laisse à son métier, qui est déjà tout son mobile. **Non tranché, et à trancher par l'autrice seule.** *⚠️ **La question n'est plus indépendante** : si l'on retient la version où Eliott avait donné son nom à Andrew, alors elle en a un, il est prononcé une fois dans le livre, et il l'est bien avant qu'on sache à qui il appartient. Les deux décisions se prennent ensemble.*
+- [ ] **Le livre lui donne-t-il un nom ?** Il n'y en a aucun ici. Un nom d'éclaircie la rendrait comparable aux autres ; son absence la laisse à son métier, qui est déjà tout son mobile. **Non tranché, et à trancher par l'autrice seule.** *⚠️ **La question n'est plus indépendante** : si l'on retient la version où Eliott avait donné son nom à Andrew, alors elle en a un, il est prononcé une fois dans le livre, et il l'est bien avant qu'on sache à qui il appartient. Les deux décisions se prennent ensemble.* **🟡 Et depuis le 16 août 2026 il y a un troisième canal possible : le jardin** (§7). *Trois portes pour un seul nom, et il n'en faut qu'une.*
 
 ---
 

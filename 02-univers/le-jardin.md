@@ -4,6 +4,8 @@
 
 *Intègre trois décisions de l'autrice du 16 août 2026 — **les pédiatres du jardin**, **la relève des berceurs**, **la piste du piratage mise en réserve** — et **la correction du 17 août 2026, qui refonde le document entier.***
 
+*🟡 **Décision validée provisoirement, 16 août 2026 — à revoir.** L'enquête entre dans le jardin : c'est la résolution de la seconde fausse piste ([`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.2 bis). **Le document reçoit avec elle la scène que l'autrice demande — la mort d'un zéro, portée par une berceuse — et elle est en §6.** L'autrice veut y revenir : rien de cette décision n'est définitif.*
+
 ---
 
 ## ⚠️ La correction : le jardin n'est pas un âge, c'est un lieu
@@ -223,7 +225,65 @@ Chaque métier aurait sa sortie, et elle serait toujours la même : on vous conf
 
 ---
 
-## 6. En réserve — la piste écartée
+## 6. 🟡 La mort d'un zéro — la scène à écrire
+
+> **Décision de l'autrice, validée provisoirement le 16 août 2026 — à revoir.**
+>
+> *Assister à la mort naturelle de quelqu'un arrivé à zéro. Tout en douceur, porté par une berceuse, avec des gestes de métier — parce que c'est son métier.*
+
+**Le document décrivait une pente sans jamais montrer son terme.** Le §1 pose que le jardin s'écoule, qu'il y a toujours quelqu'un qui vient d'entrer et quelqu'un qui achève ; le §4 pose qu'un pédiatre suit chacun jusqu'en bas, et qu'en bas il n'y a plus rien à taire. **C'était écrit, et ce n'était pas montré.**
+
+**Elle a maintenant un emplacement**, et il n'y en avait qu'un possible : **pendant la traversée du jardin par l'enquête**, au bout de la seconde fausse piste ([`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.2 ter). *Personne n'y va pour voir ça. Ils cherchent quelqu'un d'autre, ils traversent, et c'est là.*
+
+### 6.1 Ce que la scène doit tenir — quatre choses, et elles tiennent ensemble
+
+**Aucun pathos.**
+
+> **C'est une professionnelle qui fait ce qu'elle sait faire, et qui l'a fait des centaines de fois.**
+
+Elle ne pleure pas, elle ne s'attendrit pas, elle ne prend pas un ton. Il y a une position à trouver, un poids à répartir, un rythme à tenir — **des gestes de métier**, exécutés par quelqu'un qui les a dans les mains depuis des décennies. *Une berceuse en fin de carrière a fait ça plus souvent qu'aucun personnage du livre n'a fait quoi que ce soit.*
+
+**Aucune explication.**
+
+**Personne ne dit ce qui se passe ni pourquoi.** Pas un mot sur ce qu'on regarde, pas une réplique qui nomme, pas un pédiatre qui informe, pas un narrateur qui pose le cadre. **Rien n'annonce que ça commence et rien ne signale que c'est fini.** *Régime du livre entier, et il n'y a pas d'endroit où il compte davantage : c'est la scène où la tentation d'expliquer est la plus forte, et elle est aussi celle où une seule phrase de trop détruirait tout.*
+
+**La douceur est la matière de la scène.**
+
+Ce n'est pas son atmosphère, ce n'est pas son ton : **c'est ce dont elle est faite.** La berceuse porte, elle berce, elle chante peut-être ; le corps est tenu, il est au chaud, il n'est pas seul une seconde.
+
+> ### **C'est la seule fois du livre où le monde est entièrement bon avec quelqu'un.**
+
+*Et c'est vérifiable ligne à ligne : partout ailleurs, quelqu'un est mal accompagné, mal cru, mal regardé, ou pas regardé du tout. Ici, non. **Il n'y a rien à reprocher à personne, et c'est la seule page dont on puisse le dire.***
+
+**Et c'est là qu'on comprend jusqu'où va le métier.**
+
+> **Sans un mot : jusqu'au dernier jour, littéralement, en portant.**
+
+Le §10 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md) définit le berceur comme celui qui accompagne *jusqu'au dernier jour*. C'était une ligne de fiche de poste. **Ici c'est un geste**, et il rend la définition superflue : le lecteur n'a plus besoin qu'on lui dise ce qu'est une berceuse, il vient de le voir. *C'est aussi ce qui charge rétroactivement [June](../03-personnages/june.md), sans qu'une ligne ne le formule — le lecteur sait désormais où va son métier.*
+
+### 6.2 Ce que ça referme, et qui n'était pas cherché
+
+**Le lecteur reçoit la fin de la pente au moment exact où il ne la cherche pas.** Il est dans un creux d'enquête, il suit deux hommes qui n'ont rien trouvé depuis deux semaines, et **le livre lui montre en passant la seule chose qu'il n'aurait jamais pu voir autrement** : l'épilogue s'arrête à l'entrée d'Eliott, à huit ans, et rien après n'a de scène.
+
+*Contrainte qui en découle, et elle est la même que pour la cérémonie des vingt-six : **ne rien faire de plus.** Pas de personnage qui s'attarde, pas de retour dessus plus tard, pas de résonance ménagée avec l'épilogue. **La scène ne doit jamais avoir l'air d'être là pour enseigner quelque chose** — et elle n'en a pas l'air, puisque les deux hommes sont venus chercher quelqu'un d'autre et repartent bredouilles.*
+
+### 6.3 ⚠️ La piste forte — la berceuse est peut-être la ravisseuse
+
+> **Et si c'était elle qui le portait ?**
+
+**La berceuse qu'Andrew regarde faire ce jour-là, dans la plus douce scène du livre.** *Piste, pas décision — développement complet dans [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md), « La piste forte », et dans [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.2 quater.*
+
+**Ce que ça impose ici, et ça commande l'écriture de la scène :**
+
+> **Elle doit rester anonyme et non détaillée. Un geste, une silhouette, pas un portrait.**
+
+**Si le texte s'attarde sur elle, le lecteur la retiendra et la révélation s'émousse.** Pas de visage, pas de nom, pas de réplique qui reste. **Ce qu'on regarde, c'est ce qu'elle fait, jamais qui elle est** — et c'est aussi ce qui rend la scène juste indépendamment de la piste : *il y a plusieurs berceuses, elles se ressemblent toutes dans leur travail, et Andrew est là pour autre chose.*
+
+*Réglage : la contrainte ne coûte rien, même si l'autrice écarte la piste. **Une scène qui montre un métier et non une personne est de toute façon la bonne version** — c'est ce que demandait déjà le §5.1, et c'est ce que demande le régime du livre.*
+
+---
+
+## 7. En réserve — la piste écartée
 
 > **L'autrice signale, 16 août 2026.**
 >
@@ -245,7 +305,14 @@ Le dispositif la rend possible : il y a des dates, elles sont écrites, elles so
 
 ---
 
-## 7. À trancher
+## 8. À trancher
+
+**🟡 Les questions neuves du 16 août 2026, ouvertes par la mort d'un zéro (§6) — décision validée provisoirement, à revoir :**
+
+- [ ] **Est-ce qu'Andrew lui parle, ce jour-là, ou est-ce qu'il la croise seulement ?** *La berceuse qui porte le mourant.* **Croisée**, elle reste une silhouette et rien ne peut s'y accrocher — c'est la version sûre, et c'est la moins forte. **Adressée**, elle devient quelqu'un à qui il a parlé sans le savoir, et la relecture est bien plus cruelle — mais le lecteur risque de la retenir, ce que la réserve du §6.3 interdit. *Question liée : s'il lui parle, a-t-elle un nom, et le donne-t-elle ? Voir [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md).*
+- [ ] **Que fait la berceuse exactement, et pendant combien de temps ?** Elle porte, elle berce — **chante-t-elle ?** *Le mot « berceuse » désigne le métier dans ce monde ; s'il y a un chant, il ne doit être ni nommé ni décrit comme un rituel. **Le risque est de fabriquer une cérémonie là où il n'y a qu'un geste.***
+- [ ] **Qui d'autre est dans la pièce ?** Un pédiatre du jardin, d'autres berceuses, les grands du jardin (§5.2), personne ? **La version la plus dure est celle où le reste du lieu continue** — quelqu'un meurt dans une pièce où d'autres jouent, et rien ne s'arrête.
+- [ ] **Le corps, après.** Le document ne dit nulle part ce que devient quelqu'un arrivé à zéro. *La scène frôle la question sans l'ouvrir ; **elle peut se contenter de s'arrêter avant**, et c'est probablement ce qu'il faut faire.*
 
 **Les deux questions de fond, ouvertes le 17 août 2026 :**
 
@@ -254,7 +321,7 @@ Le dispositif la rend possible : il y a des dates, elles sont écrites, elles so
 
 **Le reste, ouvert depuis le 16 août :**
 
-- [ ] **Le métier de berceur va-t-il jusqu'à zéro ?** *La question était mal posée tant qu'on croyait que « le dernier jour n'est plus au jardin » : **c'est faux, le dernier jour est au jardin.** La définition du §10 — accompagner jusqu'au dernier jour — redevient exacte dès qu'on écrit le bon mot.* Reste ce qui est vraiment ouvert : **est-ce le même berceur du haut en bas**, ou change-t-on de personne en cours de descente, quand l'enfant cesse de parler ? *Question rouverte dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md) et [`../03-personnages/june.md`](../03-personnages/june.md).*
+- [ ] **Le métier de berceur va-t-il jusqu'à zéro ?** *La question était mal posée tant qu'on croyait que « le dernier jour n'est plus au jardin » : **c'est faux, le dernier jour est au jardin.** La définition du §10 — accompagner jusqu'au dernier jour — redevient exacte dès qu'on écrit le bon mot.* Reste ce qui est vraiment ouvert : **est-ce le même berceur du haut en bas**, ou change-t-on de personne en cours de descente, quand l'enfant cesse de parler ? *Question rouverte dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md) et [`../03-personnages/june.md`](../03-personnages/june.md).* **🟡 Et le §6 la resserre sans la fermer : le métier va jusqu'au dernier jour et il y va en portant** — ce qui est acquis est le terme, pas la continuité de la personne.
 - [ ] **Qui s'occupe de la croissance, en dessous de huit ?** Un arrivant de deux ans a six ans à monter, **et il les passe hors du jardin** puisqu'il n'y entre qu'à huit. Un berceur, un tuteur, les deux ? **C'est le seul temps de la vie qui n'a pas de lieu attribué.**
 - [ ] **À quel moment un berceur apprend-il qu'il est relayé ?** Le dispositif dit qu'on ne le lui annonce pas : il le déduit des tâches simples. Reste à savoir s'il y a malgré tout un moment officiel — une inscription quelque part, un dernier jour de service —, ou si la carrière s'éteint sans qu'aucune phrase ne soit prononcée. **La seconde option est la plus cohérente avec le monde, et la plus dure.**
 - [ ] **Un berceur peut-il consulter la date d'un autre berceur ?** Il est dans la confidence par métier. Est-il dans la confidence de la sienne ?
