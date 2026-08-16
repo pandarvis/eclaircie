@@ -694,6 +694,14 @@ kbd{
   font-family:var(--mono);font-size:10.5px;background:var(--fond);border:1px solid var(--trait-fort);
   border-bottom-width:2px;border-radius:3px;padding:1px 5px;color:var(--texte-2);
 }
+/* --- les quatre marques, discretes : trente-sept alarmes n'alarment plus --- */
+.marq{display:inline-block;font:600 9.5px/1 var(--sans);letter-spacing:.13em;text-transform:uppercase;
+      padding:3px 6px 4px;border-radius:3px;margin-right:6px;vertical-align:1px;white-space:nowrap;
+      background:none;box-shadow:inset 0 0 0 1px currentColor;opacity:.75}
+.marq.m-d{color:var(--texte-3)}
+.marq.m-t{color:var(--provisoire)}
+.marq.m-v{color:var(--acquis)}
+.marq.m-i{color:var(--alerte);background:color-mix(in srgb,var(--alerte) 14%,transparent);opacity:1}
 </style>
 </head>
 <body>
@@ -897,13 +905,13 @@ const ETAPES = [
   { c0: 14, c1: 14, t: `Chez le suspect` },
   { c0: 16, c1: 16, t: `L'alibi se vérifie` },
   { c0: 18, c1: 18, t: `Ce qu'il reste à suivre` },
-  { c0: 19, c1: 20, t: `La fausse piste tombe — et on continue quand même` },
-  { c0: 21, c1: 23, t: `« Lâche l'affaire »` },
-  { c0: 24, c1: 24, t: `L'appui se retire` },
-  { c0: 25, c1: 27, t: `Seul — puis la solution` },
-  { c0: 28, c1: 28, t: `On entre` },
-  { c0: 29, c1: 30, t: `Le lieu de séquestration` },
-  { c0: 31, c1: 31, t: `La poursuite` }
+  { c0: 19, c1: 21, t: `La fausse piste tombe — et on continue quand même` },
+  { c0: 22, c1: 24, t: `« Lâche l'affaire »` },
+  { c0: 25, c1: 25, t: `L'appui se retire` },
+  { c0: 26, c1: 28, t: `Seul — puis la solution` },
+  { c0: 29, c1: 29, t: `On entre` },
+  { c0: 30, c1: 31, t: `Le lieu de séquestration` },
+  { c0: 32, c1: 32, t: `La poursuite` }
 ];
 
 const SCENES = [
@@ -1034,7 +1042,7 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
-  id: `g-piste`, no: `Non écrite`, col: 27, row: `joel`, acte: `La remontée`, gris: true,
+  id: `g-piste`, no: `Non écrite`, col: 28, row: `joel`, acte: `La remontée`, gris: true,
   face: `s17c`,
   titre: `Il a trouvé une piste seul`,
   statut: `ouvert`,
@@ -1045,7 +1053,7 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
-  id: `g-entre`, no: `Non écrite`, col: 28, row: `joel`, acte: `La remontée`, gris: true,
+  id: `g-entre`, no: `Non écrite`, col: 29, row: `joel`, acte: `La remontée`, gris: true,
   face: `s18`,
   titre: `Il entre seul, sans attendre`,
   statut: `ouvert`,
@@ -1056,7 +1064,7 @@ const SCENES = [
   src: `04-plan/le-meme-jour.md §5 quater`
 },
 {
-  id: `g-seul`, no: `Non écrite`, col: 24, row: `joel`, acte: `L'enlisement`, gris: true,
+  id: `g-seul`, no: `Non écrite`, col: 25, row: `joel`, acte: `L'enlisement`, gris: true,
   face: `s16`,
   titre: `Il reste seul`,
   statut: `ouvert`,
@@ -1491,7 +1499,7 @@ const SCENES = [
   src: `02-univers/le-jardin.md §6 — 03-personnages/la-berceuse.md §7 — décision du 16 août 2026`
 },
 {
-  id: `j3`, no: `Scène 14 · d`, col: 20, row: `joel`, acte: `L'enlisement`,
+  id: `j3`, no: `Scène 14 · d`, col: 21, row: `joel`, acte: `L'enlisement`,
   titre: `Il continue quand même`,
   statut: `acquis`,
   resume: `🔴 **Décision de l'autrice, 16 août 2026.** On le voit acculé. **C'était évidemment une fausse piste.** Une scène de lassitude, énervé d'avoir perdu du temps. *Et pourtant : il pense que ça vaut le coup de continuer.* **Il décide de retourner au commissariat pour parler avec son ami.**`,
@@ -1518,7 +1526,7 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
-  id: `s15a`, no: `Scène 15 · a`, col: 21, row: `andrew`, acte: `L'enlisement`,
+  id: `s15a`, no: `Scène 15 · a`, col: 22, row: `andrew`, acte: `L'enlisement`,
   face: `s15b`,
   titre: `Au commissariat`,
   statut: `acquis`, pivot: true,
@@ -1536,7 +1544,7 @@ const SCENES = [
   src: `04-plan/le-meme-jour.md §5.3, §5.5 — décision du 16 août 2026`
 },
 {
-  id: `s15b`, no: `Scène 15 · b`, col: 22, row: `joel`, acte: `L'enlisement`,
+  id: `s15b`, no: `Scène 15 · b`, col: 23, row: `joel`, acte: `L'enlisement`,
   face: `s15a`,
   titre: `« Lâche l'affaire »`,
   statut: `acquis`, pivot: true,
@@ -1560,7 +1568,7 @@ const SCENES = [
   src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — décision du 16 août 2026`
 },
 {
-  id: `s15c`, no: `Scène 15 · c`, col: 23, row: `andrew`, acte: `L'enlisement`,
+  id: `s15c`, no: `Scène 15 · c`, col: 24, row: `andrew`, acte: `L'enlisement`,
   titre: `Il passe outre`,
   statut: `trou`, pivot: true,
   resume: `La scène continue, et on est chez Andrew. **Là où l'autre s'est arrêté net, celui-ci ne s'arrête pas.** Un élément le décide — il reste à trouver — et il passe outre ce qu'Isaac vient de lui dire.`,
@@ -1583,7 +1591,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.3 — décision du 16 août 2026`
 },
 {
-  id: `s16`, no: `Scène 16`, col: 24, row: `andrew`, acte: `L'enlisement`,
+  id: `s16`, no: `Scène 16`, col: 25, row: `andrew`, acte: `L'enlisement`,
   face: `g-seul`,
   titre: `Isaac lâche l'affaire`,
   statut: `acquis`, pivot: true,
@@ -1603,7 +1611,7 @@ const SCENES = [
 
 /* ---------- LA REMONTÉE ---------- */
 {
-  id: `s17a`, no: `Scène 17 · a`, col: 25, row: `andrew`, acte: `La remontée`,
+  id: `s17a`, no: `Scène 17 · a`, col: 26, row: `andrew`, acte: `La remontée`,
   face: `s17b`,
   titre: `Il se fait des nœuds au cerveau`,
   statut: `trou`,
@@ -1620,7 +1628,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis — décision du 16 août 2026`
 },
 {
-  id: `s17b`, no: `Scène 17 · b`, col: 26, row: `joel`, acte: `La remontée`,
+  id: `s17b`, no: `Scène 17 · b`, col: 27, row: `joel`, acte: `La remontée`,
   face: `s17a`,
   titre: `Il rentre chez lui`,
   statut: `acquis`, pivot: true,
@@ -1643,7 +1651,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.2 — décision du 16 août 2026`
 },
 {
-  id: `s17c`, no: `Scène 17 · c`, col: 27, row: `andrew`, acte: `La remontée`,
+  id: `s17c`, no: `Scène 17 · c`, col: 28, row: `andrew`, acte: `La remontée`,
   face: `g-piste`,
   titre: `Il a trouvé`,
   statut: `trou`, pivot: true,
@@ -1664,7 +1672,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 ter.4, §4 ter.6`
 },
 {
-  id: `s18`, no: `Scène 18`, col: 28, row: `andrew`, acte: `La remontée`,
+  id: `s18`, no: `Scène 18`, col: 29, row: `andrew`, acte: `La remontée`,
   face: `g-entre`,
   titre: `Il entre seul, sans attendre`,
   statut: `acquis`, pivot: true,
@@ -1680,7 +1688,7 @@ const SCENES = [
 
 /* ---------- LE SEUIL FRANCHI DEUX FOIS ---------- */
 {
-  id: `corps`, no: `Chapitre B`, col: 29, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `corps`, no: `Chapitre B`, col: 30, row: `joel`, acte: `Le seuil franchi deux fois`,
   face: `s19a`,
   titre: `Les corps`,
   statut: `acquis`, pivot: true,
@@ -1707,7 +1715,7 @@ const SCENES = [
   src: `07-recherches/references-de-scenes.md — 04-plan/le-meme-jour.md`
 },
 {
-  id: `s19a`, no: `Chapitre C`, col: 30, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19a`, no: `Chapitre C`, col: 31, row: `andrew`, acte: `Le seuil franchi deux fois`,
   face: `corps`,
   titre: `Le même lieu, l'autre issue`,
   statut: `acquis`, pivot: true,
@@ -1727,7 +1735,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — décision du 16 août 2026`
 },
 {
-  id: `poursuite`, no: `Chapitre D`, col: 31, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `poursuite`, no: `Chapitre D`, col: 32, row: `joel`, acte: `Le seuil franchi deux fois`,
   face: `s19c`,
   titre: `La poursuite`,
   statut: `acquis`, pivot: true,
@@ -1748,7 +1756,7 @@ const SCENES = [
   src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3 — décision du 16 août 2026`
 },
 {
-  id: `s19c`, no: `Chapitre E`, col: 32, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19c`, no: `Chapitre E`, col: 33, row: `andrew`, acte: `Le seuil franchi deux fois`,
   face: `poursuite`,
   titre: `Elle n'a pas fui`,
   statut: `acquis`, pivot: true,
@@ -1772,7 +1780,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/la-berceuse.md — décision du 16 août 2026`
 },
 {
-  id: `ceremonie3`, no: `Chapitre F`, col: 33, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `ceremonie3`, no: `Chapitre F`, col: 34, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La cérémonie, une seconde fois`,
   statut: `acquis`, pivot: true,
   resume: `🔴 **Elle ne redécrit rien.** *Décision de l'autrice, 16 août 2026 : ce chapitre ne rejoue pas la cérémonie — il donne uniquement ce qu'Andrew avait omis.* **Ce qu'il croyait ne pas avoir entendu :** la phrase d'ouverture en entier — *« la cérémonie du jour nous offre trois arrivants au lieu de deux ; le troisième nous ayant surpris par son éclaircissement inopiné ».* **Et ce qu'il croyait ne pas avoir senti :** une odeur, au loin, dont quelqu'un parlait.`,
@@ -1806,7 +1814,7 @@ const SCENES = [
   src: `04-plan/deux-histoires-en-une.md §7 — 02-univers/la-ruche.md — décision du 16 août 2026`
 },
 {
-  id: `registre-fin`, no: `Temps 5`, col: 34, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `registre-fin`, no: `Temps 5`, col: 35, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La ligne de registre`,
   statut: `acquis`,
   resume: `**Il y va parce que le souvenir l'y envoie.** Une date, une travée, **trois arrivants** — deux numéros collés, et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Et une quatrième ligne, courte : une travée, deux dates, et rien d'autre. **Ni âge, ni nom, ni numéro.**`,
@@ -1827,7 +1835,7 @@ const SCENES = [
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 35, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 36, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1842,7 +1850,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Dernière page`, col: 37, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Dernière page`, col: 38, row: `andrew`, acte: `Épilogue`,
   titre: `En tête à tête`,
   statut: `acquis`, pivot: true,
   resume: `June partie, Andrew reste seul avec lui. **C'est là qu'il raconte.** Une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, dits comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. **C'est le calme qui glace.** Et le livre se ferme sur sa réplique.`,
@@ -1864,7 +1872,7 @@ const SCENES = [
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Épilogue · six ans plus tard`, col: 36, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Épilogue · six ans plus tard`, col: 37, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `trou`, pivot: true,
   resume: `**Comment se déroule une arrivée au jardin.** Eliott a huit ans, Andrew quarante-six. On l'installe, on lui montre. **June passe la main à une consœur du jardin, fait ses adieux et s'en va en lui souhaitant le meilleur.** Andrew reste.`,
@@ -3547,7 +3555,17 @@ const $  = (s, r) => (r || document).querySelector(s);
 const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
 const esc = s => String(s == null ? `` : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 /* **gras** et *italique* dans les textes de données */
-const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, `<strong>$1</strong>`).replace(/(^|[\s(«"])\*(?!\s)(.+?)\*/g, `$1<em>$2</em>`);
+/* Quatre marques, et rien d'autre. Elles remplacent les pastilles :
+   un mot se lit, un rond rouge ne dit rien — et il y en avait trente-sept. */
+/* Le rond rouge marquait « ça vient d'elle, ne le perds pas ». Il y en avait
+   trente-sept : il ne marquait donc plus rien. On ne garde que l'état. */
+const MARQ = { '⛔':[`i`,`interdit`], '⚠':[`t`,`à trancher`], '✅':[`v`,`tranché`] };
+const rich = s => esc(s)
+  .replace(/\*\*(.+?)\*\*/g, `<strong>$1</strong>`)
+  .replace(/(^|[\s(«"])\*(?!\s)(.+?)\*/g, `$1<em>$2</em>`)
+  .replace(/\u{1F534}️?\s*/gu, ``)
+  .replace(/(⛔|⚠|✅)️?\s*/gu,
+           (m, e) => `<span class="marq m-${MARQ[e][0]}">${MARQ[e][1]}</span>`);
 const ST = { acquis:`acquis`, provisoire:`provisoire`, trou:`à trouver`, ouvert:`ouvert`, ecarte:`écarté` };
 
 /* ---------- mémoire du navigateur, avec repli ----------
