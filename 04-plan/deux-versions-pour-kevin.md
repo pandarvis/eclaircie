@@ -103,17 +103,28 @@ qui s'excuse d'exister.**
 
 ### La scène
 
-Même promenade, même homme qui suit un fantôme. **Et il rentre dans quelqu'un sans faire
-attention.**
+Même promenade, même homme qui suit un fantôme. Et une phrase du garçon lui revient —
+*« mais si, là il y a un magasin de chaussures, pas une épicerie »*. **Alors il entre
+dans l'épicerie.**
+
+Pas pour chercher quelque chose : le magasin ne contient rien, et il n'y cherche rien.
+Il y entre parce qu'un gamin en avait parlé et qu'il n'a plus que ça. **Un geste de
+deuil, pas d'enquête.** Il flâne dans les rayons, il passe en caisse.
 
 ### Le comportement de la berceuse
 
-1. **Elle s'excuse — *« p… pardon »* — beaucoup trop vite pour être innocente.**
-2. **Elle s'en va d'un pas rapide, non sans se retourner.**
-3. Car elle, elle l'a reconnu : elle l'a aperçu au jardin avec le policier.
+Elle est devant lui dans la file. **Elle l'a vu, lui pas.**
 
-**Andrew serait passé outre**, parce qu'il ne l'a pas reconnue. Mais son attitude, mêlée
-à cette voix qu'il a déjà entendue quelque part, le font tiquer.
+1. **Elle est nerveuse et elle laisse tomber sa monnaie.**
+2. Il s'accroupit pour l'aider à ramasser. **« Heu… pardon… »**
+3. **Leurs regards se croisent. Un micro-blanc** — une seconde de trop, un regard qui ne
+   se détourne pas assez vite — et elle se remet à compter sa monnaie.
+4. Elle finit de payer maladroitement et **sort en trombe**.
+
+**Andrew ne la reconnaît pas. C'est sa voix qui la reconnaît, et ça l'interpelle — rien
+de plus.** Il ne la soupçonne de rien : il aide quelqu'un à ramasser des pièces, c'est
+tout ce qu'il croit faire. Une écharde, pas une piste. **Et c'est la façon dont elle
+sort qui, une minute plus tard, transforme l'écharde en question.**
 
 ### La suite
 
@@ -131,11 +142,16 @@ attention.**
 reconnaissance qui n'a pas eu lieu — et c'est cette réaction qui la déclenche. Sans son
 affolement, il passait son chemin. **Elle fabrique elle-même ce qu'elle redoute.**
 
-**Le hasard n'achète qu'un soupçon.** Se rentrer dedans dans un quartier qu'il arpente
-n'est pas une invraisemblance, et surtout ça ne lui donne rien. Tout ce qui suit est du
-travail : retourner au jardin, obtenir un nom, se faire refuser l'adresse, attendre un
-jour, marcher derrière quelqu'un. Le hasard ouvre une porte de deux centimètres ; le
-reste, il le pousse.
+**Et ce sont les mots du garçon qui l'amènent là, sans jamais être un indice.** Ce que ce
+gosse racontait lui a valu de n'être cru par personne, et ça l'a blessé — c'est le cœur
+de la dernière scène où on le voit. **Ce sont ces mêmes mots, faux, moqués, qui amènent
+Andrew au bon endroit.** Et rien n'est vérifié pour autant : l'épicerie est bien une
+épicerie. *Il avait tort, et il sauve tout.*
+
+**Il n'y a presque pas de hasard.** Elle fait ses courses dans le quartier où elle
+travaille ; il entre dans un magasin pour une raison qui lui appartient. Et tout ce qui
+suit est du travail : retourner au jardin, obtenir un nom, se faire refuser l'adresse,
+attendre un jour, marcher derrière quelqu'un.
 
 **Et il ne trouve toujours rien lui-même : c'est elle qui le conduit.** L'homme qui croit
 les documents et pas les gens est sauvé en suivant quelqu'un.
@@ -146,7 +162,8 @@ les documents et pas les gens est sauvé en suivant quelqu'un.
   chapitres plutôt qu'un.
 - **Une filature**, avec le risque d'un morceau de roman policier ordinaire au moment le
   plus important du livre.
-- La rencontre dans la rue est une coïncidence, même si elle ne donne presque rien.
+- Il faut qu'une des fabulations du garçon nomme, très tôt, un lieu où l'on peut entrer —
+  et qu'elle passe inaperçue au milieu des autres.
 
 ---
 
@@ -159,7 +176,7 @@ réponses de la maison ; version B lui donne un nom obtenu officiellement et une
 **Est-ce que la coupable reste aimable ?** Le livre y tient. Elle a pleuré en berçant un
 enfant, elle s'excuse d'exister, et à l'arrestation elle triture son collier avant de
 tendre les mains. Version A la montre en train de mentir bêtement ; version B la montre
-en train d'avoir peur.
+en train de trembler à une caisse d'épicerie.
 
 **Est-ce qu'Andrew reste médiocre ?** C'est essentiel : il ne doit jamais devenir bon. Ce
 qui le sauve est son entêtement, exactement le même qui lui a fait perdre Isaac trois
