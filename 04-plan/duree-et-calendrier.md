@@ -13,7 +13,7 @@ Ce que le verdict décide : [`../02-univers/ce-qui-est-juge.md`](../02-univers/c
 > 1. **Tout le monde revient à l'âge où il est parti.**
 > 2. **Tout le monde rejoint huit ans** — en descendant si l'on arrive au-dessus, **en grandissant si l'on arrive en dessous.**
 > 3. **Le jardin est un plateau à huit ans**, et sa durée varie d'un dossier à l'autre.
-> 4. **Puis on repart du jardin, vers le bas, et on meurt à zéro.**
+> 4. **Puis on repart du plateau, vers le bas, et on meurt à zéro — sans quitter le jardin.**
 > 5. **Personne ne vit moins de quarante ans.**
 
 **Il n'existe aucun calcul d'attribution du chiffre d'arrivée.** L'âge d'arrivée *est* l'âge de mort, sans exception.
@@ -30,21 +30,33 @@ Ce document supposait partout un palier à cinq ans, atteint par le haut, avec u
 
 | Comment on arrive | Ce qui se passe |
 |---|---|
-| **Au-dessus de huit** | on descend jusqu'à huit — **un an par an au-dessus de cinquante**, **environ trois ans par marche chez les jeunes arrivants** |
-| **En dessous de huit** | **on ne régresse pas : on grandit jusqu'à huit, à 1:1.** Un an vécu, un an gagné |
+| **Au-dessus de huit** | on descend jusqu'à huit — **un an par an au-dessus de cinquante**, **environ trois ans par marche chez les jeunes arrivants** — **et cette descente se fait dehors** |
+| **En dessous de huit** | **on ne régresse pas : on grandit jusqu'à huit, à 1:1.** Un an vécu, un an gagné — **et cette croissance se fait au jardin**, où l'on est entré le jour de son éclaircie |
 | **À huit pile** | **on entre directement au jardin.** Un berceur est appelé, et c'est lui qui le nomme |
 
-**Le mouvement est le même dans les deux sens : rejoindre huit.** Un enfant qui arrive à quatre ans et un homme qui arrive à soixante-deux font la même chose, à des vitesses et dans des directions opposées — ils vont au jardin.
+**Le mouvement est le même dans les deux sens : rejoindre huit.** Un enfant qui arrive à quatre ans et un homme qui arrive à soixante-deux font la même chose, à des vitesses et dans des directions opposées. *Ce qu'ils ne font pas au même endroit : l'homme marche vers le jardin, l'enfant marche dedans.*
+
+> ### ✅ Précision de l'autrice, 16 août 2026 — le jardin est un âge, pas une destination
+>
+> *« On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir. »*
+
+**Le jardin est la tranche de huit à zéro, tout entière.** Quiconque a huit ans ou moins y est, par défaut, sans condition, et quel que soit le sens de sa trajectoire.
+
+**Aucune règle du décompte ne change. Ce qui change est le lieu du premier temps**, et il dépend du côté d'où l'on vient : **qui arrive au-dessus de huit fait son approche dehors ; qui arrive en dessous la fait au jardin.** Un arrivant de six ans y entre le jour de son éclaircie, y grandit jusqu'à huit, y reste le temps de son plateau, puis y redescend jusqu'à zéro — **il y passe sa vie entière.**
+
+**Et le troisième temps ne va nulle part** : on redescend de huit à zéro sans sortir du jardin. *L'ancienne formule « on repart du jardin » est fausse ; on repart du plateau.*
+
+*Ce qui est arbitré du même coup, et il faut le dire : les vingt-trois arrivants de six ans basculés directement au jardin ([`le-parcours-de-l-enquete.md`](le-parcours-de-l-enquete.md), scène 11) sont **justes**. C'était le dossier du jardin qui avait tort.*
 
 ## Une vie a trois temps
 
 | | Le temps | Ce que fait l'âge |
 |---|---|---|
-| **1** | **La marche vers huit** | descente ou croissance, selon le côté d'où l'on vient |
-| **2** | **Le jardin** | **un plateau à huit ans**, dont la durée varie selon les dossiers |
-| **3** | **La fin** | l'âge repart vers le bas — sept, six, cinq… **On meurt à zéro** |
+| **1** | **La marche vers huit** | descente ou croissance, selon le côté d'où l'on vient — **dehors si l'on arrive au-dessus, au jardin si l'on arrive en dessous** |
+| **2** | **Le plateau** | **un plateau à huit ans**, au jardin, dont la durée varie selon les dossiers |
+| **3** | **La fin** | l'âge repart vers le bas — sept, six, cinq… **au jardin, toujours. On meurt à zéro** |
 
-**Huit ans n'est pas un terminus. C'est un palier, et on en repart.**
+**Huit ans n'est pas un terminus. C'est un palier, et on en repart.** *On repart du palier, jamais du jardin : en dessous de huit, on y est encore — et on n'en sortira plus.*
 
 > **La parole se dégrade vers quatre ans.** Pas à huit. C'est un événement du troisième temps, et il est bien plus tardif que tout ce que le livre montre.
 
@@ -66,6 +78,8 @@ Trois segments, et **le premier peut monter** :
 
 *Le dessin lui-même n'est pas fait ici. Ce qu'il lui faut : trois segments par personnage, un axe des âges de zéro à l'âge d'arrivée, une ligne de repère à huit, un axe du temps vécu, et **la troisième pente en trait discontinu** tant que sa durée n'est pas arrêtée par l'autrice.*
 
+*Et une lecture de plus depuis le 16 août 2026, sans une ligne à redessiner : **la ligne des huit ans est aussi la frontière du jardin.** Tout ce qui est sur elle ou en dessous s'y passe — le plateau, la chute finale, et la première pente entière quand elle monte.*
+
 ---
 
 ## Les trois règles — le plancher, l'invisibilité de la grâce, le tabou
@@ -79,7 +93,7 @@ Trois segments, et **le premier peut monter** :
 | **Le corps, à l'arrivée** | **ouvert** — voir « Reste ouvert » | on ne sait plus s'il en existe un, puisqu'on grandit désormais jusqu'à huit |
 | **Le temps** | **quarante ans** | la durée de vie totale ne descend pas plus bas |
 
-Conséquence : **qui arrive à cinq ans dispose de quarante ans, comme qui arrive à dix.** La différence entre eux cesse d'être une différence de quantité pour devenir une différence de nature — le premier grandit trois ans avant d'entrer au jardin, le second en descend six. **Ni l'un ni l'autre n'y reste jusqu'au bout.**
+Conséquence : **qui arrive à cinq ans dispose de quarante ans, comme qui arrive à dix.** La différence entre eux cesse d'être une différence de quantité pour devenir une différence de nature — **le premier entre au jardin le jour de son éclaircie et y grandit trois ans ; le second met six ans à l'atteindre.** *Et aucun des deux n'en ressortira : ils y feront leur plateau, puis leur fin.* **Le premier y passe donc sa vie entière ; le second, tout ce qui lui reste après sa descente.**
 
 > **La qualité change, la quantité non.**
 
@@ -151,11 +165,15 @@ Deux choses, et il faut tenir les deux :
 
 **La marche s'arrête à huit ans, mais la vie ne s'arrête pas là. Et le temps, lui, ne s'interrompt jamais.**
 
-On monte ou on descend un escalier. Arrivé au palier — **le jardin** — on s'y assoit, et on y reste des années. **Puis on se relève et on descend, sous l'enfance, jusqu'à zéro.**
+On monte ou on descend un escalier. Arrivé au palier, on s'y assoit, et on y reste des années. **Puis on se relève et on descend, sous l'enfance, jusqu'à zéro.**
 
 Une durée de vie, c'est donc **l'escalier, le palier, et la volée du bas**. Jamais deux des trois.
 
 *L'ancienne formule de ce document — « escalier plus palier » — est incomplète, et la précédente correction, qui ne voyait l'escalier que dans un sens, l'était aussi. La bonne image est **un escalier qu'on prend par le haut ou par le bas, un palier, et un escalier**.*
+
+> **Et une précision de lieu, 16 août 2026 : le jardin n'est pas le palier. C'est tout le bas de la cage d'escalier.**
+
+**Il commence à la huitième marche et va jusqu'en bas.** On y est dès qu'on y touche, qu'on soit monté ou descendu pour l'atteindre, et **on n'en ressort pas** : le palier y est, la volée du bas y est, et pour qui arrive en dessous de huit, la montée aussi. *Le seul qui fasse une partie de sa vie dehors est celui qui arrive au-dessus, et c'est sa descente.*
 
 ### La vitesse
 
@@ -177,7 +195,7 @@ Une durée de vie, c'est donc **l'escalier, le palier, et la volée du bas**. Ja
 | **Erin — 64 ans** | **56 ans de descente** | **non fixé** | **non fixée, et indatable** | **ouvert** |
 | **Chrissy et Tania — 18 ans** | **~30 ans de descente** — *arrivées il y a dix ans : elles en ont **quinze** pendant le livre* | **allongé, non fixé, sans borne haute** | **non fixée** | **ouvert** |
 | **Eliott — 10 ans** | **6 ans de descente** | **non fixé** | **non fixée** | **40 ans au moins** |
-| *Exemple — une arrivée à 5 ans* | **3 ans de croissance, à 1:1** | **non fixé** | **non fixée** | **40 ans au moins** |
+| *Exemple — une arrivée à 5 ans* | **3 ans de croissance, à 1:1 — au jardin, dès le premier jour** | **non fixé** | **non fixée** | **40 ans au moins** |
 | *Exemple — une arrivée à 8 ans pile* | **rien : entrée directe au jardin** | **non fixé** | **non fixée** | **40 ans au moins** |
 
 *Les deux dernières lignes ne sont le dossier de personne : ce sont les cas limites qui illustrent la convergence. Aucun personnage du roman n'arrive à ces âges-là.*
@@ -194,9 +212,9 @@ Une durée de vie, c'est donc **l'escalier, le palier, et la volée du bas**. Ja
 
 **Eliott arrive à 10 ans : il n'a que deux marches à descendre, et chacune prend trois ans — six ans de descente.** C'est le seul chiffre dont le livre ait besoin, et c'est lui qui porte tout le calendrier. **Puis le plateau, puis la fin, non chiffrés.** Ce qui est acquis, sous la règle A : **il a au moins quarante ans de vie**, dont six sont derrière lui à l'épilogue. *La répartition des trente-quatre autres entre plateau et fin n'est pas fixée, et ce document ne la fixe pas.*
 
-**Une arrivée à cinq ans** — *exemple du système, pas un personnage* — **grandit**. Trois ans à 1:1, et elle entre au jardin à huit, comme tout le monde. **Elle ne régresse à aucun moment**, ce que l'ancienne version de ce document faisait, et c'était faux.
+**Une arrivée à cinq ans** — *exemple du système, pas un personnage* — **grandit**. Trois ans à 1:1, jusqu'à huit. **Elle ne régresse à aucun moment**, ce que l'ancienne version de ce document faisait, et c'était faux. **Et elle n'entre pas au jardin à huit ans : elle y est depuis le premier jour**, puisque le jardin est la tranche de huit à zéro tout entière. *Ce que la décision du 16 août 2026 corrige ici est le lieu, pas la durée : trois ans de croissance, et rien d'autre n'est chiffré.*
 
-*Les formules « la vie entière est un palier », « il s'éteint à cinq ans », « le plancher est de trente ans » figuraient toutes ici. **Les trois sont fausses.***
+*Les formules « la vie entière est un palier », « il s'éteint à cinq ans », « le plancher est de trente ans » figuraient toutes ici. **Les trois sont fausses** — et une quatrième s'y ajoute depuis le 16 août 2026 : **« il entre au jardin à huit ans » ne vaut que pour qui arrive au-dessus.** Pour qui arrive en dessous, il n'y a pas d'entrée : il y est déjà.*
 
 ### Le piège à ne jamais tomber dedans
 
@@ -287,7 +305,7 @@ L'ancien calendrier faisait porter la prémisse par les corps du casting. **Ce m
 |---|---|
 | **Les cérémonies** | des capsules qui s'ouvrent sur des vieillards, semaine après semaine, comme une routine de service |
 | **Les vétérans qui ont l'air d'avoir vingt ans** | un homme arrivé il y a quarante ans, qui parle comme un ancien, et que personne ne trouve étrange |
-| **Un vieillard de huit ans au jardin** | le palier, montré une fois, sans un mot de commentaire. *Ce n'est pas « le bout de la course » : il en repartira* |
+| **Un vieillard de huit ans au jardin** | le palier, montré une fois, sans un mot de commentaire. *Ce n'est pas « le bout de la course » : il repartira du palier, vers le bas, sans quitter le jardin* |
 | **Le suivi médical** | le relevé à l'instrument, la ligne au registre, la mesure d'un corps qui recule |
 
 **Aucun personnage n'a besoin de changer pour que le lecteur comprenne.**
@@ -353,7 +371,7 @@ C'est exactement le temps qu'il met à descendre de dix ans à huit : **deux mar
 
 > **L'épilogue est une entrée, pas une fin, et le mot compte.**
 >
-> Il lui reste ensuite **le plateau**, puis **la fin jusqu'à zéro** — l'un et l'autre non chiffrés, et au moins trente-quatre ans en tout sous la règle A. *Aucune formulation du plan ne doit faire de son entrée au jardin le terme de sa vie.*
+> Il lui reste ensuite **le plateau**, puis **la fin jusqu'à zéro** — l'un et l'autre au jardin, qu'il ne quittera plus, l'un et l'autre non chiffrés, et au moins trente-quatre ans en tout sous la règle A. *Aucune formulation du plan ne doit faire de son entrée au jardin le terme de sa vie.*
 
 ### Un seul moment, et c'est le point important
 
@@ -434,7 +452,7 @@ Le corps du livre prend quelques semaines dans une vie qui compte au moins cinqu
 - [ ] **Le plancher d'arrivée.** Existe-t-il encore ? On grandit désormais jusqu'à huit, donc rien n'oblige plus à relever un chiffre d'arrivée trop bas. **Non tranché.**
 - [ ] **Les durées exactes de plateau.** Pour tout le monde, et en particulier le supplément de Chrissy et Tania, qui n'a pas de borne haute.
 - [ ] **Les durées exactes de fin**, de huit à zéro, et sa vitesse. La même que la marche vers huit, ou une seconde vitesse ?
-- [ ] **Les berceurs accompagnent-ils aussi la descente sous huit ans ?** Le métier était *« accompagner ceux qui sont au jardin jusqu'au dernier jour »*, et le dernier jour n'est plus au jardin. **Question de monde avant d'être une question de fiche.**
+- [ ] **Qui prend en charge un arrivant qui grandit — un berceur, un tuteur, les deux ?** *Le lieu est tranché depuis le 16 août 2026, le métier ne l'est pas.* Un arrivant de deux ans a six ans à monter, **et il les monte au jardin**. Le partage berceur / tuteur n'avait pas prévu quelqu'un qui monte, et encore moins quelqu'un qui monte à l'intérieur du jardin. **Question de monde avant d'être une question de fiche.**
 
 **Le reste :**
 
@@ -451,6 +469,8 @@ Le corps du livre prend quelques semaines dans une vie qui compte au moins cinqu
 
 **Clos :**
 
+- [x] ~~**Où se passe la marche vers huit, quand on arrive en dessous ?**~~ — **tranché, 16 août 2026 : au jardin.** *« On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir. »* Le jardin est la tranche de huit à zéro tout entière ; **il n'existe plus de temps de la vie sans lieu attribué.**
+- [x] ~~**Les berceurs accompagnent-ils aussi la descente sous huit ans ?**~~ — **question dissoute, 16 août 2026.** Elle ne se posait que parce qu'on croyait le dernier jour passé hors du jardin. **Il y est**, et la définition du métier — *« accompagner ceux qui sont au jardin jusqu'au dernier jour »* — tient sans une retouche. *Ce qui subsiste n'est plus une question de périmètre mais de personne : est-ce le même berceur du haut en bas ? Ce document ne la traite pas.*
 - [x] ~~**Le palier à cinq ans.**~~ — **caduc, 16 août 2026 : huit ans**, et c'est un point de convergence, pas un plancher.
 - [x] ~~**Le plancher de durée à trente ans.**~~ — **caduc, 16 août 2026 : quarante ans.**
 - [x] ~~**Les totaux du tableau incluent-ils la décroissance ?**~~ — **question dissoute, 16 août 2026.** Les totaux sont supprimés : sous la règle A bis, ils ne sont pas calculables pour les grands chiffres.
@@ -462,3 +482,18 @@ Le corps du livre prend quelques semaines dans une vie qui compte au moins cinqu
 - [x] ~~**Règle B — le plafond de la grâce.**~~ — **abandonné et remplacé, 15 août 2026 : la grâce ne se voit pas.**
 - [x] ~~**L'âge d'arrivée de Chrissy et Tania.**~~ — **clos : dix-huit ans.**
 - [x] ~~**L'arrivant à cinq ans dans le tableau.**~~ — **clos : c'est un exemple du système, pas un personnage.** Voir [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md), tenu en réserve.
+
+---
+
+## Corrections appelées hors de ce document — signalées, non appliquées
+
+*Conséquences de la décision du 16 août 2026. **Aucune n'est portée ici**, et [`../02-univers/`](../02-univers/) est en cours de reprise par ailleurs.*
+
+- **[`../02-univers/le-jardin.md`](../02-univers/le-jardin.md)** — « il les passe **hors du jardin** puisqu'il n'y entre qu'à huit » et « **le seul temps de la vie qui n'a pas de lieu attribué** » sont périmés. C'est la fiche que la décision corrige en premier.
+- **[`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md)** — le tableau des trois temps donne la direction du premier temps, pas son lieu ; il en a un désormais, et il diffère selon le côté d'où l'on vient.
+- **[`../02-univers/la-ruche.md`](../02-univers/la-ruche.md)** — la question « qui prend en charge un arrivant qui va grandir ? » perd sa part de lieu et garde sa part de métier.
+- **[`../L-ECLAIRCIE-dossier-complet.md`](../L-ECLAIRCIE-dossier-complet.md)** — §7 et §10 : « on grandit jusqu'à huit, **puis** le palier » se lit comme deux lieux et n'en fait plus qu'un. *Rappel : le tableau du §7 reste par ailleurs périmé sur le palier et le plancher.*
+- **[`../03-personnages/june.md`](../03-personnages/june.md)** — celui qui grandit est au jardin avant huit ans, donc dans la charge d'une berceuse dès le premier jour.
+- **[`../01-dossier/expliquer-le-systeme.md`](../01-dossier/expliquer-le-systeme.md)** — « le petit qui grandit » monte au jardin, et la vulgarisation gagne à le dire.
+- **[`../06-visuels/atelier/atelier.html`](../06-visuels/atelier/atelier.html)** — la carte « qui s'occupe de la croissance en dessous de huit ans ? » perd sa moitié « hors du jardin » ; la contradiction des vingt-trois arrivants de six ans passe de *ouvert* à *réglé*.
+- **[`../06-visuels/frise-narrative/frise-narrative.html`](../06-visuels/frise-narrative/frise-narrative.html)** — les courbes sont inchangées, seule la légende du lieu bougerait. **À ne toucher qu'après validation de l'autrice.**

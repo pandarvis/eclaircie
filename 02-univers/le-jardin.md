@@ -4,7 +4,41 @@
 
 *Intègre trois décisions de l'autrice du 16 août 2026 — **les pédiatres du jardin**, **la relève des berceurs**, **la piste du piratage mise en réserve** — et **la correction du 17 août 2026, qui refonde le document entier.***
 
+*Et **la règle d'entrée du 16 août 2026**, qui achève le mouvement : le jardin n'est plus un seuil qu'on franchit, **c'est la tranche d'âge de huit à zéro tout entière.** Avertissement en tête.*
+
 *🟡 **Décision validée provisoirement, 16 août 2026 — à revoir.** L'enquête entre dans le jardin : c'est la résolution de la seconde fausse piste ([`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) §4 ter.2 bis). **Le document reçoit avec elle la scène que l'autrice demande — la mort d'un zéro, portée par une berceuse — et elle est en §6.** L'autrice veut y revenir : rien de cette décision n'est définitif.*
+
+---
+
+## ⚠️ La règle d'entrée : le jardin est la tranche de huit à zéro
+
+> **Décision de l'autrice, 16 août 2026.**
+>
+> *« On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir. »*
+
+**Il n'y a plus de portes. Il y a une tranche d'âge.**
+
+Ce document posait qu'on entre au jardin **par** quelque chose — descendu du haut, grandi depuis le bas, ou arrivé à huit pile. **La formulation en trois portes est périmée.** Le jardin n'est pas un seuil qu'on franchit : **c'est l'ensemble des âges de huit à zéro**, et quiconque s'y trouve y est.
+
+> ### **Avoir huit ans ou moins, c'est être au jardin. Sans condition, et quel que soit le sens de la trajectoire.**
+
+| Où en est le corps | Où est la personne |
+|---|---|
+| **Au-dessus de huit** | dehors. Elle descend |
+| **Huit et en dessous, en train de descendre** | **au jardin** |
+| **Huit et en dessous, en train de grandir** | **au jardin**, exactement au même titre |
+
+**Ce que ça change pour les arrivants sous le seuil, et c'est le plus lourd.** Un arrivant de six ans n'attend plus deux ans dehors : il entre au jardin le jour de son éclaircie, il y grandit jusqu'à huit, il y tient son plateau, il y redescend jusqu'à zéro. **Il y passe sa vie entière, sans en être sorti une seule fois.**
+
+À l'autre bout, rien ne change : un arrivant de soixante-deux ans passe cinquante-quatre ans dehors, entre au jardin le jour où il atteint huit, et n'en sort plus.
+
+> **Plus on arrive jeune, plus grande est la part de la vie passée au jardin — et en dessous de huit, c'est la totalité.**
+
+**Ce que ça ferme.** La question *« qui s'occupe de la croissance en dessous de huit ans ? »* n'est plus ouverte. La croissance se passe **au jardin**, et ce sont **les berceurs**. **Il n'existe plus un seul temps de la vie sans lieu attribué.** Question retirée du §8 et marquée tranchée.
+
+**Ce que ça confirme.** Les **vingt-trois arrivants de six ans** basculés directement au jardin le jour de leur cérémonie ([`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md), scène 11) étaient signalés comme une contradiction avec ce document. **Ils n'en sont pas une : la scène est juste, et c'est ce document qui avait tort.**
+
+*Toute formulation qui fait du jardin une porte, un seuil ou une destination est à corriger. La tournure exacte : **on est au jardin**, comme on est à un âge.*
 
 ---
 
@@ -16,14 +50,14 @@
 
 **Ce document posait le jardin comme le plateau à huit ans, et l'endroit où on le vit. La seconde moitié était juste, la première était fausse, et elle contaminait tout le reste.**
 
-On **entre** au jardin à huit ans — qu'on y soit descendu, qu'on y ait grandi, ou qu'on soit arrivé à huit pile. **On n'en sort pas.** Le plateau s'y passe, puis la descente s'y passe aussi, et le dernier jour aussi.
+On est au jardin **dès qu'on a huit ans ou moins**, et **on n'en sort pas.** Le plateau s'y passe, puis la descente s'y passe aussi, et le dernier jour aussi. *⚠️ Cette section disait « on entre au jardin à huit ans — qu'on y soit descendu, qu'on y ait grandi, ou qu'on soit arrivé à huit pile ». **La règle d'entrée du 16 août 2026 supprime les trois portes** : voir l'avertissement ci-dessus.*
 
 | | Ce que c'est |
 |---|---|
 | **Le plateau** | **une phase du décompte.** L'âge s'arrête à huit, un temps variable, puis il repart |
 | **Le jardin** | **un lieu.** L'endroit où l'on vit le plateau, **et tout ce qui vient après** |
 
-> **Le jardin abrite, en même temps et dans les mêmes pièces, des enfants de huit, de sept, de cinq, de trois, de un.**
+> **Le jardin abrite, en même temps et dans les mêmes pièces, des enfants de huit, de sept, de cinq, de trois, de un — et depuis la règle d'entrée, certains d'entre eux montent pendant que les autres descendent.**
 
 **Toute formulation qui fait du jardin un synonyme du plateau est à corriger, ici et ailleurs.** *Le mot juste pour « le plateau à huit ans » est **le plateau** ; le mot juste pour l'endroit est **le jardin**.*
 
@@ -31,21 +65,33 @@ On **entre** au jardin à huit ans — qu'on y soit descendu, qu'on y ait grandi
 
 ## 1. Ce que c'est
 
-**Le dernier lieu de vie.**
+**Le dernier lieu de vie — et, pour ceux qui arrivent sous huit ans, le seul.**
 
-Trois portes donnent sur la même pièce — on y descend depuis le haut, on y grandit depuis le bas, ou l'on y entre le premier jour si l'on est arrivé à huit pile —, et rien sur les corps ne dit par laquelle on est passé (voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md), « La symétrie »). **Il n'y a pas de quatrième porte, et il n'y a pas de sortie.**
+Il n'y a pas de porte : **on y est dès qu'on a huit ans ou moins**, qu'on soit descendu du haut ou qu'on soit arrivé en dessous. Rien sur les corps ne dit d'où l'on vient (voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md), « La symétrie »), et **rien ne dit non plus dans quel sens on va.** Il n'y a pas de sortie.
 
-**Un enfant du jardin y est depuis des années et n'a pas changé d'un jour.** C'est l'image du §14, et elle reste vraie tant que le plateau dure : ni taille, ni dents, ni cheveux. **Puis elle cesse d'être vraie, et c'est tout le sujet du lieu.**
+**Un enfant du jardin y est depuis des années et n'a pas changé d'un jour.** C'est l'image du §14, et elle reste vraie tant que le plateau dure : ni taille, ni dents, ni cheveux. **Puis elle cesse d'être vraie, et c'est tout le sujet du lieu.** *Et depuis la règle d'entrée, elle n'a jamais été vraie de tout le monde à la fois : dans la même pièce, certains grandissent.*
 
-### Un lieu traversé par un mouvement
+### Un lieu traversé par deux mouvements
 
-**Ce n'est pas une salle de gens figés à huit ans.**
+**Ce n'est pas une salle de gens figés à huit ans, et ce n'est plus une pente à sens unique.**
 
-C'est un endroit où l'on entre par le haut et où l'on **descend en public**, sous les yeux de tous les autres. Le mouvement est lent — il se compte en années, pas en jours — mais il est permanent, et il va toujours dans le même sens. Il y a toujours quelqu'un qui vient d'entrer et quelqu'un qui achève.
+La descente reste le mouvement principal, et de très loin. On y **descend en public**, sous les yeux de tous les autres ; le mouvement est lent — il se compte en années, pas en jours — mais il est permanent. Il y a toujours quelqu'un qui vient d'arriver et quelqu'un qui achève.
 
-> **Le jardin ne stagne pas : il s'écoule.**
+**Et il y a, dans les mêmes pièces, des enfants qui montent** : les arrivants sous le seuil, qui grandissent à un an par an jusqu'à huit, et qui font tout ce chemin sans jamais sortir du lieu.
 
-Ce que ça donne au lieu : une pente. Il n'existe aucun endroit du monde où l'on puisse voir une vie entière d'un seul regard, sauf celui-là.
+> **Le jardin ne stagne pas : il s'écoule, et il ne s'écoule pas tout entier dans le même sens.**
+
+Ce que ça donne au lieu : une pente, et quelques-uns qui la remontent. Il n'existe aucun endroit du monde où l'on puisse voir une vie entière d'un seul regard, sauf celui-là.
+
+#### Deux enfants de six ans, et rien ne les sépare
+
+**C'est la conséquence directe de la règle, et elle ne coûte rien à installer.**
+
+Un enfant de six ans qui descend et un enfant de six ans qui monte sont assis côte à côte. Même corps, même âge relevé, même chiffre au dossier. **L'un a huit ans derrière lui, l'autre les a devant** — et un jour donné, rien ne les distingue : ni la taille, ni la parole, ni l'instrument.
+
+**Ce qui les sépare n'est pas dans la pièce, c'est dans le temps.** Il faut des saisons pour voir lequel monte, et il faut être là pour les regarder — ce que personne ne fait, sauf les berceurs et les pédiatres du jardin, dont c'est le métier.
+
+*Régime d'écriture : c'est la symétrie de [`ce-qui-est-juge.md`](ce-qui-est-juge.md) mise en scène sans un mot. Deux enfants qui jouent ensemble ; le lecteur seul sait que l'un des deux fait le chemin de l'autre à l'envers. **Il n'y a rien à énoncer, et surtout pas à faire dire à quelqu'un.***
 
 ### Ce n'est pas un mouroir, c'est un endroit où l'on parle
 
@@ -73,7 +119,9 @@ Le jardin est donc **le seul endroit du monde où l'on tienne une conversation a
 
 **Le tabou ne peut pas être ce qu'on croyait, et le jardin l'interdit.**
 
-Un enfant de huit ans qui entre au jardin voit, dès le premier jour, des enfants de six, de quatre, de deux. **Il voit exactement ce qui l'attend, tous les jours, dans la même pièce.** Il n'a pas à le déduire, à le soupçonner ou à l'apprendre de quelqu'un : c'est le décor.
+Un enfant de huit ans qui arrive au jardin voit, dès le premier jour, des enfants de six, de quatre, de deux. **Il voit exactement ce qui l'attend, tous les jours, dans la même pièce.** Il n'a pas à le déduire, à le soupçonner ou à l'apprendre de quelqu'un : c'est le décor.
+
+*Et celui qui arrive en dessous de huit le voit encore plus tôt : il a six ans, il a huit ans à monter, **et il vit déjà au milieu de ce qui vient après.** Il aura passé sa vie entière dans la démonstration.*
 
 > **Le tabou ne porte donc pas sur ce qui arrive. Ce serait absurde : il en a la démonstration sous les yeux.**
 
@@ -89,7 +137,7 @@ C'est une différence énorme, et elle change ce que fait le personnage du berce
 
 ### Pourquoi la case ne se remplit pas toute seule
 
-Parce que **rien ne la remplit**. Sept ans ressemble à huit. Le corps ne fait pas d'annonce. Le relevé donne le même chiffre à celui qui vient d'entrer au jardin et à celui qui vient de quitter le plateau. **L'information n'est pas sur l'enfant : elle est dans un dossier**, sous forme de chiffre, et l'enfant ne lit pas de dossier.
+Parce que **rien ne la remplit**. Sept ans ressemble à huit. Le corps ne fait pas d'annonce. Le relevé donne le même chiffre à celui qui vient d'atteindre le plateau et à celui qui vient d'en repartir — **et le même encore à celui qui vient de finir de grandir.** **L'information n'est pas sur l'enfant : elle est dans un dossier**, sous forme de chiffre, et l'enfant ne lit pas de dossier.
 
 > **Le tabou n'est donc pas un flou. C'est une date que quelques personnes détiennent.**
 
@@ -112,6 +160,24 @@ Il ne peut pas dire oui. Il ne peut pas dire non, si c'est faux. Il ne peut pas 
 > **C'est tout son métier dans une seule réplique.**
 
 *Régime d'écriture : la scène est disponible et elle est petite. Un berceur, un enfant, une question, une réponse — et le livre n'explique jamais ce qui vient d'être fait. Voir [`../03-personnages/june.md`](../03-personnages/june.md), et l'[interdit n° 3](../01-dossier/les-interdits.md).*
+
+### ⚠️ Ce que devient le tabou pour ceux qui montent — **conséquence à travailler, pas règle acquise**
+
+**Tout ce §2 a été écrit pour un enfant qui descend. Il ne s'applique pas tel quel à un enfant qui monte, et il faut le signaler avant de croire la question réglée.**
+
+Un enfant qui grandit au jardin est dans une position que le document n'avait pas prévue : **sa trajectoire à lui est publique.** Il grandit, ça se voit, ça se mesure, ça se remarque d'une saison à l'autre — et il n'y a rien à lui cacher là-dessus, puisqu'il le constate sur son propre corps. **Il sait qu'il monte.** De ce côté-là, il n'a aucune case vide.
+
+> **Ce qui reste secret n'est donc plus la direction. C'est le moment où elle s'inverse.**
+
+Le tabou ne disparaît pas : il change de forme. Pour celui qui vient d'en haut, la question est *« est-ce que j'ai commencé ? »*. Pour celui qui a monté, elle devient *« est-ce que ça s'est arrêté ? »* — et elle a de quoi être posée plus tôt et plus nettement, **parce qu'il a connu le mouvement inverse et qu'il sait à quoi ressemble un corps qui change.**
+
+*Ce qui n'est pas tranché, et qu'il ne faut surtout pas trancher ici :*
+
+- *l'enfant qui a grandi remarque-t-il, à un moment, qu'il ne grandit plus ? **Un arrêt se remarque d'autant mieux qu'on venait d'un mouvement** — et le plateau est un arrêt ;*
+- *si oui, que lui répond un berceur ? Le §2 fournit une réplique pour la descente commencée ; il n'en fournit aucune pour la croissance arrêtée ;*
+- *et celui qui n'a jamais rien vu d'autre que le jardin a-t-il seulement l'idée qu'il existe un dehors ?*
+
+**Rien de cela n'est acquis.** C'est une conséquence de la règle d'entrée, elle est réelle, et elle appartient à l'autrice. *Reportée en §8.*
 
 ---
 
@@ -167,7 +233,23 @@ Ce qui charge chacune de ses visites : **n'importe laquelle peut être celle-là
 >
 > *« Les berceurs ne sont pas éternels, ils sont relayés quand eux-mêmes rentrent au jardin. Le berceur le plus jeune a douze ans. Entre douze et huit ans ils sont affectés à des tâches plus simples. »*
 
-**Un berceur exerce jusqu'à douze ans.** En dessous, il est affecté à des tâches plus simples. À huit, il entre au jardin à son tour, et quelqu'un d'autre l'accompagne.
+**Un berceur exerce jusqu'à douze ans.** En dessous, il est affecté à des tâches plus simples. À huit, il est au jardin à son tour, et quelqu'un d'autre l'accompagne.
+
+### 5.0 Vérification de cohérence avec la règle d'entrée — **rien ne casse**
+
+**Il fallait le vérifier, et le résultat est net : la relève tient sans une retouche.**
+
+Les trois temps du métier sont tous au-dessus ou au seuil, et la règle d'entrée ne touche à aucun. Jusqu'à douze, il exerce et il est dehors. De douze à neuf, tâches simples, toujours dehors. À huit, il y est. **Le calendrier du métier est intact, et la phrase « il entre au jardin à huit » reste exacte pour lui — parce qu'il descend.**
+
+**Une conséquence apparaît quand même, et elle est nouvelle.**
+
+> **Le métier est fermé, par construction, à ceux qui arrivent en dessous de huit ans.**
+
+Qui est au jardin à six ans n'en sort pas ; il n'atteindra jamais douze ; **il n'exercera aucun métier, jamais, de toute sa vie.** Ce n'était pas visible tant qu'on croyait qu'il grandissait ailleurs — on pouvait imaginer qu'il faisait quelque chose de ses années de croissance. **Il n'en fait rien : il les passe au jardin.**
+
+**Les berceurs sont donc, sans exception, des gens arrivés au-dessus de douze ans.** *Le seul travail que puisse connaître un arrivant sous huit ans est celui du §5.2 — aider les plus bas, à l'intérieur du lieu, sans que ce soit un métier ni que personne l'ait décidé.*
+
+*Et c'est la version la plus littérale du grief des jaloux : il existe des vies entières qui ne connaissent que le jardin. Voir [`la-jalousie.md`](la-jalousie.md).*
 
 ### 5.1 La relève du métier
 
@@ -203,7 +285,9 @@ C'est le tabou qui se referme sur ses propres gardiens. Il ne les épargne pas ;
 
 **Le lieu contient sa propre hiérarchie de capacité, et elle est involontaire.**
 
-Les nouveaux entrants — ceux de huit ans — sont **les plus capables du lieu**. Ils parlent, ils comprennent une consigne, ils portent, ils rassurent, ils peuvent aider. Ceux qui sont plus bas ne le peuvent plus, et ceux qui sont tout en bas ne peuvent plus rien.
+Ceux de huit ans sont **les plus capables du lieu** — qu'ils viennent d'arriver par le haut ou qu'ils aient grandi sur place. Ils parlent, ils comprennent une consigne, ils portent, ils rassurent, ils peuvent aider. Ceux qui sont plus bas ne le peuvent plus, et ceux qui sont tout en bas ne peuvent plus rien.
+
+*Et depuis la règle d'entrée, les plus capables ne sont pas les derniers venus : **celui qui est arrivé à six ans est au jardin depuis deux ans quand il atteint huit.** Le plus ancien du lieu et le plus capable du lieu peuvent être la même personne, ce qui n'était pas possible avant.*
 
 > **Il est donc probable que les grands du jardin aident les petits — avant de descendre à leur tour et d'être aidés par ceux qui entreront après eux.**
 
@@ -314,22 +398,27 @@ Le dispositif la rend possible : il y a des dates, elles sont écrites, elles so
 - [ ] **Qui d'autre est dans la pièce ?** Un pédiatre du jardin, d'autres berceuses, les grands du jardin (§5.2), personne ? **La version la plus dure est celle où le reste du lieu continue** — quelqu'un meurt dans une pièce où d'autres jouent, et rien ne s'arrête.
 - [ ] **Le corps, après.** Le document ne dit nulle part ce que devient quelqu'un arrivé à zéro. *La scène frôle la question sans l'ouvrir ; **elle peut se contenter de s'arrêter avant**, et c'est probablement ce qu'il faut faire.*
 
+**La question neuve du 16 août 2026, ouverte par la règle d'entrée — et c'est la seule qu'elle ouvre :**
+
+- [ ] **Que devient le tabou pour un enfant qui a grandi au jardin ?** Sa croissance était publique ; l'inversion, elle, ne l'est pas. **Remarque-t-il l'arrêt ?** Que lui répond un berceur, puisque la réplique du §2 ne vaut que pour la descente commencée ? Et celui qui n'a jamais rien connu d'autre que le lieu sait-il qu'il existe un dehors ? *Développement en §2, et il est signalé comme conséquence à travailler, pas comme règle.*
+
 **Les deux questions de fond, ouvertes le 17 août 2026 :**
 
-- [ ] **Le jardin est-il un lieu unique et fermé, ou plusieurs endroits ?** Un bâtiment par ville, un par région, une maison, un quartier, un domaine ? **La question a changé de poids depuis la correction** : ce n'est plus « où logent les huit ans », c'est « où se passent les quarante dernières années de tout le monde ». *Sous-questions : y entre-t-on définitivement, ou en sort-on la journée ? Sépare-t-on les âges en salles, ou tout se mélange-t-il — la réponse commande la « moitié silencieuse » du §1 et le plan large qui en dépend. **Et le mot au singulier ne tranche toujours rien.***
+- [ ] **Le jardin est-il un lieu unique et fermé, ou plusieurs endroits ?** Un bâtiment par ville, un par région, une maison, un quartier, un domaine ? **La question a changé de poids deux fois** : ce n'est plus « où logent les huit ans », c'est « où se passent les quarante dernières années de tout le monde » — **et, depuis la règle d'entrée, « où se passe la vie entière de ceux qui arrivent en dessous de huit ».** *Sous-questions : y entre-t-on définitivement, ou en sort-on la journée ? Sépare-t-on les âges en salles, ou tout se mélange-t-il — la réponse commande la « moitié silencieuse » du §1 et le plan large qui en dépend. **Et le mot au singulier ne tranche toujours rien.***
 - [ ] **Qui, des berceurs ou des grands du jardin, fait quoi ?** Les deux relèves du §5 se recouvrent, et le partage n'est pas fait. Les berceurs assurent-ils tout, et l'aide des grands n'est-elle qu'une chose qui arrive ? Le service s'appuie-t-il dessus, l'organise-t-il, l'a-t-il institué ? **La version la plus dure est celle où c'est compté dans l'effectif** : le lieu fonctionne parce que ceux qui vont y mourir y travaillent. *Elle est aussi la plus cohérente avec un monde qui n'a jamais rien décidé et qui a laissé faire.*
 
 **Le reste, ouvert depuis le 16 août :**
 
 - [ ] **Le métier de berceur va-t-il jusqu'à zéro ?** *La question était mal posée tant qu'on croyait que « le dernier jour n'est plus au jardin » : **c'est faux, le dernier jour est au jardin.** La définition du §10 — accompagner jusqu'au dernier jour — redevient exacte dès qu'on écrit le bon mot.* Reste ce qui est vraiment ouvert : **est-ce le même berceur du haut en bas**, ou change-t-on de personne en cours de descente, quand l'enfant cesse de parler ? *Question rouverte dans [`ce-qui-est-juge.md`](ce-qui-est-juge.md) et [`../03-personnages/june.md`](../03-personnages/june.md).* **🟡 Et le §6 la resserre sans la fermer : le métier va jusqu'au dernier jour et il y va en portant** — ce qui est acquis est le terme, pas la continuité de la personne.
-- [ ] **Qui s'occupe de la croissance, en dessous de huit ?** Un arrivant de deux ans a six ans à monter, **et il les passe hors du jardin** puisqu'il n'y entre qu'à huit. Un berceur, un tuteur, les deux ? **C'est le seul temps de la vie qui n'a pas de lieu attribué.**
 - [ ] **À quel moment un berceur apprend-il qu'il est relayé ?** Le dispositif dit qu'on ne le lui annonce pas : il le déduit des tâches simples. Reste à savoir s'il y a malgré tout un moment officiel — une inscription quelque part, un dernier jour de service —, ou si la carrière s'éteint sans qu'aucune phrase ne soit prononcée. **La seconde option est la plus cohérente avec le monde, et la plus dure.**
 - [ ] **Un berceur peut-il consulter la date d'un autre berceur ?** Il est dans la confidence par métier. Est-il dans la confidence de la sienne ?
 - [ ] **Où se trouvent les dates ?** Un dossier médical, un registre du jardin, un carnet de berceur ? [`le-corps-des-arrivants.md`](le-corps-des-arrivants.md) pose déjà un second registre distinct de celui de la ruche ; reste à dire si celui du jardin en est une branche ou un troisième.
 - [ ] **Y a-t-il des berceurs qui n'ont jamais eu à répondre à la question ?** Si oui, celui qui l'entend pour la première fois à quarante ans de métier est une scène.
 - [ ] **Que voit un enfant de huit ans, exactement, le premier jour ?** Le §2 pose qu'il voit la suite ; le dosage appartient à l'écriture. **Trop montrer en fait une horreur, trop peu en fait un mensonge.**
 
+- [x] ~~**Qui s'occupe de la croissance, en dessous de huit ?**~~ — **tranché le 16 août 2026, et c'était la dernière zone sans adresse.** Un arrivant sous le seuil ne grandit pas ailleurs : **il grandit au jardin**, où il est dès le premier jour, et ce sont **les berceurs**. *La formule qui traînait ici — « c'est le seul temps de la vie qui n'a pas de lieu attribué » — est fausse et ne doit être réécrite nulle part.* Voir la règle d'entrée en tête. **Reste ouvert, mais ailleurs : le partage exact avec les tuteurs, s'il y en a un** ([`ce-qui-est-juge.md`](ce-qui-est-juge.md)).
 - [x] ~~**Le jardin est-il le plateau à huit ans ?**~~ — **non, tranché le 17 août 2026.** Le plateau est une phase, **le jardin est le dernier lieu de vie**, de huit à zéro. Voir la correction en tête.
+- [x] ~~**Y entre-t-on par trois portes ?**~~ — **non, tranché le 16 août 2026 : il n'y a pas de portes.** Le jardin est la tranche de huit à zéro ; on y est par défaut, dans les deux sens de trajectoire.
 - [x] ~~**Que fait un pédiatre du jardin en dehors de dater la bascule ?**~~ — **il suit l'enfant jusqu'en bas.** La question venait de ce qu'on croyait le lieu limité au plateau ; il y a une pente à mesurer, et elle occupe le plus clair d'une vie. §4.
 
 ---
@@ -341,3 +430,16 @@ Le dispositif la rend possible : il y a des dates, elles sont écrites, elles so
 - *§10, ligne « Berceurs / Berceuses » — « accompagnent ceux qui sont au palier, jusqu'au dernier jour ». **La formule redevient exacte dès qu'on écrit « au jardin » à la place de « au palier »**, puisque le dernier jour est au jardin. Manquent encore : la **fin de carrière à douze ans** avec les tâches simples en dessous, et l'appartenance au **cercle du secret**.*
 - *§10 — les **pédiatres du jardin** n'y figurent pas. C'est un métier de plus.*
 - *§7 — le palier y est décrit comme un état du corps et rien d'autre. **Le lieu n'y est nulle part**, et la troisième phase de la vie n'y a pas d'adresse.*
+- *§7 — « **arrivé en dessous de huit, on grandit jusqu'à huit** » est exact, mais le dossier maître ne dit pas **où**. **C'est au jardin**, depuis le 16 août 2026, et la ligne est à compléter.*
+
+*Corrections appelées par la règle d'entrée dans des fichiers hors du périmètre de ce lot — signalées, non appliquées :*
+
+| Fichier | Ce qui est à corriger |
+|---|---|
+| [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) | la dernière puce « à trancher » signale les **vingt-trois arrivants de six ans** comme une contradiction avec ce document. **Elle est close : la scène est juste**, et la puce est à passer en tranchée |
+| [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md) | *« il entre au jardin à huit ans »*, *« il entre au jardin trois ans plus tard »* — **faux : l'arrivant de cinq ans est au jardin dès le premier jour et il y grandit.** ⚠️ **L'arithmétique des deux courbes s'en trouve encore déplacée** : le §3 fait dire à ce personnage qu'elle ne le rejoindra pas au jardin, et l'enfant y est trois ans plus tôt qu'on ne le calculait |
+| [`la-terre.md`](la-terre.md) | *« rien en dessous du jardin »* — **la phrase redevient exacte**, mais pour une autre raison qu'elle ne le croyait : il n'y a plus huit ans de vie sous le jardin, le jardin les contient. Le plancher à cinq ans qui l'accompagne reste faux |
+| [`../03-personnages/june.md`](../03-personnages/june.md) | *« qui arrive en dessous grandit jusqu'à huit, et le rejoindra »* — **il ne rejoint rien : il y est déjà.** La charge d'une berceuse comprend donc aussi des enfants qui montent |
+| [`la-ruche.md`](la-ruche.md) | protocole de nomination : un berceur nomme à huit ans et en dessous. **Le seuil du nom et le seuil du jardin ne coïncident plus seulement — ils sont la même ligne**, et l'enfant nommé par un berceur est celui qu'on emmène au jardin le jour même |
+| [`le-corps-des-arrivants.md`](le-corps-des-arrivants.md) | le suivi médical après l'éclaircie : **un arrivant sous huit ans relève des pédiatres du jardin dès le premier jour**, pas du suivi ordinaire. À vérifier et à trancher |
+| [`../01-dossier/recapitulatif-pour-validation.md`](../01-dossier/recapitulatif-pour-validation.md) | la décision du 16 août 2026 n'y figure pas encore |

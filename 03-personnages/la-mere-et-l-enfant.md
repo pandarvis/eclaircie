@@ -56,7 +56,17 @@ Application directe du barème de [`../02-univers/ce-qui-est-juge.md`](../02-uni
 >
 > **Le palier est à huit ans, et c'est un point de convergence, pas un plancher.** Qui arrive en dessous **ne reste pas où il est et ne régresse pas : il grandit jusqu'à huit, à un an par an.**
 
-**Cet enfant grandit donc.** Cinq, six, sept, huit — **trois ans à 1:1** — et il entre au jardin à huit ans comme tout le monde. Puis le plateau, puis la fin jusqu'à zéro. **Sa vie entière n'est pas un palier** : elle en a un, précédé de trois années où il grandit, et suivi d'une descente.
+**Cet enfant grandit donc — et il grandit au jardin.**
+
+> ### ✅ Décision de l'autrice, 16 août 2026 — sa trajectoire est conforme, et elle est entièrement au jardin
+>
+> *« On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir. »*
+
+**Le jardin est la tranche de huit à zéro, tout entière**, et non un lieu où l'on entrerait en descendant d'en haut. **Cet arrivant-là y entre donc le jour de son éclaircie, à cinq ans.** Il y grandit — cinq, six, sept, huit, **trois ans à 1:1** —, il y fait son plateau, puis il y redescend jusqu'à zéro. **Il n'en sort jamais : il y passe sa vie entière.** *Ce qui reste vrai sans changer d'un mot : **sa vie entière n'est pas un palier** — elle a un plateau, précédé de trois années où il grandit et suivi d'une descente.*
+
+> ### **Et l'autrice avait raison depuis le premier jour.**
+>
+> Le 13 août 2026, en posant ce couple, elle écrivait : *« l'enfant arrive immédiatement au jardin ».* La phrase a été tenue trois jours pour une approximation — le palier était alors à cinq ans, puis il est passé à huit, et l'on croyait qu'en dessous on grandissait ailleurs. **La décision du 16 août 2026 lui donne raison rétroactivement, et à la lettre.** *Cet enfant est arrivé immédiatement au jardin, et c'est le dossier qui avait tort, pas elle.*
 
 Et sous le plancher de durée, porté de trente à quarante ans le 16 août 2026, **il a au moins quarante ans de vie**, dont trois de croissance. *La répartition des trente-sept autres entre plateau et fin n'est pas fixée, et ce document ne l'invente pas.*
 
@@ -70,6 +80,8 @@ Un nom d'éclaircie n'est pas donné, il est **retrouvé** : le veilleur expliqu
 
 - **L'arrivante de trente-cinq ans** a produit son nom elle-même, comme tout le monde.
 - **L'arrivant de cinq ans** était sous le seuil. On ne lui a rien demandé. **Une berceuse a été appelée, et elle l'a nommé.**
+
+*Et les deux seuils n'en font qu'un depuis le 16 août 2026 : **ceux qu'une berceuse nomme sont exactement ceux qui sont au jardin dès le premier jour.** La règle de nomination et la règle de lieu ont la même frontière, huit ans, et elles se sont trouvées sans avoir été écrites ensemble.*
 
 **Ce que ça ajoute, sans un mot de texte.** Elle sort la même matinée, à quelques minutes et quelques travées de lui. Elle dit son propre nom à un veilleur ; à côté, dans la même matinée de service, une inconnue qu'on a fait venir choisit le mot d'un petit chiffre qu'elle ne connaît pas. **Deux gestes qui n'ont aucun rapport, et qui n'en auront jamais.** Elle deviendra berceuse à son tour, et elle sera un jour, elle aussi, celle qu'on appelle pour nommer un arrivant qui n'est rien pour elle.
 
@@ -86,8 +98,10 @@ Un nom d'éclaircie n'est pas donné, il est **retrouvé** : le veilleur expliqu
 > **Le palier passe de cinq à huit ans, on grandit désormais jusqu'à huit, et le plancher de durée passe de trente à quarante.** Les trois changements tombent exactement sur les deux courbes de ce document, et **ils ne les décalent pas : ils peuvent les inverser.**
 >
 > **Le calcul n'est pas refait ici, et il ne doit pas l'être.** Le dossier est gelé hors casting, plusieurs vitesses nécessaires ne sont pas fixées, et **combler au jugé serait une invention.** Ce qui suit conserve l'ancien raisonnement, barré de ses chiffres périmés, plus l'état exact de la question. *À l'autrice, si elle réintègre ce couple.*
+>
+> *✅ **La décision du 16 août 2026 sur le jardin ne rouvre rien de plus** : elle change le lieu de la croissance, pas sa durée. **Aucun chiffre de cette section n'en bouge**, et le seul énoncé qu'elle corrige est celui d'une entrée au jardin à huit ans, qui n'existe pas pour lui.*
 
-**L'arrivant de cinq ans** ~~va au jardin et n'en bougera pas~~ — **il grandit trois ans, entre au jardin à huit, y reste, puis redescend jusqu'à zéro.** Il a **au moins quarante ans de vie**. Il ne saura jamais rien de sa condition, ne soupçonnera jamais qu'il a été autre chose : un berceur, des jeux par terre, et rien d'autre jamais. *Cela seul est intact.*
+**L'arrivant de cinq ans** ~~va au jardin et n'en bougera pas~~ — **il entre au jardin le jour de son éclaircie, il y grandit trois ans, il y fait son plateau, puis il y redescend jusqu'à zéro.** *La formule barrée n'était pas fausse sur le lieu, elle l'était sur l'âge : il va bien au jardin tout de suite et n'en bougera jamais — **c'est son chiffre qui bouge, pas lui.*** Il a **au moins quarante ans de vie**. Il ne saura jamais rien de sa condition, ne soupçonnera jamais qu'il a été autre chose : un berceur, des jeux par terre, et rien d'autre jamais. *Cela seul est intact.*
 
 **Elle** arrive à trente-cinq ans. Elle a **vingt-sept marches à descendre** avant le jardin — de trente-cinq à huit. **À quelle vitesse, on ne le sait pas** : le dossier chiffre un an par an au-dessus de cinquante et environ trois ans par marche chez les jeunes arrivants, et **la zone intermédiaire n'est pas fixée.** Sa descente est donc comprise entre vingt-sept et quatre-vingts ans, ce qui n'est pas un chiffre.
 
@@ -103,7 +117,7 @@ L'effet du personnage tenait à une phrase :
 
 | Ce qui a changé | Ce que ça fait aux deux courbes |
 |---|---|
-| **Il entre au jardin trois ans plus tard** (il grandit de cinq à huit) | l'écart se creuse en sa défaveur à lui — **favorable à l'effet** |
+| ~~**Il entre au jardin trois ans plus tard** (il grandit de cinq à huit)~~ — **périmé le 16 août 2026 : il y est le premier jour** | **la ligne tombe.** Elle raisonnait sur une date d'entrée au jardin qui n'existe pas pour lui. *Sa durée de vie, elle, ne bouge pas d'un jour, et c'est elle seule qui décide de l'effet* |
 | **Il vit au moins quarante ans, et non vingt-cinq** | **il reste au jardin quinze ans de plus qu'on ne le croyait — défavorable à l'effet** |
 | **Elle n'a plus que vingt-sept marches, et non trente** | elle arrive plus tôt — **défavorable à l'effet** |
 
@@ -232,12 +246,24 @@ Deux capsules se forment ensemble. Rien de plus n'est dit, et rien de plus n'est
 - [ ] *Suspendu.* **La place dans le plan** : ce cas témoin tomberait-il dans l'acte I, en même temps que les deux cérémonies contrastées des mouvements 1 et 2 ?
 - [ ] *Suspendu.* **L'enfant est-il montré ?** Le §14 prévoit déjà une scène de jardin pour installer le palier : serait-ce celle-là, ou faudrait-il les garder distinctes ?
 - [ ] **Ce que devient le cas témoin du §5, lui, n'est pas suspendu.** Le service qu'il rendait — apprendre au lecteur à lire un registre, pour que la signature de la paire se détache plus tard au mouvement 16 — **doit être repris par autre chose.** Deux capsules ordinaires ouvertes le même jour à des âges différents suffisent ; il n'est pas nécessaire qu'un lien les unisse. À porter au plan.
-- [ ] **⚠️ NON SUSPENDU — l'arithmétique des deux courbes est à refaire.** Le palier à huit ans, la croissance des arrivants jeunes et le plancher à quarante ans **peuvent avoir inversé la conclusion du §3** : elle pourrait désormais rejoindre l'enfant au jardin au lieu de le manquer. **Le calcul suppose une vitesse de descente entre huit et cinquante ans, qui n'est fixée nulle part.** Rien n'est comblé ici. *À l'autrice, et avant toute réintégration de ce couple.*
+- [ ] **⚠️ NON SUSPENDU — l'arithmétique des deux courbes est à refaire.** Le palier à huit ans, la croissance des arrivants jeunes et le plancher à quarante ans **peuvent avoir inversé la conclusion du §3** : elle pourrait désormais rejoindre l'enfant au jardin au lieu de le manquer. **Le calcul suppose une vitesse de descente entre huit et cinquante ans, qui n'est fixée nulle part.** Rien n'est comblé ici. *À l'autrice, et avant toute réintégration de ce couple.* **⚠️ Précision du 16 août 2026 : l'enfant est au jardin depuis le premier jour**, donc « le rejoindre au jardin » ne veut plus dire que ceci — **qu'elle atteigne huit ans avant qu'il atteigne zéro.** *Le lieu ne change aucune durée, et la question reste entière.*
 - [x] ~~**Le statut de ce couple dans le roman.**~~ — **clos, 15 août 2026.** Hors casting. Document conservé en réserve, sans rien en retirer, comme Erin.
-- [x] ~~**L'enfant reste-t-il à cinq ans toute sa vie ?**~~ — **non, corrigé le 16 août 2026 : il grandit jusqu'à huit ans**, à un an par an, puis entre au jardin comme tout le monde. §2 et §3.
+- [x] ~~**L'enfant reste-t-il à cinq ans toute sa vie ?**~~ — **non, corrigé le 16 août 2026 : il grandit jusqu'à huit ans**, à un an par an, puis vient le plateau et la descente. §2 et §3.
+- [x] ~~**Où l'arrivant de cinq ans passe-t-il ses trois années de croissance ?**~~ — **clos, 16 août 2026 : au jardin.** *« On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir. »* **Il y entre le jour de son éclaircie et n'en sort jamais** — ce que l'autrice avait écrit dès le 13 août 2026, et qui se trouve exact. §2.
 
 ---
 
-*Vocabulaire : le palier s'appelle **le jardin** (« il est au jardin depuis l'hiver dernier »). Décision de l'autrice du 13 août 2026 ; la piste « l'Étale » du §10 est abandonnée, correction en attente sur le dossier maître. **Le jardin est à huit ans** depuis le 16 août 2026 — éviter donc les tournures qui mêlent une durée de séjour et un âge, elles se lisent mal maintenant que le chiffre est le même.*
+*Vocabulaire : le palier s'appelle **le jardin** (« il est au jardin depuis l'hiver dernier »). Décision de l'autrice du 13 août 2026 ; la piste « l'Étale » du §10 est abandonnée, correction en attente sur le dossier maître. **Le jardin est la tranche de huit à zéro** depuis le 16 août 2026 : on y est dès qu'on a huit ans ou moins, dans les deux sens, et on n'en sort pas. Éviter donc les tournures qui mêlent une durée de séjour et un âge, elles se lisent mal maintenant que le chiffre est le même — **et celles qui font de l'entrée au jardin un événement pour qui arrive en dessous de huit : pour lui, il n'y en a pas.***
 
 *Vocabulaire, suite : **aucun mot de parenté n'existe dans ce monde.** Les mots du titre de ce document appartiennent à la vie d'avant et n'entrent jamais dans une scène d'ici. Voir [`../02-univers/la-ruche.md`](../02-univers/la-ruche.md).*
+
+---
+
+## Corrections appelées hors de ce document — signalées, non appliquées
+
+*Conséquences de la décision du 16 août 2026, pour la part qui touche cette fiche. **Aucune n'est portée ici.***
+
+- **[`../02-univers/le-jardin.md`](../02-univers/le-jardin.md)** — « le seul temps de la vie qui n'a pas de lieu attribué » est périmé : ce temps-là se passe au jardin. *Fiche en cours de reprise par ailleurs.*
+- **[`../02-univers/ce-qui-est-juge.md`](../02-univers/ce-qui-est-juge.md)** — l'arrivant sous huit ans « qui grandit » a désormais un lieu dès le premier jour.
+- **[`../03-personnages/june.md`](june.md)** — le périmètre du métier de berceuse couvre aussi celui qui monte, et il le couvre dès son éclaircie. *C'est exactement ce que fait l'arrivante de trente-cinq ans du présent dossier, si elle est un jour réintégrée.*
+- **[`../06-visuels/atelier/atelier.html`](../06-visuels/atelier/atelier.html)** — la carte « qui s'occupe de la croissance en dessous de huit ans ? » perd sa moitié « hors du jardin ».

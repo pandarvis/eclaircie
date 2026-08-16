@@ -698,7 +698,7 @@ kbd{
       <footer class="legende">
         <span><i class="ech a"></i> Andrew — ce monde-ci, le présent</span>
         <span><i class="ech"></i> Le tronc commun — attribuable aux deux</span>
-        <span><i class="ech j"></i> Joël — la vie d'avant, les fragments</span>
+        <span><i class="ech j"></i> Joël — la vie d'avant, que le lecteur ne voit pas</span>
         <span><i class="ech t"></i> reste à trouver</span>
         <span class="aide"><kbd>←</kbd> <kbd>→</kbd> pour circuler · <kbd>Échap</kbd> pour fermer</span>
       </footer>
@@ -816,7 +816,7 @@ kbd{
 const VOIES = {
   andrew: { nom: `Andrew`,  desc: `Ce monde-ci. Le présent.` },
   commun: { nom: `Le tronc`, desc: `Écrit une fois. Attribué ensuite.` },
-  joel:   { nom: `Joël`,    desc: `La vie d'avant. Les fragments.` }
+  joel:   { nom: `Joël`,    desc: `La vie d'avant — et le lecteur ne le sait pas.` }
 };
 
 const ACTES = [
@@ -825,11 +825,11 @@ const ACTES = [
   { t: `La disparition`,       c0: 4,  c1: 6 },
   { t: `Le monde comme terrain`, c0: 7, c1: 8 },
   { t: `Le registre`,          c0: 9,  c1: 13 },
-  { t: `La fausse piste s'éteint`, c0: 14, c1: 15 },
-  { t: `L'enlisement`,         c0: 16, c1: 20 },
-  { t: `La remontée`,          c0: 21, c1: 23 },
-  { t: `Le seuil franchi deux fois`, c0: 24, c1: 27 },
-  { t: `Épilogue`,             c0: 28, c1: 30 }
+  { t: `La fausse piste s'éteint`, c0: 14, c1: 16 },
+  { t: `L'enlisement`,         c0: 17, c1: 21 },
+  { t: `La remontée`,          c0: 22, c1: 24 },
+  { t: `Le seuil franchi deux fois`, c0: 25, c1: 28 },
+  { t: `Épilogue`,             c0: 29, c1: 31 }
 ];
 
 const SCENES = [
@@ -886,7 +886,8 @@ const SCENES = [
     `Leur âge — une quinzaine d'années — n'est jamais écrit. Andrew ne pose jamais l'opération.`
   ],
   phrases: [{ t: `Ils mettent trois fois plus longtemps à descendre, en plus.`, n: `À mettre dans une bouche banale, tôt, à propos de quelqu'un dont on ne reparlera jamais. C'est la parade au lecteur qui calculerait 1:1 et trouverait huit au lieu de quinze.` }],
-  ouvert: [`Où exactement, et dans quelle scène. C'est un encart vide : la scène n'existe pas encore.`],
+  ouvert: [`🟡 **Cette scène disparaît peut-être.** Si l'apparition de la paire se fait à la cérémonie d'Andrew — placement recommandé, trois colonnes plus tôt —, il ne reste ici que la réplique du ratio, à placer dans n'importe quelle bouche banale.`,
+           `Où exactement, et dans quelle scène, si elle survit.`],
   src: `03-personnages/chrissy-et-tania.md — 04-plan/duree-et-calendrier.md`
 },
 
@@ -1096,71 +1097,112 @@ const SCENES = [
     `Le monde ne se livre jamais en description : quelqu'un répond à une question qu'on lui a posée. Il parle des berceurs parce qu'on l'interroge sur un retard.`,
     `Test : si l'on peut retirer la question sans perdre l'information, la scène est une description déguisée et elle est à réécrire.`
   ],
-  ouvert: [`Vingt-trois arrivants de six ans basculés directement au jardin contredit la règle qui pose qu'on entre au jardin à huit ans et qu'en dessous on grandit ailleurs. Le jeu de piste tranche de fait une question ouverte : à confirmer, ou corriger la scène.`],
+  ouvert: [`Le basculement direct au jardin des vingt-trois arrivants de six ans a été confirmé le 16 août 2026 : on est au jardin dès qu'on a huit ans ou moins, quel que soit le sens de la trajectoire. **La scène ne bouge pas.**`],
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 02-univers/le-jardin.md`
 },
 {
-  id: `ceremonie2`, no: `À placer`, col: 13, row: `andrew`, acte: `Le registre`,
+  id: `ceremonie2`, no: `Entre 12 et 13`, col: 15, row: `andrew`, acte: `La fausse piste s'éteint`,
   titre: `Sa cérémonie, vue de l'intérieur`,
-  statut: `ouvert`, flottant: true,
+  statut: `acquis`, pivot: true,
   resume: `Sa propre arrivée, dix ans plus tôt. Trois capsules groupées, une paire dont la salle s'émerveille, un veilleur qui note tout. Il ne comprenait rien : il venait de sortir.`,
-  produit: `Le livre contient deux descriptions de cérémonie, toutes deux du point de vue d'Andrew : celle où il accueille (analytique, le professionnel au travail) et celle où il est accueilli (l'accueilli qui ne comprend rien). Le même rite vu depuis les deux bouts — et le lecteur ne réalise pas tout de suite que le second point de vue est celui du même homme.`,
-  clef: `C'est le dispositif d'ensemble à l'échelle d'un chapitre.`,
-  monde: `La cérémonie vue par quelqu'un qui n'a aucun mot pour ce qu'il voit. Et, sans que personne le sache, la journée des quatre capsules : deux jumelles, lui, l'assassin.`,
+  produit: `Le livre contient deux descriptions de cérémonie, toutes deux d'Andrew : celle où il accueille — le prologue, le professionnel au travail — et celle où il est accueilli, par quelqu'un qui n'a aucun mot pour ce qu'il voit. **Le même rite depuis les deux bouts, et c'est le dispositif d'ensemble à l'échelle d'un chapitre.**`,
+  clef: `**Elle s'intercale entre les deux scènes de Joël, et c'est quelque chose dans le discours de l'homme qui donne prétexte à se souvenir.** Décision de l'autrice, 16 août 2026. *Le lecteur croit lire une seule pensée continue : un homme sort d'un pas de porte et une chose qu'on vient de lui dire lui rappelle son propre premier jour. Il y a deux hommes, deux mondes, et il ne le saura pas.*`,
+  monde: `La cérémonie vue par quelqu'un qui ne sait rien. Et, sans que personne le sache, la journée des quatre capsules : la paire, lui, et une quatrième qui n'éclaircit pas.`,
   qui: [`andrew`,`chrissy`],
   gardes: [
     `Il ne comprend rien et ne doit rien comprendre.`,
-    `La salle s'émerveille de la paire : « elles sont pareilles », « première fois que j'en vois », « j'en ai déjà vu il y a quelques années ». Rien de plus.`
+    `La salle s'émerveille de la paire : « elles sont pareilles », « première fois que j'en vois », « j'en ai déjà vu il y a quelques années ». Rien de plus.`,
+    `**La quatrième capsule doit être là et ne rien peser.** Une corvée au fond de l'allée, deux hommes en combinaison, une odeur. Personne ne s'y arrête, le narrateur non plus.`,
+    `Aucun personnage ne rapproche jamais les trois arrivées. Le lecteur seul aura vu la pièce.`
   ],
-  ouvert: [`Son placement dans le livre n'est pas tranché.`],
+  pourquoi: [
+    `**Le souvenir est convoqué, pas déposé.** Ailleurs, ce chapitre arriverait parce que l'autrice en a besoin là. Ici il arrive parce que quelque chose l'a appelé — *c'est toute la différence entre un plan et un livre.*`,
+    `**La transition devient elle-même une pièce du dispositif.** Le lecteur sort d'un chapitre de la vie d'avant et entre dans un souvenir du monde d'ici, sans voir la couture, parce que c'est lui qui la fait. Il croit suivre une seule pensée continue.`,
+    `**Elle sépare deux chapitres de Joël.** Sans elle, les scènes 12 et 13 s'enchaînent et le lecteur passe trois chapitres d'affilée dans la vie d'avant — c'est long, et c'est le moment le plus fragile du livre.`,
+    `**Elle tombe juste avant le travail sur le registre.** La paire, les trois capsules et la quatrième qui n'éclaircit pas sont fraîches quand Andrew y retourne à la scène 14, et elles le seront encore à la toute fin.`,
+    `**Et ça change la nature du temps 5.** Quand il lit sa ligne, le lecteur ne reçoit pas une explication : il se souvient d'une pièce où il était. *Un souvenir frappe plus fort qu'une révélation.*`
+  ],
+  contre: `**Ce que ce placement coûte, et il faut le savoir :** la paire n'apparaît plus tôt dans le livre, mais au milieu — et dans une scène chargée, pas en décor. *Le risque est que le lecteur rapproche trop vite les deux corps identiques du chapitre B de la paire qu'il vient de voir naître.* **Ce qui l'en empêche est l'interdit n° 1 :** il ignore que les arrivées répondent à des morts, donc il n'a pas la marche à monter. **Mais la marche existe, et elle est plus courte qu'avant.**`,
+  ouvert: [`⚠️ **Ce que l'homme dit qui donne prétexte au souvenir.** Il est du monde d'avant, donc Andrew ne l'entend pas : **le déclenchement ne vaut que pour le lecteur.** Pistes d'équivoque, à trancher — *« ça fait dix ans que ça dure »* (le chiffre exact de son arrivée) ; *« on est arrivés en même temps, lui et moi »* (embauchés la même semaine là-bas, trois capsules le même matin ici) ; *« vous croyez que je me souviens de ce que j'ai dit il y a dix ans ? »*`,
+           `⚠️ **Contrainte de loyauté, et elle est absolue.** Le texte ne doit **jamais** placer Andrew chez l'homme. Pas de « en repartant de chez lui », pas de voiture qu'on referme, pas de porte dans le dos. *On l'ouvre ailleurs — à la ruche, dans un couloir, devant un lavabo — et le lecteur fait le raccord tout seul. Rien n'est caché : quelque chose n'est simplement pas dit.*`,
+           `Si la paire apparaît ici, la scène « la paire, en passant » disparaît — ou se réduit à la seule réplique du ratio, à placer ailleurs et plus tôt.`],
   src: `04-plan/deux-histoires-en-une.md §7 — 04-plan/le-meme-jour.md §1`
 },
 {
-  id: `j2`, no: `Fragment`, col: 13, row: `joel`, acte: `Le registre`,
-  titre: `On lui dit d'arrêter`,
-  statut: `acquis`,
-  resume: `Quelqu'un de raisonnable lui demande de laisser tomber. Il obéit. Des semaines passent.`,
-  produit: `La faute. Elle n'est pas d'avoir échoué : elle est d'avoir cessé. Et le prix se chiffrera en une heure.`,
-  monde: `Rien.`,
+  id: `j2`, no: `Entre 14a et 14b`, col: 18, row: `joel`, acte: `L'enlisement`,
+  titre: `Il n'a plus rien`,
+  statut: `trou`,
+  resume: `Décision de l'autrice, 16 août 2026 : **une scène de Joël s'intercale dans la seconde fausse piste.** Son enquête à lui s'épuise en même temps — il reprend ce qu'il a, il n'y a rien de neuf, il demande quelque chose et on le lui refuse. **Le contenu exact reste à trouver.**`,
+  produit: `**C'est le creux, et c'est le meilleur endroit du dispositif.** Les deux semaines perdues d'Andrew et les semaines perdues de Joël sont les mêmes semaines. Les deux voies s'enlisent en parallèle, et elles ne se ressemblent pas par un effet d'écriture : *une enquête qui piétine se ressemble partout.*`,
+  clef: `Et elle prépare la suivante. Une enquête qui n'a plus rien est une enquête qu'on peut demander d'arrêter — **le « lâche l'affaire » de la scène 15 devient une conséquence au lieu d'une intervention.**`,
+  monde: `Rien, et surtout rien. C'est la seule portion du livre où il n'y a aucun monde à expliquer : des portes, des refus, des jours qui tombent, et un homme qui rentre le soir sans rien. **C'est ce qui la rend indépartageable.**`,
   qui: [`joel`],
   gardes: [
-    `La scène n'est pas montrée. La phrase est dite chez Andrew, au commissariat, et rappelée ici — devant les corps. C'est « la couture ».`,
-    `Personne ne relève l'écho.`
+    `Aucun marqueur de monde, aucun nom, aucun âge, et les victimes jamais évoquées.`,
+    `**Ne pas égayer le creux.** Pas de rebondissement, pas de demi-indice, pas de scène de monde pour tenir le lecteur.`,
+    `Le refus n'est pas hostile : c'est de l'arithmétique. Personne n'a tort.`
   ],
-  ouvert: [`Pourquoi il reprend l'enquête — de lui-même, ou parce qu'un élément est ressorti. Le livre n'a pas besoin de trancher.`,
-           `Combien de temps dure l'arrêt.`],
-  src: `04-plan/le-meme-jour.md — « La faute »`
+  lecture: `**C'est la portion du livre où il est le plus incapable de distinguer les deux hommes**, et il ne s'en apercevra jamais. Il lit un enquêteur qui s'enlise ; il y en a deux.`,
+  ouvert: [`⚠️ **Ce qu'il y a exactement dans la scène.** Pistes : il reprend le dossier et rien n'a bougé ; une piste gardée en réserve se ferme ; il demande des moyens ou du temps et on les lui refuse. *La troisième est la plus utile — elle arme le « lâche l'affaire » qui suit.*`,
+           `Sa place exacte : avant ou après le refus au comptoir d'Andrew. **Ici, elle sépare le refus de la traversée du jardin, ce qui évite deux chapitres d'Andrew de suite au moment le plus fragile.**`],
+  src: `04-plan/le-parcours-de-l-enquete.md §3.7 — décision du 16 août 2026`
 },
 
 /* ---------- LA FAUSSE PISTE S'ÉTEINT ---------- */
 {
-  id: `s12`, no: `Scène 12`, col: 14, row: `commun`, acte: `La fausse piste s'éteint`,
+  id: `s12`, no: `Scène 12`, col: 14, row: `joel`, acte: `La fausse piste s'éteint`,
   titre: `Chez l'homme`,
-  statut: `acquis`,
-  resume: `Il est là mais ne veut pas leur parler. Il les envoie promener en disant qu'il a un alibi en béton — et il le dit comme on jette une porte, sans rien démontrer, parce qu'il n'a pas à se justifier devant deux hommes qui n'ont rien contre lui.`,
-  produit: `Ça tourne laid sans tourner violent. Personne ne lève la main, et le narrateur ne juge pas.`,
-  monde: `Le grief, une seconde fois, dans une bouche hostile.`,
-  qui: [`marginal`,`andrew`,`isaac`],
-  gardes: [`Le grief reste réel, jamais caricatural, et on ne demande jamais d'y adhérer.`],
-  double: `Beat doublable : deux hommes détestables et innocents, un dans chaque monde, et la même déception.`,
-  src: `04-plan/le-parcours-de-l-enquete.md §2 — §5`
+  statut: `acquis`, pivot: true,
+  resume: `Joël rend visite à un homme qui aurait harcelé les deux filles. Il est là, il ne veut pas leur parler, il les envoie promener — et il donne un alibi comme on jette une porte, sans rien démontrer, parce qu'il n'a pas à se justifier devant des gens qui n'ont rien contre lui.`,
+  produit: `🔴 **Décision du 16 août 2026 : la scène est de Joël, et le lecteur croit écouter un marginal du monde d'Andrew.** *Le suspect que le lecteur s'est fabriqué depuis la scène 6 n'existe pas : il est cousu de deux hommes qui ne se sont jamais rencontrés et qui ne vivent pas dans le même monde.*`,
+  clef: `**L'équivoque, et c'est le mot qui tient toute la scène : « des propos déplacés ».** Le responsable du monde d'Andrew, scène 6, parlait de propos haineux ; ici on dit déplacés, et le lecteur y lit un euphémisme pour la même chose. **C'étaient des propos sexistes tenus à deux filles de dix-huit ans.** Un seul mot, deux lectures, aucune des deux invraisemblable.`,
+  lecture: `Il a entendu parler du marginal aux scènes 6, 7 et 9 sans jamais le voir. Il le voit ici. Il ne remarquera pas que ce n'est pas le même homme, parce qu'il n'a aucune raison de le remarquer — et parce que les deux tiennent exactement le même discours.`,
+  monde: `Rien, et c'est la condition. Un homme en colère sur un pas de porte est le même dans les deux mondes.`,
+  qui: [`joel`],
+  gardes: [
+    `**Aucun nom de famille, et le sien n'est jamais donné.** On dit l'homme, il, le type de l'entrepôt.`,
+    `**Les deux filles ne sont jamais évoquées** — ni comptées, ni sexuées, ni décrites. Il ne dit jamais « elles ».`,
+    `**Aucun marqueur d'âge sur lui.** Le lecteur doit pouvoir le superposer à l'homme de vingt-deux ans de la scène 6 sans que rien ne résiste.`,
+    `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
+    `Ça tourne laid sans tourner violent. Personne ne lève la main, et le narrateur ne juge pas.`,
+    `Le grief reste réel, jamais caricatural, et on ne demande jamais d'y adhérer.`
+  ],
+  phrases: [
+    { t: `On lui a reproché des propos déplacés.`, n: `**Le pivot de la scène.** Le mot doit tomber sans être souligné, et personne ne demande lesquels.` },
+    { t: `Vous en seriez venus aux mains.`, n: `Formulation de l'autrice. Une bagarre au travail : même phrase, même sens, deux mondes.` },
+    { t: `J'ai dit ce que tout le monde pense, et c'est moi qu'on montre du doigt.`, n: `Proposition. Se lit comme le grief des jaloux, et c'est un homme qui a insulté deux filles.` },
+    { t: `J'ai perdu ma place pour trois mots.`, n: `Proposition. Il se croit la victime, et c'est ce qui le rend détestable et innocent en même temps.` }
+  ],
+  pourquoi: [
+    `**Son mobile, proposé :** il travaillait au même endroit qu'elles. Il a dit des choses. On l'a écarté — muté, congédié, peu importe — et depuis il considère qu'on lui a pris sa place pour rien. *Ce n'est pas un prédateur, c'est un homme qui s'estime lésé, et il n'a rien fait d'autre que parler.*`,
+    `**Son alibi, proposé :** il travaillait. Un poste, des horaires pointés, trois personnes qui l'ont vu. **Il ne le démontre pas** — il le jette, et c'est ce qui le rend crédible : un innocent n'apporte pas de preuves, il s'agace.`,
+    `*Les deux tiennent dans les deux mondes sans une retouche, et c'est la seule chose à vérifier avant d'écrire quoi que ce soit d'autre.*`
+  ],
+  ouvert: [`**Et la scène 13 ?** L'alibi qui se confirme suit-il du côté de Joël, ou repasse-t-il chez Andrew ? *Du même côté, la piste naît et meurt dans le même monde, ce qui est plus propre. Chez Andrew, l'enquête d'ici enterre une piste d'ailleurs, et personne ne le saura jamais.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §4.4 — décision du 16 août 2026`
 },
 {
-  id: `s13`, no: `Scène 13`, col: 15, row: `commun`, acte: `La fausse piste s'éteint`,
+  id: `s13`, no: `Scène 13`, col: 16, row: `joel`, acte: `La fausse piste s'éteint`,
   titre: `L'alibi tient`,
   statut: `acquis`,
-  resume: `La fausse piste s'éteint vite, sans coupable, sans explication et sans scène.`,
-  produit: `Rien de ce qu'elle a coûté n'est perdu pour le lecteur : il a l'économie, le grief, la ruche, le régime pénal, la cérémonie des vingt-six et le jardin. Une piste qui ne mène nulle part mais qui apprend quelque chose n'est pas une perte.`,
-  clef: `Celui qui crie n'est pas celui qui fait. L'homme a un alibi parce qu'il est bruyant : il crie, il est connu pour crier, tout le monde peut dire où il était. Le vrai est silencieux — et il va bien plus loin que ça : c'est une berceuse.`,
-  monde: `Rien de neuf. C'est le point où l'enquête revient à son point de départ, et où le monde, lui, ne revient jamais en arrière.`,
-  qui: [`andrew`,`isaac`],
-  gardes: [`Le milieu de la jalousie est une fausse piste, et rien de plus. Le grief garde toute sa place, mais il ne mène plus à personne.`],
-  src: `04-plan/le-parcours-de-l-enquete.md §2, §3.1, §4.4`
+  resume: `Joël repart interroger quelqu'un, ailleurs, pour vérifier ce que l'homme a dit. Ça tient. La piste s'éteint sans coupable, sans explication et sans éclat.`,
+  produit: `🔴 **Décision du 16 août 2026 : la scène est de Joël, comme la précédente.** Le lecteur croit toujours suivre Andrew, et croit qu'on vérifie l'alibi du marginal. *La piste naît et meurt dans le même monde — celui que le lecteur ne sait pas lire.*`,
+  clef: `Celui qui crie n'est pas celui qui fait. L'homme a un alibi parce qu'il est bruyant : il crie, il est connu pour crier, tout le monde peut dire où il était. **Et ça vaut deux fois, puisqu'il y a deux hommes** — le vrai coupable, lui, est silencieux, et il est à l'exact opposé du milieu qu'on soupçonne.`,
+  monde: `Rien, et il ne faut rien y mettre. C'est une scène de vérification : un lieu, quelqu'un qu'on interroge, une réponse qui ne bouge pas. Elle doit pouvoir se dérouler dans n'importe lequel des deux mondes sans qu'un mot change.`,
+  qui: [`joel`],
+  gardes: [
+    `Mêmes contraintes que la scène 12 : aucun nom, aucun âge, aucun marqueur de monde, aucun mot de parenté, et les victimes jamais évoquées.`,
+    `**Le lieu doit exister des deux côtés.** Un dépôt, un poste de nuit, une salle de pause, un comptoir. Rien qui n'appartienne qu'à un seul monde.`,
+    `L'alibi tient franchement. Pas de doute résiduel, pas de témoin fuyant, pas de « mais » : une piste qui agonise fait perdre le lecteur, une piste qui meurt le libère.`,
+    `Le milieu de la jalousie reste une fausse piste et rien de plus. Le grief garde toute sa place, mais il ne mène plus à personne.`
+  ],
+  lecture: `**Rien de ce que la piste a coûté n'est perdu pour lui** : il a l'économie du monde, le grief, la ruche, le régime pénal, la cérémonie des vingt-six, le jardin — et, sans le savoir, il vient de passer trois chapitres dans la vie d'avant.`,
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §3.1, §4.4 — décision du 16 août 2026`
 },
 
 /* ---------- L'ENLISEMENT ---------- */
 {
-  id: `s14a`, no: `Scène 14 · a`, col: 16, row: `andrew`, acte: `L'enlisement`,
+  id: `s14a`, no: `Scène 14 · a`, col: 17, row: `andrew`, acte: `L'enlisement`,
   titre: `La seconde piste — le refus au comptoir`,
   statut: `acquis`,
   resume: `Andrew retourne au registre et tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date. Il est arrivé, c'est certain, la ligne est là et elle est parfaite ; ensuite les traces s'arrêtent. Ça ressemble exactement à ce qu'il cherche : quelqu'un qui s'en prend aux jeunes arrivants, et un précédent.`,
@@ -1176,7 +1218,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 ter.1, §4 ter.2`
 },
 {
-  id: `s14b`, no: `Scène 14 · b`, col: 17, row: `andrew`, acte: `L'enlisement`,
+  id: `s14b`, no: `Scène 14 · b`, col: 18, row: `andrew`, acte: `L'enlisement`,
   titre: `La traversée du jardin`,
   statut: `provisoire`,
   resume: `Deux semaines de silence administratif — et au bout, il y a quelqu'un, par terre, qui va très bien. L'autre arrivant n'est ni mort ni disparu : il a trois ans, et il écoule ses dernières années au jardin.`,
@@ -1194,7 +1236,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 ter.2 bis`
 },
 {
-  id: `s14c`, no: `Scène 14 · c`, col: 18, row: `andrew`, acte: `L'enlisement`,
+  id: `s14c`, no: `Scène 14 · c`, col: 19, row: `andrew`, acte: `L'enlisement`,
   titre: `La mort d'un zéro`,
   statut: `provisoire`, pivot: true,
   resume: `Assister à la mort naturelle de quelqu'un arrivé à zéro. Tout en douceur, porté par une berceuse, avec des gestes de métier — parce que c'est son métier.`,
@@ -1216,24 +1258,27 @@ const SCENES = [
   src: `02-univers/le-jardin.md §6 — 03-personnages/la-berceuse.md §7`
 },
 {
-  id: `s15`, no: `Scène 15`, col: 19, row: `commun`, acte: `L'enlisement`,
+  id: `s15`, no: `Scène 15`, col: 20, row: `joel`, acte: `L'enlisement`,
   titre: `« Lâche l'affaire »`,
   statut: `acquis`, pivot: true,
-  resume: `Après deux semaines de disparition comptées. Sous-entendu, et personne ne le dira autrement : il est déjà mort. Ce n'est ni un complot ni un secret — c'est de la lassitude, une journée à finir, un homme raisonnable en face.`,
-  produit: `C'est le beat doublé par excellence, et le modèle de tous les autres. Joël l'a vécu, Andrew le vit, et le lecteur croit lire une seule scène. Il y en avait deux : la première est la faute, la seconde est la réparation, et rien ne les distingue sur la page.`,
-  clef: `La même phrase, fausse deux fois. Dite à Joël au milieu de l'affaire, alors que les filles sont vivantes : il obéit, il perd des semaines, elles meurent moins d'une heure avant qu'il arrive. Dite à Andrew au poste, alors qu'Eliott est vivant : il refuse, et Eliott est vivant. Les deux policiers avaient raison sur le calcul et tort sur le cas.`,
-  monde: `Le mur n'est pas quelqu'un.`,
-  qui: [`andrew`,`isaac`],
+  resume: `Quelqu'un de raisonnable lui demande de laisser tomber. **Il obéit, et des semaines passent.** Sous-entendu, et personne ne le dira autrement : elles sont déjà mortes. Ce n'est ni un complot ni un secret — c'est de la lassitude, une journée à finir, un homme raisonnable en face.`,
+  produit: `🔴 **Décision du 16 août 2026 : la scène est explicitement de Joël, et le lecteur est persuadé de lire une scène du monde d'Andrew.** C'est la démonstration la plus pure du dispositif : une seule scène, écrite une fois, jouée une fois — et mal attribuée par tout le monde jusqu'à la relecture.`,
+  clef: `Elle est fausse dans les deux sens à la fois. Le lecteur l'entend comme « lâche la disparition du garçon », et il a tort : Eliott est vivant, et Andrew ne lâchera pas. Elle est dite en réalité sur l'affaire Sorel, alors que les filles sont vivantes — et Joël obéit, il perd des semaines, et il arrive une heure trop tard.`,
+  lecture: `Le lecteur ne verra jamais Andrew se faire dire cette phrase. Il croira l'avoir vu. **C'est lui qui aura fait la scène**, et c'est pour ça qu'elle ne se démonte pas : il n'y a rien à démonter, il n'y a qu'une attribution.`,
+  monde: `Rien. Le mur n'est pas quelqu'un, et un commissariat se ressemble partout — c'est exactement ce qui rend la méprise possible.`,
+  qui: [`joel`],
   gardes: [
-    `Andrew ne comprend rien. Pas d'illumination, pas même atténuée : « il chasse l'idée », « quelque chose lui échappe » sont faux. Comme une migraine — une pression, un blanc, deux secondes de trop. Il enchaîne. C'est le corps qui sait, pas lui.`,
-    `Les deux occurrences ne se citent jamais l'une l'autre.`
+    `Aucun marqueur de monde dans la scène. Pas de travée, pas de registre, pas d'arrivant, pas un mot de la langue d'ici — et pas non plus un mot de parenté, qui la trahirait dans l'autre sens.`,
+    `Personne n'est nommé. Ni Joël, ni celui qui parle, ni ce dont on parle : c'est l'affaire, et rien de plus.`,
+    `Aucune des deux victimes n'est comptée, décrite ni sexuée. Le lecteur doit pouvoir y lire un garçon de dix ans.`,
+    `**Andrew, lui, ne se fait pas dire la phrase.** Ce qu'il perd, c'est Isaac, à la scène suivante — et c'est son équivalent exact.`
   ],
-  phrases: [{ t: `Lâche l'affaire. À l'heure qu'il est, les vers ont commencé le travail.`, n: `Formulation de l'autrice.` },
-            { t: `C'est déjà ce qu'on m'a dit.`, n: `La réplique qui lui échappe. Elle n'est pas de cette vie-ci.` }],
-  src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — §5 bis (la couture)`
+  phrases: [{ t: `Lâche l'affaire. À l'heure qu'il est, les vers ont commencé le travail.`, n: `Formulation de l'autrice. À écrire de façon qu'elle vaille pour un garçon disparu depuis deux semaines comme pour deux filles disparues depuis des mois.` }],
+  ouvert: [`**Le doublage de ce beat tombe.** Le dossier prévoyait la scène en double — dite à Joël, puis à Andrew, le lecteur n'en lisant qu'une. La décision la simplifie : il n'y en a qu'une, et c'est celle de Joël. *Reste à confirmer que la réplique d'Andrew « c'est déjà ce qu'on m'a dit » disparaît avec, ou qu'elle se replace ailleurs.*`],
+  src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — décision du 16 août 2026`
 },
 {
-  id: `s16`, no: `Scène 16`, col: 20, row: `commun`, acte: `L'enlisement`,
+  id: `s16`, no: `Scène 16`, col: 21, row: `commun`, acte: `L'enlisement`,
   titre: `Isaac lâche l'affaire`,
   statut: `acquis`, pivot: true,
   resume: `Il laisse Andrew seul. La porte ne claque pas : on lui retire une place, pas un droit. Plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer.`,
@@ -1252,7 +1297,7 @@ const SCENES = [
 
 /* ---------- LA REMONTÉE ---------- */
 {
-  id: `j3`, no: `Fragment`, col: 21, row: `joel`, acte: `La remontée`,
+  id: `j3`, no: `Fragment`, col: 22, row: `joel`, acte: `La remontée`,
   titre: `Joël retourne à ses notes`,
   statut: `acquis`,
   resume: `Andrew regarde un homme reprendre un dossier qu'on lui avait fait lâcher. Il ne le reconnaît pas, il ne comprend rien, il n'a pas de mot pour ce qu'il vient de voir — et il fait la même chose, peu après, sans faire le lien.`,
@@ -1267,7 +1312,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.2, §4 bis.3`
 },
 {
-  id: `s17`, no: `Scène 17`, col: 22, row: `commun`, acte: `La remontée`,
+  id: `s17`, no: `Scène 17`, col: 23, row: `commun`, acte: `La remontée`,
   titre: `L'enquête en solo — le déclencheur`,
   statut: `trou`, pivot: true,
   resume: `Andrew réalise qu'une partie de ce qu'Eliott racontait décrivait un endroit réel, d'ici — banal, local, vérifiable — qu'un arrivant de dix ans n'aurait pas dû connaître. Il trouve la maison et appelle Isaac pour qu'il le rejoigne vite.`,
@@ -1287,7 +1332,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 bis.4, §4 ter.4, §4 ter.6`
 },
 {
-  id: `s18`, no: `Scène 18`, col: 23, row: `commun`, acte: `La remontée`,
+  id: `s18`, no: `Scène 18`, col: 24, row: `commun`, acte: `La remontée`,
   titre: `Il entre seul, sans attendre`,
   statut: `acquis`, pivot: true,
   resume: `Il a appelé, il sait que l'autre arrive, et il n'attend pas. Ce n'est pas du courage et ce n'est pas de l'imprudence : c'est exactement la faute d'avant refaite à l'envers. On lui a dit d'arrêter de creuser une fois, et il a obéi. Cette fois, personne ne l'arrête parce que personne n'est là.`,
@@ -1302,7 +1347,7 @@ const SCENES = [
 
 /* ---------- LE SEUIL FRANCHI DEUX FOIS ---------- */
 {
-  id: `corps`, no: `Chapitre B`, col: 24, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `corps`, no: `Chapitre B`, col: 25, row: `joel`, acte: `Le seuil franchi deux fois`,
   titre: `Les corps`,
   statut: `acquis`, pivot: true,
   resume: `On décrit un premier corps, et on croit que c'est le garçon. Puis un second, plus loin. Deux corps identiques, encore roses de l'afflux sanguin, mortes depuis moins d'une heure.`,
@@ -1328,7 +1373,7 @@ const SCENES = [
   src: `07-recherches/references-de-scenes.md — 04-plan/le-meme-jour.md`
 },
 {
-  id: `s19`, no: `Scène 19 · Chapitre C`, col: 25, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19`, no: `Scène 19 · Chapitre C`, col: 26, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `Le même lieu, l'autre issue`,
   statut: `acquis`, pivot: true,
   resume: `Le chapitre recommence. Même arrivée, même pesanteur — et Eliott est vivant. Isaac les a rejoints entre-temps. Une berceuse est menottée, déjà prête à être embarquée.`,
@@ -1348,7 +1393,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — 03-personnages/la-berceuse.md`
 },
 {
-  id: `poursuite`, no: `Chapitre D`, col: 26, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `poursuite`, no: `Chapitre D`, col: 27, row: `joel`, acte: `Le seuil franchi deux fois`,
   titre: `La poursuite`,
   statut: `acquis`, pivot: true,
   resume: `Rage folle. Il laisse ses collègues sur place et part seul. Il ne veut pas l'arrêter, il veut le tuer — comme si les deux filles avaient pu être les siennes. Poursuite en voiture, accident. Il meurt en même temps que l'assassin.`,
@@ -1366,7 +1411,7 @@ const SCENES = [
   src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3`
 },
 {
-  id: `registre-fin`, no: `Temps 5`, col: 27, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `registre-fin`, no: `Temps 5`, col: 28, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La ligne de registre`,
   statut: `acquis`,
   resume: `Une date, une travée, deux numéros collés — et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Moins d'une heure plus tard, une autre capsule, qui n'a jamais éclairci.`,
@@ -1385,7 +1430,7 @@ const SCENES = [
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 28, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 29, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1400,7 +1445,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Épilogue · six ans plus tard`, col: 29, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Épilogue · six ans plus tard`, col: 30, row: `andrew`, acte: `Épilogue`,
   titre: `La confession d'Eliott`,
   statut: `acquis`, pivot: true,
   resume: `Il a huit ans, Andrew en a quarante-six. Il raconte ce qui lui est arrivé de l'autre côté : une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, racontés comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. C'est le calme qui glace.`,
@@ -1419,7 +1464,7 @@ const SCENES = [
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Dernière page`, col: 30, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Dernière page`, col: 31, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `acquis`,
   resume: `Il dépose ce qui le faisait souffrir, et il entre. Personne ne lui dit dans quoi il entre. Andrew le regarde faire en sachant, et se tait.`,
@@ -1443,10 +1488,9 @@ const LIENS = [
   [`s1`,`s2`,``], [`s2`,`s3`,``], [`s2`,`j1`,`j`], [`j1`,`s3`,`j`],
   [`s3`,`s4`,``], [`s4`,`s5`,``], [`s5`,`s6`,``], [`s6`,`s7`,``],
   [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
-  [`s11`,`s12`,`a`], [`s11`,`j2`,`j`], [`j2`,`s12`,`j`],
-  [`s12`,`s13`,``], [`s13`,`s14a`,`a`],
-  [`s14a`,`s14b`,`a`], [`s14b`,`s14c`,`a`], [`s14c`,`s15`,`a`],
-  [`s15`,`s16`,``], [`s16`,`j3`,`j`], [`j3`,`s17`,`j`], [`s16`,`s17`,``],
+  [`s11`,`s12`,`j`], [`s12`,`ceremonie2`,`a`], [`ceremonie2`,`s13`,`j`], [`s13`,`s14a`,`a`],
+  [`s14a`,`j2`,`j`], [`j2`,`s14b`,`a`], [`s14b`,`s14c`,`a`], [`s14c`,`s15`,`j`],
+  [`s15`,`s16`,`j`], [`s16`,`j3`,`j`], [`j3`,`s17`,`j`], [`s16`,`s17`,``],
   [`s17`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19`,`j`],
   [`s19`,`poursuite`,`j`], [`poursuite`,`registre-fin`,`a`],
@@ -1946,6 +1990,34 @@ const NOTES = [
   v:`Une fois que tu as tout corrigé pour ce soir, on valide ce que tu as compris et oui, on modifie.`,
   q:`**Rien ne touche le dossier maître sans validation.** Et toute modification validée se répercute dans le parcours.` },
 
+{ d:`16 août`, s:`LE JARDIN, C'EST LA TRANCHE ENTIÈRE`, e:`acquis`, t:[`jardin`,`décompte`,`monde`],
+  v:`On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir.`,
+  q:`**Le jardin cesse d'être un lieu où l'on entre en descendant.** C'est la tranche de huit à zéro, tout entière, et on y est par le seul fait d'avoir huit ans ou moins. *Ça ferme deux choses d'un coup :* la contradiction de la scène 11 — les vingt-trois arrivants de six ans y basculent bien le jour même, la scène était juste — et la question ouverte depuis le 15 août sur la croissance sous huit ans. **Ce temps de la vie avait un lieu depuis le début ; c'était celui-là.**` },
+
+{ d:`16 août`, s:`Ce qui en découle`, e:`provisoire`, t:[`jardin`,`écriture`],
+  v:`—`,
+  q:`Trois conséquences que la règle produit toute seule. **Le jardin abrite dans les mêmes pièces des trajectoires qui montent et des trajectoires qui descendent** — deux corps de six ans côte à côte, indiscernables, deux directions opposées. **Plus on arrive jeune, plus grande est la part de la vie passée au jardin**, et pour qui arrive à huit ou en dessous c'est la totalité : le grief des jaloux en devient encore plus exact. Et **le tabou change de forme selon le sens** : la croissance est publique, on voit un corps de six ans devenir un corps de huit ans ; ce qui reste secret est le moment où ça s'inverse.` },
+
+{ d:`16 août`, s:`LE LECTEUR EST TOUJOURS ICI`, e:`acquis`, t:[`dispositif`,`méthode`],
+  v:`L'enquête se passe tout du long dans le monde 2 pour le spectateur, c'est la disparition d'Eliott. De temps en temps des chapitres traiteront l'affaire des jumelles du point de vue de Joël sans jamais que le spectateur ne le soupçonne. Ce seront les faux raccords subtilement glissés qui le feront comprendre à la seconde lecture.`,
+  q:`**La doctrine, arrêtée.** Rien ne signale un chapitre de Joël : ni titre, ni typographie, ni changement de voix. *Ce qui change, c'est ma façon de lire le parcours : la voie de Joël n'est pas une seconde ligne narrative que le lecteur suit en parallèle — c'est une ligne qu'il ne voit pas du tout.*` },
+
+{ d:`16 août`, s:`Le « lâche l'affaire » est de Joël`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`La scène du lâche l'affaire, on sera explicitement du côté de Joël alors que le lecteur à la première lecture sera persuadé de suivre une scène se déroulant dans le monde 2.`,
+  q:`**Une seule scène, écrite une fois, jouée une fois, et mal attribuée par tout le monde.** *Conséquence : le doublage de ce beat tombe.* Le dossier prévoyait la phrase dite deux fois, une fois de chaque côté ; il n'y en a plus qu'une. **Andrew ne se fait pas dire la phrase — ce qu'il perd, c'est Isaac, à la scène suivante.**` },
+
+{ d:`16 août`, s:`Les scènes 12 et 13 aussi`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`La scène 12 c'est aussi une scène pour Joël. Il rend visite à un homme qui aurait harcelé les 2 jumelles. On ne dit jamais son nom de famille, on n'évoque pas les jumelles. « Vous en seriez venus aux mains. » Le responsable dit l'avoir entendu tenir des propos déplacés — le mot est ambigu, l'homme a tenu des propos sexistes aux jumelles. Il faut donc lui trouver une raison, qu'il se défende et donne un alibi, tandis que l'on croit toujours écouter un marginal du monde 2 mais qui est un type du monde 1. // L'alibi tient : nouvelle fois Joël qui part interroger quelqu'un dans un lieu pour valider l'alibi de l'homme.`,
+  q:`**Le suspect que le lecteur s'est construit n'existe pas : il est cousu de deux hommes.** Les scènes 6, 7 et 9 bâtissent un marginal d'ici ; les scènes 12 et 13 montrent un homme d'ailleurs. Et l'alibi les tue tous les deux d'un coup. *Ça donne aussi son nom à un procédé neuf — l'équivoque, le mot qui se lit des deux côtés sans qu'aucune des deux lectures soit fausse.*` },
+
+{ d:`16 août`, s:`Où tombe sa cérémonie`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`Est-ce que justement cette scène de cérémonie ne viendrait pas juste après ? Quelque chose dans le discours de l'homme donne prétexte à se souvenir. On tranche entre les deux scènes avec de nouveau le point de vue d'Andrew.`,
+  q:`**Meilleur que ce que je proposais.** J'avais recommandé un placement précoce, en troisième chapitre — structurellement juste, mais le souvenir y arrivait parce que l'autrice en avait besoin là. **Ici il arrive parce que quelque chose l'appelle**, et la transition elle-même devient une pièce du dispositif : le lecteur sort d'un chapitre de la vie d'avant et entre dans un souvenir d'ici sans voir la couture. *Et ça évite trois chapitres de Joël d'affilée au moment le plus fragile du livre.*` },
+
+{ d:`16 août`, s:`Une scène de Joël dans le creux`, e:`acquis`, t:[`enquête`],
+  v:`On aura une scène entre la 14a et la 14b, une scène côté Joël.`,
+  q:`**Elle sépare le refus au comptoir de la traversée du jardin**, et elle arme la scène 15 : une enquête qui n'a plus rien est une enquête qu'on peut demander d'arrêter. *Le contenu exact reste à trouver — et elle absorbe l'ancienne carte « On lui dit d'arrêter », devenue un doublon depuis que le « lâche l'affaire » est passé du côté de Joël.*` },
+
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
   q:`**Règle permanente.** À chaque décision : on corrige la fiche concernée, on répercute ici, on reconstruit, on vérifie, on commite. *Un atelier qui retarde d'une séance ne sert plus à rien.* Et les étapes se marquent par des tags git — `+"`"+`v1`+"`"+` à `+"`"+`v4`+"`"+` pour la mise en place du monde, `+"`"+`v5`+"`"+` pour l'atelier — ce qui permet de retrouver n'importe quelle version d'un document et de comparer deux états.` },
@@ -1980,7 +2052,7 @@ const LEXIQUE = [
 ["Le chuchoteur","Jeune bras droit d'un ancien aux commandes, dans n'importe quel domaine — pas seulement en politique. Une sorte de formateur de terrain.","L-ECLAIRCIE-dossier-complet.md §10","Le rôle n'est encore écrit dans aucune fiche du monde. Il attend une définition."],
 ["Les pédiatres du jardin","Corps médical propre au jardin, tenu au secret médical. Ils suivent chaque enfant de huit ans à zéro et surveillent une seule chose : le jour où l'âge repart. Les berceurs sont dans la confidence, et ils sont les seuls.","02-univers/le-jardin.md","Leur nom de métier dans le monde n'est pas fixé."],
 ["Le suivi","Rendez-vous médicaux obligatoires après toute éclaircie — mémoire, tonicité musculaire, apprentissage, coordination, élocution. Régime commun, banal, administratif ; il y en a d'autant plus qu'on est arrivé haut. Une pédiatrie pour vieillards.","02-univers/le-corps-des-arrivants.md","Le nom du métier et du rendez-vous n'est pas choisi. « Pédiatre pour vieux » est la formule de travail et n'entre pas dans le roman."],
-["Le jardin","Le dernier lieu de vie. On y entre à huit ans — descendu du haut, grandi depuis le bas, ou arrivé à huit pile — et on n'en sort pas. Il abrite dans les mêmes pièces des enfants de huit, sept, cinq, trois, un.","02-univers/le-jardin.md","Lieu unique et fermé, ou plusieurs endroits ? Les âges sont-ils séparés en salles ?"],
+["Le jardin","Le dernier lieu de vie, et ce n'est pas un lieu où l'on entre en descendant : c'est la tranche de huit à zéro, tout entière. Quiconque a huit ans ou moins y est, par défaut, quel que soit le sens de sa trajectoire — qu'il grandisse vers huit ou qu'il redescende vers zéro. On n'en sort pas.","02-univers/le-jardin.md","Lieu unique et fermé, ou plusieurs endroits ? Les âges sont-ils séparés en salles ?"],
 ["Le plateau","La phase du décompte où l'âge s'arrête à huit ans, pour un temps variable, avant de repartir vers le bas. Ne jamais confondre avec le jardin : le plateau est une phase, le jardin est un lieu.","02-univers/ce-qui-est-juge.md","La durée du plateau n'est fixée pour personne, et aucun chiffre ne doit être inventé."],
 ["Le palier","Ancien mot du dossier pour le plateau. Proscrit.","02-univers/le-jardin.md","Vocabulaire arrêté : le jardin (le lieu), le plateau (la phase). Jamais « le palier »."],
 ["Le jardin allongé","Ce que reçoit le meurtri : des années supplémentaires à huit ans, dans le seul endroit de ce monde où l'on est bien. Le supplément est proportionnel à ce qui a été pris.","02-univers/ce-qui-est-juge.md","Aucun barème n'existe et il ne faut jamais en écrire un. La longueur exacte n'est lisible nulle part."],
@@ -2070,7 +2142,9 @@ const REGLES = [
 ["Ruche","Dans le corps de métier, l'ancienneté se lit à l'envers sur les visages. Les anciens du service sont les plus jeunes d'aspect, et personne ne trouve cela remarquable.","acquis"],
 ["Ruche","On ressort à peu près là où l'on est mort. Régularité de fait, jamais une loi énoncée.","acquis"],
 ["Ruche","Les registres remontent aussi loin que des hommes en ont tenu, et rien avant. C'est une limite d'archives, pas une limite du monde.","acquis"],
-["Jardin","Le jardin est le dernier lieu de vie, pas un âge. Trois portes pour y entrer, aucune pour en sortir.","acquis"],
+["Jardin","Le jardin est la tranche de huit à zéro. On y est parce qu'on a huit ans ou moins, point — qu'on soit en train de grandir ou de rajeunir. Aucune porte pour en sortir.","acquis"],
+["Jardin","Il abrite donc, dans les mêmes pièces, des trajectoires qui montent et des trajectoires qui descendent. Deux corps de six ans côte à côte, l'un qui va vers huit et l'autre qui va vers zéro, et rien ne les distingue.","acquis"],
+["Jardin","Plus on arrive jeune, plus grande est la part de la vie passée au jardin — et pour qui arrive à huit ou en dessous, c'est la totalité. Un arrivant de six ans y entre le jour de son éclaircie et n'en sort jamais.","acquis"],
 ["Jardin","Le jardin est universel : le veilleur, le tuteur, le berceur, l'élu, et jusqu'à celui qui déteste les arrivants jeunes et le dit à voix haute.","acquis"],
 ["Jardin","Le jardin ne stagne pas, il s'écoule. Il y a toujours quelqu'un qui vient d'entrer et quelqu'un qui achève.","acquis"],
 ["Jardin","Une moitié bruyante et une moitié muette, sans cloison, et la frontière se déplace tous les jours d'un enfant à l'autre.","acquis"],
@@ -2080,7 +2154,8 @@ const REGLES = [
 ["Jardin","Un berceur exerce jusqu'à douze ans, puis des tâches simples, puis il entre au jardin à son tour. Celui qui accompagne finit accompagné, à l'endroit exact où il exerçait.","acquis"],
 ["Jardin","Le système n'a pas à protéger le secret : il s'efface tout seul. Ni serment, ni sanction, ni surveillance.","acquis"],
 ["Jardin","Le tabou se retourne contre ses gardiens : un berceur à qui on confie des tâches plus simples reçoit exactement la nouvelle qu'il n'a jamais donnée aux enfants.","acquis"],
-["Jardin","Qui s'occupe de la croissance en dessous de huit ans n'est pas réglé. C'est le seul temps de la vie qui n'a pas de lieu attribué.","ouvert"],
+["Jardin","La croissance sous huit ans se passe au jardin, et ce sont les berceurs qui s'en occupent. Ce temps de la vie avait un lieu depuis le début — c'était celui-là.","acquis"],
+["Jardin","La croissance, elle, est publique : on voit un corps de six ans devenir un corps de huit ans, et personne n'a à le taire. Ce qui reste secret est le moment où ça s'inverse.","provisoire"],
 ["Fin de vie","La mort au jardin se fait portée par une berceuse, avec des gestes de métier et sans pathos. Rien n'annonce que ça commence et rien ne signale que c'est fini.","provisoire"],
 ["Fin de vie","Ce que devient le corps de quelqu'un arrivé à zéro n'est dit nulle part.","ouvert"],
 ["Société","Ni famille, ni parents, ni sang, ni filiation, ni lignée. Cette humanité n'a pas de préhistoire.","acquis"],
@@ -2397,7 +2472,10 @@ const DISPOSITIF = [
 ["Le nom arrive attaché à un refus d'obéir","La seule fois du roman où l'on entend son nom est la seule fois où quelqu'un essaie de l'arrêter et où il n'écoute pas. Son partenaire crie « attends » — le mot exact auquel il a cédé des semaines plus tôt, et qui est toute sa faute. Son identité et sa faute sont données dans le même souffle, et en miroir."],
 ["Ce n'est pas une entourloupe (1)","Andrew enquête comme l'enquêteur parce qu'il est l'enquêteur : le reliquat n'est pas un souvenir, c'est une vocation. La ressemblance des deux récits n'est pas une astuce d'autrice, c'est une règle énoncée par le livre avant que le lecteur ait à s'en servir. Il a été trompé par une cohérence, pas par une omission."],
 ["Ce n'est pas une entourloupe (2)","Les deux mondes ont des postes de police, des procédures, des voitures, des dossiers. Une scène d'enquête ne trahit jamais lequel des deux on lit — non parce qu'on gomme les indices, mais parce qu'il n'y en a pas à gommer."],
-["La couture","Andrew se fait dire la phrase du policier au commissariat ; Joël se la rappelle, plus tard, devant les corps. Une seule des deux scènes est jouée, donc il n'y a aucune répétition à repérer. Le lecteur recoud deux fragments de deux vies en un seul souvenir, et la couture ne se voit pas parce que c'est lui qui l'a faite."],
+["Le lecteur est dans le monde d'ici, tout du long","**Doctrine arrêtée le 16 août 2026.** Pour lui, l'enquête est celle de la disparition d'Eliott, du premier chapitre au dernier. De temps en temps, un chapitre traite l'affaire des filles du point de vue de Joël — et il ne le soupçonne jamais. Rien ne le signale : ni titre, ni typographie, ni changement de voix. **Ce sont les faux raccords, semés trois ou quatre fois dans tout le volume, qui le lui apprendront à la seconde lecture.**"],
+["La couture","Le lecteur recoud deux fragments de deux vies en un seul souvenir, et la couture ne se voit pas parce que c'est lui qui l'a faite. *Le procédé a changé d'échelle : il ne porte plus une phrase, il porte des chapitres entiers.*"],
+["Le suspect est une couture","**Il n'existe pas.** Les scènes 6, 7 et 9 construisent un homme du monde d'ici — vingt-deux ans, des propos haineux, des jours au silence. Les scènes 12 et 13 montrent un homme du monde d'avant, qui a tenu des propos déplacés à deux filles. Le lecteur n'en voit qu'un. **Deux hommes qui ne se sont jamais rencontrés et qui ne vivent pas dans le même monde, et l'alibi de la scène 13 les tue tous les deux d'un coup.**"],
+["L'équivoque","Le procédé qui rend la méprise possible, et il ne se confond pas avec le faux raccord. **Le faux raccord différencie ; l'équivoque, elle, autorise deux lectures d'un même mot.** *Des propos déplacés* : le lecteur y entend l'euphémisme du grief anti-jeunes, et ce sont des propos sexistes. *Vous en seriez venus aux mains* : une bagarre au travail, dans les deux mondes. **Aucune des deux lectures n'est fausse, et c'est pour ça que rien ne se démonte à la relecture.**"],
 ["La couture obéit à d'autres règles","Elle ne consomme aucune paire du dosage, puisqu'elle ne produit aucun soupçon au premier passage. Et la règle d'espacement s'inverse : une paire doit être très écartée pour qu'on oublie ; ici il faut qu'on se souvienne. Assez près pour que la couture prenne, assez loin pour qu'elle ne se regarde pas."],
 ["L'escalier et la porte","Le lecteur descend deux fois le même escalier et ouvre deux fois la même porte : là-bas un mouroir et deux corps, ici une cave repeinte, meublée, et quelqu'un de vivant. C'est le seul endroit du livre où le procédé produit son effet par la différence et non par la ressemblance."],
 ["Les deux cérémonies","Deux descriptions du même rite, toutes deux du point de vue d'Andrew : celle où il accueille (analytique) et celle où il est accueilli (l'accueilli qui ne comprend rien). Le même rite vu depuis les deux bouts — et le lecteur ne réalise pas tout de suite que le second point de vue est celui du même homme."],
@@ -2536,9 +2614,10 @@ const QUESTIONS = [
   t:`Le mois contre le calendrier court`,
   q:`La scène 3 pose un mois entre l'arrivée d'Eliott et sa disparition. La fiche d'Eliott pose des visites qui tiennent « sur des jours, pas sur des mois ». **L'un des deux documents est à corriger.**`, o:[], n:`` },
 
-{ g:`Les contradictions à répercuter`, e:`trou`,
+{ g:`Les contradictions à répercuter`, e:`acquis`,
   t:`Vingt-trois arrivants de six ans basculés directement au jardin`,
-  q:`La scène 11 le pose. Le dossier du jardin pose qu'on y entre **à huit ans** et qu'en dessous on grandit ailleurs — « le seul temps de la vie qui n'a pas de lieu attribué ». **Le jeu de piste tranche de fait une question ouverte : il faut le confirmer, ou corriger la scène.**`, o:[], n:`` },
+  q:`**Arbitré le 16 août 2026, dans le sens du jeu de piste : la scène 11 est juste et ne bouge pas.** « On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir. »`,
+  o:[], n:`**Le jardin cesse d'être un lieu où l'on entre en descendant : c'est la tranche de huit à zéro, tout entière.** Et ça ferme du même coup la question ouverte depuis le 15 août — qui s'occupe de la croissance sous huit ans. Réponse : le jardin, et les berceurs. *Ce temps de la vie avait un lieu depuis le début ; c'était celui-là.*` },
 
 { g:`Les contradictions à répercuter`, e:`trou`,
   t:`Les dates d'août sont fausses dans sept fichiers`,
@@ -2606,9 +2685,15 @@ const QUESTIONS = [
   t:`Les durées de plateau et de fin`,
   q:`Elles ne sont fixées pour personne — **et aucun chiffre ne doit être inventé.** Plateau et fin sont-ils liés ou indépendants ? La fin va-t-elle à la même vitesse que la marche vers huit, ou à une seconde vitesse ?`, o:[], n:`` },
 
-{ g:`Le monde`, e:`ouvert`,
+{ g:`Le monde`, e:`acquis`,
   t:`Qui s'occupe de la croissance en dessous de huit ans ?`,
-  q:`Un arrivant de deux ans a six ans à monter, et il les passe hors du jardin puisqu'il n'y entre qu'à huit. **C'est le seul temps de la vie qui n'a pas de lieu attribué**, et le partage berceur/tuteur n'avait pas prévu quelqu'un qui monte.`, o:[], n:`` },
+  q:`**Tranché le 16 août 2026 : le jardin, et les berceurs.** Un arrivant de deux ans y entre le jour de son éclaircie, il y grandit jusqu'à huit, il y reste, il y redescend. *Ce n'était pas le seul temps de la vie sans lieu attribué : c'était le même lieu depuis le début, et on ne l'avait pas vu.*`,
+  o:[], n:`**Une conséquence à travailler, et elle est neuve.** Pour ceux qui montent, la croissance est publique — on voit un corps de six ans devenir un corps de huit ans, et personne n'a à le taire. Ce qui reste secret est le moment où ça s'inverse. **Le tabou ne porte donc pas sur la même chose selon le sens de la trajectoire**, et le dossier ne l'avait pas prévu.` },
+
+{ g:`Le monde`, e:`ouvert`,
+  t:`Deux corps de six ans, côte à côte`,
+  q:`Depuis que le jardin prend toute la tranche de huit à zéro, il abrite dans les mêmes pièces des trajectoires qui montent et des trajectoires qui descendent. **Un de six ans qui va vers huit et un de six ans qui va vers zéro sont indiscernables** — même corps, même âge, deux directions opposées, et rien pour les distinguer.`,
+  o:[], n:`*Le livre n'a pas encore de scène là-dessus, et il y a de quoi en faire une. À noter aussi : c'est un cadeau pour le tabou, puisque même en regardant on ne peut rien déduire.*` },
 
 { g:`Le monde`, e:`ouvert`,
   t:`Une blessure prise ici s'efface-t-elle ?`,
@@ -2829,6 +2914,22 @@ const esc = s => String(s == null ? `` : s).replace(/[&<>"]/g, c => ({'&':'&amp;
 const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, `<strong>$1</strong>`).replace(/(^|[\s(«"])\*(?!\s)(.+?)\*/g, `$1<em>$2</em>`);
 const ST = { acquis:`acquis`, provisoire:`provisoire`, trou:`à trouver`, ouvert:`ouvert`, ecarte:`écarté` };
 
+/* ---------- mémoire du navigateur, avec repli ----------
+   Certains contextes interdisent le stockage. Le document doit fonctionner
+   quand même : on retombe alors sur une mémoire vive, perdue en fermant. */
+const memo = (() => {
+  let dispo = false;
+  try { localStorage.setItem(`__essai`, `1`); localStorage.removeItem(`__essai`); dispo = true; } catch (e) {}
+  const tampon = Object.create(null);
+  return {
+    dispo,
+    lire: k => { try { return dispo ? localStorage.getItem(k) : (k in tampon ? tampon[k] : null); }
+                 catch (e) { return k in tampon ? tampon[k] : null; } },
+    ecrire: (k, v) => { tampon[k] = v; try { if (dispo) localStorage.setItem(k, v); } catch (e) {} },
+    effacer: k => { delete tampon[k]; try { if (dispo) localStorage.removeItem(k); } catch (e) {} }
+  };
+})();
+
 /* ---------- thème ---------- */
 const clefTheme = `eclaircie-theme`;
 function poserTheme(t){
@@ -2849,11 +2950,11 @@ function marquerTheme(){
   b.setAttribute(`aria-label`, vaVers === `dark` ? `Passer au thème sombre` : `Passer au thème clair`);
   b.title = vaVers === `dark` ? `Passer au thème sombre` : `Passer au thème clair`;
 }
-poserTheme(localStorage.getItem(clefTheme));
+poserTheme(memo.lire(clefTheme));
 marquerTheme();
 $(`#btn-theme`).addEventListener(`click`, () => {
   const t = themeActuel() === `dark` ? `light` : `dark`;
-  poserTheme(t); localStorage.setItem(clefTheme, t);
+  poserTheme(t); memo.ecrire(clefTheme, t);
   marquerTheme(); dessinerCourbes();
 });
 
@@ -3031,6 +3132,10 @@ function ouvrirTiroir(id){
   if (s.lecture) h += bloc(`Ce que le lecteur en fait`, `<div class="dit">${rich(s.lecture)}</div>`);
   if (s.monde)   h += bloc(`Ce qu'elle apprend du monde`, `<p>${rich(s.monde)}</p>`);
   if (s.double)  h += bloc(`Beat doublable`, `<p>${rich(s.double)}</p>`);
+  if (s.pourquoi && s.pourquoi.length)
+    h += bloc(`Pourquoi là`, `<ul>` + s.pourquoi.map(x => `<li>${rich(x)}</li>`).join(``) + `</ul>`);
+  if (s.contre)
+    h += bloc(`L'autre option`, `<div class="garde"><b>ce qu'elle coûterait</b>${rich(s.contre)}</div>`);
 
   if (s.qui && s.qui.length){
     h += bloc(`Qui est là`, s.qui.map(q => {
@@ -3122,8 +3227,8 @@ addEventListener(`resize`, () => {
    VUE 2 — LE CHAPITRAGE
    ========================================================================== */
 const CLEF_CH = `eclaircie-chapitres-v1`;
-let plan = JSON.parse(localStorage.getItem(CLEF_CH) || `null`) || { ch: [{ t: `Chapitre 1`, s: [] }] };
-function sauverPlan(){ localStorage.setItem(CLEF_CH, JSON.stringify(plan)); }
+let plan = JSON.parse(memo.lire(CLEF_CH) || `null`) || { ch: [{ t: `Chapitre 1`, s: [] }] };
+function sauverPlan(){ memo.ecrire(CLEF_CH, JSON.stringify(plan)); }
 
 function jeton(s, dansChapitre){
   const b = document.createElement(`div`);
@@ -3320,6 +3425,7 @@ function rendreMonde(){
 
   else if (mOnglet === `decompte`){
     c.innerHTML = `<p class="chapo"><strong>Tout le monde revient à l'âge où il est parti.</strong> Tout le monde rejoint huit ans — en descendant si l'on arrive au-dessus, en grandissant si l'on arrive en dessous. Puis un plateau, dont la durée varie d'un dossier à l'autre. Puis on repart vers le bas, et on meurt à zéro.<br>
+      <strong>La bande du bas est le jardin</strong>, et il ne commence pas au plateau : il prend toute la tranche de huit à zéro. Qui arrive en dessous de huit y entre le jour de son éclaircie et y passe sa vie entière.<br>
       <em>Le trait plein est ce qui est chiffré. Le pointillé est ce que le dossier refuse de chiffrer — et il refuse pour une raison : personne, dans ce monde, ne peut dater sa fin.</em></p>
       <div class="graphe-boite"><svg id="graphe" viewBox="0 0 900 470" preserveAspectRatio="xMidYMid meet"></svg></div>
       <h2 class="titre-section">Le piège <span>à ne jamais confondre</span></h2>
@@ -3383,9 +3489,11 @@ function dessinerCourbes(){
           <text x="${px(t)}" y="${H - MB + 18}" text-anchor="middle" fill="var(--texte-4)" font-size="10.5" font-family="var(--sans)">${t}</text>`;
   s += `<line class="gaxe" x1="${ML}" y1="${py(0)}" x2="${W - MR}" y2="${py(0)}"/>
         <line class="gaxe" x1="${ML}" y1="${MT}" x2="${ML}" y2="${py(0)}"/>`;
-  /* la ligne des huit ans */
+  /* la ligne des huit ans, et la bande du jardin */
   s += `<line class="gpalier" x1="${ML}" y1="${py(8)}" x2="${W - MR + 40}" y2="${py(8)}"/>
-        <text x="${W - MR + 46}" y="${py(8) + 4}" fill="var(--provisoire)" font-size="10" font-family="var(--sans)" letter-spacing=".1em">LE JARDIN</text>`;
+        <text x="${W - MR + 46}" y="${py(8) + 4}" fill="var(--provisoire)" font-size="10" font-family="var(--sans)" letter-spacing=".1em">HUIT ANS</text>
+        <text x="${W - MR + 46}" y="${(py(8) + py(0)) / 2 + 4}" fill="var(--provisoire)" font-size="10.5" font-family="var(--sans)" letter-spacing=".14em">LE JARDIN</text>
+        <text x="${W - MR + 46}" y="${(py(8) + py(0)) / 2 + 19}" fill="var(--texte-4)" font-size="9.5" font-family="var(--sans)">de huit à zéro, tout entier</text>`;
   s += `<text x="${ML - 10}" y="${MT + 2}" text-anchor="end" fill="var(--texte-4)" font-size="9.5" font-family="var(--sans)" letter-spacing=".1em">ÂGE</text>
         <text x="${W - MR}" y="${H - MB + 34}" text-anchor="end" fill="var(--texte-4)" font-size="9.5" font-family="var(--sans)" letter-spacing=".1em">ANNÉES VÉCUES →</text>`;
 
@@ -3543,6 +3651,7 @@ function rendreTextes(){
      </aside>`;
 
   $(`#x-copier`).addEventListener(`click`, () => {
+    if (!navigator.clipboard) { souffler(`Le presse-papier n'est pas disponible ici — passe par le téléchargement.`); return; }
     navigator.clipboard.writeText(texteBrut(t))
       .then(() => souffler(`Texte copié. Colle-le où tu veux.`))
       .catch(() => souffler(`Le navigateur a refusé le presse-papier — passe par le téléchargement.`));

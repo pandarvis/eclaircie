@@ -25,14 +25,29 @@ On ne leur envie pas de ne rien faire. On ne leur envie pas d'échapper au trava
 
 Le monde n'a qu'une destination et elle est la même pour tous : **huit ans**, le jardin, l'insouciance dans laquelle on finit par disparaître. Personne n'en est privé. Personne n'y arrive plus tôt qu'un autre au sens du mérite.
 
-*Correction du 16 août 2026 : ce document disait *« on y arrive tous, un jour, et on y reste jusqu'au bout »*. **On n'y reste pas.** Le jardin est un plateau : on en repart vers le bas, et on meurt à zéro. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md).*
+*Correction du 16 août 2026, en deux temps. Ce document disait *« on y arrive tous, un jour, et on y reste jusqu'au bout »*. **La première moitié est fausse et la seconde est vraie**, et l'inverse avait d'abord été écrit ici. **On n'arrive pas tous au jardin** : ceux qui sont arrivés sous huit ans y sont depuis toujours. **Et on y reste bel et bien jusqu'au bout** — ce dont on repart, c'est du plateau à huit ans, pas du lieu ; la descente jusqu'à zéro s'y passe aussi. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md) et [`le-jardin.md`](le-jardin.md).*
 
 Mais on n'y arrive pas par le même chemin.
 
+- Celui qui est arrivé en dessous de huit ans n'y accède pas : **il y est né.** Il a six ans, il grandit au jardin, il y tient son plateau, il y redescend. **Il n'en sort pas une seule fois de toute sa vie.**
 - Celui qui est arrivé à dix ans y accède presque tout de suite. **Deux marches, six ans, et il y est.** Ses quarante ans sont acquis, et il en passera la plus grande partie assis.
 - Celui qui est arrivé à quatre-vingt-dix doit descendre tout l'escalier. La dépendance des premières années, l'apprentissage humiliant devant des formateurs plus jeunes que lui, quarante ans de travail, les maladies, la lente reconquête de son corps — et au bout, exactement la même insouciance, **pour un temps que personne ne lui promet.**
 
 **Même récompense. Chemins radicalement inégaux.** Voilà ce qui ronge. Pas l'oisiveté du petit chiffre : la facilité de son accès. On a fait toutes les marches pour la même chose. Certains ont pris l'escalier, d'autres sont arrivés sur le palier.
+
+### Le grief devient exact — règle d'entrée du 16 août 2026
+
+**Le jardin est la tranche d'âge de huit à zéro : on y est dès qu'on a huit ans ou moins, dans un sens de trajectoire comme dans l'autre** ([`le-jardin.md`](le-jardin.md)). Ce document n'a pas besoin d'en dire plus, mais il a besoin d'en tirer une ligne, et une seule :
+
+> **Plus on arrive jeune, plus grande est la part de la vie passée au jardin. En dessous de huit ans, c'est la totalité.**
+
+**Cela ne donne aux jaloux aucun chiffre de plus, et cela rend leur grief plus exact.** Ils ne se plaignent pas d'une durée — ils n'en ont pas, et ils n'en auront jamais. Ils se plaignent d'un **accès à l'âge d'innocence**, et la règle d'entrée dit que cet accès n'est pas seulement plus rapide pour les petits chiffres : **pour certains, il n'y a jamais eu à y accéder.**
+
+*Ce que ça ne change pas, et il faut le tenir : **le grief reste inchiffrable.** Une proportion n'est pas une quantité opposable ; savoir que quelqu'un passe toute sa vie au jardin ne dit toujours pas combien de temps il y sera, ni ce qu'il « aurait dû » recevoir. La règle B est intacte. **On leur a donné une phrase plus juste, pas un tableau.***
+
+*Et la remarque de salon qui en sort n'appelle aucune réponse :*
+
+> *« Lui, il n'a jamais rien connu d'autre. »*
 
 ### Et depuis le 16 août, le grief a un second objet
 
@@ -124,7 +139,9 @@ C'est la même mécanique que plus haut, d'un cran plus profond. Leur erreur n'e
 
 > **Décision de l'autrice, 16 août 2026.** *« Ceux qui ne comprennent pas les détestent et trouvent leur condition injuste par rapport à la leur. Les autres sont étonnés, mais en même temps ils voient bien que quand tu es trop petit, ton existence se résume à celle d'un bébé. Tu ne fais rien, on s'occupe de toi tout le temps, tu ne profites pas des premières années de ta vie. Ce n'est que plus juste que l'univers te donne la chance de grandir jusqu'à huit ans. »*
 
-**Depuis la convergence vers huit ans, ce monde a des enfants qui grandissent** — les arrivants sous le seuil, qui montent à 1:1 jusqu'au jardin. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md). C'est rare, c'est visible, et c'est la seule chose de ce monde qui aille dans le même sens que le nôtre.
+**Depuis la convergence vers huit ans, ce monde a des enfants qui grandissent** — les arrivants sous le seuil, qui montent à 1:1 jusqu'à huit. Voir [`ce-qui-est-juge.md`](ce-qui-est-juge.md). C'est rare, c'est visible, et c'est la seule chose de ce monde qui aille dans le même sens que le nôtre.
+
+**Et depuis la règle d'entrée du 16 août 2026, ils grandissent au jardin** — ils y sont dès le premier jour, et ils n'en sortiront pas. *Cela ne déplace pas la dispute d'un pouce : les deux camps y trouvent la même chose en plus fort. Pour les premiers, les six années offertes sont six années de jardin. Pour les seconds, un enfant qu'il faut porter et changer est exactement là où l'on porte et où l'on change.* **Personne n'a gagné une ligne.**
 
 **La société se partage en deux, et la fracture n'est pas celle qu'on attendrait.**
 
@@ -282,6 +299,8 @@ L'enlèvement d'[Eliott](../03-personnages/eliott.md) ne vient donc pas d'ailleu
 - **« du jardin »** — le lieu où tout le monde va, et où eux n'iront que très tard et pour très peu de temps.
 
 Le mot dit l'accès facile à l'innocence, jamais la durée. C'est la formulation populaire, en une insulte, de tout ce que la section « L'objet de la jalousie » met à démontrer.
+
+*Et depuis la règle d'entrée du 16 août 2026, **« du jardin » cesse d'être une image pour les arrivants sous huit ans** : ils y sont depuis le premier jour et ils y mourront. L'insulte devient littérale sans que personne l'ait voulu, et **elle n'est pas plus vraie pour autant** — c'est toujours un enfant qu'on traite de prince. **Ne jamais faire remarquer ce glissement par un personnage.***
 
 *Réglage : c'est une phrase de salon ou de trottoir, pas un slogan. Elle se dit une fois, en passant, par quelqu'un qui n'y met pas d'intention particulière — et elle revient beaucoup plus tard dans une autre bouche, et là elle ne fait plus rire.*
 

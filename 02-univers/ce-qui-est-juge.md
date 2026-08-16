@@ -10,10 +10,12 @@
 
 > 1. **Tout le monde revient à l'âge où il est parti.**
 > 2. **Tout le monde converge vers huit ans** — en descendant si l'on arrive au-dessus, **en grandissant si l'on arrive en dessous.**
-> 3. **Huit ans, c'est le plateau — et c'est l'entrée au jardin.** Le plateau dure un temps variable.
+> 3. **Huit ans, c'est le plateau.** Il dure un temps variable. **Et huit ans, c'est aussi le haut du jardin** — qui est la tranche entière de huit à zéro.
 > 4. **Puis l'âge repart vers le bas, et on meurt à zéro — sans quitter le jardin.**
 > 5. **Personne ne vit moins de quarante ans.**
 > 6. **La seule chose que le verdict décide, c'est la durée du séjour au jardin.**
+
+> **⚠️ Règle d'entrée, décision de l'autrice du 16 août 2026.** *« On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir. »* **Le jardin n'est pas une porte qu'on franchit à huit ans : c'est la tranche d'âge de huit à zéro.** Quiconque a huit ans ou moins y est, sans condition, **dans un sens de trajectoire comme dans l'autre.** Conséquence directe et lourde : **un arrivant sous le seuil y est dès le premier jour et y grandit** — il n'attend pas dehors. Développement complet dans [`le-jardin.md`](le-jardin.md).
 
 **Il n'existe aucun calcul d'attribution du chiffre d'arrivée.** L'âge d'arrivée est l'âge de mort, sans exception et sans correctif.
 
@@ -31,9 +33,9 @@ Le nombre est **huit**, et ce n'est pas une borne. C'est **le point vers lequel 
 
 | Comment on arrive | Ce que fait le corps | À quelle vitesse |
 |---|---|---|
-| **Au-dessus de huit** | il descend jusqu'à huit | la vitesse du §7 : un an par an au-dessus de cinquante, environ trois ans par marche chez les jeunes arrivants |
-| **À huit pile** | rien. Il entre au jardin le premier jour | — |
-| **En dessous de huit** | **il grandit jusqu'à huit** | **1:1. Un an par an, sans exception** |
+| **Au-dessus de huit** | il descend jusqu'à huit, **dehors** | la vitesse du §7 : un an par an au-dessus de cinquante, environ trois ans par marche chez les jeunes arrivants |
+| **À huit pile** | rien. **Il est au jardin le premier jour** | — |
+| **En dessous de huit** | **il grandit jusqu'à huit — et il grandit au jardin**, où il est dès le premier jour | **1:1. Un an par an, sans exception** |
 
 **On ne régresse jamais en dessous de son âge d'arrivée.** Un arrivant de deux ans ne redescend pas vers zéro : il monte. Il met six ans à atteindre le jardin, et il les vit à l'endroit, comme un enfant d'ici en mettrait six à passer de deux à huit.
 
@@ -47,7 +49,9 @@ Le nombre est **huit**, et ce n'est pas une borne. C'est **le point vers lequel 
 
 > **On meurt à zéro.**
 
-> **⚠️ Le jardin n'est pas le deuxième temps : c'est le lieu où se passent le deuxième et le troisième.** *Décision de l'autrice du 17 août 2026. **Le plateau est une phase, le jardin est un lieu** — le dernier lieu de vie, où l'on entre à huit ans et dont on ne sort pas. Il abrite en même temps des enfants de huit, de cinq, de deux. Partout où ce document dit « le jardin » pour désigner le plateau, lire **le plateau**. Développement complet dans [`le-jardin.md`](le-jardin.md).*
+> **⚠️ Le jardin n'est pas le deuxième temps : c'est le lieu où se passent le deuxième et le troisième — et, pour les arrivants sous le seuil, le premier aussi.** *Décision de l'autrice du 17 août 2026, complétée le 16 août 2026. **Le plateau est une phase, le jardin est un lieu** — le dernier lieu de vie, dont on ne sort pas, et **où l'on est dès qu'on a huit ans ou moins.** Il abrite en même temps des enfants de huit, de cinq, de deux ; **certains descendent et d'autres montent.** Partout où ce document dit « le jardin » pour désigner le plateau, lire **le plateau**. Développement complet dans [`le-jardin.md`](le-jardin.md).*
+>
+> **Ce que ça fait à la colonne 1 du tableau :** l'approche par le haut se passe **dehors**, l'approche par le bas se passe **au jardin**. *Le premier temps est le seul des trois qui n'ait pas le même lieu des deux côtés.*
 
 **La parole se dégrade vers quatre ans.** C'est le repère du troisième temps, et le seul qui soit posé : en descendant, la langue s'en va aux alentours de quatre. Ce qui suit se passe sans mots.
 
@@ -55,9 +59,11 @@ Le nombre est **huit**, et ce n'est pas une borne. C'est **le point vers lequel 
 
 > **Un arrivant de deux ans grandit six ans. Un arrivant de dix ans en descend six.**
 >
-> **Ils entrent au jardin le même jour, par les deux côtés.**
+> **Ils atteignent huit ans le même jour, par les deux côtés.**
 
 Deux enfants, deux directions, un seul rendez-vous. L'un a passé six ans à monter vers huit, l'autre six ans à descendre vers huit, et ils s'assoient au même endroit à la même heure. **Rien dans le monde ne dit lequel venait d'en haut.** Au jardin, un enfant de huit ans est un enfant de huit ans.
+
+*⚠️ Cette section disait « **ils entrent au jardin le même jour** ». **C'est faux depuis le 16 août 2026, et la correction rend la symétrie plus belle, pas moins :** celui qui montait était déjà là. Il a passé ses six années de croissance au jardin, l'autre les a passées dehors. **Ils atteignent huit ans ensemble ; un seul des deux entre.** Pour l'un, le jardin est une destination ; pour l'autre, il n'a jamais été qu'un endroit où il vit.*
 
 *C'est le cas exact d'[Eliott](../03-personnages/eliott.md), arrivé à dix : six ans, et il y est. Voir plus bas.*
 
@@ -82,8 +88,12 @@ Ces formules traînent dans tout le dossier et **aucune n'est exacte** :
 | *le plancher est à cinq ans, aux deux bouts* | **il n'y a pas de plancher.** Huit ans est le point de convergence |
 | *personne n'arrive en dessous de cinq ans* | **on arrive en dessous, et on grandit jusqu'à huit** |
 | *il s'éteint à cinq ans* | il entame la décroissance, puis il disparaît à zéro |
-| *il atteint le jardin et n'en bouge plus* | il entre au jardin, son âge y reste un temps, puis il repart vers le bas — **et il ne quitte pas le jardin pour autant** |
+| *il atteint le jardin et n'en bouge plus* | il est au jardin, son âge y reste un temps, puis il repart vers le bas — **et il ne quitte pas le jardin pour autant** |
 | *le jardin, c'est huit ans* | **huit ans, c'est le plateau.** Le jardin est le lieu, et il va de huit à zéro |
+| *on entre au jardin à huit ans* | **on est au jardin dès qu'on a huit ans ou moins** — il n'y a pas de seuil à franchir, il y a une tranche d'âge |
+| *il grandit jusqu'à huit, puis il entre au jardin* | **il grandit au jardin.** Il y est dès le premier jour |
+| *en dessous de huit, on grandit ailleurs* | **il n'y a pas d'ailleurs.** Sous huit ans, on est au jardin, quel que soit le sens de la trajectoire |
+| *les trois portes du jardin* | **il n'y a pas de portes** (formule périmée le 16 août 2026) |
 | *sa vie entière est un palier* | sa vie entière est un plateau **puis** une décroissance |
 | *personne ne vit moins de trente ans* | **quarante** |
 | *ils ont cinq ans tous les deux jusqu'au bout* | ils ont huit ans jusqu'à la fin du plateau, et pas au-delà |
@@ -257,7 +267,9 @@ Il n'y a pas de barème : **plus quelqu'un a été meurtri, plus le jardin est l
 
 *Le chiffre était trente au 15 août. Il est quarante depuis le 16, et il faut le corriger partout où il figure.*
 
-Conséquence : **qui arrive à deux ans dispose de quarante ans, comme qui arrive à dix, comme qui arrive à huit.** Ce qui les sépare n'est pas une quantité mais une forme — l'un passe six ans à grandir, l'autre six ans à descendre, le troisième entre au jardin le premier jour, et **aucun des trois ne reste à huit ans jusqu'au bout.**
+Conséquence : **qui arrive à deux ans dispose de quarante ans, comme qui arrive à dix, comme qui arrive à huit.** Ce qui les sépare n'est pas une quantité mais une forme — l'un passe six ans à grandir, l'autre six ans à descendre, et **aucun des trois ne reste à huit ans jusqu'au bout.**
+
+*Et depuis la règle d'entrée du 16 août 2026, la forme se sépare une seconde fois, sur le lieu : **deux des trois sont au jardin le premier jour** — celui qui arrive à huit et celui qui arrive à deux —, **et le troisième a six ans de dehors devant lui.*** **Plus on arrive bas, plus la part de vie passée au jardin est grande ; sous huit ans, c'est la vie entière.**
 
 > **La qualité change, la quantité non.**
 
@@ -357,6 +369,8 @@ C'est la seule règle du monde où **le seuil administratif coïncide exactement
 
 *Et cela inclut les arrivants de deux, trois, quatre ans — ceux qui vont grandir. Un enfant qui a six ans de croissance devant lui est nommé par un berceur le premier jour, et il portera ce mot toute sa vie, y compris les années où il aurait su en produire un.*
 
+**Et depuis la règle d'entrée du 16 août 2026, les deux seuils ne coïncident plus : ils sont la même ligne.** Être nommé par un berceur et être au jardin sont désormais **le même fait, constaté le même jour, sur le même chiffre**. *Personne ne l'a organisé ainsi. Le service appelle un berceur parce qu'il faut bien nommer l'enfant, et l'enfant reste là où le berceur travaille.*
+
 ### Le tabou : on ne dit pas à un enfant qu'il a commencé à descendre
 
 **Quand un enfant bascule du plateau vers la descente, on ne le lui dit pas.**
@@ -424,15 +438,17 @@ Ce que ça donne, et qui n'était pas atteignable avec l'ancienne règle : **ell
 
 **Avant le 16 août, cet arrivant n'existait pas** : il était remonté au plancher et entrait au jardin le premier jour. **Maintenant il grandit.**
 
-Un arrivant de deux ans passe six ans à grandir — il apprend, il monte, son corps va dans le même sens que le nôtre — puis il entre au jardin à huit ans, et il y est reçu exactement comme celui qui vient d'en haut.
+Un arrivant de deux ans passe six ans à grandir — il apprend, il monte, son corps va dans le même sens que le nôtre — **et il fait tout cela au jardin**, où il est dès le premier jour. Puis le plateau, puis la fin, au même endroit.
 
-**Trois conséquences, et elles sont importantes.**
+**Quatre conséquences, et elles sont importantes.**
 
 **1. Le monde a des enfants qui grandissent.** Ce n'est plus une impossibilité logique : c'est un cas rare, visible, et qui pose à cette société une question qu'elle n'avait pas. Voir [`la-jalousie.md`](la-jalousie.md), section « Les enfants qui grandissent ».
 
-**2. Le jardin n'est plus une destination unique.** On peut y venir par le bas. Deux enfants de huit ans assis au même endroit n'ont pas fait le même voyage, et rien ne dit lequel a fait lequel.
+**2. Le jardin n'est pas une destination pour lui.** *Cette conséquence disait : « le jardin n'est plus une destination unique, on peut y venir par le bas ».* **La règle d'entrée du 16 août 2026 va plus loin : il n'y vient pas, il y est.** Deux enfants de huit ans assis au même endroit n'ont pas fait le même voyage, **et l'un des deux n'a fait aucun voyage.**
 
-**3. Ses quarante ans sont acquis comme ceux des autres petits chiffres**, et il en passera la plus grande partie au jardin.
+**3. Ses quarante ans sont acquis comme ceux des autres petits chiffres**, et **il les passe entièrement au jardin.** *C'est le seul cas du système où le lieu de vie et la vie coïncident.*
+
+**4. Il ne travaillera jamais.** Le jardin n'a pas de sortie, et aucun métier de ce monde ne s'exerce dedans — un berceur exerce jusqu'à douze ans, chiffre qu'un arrivant sous le seuil n'atteindra jamais. **Conséquence dérivée, non demandée, et elle est nette** : voir [`le-jardin.md`](le-jardin.md) §5.0.
 
 ---
 
@@ -466,12 +482,13 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 
 | Fichier | Ce qui y est faux |
 |---|---|
-| [`../03-personnages/june.md`](../03-personnages/june.md) | *« accompagnent ceux qui sont au jardin, jusqu'au dernier jour »* — **la formule est exacte depuis le 17 août 2026**, le dernier jour étant au jardin. Ce qui reste à corriger : le métier gagne deux charges — **elle nomme les huit ans et en dessous**, et **elle se tait quand la descente commence** — et sa charge n'est pas faite que d'enfants de huit ans |
+| [`../03-personnages/june.md`](../03-personnages/june.md) | *« accompagnent ceux qui sont au jardin, jusqu'au dernier jour »* — **la formule est exacte depuis le 17 août 2026**, le dernier jour étant au jardin. Ce qui reste à corriger : le métier gagne deux charges — **elle nomme les huit ans et en dessous**, et **elle se tait quand la descente commence** — et sa charge n'est pas faite que d'enfants de huit ans. **Depuis le 16 août 2026 : *« qui arrive en dessous grandit jusqu'à huit, et le rejoindra »* est faux — il ne rejoint rien, il y est déjà**, et la charge d'une berceuse comprend donc aussi des enfants qui montent |
+| [`../04-plan/le-parcours-de-l-enquete.md`](../04-plan/le-parcours-de-l-enquete.md) | la puce « à trancher » qui oppose les **vingt-trois arrivants de six ans** à la règle d'entrée du jardin. **La contradiction est close le 16 août 2026 : la scène est juste**, et la puce est à passer en tranchée |
 | [`../03-personnages/eliott.md`](../03-personnages/eliott.md) | tout calcul fondé sur quinze ans de descente. C'est **six** |
 | [`../03-personnages/andrew.md`](../03-personnages/andrew.md) | 57 ans de descente, 69 ans de vie. C'est **54 ans de descente**, et le total n'est pas calculable |
 | [`../03-personnages/chrissy-et-tania.md`](../03-personnages/chrissy-et-tania.md) | treize marches. C'est **dix** |
-| [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md) | *« cinq ans est le plancher aux deux bouts »*, *« sa vie entière se passe au jardin »*, *« il s'éteint vers la vingt-cinquième année »* |
-| [`la-terre.md`](la-terre.md) | *« rien en dessous du jardin »* — il y a maintenant huit ans de vie en dessous du jardin |
+| [`../03-personnages/la-mere-et-l-enfant.md`](../03-personnages/la-mere-et-l-enfant.md) | *« cinq ans est le plancher aux deux bouts »*, *« il s'éteint vers la vingt-cinquième année »*. **Et depuis le 16 août 2026 : *« il entre au jardin à huit ans »*, *« il entre au jardin trois ans plus tard »* sont faux — l'arrivant de cinq ans est au jardin dès le premier jour et il y grandit.** *En revanche, « sa vie entière se passe au jardin » redevient exact, et c'est la seule phrase que la correction rende juste au lieu de fausse.* **⚠️ L'arithmétique des deux courbes du §3 est à refaire une fois de plus : l'enfant est au jardin trois ans plus tôt que calculé** |
+| [`la-terre.md`](la-terre.md) | *« rien en dessous du jardin »* — **la phrase redevient exacte le 16 août 2026**, le jardin contenant désormais les huit ans qu'on croyait sous lui. Reste faux dans la même section : *« l'âge a un plancher : cinq ans »* |
 | [`../04-plan/incidences-2026-08-13.md`](../04-plan/incidences-2026-08-13.md) | reprend les *« il s'éteint »* et les anciens décomptes sur cinq ans |
 | [`../04-plan/duree-et-calendrier.md`](../04-plan/duree-et-calendrier.md) | tout calendrier appuyé sur 57 ans de descente ou sur un total de 69 ans |
 
@@ -485,7 +502,7 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 - [ ] **La durée de la fin, de huit à zéro.** Non fixée non plus. Acquis : **elle varie chez les grands chiffres** — plus vite, plus lentement, avec un mini-palier —, et c'est ce qui rend leur fin indatable. Reste ouvert : varie-t-elle aussi chez les petits, ou le plancher de quarante ans la borne-t-il par le bas ?
 - [ ] **Le plancher d'arrivée : jusqu'où peut-on arriver bas ?** Personne n'a tranché. **La contrainte pratique est écrite ailleurs et elle est forte** : tout le monde sort de la capsule en sachant parler ([`le-corps-des-arrivants.md`](le-corps-des-arrivants.md)), et la parole se dégrade vers quatre ans en descendant. Un arrivant de un an devrait donc parler alors que celui qui descend à un an ne parle plus. **Contradiction à arbitrer, pas à résoudre ici.**
 - [ ] **Est-ce que les berceurs accompagnent aussi la descente sous huit ans ?** *La question se posait parce qu'on croyait le dernier jour passé hors du jardin. **Depuis le 17 août 2026, il est au jardin** : la définition « jusqu'au dernier jour » tient sans retouche.* Reste ouvert : **est-ce le même berceur du haut en bas**, ou change-t-on de personne quand l'enfant cesse de parler ? Voir [`le-jardin.md`](le-jardin.md).
-- [ ] **Est-ce que les berceurs accompagnent aussi la croissance sous huit ans ?** Un arrivant de deux ans a six ans à monter. Qui s'en occupe — un berceur, un tuteur, les deux ? **Question entièrement neuve : le cas n'existait pas avant le 16 août.**
+- [ ] **Reste des berceurs et de la croissance : y a-t-il un partage avec les tuteurs ?** *Le lieu est tranché — la croissance sous huit ans se passe au jardin, et ce sont les berceurs. Ce qui reste ouvert est plus étroit :* un enfant qui monte apprend, il change, il devient plus capable d'année en année — **est-ce encore du berceur, ou est-ce que quelqu'un d'autre entre dans le lieu pour ça ?** *Le jardin n'a jamais accueilli de métier autre que les siens.*
 - [ ] **Le livre montre-t-il une fin, ou est-ce entièrement hors champ ?** Aucun personnage du casting n'y arrive pendant le roman.
 - [ ] **La vitesse de la décroissance finale.** La même que la descente, ou autre chose ? Elle n'est pas énoncée.
 - [ ] **Un veilleur peut-il soupçonner une grâce ?** La règle B interdit qu'il la lise ; elle n'interdit pas qu'il ait une intuition invérifiable.
@@ -496,6 +513,7 @@ Ce document sert à ce que l'autrice ne se contredise jamais. Pas à ce que le l
 - [x] ~~**Le palier à cinq ans.**~~ — **remplacé le 16 août 2026 : c'est huit**, et ce n'est pas un plancher mais un point de convergence. On y descend, **on y grandit**, on en repart.
 - [x] ~~**Le plancher de durée à trente ans.**~~ — **porté à quarante le 16 août 2026.**
 - [x] ~~**La fin est-elle datable ?**~~ — **tranché le 16 août 2026 : oui pour les petits chiffres, non pour les grands.** Les quarante ans sont acquis à ceux qui arrivent jeunes ; personne d'autre n'a de promesse.
+- [x] ~~**Où grandit-on, en dessous de huit ans ?**~~ — **tranché le 16 août 2026 : au jardin**, où l'on est dès le premier jour, et ce sont les berceurs. *Le jardin est la tranche de huit à zéro, pas un seuil : on y est par défaut, qu'on grandisse ou qu'on descende.* **Plus aucun temps de la vie n'est sans lieu attribué.** Voir [`le-jardin.md`](le-jardin.md).
 - [x] ~~**Qui nomme sous le seuil ?**~~ — **tranché : un berceur, à huit ans et en dessous, même si l'enfant sait parler.**
 - [x] ~~**Dit-on à l'enfant qu'il a quitté le plateau ?**~~ — **tranché : non, jamais.** Les berceurs savent et se taisent.
 - [x] ~~**Le plafond de la grâce.**~~ — **abandonné le 15 août 2026**, remplacé par la règle B : la grâce ne se voit pas.
