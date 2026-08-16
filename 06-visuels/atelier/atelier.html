@@ -834,12 +834,6 @@ kbd{
 
 <div class="souffleur" id="souffleur"></div>
 <script>
-/* ==========================================================================
-   L'ÉCLAIRCIE — ATELIER
-   Données extraites de la bible d'autrice (R:\Documents\l'Eclaircie)
-   et de la transcription intégrale des séances des 13, 14, 15 et 16 août 2026.
-   ========================================================================== */
-
 const VOIES = {
   andrew: { nom: `Andrew`,  desc: `Ce monde-ci. Le présent.` },
   commun: { nom: `Les étapes`, desc: `Le beat, sans son monde. Ni écrit, ni attribué.` },
@@ -856,14 +850,14 @@ const ACTES = [
   { t: `L'enlisement`,         c0: 17, c1: 23 },
   { t: `La remontée`,          c0: 24, c1: 27 },
   { t: `Le seuil franchi deux fois`, c0: 28, c1: 33 },
-  { t: `Épilogue`,             c0: 34, c1: 37 },
+  { t: `Épilogue`,             c0: 34, c1: 36 },
   { t: `Sans place encore`,    c0: 39, c1: 40 }
 ];
 
 /* le tronc : le beat generique, ni ecrit ni attribue.
    Il ne commence qu'au moment ou le recit peut se dedoubler. */
 const ETAPES = [
-  { c0: 5,  c1: 5,  t: `Première visite au commissariat` },
+  { c0: 5,  c1: 5,  t: `Première visite au commissariat, pour discuter avec son acolyte` },
   { c0: 6,  c1: 6,  t: `Retour chez le témoin` },
   { c0: 7,  c1: 7,  t: `Sur le lieu de travail` },
   { c0: 8,  c1: 8,  t: `Ceux qui connaissent le suspect` },
@@ -884,8 +878,8 @@ const SCENES = [
   id: `g-poste`, no: `Non écrite`, col: 5, row: `andrew`, acte: `La disparition`, gris: true,
   titre: `Il rencontre Isaac`,
   statut: `ouvert`,
-  resume: `Le même beat, de ce côté-ci : Andrew retrouve Isaac et discute de l'affaire avec lui. **Le livre ne l'écrit pas** — la carte est là pour qu'on sache où l'on en est.`,
-  produit: `*Ce qui compte, c'est que ça ait lieu et que le lecteur le suppose sans qu'on le lui montre. La scène écrite, à cette étape, est celle de Joël.*`,
+  resume: `**Andrew rend visite à Isaac au sujet de la disparition d'Eliott.** Le livre ne l'écrit pas — la carte est là à titre indicatif, pour qu'on sache où l'on en est.`,
+  produit: `*Ça a lieu, le lecteur le suppose, et on ne le lui montre pas. La scène écrite, à cette étape, est celle de Joël.*`,
   monde: `—`, qui: [`andrew`,`isaac`],
   gardes: [`Si elle finit par s'écrire, elle ne doit rien apprendre que le chapitre de Joël n'ait déjà donné — sinon le lecteur a deux scènes et non une.`],
   src: `décision du 16 août 2026`
@@ -1653,39 +1647,14 @@ const SCENES = [
     `Il n'apprend jamais qu'il s'est appelé Joël. Le nom d'avant n'existe que pour le lecteur.`
   ],
   ouvert: [`Le nombre exact d'occurrences du numéro avant cette scène, et sa forme.`],
-  pourquoi: [`**Et c'est de là que part tout ce qui suit.** Il apprend que deux personnes sont arrivées en même temps que lui, et il n'a personne à qui le dire — *un veilleur ne va pas expliquer à son service qu'il pense que quelque chose a traversé.* **Il ira donc voir les deux, puis il retournera voir le seul à qui il puisse poser la question.**`],
+  pourquoi: [`**Et on s'arrête là. Ellipse.** Le registre confirme son souvenir, et le chapitre se ferme sans qu'il en tire quoi que ce soit. *L'arc d'Andrew se termine ici — tout ce qui suit appartient au garçon.*`,
+    `**C'est plus subtil que de lui donner une quête.** Une scène où il irait chercher des réponses ferait de la dernière page son affaire à lui ; l'ellipse le laisse avec ce qu'il a, c'est-à-dire rien. **Il lui reste deux choses à faire, et aucune des deux n'est pour lui.**`],
   src: `04-plan/deux-histoires-en-une.md §1 bis, §2.6 — 04-plan/le-meme-jour.md §3, §3 bis`
 },
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `retour`, no: `Épilogue`, col: 34, row: `andrew`, acte: `Épilogue`,
-  titre: `Il retourne le voir`,
-  statut: `acquis`, pivot: true,
-  resume: `**Décision de l'autrice, 16 août 2026.** La ligne du registre le renvoie chez Eliott. Il veut comprendre qui ont pu être, pour lui, ces deux personnes arrivées le même jour que lui. **Et il y retournera pendant six ans.**`,
-  produit: `**C'est le seul à qui il puisse poser la question.** Un veilleur ne va pas expliquer à son service qu'il pense que quelque chose a traversé ; il a devant lui la seule personne au monde qui ne le trouvera pas fou, parce qu'on ne la croit pas non plus. *Deux hommes que personne n'écoute, dans la même pièce.*`,
-  clef: `**Et il fait, pour la seconde fois de sa vie, l'inverse de son geste.** Il a lu le document ; maintenant il va voir la personne. *C'est exactement ce qui l'avait sauvé à la scène 17 c, et il ne s'en aperçoit pas davantage cette fois-ci.*`,
-  lecture: `Il comprend enfin pourquoi Andrew sera là, six ans plus tard, le jour où le garçon parlera. **Il n'a jamais cessé de venir**, et ça ne s'explique nulle part ailleurs.`,
-  monde: `Rien de neuf. C'est une habitude qui s'installe, pas une enquête.`,
-  qui: [`andrew`,`eliott`,`june`],
-  gardes: [
-    `⚠️ **La contrainte absolue, et elle ne bouge pas : sa question ne porte que sur sa propre journée.** Il ne consulte jamais la ligne d'Eliott, il ne se demande jamais qui d'autre est arrivé le jour du garçon, et personne ne le fait à sa place. *Le lecteur, lui, se souvient de l'homme debout à côté du petit à la première page — et il restera seul avec.*`,
-    `**Rien ne se confirme jamais.** Ils ne comparent pas leurs impressions, ne se reconnaissent pas mutuellement porteurs de voiles, et aucun des deux ne conclut. L'hypothèse « il fabule » doit sortir de ces scènes exactement aussi solide qu'elle y entre.`,
-    `**Eliott n'a pas la réponse.** Il a des sentiments sans mots ; il ne peut rien apprendre à Andrew, et il ne s'en rend pas compte.`,
-    `Andrew ne dit jamais ce qu'il a vu dans la cave. Il pose des questions obliques, et il repart avec rien.`,
-    `Aucun mot de parenté, jamais, d'aucun des deux côtés de la conversation.`
-  ],
-  pourquoi: [
-    `**Ça comble un trou que le dossier n'avait pas nommé :** pourquoi Andrew est-il présent, six ans plus tard, quand le garçon se confesse avant d'entrer au jardin ? *Il n'y avait aucune raison écrite. Il y en a une maintenant, et elle est de lui.*`,
-    `**Et ça referme sa faute par le haut.** Il a passé le livre à croire les documents et pas les gens. Il finit par passer six ans à interroger une personne que personne ne croit, sans jamais rien obtenir. **Il n'en tire aucun bénéfice : il a seulement changé de geste.**`
-  ],
-  ouvert: [`⚠️ **Ce qu'il lui demande exactement.** *Il ne peut pas dire ce qu'il cherche sans nommer le mécanisme, ce que l'interdit n° 1 refuse. Il faut donc une question qui tourne autour — sur ce qu'on ressent, sur ce qui reste, sur ce qu'on croit se rappeler.*`,
-           `**Combien de visites le livre en montre.** *Une seule suffit peut-être, avec une phrase qui dit qu'il y en aura d'autres.*`,
-           `La dernière est-elle celle de la confession, ou y a-t-il un écart ?`],
-  src: `04-plan/le-parcours-de-l-enquete.md §3.3 — décision du 16 août 2026`
-},
-{
-  id: `excuses`, no: `Épilogue`, col: 35, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 34, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1700,41 +1669,46 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Épilogue · six ans plus tard`, col: 36, row: `andrew`, acte: `Épilogue`,
-  titre: `La confession d'Eliott`,
+  id: `confession`, no: `Dernière page`, col: 36, row: `andrew`, acte: `Épilogue`,
+  titre: `En tête à tête`,
   statut: `acquis`, pivot: true,
-  resume: `Il a huit ans, Andrew en a quarante-six. Il raconte ce qui lui est arrivé de l'autre côté : une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, racontés comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. C'est le calme qui glace.`,
-  produit: `Rien n'est une révélation : le lecteur sait déjà tout. En se confessant avant son entrée au jardin, il expie ce qui le faisait souffrir. On peut supposer, sans en être certain, que les reliquats disparaissent une fois au jardin — c'est la dernière grâce, et ça explique qu'il se confesse avant d'y entrer.`,
-  clef: `Il ne dira jamais « papa » ni « père ». Les mots n'existent pas, il ne les a jamais eus, et il ne peut donc pas même sentir qu'ils lui manquent. Il a le sentiment, et il n'a pas le mot. Alors il tâtonne, et en tâtonnant il invente.`,
-  monde: `La parole est intacte à huit ans — elle ne se dégrade que vers quatre, bien après la dernière page. Et la dernière grâce, qui ne doit jamais être confirmée : elle se dit comme on parle des fantômes.`,
+  resume: `June partie, Andrew reste seul avec lui. **C'est là qu'il raconte.** Une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, dits comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. **C'est le calme qui glace.** Et le livre se ferme sur sa réplique.`,
+  produit: `**L'arc d'Andrew s'est terminé au chapitre du registre. Celui-ci est celui du garçon**, et c'est lui qui a le dernier mot. *Rien n'est une révélation : le lecteur sait déjà tout. Ce qu'il reçoit ici, ce n'est pas une information, c'est une phrase.*`,
+  clef: `**Sa fin dans l'autre monde est irrévocablement triste, à en pleurer. Mais l'amour reste, et sa dernière phrase en est le témoin.** *C'est tout le contraste que la scène doit tenir : le récit est atroce et le garçon va bien.*`,
+  lecture: `Il a devant lui quelqu'un d'enthousiaste qui va vivre heureux, et il vient d'entendre comment il est mort. **Les deux sont vrais en même temps, et c'est la seule chose que le livre demande de tenir dans la main en le refermant.**`,
+  monde: `La parole est intacte à huit ans. Et la dernière grâce, qui ne doit jamais être confirmée : on suppose que les reliquats s'en vont une fois au jardin, et *ça se dit comme on parle des fantômes.*`,
   qui: [`eliott`,`andrew`],
   gardes: [
-    `Personne ne la traduit, personne ne la commente, personne n'a l'air de comprendre. Pas de narrateur qui éclaire, pas d'interlocuteur qui hoche la tête, pas de silence appuyé, pas de phrase juste après qui pèse.`,
-    `On entend un jeune arrivant qui s'échauffe et qui s'emmêle ; on enchaîne. Un seul personnage qui aurait l'air de saisir, et la réplique cesse d'être une trouvaille pour devenir un aveu.`,
-    `Andrew ne fait jamais le lien avec la ligne du registre.`
+    `**Personne ne la traduit, personne ne la commente, personne n'a l'air de comprendre.** Pas de narrateur qui éclaire, pas d'interlocuteur qui hoche la tête, pas de silence appuyé, pas de phrase juste après qui pèse.`,
+    `**Il ne dira jamais « papa » ni « père ».** Les mots n'existent pas, il ne les a jamais eus, et il ne peut donc pas même sentir qu'ils lui manquent.`,
+    `**Andrew ne fait jamais le lien** avec la ligne du registre, et il ne va jamais vérifier qui d'autre est arrivé le jour du garçon. *Le lecteur se souvient de l'homme debout à côté du petit, à la première page, et il restera seul avec.*`,
+    `**La révélation ne doit pas être brutale.** Il raconte comme on raconte une chose finie, sans se plaindre et sans chercher à émouvoir.`,
+    `Un seul personnage qui aurait l'air de saisir, et la réplique cesse d'être une trouvaille pour devenir un aveu.`
   ],
-  phrases: [{ t: `Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui !`, n: `Réplique du texte, à prononcer telle quelle. C'est exactement ainsi qu'on décrirait un père si l'on n'avait jamais eu le concept — par l'identité, par la confusion des deux personnes, par cette surenchère d'amour qui ne veut rien dire et qui dit tout. Elle ne coûte rien à l'interdit n° 4 : un sentiment ne se confirme ni ne se réfute.` }],
-  ouvert: [`✅ **Pourquoi Andrew est là est désormais écrit** : il n'a jamais cessé de revenir depuis la ligne du registre. *Et c'est ce qui rend la scène plus cruelle — il vient depuis six ans chercher une réponse, il en reçoit une, et elle ne répond pas à sa question.*`,
-           `Andrew réagit-il visiblement à cette phrase ?`,
-           `Qui est présent. Combien de répliques autour de la phrase acquise.`],
+  phrases: [{ t: `Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui !`, n: `**La dernière phrase du livre.** Il a le sentiment entier et il n'a pas le nom, alors il le décrit par l'identité et par la confusion des deux personnes — *c'est exactement ainsi qu'on décrirait un père si l'on n'avait jamais eu le concept.* Elle ne coûte rien à l'interdit n° 4 : un sentiment ne se confirme ni ne se réfute.` }],
+  ouvert: [`Andrew réagit-il visiblement ? *Le moins possible, et probablement rien du tout.*`,
+           `Combien de répliques autour de la phrase acquise. **Elle doit être la dernière, donc rien après.**`],
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Dernière page`, col: 37, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Épilogue · six ans plus tard`, col: 35, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
-  statut: `acquis`,
-  resume: `Il dépose ce qui le faisait souffrir, et il entre. Personne ne lui dit dans quoi il entre. Andrew le regarde faire en sachant, et se tait.`,
-  produit: `Une fin qui n'est pas une mort. L'épilogue est une entrée : il lui reste le plateau, puis la fin, et au moins trente-quatre ans devant lui.`,
-  monde: `Le jardin, le dernier lieu de vie. On y entre à huit ans et on n'en sort pas.`,
+  statut: `trou`, pivot: true,
+  resume: `**Comment se déroule une arrivée au jardin.** Eliott a huit ans, Andrew quarante-six. On l'installe, on lui montre. **Puis June fait ses adieux et s'en va en lui souhaitant le meilleur.** Andrew reste.`,
+  produit: `🔴 **Décision de l'autrice, 16 août 2026 — et c'est la contrainte de ton de toute la fin.** *Le lecteur ne doit pas se sentir triste du sort d'Eliott.* **Il va vivre heureux au jardin, et il est même très enthousiaste.** Il dépose ce qui le faisait souffrir et il entre dans l'insouciance : c'est une fin qui n'est pas une mort.`,
+  clef: `**Et c'est le seul rite du livre qu'on n'a pas encore vu.** Le roman ouvre sur une arrivée à la ruche et se ferme sur une arrivée au jardin : *le même geste aux deux bouts d'une vie, et le lecteur reçoit le second en sachant tout ce que le premier ne disait pas.*`,
+  monde: `Le bas de la courbe, une dernière fois, et de l'intérieur. Ce qu'on montre à quelqu'un qui entre, qui l'accueille, ce qu'on lui dit et ce qu'on ne lui dit pas.`,
   qui: [`eliott`,`andrew`,`june`],
   gardes: [
-    `Ce n'est ni une mort ni une perte de la parole.`,
-    `Personne ne lui dit dans quoi il entre.`,
+    `**Personne ne lui dit dans quoi il entre.** Ni June, ni Andrew, ni un berceur.`,
+    `**Aucun pathos, et surtout aucune pitié.** S'il faut un registre, c'est celui d'une rentrée : on s'installe, on est content, on regarde autour.`,
+    `Ce n'est ni une mort ni une perte de la parole. **La parole est intacte à huit ans** et le restera des années.`,
+    `June s'en va et ne revient pas. *Elle ne pleure pas, elle ne s'attarde pas : c'est son métier qui finit, et elle l'a fini des centaines de fois.*`,
     `Le livre ne confirme jamais que les reliquats s'en vont là-dedans.`
   ],
-  ouvert: [`June l'accompagne-t-elle ? Est-elle présente ?`,
-           `La longueur de l'épilogue.`],
-  src: `02-univers/le-jardin.md — 04-plan/duree-et-calendrier.md`
+  ouvert: [`⚠️ **Comment se déroule une arrivée au jardin — la scène n'existe pas encore.** *C'est le dernier morceau de monde que le livre a à montrer, et il tombe à la dernière page : à doser pour qu'il ne ressemble pas à une explication de dernière minute.*`,
+           `Ce que June lui dit exactement en partant. *« Le meilleur » est le sens ; les mots sont à trouver, et ils doivent tenir en une ligne.*`],
+  src: `02-univers/le-jardin.md — décision du 16 août 2026`
 }
 ];
 
@@ -1750,8 +1724,9 @@ const LIENS = [
   [`s17c`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19a`,`a`],
   [`s19a`,`poursuite`,`j`], [`poursuite`,`s19c`,`a`], [`s19c`,`ceremonie3`,`a`], [`ceremonie3`,`registre-fin`,`a`],
-  [`registre-fin`,`retour`,`a`], [`retour`,`excuses`,`a`], [`excuses`,`confession`,`a`], [`confession`,`jardin-fin`,`a`]
+  [`registre-fin`,`excuses`,`a`], [`excuses`,`jardin-fin`,`a`], [`jardin-fin`,`confession`,`a`]
 ];
+
 
 /* ==========================================================================
    LES NOTES — tout ce qui s'est dit, dans l'ordre.
@@ -2294,13 +2269,21 @@ const NOTES = [
   v:`—`,
   q:`Remarque d'écriture née de la scène : **« silhouette » est féminin en français.** On peut donc écrire *la silhouette prend la fuite* aussi bien pour l'assassin des filles que pour la berceuse, **sans qu'un seul accord trahisse quoi que ce soit.** *Le dispositif reçoit là une protection gratuite, et il n'y en a pas beaucoup.*` },
 
-{ d:`16 août`, s:`Il retourne voir l'enfant`, e:`acquis`, t:[`dispositif`,`personnages`],
-  v:`Il retourne consulter les registres et il voit la ligne en question. Est-ce que ce ne serait pas ça qui le pousserait à retourner voir l'enfant plus tard ? Pour peut-être comprendre justement qui aurait pu être cette personne pour lui, arrivée en même temps que lui.`,
-  q:`**Oui — et ça comble un trou que le dossier n'avait même pas nommé :** pourquoi Andrew est-il présent, six ans plus tard, quand le garçon se confesse ? *Il n'y avait aucune raison écrite. Il n'a jamais cessé de revenir.* **Et ça referme sa faute par le haut** : l'homme qui croyait les documents et pas les gens passe six ans à interroger quelqu'un que personne ne croit, sans rien obtenir. Il n'en tire aucun bénéfice — il a seulement changé de geste.` },
+{ d:`16 août`, s:`LA FIN : l'ellipse, puis deux tâches`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`Il parcourt le registre qui lui confirme son souvenir, et on stoppe là. Ellipse temporelle, comme si on était arrivé à l'épilogue. Il lui reste 2 tâches : rendre visite aux filles, puis petit saut dans le temps — comment se déroule une arrivée au jardin. Andrew finit en tête à tête avec Eliott quand June fait ses adieux et s'en va en lui souhaitant le meilleur. C'est à ce moment-là qu'on finit sur sa réplique.`,
+  q:`**Plus subtil que ce que je proposais, et je m'étais trompé.** J'avais fait revenir Andrew chez Eliott pendant six ans pour expliquer sa présence à la fin — *ça faisait de la dernière page son affaire à lui.* **L'ellipse est meilleure : elle le laisse avec ce qu'il a, c'est-à-dire rien.** Son arc se termine au registre ; tout ce qui suit appartient au garçon, et c'est le garçon qui a le dernier mot.` },
+
+{ d:`16 août`, s:`Eliott ne doit pas faire pitié`, e:`acquis`, t:[`écriture`,`personnages`],
+  v:`Le lecteur ne doit pas se sentir triste de son sort. Il va vivre heureux au jardin, il est même très enthousiaste. Ça doit contraster avec sa révélation mais sans que cette dernière soit trop brutale. Oui, sa fin sur monde 1 est irrévocablement triste à en pleurer. Mais l'amour reste et sa dernière phrase en est le témoin.`,
+  q:`**C'est la contrainte de ton de toute la fin.** Le récit est atroce et le garçon va bien — *les deux sont vrais en même temps, et c'est la seule chose que le livre demande de tenir dans la main en le refermant.* **Aucun pathos, aucune pitié :** s'il faut un registre pour l'entrée au jardin, c'est celui d'une rentrée. On s'installe, on est content, on regarde autour.` },
+
+{ d:`16 août`, s:`Le livre s'ouvre et se ferme sur une arrivée`, e:`acquis`, t:[`dispositif`],
+  v:`—`,
+  q:`Conséquence de la nouvelle fin, et elle n'était pas cherchée : **le roman ouvre sur une arrivée à la ruche et se ferme sur une arrivée au jardin.** *Le même geste aux deux bouts d'une vie — et le lecteur reçoit le second en sachant tout ce que le premier ne disait pas.*` },
 
 { d:`16 août`, s:`La réserve, et je la défends`, e:`acquis`, t:[`dispositif`,`écriture`],
   v:`—`,
-  q:`**Sa question ne porte que sur sa propre journée.** Il ne consulte jamais la ligne d'Eliott, il ne se demande jamais qui d'autre est arrivé le jour du garçon, et personne ne le fait à sa place. *S'il l'apprenait, la dernière réplique du livre cesserait d'être un cri que personne n'entend pour devenir la réponse à une question posée — et c'est tout ce qui la rend insupportable.* **Deux porteurs de voiles dans la même pièce pendant six ans, et rien qui se confirme jamais : c'est aussi la seule façon de tenir l'interdit n° 4 jusqu'au bout.**` },
+  q:`**Andrew ne consulte jamais la ligne d'Eliott**, il ne se demande jamais qui d'autre est arrivé le jour du garçon, et personne ne le fait à sa place. *S'il l'apprenait, la dernière réplique du livre cesserait d'être un cri que personne n'entend pour devenir la réponse à une question posée — et c'est tout ce qui la rend insupportable.* **Deux porteurs de voiles dans la même pièce pendant six ans, et rien qui se confirme jamais : c'est aussi la seule façon de tenir l'interdit n° 4 jusqu'au bout.**` },
 
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
@@ -3313,6 +3296,7 @@ function construirePlateau(){
     : filtreVoie === `trou` ? SCENES.filter(s => s.statut === `trou`)
     : filtreVoie === `gris` ? SCENES.filter(s => s.gris)
     : SCENES.filter(s => s.row === filtreVoie && !s.gris);
+  scenesVisibles = scenesVisibles.slice().sort((a, b) => a.col - b.col);
 
   const colMax = Math.max(...SCENES.map(s => s.col));
   const larg = colX(colMax) + NODEW + 90;
