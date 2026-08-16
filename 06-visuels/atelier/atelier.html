@@ -907,11 +907,10 @@ const ETAPES = [
   { c0: 18, c1: 18, t: `Ce qu'il reste à suivre` },
   { c0: 19, c1: 21, t: `La fausse piste tombe — et on continue quand même` },
   { c0: 22, c1: 24, t: `« Lâche l'affaire »` },
-  { c0: 25, c1: 25, t: `L'appui se retire` },
-  { c0: 26, c1: 28, t: `Seul — puis la solution` },
-  { c0: 29, c1: 29, t: `On entre` },
-  { c0: 30, c1: 31, t: `Le lieu de séquestration` },
-  { c0: 32, c1: 32, t: `La poursuite` }
+  { c0: 25, c1: 27, t: `Seul — puis la solution` },
+  { c0: 28, c1: 28, t: `On entre` },
+  { c0: 29, c1: 30, t: `Le lieu de séquestration` },
+  { c0: 31, c1: 31, t: `La poursuite` }
 ];
 
 const SCENES = [
@@ -1042,7 +1041,7 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
-  id: `g-piste`, no: `Non écrite`, col: 28, row: `joel`, acte: `La remontée`, gris: true,
+  id: `g-piste`, no: `Non écrite`, col: 27, row: `joel`, acte: `La remontée`, gris: true,
   face: `s17c`,
   titre: `Il a trouvé une piste seul`,
   statut: `ouvert`,
@@ -1053,7 +1052,7 @@ const SCENES = [
   src: `décision du 16 août 2026`
 },
 {
-  id: `g-entre`, no: `Non écrite`, col: 29, row: `joel`, acte: `La remontée`, gris: true,
+  id: `g-entre`, no: `Non écrite`, col: 28, row: `joel`, acte: `La remontée`, gris: true,
   face: `s18`,
   titre: `Il entre seul, sans attendre`,
   statut: `ouvert`,
@@ -1063,19 +1062,6 @@ const SCENES = [
   gardes: [`Les deux descentes ne se citent jamais. Aucun personnage ne remarque le contraste.`],
   src: `04-plan/le-meme-jour.md §5 quater`
 },
-{
-  id: `g-seul`, no: `Non écrite`, col: 25, row: `joel`, acte: `L'enlisement`, gris: true,
-  face: `s16`,
-  titre: `Il reste seul`,
-  statut: `ouvert`,
-  resume: `Le même beat, de l'autre côté. **Beat signalé comme doublable par le dossier** — c'est le moins situé du parcours, donc le plus facile à doubler.`,
-  produit: `*Deux fois un homme qui refait un trajet sans personne.*`,
-  monde: `—`, qui: [`joel`],
-  gardes: [`Si elle s'écrit, rien dans la seconde ne doit ressembler à un rappel.`],
-  src: `04-plan/le-parcours-de-l-enquete.md §5`
-},
-
-/* ---------- OUVERTURE ---------- */
 {
   id: `ouv`, no: `Première page`, col: 0, row: `andrew`, acte: `Ouverture`,
   titre: `La cérémonie d'Eliott`,
@@ -1538,6 +1524,8 @@ const SCENES = [
   gardes: [
     `Sa panique ne se nomme pas. Pas de « il paniquait », pas de cœur qui s'emballe : ça se voit à ce qu'il propose, et au fait qu'il le propose deux fois.`,
     `Isaac n'est ni las ni lâche. **Il a raison**, et il le dit comme on dit une chose désagréable qu'on a déjà pesée.`,
+    `✅ **Et c'est ici qu'il s'en va, pas dans un chapitre à lui.** *La scène 16 est supprimée le 16 août 2026 : Isaac se retirait deux fois.* **Ce n'est pas le délai, c'est la crédibilité** — il a suivi l'homme du registre dans un mur, et il ne se laissera pas emmener une seconde fois. *Son départ est entièrement juste et entièrement la faute d'Andrew.*`,
+    `Ne jamais faire d'Isaac un lâche, ni un tiède, ni un fonctionnaire. **Ne jamais lui faire dire qu'il a été trompé — il ne l'a pas été.** *La scène ne se joue pas entre un bon et un mauvais : elle se joue entre la raison et l'entêtement, et le livre ne donne tort ni à l'un ni à l'autre.*`,
     `Le chapitre se ferme sur la réplique. Pas de réaction d'Andrew, pas de ligne de narrateur derrière.`
   ],
   phrases: [{ t: `Lâche l'affaire, Andrew… tu comprends pas, on a perdu trop de temps ; on court déjà après un cadavre !`, n: `Formulation de l'autrice. **Le prénom est capital** : il ancre le chapitre sans discussion possible dans le monde d'ici — et c'est précisément ce qui autorise le chapitre suivant.` }],
@@ -1580,7 +1568,8 @@ const SCENES = [
   gardes: [
     `**Aucun personnage ne rapproche les trois chapitres**, ni sur le moment ni plus tard.`,
     `Andrew ne comprend rien à ce qui vient de se passer. Pas d'illumination, pas de déjà-vu formulé.`,
-    `Le déclencheur ne doit contenir aucune information venue de l'autre monde. **Rien ne traverse.**`
+    `Le déclencheur ne doit contenir aucune information venue de l'autre monde. **Rien ne traverse.**`,
+    `✅ **Et personne ne dit ce que ça lui coûte.** *Passer outre, c'est perdre Isaac* — mais le chapitre ne le formule pas, ne l'anticipe pas, et ne se ferme pas sur un adieu. **Le lecteur l'apprendra au chapitre suivant, en s'apercevant qu'il n'y a plus personne à côté de lui.**`
   ],
   pourquoi: [
     `**Piste pour le déclencheur, et elle est la plus juste :** on lui demande de signer quelque chose qui clôt le dossier — un formulaire, un classement, une restitution. **Et il ne le fait pas.** *C'est son défaut retourné pour la première fois : l'homme qui croit les documents et pas les gens refuse un document. Trois chapitres plus tôt, il proposait d'aller vérifier des registres ; ici il refuse d'en remplir un.*`,
@@ -1591,36 +1580,18 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.3 — décision du 16 août 2026`
 },
 {
-  id: `s16`, no: `Scène 16`, col: 25, row: `andrew`, acte: `L'enlisement`,
-  face: `g-seul`,
-  titre: `Isaac lâche l'affaire`,
-  statut: `acquis`, pivot: true,
-  resume: `Il laisse Andrew seul. La porte ne claque pas : on lui retire une place, pas un droit. Plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer.`,
-  produit: `Le point le plus bas du livre. Il ne part pas par résignation, il part par objectivité — il a raison, et c'est ce qui rend son départ insupportable. Un homme qui se trompe, on lui répond ; un homme qui a raison, on ne peut rien lui opposer que de vouloir.`,
-  clef: `Ce n'est pas le délai, c'est la crédibilité. Isaac a suivi l'homme du registre dans un mur. Quand il dit « lâche l'affaire », c'est un homme qui ne se laissera pas emmener une seconde fois. Son départ est entièrement juste, et entièrement la faute d'Andrew.`,
-  monde: `Rien. C'est le manque qui doit se sentir dans les pages suivantes, plutôt qu'une réplique d'adieu.`,
-  qui: [`isaac`,`andrew`],
-  gardes: [
-    `Ne jamais faire d'Isaac un lâche, ni un tiède, ni un fonctionnaire.`,
-    `Ne jamais lui faire dire qu'il a été trompé — il ne l'a pas été.`,
-    `La scène ne se joue pas entre un bon et un mauvais : elle se joue entre la raison et l'entêtement, et le livre ne donne tort ni à l'un ni à l'autre.`
-  ],
-  double: `Beat doublable : deux fois un homme qui refait un trajet sans personne. C'est le beat le moins situé du parcours, donc le plus facile à doubler.`,
-  src: `04-plan/le-parcours-de-l-enquete.md §4 bis.1, §4 ter.3`
-},
-
-/* ---------- LA REMONTÉE ---------- */
-{
-  id: `s17a`, no: `Scène 17 · a`, col: 26, row: `andrew`, acte: `La remontée`,
+  id: `s17a`, no: `Scène 17 · a`, col: 25, row: `andrew`, acte: `La remontée`,
   face: `s17b`,
   titre: `Il se fait des nœuds au cerveau`,
   statut: `trou`,
   resume: `Andrew enquête seul. Il tourne en rond, il se fait des nœuds au cerveau, il est un peu désespéré — et il fait comme il peut. **Le contenu exact reste à trouver.**`,
-  produit: `Il n'y a plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer, et c'est ce manque qui doit se sentir. *Il ne devient pas meilleur enquêteur : il devient un homme seul qui continue.*`,
+  produit: `**Il n'y a plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer, et c'est ce manque qui doit se sentir.** *Il ne devient pas meilleur enquêteur : il devient un homme seul qui continue.*`,
+  clef: `✅ **C'est ce chapitre qui apprend au lecteur qu'Isaac est parti, et il l'apprend par une absence.** *La scène 16 — un chapitre entier où Isaac lâchait l'affaire — est supprimée le 16 août 2026 : il se retirait déjà en fermant la scène 15 a.* **Le départ se sent mieux qu'il ne se montre**, et un chapitre qui le montrait volait à celui-ci ce qui fait sa force. *Aucune phrase ne dit qu'il est parti. On s'en aperçoit.*`,
   monde: `Rien de neuf, et ce n'est pas le moment d'en mettre.`,
   qui: [`andrew`],
   gardes: [
     `Pas de progrès. C'est la condition pour que le bloc suivant se lise comme une pause méritée.`,
+    `⛔ **Aucun retour en arrière sur le départ d'Isaac.** Pas de « depuis qu'il était seul », pas de coup de fil qu'on n'passe plus, pas de souvenir de la dispute. *L'ellipse ne tient que si personne ne la comble.*`,
     `Aucune illumination, aucune intuition qui le mette sur la voie : la solution ne viendra qu'au troisième bloc.`,
     `**Le bloc doit se fermer sur une fin de journée**, pour que le suivant se lise comme un soir et le troisième comme un lendemain.`
   ],
@@ -1628,7 +1599,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis — décision du 16 août 2026`
 },
 {
-  id: `s17b`, no: `Scène 17 · b`, col: 27, row: `joel`, acte: `La remontée`,
+  id: `s17b`, no: `Scène 17 · b`, col: 26, row: `joel`, acte: `La remontée`,
   face: `s17a`,
   titre: `Il rentre chez lui`,
   statut: `acquis`, pivot: true,
@@ -1651,7 +1622,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.2 — décision du 16 août 2026`
 },
 {
-  id: `s17c`, no: `Scène 17 · c`, col: 28, row: `andrew`, acte: `La remontée`,
+  id: `s17c`, no: `Scène 17 · c`, col: 27, row: `andrew`, acte: `La remontée`,
   face: `g-piste`,
   titre: `Il a trouvé`,
   statut: `trou`, pivot: true,
@@ -1672,7 +1643,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 ter.4, §4 ter.6`
 },
 {
-  id: `s18`, no: `Scène 18`, col: 29, row: `andrew`, acte: `La remontée`,
+  id: `s18`, no: `Scène 18`, col: 28, row: `andrew`, acte: `La remontée`,
   face: `g-entre`,
   titre: `Il entre seul, sans attendre`,
   statut: `acquis`, pivot: true,
@@ -1688,7 +1659,7 @@ const SCENES = [
 
 /* ---------- LE SEUIL FRANCHI DEUX FOIS ---------- */
 {
-  id: `corps`, no: `Chapitre B`, col: 30, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `corps`, no: `Chapitre B`, col: 29, row: `joel`, acte: `Le seuil franchi deux fois`,
   face: `s19a`,
   titre: `Les corps`,
   statut: `acquis`, pivot: true,
@@ -1715,7 +1686,7 @@ const SCENES = [
   src: `07-recherches/references-de-scenes.md — 04-plan/le-meme-jour.md`
 },
 {
-  id: `s19a`, no: `Chapitre C`, col: 31, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19a`, no: `Chapitre C`, col: 30, row: `andrew`, acte: `Le seuil franchi deux fois`,
   face: `corps`,
   titre: `Le même lieu, l'autre issue`,
   statut: `acquis`, pivot: true,
@@ -1735,7 +1706,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — décision du 16 août 2026`
 },
 {
-  id: `poursuite`, no: `Chapitre D`, col: 32, row: `joel`, acte: `Le seuil franchi deux fois`,
+  id: `poursuite`, no: `Chapitre D`, col: 31, row: `joel`, acte: `Le seuil franchi deux fois`,
   face: `s19c`,
   titre: `La poursuite`,
   statut: `acquis`, pivot: true,
@@ -1756,7 +1727,7 @@ const SCENES = [
   src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3 — décision du 16 août 2026`
 },
 {
-  id: `s19c`, no: `Chapitre E`, col: 33, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `s19c`, no: `Chapitre E`, col: 32, row: `andrew`, acte: `Le seuil franchi deux fois`,
   face: `poursuite`,
   titre: `Elle n'a pas fui`,
   statut: `acquis`, pivot: true,
@@ -1780,7 +1751,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/la-berceuse.md — décision du 16 août 2026`
 },
 {
-  id: `ceremonie3`, no: `Chapitre F`, col: 34, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `ceremonie3`, no: `Chapitre F`, col: 33, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La cérémonie, une seconde fois`,
   statut: `acquis`, pivot: true,
   resume: `🔴 **Elle ne redécrit rien.** *Décision de l'autrice, 16 août 2026 : ce chapitre ne rejoue pas la cérémonie — il donne uniquement ce qu'Andrew avait omis.* **Ce qu'il croyait ne pas avoir entendu :** la phrase d'ouverture en entier — *« la cérémonie du jour nous offre trois arrivants au lieu de deux ; le troisième nous ayant surpris par son éclaircissement inopiné ».* **Et ce qu'il croyait ne pas avoir senti :** une odeur, au loin, dont quelqu'un parlait.`,
@@ -1814,7 +1785,7 @@ const SCENES = [
   src: `04-plan/deux-histoires-en-une.md §7 — 02-univers/la-ruche.md — décision du 16 août 2026`
 },
 {
-  id: `registre-fin`, no: `Temps 5`, col: 35, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  id: `registre-fin`, no: `Temps 5`, col: 34, row: `andrew`, acte: `Le seuil franchi deux fois`,
   titre: `La ligne de registre`,
   statut: `acquis`,
   resume: `**Il y va parce que le souvenir l'y envoie.** Une date, une travée, **trois arrivants** — deux numéros collés, et le sien. Celui qu'il écrit sur des formulaires depuis dix ans sans le regarder. Et une quatrième ligne, courte : une travée, deux dates, et rien d'autre. **Ni âge, ni nom, ni numéro.**`,
@@ -1835,7 +1806,7 @@ const SCENES = [
 
 /* ---------- ÉPILOGUE ---------- */
 {
-  id: `excuses`, no: `Épilogue`, col: 36, row: `andrew`, acte: `Épilogue`,
+  id: `excuses`, no: `Épilogue`, col: 35, row: `andrew`, acte: `Épilogue`,
   titre: `Les excuses`,
   statut: `acquis`,
   resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
@@ -1850,7 +1821,7 @@ const SCENES = [
   src: `03-personnages/chrissy-et-tania.md`
 },
 {
-  id: `confession`, no: `Dernière page`, col: 38, row: `andrew`, acte: `Épilogue`,
+  id: `confession`, no: `Dernière page`, col: 37, row: `andrew`, acte: `Épilogue`,
   titre: `En tête à tête`,
   statut: `acquis`, pivot: true,
   resume: `June partie, Andrew reste seul avec lui. **C'est là qu'il raconte.** Une marche, l'eau, le courant, et l'homme qui est entré derrière lui. Des détails glaçants, dits comme un enfant raconte — concrètement, dans le désordre, sans hiérarchie. **C'est le calme qui glace.** Et le livre se ferme sur sa réplique.`,
@@ -1872,7 +1843,7 @@ const SCENES = [
   src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
 },
 {
-  id: `jardin-fin`, no: `Épilogue · six ans plus tard`, col: 37, row: `andrew`, acte: `Épilogue`,
+  id: `jardin-fin`, no: `Épilogue · six ans plus tard`, col: 36, row: `andrew`, acte: `Épilogue`,
   titre: `L'entrée au jardin`,
   statut: `trou`, pivot: true,
   resume: `**Comment se déroule une arrivée au jardin.** Eliott a huit ans, Andrew quarante-six. On l'installe, on lui montre. **June passe la main à une consœur du jardin, fait ses adieux et s'en va en lui souhaitant le meilleur.** Andrew reste.`,
@@ -1903,7 +1874,7 @@ const LIENS = [
   [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
   [`s11`,`s12`,`j`], [`s12`,`ceremonie2`,`a`], [`ceremonie2`,`s13`,`j`], [`s13`,`s14a`,`a`],
   [`s14a`,`s14-appel`,`a`], [`s14-appel`,`s14b`,`a`], [`s14b`,`s14c`,`a`], [`s14c`,`j3`,`j`], [`j3`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
-  [`s15b`,`s15c`,`a`], [`s15c`,`s16`,``], [`s16`,`s17a`,``], [`s17a`,`s17b`,`j`], [`s17b`,`s17c`,`a`],
+  [`s15b`,`s15c`,`a`], [`s15c`,`s17a`,``], [`s17a`,`s17b`,`j`], [`s17b`,`s17c`,`a`],
   [`s17c`,`s18`,``],
   [`s18`,`corps`,`j`], [`corps`,`s19a`,`a`],
   [`s19a`,`poursuite`,`j`], [`poursuite`,`s19c`,`a`], [`s19c`,`ceremonie3`,`a`], [`ceremonie3`,`registre-fin`,`a`],
@@ -2241,6 +2212,10 @@ const NOTES = [
 { d:`15 août`, s:`Le ratio doit se comprendre`, e:`acquis`, t:[`décompte`,`écriture`],
   v:`Il va falloir réussir à expliquer que le ratio de rajeunissement n'est pas 1:1. Sinon le lecteur ne comprend pas qu'elles ont 15. Il fait le calcul : elle avait 18 ans il y a 10 ans à leur mort, elle devrait avoir 10. Ils seraient donc dans l'erreur.`,
   q:`**Le seul endroit du livre où le lecteur peut se tromper d'arithmétique.** La parade retenue : une phrase banale — « ils mettent trois fois plus longtemps à descendre, en plus ». ✅ **Placée le 16 août 2026 : à la découverte du jardin, dans la bouche du pédiatre**, qui a les données techniques en main et l'énonce comme un médecin cite une posologie. *Il ne dit l'âge de personne : il énonce une propriété du barème.* **C'est parce qu'il la trouve banale que le lecteur la garde.**` },
+
+{ d:`16 août`, s:`Isaac ne part pas deux fois`, e:`acquis`, t:[`enquête`,`écriture`],
+  v:`Franchement cette scène ne sert à rien, il se retire déjà de l'affaire quand il largue Joël.`,
+  q:`**Scène 16 supprimée, et l'argument est double.** *D'abord le sien :* du point de vue du lecteur, Isaac a déjà lâché deux fois — sèchement à la fin de la 15 a, puis dans la 15 b qu'il attribue encore à Isaac. **Un troisième chapitre pour la même sortie était un chapitre de trop.** \n\n*Ensuite :* la scène 17 a repose entièrement sur le manque — plus de second homme, plus de véhicule, plus de poste où entrer sans s'annoncer. **Un chapitre qui montrait le départ volait à celui-là ce qui fait sa force.** *Le départ se sent mieux qu'il ne se montre : la 15 c se ferme sur un homme qui passe outre, et au chapitre suivant il n'y a plus personne à côté de lui. C'est l'ellipse qui le dit.* \n\n**Ce qui est sauvé :** que le départ d'Isaac soit entièrement juste et entièrement la faute d'Andrew — ça passe en garde sur la 15 a. **Ce qui est perdu :** le dossier signalait ce beat comme le plus facile à doubler côté Joël. *La carte grise « Il reste seul » disparaît avec.*` },
 
 { d:`16 août`, s:`La décision d'un homme, l'arrivée d'un autre`, e:`acquis`, t:[`dispositif`,`écriture`],
   v:`On pourra rajouter une scène pour Joël ici. On le voit acculé, c'était évidemment une fausse piste. Une scène de lassitude, énervé d'avoir bien sûr perdu du temps. Et pourtant, il pense que ça vaut le coup de continuer ! Et il décide de retourner au commissariat pour parler avec son ami. Ensuite c'est la 15 a et on rebascule bien sûr sur Andrew qui insiste avec Isaac.`,
