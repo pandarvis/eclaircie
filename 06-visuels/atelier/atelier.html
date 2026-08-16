@@ -633,6 +633,21 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 }
 .appareil .actes button:hover{border-color:var(--andrew);color:var(--andrew)}
 
+/* le vis-à-vis, dans le dossier de scène */
+.face{
+  border:1px solid var(--trait);border-left:2px solid var(--commun);border-radius:4px;
+  padding:12px 14px;background:var(--fond-3);margin-bottom:11px;
+}
+.face.f-andrew{border-left-color:var(--andrew)}
+.face.f-joel{border-left-color:var(--joel)}
+.face h5{margin:5px 0 6px;font-size:16px;font-weight:400;line-height:1.25}
+.face p{margin:0 0 9px;font-size:14px;line-height:1.55;color:var(--texte-2)}
+.prio{
+  font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--texte-3);
+  margin:0;padding-left:12px;border-left:2px solid var(--provisoire);
+}
+.prio strong{color:var(--provisoire)}
+
 /* ============================================================
    divers
    ============================================================ */
@@ -710,8 +725,8 @@ kbd{
     <section class="vue on" id="v-parcours">
       <header class="chapeau">
         <h1>Le parcours</h1>
-        <p class="sous">Une seule enquête, écrite d'un bloc, puis répartie entre les deux récits — et le lecteur croit n'en lire qu'une.<br>
-          Clique une scène pour ouvrir son dossier d'écriture.</p>
+        <p class="sous">Une seule enquête, et le lecteur croit n'en lire qu'une.<br>
+          Clique une scène : son dossier s'ouvre, avec <strong>ce qui se passe en face</strong>.</p>
         <div class="outils" id="f-parcours"></div>
       </header>
       <div class="plateau" id="plateau">
@@ -861,7 +876,9 @@ const ETAPES = [
   { c0: 6,  c1: 6,  t: `Retour chez le témoin` },
   { c0: 7,  c1: 7,  t: `Sur le lieu de travail` },
   { c0: 8,  c1: 8,  t: `Ceux qui connaissent le suspect` },
+  { c0: 9,  c1: 9,  t: `L'archive` },
   { c0: 10, c1: 10, t: `Les recherches, en parallèle` },
+  { c0: 12, c1: 12, t: `L'homme qui était là ce jour-là` },
   { c0: 14, c1: 14, t: `Chez le suspect` },
   { c0: 16, c1: 16, t: `L'alibi se vérifie` },
   { c0: 18, c1: 18, t: `L'enquête n'a plus rien` },
@@ -876,6 +893,7 @@ const ETAPES = [
 const SCENES = [
 {
   id: `g-poste`, no: `Non écrite`, col: 5, row: `andrew`, acte: `La disparition`, gris: true,
+  face: `s4`,
   titre: `Il rencontre Isaac`,
   statut: `ouvert`,
   resume: `**Andrew rend visite à Isaac au sujet de la disparition d'Eliott.** Le livre ne l'écrit pas — la carte est là à titre indicatif, pour qu'on sache où l'on en est.`,
@@ -886,6 +904,7 @@ const SCENES = [
 },
 {
   id: `g-suspect`, no: `Non écrite`, col: 14, row: `andrew`, acte: `La fausse piste s'éteint`, gris: true,
+  face: `s12`,
   titre: `Chez le marginal`,
   statut: `ouvert`,
   resume: `Le même beat, de ce côté-ci : ils vont voir l'homme de vingt-deux ans, celui des scènes 6, 7 et 9. **Le livre ne l'écrit pas.**`,
@@ -896,6 +915,7 @@ const SCENES = [
 },
 {
   id: `g-alibi`, no: `Non écrite`, col: 16, row: `andrew`, acte: `La fausse piste s'éteint`, gris: true,
+  face: `s13`,
   titre: `L'alibi du marginal tient`,
   statut: `ouvert`,
   resume: `Le même beat, de ce côté-ci. **Le livre ne l'écrit pas.**`,
@@ -906,16 +926,91 @@ const SCENES = [
 },
 {
   id: `g-temoin`, no: `Non écrite`, col: 6, row: `joel`, acte: `La disparition`, gris: true,
-  titre: `Retour chez un témoin`,
+  face: `s5`,
+  titre: `Retour chez leur mère`,
   statut: `ouvert`,
-  resume: `Le même beat, de l'autre côté : Joël retourne voir quelqu'un qu'il a déjà interrogé. **Beat signalé comme doublable par le dossier**, non écrit.`,
-  produit: `*Deux fois la même pièce, deux fois la même question, et une seule fois où il en tire quelque chose.*`,
+  resume: `**Décision de l'autrice, 16 août 2026 : le pendant de June, c'est leur mère.** Joël y retourne pour ce que le procès-verbal n'a pas retenu — l'état d'esprit, les habitudes, ce qui n'allait pas.`,
+  produit: `**Le même beat, et une asymétrie que le monde produit tout seul.** D'un côté quelqu'un dont c'est le métier de s'occuper d'un arrivant ; de l'autre, quelqu'un qui n'a pas de métier du tout. *Le lecteur lit une seule scène : une femme qui raconte ce qu'elle a vu, et qui a peur.*`,
   monde: `—`, qui: [`joel`],
-  gardes: [`Si elle s'écrit, les deux occurrences ne se citent jamais l'une l'autre.`],
-  src: `04-plan/le-parcours-de-l-enquete.md §5`
+  gardes: [
+    `🔴 **Et c'est le piège le plus dangereux du livre : le mot « mère » ne peut pas s'écrire.** Il existe pourtant dans son monde. *Mais le lecteur croit lire un chapitre d'ici, où le mot ne désigne rien — un seul emploi et le sol se dérobe.* **Elle sera donc « elle », « la femme », « celle qui ouvre la porte ».**`,
+    `*Et c'est terrible sans qu'on ait rien à ajouter : le dispositif retire à une mère le seul mot qui la nomme. Elle traverse le livre sans être ce qu'elle est.*`,
+    `Aucun nom, aucun âge, et les deux filles ne sont ni comptées ni sexuées.`,
+    `Si la scène s'écrit, les deux occurrences ne se citent jamais l'une l'autre.`
+  ],
+  src: `décision du 16 août 2026 — 04-plan/le-parcours-de-l-enquete.md §5`
+},
+{
+  id: `g-fac`, no: `Non écrite`, col: 7, row: `joel`, acte: `Le monde comme terrain`, gris: true,
+  face: `s6`,
+  titre: `Une sortie de fac`,
+  statut: `ouvert`,
+  resume: `**Le pendant du lieu de travail.** Une sortie de faculté ; le responsable est un surveillant ; les marginaux sont un groupe de lourds. **L'homme aime semer le désordre** — l'équivalent d'un casseur dans une manifestation.`,
+  produit: `*Le même blasé, la même exclusion temporaire, le même effectif qu'on ne peut pas baisser. Un surveillant de fac et un responsable d'atelier disent exactement la même chose, et c'est ce qui permet de n'en écrire qu'un.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Le groupe n'a ni nom, ni sigle, ni chef — même règle que de l'autre côté.`,
+           `Aucun mot ne doit ancrer l'endroit dans un seul des deux mondes : ni programme, ni diplôme, ni rien qui n'existerait pas ici.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-archives`, no: `Non écrite`, col: 9, row: `joel`, acte: `Le registre`, gris: true,
+  face: `s8`,
+  titre: `Le service des archives`,
+  statut: `ouvert`,
+  resume: `**Le pendant de la ruche : le service des archives du commissariat.** Il y retourne, il tire des dossiers, il cherche une anomalie.`,
+  produit: `🔴 **Et ça dissout le risque majeur du dossier.** Le §3.5 posait que les scènes de monde ne peuvent être que d'Andrew, donc que ses chapitres seraient chargés et ceux de Joël secs — *deux textures, et le dispositif se fissure.* **Un homme qui consulte des archives est le même partout.**`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`C'est un lieu de travail ennuyeux des deux côtés. Ni ambiance, ni solennité.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-mael`, no: `Non écrite`, col: 10, row: `joel`, acte: `Le registre`, gris: true,
+  face: `s9`,
+  titre: `Mael donne des infos`,
+  statut: `ouvert`,
+  resume: `**Le pendant du coup de téléphone.** C'est Mael qui renseigne : les altercations, ce qui a dérapé, les jours passés en cellule.`,
+  produit: `*Une voix au bout d'un fil qui déroule un casier : impossible de dire de quel monde elle parle.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Le nom de Mael n'est jamais prononcé dans le texte, comme celui de Liam et comme tous les noms de la vie d'avant. C'est un nom de bible.`],
+  ouvert: [`⚠️ **Mael et Liam sont-ils le même homme ?** *S'ils le sont, le collègue prend beaucoup d'épaisseur et le cri final gagne encore. S'ils sont deux, il faut savoir lequel des deux le lecteur prendra pour Isaac.*`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-ancien`, no: `Non écrite`, col: 12, row: `joel`, acte: `Le registre`, gris: true,
+  face: `s11`,
+  titre: `Chez un ancien policier`,
+  statut: `ouvert`,
+  resume: `**Le pendant du veilleur de l'époque au jardin.** Un ancien policier, chez lui, qui était présent le jour d'une manifestation qui a dégénéré.`,
+  produit: `**Le parallèle est exact : des deux côtés, c'est l'homme qui était là et qui n'est plus en service.** *L'un a huit ans et vit au jardin, l'autre a pris sa retraite — et tous les deux racontent une matinée sans se rappeler leur carrière.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`On va le voir chez lui, et il répond à des questions. Il n'explique rien de son propre chef.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-piste`, no: `Non écrite`, col: 26, row: `joel`, acte: `La remontée`, gris: true,
+  face: `s17c`,
+  titre: `Il a trouvé une piste seul`,
+  statut: `ouvert`,
+  resume: `**Le pendant de la remontée.** Joël a fini par trouver une piste, seul, **après avoir perdu énormément de temps.**`,
+  produit: `*Le même mouvement, et c'est là que tout se joue : l'un a perdu ses semaines pour rien, l'autre a perdu ses deux semaines et arrive à l'heure. **Le lecteur lit un seul homme qui repart.***`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Le temps perdu ne se chiffre pas et ne se commente pas. Il se sent au ton.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-entre`, no: `Non écrite`, col: 27, row: `joel`, acte: `La remontée`, gris: true,
+  face: `s18`,
+  titre: `Il entre seul, sans attendre`,
+  statut: `ouvert`,
+  resume: `**Le pendant exact, et il est écrit à l'identique.** Il a appelé, il sait que l'autre arrive, il n'attend pas.`,
+  produit: `**C'est le seuil que le lecteur franchit deux fois** — une seule descente lue, deux escaliers, et derrière la porte un mouroir d'un côté et une cave repeinte de l'autre.`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Les deux descentes ne se citent jamais. Aucun personnage ne remarque le contraste.`],
+  src: `04-plan/le-meme-jour.md §5 quater`
 },
 {
   id: `g-seul`, no: `Non écrite`, col: 23, row: `joel`, acte: `L'enlisement`, gris: true,
+  face: `s16`,
   titre: `Il reste seul`,
   statut: `ouvert`,
   resume: `Le même beat, de l'autre côté. **Beat signalé comme doublable par le dossier** — c'est le moins situé du parcours, donc le plus facile à doubler.`,
@@ -1038,6 +1133,7 @@ const SCENES = [
 },
 {
   id: `s4`, no: `Scène 4`, col: 5, row: `joel`, acte: `La disparition`,
+  face: `g-poste`,
   titre: `Première visite au commissariat`,
   statut: `acquis`, pivot: true,
   resume: `Il pousse la porte d'un poste de police et parle à quelqu'un de l'affaire. On lui donne des faits, et rien d'autre : des trajets, des horaires, un déroulé de journée. **Jamais un état d'esprit.** *C'est le premier chapitre de la vie d'avant, et le lecteur ne le sait pas.*`,
@@ -1065,6 +1161,7 @@ const SCENES = [
 },
 {
   id: `s5`, no: `Scène 5`, col: 6, row: `andrew`, acte: `La disparition`,
+  face: `g-temoin`,
   titre: `Retour chez June, avec Isaac`,
   statut: `acquis`,
   resume: `Elle raconte comment ça se passe et l'état d'esprit du garçon : il peut être adorable puis devenir d'un coup hyper agressif. Il a une peur bleue de l'eau et a refusé les premiers cours de natation. Et la veille, il est rentré avec les genoux en sang et la lèvre fendue.`,
@@ -1083,6 +1180,7 @@ const SCENES = [
 /* ---------- LE MONDE COMME TERRAIN ---------- */
 {
   id: `s6`, no: `Scène 6`, col: 7, row: `andrew`, acte: `Le monde comme terrain`,
+  face: `g-fac`,
   titre: `Sur son lieu de travail`,
   statut: `acquis`,
   resume: `Le portage — une tournée, et c'est elle qui fait passer Eliott dans les rues d'ici. Le responsable donne sa version : la veille, Eliott était impliqué dans une bagarre avec un homme de vingt-deux ans. Il l'a congédié sur-le-champ, après plusieurs sommations, quand l'homme est devenu insultant et haineux.`,
@@ -1121,6 +1219,7 @@ const SCENES = [
 /* ---------- LE REGISTRE ---------- */
 {
   id: `s8`, no: `Scène 8`, col: 9, row: `andrew`, acte: `Le registre`,
+  face: `g-archives`,
   titre: `Retour à la ruche — le registre`,
   statut: `acquis`, pivot: true,
   resume: `Andrew enquête sur plusieurs lignes. D'abord celle de l'homme : un arrivant de quatre-vingt-onze ans. Puis la cérémonie d'éclaircie d'Eliott. Ce que la journée porte, à son heure, ce sont deux arrivées : Eliott, dix ans, et un arrivant de quarante ans. Il ne s'y arrête pas une seconde.`,
@@ -1140,6 +1239,7 @@ const SCENES = [
 },
 {
   id: `s9`, no: `Scène 9`, col: 10, row: `andrew`, acte: `Le registre`,
+  face: `g-mael`,
   titre: `Au téléphone, en parallèle`,
   statut: `acquis`,
   resume: `Isaac a fait des recherches sur l'homme. Andrew partage ses infos ; Isaac détaille sa vie. Plusieurs altercations, dont certaines ont dérapé. Et il a fait quelques jours « au silence » — la cellule temporaire — après avoir tenté, avec un groupe d'autres marginaux, d'empêcher l'entrée au jardin d'un groupe d'arrivants de six ans.`,
@@ -1168,6 +1268,7 @@ const SCENES = [
 },
 {
   id: `s11`, no: `Scène 11`, col: 12, row: `andrew`, acte: `Le registre`,
+  face: `g-ancien`,
   titre: `Au jardin — le veilleur de l'époque`,
   statut: `acquis`,
   resume: `Andrew et Isaac s'y donnent rendez-vous. Le veilleur qui s'était chargé de la cérémonie est désormais au jardin, âgé de huit ans. Il décrit la cérémonie et les réactions du public. Il n'y avait pas assez de berceurs ce jour-là ; la cérémonie a même pris du retard, l'administration ayant dû les enregistrer un à un.`,
@@ -1237,6 +1338,7 @@ const SCENES = [
 /* ---------- LA FAUSSE PISTE S'ÉTEINT ---------- */
 {
   id: `s12`, no: `Scène 12`, col: 14, row: `joel`, acte: `La fausse piste s'éteint`,
+  face: `g-suspect`,
   titre: `Chez l'homme`,
   statut: `acquis`, pivot: true,
   resume: `Joël rend visite à un homme qui aurait harcelé les deux filles. Il est là, il ne veut pas leur parler, il les envoie promener — et il donne un alibi comme on jette une porte, sans rien démontrer, parce qu'il n'a pas à se justifier devant des gens qui n'ont rien contre lui.`,
@@ -1269,6 +1371,7 @@ const SCENES = [
 },
 {
   id: `s13`, no: `Scène 13`, col: 16, row: `joel`, acte: `La fausse piste s'éteint`,
+  face: `g-alibi`,
   titre: `L'alibi tient`,
   statut: `acquis`,
   resume: `Joël repart interroger quelqu'un, ailleurs, pour vérifier ce que l'homme a dit. Ça tient. La piste s'éteint sans coupable, sans explication et sans éclat.`,
@@ -1345,6 +1448,7 @@ const SCENES = [
 },
 {
   id: `s15a`, no: `Scène 15 · a`, col: 20, row: `andrew`, acte: `L'enlisement`,
+  face: `s15b`,
   titre: `Au commissariat`,
   statut: `acquis`, pivot: true,
   resume: `Andrew insiste. Il insiste encore. Il parle de reprendre le registre, de vérifier des lignes, de recouper des dates. **Il voit la motivation d'Isaac le lâcher et il panique un peu, sans contrôle** — il essaie de lui donner un coup de fouet. Isaac tranche sèchement. Fin de chapitre.`,
@@ -1362,6 +1466,7 @@ const SCENES = [
 },
 {
   id: `s15b`, no: `Scène 15 · b`, col: 21, row: `joel`, acte: `L'enlisement`,
+  face: `s15a`,
   titre: `« Lâche l'affaire »`,
   statut: `acquis`, pivot: true,
   resume: `Le ton est monté. On se répond, on hausse la voix, quelqu'un répète ce qu'il a déjà dit. **Puis il regarde les dossiers, et il n'y touche plus.** Le chapitre se ferme sur un abandon.`,
@@ -1408,6 +1513,7 @@ const SCENES = [
 },
 {
   id: `s16`, no: `Scène 16`, col: 23, row: `andrew`, acte: `L'enlisement`,
+  face: `g-seul`,
   titre: `Isaac lâche l'affaire`,
   statut: `acquis`, pivot: true,
   resume: `Il laisse Andrew seul. La porte ne claque pas : on lui retire une place, pas un droit. Plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer.`,
@@ -1427,6 +1533,7 @@ const SCENES = [
 /* ---------- LA REMONTÉE ---------- */
 {
   id: `s17a`, no: `Scène 17 · a`, col: 24, row: `andrew`, acte: `La remontée`,
+  face: `s17b`,
   titre: `Il se fait des nœuds au cerveau`,
   statut: `trou`,
   resume: `Andrew enquête seul. Il tourne en rond, il se fait des nœuds au cerveau, il est un peu désespéré — et il fait comme il peut. **Le contenu exact reste à trouver.**`,
@@ -1443,6 +1550,7 @@ const SCENES = [
 },
 {
   id: `s17b`, no: `Scène 17 · b`, col: 25, row: `joel`, acte: `La remontée`,
+  face: `s17a`,
   titre: `Il rentre chez lui`,
   statut: `acquis`, pivot: true,
   resume: `Il est rentré chez lui, dépité. Il s'affale sur son canapé. Il fait des choses banales. **C'est un abandon complet.**`,
@@ -1465,6 +1573,7 @@ const SCENES = [
 },
 {
   id: `s17c`, no: `Scène 17 · c`, col: 26, row: `andrew`, acte: `La remontée`,
+  face: `g-piste`,
   titre: `Il a trouvé`,
   statut: `trou`, pivot: true,
   resume: `**Le lendemain.** On rebascule chez Andrew, et il s'y recolle. Il a la solution. Une partie de ce qu'Eliott racontait décrivait un endroit réel, d'ici — banal, local, vérifiable — qu'un arrivant de dix ans n'aurait pas dû connaître. Il trouve la maison et appelle Isaac pour qu'il le rejoigne vite.`,
@@ -1485,6 +1594,7 @@ const SCENES = [
 },
 {
   id: `s18`, no: `Scène 18`, col: 27, row: `andrew`, acte: `La remontée`,
+  face: `g-entre`,
   titre: `Il entre seul, sans attendre`,
   statut: `acquis`, pivot: true,
   resume: `Il a appelé, il sait que l'autre arrive, et il n'attend pas. Ce n'est pas du courage et ce n'est pas de l'imprudence : c'est exactement la faute d'avant refaite à l'envers. On lui a dit d'arrêter de creuser une fois, et il a obéi. Cette fois, personne ne l'arrête parce que personne n'est là.`,
@@ -1500,6 +1610,7 @@ const SCENES = [
 /* ---------- LE SEUIL FRANCHI DEUX FOIS ---------- */
 {
   id: `corps`, no: `Chapitre B`, col: 28, row: `joel`, acte: `Le seuil franchi deux fois`,
+  face: `s19a`,
   titre: `Les corps`,
   statut: `acquis`, pivot: true,
   resume: `On décrit un premier corps, et on croit que c'est le garçon. Puis un second, plus loin. Deux corps identiques, encore roses de l'afflux sanguin, mortes depuis moins d'une heure.`,
@@ -1526,6 +1637,7 @@ const SCENES = [
 },
 {
   id: `s19a`, no: `Chapitre C`, col: 29, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  face: `corps`,
   titre: `Le même lieu, l'autre issue`,
   statut: `acquis`, pivot: true,
   resume: `Le chapitre recommence. Même arrivée, même pesanteur — et Eliott est vivant. Isaac les rejoint. **Andrew sent pourtant une présence derrière eux. Une silhouette apparaît. Fin de chapitre.**`,
@@ -1545,6 +1657,7 @@ const SCENES = [
 },
 {
   id: `poursuite`, no: `Chapitre D`, col: 30, row: `joel`, acte: `Le seuil franchi deux fois`,
+  face: `s19c`,
   titre: `La poursuite`,
   statut: `acquis`, pivot: true,
   resume: `**La silhouette prend la fuite.** Sans réfléchir, il s'élance. Une rage, la colère, l'envie de tuer. « Joël, attends ! » La poursuite en voiture, l'accident. Il meurt en même temps que l'assassin.`,
@@ -1565,6 +1678,7 @@ const SCENES = [
 },
 {
   id: `s19c`, no: `Chapitre E`, col: 31, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  face: `poursuite`,
   titre: `Elle n'a pas fui`,
   statut: `acquis`, pivot: true,
   resume: `On revient chez Andrew. **Il réalise sa propre mort.** Il observe, dubitatif, la berceuse qui a compris qu'elle était prise sur le fait. **Elle n'a pas tenté de s'enfuir.** Elle semblait juste profondément triste. Isaac lui passe les menottes.`,
@@ -2272,6 +2386,22 @@ const NOTES = [
   v:`« L'affaire Sorel », justement, cet encart n'existe pas vraiment, tu le regroupes avec la scène 4. On ne parlera pas vraiment de fragment, on ne discute pas de l'enlèvement des jumelles.`,
   q:`**Le mot tombe, et c'est cohérent avec tout le reste.** Les chapitres de la vie d'avant ne sont ni des éclats, ni des inserts : ce sont des chapitres entiers, de même longueur et de même facture. *Un fragment se repère ; un chapitre, non.* **Et aucun d'eux n'établit l'affaire :** on ne discute jamais de l'enlèvement, on parle d'une affaire en cours comme le font des gens qui la connaissent déjà. *C'est ce qui rend chaque chapitre superposable à celui d'Andrew — et c'est la règle la plus stricte de toute la voie de Joël.*` },
 
+{ d:`16 août`, s:`LES PENDANTS CHEZ JOËL`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`« Retour chez un témoin » : c'est leur mère, le parallèle de June. « Sur son lieu de travail » : une sortie de fac, le responsable est un surveillant, les marginaux un groupe de lourds — le marginal aime semer le désordre, l'équivalent d'un casseur dans une manif. Scène 8, retour à la ruche : un retour dans le service des archives du commissariat. Au téléphone : c'est Mael qui donne des infos. « Au jardin, le veilleur de l'époque » : visite d'un ancien policier chez lui, présent le jour d'une manif qui a dégénéré. 17a et 17c : Joël a trouvé une piste seul après avoir perdu énormément de temps. « Il entre seul, sans attendre » : pareil côté Joël.`,
+  q:`**Et ça dissout le risque majeur du dossier.** Le §3.5 posait que les scènes de monde ne peuvent être que d'Andrew — donc ses chapitres chargés, ceux de Joël secs, *deux textures, et le dispositif se fissure exactement là où il ne doit pas.* **Un homme qui consulte des archives est le même partout ; un surveillant de fac et un responsable d'atelier disent la même chose ; l'ancien policier chez lui et le veilleur au jardin sont tous les deux celui qui était là et qui n'est plus en service.** *Il ne reste qu'une seule scène sans jumeau dans tout le livre : la cérémonie des vingt-six, et c'est très bien ainsi — c'est la seule chose que ce monde-ci sait faire et que l'autre ne sait pas.*` },
+
+{ d:`16 août`, s:`Le mot qu'on retire à une mère`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`—`,
+  q:`**Conséquence du pendant de June, et c'est le piège le plus dangereux du livre.** Le mot « mère » existe dans le monde de Joël. *Mais le lecteur croit lire un chapitre d'ici, où il ne désigne rien — un seul emploi et le sol se dérobe.* **Elle sera donc « elle », « la femme », « celle qui ouvre la porte ».** *Et c'est terrible sans qu'on ait rien à ajouter : le dispositif retire à une mère le seul mot qui la nomme, et elle traverse le livre sans être ce qu'elle est.*` },
+
+{ d:`16 août`, s:`ANDREW EST PRIORITAIRE`, e:`acquis`, t:[`méthode`,`écriture`],
+  v:`C'est pour m'aider moi, comprendre l'équivalent à peu près, pour à l'écriture me dire : voilà, je suis de tel côté, il s'est passé ça avant, comment je peux écrire ma scène pour qu'il y ait deux lectures sans trahir de manière prioritaire la branche Andrew, mais en conservant une certaine logique pour la branche Joël.`,
+  q:`**La règle d'arbitrage de toute l'écriture, et elle manquait.** *On écrit la scène pour qu'elle se lise d'abord comme celle de ce monde-ci ; l'autre lecture doit seulement rester **possible**, jamais servie.* **Aucune phrase ne se contorsionne pour Joël** — s'il faut choisir, c'est Andrew qui gagne, toujours. Joël, lui, doit simplement ne jamais devenir impossible.` },
+
+{ d:`16 août`, s:`Les trois questions à se poser`, e:`acquis`, t:[`méthode`,`écriture`],
+  v:`—`,
+  q:`Ce que l'atelier affiche désormais sous chaque vis-à-vis, pour l'avoir sous les yeux en écrivant : **est-ce qu'un mot d'ici manque là-bas ? est-ce qu'un mot de là-bas n'existe pas ici ? est-ce que ce qui vient d'arriver tient dans les deux calendriers ?** *Les trois suffisent à attraper presque tout — le troisième est celui qu'on oublie.*` },
+
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
   q:`**Règle permanente.** À chaque décision : on corrige la fiche concernée, on répercute ici, on reconstruit, on vérifie, on commite. *Un atelier qui retarde d'une séance ne sert plus à rien.* Et les étapes se marquent par des tags git — `+"`"+`v1`+"`"+` à `+"`"+`v4`+"`"+` pour la mise en place du monde, `+"`"+`v5`+"`"+` pour l'atelier — ce qui permet de retrouver n'importe quelle version d'un document et de comparer deux états.` },
@@ -2695,6 +2825,30 @@ const GENS = [
   phrases:[`Joël, non, attends !`],
   ouvert:[],
   src:`03-personnages/andrew.md` },
+
+{ id:`mael`, nom:`Mael`, voie:`joel`, role:`Celui qui renseigne au téléphone. La vie d'avant.`,
+  age:`—`,
+  resume:`Il donne les informations sur l'homme : les altercations, ce qui a dérapé, les jours passés en cellule. **Une voix au bout d'un fil qui déroule un casier** — et le lecteur croit entendre Isaac.`,
+  traits:[`Il renseigne, il ne commente pas.`,`Il est du métier, et ça s'entend.`],
+  faille:`—`, arc:`—`,
+  gardes:[`Le nom de Mael n'est jamais prononcé dans le texte, comme celui de Liam. C'est un nom de bible.`,
+    `Rien de ce qu'il dit ne doit ancrer la conversation dans un seul des deux mondes.`],
+  phrases:[],
+  ouvert:[`⚠️ **Mael et Liam sont-ils le même homme ?** *S'ils le sont, le collègue prend beaucoup d'épaisseur et le cri final gagne encore. S'ils sont deux, il faut savoir lequel des deux le lecteur prendra pour Isaac.*`],
+  src:`décision du 16 août 2026` },
+
+{ id:`la-mere`, nom:`Leur mère`, voie:`joel`, role:`Le pendant de June. La vie d'avant.`,
+  age:`—`,
+  resume:`C'est chez elle que Joël retourne pour ce que le procès-verbal n'a pas retenu : l'état d'esprit, les habitudes, ce qui n'allait pas. **Elle raconte ce qu'elle a vu, et elle a peur.**`,
+  traits:[`Elle a déjà tout dit une fois, à quelqu'un qui notait des trajets.`,`Elle répond, elle ne demande rien.`],
+  faille:`—`,
+  arc:`Elle apparaît une fois, comme June. Le livre ne dit pas ce qu'elle devient.`,
+  gardes:[`🔴 **Le mot « mère » ne peut pas s'écrire**, alors même qu'il existe dans son monde. Le lecteur croit lire un chapitre d'ici, où il ne désigne rien. **Elle sera « elle », « la femme », « celle qui ouvre la porte ».**`,
+    `Aucun nom, aucun âge, et les deux filles ne sont ni comptées ni sexuées.`,
+    `Le parallèle avec June n'est jamais souligné, ni par un personnage ni par le narrateur.`],
+  phrases:[],
+  ouvert:[`Le livre la montre-t-il une fois ou deux ?`],
+  src:`décision du 16 août 2026` },
 
 { id:`mere`, nom:`L'arrivante de trente-cinq ans`, voie:`andrew`, role:`Hors casting — en réserve.`,
   age:`Trente-cinq ans. Vingt-sept marches avant le jardin, à une vitesse qui n'est fixée nulle part.`,
@@ -3413,6 +3567,20 @@ function ouvrirTiroir(id){
   if (s.contre)
     h += bloc(`L'autre option`, `<div class="garde"><b>ce qu'elle coûterait</b>${rich(s.contre)}</div>`);
 
+  if (s.face && parIdScene[s.face]){
+    const o = parIdScene[s.face];
+    h += bloc(`En face — ce qui se passe de l'autre côté`,
+      `<div class="face f-${o.row}">
+         <span class="etiq">${esc(VOIES[o.row].nom)}${o.gris ? ` · non écrite` : ``}</span>
+         <h5>${esc(o.titre)}</h5>
+         <p>${rich(o.resume)}</p>
+         <button class="renvoi" data-face="${esc(o.id)}">ouvrir son dossier →</button>
+       </div>
+       <p class="prio"><strong>La branche d'Andrew est prioritaire.</strong> On écrit la scène pour qu'elle se lise
+        d'abord comme celle de ce monde-ci ; l'autre lecture doit seulement rester <em>possible</em>, jamais servie.
+        <br>Trois questions à se poser : <em>est-ce qu'un mot d'ici manque là-bas ? est-ce qu'un mot de là-bas
+        n'existe pas ici ? est-ce que ce qui vient d'arriver tient dans les deux calendriers ?</em></p>`);
+  }
   if (s.qui && s.qui.length){
     h += bloc(`Qui est là`, s.qui.map(q => {
       const g = parIdGens[q];
@@ -3439,6 +3607,11 @@ function ouvrirTiroir(id){
 
   $(`#t-corps`).innerHTML = h;
   $(`#t-corps`).scrollTop = 0;
+  $$(`#t-corps [data-face]`).forEach(b => b.addEventListener(`click`, () => {
+    const n = $(`.noeud[data-id="${b.dataset.face}"]`);
+    if (n) $(`#plateau`).scrollTo({ left: Math.max(0, n.offsetLeft - 300), behavior: `smooth` });
+    ouvrirTiroir(b.dataset.face);
+  }));
   $$(`#t-corps [data-gens]`).forEach(b => b.addEventListener(`click`, () => {
     $(`.rail-btn[data-vue="gens"]`).click();
     const c = document.getElementById(`g-` + b.dataset.gens);
