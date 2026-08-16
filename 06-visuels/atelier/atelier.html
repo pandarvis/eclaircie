@@ -157,10 +157,9 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
    VUE 1 — LE PARCOURS (le tableau de nœuds)
    ============================================================ */
 .plateau{
-  flex:1;overflow:auto;position:relative;background:var(--fond);
-  scroll-behavior:smooth;
+  flex:1;overflow-x:auto;overflow-y:hidden;position:relative;background:var(--fond);
+  overscroll-behavior-x:contain;
 }
-@media (prefers-reduced-motion:reduce){.plateau{scroll-behavior:auto}}
 
 .scene-carte{position:relative;height:100%;min-height:520px}
 
@@ -554,6 +553,61 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .ajout-chap:hover{border-color:var(--andrew);color:var(--andrew)}
 
 /* ============================================================
+   LES CHAPITRES ÉCRITS
+   ============================================================ */
+.lecture{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:38px}
+@media (max-width:960px){.lecture{grid-template-columns:1fr}}
+
+.page{
+  background:var(--fond-2);border:1px solid var(--trait);border-radius:5px;
+  padding:44px 52px 54px;
+}
+@media (max-width:640px){.page{padding:28px 22px 34px}}
+.page .rang{
+  font-family:var(--sans);font-size:10px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--texte-4);display:block;margin-bottom:6px;
+}
+.page h2{
+  margin:0 0 6px;font-size:29px;font-weight:400;line-height:1.1;letter-spacing:.005em;
+}
+.page .dedic{
+  font-family:var(--sans);font-size:12px;color:var(--texte-3);margin:0 0 30px;
+  padding-bottom:22px;border-bottom:1px solid var(--trait);
+}
+.page .txt{max-width:64ch}
+.page .txt p{
+  margin:0 0 1.15em;font-size:17.5px;line-height:1.82;text-align:left;
+  hyphens:auto;
+}
+.page .txt p.tiret{text-indent:0}
+.page .txt p+p:not(.tiret):not(.pause){text-indent:1.5em}
+.page .txt p.pause{
+  text-align:center;text-indent:0;color:var(--texte-4);margin:1.9em 0;letter-spacing:.5em;
+}
+.page .txt p.fin{margin-top:1.6em}
+.page .txt em{font-style:italic}
+
+.appareil{align-self:start;position:sticky;top:0;display:flex;flex-direction:column;gap:13px}
+.appareil .bl{
+  background:var(--fond-2);border:1px solid var(--trait);border-radius:5px;padding:14px 16px;
+}
+.appareil .bl h4{
+  margin:0 0 9px;font-family:var(--sans);font-size:9.5px;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--texte-3);font-weight:600;
+}
+.appareil .bl p,.appareil .bl li{font-size:13.5px;line-height:1.55;color:var(--texte-2);margin:0 0 7px}
+.appareil .bl ul{margin:0;padding-left:16px}
+.appareil .bl li::marker{color:var(--texte-4)}
+.appareil .bl.tenu{border-left:2px solid var(--acquis)}
+.appareil .bl.ouvre{border-left:2px solid var(--provisoire)}
+.appareil .actes{display:flex;gap:8px;flex-wrap:wrap}
+.appareil .actes button{
+  font-family:var(--sans);font-size:11.5px;padding:7px 12px;border:1px solid var(--trait);
+  border-radius:4px;color:var(--texte-2);background:var(--fond-3);
+}
+.appareil .actes button:hover{border-color:var(--andrew);color:var(--andrew)}
+
+/* ============================================================
    divers
    ============================================================ */
 .vide{
@@ -595,8 +649,11 @@ kbd{
     <button class="rail-btn on" data-vue="parcours" aria-label="Le parcours">
       <svg viewBox="0 0 24 24"><path d="M3 12h4l3-6 4 12 3-6h4"/></svg><span>Parcours</span>
     </button>
-    <button class="rail-btn" data-vue="chapitrage" aria-label="Le chapitrage">
-      <svg viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v6h-7zM13 13h7v6h-7z"/></svg><span>Chapitres</span>
+    <button class="rail-btn" data-vue="textes" aria-label="Les chapitres écrits">
+      <svg viewBox="0 0 24 24"><path d="M4 4.5h7a2 2 0 0 1 2 2V20a2 2 0 0 0-2-2H4zM20 4.5h-7a2 2 0 0 0-2 2V20a2 2 0 0 1 2-2h7z"/></svg><span>Chapitres</span>
+    </button>
+    <button class="rail-btn" data-vue="chapitrage" aria-label="Le plan">
+      <svg viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v6h-7zM13 13h7v6h-7z"/></svg><span>Plan</span>
     </button>
     <button class="rail-btn" data-vue="notes" aria-label="Les notes">
       <svg viewBox="0 0 24 24"><path d="M5 3h11l3 3v15H5zM16 3v4h3M8 11h8M8 15h6"/></svg><span>Notes</span>
@@ -666,10 +723,20 @@ kbd{
       </aside>
     </section>
 
-    <!-- ================= LE CHAPITRAGE ================= -->
+    <!-- ================= LES CHAPITRES ÉCRITS ================= -->
+    <section class="vue" id="v-textes">
+      <header class="chapeau">
+        <h1>Les chapitres</h1>
+        <p class="sous">Du texte, pas des notes. Une proposition à réécrire, jamais une version.</p>
+        <div class="outils" id="x-choix"></div>
+      </header>
+      <div class="corps"><div class="lecture" id="x-corps"></div></div>
+    </section>
+
+    <!-- ================= LE PLAN ================= -->
     <section class="vue" id="v-chapitrage">
       <header class="chapeau">
-        <h1>Le chapitrage</h1>
+        <h1>Le plan</h1>
         <p class="sous">Glisse les scènes dans des chapitres. Tout est gardé dans ce navigateur, et se récupère en texte.</p>
         <div class="outils">
           <button class="puce" id="ch-export">Exporter le plan</button>
@@ -1850,6 +1917,18 @@ const NOTES = [
   v:`On peut valider cette idée pour l'instant, on y reviendra.`,
   q:`**Et si la berceuse qui porte le mourant était elle ?** À la fin, quand elle sort menottée, le lecteur se souvient : il l'a vue porter un mourant avec une tendresse parfaite, et il a trouvé ça beau. **La scène qui fait aimer les berceuses est celle qui prépare la révélation.** Réserve qui commande tout : elle doit rester anonyme et non détaillée — un geste, une silhouette, pas un portrait.` },
 
+{ d:`13 août`, s:`Des onglets dans la frise`, e:`acquis`, t:[`outil`],
+  v:`Tu peux pas me créer des onglets dans le doc de la frise stp ? L'un pour les interdits, l'un pour le fonctionnement de la ruche, un pour les phrases à garder, et un pour avoir un graphe pour comprendre comment stagne l'âge selon les âges des arrivants ?`,
+  q:`À l'origine du document à écrans. Les quatre onglets demandés sont devenus **les interdits, les règles du monde, les phrases, et le graphe du décompte** — tous dans l'écran « Le monde », sauf les phrases qui sont passées avec les questions ouvertes.` },
+
+{ d:`15 août`, s:`Le synopsis`, e:`ouvert`, t:[`écriture`,`méthode`],
+  v:`T'as pas mieux comme synopsis ? Le genre fait pas très quatrième de couverture. C'était juste par curiosité, on n'en est pas du tout à l'étape de la synopsis.`,
+  q:`**Écarté pour l'instant, et à raison.** Un synopsis écrit trop tôt fige des choses qui bougent encore — le calendrier a changé deux fois depuis, et le coupable une fois. *La note reste ici pour se souvenir que le premier jet ne tenait pas la quatrième de couverture.*` },
+
+{ d:`16 août`, s:`L'enquête, en trois phrases`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`Résume-moi hyper concisément l'histoire de l'enquête, je lis à Kevin.`,
+  q:`**Un veilleur accueille un arrivant de dix ans qui dit des choses impossibles, et qui disparaît un mois plus tard.** Il enquête avec un ami policier ; deux pistes s'éteignent, on lui dit de lâcher, son ami s'en va, il continue seul et retrouve le garçon vivant dans la cave d'une berceuse. *Et le lecteur découvre au même moment qu'il lisait deux enquêtes : celle-ci, et celle que le même homme menait dans sa vie d'avant — deux filles qu'il a retrouvées une heure trop tard, et qui sont mortes.*` },
+
 /* ---------------- MÉTHODE DE TRAVAIL ---------------- */
 { d:`13 août`, s:`Le workspace`, e:`acquis`, t:[`méthode`],
   v:`Règle de base, enregistre ton travail dans le dossier workspace. Je te laisse bien ranger en créant des sous-dossiers.`,
@@ -2555,6 +2634,79 @@ const QUESTIONS = [
 ];
 
 /* ==========================================================================
+   LES CHAPITRES ÉCRITS
+   Des propositions. Jamais des versions.
+   ========================================================================== */
+
+const TEXTES = [{
+  id: `prologue`,
+  rang: `Prologue`,
+  titre: `Travée neuf`,
+  scene: `ouv`,
+  sous: `La cérémonie d'éclaircie d'Eliott · point de vue d'Andrew · environ 1 100 mots`,
+  p: [
+[`p`,`La capsule avait commencé à s'éclaircir six jours plus tôt. Andrew avait noté l'heure, la position, la texture, et depuis il passait deux fois par jour, avant la relève et après. Chaque fois il inscrivait dans la colonne du milieu le mot que tout le monde inscrivait : <em>avancée</em>. Le métier n'en demandait pas davantage.`],
+[`p`,`Ce matin-là, la paroi ne retenait plus la lumière. Elle la laissait passer.`],
+[`p`,`Il posa la paume dessus. Tiède. Elles étaient tièdes du premier jour au dernier, et il n'y avait jamais rien à sentir dessous : pas de battement, pas de pression, rien qui monte. Il compta jusqu'à dix par habitude, puis redescendit l'allée et fit prévenir.`],
+[`pause`,`· · ·`],
+[`p`,`À neuf heures vingt il y avait une soixantaine de personnes derrière la corde. C'était peu. Andrew en avait vu trois cents un matin de printemps et onze un jour de pluie, et il n'avait jamais compris ce qui décidait les gens à venir.`],
+[`p`,`Il déplia la couverture grise sur le brancard, vérifia qu'elle était sèche, et se plaça à un mètre de la travée. Derrière lui quelqu'un chuchotait des explications à quelqu'un d'autre. Il ne les écoutait plus depuis longtemps ; les gens racontaient n'importe quoi et personne ne les corrigeait.`],
+[`p`,`La paroi céda par le haut. Ça ne fit pas de bruit. C'était l'affaire de deux ou trois secondes, une matière qui perdait sa tenue et s'affaissait le long de ce qu'elle contenait, et à chaque fois Andrew pensait à un sac de papier qu'on aurait laissé sous la pluie.`],
+[`p`,`Un corps assis. Les genoux ramenés, les mains à plat sur le sol, la nuque droite. Il ne toussait pas. Certains toussaient.`],
+[`tiret`,`— Dix, dit une voix derrière la corde. Dix, onze.`],
+[`tiret`,`— Douze.`],
+[`tiret`,`— Non. Dix.`],
+[`p`,`Ils donnaient toujours un chiffre. Ils se trompaient de trois ou quatre ans dans un sens ou dans l'autre, ils en discutaient à voix basse pendant que l'arrivant clignait des yeux, et ils repartaient sans jamais savoir. Andrew, lui, saurait dans une minute.`],
+[`p`,`Il s'approcha avec la couverture. C'est à ce moment-là que l'arrivant parla.`],
+[`tiret`,`— Il faut aller le chercher.`],
+[`p`,`Il l'avait dit vite, sans chercher ses mots, la voix nette. Pas la voix pâteuse des premières minutes. Il regardait Andrew comme on regarde quelqu'un dont on attend qu'il se lève et qu'il fasse quelque chose.`],
+[`tiret`,`— Il est encore dedans.`],
+[`p`,`Andrew posa la couverture sur les épaules. Il tenait la bordure, il la rabattait, il faisait ce qu'il faisait toujours.`],
+[`tiret`,`— Tu as froid ?`],
+[`tiret`,`— Il est encore dedans, répéta l'arrivant.`],
+[`p`,`Personne ne demanda dedans quoi. Derrière la corde, les conversations avaient repris ; un ancien de la travée sept dit à mi-voix qu'ils disaient tous quelque chose, la première fois, et qu'il valait mieux ne pas répondre. C'était vrai. Andrew en avait accueilli qui parlaient d'un couloir, d'une porte, d'une odeur. Une fois, une de quatre-vingts ans lui avait demandé si le repas était prêt, et elle avait insisté pendant une heure.`],
+[`p`,`Il sortit l'appareil de la sacoche, écarta la couverture, appliqua l'embout sous la nuque. Trois secondes. Il lut le nombre, le nota, remit l'appareil dans sa housse.`],
+[`p`,`Dix.`],
+[`p`,`Il s'accroupit pour être à la même hauteur.`],
+[`tiret`,`— Tu vas me donner un mot. Un seul. C'est celui par lequel on t'appellera, toujours, partout. Ne cherche pas.`],
+[`tiret`,`— Eliott.`],
+[`p`,`Il l'écrivit. Il inscrivit le numéro dans la case suivante sans le regarder — il faisait ce geste-là depuis dix ans — puis referma le registre sur son pouce et se releva.`],
+[`p`,`L'arrivant tremblait, maintenant. C'était normal, ça venait toujours après.`],
+[`pause`,`· · ·`],
+[`p`,`À dix heures quarante, la douze s'ouvrit à son tour.`],
+[`p`,`Elle avait éclairci en même temps, à trois travées d'écart, et Andrew avait dit la veille au bureau qu'elles partiraient ensemble. On avait fait déplacer la corde. Il y eut moins de monde, et personne ne donna de chiffre parce que celui-là ne posait pas de question : un corps de quarante ans, large d'épaules, qui se mit debout tout seul avant qu'on lui dise de le faire, et qui regarda ses propres mains pendant un temps déraisonnable.`],
+[`p`,`Andrew fit la même chose dans le même ordre. La couverture, l'appareil, trois secondes, le nombre. Le mot vint sans hésiter, comme il venait presque toujours au-dessus d'un certain âge. Il l'écrivit, il inscrivit le numéro, il referma.`],
+[`p`,`Puis il les fit conduire sous l'auvent, où on les faisait toujours attendre le temps que l'administration décide de quoi.`],
+[`pause`,`· · ·`],
+[`p`,`Ils étaient assis sur le même banc, à un mètre l'un de l'autre, chacun dans sa couverture. Andrew remplissait la feuille d'affectation contre le mur, debout, en équilibrant le registre sur son avant-bras.`],
+[`p`,`Il releva la tête parce qu'il avait entendu s'arrêter le bruit des pieds sur le gravier.`],
+[`p`,`Celui de dix ans avait tourné la tête et regardait l'autre. Pas le visage : un peu en dessous, la hauteur du col. Il ne bougeait pas du tout. L'autre ne s'en apercevait pas, occupé à passer et repasser le pouce sur la couture de la couverture.`],
+[`p`,`Quelque chose se ferma sur le visage de celui de dix ans. Ça dura le temps que ça dura. Puis il ramena les yeux devant lui et demanda s'il y avait à manger.`],
+[`p`,`Andrew dit que oui, tout à l'heure.`],
+[`p`,`Les deux employés arrivèrent à midi moins vingt, l'une avec une chemise verte, l'autre avec une chemise verte aussi, et ils repartirent chacun par une allée différente. Le grand mit du temps à se lever. Andrew les regarda jusqu'au bout de la travée, par acquit de conscience, parce qu'il y en avait toujours un pour tomber le premier jour.`],
+[`p`,`Aucun des deux ne tomba.`],
+[`p`,`Il referma le registre à midi dix, le rangea dans l'armoire du fond, et alla déjeuner.`,`fin`]
+  ],
+  tenu: [
+`<strong>Rien n'est expliqué.</strong> Ni la ruche, ni les capsules, ni ce qu'est une éclaircie. Tout se fait devant le lecteur et rien ne se commente : c'est l'interdit n° 1.`,
+`<strong>Aucun chiffre n'est annoncé à la cérémonie.</strong> La foule estime à voix haute et se trompe ; le nombre exact vient après, à l'instrument, et il ne va que dans le registre. C'est la première fois du livre où l'on voit la différence entre les deux régimes — et c'est ce qui rendra lisible la ligne de la fin.`,
+`<strong>Le nom se produit tout seul.</strong> Une phrase courte du veilleur, une réponse instinctive. Pas de délibération, pas de liste.`,
+`<strong>Le numéro passe une première fois</strong>, écrit sans être regardé. Il faudra le refaire passer deux ou trois fois avant la scène du registre final.`,
+`<strong>Aucun mot de la catégorie interdite.</strong> Pas d'« enfant », pas de « vieillard », et pas non plus de « garçon » ou de « gamin » — la question n'étant pas tranchée, le texte s'en passe, pour ne rien préempter. On dit « l'arrivant », « celui de dix ans », « il ». <em>Ce n'est pas un exercice de style : c'est ce qui rend la fin possible.</em>`,
+`<strong>Le regard ne pèse pas.</strong> Six lignes, aucune phrase de narrateur, et il se referme sur une question de repas. Le lecteur passera dessus. Il y reviendra dans six cents pages.`,
+`<strong>Ce qu'il dit n'est pas vérifiable.</strong> « Il est encore dedans » n'ouvre aucune piste, ne se confirme ni ne se réfute, et l'hypothèse « il fabule » sort de la scène intacte — le veilleur de la travée sept la formule à voix haute, ce qui la rend d'autant plus solide.`,
+`<strong>Personne ne rapproche les deux arrivées.</strong> Elles sont dans la même page, à quarante lignes d'écart, et rien ne les relie. C'est le régime de loyauté du livre : tout était écrit en clair, et ça ne ressemblait à rien.`
+  ],
+  ouvre: [
+`<strong>La longueur du regard.</strong> Six lignes ici. Trop peu et le lecteur ne s'en souviendra pas à l'épilogue ; trop long et on l'annonce. C'est le seul réglage du texte qui ne peut se faire qu'à la relecture de l'ensemble.`,
+`<strong>Le nom d'éclaircie du second arrivant</strong> n'est pas écrit — il manque encore au dossier. Sa place est là, à la ligne « le mot vint sans hésiter ».`,
+`<strong>« Il est encore dedans. »</strong> C'est une proposition, pas une décision. La réplique doit dire la terreur sans rien désigner ; si elle t'engage trop, elle se remplace par n'importe quelle phrase d'urgence sans objet.`,
+`<strong>Le temps du récit.</strong> Passé simple ici. Le choix vaut pour tout le livre — les deux voix doivent être indiscernables, donc le tirage se fait une fois et ne se rediscute plus.`
+  ],
+  note: `Écrit dans le registre demandé : phrases courtes, précision de procédure, le corps décrit sans affect, les chiffres et les heures posés comme des faits, et la chute plate. <strong>C'est une matière première.</strong> Elle est là pour être réécrite, contredite, ou jetée — ce qu'elle prouve d'abord, c'est que les contraintes du dossier tiennent debout à l'usage.`
+}];
+
+/* ==========================================================================
    L'APPLICATION
    ========================================================================== */
 const $  = (s, r) => (r || document).querySelector(s);
@@ -2570,13 +2722,26 @@ function poserTheme(t){
   if (t) document.documentElement.setAttribute(`data-theme`, t);
   else document.documentElement.removeAttribute(`data-theme`);
 }
-poserTheme(localStorage.getItem(clefTheme));
-$(`#btn-theme`).addEventListener(`click`, () => {
-  const actuel = document.documentElement.getAttribute(`data-theme`)
+const SOLEIL = `<circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/>`;
+const LUNE = `<path d="M20 14.2A8.4 8.4 0 0 1 9.8 4a8.4 8.4 0 1 0 10.2 10.2z"/>`;
+function themeActuel(){
+  return document.documentElement.getAttribute(`data-theme`)
     || (matchMedia(`(prefers-color-scheme: dark)`).matches ? `dark` : `light`);
-  const t = actuel === `dark` ? `light` : `dark`;
+}
+function marquerTheme(){
+  const vaVers = themeActuel() === `dark` ? `light` : `dark`;
+  const b = $(`#btn-theme`);
+  $(`svg`, b).innerHTML = vaVers === `dark` ? LUNE : SOLEIL;
+  $(`span`, b).textContent = vaVers === `dark` ? `Sombre` : `Clair`;
+  b.setAttribute(`aria-label`, vaVers === `dark` ? `Passer au thème sombre` : `Passer au thème clair`);
+  b.title = vaVers === `dark` ? `Passer au thème sombre` : `Passer au thème clair`;
+}
+poserTheme(localStorage.getItem(clefTheme));
+marquerTheme();
+$(`#btn-theme`).addEventListener(`click`, () => {
+  const t = themeActuel() === `dark` ? `light` : `dark`;
   poserTheme(t); localStorage.setItem(clefTheme, t);
-  dessinerCourbes();
+  marquerTheme(); dessinerCourbes();
 });
 
 /* ---------- navigation ---------- */
@@ -2822,6 +2987,18 @@ document.addEventListener(`keydown`, e => {
 });
 
 construirePlateau();
+
+/* la molette fait défiler vers la droite */
+$(`#plateau`).addEventListener(`wheel`, e => {
+  const p = $(`#plateau`);
+  if (e.ctrlKey || p.scrollWidth <= p.clientWidth + 2) return;
+  const k = e.deltaMode === 1 ? 26 : e.deltaMode === 2 ? p.clientWidth : 1;
+  const d = (Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX) * k;
+  if (!d) return;
+  p.scrollLeft += d;
+  e.preventDefault();
+}, { passive: false });
+
 let _redim;
 addEventListener(`resize`, () => {
   clearTimeout(_redim);
@@ -3207,6 +3384,70 @@ function rendreQ(){
       </article>`).join(``) + `</div>`;
 }
 rendreQ();
+
+/* ==========================================================================
+   VUE — LES CHAPITRES ÉCRITS
+   ========================================================================== */
+let xSel = 0;
+(function choixTextes(){
+  const box = $(`#x-choix`);
+  TEXTES.forEach((t, i) => {
+    const b = document.createElement(`button`);
+    b.className = `puce` + (i === 0 ? ` on` : ``);
+    b.textContent = t.rang;
+    b.addEventListener(`click`, () => {
+      xSel = i; $$(`#x-choix .puce`).forEach(x => x.classList.remove(`on`)); b.classList.add(`on`);
+      rendreTextes();
+    });
+    box.appendChild(b);
+  });
+})();
+
+function texteBrut(t){
+  return t.rang.toUpperCase() + `\n` + t.titre + `\n\n` +
+    t.p.map(([k, s]) => s.replace(/<[^>]+>/g, ``)).join(`\n\n`) + `\n`;
+}
+function rendreTextes(){
+  const t = TEXTES[xSel]; if (!t) return;
+  const sc = parIdScene[t.scene];
+  $(`#x-corps`).innerHTML =
+    `<article class="page">
+      <span class="rang">${esc(t.rang)}</span>
+      <h2>${esc(t.titre)}</h2>
+      <p class="dedic">${esc(t.sous)}</p>
+      <div class="txt">` +
+      t.p.map(([k, s, f]) => `<p class="${k === `p` ? (f || ``) : k}">${s}</p>`).join(``) +
+      `</div></article>
+     <aside class="appareil">
+      <div class="actes">
+        <button id="x-copier">copier le texte</button>
+        <button id="x-tel">télécharger .txt</button>
+        ${sc ? `<button id="x-scene">voir la scène</button>` : ``}
+      </div>
+      <div class="bl"><h4>Ce que c'est</h4><p>${t.note}</p></div>
+      <div class="bl tenu"><h4>Ce que le texte tient</h4><ul>${t.tenu.map(x => `<li>${x}</li>`).join(``)}</ul></div>
+      <div class="bl ouvre"><h4>Ce qu'il laisse ouvert</h4><ul>${t.ouvre.map(x => `<li>${x}</li>`).join(``)}</ul></div>
+     </aside>`;
+
+  $(`#x-copier`).addEventListener(`click`, () => {
+    navigator.clipboard.writeText(texteBrut(t))
+      .then(() => souffler(`Texte copié. Colle-le où tu veux.`))
+      .catch(() => souffler(`Le navigateur a refusé le presse-papier — passe par le téléchargement.`));
+  });
+  $(`#x-tel`).addEventListener(`click`, () => {
+    const b = new Blob([texteBrut(t)], { type: `text/plain;charset=utf-8` });
+    const a = document.createElement(`a`);
+    a.href = URL.createObjectURL(b); a.download = `eclaircie-` + t.id + `.txt`; a.click();
+    URL.revokeObjectURL(a.href);
+  });
+  if (sc) $(`#x-scene`).addEventListener(`click`, () => {
+    $(`.rail-btn[data-vue="parcours"]`).click();
+    ouvrirTiroir(t.scene);
+    const n = $(`.noeud[data-id="${t.scene}"]`);
+    if (n) $(`#plateau`).scrollTo({ left: Math.max(0, n.offsetLeft - 260), behavior: `smooth` });
+  });
+}
+rendreTextes();
 
 /* ---------- premier souffle ---------- */
 setTimeout(() => souffler(`Clique une scène pour ouvrir son dossier d'écriture.`), 900);
