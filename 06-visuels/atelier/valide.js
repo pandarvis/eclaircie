@@ -8,7 +8,7 @@ const coupe = src.indexOf('const $  = (s, r)');
 src = src.slice(0, coupe > 0 ? coupe : src.length);
 src += `
 ;globalThis.__d = { SCENES, LIENS, NOTES, QUESTIONS, TEXTES, VOIES, ACTES,
-                    LEXIQUE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES };`;
+                    LEXIQUE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
 
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(src, ctx);
@@ -46,10 +46,11 @@ d.TEXTES.forEach(t => {
 
 const mots = d.TEXTES.map(t => t.p.map(x => x[1].replace(/<[^>]+>/g, '')).join(' ').split(/\s+/).length);
 
-console.log('scènes      ', d.SCENES.length,
-            '(andrew ' + d.SCENES.filter(s => s.row === 'andrew').length,
-            '· tronc ' + d.SCENES.filter(s => s.row === 'commun').length,
-            '· joël ' + d.SCENES.filter(s => s.row === 'joel').length + ')');
+console.log('scènes      ', d.SCENES.filter(s => !s.gris).length,
+            '(andrew ' + d.SCENES.filter(s => s.row === 'andrew' && !s.gris).length,
+            '· joël ' + d.SCENES.filter(s => s.row === 'joel' && !s.gris).length + ')',
+            '+ ' + d.SCENES.filter(s => s.gris).length + ' non écrites');
+console.log('étapes      ', d.ETAPES.length);
 console.log('liens       ', d.LIENS.length);
 console.log('notes       ', d.NOTES.length);
 console.log('questions   ', d.QUESTIONS.length);

@@ -245,6 +245,32 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
   color:var(--provisoire);
 }
 
+/* étape du tronc : un encart léger, pas une scène */
+.etape{
+  position:absolute;z-index:9;width:208px;height:44px;
+  border:1px dashed var(--trait-fort);border-radius:3px;
+  background:color-mix(in srgb,var(--fond-3) 70%,transparent);
+  display:flex;flex-direction:column;justify-content:center;padding:0 11px;
+  pointer-events:none;
+}
+.etape b{
+  font-family:var(--sans);font-size:11px;line-height:1.2;color:var(--texte-2);font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.etape i{
+  font-style:normal;font-family:var(--mono);font-size:9px;letter-spacing:.1em;
+  color:var(--texte-4);margin-bottom:2px;
+}
+
+/* scène non écrite, seulement pour situer */
+.noeud.gris{
+  background:transparent;border-style:dotted;opacity:.62;
+}
+.noeud.gris h3{color:var(--texte-3);font-weight:400}
+.noeud.gris p{color:var(--texte-4)}
+.noeud.gris .bandeau{opacity:.4}
+.noeud.gris:hover{opacity:1}
+
 /* nœud à trouver */
 .noeud.trou{
   background:transparent;border-style:dashed;border-color:color-mix(in srgb,var(--alerte) 40%,var(--trait));
@@ -697,9 +723,10 @@ kbd{
       </div>
       <footer class="legende">
         <span><i class="ech a"></i> Andrew — ce monde-ci, le présent</span>
-        <span><i class="ech"></i> Le tronc commun — attribuable aux deux</span>
+        <span><i class="ech"></i> Les étapes — le beat, sans son monde</span>
         <span><i class="ech j"></i> Joël — la vie d'avant, que le lecteur ne voit pas</span>
         <span><i class="ech t"></i> reste à trouver</span>
+        <span><i class="ech" style="border-top:2px dotted var(--texte-4);background:none;height:0"></i> non écrite, pour situer</span>
         <span class="aide"><kbd>←</kbd> <kbd>→</kbd> pour circuler · <kbd>Échap</kbd> pour fermer</span>
       </footer>
 
@@ -815,7 +842,7 @@ kbd{
 
 const VOIES = {
   andrew: { nom: `Andrew`,  desc: `Ce monde-ci. Le présent.` },
-  commun: { nom: `Le tronc`, desc: `Écrit une fois. Attribué ensuite.` },
+  commun: { nom: `Les étapes`, desc: `Le beat, sans son monde. Ni écrit, ni attribué.` },
   joel:   { nom: `Joël`,    desc: `La vie d'avant — et le lecteur ne le sait pas.` }
 };
 
@@ -829,10 +856,80 @@ const ACTES = [
   { t: `L'enlisement`,         c0: 17, c1: 23 },
   { t: `La remontée`,          c0: 24, c1: 27 },
   { t: `Le seuil franchi deux fois`, c0: 28, c1: 33 },
-  { t: `Épilogue`,             c0: 34, c1: 37 }
+  { t: `Épilogue`,             c0: 34, c1: 37 },
+  { t: `Sans place encore`,    c0: 39, c1: 40 }
+];
+
+/* le tronc : le beat generique, ni ecrit ni attribue.
+   Il ne commence qu'au moment ou le recit peut se dedoubler. */
+const ETAPES = [
+  { c0: 5,  c1: 5,  t: `Première visite au commissariat` },
+  { c0: 6,  c1: 6,  t: `Retour chez le témoin` },
+  { c0: 7,  c1: 7,  t: `Sur le lieu de travail` },
+  { c0: 8,  c1: 8,  t: `Ceux qui connaissent le suspect` },
+  { c0: 10, c1: 10, t: `Les recherches, en parallèle` },
+  { c0: 14, c1: 14, t: `Chez le suspect` },
+  { c0: 16, c1: 16, t: `L'alibi se vérifie` },
+  { c0: 18, c1: 18, t: `L'enquête n'a plus rien` },
+  { c0: 20, c1: 22, t: `« Lâche l'affaire »` },
+  { c0: 23, c1: 23, t: `L'appui se retire` },
+  { c0: 24, c1: 26, t: `Seul — puis la solution` },
+  { c0: 27, c1: 27, t: `On entre` },
+  { c0: 28, c1: 29, t: `Le lieu de séquestration` },
+  { c0: 30, c1: 30, t: `La poursuite` }
 ];
 
 const SCENES = [
+{
+  id: `g-poste`, no: `Non écrite`, col: 5, row: `andrew`, acte: `La disparition`, gris: true,
+  titre: `Il rencontre Isaac`,
+  statut: `ouvert`,
+  resume: `Le même beat, de ce côté-ci : Andrew retrouve Isaac et discute de l'affaire avec lui. **Le livre ne l'écrit pas** — la carte est là pour qu'on sache où l'on en est.`,
+  produit: `*Ce qui compte, c'est que ça ait lieu et que le lecteur le suppose sans qu'on le lui montre. La scène écrite, à cette étape, est celle de Joël.*`,
+  monde: `—`, qui: [`andrew`,`isaac`],
+  gardes: [`Si elle finit par s'écrire, elle ne doit rien apprendre que le chapitre de Joël n'ait déjà donné — sinon le lecteur a deux scènes et non une.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-suspect`, no: `Non écrite`, col: 14, row: `andrew`, acte: `La fausse piste s'éteint`, gris: true,
+  titre: `Chez le marginal`,
+  statut: `ouvert`,
+  resume: `Le même beat, de ce côté-ci : ils vont voir l'homme de vingt-deux ans, celui des scènes 6, 7 et 9. **Le livre ne l'écrit pas.**`,
+  produit: `*C'est ce qui rend la couture possible : le lecteur a entendu parler du marginal pendant trois scènes, il croit le rencontrer, et il rencontre un homme de l'autre monde.*`,
+  monde: `—`, qui: [`andrew`,`isaac`,`marginal`],
+  gardes: [`Elle ne doit jamais s'écrire. Deux visites chez deux suspects, et le lecteur a deux affaires.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-alibi`, no: `Non écrite`, col: 16, row: `andrew`, acte: `La fausse piste s'éteint`, gris: true,
+  titre: `L'alibi du marginal tient`,
+  statut: `ouvert`,
+  resume: `Le même beat, de ce côté-ci. **Le livre ne l'écrit pas.**`,
+  produit: `*Les deux pistes meurent en même temps, et le lecteur n'en enterre qu'une.*`,
+  monde: `—`, qui: [`andrew`,`isaac`],
+  gardes: [`Ne jamais l'écrire, pour la même raison.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-temoin`, no: `Non écrite`, col: 6, row: `joel`, acte: `La disparition`, gris: true,
+  titre: `Retour chez un témoin`,
+  statut: `ouvert`,
+  resume: `Le même beat, de l'autre côté : Joël retourne voir quelqu'un qu'il a déjà interrogé. **Beat signalé comme doublable par le dossier**, non écrit.`,
+  produit: `*Deux fois la même pièce, deux fois la même question, et une seule fois où il en tire quelque chose.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Si elle s'écrit, les deux occurrences ne se citent jamais l'une l'autre.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §5`
+},
+{
+  id: `g-seul`, no: `Non écrite`, col: 23, row: `joel`, acte: `L'enlisement`, gris: true,
+  titre: `Il reste seul`,
+  statut: `ouvert`,
+  resume: `Le même beat, de l'autre côté. **Beat signalé comme doublable par le dossier** — c'est le moins situé du parcours, donc le plus facile à doubler.`,
+  produit: `*Deux fois un homme qui refait un trajet sans personne.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Si elle s'écrit, rien dans la seconde ne doit ressembler à un rappel.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §5`
+},
 
 /* ---------- OUVERTURE ---------- */
 {
@@ -856,7 +953,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md — « Avant le parcours »`
 },
 {
-  id: `capsule`, no: `À placer`, col: 1, row: `andrew`, acte: `Avant la disparition`,
+  id: `capsule`, no: `À placer`, col: 39, row: `andrew`, acte: `Sans place`,
   titre: `La capsule qui n'éclaircit pas`,
   statut: `ouvert`, flottant: true,
   resume: `Combinaisons, raclette, seaux, odeur. Andrew n'y touche pas : ce n'est plus son tour. Il regarde un plus récent se faire bizuter, et il ne trouve rien à en dire.`,
@@ -872,7 +969,7 @@ const SCENES = [
   src: `L-ECLAIRCIE-dossier-complet.md §8 — 02-univers/la-ruche.md`
 },
 {
-  id: `paire-tot`, no: `À placer`, col: 4, row: `andrew`, acte: `La disparition`,
+  id: `paire-tot`, no: `À placer`, col: 40, row: `andrew`, acte: `Sans place`,
   titre: `La paire, en passant`,
   statut: `trou`, flottant: true,
   resume: `Chrissy et Tania apparaissent une fois, tôt, comme du décor du monde : deux visages et deux noms mémorables et sans importance.`,
@@ -893,7 +990,7 @@ const SCENES = [
 
 /* ---------- LES VISITES ---------- */
 {
-  id: `s1`, no: `Scène 1`, col: 1, row: `commun`, acte: `Avant la disparition`,
+  id: `s1`, no: `Scène 1`, col: 1, row: `andrew`, acte: `Avant la disparition`,
   titre: `Première visite chez June`,
   statut: `acquis`,
   resume: `Andrew revient de lui-même, sans mandat et sans que personne le lui ait demandé. Il échange avec Eliott. Le garçon s'acclimate comme il peut, mais il semble très mal à l'aise — ce n'est pas de la timidité, c'est un corps qui ne trouve pas sa place dans une pièce.`,
@@ -909,7 +1006,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/eliott.md §4 bis`
 },
 {
-  id: `s2`, no: `Scène 2`, col: 2, row: `commun`, acte: `Avant la disparition`,
+  id: `s2`, no: `Scène 2`, col: 2, row: `andrew`, acte: `Avant la disparition`,
   titre: `Deuxième visite`,
   statut: `acquis`, pivot: true,
   resume: `Eliott est retrouvé à bouder dans un coin. La raison est nette et elle est le cœur de la scène : personne ne le croit, et ça le blesse énormément. Grosse discussion, puis ils sortent faire un tour — c'est dehors, en marchant, que le garçon dit ce qu'il dit.`,
@@ -950,7 +1047,7 @@ const SCENES = [
 
 /* ---------- LA DISPARITION ---------- */
 {
-  id: `s3`, no: `Scène 3`, col: 4, row: `commun`, acte: `La disparition`,
+  id: `s3`, no: `Scène 3`, col: 4, row: `andrew`, acte: `La disparition`,
   titre: `Troisième visite — la place est vide`,
   statut: `acquis`, pivot: true,
   resume: `Andrew vient croyant trouver le garçon. June est déjà allée voir la police, et elle lui apprend qu'il n'est pas rentré de son travail.`,
@@ -961,27 +1058,36 @@ const SCENES = [
     `June ne vient trouver personne et ne signale rien à Andrew. Elle n'est pas un relais d'information : elle est un lieu où la nouvelle attend.`,
     `Si une seule de ses répliques a l'air d'appeler Andrew à faire quelque chose, la séquence bascule.`
   ],
+  clef: `🔴 **Et c'est ici que le nom d'Isaac entre dans le livre — par la bouche de June.** Elle dit avoir parlé à un certain Isaac ; Andrew répond que c'est un bon ami, et qu'il va aller lui parler. *Le lecteur attend donc de le rencontrer au chapitre suivant. Il rencontrera quelqu'un d'autre.*`,
   ouvert: [`Un mois sépare l'arrivée d'Eliott de sa disparition — et la fiche d'Eliott pose des visites qui tiennent « sur des jours, pas sur des mois ». L'un des deux documents est à corriger.`],
   src: `04-plan/le-parcours-de-l-enquete.md §2`
 },
 {
-  id: `s4`, no: `Scène 4`, col: 5, row: `commun`, acte: `La disparition`,
-  titre: `Au poste`,
-  statut: `acquis`,
-  resume: `Andrew discute avec Isaac et apprend ce que June a rapporté — mais rien que des faits : il n'est pas allé au travail, il n'en est pas revenu, il portait tels vêtements, les horaires, le déroulé de la journée.`,
-  produit: `La scène vaut par ce qu'elle ne contient pas. Isaac ne parle à aucun moment du comportement du garçon, et ce n'est ni une rétention ni une faute : un procès-verbal enregistre des trajets, pas des états. C'est donc Andrew qui insiste pour aller réinterroger June.`,
-  monde: `Un poste de police, une procédure, un comptoir. Rigoureusement identique des deux côtés — c'est l'infrastructure du dispositif.`,
-  qui: [`andrew`,`isaac`],
+  id: `s4`, no: `Scène 4`, col: 5, row: `joel`, acte: `La disparition`,
+  titre: `Première visite au commissariat`,
+  statut: `acquis`, pivot: true,
+  resume: `Il pousse la porte d'un poste de police et parle à quelqu'un de l'affaire. On lui donne des faits, et rien d'autre : des trajets, des horaires, un déroulé de journée. **Jamais un état d'esprit.**`,
+  produit: `🔴 **Décision de l'autrice, 16 août 2026 : c'est là que le récit se dédouble, et la scène est de Joël.** *Le lecteur croit assister à la rencontre d'Andrew et d'Isaac, dont on vient de lui parler.* **Il assiste en réalité à une conversation entre Joël et son collègue, et il ne le saura qu'à la dernière page.**`,
+  clef: `**Et c'est ici que le lecteur se fabrique Isaac.** La silhouette, la voix, la façon de tenir un bureau, l'humeur : tout ce qu'il croira savoir d'Isaac vient de cet homme-là. *Le suspect était déjà une couture ; l'allié en est une aussi.*`,
+  lecture: `Il vient d'entendre June parler d'un certain Isaac et Andrew répondre que c'est un bon ami. **Il ouvre le chapitre suivant en s'attendant à le rencontrer, et il rencontre quelqu'un d'autre.**`,
+  monde: `Rien, et c'est la condition. Un poste de police se ressemble partout — c'est l'infrastructure même du dispositif.`,
+  qui: [`joel`,`liam`],
   gardes: [
-    `Isaac ne sert jamais de porte-parole à une théorie. Pas de réplique qui formule une hypothèse à la place du lecteur, pas de doute utile, pas de « et si ».`,
-    `On ne commente jamais dans le texte le fait qu'Andrew se sente chez lui au poste. On écrit qu'il entre, qu'il salue, qu'il connaît le couloir, et c'est tout.`,
-    `La langue pousse d'elle-même le policier vers le clinique : un disparu de dix ans, un délai, un état de corps. Pas d'« enfant ».`
+    `**Aucun nom, ni celui de l'homme, ni celui de Joël.** Le lecteur apportera « Isaac » tout seul, et personne dans le texte ne le prononcera.`,
+    `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
+    `Les victimes ne sont ni comptées, ni sexuées, ni décrites.`,
+    `**Rien de ce qui décrit l'homme ne doit contredire Isaac plus tard.** Ni l'âge, ni l'apparence, ni un détail de bureau. *La contrainte est lourde, et elle vaut pour tous les chapitres où il reparaîtra.*`
   ],
-  ouvert: [`Est-ce le même homme qui, plus tard, lui dira de lâcher l'affaire ?`],
-  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/isaac.md`
+  pourquoi: [
+    `**Le procès-verbal ne retient pas les états.** C'est ce qui manque au dossier, et c'est ce qui pousse à retourner chez le témoin — le beat suivant tient par ce vide, dans les deux mondes.`,
+    `**Et le cri final change de nature.** Si le lecteur a passé le livre à croire que ce collègue est Isaac, alors c'est Isaac qu'il entend crier *« Joël, attends ! »*. *Le dernier chapitre s'écroule sur lui d'un cran de plus.*`
+  ],
+  ouvert: [`⚠️ **La fiche de Liam est périmée.** Elle le donne pour « pas un personnage, une voix derrière lui ». **Il porte désormais la présentation de l'allié**, donc il existe, il a une manière, une façon de parler. *À réécrire — c'est la conséquence la plus lourde de cette décision.*`,
+           `Combien de fois il reparaît côté Joël avant la poursuite.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — décision du 16 août 2026`
 },
 {
-  id: `s5`, no: `Scène 5`, col: 6, row: `commun`, acte: `La disparition`,
+  id: `s5`, no: `Scène 5`, col: 6, row: `andrew`, acte: `La disparition`,
   titre: `Retour chez June, avec Isaac`,
   statut: `acquis`,
   resume: `Elle raconte comment ça se passe et l'état d'esprit du garçon : il peut être adorable puis devenir d'un coup hyper agressif. Il a une peur bleue de l'eau et a refusé les premiers cours de natation. Et la veille, il est rentré avec les genoux en sang et la lèvre fendue.`,
@@ -999,7 +1105,7 @@ const SCENES = [
 
 /* ---------- LE MONDE COMME TERRAIN ---------- */
 {
-  id: `s6`, no: `Scène 6`, col: 7, row: `commun`, acte: `Le monde comme terrain`,
+  id: `s6`, no: `Scène 6`, col: 7, row: `andrew`, acte: `Le monde comme terrain`,
   titre: `Sur son lieu de travail`,
   statut: `acquis`,
   resume: `Le portage — une tournée, et c'est elle qui fait passer Eliott dans les rues d'ici. Le responsable donne sa version : la veille, Eliott était impliqué dans une bagarre avec un homme de vingt-deux ans. Il l'a congédié sur-le-champ, après plusieurs sommations, quand l'homme est devenu insultant et haineux.`,
@@ -1016,7 +1122,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2`
 },
 {
-  id: `s7`, no: `Scène 7`, col: 8, row: `commun`, acte: `Le monde comme terrain`,
+  id: `s7`, no: `Scène 7`, col: 8, row: `andrew`, acte: `Le monde comme terrain`,
   titre: `Les autres travailleurs`,
   statut: `acquis`,
   resume: `Isaac interroge des amis du marginal absent. C'est là que leur point de vue tombe : l'accès sans mérite, les marches qu'ils ont faites et que d'autres n'ont pas faites, l'argument de la santé qui est vrai et vérifiable.`,
@@ -1056,7 +1162,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2, §3.3`
 },
 {
-  id: `s9`, no: `Scène 9`, col: 10, row: `commun`, acte: `Le registre`,
+  id: `s9`, no: `Scène 9`, col: 10, row: `andrew`, acte: `Le registre`,
   titre: `Au téléphone, en parallèle`,
   statut: `acquis`,
   resume: `Isaac a fait des recherches sur l'homme. Andrew partage ses infos ; Isaac détaille sa vie. Plusieurs altercations, dont certaines ont dérapé. Et il a fait quelques jours « au silence » — la cellule temporaire — après avoir tenté, avec un groupe d'autres marginaux, d'empêcher l'entrée au jardin d'un groupe d'arrivants de six ans.`,
@@ -1324,7 +1430,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4 bis.3 — décision du 16 août 2026`
 },
 {
-  id: `s16`, no: `Scène 16`, col: 23, row: `commun`, acte: `L'enlisement`,
+  id: `s16`, no: `Scène 16`, col: 23, row: `andrew`, acte: `L'enlisement`,
   titre: `Isaac lâche l'affaire`,
   statut: `acquis`, pivot: true,
   resume: `Il laisse Andrew seul. La porte ne claque pas : on lui retire une place, pas un droit. Plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer.`,
@@ -1401,7 +1507,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 ter.4, §4 ter.6`
 },
 {
-  id: `s18`, no: `Scène 18`, col: 27, row: `commun`, acte: `La remontée`,
+  id: `s18`, no: `Scène 18`, col: 27, row: `andrew`, acte: `La remontée`,
   titre: `Il entre seul, sans attendre`,
   statut: `acquis`, pivot: true,
   resume: `Il a appelé, il sait que l'autre arrive, et il n'attend pas. Ce n'est pas du courage et ce n'est pas de l'imprudence : c'est exactement la faute d'avant refaite à l'envers. On lui a dit d'arrêter de creuser une fois, et il a obéi. Cette fois, personne ne l'arrête parce que personne n'est là.`,
@@ -3156,14 +3262,18 @@ $(`#btn-aide`).addEventListener(`click`, () => souffler(
 /* ==========================================================================
    VUE 1 — LE PARCOURS
    ========================================================================== */
-const COLW = 268, NODEW = 208, NODEH = 134, X0 = 172;
-/* les trois voies se répartissent sur la hauteur disponible */
-let ROWY = { andrew: 66, commun: 238, joel: 410 }, HAUT = 610;
+const COLW = 268, NODEW = 208, NODEH = 134, X0 = 172, BANDEH = 44;
+/* deux voies de récit, et entre elles la bande mince des étapes */
+let ROWY = { andrew: 60, commun: 226, joel: 300 }, HAUT = 500;
 function mesurerVoies(){
   const dispo = $(`#plateau`).clientHeight;
-  HAUT = Math.max(568, dispo - 12);
-  const trou = Math.max(26, (HAUT - 3 * NODEH) / 4);
-  ROWY = { andrew: trou, commun: 2 * trou + NODEH, joel: 3 * trou + 2 * NODEH };
+  HAUT = Math.max(470, dispo - 12);
+  const trou = Math.max(20, (HAUT - 2 * NODEH - BANDEH) / 4);
+  ROWY = {
+    andrew: trou,
+    commun: 2 * trou + NODEH,
+    joel:   3 * trou + NODEH + BANDEH
+  };
 }
 
 let filtreVoie = `tous`;
@@ -3173,13 +3283,14 @@ let idSel = null;
 /* filtres de voie */
 (function filtresParcours(){
   const box = $(`#f-parcours`);
-  const opts = [[`tous`,`tout le parcours`],[`andrew`,`Andrew`],[`commun`,`le tronc`],[`joel`,`Joël`],[`trou`,`à trouver`]];
+  const opts = [[`tous`,`tout le parcours`],[`andrew`,`Andrew`],[`joel`,`Joël`],[`gris`,`non écrites`],[`trou`,`à trouver`]];
   opts.forEach(([k, lab]) => {
     const b = document.createElement(`button`);
     b.className = `puce` + (k === `tous` ? ` on` : ``);
     const n = k === `tous` ? SCENES.length
-            : k === `trou` ? SCENES.filter(s => s.statut === `trou` || s.statut === `ouvert`).length
-            : SCENES.filter(s => s.row === k).length;
+            : k === `trou` ? SCENES.filter(s => s.statut === `trou`).length
+            : k === `gris` ? SCENES.filter(s => s.gris).length
+            : SCENES.filter(s => s.row === k && !s.gris).length;
     b.innerHTML = esc(lab) + `<span class="n">${n}</span>`;
     b.addEventListener(`click`, () => {
       filtreVoie = k;
@@ -3199,8 +3310,9 @@ function construirePlateau(){
   $$(`.noeud, .acte, .voie-nom`, carte).forEach(e => e.remove());
 
   scenesVisibles = filtreVoie === `tous` ? SCENES
-    : filtreVoie === `trou` ? SCENES.filter(s => s.statut === `trou` || s.statut === `ouvert`)
-    : SCENES.filter(s => s.row === filtreVoie);
+    : filtreVoie === `trou` ? SCENES.filter(s => s.statut === `trou`)
+    : filtreVoie === `gris` ? SCENES.filter(s => s.gris)
+    : SCENES.filter(s => s.row === filtreVoie && !s.gris);
 
   const colMax = Math.max(...SCENES.map(s => s.col));
   const larg = colX(colMax) + NODEW + 90;
@@ -3214,9 +3326,10 @@ function construirePlateau(){
   let f = ``;
   for (let x = X0 - 40; x < larg; x += 67)
     f += `<line x1="${x}" y1="0" x2="${x}" y2="${HAUT}" stroke="var(--trait)" stroke-width=".5" opacity=".35"/>`;
-  Object.entries(ROWY).forEach(([k, y]) => {
-    f += `<rect x="0" y="${y - 14}" width="${larg}" height="${NODEH + 28}" fill="var(--fond-2)" opacity=".38"/>`;
+  [`andrew`, `joel`].forEach(k => {
+    f += `<rect x="0" y="${ROWY[k] - 14}" width="${larg}" height="${NODEH + 28}" fill="var(--fond-2)" opacity=".38"/>`;
   });
+  f += `<rect x="0" y="${ROWY.commun - 8}" width="${larg}" height="${BANDEH + 16}" fill="var(--fond-2)" opacity=".22"/>`;
   tv.innerHTML = f;
 
   /* actes */
@@ -3239,11 +3352,23 @@ function construirePlateau(){
     voies.appendChild(d);
   });
 
+  /* les étapes du tronc */
+  if (filtreVoie === `tous` || filtreVoie === `commun`) ETAPES.forEach(e => {
+    const d = document.createElement(`div`);
+    d.className = `etape`;
+    d.style.left = colX(e.c0) + `px`;
+    d.style.top = ROWY.commun + `px`;
+    d.style.width = (colX(e.c1) - colX(e.c0) + NODEW) + `px`;
+    d.innerHTML = `<i>ÉTAPE</i><b>${esc(e.t)}</b>`;
+    carte.appendChild(d);
+  });
+
   /* nœuds */
   const visibles = new Set(scenesVisibles.map(s => s.id));
   scenesVisibles.forEach((s, i) => {
     const b = document.createElement(`button`);
-    b.className = `noeud n-${s.row}` + (s.statut === `trou` ? ` trou` : ``) + (s.pivot ? ` pivot` : ``);
+    b.className = `noeud n-${s.row}` + (s.statut === `trou` ? ` trou` : ``)
+                + (s.pivot ? ` pivot` : ``) + (s.gris ? ` gris` : ``);
     b.style.left = colX(s.col) + `px`;
     b.style.top = ROWY[s.row] + `px`;
     b.style.height = NODEH + `px`;
