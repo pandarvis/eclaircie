@@ -710,7 +710,7 @@ kbd{
     <section class="vue on" id="v-parcours">
       <header class="chapeau">
         <h1>Le parcours</h1>
-        <p class="sous">Une seule enquête, écrite d'un bloc, puis répartie entre les deux récits.<br>
+        <p class="sous">Une seule enquête, écrite d'un bloc, puis répartie entre les deux récits — et le lecteur croit n'en lire qu'une.<br>
           Clique une scène pour ouvrir son dossier d'écriture.</p>
         <div class="outils" id="f-parcours"></div>
       </header>
@@ -1021,26 +1021,6 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/june.md §2 bis`
 },
 {
-  id: `j1`, no: `Fragment`, col: 3, row: `joel`, acte: `Avant la disparition`,
-  titre: `L'affaire Sorel`,
-  statut: `acquis`,
-  resume: `Deux disparues. Au départ on ignore qui les a prises ; l'étau se resserre sur un seul homme. Interventions sur plusieurs lieux, un vrai jeu de piste.`,
-  produit: `Le lecteur ne doit pas sentir qu'il change de récit. Il enregistre qu'on avance — l'élan traverse les mondes parce qu'il suit un rythme, pas un dossier.`,
-  monde: `Rien. Le monde de Joël est le nôtre, et il n'a rien à expliquer. C'est exactement ce qui fait le déséquilibre à surveiller.`,
-  qui: [`joel`,`liam`,`chrissy`],
-  gardes: [
-    `Les fragments ne nomment jamais les victimes, ni leur nombre, ni leur sexe, ni leur âge. Ils portent sur la traque, jamais sur la proie.`,
-    `Joël n'est nommé par personne. On dit l'enquêteur, il, l'homme.`,
-    `Le dossier s'appelle l'affaire Sorel : un nom qui nomme sans désigner personne et qui ne compte rien. C'est le seul mot du parcours qui puisse revenir cent fois sans rien apprendre.`,
-    `Aucun marqueur d'époque, aucune date de notre calendrier.`
-  ],
-  ouvert: [`Combien de fragments, et à quel rythme. La voie de Joël doit se lire à parité avec l'autre.`,
-           `Le moment exact où l'affaire reçoit son nom.`],
-  src: `04-plan/deux-histoires-en-une.md §2.5 — 04-plan/le-parcours-de-l-enquete.md §1.4`
-},
-
-/* ---------- LA DISPARITION ---------- */
-{
   id: `s3`, no: `Scène 3`, col: 4, row: `andrew`, acte: `La disparition`,
   titre: `Troisième visite — la place est vide`,
   statut: `acquis`, pivot: true,
@@ -1060,7 +1040,7 @@ const SCENES = [
   id: `s4`, no: `Scène 4`, col: 5, row: `joel`, acte: `La disparition`,
   titre: `Première visite au commissariat`,
   statut: `acquis`, pivot: true,
-  resume: `Il pousse la porte d'un poste de police et parle à quelqu'un de l'affaire. On lui donne des faits, et rien d'autre : des trajets, des horaires, un déroulé de journée. **Jamais un état d'esprit.**`,
+  resume: `Il pousse la porte d'un poste de police et parle à quelqu'un de l'affaire. On lui donne des faits, et rien d'autre : des trajets, des horaires, un déroulé de journée. **Jamais un état d'esprit.** *C'est le premier chapitre de la vie d'avant, et le lecteur ne le sait pas.*`,
   produit: `🔴 **Décision de l'autrice, 16 août 2026 : c'est là que le récit se dédouble, et la scène est de Joël.** *Le lecteur croit assister à la rencontre d'Andrew et d'Isaac, dont on vient de lui parler.* **Il assiste en réalité à une conversation entre Joël et son collègue, et il ne le saura qu'à la dernière page.**`,
   clef: `**Et c'est ici que le lecteur se fabrique Isaac.** La silhouette, la voix, la façon de tenir un bureau, l'humeur : tout ce qu'il croira savoir d'Isaac vient de cet homme-là. *Le suspect était déjà une couture ; l'allié en est une aussi.*`,
   lecture: `Il vient d'entendre June parler d'un certain Isaac et Andrew répondre que c'est un bon ami. **Il ouvre le chapitre suivant en s'attendant à le rencontrer, et il rencontre quelqu'un d'autre.**`,
@@ -1070,13 +1050,16 @@ const SCENES = [
     `**Aucun nom, ni celui de l'homme, ni celui de Joël.** Le lecteur apportera « Isaac » tout seul, et personne dans le texte ne le prononcera.`,
     `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
     `Les victimes ne sont ni comptées, ni sexuées, ni décrites.`,
-    `**Rien de ce qui décrit l'homme ne doit contredire Isaac plus tard.** Ni l'âge, ni l'apparence, ni un détail de bureau. *La contrainte est lourde, et elle vaut pour tous les chapitres où il reparaîtra.*`
+    `**Rien de ce qui décrit l'homme ne doit contredire Isaac plus tard.** Ni l'âge, ni l'apparence, ni un détail de bureau. *La contrainte est lourde, et elle vaut pour tous les chapitres où il reparaîtra.*`,
+    `🔴 **On ne discute jamais de l'enlèvement.** Ni ici ni ailleurs : pas de rappel des faits, pas de résumé de l'affaire, pas une phrase qui dise ce qui est arrivé et à qui. **On parle d'une affaire en cours, comme le font des gens qui la connaissent déjà.** *C'est ce qui rend le chapitre superposable à celui d'Andrew, et c'est la règle la plus stricte de toute la voie de Joël.*`,
+    `L'affaire a un nom — **l'affaire Sorel** — et c'est tout ce qu'on en saura. Un nom de famille, catégorie de mot qu'Andrew ne pourra même pas identifier comme un nom. *Il peut revenir cent fois sans jamais rien apprendre.*`
   ],
   pourquoi: [
     `**Le procès-verbal ne retient pas les états.** C'est ce qui manque au dossier, et c'est ce qui pousse à retourner chez le témoin — le beat suivant tient par ce vide, dans les deux mondes.`,
     `**Et le cri final change de nature.** Si le lecteur a passé le livre à croire que ce collègue est Isaac, alors c'est Isaac qu'il entend crier *« Joël, attends ! »*. *Le dernier chapitre s'écroule sur lui d'un cran de plus.*`
   ],
-  ouvert: [`⚠️ **La fiche de Liam est périmée.** Elle le donne pour « pas un personnage, une voix derrière lui ». **Il porte désormais la présentation de l'allié**, donc il existe, il a une manière, une façon de parler. *À réécrire — c'est la conséquence la plus lourde de cette décision.*`,
+  ouvert: [`✅ **Il n'y a plus de carte « L'affaire Sorel ».** *Décision de l'autrice, 16 août 2026 : cet encart n'existait pas vraiment, il est regroupé ici.* **Aucun chapitre n'établit l'affaire** — elle est déjà là quand on entre dedans, comme dans la vie.`,
+           `⚠️ **La fiche de Liam est périmée.** Elle le donne pour « pas un personnage, une voix derrière lui ». **Il porte désormais la présentation de l'allié**, donc il existe, il a une manière, une façon de parler. *À réécrire — c'est la conséquence la plus lourde de cette décision.*`,
            `Combien de fois il reparaît côté Joël avant la poursuite.`],
   src: `04-plan/le-parcours-de-l-enquete.md §2 — décision du 16 août 2026`
 },
@@ -1493,7 +1476,7 @@ const SCENES = [
     `Ce qui se vérifie, c'est une phrase. Jamais le personnage. L'hypothèse « il fabule » doit rester debout jusqu'à la dernière page.`,
     `Un lieu d'ici, un seul, au milieu de tout le reste qui demeure impossible. Ça ne démontre rien : une description juste parmi vingt fausses n'est pas un miracle, c'est une coïncidence.`,
     `« C'était là sous nos yeux » est dit une fois, au téléphone, dans l'urgence, et personne ne le relève. Ça ne doit jamais être expliqué.`,
-    `Rien de ce qu'Eliott a dit ne doit se recouper avec un fragment de la vie d'avant.`
+    `Rien de ce qu'Eliott a dit ne doit se recouper avec un chapitre de la vie d'avant.`
   ],
   phrases: [{ t: `c'était là sous nos yeux`, n: `Réplique d'Andrew à Isaac, au téléphone, au moment de donner l'adresse. C'est une réplique de policier, elle a le droit d'être banale — c'est le lecteur qui saura qu'elle est littérale. Les berceuses habitent à côté du jardin ; elle vit à quelques pas de chez June ; Andrew est passé devant sa porte à chacune de ses trois visites.` }],
   ouvert: [`⚠️ **Ce qu'Eliott a dit exactement. C'est le dernier gros trou du parcours.** Il ne peut pas avoir décrit la cave : il n'y était jamais allé. Deux pistes, aucune tranchée — (1) la maison vue de la rue, sur sa tournée de portage ; (2) **elle**, une personne qui lui a parlé, mentionnée dans la même phrase qu'une boulangerie qui n'existe pas : *il avait donné son nom, et Andrew ne l'a pas entendu.*`,
@@ -1530,7 +1513,7 @@ const SCENES = [
     `Faire réagir le témoin avant de montrer la preuve.`,
     `Finir court. Une phrase sans emphase, à la dernière ligne du chapitre. C'est le contraste de longueur qui frappe.`,
     `Le soulagement du temps 2 doit être réel, tenir une phrase ou deux, avant d'être retourné.`,
-    `Les fragments ne nomment personne : la phrase de chute ne peut pas porter de prénom. Elle devra tomber sur autre chose. Une heure. Une chaleur. Un fait.`
+    `Les chapitres de la vie d'avant ne nomment personne : la phrase de chute ne peut pas porter de prénom. Elle devra tomber sur autre chose. Une heure. Une chaleur. Un fait.`
   ],
   clefFin: `On peut défigurer un visage. On ne peut pas défigurer une ressemblance. Ce qui clôt la scène n'est pas « c'est elle », mais que les deux corps sont les mêmes. La description peut être aussi atroce qu'on veut, l'espoir survivra tant que chaque corps est pris séparément — il meurt à la seconde où on les regarde ensemble.`,
   refs: [
@@ -1715,7 +1698,7 @@ const SCENES = [
 /* liens du tableau : [de, vers, classe] */
 const LIENS = [
   [`ouv`,`s1`,`a`],
-  [`s1`,`s2`,``], [`s2`,`s3`,``], [`s2`,`j1`,`j`], [`j1`,`s3`,`j`],
+  [`s1`,`s2`,``], [`s2`,`s3`,``], 
   [`s3`,`s4`,``], [`s4`,`s5`,``], [`s5`,`s6`,``], [`s6`,`s7`,``],
   [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
   [`s11`,`s12`,`j`], [`s12`,`ceremonie2`,`a`], [`ceremonie2`,`s13`,`j`], [`s13`,`s14a`,`a`],
@@ -1900,7 +1883,7 @@ const NOTES = [
 
 { d:`14 août`, s:`Le poste de police d'ici`, e:`acquis`, t:[`enquête`],
   v:`Peut-être même ne pas comprendre au départ que les reliquats lui rappellent sa propre vie — comme s'il suivait un flic. Et pourquoi pas se rendre vraiment dans un centre de police sur Terre 2 pour demander s'ils ont des infos. Et c'est là-bas qu'un policier lui dirait de lâcher l'affaire, et hop, déclenchement du souvenir.`,
-  q:`C'est de là que vient **la couture** : la phrase est reçue ici, et rappelée là-bas. Le lecteur recoud deux fragments de deux vies en un seul souvenir, et la couture ne se voit pas parce que c'est lui qui l'a faite.` },
+  q:`C'est de là que vient **la couture** : la phrase est reçue ici, et rappelée là-bas. Le lecteur recoud deux morceaux de deux vies en un seul souvenir, et la couture ne se voit pas parce que c'est lui qui l'a faite.` },
 
 { d:`14 août`, s:`DEUX HISTOIRES EN UNE`, e:`acquis`, t:[`dispositif`],
   v:`Je vais raconter deux histoires simultanément qui vont s'entremêler chapitre après chapitre. L'objectif est de faire sciemment croire à une seule et même histoire pour qu'au final on réalise qu'il y en a 2. Le lecteur croira suivre un seul personnage, le veilleur, et pourtant il en suivra deux.`,
@@ -2285,6 +2268,10 @@ const NOTES = [
   v:`—`,
   q:`**Andrew ne consulte jamais la ligne d'Eliott**, il ne se demande jamais qui d'autre est arrivé le jour du garçon, et personne ne le fait à sa place. *S'il l'apprenait, la dernière réplique du livre cesserait d'être un cri que personne n'entend pour devenir la réponse à une question posée — et c'est tout ce qui la rend insupportable.* **Deux porteurs de voiles dans la même pièce pendant six ans, et rien qui se confirme jamais : c'est aussi la seule façon de tenir l'interdit n° 4 jusqu'au bout.**` },
 
+{ d:`16 août`, s:`Il n'y a pas de fragments`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`« L'affaire Sorel », justement, cet encart n'existe pas vraiment, tu le regroupes avec la scène 4. On ne parlera pas vraiment de fragment, on ne discute pas de l'enlèvement des jumelles.`,
+  q:`**Le mot tombe, et c'est cohérent avec tout le reste.** Les chapitres de la vie d'avant ne sont ni des éclats, ni des inserts : ce sont des chapitres entiers, de même longueur et de même facture. *Un fragment se repère ; un chapitre, non.* **Et aucun d'eux n'établit l'affaire :** on ne discute jamais de l'enlèvement, on parle d'une affaire en cours comme le font des gens qui la connaissent déjà. *C'est ce qui rend chaque chapitre superposable à celui d'Andrew — et c'est la règle la plus stricte de toute la voie de Joël.*` },
+
 { d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
   v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
   q:`**Règle permanente.** À chaque décision : on corrige la fiche concernée, on répercute ici, on reconstruit, on vérifie, on commite. *Un atelier qui retarde d'une séance ne sert plus à rien.* Et les étapes se marquent par des tags git — `+"`"+`v1`+"`"+` à `+"`"+`v4`+"`"+` pour la mise en place du monde, `+"`"+`v5`+"`"+` pour l'atelier — ce qui permet de retrouver n'importe quelle version d'un document et de comparer deux états.` },
@@ -2349,7 +2336,7 @@ const LEXIQUE = [
 ["La guerre du Sud","Exemple d'événement de l'histoire de cette Terre, qui n'a rien de commun avec la nôtre. S'apprend par la petite porte, dans une leçon où personne n'explique rien. Voir aussi « la seconde guerre des côtes », « l'année des greniers vides ».","02-univers/la-terre.md","Le rythme des scènes d'histoire — combien de fois avant que le procédé se voie."],
 ["Le bâtiment inachevé","Ambition que rien ne justifie, commencée par un arrivant qui a atteint le jardin avant de la finir. Façon retenue de suggérer les grandes figures porteuses de voiles sans nommer personne de notre monde.","02-univers/la-terre.md","Il se décrit par ce qui est là — échafaudages, grue immobile, mur qui s'arrête — jamais par ce qu'il aurait dû être."],
 ["L'affaire Sorel","Nom de l'affaire des deux filles dans la vie d'avant. Un nom de famille — catégorie de mot qu'Andrew entendra sans pouvoir l'identifier. Il ne peut même pas savoir que c'est un nom, donc il ne le retient pas, ne le note pas, ne le cherche pas.","04-plan/deux-histoires-en-une.md §2.5",""],
-["La couture","Nom donné à une continuité fabriquée : Andrew se fait dire la phrase au commissariat, Joël se la rappelle devant les corps. Une seule des deux scènes est jouée, donc il n'y a aucune répétition à repérer. Le lecteur recoud deux fragments de deux vies en un seul souvenir.","04-plan/faux-raccords.md §2 ter","C'est le seul élément du dossier qui augmente le dispositif sans rien lui prendre."],
+["La couture","Nom donné à une continuité fabriquée : Andrew se fait dire la phrase au commissariat, Joël se la rappelle devant les corps. Une seule des deux scènes est jouée, donc il n'y a aucune répétition à repérer. Le lecteur recoud deux morceaux de deux vies en un seul souvenir.","04-plan/faux-raccords.md §2 ter","C'est le seul élément du dossier qui augmente le dispositif sans rien lui prendre."],
 ["La règle des retrouvailles","Ceux qui se sont aimés ont une chance de se recroiser dans la vie suivante. Le lien tient malgré l'ignorance totale des deux personnes. Ce n'est jamais systématique, et ça ne se dit jamais.","02-univers/les-ages-croises.md","La non-systématicité n'est pas négociable (interdit n° 9)."]
 ];
 
@@ -2569,7 +2556,7 @@ const GENS = [
   gardes:[`Il n'est nommé par personne dans tous les chapitres de la vie d'avant. On dit l'enquêteur, il, l'homme. Sauf une fois.`,
     `Aucun autre nom n'est prononcé dans ces chapitres — les deux filles n'en ont donc aucun.`,
     `Il ne meurt pas en sauvant quelqu'un. Sa poursuite ne sert à rien, personne ne la lui demande, aucun personnage ne commente sa mort.`,
-    `La scène où on lui dit de lâcher l'affaire n'est pas montrée : la phrase est dite chez Andrew et rappelée ici, devant les corps.`],
+    `La scène où on lui dit de lâcher l'affaire est la sienne, et le lecteur croit qu'elle est celle d'Andrew. Le chapitre d'avant est bien d'Andrew ; celui-ci ne l'est pas, et rien ne le signale.`],
   phrases:[`Joël, non, attends !`,`On m'avait dit de laisser tomber, et je l'ai fait.`],
   ouvert:[`Pourquoi il reprend l'enquête — de lui-même, ou parce qu'un élément est ressorti. Le livre n'a pas besoin de trancher.`],
   src:`03-personnages/andrew.md` },
@@ -2731,6 +2718,7 @@ const GENS = [
 const DISPOSITIF = [
 ["Deux récits, une voix","Deux histoires racontées simultanément, entremêlées chapitre après chapitre, et délibérément données à lire comme une seule. Deux temporalités qui ne communiquent pas, deux récits sans aucun point de contact, et une seule voix pour les porter."],
 ["Deux enlèvements","C'est ce qui rend la confusion possible autant qu'honnête : le lecteur ne se trompe pas parce qu'on lui cache quelque chose, il se trompe parce que les deux récits racontent la même chose. La ressemblance n'est pas fabriquée, elle est réelle."],
+["Il n'y a pas de fragments","**Décision du 16 août 2026 : le mot n'a plus cours.** Les chapitres de la vie d'avant ne sont ni des éclats, ni des flashs, ni des inserts — ce sont des chapitres entiers, de même longueur et de même facture que les autres. *Un fragment se repère ; un chapitre, non.* Et aucun d'eux n'établit l'affaire : elle est déjà là quand on entre dedans, comme dans la vie."],
 ["Les reliquats ne sont jamais nommés","Le mot, la notion, l'explication : rien. Aucun personnage ne dit qu'il se souvient, aucun narrateur ne signale un basculement, aucune typographie ne trie les chapitres."],
 ["Temps 1 — une seule enquête","De la première page jusqu'au seuil du lieu de séquestration. La contrainte n'est pas « il ne doit pas comprendre » mais : il ne doit pas même se poser la question. Un lecteur qui formule l'hypothèse et la met de côté a déjà tout perdu — il ne lira plus les chapitres, il les triera."],
 ["Temps 2 — le trouble","La découverte des corps. Le lecteur peut se dire « la paire du début, qu'est-ce qu'elles font là ? », et c'est admis, c'est même souhaitable. Ce n'est pas encore la bascule : c'est une pièce de trop dans les mains, sans case où la ranger. Il n'a pas d'hypothèse, il a un inconfort."],
@@ -2741,7 +2729,7 @@ const DISPOSITIF = [
 ["Ce n'est pas une entourloupe (1)","Andrew enquête comme l'enquêteur parce qu'il est l'enquêteur : le reliquat n'est pas un souvenir, c'est une vocation. La ressemblance des deux récits n'est pas une astuce d'autrice, c'est une règle énoncée par le livre avant que le lecteur ait à s'en servir. Il a été trompé par une cohérence, pas par une omission."],
 ["Ce n'est pas une entourloupe (2)","Les deux mondes ont des postes de police, des procédures, des voitures, des dossiers. Une scène d'enquête ne trahit jamais lequel des deux on lit — non parce qu'on gomme les indices, mais parce qu'il n'y en a pas à gommer."],
 ["Le lecteur est dans le monde d'ici, tout du long","**Doctrine arrêtée le 16 août 2026.** Pour lui, l'enquête est celle de la disparition d'Eliott, du premier chapitre au dernier. De temps en temps, un chapitre traite l'affaire des filles du point de vue de Joël — et il ne le soupçonne jamais. Rien ne le signale : ni titre, ni typographie, ni changement de voix. **Ce sont les faux raccords, semés trois ou quatre fois dans tout le volume, qui le lui apprendront à la seconde lecture.**"],
-["La couture","Le lecteur recoud deux fragments de deux vies en un seul souvenir, et la couture ne se voit pas parce que c'est lui qui l'a faite. *Le procédé a changé d'échelle : il ne porte plus une phrase, il porte des chapitres entiers.*"],
+["La couture","Le lecteur recoud deux morceaux de deux vies en un seul souvenir, et la couture ne se voit pas parce que c'est lui qui l'a faite. *Le procédé a changé d'échelle : il ne porte plus une phrase, il porte des chapitres entiers.*"],
 ["Le suspect est une couture","**Il n'existe pas.** Les scènes 6, 7 et 9 construisent un homme du monde d'ici — vingt-deux ans, des propos haineux, des jours au silence. Les scènes 12 et 13 montrent un homme du monde d'avant, qui a tenu des propos déplacés à deux filles. Le lecteur n'en voit qu'un. **Deux hommes qui ne se sont jamais rencontrés et qui ne vivent pas dans le même monde, et l'alibi de la scène 13 les tue tous les deux d'un coup.**"],
 ["L'équivoque","Le procédé qui rend la méprise possible, et il ne se confond pas avec le faux raccord. **Le faux raccord différencie ; l'équivoque, elle, autorise deux lectures d'un même mot.** *Des propos déplacés* : le lecteur y entend l'euphémisme du grief anti-jeunes, et ce sont des propos sexistes. *Vous en seriez venus aux mains* : une bagarre au travail, dans les deux mondes. **Aucune des deux lectures n'est fausse, et c'est pour ça que rien ne se démonte à la relecture.**"],
 ["La couture obéit à d'autres règles","Elle ne consomme aucune paire du dosage, puisqu'elle ne produit aucun soupçon au premier passage. Et la règle d'espacement s'inverse : une paire doit être très écartée pour qu'on oublie ; ici il faut qu'on se souvienne. Assez près pour que la couture prenne, assez loin pour qu'elle ne se regarde pas."],
@@ -2760,7 +2748,7 @@ const RACCORDS = [
 ["La langue — les noms de famille","L'affaire porte un nom de famille : « l'affaire Sorel ». Un seul mot qui couvre les deux sœurs sans en désigner aucune.","Personne n'a de nom de famille, et la règle n'est jamais énoncée dans le roman.","Un marqueur présent d'un seul côté est un tri ; un marqueur absent d'un seul côté n'en est pas un.","structurel"],
 ["La langue — « enfant » et « vieillard »","Ces mots existent et s'emploient normalement. La description de la planque a tous les mots et peut dire ce qu'elle voit.","Remplacés par l'âge. « Une chambre d'enfant » ne peut pas s'écrire : il faut décrire les couleurs, la hauteur d'une table, un lit court.","Point le plus chargé : les deux caves, où une seule des deux descriptions a le droit de dire ce qu'elle voit.","structurel"],
 ["Le mot qu'il ne peut pas classer","On lui dit « l'affaire Sorel », et c'est ainsi qu'on nomme une affaire.","Il entend un mot dont il ne peut pas identifier la catégorie : pas de case où le ranger, pas d'usage à lui supposer. Il ne peut même pas savoir que c'est un nom, donc il ne le retient pas, ne le note pas, ne le cherche pas.","Au comptoir du poste de police, si l'autrice décide qu'il lâche le mot. Les deux versions tiennent et aucune n'est retenue.","ouvert"],
-["Le numéro","Rien. Il n'existe pas dans les fragments et ne se compare à rien.","Chaque arrivant reçoit un numéro. Andrew l'écrit sur des formulaires depuis dix ans sans le regarder.","À faire passer plusieurs fois sous les yeux du lecteur avant le temps 5, en n'ayant jamais rien voulu dire. Trop peu, la reconnaissance ne repose sur rien ; trop appuyé, on annonce la scène.","retenu"],
+["Le numéro","Rien. Il n'existe pas dans la vie d'avant et ne se compare à rien.","Chaque arrivant reçoit un numéro. Andrew l'écrit sur des formulaires depuis dix ans sans le regarder.","À faire passer plusieurs fois sous les yeux du lecteur avant le temps 5, en n'ayant jamais rien voulu dire. Trop peu, la reconnaissance ne repose sur rien ; trop appuyé, on annonce la scène.","retenu"],
 ["La vue","L'un tient un papier à bout de bras pour le lire.","L'autre non.","Dans deux scènes de lecture de document, dont le livre ne manque pas.","piste"],
 ["La taille","Face au même type d'interlocuteur, l'un lève les yeux.","L'autre les baisse.","L'indice n'est jamais dans une mesure, il est dans une direction du regard.","piste"],
 ["Une dent ébréchée","Une dent qu'on cherche de la langue sans y penser, manie involontaire jamais nommée.","Absente.","À semer comme un tic corporel, jamais commenté par personne.","piste"],
