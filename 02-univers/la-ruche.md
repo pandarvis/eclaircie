@@ -1,5 +1,20 @@
 # La ruche
 
+> ## ⚠️ Le lieu, décidé le 17 août 2026 — et ce n'est pas une ruche d'abeilles
+>
+> ⛔ **L'image de la ruche d'abeilles est fermée.** Ni alvéoles, ni essaim, ni bourdonnement, ni reine : le mot est un nom d'usage, pas une métaphore filée.
+>
+> **C'est un bâtiment entier, fermé, du genre d'un grand entrepôt** — de longs couloirs, plusieurs **pièces de collecte** où les capsules sont à des degrés divers de maturation, et de grandes salles pour les cérémonies. *Le nombre de salles utilisées dépend du nombre d'éclaircies attendues le même jour.*
+>
+> **Beaucoup d'ouvertures, une belle luminosité, l'air frais et un passage du vent** — la fraîcheur d'un monastère. L'impression à produire est organique : *la sérénité d'une forêt, le son des feuilles quand on s'y promène.*
+>
+> **Le modèle est celui d'une maternité, pas d'un funerarium.** Le temps y est suspendu : ceux qui sont dedans ne sont plus tout à fait dans le monde, et rien d'autre ne compte pendant qu'ils y sont. *C'est un lieu de paix totale.* **Et des visiteurs viennent accueillir les nouveaux arrivants**, comme la parenté vient voir un nouveau-né dans l'autre monde — *qui ils sont et comment ils sont désignés reste à trancher.*
+>
+> ✅ **Le miroir.** Pendant la cérémonie, le veilleur tend un miroir à l'arrivant pour qu'il fasse connaissance avec sa propre apparence. *Geste de protocole, au même titre que la couverture : personne ne l'explique et personne ne s'en étonne.*
+>
+> ⚠️ **Quatre trous ouverts**, dans l'atelier, onglet Trancher : *ce qu'est une capsule* — on ne sait d'elles que l'éclaircie —, *la couleur du lieu* (pourpre et or, ou bleu ciel et orangé), *le rituel complet de la cérémonie*, et *les visiteurs*.
+
+
 *Document de référence sur le fonctionnement de la ruche. Reprend et organise le §5 (l'Archiviste), le §6 (l'Éclaircie), le §8 (les capsules sans éclaircie), le §10 (le lexique) et le §12 (les personnages) du [dossier maître](../L-ECLAIRCIE-dossier-complet.md), et intègre les décisions successives de l'autrice.*
 
 > ⚠️ **Ce document suppose la révision du §4 posée dans [`le-corps-des-arrivants.md`](le-corps-des-arrivants.md) : on sort de la capsule en sachant parler.** Sans elle, le protocole du nom ci-dessous est impossible. Le dossier maître n'a pas été modifié ; la correction y est en attente.
