@@ -2429,6 +2429,24 @@ const NOTES = [
 
 *C'est un des rares faits du livre qui se vérifie tout seul : quand vingt-six arrivent ensemble, ils repartent ensemble.*` },
 
+{ d:`17 août`, s:`L'épicentre : c'est de là que sortent les capsules`, e:`acquis`, t:[`monde`,`ruche`,`jugement`],
+  v:`Ou alors, justement, les capsules « sortent » de cet endroit. C'est un peu un sac de nœuds, ou plutôt un sac de racines, qui est ancré tout autour de cette salle. Et c'est une salle ouverte, presque une clairière, avec des arbres, des sortes de stèles et des gravures. Un veilleur sait où regarder et quoi lire ; il connaît la pièce par cœur et sait quand quelque chose a bougé. Ça donne un aspect de ruine abandonnée qui ne fait pas vraiment ruine. Imagine ce lieu comme pas forcément fermé à tous et réservé aux veilleurs, mais séparé du reste du complexe par de la création humaine. L'homme a voulu conserver cet épicentre comme quelque chose de sacré. C'est rare que d'autres personnes que des veilleurs y entrent, déjà parce que c'est un lieu avec beaucoup de croyance autour, mais aussi parce qu'une personne lambda ne sait pas lire ce lieu.`,
+  q:`**Mon instinct disait de garder les deux mystères séparés. C'était l'erreur, et voilà pourquoi.** *Le lien qu'on obtient n'est pas une explication — c'est un lieu.* **L'endroit d'où sortent les capsules est l'endroit où apparaissent les lignes**, et rien de tout ça ne s'éclaire pour autant.
+
+✅ **Et ça donne au livre son image centrale :** une clairière avec des stèles, un sac de racines ancré tout autour, une ruine qui n'en est pas une — **et un sanctuaire bâti par les hommes tout autour pour la garder.**
+
+**Le plus beau détail est celui de l'accès.** *L'endroit le plus sacré du monde n'est pas gardé.* On pourrait y entrer. **Presque personne ne le fait, parce qu'il y a de la croyance autour — et surtout parce qu'on ne saurait pas quoi y lire.**
+
+*C'est aussi ce que veut dire « lire le registre » : un veilleur connaît la pièce par cœur, il sait où regarder, et il sait quand quelque chose a bougé.*` },
+
+{ d:`17 août`, s:`Le registre est administratif, et les capsules sont un déchet`, e:`acquis`, t:[`monde`],
+  v:`La maternité enregistre-t-elle seulement l'arrivée ou toute la vie ? Pour moi la réponse est non, c'est administratif — comme le livret de famille, qui a aussi une page pour les décès. // Que devient le placenta après un accouchement ?`,
+  q:`**Deux réponses qui ferment deux trous, et les deux se donnent par analogie.**
+
+**Le registre enregistre l'arrivée et la fin, rien entre les deux.** *Comme un livret de famille : une page pour les naissances, une pour les décès.* ⚠️ **Conséquence à valider :** ce qu'Andrew trouve à la seconde piste n'est donc pas une ligne interrompue mais **une arrivée sans fin** — le garçon est vivant, c'est certain, et introuvable. *Ce sont les traces administratives ordinaires qui s'arrêtent, parce que le jardin est sous secret.*
+
+**Et les capsules vides sont un déchet clinique.** *On les étudie, on s'en débarrasse, personne n'y pense* — exactement comme un placenta. **Le miracle a lieu dans un temple et ses restes partent avec les ordures**, et ce contraste-là ne se souligne jamais.` },
+
 { d:`17 août`, s:`Le registre est une pièce`, e:`acquis`, t:[`monde`,`jugement`],
   v:`Je n'aime pas le fait que la phrase soit inscrite. On pourrait imaginer quelque chose de physique, visible : le registre ne serait pas un livre mais une pièce, complexe, que les veilleurs ont appris à lire avec le temps. À chaque capsule sa ligne, gravée quelque part, une année, un âge. Le public n'a pas accès à cette salle. Il ne pouvait pas mentir car quelque chose, ou quelqu'un, en est le maître, en est l'écrivain — personne d'autre ne peut écrire à sa place, on ne sait pas qui sait. On est dans une zone reculée du complexe, loin des capsules, comme dans les archives. De là est né le nom de l'Archiviste : on ne le voit pas, mais dans leur foi, il existe.`,
   q:`**Et le nom vient du lieu, pas l'inverse.** *On a appelé Archiviste celui qui écrit dans les archives, parce qu'on n'avait que ça pour le nommer.* **C'est une théologie fondée sur une pièce.**
@@ -2977,6 +2995,12 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
+["Jugement","Le registre est administratif, pas biographique. Il enregistre l'arrivee et la fin, comme un livret de famille a une page pour les naissances et une pour les deces. Le reste d'une vie ne s'y ecrit pas.","acquis"],
+["Jugement","La salle du registre est l'epicentre : c'est de la que sortent les capsules. Un sac de racines y est ancre tout autour, et la coulee part de la pour courir dans le reste du complexe.","acquis"],
+["Jugement","C'est une salle ouverte, presque une clairiere : des arbres, des steles, des gravures. Ca donne un aspect de ruine abandonnee sans que ce soit une ruine - et c'est l'homme qui a voulu conserver l'epicentre comme quelque chose de sacre.","acquis"],
+["Jugement","L'epicentre n'est pas ferme au public : il est separe du reste du complexe par de la construction humaine. On pourrait y entrer. Presque personne ne le fait, parce qu'il y a beaucoup de croyance autour et parce qu'une personne ordinaire ne saurait pas lire le lieu.","acquis"],
+["Jugement","Un veilleur connait la piece par coeur. Il sait ou regarder, ce qu'il faut lire, et il sait quand quelque chose a bouge. C'est ca, lire le registre.","acquis"],
+["Ruche","Les capsules vides sont un dechet clinique. On les etudie, puis on s'en debarrasse, et personne n'y pense - exactement comme un placenta apres un accouchement. La gelatine conservee suit le meme regime.","acquis"],
 ["Ruche","Le public vient parce qu'il le veut bien, pour celebrer une arrivee - et aucun lien ne se fait entre lui et les arrivants. On ne vient pas pour quelqu'un en particulier, on vient pour l'evenement.","acquis"],
 ["Ruche","Une capsule qui surgit d'un coup ne veut pas dire une salle vide : il y a moins de monde, c'est tout, et c'est seulement une question d'avoir prevenu plus tot ou pas. Ceux qui sont la constatent qu'il y en a un de plus, et rien d'autre.","acquis"],
 ["Ruche","La vegetation est une meme ligne qui s'enchevetre un peu partout dans le complexe. Pas de tronc, pas de coeur, pas d'organe central : on ne peut designer aucune chose et dire que c'est elle qui produit.","acquis"],
@@ -3597,6 +3621,13 @@ const PHRASES = [
    ========================================================================== */
 
 const QUESTIONS = [
+{ g:`Le monde`, t:`Ce que le registre dit du jeune arrivant de la seconde piste`, e:`ouvert`,
+  q:`**Le registre est administratif : l'arrivée et la fin, rien entre les deux.** *Ça règle la contradiction que je signalais — mais ça change ce qu'Andrew y trouve.*
+
+**Lecture proposée : il y voit la ligne d'arrivée, et pas de ligne de fin.** *Le garçon n'est donc pas mort, c'est certain, et le registre ne ment pas.* **Ce sont les traces administratives ordinaires qui s'arrêtent** — parce qu'il est entré au jardin, dont les dossiers sont sous secret.`,
+  o:[`**Ce que ça donne à la scène :** Andrew sait de façon absolue que quelqu'un est vivant, et il est absolument incapable de le trouver. *C'est le meilleur moteur possible pour une fausse piste.*`,
+     `⚠️ **À confirmer par l'autrice** — et si c'est faux, c'est la seule chose du monde de la ruche qui reste à recaler.`] },
+
 { g:`Le monde`, t:`Le métier sait-il ce que dit une maturation lente ?`, e:`ouvert`,
   q:`**Le délai de maturation est celui de l'agonie**, et c'est un fait du monde. *La question est de savoir si les veilleurs l'ont remarqué.*`,
   o:[`**S'ils le savent :** une longue maturation veut dire une longue mort, et chaque veilleur le lit sans avoir à le dire. **C'est le genre de chose qu'un métier constate et ne mentionne jamais** — et ça rend leur douceur beaucoup plus lourde.`,
