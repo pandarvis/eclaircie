@@ -1396,7 +1396,9 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   monde: `La cérémonie vue par quelqu'un qui ne sait rien. Et, sans que personne le sache, la journée des quatre capsules : la paire, lui, et une quatrième qui n'éclaircit pas.`,
   qui: [`andrew`,`chrissy`],
   gardes: [
-    `✅ **Sa cérémonie était une petite cérémonie, et ça se déduit du rituel.** *Tout se dimensionne sur le nombre d'arrivants — la taille de la salle, le nombre de veilleurs, le public.* **Trois arrivants au lieu de deux, dont un qui a surpris par son éclaircissement inopiné : petite salle, deux veilleurs, et peu de monde**, puisqu'une capsule qui surgit d'un coup ne laisse pas le temps de prévenir. *Personne ne le dit, et c'est une chose triste de plus qu'on ne lui doit pas.*`,
+    `✅ **La salle était pleine, et rien de tout ça n'était pour lui.** *Précision de l'autrice, 17 août 2026.* **Les capsules de la paire avaient mis longtemps à mûrir — le temps exact de leur agonie dans l'autre monde — et leur cérémonie était prévue de longue date.** Le public était venu pour elles. *Moins d'une heure avant, la capsule d'Andrew surgit ; le veilleur de l'époque la note et décide de grouper.* **Un poste de plus, et c'est tout** — monter une seconde cérémonie aurait bloqué deux salles pour pas grand-chose.
+
+*Il n'a donc pas eu une petite cérémonie : il a eu la leur.* **Il est le troisième, l'ajout, la commodité administrative** — et c'est à une salle venue pour deux qu'on annonce trois arrivants. Personne ne le dit, et il ne l'a jamais remarqué.`,
     `Il ne comprend rien et ne doit rien comprendre.`,
     `🔴 **C'est ici, et seulement ici, que la paire est posée.** La salle s'émerveille : « elles sont pareilles », « première fois que j'en vois », « j'en ai déjà vu il y a quelques années ». *Rien de plus — mais assez pour que le lecteur emporte deux visages identiques dont il ne fera rien.* **C'est à cette scène qu'il se raccrochera devant les corps, six cents pages plus loin.**`,
     `**La quatrième capsule doit être là et ne rien peser.** Un veilleur s'occupe des arrivants pendant qu'un autre racle, plus loin, pour que l'infamie de la chose n'entrave pas la cérémonie. *Un chifoumi silencieux s'est joué entre eux ce matin-là, et personne ne le racontera jamais.* Ce qu'Andrew en attrape est une odeur, mentionnée par quelqu'un au loin, et rien de plus.`,
@@ -2400,6 +2402,16 @@ const NOTES = [
 
 ⚠️ **À calibrer :** si June peut revenir, la promesse d'Andrew perd un peu de poids. *Ça enlève la finalité, ce qui est le but — mais sa visite à lui ne doit pas devenir banale pour autant.*` },
 
+{ d:`17 août`, s:`Il a eu la cérémonie des jumelles`, e:`acquis`, t:[`monde`,`cérémonie`],
+  v:`Je ne suis pas d'accord pour la cérémonie d'Andrew. Les capsules des jumelles ont eu un délai de maturation égal au temps où, dans le monde 1, elles étaient dans l'agonie — leur cérémonie est prévue. Même pas une heure après, celle d'Andrew apparaît. Le veilleur de l'époque le note et prend la décision d'en faire une seule cérémonie groupée : non seulement il n'y aurait pas eu beaucoup de monde pour sa venue, mais ça aurait bloqué deux pièces pour pas grand-chose. Autant grouper, rajouter un poste, et c'est tout. La capsule inopinée, c'est qu'elle a popé : les préparateurs n'ont même pas besoin de la préparer à l'ouverture, elle tient à si peu qu'elle pourrait s'ouvrir seule. Le préparateur branche juste les machines de contrôle.`,
+  q:`**Ma déduction était fausse et la vraie version est bien pire.** *Je concluais à une petite cérémonie devant une salle vide.* **La salle était pleine — et rien de tout ça n'était pour lui.**
+
+**Il n'a pas eu une petite cérémonie : il a eu la leur.** *Le public était venu pour la paire, dont les capsules avaient mis longtemps à mûrir et dont la cérémonie était prévue de longue date.* **Il est le troisième, l'ajout, la commodité administrative** — et c'est à une salle venue pour deux qu'on annonce trois arrivants.
+
+✅ **Et ça donne une règle de monde majeure : le délai de maturation est celui de l'agonie.** *Une mort lente donne une capsule qui met longtemps ; une mort brutale donne une capsule qui surgit d'un coup.* **La façon dont on est mort décide de la façon dont on arrive** — et de qui sera là pour vous voir.
+
+*Conséquence : « les capsules de la paire étaient attendues ; la sienne, non », qui figurait déjà sur la fiche, cesse d'être un détail administratif. C'est la trace de deux agonies contre une mort nette.*` },
+
 { d:`17 août`, s:`Le registre est une pièce`, e:`acquis`, t:[`monde`,`jugement`],
   v:`Je n'aime pas le fait que la phrase soit inscrite. On pourrait imaginer quelque chose de physique, visible : le registre ne serait pas un livre mais une pièce, complexe, que les veilleurs ont appris à lire avec le temps. À chaque capsule sa ligne, gravée quelque part, une année, un âge. Le public n'a pas accès à cette salle. Il ne pouvait pas mentir car quelque chose, ou quelqu'un, en est le maître, en est l'écrivain — personne d'autre ne peut écrire à sa place, on ne sait pas qui sait. On est dans une zone reculée du complexe, loin des capsules, comme dans les archives. De là est né le nom de l'Archiviste : on ne le voit pas, mais dans leur foi, il existe.`,
   q:`**Et le nom vient du lieu, pas l'inverse.** *On a appelé Archiviste celui qui écrit dans les archives, parce qu'on n'avait que ça pour le nommer.* **C'est une théologie fondée sur une pièce.**
@@ -2948,6 +2960,9 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
+["Corps","Le delai de maturation d'une capsule est celui de l'agonie dans l'autre monde. Une mort lente donne une capsule qui met longtemps a murir ; une mort brutale donne une capsule qui surgit d'un coup.","acquis"],
+["Ruche","Une capsule inopinee n'a pas besoin d'etre preparee a l'ouverture : elle tient a si peu qu'elle pourrait s'ouvrir seule, sans l'aide de personne. Le preparateur se contente de brancher les machines de controle.","acquis"],
+["Ruche","Quand une capsule surgit juste avant une ceremonie deja prevue, on ne monte pas une seconde ceremonie : on l'ajoute a celle qui existe. Un poste de plus, et c'est tout. Bloquer deux salles pour un seul arrivant ne se fait pas.","acquis"],
 ["Jugement","Le registre n'est pas un livre, c'est une piece. Un ensemble complexe que les veilleurs ont appris a lire avec le temps : a chaque capsule sa ligne, gravee quelque part, une annee, un age.","acquis"],
 ["Jugement","Le public n'a pas acces a cette piece. Elle se trouve dans une zone reculee du complexe, loin des capsules, comme des archives - et c'est de la qu'est venu le nom de l'Archiviste.","acquis"],
 ["Jugement","Le registre ne ment pas, et ce n'est pas un article de foi : c'est un constat. Les lignes s'inscrivent, personne ne les ecrit, et personne ne peut ecrire a la place de celui qui les ecrit. On ne sait pas qui sait.","acquis"],
@@ -3557,6 +3572,12 @@ const PHRASES = [
    ========================================================================== */
 
 const QUESTIONS = [
+{ g:`Le monde`, t:`Le métier sait-il ce que dit une maturation lente ?`, e:`ouvert`,
+  q:`**Le délai de maturation est celui de l'agonie**, et c'est un fait du monde. *La question est de savoir si les veilleurs l'ont remarqué.*`,
+  o:[`**S'ils le savent :** une longue maturation veut dire une longue mort, et chaque veilleur le lit sans avoir à le dire. **C'est le genre de chose qu'un métier constate et ne mentionne jamais** — et ça rend leur douceur beaucoup plus lourde.`,
+     `**S'ils l'ignorent :** c'est une corrélation que seul le lecteur peut faire, à la relecture, en rapprochant deux chiffres qui ne se rencontrent nulle part dans le texte.`],
+  n:`⚠️ **La première option est plus riche et plus dangereuse.** *Elle donne aux veilleurs un savoir de plus à taire* — et ce monde en compte déjà beaucoup.` },
+
 { g:`Le prologue`, t:`À quoi les capsules sont-elles fixées ?`, e:`trou`,
   q:`**Dernier trou du monde de la ruche.** *On sait qu'on les « décroche » à maturité, donc elles tiennent à quelque chose — et l'arbre mère est écarté.*`,
   o:[`**Proposition : c'est la végétation elle-même qui les porte, partout, sans tronc ni cœur.** Une pousse qui court dans tout le complexe, et des capsules qui se forment ici et là, à des hauteurs différentes. *On ne peut désigner aucune chose et dire « c'est ça qui les fait ».*`,
