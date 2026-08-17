@@ -2439,13 +2439,21 @@ const NOTES = [
 
 *C'est aussi ce que veut dire « lire le registre » : un veilleur connaît la pièce par cœur, il sait où regarder, et il sait quand quelque chose a bougé.*` },
 
-{ d:`17 août`, s:`Le registre est administratif, et les capsules sont un déchet`, e:`acquis`, t:[`monde`],
-  v:`La maternité enregistre-t-elle seulement l'arrivée ou toute la vie ? Pour moi la réponse est non, c'est administratif — comme le livret de famille, qui a aussi une page pour les décès. // Que devient le placenta après un accouchement ?`,
-  q:`**Deux réponses qui ferment deux trous, et les deux se donnent par analogie.**
+{ d:`17 août`, s:`Le registre n'enregistre que l'arrivée`, e:`acquis`, t:[`monde`,`jugement`],
+  v:`La maternité enregistre-t-elle seulement l'arrivée ou toute la vie ? Pour moi la réponse est non, c'est administratif. // Le registre ne doit pas contenir la fin.`,
+  q:`✅ **Une ligne par capsule : une année, un âge. Rien d'autre, jamais.** *Ni la fin, ni ce qui se passe entre les deux.*
 
-**Le registre enregistre l'arrivée et la fin, rien entre les deux.** *Comme un livret de famille : une page pour les naissances, une pour les décès.* ⚠️ **Conséquence à valider :** ce qu'Andrew trouve à la seconde piste n'est donc pas une ligne interrompue mais **une arrivée sans fin** — le garçon est vivant, c'est certain, et introuvable. *Ce sont les traces administratives ordinaires qui s'arrêtent, parce que le jardin est sous secret.*
+**Et ça resserre le défaut d'Andrew d'un cran de plus.** *La seule chose au monde qui ne mente jamais ne dit qu'un fait sur vous : que vous êtes arrivé.* **Tout le reste est de la paperasse tenue par des gens** — affectations, services, dossiers médicaux — et c'est faillible.
 
-**Et les capsules vides sont un déchet clinique.** *On les étudie, on s'en débarrasse, personne n'y pense* — exactement comme un placenta. **Le miracle a lieu dans un temple et ses restes partent avec les ordures**, et ce contraste-là ne se souligne jamais.` },
+*Conséquence sur la seconde piste : elle ne passe pas par l'épicentre.* **Le jeune arrivant dont plus rien n'est écrit, c'est un dossier ordinaire qui s'arrête** parce que le jardin ne rend rien. **Et elle meurt sur une erreur administrative** — l'homme qui croit les documents est tué par le seul type de document qui puisse se tromper.
+
+*L'Écriture du dossier : ça signifie aussi que l'Épicentre ne juge pas et n'enregistre pas les morts. Il envoie, et il note qu'il a envoyé.*` },
+
+{ d:`17 août`, s:`Les capsules vides sont un déchet`, e:`acquis`, t:[`monde`],
+  v:`Que devient le placenta après un accouchement ?`,
+  q:`**On les étudie, on s'en débarrasse, personne n'y pense.** *La gélatine conservée suit le même régime : un prélèvement clinique, rien de plus.*
+
+**Le miracle a lieu dans un temple et ses restes partent avec les ordures**, et ce contraste-là ne se souligne jamais.` },
 
 { d:`17 août`, s:`Le registre est une pièce`, e:`acquis`, t:[`monde`,`jugement`],
   v:`Je n'aime pas le fait que la phrase soit inscrite. On pourrait imaginer quelque chose de physique, visible : le registre ne serait pas un livre mais une pièce, complexe, que les veilleurs ont appris à lire avec le temps. À chaque capsule sa ligne, gravée quelque part, une année, un âge. Le public n'a pas accès à cette salle. Il ne pouvait pas mentir car quelque chose, ou quelqu'un, en est le maître, en est l'écrivain — personne d'autre ne peut écrire à sa place, on ne sait pas qui sait. On est dans une zone reculée du complexe, loin des capsules, comme dans les archives. De là est né le nom de l'Archiviste : on ne le voit pas, mais dans leur foi, il existe.`,
@@ -2995,7 +3003,9 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
-["Jugement","Le registre est administratif, pas biographique. Il enregistre l'arrivee et la fin, comme un livret de famille a une page pour les naissances et une pour les deces. Le reste d'une vie ne s'y ecrit pas.","acquis"],
+["Jugement","Le registre de l'epicentre n'enregistre que l'arrivee. Ni la fin, ni rien de ce qui se passe entre les deux : une ligne par capsule, une annee, un age, et c'est tout.","acquis"],
+["Administration","Tout le reste est de la paperasse ordinaire, tenue par des gens : affectations, services, dossiers medicaux, jardin sous secret. C'est faillible, ca se perd, ca se trompe - et c'est la que travaille reellement un enqueteur.","acquis"],
+["Jugement","Consequence : la seule chose au monde qui ne mente jamais ne dit qu'un fait sur vous, celui que vous etes arrive. Tout le reste est humain.","acquis"],
 ["Jugement","La salle du registre est l'epicentre : c'est de la que sortent les capsules. Un sac de racines y est ancre tout autour, et la coulee part de la pour courir dans le reste du complexe.","acquis"],
 ["Jugement","C'est une salle ouverte, presque une clairiere : des arbres, des steles, des gravures. Ca donne un aspect de ruine abandonnee sans que ce soit une ruine - et c'est l'homme qui a voulu conserver l'epicentre comme quelque chose de sacre.","acquis"],
 ["Jugement","L'epicentre n'est pas ferme au public : il est separe du reste du complexe par de la construction humaine. On pourrait y entrer. Presque personne ne le fait, parce qu'il y a beaucoup de croyance autour et parce qu'une personne ordinaire ne saurait pas lire le lieu.","acquis"],
@@ -3621,12 +3631,12 @@ const PHRASES = [
    ========================================================================== */
 
 const QUESTIONS = [
-{ g:`Le monde`, t:`Ce que le registre dit du jeune arrivant de la seconde piste`, e:`ouvert`,
-  q:`**Le registre est administratif : l'arrivée et la fin, rien entre les deux.** *Ça règle la contradiction que je signalais — mais ça change ce qu'Andrew y trouve.*
+{ g:`Le monde`, t:`Ce qu'Andrew lit, et où`, e:`acquis`,
+  q:`✅ **Tranché le 17 août 2026 : le registre de l'épicentre n'enregistre que l'arrivée.** *Ni la fin, ni rien entre les deux.* **Une ligne par capsule, une année, un âge, et c'est tout.**
 
-**Lecture proposée : il y voit la ligne d'arrivée, et pas de ligne de fin.** *Le garçon n'est donc pas mort, c'est certain, et le registre ne ment pas.* **Ce sont les traces administratives ordinaires qui s'arrêtent** — parce qu'il est entré au jardin, dont les dossiers sont sous secret.`,
-  o:[`**Ce que ça donne à la scène :** Andrew sait de façon absolue que quelqu'un est vivant, et il est absolument incapable de le trouver. *C'est le meilleur moteur possible pour une fausse piste.*`,
-     `⚠️ **À confirmer par l'autrice** — et si c'est faux, c'est la seule chose du monde de la ruche qui reste à recaler.`] },
+**Tout le reste est de la paperasse ordinaire**, tenue par des gens : affectations, services, dossiers médicaux, jardin sous secret. *C'est faillible, ça se perd, ça se trompe.* — **Et c'est là que travaille réellement un enquêteur.**`,
+  o:[`**La seconde piste ne passe donc pas par l'épicentre.** *Le jeune arrivant dont plus rien n'est écrit après une certaine date, c'est un dossier administratif qui s'arrête* — et il s'arrête parce que le jardin ne rend rien.`,
+     `**Et le défaut d'Andrew se resserre encore.** *La seule chose au monde qui ne mente jamais ne dit qu'un fait sur vous : que vous êtes arrivé.* **Tout ce sur quoi il travaille réellement est humain, donc faillible** — et la seconde piste meurt précisément sur une erreur administrative.`] },
 
 { g:`Le monde`, t:`Le métier sait-il ce que dit une maturation lente ?`, e:`ouvert`,
   q:`**Le délai de maturation est celui de l'agonie**, et c'est un fait du monde. *La question est de savoir si les veilleurs l'ont remarqué.*`,
