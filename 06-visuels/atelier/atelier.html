@@ -2402,6 +2402,16 @@ const NOTES = [
 
 ⚠️ **À calibrer :** si June peut revenir, la promesse d'Andrew perd un peu de poids. *Ça enlève la finalité, ce qui est le but — mais sa visite à lui ne doit pas devenir banale pour autant.*` },
 
+{ d:`17 août`, s:`Un champ de courges sous une halle sculptée`, e:`acquis`, t:[`ruche`,`monde`],
+  v:`Je les imagine bien comme sur une même ligne de végétation qui s'enchevêtre un peu partout. Les capsules sont à l'horizontale, comme attendant d'être cueillies — imagine des champs de courges ou de melons, ça serait sympa. Et pour la cérémonie, la capsule est amenée et maintenue dans une verticalité presque complète.`,
+  q:`**Le dernier trou du monde de la ruche est bouché, et par l'image la plus humble possible.** *Une coulée qui court, des fruits posés dessus, et rien qu'on puisse désigner comme la source.* **L'arbre mère est définitivement mort.**
+
+✅ **Et deux mots du dossier deviennent littéraux d'un coup.** *Travée* n'est plus une image d'église : ce sont des rangs de culture sous une halle. **Et « décrocher », c'est détacher la capsule de la coulée qui la porte**, comme on coupe un melon de sa tige.
+
+✅ **Le redressement devient le dernier geste du rituel.** *La capsule passe de l'horizontale à la verticale juste avant l'ouverture* — **c'est le seul moment de sa vie où elle se tient debout**, et ça arrive une minute avant que quelqu'un en sorte.
+
+**Ce que ça fait au ton :** un champ de courges est humble, agricole, chaud. *Rien là-dedans ne ressemble à de la science-fiction.* **C'est du maraîchage sous une halle sculptée, et c'est exactement ce qui rend le lieu inquiétant sans qu'on ait à le montrer.**` },
+
 { d:`17 août`, s:`Il a eu la cérémonie des jumelles`, e:`acquis`, t:[`monde`,`cérémonie`],
   v:`Je ne suis pas d'accord pour la cérémonie d'Andrew. Les capsules des jumelles ont eu un délai de maturation égal au temps où, dans le monde 1, elles étaient dans l'agonie — leur cérémonie est prévue. Même pas une heure après, celle d'Andrew apparaît. Le veilleur de l'époque le note et prend la décision d'en faire une seule cérémonie groupée : non seulement il n'y aurait pas eu beaucoup de monde pour sa venue, mais ça aurait bloqué deux pièces pour pas grand-chose. Autant grouper, rajouter un poste, et c'est tout. La capsule inopinée, c'est qu'elle a popé : les préparateurs n'ont même pas besoin de la préparer à l'ouverture, elle tient à si peu qu'elle pourrait s'ouvrir seule. Le préparateur branche juste les machines de contrôle.`,
   q:`**Ma déduction était fausse et la vraie version est bien pire.** *Je concluais à une petite cérémonie devant une salle vide.* **La salle était pleine — et rien de tout ça n'était pour lui.**
@@ -2960,6 +2970,10 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
+["Ruche","La vegetation est une meme ligne qui s'enchevetre un peu partout dans le complexe. Pas de tronc, pas de coeur, pas d'organe central : on ne peut designer aucune chose et dire que c'est elle qui produit.","acquis"],
+["Ruche","Les capsules reposent a l'horizontale sur cette ligne, en attente d'etre cueillies - l'image juste est un champ de courges ou de melons, pas une soute de vaisseau. C'est pour ca qu'on les decroche : on les detache de la coulee qui les porte.","acquis"],
+["Ruche","Elles sont alignees en travees, et le mot est litteral : des rangs de culture sous une halle. C'est ainsi qu'on les designe entre veilleurs - travee neuf, travee quarante.","acquis"],
+["Ruche","Pour la ceremonie, la capsule est amenee et maintenue dans une verticalite presque complete. Le passage de l'horizontale a la verticale est le dernier geste avant l'ouverture, et c'est le seul moment ou une capsule se redresse.","acquis"],
 ["Corps","Le delai de maturation d'une capsule est celui de l'agonie dans l'autre monde. Une mort lente donne une capsule qui met longtemps a murir ; une mort brutale donne une capsule qui surgit d'un coup.","acquis"],
 ["Ruche","Une capsule inopinee n'a pas besoin d'etre preparee a l'ouverture : elle tient a si peu qu'elle pourrait s'ouvrir seule, sans l'aide de personne. Le preparateur se contente de brancher les machines de controle.","acquis"],
 ["Ruche","Quand une capsule surgit juste avant une ceremonie deja prevue, on ne monte pas une seconde ceremonie : on l'ajoute a celle qui existe. Un poste de plus, et c'est tout. Bloquer deux salles pour un seul arrivant ne se fait pas.","acquis"],
@@ -3580,12 +3594,12 @@ const QUESTIONS = [
      `**S'ils l'ignorent :** c'est une corrélation que seul le lecteur peut faire, à la relecture, en rapprochant deux chiffres qui ne se rencontrent nulle part dans le texte.`],
   n:`⚠️ **La première option est plus riche et plus dangereuse.** *Elle donne aux veilleurs un savoir de plus à taire* — et ce monde en compte déjà beaucoup.` },
 
-{ g:`Le prologue`, t:`À quoi les capsules sont-elles fixées ?`, e:`trou`,
-  q:`**Dernier trou du monde de la ruche.** *On sait qu'on les « décroche » à maturité, donc elles tiennent à quelque chose — et l'arbre mère est écarté.*`,
-  o:[`**Proposition : c'est la végétation elle-même qui les porte, partout, sans tronc ni cœur.** Une pousse qui court dans tout le complexe, et des capsules qui se forment ici et là, à des hauteurs différentes. *On ne peut désigner aucune chose et dire « c'est ça qui les fait ».*`,
-     `**Ce que ça règle :** les pièces de collecte sont simplement les endroits où la pousse est la plus dense. Et **le centre n'est pas une source, c'est le plus ancien** — l'endroit par lequel ça a commencé, autour duquel on a bâti.`,
-     `**Autre piste :** elles ne pendent pas, elles ont fusionné avec leur support et on les en détache — comme un fruit qui a poussé contre un mur. *« Décrocher » devient alors un geste de force, pas de cueillette.*`],
-  n:`⛔ **Quelle que soit la réponse, aucune explication.** *On voit qu'on décroche, on ne saura jamais ce qui produit.*` },
+{ g:`Le prologue`, t:`À quoi les capsules sont-elles fixées ?`, e:`acquis`,
+  q:`✅ **Trouvé par l'autrice, 17 août 2026 — et c'est un champ de courges.** *Une même ligne de végétation qui s'enchevêtre un peu partout, et les capsules posées à l'horizontale dessus, comme en attente d'être cueillies.* **Pas de tronc, pas de cœur, pas d'arbre mère** — une coulée qui court, et des fruits où elle passe.`,
+  o:[`**Le mot travee devient littéral :** des rangs de culture sous une halle. *C'est pour ça qu'on dit travée neuf comme on dirait rang neuf.*`,
+     `**Et « décrocher » aussi :** on détache la capsule de la coulée qui la porte, comme on coupe un melon de sa tige.`,
+     `✅ **Le dernier geste avant l'ouverture est un redressement.** *Pour la cérémonie, la capsule est amenée et maintenue dans une verticalité presque complète* — **c'est le seul moment de sa vie où une capsule se tient debout.**`],
+  n:`**Ce que ça fait au ton, et c'est énorme :** *un champ de courges est humble, agricole, chaud.* **Rien dans ce décor ne ressemble à de la science-fiction** — c'est un maraîchage sous une halle sculptée, et c'est exactement ce qui rend le lieu inquiétant sans jamais le montrer.` },
 
 { g:`Le monde`, t:`Comment la ruche fait le lien avec l'Archiviste`, e:`ouvert`,
   q:`**Proposition, 17 août 2026 : le lien n'est pas une preuve, c'est un bâtiment.** *On dit que les capsules sont envoyées par l'Archiviste ; on ne l'a jamais vu, on ne le verra jamais, et le livre ne confirmera rien.* **Mais on a bâti autour de l'endroit où elles apparaissent — et un bâtiment, ça, c'est vérifiable.**
