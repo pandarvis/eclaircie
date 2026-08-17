@@ -94,6 +94,22 @@ C'est un **vocabulaire de réveil**, et il est offert. Un homme qui émerge, qui
 
 ---
 
+## Le réveil, précisé le 18 août 2026
+
+*Écrit en écrivant le prologue. Le détail du rite est dans [`la-ruche.md`](la-ruche.md) ; ce qui suit ne concerne que le corps.*
+
+**Rien ne bouge tant que le rabat est en place.** ✅ *C'est son retrait qui active le corps* — dès qu'on le replie, la lumière entre et le corps remonte. **Personne dans le livre ne l'explique, et le narrateur non plus.**
+
+**Ce n'est pas un sursaut, c'est un ralentissement de tout** : quelqu'un qu'on tire d'un sommeil trop profond et qui remonte par paliers. Les paupières bougent sans s'ouvrir, s'ouvrent, se referment aussitôt sur la lumière, se rouvrent à moitié. *Les pupilles mettent longtemps à se faire.* **Un corps de quarante ans met plus longtemps qu'un corps de dix.**
+
+**Sous le voile, le corps est immaculé, propre et sec**, placé comme on se place pour dormir quand on n'a mal nulle part.
+
+**La première eau, et c'est la première chose qu'il fait de sa vie.** *Il n'y en a pas eu d'autre avant celle-là.* On dit que cette eau-là emporte ce qui reste du sommeil et que personne ne peut aller le chercher à sa place ; **ceux qui n'y croient pas regardent quand même**, parce que c'est le seul moment où l'on voit un corps faire une chose que personne ne lui a apprise.
+
+**Et parler de travers en se réveillant, ça arrive** — la langue sort avec lui et tourne à vide un moment avant de se poser sur quelque chose. *Il n'y a rien à comprendre ; juste à attendre.* ⚠️ **Mais ce n'est pas systématique**, et c'est ce qui laisse une place à Eliott sans faire de lui un cas.
+
+---
+
 ## Puis on rajeunit, et tout se renverse
 
 *Vaut pour tous ceux qui arrivent **au-dessus de huit ans**, c'est-à-dire la quasi-totalité du monde. Pour l'autre cas, voir la section suivante.*

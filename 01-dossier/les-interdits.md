@@ -155,3 +155,34 @@ La bible d'autrice n'est soumise à aucune d'entre elles. Les documents de trava
 Rappel du §14 :
 
 > **L'autrice doit connaître le système au chiffre près, pour que le monde soit solide. Le lecteur doit juste savoir qui envier.**
+
+
+---
+
+# Précisions du 18 août 2026
+
+*Ajoutées en écrivant le prologue. Elles ne créent pas de nouveaux numéros : elles précisent le n° 11 et ajoutent une contrainte propre au premier chapitre.*
+
+## 11 bis. La liste exacte des mots, corrigée par l'autrice
+
+**Les mots d'apparence physique passent.** *Un gars, un garçon, une femme, une fille, une fillette.* **Ce sont des attraits qui touchent le physique, la taille en général** — et la matière n'a jamais été interdite.
+
+**Ce qui ne passe pas**, en plus des mots de parenté et des noms de famille :
+
+> **enfant · bébé · nourrisson · vieux · vieille · vieillard · senior**
+
+*Chacun suppose une place dans une lignée ou une direction dans une vie, et ni l'une ni l'autre n'existent ici.*
+
+⚠️ **Le validateur de l'atelier avait été écrit plus sévère que l'interdit** — il bannissait *garçon*, *gamin* et *gosse*. **Il porte désormais la liste de l'autrice**, pas la mienne. Voir `06-visuels/atelier/valide.js`.
+
+## 11 ter. Aucun vocabulaire de mécanique sur une capsule
+
+⛔ **Ni rainures, ni glissières, ni crans, ni capot.** *La capsule a poussé, elle est asymétrique, elle est organique : rien en elle n'est dur ni cassant.* **La crémaillère du chariot est permise** — elle est dans le chariot.
+
+## Contrainte propre au prologue
+
+⛔ **Rien de ce que dit Eliott à sa cérémonie ne doit pouvoir se rattacher au jour de sa mort.** *Pas d'eau, pas de « en bas », pas de « il n'est pas remonté ».* **Le lecteur n'apprend ce qui s'est passé qu'à l'épilogue, et il ne doit pas pouvoir l'avoir deviné en page une.**
+
+⛔ **Et aucune capsule pourrie dans le prologue, pas même une allusion.** *La première que le lecteur rencontre est celle de la journée à la ruche, et elle doit le révulser sans qu'il ait été prévenu.*
+
+Détail dans [`../03-personnages/eliott.md`](../03-personnages/eliott.md) § 3 bis.

@@ -12,12 +12,116 @@
 >
 > ✅ **Le miroir.** Pendant la cérémonie, le veilleur tend un miroir à l'arrivant pour qu'il fasse connaissance avec sa propre apparence. *Geste de protocole, au même titre que la couverture : personne ne l'explique et personne ne s'en étonne.*
 >
-> ⚠️ **Quatre trous ouverts**, dans l'atelier, onglet Trancher : *ce qu'est une capsule* — on ne sait d'elles que l'éclaircie —, *la couleur du lieu* (pourpre et or, ou bleu ciel et orangé), *le rituel complet de la cérémonie*, et *les visiteurs*.
+> ✅ **Le rituel complet de la cérémonie est fermé depuis le 18 août 2026** — voir la section suivante, écrite en écrivant le prologue.
+>
+> ⚠️ **Trois trous restent ouverts**, dans l'atelier, onglet Trancher : *ce qu'est une capsule* — on ne sait d'elles que l'éclaircie —, *la couleur du lieu* (pourpre et or pour les passages sculptés, bleu ciel et orangé pour la trouée de lumière), et *les visiteurs* : qui ils sont et comment ils sont désignés.
 
 
 *Document de référence sur le fonctionnement de la ruche. Reprend et organise le §5 (l'Archiviste), le §6 (l'Éclaircie), le §8 (les capsules sans éclaircie), le §10 (le lexique) et le §12 (les personnages) du [dossier maître](../L-ECLAIRCIE-dossier-complet.md), et intègre les décisions successives de l'autrice.*
 
 > ⚠️ **Ce document suppose la révision du §4 posée dans [`le-corps-des-arrivants.md`](le-corps-des-arrivants.md) : on sort de la capsule en sachant parler.** Sans elle, le protocole du nom ci-dessous est impossible. Le dossier maître n'a pas été modifié ; la correction y est en attente.
+
+---
+
+## Le lieu et le rite, arrêtés les 17 et 18 août 2026
+
+*Écrit en écrivant le prologue. **Tout ce qui suit a été joué dans une scène avant d'être posé en règle**, ce qui est l'inverse de la méthode habituelle du dossier — et c'est pour ça que ça tient.*
+
+### La végétation : un coulant, la coulée
+
+**On dit *un coulant* pour un brin, *la coulée* pour la masse.** Le rapport entre les deux mots est celui du lierre à une branche de lierre.
+
+*Le mot vient du jardinage* — le coulant est le rejet qui part du pied et s'en va faire racine plus loin ; les courges filent sur leurs coulants. **C'est exactement ce que fait cette plante-là**, et c'est pour ça que les capsules poussent *à plat dessus*, en rang, comme un champ de courges sous une halle.
+
+> Un coulant traverse la salle de cérémonie : épais comme un bras, entré par une percée du mur, enroulé autour de deux colonnes, ressorti plus loin sans qu'on sache où il va.
+
+⛔ ***Ligne* est écarté** — trop plat. ⛔ ***Coulée* seul est écarté pour un brin** : ça évoque quelque chose qui a coulé, pas une plante qui rampe.
+
+**L'ornement imite ce qu'il entoure**, et l'image qui porte toute la règle tient en une phrase : sur une colonne, la sculpture monte à mi-hauteur et s'arrête net, le coulant prend le relais et continue jusqu'en haut. *On ne sait pas laquelle des deux a copié l'autre.*
+
+### La serre
+
+**La zone où serpente la coulée, autour de la salle du registre.** C'est le domaine des **préparateurs** : ils y vivent au milieu de la ligne, la suivent d'un bout à l'autre, savent à la main quand une capsule est prête, et la décrochent.
+
+*On ne les voit qu'à la cérémonie, deux fois : à l'arrivée des chariots, et à la fin pour reprendre les capsules vides et les bassines.* Entre les deux ils se tiennent droits sur une bordure de la salle, les mains croisées devant eux, spectateurs à leur tour. **Leur travail s'arrête à la porte** — c'est le rôle qu'ont chez nous ceux qui accompagnent quelqu'un jusqu'au bloc.
+
+### Le rabat — et le mot *capot* est proscrit
+
+**Ce qui recouvre l'ouverture n'est pas un couvercle rapporté : c'est un morceau de la paroi elle-même**, découpé lors de l'ouverture chirurgicale, dans une autre pièce, et remis dessus. *D'où sa couleur : plus sombre et plus mat que le reste depuis qu'on l'a détaché.*
+
+> Ça ne casse pas, ça plie, et ça tient où on le laisse.
+
+⛔ **Le mot *capot* est proscrit** — il donne l'impression d'un truc dur, et rien ici n'est dur. ⛔ **Et aucun vocabulaire de mécanique ne doit approcher une capsule** : ni rainures, ni glissières, ni crans. *La capsule a poussé, elle est asymétrique, elle est organique.* La crémaillère du chariot, elle, est permise : elle est dans le chariot.
+
+✅ **C'est le retrait du rabat qui active le corps.** Tant qu'il est en place, rien ne bouge ; dès qu'on le replie, la lumière entre et le corps remonte. **Personne dans le livre ne l'explique.**
+
+✅ **On le replie d'un quart, et pas davantage** : le visage, la gorge, le haut des épaules. Le reste attend le second veilleur. *Ce n'est pas de la pudeur, c'est l'ordre du rite — le miroir et le nom viennent avant le corps.*
+
+### L'aspect d'une capsule
+
+**Longue comme un corps et un peu plus.** Large au milieu, effilée aux deux bouts, avec cette dissymétrie qu'ont les choses qui ont poussé : un flanc plus plein que l'autre, une courbe qui reprend là où on ne l'attend pas. *Des nervures courent sur toute la longueur, très fines, serrées près des pointes et écartées au ventre, et elles se rejoignent sans jamais tout à fait se toucher.* **Rien là-dedans n'a été dessiné.**
+
+**L'éclaircie se lit à la paroi** : ce jaune très pâle qui vient à la fin, **presque comme de la cire**, et par endroits on voit au travers. *Une ombre plus dense, une courbe, quelque chose de replié — et rien de plus.* Là-dedans tout se confond avec le fond, et **ceux qui prétendent reconnaître un genou ou une épaule à travers une paroi mentent, ou débutent.**
+
+**Le voile de gelée** recouvre le corps entièrement : orange, épais, mat, *sans une goutte nulle part*. Ça ne coule pas — ça s'enlève. La paume à plat sur l'épaule, on fait descendre, et il vient d'un seul tenant, roulé sur lui-même comme une peau de fruit. **Dessous, le corps est parfaitement propre et parfaitement sec**, placé comme on se place pour dormir quand on n'a mal nulle part.
+
+### Le tempo, et les capsules inopinées
+
+**Une mort brutale ne laisse aucun délai de maturation : la capsule surgit le jour même.** On n'a donc pas pu l'étudier en amont, sa fiche tient en trois lignes, et la cérémonie se monte dans la journée.
+
+*Le tempo qui en découle :* **on ne court pas, mais on ne s'assoit pas non plus.** Une capsule à maturité ne se garde pas. **C'est une question d'organisation, jamais de danger.**
+
+### Les salles et le public
+
+**Les salles de cérémonie portent un numéro, pas un nom.** *La salle 4.* Écrit en chiffre. ⛔ *Les noms de salle sont écartés — testés le 18 août avec « la Rosace », abandonnés.*
+
+**Une cérémonie annoncée réunit une vingtaine de personnes. Une cérémonie montée dans la journée en réunit une douzaine** — et elles tiennent toutes sur un seul côté de la salle.
+
+⛔ **Il n'y a rien de cruel là-dedans.** Le public ne vient pas pour quelqu'un en particulier : il vient pour célébrer une arrivée. *Personne ne pense « zut, il y en a un de plus ».* Ceux qui sont là constatent qu'il y en a un de plus, et c'est tout.
+
+### Le poste, et la table
+
+**Un poste par capsule :** une lampe sur pied à hauteur d'épaule, orientée vers le sol et pas vers le visage ; un miroir sur pied roulant, à frein ; une bassine à droite, vide, avec les flacons dedans.
+
+**Au milieu de la pièce, la table** : une nappe blanche et lisse, un chemin de table orangé, un pichet d'eau au centre — et devant chaque place **un verre, une timbale et un biberon.** *Personne ne sait qui va sortir, et on ne parie pas.* On pose les trois, on prend celui qu'il faut le moment venu, et on remet les deux autres sur la desserte sans y penser. **La pile de serviettes suit le même principe : quatre tailles, une de chaque.**
+
+*Les chaises sont empilées contre le mur ; on en descend le nombre qu'il faut.* **Une salle qui sert autant à deux arrivants qu'à vingt-six ne peut pas avoir de chaises installées en permanence.**
+
+### Le rite, dans l'ordre
+
+**① Le rabat**, replié d'un quart. La lumière entre. Le corps remonte par paliers — les paupières, la lumière trop forte, les pupilles qui mettent longtemps à se faire.
+
+**② Le voile**, ôté de l'épaule et du bras, déposé dans la bassine.
+
+**③ Le relevé — et c'est un changement du 17 août 2026.** *La foule estime l'âge à vue et se trompe de quelques années : elle chuchote « douze », puis « treize ».* **Puis le veilleur sort l'instrument, fait le relevé, et tranche pour tous :**
+
+> — Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté dix ans.
+
+*⛔ La règle « aucun chiffre n'est annoncé à la cérémonie » est donc abrogée.* **La marge entre l'estimation et le nombre se referme à chaque cérémonie**, et le livre s'en sert dès la première page. *L'instrument, lui, reste étrange pour qui ignore à quoi il sert et banal pour qui sait le manier — il ne se décrit jamais plus que ça.*
+
+**④ Le miroir**, pivoté en biais, un peu de trois quarts, à la bonne hauteur. **Le premier regard d'un arrivant se porte sur son propre visage**, et c'est le veilleur qui l'organise.
+
+**⑤ On attend que le regard se porte sur soi.** C'est le signe ; on ne parle jamais avant.
+
+**⑥ Le nom.** Une phrase courte pour expliquer ce qu'est un nom, la question, la réponse d'instinct. *C'est là qu'on découvre sa voix.* Puis le veilleur inscrit le mot et, à la suite, **le numéro que l'arrivant portera toute sa vie.**
+
+**⑦ Le prélèvement, et c'est le geste du premier veilleur.** ✅ *Décision de l'autrice, 18 août 2026 : c'est un geste important, et il ne se délègue pas.* Il remplit ses flacons lui-même, **à même le voile qu'il vient d'ôter**, après le nom et avant de passer à la capsule suivante. *Une fois, jamais deux.*
+
+**⑧ Le second veilleur ne fait que finir** : il ôte le rabat en entier, décolle ce qui reste de gelée aux plis des coudes et des genoux, aide à sortir, habille et installe à la table.
+
+**⑨ La serviette de cérémonie.** *Un grand rectangle de toile percé d'un trou pour la tête, qui tombe droit devant et droit derrière.* On croise les pans sur les côtés et **on les ferme d'une ceinture.**
+
+**⑩ Le pichet, et c'est un usage dont personne ne sait dater l'origine.**
+
+> On dit que la première eau emporte ce qui reste du sommeil, et que personne ne peut aller le chercher à sa place. Ceux qui n'y croient pas regardent quand même — c'est le seul moment où l'on voit un corps faire une chose que personne ne lui a apprise.
+
+*Les deux lectures tiennent dans la même respiration : une purification pour les croyants, un test de réflexe pour les autres.* ⛔ *Et on ne le dit ni avec « laver le dedans », ni avec « avaler ».*
+
+**⑪ Les cadeaux.** Le public s'avance et dépose au milieu de la table ce qu'il a apporté **pour leur porter chance** : un fruit, une boule d'osier tressée, trois épis noués par un fil de laine rouge, une pierre plate.
+
+✅ **Et ce moment n'est pas froid : c'est une naissance.** *Silence cérémonieux jusque-là, puis du bruit pour la première fois* — on se penche pour mieux voir, on commente, deux personnes se serrent le bras sans se connaître, des « bienvenue » se reprennent de bouche en bouche. **La règle du monde tient quand même, mais elle passe après la joie :** *aucun d'eux ne les connaissait, aucun ne les reverrait, et ça n'enlevait rien.*
+
+**⑫ Le veilleur est le dernier à quitter la salle.** Il reporte les arrivants **en une ligne** — le jour, les travées, l'heure, les âges relevés, les mots, les numéros — *et sous la ligne il y a une case pour les observations.*
 
 ---
 

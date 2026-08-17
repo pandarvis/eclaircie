@@ -90,6 +90,58 @@ C'est la première page du roman, et elle installe en une scène ce que le livre
 
 ---
 
+## 3 bis. La première page, écrite les 17 et 18 août 2026
+
+*Le chapitre existe : **[Prologue — La cérémonie](../05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf)**, 2 540 mots. La fiche de travail vivante est l'atelier, scène `ouv`.*
+
+### Ce qu'il dit, et l'interdit qui va avec
+
+⛔ **Rien de ce qu'il dit ne doit pouvoir se rattacher au jour de sa mort.** *L'autrice, 17 août 2026 : « je veux pas qu'on puisse faire un lien quelconque avec le jour de l'accident — ça gâche l'épilogue qui nous apprend ce qui s'est passé ».*
+
+**Donc : pas d'eau, pas de « en bas », pas de « il n'est pas remonté », pas de « il faut aller le chercher ».** *Toutes ces pistes ont été écrites, jouées, et coupées.* **Ce qu'il dit doit n'avoir aucun sens** — c'est ça qui fait peur, et c'est ça qui protège la dernière page.
+
+**Ce qui est retenu**, et il est nu sous une serviette de cérémonie :
+
+> — Il faut vider mes poches.
+>
+> — Elles sont pleines.
+>
+> — Je reviens bientôt.
+>
+> — Non non, tu ne comprends pas, c'est un peu tard !
+
+*Deux ou trois personnes regardent quand même la serviette, comme s'il avait pu y avoir des poches dessus.* **Pendant une seconde, une salle entière le prend au sérieux — et s'en aperçoit.**
+
+**La quatrième réplique contredit le narrateur**, qui vient de poser la règle du monde (*« il n'y avait rien à comprendre ; juste à attendre »*). **Le narrateur a raison sur le monde et tort sur celui-là, et il ne le saura jamais.**
+
+⚠️ *La veilleuse hésite un temps, un seul, et le referme aussitôt : un léger mouvement de tête étonné, sauvé par un sourire rassurant.* **C'est un professionnel, pas quelqu'un qui bafouille.**
+
+### Le mimétisme, à la place du dévisagement
+
+✅ **Il ne fixe pas l'homme d'à côté : il fait pareil.** L'homme se touche la bouche, Eliott se touche la bouche. L'homme descend l'index le long de son menton, Eliott descend le sien. L'homme ouvre la paume, Eliott ouvre la sienne.
+
+> Quelqu'un rit tout bas contre le mur. C'était drôle, ce petit qui singeait l'autre, et la salle avait besoin de rire de quelque chose.
+
+**Le lecteur range ça dans la curiosité. Ce n'en est pas** — c'est un corps qui se cale sur un autre sans lui demander la permission.
+
+⚠️ **La question ouverte du chapitre :** *est-ce que le lecteur s'en souviendra six cents pages plus loin*, quand Eliott dira *« quand je me suis tourné, j'ai vu ses yeux, tout pareils que les miens »* ? Rien ne pèse, personne ne relève, et c'est voulu — **mais il faut qu'il ait quelque chose à retrouver.**
+
+### L'ordre du regard, tenu au mot près
+
+**Son visage dans le miroir. Puis la salle. Puis la capsule voisine, au milieu du balayage et sans y peser. Puis le plafond. Puis Andrew.**
+
+*Il ne voit Nicolas qu'à la table, quand celui-ci tourne la tête* — ce qui valide au mot près le *« je l'avais pas vu, au début. Je crois que lui non plus »* de l'épilogue.
+
+**Et c'est le nom donné qui fait basculer Andrew sur la seconde capsule.** *C'est pendant qu'il a les deux mains dans cette capsule-là, de dos, que le petit se met à parler.* **« Andrew ne se retourna pas. »** — le « on passe outre » n'est pas une décision, c'est une position de corps.
+
+### Nicolas
+
+✅ **L'arrivant de quarante ans a un nom d'éclaircie : Nicolas.** *Et quarante-deux ans, pas quarante — l'autrice, 18 août 2026 : pas de chiffre rond.*
+
+*Il apparaît deux fois dans tout le livre, ici et scène 8, et rien ne doit inviter à rapprocher son nom de celui d'Eliott.*
+
+---
+
 ## 4. Sa vie ordinaire
 
 Il est pris en charge par **June** — voir [`june.md`](june.md) pour la raison : un arrivant de dix ans relève d'une berceuse et non d'un tuteur, puisqu'il ne deviendra jamais adulte.

@@ -1,6 +1,6 @@
 # Andrew — le veilleur
 
-*Nom tranché le 14 août 2026 : **Andrew** ici, **Joël** dans la vie d'avant. Manie et honte quotidienne : toujours à trouver.*
+*Nom tranché le 14 août 2026 : **Andrew** ici, **Joël** dans la vie d'avant. **Manie tranchée le 18 août 2026 : il compte.** Honte quotidienne : toujours à trouver.*
 
 ---
 
@@ -21,6 +21,24 @@
 **L'écart avec elle.** Elle arrive **dix ans après lui**, à **64 ans**. Elle a donc **douze ans de plus que lui** dans cette vie-ci, alors qu'il en avait **huit de plus qu'elle** dans la précédente. L'écart n'est pas seulement inversé : il est creusé.
 
 Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-ages-croises.md).
+
+---
+
+## Sa manie, tranchée le 18 août 2026 — il compte
+
+**Il compte, et il ne décide pas de le faire.** *Vingt-deux chaises empilées contre le mur, en quatre piles inégales. Douze visiteurs le long d'un mur. Sept éléments sur la table.* Certains de ces comptes servent à son métier ; la plupart ne servent à rien.
+
+**Et c'est la dernière page du livre qui le paie** — *« il compta les petits en traversant. Ils étaient quarante-deux »*. Le même verbe, la même construction, six cents pages plus loin, et personne ne le souligne ni au début ni à la fin.
+
+⛔ **Aucune phrase ne commente cette manie.** Ni du narrateur, ni de lui, ni d'un tiers. *On voit les nombres tomber, c'est tout.*
+
+## Son geste, tranché le 18 août 2026 — le prélèvement
+
+**C'est le premier veilleur qui prélève, et ça ne se délègue pas.** *Décision de l'autrice : « c'est un geste important ».* Il remplit ses flacons lui-même, à même le voile qu'il vient d'ôter, **après le nom et avant de passer à la capsule suivante.**
+
+> Il ne dit rien en le faisant, et personne ne dit rien non plus.
+
+*Le placement dit tout : la personne d'abord, le prélèvement après — jamais l'inverse.* **Le second veilleur ne fait que finir** — le rabat, les plis, la serviette, la table.
 
 ---
 

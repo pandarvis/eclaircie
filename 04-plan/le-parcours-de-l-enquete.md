@@ -162,9 +162,11 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 
 *Elle ouvre le parcours en colonne 0 et n'est pas attribuable : elle précède l'enquête. **Mais c'est là que se pose ce que la scène 8 fera remonter, et c'est la première page du livre.***
 
-**La cérémonie d'éclaircie d'Eliott.** Deux capsules s'ouvrent à la même heure : la sienne, et celle d'un arrivant de quarante ans. La cérémonie se déroule normalement, il n'y a rien à signaler, et **le texte ne signale rien.**
+> ✅ **Cette scène est écrite.** *[Prologue — La cérémonie](../05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf), 2 540 mots, écrit avec l'autrice les 17 et 18 août 2026.* **Ce qui suit décrit l'intention ; le texte, lui, est dans l'atelier, onglet Chapitres.**
 
-**Ce qui s'y joue, en deux secondes :** debout à côté de l'homme, **Eliott le dévisage.** Quelque chose se ferme sur son visage, ça dure le temps que ça dure, **et il enchaîne.** Personne ne le remarque, personne ne le lui demande, et le récit passe à autre chose immédiatement.
+**La cérémonie d'éclaircie d'Eliott.** Deux capsules **surgissent le même matin** — *une noyade ne laisse aucun délai de maturation* — et la cérémonie se monte dans la journée : la sienne, et celle d'un arrivant de quarante-deux ans, **Nicolas**. On a prévenu tard, donc il y a peu de monde. La cérémonie se déroule normalement, il n'y a rien à signaler, et **le texte ne signale rien.**
+
+**Ce qui s'y joue, et ce n'est plus un dévisagement :** assis à côté de l'homme, **Eliott fait pareil que lui.** L'homme se touche la bouche, il se touche la bouche ; l'homme ouvre la paume, il ouvre la sienne. *Quelqu'un rit tout bas contre le mur : c'est drôle, ce petit qui singe l'autre.* **Le lecteur range ça dans la curiosité.** Personne ne le lui demande, et le récit passe à autre chose immédiatement.
 
 > **Première lecture : un gamin bizarre. Seconde lecture : il regarde quelqu'un qui lui fait éprouver une chose qu'il ne sait pas nommer.**
 
