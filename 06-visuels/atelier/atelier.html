@@ -1125,12 +1125,18 @@ const SCENES = [
   id: `ouv`, no: `Première page`, col: 0, row: `andrew`, acte: `Ouverture`,
   titre: `La cérémonie d'Eliott`,
   statut: `acquis`,
-  resume: `Deux capsules s'ouvrent à la même heure : celle d'un arrivant de dix ans, et celle d'un arrivant de quarante ans. La cérémonie se déroule normalement. Il n'y a rien à signaler, et le texte ne signale rien.`,
+  resume: `🔴 **Deux capsules surgissent le même matin** — *une noyade ne laisse aucun délai de maturation* — et la cérémonie se monte dans la journée. **Un arrivant de dix ans, un arrivant de quarante.** *On a prévenu tard, donc il y a peu de monde.* La cérémonie se déroule normalement. **Il n'y a rien à signaler, et le texte ne signale rien.**`,
   produit: `Le système entier passe là, sans un mot d'explication. Le garçon parle avant qu'on lui demande quoi que ce soit, avec une terreur qu'on ne s'explique pas — c'est inquiétant, on passe outre, la cérémonie se termine.`,
   clef: `Debout à côté de l'homme, Eliott le dévisage. Quelque chose se ferme sur son visage, ça dure le temps que ça dure, et il enchaîne. Personne ne le remarque.`,
   monde: `La capsule, l'éclaircie, la travée, le relevé à l'instrument, le nom qu'on produit soi-même, le numéro qu'on inscrit. Rien n'est expliqué : tout est fait devant le lecteur.`,
   qui: [`andrew`,`eliott`,`quarante`],
   gardes: [
+    `🔴 **L'ordre du chapitre est fixé — l'autrice, 17 août 2026, et c'est le vrai gain du premier jet.** *Le garçon se voit dans le miroir, balaie la pièce, et la capsule d'à côté passe dans ce balayage sans y peser.* **Son regard tombe sur Andrew, on lui demande son nom, il répond.** *C'est le nom donné qui fait basculer Andrew sur la seconde capsule* — et c'est pendant qu'il a les deux mains sur le capot, **de dos**, que le garçon se met à parler. Sa collègue a déjà pris le relais derrière lui.`,
+    `✅ **Et « on passe outre » cesse d'être une décision.** *C'est une position de corps :* **« Andrew ne se retourna pas. Il avait les deux mains sur le capot. »** *Rien à commenter, rien à justifier — il travaille.*`,
+    `⛔ **La cérémonie des vingt-six ne s'évoque pas ici.** *Coupée du premier jet par l'autrice, 17 août 2026 :* **on y viendra avec la suite de l'enquête**, et pas en page une.`,
+    `✅ **Les visiteurs ne sont pas froids, et c'est une naissance.** *Correction de l'autrice, 17 août 2026 :* silence cérémonieux jusqu'aux cadeaux, **puis du bruit pour la première fois** — on se penche pour voir, on commente, on se serre le bras sans se connaître, des « bienvenue » se reprennent de bouche en bouche. *La règle du monde tient quand même, mais elle passe après la joie :* **« Aucun d'eux ne les connaissait. Aucun ne les reverrait. Ça n'enlevait rien. »**`,
+    `✅ **La salle, et rien de plus.** *Le complexe entier ne se décrit pas ici* — il est gardé pour la journée type à la ruche. **On ne voit que la salle six et ce qui s'y passe.**`,
+    `✅ **L'image qui porte le lieu, en trois lignes :** la sculpture monte à mi-hauteur d'une colonne et s'arrête, la coulée prend le relais et continue jusqu'en haut. **« On ne savait pas laquelle des deux avait copié l'autre. »** *⛔ Pas de balcons, pas de catalogue d'ornements.*`,
     `⛔ **Aucune capsule pourrie dans le prologue, et pas une allusion.** *L'autrice, 17 août 2026.* **La première que le lecteur rencontre est celle de la journée à la ruche**, et elle doit le révulser sans qu'il ait été prévenu. *Une mention en page une lui retirerait tout.*`,
     `✅ **Le miroir — trouvaille de l'autrice, 17 août 2026.** *Le veilleur tend un miroir à l'arrivant pour qu'il fasse connaissance avec sa propre apparence.* **C'est un geste de protocole, au même titre que la couverture** : personne ne l'explique et personne ne s'en étonne.
 
@@ -1141,7 +1147,9 @@ const SCENES = [
     `Il n'y a pas de capsule défaillante ce jour-là.`
   ],
   ouvert: [`Combien de lignes doit durer le dévisagement ? Trop peu ne s'imprime pas et le lecteur ne s'en souviendra pas à l'épilogue ; trop long, ça l'annonce.`,
-           `Le nom d'éclaircie de l'arrivant de quarante ans — il apparaît deux fois, ici et scène 8, et rien ne doit inviter à le rapprocher de celui d'Eliott.`],
+           `✅ **Il s'appelle Nicolas** — *validé le 17 août 2026.* **Il apparaît deux fois, ici et scène 8**, et rien ne doit inviter à le rapprocher de celui d'Eliott.`,
+           `⚠️ **La case des observations, à la toute fin.** *Il la regarde un moment, puis il range le carnet.* **C'est le seul endroit du chapitre qui pèse un gramme** — à garder ou à couper.`,
+           `⚠️ **La phrase d'accueil entière est donnée ici** — *« Bienvenue à toi »* — alors qu'à sa propre cérémonie Andrew n'en attrapera que le début. **Gratuit si on la garde, mais il faut le vouloir.**`],
   lecture: `Première lecture : un gamin bizarre. Seconde lecture : il regarde quelqu'un qui lui fait éprouver une chose qu'il ne sait pas nommer.`,
   src: `04-plan/le-parcours-de-l-enquete.md — « Avant le parcours »`
 },
@@ -3020,7 +3028,38 @@ const NOTES = [
 
 { d:`14 août`, s:`Les sous-agents`, e:`acquis`, t:[`méthode`],
   v:`Tu restes le « main », je veux pouvoir te parler toujours pour échanger. Lors des éditions/corrections des fichiers, utilise des sous-agents que tu surveilles.`,
-  q:`Les corrections de fichiers partent en tâches parallèles, sur des lots disjoints. La conversation, elle, ne s'interrompt jamais.` }
+  q:`Les corrections de fichiers partent en tâches parallèles, sur des lots disjoints. La conversation, elle, ne s'interrompt jamais.` },
+
+{ d:`17 août`, s:`Le premier jet du prologue`, e:`acquis`, t:[`prologue`,`monde`],
+  v:`est-ce qu'on se lancerait pas maintenant dans un test de prologue, avec toutes les infos que tu as ? on garde en tête que c'est la découverte de la cérémonie d'Eliott et son « père ». On est donc dans la salle de cérémonie… la scène se termine quand Andrew referme la porte sur les visiteurs et qu'il quitte la pièce à son tour.`,
+  q:`**Le cadrage du chapitre, donné en une fois.** Andrew entre dans la salle et prépare les postes ; on ne décrit que la salle, *jamais le complexe entier — celui-là est gardé pour la journée type.* Puis l'arrivée des deux capsules, l'aspect, la gelée, la préparation du corps à sa sortie, la première boisson, les cadeaux, la porte refermée. **Et le rappel à l'épilogue :** Eliott voit son propre visage dans le miroir, puis la foule, puis Andrew, puis l'autre arrivant.` },
+
+{ d:`17 août`, s:`La serre`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`préparateur arrive de manière trop abrupte. on sait pas qui sait. on peut les distinguer par des préparateurs, des agents du service opérant dans la serre (la serre étant la zone où serpente la coulée autour de la zone du registre)`,
+  q:`**Un lieu neuf, et il règle un problème d'écriture.** *Les préparateurs ne sont plus un mot lâché sans contexte :* **ils viennent de la serre**, la zone où serpente la coulée autour de la salle du registre. Ils y vivent au milieu de la ligne, la suivent d'un bout à l'autre, savent à la main quand une capsule est prête et la décrochent. *On ne les voit que deux fois par cérémonie, et ils ont toujours l'air de sortir d'ailleurs.*` },
+
+{ d:`17 août`, s:`Ce qui active le corps`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`les capsules d'Eliott et son père sont arrivées d'un coup. pas d'histoire d'arrivée plus tôt. c'était inopiné, il a fallu préparer la cérémonie rapidement. ce qui semble activer les corps, c'est quand on ôte le couvercle. il faut pas tarder mais c'est pas non plus une urgence. juste que question organisation, ils se doivent d'être attentifs.`,
+  q:`**Deux règles d'un coup.** ① **C'est le retrait du capot qui active le corps** — tant qu'il est en place, rien ne bouge. ② **Le tempo du métier :** une capsule à maturité ne se garde pas, mais rien n'est urgent. *« On ne court pas, mais on ne s'assoit pas non plus. »* **C'est une question d'organisation, jamais de danger.**
+
+**Et ça corrige le prologue :** les deux capsules ne sont pas apparues deux jours plus tôt, elles surgissent le matin même. *Une noyade ne laisse aucun délai de maturation.* **Donc la cérémonie se monte dans la journée, on a prévenu tard, et il y a peu de monde.** La fiche tient en trois lignes.` },
+
+{ d:`17 août`, s:`L'ordre du chapitre`, e:`acquis`, t:[`prologue`],
+  v:`il doit lancer un regard à l'autre arrivant. d'où l'importance que la phase du nom lui soit demandée avant tout. il répond et ensuite on enchaîne sur sa « démence apparente » car c'est à partir du nom donné qu'Andrew bascule sur la deuxième capsule et ouvre le capot. pendant ce temps, Nora a pris le relais avec Eliott.`,
+  q:`**La correction qui fait le chapitre.** *Dans le premier jet, le garçon parlait face à Andrew.* **Maintenant :** il se voit, il balaie la pièce — *la capsule d'à côté passe dans le balayage sans y peser* — son regard tombe sur Andrew, on lui demande son nom, il répond. **Et c'est le nom donné qui fait basculer Andrew sur la seconde capsule.**
+
+*C'est pendant qu'il a les deux mains sur le capot, de dos, que le garçon se met à parler.* **« Andrew ne se retourna pas. »** — le « on passe outre » n'est plus une décision, c'est une position de corps.` },
+
+{ d:`17 août`, s:`Les visiteurs, ce n'est pas froid`, e:`acquis`, t:[`prologue`,`ruche`],
+  v:`un peu trop froid.. c'est une arrivée, c'est cool de voir une capsule s'ouvrir, on reste dans un silence cérémonieux, mais il y a l'excitation du moment, ça reste une naissance !!`,
+  q:`**Le silence tient jusqu'aux cadeaux, et là il tombe.** *On se penche pour mieux voir, on commente, deux personnes se serrent le bras sans se connaître, une femme déplace sa pierre de dix centimètres et rit toute seule.* **Des « bienvenue » se reprennent de bouche en bouche.**
+
+*La règle du monde n'est pas contredite, elle passe simplement après la joie :* **« Aucun d'eux ne les connaissait. Aucun ne les reverrait. Ça n'enlevait rien. »**` },
+
+{ d:`17 août`, s:`Nicolas`, e:`acquis`, t:[`personnages`,`prologue`],
+  v:`Il dit qu'il s'appelait Nicolas quand on le lui demanda`,
+  q:`**Le nom d'éclaircie de l'arrivant de quarante ans est tranché.** *Il apparaît deux fois dans tout le livre, première page et scène 8, et rien ne doit inviter à le rapprocher de celui d'Eliott.* **Sa phrase de nom passe en direct :** Andrew lui redit les mêmes mots qu'au garçon, le texte ne les répète pas, et la réponse tombe seule.` },
+
 ];
 
 /* ==========================================================================
@@ -3028,6 +3067,9 @@ const NOTES = [
    ========================================================================== */
 
 const LEXIQUE = [
+["La serre","Zone du complexe ou serpente la coulee, autour de la salle du registre. C'est le domaine des preparateurs : ils y vivent au milieu de la ligne, la suivent d'un bout a l'autre, savent a la main quand une capsule est prete, et la decrochent.","02-univers/la-ruche.md","Sa taille, et si elle a une limite nette ou si elle se perd dans le reste du complexe."],
+["Le preparateur","Agent du service de la serre. Il decroche les capsules, les accompagne jusqu'a la salle de ceremonie, redresse les chariots, remet la fiche au veilleur - puis il s'arrete a la porte et regarde. Il revient a la fin chercher les capsules vides et les bassines.","02-univers/la-ruche.md","On ne les voit que la, deux fois par ceremonie. Ce qu'ils font le reste du temps n'est pas ecrit."],
+["Le capot","Couvercle opaque pose sur la capsule apres l'ouverture chirurgicale, et qui reste en place jusqu'a la salle de ceremonie. C'est son retrait qui active le corps : tant qu'il est la, rien ne bouge.","02-univers/la-ruche.md",""],
 ["L'éclaircie","Éclaircissement de la texture d'une capsule qui approche du terme : elle devient pâle, presque transparente. C'est le seul signe lisible du métier — une capsule claire va s'ouvrir bientôt. De là viennent le nom du phénomène, du rite et de la croyance.","02-univers/la-ruche.md",""],
 ["La capsule","Contenant d'où sort un arrivant. Elle se forme de manière irrégulière, à un emplacement que personne n'a choisi, et mûrit plus ou moins vite selon le souffle de vie restant de l'autre côté. Aucun chiffre, aucun numéro, rien n'est marqué dessus.","02-univers/la-ruche.md","L'origine de la première capsule est hors de portée des archives, jamais datée ni expliquée."],
 ["La capsule qui n'éclaircit pas","Capsule qui s'ouvre brutalement, sans prévenir, et déverse un amas qu'on nettoie. Aucune cérémonie possible ; on conclut à une capsule défaillante. C'est la sortie des condamnés — l'irréparable ne reçoit rien.","02-univers/la-ruche.md","Pourquoi elles se multiplient depuis quelques années : personne dans le livre ne le saura jamais. Le lecteur seul en tire la conclusion."],
@@ -3081,6 +3123,11 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
+["Ruche","La serre est la zone ou serpente la coulee, autour de la salle du registre. Decision de l'autrice, 17 aout 2026. Les preparateurs en viennent, et c'est ce qui explique qu'on ne les croise nulle part ailleurs : ils ont toujours l'air de sortir d'ailleurs.","acquis"],
+["Ruche","C'est l'ouverture du capot qui active le corps. Tant qu'il est en place, rien ne bouge ; des qu'on le fait glisser, la lumiere entre et le corps remonte. Personne dans le livre ne l'explique.","acquis"],
+["Ruche","D'ou le tempo du metier : une capsule a maturite ne se garde pas, mais rien n'est urgent. On ne court pas, on ne s'assoit pas non plus. C'est une question d'organisation, jamais de danger.","acquis"],
+["Ruche","Une capsule inopinee n'a rien pu etre suivi en amont : sa fiche tient en trois lignes, sans duree de maturation. Le veilleur y porte l'aspect, l'etat du voile et l'heure, et laisse l'age pour l'instrument.","acquis"],
+["Ruche","L'ornement s'arrete et la coulee prend le releve, sur la meme colonne. C'est l'image qui porte toute la regle : on ne sait pas laquelle des deux a copie l'autre.","acquis"],
 ["Corps","Une mort brutale ne laisse aucun delai de maturation : la capsule arrive le jour meme. C'est ce qui s'est passe pour Joel et pour le tueur des jumelles, morts ensemble dans le carambolage.","acquis"],
 ["Ruche","On traverse l'ornement dans la penombre, et on debouche sur la clarte. Les passages sculptes sont sombres et satures ; les travees, les salles de ceremonie et l'epicentre sont baignes de lumiere. C'est un meme trajet, pas une contradiction.","acquis"],
 ["Ruche","Tout ce qui est figuratif est humain : les dieux, les animaux, les creatures, les visages qui portent les arches. Rien dans l'epicentre ne l'est - des steles, des gravures, une coulee de racines. Le contraste entre les deux est le sujet du lieu.","acquis"],
@@ -3505,9 +3552,9 @@ const GENS = [
   ouvert:[`Andrew lui parle-t-il au jardin, ou la croise-t-il seulement ?`,`Le livre lui donne-t-il un nom, et par lequel des trois canaux possibles ?`,`Ce qu'elle comptait faire ensuite. Rien, probablement — et c'est peut-être la réponse.`,`Ce qu'elle dit, ou ne dit pas, au moment de l'arrestation.`],
   src:`03-personnages/la-berceuse.md` },
 
-{ id:`quarante`, nom:`L'arrivant de quarante ans`, voie:`andrew`, role:`Le second arrivant de la première page. Le père d'Eliott dans la vie d'avant.`,
+{ id:`quarante`, nom:`Nicolas`, voie:`andrew`, role:`Le second arrivant de la première page. Le père d'Eliott dans la vie d'avant. Nom d'éclaircie : Nicolas.`,
   age:`Quarante ans, son âge de mort. Verdict ordinaire, ni supplément ni retranchement.`,
-  resume:`Une randonnée prévue entre un père et son fils : l'enfant tombe à l'eau, le courant l'emporte, il se jette pour le sauver et se noie à son tour. Personne n'a commis l'irréparable, il n'y a rien d'autre à trouver, personne à qui en vouloir, et aucune enquête possible d'aucun côté. Il arrive donc le même matin qu'Eliott, à la même cérémonie, à une travée voisine.`,
+  resume:`Une randonnée prévue entre un père et son fils : l'enfant tombe à l'eau, le courant l'emporte, il se jette pour le sauver et se noie à son tour. Personne n'a commis l'irréparable, il n'y a rien d'autre à trouver, personne à qui en vouloir, et aucune enquête possible d'aucun côté. Les deux capsules surgissent donc le même matin, à quelques travées l'une de l'autre — une noyade ne laisse aucun délai de maturation — et la cérémonie se monte dans la journée.`,
   traits:[`Un corps debout à côté d'un autre, à la première page, qui sort du livre à la fin du chapitre.`,
     `Il est ce qu'Eliott dévisage deux secondes sans savoir pourquoi.`,
     `Puis ils sont affectés ailleurs et ne se revoient jamais.`],
@@ -3516,7 +3563,7 @@ const GENS = [
     `Aucune phrase de narrateur ne rapproche les deux arrivées. Andrew ne retourne jamais au registre pour chercher qui d'autre est arrivé ce jour-là.`,
     `Les mots de parenté ne valent que pour la vie d'avant.`],
   phrases:[],
-  ouvert:[`Son nom d'éclaircie. Il apparaît deux fois — première page et scène 8 — et rien ne doit inviter à le rapprocher de celui d'Eliott.`,
+  ouvert:[`✅ **Son nom d'éclaircie est Nicolas** — *validé par l'autrice le 17 août 2026.* **Il apparaît deux fois, première page et scène 8**, et rien ne doit inviter à le rapprocher de celui d'Eliott.`,
     `Combien de lignes doit durer le dévisagement.`],
   src:`03-personnages/eliott.md` },
 
