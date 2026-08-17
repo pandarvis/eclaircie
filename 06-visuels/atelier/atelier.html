@@ -2439,6 +2439,16 @@ const NOTES = [
 
 *C'est aussi ce que veut dire « lire le registre » : un veilleur connaît la pièce par cœur, il sait où regarder, et il sait quand quelque chose a bougé.*` },
 
+{ d:`17 août`, s:`Une ligne par lot, pas par personne`, e:`acquis`, t:[`monde`,`jugement`],
+  v:`Je parlais des lignes ! Donc non, ce n'est pas une ligne par capsule, c'est une ligne par lot de capsules arrivées en même temps. Et ça lève une erreur de ma part : c'est une ligne pour les jumelles et une pour lui. Le tueur n'existe pas.`,
+  q:`**Et ça change la nature de ce qu'on lit là-dedans : ce sont des événements, pas des individus.** *Une ligne à vingt-six est un accident. Une ligne à deux est une paire. Une ligne seule est quelqu'un qui est parti sans personne.*
+
+**Le registre ne dit donc pas qui vous êtes — il dit avec qui vous êtes mort.** *Et c'est la seule chose au monde qui ne mente jamais.*
+
+**Les jumelles ont leur ligne, Andrew a la sienne**, juste à côté : elles sont arrivées ensemble, lui une heure plus tard et tout seul. *À la scène 33, il va lire sa propre ligne — et celle des jumelles est la voisine.*
+
+✅ **Et le tueur n'existe pas** : ma question tombe.` },
+
 { d:`17 août`, s:`Le registre n'enregistre que l'arrivée`, e:`acquis`, t:[`monde`,`jugement`],
   v:`La maternité enregistre-t-elle seulement l'arrivée ou toute la vie ? Pour moi la réponse est non, c'est administratif. // Le registre ne doit pas contenir la fin.`,
   q:`✅ **Une ligne par capsule : une année, un âge. Rien d'autre, jamais.** *Ni la fin, ni ce qui se passe entre les deux.*
@@ -3003,7 +3013,10 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
-["Jugement","Le registre de l'epicentre n'enregistre que l'arrivee. Ni la fin, ni rien de ce qui se passe entre les deux : une ligne par capsule, une annee, un age, et c'est tout.","acquis"],
+["Jugement","Le registre de l'epicentre n'enregistre que l'arrivee, et pas une ligne par personne : une ligne par lot de capsules arrivees en meme temps. Une annee, un age, et c'est tout.","acquis"],
+["Jugement","Ce qu'on y lit, ce sont donc des evenements, pas des individus. Une ligne a vingt-six est un accident ; une ligne a deux est une paire ; une ligne seule est quelqu'un qui est parti sans personne.","acquis"],
+["Jugement","Les jumelles ont leur ligne, et Andrew a la sienne : elles sont arrivees ensemble, lui une heure plus tard et tout seul.","acquis"],
+["Jugement","Les capsules qui n'eclaircissent pas sont notees elles aussi, mais autrement - un point, un symbole un peu graphique. Les veilleurs ne l'ont jamais considere comme une inscription : ils le prennent pour de l'ornement.","provisoire"],
 ["Administration","Tout le reste est de la paperasse ordinaire, tenue par des gens : affectations, services, dossiers medicaux, jardin sous secret. C'est faillible, ca se perd, ca se trompe - et c'est la que travaille reellement un enqueteur.","acquis"],
 ["Jugement","Consequence : la seule chose au monde qui ne mente jamais ne dit qu'un fait sur vous, celui que vous etes arrive. Tout le reste est humain.","acquis"],
 ["Jugement","La salle du registre est l'epicentre : c'est de la que sortent les capsules. Un sac de racines y est ancre tout autour, et la coulee part de la pour courir dans le reste du complexe.","acquis"],
@@ -3631,6 +3644,15 @@ const PHRASES = [
    ========================================================================== */
 
 const QUESTIONS = [
+{ g:`Le monde`, t:`Le signe des capsules qui n'éclaircissent pas`, e:`ouvert`,
+  q:`**Elles sont notées, elles aussi — mais autrement.** *Un point, un symbole un peu graphique, que les veilleurs n'ont jamais considéré comme une inscription : ils le prennent pour de l'ornement.*
+
+⚠️ **Ça veut dire que la preuve est au mur depuis toujours.** Le dossier pose que ces capsules se multiplient depuis quelques années et que personne ne sait pourquoi. **Or c'est écrit, et personne ne l'a lu.**`,
+  o:[`**Option A — personne ne s'en aperçoit jamais.** *Le lecteur peut le voir, les personnages non.* C'est la méthode du livre, et ça ne coûte rien.`,
+     `**Option B — quelqu'un s'en aperçoit.** *Ça devient une scène, et une grosse.* **Mais un homme qui déchiffre l'épicentre, c'est un autre livre** — et ce serait la seule fois où quelqu'un comprend quelque chose.`,
+     `**Variante — les veilleurs le notent eux-mêmes, de leur côté.** *Jours et heures d'arrivée des capsules qui n'ont pas éclairci, dans un carnet de métier ordinaire.* **Alors la courbe existe deux fois : une fois en clair et illisible, une fois en clair et jamais totalisée.**`],
+  n:`⛔ **Rappel de l'interdit :** deux occurrences de capsules sans éclaircie dans tout le livre, pas davantage, **et jamais un personnage qui pointe la courbe.**` },
+
 { g:`Le monde`, t:`Ce qu'Andrew lit, et où`, e:`acquis`,
   q:`✅ **Tranché le 17 août 2026 : le registre de l'épicentre n'enregistre que l'arrivée.** *Ni la fin, ni rien entre les deux.* **Une ligne par capsule, une année, un âge, et c'est tout.**
 
