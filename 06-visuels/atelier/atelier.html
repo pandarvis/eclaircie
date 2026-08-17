@@ -2399,6 +2399,16 @@ const NOTES = [
 
 ⚠️ **À calibrer :** si June peut revenir, la promesse d'Andrew perd un peu de poids. *Ça enlève la finalité, ce qui est le but — mais sa visite à lui ne doit pas devenir banale pour autant.*` },
 
+{ d:`17 août`, s:`Un sanctuaire où l'on cultive`, e:`acquis`, t:[`ruche`,`monde`],
+  v:`Imagine un espace un peu comme le Sanctuaire de la Vérité à Pattaya : l'architecture est très ornementée, toute en courbes et arabesques. Autre référence : la scène de fin de Passengers, quand d'un arbre planté en plein milieu du vaisseau, l'entierté du hall est devenue une immense boule de nature ayant pris le dessus sur l'architecture. Dans l'un je veux te montrer le style d'ornementation très travaillé, exactement comme un sanctuaire ; dans le second, la nature qui a repris ses droits. Ici, dans la ruche, on est dans un environnement maîtrisé : un sanctuaire qui, même s'il semble très ouvert, est en fait un immense complexe avec de la végétation intérieure.`,
+  q:`**Les deux références se corrigent l'une l'autre, et c'est ça qui fait le lieu.** *Pattaya donne l'ornementation démesurée ; Passengers donne le végétal qui envahit.* **Sauf qu'ici la nature ne reprend rien : on la lui donne.** C'est un environnement tenu, et c'est ce qui distingue la ruche d'une ruine magnifique.
+
+**Et le lieu semble ouvert sans l'être.** *C'est cette contradiction qui produit le temps suspendu de la maternité :* on n'en sort pas, et on n'a aucune envie d'en sortir.
+
+⛔ **Aucune technologie visible.** *La maturité d'une capsule se lit à l'œil et à la main*, comme un maraîcher reconnaît un fruit prêt — **et c'est ce qui donne son sens au métier de veilleur.** Deux cent quarante ouvertures, ça veut dire qu'on sait.
+
+✅ **Une conséquence qui dépasse le décor :** ce monde a bâti **un sanctuaire pour ceux qui arrivent, et une institution pour ceux qui s'en vont.** *La ruche est sacrée ; le jardin est administré — des sections, des responsables, un formulaire dans la poche de devant.* **Personne ne remarque l'asymétrie et le livre ne la soulignera jamais.**` },
+
 { d:`17 août`, s:`La ruche n'est pas une ruche d'abeilles`, e:`acquis`, t:[`ruche`,`monde`,`écriture`],
   v:`Il ne faut déjà pas voir la ruche comme une ruche d'abeilles. J'imaginais quelque chose de très organique, un peu comme la sérénité d'une forêt ; ça reste un bâtiment à part entière, un endroit fermé type grand entrepôt, avec de longs couloirs, plusieurs pièces de collecte, c'est-à-dire des pièces avec des capsules plus ou moins à maturation. L'air est frais, un peu comme dans un monastère, il y a le passage du vent. Beaucoup d'ouvertures, une belle luminosité. Un lieu d'apaisement, comme lorsque tu te balades en forêt et que tu entends le son des feuilles dans les arbres. C'est un endroit assez extérieur au reste du monde, exactement comme les maternités : le temps y est comme suspendu, rien d'autre ne compte. La cérémonie d'éclaircie se passe dans une grande salle — ils en ont plusieurs selon la quantité d'éclaircies qui arrivent en même temps.`,
   q:`**Six règles de monde en sortent, et elles ferment une image dangereuse.** ⛔ *Ni alvéoles, ni essaim, ni bourdonnement, ni reine :* le mot est un nom d'usage, pas une métaphore filée.
@@ -2909,6 +2919,11 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
+["Ruche","Le style est celui d'un sanctuaire : une ornementation tres travaillee, tout en courbes et en arabesques, sculptee. Reference de l'autrice : le Sanctuaire de la Verite de Pattaya. Quelqu'un a bati ce lieu avec un soin demesure, et ca se voit partout.","acquis"],
+["Ruche","De la vegetation a l'interieur, partout, mais maitrisee. Reference de l'autrice : la fin de Passengers, ou la nature reprend ses droits sur l'architecture - sauf qu'ici elle ne les reprend pas, on les lui donne. C'est un environnement tenu.","acquis"],
+["Ruche","Le lieu semble tres ouvert et ne l'est pas. C'est un complexe immense et ferme, et c'est cette contradiction qui produit le temps suspendu : on n'en sort pas, et on n'a aucune envie d'en sortir.","acquis"],
+["Ruche","Aucune technologie visible. Pas d'ecran, pas de mesure, pas d'appareillage. La maturite d'une capsule se lit a l'oeil et a la main, comme un maraicher reconnait un fruit pret - c'est ce qui donne son sens au metier de veilleur.","acquis"],
+["Societe","Ce monde a bati un sanctuaire pour ceux qui arrivent, et une institution pour ceux qui s'en vont. La ruche est sacree, le jardin est administre. Personne ne remarque l'asymetrie et le livre ne la souligne jamais.","acquis"],
 ["Ruche","Ce n'est pas une ruche d'abeilles, et l'image ne doit jamais etre convoquee. Ni alveoles, ni essaim, ni bourdonnement, ni reine. Le mot est un nom d'usage, pas une metaphore filee.","acquis"],
 ["Ruche","C'est un batiment entier, ferme, du genre d'un grand entrepot : de longs couloirs, plusieurs pieces de collecte ou les capsules sont a des degres divers de maturation, et de grandes salles pour les ceremonies.","acquis"],
 ["Ruche","Beaucoup d'ouvertures, une belle luminosite, l'air frais et un passage du vent - la fraicheur d'un monastere. L'impression a produire est organique : la serenite d'une foret, le son des feuilles quand on s'y promene.","acquis"],
@@ -3479,6 +3494,12 @@ const PHRASES = [
    ========================================================================== */
 
 const QUESTIONS = [
+{ g:`Le prologue`, t:`Les capsules poussent-elles là, ou les y apporte-t-on ?`, e:`trou`,
+  q:`**Le décor est tranché — un sanctuaire orné avec de la végétation intérieure maîtrisée — mais pas ça.** *Et ça change ce qu'est le bâtiment.*`,
+  o:[`**Si elles poussent là :** la ruche est une serre, les pièces de collecte sont des cultures, et le personnel jardine autant qu'il veille. La végétation et les capsules appartiennent au même monde botanique.`,
+     `**Si on les y apporte :** la ruche est un sanctuaire où l'on dépose une récolte, la végétation est un décor entretenu, et **il existe un dehors d'où elles viennent — que le livre ne montrera jamais.**`],
+  n:`⚠️ **La seconde option est plus inquiétante et coûte moins cher :** elle laisse un vide que personne ne comble, et elle donne sa force à la récolte qui se gâte. *La première est plus chaude mais oblige à répondre à la question suivante — qui les plante ?* — **et on retombe sur l'arbre mère écarté.**` },
+
 { g:`Le prologue`, t:`Qu'est-ce qu'une capsule, exactement ?`, e:`trou`,
   q:`**On sait qu'elles s'éclaircissent, et rien d'autre.** *Ni de quoi elles sont faites, ni comment elles arrivent là, ni ce qu'elles font pendant qu'elles murissent.* **Le prologue est le premier endroit du livre où le lecteur en voit une** — il faudra bien qu'elle ait une matière, une odeur, un poids, une façon de s'ouvrir.`,
   o:[`Ce qu'on en sait déjà : la paroi cède par le haut, sans bruit, en une poignée de secondes ; ça sent la pierre mouillée avec dessous un fond légèrement sucré ; quand ça n'éclaircit pas, il faut des combinaisons, une raclette et des seaux.`,
@@ -3486,7 +3507,9 @@ const QUESTIONS = [
   n:`⛔ **Ne pas expliquer le mécanisme.** Le monde s'observe et ne se documente jamais — un veilleur constate, il n'explique pas.` },
 
 { g:`Le prologue`, t:`La couleur de la ruche`, e:`ouvert`,
-  q:`**Deux directions, et l'autrice n'a pas tranché.** *Le rouge pourpre mêlé de doré* — ou *le bleu ciel mêlé d'orangé.* **Elle veut que ce soit signifiant**, pas décoratif.`,
+  q:`⚠️ **Le sanctuaire fait pencher la balance sans la trancher.** *Un lieu sculpté, courbe, orné, avec de la végétation dedans, appelle plutôt le bois et l'or que le petit matin.* **Mais rien n'interdit une lumière bleue et orangée sur une matière chaude** — c'est peut-être là que les deux directions se rejoignent.
+
+**Deux directions, et l'autrice n'a pas tranché.** *Le rouge pourpre mêlé de doré* — ou *le bleu ciel mêlé d'orangé.* **Elle veut que ce soit signifiant**, pas décoratif.`,
   o:[`Le pourpre et l'or tirent vers le sanctuaire et la châsse : un lieu où l'on dépose quelque chose de précieux.`,
      `Le bleu ciel et l'orangé tirent vers le petit matin et le dehors : un lieu ouvert, traé de lumière, plus proche de la forêt que du temple.`],
   n:`⚠️ **Le choix engage tout le livre**, puisque la ruche revient au prologue, à la journée de travail, aux deux cérémonies et à la ligne de registre. *Autant le trancher avant d'écrire la première page.*` },
