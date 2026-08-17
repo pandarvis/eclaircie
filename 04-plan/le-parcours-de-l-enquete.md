@@ -2,7 +2,7 @@
 
 *Décision de méthode de l'autrice, 16 août 2026. **On n'écrit pas deux enquêtes qu'on rapproche : on écrit une enquête, et on attribue.***
 
-*⚠️ **Le jeu de piste détaillé de l'autrice, 15 août 2026, remplace intégralement les treize beats génériques de la section 2.** La méthode (§1), le déclencheur (§4) et les beats en double (§5) sont conservés ; le parcours compte désormais **dix-neuf scènes**, et l'analyse qu'il appelle est en section 3.*
+*⚠️ **La section 2 est régénérée depuis l'atelier, qui est la référence vivante du parcours depuis le 16 août 2026.** La méthode (§1), le déclencheur (§4) et les beats en double (§5) sont conservés ; le parcours compte désormais **trente-six scènes réparties sur deux voies**, plus treize repères qui ne s'écriront pas. Toute divergence entre ce document et l'atelier se tranche en faveur de l'atelier.*
 
 *Sources : [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §1 bis, §2, §3, §5, §6 — [`le-meme-jour.md`](le-meme-jour.md) §1, §4, §5 — [`faux-raccords.md`](faux-raccords.md) — [`../02-univers/la-jalousie.md`](../02-univers/la-jalousie.md) — [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) — [`duree-et-calendrier.md`](duree-et-calendrier.md) — [`../03-personnages/andrew.md`](../03-personnages/andrew.md) — [`../03-personnages/eliott.md`](../03-personnages/eliott.md) — [`../03-personnages/june.md`](../03-personnages/june.md) — [`../03-personnages/isaac.md`](../03-personnages/isaac.md) — [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md).*
 
@@ -73,44 +73,94 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 **Trois temps, et les intervertir coûte cher.**
 
 1. **Écrire le parcours**, d'un bloc, sans se demander à qui appartient quoi. C'est le présent document, et il n'est pas encore une écriture : c'est un déroulé.
-2. **Attribuer**, à peu près également, une fois les dix-neuf scènes tenues. C'est là seulement qu'on décide ce qui est un chapitre d'ici et ce qui est un fragment. *⚠️ Depuis le jeu de piste détaillé, cette étape n'est plus mécanique : voir §3.5, toutes les scènes ne sont pas attribuables.*
+2. **Attribuer**, à peu près également, une fois les scènes tenues. *⚠️ Étape caduque : l'attribution est faite, voie par voie, dans la table du §2.* C'est là seulement qu'on décide ce qui est un chapitre d'ici et ce qui est un fragment. *⚠️ Depuis le jeu de piste détaillé, cette étape n'est plus mécanique : voir §3.5, toutes les scènes ne sont pas attribuables.*
 3. **Poser les faux raccords**, en dernier, sur des scènes déjà écrites et déjà attribuées. Ils ne se sèment pas dans un texte qu'on est en train de composer : ils se posent sur un texte qui existe, sinon ils se mettent à le gouverner.
 
 *Le bénéfice de cet ordre est concret : au temps 1, aucune scène n'a de propriétaire, donc aucune ne peut être écrite pour un seul des deux mondes. **La contrainte de généricité n'a pas à être surveillée : elle est le régime par défaut.** Elle ne se surveille qu'à partir du temps 2, et seulement sur ce qu'on ajoute.*
 
 ---
 
-# 2. Le parcours — dix-neuf scènes
+# 2. Le parcours — trente-six scènes sur deux voies
 
-> **Le jeu de piste de l'autrice, 15 août 2026. Il remplace intégralement les treize beats génériques de cette section.** La méthode (§1), le déclencheur (§4) et les beats en double (§5) sont inchangés ; le parcours, lui, est celui-ci et rien d'autre.
+> **Cette section est régénérée depuis l'atelier ([`../06-visuels/atelier/atelier.html`](../06-visuels/atelier/atelier.html)), qui est la référence vivante du parcours depuis le 16 août 2026.** Elle remplace la table des dix-neuf scènes, devenue fausse sur un tiers de ses lignes. La méthode (§1), le déclencheur (§4) et les beats en double (§5) restent ceux du document ; le parcours, lui, est celui-ci.
 
-**Tout est écrit côté Andrew. La répartition vient après**, et rien ci-dessous ne préjuge de qui hérite de quoi — *sous la réserve grave du §3.5, qui est neuve.*
+**Le livre alterne deux voies sans jamais le dire.** La voie d'Andrew est ce monde-ci, au présent. La voie de Joël est la vie d'avant — et le lecteur ne sait pas qu'elle existe. *Une bande d'étapes court entre les deux : le beat sans son monde, ni écrit ni attribué.*
 
-| # | Temps | Scène | Ce qui s'y joue |
-|---|---|---|---|
-| 1 | Avant la disparition | **Première visite chez June** | un homme qui s'acclimate mal, et un veilleur qui revient sans mandat |
-| 2 | Avant la disparition | **Deuxième visite** | **personne ne le croit, et ça le blesse** — June dépassée, et **une suspicion de voile qu'elle n'ose pas formuler** |
-| 3 | La disparition | **Troisième visite, un mois après** | il vient voir le garçon ; il n'est pas rentré du travail |
-| 4 | La disparition | **Au poste** | Isaac donne des faits et rien d'autre — **jamais le comportement** |
-| 5 | La disparition | **Retour chez June, avec Isaac** | l'état d'esprit, la peur de l'eau, les genoux en sang de la veille |
-| 6 | Le monde comme terrain | **Sur son lieu de travail** | ✅ **le portage est validé.** Un responsable blasé, une bagarre, un congédiement |
-| 7 | Le monde comme terrain | **Les autres travailleurs** | **le grief se dit, dans leur bouche et jamais dans celle du narrateur** |
-| 8 | Le registre | **Retour à la ruche** | la ligne de l'homme, celle d'Eliott — et **deux arrivées le même jour**, que personne ne relève |
-| 9 | Le registre | **Au téléphone, en parallèle** | la vie de l'homme, les altercations, les jours **« au silence »** |
-| 10 | Le registre | **Vingt-six arrivants simultanés** | une cérémonie exceptionnelle — **et le sismographe que personne ne lira** |
-| 11 | Le registre | **Au jardin, le veilleur de l'époque** | la cérémonie racontée, le manque de berceurs, le marginal dans le public |
-| 12 | La fausse piste s'éteint | **Chez l'homme** | il ne veut pas leur parler, il a un alibi en béton |
-| 13 | La fausse piste s'éteint | **L'alibi tient** | fausse piste. Tout ce qui précède reste acquis au lecteur |
-| 14 | L'enlisement | **La seconde piste** | ✅ **comblé.** Un arrivant dont plus rien n'est écrit après une certaine date — deux semaines, **et au bout il y a quelqu'un, par terre, qui va très bien** |
-| 15 | L'enlisement | **« Lâche l'affaire »** | après deux semaines de disparition comptées |
-| 16 | L'enlisement | **Isaac lâche l'affaire** | **le nadir. Il part par objectivité, pas par résignation** — et il ne se laissera pas emmener une seconde fois |
-| 17 | La remontée | **L'enquête en solo** | ⚠️ **TROU réduit à un point.** Le déclencheur du §4 y tombe, la relance est au §4 bis — **et le repaire est trouvé : §4 ter** |
-| 18 | La remontée | **Il entre seul, sans attendre** | il a appelé, il n'attend pas |
-| 19 | La remontée | **Il retrouve Eliott** | ses reliquats arrivent, il réalise sa propre mort — **et une berceuse est menottée** |
+**Le tableau ci-dessous donne l'ordre de lecture, qui est le seul ordre qui compte.** La colonne indique la position sur la frise ; les trous de numérotation sont les colonnes qu'occupent les repères non écrits.
+
+| Col. | Voie | Acte | Scène | Ce qui s'y joue |
+|---|---|---|---|---|
+| 0 | Andrew | Ouverture | **La cérémonie d'Eliott** | la première page. Deux capsules, un regard de deux secondes, et rien qui pèse |
+| 1 | Andrew | Avant la disparition | **Première visite chez June** | un veilleur qui revient sans mandat, un garçon qui ne trouve pas sa place |
+| 2 | Andrew | Avant la disparition | **Deuxième visite** | **personne ne le croit, et ça le blesse** — la promenade dehors, et ce qu'il dit en marchant |
+| 3 | Andrew | Les trois visites | **Une journée à la ruche** | une journée de travail, l'odeur propre d'une éclaircie réussie — puis **une travée qui n'a pas éclairci** |
+| 4 | Andrew | La disparition | **Troisième visite — la place est vide** | il vient voir le garçon ; il n'est pas rentré du travail |
+| 5 | Joël | La disparition | **Première visite au commissariat** | il vient parler à son acolyte. *En face, Andrew rencontre Isaac — non écrit* |
+| 6 | Andrew | La disparition | **Retour chez June, avec Isaac** | l'état d'esprit, la peur de l'eau, les genoux en sang de la veille |
+| 7 | Andrew | Le monde comme terrain | **Sur son lieu de travail** | le portage, le responsable blasé, la bagarre, le congédiement |
+| 8 | Andrew | Le monde comme terrain | **Les autres travailleurs** | **le grief se dit dans leur bouche, jamais dans celle du narrateur** |
+| 9 | Andrew | Le registre | **Retour à la ruche — le registre** | la ligne de l'homme, celle d'Eliott, et **deux arrivées le même jour** que personne ne relève |
+| 10 | Andrew | Le registre | **Au téléphone, en parallèle** | Liam donne des informations. La vie de l'homme, les jours **« au silence »** |
+| 11 | Andrew | Le registre | **Vingt-six arrivants simultanés** | une cérémonie exceptionnelle, et **le sismographe que personne ne lira** |
+| 12 | Andrew | Le registre | **Au jardin — le veilleur de l'époque** | la cérémonie racontée, le manque de berceurs, le marginal dans le public |
+| 14 | Joël | La fausse piste s'éteint | **Chez l'homme** | il a tenu des propos déplacés sur les deux sœurs, il se défend et donne un alibi |
+| 15 | Andrew | La fausse piste s'éteint | **Sa cérémonie, vue de l'intérieur** | **c'est ici que la paire est posée** — « elles sont pareilles », et rien de plus |
+| 16 | Joël | La fausse piste s'éteint | **L'alibi tient** | il part le vérifier ailleurs. Fausse piste, et tout ce qui précède reste acquis |
+| 17 | Andrew | L'enlisement | **Le départ de la seconde enquête** | un jeune arrivant dont plus rien n'est écrit après une certaine date |
+| 18 | Andrew | L'enlisement | **Il appelle Isaac** | un nom, une adresse, un rendez-vous au jardin. **Plat exprès** |
+| 19 | Andrew | L'enlisement | **L'entretien en marchant** | le pédiatre répond entre deux portes — et au bout, une erreur administrative |
+| 20 | Andrew | L'enlisement | **La salle, en passant** | une berceuse en tête à tête avec un tout-petit. **Elle pleure, et c'est elle** |
+| 21 | Joël | L'enlisement | **Il continue quand même** | sa piste tombe, il est acculé — **et il décide d'aller voir son ami au commissariat** |
+| 22 | Andrew | L'enlisement | **Au commissariat** | Andrew insiste, Isaac tranche sèchement. *Le lecteur est explicitement de ce côté-ci* |
+| 23 | Joël | L'enlisement | **« Lâche l'affaire »** | le ton monte, il regarde ses dossiers et n'y touche plus. **Le lecteur croit lire la suite** |
+| 24 | Andrew | La remontée | **Il passe outre, et il n'en tire rien** | quelque chose l'a accroché dans le dossier ; il y passe la journée, et ça ne donne rien |
+| 25 | Joël | La remontée | **Il rentre chez lui** | un abandon complet, que le lecteur prend pour une fin de journée éreintante |
+| 26 | Andrew | La remontée | **Il a trouvé** | la promenade, l'épicerie, la monnaie qui tombe, une voix — puis un nom, et une filature |
+| 27 | Andrew | La remontée | **Il entre seul, sans attendre** | il a appelé, il n'attend pas |
+| 28 | Joël | Le seuil franchi deux fois | **Les corps** | l'autre issue du même seuil |
+| 29 | Andrew | Le seuil franchi deux fois | **Le même lieu, l'autre issue** | le chapitre recommence, même arrivée, même pesanteur — et Eliott est vivant |
+| 30 | Joël | Le seuil franchi deux fois | **La poursuite** | |
+| 31 | Andrew | Le seuil franchi deux fois | **Elle n'a pas fui** | elle triture son collier, puis tend les deux mains |
+| 32 | Andrew | Le seuil franchi deux fois | **La cérémonie, une seconde fois** | **elle ne redécrit rien** : seulement ce qu'il croyait ne pas avoir entendu, ni senti |
+| 33 | Andrew | Le seuil franchi deux fois | **La ligne de registre** | le souvenir se confirme. Ellipse |
+| 34 | Andrew | Épilogue | **Les excuses** | l'arc d'Andrew se ferme ici, et pas plus loin |
+| 35 | Andrew | Épilogue | **L'entrée au jardin** | une rentrée scolaire. *Écrit — voir l'atelier, onglet Chapitres* |
+| 36 | Andrew | Épilogue | **En tête à tête** | le garçon raconte, et il a le dernier mot. *Écrit, et continu avec la scène 35* |
+
+## Les repères non écrits
+
+**Treize cartes existent sur la frise sans jamais s'écrire.** *Elles disent où en est la voie d'en face à ce moment-là, et servent à l'autrice seule — le livre ne les contiendra pas.*
+
+| Col. | Voie | Repère |
+|---|---|---|
+| 5 | Andrew | Il rencontre Isaac |
+| 6 | Joël | Retour chez leur mère |
+| 7 | Joël | Une sortie de fac |
+| 8 | Joël | Les potes du type |
+| 9 | Joël | Le service des archives |
+| 10 | Joël | Liam donne des infos |
+| 11 | Joël | L'accident |
+| 12 | Joël | Chez un ancien policier |
+| 14 | Andrew | Chez le marginal |
+| 16 | Andrew | L'alibi du marginal tient |
+| 17 | Joël | Un cold case qui n'en est pas un |
+| 26 | Joël | Il a trouvé une piste seul |
+| 27 | Joël | Il entre seul, sans attendre |
+
+## Les quatre lots
+
+**Quatre groupes de chapitres se lisent d'un seul tenant**, et l'atelier les encadre sur la frise.
+
+| Colonnes | Lot | |
+|---|---|---|
+| 5 → 16 | **La première piste** | un suspect, un alibi — et douze chapitres pour rien |
+| 17 → 21 | **La seconde piste** | elle meurt sur une erreur administrative, et personne n'a rien fait de mal |
+| 22 → 24 | **Le point culminant** | trois chapitres, une seule scène pour le lecteur — deux hommes, deux issues |
+| 27 → 31 | **La même scène, jouée deux fois** | il entre seul. D'un côté deux corps ; de l'autre, un garçon vivant |
 
 ## Avant le parcours — la scène d'ouverture du roman
 
-*Elle n'appartient pas aux dix-neuf scènes et n'est pas attribuable : elle précède l'enquête. **Mais c'est là que se pose ce que la scène 8 fera remonter, et c'est la première page du livre.***
+*Elle ouvre le parcours en colonne 0 et n'est pas attribuable : elle précède l'enquête. **Mais c'est là que se pose ce que la scène 8 fera remonter, et c'est la première page du livre.***
 
 **La cérémonie d'éclaircie d'Eliott.** Deux capsules s'ouvrent à la même heure : la sienne, et celle d'un arrivant de quarante ans. La cérémonie se déroule normalement, il n'y a rien à signaler, et **le texte ne signale rien.**
 
@@ -172,25 +222,63 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 
 ## L'enlisement
 
-**14. La seconde piste.** ✅ **Trouvée par l'autrice, 15 août 2026.** Andrew retourne au registre et **tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date.** Il est arrivé, c'est certain, la ligne est là et elle est parfaite ; ensuite les traces s'arrêtent. Ça ressemble exactement à ce qu'il cherche : quelqu'un qui s'en prend aux jeunes arrivants, et un précédent. **Il y va parce que c'est son terrain, et Isaac le suit parce qu'Andrew est l'homme du registre.** **Deux semaines de silence administratif** — les dossiers du jardin sont sous secret, les traces s'arrêtent — **et au bout il y a quelqu'un, par terre, qui va très bien.** *Mécanique complète, coût et rendement : **section 4 ter**, qui est neuve. **Isaac commence à compter les jours.***
+**17. Le départ de la seconde enquête.** Andrew retourne au registre et **tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date.** Il est arrivé, c'est certain, la ligne est là et elle est parfaite ; ensuite les traces s'arrêtent. Ça ressemble exactement à ce qu'il cherche : quelqu'un qui s'en prend aux jeunes arrivants, et un précédent. *En face, sur la voie de Joël : **un cold case qui n'en est pas un** — deux jeunes filles du même âge disparues quelques années plus tôt dans la même région. Repère, non écrit.*
 
-> 🟡 **Validé provisoirement, 16 août 2026 — à revoir. Ce n'est pas un mur, c'est une personne.** L'autre arrivant n'est ni mort ni disparu : **il a trois ans, et il écoule ses dernières années au jardin.** **L'anticlimax est total, et il est humain : personne n'a rien fait de mal.** Quatre conséquences, et la scène qui en sort : **§4 ter.2 bis**.
+**18. Il appelle Isaac.** Il a une piste, un nom, un lieu ; ils se donnent rendez-vous au jardin. **La scène doit être plate**, et c'est sa seule fonction : *c'est le premier de deux coups de fil, et le second est celui qui compte.* **Si celui-ci a le moindre relief, l'autre perd le sien.**
 
-**15. « Lâche l'affaire »**, **après deux semaines de disparition comptées.** Sous-entendu, et personne ne le dira autrement : il est déjà mort. Ce n'est ni un complot ni un secret — c'est de la lassitude, une journée à finir, un homme raisonnable en face. *Réglage complet dans [`le-meme-jour.md`](le-meme-jour.md) §5.3 : le mur n'est pas quelqu'un. Et c'est la scène doublée par excellence — voir §5.*
+**19. L'entretien en marchant.** Ils vont voir le pédiatre au jardin. Il est un peu sur la réserve, puis il comprend qu'il a affaire à un policier et il coopère normalement. Il est très occupé : il leur propose de le suivre pendant qu'il répond, **et ils traversent le jardin en marchant à côté de lui.** *C'est ainsi que le lecteur voit le jardin — de biais, pendant qu'on parle d'autre chose ; c'est le seul endroit du livre où sa cartographie se donne.* Au bout : **l'erreur administrative, et quelqu'un de trois ans qui va très bien.**
 
-**16. Isaac lâche l'affaire** et laisse Andrew seul. La porte ne claque pas : on lui retire une place, pas un droit ([`../03-personnages/isaac.md`](../03-personnages/isaac.md) §2). **Il n'y a plus de second homme dans les scènes**, plus de véhicule, plus de poste où entrer sans s'annoncer, et c'est ce manque qui doit se sentir dans les pages suivantes plutôt que dans une réplique d'adieu.
+> 🟡 **Ce n'est pas un mur, c'est une personne.** L'autre arrivant n'est ni mort ni disparu : **il a trois ans, et il écoule ses dernières années au jardin.** **L'anticlimax est total, et il est humain : personne n'a rien fait de mal.** Quatre conséquences, et la scène qui en sort : **§4 ter.2 bis**.
 
-> **C'est le point le plus bas du livre, et il est tranché : Isaac part par objectivité, pas par résignation.** Développement complet en **§4 bis**, avec la relance qui en sort.
+> ✅ **Et c'est ici que tombe la réplique du ratio**, dans la bouche du pédiatre, qui a les données techniques en main : *« ils mettent trois fois plus longtemps à descendre, en plus »*. Il l'énonce comme on cite une posologie, personne ne relève, et on parle d'autre chose. **Sans elle, le lecteur calcule 1:1 et trouve huit au lieu de quinze.**
 
-*✅ **Et son motif est désormais exact** : ce n'est pas le délai, c'est la crédibilité. Voir **§4 ter.3**.*
+**20. La salle, en passant.** Ils passent devant une salle ; dedans, **une berceuse en tête à tête avec un tout-petit sur le point de disparaître.** Le pédiatre sait que c'est rare de voir ça quand on est extérieur au jardin : il laisse passer. **C'est la seule fois du livre où le monde est entièrement bon avec quelqu'un.**
+
+> ⚠️ **Et c'est elle.** La berceuse de cette scène est celle qui détient Eliott — *pendant qu'elle berce cet enfant-là, le garçon qu'elle a pris est enfermé quelque part.* **Le lecteur passe la plus belle page du livre à la regarder, et il l'aime.** \
+> **L'anomalie : elle pleure**, et elle s'en excuse. Le pédiatre le relève avec douceur, sans s'arrêter de travailler, et on passe à autre chose. *Personne n'y voit un défaut, et ce n'en est pas un : c'est trop d'amour, pas trop peu.* **Ses larmes ne s'expliquent jamais.** \
+> ⛔ **Aucune description d'elle**, ni visage, ni âge, ni allure — le dispositif de la scène l'autorise, trois hommes regardent un bébé. **Elle n'existe que par ce qu'elle dit et par la façon dont elle le dit**, et c'est ce timbre-là, et rien d'autre, qui reviendra à la scène 26.
+
+**21. Il continue quand même** *(voie de Joël)*. Sa piste tombe, et c'était évidemment une fausse piste. Une scène de lassitude, énervé d'avoir perdu du temps — **et pourtant il décide que ça vaut le coup de continuer, et d'aller voir son ami au commissariat.**
+
+> ✅ **C'est le raccord le plus large du livre, et le seul qui n'exige rien du lecteur.** *Ailleurs il faut qu'il suppose ; ici il voit.* **Un homme décide d'aller au commissariat, et au chapitre suivant Andrew y est.** La décision appartient à Joël, l'arrivée appartient à Andrew, et pas un mot n'est faux. — *Il y va le lendemain matin : la nuit laisse au lecteur le temps de s'installer dans son erreur.* \
+> ⚠️ **Prix à payer :** l'ami de Joël ne peut pas être nommé dans ce chapitre. *Un prénom qui n'est pas Isaac casse le raccord ; un prénom qui est Isaac serait un mensonge.* **À vérifier dans toute la branche.**
+
+**22. Au commissariat.** Andrew insiste. Il insiste encore. Il parle de reprendre le registre, de vérifier des lignes, de recouper des dates. **Il voit la motivation d'Isaac le lâcher et il panique un peu**, sans contrôle. Isaac tranche sèchement. Fin de chapitre.
+
+> ✅ **C'est ici que le lecteur est explicitement de ce côté-ci**, sans ambiguïté — et c'est ce qui rend le chapitre suivant impossible à soupçonner. \
+> ✅ **Et c'est ici qu'Isaac s'en va**, pas dans un chapitre à lui. *L'ancienne scène 16, « Isaac lâche l'affaire », est supprimée : il se retirait deux fois.* **Ce n'est pas le délai, c'est la crédibilité** — il a suivi l'homme du registre dans un mur et il ne se laissera pas emmener une seconde fois. *Son départ est entièrement juste et entièrement la faute d'Andrew. Ni lâche, ni tiède, ni fonctionnaire.*
+
+**23. « Lâche l'affaire »** *(voie de Joël)*. Le ton est monté. On se répond, on hausse la voix, quelqu'un répète ce qu'il a déjà dit. **Puis il regarde les dossiers, et il n'y touche plus.** Le chapitre se ferme sur un abandon.
+
+> **Et on a changé de monde sans que le lecteur le sache.** Il croit lire la suite de la dispute : même pièce, mêmes hommes, ton qui monte d'un cran. *Ce sont deux disputes, dans deux mondes, à dix ans d'écart — et c'est la coupe de chapitre qui fait tout le travail.* **« Je te le répète » est la charnière, et c'est une équivoque parfaite.**
 
 ## La remontée
 
-**17. L'enquête en solo, et ce qui mène au repaire.** ⚠️ **TROU réduit à un seul point.** Rebondissement : **il trouve la maison et appelle Isaac pour qu'il le rejoigne vite.** **C'est au téléphone, en donnant l'adresse, qu'il dit *« c'était là sous nos yeux »* — et la phrase n'est pas une formule, elle est exacte** : voir **§4 ter.4**. *Le déclencheur du §4 tombe ici, la relance est celle du §4 bis, et le repaire est désormais un lieu connu. **Ce qui reste ouvert est uniquement ce qu'Eliott a dit exactement** — voir §6, où le trou est reformulé et rétréci.*
+**24. Il passe outre, et il n'en tire rien.** Quelque chose a retenu son attention dans le dossier pendant la conversation houleuse ; il décide d'y réfléchir au calme. **Là où l'autre s'est arrêté net, celui-ci ne s'arrête pas.** Puis il y passe la journée, seul, **et ça ne donne rien.**
 
-**18. Il entre seul, sans attendre.** Il a appelé, il sait que l'autre arrive, et il n'attend pas. Ce n'est pas du courage et ce n'est pas de l'imprudence : c'est exactement la faute d'avant refaite à l'envers — **on lui a dit d'arrêter de creuser une fois, et il a obéi.** Cette fois, personne ne l'arrête parce que personne n'est là. *Ce qu'il ouvre, et ce qu'il y a derrière : **§4 ter.3**. Ce n'est pas une planque, c'est une maison, et la porte donne sur une cave.*
+> ✅ **Ce chapitre en absorbe deux** : l'ancienne scène 17 a, « il se fait des nœuds au cerveau », n'existe plus séparément. *Elle demandait à Andrew de tourner en rond sans rien à quoi tourner autour ; maintenant le chapitre a une colonne vertébrale.* \
+> ⛔ **Ce qu'il a remarqué ne doit rien donner.** *Sinon l'idée posée en tête de chapitre pré-annonce la solution, et les trois chapitres suivants n'ont plus rien à découvrir.* **Il faut que ça puisse ne rien donner sans que le lecteur se sente floué.** \
+> ✅ **Et c'est ce chapitre qui apprend au lecteur qu'Isaac est parti — par une absence.** Plus de second homme, plus de véhicule, plus de poste où entrer sans s'annoncer. ⛔ *Aucun retour en arrière sur ce départ : pas de « depuis qu'il était seul », pas de souvenir de la dispute. L'ellipse ne tient que si personne ne la comble.*
 
-**19. Il retrouve Eliott.** **Ses reliquats arrivent, et il réalise sa propre mort.** Isaac les a rejoints entre-temps. **Une berceuse est menottée, déjà prête à être embarquée.** *C'est le point où le parcours cesse d'être commun : la fin du chapitre A de [`deux-histoires-en-une.md`](deux-histoires-en-une.md) §5, et le seuil que le lecteur franchit deux fois.*
+**25. Il rentre chez lui** *(voie de Joël)*. Il est rentré dépité, il s'affale, il fait des choses banales. **C'est un abandon complet — et le lecteur ne doit surtout pas le lire comme tel.** Pour lui, on est toujours chez Andrew : une fin de journée éreintante, une pause après tous ces nœuds au cerveau. *C'est le chapitre le plus dangereux du livre à écrire, parce qu'il doit être deux choses opposées à la fois sans qu'un seul mot penche d'un côté.*
+
+**26. Il a trouvé.** Il refait la promenade qu'il avait faite avec le garçon, comme un homme qui suit un fantôme. Une phrase lui revient — *« il y avait un magasin de chaussures ici, pas une épicerie »* — **et il entre dans l'épicerie.** Il flâne, il passe en caisse. **La femme devant lui est nerveuse et laisse tomber sa monnaie**, s'excuse auprès du caissier, croise son regard, paie maladroitement et sort en trombe. *Il ne la reconnaît pas : c'est sa voix qui la reconnaît, et ça l'interpelle, rien de plus.* Puis il retourne au jardin demander qui est la berceuse de l'autre jour — **on lui donne un nom, pas une adresse** — et le lendemain il la prend en filature. **Elle le mène droit au lieu**, elle en repart, et il appelle.
+
+> ✅ **Il ne déduit rien : c'est elle qui fait tout le travail.** *Elle sait qui il est — elle l'a vu au jardin avec le policier — et elle réagit à une reconnaissance qui n'a pas eu lieu.* **Sans son affolement, il passait son chemin. Elle fabrique elle-même ce qu'elle redoute.** \
+> **Deux demi-arguments dont aucun ne tient debout seul :** une gêne sans nom rapportée du jardin, une phrase d'enfant trop banale pour être notée. *C'est leur rencontre qui fait l'étincelle, et personne d'autre au monde n'a les deux moitiés.* \
+> **Le hasard n'achète qu'un soupçon.** Elle fait ses courses dans le quartier où elle travaille, il entre dans un magasin pour une raison qui lui appartient — *et tout ce qui suit est du travail.* **L'homme qui croit les documents et pas les gens est sauvé en suivant quelqu'un.** \
+> ⛔ **Pistes mortes, notées pour ne pas y revenir :** la voiture qu'il n'a pas ; la voisine qui dit bonjour ; le nom prononcé et laissé tomber ; le gamin qui décrivait un intérieur ; la fenêtre, la lumière qui s'éteint et le cadenas. \
+> **Et *« c'était là sous nos yeux »* ne parle plus d'un lieu : elle parle d'elle.** *Ils sont restés trois mètres devant elle pendant qu'elle berçait un enfant, et ils cherchaient le garçon qu'elle avait pris.* C'est le sens le plus littéral que la phrase puisse avoir, et personne ne l'entend.
+
+**27. Il entre seul, sans attendre.** Il a appelé, il sait que l'autre arrive, et il n'attend pas. Ce n'est pas du courage et ce n'est pas de l'imprudence : c'est exactement la faute d'avant refaite à l'envers — **on lui a dit d'arrêter de creuser une fois, et il a obéi.** Cette fois, personne ne l'arrête parce que personne n'est là. *Ce qu'il ouvre, et ce qu'il y a derrière : **§4 ter.3**.*
+
+## Le seuil franchi deux fois
+
+**28 à 31. Le même seuil, deux issues.** Sur la voie de Joël, **les corps**. Sur celle d'Andrew, **le même lieu et l'autre issue** : le chapitre recommence, même arrivée, même pesanteur, et le garçon est vivant. Puis **la poursuite** d'un côté, et de l'autre **elle n'a pas fui** — elle triture son collier, hésitante, avant de tendre ses deux mains pour le passage des menottes. *Ses reliquats arrivent à Andrew, et il réalise sa propre mort.*
+
+**32 et 33. La cérémonie, une seconde fois, puis la ligne de registre.** ⛔ **La seconde cérémonie ne redécrit rien** — ni la salle, ni la paire, ni le froid, ni le nom qu'on lui demande. *Elle ne donne que ce qu'il avait omis : la phrase d'ouverture entendue en entier, et l'odeur dont quelqu'un parlait au loin.* **C'est sa brièveté qui dit, sans un mot, qu'on n'y cherche plus la même chose.** Puis il parcourt le registre, qui confirme son souvenir, **et on s'arrête là. Ellipse.**
+
+**34 à 36. L'épilogue.** Les excuses ferment l'arc d'Andrew — *et il ne se rouvre pas.* Six ans plus tard, **l'entrée au jardin** et **le tête à tête** forment un seul chapitre continu, écrit et validé le 17 août 2026 : voir l'atelier, onglet Chapitres. *Le registre est celui d'une rentrée scolaire, et c'est lui qui garantit que le lecteur ne sera pas triste du sort d'Eliott.*
 
 > **La ravisseuse était une berceuse.** Elle a passé sa vie au contact des arrivants les plus jeunes. **✅ Ses motivations sont trouvées, et elles ont désormais leur fiche : [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md).**
 
@@ -286,13 +374,15 @@ La première (scènes 6 à 13) est richement payée en monde et se justifie seul
 **Les deux conditions posées ici sont désormais remplies, et par le contenu et non par le dosage** — voir **§4 ter** :
 
 - **Elle coûte autre chose que du temps.** Elle coûte à Andrew **une part de son monde** : il découvre qu'il existe un endroit qu'il n'a pas le droit de voir. Et elle coûte à Isaac **sa crédibilité**, ce qui n'est pas la même monnaie que des jours perdus.
-- **C'est bien elle qui provoque le départ d'Isaac**, comme cette section le demandait — mais pas parce qu'elle a duré : parce qu'il a suivi l'homme du registre dans un mur. La scène 16 cesse d'être une conséquence administrative du *« lâche l'affaire »* et devient le prix d'une faute d'enquête.
+- **C'est bien elle qui provoque le départ d'Isaac**, comme cette section le demandait — mais pas parce qu'elle a duré : parce qu'il a suivi l'homme du registre dans un mur. *Son départ cesse d'être une conséquence administrative et devient le prix d'une faute d'enquête.* **✅ Et il ne fait plus l'objet d'un chapitre : Isaac s'en va en fermant la scène 22, et l'ancienne scène 16 est supprimée.**
 
 *Reste la question de longueur, et elle est ouverte : **deux semaines sont comptées**, ce qui est exactement la durée de la première. Voir §3.7, qui retourne l'objection en atout, et §6.*
 
-## 3.5 ⚠️ Toutes les scènes ne sont pas attribuables — et c'est le risque majeur du document
+## 3.5 ✅ Toutes les scènes ne sont pas attribuables — risque levé le 16 août 2026
 
-**La méthode du §1 veut qu'on écrive une enquête et qu'on l'attribue.** Elle suppose que chaque scène puisse tomber d'un côté ou de l'autre. **Ce parcours-ci ne le permet plus entièrement.**
+> ✅ **Levé.** *L'autrice a donné à Joël ses propres pendants — les archives du commissariat, une sortie de fac, un ancien policier chez lui, un cold case qui n'en est pas un — et le déséquilibre a disparu avec eux.* **Sur les trente-six scènes, une seule n'a pas de jumelle possible : la cérémonie des vingt-six.** La parade ci-dessous reste valable et devient une règle d'écriture ordinaire, pas une parade à un risque.
+
+**La méthode du §1 veut qu'on écrive une enquête et qu'on l'attribue.** Elle supposait que chaque scène puisse tomber d'un côté ou de l'autre, et le premier état du parcours ne le permettait plus entièrement.
 
 **Les scènes qui montrent le monde ne peuvent être que celles d'Andrew** : le jardin, la ruche, la cérémonie des vingt-six, le registre, le régime du silence. **Joël n'a rien à expliquer** — son monde est le nôtre, et un chapitre où l'on décrit un commissariat n'apprend rien à personne.
 
@@ -398,7 +488,7 @@ C'est là qu'est sa faute, et elle est nette : **il n'a pas manqué l'indice, il
 
 ## 4 bis.1 Le point le plus bas — tranché
 
-**Isaac lâche l'affaire après deux échecs.** Deux fausses pistes, deux semaines de disparition comptées, et ce que ces deux chiffres valent ensemble. **Et c'est important : il ne part pas par résignation, il part par objectivité.**
+**Isaac lâche l'affaire après deux échecs.** Deux fausses pistes, deux semaines de disparition comptées, et ce que ces deux chiffres valent ensemble. **Et c'est important : il ne part pas par résignation, il part par objectivité.** *✅ 16 août 2026 : ce départ ne s'écrit pas. Il ferme la scène 22 d'une réplique sèche, et le lecteur ne s'aperçoit de son absence qu'au chapitre suivant, à ce qui manque.*
 
 > **Il a raison, et c'est ce qui rend son départ insupportable.**
 
@@ -718,7 +808,7 @@ Le *« lâche l'affaire »* en est le modèle, et il est déjà écrit ([`le-mem
 |---|---|
 | **Le retour chez un témoin** (scène 5) | deux fois la même pièce, deux fois la même question, et une seule fois où il en tire quelque chose |
 | **Le suspect avec un alibi** (scènes 12-13) | deux hommes détestables et innocents, un dans chaque monde — et la même déception |
-| **Seul** (scène 16, et ce qui suit) | deux fois un homme qui refait un trajet sans personne. C'est le beat le moins situé du parcours, donc le plus facile à doubler |
+| ~~**Seul**~~ | ⛔ **caduc.** Le beat existait autour de l'ancienne scène 16, supprimée le 16 août 2026 — *avec elle disparaît le doublage le plus facile du parcours* |
 
 *Réglage général du doublage : **les deux occurrences ne doivent jamais se citer l'une l'autre**, et rien dans la seconde ne doit ressembler à un rappel. Le lecteur ne compare pas deux scènes, il en lit une — c'est à la relecture qu'il en trouve deux. Le dosage se règle sur [`faux-raccords.md`](faux-raccords.md) et sur la section 1 bis de [`deux-histoires-en-une.md`](deux-histoires-en-une.md), qui commande : **aucune paire, avant la planque, ne doit être assez nette pour déclencher un soupçon.***
 
@@ -751,15 +841,16 @@ Le *« lâche l'affaire »* en est le modèle, et il est déjà écrit ([`le-mem
 
 ## Ce qui reste ouvert par ailleurs
 
-- [ ] **La répartition, scène par scène, entre Andrew et Joël.** L'autrice la veut « assez égale ». **Elle est désormais contrainte par le §3.5** : les scènes 8, 10 et 11 ne peuvent être que d'Andrew, et l'égalité ne peut donc plus être une égalité de matière — seulement de nombre et de forme.
+- [ ] **La répartition, scène par scène, entre Andrew et Joël.** L'autrice la veut « assez égale ». *✅ Faite : la table du §2 donne la voie de chacune des trente-six scènes.* **Vingt-huit pour Andrew, huit pour Joël** — l'égalité n'a pas été cherchée en nombre mais en forme, et le §3.5 dit pourquoi.
 - [ ] **Le nombre de chapitres**, et l'alternance. *Contrainte connue : l'alternance ne doit jamais dessiner un rythme régulier qui se lirait comme deux séries.*
-- [ ] **Lesquels seront doublés**, et combien. Un seul doublage est acquis — le *« lâche l'affaire »*, scène 15. Trois autres sont proposés au §5.
+- [ ] **Lesquels seront doublés**, et combien. Un seul doublage est acquis — le *« lâche l'affaire »*, colonnes 22 et 23. Trois autres sont proposés au §5.
 - [ ] **Où tombe l'indice du déclencheur dans une scène de visite** — scène 1 ou scène 2 —, et comment il passe inaperçu la première fois. *La scène 2 est le meilleur emplacement : ils sortent faire un tour, et le garçon parle en marchant dans des rues réelles.*
-- [ ] **Combien de temps dure la détention d'Eliott ?** **Deux semaines sont comptées à la scène 15, et la scène 14 en compte deux aussi** — les deux chiffres sont désormais les mêmes, et il faut décider s'ils se recouvrent ou s'ils s'ajoutent. *C'est le compteur du livre — voir [`duree-et-calendrier.md`](duree-et-calendrier.md).*
+- [ ] **Combien de temps dure la détention d'Eliott ?** **Deux semaines sont comptées au « lâche l'affaire », et la seconde piste en compte deux aussi** — les deux chiffres sont désormais les mêmes, et il faut décider s'ils se recouvrent ou s'ils s'ajoutent. *C'est le compteur du livre — voir [`duree-et-calendrier.md`](duree-et-calendrier.md).*
 - [ ] **La longueur de la seconde fausse piste en pages.** Le §3.4 recommandait qu'elle soit plus courte que la première ; le contenu trouvé compte deux semaines, soit autant. **La recommandation n'est pas caduque, elle se déplace** : ce n'est plus la durée racontée qui doit être plus courte, c'est le nombre de scènes. *Et le §3.7 dit pourquoi il ne faut pas la raccourcir trop : c'est le meilleur endroit du dispositif.*
 - [x] ~~**La suspicion de voile de June (scène 2) contre sa fiche, qui posait qu'elle ne soupçonne rien.**~~ — **tranché : elle a une intuition, et elle ne la formule jamais.** [`../03-personnages/june.md`](../03-personnages/june.md) est corrigée en conséquence (§2 bis). *Reste ouvert, et c'est mineur : **est-elle reprise plus tard ?** La réponse par défaut est non — une phrase qui s'arrête ne se reprend pas.*
-- [ ] 🟡 **Est-ce qu'Andrew lui parle, ce jour-là, ou est-ce qu'il la croise seulement ?** *La berceuse qui porte le mourant, pendant la traversée du jardin, scène 14* (§4 ter.2 quater). **Les deux versions ne coûtent pas la même chose :** une berceuse qu'il croise reste une silhouette et ne peut pas s'accrocher ; une berceuse à qui il adresse la parole devient quelqu'un qu'il a interrogé sans le savoir — **c'est bien plus cruel, et c'est bien plus risqué.** *Question liée : s'il lui parle, lui donne-t-elle un nom, et lequel ? Voir [`../03-personnages/la-berceuse.md`](../03-personnages/la-berceuse.md), « Le livre lui donne-t-il un nom ? ».*
-- [ ] 🟡 **La traversée du jardin est-elle une scène ou deux ?** *Le refus au comptoir, la traversée, et la mort d'un zéro peuvent tenir ensemble ou se séparer.* **Le §3.7 demande de ne pas égayer le creux ; la scène de la mort est ce qui s'en rapproche le plus dangereusement.** À doser.
+- [ ] 🟡 **Est-ce qu'Andrew lui parle, ce jour-là, ou est-ce qu'il la croise seulement ?** *La berceuse de la salle, colonne 20.* **✅ Tranché le 17 août 2026, et plus fort que les deux versions envisagées : il ne lui parle pas, et elle parle devant lui.** Le pédiatre relève ses larmes, elle bredouille une excuse — *et c'est ce timbre-là, entendu par-dessus l'épaule de quelqu'un d'autre, qu'il reconnaîtra six cents pages plus loin dans une épicerie.* **Il n'aura donc jamais vu son visage, et il ne la reconnaîtra pas de vue.** \
+  ⛔ *Conséquence ferme : aucune description d'elle à la colonne 20, et le lecteur non plus ne doit pas pouvoir la reconnaître autrement que par la voix.*
+- [x] ✅ **La traversée du jardin est tranchée : deux scènes.** *L'entretien en marchant (col. 19) et la salle, en passant (col. 20).* Le refus au comptoir n'existe plus — il est devenu **le départ de la seconde enquête** (col. 17), et le secret médical se lève tout seul devant un policier.
 - [ ] **Où le lecteur apprend-il ce qu'est un porteur de voiles, s'il ne l'apprend pas d'elle ?** La scène 2 est désormais le canal principal, et elle est la seule à ne rien expliquer en l'expliquant. *Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.*
 
 ---
