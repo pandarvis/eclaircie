@@ -73,6 +73,7 @@ def scoper(feuille, pref):
         i = k + 1
     return u'\n'.join(out)
 
+css = re.sub(r'/\*.*?\*/', u'', css, flags=re.S)   # sinon un commentaire colle au selecteur
 css = scoper(css, u'#v-ruche').replace(u'100vh', u'100%')
 css = css.replace(u'#v-ruche{margin:0;height:100%}', u'')
 
@@ -101,17 +102,19 @@ part = (u"\n/* =================================================================
 io.open('pC-ruche.js', 'w', encoding='utf-8').write(part)
 
 # ---------- 5. injection dans les parties ----------
-def injecter(fichier, balise, bloc, ancre):
+def injecter(fichier, balise, bloc, ancre, css=False):
+    """css=True : marqueurs en commentaires CSS. Un commentaire HTML pose dans
+       une feuille de style avale la premiere regle qui le suit."""
     t = io.open(fichier, encoding='utf-8').read()
     deb, fin = u'/*<<%s>>*/' % balise, u'/*<<fin %s>>*/' % balise
-    if u'<' in ancre:   # markup : balises HTML
+    if u'<' in ancre and not css:   # markup : balises HTML
         deb, fin = u'<!--<<%s>>-->' % balise, u'<!--<<fin %s>>-->' % balise
     t = re.sub(re.escape(deb) + u'.*?' + re.escape(fin), u'', t, flags=re.S)
     assert ancre in t, fichier + u' :: ' + ancre[:40]
     t = t.replace(ancre, deb + u'\n' + bloc + u'\n' + fin + u'\n' + ancre, 1)
     io.open(fichier, 'w', encoding='utf-8').write(t)
 
-injecter('p3-style.html', u'ruche-style', css, u'</style>')
+injecter('p3-style.html', u'ruche-style', css, u'</style>', css=True)
 injecter('p4-corps.html', u'ruche-vue',   vue, u'  </main>')
 injecter('p4-corps.html', u'ruche-bouton', bouton, u'    <div class="bas">')
 print(u'ok — css %d, markup %d, js %d' % (len(css), len(vue), len(part)))
