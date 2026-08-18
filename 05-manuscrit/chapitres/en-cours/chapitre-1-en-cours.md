@@ -112,7 +112,7 @@ Sur le premier établi, une capsule. Cueillie dans la nuit, calée sur deux berc
 
 C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne serait plus touchée que par un veilleur.
 
-— Elle est pour toi, celle-ci, non ? dit la préparatrice au chiffon.
+— Elle est pour toi, celle-ci, non ? dit le préparateur au chiffon.
 
 — Salle 2. À dix heures.
 
@@ -120,13 +120,13 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 
 — Elles sont toutes belles.
 
-— Non, dit-elle. Regarde-la.
+— Non, dit-il. Regarde-la.
 
 Il la regarda. Elle était belle.
 
-Yvan arrivait derrière eux. En tant qu'analyste, il se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
+Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
 
-Quand l'analyste tranchait, il avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, il l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait, il l'acceptait sans discuter, et il avait cent fois raison de le faire.
+Quand l'analyste tranchait, elle avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, elle l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait, il l'acceptait sans discuter, et il avait cent fois raison de le faire.
 
 — La dix-neuf, dit Bastien.
 
@@ -134,13 +134,13 @@ Quand l'analyste tranchait, il avait raison. Ce n'était pas une affaire de grad
 
 — Oui. Elle a douze capsules.
 
-Yvan ne leva pas la tête tout de suite.
+Vera ne leva pas la tête tout de suite.
 
 — Elle en a onze.
 
 — Ça, c'était avant. Maintenant il y en a douze. Je suis allé les recompter trois fois.
 
-Il posa son crayon et sortit sa planche de la travée dix-neuf. Onze colonnes, onze séries, onze histoires commencées à onze dates différentes. La douzième n'était nulle part. Elle n'avait jamais été relevée, parce que personne n'avait jamais su qu'elle était là.
+Elle posa son crayon et sortit sa planche de la travée dix-neuf. Onze colonnes, onze séries, onze histoires commencées à onze dates différentes. La douzième n'était nulle part. Elle n'avait jamais été relevée, parce que personne n'avait jamais su qu'elle était là.
 
 — Elle est où ?
 
@@ -152,7 +152,7 @@ Il posa son crayon et sortit sa planche de la travée dix-neuf. Onze colonnes, o
 
 Andrew écoutait sans rien dire. Ça n'avait rien d'extraordinaire : une capsule pousse où elle pousse, personne n'a jamais choisi l'emplacement d'une seule d'entre elles, et il y en avait des dizaines de milliers dans ce bâtiment. On en oubliait. On les retrouvait.
 
-— Tu l'as touchée ? dit Yvan.
+— Tu l'as touchée ? dit Vera.
 
 — Oui.
 
@@ -160,15 +160,15 @@ Andrew écoutait sans rien dire. Ça n'avait rien d'extraordinaire : une capsule
 
 — Elle est prête.
 
-Il ne discuta pas. Une main posée ne remplaçait pas une série, et une main de Bastien n'avait encore jamais menti.
+Une main de préparateur ne valait pas celle d'une analyste. Bien sûr qu'elle pouvait sembler prête. Ce n'était pas si simple que ça.
 
-Seulement, une main ne donne pas de date.
+Le geste seul ne donnait pas de date. Vera pouvait relever cette capsule dans l'heure, elle n'aurait qu'un point sur un graphique vierge, et il en fallait quatre au minimum pour chiffrer correctement le jour d'une éclaircie totale. Toutes les capsules n'arrivent pas à maturation de la même manière. C'est en croisant des moyennes, des chiffres accumulés sur des années et les relevés faits sur place qu'on finit par le savoir.
 
-Une série non plus, pas tout de suite. Yvan pouvait relever cette capsule dans l'heure, et il n'aurait qu'un point. Il en fallait trois pour voir un sens et cinq pour poser un jour. Il le dit comme ça, sans s'excuser, parce que c'était le métier et que le métier était bon.
+Or Bastien pouvait se tromper comme ne pas se tromper. Il était nouveau dans le métier, et un préparateur ne tranche pas. Tout le monde le pensait tout bas sans le dire tout haut. Personne ne lui en voulait de ne pas savoir encore.
 
-— Cinq jours. Avant ça, je ne dirai rien.
+— Deux jours, dit-elle. Avant ça, je ne dirai rien. De toute manière, si ça avait été une capsule flash, elle se serait ouverte depuis longtemps.
 
-— Elle est claire, dit Bastien.
+— Mais elle est claire, dit Bastien.
 
 — Je sais.
 
@@ -176,7 +176,7 @@ Andrew regarda le tableau noir. Le neuf, le dix et le onze étaient pleins. Troi
 
 Une capsule qui s'ouvre sans personne autour s'ouvre quand même. Elle n'attend pas, elle ne prévient pas. C'était arrivé deux fois depuis qu'il était là, et les deux fois quelqu'un s'était retrouvé debout tout seul au milieu de la coulée, sans miroir, sans eau, sans personne à qui donner son nom.
 
-— Je relèverai deux fois par jour, dit Yvan. Matin et soir. Et je veux qu'on recompte tout le fond avant la fin de la semaine.
+— Je relèverai deux fois par jour, dit Vera. Matin et soir. Et je veux qu'on recompte tout le fond avant la fin de la semaine.
 
 — Ça va prendre trois jours.
 
@@ -190,15 +190,11 @@ Andrew sortit son carnet.
 
 — Le matin. Avant de descendre.
 
-— Ça te fait combien, en plus ?
-
-— Rien du tout, dit-il, ce qui faisait vingt minutes.
-
-Il écrivit : travée dix-neuf, douzième capsule, aucune série, la date et l'heure qu'il était. Puis, en dessous, les cinq matins qui venaient. Il souligna le dernier, parce qu'il soulignait toujours le dernier de quelque chose.
+Il écrivit : travée dix-neuf, douzième capsule, aucune série, la date et l'heure qu'il était. Puis, en dessous, les sept matins qui suivaient, un par ligne. Il souligna le dernier, parce qu'il soulignait toujours le dernier de quelque chose.
 
 Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait, et le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien.
 
-— Et si elle s'ouvre cette nuit ? dit Yvan.
+— Et si elle s'ouvre cette nuit ? dit Vera.
 
 — Alors elle s'ouvrira cette nuit, et on n'y pourra rien.
 
