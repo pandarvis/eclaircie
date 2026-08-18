@@ -102,7 +102,7 @@ Ils étaient une quinzaine, et il n'y avait pas de bureaux.
 
 Deux ou trois levèrent la main en le voyant entrer. Quelqu'un lui demanda comment allait son épaule. Il répondit qu'elle allait très bien, ce qui était faux, et on lui répondit qu'il mentait mal.
 
-Sur le premier établi, une capsule. Cueillie dans la nuit, calée sur deux berceaux de mousse, avec deux personnes autour. L'une lavait la paroi au chiffon, à l'eau claire, en tournant toujours dans le même sens, et l'eau du seau était verte. L'autre avait décollé le rabat sur dix centimètres, glissé dessous trois fils souples, et rabattu par-dessus. Les fils remontaient jusqu'à un appareil posé au bout de la table, une caisse grise avec un cadran et deux aiguilles qui ne bougeaient presque pas.
+Sur le premier établi, une capsule. Cueillie dans la nuit, calée sur deux berceaux de mousse, avec deux personnes autour. L'une lavait la paroi au chiffon, à l'eau claire, en tournant toujours dans le même sens, et l'eau du seau était verte. L'autre avait décollé le rabat sur dix centimètres, glissé dessous trois sondes souples, et rabattu par-dessus. Les sondes remontaient jusqu'à un appareil posé au bout de la table, une caisse grise avec un cadran et deux aiguilles qui ne bougeaient presque pas.
 
 C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne serait plus touchée que par un veilleur.
 
