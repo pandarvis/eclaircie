@@ -235,7 +235,7 @@ const PETALES=[
 ];
 const BATS={
   preparateurs:{a0:136,a1:174,r0:236,r1:352,nom:'Quartier des préparateurs'},
-  analystes:{a0:104,a1:134,r0:340,r1:452,nom:'Les analystes'},
+  analystes:{a0:107,a1:130,r0:350,r1:440,nom:'Les analystes'},
   repos:{a0:92,a1:112,r0:246,r1:312,nom:'Salle de repos'},
   accueil:{x:368,y:812,w:300,h:106,nom:'Accueil'}
 };
@@ -409,8 +409,8 @@ el('path',{d:`M${n2(pol(258,30)[0])},${n2(pol(258,30)[1])} L866,${n2(pol(258,30)
 /* corridors entre quartiers */
 [['M470,650 L412,646',''],
  ['M326,662 C296,648 258,622 226,606',''],
- ['M356,702 C340,708 320,712 304,716',''],
- ['M178,626 L190,670','']].forEach(([d])=>{
+ ['M324,694 C318,706 314,718 310,728',''],
+ ['M180,648 L204,668','']].forEach(([d])=>{
   el('path',{d,fill:'none',stroke:'#202932',"stroke-width":21,"stroke-linecap":'round'},cBat);
   el('path',{d,fill:'none',stroke:'#3a4653',"stroke-width":22,"stroke-linecap":'round',
     opacity:.6,"stroke-dasharray":'2 7'},cBat);
@@ -435,6 +435,32 @@ const rChe = a => R_CHE + 9*Math.sin(a*Math.PI/36);
       "stroke-dasharray":'1.5 7'},cBat);
   });
 })();
+
+/* les sentiers de service : on sort, on se balade, on rentre */
+function courbe(pts){
+  let d=`M${n2(pts[0][0])},${n2(pts[0][1])}`;
+  for(let i=0;i<pts.length-1;i++){
+    const q0=pts[i-1]||pts[i], q1=pts[i], q2=pts[i+1], q3=pts[i+2]||q2;
+    const c1=[q1[0]+(q2[0]-q0[0])/6, q1[1]+(q2[1]-q0[1])/6];
+    const c2=[q2[0]-(q3[0]-q1[0])/6, q2[1]-(q3[1]-q1[1])/6];
+    d+=` C${n2(c1[0])},${n2(c1[1])} ${n2(c2[0])},${n2(c2[1])} ${n2(q2[0])},${n2(q2[1])}`;
+  }
+  return d;
+}
+[
+  /* les préparateurs sortent chercher, et reviennent chargés */
+  [[228,528],[268,562],[310,588],[348,604]],
+  [[214,472],[196,516],[186,562],[196,604]],
+  /* les analystes sortent, font le tour, et vont voir les préparateurs */
+  [[302,722],[352,758],[404,776]],
+  [[300,720],[250,684],[214,642],[198,608]]
+].forEach((pts,i)=>{
+  const d=courbe(pts);
+  el('path',{d,fill:'none',stroke:'#1b211d',"stroke-width":5,
+    "stroke-linecap":'round',"stroke-linejoin":'round'},cBat);
+  el('path',{d,fill:'none',stroke:'#3a4636',"stroke-width":6,"stroke-linecap":'round',
+    "stroke-linejoin":'round',opacity:.28,"stroke-dasharray":'1.5 8'},cBat);
+});
 
 /* les pétales */
 PETALES.forEach((p,i)=>{
@@ -487,12 +513,11 @@ for(const k in BATS){const b=BATS[k];
 /* les analystes : plusieurs pieces et un couloir interieur */
 (function(){
   const a=BATS.analystes;
-  el('path',{d:arc(398,a.a0+2,a.a1-2),fill:'none',stroke:'#28313b',
-    "stroke-width":11,"stroke-linecap":'round'},cBat);
-  el('path',{d:arc(356,a.a0+3,a.a1-3),fill:'none',stroke:'#333d49',"stroke-width":1.2},cBat);
-  [111,119,127].forEach(q=>{
-    el('path',{d:ray(q,348,392),fill:'none',stroke:'#333d49',"stroke-width":1.2},cBat);
-    el('path',{d:ray(q,406,446),fill:'none',stroke:'#333d49',"stroke-width":1.2},cBat);
+  el('path',{d:arc(396,a.a0+2,a.a1-2),fill:'none',stroke:'#28313b',
+    "stroke-width":10,"stroke-linecap":'round'},cBat);
+  [114,122].forEach(q=>{
+    el('path',{d:ray(q,356,388),fill:'none',stroke:'#333d49',"stroke-width":1.2},cBat);
+    el('path',{d:ray(q,404,434),fill:'none',stroke:'#333d49',"stroke-width":1.2},cBat);
   });
 })();
 /* chaises de l'accueil */
@@ -557,7 +582,7 @@ el('text',{x:CX,y:CY+5,class:'etiq',"text-anchor":'middle',
 /* étiquettes */
 const ETIQ=[
  [pol(228,155)[0], pol(228,155)[1],'Préparateurs'],
- [pol(330,119)[0], pol(330,119)[1],'Analystes'],
+ [pol(338,118)[0], pol(338,118)[1],'Analystes'],
  [pol(238,102)[0], pol(238,102)[1],'Salle de repos'],
  [BATS.accueil.x+BATS.accueil.w/2, BATS.accueil.y-16,'Accueil'],
  [pol(258,33)[0], pol(258,33)[1],'Consultation'],
@@ -742,20 +767,23 @@ const che = a => pol(rChe(a), a);
 const TRAJETS={
  veilleur:{c:'#d9a441',nom:'Le veilleur',
   legende:"Il entre, prend un papier avec le numéro de sa salle, longe le grand couloir, débouche dans la serre, et rejoint sa salle par la porte du fond.",
-  pts:[[516,990],[516,912],[516,852],[496,760],[462,650],[440,600],che(88),che(112),
-       che(140),che(168),che(196),che(224),che(248),P4_IN,P4_MID]},
+  pts:[[516,990],[516,900],[516,830],[500,762],[478,702],[458,650],[444,606],
+       che(88),che(110),che(134),che(158),che(182),che(206),che(230),che(250),che(262),
+       P4_IN,P4_MID]},
  visiteur:{c:'#0081B3',nom:'Les visiteurs',
   legende:"Ils bifurquent à l'accueil, font le tour par le couloir périphérique — le réfectoire, les chambres — et entrent dans la salle par l'autre bout. Ils ressortiront par où ils sont entrés.",
   pts:[[516,990],[516,900],[620,896],[740,900],[836,900],[868,860],[868,600],[868,420],[856,356],
-       pol(R_ARC,349),pol(R_ARC,318),pol(R_ARC,290),pol(R_ARC,262),P4_OUT,P4_MID]},
+       pol(R_ARC,349),pol(R_ARC,322),pol(R_ARC,296),pol(R_ARC,272),pol(R_ARC,262),
+       P4_OUT,P4_MID]},
  arrivant:{c:'#e9e0cc',nom:"L'arrivant",
   legende:"Il sort de sa capsule, boit, reçoit ses cadeaux — puis on lui fait signe vers une porte qu'il n'avait pas vue. Elle donne sur la serre. Quelques mètres de coulée, et la consultation. Ensuite une chambre, pour huit jours.",
-  pts:[P4_MID,P4_IN,che(262),che(286),che(310),che(334),che(358),che(20),che(33),
-       pol(R_PET,33),pol(258,33),[746,470],[836,470],[888,452]]},
+  pts:[P4_MID,P4_IN,che(262),che(282),che(302),che(322),che(342),che(2),che(20),che(31),
+       pol(R_PET,31),pol(252,30),[700,529],[800,529],[866,529],[896,512]]},
  capsule:{c:'#ec9006',nom:'La capsule',
   legende:"Elle a poussé quelque part dans la serre, à plat sur un coulant, en rang avec les autres. Un analyste la désigne. Un préparateur la décroche, la porte au quartier, branche les appareils. Puis elle repart vers la salle, couchée sur un chariot — et se redresse au dernier moment.",
-  pts:[[700,690],[620,650],[540,616],[452,596],[366,566],[286,548],[196,532],
-       [252,556],[224,500],[236,446],che(184),che(208),che(232),che(254),P4_IN,P4_MID]}
+  pts:[[660,640],[560,660],[450,650],[350,626],[270,586],[244,558],
+       pol(268,148),pol(240,154),che(162),che(186),che(210),che(234),che(252),che(262),
+       P4_IN,P4_MID]}
 };
 const trace=el('path',{id:'trace',d:''},cTrace);
 const halo=el('circle',{id:'voyageur',cx:-99,cy:-99,r:7,fill:'#fff',opacity:0},cTrace);
