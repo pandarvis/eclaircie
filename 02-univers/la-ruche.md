@@ -77,6 +77,14 @@
 
 **Une cérémonie annoncée réunit une vingtaine de personnes. Une cérémonie montée dans la journée en réunit une douzaine** — et elles tiennent toutes sur un seul côté de la salle.
 
+**Deux marches basses courent le long du mur**, pour ceux de derrière. On s'y assoit ou on reste debout : *il n'y a ni estrade, ni rangées de chaises pour le public.*
+
+✅ **Et le public n'a pas d'âge commun.** *Une femme qui paraît quatre-vingts ans, deux hommes autour de la cinquantaine, un autre d'une vingtaine d'années qui les connaît tous et les appelle par leur prénom.* **C'est le seul endroit du livre où l'inversion se voit sans qu'on la nomme** — celui qui a l'air le plus jeune est le plus ancien de la salle.
+
+✅ **Un arrivant de dix ans surprend l'assemblée**, et il fallait que ça se voie : ce n'est pas commun, et ceux qui sont là sont pour la plupart arrivés grands. *La surprise tient en une réplique, jamais davantage.*
+
+> — Dix, répéta celui d'une vingtaine d'années. J'en ai jamais vu d'aussi jeune.
+
 ⛔ **Il n'y a rien de cruel là-dedans.** Le public ne vient pas pour quelqu'un en particulier : il vient pour célébrer une arrivée. *Personne ne pense « zut, il y en a un de plus ».* Ceux qui sont là constatent qu'il y en a un de plus, et c'est tout.
 
 ### Le poste, et la table

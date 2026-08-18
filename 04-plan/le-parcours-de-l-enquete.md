@@ -162,7 +162,7 @@ Ce n'est pas un risque de dosage, c'est un risque de nature. Deux victimes contr
 
 *Elle ouvre le parcours en colonne 0 et n'est pas attribuable : elle précède l'enquête. **Mais c'est là que se pose ce que la scène 8 fera remonter, et c'est la première page du livre.***
 
-> ✅ **Cette scène est écrite.** *[Prologue — La cérémonie](../05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf), 2 540 mots, écrit avec l'autrice les 17 et 18 août 2026.* **Ce qui suit décrit l'intention ; le texte, lui, est dans l'atelier, onglet Chapitres.**
+> ✅ **Cette scène est écrite.** *[Prologue — La cérémonie](../05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf), 2 614 mots, écrit avec l'autrice les 17 et 18 août 2026.* **Ce qui suit décrit l'intention ; le texte, lui, est dans l'atelier, onglet Chapitres.**
 
 **La cérémonie d'éclaircie d'Eliott.** Deux capsules **surgissent le même matin** — *une noyade ne laisse aucun délai de maturation* — et la cérémonie se monte dans la journée : la sienne, et celle d'un arrivant de quarante-deux ans, **Nicolas**. On a prévenu tard, donc il y a peu de monde. La cérémonie se déroule normalement, il n'y a rien à signaler, et **le texte ne signale rien.**
 

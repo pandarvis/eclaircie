@@ -3143,6 +3143,9 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
+["Ruche","Le public d'une ceremonie n'a pas d'age commun, et c'est le seul endroit du livre ou l'inversion se voit sans qu'on la nomme : celui qui parait vingt-cinq ans est le plus ancien de la salle, il connait tout le monde et il appelle chacun par son prenom.","acquis"],
+["Ruche","Un arrivant de dix ans surprend l'assemblee. Ce n'est pas commun, et ceux qui sont la sont pour la plupart arrives grands. La surprise tient en une replique, jamais davantage : on repete le chiffre, et on dit qu'on n'en a jamais vu d'aussi jeune.","acquis"],
+["Ruche","Deux marches basses courent le long du mur de la salle de ceremonie, pour ceux de derriere. On s'y assoit ou on reste debout ; il n'y a ni estrade, ni rangees de chaises pour le public.","acquis"],
 ["Nom","Les mots d'apparence physique passent : un gars, un garcon, une femme, une fille, une fillette. Decision de l'autrice, 18 aout 2026 - ce sont des attraits qui touchent le physique, la taille en general. C'est la categorie sociale ou d'age qui est interdite, jamais la matiere.","acquis"],
 ["Nom","Ce qui ne passe pas, en plus des mots de parente : enfant, bebe, nourrisson, vieux, vieille, vieillard, senior. Chacun suppose une place dans une lignee ou une direction dans une vie, et ni l'une ni l'autre n'existent ici.","acquis"],
 ["Ruche","On dit un coulant pour un brin, la coulee pour la masse. Decision de l'autrice, 18 aout 2026 : ligne etait trop plat, et coulee ne convient pas a une plante qui rampe. Le mot vient du jardinage - le rejet qui part du pied et va faire racine plus loin.","acquis"],
@@ -4053,7 +4056,8 @@ const TEXTES = [{
   sous: `La cérémonie d'Eliott et de Nicolas · point de vue d'Andrew · écrit avec l'autrice les 17 et 18 août 2026`,
   p: [
 
-[`p`,`On lui avait donné la salle 4 pour deux capsules.`],
+[`p`,`Deux capsules étaient venues pendant la nuit, et personne ne savait qui allait en sortir.`],
+[`p`,`On lui avait donné la salle 4 pour les deux.`],
 [`p`,`C'était trop grand, et il n'avait rien dit. On ne discute pas une salle, et surtout pas celle qui était libre.`],
 [`p`,`Le veilleur poussa la porte, les bras chargés, et le soleil lui arriva dessus d'un coup. Il entrait par les ouvertures ménagées entre les nervures du plafond et posait sur les dalles de longues bandes obliques. Contre le mur du fond, un coulant passait. Épais comme un bras, entré par une percée du mur, enroulé autour de deux colonnes, ressorti plus loin sans qu'on sache où il allait.`],
 [`p`,`Personne ne l'avait planté là. On avait bâti autour, et on avait sculpté tout le reste.`],
@@ -4064,10 +4068,11 @@ const TEXTES = [{
 [`p`,`Il déplia la lampe sur pied à hauteur d'épaule, orientée vers le sol, et fit rouler un premier miroir depuis le mur jusqu'à l'emplacement du poste. Il stoppa sa course en activant le frein. Il l'essuya avec le linge accroché à la barre, en commençant par le haut, recula d'un pas, se vit dedans, et le tourna vers le mur. Une bassine à droite, vide, avec les flacons dedans.`],
 [`p`,`Quand il eut terminé de mettre le premier poste en place, il s'affaira au deuxième, réitérant deux mètres plus loin : lampe, miroir, bassine.`],
 [`p`,`Restait la table. Elle trônait au milieu de la pièce, dans la bande de soleil qui tombait là à cette heure-là. Il prit sur la desserte une nappe blanche et toute lisse, ainsi que son chemin de table, une grande bande rectangulaire orangée. Il les ajusta sur le plateau immaculé avant d'y déposer un pichet d'eau au milieu. Un aller-retour à la desserte : deux verres, deux timbales, deux biberons. Il en disposa trois devant chaque place.`],
-[`p`,`Personne ne savait qui allait sortir. On ne pariait pas. Alors on posait les trois, on prenait celui qu'il fallait le moment venu et on remettait les deux autres sur la desserte sans y penser. La pile de serviettes suivait le même principe : quatre tailles, et il en descendit une de chaque.`],
+[`p`,`On ne pariait pas. Alors on posait les trois, on prenait celui qu'il fallait le moment venu et on remettait les deux autres sur la desserte sans y penser. La pile de serviettes suivait le même principe : quatre tailles, et il en descendit une de chaque.`],
 [`p`,`Il compta les éléments sur la table. Sept. On était bon.`],
 [`p`,`Il récupéra deux chaises du tas.`],
 [`p`,`Les visiteurs arrivèrent avant les capsules, comme toujours, par petits groupes, et ils s'installèrent le long des murs en parlant à voix basse. Ils s'appliquaient à parler bas. C'était une chose qu'on faisait ici sans que personne l'ait jamais demandé. On avait prévenu tard, alors ils n'étaient pas nombreux. Ils étaient douze, et ils tenaient tous sur un seul côté.`],
+[`p`,`Deux marches basses couraient le long de ce mur-là, pour ceux de derrière. Trois s'assirent dessus, les autres restèrent debout. Ils n'avaient pas d'âge commun : une femme qui en paraissait quatre-vingts, deux hommes autour de la cinquantaine, un autre d'une vingtaine d'années qui les connaissait tous et les appelait par leur prénom.`],
 [`p`,`Nora entra la dernière, en nouant ses manches.`],
 [`tiret`,`— Bonjour Andrew. On est deux ?`],
 [`tiret`,`— On est deux.`],
@@ -4077,7 +4082,7 @@ const TEXTES = [{
 
 [`p`,`Deux nouvelles personnes, des préparateurs, firent rouler deux chariots jusqu'à leur poste respectif, et un murmure parcourut le petit groupe.`],
 [`p`,`Ils étaient de la serre. C'étaient eux qui vivaient au milieu de la coulée, qui la suivaient d'un bout à l'autre, qui savaient à la main quand une capsule était prête et qui la décrochaient.`],
-[`p`,`Les deux éclaircies du jour étaient couchées côte à côte, comme on les avait cueillies. Une capsule, ça ne pousse pas debout : ça pousse à plat sur le coulant, en rang avec les autres, et il faut la détacher de ce qui la porte. Celles-ci étaient sorties le matin même, toutes les deux, d'un coup, à quelques travées l'une de l'autre, et il avait fallu monter la cérémonie dans la journée.`],
+[`p`,`Les deux éclaircies du jour étaient couchées côte à côte, comme on les avait cueillies. Une capsule, ça ne pousse pas debout : ça pousse à plat sur le coulant, en rang avec les autres, et il faut la détacher de ce qui la porte. Celles-ci étaient venues dans la nuit, toutes les deux, d'un coup, à quelques travées l'une de l'autre, et il avait fallu monter la cérémonie au matin.`],
 [`p`,`Elles faisaient la longueur d'un corps et un peu plus. Larges au milieu, effilées aux deux bouts, avec cette dissymétrie qu'ont les choses qui ont poussé : un flanc plus plein que l'autre, une courbe qui reprenait là où on ne l'attendait pas. Des nervures couraient sur toute la longueur, très fines, serrées près des pointes et écartées au ventre, et elles se rejoignaient sans jamais tout à fait se toucher. Rien là-dedans n'avait été dessiné.`],
 [`p`,`Elles étaient belles. La paroi avait pris ce jaune très pâle qui vient à la fin, presque comme de la cire, et par endroits on voyait au travers. Une ombre plus dense, une courbe, quelque chose de replié. On ne distinguait rien de plus. Là-dedans, tout se confondait avec le fond, et ceux qui prétendaient reconnaître un genou ou une épaule à travers une paroi mentaient, ou débutaient.`],
 [`p`,`Sur le dessus, le rabat était en place. Une pièce de la paroi elle-même, découpée ailleurs et remise dessus, plus sombre et plus mate que le reste depuis qu'on l'avait détachée. En dessous, tout avait déjà été fait — ouvert, dégagé, refermé, dans une autre pièce, par d'autres mains.`],
@@ -4094,6 +4099,7 @@ const TEXTES = [{
 [`p`,`Le corps était placé comme on se place pour dormir quand on n'a mal nulle part.`],
 [`p`,`Le veilleur sortit un instrument — étrange pour qui ignore à quoi il sert, banal pour qui sait le manier. Il fit le relevé. Puis, comme un exercice exécuté depuis des années, il trancha pour tous.`],
 [`tiret`,`— Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté dix ans.`],
+[`tiret`,`— Dix, répéta celui d'une vingtaine d'années. J'en ai jamais vu d'aussi jeune.`],
 [`p`,`Il fit pivoter le miroir sur son pied et le régla en biais, à la bonne hauteur, un peu de trois quarts.`],
 [`p`,`Le garçon se vit.`],
 [`p`,`Il resta là-dessus un long moment. Sa respiration changea de rythme deux fois.`],
