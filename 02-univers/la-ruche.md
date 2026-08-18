@@ -27,6 +27,56 @@
 
 *Écrit en écrivant le prologue. **Tout ce qui suit a été joué dans une scène avant d'être posé en règle**, ce qui est l'inverse de la méthode habituelle du dossier — et c'est pour ça que ça tient.*
 
+### Le plan, 19 août 2026
+
+*Dessiné par l'autrice. **Le plan fait foi** ; ce qui suit le décrit, et l'image originale est dans [`../06-visuels/plan-de-la-ruche-2026-08-19.jpeg`](../06-visuels/plan-de-la-ruche-2026-08-19.jpeg).*
+
+**La serre n'est pas une zone qu'on traverse : c'est le sol.** *Les quartiers — salle de repos, analystes, préparateurs — sont des bâtiments que les hommes ont construits **dedans**, ornementés comme le reste.* La coulée passe entre eux, et **il y a des capsules un peu partout.** Les couloirs sont un ajout humain, creusés entre les quartiers pour avoir des accès moins nature — par praticité, pour déplacer les capsules.
+
+**Et le plan a la forme d'une fleur.** *Le registre au centre comme un cœur, la serre en corolle autour, les salles de cérémonie en pétales de tailles différentes qu'on ne devine qu'une fois dedans.* ⛔ **Personne dans le livre ne le remarque jamais.**
+
+#### Le trajet, depuis l'entrée
+
+**L'accueil**, juste après l'entrée principale : un guichet et des chaises, comme une salle d'attente de clinique. *Le veilleur y récupère un papier avec le numéro de sa salle du jour.*
+
+**Le grand couloir**, qui mène au cœur. *Il commence banal — néons au plafond — et la lumière du jour, la végétation puis l'ornement y prennent le relais à mesure qu'on avance.* **Il n'y a pas de seuil : il y a une cassure.**
+
+Puis **la serre**, d'où l'on entre à peu près partout.
+
+#### Les deux circuits
+
+**Le veilleur** passe par la serre et entre dans la salle de cérémonie par la porte qui y donne.
+
+**Les visiteurs** font le tour depuis l'accueil, par un couloir qui longe **le réfectoire** et **les chambres**, et rejoignent n'importe quelle salle. *À la fin, ils ressortent par où ils sont entrés ; le veilleur, lui, choisit.*
+
+✅ **Et la porte du fond d'une salle de cérémonie donne sur la serre.** *Les arrivants aperçoivent la coulée pendant quelques mètres avant d'entrer en consultation* — **et personne ne leur dit ce que c'est.**
+
+#### Après la cérémonie
+
+**La salle de consultation** est adjacente, dans la serre. C'est l'analyste qui les y reçoit. *Un petit accès mène de là au couloir des chambres :* les arrivants s'y dispatchent dans les chambres libres et **y restent huit jours.** ✅ *Et les visiteurs peuvent venir les y voir — pas seulement assister aux cérémonies.*
+
+#### L'enceinte du registre
+
+**Ce n'est pas une pièce fermée** : un mur qui pourrait avoir été sculpté, la coulée qui serpente dessus et tout autour. **Les hommes y ont posé une porte massive, imposante et très ornementée**, entre la serre et lui.
+
+⚠️ *Ce plan corrige une contradiction du dossier :* la règle qui plaçait le registre *« dans une zone reculée du complexe, loin des capsules »* est supprimée. **Il est au centre.** Le nom d'Archiviste ne vient pas de son éloignement, mais de ce qu'on y trouve.
+
+### Les analystes et les préparateurs
+
+**L'analyste commande, le préparateur exécute : l'un est le médecin, l'autre l'infirmier.** *Comparaison donnée par l'autrice : un gynécologue* — il suit la gestation de la capsule, puis le post-partum de l'arrivant.
+
+✅ **« Analyste » et « médecin des capsules » sont un seul métier, et on dit analyste.**
+
+**Ce que fait l'analyste :** il n'a pas d'appareil, il a une série. *La couleur, l'avancée de l'éclaircie, l'intervalle entre deux relevés* — et l'accumulation prédit : **cette capsule s'ouvrira aujourd'hui, ou dans deux semaines.** Il prédit *quand*, **jamais** *qui*. Puis il désigne les capsules au préparateur, et il reçoit les arrivants en consultation pour vérifier que le corps est vierge de toute anomalie.
+
+**Ce que fait le préparateur :** il procède à **la cueillie**, transporte la capsule au quartier, **branche les appareils** et attend que l'analyste vienne. *C'est un gain de temps, parce que l'analyste joue sur deux tableaux.* ⛔ **Le mot « cueilleur » est écarté** — la cueillie est un acte, jamais un métier.
+
+**Et il prépare l'aspect final de la capsule pour la cérémonie.** *On ne laisse pas une capsule aller au bout du bout :* quand elle est quasi prête, elle est encore souple, et **on y taille des entailles harmonieuses** pour faciliter le travail du veilleur.
+
+✅ **Une capsule qui éclaircit d'un coup, elle, n'a presque pas besoin de travail.** *Son rabat est si fin qu'il pourrait céder à tout moment, et on ne taille rien.* **Nettoyée, branchée, relevée, et c'est tout** — c'est le cas des deux capsules du prologue.
+
+⛔ **Le préparateur pourrait regarder le visage en premier. Par principe il ne le fait pas.** *La découverte appartient à la cérémonie.* **C'est un rituel que personne n'a écrit et que personne n'enfreint.**
+
 ### La végétation : un coulant, la coulée
 
 **On dit *un coulant* pour un brin, *la coulée* pour la masse.** Le rapport entre les deux mots est celui du lierre à une branche de lierre.

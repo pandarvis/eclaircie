@@ -92,7 +92,7 @@ C'est la première page du roman, et elle installe en une scène ce que le livre
 
 ## 3 bis. La première page, écrite les 17 et 18 août 2026
 
-*Le chapitre existe : **[Prologue — La cérémonie](../05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf)**, 2 628 mots. La fiche de travail vivante est l'atelier, scène `ouv`.*
+*Le chapitre existe : **[Prologue — La cérémonie](../05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf)**, 2 655 mots. La fiche de travail vivante est l'atelier, scène `ouv`.*
 
 ### Ce qu'il dit, et l'interdit qui va avec
 
