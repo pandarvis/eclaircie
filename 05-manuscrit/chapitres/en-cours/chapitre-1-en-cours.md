@@ -8,9 +8,11 @@ La ruche s'ouvrait par deux battants de bois clair que personne ne fermait avant
 
 Tout de suite en entrant, sur la gauche, l'accueil.
 
-C'était une pièce rectangulaire et basse, la seule du complexe qui ressemblât à quelque chose de connu. Un guichet, une vitre, des chaises alignées dos au mur et d'autres dos à dos au milieu, et sur les chaises des gens qui attendaient qu'on vienne les chercher. Ils étaient neuf. Pas un n'avait enlevé son manteau.
+C'était une pièce rectangulaire et basse, la seule du complexe qui ressemblât à quelque chose de connu. Un guichet, une vitre, des chaises alignées dos au mur et d'autres dos à dos au milieu, et sur les chaises des gens qui attendaient qu'on vienne les chercher. Ils étaient neuf. Deux d'entre eux tenaient sur les genoux quelque chose qu'ils avaient apporté et qu'ils n'avaient pas voulu poser.
 
-On avait fait ce qu'on avait pu pour que ce ne soit pas triste. Trois grandes plantes en pot dans les angles, avec de larges feuilles fendues qui montaient plus haut que les chaises. Aux murs, des toiles sans sujet, des aplats de bleu pâle qui viraient à l'orange sur les bords. Personne ne les regardait deux fois. Elles n'étaient pas là pour ça : elles étaient là pour qu'il y ait quelque chose sur le mur.
+Ils savaient tous qu'il faudrait attendre. On ne fait pas commencer une cérémonie parce que les gens sont arrivés. Alors ils attendaient, et ils parlaient, et l'un d'eux regardait la porte du fond toutes les deux minutes.
+
+On était bien là-dedans. Trois grandes plantes en pot dans les angles, avec de larges feuilles fendues qui montaient plus haut que les chaises. Aux murs, des toiles sans sujet, des aplats de bleu pâle qui viraient à l'orange sur les bords. Personne ne les regardait deux fois, et ce n'était pas grave : on ne vient pas ici pour les toiles. Elles faisaient seulement que l'endroit était agréable, ce qui n'est pas rien pour une salle d'attente.
 
 Anna leur avait expliqué comment ça allait se passer. Elle le referait pour ceux qui arriveraient en retard, et elle le referait encore pour ceux qui n'avaient rien retenu la première fois, parce qu'on ne retient rien la première fois.
 
@@ -18,13 +20,15 @@ Il longea le comptoir, en poussa le portillon et prit lui-même sa feuille dans 
 
 — Bonjour Anna.
 
-— Bonjour toi. Salle 2, ils sont deux. Nora descend à dix heures.
+— Bonjour toi. Salle 2, ils sont quatre aujourd'hui. Nora arrive à dix heures.
 
-— Alors j'ai deux heures.
+— Quatre.
 
-— Tu as deux heures, et tu as une tache là.
+— Quatre. Tu es en avance de deux minutes.
 
-Il regarda. Il n'y avait pas de tache. Elle avait déjà repris son cahier.
+— Je suis toujours en avance de deux minutes.
+
+— Je sais. C'est pour ça que je le dis.
 
 Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.
 
@@ -40,9 +44,9 @@ Il montait d'un coup, et il continuait de monter. À mesure, les lampes devenaie
 
 On n'était pas dehors. On n'était jamais dehors, ici. Tout tenait sous un seul toit, et ce toit était si haut qu'on avait cessé d'y penser.
 
-Les murs, eux, étaient sculptés. Pas décorés : sculptés, du sol jusqu'à la hauteur où le regard renonce. Des figures, des mains, des visages tournés dans tous les sens, des signes dont plus personne ne connaissait le sens, serrés les uns contre les autres sans un centimètre de vide. C'était trop. C'était magnifique.
+Les murs, eux, étaient sculptés. Pas décorés : sculptés, du sol jusqu'à la hauteur où le regard renonce. Des bandes horizontales courant sur toute la longueur, l'une au-dessus de l'autre, et dans chaque bande une scène minuscule qu'il aurait fallu s'arrêter pour lire. Des entrelacs entre les bandes. Des signes qui revenaient tous les trois mètres et dont plus personne ne connaissait la valeur. Et derrière tout ça, taillé plus profond, un second plan qu'on n'apercevait qu'en biais, quand le jour tombait du bon côté.
 
-On n'avait jamais su de quelle génération c'était. Aussi loin qu'on remontait, les murs avaient toujours été là et ils avaient toujours été comme ça. On savait seulement que ce sont des gens qui les avaient faits.
+Ce n'était pas de la magie. Ce patrimoine n'avait pas surgi de nulle part du jour au lendemain, et personne n'avait jamais prétendu le contraire. Seulement, on n'avait jamais su de quelle génération l'idée était venue.
 
 Et par-dessus, la végétation courait.
 
@@ -58,23 +62,21 @@ Il ne donnait pas sur une pièce, il donnait sur un volume. Le sol changeait, la
 
 Et sur la coulée, les capsules.
 
-Il y en avait partout, et jamais deux fois au même endroit. Une à hauteur de hanche sur un coulant qui rampait le long d'un banc. Une autre à six mètres, seule, sur une branche qui traversait le vide. Puis, dix pas plus loin, onze collées les unes contre les autres sur trois mètres, si serrées qu'il faudrait les décrocher dans l'ordre. Elles poussaient à plat, couchées sur ce qui les portait. Elles avaient la couleur de la coulée tant qu'elles étaient jeunes, et elles perdaient cette couleur en vieillissant, jusqu'au jaune très pâle presque translucide de la fin.
+Il y en avait partout, et jamais deux fois au même endroit. Une à hauteur de hanche sur un coulant qui rampait le long d'un banc. Une autre à six mètres, seule, sur une branche qui traversait le vide. Puis, dix pas plus loin, six collées les unes contre les autres sur deux mètres, si serrées qu'il faudrait les décrocher dans l'ordre. Elles poussaient à plat, couchées sur ce qui les portait. Elles avaient la couleur de la coulée tant qu'elles étaient jeunes, et elles la perdaient en mûrissant, jusqu'au jaune très pâle, presque translucide, de la fin.
 
-Personne n'avait jamais choisi l'emplacement d'une seule d'entre elles.
+Pour aller chercher les hautes, on montait des échafaudages, et on les redescendait après.
 
-Des passerelles avaient été montées un peu partout pour aller chercher les hautes. Des tubes, des planches et des câbles. C'était laid — c'était la seule chose laide du complexe — et personne n'avait jamais proposé de faire autrement.
+C'était la serre. Le mot ne voulait plus dire grand-chose : il n'y avait ni vitre ni châssis, rien qu'un quart du complexe où la coulée était chez elle. Ailleurs, elle ne faisait que passer — un brin dans un mur, un coulant en travers d'un couloir, et rien autour. Ici elle avait de la place, et c'est ici, et nulle part ailleurs, que les capsules venaient.
 
-C'était la serre. Le mot ne voulait plus dire grand-chose : il n'y avait ni vitre ni châssis, rien qu'un quart du complexe où la coulée était chez elle. Elle, elle allait partout, dans les couloirs, dans les salles, sur les façades. Les capsules, non. Les capsules ne poussaient qu'ici, et personne ne savait pourquoi.
+Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule presque blanche. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : une analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.
 
-Très haut, sur une passerelle, trois préparateurs travaillaient autour d'une capsule presque blanche. Deux la tenaient par-dessous. Le troisième cherchait à la main l'endroit où elle tenait encore, et il n'y avait aucun moyen de savoir à l'avance où c'était. On appelait ça la cueillie. Ça pouvait prendre dix minutes, ça pouvait en prendre deux heures, et l'heure exacte où ça lâchait finissait toujours sur une fiche qu'on remettrait à un veilleur.
+Au loin, immanquable, la porte du registre. Massive, elle aussi tout autant chargée d'ornements que le reste, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.
 
-Au loin, immanquable, la porte du registre. Massive, chargée d'ornements, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.
+Les différents quartiers, eux, se fondaient dans l'environnement de la serre. Des murs, un toit, une porte, sculptés comme tout ce qui avait été bâti ici, et la coulée qui passait entre eux et par-dessus.
 
-Les quartiers étaient là-dedans. On les avait bâtis à l'intérieur, avec des murs, un toit et une porte, et sculptés comme le reste. La coulée passait entre eux. Elle passait aussi dessus.
+Un préparateur répondant au nom de Bastien repéra le veilleur de loin. Il n'y avait pas de mal à le repérer.
 
-Bastien le repéra de loin. Il n'y avait pas de mal à le repérer.
-
-Il était grand sans être imposant, l'épaule large, la taille droite, avec la solidité tranquille de ceux qui entretiennent leur condition sans chercher à paraître plus forts qu'ils ne le sont. Cheveux bruns, courts, légèrement désordonnés, deux ou trois mèches refusant de rester en place — et quelques autres restées blanches. Barbe courte, mâchoire carrée, nez droit, sourcils épais. Les yeux d'un brun profond, attentifs, toujours en train d'observer quelque chose : chaleureux quand il se détendait, nettement plus sérieux dès qu'il se concentrait. Rien d'intimidant au premier regard. Ce n'était pas une raison pour le sous-estimer.
+Andrew était grand sans être imposant, l'épaule large, la taille droite, avec la solidité tranquille de ceux qui entretiennent leur condition sans chercher à paraître plus forts qu'ils ne le sont. Cheveux bruns, courts, légèrement désordonnés, deux ou trois mèches refusant de rester en place — et quelques autres restées blanches. Barbe courte, mâchoire carrée, nez droit, sourcils épais. Les yeux d'un brun profond, attentifs, toujours en train d'observer quelque chose : chaleureux quand il se détendait, nettement plus sérieux dès qu'il se concentrait. Rien d'intimidant au premier regard. Ce n'était pas une raison pour le sous-estimer.
 
 Cinquante-deux ans. Dix ans de service.
 
@@ -88,11 +90,9 @@ Bastien traversa pour le rejoindre. Il venait de la coulée et ça se voyait : m
 
 — C'est ce qu'on me dit tous les matins, et ça n'a jamais rien annoncé de bon.
 
-— Tu as deux minutes ?
+— J'ai un problème de compte. Tu as deux minutes ?
 
 — J'ai deux heures.
-
-— Alors viens voir la dix-neuf.
 
 · · ·
 
@@ -100,13 +100,13 @@ Le quartier des préparateurs était une seule grande pièce, longue, avec une a
 
 Ils étaient une quinzaine, et il n'y avait pas de bureaux.
 
-Deux ou trois levèrent la main en le voyant entrer. Quelqu'un lui demanda comment allait son épaule. Il répondit qu'elle allait très bien, ce qui était faux, et on lui répondit qu'il mentait mal.
+Deux ou trois levèrent la main en le voyant entrer. On lui proposa du café. Il dit non merci, on lui en servit un, il le prit.
 
 Sur le premier établi, une capsule. Cueillie dans la nuit, calée sur deux berceaux de mousse, avec deux personnes autour. L'une lavait la paroi au chiffon, à l'eau claire, en tournant toujours dans le même sens, et l'eau du seau était verte. L'autre avait décollé le rabat sur dix centimètres, glissé dessous trois sondes souples, et rabattu par-dessus. Les sondes remontaient jusqu'à un appareil posé au bout de la table, une caisse grise avec un cadran et deux aiguilles qui ne bougeaient presque pas.
 
 C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne serait plus touchée que par un veilleur.
 
-— Elle est pour toi, celle-ci, non ? dit la femme au chiffon.
+— Elle est pour toi, celle-ci, non ? dit la préparatrice au chiffon.
 
 — Salle 2. À dix heures.
 
@@ -118,63 +118,67 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 
 Il la regarda. Elle était belle.
 
-Vera arrivait derrière eux. Elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendait un tabouret trop haut pour sa table et l'ensemble de ses planches.
+Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
 
-C'était l'analyste.
+Quand l'analyste tranchait, elle avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, elle l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait, il l'acceptait sans discuter, et il avait cent fois raison de le faire.
 
-Andrew le savait comme tout le monde le savait ici : quand l'analyste tranchait, elle avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, elle l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait et il l'acceptait sans discuter, et il avait cent fois raison de le faire.
+— La dix-neuf, dit Bastien.
 
-Ce matin-là, Bastien ne l'acceptait pas.
+— Qu'est-ce qu'elle a, la dix-neuf ?
 
-— La dix-neuf, dit-il.
+— Elle a douze capsules.
 
-— Je sais. Il te l'a racontée ?
+Vera ne leva pas la tête tout de suite.
 
-— Pas encore.
+— Elle en a onze.
 
-— Il dit qu'elle s'ouvre demain, dit Vera. Je dis le douze.
+— Elle en avait onze. Je les ai comptées trois fois.
 
-— Je ne le dis pas. Je l'ai touchée ce matin. Ce n'est pas la même chose.
+Elle posa son crayon et sortit sa planche de la travée dix-neuf. Onze colonnes, onze séries, onze histoires commencées à onze dates différentes. La douzième n'était nulle part. Elle n'avait jamais été relevée, parce que personne n'avait jamais su qu'elle était là.
 
-Elle fit pivoter une planche vers eux, du bout des doigts. Une colonne par visite, une ligne par jour. La couleur, relevée sur une échelle de neuf tons collée dans un coin de la feuille. L'avancée de l'éclaircie, en douzièmes. Et la dernière colonne, la seule qu'elle écrivait à l'encre : l'écart entre deux relevés. Quatre jours, puis trois, puis trois, puis un et demi.
+— Elle est où ?
 
-C'était l'écart qui parlait. Une capsule ne s'annonce pas en changeant. Elle s'annonce en changeant de plus en plus vite.
+— Tout au fond, au ras du sol, sous les autres. On ne la voit qu'accroupi. Je ne descends pas là toutes les semaines.
 
-Bastien n'avait jamais lu une planche de sa vie. Il vivait dedans. Il passait ses journées à quarante centimètres des parois, il posait la main dessus, il la laissait là un moment, et il savait — sans pouvoir dire ni comment ni pourquoi, ce qui rendait la chose absolument indéfendable.
+— Depuis quand ?
 
-Aucune des deux méthodes ne disait ce qu'il y avait à l'intérieur. Personne n'avait jamais rien su de ce qu'il y avait à l'intérieur. Elles disaient quand ça s'ouvrirait, et c'était déjà énorme.
+— Aucune idée.
 
-— Tu ne m'as pas contredite depuis quatre ans, dit Vera.
+Andrew écoutait sans rien dire. Ça n'avait rien d'extraordinaire : une capsule pousse où elle pousse, personne n'a jamais choisi l'emplacement d'une seule d'entre elles, et il y en avait des dizaines de milliers dans ce bâtiment. On en oubliait. On les retrouvait.
 
-— Non.
+— Tu l'as touchée ? dit Vera.
 
-— C'est bien ce qui m'ennuie.
+— Oui.
 
-Elle relut sa colonne d'écarts, lentement, comme si le chiffre avait pu changer d'avis. Il n'avait pas changé d'avis.
+— Et ?
 
-— Le douze, dit-elle. Je maintiens.
+— Elle est prête.
 
-— Et s'il a raison ? dit Andrew.
+Elle ne discuta pas. Une main posée ne remplaçait pas une série, et une main de Bastien n'avait encore jamais menti.
 
-Personne ne répondit tout de suite, parce que la réponse était sur le mur.
+Seulement, une main ne donne pas de date.
 
-Il regarda le tableau noir. Le neuf, le dix et le onze étaient pleins. Trois salles, trois veilleurs, et la dix-neuf n'était inscrite nulle part.
+Une série non plus, pas tout de suite. Vera pouvait relever cette capsule dans l'heure, et elle n'aurait qu'un point. Il en fallait trois pour voir un sens et cinq pour poser un jour. Elle le dit comme ça, sans s'excuser, parce que c'était le métier et que le métier était bon.
+
+— Cinq jours, dit-elle. Avant ça, je ne dirai rien.
+
+— Elle est claire, dit Bastien.
+
+— Je sais.
+
+Andrew regarda le tableau noir. Le neuf, le dix et le onze étaient pleins. Trois salles, trois veilleurs, et rien pour la dix-neuf, parce qu'on ne réserve pas une salle pour une capsule qui n'existe sur aucune planche.
 
 Une capsule qui s'ouvre sans personne autour s'ouvre quand même. Elle n'attend pas, elle ne prévient pas. C'était arrivé deux fois depuis qu'il était là, et les deux fois quelqu'un s'était retrouvé debout tout seul au milieu de la coulée, sans miroir, sans eau, sans personne à qui donner son nom.
 
-— Je ne peux pas bloquer une salle trois jours sur une main posée, dit Vera. Ce n'est pas contre toi.
+— Je relèverai deux fois par jour, dit Vera. Matin et soir. Et je veux qu'on recompte tout le fond avant la fin de la semaine.
 
-— Je sais bien.
+— Ça va prendre trois jours.
 
-— Si je me trompe, je me trompe. Ça m'est arrivé.
-
-— Deux fois, dit Bastien.
-
-— Deux fois.
+— Ça prendra trois jours.
 
 Andrew sortit son carnet.
 
-— Je passerai la voir.
+— Je passerai la voir aussi.
 
 — Quand ?
 
@@ -184,21 +188,21 @@ Andrew sortit son carnet.
 
 — Rien du tout, dit-il, ce qui faisait vingt minutes.
 
-Il écrivit : travée dix-neuf, la date, l'heure qu'il était. Puis, en dessous, les trois matins qui venaient. Il souligna le dernier, parce qu'il soulignait toujours le dernier de quelque chose.
+Il écrivit : travée dix-neuf, douzième capsule, aucune série, la date et l'heure qu'il était. Puis, en dessous, les cinq matins qui venaient. Il souligna le dernier, parce qu'il soulignait toujours le dernier de quelque chose.
 
 Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait, et le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien.
 
-— Et si elle s'ouvre à trois heures du matin ? dit Vera.
+— Et si elle s'ouvre cette nuit ? dit Bastien.
 
-— Alors elle s'ouvrira à trois heures du matin, et on n'y pourra rien.
+— Alors elle s'ouvrira cette nuit, et on n'y pourra rien.
 
 C'était vrai, ça ne consolait personne, et les trois s'en contentèrent parce qu'il n'y avait rien d'autre à en tirer.
 
 — Tu descends où, aujourd'hui ? demanda Bastien en le raccompagnant jusqu'à la porte.
 
-— Salle 2. Ils sont deux.
+— Salle 2. Ils sont quatre.
 
-— Deux, répéta Bastien, avec le petit hochement de tête qu'on a pour les bonnes nouvelles des autres. Alors c'est un bon jour.
+— Quatre, répéta Bastien, avec le petit hochement de tête qu'on a pour les bonnes nouvelles des autres. Alors c'est un bon jour.
 
 — C'est déjà ce qu'on m'a dit ce matin.
 
@@ -242,6 +246,6 @@ On nettoyait vite. Pas pour l'odeur : parce qu'on disait qu'une travée gâtée 
 
 Andrew n'y toucha pas. Il l'avait fait pendant deux ans, comme tout le monde, et depuis, d'autres le faisaient. Il ne ralentit pas et il ne se boucha pas le nez, parce qu'aucun des quatre ne l'aurait fait à sa place et qu'on se tient devant les gens qui travaillent.
 
-Il passa à trois mètres et continua vers la salle 2, où deux capsules l'attendaient, claires, propres et debout sur leurs chariots.
+Il passa à trois mètres et continua vers la salle 2, où quatre capsules seraient dressées avant dix heures, claires et propres, sur leurs chariots.
 
 L'odeur le suivit dans l'allée. Une odeur, insipide, et prenante au nez, comme si on respirait à travers un linge tiède qu'on aurait laissé plié.
