@@ -749,6 +749,7 @@ kbd{
 
 
 
+
 <!--<<ruche-style>>-->
 #v-ruche{
   --nuit:#0a0d10; --nuit2:#11161b; --trait:#2a3138;
@@ -916,6 +917,7 @@ kbd{
 
 
 
+
 <!--<<ruche-bouton>>-->
     <button class="rail-btn" data-vue="ruche" aria-label="Le plan de la ruche">
       <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 9V4M12 15v5M9 12H4M15 12h5M9.9 9.9 6.3 6.3M14.1 14.1l3.6 3.6M14.1 9.9l3.6-3.6M9.9 14.1l-3.6 3.6"/></svg><span>La ruche</span>
@@ -1059,6 +1061,7 @@ kbd{
       </header>
       <div class="corps"><div class="mise" id="q-corps"></div></div>
     </section>
+
 
 
 
@@ -4670,8 +4673,8 @@ const TEXTES = [{
             L${n2(C[0])},${n2(C[1])} A${r1},${r1} 0 0 0 ${n2(D[0])},${n2(D[1])} Z`;
   }
   const sectB = b => sect(b.a0,b.a1,b.r0,b.r1);
-  const arc = (r,a0,a1) => {const A=pol(r,a0),B=pol(r,a1);
-    return `M${n2(A[0])},${n2(A[1])} A${r},${r} 0 0 1 ${n2(B[0])},${n2(B[1])}`;};
+  const arc = (r,a0,a1) => {const A=pol(r,a0),B=pol(r,a1),grand=((a1-a0+720)%360)>180?1:0;
+    return `M${n2(A[0])},${n2(A[1])} A${r},${r} 0 ${grand} 1 ${n2(B[0])},${n2(B[1])}`;};
   const ray = (a,r0,r1) => {const A=pol(r0,a),B=pol(r1,a);
     return `M${n2(A[0])},${n2(A[1])} L${n2(B[0])},${n2(B[1])}`;};
   function petalePath(p){
@@ -4971,24 +4974,43 @@ const TEXTES = [{
   el('path',{d:'M516,986 L516,958 M506,970 L516,958 L526,970',stroke:'var(--or)',
     "stroke-width":1.6,fill:'none',"stroke-linecap":'round',opacity:.7},cBat);
   
-  /* l'enceinte du registre */
-  el('circle',{cx:CX,cy:CY,r:R_ENC,fill:'#0f1216',stroke:'#4a4029',"stroke-width":2.4},cBat);
-  el('circle',{cx:CX,cy:CY,r:R_ENC-6,fill:'none',stroke:'#2e2a1e',"stroke-width":1},cBat);
-  /* la porte massive */
-  const pd=pol(R_ENC,52), pd2=pol(R_ENC,22);
-  el('path',{d:`M${n2(pd[0])},${n2(pd[1])} A${R_ENC},${R_ENC} 0 0 0 ${n2(pd2[0])},${n2(pd2[1])}`,
-    fill:'none',stroke:'var(--or)',"stroke-width":5,"stroke-linecap":'round',opacity:.95},cBat);
-  for(let i=0;i<5;i++){
-    const a=24+i*6.5, q=pol(R_ENC+9,a), q2=pol(R_ENC-9,a);
-    el('path',{d:`M${n2(q[0])},${n2(q[1])} L${n2(q2[0])},${n2(q2[1])}`,
-      stroke:'var(--or)',"stroke-width":1.2,opacity:.55},cBat);
-  }
-  /* filigrane */
+  /* l'enceinte du registre, percee d'une seule ouverture */
+  const P0=26, P1=48;                       /* l'embrasure */
+  el('circle',{cx:CX,cy:CY,r:R_ENC,fill:'#0f1216',stroke:'none'},cBat);
+  el('path',{d:arc(R_ENC,P1,P0+360),fill:'none',stroke:'#4a4029',"stroke-width":2.4},cBat);
+  el('path',{d:arc(R_ENC-6,P1+2,P0+358),fill:'none',stroke:'#2e2a1e',"stroke-width":1},cBat);
+  
+  /* filigrane sur le mur, jamais sur l'embrasure */
   for(let i=0;i<36;i++){
-    const a=i*10, q=pol(R_ENC+5,a), q2=pol(R_ENC+13,a);
-    el('path',{d:`M${n2(q[0])},${n2(q[1])} L${n2(q2[0])},${n2(q2[1])}`,
-      stroke:'var(--or)',"stroke-width":.8,opacity:.22},cBat);
+    const a=i*10; if(a>P0-4 && a<P1+4) continue;
+    el('path',{d:ray(a,R_ENC+5,R_ENC+13),stroke:'var(--or)',"stroke-width":.8,opacity:.22},cBat);
   }
+  
+  /* la porte : deux montants, un seuil, deux battants */
+  (function(){
+    [P0,P1].forEach(a=>{
+      el('path',{d:ray(a,R_ENC-13,R_ENC+15),stroke:'var(--or)',"stroke-width":3.4,
+        "stroke-linecap":'round',opacity:.95},cBat);
+      el('path',{d:ray(a,R_ENC+15,R_ENC+21),stroke:'var(--or)',"stroke-width":1.4,
+        "stroke-linecap":'round',opacity:.5},cBat);
+    });
+    const m=(P0+P1)/2;
+    /* les deux battants, entrouverts vers la serre */
+    [[P0,m],[P1,m]].forEach(([a0,a1])=>{
+      const A=pol(R_ENC+1,a0), B=pol(R_ENC+17,a1);
+      el('path',{d:`M${n2(A[0])},${n2(A[1])} L${n2(B[0])},${n2(B[1])}`,
+        stroke:'var(--or)',"stroke-width":2.6,"stroke-linecap":'round',opacity:.9},cBat);
+    });
+    /* le seuil, et l'amorce qui rejoint le chemin */
+    el('path',{d:arc(R_ENC+17,P0+1,P1-1),fill:'none',stroke:'var(--or)',
+      "stroke-width":1.2,opacity:.35},cBat);
+    const q=pol(rChe(m),m), q2=pol(R_ENC+18,m);
+    el('path',{d:`M${n2(q[0])},${n2(q[1])} L${n2(q2[0])},${n2(q2[1])}`,
+      stroke:'#1d241f',"stroke-width":9,"stroke-linecap":'round'},cBat);
+    el('path',{d:`M${n2(q[0])},${n2(q[1])} L${n2(q2[0])},${n2(q2[1])}`,
+      stroke:'#3d4a38',"stroke-width":10,"stroke-linecap":'round',opacity:.4,
+      "stroke-dasharray":'1.5 7'},cBat);
+  })();
   /* le registre */
   el('circle',{cx:CX,cy:CY,r:R_REG,fill:'url(#gReg)',stroke:'var(--or)',
     "stroke-width":1.6,opacity:.92},cBat);
