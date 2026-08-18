@@ -4,7 +4,7 @@
 
 | | Chapitre | Mots | Scène | Écrit |
 |---|---|---|---|---|
-| **Prologue** | [La cérémonie](chapitres/L-Eclaircie-Prologue.pdf) | 2 614 | `ouv` | 17–18 août 2026 |
+| **Prologue** | [La cérémonie](chapitres/L-Eclaircie-Prologue.pdf) | 2 628 | `ouv` | 17–18 août 2026 |
 | **Épilogue** | [Épilogue](chapitres/L-Eclaircie-Epilogue.pdf) | 2 631 | `jardin-fin` | 16 août 2026 |
 
 ---

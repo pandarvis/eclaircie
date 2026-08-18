@@ -4,7 +4,7 @@
 *Roman. Univers, système, personnages, plan et règles d'écriture.*
 > ## ⚠️ Deux chapitres sont écrits — au 18 août 2026
 >
-> **[Prologue — La cérémonie](05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf)** · 2 614 mots · la cérémonie d'éclaircie d'Eliott et de Nicolas, du moment où Andrew entre dans la salle vide jusqu'à la porte refermée.
+> **[Prologue — La cérémonie](05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf)** · 2 628 mots · la cérémonie d'éclaircie d'Eliott et de Nicolas, du moment où Andrew entre dans la salle vide jusqu'à la porte refermée.
 >
 > **[Épilogue](05-manuscrit/chapitres/L-Eclaircie-Epilogue.pdf)** · 2 631 mots · le jour de l'entrée au jardin, six ans plus tard.
 >

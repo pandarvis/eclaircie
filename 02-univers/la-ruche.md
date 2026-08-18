@@ -83,7 +83,11 @@
 
 ✅ **Un arrivant de dix ans surprend l'assemblée**, et il fallait que ça se voie : ce n'est pas commun, et ceux qui sont là sont pour la plupart arrivés grands. *La surprise tient en une réplique, jamais davantage.*
 
-> — Dix, répéta celui d'une vingtaine d'années. J'en ai jamais vu d'aussi jeune.
+> — Dix ans, répéta le visiteur d'une vingtaine d'années. C'est si rare !
+>
+> Plus loin sur la marche, quelqu'un souffla par le nez. Personne ne se retourna.
+
+✅ **Et l'assemblée n'est pas unanime.** *La plupart s'émerveillent, un s'agace.* **C'est la première trace du courant jaloux dans le livre, et c'est un souffle** — [interdit n° 8](../01-dossier/les-interdits.md) tenu à la lettre : pas un groupe, pas un porte-parole, une expiration par le nez. *Le livre ne revient jamais dessus.*
 
 ⛔ **Il n'y a rien de cruel là-dedans.** Le public ne vient pas pour quelqu'un en particulier : il vient pour célébrer une arrivée. *Personne ne pense « zut, il y en a un de plus ».* Ceux qui sont là constatent qu'il y en a un de plus, et c'est tout.
 
