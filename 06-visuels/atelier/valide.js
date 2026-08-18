@@ -40,6 +40,7 @@ d.SCENES.forEach(s => { if (!voies.includes(s.row)) pb.push('voie inconnue : ' +
    au rendu, et tout ce qui se construit apres. On la cherche donc ici. */
 [[`NOTES`, d.NOTES, [`t`]],
  [`SCENES`, d.SCENES, [`qui`,`gardes`,`ouvert`,`pourquoi`,`phrases`,`refs`]],
+ [`GENS`, d.GENS, [`traits`,`gardes`,`phrases`,`ouvert`,`portrait`]],
  [`QUESTIONS`, d.QUESTIONS, [`o`]],
  [`TEXTES`, d.TEXTES, [`p`,`tenu`,`ouvre`]]].forEach(([nom, tab, champs]) => {
   tab.forEach((e, i) => champs.forEach(c => {

@@ -24,6 +24,54 @@ Décompte complet dans [`../02-univers/les-ages-croises.md`](../02-univers/les-a
 
 ---
 
+## Son portrait, écrit le 19 août 2026
+
+*Texte de l'autrice, complété à quatre mains. **La manie ne s'y nomme jamais : elle se compte.** Cinquante-deux, dix, six, deux, sept, quatre cent trente-huit — personne ne dit qu'il compte, on lit la description d'un homme qui compte.*
+
+---
+
+Il était grand sans être particulièrement imposant, avec une silhouette solide et équilibrée. Des épaules suffisamment larges, une taille droite, des bras fermes : le physique d'un homme qui entretenait sa condition sans chercher à paraître plus fort qu'il ne l'était.
+
+Ses cheveux étaient bruns, courts et légèrement désordonnés, quelques mèches refusant obstinément de rester en place, quelques autres restées blanches. Une barbe courte encadrait sa mâchoire carrée et accentuait la netteté de ses traits. Son visage avait quelque chose de naturellement sympathique malgré des lignes assez franches : un nez droit, des sourcils épais, une bouche expressive.
+
+Ses yeux, d'un brun profond, contrastaient avec cette impression. Ils étaient attentifs, toujours en train d'observer ce qui l'entourait. Son regard pouvait facilement paraître chaleureux lorsqu'il se détendait, mais il suffisait qu'il se concentre pour que son expression devienne nettement plus sérieuse.
+
+Cinquante-deux ans. Dix ans de service.
+
+Il portait la tenue, comme tout le monde : une blouse de toile écrue, croisée sur le devant. Six boutons sur le côté droit. L'écusson brodé sur l'épaule opposée. Deux poches basses, où tenait tout ce dont il avait besoin de sa journée.
+
+La ceinture, il la fermait au septième trou en partant de l'extrémité. Le petit clic, toujours au même endroit. Pas six, pas huit. Sept.
+
+La seule chose à lui, dans tout ça, c'étaient ses chaussures — usées comme celles d'un homme qui traverse sa ville à pied tous les jours.
+
+Quatre cent trente-huit.
+
+C'était le nombre de pas qui séparaient la ruche de son logement.
+
+Il n'avait rien d'un homme intimidant au premier regard, et son visage était presque avenant. Pourtant, dans sa façon de se tenir, de regarder les gens et de mesurer silencieusement ce qui se passait autour de lui, il y avait quelque chose qui suggérait qu'il valait mieux ne pas le sous-estimer.
+
+---
+
+### Ce que le portrait tient, et ce qu'il refuse
+
+⛔ **La règle du monde ne s'explique jamais ici.** *Décision de l'autrice, 19 août 2026 : « je suis pas d'accord pour que la règle du monde soit expliquée dans sa description, et elle est trop frontale ».* **L'inversion des âges se posera ailleurs** — dans la description d'un lieu, ou à la visite d'un veilleur jeune au lieu d'être vieux. *Pas encore tranché.*
+
+✅ **« Quelques autres restées blanches. »** *Le seul mot qui porte le système est* ***restées***, *et il ne s'explique pas.* Un lecteur qui n'a pas encore compris le monde lit simplement un homme de cinquante ans.
+
+✅ **La tenue est claire, et on en change dès qu'elle est marquée.** *C'est une habitude, pas une consigne* — et c'est ce qui arme le **« tu aurais pu changer de tenue ! »** de la seconde cérémonie : ce veilleur-là n'a pas fait ce que tout le monde fait.
+
+✅ **L'écusson.** *Une capsule de profil, brodée d'un seul fil, sur l'épaule.* **Il fonctionne comme un caducée** — signe d'appartenance reconnu de tous, dedans comme dehors. ⚠️ *Conséquence à exploiter : Andrew est identifiable dans la rue, et ça lui ouvre des portes qu'aucun mandat ne lui donnerait pendant l'enquête sauvage.* ⛔ **Le mot « caducée » n'entre jamais dans le texte** — [interdit n° 6](../01-dossier/les-interdits.md). C'est une référence d'autrice, comme Pattaya et Passengers.
+
+⛔ **Andrew ne peut porter aucune cicatrice.** *Le corps est immaculé à l'arrivée, et une marque ne peut dater que d'ici.* **Les cicatrices aux mains et près du sourcil appartiennent à Joël**, et à lui seul :
+
+> Quelques cicatrices discrètes se devinaient sur ses mains et près de son sourcil, sans qu'il semble leur accorder la moindre importance. Elles faisaient simplement partie de lui.
+
+**Le même homme décrit deux fois, à six cents pages d'écart, et la seule différence entre les deux portraits, ce sont les marques.** *Le lecteur ne peut pas s'en servir : il n'a aucune raison de rapprocher un enquêteur marqué d'un veilleur qui ne l'est pas.*
+
+⚠️ **Quatre cent trente-huit pas font environ trois cent trente mètres.** *C'est très près — cinq minutes.* Tel quel, le chiffre dit qu'il l'a compté, et rien d'autre. **Si on veut qu'il dise aussi quelque chose de sa vie, il faut le monter à quelques milliers.**
+
+---
+
 ## Sa manie, tranchée le 18 août 2026 — il compte
 
 **Il compte, et il ne décide pas de le faire.** *Vingt-deux chaises empilées contre le mur, en quatre piles inégales. Douze visiteurs le long d'un mur. Sept éléments sur la table.* Certains de ces comptes servent à son métier ; la plupart ne servent à rien.

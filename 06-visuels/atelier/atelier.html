@@ -3084,6 +3084,8 @@ const NOTES = [
    ========================================================================== */
 
 const LEXIQUE = [
+["L'ecusson","Embleme de la ruche, brode sur l'epaule de la tenue. Une capsule de profil, d'un seul fil. Tout le monde sait le lire au premier coup d'oeil, dedans comme dehors : on reconnait quelqu'un de la ruche avant qu'il ait parle. Reference d'autrice : le caducee - le mot n'entre jamais dans le texte (interdit n.6).","02-univers/la-ruche.md","Y a-t-il une variante par metier, ou un seul embleme pour tout le complexe ?"],
+["La tenue","Vetement de travail du service : une blouse de toile ecrue, croisee sur le devant, six boutons sur le cote droit, l'ecusson brode sur l'epaule opposee, deux poches basses, une ceinture a crans. On en change des qu'elle est marquee.","02-univers/la-ruche.md","La porte-t-il en ville ? C'est ce qui lui ouvre des portes sans mandat."],
 ["Le coulant","Un brin de la vegetation, celui qu'on peut montrer du doigt : epais comme un bras, il entre par une bouche du mur, s'enroule autour des colonnes et ressort ailleurs. C'est le mot du jardinier pour ce qui rampe et se prolonge - les courges filent sur leurs coulants. Les capsules poussent a plat dessus.","02-univers/la-ruche.md",""],
 ["La coulee","La masse : l'enchevetrement de coulants qui court dans tout le complexe et au milieu duquel vivent les gens de la serre. Le rapport entre les deux mots est celui du lierre a une branche de lierre.","02-univers/la-ruche.md",""],
 ["La serviette de ceremonie","Un grand rectangle de toile perce d'un trou pour la tete, qui tombe droit devant et droit derriere. Le second veilleur rabat les pans sur les cotes et les ferme d'une ceinture. Quatre tailles a l'office, on en descend une de chaque puisqu'on ne sait pas qui va sortir.","02-univers/la-ruche.md",""],
@@ -3143,6 +3145,9 @@ const LEXIQUE = [
 ];
 
 const REGLES = [
+["Ruche","La tenue est claire, et on en change des qu'elle est marquee. C'est une habitude, pas une consigne - et c'est ce qui arme le « tu aurais pu changer de tenue ! » de la seconde ceremonie : ce veilleur-la n'a pas fait ce que tout le monde fait.","acquis"],
+["Ruche","L'ecusson de la ruche fonctionne comme un caducee : c'est un signe d'appartenance reconnu de tous, dedans comme dehors. Consequence a exploiter - Andrew est identifiable dans la rue, et ca lui ouvre des portes qu'aucun mandat ne lui donnerait pendant l'enquete sauvage.","provisoire"],
+["Corps","Andrew ne peut porter aucune cicatrice : il est arrive il y a dix ans et le corps est immacule a l'arrivee. Les cicatrices aux mains et pres du sourcil appartiennent a Joel, et a lui seul. Le meme homme decrit deux fois, et la seule difference entre les deux portraits, ce sont les marques.","acquis"],
 ["Jalousie","La premiere trace du courant jaloux est en page une, et c'est un souffle : quelqu'un expire par le nez quand on annonce dix ans, et personne ne se retourne. Interdit n.8 tenu a la lettre - pas un groupe, pas un porte-parole, une expiration.","acquis"],
 ["Ruche","L'assemblee n'est donc pas unanime devant un arrivant jeune. La plupart s'emerveillent, un s'agace, et le livre ne revient jamais sur ce souffle-la.","acquis"],
 ["Ruche","Le public d'une ceremonie n'a pas d'age commun, et c'est le seul endroit du livre ou l'inversion se voit sans qu'on la nomme : celui qui parait vingt-cinq ans est le plus ancien de la salle, il connait tout le monde et il appelle chacun par son prenom.","acquis"],
@@ -3466,6 +3471,13 @@ const GENS = [
     `Il ne retourne jamais au registre pour chercher qui d'autre est arrivé le jour d'Eliott.`,
     `Rien de sa mort passée ne doit ressembler à un sacrifice.`,
     `On ne commente jamais qu'il se sente chez lui au poste. Pas de « il se sentait étrangement à sa place ici ».`],
+  portrait:[`**Grand sans etre imposant**, silhouette solide et equilibree, epaules larges, taille droite, bras fermes. *Le physique d'un homme qui entretient sa condition sans chercher a paraitre plus fort qu'il ne l'est.*`,
+    `**Cheveux bruns, courts, legerement desordonnes** - quelques meches refusant de rester en place, **quelques autres restees blanches.** *Le seul mot qui porte le systeme est <em>restees</em>, et il ne s'explique pas.* Barbe courte, machoire carree, nez droit, sourcils epais, bouche expressive.`,
+    `**Yeux d'un brun profond, attentifs**, toujours en train d'observer. *Chaleureux quand il se detend, nettement plus serieux des qu'il se concentre.* **Rien d'intimidant au premier regard, et pourtant il vaut mieux ne pas le sous-estimer.**`,
+    `**Cinquante-deux ans. Dix ans de service.** ⛔ *Et la regle du monde ne s'explique jamais dans sa description* - decision de l'autrice, 19 aout 2026 : trop frontal. L'inversion des ages se posera ailleurs, dans un lieu ou dans une visite.`,
+    `**La tenue :** blouse de toile ecrue, croisee sur le devant, six boutons sur le cote droit, l'ecusson brode sur l'epaule opposee, deux poches basses. **La ceinture au septieme trou en partant de l'extremite.** *Le petit clic, toujours au meme endroit. Pas six, pas huit. Sept.*`,
+    `**Ses chaussures sont la seule chose a lui**, usees comme celles d'un homme qui traverse sa ville a pied tous les jours. **Quatre cent trente-huit** - le nombre de pas qui separent la ruche de son logement.`,
+    `✅ **La manie ne se nomme jamais dans le portrait : elle se compte.** *Cinquante-deux, dix, six, deux, sept, quatre cent trente-huit.* **Personne ne dit qu'il compte ; on lit la description d'un homme qui compte.**`],
   phrases:[`C'est déjà ce qu'on m'a dit.`,`J'aurais dû continuer.`,`C'était là sous nos yeux.`],
   ouvert:[`Ce qui l'accroche chez Eliott, précisément — ou s'il n'y a rien à montrer.`,`✅ **Sa manie : il compte.** *Plantée en page une, 18 août 2026* — vingt-deux chaises empilées qu'il n'a pas décidé de compter, dix-sept visiteurs, sept éléments sur la table. **Et à la dernière page du livre :** *« il compta les petits en traversant. Ils étaient quarante-deux ».*`,`Sa honte quotidienne (piste : il ne se souvient plus des cérémonies).`,`Réagit-il visiblement à la phrase du sentiment, à l'épilogue ?`],
   src:`03-personnages/andrew.md` },
@@ -3483,6 +3495,8 @@ const GENS = [
     `Aucun autre nom n'est prononcé dans ces chapitres — les deux filles n'en ont donc aucun.`,
     `Il ne meurt pas en sauvant quelqu'un. Sa poursuite ne sert à rien, personne ne la lui demande, aucun personnage ne commente sa mort.`,
     `La scène où on lui dit de lâcher l'affaire est la sienne, et le lecteur croit qu'elle est celle d'Andrew. Le chapitre d'avant est bien d'Andrew ; celui-ci ne l'est pas, et rien ne le signale.`],
+  portrait:[`✅ **Le meme portrait qu'Andrew, a une chose pres : les marques.** *Quelques cicatrices discretes se devinent sur ses mains et pres de son sourcil, sans qu'il semble leur accorder la moindre importance.* **Elles font simplement partie de lui.**`,
+    `**Et le lecteur ne peut pas s'en servir.** *Il n'a aucune raison de rapprocher un enqueteur marque d'un veilleur qui ne l'est pas.* **C'est seulement au bout qu'il comprend que l'un est la version lavee de l'autre.**`],
   phrases:[`Joël, non, attends !`,`On m'avait dit de laisser tomber, et je l'ai fait.`],
   ouvert:[`Pourquoi il reprend l'enquête — de lui-même, ou parce qu'un élément est ressorti. Le livre n'a pas besoin de trancher.`],
   src:`03-personnages/andrew.md` },
@@ -5096,6 +5110,7 @@ function rendreGens(){
       <p style="font-family:var(--sans);font-size:12.5px;color:var(--texte-3)">${esc(g.age)}</p>
       <p>${rich(g.resume)}</p>
       ${g.cle ? `<div class="dit">${rich(g.cle)}</div>` : ``}
+      ${g.portrait && g.portrait.length ? `<div class="rub">son portrait</div><ul>${g.portrait.map(t => `<li>${rich(t)}</li>`).join(``)}</ul>` : ``}
       ${g.traits && g.traits.length ? `<div class="rub">à l'écriture</div><ul>${g.traits.map(t => `<li>${rich(t)}</li>`).join(``)}</ul>` : ``}
       ${g.faille && g.faille !== `—` ? `<div class="rub">sa faille</div><p>${rich(g.faille)}</p>` : ``}
       ${g.arc && g.arc !== `—` ? `<div class="rub">son arc</div><p>${rich(g.arc)}</p>` : ``}
