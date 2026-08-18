@@ -8,7 +8,7 @@ La ruche s'ouvrait par deux battants de bois clair que personne ne fermait avant
 
 Tout de suite en entrant, sur la gauche, l'accueil.
 
-C'était une pièce rectangulaire et basse, la seule du complexe qui ressemblât à quelque chose de connu. Un guichet, une vitre, des chaises alignées dos au mur et d'autres dos à dos au milieu, et sur les chaises des gens qui attendaient qu'on vienne les chercher. Ils étaient neuf. Deux d'entre eux tenaient sur les genoux quelque chose qu'ils avaient apporté et qu'ils n'avaient pas voulu poser.
+C'était une pièce rectangulaire et basse, la seule du complexe qui ressemblât à quelque chose de connu. Un guichet, une vitre, des chaises alignées avec le mur et d'autres dos à dos au milieu, et sur les chaises des gens qui attendaient qu'on vienne les chercher. Ils étaient neuf. Deux d'entre eux tenaient sur les genoux quelque chose qu'ils avaient apporté et qu'ils n'avaient pas voulu poser.
 
 Ils savaient tous qu'il faudrait attendre. On ne fait pas commencer une cérémonie parce que les gens sont arrivés. Alors ils attendaient, et ils parlaient, et l'un d'eux regardait la porte du fond toutes les deux minutes.
 
@@ -30,9 +30,15 @@ Il longea le comptoir, en poussa le portillon et prit lui-même sa feuille dans 
 
 — Je sais. C'est pour ça que je le dis.
 
+Il rit. C'était la même plaisanterie depuis des années et elle marchait encore.
+
 Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.
 
 · · ·
+
+Les neuf, eux, ne prendraient pas ce chemin-là. On viendrait les chercher, on les ferait sortir par l'autre côté, et ils traverseraient d'abord la zone de résidence avant d'arriver devant la bonne porte. C'est là que les arrivants passent leurs huit premiers jours, après la consultation : des chambres, un réfectoire, et des gens qui viennent les voir.
+
+La consultation, c'est l'analyste qui la fait, et c'est le même métier que celui qui passe ses journées à regarder mûrir des capsules. Il examine, il vérifie qu'un corps est entier, sans blessure et sans anomalie. Puis il retourne à ses planches.
 
 Le veilleur quitta l'accueil et s'engagea dans le grand couloir.
 
@@ -68,7 +74,7 @@ Pour aller chercher les hautes, on montait des échafaudages, et on les redescen
 
 C'était la serre. Le mot ne voulait plus dire grand-chose : il n'y avait ni vitre ni châssis, rien qu'un quart du complexe où la coulée était chez elle. Ailleurs, elle ne faisait que passer — un brin dans un mur, un coulant en travers d'un couloir, et rien autour. Ici elle avait de la place, et c'est ici, et nulle part ailleurs, que les capsules venaient.
 
-Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule presque blanche. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : une analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.
+Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule presque blanche. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.
 
 Au loin, immanquable, la porte du registre. Massive, elle aussi tout autant chargée d'ornements que le reste, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.
 
@@ -100,7 +106,7 @@ Le quartier des préparateurs était une seule grande pièce, longue, avec une a
 
 Ils étaient une quinzaine, et il n'y avait pas de bureaux.
 
-Deux ou trois levèrent la main en le voyant entrer. On lui proposa du café. Il dit non merci, on lui en servit un, il le prit.
+Deux ou trois levèrent la main en le voyant entrer. On lui proposa du café et il accepta de bon cœur. Il n'avait pas fait le détour par la salle de repos ; ce n'était pas une raison pour refuser une bonne tasse.
 
 Sur le premier établi, une capsule. Cueillie dans la nuit, calée sur deux berceaux de mousse, avec deux personnes autour. L'une lavait la paroi au chiffon, à l'eau claire, en tournant toujours dans le même sens, et l'eau du seau était verte. L'autre avait décollé le rabat sur dix centimètres, glissé dessous trois sondes souples, et rabattu par-dessus. Les sondes remontaient jusqu'à un appareil posé au bout de la table, une caisse grise avec un cadran et deux aiguilles qui ne bougeaient presque pas.
 
@@ -118,23 +124,23 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 
 Il la regarda. Elle était belle.
 
-Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
+Yvan arrivait derrière eux. En tant qu'analyste, il se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
 
-Quand l'analyste tranchait, elle avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, elle l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait, il l'acceptait sans discuter, et il avait cent fois raison de le faire.
+Quand l'analyste tranchait, il avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, il l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait, il l'acceptait sans discuter, et il avait cent fois raison de le faire.
 
 — La dix-neuf, dit Bastien.
 
-— Qu'est-ce qu'elle a, la dix-neuf ?
+— La travée dix-neuf ?
 
-— Elle a douze capsules.
+— Oui. Elle a douze capsules.
 
-Vera ne leva pas la tête tout de suite.
+Yvan ne leva pas la tête tout de suite.
 
 — Elle en a onze.
 
-— Elle en avait onze. Je les ai comptées trois fois.
+— Ça, c'était avant. Maintenant il y en a douze. Je suis allé les recompter trois fois.
 
-Elle posa son crayon et sortit sa planche de la travée dix-neuf. Onze colonnes, onze séries, onze histoires commencées à onze dates différentes. La douzième n'était nulle part. Elle n'avait jamais été relevée, parce que personne n'avait jamais su qu'elle était là.
+Il posa son crayon et sortit sa planche de la travée dix-neuf. Onze colonnes, onze séries, onze histoires commencées à onze dates différentes. La douzième n'était nulle part. Elle n'avait jamais été relevée, parce que personne n'avait jamais su qu'elle était là.
 
 — Elle est où ?
 
@@ -146,7 +152,7 @@ Elle posa son crayon et sortit sa planche de la travée dix-neuf. Onze colonnes,
 
 Andrew écoutait sans rien dire. Ça n'avait rien d'extraordinaire : une capsule pousse où elle pousse, personne n'a jamais choisi l'emplacement d'une seule d'entre elles, et il y en avait des dizaines de milliers dans ce bâtiment. On en oubliait. On les retrouvait.
 
-— Tu l'as touchée ? dit Vera.
+— Tu l'as touchée ? dit Yvan.
 
 — Oui.
 
@@ -154,13 +160,13 @@ Andrew écoutait sans rien dire. Ça n'avait rien d'extraordinaire : une capsule
 
 — Elle est prête.
 
-Elle ne discuta pas. Une main posée ne remplaçait pas une série, et une main de Bastien n'avait encore jamais menti.
+Il ne discuta pas. Une main posée ne remplaçait pas une série, et une main de Bastien n'avait encore jamais menti.
 
 Seulement, une main ne donne pas de date.
 
-Une série non plus, pas tout de suite. Vera pouvait relever cette capsule dans l'heure, et elle n'aurait qu'un point. Il en fallait trois pour voir un sens et cinq pour poser un jour. Elle le dit comme ça, sans s'excuser, parce que c'était le métier et que le métier était bon.
+Une série non plus, pas tout de suite. Yvan pouvait relever cette capsule dans l'heure, et il n'aurait qu'un point. Il en fallait trois pour voir un sens et cinq pour poser un jour. Il le dit comme ça, sans s'excuser, parce que c'était le métier et que le métier était bon.
 
-— Cinq jours, dit-elle. Avant ça, je ne dirai rien.
+— Cinq jours. Avant ça, je ne dirai rien.
 
 — Elle est claire, dit Bastien.
 
@@ -170,7 +176,7 @@ Andrew regarda le tableau noir. Le neuf, le dix et le onze étaient pleins. Troi
 
 Une capsule qui s'ouvre sans personne autour s'ouvre quand même. Elle n'attend pas, elle ne prévient pas. C'était arrivé deux fois depuis qu'il était là, et les deux fois quelqu'un s'était retrouvé debout tout seul au milieu de la coulée, sans miroir, sans eau, sans personne à qui donner son nom.
 
-— Je relèverai deux fois par jour, dit Vera. Matin et soir. Et je veux qu'on recompte tout le fond avant la fin de la semaine.
+— Je relèverai deux fois par jour, dit Yvan. Matin et soir. Et je veux qu'on recompte tout le fond avant la fin de la semaine.
 
 — Ça va prendre trois jours.
 
@@ -192,7 +198,7 @@ Il écrivit : travée dix-neuf, douzième capsule, aucune série, la date et l'h
 
 Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait, et le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien.
 
-— Et si elle s'ouvre cette nuit ? dit Bastien.
+— Et si elle s'ouvre cette nuit ? dit Yvan.
 
 — Alors elle s'ouvrira cette nuit, et on n'y pourra rien.
 
