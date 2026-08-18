@@ -234,11 +234,22 @@ const PETALES=[
   {a:334,w:9, r:284,nom:'Salle 7'}
 ];
 const BATS={
-  preparateurs:{x:104,y:466,w:150,h:168,nom:'Quartier des préparateurs'},
-  analystes:{x:128,y:750,w:204,h:124,nom:'Les analystes'},
-  repos:{x:322,y:654,w:96,h:62,nom:'Salle de repos'},
+  preparateurs:{a0:136,a1:174,r0:236,r1:352,nom:'Quartier des préparateurs'},
+  analystes:{a0:104,a1:134,r0:340,r1:452,nom:'Les analystes'},
+  repos:{a0:92,a1:112,r0:246,r1:312,nom:'Salle de repos'},
   accueil:{x:368,y:812,w:300,h:106,nom:'Accueil'}
 };
+/* un secteur : deux arcs et deux rayons, l'harmonie du complexe */
+function sect(a0,a1,r0,r1){
+  const A=pol(r0,a0), B=pol(r0,a1), C=pol(r1,a1), D=pol(r1,a0);
+  return `M${n2(A[0])},${n2(A[1])} A${r0},${r0} 0 0 1 ${n2(B[0])},${n2(B[1])}
+          L${n2(C[0])},${n2(C[1])} A${r1},${r1} 0 0 0 ${n2(D[0])},${n2(D[1])} Z`;
+}
+const sectB = b => sect(b.a0,b.a1,b.r0,b.r1);
+const arc = (r,a0,a1) => {const A=pol(r,a0),B=pol(r,a1);
+  return `M${n2(A[0])},${n2(A[1])} A${r},${r} 0 0 1 ${n2(B[0])},${n2(B[1])}`;};
+const ray = (a,r0,r1) => {const A=pol(r0,a),B=pol(r1,a);
+  return `M${n2(A[0])},${n2(A[1])} L${n2(B[0])},${n2(B[1])}`;};
 function petalePath(p){
   const a0=p.a-p.w, a1=p.a+p.w, r0=R_PET, r1=p.r;
   const A=pol(r0,a0), B=pol(r0,a1), C=pol(r1,a1), D=pol(r1,a0);
@@ -304,8 +315,12 @@ function libre(x,y){
   const ac=((Math.atan2(y-CY,x-CX)*180/Math.PI)+360)%360;
   let dc=Math.abs(((ac-33+540)%360)-180);
   if(dc<24 && dr<292 && dr>R_PET-8) return false;
-  for(const b of obstacles)
-    if(x>b.x-14&&x<b.x+b.w+14&&y>b.y-14&&y<b.y+b.h+14) return false;
+  const ap=((Math.atan2(y-CY,x-CX)*180/Math.PI)+360)%360;
+  for(const b of obstacles){
+    if(b.a0===undefined){
+      if(x>b.x-14&&x<b.x+b.w+14&&y>b.y-14&&y<b.y+b.h+14) return false;
+    } else if(ap>b.a0-3&&ap<b.a1+3&&dr>b.r0-14&&dr<b.r1+14) return false;
+  }
   if(x<118||x>872||y<118||y>866) return false;
   if(x>820&&y<430) return false;
   if(x>694&&x<822&&y>760&&y<858) return false;
@@ -344,7 +359,7 @@ for(let i=0;i<5;i++){
 }
 
 /* la porte du grand couloir vers la salle de repos */
-el('path',{d:'M418,670 L418,702',stroke:'var(--or)',"stroke-width":3.4,
+el('path',{d:'M408,632 L420,660',stroke:'var(--or)',"stroke-width":3.4,
   "stroke-linecap":'round',opacity:.75},cBat);
 
 /* couloir des visiteurs */
@@ -392,10 +407,10 @@ el('path',{d:`M${n2(pol(258,30)[0])},${n2(pol(258,30)[1])} L866,${n2(pol(258,30)
   fill:'none',stroke:'#222a31',"stroke-width":13,"stroke-linecap":'round'},cBat);
 
 /* corridors entre quartiers */
-[['M472,686 L418,686',''],
- ['M354,654 C314,646 254,640 206,634',''],
- ['M350,716 C314,732 280,746 250,756',''],
- ['M140,634 L140,752','']].forEach(([d])=>{
+[['M470,650 L412,646',''],
+ ['M326,662 C296,648 258,622 226,606',''],
+ ['M356,702 C340,708 320,712 304,716',''],
+ ['M178,626 L190,670','']].forEach(([d])=>{
   el('path',{d,fill:'none',stroke:'#202932',"stroke-width":21,"stroke-linecap":'round'},cBat);
   el('path',{d,fill:'none',stroke:'#3a4653',"stroke-width":22,"stroke-linecap":'round',
     opacity:.6,"stroke-dasharray":'2 7'},cBat);
@@ -445,31 +460,40 @@ el('path',{d:consultPath(),fill:'#101a1c',stroke:'#2c3f42',"stroke-width":1.2},c
 
 /* bâtiments */
 for(const k in BATS){const b=BATS[k];
-  el('rect',{x:b.x,y:b.y,width:b.w,height:b.h,rx:5,fill:'#111820',
-    stroke:'#414c58',"stroke-width":1.35},cBat);
-  el('rect',{x:b.x+7,y:b.y+7,width:b.w-14,height:b.h-14,rx:3,fill:'none',
-    stroke:'#242c34',"stroke-width":.8},cBat);
+  if(b.a0===undefined){
+    el('rect',{x:b.x,y:b.y,width:b.w,height:b.h,rx:5,fill:'#111820',
+      stroke:'#414c58',"stroke-width":1.35},cBat);
+    el('rect',{x:b.x+7,y:b.y+7,width:b.w-14,height:b.h-14,rx:3,fill:'none',
+      stroke:'#242c34',"stroke-width":.8},cBat);
+  } else {
+    el('path',{d:sectB(b),fill:'#111820',stroke:'#414c58',"stroke-width":1.35},cBat);
+    el('path',{d:sect(b.a0+1.4,b.a1-1.4,b.r0+7,b.r1-7),fill:'none',
+      stroke:'#242c34',"stroke-width":.8},cBat);
+  }
 }
 /* postes du quartier des préparateurs */
 (function(){
   const b=BATS.preparateurs;
-  el('path',{d:`M${b.x+75},${b.y+32} L${b.x+75},${b.y+b.h-10}`,stroke:'#28313b',
-    "stroke-width":9,"stroke-linecap":'round'},cBat);
-  for(let i=0;i<8;i++)
-    el('rect',{x:b.x+12+(i%2)*68,y:b.y+34+Math.floor(i/2)*32,width:54,height:24,rx:3,
-      fill:'#161d16',stroke:'#33452f',"stroke-width":1},cBat);
+  el('path',{d:arc(294,b.a0+2,b.a1-2),fill:'none',stroke:'#28313b',
+    "stroke-width":10,"stroke-linecap":'round'},cBat);
+  [[250,286],[302,338]].forEach(([q0,q1])=>{
+    for(let i=0;i<3;i++){
+      const c0=b.a0+4+i*10.6, c1=c0+8.4;
+      el('path',{d:sect(c0,c1,q0,q1),fill:'#161d16',stroke:'#33452f',"stroke-width":1},cBat);
+    }
+  });
 })();
 
 /* les analystes : plusieurs pieces et un couloir interieur */
 (function(){
   const a=BATS.analystes;
-  el('path',{d:`M${a.x+8},${a.y+62} L${a.x+a.w-8},${a.y+62}`,stroke:'#28313b',
-    "stroke-width":10,"stroke-linecap":'round'},cBat);
-  [52,100,152].forEach(dx=>{
-    el('path',{d:`M${a.x+dx},${a.y+26} L${a.x+dx},${a.y+56}`,stroke:'#333d49',"stroke-width":1.2},cBat);
-    el('path',{d:`M${a.x+dx},${a.y+68} L${a.x+dx},${a.y+a.h-8}`,stroke:'#333d49',"stroke-width":1.2},cBat);
+  el('path',{d:arc(398,a.a0+2,a.a1-2),fill:'none',stroke:'#28313b',
+    "stroke-width":11,"stroke-linecap":'round'},cBat);
+  el('path',{d:arc(356,a.a0+3,a.a1-3),fill:'none',stroke:'#333d49',"stroke-width":1.2},cBat);
+  [111,119,127].forEach(q=>{
+    el('path',{d:ray(q,348,392),fill:'none',stroke:'#333d49',"stroke-width":1.2},cBat);
+    el('path',{d:ray(q,406,446),fill:'none',stroke:'#333d49',"stroke-width":1.2},cBat);
   });
-  el('path',{d:`M${a.x+8},${a.y+26} L${a.x+a.w-8},${a.y+26}`,stroke:'#333d49',"stroke-width":1.2},cBat);
 })();
 /* chaises de l'accueil */
 (function(){
@@ -532,9 +556,9 @@ el('text',{x:CX,y:CY+5,class:'etiq',"text-anchor":'middle',
 
 /* étiquettes */
 const ETIQ=[
- [BATS.preparateurs.x+BATS.preparateurs.w/2, BATS.preparateurs.y+16,'Préparateurs'],
- [BATS.analystes.x+BATS.analystes.w/2, BATS.analystes.y+18,'Analystes'],
- [BATS.repos.x+BATS.repos.w/2, BATS.repos.y-16,'Salle de repos'],
+ [pol(228,155)[0], pol(228,155)[1],'Préparateurs'],
+ [pol(330,119)[0], pol(330,119)[1],'Analystes'],
+ [pol(238,102)[0], pol(238,102)[1],'Salle de repos'],
  [BATS.accueil.x+BATS.accueil.w/2, BATS.accueil.y-16,'Accueil'],
  [pol(258,33)[0], pol(258,33)[1],'Consultation'],
  [918,326,'Chambres'],
@@ -640,12 +664,9 @@ zone('serre','path',{d:SERRE_D},'La serre');
 zone('registre','circle',{cx:CX,cy:CY,r:R_ENC},'Le registre');
 PETALES.forEach(p=>zone('ceremonie','path',{d:petalePath(p)},p.nom));
 zone('consultation','path',{d:consultPath()},'La consultation');
-zone('preparateurs','rect',{x:BATS.preparateurs.x,y:BATS.preparateurs.y,
-  width:BATS.preparateurs.w,height:BATS.preparateurs.h,rx:5},'Les préparateurs');
-zone('analystes','rect',{x:BATS.analystes.x,y:BATS.analystes.y,
-  width:BATS.analystes.w,height:BATS.analystes.h,rx:5},'Les analystes');
-zone('repos','rect',{x:BATS.repos.x,y:BATS.repos.y,
-  width:BATS.repos.w,height:BATS.repos.h,rx:5},'La salle de repos');
+zone('preparateurs','path',{d:sectB(BATS.preparateurs)},'Les préparateurs');
+zone('analystes','path',{d:sectB(BATS.analystes)},'Les analystes');
+zone('repos','path',{d:sectB(BATS.repos)},'La salle de repos');
 zone('visiteurs','path',{d:VIS_D,fill:'none',stroke:'transparent',
   "stroke-width":34,"stroke-linecap":'round',"stroke-linejoin":'round'},'Le couloir des visiteurs');
 CHAMBRES.forEach(c=>zone('visiteurs','rect',{x:c.x-3,y:c.y-3,width:c.w+6,height:c.h+6,rx:3},'Les chambres'));
@@ -734,7 +755,7 @@ const TRAJETS={
  capsule:{c:'#ec9006',nom:'La capsule',
   legende:"Elle a poussé quelque part dans la serre, à plat sur un coulant, en rang avec les autres. Un analyste la désigne. Un préparateur la décroche, la porte au quartier, branche les appareils. Puis elle repart vers la salle, couchée sur un chariot — et se redresse au dernier moment.",
   pts:[[700,690],[620,650],[540,616],[452,596],[366,566],[286,548],[196,532],
-       [208,470],[248,410],che(184),che(208),che(232),che(254),P4_IN,P4_MID]}
+       [252,556],[224,500],[236,446],che(184),che(208),che(232),che(254),P4_IN,P4_MID]}
 };
 const trace=el('path',{id:'trace',d:''},cTrace);
 const halo=el('circle',{id:'voyageur',cx:-99,cy:-99,r:7,fill:'#fff',opacity:0},cTrace);
