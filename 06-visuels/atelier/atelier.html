@@ -750,6 +750,8 @@ kbd{
 
 
 
+
+
 <!--<<ruche-style>>-->
 #v-ruche{
   --nuit:#0a0d10; --nuit2:#11161b; --trait:#2a3138;
@@ -825,11 +827,11 @@ kbd{
   font-family:var(--serif);font-size:15px;line-height:1.7;color:var(--or-pale);
   font-style:italic;
 }
-#v-ruche #r-pan-txt .puce{
+#v-ruche #r-pan-txt .r-puce{
   display:flex;gap:10px;font-size:12.8px;line-height:1.7;margin:0 0 9px;color:var(--texte-2)
 }
-#v-ruche #r-pan-txt .puce b{color:var(--creme);font-weight:600}
-#v-ruche #r-pan-txt .puce i{color:var(--or);font-style:normal;flex:0 0 auto}
+#v-ruche #r-pan-txt .r-puce b{color:var(--creme);font-weight:600}
+#v-ruche #r-pan-txt .r-puce i{color:var(--or);font-style:normal;flex:0 0 auto}
 #v-ruche /* ---------------- commandes ---------------- */
 #r-cmd{border-top:1px solid var(--trait);padding:18px 30px 22px;background:#080b0e}
 #v-ruche #r-cmd .lab{
@@ -845,7 +847,7 @@ kbd{
 }
 #v-ruche .tj:hover{border-color:var(--or);color:var(--creme)}
 #v-ruche .tj.on{border-color:var(--or);background:rgba(217,164,65,.1);color:var(--or-pale)}
-#v-ruche .tj .pt{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
+#v-ruche .tj .r-pt{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
 #v-ruche #r-reset{
   margin-top:9px;width:100%;background:transparent;border:none;color:var(--texte-3);
   font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
@@ -856,12 +858,12 @@ kbd{
 .zone{cursor:pointer;transition:fill .25s, stroke .25s, opacity .25s}
 #v-ruche .zone:hover{filter:url(#lueur)}
 #v-ruche .zone.lin:hover{filter:none}
-#v-ruche .etiq{
+#v-ruche .r-etiq{
   font-family:var(--sans);font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;
   fill:var(--texte-2);pointer-events:none;font-weight:600;
   transition:fill .25s, opacity .25s;
 }
-#v-ruche .etiq.petite{font-size:8px;letter-spacing:.18em}
+#v-ruche .r-etiq.petite{font-size:8px;letter-spacing:.18em}
 #v-ruche .mur{fill:none;stroke:#4c5762;stroke-width:1.5}
 #v-ruche .dedans{fill:#0e1318}
 @keyframes flux{to{stroke-dashoffset:-1000}}
@@ -911,6 +913,8 @@ kbd{
     <button class="rail-btn" data-vue="trancher" aria-label="À trancher">
       <svg viewBox="0 0 24 24"><path d="M12 3v13M7.5 11.5 12 16l4.5-4.5M5 20h14"/></svg><span>Trancher</span>
     </button>
+
+
 
 
 
@@ -1068,6 +1072,8 @@ kbd{
 
 
 
+
+
 <!--<<ruche-vue>>-->
 
     <!-- ================= LE PLAN DE LA RUCHE ================= -->
@@ -1103,10 +1109,10 @@ kbd{
     <div id="r-cmd">
       <div class="lab">Les trajets</div>
       <div class="trajets">
-        <button class="tj" data-tj="veilleur"><span class="pt" style="background:#d9a441"></span>Le veilleur</button>
-        <button class="tj" data-tj="visiteur"><span class="pt" style="background:#0081B3"></span>Les visiteurs</button>
-        <button class="tj" data-tj="arrivant"><span class="pt" style="background:#e9e0cc"></span>L'arrivant</button>
-        <button class="tj" data-tj="capsule"><span class="pt" style="background:#ec9006"></span>La capsule</button>
+        <button class="tj" data-tj="veilleur"><span class="r-pt" style="background:#d9a441"></span>Le veilleur</button>
+        <button class="tj" data-tj="visiteur"><span class="r-pt" style="background:#0081B3"></span>Les visiteurs</button>
+        <button class="tj" data-tj="arrivant"><span class="r-pt" style="background:#e9e0cc"></span>L'arrivant</button>
+        <button class="tj" data-tj="capsule"><span class="r-pt" style="background:#ec9006"></span>La capsule</button>
       </div>
       <button id="r-reset">tout réafficher</button>
     </div>
@@ -4903,7 +4909,7 @@ const TEXTES = [{
     el('path',{d:`M${n2(out[0])},${n2(out[1])} L${n2(arc[0])},${n2(arc[1])}`,
       stroke:'var(--bleu)',"stroke-width":1,opacity:.35},cBat);
     const mid=pol((R_PET+p.r)/2,p.a);
-    el('text',{x:n2(mid[0]),y:n2(mid[1]),class:'etiq petite',"text-anchor":'middle',
+    el('text',{x:n2(mid[0]),y:n2(mid[1]),class:'r-etiq petite',"text-anchor":'middle',
       transform:`rotate(${n2(p.a+90)} ${n2(mid[0])} ${n2(mid[1])})`},cEtiq)
       .textContent=p.nom;
   });
@@ -5022,7 +5028,7 @@ const TEXTES = [{
       fill:'#0a0c08',stroke:'var(--or)',"stroke-width":.9,opacity:.62,
       transform:`rotate(${n2(a+90)} ${n2(q[0])} ${n2(q[1])})`},cBat);
   }
-  el('text',{x:CX,y:CY+5,class:'etiq',"text-anchor":'middle',
+  el('text',{x:CX,y:CY+5,class:'r-etiq',"text-anchor":'middle',
     style:'fill:var(--or);letter-spacing:.34em;font-size:11px'},cEtiq).textContent='REGISTRE';
   
   /* étiquettes */
@@ -5037,7 +5043,7 @@ const TEXTES = [{
    [700,700,'LA SERRE'],
    [516,1000,'Entrée principale']
   ].map(([x,y,t])=>{
-    const e=el('text',{x:n2(x),y:n2(y),class:'etiq'+(t==='LA SERRE'?'':' petite'),
+    const e=el('text',{x:n2(x),y:n2(y),class:'r-etiq'+(t==='LA SERRE'?'':' petite'),
       "text-anchor":'middle'},cEtiq);
     if(t==='LA SERRE') e.setAttribute('style','fill:var(--vert);letter-spacing:.5em;font-size:12px;opacity:.55');
     if(t==='Chambres') e.setAttribute('transform',`rotate(90 ${n2(x)} ${n2(y)})`);
@@ -5053,67 +5059,67 @@ const TEXTES = [{
     <p>C'est ici que le veilleur récupère <em>un papier avec le numéro de sa salle du jour</em>. Il ne s'assoit pas, il ne parle à personne, il repart.</p>
     <div class="cite">On lui avait donné la salle 4 pour les deux. C'était trop grand, et il n'avait rien dit.</div>
     <p>Les visiteurs, eux, bifurquent ici vers leur propre couloir, sur la droite.</p>
-    <div class="puce"><i>◦</i><span><b>La blague du livre est là.</b> Le lecteur sort d'une cérémonie de sanctuaire et tombe sur un guichet.</span></div>`},
+    <div class="r-puce"><i>◦</i><span><b>La blague du livre est là.</b> Le lecteur sort d'une cérémonie de sanctuaire et tombe sur un guichet.</span></div>`},
   
    couloir:{n:'02',t:'Le grand couloir',s:'De l\'accueil au cœur',
     txt:`<p>Il commence banal. Des néons au plafond, un sol qu'on lave, un couloir comme il en existe partout.</p>
     <p>Puis, à mesure qu'on avance, <em>la lumière du jour prend le relais</em>. La végétation apparaît. Les premiers ornements aussi.</p>
     <div class="cite">On ne rentre pas dans un autre monde, mais un peu quand même.</div>
-    <div class="puce"><i>◦</i><span><b>Il n'y a pas de seuil.</b> Il y a une cassure, et personne ne saurait dire où elle commence.</span></div>
-    <div class="puce"><i>◦</i><span>Il est collé à la salle de repos, commune à tous ceux qui travaillent ici.</span></div>`},
+    <div class="r-puce"><i>◦</i><span><b>Il n'y a pas de seuil.</b> Il y a une cassure, et personne ne saurait dire où elle commence.</span></div>
+    <div class="r-puce"><i>◦</i><span>Il est collé à la salle de repos, commune à tous ceux qui travaillent ici.</span></div>`},
   
    serre:{n:'03',t:'La serre',s:'Ce n\'est pas une zone — c\'est le sol',
     txt:`<p><b>La serre n'est pas une pièce qu'on traverse.</b> C'est le terrain lui-même, celui sur lequel tout le reste a été posé.</p>
     <p>Les quartiers — les analystes, les préparateurs, la salle de repos — sont <em>des bâtiments que les hommes ont construits dedans</em>, ornementés comme le reste. La coulée passe entre eux.</p>
     <p>Et il y a des capsules un peu partout. Couchées à plat sur les coulants, en rang, comme un champ de courges sous une halle.</p>
-    <div class="puce"><i>◦</i><span><b>Les couloirs sont un ajout humain</b>, creusés entre les quartiers pour déplacer les capsules sans se battre avec la végétation.</span></div>
-    <div class="puce"><i>◦</i><span>Depuis la serre, on entre à peu près partout.</span></div>`},
+    <div class="r-puce"><i>◦</i><span><b>Les couloirs sont un ajout humain</b>, creusés entre les quartiers pour déplacer les capsules sans se battre avec la végétation.</span></div>
+    <div class="r-puce"><i>◦</i><span>Depuis la serre, on entre à peu près partout.</span></div>`},
   
    registre:{n:'04',t:'Le registre',s:'L\'épicentre',
     txt:`<p>Ce n'est pas un livre. C'est une pièce — et pas vraiment une pièce fermée : <em>un mur qui pourrait avoir été sculpté</em>, la coulée qui serpente dessus et tout autour.</p>
     <p>Des stèles. Des gravures. L'aspect d'une ruine abandonnée sans que ce soit une ruine.</p>
     <div class="cite">Les lignes s'inscrivent. Personne ne les écrit. Et personne ne peut écrire à la place de celui qui les écrit.</div>
     <p>Une ligne par lot de capsules arrivées en même temps. Une année, un âge, et c'est tout. <b>Le registre ne ment pas.</b></p>
-    <div class="puce"><i>◦</i><span><b>Il est au centre, pas au fond.</b> C'est de là que sortent les capsules.</span></div>
-    <div class="puce"><i>◦</i><span>Les hommes y ont posé <b>une porte massive et très ornementée</b>. On pourrait entrer. Presque personne ne le fait.</span></div>`},
+    <div class="r-puce"><i>◦</i><span><b>Il est au centre, pas au fond.</b> C'est de là que sortent les capsules.</span></div>
+    <div class="r-puce"><i>◦</i><span>Les hommes y ont posé <b>une porte massive et très ornementée</b>. On pourrait entrer. Presque personne ne le fait.</span></div>`},
   
    ceremonie:{n:'05',t:'Les salles de cérémonie',s:'Les pétales',
     txt:`<p>Elles rayonnent autour du registre. Elles sont de tailles différentes — <em>et on ne le sait qu'une fois qu'on est dedans</em>.</p>
     <p>Le nombre de salles utilisées dépend du nombre d'éclaircies attendues le même jour. Une cérémonie à deux et la cérémonie des vingt-six ne se tiennent pas au même endroit.</p>
-    <div class="puce"><i style="color:var(--or)">●</i><span><b>La porte du fond</b> donne sur la serre. C'est par là qu'entre le veilleur — et c'est par là que ressortent les arrivants.</span></div>
-    <div class="puce"><i style="color:var(--bleu)">●</i><span><b>La porte des visiteurs</b> donne sur le couloir périphérique. Ils entrent et ressortent par le même côté.</span></div>
+    <div class="r-puce"><i style="color:var(--or)">●</i><span><b>La porte du fond</b> donne sur la serre. C'est par là qu'entre le veilleur — et c'est par là que ressortent les arrivants.</span></div>
+    <div class="r-puce"><i style="color:var(--bleu)">●</i><span><b>La porte des visiteurs</b> donne sur le couloir périphérique. Ils entrent et ressortent par le même côté.</span></div>
     <div class="cite">Elle s'ouvrit sur du vert, et se referma.</div>`},
   
    consultation:{n:'06',t:'La salle de consultation',s:'Juste après l\'éclaircie',
     txt:`<p>Adjacente aux salles de cérémonie, dans la serre. C'est ici que les arrivants sont guidés dès que la salle se vide.</p>
     <p>C'est <em>l'analyste</em> qui les reçoit — le même qui suivait leur capsule la veille. Il vérifie que le corps est vierge de toute anomalie.</p>
-    <div class="puce"><i>◦</i><span>Un petit accès mène de là au couloir des chambres.</span></div>`},
+    <div class="r-puce"><i>◦</i><span>Un petit accès mène de là au couloir des chambres.</span></div>`},
   
    preparateurs:{n:'07',t:'Le quartier des préparateurs',s:'Ceux qui cueillent',
     txt:`<p>Ils vivent au milieu de la coulée, la suivent d'un bout à l'autre, et <em>savent à la main</em> quand une capsule est prête.</p>
     <p>L'analyste désigne, le préparateur exécute. Il procède à <b>la cueillie</b>, transporte la capsule jusqu'ici, branche les appareils et attend.</p>
     <p>Puis il prépare l'aspect final de la capsule. On ne la laisse pas aller au bout du bout : quand elle est quasi prête, elle est encore souple, et <em>on y taille des entailles harmonieuses</em> pour faciliter le travail du veilleur.</p>
-    <div class="puce"><i>◦</i><span><b>Une capsule qui éclaircit d'un coup n'a presque pas besoin de travail.</b> Son rabat est si fin qu'il pourrait céder à tout moment.</span></div>
+    <div class="r-puce"><i>◦</i><span><b>Une capsule qui éclaircit d'un coup n'a presque pas besoin de travail.</b> Son rabat est si fin qu'il pourrait céder à tout moment.</span></div>
     <div class="cite">Il pourrait regarder le visage en premier. Par principe il ne le fait pas : la découverte appartient à la cérémonie.</div>`},
   
    analystes:{n:'08',t:'Les analystes',s:'Ni appareil, ni prophétie',
     txt:`<p>Ils ne mesurent rien. Ils regardent, ils notent, ils comparent. <em>La couleur, l'avancée de l'éclaircie, l'intervalle entre deux relevés</em> — et c'est la série accumulée qui prédit.</p>
     <p>Cette capsule s'ouvrira aujourd'hui. Celle-là, dans deux semaines.</p>
-    <div class="puce"><i>◦</i><span><b>Ils prédisent quand, jamais qui.</b> L'âge de celui qui sortira reste inconnu jusqu'à l'ouverture.</span></div>
-    <div class="puce"><i>◦</i><span>C'est ce travail qui permet d'annoncer une cérémonie à l'avance — donc d'avoir du public.</span></div>
+    <div class="r-puce"><i>◦</i><span><b>Ils prédisent quand, jamais qui.</b> L'âge de celui qui sortira reste inconnu jusqu'à l'ouverture.</span></div>
+    <div class="r-puce"><i>◦</i><span>C'est ce travail qui permet d'annoncer une cérémonie à l'avance — donc d'avoir du public.</span></div>
     <p>Un gynécologue, si l'on veut : ils suivent la gestation de la capsule, puis le post-partum de l'arrivant.</p>
     <div class="cite">Ce que personne ne verra jamais : le délai de maturation étant celui de l'agonie, leurs registres sont un relevé exact du temps que chaque arrivant a mis à mourir de l'autre côté. Des étagères entières.</div>`},
   
    repos:{n:'09',t:'La salle de repos',s:'Pour tout le monde',
     txt:`<p>Collée au grand couloir, et commune à tous ceux qui travaillent ici — veilleurs, préparateurs, analystes, assistants.</p>
     <p>C'est par elle que passent les corridors vers les deux quartiers.</p>
-    <div class="puce"><i>◦</i><span>C'est aussi le seul endroit du complexe où le métier se raconte : les vétérans, les anciennes cérémonies, ce qui a changé.</span></div>`},
+    <div class="r-puce"><i>◦</i><span>C'est aussi le seul endroit du complexe où le métier se raconte : les vétérans, les anciennes cérémonies, ce qui a changé.</span></div>`},
   
    visiteurs:{n:'10',t:'Le couloir des visiteurs',s:'Le réfectoire et les chambres',
     txt:`<p>Depuis l'accueil, il part sur la droite et fait le tour. Il longe <em>un réfectoire</em>, puis <em>des chambres</em>, comme dans une clinique — et il rejoint n'importe quelle salle de cérémonie.</p>
     <p>Après la consultation, les arrivants se dispatchent dans les chambres libres. <b>Ils y restent huit jours.</b></p>
-    <div class="puce"><i>◦</i><span>Les visiteurs ne viennent pas seulement pour les cérémonies : <b>ils peuvent venir voir les arrivants</b> pendant ces huit jours.</span></div>
-    <div class="puce"><i>◦</i><span>On ne vient pour personne en particulier. On vient parce qu'il y a eu une arrivée.</span></div>`}
+    <div class="r-puce"><i>◦</i><span>Les visiteurs ne viennent pas seulement pour les cérémonies : <b>ils peuvent venir voir les arrivants</b> pendant ces huit jours.</span></div>
+    <div class="r-puce"><i>◦</i><span>On ne vient pour personne en particulier. On vient parce qu'il y a eu une arrivée.</span></div>`}
   };
   
   /* =======================================================================
@@ -5257,7 +5263,7 @@ const TEXTES = [{
     document.getElementById('r-pan-titre').textContent=T.nom;
     document.getElementById('r-pan-sur').textContent='Trajet';
     document.getElementById('r-pan-txt').innerHTML=
-      `<p>${T.legende}</p><div class="puce"><i>◦</i><span>Cliquez un secteur pour ouvrir sa fiche.</span></div>`;
+      `<p>${T.legende}</p><div class="r-puce"><i>◦</i><span>Cliquez un secteur pour ouvrir sa fiche.</span></div>`;
   
     const t0=performance.now(), duree=4200;
     (function boucle(t){

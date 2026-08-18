@@ -25,6 +25,22 @@ def prefixer(t):
     return t
 css, js, markup = prefixer(css), prefixer(js), prefixer(markup)
 
+# ---------- 1 bis. les classes qui existent deja dans l'atelier ----------
+CLASSES = ['puce', 'pt', 'etiq']
+def declasser(t):
+    for c in CLASSES:
+        for m in (u'.%s{', u'.%s:', u'.%s ', u'.%s,', u'.%s.'):
+            t = t.replace(m % c, m % (u'r-' + c))
+        t = t.replace(u'class="%s"' % c, u'class="r-%s"' % c)
+        t = t.replace(u'class="%s ' % c, u'class="r-%s ' % c)
+        t = t.replace(u"class:'%s'" % c, u"class:'r-%s'" % c)
+        t = t.replace(u"class:'%s " % c, u"class:'r-%s " % c)
+        t = t.replace(u"class='%s'" % c, u"class='r-%s'" % c)
+        t = t.replace(u"'.%s'" % c, u"'.r-%s'" % c)
+        t = t.replace(u"`%s`" % c, u"`r-%s`" % c)
+    return t
+css, js, markup = declasser(css), declasser(js), declasser(markup)
+
 # ---------- 2. la feuille de style est confinee a la vue ----------
 def scoper(feuille, pref):
     out, i, n = [], 0, len(feuille)
