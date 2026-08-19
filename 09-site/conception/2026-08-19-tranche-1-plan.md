@@ -1185,7 +1185,16 @@ avant d'être commitée** — c'est son outil de travail quotidien.
 
 - [ ] **Étape 1 : Ajouter le contrôle à la fin du script**
 
-Ajouter, après la ligne `rm -f check.js combo.js` :
+Le script se termine aujourd'hui par :
+
+```sh
+node ../valide.js
+rm -f check.js combo.js
+echo "FABRICATION OK"
+```
+
+Insérer le contrôle **entre `rm -f` et le `echo` final**, pour que « FABRICATION OK » ne
+s'affiche que si le site tient encore lui aussi :
 
 ```sh
 
@@ -1199,7 +1208,8 @@ fi
 - [ ] **Étape 2 : Vérifier que la fabrication passe toujours**
 
 Lancer : `cd 06-visuels/atelier/sources && sh fabriquer.sh`
-Attendu : `atelier.html fabrique`, `syntaxe : correcte`, puis `contrat du site : respecte`.
+Attendu : `le plan du jardin : a jour`, `atelier.html fabrique`, `syntaxe : correcte`, puis
+`contrat du site : respecte`, et enfin `FABRICATION OK`.
 
 - [ ] **Étape 3 : Vérifier que le contrôle attrape une rupture**
 
