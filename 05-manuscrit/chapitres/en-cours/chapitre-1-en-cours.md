@@ -124,7 +124,7 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 
 Il la regarda. Elle était belle.
 
-L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais approché.
+L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu.
 
 — On ne t'en a pas montré, à l'école ? dit Andrew.
 
