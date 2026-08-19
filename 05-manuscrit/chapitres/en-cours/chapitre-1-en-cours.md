@@ -240,13 +240,15 @@ C'était le dernier entré au service. C'était aussi le seul à qui on aurait d
 
 Andrew le regarda le temps de passer et ne trouva rien à en dire.
 
-La capsule s'était ouverte toute seule pendant la nuit, sans prévenir personne, et pas par le haut. Elle avait cédé sur le flanc, en bas, là où la paroi est la plus épaisse. On disait de celles-là que c'étaient des capsules non éclaircies, ni plus ni moins. Une anomalie de la coulée. On n'avait même pas eu le temps de la voir : comme si la coulée avait rejeté la coque avant de lui avoir laissé sa chance. Elle était restée sombre du premier jour au dernier, et elle était là maintenant, fendue sur toute la longueur, affaissée sur elle-même comme un sac qu'on a vidé sans le poser.
+On disait de celles-là que c'étaient des capsules non éclaircies. C'était le mot du registre, et ce n'était pas celui des yeux.
+
+Ça ne ressemblait pas à une capsule. Ça n'en avait ni la longueur, ni les nervures, ni cette dissymétrie qu'ont les choses qui ont poussé. Une poche sombre et boursouflée, sortie de travers sur un coulant de bordure. Personne ne l'avait vue grossir et personne n'aurait pu la relever : elle était venue d'un coup, et elle avait crevé dans la nuit sur le flanc, sans que rien l'annonce. On aurait dit une excroissance que la coulée s'était faite à elle-même et qu'elle avait poussée à l'écart pour ne pas salir ce qu'il y avait autour. Il en restait ça, affaissé sur le coulant comme un sac qu'on a vidé sans le poser.
 
 Le reste avait coulé.
 
 Ce n'était pas de la gelée. La gelée est orange, mate, sèche ; elle s'enlève d'un tenant et elle ne laisse rien derrière elle. Ça, c'était autre chose.
 
-Ça s'était étalé sur trois mètres et ça avait pris la pente. Par endroits c'était encore en tas, avec des grumeaux gros comme le poing, plus pâles au cœur, qui gardaient un moment la marque de la raclette et se refermaient lentement dessus. Ailleurs c'était plus clair et plus liquide, et ça s'était insinué dans le joint entre deux dalles, où il faudrait revenir gratter demain. Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du seau quand on relevait l'outil et qui ne se décidaient pas à tomber, une membrane formée en surface qui se plissait quand on marchait à côté, et dessous quelque chose qui bougeait encore un peu — à cause de la pente, et pas pour une autre raison.
+Ça s'était étalé sur trois mètres et ça avait pris la pente. Par endroits c'était encore en tas, avec des grumeaux gros comme le poing, plus pâles au cœur, qui gardaient un moment la marque de la raclette et se refermaient lentement dessus. Ailleurs c'était plus clair et plus liquide, et ça s'était insinué dans le joint entre deux dalles, où il faudrait revenir gratter demain. Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du seau quand on relevait l'outil et qui ne se décidaient pas à tomber, une membrane formée en surface qui se plissait quand on marchait à côté, et dessous la masse qui continuait de descendre, parce que le sol descendait.
 
 Les régurgitations de n'importe quel être vivant, petit ou grand, à côté de ça, c'était du petit-lait.
 
