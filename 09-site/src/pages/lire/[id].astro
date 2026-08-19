@@ -11,14 +11,24 @@ export function getStaticPaths() {
 }
 
 const { texte, precedent, suivant } = Astro.props;
----
-<Page titre={`${texte.titre} — L'Éclaircie`}>
-  <article class="texte">
-    <header>
-      <p class="rang">{texte.rang}</p>
-      <h1>{texte.titre}</h1>
-    </header>
 
+const mots = texte.p
+  .filter(([balise]) => balise !== 'pause')
+  .map(([, s]) => s).join(' ').replace(/<[^>]+>/g, '')
+  .split(/\s+/).filter(Boolean).length;
+---
+<Page titre={`${texte.titre} — L'Éclaircie`} vue="lecture">
+  <header class="chapeau">
+    <h1>{texte.titre}</h1>
+    <p class="sous">{texte.rang} · {mots.toLocaleString('fr-FR')} mots</p>
+    <div class="outils">
+      {precedent && <a class="puce" data-va="precedent" href={`/lire/${precedent.id}/`}>← {precedent.rang}</a>}
+      <a class="puce" data-va="sommaire" href="/">Sommaire</a>
+      {suivant && <a class="puce" data-va="suivant" href={`/lire/${suivant.id}/`}>{suivant.rang} →</a>}
+    </div>
+  </header>
+
+  <article class="texte">
     {texte.p.map(([balise, contenu, classe]) => (
       balise === 'pause'
         ? <p class="pause" aria-hidden="true">{contenu}</p>
@@ -28,23 +38,21 @@ const { texte, precedent, suivant } = Astro.props;
           />
     ))}
 
-    <nav>
-      {precedent && <a href={`/lire/${precedent.id}/`}>← {precedent.titre}</a>}
-      <a href="/">Sommaire</a>
-      {suivant && <a href={`/lire/${suivant.id}/`}>{suivant.titre} →</a>}
+    <nav class="fin-de-texte">
+      {precedent
+        ? <a class="pas" href={`/lire/${precedent.id}/`}><span class="etiq">Avant</span><b>{precedent.titre}</b></a>
+        : <span></span>}
+      {suivant
+        ? <a class="pas droite" href={`/lire/${suivant.id}/`}><span class="etiq">Ensuite</span><b>{suivant.titre}</b></a>
+        : <span class="pas droite muet"><span class="etiq">Ensuite</span><b>Pas encore écrit</b></span>}
     </nav>
   </article>
 </Page>
 
 <style>
-  .texte { max-width: var(--mesure); margin: 0 auto; padding: 4rem 1.5rem 6rem; }
-  header { margin-bottom: 3.5rem; }
-  .rang {
-    font-family: var(--sans); font-size: .75rem; letter-spacing: .16em;
-    text-transform: uppercase; color: var(--texte-3); margin: 0 0 .5rem;
-  }
-  h1 { font-weight: 400; font-size: 2rem; margin: 0; }
-  p { margin: 0 0 1.35em; text-wrap: pretty; }
+  .texte { max-width: var(--mesure); margin: 0 auto; padding: 4.5rem 1.5rem 7rem; }
+
+  .texte p { margin: 0 0 1.35em; text-wrap: pretty; }
   .tiret { text-indent: 0; }
   /* Une respiration avant le dernier paragraphe, comme dans l'atelier. */
   .fin { margin-top: 1.6em; }
@@ -52,11 +60,27 @@ const { texte, precedent, suivant } = Astro.props;
     text-align: center; color: var(--texte-4); letter-spacing: .5em;
     margin: 2.5em 0; user-select: none;
   }
-  nav {
-    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
-    margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--trait);
-    font-family: var(--sans); font-size: .85rem;
+
+  .fin-de-texte {
+    display: flex; justify-content: space-between; gap: 14px;
+    margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--trait);
   }
-  nav a { color: var(--texte-3); text-decoration: none; }
-  nav a:hover { color: var(--accent); }
+  .pas {
+    display: block; text-decoration: none; padding: 12px 16px;
+    background: var(--fond-3); border: 1px solid var(--trait);
+    clip-path: polygon(0 0, calc(100% - 11px) 0, 100% 11px, 100% 100%, 11px 100%, 0 calc(100% - 11px));
+    transition: transform .18s cubic-bezier(.2, .8, .3, 1), border-color .18s, background .18s;
+  }
+  .pas.droite { text-align: right; }
+  .pas b { display: block; font-weight: 400; font-size: 1rem; margin-top: 3px; }
+  .pas:hover { transform: translateY(-3px); border-color: var(--trait-fort); background: var(--fond-4); }
+  .pas:hover b { color: var(--accent); }
+  .muet { opacity: .5; }
+  .muet:hover { transform: none; border-color: var(--trait); background: var(--fond-3); }
+  .muet b { color: var(--texte-3); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pas { transition: none; }
+    .pas:hover { transform: none; }
+  }
 </style>

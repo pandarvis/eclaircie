@@ -1,6 +1,9 @@
 ---
+import { ClientRouter } from 'astro:transitions';
+import Rail from '../composants/Rail.astro';
 import '../styles/jetons.css';
-const { titre } = Astro.props;
+
+const { titre, vue } = Astro.props;
 ---
 <html lang="fr">
   <head>
@@ -9,8 +12,68 @@ const { titre } = Astro.props;
     <!-- Phase privee : le site ne s'indexe pas. -->
     <meta name="robots" content="noindex, nofollow" />
     <title>{titre}</title>
+    <ClientRouter />
+    <script is:inline>
+      /* Avant le premier pixel, pour qu'aucune page ne clignote au chargement. */
+      (() => {
+        const pose = () => {
+          const choisi = localStorage.getItem('eclaircie-theme');
+          if (choisi) document.documentElement.dataset.theme = choisi;
+        };
+        pose();
+        document.addEventListener('astro:after-swap', pose);
+      })();
+    </script>
   </head>
   <body>
-    <slot />
+    <Rail vue={vue} />
+    <div class="jauge" id="jauge" transition:persist></div>
+    <div class="scene">
+      <slot />
+    </div>
+
+    <script>
+      /* Toute cette couche est facultative : sans elle, on lit quand meme. */
+      function brancher() {
+        const racine = document.documentElement;
+
+        const bascule = document.getElementById('bascule-theme');
+        if (bascule && !bascule.dataset.branche) {
+          bascule.dataset.branche = '1';
+          bascule.addEventListener('click', () => {
+            const sombre = getComputedStyle(document.body).backgroundColor === 'rgb(10, 14, 19)';
+            const suivant = sombre ? 'clair' : 'sombre';
+            racine.dataset.theme = suivant;
+            localStorage.setItem('eclaircie-theme', suivant);
+          });
+        }
+
+        const jauge = document.getElementById('jauge');
+        const texte = document.querySelector('.texte');
+        const avancee = () => {
+          if (!jauge) return;
+          if (!texte) { jauge.style.transform = 'scaleX(0)'; return; }
+          const course = document.documentElement.scrollHeight - window.innerHeight;
+          const part = course > 0 ? window.scrollY / course : 0;
+          jauge.style.transform = `scaleX(${Math.min(1, Math.max(0, part))})`;
+        };
+        window.removeEventListener('scroll', avancee);
+        window.addEventListener('scroll', avancee, { passive: true });
+        avancee();
+
+        /* Tourner la page au clavier, comme un livre. */
+        document.onkeydown = (e) => {
+          if (e.metaKey || e.ctrlKey || e.altKey) return;
+          const cible = e.target;
+          if (cible instanceof HTMLElement && /input|textarea/i.test(cible.tagName)) return;
+          const va = (r) => { const a = document.querySelector(r); if (a) a.click(); };
+          if (e.key === 'ArrowLeft') va('[data-va="precedent"]');
+          if (e.key === 'ArrowRight') va('[data-va="suivant"]');
+          if (e.key === 'Escape') va('[data-va="sommaire"]');
+        };
+      }
+      brancher();
+      document.addEventListener('astro:page-load', brancher);
+    </script>
   </body>
 </html>

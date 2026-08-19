@@ -1,42 +1,98 @@
 ---
 import Page from '../layouts/Page.astro';
 import textes from '../../donnees/textes.json';
+
+/* Ce que la carte montre du texte : ses premiers mots, et sa longueur.
+   Rien d'autre — pas de resume, pas de situation, pas de point de vue. */
+const cartes = textes.map((t, i) => {
+  const corps = t.p.filter(([balise]) => balise !== 'pause').map(([, s]) => s);
+  const mots = corps.join(' ').replace(/<[^>]+>/g, '').split(/\s+/).filter(Boolean).length;
+  return {
+    ...t,
+    no: String(i + 1).padStart(2, '0'),
+    incipit: corps[0].replace(/<[^>]+>/g, ''),
+    mots: mots.toLocaleString('fr-FR'),
+  };
+});
 ---
-<Page titre="L'Éclaircie">
-  <main class="sommaire">
+<Page titre="L'Éclaircie" vue="sommaire">
+  <header class="chapeau">
     <h1>L'Éclaircie</h1>
+    <p class="sous">Un roman en cours d'écriture · trois textes · {cartes.length} sur 38</p>
+  </header>
+
+  <main class="accueil">
     <p class="exergue">
-      L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.
+      L'irréparable est condamné, le réparable est pardonné,<br />le meurtri est gracié.
     </p>
 
-    <ol>
-      {textes.map((t) => (
+    <ol class="cartes">
+      {cartes.map((t) => (
         <li>
-          <a href={`/lire/${t.id}/`}>
-            <span class="rang">{t.rang}</span>
-            <span class="titre">{t.titre}</span>
+          <a class="noeud" href={`/lire/${t.id}/`}>
+            <span class="no">{t.no} · {t.mots} mots</span>
+            <span class="etiq">{t.rang}</span>
+            <h2>{t.titre}</h2>
+            <p>{t.incipit}</p>
           </a>
         </li>
       ))}
     </ol>
 
-    <p class="etat">Un roman en cours d'écriture.</p>
+    <p class="reste">Trente-cinq scènes restent à écrire.</p>
   </main>
 </Page>
 
 <style>
-  .sommaire { max-width: var(--mesure); margin: 0 auto; padding: 4rem 1.5rem; }
-  h1 { font-weight: 400; font-size: 2.25rem; letter-spacing: .01em; margin: 0 0 1.5rem; }
-  .exergue { color: var(--texte-2); font-style: italic; margin: 0 0 3rem; }
-  ol { list-style: none; padding: 0; margin: 0; }
-  li { border-top: 1px solid var(--trait); }
-  li:last-child { border-bottom: 1px solid var(--trait); }
-  a { display: flex; flex-direction: column; gap: .2rem; padding: 1.1rem 0; text-decoration: none; }
-  a:hover .titre { color: var(--accent); }
-  .rang {
-    font-family: var(--sans); font-size: .75rem; letter-spacing: .16em;
-    text-transform: uppercase; color: var(--texte-3);
+  .accueil { max-width: 62rem; margin: 0 auto; padding: 4.5rem 2rem 6rem; }
+
+  .exergue {
+    font-size: 1.5rem; line-height: 1.5; color: var(--texte-2);
+    font-style: italic; margin: 0 0 4rem; max-width: 30rem;
   }
-  .titre { font-size: 1.25rem; transition: color .16s; }
-  .etat { margin-top: 3rem; font-family: var(--sans); font-size: .8rem; color: var(--texte-4); }
+
+  .cartes {
+    list-style: none; padding: 0; margin: 0;
+    display: grid; gap: 18px;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  }
+
+  /* Le coin coupe de la frise : haut-droit et bas-gauche biseautes. */
+  .noeud {
+    display: block; height: 100%; text-decoration: none;
+    background: var(--fond-3); border: 1px solid var(--trait);
+    padding: 16px 18px 20px;
+    clip-path: polygon(0 0, calc(100% - 13px) 0, 100% 13px, 100% 100%, 13px 100%, 0 calc(100% - 13px));
+    transition: transform .18s cubic-bezier(.2, .8, .3, 1), border-color .18s, background .18s;
+  }
+  .noeud:hover {
+    transform: translateY(-3px);
+    border-color: var(--trait-fort); background: var(--fond-4);
+  }
+  .noeud:hover h2 { color: var(--accent); }
+
+  .no {
+    display: block; font-family: var(--mono); font-size: 10px;
+    letter-spacing: .08em; color: var(--texte-4); margin-bottom: 10px;
+  }
+  .noeud .etiq { display: block; margin-bottom: 4px; }
+  .noeud h2 {
+    margin: 0 0 10px; font-size: 1.3rem; font-weight: 400;
+    line-height: 1.25; transition: color .18s;
+  }
+  .noeud p {
+    margin: 0; font-size: .95rem; line-height: 1.55; color: var(--texte-3);
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .reste {
+    margin: 3.5rem 0 0; font-family: var(--sans); font-size: .8rem;
+    color: var(--texte-4); letter-spacing: .04em;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .noeud, .noeud h2 { transition: none; }
+    .noeud:hover { transform: none; }
+  }
 </style>
