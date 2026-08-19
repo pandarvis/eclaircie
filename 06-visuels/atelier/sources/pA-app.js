@@ -539,15 +539,15 @@ rendreNotes();
 /* ==========================================================================
    VUE 4 — LE MONDE
    ========================================================================== */
-let mOnglet = `lexique`, mTexte = ``;
-const ONGLETS = [[`lexique`,`Le lexique`],[`glossaire`,`Le glossaire`],[`regles`,`Les règles`],[`interdits`,`Les interdits`],
+let mOnglet = `glossaire`, mTexte = ``;
+const ONGLETS = [[`glossaire`,`Le glossaire`],[`lexique`,`Le lexique`],[`regles`,`Les règles`],[`interdits`,`Les interdits`],
                  [`decompte`,`Le décompte`],[`calendrier`,`Le calendrier`],
                  [`dispositif`,`Le dispositif`],[`raccords`,`Les faux raccords`]];
 (function ongletsMonde(){
   const box = $(`#m-onglets`);
   ONGLETS.forEach(([k, lab]) => {
     const b = document.createElement(`button`);
-    b.className = `puce` + (k === `lexique` ? ` on` : ``);
+    b.className = `puce` + (k === `glossaire` ? ` on` : ``);
     b.textContent = lab;
     b.addEventListener(`click`, () => {
       mOnglet = k; $$(`#m-onglets .puce`).forEach(x => x.classList.remove(`on`)); b.classList.add(`on`);

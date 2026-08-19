@@ -77,6 +77,16 @@ aside em{color:var(--or-pale);font-style:italic}
 .bat.fin{fill:#1a1216;stroke:#8d6c7a}
 .bat.commun{fill:#1b1a14;stroke:var(--or);opacity:.95}
 .cab{fill:#141a15;stroke:var(--vert-sombre);stroke-width:.9}
+.pre{fill:#13221a;stroke:#2c4432;stroke-width:1.1}
+.eau{fill:#0e2029;stroke:none}
+.margelle{fill:none;stroke:var(--bleu);stroke-width:2.2;opacity:.8}
+.enclos{fill:#191d16;stroke:#6d7a52;stroke-width:1.2;stroke-dasharray:5 4}
+.clos{fill:#15181c;stroke:#8d6c7a;stroke-width:1.1}
+.sport{fill:#161d1a;stroke:#4a5f4a;stroke-width:1.1}
+.trajet{fill:none;stroke:var(--bleu);stroke-width:2.2;stroke-linecap:round;
+  stroke-linejoin:round;stroke-dasharray:7 5}
+.trajet-ombre{fill:none;stroke:var(--nuit);stroke-width:7;stroke-linecap:round;
+  stroke-linejoin:round;opacity:.85}
 .arbre{fill:var(--vert-sombre);opacity:.55}
 .arbre2{fill:none;stroke:var(--vert);stroke-width:.7;opacity:.3}
 .grille{stroke:var(--or);stroke-width:2.6;stroke-linecap:round}
@@ -107,6 +117,8 @@ aside em{color:var(--or-pale);font-style:italic}
       <span><i style="background:#101a20;border:1px solid #0081B3"></i>centre médical</span>
       <span><i style="background:#1a1216;border:1px solid #8d6c7a"></i>fin de vie</span>
       <span><i style="background:#1e1a14;border:1px solid #ec9006"></i>aire de jeu</span>
+      <span><i style="background:#0e2029;border:1px solid #0081B3"></i>l'étang</span>
+      <span><i style="background:#191d16;border:1px dashed #6d7a52"></i>enclos</span>
       <span><i style="background:#12201a;border:1px solid #25392a"></i>pelouse, jardins</span>
       <span><i style="background:#3d5a3a;border-radius:50%"></i>arbres</span>
       <span><i style="background:#141a15;border:1px solid #3d5a3a"></i>cabanons</span>
@@ -141,6 +153,16 @@ const lisse=(pts,f=.42)=>{
   return d+'Z';
 };
 const poly=pts=>`M${pts.map(p=>n2(p[0])+','+n2(p[1])).join(' L')}`;
+/* Rien de ce qui pousse n'est rectangulaire. Une tache fermee, irreguliere
+   mais reproductible : meme graine, meme contour a chaque ouverture. */
+const tache=(cx,cy,rx,ry,n=11,irr=.17)=>{
+  const p=[];
+  for(let i=0;i<n;i++){
+    const a=i/n*Math.PI*2, k=1-irr+alea()*irr*2;
+    p.push([cx+Math.cos(a)*rx*k, cy+Math.sin(a)*ry*k]);
+  }
+  return lisse(p,.5);
+};
 /* Une enceinte decalee vers l'exterieur : l'allee du parc, cote ville. */
 const dilate=(pts,d)=>{
   const cx=pts.reduce((s,p)=>s+p[0],0)/pts.length, cy=pts.reduce((s,p)=>s+p[1],0)/pts.length;
@@ -254,55 +276,73 @@ const PLANS=[
  etiq:[[480,44,'gd','ENTRÉE'],[512,352,'gd',''],[956,352,'','']]
 },
 {
- cle:'C', nom:'Les hameaux', sous:'le village qui s\'est fait tout seul',
+ cle:'C', nom:'La fermette', sous:'le pr\u00e9 ne se traverse pas, il se contourne',
  mur:[[150,86],[520,52],[900,96],[946,300],[906,560],[560,650],[190,616],[80,330]],
- principe:`<p><b>Quatre hameaux, chacun avec sa petite place.</b> Trois ou quatre lotissements
-  serrés, un banc, un arbre, une aire de jeu, un cabanon — et on n'a besoin de rien d'autre
-  pour vivre sa journée.</p>
-  <p>Au milieu, <b>un grand pré que personne n'a construit</b>, traversé par des sentiers que
-  personne n'a tracés : ils se sont faits à l'usure. <em>La cantine est le seul bâtiment que
-  tout le monde est obligé de traverser le pré pour atteindre, et c'est voulu.</em></p>`,
- enjeu:`<p><b>Le centre médical est à l'écart, contre la grille de service.</b> Les salles de fin de
-  vie ouvrent sur un jardin muré, derrière, où aucun enfant ne va.</p>
-  <p>C'est le plan le plus humain — on ne fait pas passer les petits devant — <em>et c'est
-  exactement ce qui le rend commode.</em> <b>Un bâtiment à l'écart, sa propre grille, ses
-  propres livraisons : c'est le seul des trois plans où quelqu'un peut entrer et sortir sans
-  croiser âme qui vive.</b></p>`,
- grilles:[[420,60,'principale',0],[938,266,'service',0],[700,646,'sud',0],[96,400,'ancienne',1]],
- allees:[[[420,60],[420,180],[500,300],[470,470],[560,560]],
-         [[938,266],[820,280],[720,330]],
-         [[190,200],[300,300],[420,330],[560,330],[720,330]],
-         [[700,646],[640,540],[560,470]]],
- sentiers:[[[420,330],[480,392],[560,400]],[[300,300],[356,380],[330,470]],
-           [[560,400],[660,430],[720,470]],[[560,330],[600,250],[680,220]]],
- zones:[['pelouse',[[380,352],[600,340],[660,470],[470,510],[386,452]]],
-        ['pelouse',[[740,140],[880,150],[886,240],[750,236]]]],
+ principe:`<p><b>Au milieu, on a laiss\u00e9 le terrain tranquille.</b> Un pr\u00e9, une \u00e9tendue d'eau
+  bord\u00e9e d'une margelle assez haute pour qu'on ne l'enjambe pas, et des enclos avec des b\u00eates
+  dedans. <em>Des chevaux, des ch\u00e8vres. Le genre d'endroit o\u00f9 l'on emm\u00e8ne les petits et o\u00f9 ils
+  veulent revenir.</em></p>
+  <p><b>Le pr\u00e9 ne se traverse pas.</b> L'all\u00e9e en fait le tour, et tout le reste est construit
+  contre elle : les dortoirs, le r\u00e9fectoire, le gymnase, le terrain, les aires de jeu.
+  <em>On voit le milieu de partout et on n'y passe jamais par hasard.</em></p>
+  <p style="color:var(--texte-3)">Le jardin fait six cents m\u00e8tres dans sa plus grande
+  largeur. <b>On met du temps \u00e0 le traverser, et le plan doit le dire.</b></p>`,
+ enjeu:`<p><b>Le centre m\u00e9dical est \u00e0 l'est, contre sa propre grille.</b> Les salles de fin de vie
+  sont derri\u00e8re, sur un jardin clos qu'aucune all\u00e9e ne longe. Depuis le pr\u00e9, on ne voit que
+  le toit.</p>
+  <p>C'est le plan le plus humain \u2014 on ne fait pas passer les petits devant \u2014 <em>et c'est
+  exactement ce qui le rend commode.</em> <b>Un b\u00e2timent \u00e0 l'\u00e9cart, sa grille, ses livraisons :
+  c'est le seul endroit du jardin o\u00f9 quelqu'un entre et sort sans croiser \u00e2me qui vive.</b></p>`,
+ defauts:[
+  ['Le cinqui\u00e8me groupe de dortoirs n\'a jamais \u00e9t\u00e9 b\u00e2ti','On a coul\u00e9 les semelles, puis on a mis le gymnase ailleurs. Le b\u00e9ton d\u00e9passe encore de l\u2019herbe, au sud-ouest.'],
+  ['La grille du sud ne s\'ouvre plus','La chaine est pass\u00e9e deux fois et le p\u00eane a blanchi. L\'herbe monte \u00e0 travers, des deux c\u00f4t\u00e9s, \u00e0 la m\u00eame hauteur.'],
+  ['Les deux dortoirs du sud-est sont plus grands','B\u00e2tis trente ans apr\u00e8s les autres. Fen\u00eatres plus hautes, cr\u00e9pi d\'une autre teinte, et tout le monde le sait.'],
+  ['La fresque s\'arr\u00eate au gymnase','On l\'a adoss\u00e9 au mur bien plus tard. Les dessins reprennent de l\'autre c\u00f4t\u00e9, en plus petit.'],
+  ['Un sentier contre la margelle','Personne ne l\'a trac\u00e9. \u00c0 force de longer l\'eau pour regarder dedans, l\'herbe n\'a pas repouss\u00e9.']],
+ grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[940,330,'service',0],[560,646,'sud',1]],
+ formes:[
+  ['pre',470,385,168,128,'',0],
+  ['eau',392,352,74,52,'L\'\u00e9tang',0],
+  ['enclos',572,318,74,54,'Les chevaux',5],
+  ['enclos',566,452,54,40,'Les ch\u00e8vres',6],
+  ['enclos',444,470,50,34,'',4],
+  ['clos',846,506,58,30,'Le jardin clos',0]],
+ sport:[[330,92,152,74,'Le terrain']],
+ allees:[[[115,208],[196,246],[258,306],[268,404],[300,494],[392,552],[520,566],[628,540],[676,462],[684,360],[652,270],[560,224],[430,220],[330,244],[268,306]],
+         [[700,74],[694,140],[664,196],[604,222]],
+         [[940,330],[856,330],[790,338]],
+         [[684,360],[766,344]],
+         [[268,404],[176,398]],
+         [[392,552],[352,596]]],
+ sentiers:[[[330,244],[352,296],[336,340]],[[520,566],[540,600]],[[684,360],[700,430],[712,466]]],
+ zones:[['pelouse',[[196,132],[268,120],[286,186],[210,196]]]],
  bat:[
-  ['soin',736,296,152,104,'Centre médical','À l\'écart, contre la grille de service. Un seul niveau, un parking pour quatre voitures, et une porte que les enfants ne franchissent que pour le suivi.'],
-  ['fin',748,424,124,52,'Fin de vie','Derrière le centre, sur un jardin muré planté d\'arbres. Aucune allée ne le longe. Depuis le pré, on ne voit que le toit.'],
-  ['commun',430,196,150,72,'Cantine','Au bout du pré, pour que tout le monde traverse. Deux services, et les camions de la ville entrent par la principale.'],
-  ['commun',179,467,120,72,'Gymnase','Bâti sur l\'emplacement du cinquième hameau, qui n\'a jamais été construit. Les fondations dépassent encore de l\'herbe, à côté.'],
-  ['commun',628,192,110,66,'Salle de jeu','Dans le hameau nord-est, et les trois autres hameaux s\'en plaignent poliment depuis des années.'],
-  ['bat',190,110,92,50,'Hameau ouest — 1','Quatre lotissements autour d\'une place de terre battue. Le plus vieux du jardin.'],
-  ['bat',302,120,92,50,'Hameau ouest — 2',''],
-  ['bat',176,220,92,50,'Hameau ouest — 3',''],
-  ['bat',300,238,92,50,'Hameau ouest — 4',''],
-  ['bat',612,96,92,50,'Hameau nord-est — 1','Trois lotissements et la salle de jeu. C\'est le hameau où l\'on vient jouer quand il pleut.'],
-  ['bat',726,100,92,50,'Hameau nord-est — 2',''],
-  ['bat',760,196,92,50,'Hameau nord-est — 3',''],
-  ['bat',227,540,92,50,'Hameau sud — 1','Trois lotissements, une place plantée. Le plus calme.'],
-  ['bat',319,556,92,50,'Hameau sud — 2',''],
-  ['bat',502,566,92,50,'Hameau sud — 3',''],
-  ['bat',594,541,100,54,'Hameau neuf — 1','Bâti trente ans après les autres. Les bâtiments sont plus grands, les fenêtres plus hautes, et le crépi n\'a pas la même teinte.',1],
-  ['bat',694,520,100,54,'Hameau neuf — 2','',1],
-  ['cab',330,180,46,28,'Cabanon',''],
-  ['cab',686,160,46,28,'Cabanon',''],
-  ['cab',330,500,46,28,'Cabanon','Le seul qui ferme à clé, parce qu\'il est trop près de la grille sud.'],
-  ['cab',133,389,44,28,'Ancienne loge','Contre la grille condamnée. On y range les tondeuses.']],
- jeux:[[214,306,96,74,'Aire de jeu'],[640,270,96,72,'Aire de jeu'],[420,470,96,62,'Aire de jeu'],[556,436,88,60,'Bacs à sable']],
- trous:[[196,556,0,''],[240,436,50,'Les fondations du cinquième hameau']],
+  ['soin',766,254,152,104,'Centre m\u00e9dical','Le seul b\u00e2timent \u00e0 avoir un \u00e9tage. Consultations au rez, dortoir de garde au premier, les dossiers au second. Le parking est devant, la grille de service \u00e0 trente m\u00e8tres.',-4],
+  ['fin',778,406,124,54,'Fin de vie','Six chambres et une v\u00e9randa, derri\u00e8re le centre, sur un jardin clos plant\u00e9. Aucune all\u00e9e ne le longe. Depuis le pr\u00e9 on ne voit que le toit.',6],
+  ['commun',518,102,150,64,'R\u00e9fectoire','Les repas arrivent de la ville en camion, deux fois par jour. On les r\u00e9chauffe ici, on ne les fait pas. Tout le monde y vient \u00e0 pied, de partout.',3],
+  ['commun',230,500,124,64,'Gymnase','Adoss\u00e9 au mur, ce qui coupe la fresque. Sol souple, filets aux fen\u00eatres, une odeur qui ne part jamais.',-6],
+  ['commun',694,182,112,60,'Salle de jeu','Pour les jours de pluie, et il pleut souvent. Le parquet est marqu\u00e9 aux endroits o\u00f9 les tables reviennent toujours.',5],
+  ['commun',256,300,96,54,'Buanderie','Les gens de la ville entrent par la grille nord-ouest, t\u00f4t, et repartent avant le r\u00e9veil.',4],
+  ['bat',196,120,100,52,'Dortoirs 1','Vingt petits, quatre berceurs, un salon commun et une buanderie. Les fen\u00eatres du bas ont des barreaux ronds peints en jaune.',-5],
+  ['bat',330,196,100,52,'Dortoirs 2','',4],
+  ['bat',560,166,100,52,'Dortoirs 3','',-3],
+  ['bat',760,120,100,52,'Dortoirs 4','',7],
+  ['bat',148,336,96,52,'Dortoirs 5','',3],
+  ['bat',160,432,96,52,'Dortoirs 6','',-4],
+  ['bat',406,548,100,52,'Dortoirs 7','',5],
+  ['bat',548,556,100,52,'Dortoirs 8','',-6],
+  ['bat',664,508,106,56,'Dortoirs 9','B\u00e2ti trente ans apr\u00e8s les autres, avec le 8. Plus grand, fen\u00eatres plus hautes, cr\u00e9pi d\'une autre teinte.',8],
+  ['cab',300,430,46,28,'Cabanon',''],
+  ['cab',628,236,46,28,'Cabanon',''],
+  ['cab',232,400,44,28,'Loge',''],
+  ['cab',712,300,44,28,'Garage','']],
+ jeux:[[196,214,92,62,'Aire de jeu'],[810,180,92,58,'Aire de jeu'],[674,110,82,52,'Bacs à sable']],
+ trous:[[196,520,38,'Les semelles du cinqui\u00e8me groupe']],
  fresques:[[[160,100],[500,66]],[[540,62],[890,110]],[[928,340],[900,540]],[[850,590],[220,606]]],
- etiq:[[420,46,'gd','ENTRÉE'],[500,400,'gd','LE PRÉ'],[956,266,'','']]
+ trajet:{pts:[[115,208],[196,246],[258,306],[268,404],[300,494],[392,552],[520,566],[628,540],[676,462],[684,360],[766,344]],
+         lab:[540,686], t:'Andrew et Isaac \u2014 onze minutes \u00e0 pied de la grille nord-ouest au centre m\u00e9dical'},
+ echelle:[104,676],
+ etiq:[[470,534,'gd','LE PR\u00c9'],[700,60,'','entr\u00e9e principale']]
 }];
 
 /* =====================================================================
@@ -395,12 +435,66 @@ function dessine(p){
     if(t) el('text',{x,y:n2(y+r*.62+13),class:'note','text-anchor':'middle'},cE).textContent=t;
   });
 
+  /* ---- la fermette : l'eau, les enclos, le terrain ---- */
+  (p.formes||[]).forEach(z=>{
+    const [genre,cx,cy,rx,ry,nom,detail]=z;
+    const d=tache(cx,cy,rx,ry, genre==='eau'?13:10, genre==='eau'?.13:.1);
+    if(genre==='eau'){
+      el('path',{d,class:'eau'},cB);
+      el('path',{d,class:'margelle'},cB);
+    } else if(genre==='enclos'){
+      el('path',{d,class:'enclos'},cB);
+      /* les betes : quelques marques, pas un troupeau */
+      for(let i=0;i<(detail||4);i++){
+        const a=alea()*Math.PI*2, k=alea()*.6;
+        el('ellipse',{cx:n2(cx+Math.cos(a)*rx*k),cy:n2(cy+Math.sin(a)*ry*k),
+          rx:3.4,ry:2.2,fill:'var(--creme)',opacity:.5},cB);
+      }
+    } else if(genre==='pre'){
+      el('path',{d,class:'pre'},cB);
+    } else if(genre==='clos'){
+      el('path',{d,class:'clos'},cB);
+    }
+    if(nom) el('text',{x:n2(cx),y:n2(cy+ry+13),class:'etiq','text-anchor':'middle'},cE)
+      .textContent=nom;
+  });
+  (p.sport||[]).forEach(([x,y,w,h,nom])=>{
+    el('rect',{x,y,width:w,height:h,rx:h/2,class:'sport'},cB);
+    el('line',{x1:n2(x+w/2),y1:y,x2:n2(x+w/2),y2:n2(y+h),
+      stroke:'var(--creme)','stroke-width':.8,opacity:.35},cB);
+    el('circle',{cx:n2(x+w/2),cy:n2(y+h/2),r:n2(h/5),fill:'none',
+      stroke:'var(--creme)','stroke-width':.8,opacity:.35},cB);
+    el('text',{x:n2(x+w/2),y:n2(y+h+13),class:'etiq','text-anchor':'middle'},cE).textContent=nom;
+  });
+
+  /* ---- le trajet, s'il y en a un ---- */
+  if(p.trajet){
+    el('path',{d:poly(p.trajet.pts),class:'trajet-ombre'},cB);
+    el('path',{d:poly(p.trajet.pts),class:'trajet'},cB);
+    const a=p.trajet.pts[0], z=p.trajet.pts[p.trajet.pts.length-1];
+    [a,z].forEach(q=>el('circle',{cx:n2(q[0]),cy:n2(q[1]),r:4.6,fill:'var(--bleu)',
+      stroke:'var(--nuit)','stroke-width':1.4},cB));
+    el('text',{x:n2(p.trajet.lab[0]),y:n2(p.trajet.lab[1]),class:'note',
+      'text-anchor':'middle',style:'fill:var(--bleu)'},cE).textContent=p.trajet.t;
+  }
+
+  /* ---- l'echelle : le jardin est grand, il faut que ca se voie ---- */
+  if(p.echelle){
+    const [x,y]=p.echelle, L=145;   /* 145 unites = 100 metres */
+    el('line',{x1:x,y1:y,x2:n2(x+L),y2:y,stroke:'var(--texte-3)','stroke-width':1.4},cE);
+    [0,L].forEach(d=>el('line',{x1:n2(x+d),y1:n2(y-4),x2:n2(x+d),y2:n2(y+4),
+      stroke:'var(--texte-3)','stroke-width':1.4},cE));
+    el('text',{x:n2(x+L/2),y:n2(y-9),class:'etiq hors','text-anchor':'middle'},cE)
+      .textContent='100 metres'.replace('metres','m\u00e8tres');
+  }
+
   /* ---- le bâti ---- */
   (p.bat||[]).forEach((b,i)=>{
     const [cls,x,y,w,h,t,txt,biais]=b;
     const a=el('rect',{x,y,width:w,height:h,rx:cls==='cab'?3:5,class:cls==='cab'?'cab':'bat '+(cls==='bat'?'':cls),
       'data-i':i},cB);
-    if(biais) a.setAttribute('transform',`rotate(-11 ${n2(x+w/2)} ${n2(y+h/2)})`);
+    const ang = biais===1 ? -11 : biais;
+    if(biais) a.setAttribute('transform',`rotate(${ang} ${n2(x+w/2)} ${n2(y+h/2)})`);
     if(cls!=='cab'){
       a.addEventListener('click',()=>{choisi=[t,txt]; rendPan();
         [].forEach.call(svg.querySelectorAll('.bat'),e=>e.classList.remove('on'));
@@ -416,7 +510,7 @@ function dessine(p){
     const lab=t.replace(/^Lotissement /,'Lot. ').replace(/^Hameau ([a-zéè-]+) — /,(m,z)=>({'ouest':'O','nord-est':'NE','sud':'S','neuf':'N'}[z]||z)+' ');
     e.textContent = lab;
     if(w<70 && !dedansAutre) e.setAttribute('transform',`rotate(-90 ${n2(ex)} ${n2(ey)})`);
-    else if(biais) e.setAttribute('transform',`rotate(-11 ${n2(ex)} ${n2(ey)})`);
+    else if(biais) e.setAttribute('transform',`rotate(${ang} ${n2(ex)} ${n2(ey)})`);
   });
 
   (p.etiq||[]).forEach(([x,y,cls,t])=>{
@@ -454,8 +548,8 @@ function rendPan(){
 const box=document.getElementById('choix');
 PLANS.forEach((p,i)=>{
   const b=document.createElement('button');
-  b.className='pl'+(i===0?' on':'');
-  b.innerHTML=`<b>${p.cle}</b>${p.nom}`;
+  b.className='pl'+(i===2?' on':'');
+  b.innerHTML=`<b>${p.cle}</b>${p.nom}${p.cle==='C'?' \u00b7 retenu':''}`;
   b.addEventListener('click',()=>{
     courant=i; choisi=null;
     [].forEach.call(box.children,x=>x.classList.remove('on'));
@@ -465,7 +559,7 @@ PLANS.forEach((p,i)=>{
   box.appendChild(b);
 });
 
-dessine(PLANS[0]); rendPan();
+courant=2; dessine(PLANS[2]); rendPan();
 </script>
 </body>
 </html>
