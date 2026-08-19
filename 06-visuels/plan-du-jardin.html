@@ -205,7 +205,6 @@ aside em{color:var(--or-pale);font-style:italic}
       <div class="ss">Trois façons de poser les mêmes bâtiments. Elles ne diffèrent pas par le décor :
         elles répondent différemment à une seule question — <b style="color:var(--texte-2)">qui passe devant les salles de fin de vie</b>.</div>
       <div id="barre"></div>
-      <div id="reseaux"></div>
     </div>
     <div id="cadre"><svg id="svg" viewBox="0 0 1020 700" preserveAspectRatio="xMidYMid meet"></svg>
       <div id="flotte"></div></div>
@@ -424,9 +423,9 @@ const PLANS=[
  mur:[[150,86],[520,52],[900,96],[946,300],[906,560],[560,650],[190,616],[80,330]],
  principe:`<p><b>Au milieu, on a laissé le terrain tranquille.</b> Une mare, des bouts de prés,
   des enclos, quelques cabanes. <em>C'est l'étendue, et c'est le mot qu'emploient les petits.</em></p>
-  <p><b>Des chemins la traversent, et un anneau en fait le tour.</b> On coupe par le milieu
-  quand on va quelque part ; on prend l'anneau quand on a le temps. <em>L'anneau est plus
-  large que tous les autres chemins du jardin, parce que c'est celui qu'on fait à vélo.</em></p>
+  <p><b>Le grand chemin en fait le tour, et deux routes la traversent.</b> C'est lui qui
+  délimite l'étendue du reste du jardin. <em>Il est plus large que tous les autres, parce que
+  c'est celui qu'on fait à vélo.</em></p>
   <p><b>On y va parce qu'on veut y aller, ou on la traverse juste :</b> tout dépend du chemin
   qu'on prend. <em>Et ça revient au même pour ceux qui vous attendent de l'autre côté.</em></p>
   <p style="color:var(--texte-3)">Six cents mètres dans la plus grande largeur.
@@ -443,29 +442,17 @@ const PLANS=[
   ['Les deux derniers dortoirs sont plus grands','Bâtis trente ans après les autres. Fenêtres plus hautes, crépi d\'une autre teinte, et tout le monde le sait.'],
   ['La fresque s\'arrête au gymnase','On l\'a adossé au mur bien plus tard. Les dessins reprennent de l\'autre côté, en plus petit.'],
   ['Un sentier contre la margelle','Personne ne l\'a tracé. À force de longer l\'eau pour regarder dedans, l\'herbe n\'a pas repoussé.']],
- grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[940,330,'service',0],[330,628,'sud-ouest',0],[560,646,'sud',1]],
+ grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[940,330,'est',0],[330,628,'sud-ouest',0],[560,646,'sud',1]],
  sentiers:[[[688,360],[700,430],[712,466]]],
  etendue:[468,388,180,140],
  /* L'anneau : le tour de l'etendue, plus large que le reste. C'est celui
     que les petits font a velo. */
  anneau:[[468,236],[556,250],[624,286],[656,340],[652,410],[616,470],[548,514],[468,530],[386,516],[320,478],[286,418],[292,348],[334,286],[398,250]],
  /* Deux chemins la traversent pour de bon, et se croisent pres de la mare. */
- reseaux:[
-  {nom:`La croix`, sous:`deux traversantes qui se croisent`, note:`<b>Les deux routes se croisent au milieu de l'étendue</b>, à un jet de pierre de la mare. <em>C'est le plan le plus vivant : tout le monde passe par là, et tout le monde voit les bêtes en passant.</em> C'est aussi celui où l'étendue est le moins un lieu à part.`,
-   routes:[{de:`nord-ouest`,a:`service`,pts:[[115,208],[123,218],[123,314],[138,329],[138,383],[150,395],[153,494],[222,563],[225,587],[360,572],[405,527],[405,461],[411,440],[441,410],[459,401],[426,437],[411,440],[405,461],[414,476],[417,497],[432,512],[456,521],[510,521],[564,500],[621,443],[621,293],[627,257],[687,197],[690,173],[759,104],[855,116],[870,122],[870,137],[909,176],[909,233],[924,254],[924,293],[940,330]]},{de:`principale`,a:`sud-ouest`,pts:[[700,74],[699,86],[690,95],[690,179],[621,254],[621,338],[606,362],[603,461],[582,482],[561,491],[519,494],[489,518],[444,518],[417,497],[414,476],[405,467],[411,440],[441,410],[462,401],[426,437],[411,440],[399,476],[399,518],[390,527],[390,548],[345,593],[330,628]]}],
-   trajet:[[115,208],[132,236],[132,395],[150,413],[153,494],[222,563],[225,587],[273,587],[291,578],[360,572],[414,521],[477,521],[501,512],[519,494],[570,488],[582,482],[651,413],[752,368]]},
-  {nom:`Le contour`, sous:`personne ne traverse`, note:`<b>Aucune route n'entre dans l'étendue.</b> On n'y va que si on décide d'y aller, et la grande allée en fait le tour. <em>C'est le plan qui protège le mieux le milieu — et celui qui rend le trajet d'Andrew le plus long.</em>`,
-   routes:[{de:`nord-ouest`,a:`sud-ouest`,pts:[[115,208],[126,227],[126,329],[138,341],[138,383],[144,389],[144,449],[153,458],[153,494],[222,563],[225,587],[240,587],[330,628]]},{de:`principale`,a:`service`,pts:[[700,74],[723,98],[819,98],[837,116],[855,116],[870,122],[870,137],[909,176],[909,233],[924,254],[924,293],[940,330]]}],
-   trajet:[[115,208],[117,212],[120,215],[123,218],[123,221],[123,224],[123,227],[126,230],[129,233],[132,236],[135,239],[138,242],[138,245],[138,248],[138,251],[138,254],[138,257],[138,260],[138,263],[138,266],[138,269],[138,272],[138,275],[138,278],[138,281],[138,284],[138,287],[138,290],[138,293],[138,296],[138,299],[138,302],[138,305],[138,308],[138,311],[138,314],[138,317],[138,320],[138,323],[138,326],[138,329],[138,332],[138,335],[138,338],[138,341],[138,344],[138,347],[138,350],[138,353],[138,356],[138,359],[138,362],[138,365],[138,368],[138,371],[138,374],[138,377],[138,380],[138,383],[141,386],[144,386],[147,389],[150,389],[153,389],[156,389],[159,389],[162,389],[165,389],[168,389],[171,389],[174,389],[177,389],[180,389],[183,389],[186,389],[189,389],[192,389],[195,389],[198,389],[201,389],[204,392],[207,392],[210,392],[213,392],[216,392],[219,392],[222,392],[225,392],[228,392],[231,392],[234,392],[237,392],[240,392],[243,392],[246,392],[249,392],[252,389],[255,386],[258,383],[261,380],[264,377],[267,374],[270,371],[273,368],[276,365],[279,362],[282,359],[285,356],[288,353],[291,350],[294,347],[297,344],[300,341],[303,338],[306,335],[309,332],[312,329],[315,326],[318,323],[321,320],[324,317],[327,314],[330,311],[333,311],[336,308],[339,305],[342,302],[345,299],[348,296],[351,296],[354,293],[357,293],[360,290],[363,290],[366,287],[369,284],[372,284],[375,281],[378,281],[381,278],[384,278],[387,275],[390,275],[393,272],[396,269],[399,269],[402,266],[405,266],[408,263],[411,263],[414,260],[417,260],[420,260],[423,260],[426,260],[429,257],[432,257],[435,257],[438,257],[441,257],[444,254],[447,254],[450,254],[453,254],[456,254],[459,251],[462,251],[465,251],[468,251],[471,251],[474,251],[477,251],[480,251],[483,251],[486,251],[489,251],[492,251],[495,251],[498,251],[501,254],[504,254],[507,257],[510,257],[513,257],[516,257],[519,257],[522,260],[525,260],[528,260],[531,260],[534,260],[537,260],[540,260],[543,263],[546,263],[549,266],[552,266],[555,269],[558,269],[561,272],[564,272],[567,272],[570,272],[573,275],[576,275],[579,275],[582,278],[585,278],[588,281],[591,281],[594,284],[597,284],[600,287],[603,290],[606,293],[609,296],[612,299],[615,302],[618,305],[621,308],[624,308],[627,311],[630,311],[633,314],[636,314],[639,317],[642,317],[645,320],[648,320],[651,323],[654,323],[657,323],[660,326],[663,326],[666,329],[669,329],[672,332],[675,332],[678,335],[681,335],[684,338],[687,338],[690,338],[693,341],[696,341],[699,344],[702,344],[705,347],[708,347],[711,350],[714,350],[717,353],[720,353],[723,353],[726,356],[729,356],[732,359],[735,359],[738,362],[741,362],[744,365],[747,365],[750,368],[752,368]]},
-  {nom:`La traverse unique`, sous:`une seule, d'ouest en est`, note:`<b>Une seule route traverse, et c'est celle qui va au centre médical.</b> <em>Andrew et Isaac passent devant la mare et les prés parce qu'ils n'ont pas le choix — et l'autre route, elle, contourne.</em> Le milieu reste calme la moitié du temps.`,
-   routes:[{de:`nord-ouest`,a:`service`,pts:[[115,208],[123,218],[123,314],[138,329],[138,383],[150,395],[153,494],[222,563],[225,587],[360,572],[405,527],[405,461],[411,440],[441,410],[459,401],[426,437],[411,440],[405,461],[414,476],[417,497],[432,512],[456,521],[510,521],[564,500],[621,443],[621,293],[627,257],[687,197],[690,173],[759,104],[855,116],[870,122],[870,137],[909,176],[909,233],[924,254],[924,293],[940,330]]},{de:`principale`,a:`sud-ouest`,pts:[[700,74],[696,89],[684,101],[684,254],[693,263],[693,284],[690,299],[657,332],[654,410],[645,422],[645,434],[627,452],[618,470],[558,524],[525,524],[510,539],[444,539],[435,548],[405,548],[333,620],[330,628]]}],
-   trajet:[[115,208],[132,236],[132,395],[150,413],[153,494],[222,563],[225,587],[273,587],[291,578],[360,572],[414,521],[477,521],[501,512],[516,500],[534,500],[546,491],[561,491],[582,482],[666,398],[669,344],[693,320],[732,359],[752,368]]},
-  {nom:`Le Y`, sous:`deux routes, un tronçon commun`, note:`<b>Les deux routes se rejoignent et partagent le milieu de l'étendue</b> avant de repartir chacune de son côté. <em>Il y a un endroit, entre la mare et le pré, où tout le jardin se croise.</em> C'est le plan qui crée une place sans qu'on l'ait dessinée.`,
-   routes:[{de:`nord-ouest`,a:`service`,pts:[[115,208],[123,218],[123,314],[138,329],[138,383],[150,395],[153,494],[222,563],[225,587],[360,572],[363,554],[399,518],[405,425],[426,425],[447,407],[462,407],[450,407],[426,431],[420,431],[411,440],[405,461],[414,476],[417,497],[432,512],[456,521],[510,521],[564,500],[621,443],[621,293],[627,257],[687,197],[690,173],[759,104],[855,116],[870,122],[870,137],[909,176],[909,233],[924,254],[924,293],[940,330]]},{de:`principale`,a:`sud-ouest`,pts:[[700,74],[699,86],[690,95],[690,179],[621,254],[621,338],[606,362],[603,461],[570,488],[519,494],[489,518],[456,521],[432,512],[417,497],[414,476],[405,461],[411,440],[429,422],[462,407],[441,407],[420,425],[405,425],[399,518],[381,536],[381,572],[333,620],[330,628]]}],
-   trajet:[[115,208],[132,236],[132,395],[150,413],[153,494],[222,563],[225,587],[273,587],[291,578],[360,572],[414,521],[477,521],[501,512],[519,494],[570,488],[582,482],[651,413],[752,368]]},
-  {nom:`Les deux rives`, sous:`la mare entre les deux`, note:`<b>Deux traversantes parallèles, la mare prise entre elles.</b> <em>L'une passe au nord de l'eau, l'autre au sud ; elles ne se croisent jamais.</em> C'est le plan où l'on peut faire passer deux personnes au même moment sans qu'elles se voient.`,
-   routes:[{de:`nord-ouest`,a:`service`,pts:[[115,208],[294,206],[309,221],[309,236],[351,278],[390,278],[426,296],[441,296],[447,290],[456,290],[471,275],[516,275],[534,269],[603,272],[687,188],[690,173],[759,104],[855,116],[870,122],[870,137],[909,176],[909,233],[924,254],[924,293],[940,330]]},{de:`principale`,a:`sud-ouest`,pts:[[700,74],[699,86],[690,95],[690,179],[621,254],[621,338],[606,362],[603,461],[570,488],[519,494],[489,518],[456,521],[432,512],[417,497],[414,476],[405,467],[414,437],[465,437],[411,440],[399,476],[396,554],[336,614],[330,628]]}],
-   trajet:[[115,208],[294,206],[312,227],[315,242],[339,242],[354,257],[441,257],[459,251],[498,251],[534,269],[579,275],[597,284],[621,308],[752,368]]}],
+ routes:[
+  {de:`nord-ouest`,a:`est`,pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[327,389],[333,404],[375,404],[378,407],[492,404],[504,395],[516,392],[561,392],[567,386],[588,386],[642,359],[693,359],[696,356],[723,356],[741,374],[786,374],[798,383],[834,383],[843,374],[891,374],[897,371],[744,371],[705,332],[705,311],[696,302],[696,254],[684,242],[687,182],[693,170],[693,98],[696,95],[762,95],[774,107],[831,113],[834,116],[855,116],[870,122],[870,137],[909,176],[909,233],[921,245],[924,254],[924,293],[940,330]]},
+  {de:`sud-ouest`,a:`principale`,pts:[[330,628],[366,593],[366,584],[375,569],[375,545],[393,524],[393,488],[402,479],[405,446],[441,410],[462,404],[468,278],[501,278],[510,269],[585,269],[627,245],[651,224],[675,197],[675,152],[681,146],[681,113],[700,74]]}],
+ trajet:{pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[327,389],[333,404],[492,404],[516,392],[561,392],[567,386],[588,386],[642,359],[687,359],[693,365],[752,368]]},
  eau:[385,350,56,40],
  pres:[
   [546,328,56,42,'Le pré des poneys','poney',3],
@@ -479,15 +466,15 @@ const PLANS=[
  bat:[
   ['soin',766,254,152,104,'Centre médical','Le seul bâtiment à avoir un étage. Consultations au rez, dortoir de garde au premier, les dossiers au second. Le parking est devant, la grille de service à trente mètres.',-4],
   ['fin',778,406,124,54,'Fin de vie','Six chambres et une véranda, derrière le centre, sur un jardin clos planté. Aucune allée ne le longe. Depuis l\'étendue on ne voit que le toit.',6],
-  ['commun',518,102,150,64,'Réfectoire','Les repas arrivent de la ville en camion, deux fois par jour. On les réchauffe ici, on ne les fait pas. Les œufs, eux, viennent du poulailler.',3],
+  ['commun',504,102,150,64,'Réfectoire','Les repas arrivent de la ville en camion, deux fois par jour. On les réchauffe ici, on ne les fait pas. Les œufs, eux, viennent du poulailler.',3],
   ['commun',227,507,124,64,'Gymnase','Adossé au mur, ce qui coupe la fresque. Sol souple, filets aux fenêtres, une odeur qui ne part jamais.',-6],
   ['commun',694,182,112,60,'Salle de jeu','Pour les jours de pluie, et il pleut souvent. Le parquet est marqué aux endroits où les tables reviennent toujours.',5],
   ['ferme',632,266,52,26,'L\'écurie','Quatre boxes, une sellerie, du foin jusqu\'au plafond. Les poneys y rentrent seuls le soir, et l\'un d\'eux sait ouvrir le loquet.',6],
   ['ferme',416,450,36,18,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',16],
-  ['ferme',346,432,32,16,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
-  ['ferme',454,296,54,22,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
-  ['ferme',491,375,44,22,'La cabane','Le foin, les seaux, les brosses, les bottes en trois tailles. Ça sent la paille mouillée toute l\'année.',-5],
-  ['ferme',322,402,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
+  ['ferme',352,472,32,16,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
+  ['ferme',400,268,54,22,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
+  ['ferme',500,406,44,22,'La cabane','Le foin, les seaux, les brosses, les bottes en trois tailles. Ça sent la paille mouillée toute l\'année.',-5],
+  ['ferme',322,424,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
   ['bat',196,120,100,52,'Dortoirs 1','Vingt petits, quatre berceurs, un salon commun et une buanderie. Les fenêtres du bas ont des barreaux ronds peints en jaune.',-5],
   ['bat',323,185,100,52,'Dortoirs 2','',4],
   ['bat',544,167,100,52,'Dortoirs 3','',-3],
@@ -501,7 +488,7 @@ const PLANS=[
   ['cab',704,270,46,28,'Cabanon',''],
   ['cab',232,400,44,28,'Loge',''],
   ['cab',712,300,44,28,'Garage','']],
- jeux:[[196,214,92,62,'Aire de jeu','toboggan'],[810,180,92,58,'Aire de jeu','balancoire'],[196,284,86,44,'Bacs à sable','']],
+ jeux:[[196,214,92,62,'Aire de jeu','toboggan'],[810,180,92,58,'Aire de jeu','balancoire'],[700,104,58,46,'Bacs à sable','']],
  trous:[[196,520,38,'Les semelles du cinquième groupe']],
  fresques:[[[160,100],[500,66]],[[540,62],[890,110]],[[928,340],[900,540]],[[850,590],[220,606]]],
  /* Ils prennent l'allee du nord-ouest, puis la grande allee par le sud,
@@ -514,7 +501,7 @@ const PLANS=[
 const LIEUX={
  "L'étendue":['le milieu du jardin',"Tout l'espace qu'on n'a pas bâti : la mare, les prés, les enclos, les cabanes. <b>L'allée n'y entre pas — elle en fait le tour.</b> Un chemin, lui, y entre exprès, passe devant chaque bête et ressort au même endroit. <em>On ne traverse pas l'étendue pour aller ailleurs. On y va pour y être.</em>"],
  "La mare":["au milieu de l'étendue","Une margelle montée à hauteur de poitrine tout autour, assez large pour qu'on s'y accoude et trop haute pour qu'on l'enjambe. <b>Personne n'est jamais tombé dedans</b>, et deux berceurs sont là en permanence quand il y a du monde. <em>Il y a des poissons, et personne ne sait qui les a mis.</em>"],
- "L'anneau":["le tour de l'étendue","Plus large que tous les autres chemins du jardin, et c'est fait exprès : <b>on le fait à vélo, et on le fait dans les deux sens.</b> <em>Il y a un record, il n'est écrit nulle part, et tout le monde le connaît.</em>"],
+ "Le grand chemin":["il délimite l'étendue","<b>C'est lui qui sépare l'étendue du reste du jardin</b>, et il en fait le tour en entier. Plus large que tous les autres, et c'est fait exprès : <b>on le fait à vélo, et dans les deux sens.</b> <em>Il y a un record, il n'est écrit nulle part, et tout le monde le connaît.</em>"],
  "Les chemins de l'étendue":["dedans","<b>Ils la traversent pour de bon.</b> On peut couper par le milieu quand on va quelque part, ou tourner autour de la mare parce qu'on n'a rien de mieux à faire. <em>Tout dépend du chemin qu'on prend, et ça revient au même pour ceux qui vous attendent.</em> Sable tassé, refait deux fois par an."],
  "Le pré des poneys":["l'étendue, à l'est","Trois poneys, jamais plus grands qu'un double poney. <b>C'est une règle : au jardin, aucune bête ne doit dépasser celui qui la caresse.</b> <em>Ils sont doux, lents, et complètement blasés.</em>"],
  "Le pré des chèvres":["l'étendue, au sud-est","Quatre chèvres naines, un tas de rochers monté exprès pour qu'elles grimpent dessus, et un portillon que les petits savent ouvrir. <em>Elles mangent tout ce qui dépasse, y compris les manches.</em>"],
@@ -530,7 +517,7 @@ const LIEUX={
 /* =====================================================================
    RENDU
    ===================================================================== */
-let courant=2, reseau=0, choisi=null, anim=null;
+let courant=2, choisi=null, anim=null;
 const sortirClasses=()=>[].forEach.call(svg.querySelectorAll('.on'),e=>e.classList.remove('on'));
 function choisir(nom,genre,txt,noeud){
   choisi=[nom,genre,txt]; sortirClasses();
@@ -612,9 +599,9 @@ function dessine(p){
       const d=lisse(p.anneau,.48);
       const ga=el('g',{class:'zone'},cB);
       el('path',{d,class:'anneau-fond'},ga);
-      el('path',{d,class:'anneau','data-voie':'la grande allée'},ga);
+      el('path',{d,class:'anneau','data-voie':'le grand chemin'},ga);
       el('path',{d,class:'anneau-grain'},ga);   /* le gravier */
-      cliquable(ga,"L'anneau",LIEUX["L'anneau"][0],LIEUX["L'anneau"][1]);
+      cliquable(ga,"Le grand chemin",LIEUX["Le grand chemin"][0],LIEUX["Le grand chemin"][1]);
     }
 
 
@@ -651,16 +638,15 @@ function dessine(p){
         const o=el('circle',{cx:n2(x),cy:n2(y),r:14,class:'onde'},gm);
         o.style.animationDelay=r+'s';
       });
-      el('text',{x:n2(mx),y:n2(my-mry-9),class:'etiq','text-anchor':'middle'},cE)
+      el('text',{x:n2(mx-38),y:n2(my-mry-9),class:'etiq','text-anchor':'middle'},cE)
         .textContent='La mare';
       cliquable(gm,'La mare',LIEUX['La mare'][0],LIEUX['La mare'][1]);
     }
   }
 
   /* ---- les routes du reseau choisi : chacune va d'une porte a une autre ---- */
-  const R = p.reseaux ? p.reseaux[reseau] : null;
-  if(R){
-    R.routes.forEach(r=>{
+  if(p.routes){
+    p.routes.forEach(r=>{
       const d=lisseOuvert(r.pts,.3);
       const g=el('g',{class:'zone'},cB);
       el('path',{d,class:'chemin-fond'},g);
@@ -744,7 +730,6 @@ function dessine(p){
 
   /* ---- le trajet ---- */
   let chemin=null, gTraj=null;
-  if(R){ p.trajet={pts:R.trajet, t:'Andrew et Isaac'}; }
   if(p.trajet){
     gTraj=el('g',{id:'g-trajet'},cB);
     const dt=lisseOuvert(p.trajet.pts,.28);
@@ -927,7 +912,7 @@ function legende(p){
     + [['#d9a441','poneys'],['#e9e0cc','chèvres'],['#ec9006','poules'],
        ['#a8d18a','lapins'],['#d99a9a','cochons d\'Inde'],['#9fb4c9','chats']]
        .map(([c,t])=>`<span><i style="background:${c};border-radius:50%;width:9px;height:9px"></i>${t}</span>`).join('')
-    + `<span><i style="background:none;border-top:3px solid #8a7350"></i>l'anneau, à vélo</span>`
+    + `<span><i style="background:none;border-top:3px solid #8a7350"></i>le grand chemin</span>`
     + `<span><i style="background:none;border-top:2px solid #93825e"></i>les routes, d'une porte à une autre</span>`
     + `<span style="color:var(--texte-2)">— cliquez n'importe quoi</span>`;
 }
@@ -941,12 +926,6 @@ function rendPan(){
   }
   h+=`<div class="sur">Plan ${p.cle}</div><h2>${p.nom}</h2>
     <p style="color:var(--texte-3);font-size:12px;margin-top:-8px">${p.sous}</p>`;
-  if(p.reseaux){
-    const r=p.reseaux[reseau];
-    h+=`<div class="fiche" style="border-left-color:var(--paille)">
-      <div class="kind">réseau ${reseau+1} sur ${p.reseaux.length} · ${r.sous}</div>
-      <h3 style="color:var(--paille)">${r.nom}</h3><p>${r.note}</p></div>`;
-  }
   h+=`${p.principe}
     <div class="lab">Ce que ce plan décide</div>${p.enjeu}`;
   if(p.defauts && p.defauts.length){
@@ -958,29 +937,6 @@ function rendPan(){
   document.querySelector('aside').scrollTop=0;
 }
 
-/* ---- le choix du reseau, sous les trois plans ---- */
-const boiteR=document.getElementById('reseaux');
-function majReseaux(){
-  const p=PLANS[courant];
-  boiteR.innerHTML='';
-  if(!p.reseaux){ boiteR.className=''; return; }
-  boiteR.className='vu';
-  const l=document.createElement('span'); l.className='lab'; l.textContent='Le réseau';
-  boiteR.appendChild(l);
-  p.reseaux.forEach((r,i)=>{
-    const b=document.createElement('button');
-    b.className='rz'+(i===reseau?' on':'');
-    b.textContent=r.nom;
-    b.addEventListener('click',()=>{
-      reseau=i; choisi=null;
-      [].forEach.call(boiteR.querySelectorAll('.rz'),x=>x.classList.remove('on'));
-      b.classList.add('on');
-      dessine(PLANS[courant]); rendPan();
-    });
-    boiteR.appendChild(b);
-  });
-}
-
 const barre=document.getElementById('barre');
 PLANS.forEach((p,i)=>{
   const b=document.createElement('button');
@@ -990,7 +946,6 @@ PLANS.forEach((p,i)=>{
     courant=i; choisi=null;
     [].forEach.call(barre.querySelectorAll('.pl'),x=>x.classList.remove('on'));
     b.classList.add('on');
-    majReseaux();
     dessine(PLANS[i]); rendPan();
   });
   barre.appendChild(b);
@@ -998,7 +953,6 @@ PLANS.forEach((p,i)=>{
 const rej=document.createElement('button');
 rej.id='rejouer'; barre.appendChild(rej);
 
-majReseaux();
 dessine(PLANS[courant]); rendPan();
 </script>
 </body>
