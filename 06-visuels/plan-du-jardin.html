@@ -458,20 +458,45 @@ function dessine(p){
 
   /* ---- le mur et ses fresques ---- */
   el('path',{d:lisse(p.mur),class:'mur-in'},cB);
-  el('path',{d:lisse(p.mur),class:'mur'},cB);
+  const murPath=el('path',{d:lisse(p.mur),class:'mur'},cB);
   const c0=centre(p.mur);
+  /* Ou passe le mur, et dans quel sens il va, a l'endroit qu'on lui demande.
+     Le rayon depuis le centre ne suffit pas : sur une courbe il tombe de
+     travers, et les portes avec lui. */
+  const Lmur=murPath.getTotalLength();
+  function surLeMur(x,y){
+    let best=0, bd=Infinity;
+    for(let i=0;i<=900;i++){
+      const t=Lmur*i/900, q=murPath.getPointAtLength(t);
+      const d=(q.x-x)*(q.x-x)+(q.y-y)*(q.y-y);
+      if(d<bd){ bd=d; best=t; }
+    }
+    const q=murPath.getPointAtLength(best);
+    const a=murPath.getPointAtLength((best-3+Lmur)%Lmur);
+    const b=murPath.getPointAtLength((best+3)%Lmur);
+    let tx=b.x-a.x, ty=b.y-a.y;
+    const l=Math.hypot(tx,ty)||1; tx/=l; ty/=l;
+    /* la normale, tournee vers le dehors */
+    let nx=-ty, ny=tx;
+    if((q.x+nx-c0[0])**2+(q.y+ny-c0[1])**2 < (q.x-nx-c0[0])**2+(q.y-ny-c0[1])**2){
+      nx=-nx; ny=-ny;
+    }
+    return {x:q.x, y:q.y, tx, ty, nx, ny};
+  }
   /* ---- les grilles ---- */
   (p.grilles||[]).forEach(([x,y,nom,cond])=>{
-    const dx=c0[0]-x, dy=c0[1]-y, l=Math.hypot(dx,dy)||1;
-    const px=-dy/l, py=dx/l, w=cond?11:17;
-    el('line',{x1:n2(x-px*w),y1:n2(y-py*w),x2:n2(x+px*w),y2:n2(y+py*w),
+    const m=surLeMur(x,y), w=cond?11:17;
+    /* le vantail, dans l'axe du mur */
+    el('line',{x1:n2(m.x-m.tx*w),y1:n2(m.y-m.ty*w),x2:n2(m.x+m.tx*w),y2:n2(m.y+m.ty*w),
       class:'grille'+(cond?' cond':'')},cB);
-    for(let k=-2;k<=2;k++)
-      el('line',{x1:n2(x+px*k*w/2.6-dx/l*7),y1:n2(y+py*k*w/2.6-dy/l*7),
-        x2:n2(x+px*k*w/2.6+dx/l*7),y2:n2(y+py*k*w/2.6+dy/l*7),
+    /* les barreaux, en travers */
+    for(let k=-2;k<=2;k++){
+      const bx=m.x+m.tx*k*w/2.6, by=m.y+m.ty*k*w/2.6;
+      el('line',{x1:n2(bx-m.nx*6),y1:n2(by-m.ny*6),x2:n2(bx+m.nx*6),y2:n2(by+m.ny*6),
         stroke:cond?'#6b4a3a':'var(--or)','stroke-width':.8,opacity:.6},cB);
-    el('text',{x:n2(x-dx/l*24),y:n2(y-dy/l*24),class:'etiq hors','text-anchor':'middle'},cE)
-      .textContent=nom;
+    }
+    el('text',{x:n2(m.x+m.nx*24),y:n2(m.y+m.ny*24+3),class:'etiq hors',
+      'text-anchor':'middle'},cE).textContent=nom;
   });
 
   /* ---- les zones plates ---- */
@@ -526,7 +551,9 @@ function dessine(p){
         [-.14,.62],[-.34,.34],[-.62,.30],[-.88,.14]];
       const d=lisse(CONTOUR.map(([u,v])=>[mx+u*mrx, my+v*mry]),.5);
       el('path',{d,class:'eau'},gm);
-      el('path',{d:tache(mx,my,mrx*.68,mry*.66,13,.24,7712903),class:'surface'},gm);
+      /* La ride vient du meme contour, reduit : elle ne peut plus sortir. */
+      el('path',{d:lisse(CONTOUR.map(([u,v])=>[mx+u*mrx*.62, my+v*mry*.58]),.5),
+        class:'surface'},gm);
       el('path',{d,class:'margelle'},gm);
       [[mx-18,my-8,0],[mx+16,my+9,1.9],[mx+2,my-16,3.6]].forEach(([x,y,r])=>{
         const o=el('circle',{cx:n2(x),cy:n2(y),r:14,class:'onde'},gm);
