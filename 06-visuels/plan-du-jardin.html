@@ -439,7 +439,7 @@ const PLANS=[
          [[940,330],[856,332],[766,338],[662,344]],
          [[790,338],[790,300],[810,266]],
          [[292,378],[230,392],[176,398]],
-         [[468,530],[472,576],[520,566]],
+         [[468,530],[478,554]],
          [[386,516],[366,556],[352,596],[330,628]],
          [[548,514],[600,548],[664,536]]],
  sentiers:[[[688,360],[700,430],[712,466]]],
@@ -453,7 +453,7 @@ const PLANS=[
   [[286,418],[330,410],[376,406],[424,400],[470,402],[520,406],[572,410],[622,410],[652,410]],
   [[548,514],[540,478],[556,450]],
   [[386,516],[402,486],[424,470]]],
- eau:[394,346,56,40],
+ eau:[385,350,56,40],
  pres:[
   [560,318,74,50,'Le pré des poneys','poney',3],
   [560,452,58,40,'Le pré des chèvres','chevre',4]],
@@ -467,23 +467,23 @@ const PLANS=[
   ['soin',766,254,152,104,'Centre médical','Le seul bâtiment à avoir un étage. Consultations au rez, dortoir de garde au premier, les dossiers au second. Le parking est devant, la grille de service à trente mètres.',-4],
   ['fin',778,406,124,54,'Fin de vie','Six chambres et une véranda, derrière le centre, sur un jardin clos planté. Aucune allée ne le longe. Depuis l\'étendue on ne voit que le toit.',6],
   ['commun',518,102,150,64,'Réfectoire','Les repas arrivent de la ville en camion, deux fois par jour. On les réchauffe ici, on ne les fait pas. Les œufs, eux, viennent du poulailler.',3],
-  ['commun',230,500,124,64,'Gymnase','Adossé au mur, ce qui coupe la fresque. Sol souple, filets aux fenêtres, une odeur qui ne part jamais.',-6],
+  ['commun',227,507,124,64,'Gymnase','Adossé au mur, ce qui coupe la fresque. Sol souple, filets aux fenêtres, une odeur qui ne part jamais.',-6],
   ['commun',694,182,112,60,'Salle de jeu','Pour les jours de pluie, et il pleut souvent. Le parquet est marqué aux endroits où les tables reviennent toujours.',5],
-  ['ferme',600,266,52,26,'L\'écurie','Quatre boxes, une sellerie, du foin jusqu\'au plafond. Les poneys y rentrent seuls le soir, et l\'un d\'eux sait ouvrir le loquet.',6],
-  ['ferme',430,452,36,18,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',16],
+  ['ferme',632,266,52,26,'L\'écurie','Quatre boxes, une sellerie, du foin jusqu\'au plafond. Les poneys y rentrent seuls le soir, et l\'un d\'eux sait ouvrir le loquet.',6],
+  ['ferme',416,450,36,18,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',16],
   ['ferme',346,432,32,16,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
-  ['ferme',424,284,54,22,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
-  ['ferme',494,392,44,22,'La cabane','Le foin, les seaux, les brosses, les bottes en trois tailles. Ça sent la paille mouillée toute l\'année.',-5],
-  ['ferme',344,392,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
+  ['ferme',454,296,54,22,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
+  ['ferme',491,375,44,22,'La cabane','Le foin, les seaux, les brosses, les bottes en trois tailles. Ça sent la paille mouillée toute l\'année.',-5],
+  ['ferme',329,379,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
   ['bat',196,120,100,52,'Dortoirs 1','Vingt petits, quatre berceurs, un salon commun et une buanderie. Les fenêtres du bas ont des barreaux ronds peints en jaune.',-5],
-  ['bat',330,196,100,52,'Dortoirs 2','',4],
-  ['bat',560,166,100,52,'Dortoirs 3','',-3],
+  ['bat',323,185,100,52,'Dortoirs 2','',4],
+  ['bat',544,167,100,52,'Dortoirs 3','',-3],
   ['bat',760,120,100,52,'Dortoirs 4','',7],
-  ['bat',148,336,96,52,'Dortoirs 5','',3],
+  ['bat',146,330,96,52,'Dortoirs 5','',3],
   ['bat',160,432,96,52,'Dortoirs 6','',-4],
-  ['bat',406,548,100,52,'Dortoirs 7','',5],
+  ['bat',406,562,100,52,'Dortoirs 7','',5],
   ['bat',548,556,100,52,'Dortoirs 8','',-6],
-  ['bat',664,508,106,56,'Dortoirs 9','Bâti trente ans après les autres, avec le 8. Plus grand, fenêtres plus hautes, crépi d\'une autre teinte.',8],
+  ['bat',670,508,106,56,'Dortoirs 9','Bâti trente ans après les autres, avec le 8. Plus grand, fenêtres plus hautes, crépi d\'une autre teinte.',8],
   ['cab',298,140,46,28,'Cabanon',''],
   ['cab',704,270,46,28,'Cabanon',''],
   ['cab',232,400,44,28,'Loge',''],
@@ -601,7 +601,7 @@ function dessine(p){
       const d=lisse(p.anneau,.48);
       const ga=el('g',{class:'zone'},cB);
       el('path',{d,class:'anneau-fond'},ga);
-      el('path',{d,class:'anneau'},ga);
+      el('path',{d,class:'anneau','data-voie':'la grande allée'},ga);
       el('path',{d,class:'anneau-grain'},ga);   /* le gravier */
       cliquable(ga,"L'anneau",LIEUX["L'anneau"][0],LIEUX["L'anneau"][1]);
     }
@@ -611,7 +611,7 @@ function dessine(p){
         const d=lisse(br,.45).replace(/Z$/,'');
         const dd=poly(br);
         el('path',{d:dd,class:'chemin-fond'},gc);
-        el('path',{d:dd,class:'chemin'},gc);
+        el('path',{d:dd,class:'chemin','data-voie':'un chemin de l\'étendue'},gc);
       });
       cliquable(gc,"Les chemins de l'étendue",LIEUX["Les chemins de l'étendue"][0],
                 LIEUX["Les chemins de l'étendue"][1]);
@@ -637,7 +637,12 @@ function dessine(p){
     if(p.eau){
       const [mx,my,mrx,mry]=p.eau;
       const gm=el('g',{class:'zone'},cB);
-      const d=tache(mx,my,mrx,mry,15,.22,4405117);
+      /* Ecrite a la main, une fois pour toutes : c'est la silhouette que
+         l'autrice a retenue, et elle ne doit plus jamais changer. */
+      const CONTOUR=[[-1.00,-.12],[-.86,-.52],[-.52,-.80],[-.10,-.92],[.30,-.86],
+        [.62,-.62],[.86,-.30],[1.00,.06],[.88,.42],[.58,.66],[.20,.74],
+        [-.14,.62],[-.34,.34],[-.62,.30],[-.88,.14]];
+      const d=lisse(CONTOUR.map(([u,v])=>[mx+u*mrx, my+v*mry]),.5);
       el('path',{d,class:'eau'},gm);
       el('path',{d:tache(mx,my,mrx*.68,mry*.66,13,.24,7712903),class:'surface'},gm);
       el('path',{d,class:'margelle'},gm);
@@ -652,7 +657,8 @@ function dessine(p){
   }
 
   /* ---- les allées, puis les sentiers d'usure ---- */
-  (p.allees||[]).forEach(a=>{el('path',{d:poly(a),class:'allee'},cB);
+  (p.allees||[]).forEach((a,i)=>{
+    el('path',{d:poly(a),class:'allee','data-voie':'allée '+(i+1)},cB);
     el('path',{d:poly(a),class:'allee-b'},cB);});
   (p.sentiers||[]).forEach(a=>el('path',{d:poly(a),class:'sentier'},cB));
 
@@ -728,7 +734,7 @@ function dessine(p){
     gTraj=el('g',{id:'g-trajet'},cB);
     const dt=lisseOuvert(p.trajet.pts,.45);
     el('path',{d:dt,class:'trajet-ombre'},gTraj);
-    chemin=el('path',{d:dt,class:'trajet'},gTraj);
+    chemin=el('path',{d:dt,class:'trajet','data-voie':'le trajet d\'Andrew'},gTraj);
     const a=p.trajet.pts[0], z=p.trajet.pts[p.trajet.pts.length-1];
     [a,z].forEach(q=>el('circle',{cx:n2(q[0]),cy:n2(q[1]),r:4.6,fill:'var(--bleu)',
       stroke:'var(--nuit)','stroke-width':1.4},gTraj));
@@ -749,7 +755,7 @@ function dessine(p){
     const [cls,x,y,w,h,t,txt,biais]=b;
     const petit = cls==='cab';
     const a=el('rect',{x,y,width:w,height:h,rx:petit?3:5,
-      class:petit?'cab':'bat '+(cls==='bat'?'':cls)},cB);
+      class:petit?'cab':'bat '+(cls==='bat'?'':cls),'data-nom':t},cB);
     const ang = biais===1 ? -11 : biais;
     if(biais) a.setAttribute('transform',`rotate(${ang} ${n2(x+w/2)} ${n2(y+h/2)})`);
     if(!petit){
