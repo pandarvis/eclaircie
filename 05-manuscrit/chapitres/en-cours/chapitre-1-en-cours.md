@@ -202,7 +202,7 @@ Andrew sortit son carnet.
 
 — Le matin. Avant de descendre.
 
-Il écrivit : travée dix-neuf, douzième capsule, et la date et l'heure qu'il était. Il souligna le tout.
+Il écrivit : travée dix-neuf, douzième capsule, et la date et l'heure qu'il était.
 
 Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait, et le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien.
 
