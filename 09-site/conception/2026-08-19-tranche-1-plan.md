@@ -40,6 +40,13 @@ frontière tout seul.
 serait perdu) ni tout laisser passer. Il faut un filtre à liste blanche : `<em>` et `<strong>`
 passent, tout le reste s'échappe.
 
+**2 bis. Un bloc de paragraphe peut porter une classe.** *Découvert à l'exécution, par le
+contrat lui-même :* deux paragraphes du roman s'écrivent `[balise, texte, classe]`, avec la
+classe `fin` — une respiration avant le dernier paragraphe, que le rendu de l'atelier applique
+déjà (`p3-style.html:206`). La forme admise est donc le couple **ou** le triplet, et la classe
+passe elle aussi par liste blanche : une classe nouvelle arrête la fabrication au lieu
+d'entrer dans le HTML.
+
 **3. Le contrôle anti-fuite ne peut pas chercher « andrew ».** Le prénom est dans le roman
 (*« Bonjour Andrew. On est deux ? »*). Le contrôle sera donc **piloté par les données** : on prend
 les champs interdits dans les sources, et on vérifie que leur contenu exact est absent du HTML
@@ -342,6 +349,25 @@ test('un bloc mal forme est signale', () => {
   assert.match(pb[0], /balise, texte/);
 });
 
+test('un bloc avec une classe connue passe', () => {
+  const avecClasse = { ...texteValide, p: [['p', 'Il éteignit les deux lampes.', 'fin']] };
+  assert.deepEqual(verifierLeContrat({ TEXTES: [avecClasse], SCENES: scenes }), []);
+});
+
+test('une classe inconnue du site est signalee', () => {
+  const casse = { ...texteValide, p: [['p', 'Il sortit.', 'exergue']] };
+  const pb = verifierLeContrat({ TEXTES: [casse], SCENES: scenes });
+  assert.equal(pb.length, 1);
+  assert.match(pb[0], /exergue/);
+});
+
+test('un bloc a quatre elements est signale', () => {
+  const casse = { ...texteValide, p: [['p', 'a', 'fin', 'de trop']] };
+  const pb = verifierLeContrat({ TEXTES: [casse], SCENES: scenes });
+  assert.equal(pb.length, 1);
+  assert.match(pb[0], /triplet/);
+});
+
 test('TEXTES disparu est signale sans planter', () => {
   const pb = verifierLeContrat({ SCENES: scenes });
   assert.equal(pb.length, 1);
@@ -375,6 +401,12 @@ Créer `09-site/outils/contrat.mjs` :
 
 /* Les trois balises de paragraphe que l'atelier emploie aujourd'hui. */
 const BALISES = new Set(['p', 'pause', 'tiret']);
+
+/* Un bloc peut porter une classe facultative en troisieme position.
+   L'atelier n'en emploie qu'une : `fin`, qui pose une respiration avant le
+   dernier paragraphe. Elle passe par liste blanche comme tout le reste — une
+   classe nouvelle arrete la fabrication au lieu d'entrer dans le HTML. */
+const CLASSES = new Set(['fin']);
 
 /* Ce qui traverse jusqu'au lecteur, et rien d'autre.
    On liste ce qui passe au lieu d'exclure ce qui ne passe pas : un champ
@@ -425,12 +457,22 @@ export function verifierLeContrat({ TEXTES, SCENES }) {
 
     t.p.forEach((bloc, j) => {
       const ouBloc = `${ou}, bloc n° ${j + 1}`;
-      if (!Array.isArray(bloc) || bloc.length !== 2
+
+      if (!Array.isArray(bloc) || bloc.length < 2 || bloc.length > 3
           || typeof bloc[0] !== 'string' || typeof bloc[1] !== 'string') {
-        pb.push(`${ouBloc} : on attend un couple [balise, texte]`);
-      } else if (!BALISES.has(bloc[0])) {
+        pb.push(`${ouBloc} : on attend un couple [balise, texte], `
+              + `ou un triplet [balise, texte, classe]`);
+        return;
+      }
+
+      if (!BALISES.has(bloc[0])) {
         pb.push(`${ouBloc} : la balise « ${bloc[0]} » est inconnue du site `
               + `(connues : ${[...BALISES].join(', ')})`);
+      }
+
+      if (bloc.length === 3 && !CLASSES.has(bloc[2])) {
+        pb.push(`${ouBloc} : la classe « ${bloc[2]} » est inconnue du site `
+              + `(connues : ${[...CLASSES].join(', ')})`);
       }
     });
   });
@@ -442,7 +484,7 @@ export function verifierLeContrat({ TEXTES, SCENES }) {
 - [ ] **Étape 4 : Lancer le test pour le voir passer**
 
 Lancer : `cd 09-site && node --test tests/contrat.test.mjs`
-Attendu : SUCCÈS — 9 tests passés.
+Attendu : SUCCÈS — 12 tests passés.
 
 - [ ] **Étape 5 : Commiter**
 
@@ -830,10 +872,13 @@ const { texte, precedent, suivant } = Astro.props;
       <h1>{texte.titre}</h1>
     </header>
 
-    {texte.p.map(([balise, contenu]) => (
+    {texte.p.map(([balise, contenu, classe]) => (
       balise === 'pause'
         ? <p class="pause" aria-hidden="true">{contenu}</p>
-        : <p class={balise === 'tiret' ? 'tiret' : ''} set:html={assainir(contenu)} />
+        : <p
+            class={[balise === 'tiret' ? 'tiret' : null, classe].filter(Boolean).join(' ')}
+            set:html={assainir(contenu)}
+          />
     ))}
 
     <nav>
@@ -854,6 +899,8 @@ const { texte, precedent, suivant } = Astro.props;
   h1 { font-weight: 400; font-size: 2rem; margin: 0; }
   p { margin: 0 0 1.35em; text-wrap: pretty; }
   .tiret { text-indent: 0; }
+  /* Une respiration avant le dernier paragraphe, comme dans l'atelier. */
+  .fin { margin-top: 1.6em; }
   .pause {
     text-align: center; color: var(--texte-4); letter-spacing: .5em;
     margin: 2.5em 0; user-select: none;
