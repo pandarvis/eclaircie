@@ -1,13 +1,13 @@
 # Les sources de l'atelier
 
 `atelier.html` fait sept cent mille caractères. On ne l'édite pas à la main :
-on édite un des douze morceaux ci-dessous, puis on refabrique.
+on édite un des treize morceaux ci-dessous, puis on refabrique.
 
 ```bash
 sh fabriquer.sh
 ```
 
-## Les douze morceaux, dans l'ordre du fichier
+## Les treize morceaux, dans l'ordre du fichier
 
 | Morceau | Ce qu'il contient |
 |---|---|
@@ -20,6 +20,7 @@ sh fabriquer.sh
 | `p9-trancher.js` | les questions ouvertes et les arbitrages |
 | `pB-textes.js` | **les textes du livre** — prologue, chapitres, épilogue |
 | `pC-ruche.js` | le plan de la ruche, injecté depuis `../../plan-de-la-ruche.html` |
+| `pD-jardin.js` | le plan du jardin, mis en iframe depuis `../../plan-du-jardin.html` |
 | `pA-app.js` | l'application : rendu, navigation, recherche. **Toujours en dernier.** |
 
 `pA-app.js` passe après `pC-ruche.js` dans le fichier final alors qu'il est
@@ -33,6 +34,7 @@ nommé avant : c'est voulu, l'application doit démarrer quand tout est déjà l
 | `pdf3.py <id> <rang> <sous-titre> <sortie.html>` | fabrique la page A4 d'un chapitre ; **le PDF se tire ensuite avec Chrome `--print-to-pdf`, cette page n'est pas le PDF** |
 | `grille.py` | vide la frise dans un tableau lisible, pour vérifier l'ordre des colonnes |
 | `../../integrer-le-plan.py` | ré-injecte le plan de la ruche dans `p3-style.html`, `p4-corps.html` et `pC-ruche.js` |
+| `../../integrer-le-jardin.py` | ré-injecte le plan du jardin. **Il passe par une iframe** : aucune classe à renommer, isolation totale |
 
 ## Deux pièges déjà payés
 
