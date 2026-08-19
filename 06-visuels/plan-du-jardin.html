@@ -132,11 +132,27 @@ aside em{color:var(--or-pale);font-style:italic}
 .surface{fill:none;stroke:var(--bleu-clair);stroke-width:1;opacity:.3;
   stroke-dasharray:5 9;animation:derive 14s linear infinite}
 @keyframes derive{to{stroke-dashoffset:-140}}
-.chemin{fill:none;stroke:var(--paille);stroke-width:2.4;stroke-linecap:round;
-  stroke-dasharray:7 6;opacity:.75;animation:chemine 6s linear infinite}
-@keyframes chemine{to{stroke-dashoffset:-26}}
-.chemin-fond{fill:none;stroke:#2a2418;stroke-width:5.4;stroke-linecap:round;
+/* Les chemins de l'etendue sont en sable tasse, pas en pointille : ce sont
+   de vrais chemins qu'on prend. L'anneau est plus large que les autres --
+   c'est celui que les petits font a velo. */
+.chemin{fill:none;stroke:#7a6544;stroke-width:3.2;stroke-linecap:round;
+  stroke-linejoin:round;opacity:.9}
+.chemin-fond{fill:none;stroke:#221d14;stroke-width:5.6;stroke-linecap:round;
   stroke-linejoin:round}
+.anneau{fill:none;stroke:#8a7350;stroke-width:5.4;stroke-linecap:round;
+  stroke-linejoin:round;opacity:.92}
+.anneau-fond{fill:none;stroke:#241f16;stroke-width:8.4;stroke-linecap:round;
+  stroke-linejoin:round}
+/* L'herbe : de petits traits qui prennent le vent, chacun a son heure. */
+.herbe{stroke:#3f6042;stroke-width:1.1;stroke-linecap:round;fill:none;opacity:.55;
+  transform-box:fill-box;transform-origin:bottom center;
+  animation:souffle 4.6s ease-in-out infinite}
+@keyframes souffle{
+  0%,100%{transform:rotate(-5deg)}
+  50%{transform:rotate(6deg)}
+}
+#g-trajet{display:none}
+#g-trajet.vu{display:block}
 .trajet{fill:none;stroke:var(--bleu);stroke-width:2.2;stroke-linecap:round;
   stroke-linejoin:round;stroke-dasharray:7 5}
 .trajet-ombre{fill:none;stroke:var(--nuit);stroke-width:7;stroke-linecap:round;
@@ -147,7 +163,7 @@ aside em{color:var(--or-pale);font-style:italic}
 .feuille{animation:respire 9s ease-in-out infinite}
 @keyframes respire{0%,100%{opacity:.55}50%{opacity:.3}}
 @media (prefers-reduced-motion: reduce){
-  .onde,.surface,.chemin,.halo-m,.feuille{animation:none}
+  .onde,.surface,.halo-m,.feuille,.herbe{animation:none}
   .onde{opacity:.28}
 }
 </style>
@@ -227,45 +243,50 @@ const trait=(d,g,s,couleur='var(--creme)',w=1,o=.5)=>el('path',{d,transform:`sca
   style:`stroke:${couleur};stroke-width:${w};opacity:${o};fill:none;stroke-linecap:round`},g);
 
 const BETES={
+  /* Des tetes vues de face, dessinees au minimum. A quatorze pixels, une
+     silhouette entiere devient une tache ; une tete reste une tete. */
   poney:(g,s)=>{
-    el('path',{d:'M1,9 C1,6 3,5 6,5 L11,5 C13,5 14,6 14.4,8 L16,4.6 L17.4,5.4 L15.6,10 C15.2,11.6 13.6,12.4 11.6,12.4 L4,12.4 C2,12.4 1,11 1,9 Z',
+    el('path',{d:'M4,4.6 L2.6,1.2 L6,2.8 M12,4.6 L13.4,1.2 L10,2.8',transform:`scale(${s})`,class:'bete'},g);
+    el('path',{d:'M4.4,4 C4.4,2.6 11.6,2.6 11.6,4 L11,10.4 C11,12.6 9.6,14 8,14 C6.4,14 5,12.6 5,10.4 Z',
       transform:`scale(${s})`,class:'bete'},g);
-    trait('M3.2,12 l-.4,4.2 M6.4,12 l.6,4.2 M10.6,12 l-.4,4.2 M13,12 l.6,4',g,s,'var(--creme)',1.1,.55);
-    trait('M1,8.6 C-0.4,9.6 -0.6,11.4 0.2,12.6',g,s,'var(--creme)',1,.45);
+    trait('M6.4,6.6 l0,.9 M9.6,6.6 l0,.9',g,s,'var(--nuit)',1.5,.85);
+    trait('M6.8,11.4 l0,.7 M9.2,11.4 l0,.7',g,s,'var(--nuit)',1.2,.7);
   },
   chevre:(g,s)=>{
-    el('path',{d:'M1.6,9 C1.6,6.6 3.2,5.6 5.6,5.6 L10,5.6 C11.8,5.6 12.6,6.6 12.8,8 L14.4,5.6 L15.6,6.2 L14,10 C13.6,11.4 12.4,12 10.8,12 L4,12 C2.4,12 1.6,10.8 1.6,9 Z',
+    trait('M4.6,3.4 C3,1.4 1.8,.6 1,1.2 M11.4,3.4 C13,1.4 14.2,.6 15,1.2',g,s,'var(--creme)',1.3,.6);
+    el('path',{d:'M4.2,4.4 C4.2,3 11.8,3 11.8,4.4 L10.8,10 C10.8,12 9.6,13.2 8,13.2 C6.4,13.2 5.2,12 5.2,10 Z',
       transform:`scale(${s})`,class:'bete'},g);
-    trait('M14.6,5.4 C15.8,4 16.6,3.4 17.2,3.6 M13.6,5.2 C14.4,3.6 14.8,2.8 15.4,2.8',g,s,'var(--creme)',.9,.5);
-    trait('M3.4,11.8 l0,3.6 M6,11.8 l0,3.6 M9.6,11.8 l0,3.6 M11.6,11.8 l0,3.6',g,s,'var(--creme)',1,.5);
+    trait('M6.4,6.6 l0,.9 M9.6,6.6 l0,.9',g,s,'var(--nuit)',1.5,.85);
+    trait('M8,13.2 l0,2.6',g,s,'var(--creme)',1.3,.5);
   },
   poule:(g,s)=>{
-    el('path',{d:'M3,10.6 C3,7.4 5.4,5.6 8,5.6 C10.8,5.6 12.6,7.4 12.6,10 C12.6,12.4 10.6,13.6 8,13.6 C5,13.6 3,12.6 3,10.6 Z',
+    el('path',{d:'M5.4,3.6 C5.4,2 6.2,1.2 7,1.4 C7.4,.4 8.4,.4 8.8,1.4 C9.6,1.2 10.4,2 10.4,3.6 Z',
       transform:`scale(${s})`,class:'bete paille'},g);
-    el('path',{d:'M11.6,6.6 C11.6,4.6 12.8,3.6 13.8,3.6 C14.8,3.6 15.4,4.4 15.4,5.6 C15.4,6.8 14.6,7.4 13.6,7.4 Z',
-      transform:`scale(${s})`,class:'bete paille'},g);
-    el('path',{d:'M15.2,5.2 l2,.8 l-2,.8 Z',transform:`scale(${s})`,class:'bete paille'},g);
-    trait('M13.4,3.4 c.2,-1.4 .9,-1.7 1.3,-1.4 M6,13.4 l0,2 M9.4,13.4 l0,2',g,s,'var(--paille)',.9,.65);
+    el('circle',{cx:8,cy:8,r:4.4,transform:`scale(${s})`,class:'bete paille'},g);
+    el('path',{d:'M8,9.4 L11,11 L8,12.4 Z',transform:`scale(${s})`,class:'bete paille'},g);
+    trait('M6.3,7 l0,.9 M9.7,7 l0,.9',g,s,'var(--nuit)',1.5,.85);
   },
   lapin:(g,s)=>{
-    el('ellipse',{cx:8,cy:11,rx:5.2,ry:3.8,transform:`scale(${s})`,class:'bete'},g);
-    el('circle',{cx:13,cy:9,r:2.6,transform:`scale(${s})`,class:'bete'},g);
-    el('path',{d:'M12.4,6.8 C12,3.6 12.6,2 13.6,2 C14.4,2 14.6,3.6 14,6.6 Z M14.4,7 C14.6,4 15.4,2.6 16.2,2.8 C17,3 16.8,4.6 15.8,7.2 Z',
+    el('path',{d:'M5.2,5 C4,1.6 4.4,-.4 5.6,-.4 C6.8,-.4 7.2,1.8 7,5 Z M10.8,5 C12,1.6 11.6,-.4 10.4,-.4 C9.2,-.4 8.8,1.8 9,5 Z',
       transform:`scale(${s})`,class:'bete'},g);
-    el('circle',{cx:3,cy:10.6,r:1.6,transform:`scale(${s})`,class:'bete'},g);
+    el('circle',{cx:8,cy:9,r:4.6,transform:`scale(${s})`,class:'bete'},g);
+    trait('M6.2,8 l0,.9 M9.8,8 l0,.9',g,s,'var(--nuit)',1.5,.85);
+    trait('M8,10.6 l0,.9 M8,11.5 l-1.4,.8 M8,11.5 l1.4,.8',g,s,'var(--nuit)',1,.6);
   },
   cochon:(g,s)=>{
-    el('ellipse',{cx:8,cy:10.6,rx:6,ry:3.6,transform:`scale(${s})`,class:'bete paille'},g);
-    el('circle',{cx:13.2,cy:9.6,r:1.4,transform:`scale(${s})`,class:'bete paille'},g);
-    trait('M11.8,7.8 c.7,-1.5 1.7,-1.6 1.9,-.6',g,s,'var(--paille)',.9,.7);
+    el('path',{d:'M3.6,5.4 C2.6,4 2.8,2.8 4,2.8 C5,2.8 5.6,3.6 5.8,4.6 Z M12.4,5.4 C13.4,4 13.2,2.8 12,2.8 C11,2.8 10.4,3.6 10.2,4.6 Z',
+      transform:`scale(${s})`,class:'bete paille'},g);
+    el('ellipse',{cx:8,cy:9,rx:4.8,ry:4.2,transform:`scale(${s})`,class:'bete paille'},g);
+    trait('M6.2,8 l0,.9 M9.8,8 l0,.9',g,s,'var(--nuit)',1.5,.85);
+    trait('M6.8,11.4 l2.4,0',g,s,'var(--nuit)',1,.55);
   },
   chat:(g,s)=>{
-    el('path',{d:'M2,11 C2,8.6 4,7.4 6.6,7.4 L9.6,7.4 C11.4,7.4 12.4,8.6 12.4,10.4 L12.4,12.4 L2.6,12.4 Z',
+    el('path',{d:'M4,5.4 L3.2,1.6 L6.6,3.4 Z M12,5.4 L12.8,1.6 L9.4,3.4 Z',
       transform:`scale(${s})`,class:'chat'},g);
-    el('circle',{cx:12.4,cy:6.6,r:2.4,transform:`scale(${s})`,class:'chat'},g);
-    el('path',{d:'M10.6,5 l-.4,-2.4 l2,1.4 Z M14.2,5 l.6,-2.4 l-2.2,1.4 Z',
-      transform:`scale(${s})`,class:'chat'},g);
-    trait('M2,11.6 C-.4,11.4 -1,9 .4,7.6',g,s,'#c9b8a0',1.1,.75);
+    el('circle',{cx:8,cy:8.6,r:4.6,transform:`scale(${s})`,class:'chat'},g);
+    trait('M6.2,7.6 l0,.9 M9.8,7.6 l0,.9',g,s,'var(--nuit)',1.5,.9);
+    trait('M3.2,10 l2.2,-.5 M3.2,11.2 l2.2,-1 M12.8,10 l-2.2,-.5 M12.8,11.2 l-2.2,-1',
+      g,s,'#c9b8a0',.8,.6);
   },
   toboggan:(g,s)=>trait('M2,14 L10,4 L13,4 M10,4 L10,14 M13,4 C15,7 15,11 13,14',g,s,'var(--orange)',1.3,.75),
   balancoire:(g,s)=>trait('M3,14 L8,3 L13,14 M5.4,7 L5.4,13 M10.6,7 L10.6,13 M4.4,13 L6.4,13 M9.6,13 L11.6,13',g,s,'var(--orange)',1.2,.7),
@@ -383,9 +404,11 @@ const PLANS=[
  mur:[[150,86],[520,52],[900,96],[946,300],[906,560],[560,650],[190,616],[80,330]],
  principe:`<p><b>Au milieu, on a laissé le terrain tranquille.</b> Une mare, des bouts de prés,
   des enclos, quelques cabanes. <em>C'est l'étendue, et c'est le mot qu'emploient les petits.</em></p>
-  <p><b>L'allée en fait le tour :</b> on ne traverse pas l'étendue pour aller ailleurs.
-  <em>Mais un chemin y entre exprès, fait le tour de la mare, passe devant chaque bête et
-  ressort où il est entré.</em> On n'y va pas en passant — on y va pour y aller.</p>
+  <p><b>Des chemins la traversent, et un anneau en fait le tour.</b> On coupe par le milieu
+  quand on va quelque part ; on prend l'anneau quand on a le temps. <em>L'anneau est plus
+  large que tous les autres chemins du jardin, parce que c'est celui qu'on fait à vélo.</em></p>
+  <p><b>On y va parce qu'on veut y aller, ou on la traverse juste :</b> tout dépend du chemin
+  qu'on prend. <em>Et ça revient au même pour ceux qui vous attendent de l'autre côté.</em></p>
   <p style="color:var(--texte-3)">Six cents mètres dans la plus grande largeur.
   <b>On met du temps à traverser le jardin, et le plan doit le dire.</b></p>`,
  enjeu:`<p><b>Le centre médical est à l'est, contre sa propre grille.</b> Les salles de fin de vie
@@ -400,25 +423,32 @@ const PLANS=[
   ['Les deux derniers dortoirs sont plus grands','Bâtis trente ans après les autres. Fenêtres plus hautes, crépi d\'une autre teinte, et tout le monde le sait.'],
   ['La fresque s\'arrête au gymnase','On l\'a adossé au mur bien plus tard. Les dessins reprennent de l\'autre côté, en plus petit.'],
   ['Un sentier contre la margelle','Personne ne l\'a tracé. À force de longer l\'eau pour regarder dedans, l\'herbe n\'a pas repoussé.']],
- grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[940,330,'service',0],[560,646,'sud',1]],
+ grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[940,330,'service',0],[330,628,'sud-ouest',0],[560,646,'sud',1]],
  allees:[[[115,208],[196,246],[258,306],[264,404],[300,494],[392,552],[520,566],[628,540],[676,462],[688,360],[652,270],[560,224],[430,220],[330,244],[268,306]],
          [[700,74],[694,140],[664,196],[604,222]],
          [[940,330],[856,330],[790,338]],
          [[688,360],[766,344]],
          [[264,404],[176,398]],
-         [[392,552],[352,596]]],
- sentiers:[[[520,566],[540,600]],[[688,360],[700,430],[712,466]]],
+         [[392,552],[352,596],[330,628]]],
+ sentiers:[[[688,360],[700,430],[712,466]]],
  etendue:[468,388,180,140],
- chemin:[[470,246],[438,268],[400,292],[356,296],[320,326],[314,368],[344,400],[318,432],[326,476],[382,498],[440,490],[472,458],[512,472],[560,494],[610,464],[624,414],[594,378],[618,340],[620,296],[578,266],[520,254]],
- amorce:[[470,222],[470,246]],
+ /* L'anneau : le tour de l'etendue, plus large que le reste. C'est celui
+    que les petits font a velo. */
+ anneau:[[468,236],[556,250],[624,286],[656,340],[652,410],[616,470],[548,514],[468,530],[386,516],[320,478],[286,418],[292,348],[334,286],[398,250]],
+ /* Deux chemins la traversent pour de bon, et se croisent pres de la mare. */
+ chemin:[
+  [[468,236],[452,282],[440,330],[444,382],[456,432],[464,482],[468,530]],
+  [[286,418],[330,400],[376,398],[418,388],[458,392],[512,404],[566,414],[616,414]],
+  [[398,250],[382,286],[356,318],[336,352]],
+  [[548,514],[540,478],[556,450]],
+  [[386,516],[402,486],[424,470]]],
  eau:[372,352,64,46],
  pres:[
   [560,318,74,50,'Le pré des poneys','poney',3],
   [560,452,58,40,'Le pré des chèvres','chevre',4]],
  encl:[
-  [432,470,44,30,'Le poulailler','poule',5],
-  [332,452,36,26,'Les lapins','lapin',4],
-  [348,274,34,24,'Les cochons d\'Inde','cochon',4]],
+  [444,474,42,28,'Les poules','poule',4],
+  [318,452,38,26,'Les petites bêtes',['lapin','lapin','cochon','cochon'],4]],
  chats:[[.05,1],[.42,-1],[.71,1]],
  zones:[['pelouse',[[196,132],[268,120],[286,186],[210,196]]]],
  sport:[[330,92,152,74,'Le terrain']],
@@ -429,8 +459,9 @@ const PLANS=[
   ['commun',230,500,124,64,'Gymnase','Adossé au mur, ce qui coupe la fresque. Sol souple, filets aux fenêtres, une odeur qui ne part jamais.',-6],
   ['commun',694,182,112,60,'Salle de jeu','Pour les jours de pluie, et il pleut souvent. Le parquet est marqué aux endroits où les tables reviennent toujours.',5],
   ['ferme',600,266,52,26,'L\'écurie','Quatre boxes, une sellerie, du foin jusqu\'au plafond. Les poneys y rentrent seuls le soir, et l\'un d\'eux sait ouvrir le loquet.',6],
-  ['ferme',406,452,34,20,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',-4],
-  ['ferme',308,438,28,16,'Le clapier','Deux étages de clapiers, du grillage fin, une porte qu\'on ferme le soir à cause des chats.',3],
+  ['ferme',416,444,34,18,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',-4],
+  ['ferme',296,424,34,18,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
+  ['ferme',358,492,58,24,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
   ['ferme',494,392,44,22,'La cabane','Le foin, les seaux, les brosses, les bottes en trois tailles. Ça sent la paille mouillée toute l\'année.',-5],
   ['ferme',316,398,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
   ['bat',196,120,100,52,'Dortoirs 1','Vingt petits, quatre berceurs, un salon commun et une buanderie. Les fenêtres du bas ont des barreaux ronds peints en jaune.',-5],
@@ -450,7 +481,7 @@ const PLANS=[
  trous:[[196,520,38,'Les semelles du cinquième groupe']],
  fresques:[[[160,100],[500,66]],[[540,62],[890,110]],[[928,340],[900,540]],[[850,590],[220,606]]],
  trajet:{pts:[[115,208],[196,246],[258,306],[264,404],[300,494],[392,552],[520,566],[628,540],[676,462],[688,360],[766,344]],
-         lab:[540,686], t:'Andrew et Isaac — onze minutes à pied de la grille nord-ouest au centre médical'},
+         t:'Andrew et Isaac — onze minutes à pied de la grille nord-ouest au centre médical'},
  echelle:[104,676],
  etiq:[[700,60,'','entrée principale']]
 }];
@@ -459,17 +490,17 @@ const PLANS=[
 const LIEUX={
  "L'étendue":['le milieu du jardin',"Tout l'espace qu'on n'a pas bâti : la mare, les prés, les enclos, les cabanes. <b>L'allée n'y entre pas — elle en fait le tour.</b> Un chemin, lui, y entre exprès, passe devant chaque bête et ressort au même endroit. <em>On ne traverse pas l'étendue pour aller ailleurs. On y va pour y être.</em>"],
  "La mare":["au milieu de l'étendue","Une margelle montée à hauteur de poitrine tout autour, assez large pour qu'on s'y accoude et trop haute pour qu'on l'enjambe. <b>Personne n'est jamais tombé dedans</b>, et deux berceurs sont là en permanence quand il y a du monde. <em>Il y a des poissons, et personne ne sait qui les a mis.</em>"],
- "Le chemin des bêtes":["dans l'étendue","Il entre par le nord, fait le tour de la mare, longe les enclos l'un après l'autre et ressort où il est entré. <b>On le fait dans un sens ou dans l'autre, et selon à qui on demande, ça change tout.</b> <em>Sable tassé, refait deux fois par an.</em>"],
+ "L'anneau":["le tour de l'étendue","Plus large que tous les autres chemins du jardin, et c'est fait exprès : <b>on le fait à vélo, et on le fait dans les deux sens.</b> <em>Il y a un record, il n'est écrit nulle part, et tout le monde le connaît.</em>"],
+ "Les chemins de l'étendue":["dedans","<b>Ils la traversent pour de bon.</b> On peut couper par le milieu quand on va quelque part, ou tourner autour de la mare parce qu'on n'a rien de mieux à faire. <em>Tout dépend du chemin qu'on prend, et ça revient au même pour ceux qui vous attendent.</em> Sable tassé, refait deux fois par an."],
  "Le pré des poneys":["l'étendue, à l'est","Trois poneys, jamais plus grands qu'un double poney. <b>C'est une règle : au jardin, aucune bête ne doit dépasser celui qui la caresse.</b> <em>Ils sont doux, lents, et complètement blasés.</em>"],
  "Le pré des chèvres":["l'étendue, au sud-est","Quatre chèvres naines, un tas de rochers monté exprès pour qu'elles grimpent dessus, et un portillon que les petits savent ouvrir. <em>Elles mangent tout ce qui dépasse, y compris les manches.</em>"],
- "Le poulailler":["l'étendue, au sud","Cinq poules et un tableau à la porte pour dire qui ramasse quand. <b>Les œufs partent au réfectoire, et ça compte beaucoup dans l'idée qu'on se fait de soi à cinq ans.</b>"],
- "Les lapins":["l'étendue, à l'ouest","Quatre lapins dans un enclos plus grand qu'il n'en faut, avec des tuyaux enterrés pour qu'ils aient où disparaître. <em>On ferme le clapier le soir à cause des chats.</em>"],
- "Les cochons d'Inde":["l'étendue, au nord","Quatre, et c'est le seul enclos où l'on entre. <b>Ils tiennent dans deux mains et ils sifflent dès qu'on approche du bac de granulés.</b>"],
+ "Les poules":["l'étendue, au sud","Cinq poules et un tableau à la porte pour dire qui ramasse quand. <b>Les œufs partent au réfectoire, et ça compte beaucoup dans l'idée qu'on se fait de soi à cinq ans.</b>"],
+ "Les petites bêtes":["l'étendue, à l'ouest","Les lapins et les cochons d'Inde ensemble, dans un enclos plus grand qu'il n'en faut, avec des tuyaux enterrés pour qu'ils aient où disparaître. <b>C'est le seul enclos où l'on entre.</b> <em>Les cochons d'Inde tiennent dans deux mains et ils sifflent dès qu'on approche du bac de granulés.</em>"],
  "Le terrain":['au nord',"Bitume peint, deux paniers à hauteur d'enfant, des buts tracés dessus. <em>Les lignes du milieu ont été repeintes tant de fois qu'il y en a trois qui se chevauchent.</em>"],
  "Aire de jeu":['dans les zones ouvertes',"Toboggan, balançoires, structures en bois. <b>Il y en a plusieurs, exprès, pour qu'aucun dortoir ne soit plus loin qu'un autre.</b>"],
  "Bacs à sable":['près du réfectoire',"Deux bacs, une bâche qu'on tire le soir, et du sable qu'on remplace tous les deux ans."],
  "Le trajet":['une scène à écrire',"Andrew et Isaac entrent par la grille du nord-ouest et vont au centre médical, à l'est. <b>Ils traversent tout le jardin : onze minutes à pied.</b> <em>Le chemin passe au sud de l'étendue, ce qui leur fait longer les prés — et c'est là qu'on peut leur faire voir ce qu'on veut leur faire voir.</em>"],
- "Les chats":['partout',"Personne ne les a fait venir. Ils entrent par le mur, dorment sur les bancs chauds, se laissent porter par ceux qui savent s'y prendre. <b>Il y en a trois, et leurs noms ne sont les mêmes dans aucun dortoir.</b>"]
+ "Les chats":['partout',"Personne ne les a fait venir. Ils entrent par le mur, dorment sur les bancs chauds, se laissent porter par ceux qui savent s'y prendre. <b>Il y en a trois, et leurs noms ne sont les mêmes dans aucun dortoir.</b> <em>Ils vont où ils veulent, et c'est bien la seule chose qui soit vraie de bout en bout dans ce monde.</em>"]
 };
 
 /* =====================================================================
@@ -542,24 +573,41 @@ function dessine(p){
     el('path',{d:tache(ex,ey,erx,ery,13,.09),class:'etendue'},ge);
     cliquable(ge,"L'étendue",LIEUX["L'étendue"][0],LIEUX["L'étendue"][1]);
 
+    /* L'herbe, avant tout le reste : elle passe dessous. */
+    for(let i=0;i<120;i++){
+      const a=alea()*Math.PI*2, k=Math.sqrt(alea())*.97;
+      const hx=ex+Math.cos(a)*erx*k, hy=ey+Math.sin(a)*ery*k;
+      const t=el('path',{d:`M${n2(hx)},${n2(hy)} q${n2(-1+alea()*2)},-3 ${n2(-1.4+alea()*2.8)},-5.4`,
+        class:'herbe'},cB);
+      t.style.animationDelay=n2(alea()*4.6)+'s';
+      t.style.animationDuration=n2(3.6+alea()*2.6)+'s';
+    }
+    if(p.anneau){
+      const d=lisse(p.anneau,.48);
+      const ga=el('g',{class:'zone'},cB);
+      el('path',{d,class:'anneau-fond'},ga);
+      el('path',{d,class:'anneau'},ga);
+      cliquable(ga,"L'anneau",LIEUX["L'anneau"][0],LIEUX["L'anneau"][1]);
+    }
     if(p.chemin){
-      const d=lisse(p.chemin,.5);
       const gc=el('g',{class:'zone'},cB);
-      el('path',{d,class:'chemin-fond'},gc);
-      if(p.amorce){
-        el('path',{d:poly(p.amorce),class:'chemin-fond'},gc);
-        el('path',{d:poly(p.amorce),class:'chemin'},gc);
-      }
-      el('path',{d,class:'chemin'},gc);
-      cliquable(gc,"Le chemin des bêtes",LIEUX["Le chemin des bêtes"][0],LIEUX["Le chemin des bêtes"][1]);
+      p.chemin.forEach(br=>{
+        const d=lisse(br,.45).replace(/Z$/,'');
+        const dd=poly(br);
+        el('path',{d:dd,class:'chemin-fond'},gc);
+        el('path',{d:dd,class:'chemin'},gc);
+      });
+      cliquable(gc,"Les chemins de l'étendue",LIEUX["Les chemins de l'étendue"][0],
+                LIEUX["Les chemins de l'étendue"][1]);
     }
 
     const poser=(liste,cls)=>(liste||[]).forEach(([x,y,rx,ry,nom,type,n])=>{
       const g=el('g',{class:'zone'},cB);
       el('path',{d:tache(x,y,rx,ry,10,.12),class:cls},g);
-      for(let i=0;i<n;i++){
+      const types = Array.isArray(type) ? type : new Array(n).fill(type);
+      for(let i=0;i<types.length;i++){
         const a=alea()*Math.PI*2, k=.2+alea()*.55;
-        bete(type, x+Math.cos(a)*rx*k, y+Math.sin(a)*ry*k, cls==='pre'?1:.74, g);
+        bete(types[i], x+Math.cos(a)*rx*k, y+Math.sin(a)*ry*k, cls==='pre'?1.05:.85, g);
       }
       el('text',{x:n2(x),y:n2(y+ry+12),class:'etiq paille','text-anchor':'middle'},cE)
         .textContent=nom;
@@ -580,7 +628,7 @@ function dessine(p){
         const o=el('circle',{cx:n2(x),cy:n2(y),r:14,class:'onde'},gm);
         o.style.animationDelay=r+'s';
       });
-      el('text',{x:n2(mx),y:n2(my+mry+13),class:'etiq','text-anchor':'middle'},cE)
+      el('text',{x:n2(mx),y:n2(my-mry-9),class:'etiq','text-anchor':'middle'},cE)
         .textContent='La mare';
       cliquable(gm,'La mare',LIEUX['La mare'][0],LIEUX['La mare'][1]);
     }
@@ -645,17 +693,14 @@ function dessine(p){
   });
 
   /* ---- le trajet ---- */
-  let chemin=null;
+  let chemin=null, gTraj=null;
   if(p.trajet){
-    el('path',{d:poly(p.trajet.pts),class:'trajet-ombre'},cB);
-    chemin=el('path',{d:poly(p.trajet.pts),class:'trajet'},cB);
+    gTraj=el('g',{id:'g-trajet'},cB);
+    el('path',{d:poly(p.trajet.pts),class:'trajet-ombre'},gTraj);
+    chemin=el('path',{d:poly(p.trajet.pts),class:'trajet'},gTraj);
     const a=p.trajet.pts[0], z=p.trajet.pts[p.trajet.pts.length-1];
     [a,z].forEach(q=>el('circle',{cx:n2(q[0]),cy:n2(q[1]),r:4.6,fill:'var(--bleu)',
-      stroke:'var(--nuit)','stroke-width':1.4},cB));
-    const tx=el('text',{x:n2(p.trajet.lab[0]),y:n2(p.trajet.lab[1]),class:'note',
-      'text-anchor':'middle',style:'fill:var(--bleu);cursor:pointer;pointer-events:auto'},cE);
-    tx.textContent=p.trajet.t;
-    cliquable(tx,'Le trajet',LIEUX['Le trajet'][0],LIEUX['Le trajet'][1],null);
+      stroke:'var(--nuit)','stroke-width':1.4},gTraj));
   }
 
   /* ---- l'échelle ---- */
@@ -706,21 +751,33 @@ function dessine(p){
   /* ======================= CE QUI BOUGE ======================= */
   const mobiles=[];
 
-  if(p.chats && p.allees && p.allees[0]){
-    const rail=el('path',{d:boucle(p.allees[0]),fill:'none',stroke:'none'},cA);
-    const L=rail.getTotalLength();
-    p.chats.forEach(([dep,sens])=>{
+  /* Les chats n'ont pas d'itineraire. Ils marchent, ils tournent quand
+     l'envie leur prend, et le mur les fait revenir. */
+  if(p.chats){
+    p.chats.forEach(()=>{
       const g=el('g',{style:'cursor:pointer;pointer-events:auto'},cA);
-      bete('chat',0,0,.9,g);
+      bete('chat',0,0,.92,g);
       g.addEventListener('click',e=>{e.stopPropagation();
         choisir('Les chats',LIEUX['Les chats'][0],LIEUX['Les chats'][1],null);});
-      mobiles.push({g,L,ch:rail,t:dep,v:0.0000075*(0.7+alea()*0.7),sens});
+      let x=c0[0]+(alea()-.5)*300, y=c0[1]+(alea()-.5)*220;
+      let cap=alea()*Math.PI*2, pause=0;
+      mobiles.push({tick:(dt)=>{
+        if(pause>0){ pause-=dt; return; }
+        if(alea()<0.004) { pause=600+alea()*2400; return; }
+        cap += (alea()-.5)*0.11;
+        const v=0.021*dt;
+        let nx=x+Math.cos(cap)*v, ny=y+Math.sin(cap)*v;
+        if(!dedans(p.mur,[nx,ny])){ cap+=Math.PI*(0.6+alea()*0.8); nx=x; ny=y; }
+        x=nx; y=ny;
+        g.setAttribute('transform',
+          `translate(${n2(x)},${n2(y)}) scale(${Math.cos(cap)<0?-1:1},1)`);
+      }});
     });
   }
 
   const bouton=document.getElementById('rejouer');
   bouton.className = chemin ? 'vu' : '';
-  bouton.textContent = '▸ Andrew et Isaac traversent le jardin';
+  bouton.textContent = '▸ le trajet d\'Andrew et Isaac';
   if(chemin){
     const L=chemin.getTotalLength();
     const halo=el('circle',{r:9,class:'halo-m',cx:-99,cy:-99},cA);
@@ -729,7 +786,17 @@ function dessine(p){
     const lab=el('text',{class:'note',x:-99,y:-99,'text-anchor':'middle',
       style:'fill:var(--bleu-clair)'},cA);
     let t=null;
-    bouton.onclick=()=>{ t=0; chemin.style.strokeDasharray=L; chemin.style.strokeDashoffset=L; };
+    bouton.onclick=()=>{
+      if(gTraj.classList.contains('vu') && t===null){
+        gTraj.classList.remove('vu');
+        bouton.textContent='▸ le trajet d\'Andrew et Isaac';
+        return;
+      }
+      gTraj.classList.add('vu');
+      bouton.textContent='× masquer le trajet';
+      t=0; chemin.style.strokeDasharray=L; chemin.style.strokeDashoffset=L;
+      choisir('Le trajet',LIEUX['Le trajet'][0],LIEUX['Le trajet'][1],null);
+    };
     mobiles.push({tick:(dt)=>{
       if(t===null) return;
       t+=dt*0.00011;
@@ -775,8 +842,8 @@ function legende(p){
     ['#0d2130','#0081B3','la mare'],['#152418','#3d5a3a','prés et enclos']];
   document.getElementById('legende').innerHTML =
     L.map(([f,b,t])=>`<span><i style="background:${f};border:1px solid ${b}"></i>${t}</span>`).join('')
-    + `<span><i style="background:none;border-top:2px dashed #c9a86a"></i>le chemin des bêtes</span>`
-    + `<span><i style="background:none;border-top:2px dashed #0081B3"></i>le trajet d'Andrew</span>`
+    + `<span><i style="background:none;border-top:3px solid #8a7350"></i>l'anneau, à vélo</span>`
+    + `<span><i style="background:none;border-top:2px solid #7a6544"></i>les chemins de l'étendue</span>`
     + `<span style="color:var(--texte-2)">— cliquez n'importe quoi</span>`;
 }
 
