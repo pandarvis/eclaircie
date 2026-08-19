@@ -91,8 +91,6 @@ aside em{color:var(--or-pale);font-style:italic}
 .allee-b{fill:none;stroke:#3b4a3a;stroke-width:1;opacity:.5;stroke-linecap:round}
 .sentier{fill:none;stroke:#39412f;stroke-width:3.4;stroke-linecap:round;
   stroke-dasharray:1.5 6;opacity:.85}
-.pelouse{fill:#12201a;stroke:#25392a;stroke-width:.9}
-.beton{fill:#1a1e22;stroke:#2c333a;stroke-width:.9}
 
 /* A peine plus verte que le reste : elle n'est pas cloturee, elle est
    juste le morceau qu'on n'a pas bati. */
@@ -366,7 +364,6 @@ const PLANS=[
   [466,486,36,22,'Les poules','poule',4],
   [356,462,34,20,'Les petites bêtes',['lapin','lapin','cochon','cochon'],4]],
  chats:[[.05,1],[.42,-1],[.71,1]],
- zones:[['pelouse',[[196,132],[268,120],[286,186],[210,196]]]],
  sport:[[330,92,152,74,'Le terrain']],
  bat:[
   ['soin',766,254,152,104,'Centre médical','Le seul bâtiment à avoir un étage. Consultations au rez, dortoir de garde au premier, les dossiers au second. Le parking est devant, la grille de service à trente mètres.',-4],
@@ -500,10 +497,6 @@ function dessine(p){
   });
 
   /* ---- les zones plates ---- */
-  (p.zones||[]).forEach(([cls,pts])=>el('path',{d:lisse(pts,.5),class:cls},cB));
-  (p.anneaux||[]).forEach(([x,y,r])=>
-    el('circle',{cx:x,cy:y,r:r,fill:'none',stroke:'#243027','stroke-width':1,
-      'stroke-dasharray':'3 7',opacity:.7},cB));
 
   /* ======================= L'ÉTENDUE ======================= */
   if(p.etendue){

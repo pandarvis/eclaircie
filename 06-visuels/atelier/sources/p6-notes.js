@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`La dernière tache sans nom, et le code mort avec elle`, e:`acquis`, t:[`visuel`],
+  v:`tu as encore une zone bizarre ici. après moi je ne vois rien de plus.`,
+  q:`⛔ **C'était une pelouse dessinée du temps où trois plans coexistaient.** *Elle servait à marquer un espace ouvert dans un jardin qui n'en avait pas encore.* **Depuis, tout le jardin est vert : elle ne disait plus rien, et elle débordait sous les dortoirs 1.**
+
+✅ **Le code qui la dessinait part avec elle**, ainsi que celui des anneaux, resté du plan de la couronne. *Un rendu qui ne dessine plus rien finit par redessiner quelque chose.*
+
+🔴 **C'est la troisième fois qu'un reste d'un plan supprimé remonte à la surface** — après le bac à sable du plan A que j'avais déplacé par erreur, et les semelles. *Supprimer trois plans sur cinq laisse des traces qu'aucun contrôle ne voit : mes vérificateurs regardent les collisions, pas les orphelins.*` },
+
 { d:`20 août`, s:`Les portes s'alignent sur le mur, la ride reste dans l'eau`, e:`acquis`, t:[`visuel`],
   v:`pourquoi le trait des portes n'est pas aligné avec le mur ? et pour l'eau, les pointillés de l'animation sortent de la zone de la mare.`,
   q:`⛔ **Les portes s'orientaient sur le rayon partant du centre du jardin.** *Sur un cercle ça marcherait ; le mur est une courbe irrégulière, et le rayon ne coïncide presque jamais avec la tangente.* **Chaque porte tombait donc de travers, d'autant plus que le mur s'écarte du cercle.**
