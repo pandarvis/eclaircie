@@ -13,3 +13,10 @@ check.js
 combo.js
 sonde*.html
 vue*.html
+
+# le site de lecture : tout se regenere
+09-site/node_modules/
+09-site/dist/
+09-site/donnees/
+09-site/.astro/
+09-site/.vercel/

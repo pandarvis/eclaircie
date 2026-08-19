@@ -1,0 +1,16 @@
+{
+  "name": "eclaircie-site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "moisson": "node extraire.mjs",
+    "dev": "npm run moisson && astro dev",
+    "build": "npm run moisson && astro build && node --test tests/fuite.test.mjs",
+    "preview": "astro preview",
+    "test": "node --test tests/contrat.test.mjs tests/assainir.test.mjs"
+  },
+  "dependencies": {
+    "astro": "^6.3.1",
+    "@vercel/functions": "^2.0.0"
+  }
+}
