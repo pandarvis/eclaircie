@@ -124,13 +124,13 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 
 Il la regarda. Elle était belle.
 
-L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu.
+L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais approché.
 
-— Tu n'en as pas vu, à l'école ? dit Andrew.
+— On ne t'en a pas montré, à l'école ? dit Andrew.
 
 — Oh si, si. Mais ce n'est pas la même chose que de les voir en vrai !
 
-— Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans, se souvint Andrew en considérant son sourire béat.
+« Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans », se souvint Andrew en considérant son sourire béat.
 
 Personne ne pouvait lui en vouloir. Il avait encore des cours du soir, et ça faisait à peine un mois qu'il était là. Un apprenti modèle, qui apprenait vite.
 
