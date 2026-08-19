@@ -40,6 +40,12 @@ setTimeout(function(){
 
     /* Le contour d'un rectangle, dans le repere du dessin (rotation comprise). */
     var contourBat=function(b){
+      /* Tout n'est pas un rectangle : la section 0 est un batiment rond. */
+      if(b.tagName==='path'){
+        var L=b.getTotalLength(), out=[];
+        for(var k=0;k<40;k++) out.push(b.getPointAtLength(L*k/40));
+        return out;
+      }
       var x=+b.getAttribute('x'), y=+b.getAttribute('y');
       var w=+b.getAttribute('width'), h=+b.getAttribute('height');
       /* getCTM() descend jusqu'aux pixels de l'ecran. Ce qu'il faut ici,

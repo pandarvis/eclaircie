@@ -335,12 +335,12 @@ const PLANS=[
   qu'on prend. <em>Et ça revient au même pour ceux qui vous attendent de l'autre côté.</em></p>
   <p style="color:var(--texte-3)">Six cents mètres dans la plus grande largeur.
   <b>On met du temps à traverser le jardin, et le plan doit le dire.</b></p>`,
- enjeu:`<p><b>Le centre médical est à l'est, contre sa propre grille.</b> La section 0
-  est derrière, sur un jardin clos qu'aucune allée ne longe. Depuis l'étendue, on ne voit que
-  le toit.</p>
-  <p>C'est le plan le plus humain — on ne fait pas passer les petits devant — <em>et c'est
-  exactement ce qui le rend commode.</em> <b>Un bâtiment à l'écart, sa grille, ses livraisons :
-  c'est le seul endroit du jardin où quelqu'un entre et sort sans croiser âme qui vive.</b></p>`,
+ enjeu:`<p><b>Le centre médical est à l'est, contre sa propre grille</b>, et la section 0
+  juste derrière. <em>Ce sont deux bâtiments du jardin comme les autres : on y va, on en revient,
+  et les petits savent très bien où ils sont.</em></p>
+  <p><b>Le jardin n'a pas été laissé à lui-même : il a été aménagé.</b> <em>Les dortoirs se
+  ressemblent, les allées sont régulières, le grand chemin fait un ovale presque parfait —
+  c'est un établissement, et ça se voit.</em> Ce qui vit, au milieu, c'est l'étendue.</p>`,
  defauts:[
   ['La grille du sud ne s\'ouvre plus','La chaîne est passée deux fois et le pêne a blanchi. L\'herbe monte à travers, des deux côtés, à la même hauteur.'],
   ['Les deux derniers dortoirs sont plus grands','Bâtis trente ans après les autres. Fenêtres plus hautes, crépi d\'une autre teinte, et tout le monde le sait.'],
@@ -367,7 +367,6 @@ const PLANS=[
  sport:[[330,92,152,74,'Le terrain']],
  bat:[
   ['soin',766,254,152,104,'Centre médical','Le seul bâtiment à avoir un étage. Consultations au rez, dortoir de garde au premier, les dossiers au second. Le parking est devant, la grille de service à trente mètres.',-4],
-  ['fin',778,406,124,54,'Section 0','<b>Le bâtiment soleil</b>, et c\'est le seul nom que les petits emploient : ils voient un soleil dans sa forme, et personne ne les a jamais contredits. <em>Le registre, lui, dit section 0 — zéro comme l\'âge.</em> Six chambres et une véranda, derrière le centre médical, sur un jardin clos planté. Aucune allée ne le longe, et depuis l\'étendue on ne voit que le toit.',6],
   ['commun',504,102,150,64,'Réfectoire','Les repas arrivent de la ville en camion, deux fois par jour. On les réchauffe ici, on ne les fait pas. Les œufs, eux, viennent du poulailler.',3],
   ['commun',227,507,124,64,'Gymnase','Adossé au mur, ce qui coupe la fresque. Sol souple, filets aux fenêtres, une odeur qui ne part jamais.',-6],
   ['commun',694,182,112,60,'Salle de jeu','Pour les jours de pluie, et il pleut souvent. Le parquet est marqué aux endroits où les tables reviennent toujours.',5],
@@ -392,6 +391,8 @@ const PLANS=[
  fresques:[[[160,100],[500,66]],[[540,62],[890,110]],[[928,340],[900,540]],[[850,590],[220,606]]],
  /* Ils prennent l'allee du nord-ouest, puis la grande allee par le sud,
     puis l'allee de service. Ils ne coupent a travers rien. */
+ /* La section 0 : un batiment rond et une petite cour au milieu. */
+ soleil:[840,430,40,'Section 0','<b>Le bâtiment soleil</b>, et c\'est le seul nom que les petits emploient : ils voient un soleil dans sa forme, et personne ne les a jamais contredits. <em>Le registre, lui, dit section 0 — zéro comme l\'âge.</em> Un plan rond, une petite cour plantée au milieu qu\'on ne voit que d\'en haut, six chambres et une véranda tout autour. <b>On y accompagne ceux qui arrivent à zéro, et ça n\'a rien de caché</b> : c\'est un bâtiment du jardin comme les autres.'],
  echelle:[104,676],
  etiq:[[700,60,'','entrée principale']]
 }];
@@ -409,7 +410,7 @@ const LIEUX={
  "Le terrain":['au nord',"Bitume peint, deux paniers à hauteur d'enfant, des buts tracés dessus. <em>Les lignes du milieu ont été repeintes tant de fois qu'il y en a trois qui se chevauchent.</em>"],
  "Aire de jeu":['dans les zones ouvertes',"Toboggan, balançoires, structures en bois. <b>Il y en a plusieurs, exprès, pour qu'aucun dortoir ne soit plus loin qu'un autre.</b>"],
  "Bacs à sable":['près du réfectoire',"Deux bacs, une bâche qu'on tire le soir, et du sable qu'on remplace tous les deux ans."],
- "Le trajet":['une scène à écrire',"Andrew et Isaac entrent par la grille du nord-ouest et vont au centre médical, à l'est. <b>Ils traversent tout le jardin : onze minutes à pied.</b> <em>Le chemin passe au sud de l'étendue, ce qui leur fait longer les prés — et c'est là qu'on peut leur faire voir ce qu'on veut leur faire voir.</em>"],
+ "Le trajet":['une scène à écrire',"Andrew et Isaac entrent par la grille du nord-ouest et vont au centre médical, à l'est. <b>Ils traversent tout le jardin : une dizaine de minutes à pied, d'un pas décidé.</b> <em>Le chemin passe au sud de l'étendue, ce qui leur fait longer les prés — et c'est là qu'on peut leur faire voir ce qu'on veut leur faire voir.</em>"],
  "Les fresques":["le mur, côté cour","<b>De l'extérieur le mur est nu — du crépi crème, pas une ouverture.</b> De ce côté-ci il est peint sur toute sa longueur, et par ceux qui vivent là. <em>Ça se refait, ça se recouvre, et personne ne garde trace de ce qu'il y avait avant.</em> Les fresques s'arrêtent net là où l'on a bâti contre le mur, et reprennent de l'autre côté, en plus petit."],
  "Les chats":['partout',"Personne ne les a fait venir. Ils entrent par le mur, dorment sur les bancs chauds, se laissent porter par ceux qui savent s'y prendre. <b>Il y en a trois, et leurs noms ne sont les mêmes dans aucun dortoir.</b> <em>Ils vont où ils veulent, et c'est bien la seule chose qui soit vraie de bout en bout dans ce monde.</em>"]
 };
@@ -662,6 +663,29 @@ function dessine(p){
       stroke:'var(--texte-3)','stroke-width':1.4},cE));
     el('text',{x:n2(x+L/2),y:n2(y-9),class:'etiq hors','text-anchor':'middle'},cE)
       .textContent='100 mètres';
+  }
+
+  /* ---- la section 0, le batiment soleil ---- */
+  if(p.soleil){
+    const [sx,sy,sr,snom,stxt]=p.soleil;
+    const g=el('g',{},cB);
+    const dehors=tache(sx,sy,sr,sr*.9,15,.055,5501993);
+    const cour=tache(sx,sy,sr*.3,sr*.28,11,.09,7714402);
+    /* Le mur exterieur et la cour d'un seul trait : la cour est un trou. */
+    const mur=el('path',{d:dehors+' '+cour,'fill-rule':'evenodd',
+      class:'bat fin','data-nom':snom},g);
+    mur.style.cursor='pointer';
+    /* Les redents du pourtour, qui font le soleil. */
+    for(let i=0;i<16;i++){
+      const a=i/16*Math.PI*2;
+      const x1=sx+Math.cos(a)*sr*1.0, y1=sy+Math.sin(a)*sr*.9;
+      const x2=sx+Math.cos(a)*sr*1.16, y2=sy+Math.sin(a)*sr*1.06;
+      el('line',{x1:n2(x1),y1:n2(y1),x2:n2(x2),y2:n2(y2),
+        stroke:'#8d6c7a','stroke-width':1.4,'stroke-linecap':'round',opacity:.5},g);
+    }
+    el('text',{x:n2(sx),y:n2(sy+sr*1.34),class:'etiq','text-anchor':'middle'},cE)
+      .textContent=snom;
+    cliquable(g,snom,'le b\u00e2timent soleil',stxt,mur);
   }
 
   /* ---- le bâti ---- */

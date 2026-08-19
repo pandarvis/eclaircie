@@ -136,7 +136,7 @@ Il y en a plusieurs dans le monde.
 **Salle de consultation.** Où l'analyste reçoit un arrivant dans l'heure qui suit sa sortie.
 Premier examen, premiers mots, premières questions.
 
-**Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* Six chambres, une véranda, un jardin clos derrière. Zéro comme l'âge.
+**Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* Un plan rond, une petite cour plantée au milieu qu'on ne voit que d'en haut, six chambres et une véranda tout autour. Zéro comme l'âge.
 
 **Serre.** Le quart du complexe où la coulée est chez elle, autour de la salle du registre.
 Ce n'est pas une zone qu'on traverse : c'est le sol. Domaine des préparateurs.
