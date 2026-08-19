@@ -1,0 +1,314 @@
+MESURES DE STYLE — L'ÉCLAIRCIE
+==============================================================================
+
+
+### PROLOGUE — La cérémonie
+------------------------------------------------------------------------------
+  2610 mots, 110 blocs (94 paragraphes, 16 répliques)
+  dialogue : 15 % des blocs
+
+  PHRASES  203 au total, 12.3 mots en moyenne, médiane 10
+           45 de 5 mots ou moins (22 %)
+           1 de 40 mots ou plus, dont 0 de 50 et plus
+           la plus longue : 42 mots
+
+  PARAGRAPHES  26.6 mots en moyenne, 38 d'une seule phrase (40 %)
+
+  TEMPS  imparfait 152  |  passé simple 74  |  plus-que-parfait 26  |  présent de vérité 2
+
+  PONCTUATION pour 1000 mots  virgule 74  |  tiret 8  |  point-virgule 1  |  deux-points 4  |  parenthèse 0
+
+  VOCABULAIRE  848 mots distincts, richesse 0.325
+
+  MOTS QUI REVIENNENT (6 fois ou plus)
+       38  deux
+       14  d'un
+       13  personne
+       13  andrew
+       10  qu'on
+       10  table
+       10  chose
+        9  l'autre
+        9  eliott
+        8  corps
+        8  mains
+        8  milieu
+        8  main
+        7  dessus
+        7  trois
+        7  garçon
+        6  salle
+        6  c'était
+        6  posa
+        6  dedans
+        6  place
+        6  prit
+        6  qu'il
+        6  moment
+        6  seul
+        6  nora
+        6  capsule
+        6  regarda
+
+  GROUPES DE DEUX MOTS (4 fois ou plus)
+       12  les deux
+        8  personne ne
+        7  la table
+        7  au milieu
+        7  la main
+        5  la salle
+        5  le mur
+        5  le reste
+        5  milieu de
+        5  la desserte
+        4  plus loin
+        4  la pièce
+        4  le long
+        4  une chose
+        4  un peu
+        4  quelque chose
+        4  les mains
+        4  le garçon
+
+  GROUPES DE TROIS MOTS (3 fois ou plus)
+        5  milieu de la
+        4  au milieu de
+        3  contre le mur
+        3  de la pièce
+        3  sur la desserte
+        3  de la table
+
+  DEBUTS DE PHRASE
+      il×37  le×14  les×10  andrew×10  on×9  une×9  puis×8  un×7  la×7  ils×7  ça×7  eliott×7  deux×6  c'était×5  elle×5
+
+  ADVERBES EN -MENT
+      mouvement×2  parfaitement×2  l'emplacement×1  lentement×1  ralentissement×1  entièrement×1  instrument×1  comment×1  vraiment×1  doucement×1  l'instrument×1
+
+  PHRASES OÙ IL ET ELLE COHABITENT SANS NOM PROPRE : 2
+      • Le garçon les prit et sortit tout seul, les jambes hésitantes, et elle le tint le temps qu'il fallait.
+      • Ça dura le temps que ça dura, et il tira sur sa serviette parce qu'elle glissait de l'épaule.
+
+  LES CINQ PLUS LONGUES
+      [42 mots] Andrew posa la main à plat sur l'épaule et fit descendre la paume : le voile vint d'un seul tenant, roulé sur lui-même comme la pelure d'un fruit, et découvrit le bras et la main, qui étaient parfaitement propres et parfaitement secs.
+      [36 mots] Personne n'y avait taillé quoi que ce soit : à ce stade la paroi est si fine qu'elle finirait par céder toute seule, et on ne fait pas d'entailles à une chose qui va s'ouvrir sans vous.
+      [36 mots] Elle lui passa par la tête une serviette de cérémonie — un grand rectangle de toile percé d'un trou, qui tombait droit devant et droit derrière — croisa les pans sur les côtés et les ferma d'une ceinture.
+      [33 mots] Ils n'avaient pas d'âge commun : une femme qui en paraissait quatre-vingts, deux hommes autour de la cinquantaine, un autre d'une vingtaine d'années qui les connaissait tous et les appelait par leur prénom.
+      [32 mots] Larges au milieu, effilées aux deux bouts, avec cette dissymétrie qu'ont les choses qui ont poussé : un flanc plus plein que l'autre, une courbe qui reprenait là où on ne l'attendait pas.
+
+
+### CHAPITRE-1 — Une journée à la ruche
+------------------------------------------------------------------------------
+  3411 mots, 128 blocs (81 paragraphes, 47 répliques)
+  dialogue : 37 % des blocs
+
+  PHRASES  220 au total, 13.7 mots en moyenne, médiane 12
+           41 de 5 mots ou moins (19 %)
+           1 de 40 mots ou plus, dont 1 de 50 et plus
+           la plus longue : 56 mots
+
+  PARAGRAPHES  37.3 mots en moyenne, 23 d'une seule phrase (28 %)
+
+  TEMPS  imparfait 330  |  passé simple 30  |  plus-que-parfait 55  |  présent de vérité 3
+
+  PONCTUATION pour 1000 mots  virgule 78  |  tiret 15  |  point-virgule 1  |  deux-points 5  |  parenthèse 0
+
+  VOCABULAIRE  1039 mots distincts, richesse 0.305
+
+  MOTS QUI REVIENNENT (6 fois ou plus)
+       30  deux
+       23  c'était
+       22  personne
+       22  qu'on
+       19  jamais
+       16  trois
+       14  capsule
+       13  n'était
+       13  qu'il
+       13  n'avait
+       12  quatre
+       12  parce
+       11  andrew
+       11  fois
+       10  côté
+       10  salle
+        9  chose
+        9  coulée
+        8  avant
+        8  d'un
+        8  capsules
+        8  mètres
+        8  aurait
+        7  porte
+        7  faisait
+        7  autres
+        7  fond
+        7  aussi
+        7  d'une
+        7  jour
+        7  bastien
+        6  seul
+        6  fait
+        6  haut
+        6  c'est
+        6  pouvait
+        6  dessus
+        6  s'était
+        6  coulant
+        6  cette
+
+  GROUPES DE DEUX MOTS (4 fois ou plus)
+       10  personne ne
+        9  une capsule
+        9  la coulée
+        8  n'était pas
+        7  ce n'était
+        6  n'avait jamais
+        5  les autres
+        5  deux fois
+        5  salle 2
+        5  et personne
+        5  un coulant
+        5  la salle
+        5  et ça
+        5  dix neuf
+        4  c'était le
+        4  quelque chose
+        4  le mur
+        4  parce que
+        4  deux minutes
+        4  ceux qui
+        4  parce qu'on
+        4  les capsules
+        4  n'avait pas
+        4  personne n'avait
+        4  le jour
+        4  qu'il était
+
+  GROUPES DE TROIS MOTS (3 fois ou plus)
+        7  ce n'était pas
+        4  personne n'avait jamais
+        3  parce qu'on ne
+        3  trois mètres et
+        3  et personne ne
+        3  deux ou trois
+        3  de la coulée
+        3  n'était pas une
+        3  tout le monde
+        3  travée dix neuf
+
+  DEBUTS DE PHRASE
+      il×31  on×17  c'était×14  le×11  les×8  andrew×8  elle×8  des×7  ce×7  la×6  personne×6  une×6  ça×6  ils×5  pas×4
+
+  ADVERBES EN -MENT
+      bâtiment×3  comment×1  seulement×1  l'environnement×1  légèrement×1  nettement×1  l'emplacement×1  correctement×1  hochement×1  lentement×1  précisément×1
+
+  PHRASES OÙ IL ET ELLE COHABITENT SANS NOM PROPRE : 3
+      • Le mot ne voulait plus dire grand-chose : il n'y avait ni vitre ni châssis, rien qu'un quart du complexe où la coulée était chez elle.
+      • Ça n'avait rien d'extraordinaire : une capsule pousse où elle pousse, personne n'a jamais choisi l'emplacement d'une seule d'entre elles, et il y en a
+      • On aurait dit une excroissance que la coulée s'était faite à elle-même et qu'elle avait poussée à l'écart pour ne pas salir ce qu'il y avait autour.
+
+  LES CINQ PLUS LONGUES
+      [56 mots] Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du seau quand on relevait l'outil et qui ne se décidaient pas à tomber, une membrane formée en surface qui se plissait quand on marchait à côté, et dessous la masse qui continu
+      [37 mots] En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
+      [35 mots] Toutes les capsules n'étaient pas aussi régulières qu'annoncé, et il arrivait qu'une série se termine sur des relevés étranges ; autant s'assurer que celui qui en sortait n'avait pas été touché d'une manière ou d'une autre.
+      [34 mots] Il venait de la coulée et ça se voyait : manches roulées, avant-bras verts jusqu'au coude, et cette odeur de tige coupée que les gens de la serre traînent partout et ne sentent plus.
+      [34 mots] C'était arrivé deux fois depuis qu'il était là, et les deux fois quelqu'un s'était retrouvé debout tout seul au milieu de la coulée, sans miroir, sans eau, sans personne à qui donner son nom.
+
+
+### EPILOGUE — Épilogue
+------------------------------------------------------------------------------
+  2552 mots, 117 blocs (73 paragraphes, 44 répliques)
+  dialogue : 38 % des blocs
+
+  PHRASES  156 au total, 12.5 mots en moyenne, médiane 11
+           36 de 5 mots ou moins (23 %)
+           1 de 40 mots ou plus, dont 0 de 50 et plus
+           la plus longue : 40 mots
+
+  PARAGRAPHES  26.8 mots en moyenne, 25 d'une seule phrase (34 %)
+
+  TEMPS  imparfait 184  |  passé simple 58  |  plus-que-parfait 18  |  présent de vérité 1
+
+  PONCTUATION pour 1000 mots  virgule 67  |  tiret 20  |  point-virgule 1  |  deux-points 6  |  parenthèse 0
+
+  VOCABULAIRE  804 mots distincts, richesse 0.315
+
+  MOTS QUI REVIENNENT (6 fois ou plus)
+       21  andrew
+       18  deux
+       13  eliott
+       13  c'était
+       11  d'un
+       11  petit
+       11  tête
+       10  quelque
+        9  grille
+        9  petits
+        9  qu'il
+        9  quelqu'un
+        8  devant
+        8  côté
+        8  regarda
+        8  c'est
+        8  sais
+        7  qu'on
+        7  avant
+        7  yeux
+        7  chose
+        7  j'avais
+        7  d'une
+        6  s'en
+        6  mains
+        6  femme
+        6  main
+        6  voir
+        6  dire
+        6  vers
+        6  l'autre
+        6  trop
+        6  j'ai
+
+  GROUPES DE DEUX MOTS (4 fois ou plus)
+       10  la tête
+        8  la grille
+        6  la main
+        5  quelqu'un qui
+        5  un petit
+        5  je sais
+        5  quelque chose
+        5  la femme
+        5  quelque part
+        4  que c'était
+        4  se tourna
+        4  tourna vers
+        4  les yeux
+        4  de l'autre
+
+  GROUPES DE TROIS MOTS (3 fois ou plus)
+        4  se tourna vers
+        3  le long de
+        3  leva la tête
+        3  je sais pas
+
+  DEBUTS DE PHRASE
+      il×45  andrew×15  elle×14  eliott×11  les×8  la×5  puis×5  ils×4  le×4  deux×3  un×3  une×3  june×3  et×3  plus×2
+
+  ADVERBES EN -MENT
+      mouvement×3  exactement×3  vraiment×2  doucement×1  tellement×1  légèrement×1  bruissement×1  ronflement×1  longuement×1  immédiatement×1  seulement×1  haussement×1
+
+  PHRASES OÙ IL ET ELLE COHABITENT SANS NOM PROPRE : 1
+      • Il y avait une réponse quelque part, il la chercha deux ou trois secondes, et elle ne vint pas.
+
+  LES CINQ PLUS LONGUES
+      [40 mots] Il n'y eut ni annonce ni discours : deux battants qu'on tira vers l'intérieur, et un homme qui sortit d'un pas, suivi de cinq berceurs qui se répartirent le long de la file sans qu'on ait à leur dire où aller.
+      [33 mots] Il n'y avait rien à répondre à ça, et surtout il n'écoutait plus vraiment : derrière la grille, il y avait des petits pas précipités et des murmures enjoués ; c'était plus fort que lui.
+      [31 mots] Dans les faits ça ne tombait jamais juste : les plus jeunes étaient presque tous pris au cas par cas, et ceux de sept et huit ans formaient des groupes plus gros.
+      [30 mots] Elle n'eut pas l'air surprise — elle devait s'y attendre — mais son visage se détendit un peu, et elle fit un petit mouvement du menton, deux centimètres, qui voulait dire viens.
+      [30 mots] Il ne cherchait pas à remettre les morceaux dans un ordre qui aurait tenu debout — il avait passé des semaines à faire exactement ça, et ça n'avait servi à rien.
+
+
+==============================================================================
+ENSEMBLE  8573 mots, dont 7468 hors dialogue, en 579 phrases de recit
+          12.9 mots par phrase de recit
+          imparfait 666 contre passé simple 162
+          122 phrases courtes (≤5 mots), 3 longues (≥40)
