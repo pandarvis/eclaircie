@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Le trajet se pose sur le grand chemin`, e:`acquis`, t:[`visuel`,`fabrication`],
+  v:`est-ce que tu vois les visuels que tu crées ? on dirait que non. tu peux pas te les publier à toi-même pour les vérifier avant de me les proposer ?`,
+  q:`⛔ **Je les vois — et c'est bien la réponse la plus gênante.** *Je fabrique une capture du plan dans un navigateur et je la regarde à chaque fois.* **Ce que je ne faisais pas, c'est la comparer au tracé de l'autrice.** Mes contrôles sont mécaniques — aucun bâtiment traversé, rien qui déborde — et ils étaient tous verts pendant que la forme était fausse.
+
+🔴 **La cause : le routeur cherche le plus court, et le plus court serpente entre les enclos.** *L'autrice ne demandait pas le plus court, elle demandait le chemin d'en bas.*
+
+✅ **Le trajet ne se cherche plus, il se pose.** *On reprend les points du grand chemin lui-même, dans l'ordre, et on y accroche les deux bouts.* **Il suit donc exactement l'arc sud, par construction, et il ne peut plus s'en écarter.**` },
+
 { d:`19 août`, s:`Le trajet prend le chemin d'en bas, et il ne reste qu'un plan`, e:`acquis`, t:[`monde`,`visuel`],
   v:`on est quasi bon sauf pour le trajet : je veux qu'ils passent sur le chemin d'en bas comme mon tracé rouge. tu peux en profiter pour supprimer les 2 autres propositions du damier et de la couronne, ils sont obsolètes.`,
   q:`✅ **Andrew et Isaac ne coupent plus par le milieu.** *Ils entrent au nord-ouest, rejoignent le grand chemin à l'ouest et suivent son arc sud :* **sous le local technique, sous les petites bêtes, sous le poulailler et les poules, sous le pré des chèvres**, puis ils remontent à l'est et entrent au centre médical par la porte du dessous. *La mare et le pré des poneys leur restent au nord — ils les voient, ils ne les traversent pas.*
