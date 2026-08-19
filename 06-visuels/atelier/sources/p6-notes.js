@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Les cabanons ne se chevauchent plus`, e:`acquis`, t:[`visuel`],
+  v:`les cabanons se chevauchent.`,
+  q:`⛔ **Ce n'étaient pas les bâtiments, c'étaient leurs étiquettes.** *Les rectangles ne se touchaient pas — le contrôleur le disait — mais leur nom était écrit à la verticale, faute de largeur, et une étiquette tournée déborde chez le voisin.* **Mon contrôle ne regarde que les formes, jamais le texte : il était vert pendant que le plan était illisible.**
+
+✅ **Les petits bâtiments posent leur nom dessous, à l'horizontale**, comme ceux de la fermette. *Tourner une étiquette de quarante pixels ne la rend pas lisible, ça la rend tournée.*
+
+⚠ **Et les quatre se sont écartés :** *le cabanon du nord monte entre le terrain et les dortoirs 1, celui de l'est et le garage se séparent, la loge s'en va contre le mur ouest — elle mordait le chemin.*` },
+
 { d:`19 août`, s:`Le trajet se pose sur le grand chemin`, e:`acquis`, t:[`visuel`,`fabrication`],
   v:`est-ce que tu vois les visuels que tu crées ? on dirait que non. tu peux pas te les publier à toi-même pour les vérifier avant de me les proposer ?`,
   q:`⛔ **Je les vois — et c'est bien la réponse la plus gênante.** *Je fabrique une capture du plan dans un navigateur et je la regarde à chaque fois.* **Ce que je ne faisais pas, c'est la comparer au tracé de l'autrice.** Mes contrôles sont mécaniques — aucun bâtiment traversé, rien qui déborde — et ils étaient tous verts pendant que la forme était fausse.

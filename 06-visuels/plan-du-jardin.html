@@ -390,10 +390,10 @@ const PLANS=[
   ['bat',406,562,100,52,'Dortoirs 7','',5],
   ['bat',548,556,100,52,'Dortoirs 8','',-6],
   ['bat',670,508,106,56,'Dortoirs 9','Bâti trente ans après les autres, avec le 8. Plus grand, fenêtres plus hautes, crépi d\'une autre teinte.',8],
-  ['cab',298,140,46,28,'Cabanon',''],
-  ['cab',704,270,46,28,'Cabanon',''],
-  ['cab',232,400,44,28,'Loge',''],
-  ['cab',712,300,44,28,'Garage','']],
+  ['cab',300,96,46,26,'Cabanon',''],
+  ['cab',700,256,46,26,'Cabanon',''],
+  ['cab',124,300,44,26,'Loge',''],
+  ['cab',706,316,46,26,'Garage','']],
  jeux:[[196,214,92,62,'Aire de jeu','toboggan'],[810,180,92,58,'Aire de jeu','balancoire'],[700,104,58,46,'Bacs à sable','']],
  trous:[[196,520,38,'Les semelles du cinquième groupe']],
  fresques:[[[160,100],[500,66]],[[540,62],[890,110]],[[928,340],[900,540]],[[850,590],[220,606]]],
@@ -667,7 +667,7 @@ function dessine(p){
     /* Les batiments de la fermette sont petits : leur nom se pose dessous,
        a l'horizontale. Tourner une etiquette de trente pixels ne la rend pas
        lisible, ca la rend seulement tournee. */
-    const dessous = dedansAutre || cls==='ferme';
+    const dessous = dedansAutre || cls==='ferme' || petit;
     const px=x+w/2, py=dessous ? y+h+11 : y+h/2+3;
     const e=el('text',{x:n2(px),y:n2(py),
       class:'etiq'+(cls==='ferme'?' paille':''),'text-anchor':'middle'},cE);
