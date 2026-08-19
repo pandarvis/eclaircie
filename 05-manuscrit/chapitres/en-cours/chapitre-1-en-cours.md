@@ -126,9 +126,13 @@ Il la regarda. Elle était belle.
 
 L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu.
 
+— Tu n'en as pas vu, à l'école ? dit Andrew.
+
+— Oh si, si. Mais ce n'est pas la même chose que de les voir en vrai !
+
 — Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans, se souvint Andrew en considérant son sourire béat.
 
-Personne ne pouvait lui en vouloir. Il venait tout juste de quitter les bancs de l'école et il avait encore des cours du soir. Ça faisait à peine un mois qu'il était là, un apprenti modèle qui apprenait vite.
+Personne ne pouvait lui en vouloir. Il avait encore des cours du soir, et ça faisait à peine un mois qu'il était là. Un apprenti modèle, qui apprenait vite.
 
 Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.
 
