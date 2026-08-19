@@ -45,6 +45,13 @@ avait fait disparaître la couleur de la coulée.
 **`pdf3.py` n'imprime rien.** Il écrit une page HTML. Passer directement un
 chemin `.pdf` en sortie produit un fichier HTML déguisé en PDF.
 
+**Un accent grave dans une note ferme le gabarit qui la contient.** Les notes sont écrites
+dans des gabarits délimités par des accents graves : en poser un dans le texte coupe le
+fichier en deux et l'écran reste blanc. `node --check` l'attrape — **encore faut-il lire ce
+qu'il dit.** `fabriquer.sh` finit désormais par `FABRICATION OK` : *si cette ligne manque,
+on ne commite pas.* Ne jamais faire passer la fabrication par `| tail` dans une chaîne `&&` :
+le code de retour devient celui de `tail`, et l'erreur passe inaperçue.
+
 **Un heredoc de shell avale les antislashs d'une expression régulière.** Un motif
 `(...)` écrit dans un `python << EOF` arrive comme `` simple, c'est-à-dire un
 caractère d'effacement, et le motif ne trouve plus rien — **sans erreur, en annonçant

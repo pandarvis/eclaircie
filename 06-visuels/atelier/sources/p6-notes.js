@@ -1007,6 +1007,188 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`L'atelier montrait un plan vieux de deux corrections`, e:`acquis`, t:[`atelier`,`méthode`],
+  v:`c'est trop jaune par rapport au reste, et ça accroche le regard. tu me réduis encore la luminescence stp`,
+  q:`🔴 **Elle regardait une version que j'avais déjà corrigée deux fois.** *L'atelier ne lit pas la page du jardin : il en garde une copie figée, versée par un script. J'éditais la page, je vérifiais la page, je livrais la page — et l'atelier, lui, dormait sur l'ancienne.*
+
+🔴 **J'ai vérifié ce que je modifiais, pas ce qu'elle regarde.** C'est le même angle mort que les contrôleurs : ils cherchent des collisions, pas des orphelins ; ici je cherchais une couleur, pas une copie en retard.
+
+✅ **La fabrication refuse désormais de tourner si la copie a pris du retard** : l'injecteur signe ce qu'il verse, la fabrication recalcule la signature et s'arrête. *Testé en la faussant exprès — elle s'arrête.* **Aucune correction du plan ne peut plus rester invisible.**` },
+
+{ d:`20 août`, s:`Le soleil rentre dans le rang des couleurs`, e:`acquis`, t:[`visuel`],
+  v:`c'est un peu trop lumineux ahah, plus sobre, meme teinte luminosité que le réfectoire, ça sera très bien`,
+  q:`✅ **Le halo s'éteint et la teinte redescend à celle du réfectoire** — même or, même fond, même luminosité que n'importe quel bâtiment commun. *J'avais fait briller le seul bâtiment qui n'a pas besoin qu'on le désigne.*
+
+🔴 **C'est la forme qui fait le soleil, pas la lumière.** *Sept ailes larges à la base et une cour hachurée : ça suffit, et ça se voit de loin sans qu'un halo vienne le souligner.* **Un plan ne souligne pas.**
+
+🔵 Les hachures de la cour étaient tombées à .4 avec le reste et ne se lisaient plus. Elles remontent à .55 : c'est la cour qui distingue ce bâtiment, pas sa brillance.` },
+
+{ d:`20 août`, s:`Le bâtiment soleil passe au jaune orangé`, e:`acquis`, t:[`visuel`],
+  v:`on est bon. si tu peux lui donner une teinte plus jaune orangé que violet, ça serait nickel !`,
+  q:`✅ **Le violet venait de la fin de vie, et la fin de vie n'existe plus.** *C'était la couleur que j'avais choisie quand je croyais le bâtiment tabou.* **Il passe au jaune orangé, et le mot, la forme et la teinte disent enfin la même chose.**
+
+🔴 **Et il répand un peu de lumière** — un halo chaud qui enfle et retombe sur onze secondes. *Trois cercles empilés laissaient voir leurs bords : c'est devenu un dégradé, il s'éteint tout seul.* **C'est le seul bâtiment du jardin qui éclaire, et c'est celui-là.**` },
+
+{ d:`20 août`, s:`Les ailes du soleil se rétrécissent vers la pointe`, e:`acquis`, t:[`visuel`],
+  v:`ton "soleil" ne fait pas soleil, regarde bien. les pointes terminent plus large que la partie attachée... moi c'est large à la base et ça se rétrécit.`,
+  q:`⛔ **J'avais lu le croquis à l'envers.** *Mes ailes s'évasaient vers l'extérieur : ça donne des palettes, ou une roue dentée.* **Un rayon part large et finit en pointe** — c'est la seule chose qui distingue un soleil d'un engrenage.
+
+✅ **Inversé :** *l'aile occupe presque toute la face de l'anneau à sa base, et se réduit au tiers à sa pointe.* **Les encoches entre les ailes deviennent des V profonds, comme sur le dessin.**` },
+
+{ d:`20 août`, s:`Le bâtiment soleil a sept ailes`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`houla t'y es pas du tout pour la forme en soleil. moi je pensais à un truc dans ce style-là tu vois, le hachuré c'est la cour intérieure. [croquis]`,
+  q:`⛔ **J'avais fait un disque avec des piquants.** *Un rond, et seize petits traits plantés dessus — un soleil de dessin d'école, pas un bâtiment.*
+
+✅ **Le croquis de l'autrice montre autre chose : un anneau, et des ailes en trapèze qui s'élargissent vers l'extérieur, séparées par des encoches profondes.** *Ce sont des bâtiments, pas des rayons. C'est la forme qui fait le soleil, pas un ornement posé dessus.*
+
+🔴 **Sept ailes : six chambres et la véranda.** *Le compte était déjà dans la fiche, il ne demandait qu'à devenir un plan.* **Et la cour est hachurée, comme sur le croquis : c'est ce qui la distingue d'un trou.**` },
+
+{ d:`20 août`, s:`Le jardin a été aménagé, et la section 0 prend la forme d'un soleil`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`le lieu ne s'est absolument pas fait tout seul ! il a été créé par l'homme comme on a créé des ehpad, des parcours de fin de vie, etc. [...] ça ne me choque pas, c'est toi qui as considéré qu'elle était recluse, comme si c'était tabou. ça ne l'est pas. après, le bâtiment mériterait effectivement de ressembler à une sorte de soleil, comme s'il avait été construit sur une base arrondie avec une petite cour intérieure visible depuis le ciel. [...] ils marchent d'un pas décidé, disons une dizaine de minutes.`,
+  q:`⛔ **Ma critique du plan reposait sur un contresens.** *Je lui reprochais d'être trop régulier pour un lieu qui se serait fait tout seul.* **Le jardin n'a jamais été laissé à lui-même : il a été aménagé, comme on aménage un établissement.** La régularité des dortoirs et l'ovale du grand chemin ne sont pas des défauts, ce sont des preuves. *Le texte du plan le dit maintenant.*
+
+⛔ **Et j'avais rendu la section 0 recluse sans qu'on me le demande.** *Aucune allée ne la longe, on ne voit que le toit, personne ne croise personne — j'avais installé un tabou qui n'existe pas.* **Retiré : c'est un bâtiment du jardin comme les autres, et les petits savent très bien où il est.**
+
+✅ **En revanche elle prend la forme que les petits lui voient :** *un plan rond, une petite cour plantée au milieu qu'on ne voit que d'en haut, des redents sur le pourtour.* **De loin personne n'y verrait un soleil ; sur un plan, un enfant si — et c'est exactement le point.**
+
+⚠ **Le trajet fait 657 mètres à l'échelle, soit huit minutes d'un pas décidé.** *L'autrice arrondit à une dizaine, et c'est elle qui tient le rythme.*` },
+
+{ d:`20 août`, s:`La dernière tache sans nom, et le code mort avec elle`, e:`acquis`, t:[`visuel`],
+  v:`tu as encore une zone bizarre ici. après moi je ne vois rien de plus.`,
+  q:`⛔ **C'était une pelouse dessinée du temps où trois plans coexistaient.** *Elle servait à marquer un espace ouvert dans un jardin qui n'en avait pas encore.* **Depuis, tout le jardin est vert : elle ne disait plus rien, et elle débordait sous les dortoirs 1.**
+
+✅ **Le code qui la dessinait part avec elle**, ainsi que celui des anneaux, resté du plan de la couronne. *Un rendu qui ne dessine plus rien finit par redessiner quelque chose.*
+
+🔴 **C'est la troisième fois qu'un reste d'un plan supprimé remonte à la surface** — après le bac à sable du plan A que j'avais déplacé par erreur, et les semelles. *Supprimer trois plans sur cinq laisse des traces qu'aucun contrôle ne voit : mes vérificateurs regardent les collisions, pas les orphelins.*` },
+
+{ d:`20 août`, s:`Les portes s'alignent sur le mur, la ride reste dans l'eau`, e:`acquis`, t:[`visuel`],
+  v:`pourquoi le trait des portes n'est pas aligné avec le mur ? et pour l'eau, les pointillés de l'animation sortent de la zone de la mare.`,
+  q:`⛔ **Les portes s'orientaient sur le rayon partant du centre du jardin.** *Sur un cercle ça marcherait ; le mur est une courbe irrégulière, et le rayon ne coïncide presque jamais avec la tangente.* **Chaque porte tombait donc de travers, d'autant plus que le mur s'écarte du cercle.**
+
+✅ **On demande maintenant au tracé lui-même où il passe et dans quel sens il va.** *Le vantail se pose dans l'axe du mur, les barreaux en travers, et l'étiquette part vers le dehors le long de la normale.* **La porte est posée sur le mur, plus à côté.**
+
+✅ **La ride de la mare était une seconde tache tirée au hasard**, et rien ne la retenait dans l'eau. *Elle vient du même contour écrit, réduit de deux cinquièmes : elle ne peut plus sortir.*` },
+
+{ d:`19 août`, s:`Deux cabanons et les semelles s'en vont`, e:`acquis`, t:[`visuel`,`monde`],
+  v:`fais-moi sauter les 2 cabanons. et aussi, c'est quoi cette zone "les semelles du cinquième groupe" ?? je sais pas ce que ça représente, ça dégage aussi.`,
+  q:`⛔ **Les semelles étaient une bonne idée écrite et une mauvaise idée dessinée.** *Le béton d'un bâtiment jamais construit, qui dépasse encore de l'herbe — ça se raconte en une phrase et le lecteur voit tout de suite.* **Sur un plan, ça devient une tache sombre sans légende, et l'autrice a raison de demander ce que c'est.** Le dessin part, et le texte qui l'expliquait part avec lui : *une imperfection qui a besoin d'une notice n'est pas une imperfection, c'est une énigme.*
+
+✅ **Les deux cabanons anonymes sautent aussi.** *Ils ne servaient rien et ne disaient rien.* **Il reste le cabanon de l'est et le garage, qui appartiennent tous les deux au centre médical.**` },
+
+{ d:`19 août`, s:`Les cabanons ne se chevauchent plus`, e:`acquis`, t:[`visuel`],
+  v:`les cabanons se chevauchent.`,
+  q:`⛔ **Ce n'étaient pas les bâtiments, c'étaient leurs étiquettes.** *Les rectangles ne se touchaient pas — le contrôleur le disait — mais leur nom était écrit à la verticale, faute de largeur, et une étiquette tournée déborde chez le voisin.* **Mon contrôle ne regarde que les formes, jamais le texte : il était vert pendant que le plan était illisible.**
+
+✅ **Les petits bâtiments posent leur nom dessous, à l'horizontale**, comme ceux de la fermette. *Tourner une étiquette de quarante pixels ne la rend pas lisible, ça la rend tournée.*
+
+⚠ **Et les quatre se sont écartés :** *le cabanon du nord monte entre le terrain et les dortoirs 1, celui de l'est et le garage se séparent, la loge s'en va contre le mur ouest — elle mordait le chemin.*` },
+
+{ d:`19 août`, s:`Le trajet se pose sur le grand chemin`, e:`acquis`, t:[`visuel`,`fabrication`],
+  v:`est-ce que tu vois les visuels que tu crées ? on dirait que non. tu peux pas te les publier à toi-même pour les vérifier avant de me les proposer ?`,
+  q:`⛔ **Je les vois — et c'est bien la réponse la plus gênante.** *Je fabrique une capture du plan dans un navigateur et je la regarde à chaque fois.* **Ce que je ne faisais pas, c'est la comparer au tracé de l'autrice.** Mes contrôles sont mécaniques — aucun bâtiment traversé, rien qui déborde — et ils étaient tous verts pendant que la forme était fausse.
+
+🔴 **La cause : le routeur cherche le plus court, et le plus court serpente entre les enclos.** *L'autrice ne demandait pas le plus court, elle demandait le chemin d'en bas.*
+
+✅ **Le trajet ne se cherche plus, il se pose.** *On reprend les points du grand chemin lui-même, dans l'ordre, et on y accroche les deux bouts.* **Il suit donc exactement l'arc sud, par construction, et il ne peut plus s'en écarter.**` },
+
+{ d:`19 août`, s:`Le trajet prend le chemin d'en bas, et il ne reste qu'un plan`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`on est quasi bon sauf pour le trajet : je veux qu'ils passent sur le chemin d'en bas comme mon tracé rouge. tu peux en profiter pour supprimer les 2 autres propositions du damier et de la couronne, ils sont obsolètes.`,
+  q:`✅ **Andrew et Isaac ne coupent plus par le milieu.** *Ils entrent au nord-ouest, rejoignent le grand chemin à l'ouest et suivent son arc sud :* **sous le local technique, sous les petites bêtes, sous le poulailler et les poules, sous le pré des chèvres**, puis ils remontent à l'est et entrent au centre médical par la porte du dessous. *La mare et le pré des poneys leur restent au nord — ils les voient, ils ne les traversent pas.*
+
+⛔ **Le damier et la couronne sont supprimés.** *Ils avaient servi à poser la question — qui passe devant la section 0 — et la réponse est prise.* **Il ne reste que la fermette, et le document s'appelle désormais le plan du jardin, sans pluriel.**` },
+
+{ d:`19 août`, s:`La section 0, le bâtiment soleil`, e:`acquis`, t:[`monde`],
+  v:`plutôt que "fin de vie" : j'aime pas trop... on pourrait le nommer le bâtiment soleil, surnommé comme ça parce que les enfants ont toujours l'impression de voir dans sa forme un soleil. tu nommes "section 0 (bâtiment soleil)", 0 pour 0 ans. [...] je comprends pas les traits en pointillé vert. [...] le trajet d'Andrew et Isaac arrive depuis le nord-ouest, passe par le chemin d'en dessous, longe le clapier, le poulailler, le pré des chèvres et ils peuvent voir le lac et le pré des chevaux au loin. leur point doit finir en dessous, la porte du centre médical est en dessous du bâtiment.`,
+  q:`🔴 **Le mot fin de vie disparait du monde.** *C'est le bâtiment soleil, et c'est le seul nom que les petits emploient : ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* **Le registre, lui, dit section 0 — zéro comme l'âge.**
+
+⚠ **Un nom d'administration et un nom d'usage pour la même porte, et les deux sont vrais.** *C'est exactement le genre d'écart qui rend un monde habité : le registre ne parle pas la langue de ceux qui vivent dedans.*
+
+✅ **Les pointillés verts étaient les fresques du mur et rien ne le disait.** *Ils entrent dans la légende, et ils se cliquent : de l'extérieur le mur est nu, de ce côté-ci il est peint sur toute sa longueur, par ceux qui vivent là.*
+
+✅ **Le trajet finit sous le centre médical**, parce que la porte est dessous.` },
+
+{ d:`19 août`, s:`La sortie est devient droite, et l'écurie rentre`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`ton chemin nord-ouest / est va presque jusqu'à l'entrée est, puis revient en arrière, monte et contourne tous les bâtiments par la droite pour sortir. une fois que le chemin est sorti de l'étendue, il passe sous le centre médical et on est direct à la sortie. l'écurie doit être dans l'étendue, accolée au pré des poneys.`,
+  q:`⛔ **Le détour n'était pas un caprice du tracé : la porte était mal placée.** *Elle tombait pile derrière le centre médical, et il ne restait qu'une fente de vingt pixels entre le bâtiment et le mur. Le chemin ne pouvait pas y entrer, alors il remontait contourner tout le quartier par le nord.*
+
+✅ **La porte descend au bout du passage qui court sous le centre médical**, entre lui et la fin de vie. *La route passe dessous et sort tout droit : seize points au lieu de cinquante et un.*
+
+✅ **L'écurie est dans l'étendue, dans le pré des poneys.** *Elle était dehors, de l'autre côté du grand chemin, ce qui n'avait aucun sens : les poneys auraient eu à traverser pour rentrer le soir.*` },
+
+{ d:`19 août`, s:`Le grand chemin, et les deux routes dictées`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`ce que tu appelles l'anneau je ne sais pour quelle raison, c'est le grand chemin qui délimite l'étendue du reste du jardin. [...] le chemin qui commence à l'entrée nord-ouest passe entre l'aire de jeu et le dortoir 5 et rejoint le grand chemin. [...] entre les bacs à sable et le réfectoire, entre le dortoir 3 et la salle de jeu, bifurque à gauche de l'écurie. [...] la porte de service (qui d'ailleurs doit être une porte normale). [...] entre le gymnase et le dortoir 7. [...] un carrefour quasiment au centre de l'étendue. le chemin du nord-ouest rejoint celui du service, et le chemin du sud-ouest rejoint celui de l'entrée principale. [...] le 1er passe entre le lac et le local technique, puis entre le pré des poneys et la cabane. le second passe entre le clapier et le poulailler, puis entre le lac et le pré des poneys, et longe l'abri par la droite.`,
+  q:`⛔ **Le mot était faux et il induisait le dessin en erreur.** *J'appelais anneau ce qui est le grand chemin — celui qui délimite l'étendue du reste du jardin.* **Un anneau, on le longe ; un grand chemin, on le prend.** Renommé partout, et sa fiche le dit maintenant.
+
+✅ **Deux routes, pas cinq.** *Nord-ouest vers l'est, sud-ouest vers la principale, et elles se croisent au milieu de l'étendue.* **Chaque corridor est celui que l'autrice a nommé** : entre l'aire de jeu et les dortoirs 5, entre les bacs à sable et le réfectoire, entre les dortoirs 3 et la salle de jeu, à gauche de l'écurie, entre le gymnase et les dortoirs 7, entre le lac et le local technique, entre le pré des poneys et la cabane, entre le clapier et le poulailler, entre le lac et le pré des poneys.
+
+⚠ **Cinq bâtiments ont dû bouger pour que ces passages existent.** *Le réfectoire recule et le bac à sable revient au nord — il n'y avait aucun passage entre eux. Le local technique descend, la cabane descend, l'abri remonte à l'ouest pour que la seconde route passe bien à sa droite. Le clapier suit.* **La porte de service est devenue une porte comme les autres : elle s'appelle est.**` },
+
+{ d:`19 août`, s:`Cinq réseaux de chemins, tracés par le calcul`, e:`ouvert`, t:[`monde`,`visuel`],
+  v:`tu prends mon screen et tu fais les MÊME chemins. un chemin qui commence d'une porte et qui part vers une autre sans interruption. on ne doit pas passer à travers les bâtiments. tu dois corriger ensuite le trajet d'Andrew en conséquence. tu testes, tu es critique, tu me proposes 5 versions à mon retour avec toutes les contraintes énoncées. les prés et enclos et le lac doivent être contenus toujours dans l'étendue.`,
+  q:`⛔ **J'ai arrêté de router à la main : c'était la cause de tout.** *Dans un jardin aussi dense, déplacer un chemin pour libérer un bâtiment en bouche un autre. Trois passes de corrections à l'œil n'avaient rien réglé.*
+
+✅ **Un routeur remplace la main.** *L'espace libre du jardin devient une grille ; un chemin y est cherché par A-étoile. Il ne peut pas traverser un bâtiment, la mare, un pré ni un enclos, parce que ces cases n'existent pas pour lui.* **Chaque version se distingue par ses points de passage imposés, pas par un tracé bricolé.**
+
+🔴 **Cinq réseaux, et ils décident chacun ce qu'Andrew voit en traversant :** *La croix* (tout le monde passe au milieu), *Le contour* (personne n'entre), *La traverse unique* (seule la route du centre médical entre), *Le Y* (les deux routes partagent un tronçon et créent une place), *Les deux rives* (deux traversantes parallèles, la mare entre elles, et deux personnes peuvent passer sans se voir).
+
+⚠ **Trois choses ont dû bouger pour que ça tienne :** *le bac à sable rejoint l'aire de jeu de l'ouest — il ne laissait que six pixels entre lui et le réfectoire, aucun chemin ne pouvait descendre de la grille principale ; le local technique descend le long de la margelle ; les deux prés rétrécissent pour tenir dans l'étendue.*` },
+
+{ d:`19 août`, s:`Aucun chemin ne mord un bâtiment, et la mare a une forme écrite`, e:`acquis`, t:[`visuel`,`fabrication`],
+  v:`ton lac grignote le chemin de droite maintenant. au passage il n'est toujours pas de la bonne forme. il part toucher les chemins et au fur et à mesure, le chemin de base passe à travers les bâtiments. on n'est pas bon. attention, les chemins ne doivent pas rentrer dans des bâtiments ou local, cabanon, etc, le lac ne doit pas toucher non plus !`,
+  q:`⛔ **Je corrigeais à l'œil, et c'est pour ça que chaque réparation en cassait une autre.** *Le contrôleur existant ne voyait que les rectangles entre eux : il ne regardait pas les tracés.* **Deux outils neufs règlent ça pour de bon.**
+
+✅ **verifier-les-chemins.py ouvre la page dans un navigateur et mesure les vrais tracés**, pas les points dont ils sont issus — *ils sont lissés au rendu, leur forme ne se calcule pas.* Il teste la largeur du chemin, pas son axe : **une allée de neuf pixels mord un bâtiment que son axe évite.** Treize fautes au premier passage.
+
+✅ **degager-les-chemins.py les répare :** *pour chaque bâtiment qui touche une voie, il cherche le plus petit déplacement qui le dégage — seize directions, par pas de deux — sans le sortir du mur, sans le mettre dans l'eau, sans le poser sur un voisin.* **Onze bâtiments et la mare déplacés, plus rien ne mord rien.**
+
+🔴 **La mare ne sera plus jamais tirée au hasard : son contour est écrit, quinze points, une fois pour toutes.** *C'est la silhouette que l'autrice a retenue, et aucun ajout ailleurs ne peut plus la déformer.*` },
+
+{ d:`19 août`, s:`Le jardin respire, et la mare arrête de changer de forme`, e:`acquis`, t:[`visuel`],
+  v:`il faudrait aussi un peu éclaircir le grand chemin car dessiné comme tel, on a visuellement une frontière entre tout le jardin et l'étendue. pourtant l'étendue n'est pas fermée, il reste un espace vert comme le reste. il y a de l'herbe partout et des arbres partout. si ça fait too much, tu enlèves les herbes et tu mets une petite animation sur certains arbres comme une luminescence douce qui varie -> je veux que ça respire. [...] à chaque fois tu me modifies la forme de la mare, c'est dommage. garde celle-ci, plus irrégulière.`,
+  q:`🔴 **La mare changeait de forme à chaque passe, et ce n'était pas un caprice.** *Les contours irréguliers sortent d'une suite de nombres unique et partagée. Dès que j'ajoutais ou retirais quelque chose dessiné avant elle — de l'herbe, des arbres — la suite se décalait et la mare recevait d'autres nombres.* **Chaque forme a maintenant sa propre graine : la mare, sa surface, chaque pré, chaque enclos. Elles ne bougeront plus, quoi que j'ajoute ailleurs.**
+
+✅ **La grande allée s'éclaircit.** *Dessinée épaisse et contrastée, elle faisait frontière : l'étendue avait l'air clôturée alors qu'elle est du vert comme le reste.* **Un chemin n'est pas une clôture : on le voit, on ne bute pas dessus.**
+
+⛔ **L'herbe saute, et le jardin respire.** *L'autrice avait prévu le repli et c'était le bon.* **Des arbres partout, l'étendue comprise — sauf dans les prés et les enclos — et un sur trois porte une lueur douce qui enfle et retombe, jamais au même moment que son voisin.**` },
+
+{ d:`19 août`, s:`Le mur se refermait mal, et Andrew coupait à travers le gymnase`, e:`acquis`, t:[`visuel`],
+  v:`il y a trop de brins d'herbe je trouve et d'après ce que je vois il y a zéro arbre. je dis pas d'en mettre dans les prés, mais faudrait qu'il y en ait quand même dans l'étendue. l'enceinte finit bizarrement en haut à gauche. la mare déborde sur le chemin, on dirait qu'il existe plus en bas de la mare. le chemin du haut de la mare à supprimer car ne sert à rien. le chemin à droite s'arrête avant de rejoindre le grand chemin. Andrew et Isaac traversent littéralement le gymnase et un dortoir alors qu'ils devraient être sur le chemin.`,
+  q:`⛔ **La queue en haut à gauche était un bogue de tracé, et il touchait tout le dessin.** *La fonction qui arrondit les contours partait d'un sommet et finissait au milieu d'une arête : la fermeture repassait par une ligne droite qui dépassait.* **Corrigé à la source — le mur, l'étendue et la grande allée se referment tous les trois proprement maintenant.**
+
+🔴 **Andrew et Isaac ne coupent plus à travers rien.** *Leur trajet était une ligne brisée tracée à vue, qui passait dans le gymnase et dans un dortoir.* **Il suit désormais l'allée du nord-ouest, la grande allée par le sud, puis l'allée de service.** *Vérifié sur quatre cents points le long du parcours : aucun bâtiment traversé.*
+
+✅ **La mare recule de la grande allée**, qu'elle mordait au sud, et son local technique la suit. Le chemin du haut de la mare saute, celui de droite va enfin jusqu'à l'allée.
+
+⚠ **Moins d'herbe, et des arbres dans l'étendue** — mais pas dans les prés : *une bête a besoin d'herbe, pas d'ombre, et l'ombre elle l'a déjà dans son abri.*` },
+
+{ d:`19 août`, s:`Une seule allee, et c'est elle qui delimite l'etendue`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`les chats sortent plus loin, la ou j'ai hachuré en rouge. [...] il n'y a pas d'animation sur l'herbe, un petit mouvement des traits comme si le vent passait ça serait bien. l'étendue a une délimitation pas jolie, le chemin pourrait servir de délimitation. par ailleurs on dirait qu'il y a 2 chemins. j'en veux qu'un, que tout le monde emprunte, assez large, des graviers, comme une grande allée pour piétons cyclistes. le bâtiment des poules a une orientation qui pourrait suivre la courbe de l'étendue. le clapier ne doit pas sortir de l'étendue. idéalement, les chats pourraient éviter de se balader dans les zones des autres animaux.`,
+  q:`⛔ **Les chats sortaient par où le dessin ment.** *Je testais le polygone du mur ; le mur affiché est le tracé lissé, qui rentre à l'intérieur des angles.* **On teste désormais la forme elle-même, pas ses points.** *Trois cent soixante relevés : aucun chat dehors, aucun dans un bâtiment, aucun dans la mare, aucun chez les autres bêtes.*
+
+✅ **Il y avait deux anneaux presque confondus — l'allée de ceinture et le tour de l'étendue.** *C'est ce qui faisait ce doublon qu'on voyait sans savoir le nommer.* **Il n'en reste qu'un, large, en graviers, piétons et cyclistes, et les allées des grilles viennent s'y brancher.**
+
+🔴 **L'étendue n'a plus de contour à elle : c'est l'allée qui la délimite.** *Une bordure dessinée à côté d'un chemin qui suit la même courbe, c'est une ligne de trop.*
+
+⚠ **L'herbe se voit enfin bouger** — cent soixante-dix touffes plus longues, un balancement trois fois plus ample, et chacune à son heure.` },
+
+{ d:`19 août`, s:`Des points, pas des têtes, et une surbrillance qui se voit`, e:`acquis`, t:[`visuel`],
+  v:`le chat, il passe dans l'eau et il traverse les batiments ahah [...] le clapier se superpose avec le local technique et... tant pis, fais juste des points pour les animaux de differentes couleurs parce que c'est pas super joli en fait... et la surbrillance, elle est pas assez dominante si tu compares avec la ruche.`,
+  q:`⛔ **Le chat marchait sur l'eau.** *Je ne testais que l'enceinte : il traversait la mare et les murs.* **Il connaît maintenant le bâti et la mare, et quand il bute il tourne — comme il ferait.** *Vérifié sur quatre cent vingt relevés : aucune patte dans l'eau, aucun mur traversé.*
+
+✅ **Les têtes de bêtes sautent, des points de couleur les remplacent.** *Une teinte par espèce, reportée dans la légende.* **Le plan redevient propre, et on lit l'espèce sans plisser les yeux.**
+
+🔴 **La surbrillance s'aligne sur celle de la ruche.** *Elle était timide.* **La forme s'allume en plein à l'or, et une étiquette flottante suit le curseur avec le nom du lieu** — exactement le dispositif du plan de la ruche.` },
+
+{ d:`19 août`, s:`L'étendue se traverse, et l'anneau se fait à vélo`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`ah si si, on peut faire un chemin qui traverse justement, c'est plus agréable ! on y va parce qu'on veut y aller, ou on traverse juste, tout dépend le chemin que tu veux prendre ! et autour de l'étendue, le chemin est un poil plus large, les enfants font en général le tour de l'étendue avec leur vélo ! le pointillé orangé par contre je suis pas convaincue. les chats se baladent où ils veulent, ils ont pas de patterns prédéfinis. les animaux sont bizarres, sinon tu les symbolises par une tête style emoji épuré ? je veux pas qu'il soit systématiquement affiché [le trajet]. crée moi une nouvelle porte en bas aussi. le clapier contient les lapins ET les cochons d'inde. tu peux donner un effet d'animation pour l'herbe de l'étendue ?`,
+  q:`✅ **Ma phrase était fausse et l'autrice l'a corrigée :** *je disais qu'on ne traverse pas l'étendue.* **On la traverse très bien — on y va parce qu'on veut y aller, ou on coupe juste, et tout dépend du chemin qu'on prend.** *Deux chemins la traversent maintenant, et ils se croisent près de la mare.*
+
+🔴 **L'anneau est plus large que tous les autres chemins du jardin, et c'est fait exprès : on le fait à vélo.** *Il y a un record, il n'est écrit nulle part, et tout le monde le connaît.*
+
+⛔ **Les chats n'ont plus d'itinéraire.** *Ils avaient une boucle : c'était faux.* **Ils marchent, ils tournent quand l'envie leur prend, ils s'arrêtent, et le mur les fait revenir.** *C'est bien la seule chose qui aille où elle veut dans ce monde.*
+
+⚠ **Les bêtes sont devenues des têtes.** *À quatorze pixels une silhouette entière devient une tache ; une tête reste une tête.* Le clapier prend les lapins et les cochons d'Inde ensemble, un abri s'ajoute au sud-ouest, une porte s'ouvre au sud-ouest du mur, et l'herbe de l'étendue prend le vent.` },
+
 { d:`19 août`, s:`L'étendue, les bêtes, et un plan qui bouge`, e:`acquis`, t:[`monde`,`visuel`],
   v:`tu peux rajouter des effets comme pour la ruche, des animations ? [...] je veux pouvoir avoir des trucs cliquable pour avoir une def sur la droite. donne un peu de vie à ce plan. [...] faut rajouter des paddocks pour les chevaux et les chèvres. on parle plutôt de poney d'ailleurs ou double poney au max pour que les animaux ne soient pas trop grands par rapport aux enfants. il y a aussi des poules, des petits lapins et cochons d'inde, quelques chats se baladent dans l'enceinte. on pourrait appeler la zone de l'étang et des prés "l'étendue". [...] un chemin est traversant pour que les petits puissent l'emprunter, faire le tour de la mare, voir tous les animaux. tu peux me faire une animation pour Andrew et Isaac ! c'est une deuxième ville dans une ville, c'est un paradis pour enfant !`,
   q:`✅ **L'étendue est née, et c'est le mot des petits.** *Tout ce qu'on n'a pas bâti : la mare, les prés, les enclos, les cabanes.* **L'allée en fait le tour, mais un chemin y entre exprès, passe devant chaque bête et ressort où il est entré.** *On n'y va pas en passant, on y va pour y aller.*

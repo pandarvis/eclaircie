@@ -1,5 +1,12 @@
 # Le jardin — le plan
 
+> **État au 19 août 2026, fin de journée.** *Le plan C, la fermette, est retenu ; les deux
+> autres propositions — le damier et la couronne — ont été supprimées du document, qui ne
+> montre plus qu'un plan.* **Les descriptions comparatives ci-dessous restent pour mémoire :
+> elles disent pourquoi la fermette a été choisie.** Deux mots ont changé depuis : *l'anneau*
+> s'appelle **le grand chemin**, et *les salles de fin de vie* s'appellent **la section 0**,
+> le bâtiment soleil.
+
 *Trois propositions, 19 août 2026. Le document à ouvrir est
 [`06-visuels/plan-du-jardin.html`](../06-visuels/plan-du-jardin.html) — cliquable, un onglet
 par plan. Ce fichier-ci dit ce qui est commun aux trois, ce que chacun décide, et ce qui
