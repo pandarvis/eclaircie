@@ -1,0 +1,4608 @@
+
+const VOIES = {
+  andrew: { nom: `Andrew`,  desc: `Ce monde-ci. Le présent.` },
+  commun: { nom: `Les étapes`, desc: `Le beat, sans son monde. Ni écrit, ni attribué.` },
+  joel:   { nom: `Joël`,    desc: `La vie d'avant — et le lecteur ne le sait pas.` }
+};
+
+const ACTES = [
+  { t: `Ouverture`,          c0: 0,  c1: 1 },
+  { t: `Avant la disparition`, c0: 2,  c1: 3 },
+  { t: `La disparition`,       c0: 4,  c1: 6 },
+  { t: `Le monde comme terrain`, c0: 7, c1: 8 },
+  { t: `Le registre`,          c0: 9,  c1: 13 },
+  { t: `La fausse piste s'éteint`, c0: 14, c1: 16 },
+  { t: `L'enlisement`,         c0: 17, c1: 23 },
+  { t: `La remontée`,          c0: 24, c1: 27 },
+  { t: `Le seuil franchi deux fois`, c0: 28, c1: 33 },
+  { t: `Épilogue`,             c0: 34, c1: 36 }
+];
+
+/* le tronc : le beat generique, ni ecrit ni attribue.
+   Il ne commence qu'au moment ou le recit peut se dedoubler. */
+const ETAPES = [
+  { c0: 5, c1: 5,  t: `Première visite au commissariat, pour discuter avec son acolyte` },
+  { c0: 6, c1: 6,  t: `Retour chez le témoin` },
+  { c0: 7, c1: 7,  t: `Sur le lieu de travail` },
+  { c0: 8, c1: 8,  t: `Ceux qui connaissent le suspect` },
+  { c0: 9, c1: 9,  t: `L'archive` },
+  { c0: 10, c1: 10, t: `Les recherches, en parallèle` },
+  { c0: 12, c1: 12, t: `L'homme qui était là ce jour-là` },
+  { c0: 14, c1: 14, t: `Chez le suspect` },
+  { c0: 16, c1: 16, t: `L'alibi se vérifie` },
+  { c0: 17, c1: 18, t: `Nouvelle piste` },
+  { c0: 19, c1: 21, t: `La fausse piste tombe — et on continue quand même` },
+  { c0: 22, c1: 23, t: `« Lâche l'affaire »` },
+  { c0: 24, c1: 26, t: `Seul — puis la solution` },
+  { c0: 27, c1: 27, t: `On entre` },
+  { c0: 28, c1: 29, t: `Le lieu de séquestration` },
+  { c0: 30, c1: 30, t: `La poursuite` }
+];
+
+/* ==========================================================================
+   LES LOTS — des chapitres qui font bloc
+   Ce ne sont pas les actes : un acte range, un lot se lit d'un seul tenant.
+   ========================================================================== */
+const BLOCS = [
+  { c0: 5,  c1: 16, t: `La première piste`,
+    q: `Un suspect, un alibi — et douze chapitres pour rien.` },
+  { c0: 17, c1: 21, t: `La seconde piste`,
+    q: `Elle meurt sur une erreur administrative, et personne n'a rien fait de mal.` },
+  { c0: 22, c1: 24, pic: true, t: `Le point culminant`,
+    q: `Trois chapitres, une seule scène pour le lecteur — deux hommes, deux issues.` },
+  { c0: 27, c1: 31, pic: true, vert: true, t: `La même scène, jouée deux fois`,
+    q: `Il entre seul. D'un côté deux corps ; de l'autre, un garçon vivant.` }
+];
+
+const SCENES = [
+{
+  id: `g-poste`, no: `Non écrite`, col: 5, row: `andrew`, acte: `La disparition`, gris: true,
+  face: `s4`,
+  titre: `Il rencontre Isaac`,
+  statut: `ouvert`,
+  resume: `**Andrew rend visite à Isaac au sujet de la disparition d'Eliott.** Le livre ne l'écrit pas — la carte est là à titre indicatif, pour qu'on sache où l'on en est.`,
+  produit: `*Ça a lieu, le lecteur le suppose, et on ne le lui montre pas. La scène écrite, à cette étape, est celle de Joël.*`,
+  monde: `—`, qui: [`andrew`,`isaac`],
+  gardes: [`Si elle finit par s'écrire, elle ne doit rien apprendre que le chapitre de Joël n'ait déjà donné — sinon le lecteur a deux scènes et non une.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-suspect`, no: `Non écrite`, col: 14, row: `andrew`, acte: `La fausse piste s'éteint`, gris: true,
+  face: `s12`,
+  titre: `Chez le marginal`,
+  statut: `ouvert`,
+  resume: `Le même beat, de ce côté-ci : ils vont voir l'homme de vingt-deux ans, celui des scènes 6, 7 et 9. **Le livre ne l'écrit pas.**`,
+  produit: `*C'est ce qui rend la couture possible : le lecteur a entendu parler du marginal pendant trois scènes, il croit le rencontrer, et il rencontre un homme de l'autre monde.*`,
+  monde: `—`, qui: [`andrew`,`isaac`,`marginal`],
+  gardes: [`Elle ne doit jamais s'écrire. Deux visites chez deux suspects, et le lecteur a deux affaires.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-alibi`, no: `Non écrite`, col: 16, row: `andrew`, acte: `La fausse piste s'éteint`, gris: true,
+  face: `s13`,
+  titre: `L'alibi du marginal tient`,
+  statut: `ouvert`,
+  resume: `Le même beat, de ce côté-ci. **Le livre ne l'écrit pas.**`,
+  produit: `*Les deux pistes meurent en même temps, et le lecteur n'en enterre qu'une.*`,
+  monde: `—`, qui: [`andrew`,`isaac`],
+  gardes: [`Ne jamais l'écrire, pour la même raison.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-temoin`, no: `Non écrite`, col: 6, row: `joel`, acte: `La disparition`, gris: true,
+  face: `s5`,
+  titre: `Retour chez leur mère`,
+  statut: `ouvert`,
+  resume: `**Décision de l'autrice, 16 août 2026 : le pendant de June, c'est leur mère.** Joël y retourne pour ce que le procès-verbal n'a pas retenu — l'état d'esprit, les habitudes, ce qui n'allait pas.`,
+  produit: `**Le même beat, et une asymétrie que le monde produit tout seul.** D'un côté quelqu'un dont c'est le métier de s'occuper d'un arrivant ; de l'autre, quelqu'un qui n'a pas de métier du tout. *À garder en tête en écrivant June : elle est payée pour être là, et l'autre non.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [
+    `**Rien à surveiller ici : la scène ne s'écrira pas.** La carte existe pour que l'autrice sache ce qui s'est passé de ce côté-là en écrivant celle d'en face. *Le mot « mère » peut donc y figurer — il ne sortira jamais dans le texte, puisqu'il n'y aura pas de texte.*`
+  ],
+  src: `décision du 16 août 2026 — 04-plan/le-parcours-de-l-enquete.md §5`
+},
+{
+  id: `g-fac`, no: `Non écrite`, col: 7, row: `joel`, acte: `Le monde comme terrain`, gris: true,
+  face: `s6`,
+  titre: `Une sortie de fac`,
+  statut: `ouvert`,
+  resume: `**Le pendant du lieu de travail.** Une sortie de faculté ; le responsable est un surveillant ; les marginaux sont un groupe de lourds. **L'homme aime semer le désordre** — l'équivalent d'un casseur dans une manifestation.`,
+  produit: `*Le même blasé, la même exclusion temporaire, le même effectif qu'on ne peut pas baisser. Un surveillant de fac et un responsable d'atelier disent exactement la même chose, et c'est ce qui permet de n'en écrire qu'un.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Le groupe n'a ni nom, ni sigle, ni chef — même règle que de l'autre côté.`,
+           `Aucun mot ne doit ancrer l'endroit dans un seul des deux mondes : ni programme, ni diplôme, ni rien qui n'existerait pas ici.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-archives`, no: `Non écrite`, col: 9, row: `joel`, acte: `Le registre`, gris: true,
+  face: `s8`,
+  titre: `Le service des archives`,
+  statut: `ouvert`,
+  resume: `**Le pendant de la ruche : le service des archives du commissariat.** Il y retourne, il tire des dossiers, il cherche une anomalie.`,
+  produit: `🔴 **Et ça dissout le risque majeur du dossier.** Le §3.5 posait que les scènes de monde ne peuvent être que d'Andrew, donc que ses chapitres seraient chargés et ceux de Joël secs — *deux textures, et le dispositif se fissure.* **Un homme qui consulte des archives est le même partout.**`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`C'est un lieu de travail ennuyeux des deux côtés. Ni ambiance, ni solennité.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-liam`, no: `Non écrite`, col: 10, row: `joel`, acte: `Le registre`, gris: true,
+  face: `s9`,
+  titre: `Liam donne des infos`,
+  statut: `ouvert`,
+  resume: `**Le pendant du coup de téléphone.** C'est Liam qui renseigne : les altercations, ce qui a dérapé, les jours passés en cellule.`,
+  produit: `*Une voix au bout d'un fil qui déroule un casier : impossible de dire de quel monde elle parle.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Le nom de Liam n'est jamais prononcé dans le texte, comme tous les noms de la vie d'avant. C'est un nom de bible.`],
+  ouvert: [`✅ **C'est bien Liam, et il n'y a pas d'autre collègue.** *Le même homme porte donc la présentation d'Isaac, les renseignements du téléphone, et le cri de la fin — il gagne en épaisseur à chaque apparition, et c'est ce qui rend le dernier chapitre si dur.*`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-potes`, no: `Repère`, col: 8, row: `joel`, acte: `Le monde comme terrain`, gris: true,
+  titre: `Les potes du type`,
+  statut: `ouvert`,
+  resume: `**Le pendant des autres travailleurs : les copains de l'homme.** Ils disent ce qu'ils pensent de lui, et ce qu'ils pensent d'elles.`,
+  produit: `*Le grief se dit dans leur bouche et jamais dans celle du narrateur — exactement comme de l'autre côté, et pour la même raison.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Repère d'écriture. La scène ne s'écrira pas.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-accident`, no: `Repère`, col: 11, row: `joel`, acte: `Le registre`, gris: true,
+  titre: `L'accident`,
+  statut: `ouvert`,
+  resume: `**Ce que la cérémonie des vingt-six raconte, de l'autre côté : un accident.** Un groupe d'enfants et leurs accompagnants adultes.`,
+  produit: `🔴 **Personne dans le livre ne le saura jamais, et le roman ne le dira à aucun moment.** *La carte existe pour l'autrice seule : elle donne un visage au chiffre que le lecteur, lui, devra deviner.* **Vingt-trois petits chiffres et trois adultes dans le même paquet ne se lisent que d'une façon.**`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Repère d'écriture. **Aucune scène, aucune ligne, aucune allusion.** C'est le seul endroit du dossier où l'on écrit la réponse à une question que le livre pose sans jamais y répondre.`,
+           `Rien ne relie cet accident à l'affaire Sorel : ce n'est pas la même histoire, c'est le même monde.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-ancien`, no: `Non écrite`, col: 12, row: `joel`, acte: `Le registre`, gris: true,
+  face: `s11`,
+  titre: `Chez un ancien policier`,
+  statut: `ouvert`,
+  resume: `**Le pendant du veilleur de l'époque au jardin.** Un ancien policier, chez lui, qui était présent le jour d'une manifestation qui a dégénéré.`,
+  produit: `**Le parallèle est exact : des deux côtés, c'est l'homme qui était là et qui n'est plus en service.** *L'un a huit ans et vit au jardin, l'autre a pris sa retraite — et tous les deux racontent une matinée sans se rappeler leur carrière.*`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`On va le voir chez lui, et il répond à des questions. Il n'explique rien de son propre chef.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-coldcase`, no: `Repère`, col: 17, row: `joel`, acte: `L'enlisement`, gris: true,
+  face: `s14a`,
+  titre: `Un cold case qui n'en est pas un`,
+  statut: `ouvert`,
+  resume: `**Le pendant du départ de la seconde enquête.** Deux jeunes filles du même âge, disparues quelques années plus tôt, dans la même région. Un dossier ancien qui ressemble exactement à ce qu'il cherche : un précédent.`,
+  produit: `**Et ça ne mène nulle part, pour la même raison qu'en face.** Les deux sont vivantes. *Le dossier n'a simplement jamais été classé correctement — une défaillance administrative, et rien d'autre.*`,
+  clef: `🔴 **Ce que la symétrie produit, et personne ne l'écrira jamais.** Il court après deux filles qui vont très bien — *pendant que les deux qu'il cherche vraiment sont en train de mourir.* **Le lecteur ne peut pas le savoir ; l'autrice, si.**`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Repère d'écriture. La scène ne s'écrira pas — c'est le chapitre du creux, juste après, qui portera ce qu'il faut en garder.`,
+           `**Ce qui en passe dans le texte ne compte jamais les disparues, ne les sexue pas et ne leur donne pas d'âge.** *Une vieille affaire mal classée : c'est tout ce que le lecteur doit pouvoir lire, et c'est ce qu'il rapportera au dossier de l'arrivant.*`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-piste`, no: `Non écrite`, col: 26, row: `joel`, acte: `La remontée`, gris: true,
+  face: `s17c`,
+  titre: `Il a trouvé une piste seul`,
+  statut: `ouvert`,
+  resume: `**Le pendant de la remontée.** Joël a fini par trouver une piste, seul, **après avoir perdu énormément de temps.**`,
+  produit: `*Le même mouvement, et c'est là que tout se joue : l'un a perdu ses semaines pour rien, l'autre a perdu ses deux semaines et arrive à l'heure. **Le lecteur lit un seul homme qui repart.***`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Le temps perdu ne se chiffre pas et ne se commente pas. Il se sent au ton.`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `g-entre`, no: `Non écrite`, col: 27, row: `joel`, acte: `La remontée`, gris: true,
+  face: `s18`,
+  titre: `Il entre seul, sans attendre`,
+  statut: `ouvert`,
+  resume: `**Le pendant exact, et il est écrit à l'identique.** Il a appelé, il sait que l'autre arrive, il n'attend pas.`,
+  produit: `**C'est le seuil que le lecteur franchit deux fois** — une seule descente lue, deux escaliers, et derrière la porte un mouroir d'un côté et une cave repeinte de l'autre.`,
+  monde: `—`, qui: [`joel`],
+  gardes: [`Les deux descentes ne se citent jamais. Aucun personnage ne remarque le contraste.`],
+  src: `04-plan/le-meme-jour.md §5 quater`
+},
+{
+  id: `ouv`, no: `Première page`, col: 0, row: `andrew`, acte: `Ouverture`,
+  titre: `La cérémonie d'Eliott`,
+  statut: `acquis`,
+  resume: `🔴 **Deux capsules surgissent le même matin** — *une noyade ne laisse aucun délai de maturation* — et la cérémonie se monte dans la journée. **Un arrivant de dix ans, un arrivant de quarante.** *On a prévenu tard, donc il y a peu de monde.* La cérémonie se déroule normalement. **Il n'y a rien à signaler, et le texte ne signale rien.**`,
+  produit: `Le système entier passe là, sans un mot d'explication. Le garçon parle avant qu'on lui demande quoi que ce soit, avec une terreur qu'on ne s'explique pas — c'est inquiétant, on passe outre, la cérémonie se termine.`,
+  clef: `Debout à côté de l'homme, Eliott le dévisage. Quelque chose se ferme sur son visage, ça dure le temps que ça dure, et il enchaîne. Personne ne le remarque.`,
+  monde: `La capsule, l'éclaircie, la travée, le relevé à l'instrument, le nom qu'on produit soi-même, le numéro qu'on inscrit. Rien n'est expliqué : tout est fait devant le lecteur.`,
+  qui: [`andrew`,`eliott`,`quarante`],
+  gardes: [
+    `⛔ **Rien de ce que dit le garçon ne doit pouvoir se rattacher au jour de sa mort.** *L'autrice, 17 août 2026 :* **« je veux pas qu'on puisse faire un lien quelconque avec le jour de l'accident — ça gâche l'épilogue qui nous apprend ce qui s'est passé. »**
+
+⛔ *Donc : pas d'eau, pas de « en bas », pas de « il est pas remonté », pas de « il faut aller le chercher ».* **Ce qu'il dit doit n'avoir aucun sens** — c'est ça qui fait peur, et c'est ça qui protège la dernière page.`,
+    `✅ **Ce qu'il dit, et c'est arrêté :** *« Il faut vider mes poches. »* — **« Elles sont pleines. »** — puis, plus doucement, **« Je reviens bientôt. »** *Il est nu sous une serviette de cérémonie. Deux ou trois personnes regardent quand même s'il y a des poches dessus.*`,
+    `✅ **Nora hésite un temps, un seul, et le referme aussitôt.** *Correction de l'autrice :* **elle est un professionnel, pas quelqu'un qui bafouille.** *Ce qui se voit, c'est le temps d'arrêt — pas la phrase répétée.*`,
+    `🔴 **L'ordre du chapitre est fixé — l'autrice, 17 août 2026, et c'est le vrai gain du premier jet.** *Le garçon se voit dans le miroir, balaie la pièce, et la capsule d'à côté passe dans ce balayage sans y peser.* **Son regard tombe sur Andrew, on lui demande son nom, il répond.** *C'est le nom donné qui fait basculer Andrew sur la seconde capsule* — et c'est pendant qu'il a les deux mains dans la seconde capsule, **de dos**, que le garçon se met à parler. Sa collègue a déjà pris le relais derrière lui.`,
+    `✅ **Et « on passe outre » cesse d'être une décision.** *C'est une position de corps :* **« Andrew ne se retourna pas. Il avait les deux mains dans la capsule de l'homme. »** *Rien à commenter, rien à justifier — il travaille.*`,
+    `⛔ **La cérémonie des vingt-six ne s'évoque pas ici.** *Coupée du premier jet par l'autrice, 17 août 2026 :* **on y viendra avec la suite de l'enquête**, et pas en page une.`,
+    `✅ **Les visiteurs ne sont pas froids, et c'est une naissance.** *Correction de l'autrice, 17 août 2026 :* silence cérémonieux jusqu'aux cadeaux, **puis du bruit pour la première fois** — on se penche pour voir, on commente, on se serre le bras sans se connaître, des « bienvenue » se reprennent de bouche en bouche. *La règle du monde tient quand même, mais elle passe après la joie :* **« Aucun d'eux ne les connaissait. Aucun ne les reverrait. Ça n'enlevait rien. »**`,
+    `✅ **La salle, et rien de plus.** *Le complexe entier ne se décrit pas ici* — il est gardé pour la journée type à la ruche. **On ne voit que la salle six et ce qui s'y passe.**`,
+    `✅ **L'image qui porte le lieu, en trois lignes :** la sculpture monte à mi-hauteur d'une colonne et s'arrête, la coulée prend le relais et continue jusqu'en haut. **« On ne savait pas laquelle des deux avait copié l'autre. »** *⛔ Pas de balcons, pas de catalogue d'ornements.*`,
+    `⛔ **Aucune capsule pourrie dans le prologue, et pas une allusion.** *L'autrice, 17 août 2026.* **La première que le lecteur rencontre est celle de la journée à la ruche**, et elle doit le révulser sans qu'il ait été prévenu. *Une mention en page une lui retirerait tout.*`,
+    `✅ **Le miroir — trouvaille de l'autrice, 17 août 2026.** *Le veilleur tend un miroir à l'arrivant pour qu'il fasse connaissance avec sa propre apparence.* **C'est un geste de protocole, au même titre que la couverture** : personne ne l'explique et personne ne s'en étonne.
+
+✅ **Et ça rend possible la dernière page.** *À l'épilogue, Eliott dira de l'homme d'à côté : « j'ai vu ses yeux, tout pareils que les miens ».* **Il ne pouvait le dire que s'il venait de voir les siens.** — *À vérifier : si c'est Andrew qui tient le miroir, alors l'homme qui lui a montré son propre visage est celui à qui il racontera l'histoire six cents pages plus loin.*`,
+    `La scène ne doit rien peser. Pas de gros plan, pas de phrase de narrateur sur ce regard, pas de retour dessus dans les pages suivantes.`,
+    `🔴 **Le chiffre est annoncé, et c'est un changement du 17 août 2026.** *La foule estime à vue et se trompe — elle chuchote « douze », puis « treize »* — **puis le veilleur sort son instrument, fait le relevé et tranche pour tous :** « Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté dix ans. » *La marge entre l'estimation et le nombre se referme à chaque cérémonie, et le livre s'en sert dès la première page.*`,
+    `Puis ils sont affectés ailleurs et ne se revoient jamais. Aucune retrouvaille, aucun personnage qui rapproche les deux noms.`,
+    `Il n'y a pas de capsule défaillante ce jour-là.`
+  ],
+  ouvert: [`Combien de lignes doit durer le dévisagement ? Trop peu ne s'imprime pas et le lecteur ne s'en souviendra pas à l'épilogue ; trop long, ça l'annonce.`,
+           `✅ **Il s'appelle Nicolas** — *validé le 17 août 2026.* **Il apparaît deux fois, ici et scène 8**, et rien ne doit inviter à le rapprocher de celui d'Eliott.`,
+           `⚠️ **La case des observations, à la toute fin.** *Il la regarde un moment, puis il range le carnet.* **C'est le seul endroit du chapitre qui pèse un gramme** — à garder ou à couper.`,
+           `⚠️ **La phrase d'accueil entière est donnée ici** — *« Bienvenue à toi »* — alors qu'à sa propre cérémonie Andrew n'en attrapera que le début. **Gratuit si on la garde, mais il faut le vouloir.**`],
+  lecture: `Première lecture : un gamin bizarre. Seconde lecture : il regarde quelqu'un qui lui fait éprouver une chose qu'il ne sait pas nommer.`,
+  src: `04-plan/le-parcours-de-l-enquete.md — « Avant le parcours »`
+},
+{
+  id: `s1`, no: `Scène 1`, col: 2, row: `andrew`, acte: `Avant la disparition`,
+  titre: `Première visite chez June`,
+  statut: `acquis`,
+  resume: `Andrew revient de lui-même, sans mandat et sans que personne le lui ait demandé. Il échange avec Eliott. Le garçon s'acclimate comme il peut, mais il semble très mal à l'aise — ce n'est pas de la timidité, c'est un corps qui ne trouve pas sa place dans une pièce.`,
+  produit: `Un homme qui vient voir un gosse, et un gosse qui parle. Andrew s'assoit, il écoute, il repose la question autrement. Il ne relève rien, il ne note rien : il repart avec des choses qu'il ne sait pas où ranger.`,
+  monde: `Le métier de berceuse vu de l'intérieur : une maison à côté du jardin, quelqu'un qui a la charge de quelqu'un.`,
+  qui: [`andrew`,`eliott`,`june`],
+  gardes: [
+    `Ce n'est jamais une audition.`,
+    `Aucune phrase ne justifie ses visites — ni du narrateur, ni de lui, ni d'un tiers. On écrit qu'il y va.`,
+    `Rien de ce que dit Eliott ne doit être vérifiable ni se recouper avec ce qui remonte chez Andrew.`
+  ],
+  ouvert: [`C'est peut-être ici que tombe l'indice du déclencheur — la scène 2 reste le meilleur emplacement.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/eliott.md §4 bis`
+},
+{
+  id: `s2`, no: `Scène 2`, col: 3, row: `andrew`, acte: `Avant la disparition`,
+  titre: `Deuxième visite`,
+  statut: `acquis`, pivot: true,
+  resume: `Eliott est retrouvé à bouder dans un coin. La raison est nette et elle est le cœur de la scène : personne ne le croit, et ça le blesse énormément. Grosse discussion, puis ils sortent faire un tour — c'est dehors, en marchant, que le garçon dit ce qu'il dit.`,
+  produit: `C'est la scène la plus chargée d'avant la disparition : **elle blesse le garçon** et elle installe le mot « porteur de voiles » sans l'expliquer. *Et elle sème la phrase qui, six cents pages plus loin, fera entrer Andrew dans une épicerie — sans jamais être un indice.*`,
+  clef: `June, dépassée, évoque une suspicion de voile sans oser la formuler. C'est tabou, et en plus il est jeune. Ce cas de figure, elle ne l'a jamais eu personnellement.`,
+  monde: `C'est par elle que le lecteur apprend ce qu'est un porteur de voiles, sans qu'aucun narrateur ne l'explique. Elle en parle comme d'une chose gênante, à moitié crue, qu'on ne dit pas.`,
+  qui: [`andrew`,`eliott`,`june`],
+  gardes: [
+    `La suspicion doit rester une phrase qui s'arrête, jamais une hypothèse. June n'est pas un relais d'information : elle bute sur un mot et passe à autre chose.`,
+    `Personne ne la confirme. Une gêne n'est pas une fissure — c'est ce qui la rend compatible avec l'interdit n° 4.`,
+    `Elle n'est jamais reprise, pas même quand le garçon disparaît.`,
+    `**Ce que dit le garçon ne mène nulle part, et c'est maintenant la règle.** *Rien de ce qui sort de sa bouche ne se vérifiera jamais* — ni ici, ni plus tard, ni à la relecture. **L'hypothèse « il fabulait » doit rester debout jusqu'à la dernière page.**`,
+    `⚠️ **La promenade se fabrique ici, et elle sert encore — autrement.** *Andrew la refera seul à la scène 17 c, comme un homme qui suit un fantôme.* **Elle n'a plus à porter de phrase à retrouver : elle amène ses pieds dans ce quartier-là, et c'est tout ce qu'on lui demande.** *Un chemin de deuil qui passe par hasard là où il fallait passer.*`,
+    `⛔ **Aucune insistance sur l'itinéraire.** Pas de description de trajet, pas de rue nommée deux fois, rien qui ait l'air d'être posé pour servir.`
+  ],
+  phrases: [{ t: `Un porteur de voiles de cet âge… je n'en avais jamais vu.`, n: `Exemple donné par l'autrice, à garder tel quel.` },
+            { t: `Mais si, il y avait un magasin de chaussures ici, pas une épicerie.`,
+              n: `✅ **Validée le 16 août 2026, et c'est elle qui reviendra.** Dite dehors, en marchant, devant l'épicerie, au milieu des autres. *Rien ne la distingue : c'est une fabulation de plus, et elle est fausse comme les autres.*
+
+**Le sens des deux commerces, à tenir partout :** le **magasin de chaussures est de l'autre monde** — c'est ce dont Eliott se souvient ; **l'épicerie est d'ici**, c'est ce qu'il a sous les yeux et qu'il refuse. *La formulation du dossier était inversée : elle a été corrigée dans toutes les fiches.*
+
+**Elle ne donne aucun indice, elle donne une destination.** À la scène 17 c, Andrew s'en souviendra et entrera dans cette épicerie — non pas parce qu'il cherche quelque chose, mais parce qu'un gamin en avait parlé et qu'il n'a plus que ça. *C'est un geste de deuil, pas d'enquête.*
+
+**Et c'est là que le livre se retourne :** ce que le garçon racontait lui a valu de n'être cru par personne, et ça l'a blessé — c'est le cœur de cette scène-ci. **Ce sont ces mêmes mots, faux, moqués, qui amèneront Andrew au bon endroit.** *Rien n'est vérifié pour autant : l'épicerie est bien une épicerie. Il avait tort, et il sauve tout.*` }],
+
+  ouvert: [`✅ **Ce qu'Eliott dit n'a plus à être un indice.** *La scène 17 c ne repose pas sur une phrase à déchiffrer : elle repose sur une voix, et sur une femme qui s'excuse trop vite.* **Une seule de ses fabulations doit nommer un lieu où l'on peut entrer** — et rester fausse. Le reste peut être n'importe quoi, du moment que c'est invérifiable.`,
+           `Où le lecteur apprend ce qu'est un porteur de voiles s'il ne l'apprend pas d'elle. Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/june.md §2 bis`
+},
+{
+  id: `capsule`, no: `Chapitre premier`, ecrit: true, col: 1, row: `andrew`, acte: `Ouverture`,
+  titre: `Une journée à la ruche`,
+  statut: `acquis`,
+  resume: `Ce n'est pas une scène, c'est une journée de travail. Combinaisons, raclette, seaux, odeur. Andrew n'y touche pas : ce n'est plus son tour. Il regarde un plus récent se faire bizuter, et il ne trouve rien à en dire. Puis la journée continue, parce que c'est une journée.`,
+  produit: `⛔ **À ce stade du livre, on ne se dit pas « bien fait pour sa gueule » — on trouve juste ça révulsant.** *Une description crade et nauséabonde, et rien d'autre : le lecteur ne sait pas qu'il y avait quelqu'un dedans, et personne ne le lui dit.*
+
+**« Bien fait pour sa gueule » arrive six cents pages plus loin**, à l'instant où Andrew connecte et où le lecteur connecte avec lui. *C'est là seulement qu'il a quelque chose à juger — et ce qu'il aura à juger, c'est sa propre satisfaction.*`,
+  clef: `🔴 **C'est ici qu'on forge la formule, et elle ne servira qu'une seconde fois.** *Une phrase exacte, à vocabulaire précis et successif, qui décrit l'odeur de la capsule pourrie.* **Modèle donné par l'autrice, image trouvée le 19 août 2026 :** *« une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été. »* — **une odeur que tout le monde a déjà eue dans le nez, qui n'a rien à elle, et qu'on ne peut pas rattacher à un corps.**
+
+**Elle n'apparaît nulle part ailleurs dans le livre que dans ce chapitre et à la seconde cérémonie.** Pas une variation, pas un synonyme : *les mêmes mots, dans le même ordre.* **C'est le seul fil qui relie deux chapitres séparés de six cents pages** — si l'un des deux bouge, l'autre bouge en même temps.`,
+  clefFin: `⛔ **Et l'ancienne formule du prologue est supprimée.** *La pierre mouillée et le fond légèrement sucré ne sont plus nulle part* — c'était mon invention et elle ne servait à rien. **Le prologue n'a donc plus à porter d'odeur** : il est libre de ce côté-là.`,
+  garde_forme: `**Une journée, pas une scène.** Une carte « Andrew regarde un nettoyage » n'a aucune raison d'exister au milieu de la disparition d'Eliott ; une journée de travail, si. Et le nettoyage doit être un incident d'exploitation, pas une épreuve morale — alors la forme dit déjà ce que le contenu dit.
+
+Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② une éclaircie ordinaire, réussie, avec l'odeur propre ; ③ le creux du milieu de journée, les conversations ; ④ la travée qui n'a pas éclairci ; ⑤ le registre, en fin de journée — la première fois que le lecteur voit ce que c'est ; ⑥ il sort.`,
+  garde_bis: `✅ **Le chapitre a changé de place : il suit le prologue.** *Décision de l'autrice, 19 août 2026.* Il n'est donc plus pris en sandwich entre la douceur et le vide — **il est collé à la cérémonie propre**, et c'est ce qui fait le plus mal : *le lecteur vient de voir un rite tenu au millimètre, et il tombe sur ce que le même lieu produit quand ça rate.*\n\n✅ **Et la frise suit, le 19 août 2026 :** *la case passe en colonne 1, juste après le prologue, et l'acte d'ouverture compte désormais deux chapitres.* **Les deux visites chez June glissent d'un cran.**`,
+  monde: `Le tour de rôle, le bizutage, l'ancienneté qui se lit à l'envers sur les visages : la sale besogne va aux derniers arrivés, c'est-à-dire à ceux qui ont l'air les plus vieux.`,
+  qui: [`andrew`],
+  gardes: [
+    `**Reprendre les mots du prologue, pas d'autres.** C'est la répétition littérale qui fera le raccord, pas une comparaison. Et personne ne dit que c'est la même odeur.`,
+    `Le nettoyage est un incident d'exploitation. Personne ne s'attendrit, personne ne s'interroge.`,
+    `⛔ **La capsule pourrie n'a rien à voir avec Eliott** : un autre jour, une autre travée. *Et ce n'est plus un souvenir depuis que le chapitre a changé de place — c'est une matinée ordinaire, un mois avant qu'il ne rencontre le garçon.*`,
+    `Les capsules sans éclaircie se multiplient depuis quelques années et personne ne sait pourquoi. Deux occurrences dans le livre, pas davantage, et jamais un personnage qui pointe la courbe.`,
+    `⛔ **Le chapitre ne montre pas le logement d'Andrew.** Il commence quand il arrive, il s'arrête quand il sort. La scène 17 b en dépend : c'est un chapitre chez Joël que le lecteur doit prendre pour une fin de journée d'Andrew, et il ne le prendra que s'il n'a jamais vu où Andrew habite.`,
+    `**Ce n'est pas une visite guidée.** On suit quelqu'un qui travaille, pas quelqu'un qui explique.`,
+    `**Court.** Une journée type, tôt dans un livre, est le genre de chapitre qui enlise. **Deux mille mots**, et il tient parce qu'il finit sur une odeur.`,
+    `✅ **Le chapitre s'arrête avant la cérémonie.** *Le lecteur sait déjà ce qui s'y passe — il vient de la voir en entier.* La formule est une meilleure dernière ligne qu'un rite rejoué.`,
+    `✅ **L'inversion des âges se pose chez les préparateurs, et le bizutage la confirme.** *Refusée dans la description d'Andrew — trop frontale — elle tombe sur un homme de soixante-douze ans qui s'émerveille devant sa première capsule.* **« Personne ne trouva ça remarquable. Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien. »** ⛔ *Et le pourquoi ne vient jamais.*`
+  ],
+  ouvert: [`⚠️ Sur quoi le chapitre se ferme. Une piste : il se dit qu'il passera voir Eliott, et il remet à demain — la journée ordinaire devient alors l'alibi qui le poursuivra tout le livre. C'est peut-être trop appuyé : une simple sortie, sans rien dire, suffirait.`,
+           `✅ **Pas le prologue.** Le prologue occupe déjà ce champ lexical avec la version propre — et la version propre doit venir en premier, sinon la version gâtée n'a rien à corrompre.`],
+    src: `L-ECLAIRCIE-dossier-complet.md §8 — décision du 16 août 2026`
+},
+{
+  id: `s3`, no: `Scène 3`, col: 4, row: `andrew`, acte: `La disparition`,
+  titre: `Troisième visite — la place est vide`,
+  statut: `acquis`, pivot: true,
+  resume: `Andrew vient croyant trouver le garçon. June est déjà allée voir la police, et elle lui apprend qu'il n'est pas rentré de son travail.`,
+  produit: `Il ne reçoit pas la nouvelle : il tombe dessus, sur un pas de porte, en venant pour autre chose. Il n'a rien à déclencher et rien à conseiller — tout a déjà été fait, dans l'ordre, par quelqu'un dont le rôle s'arrête là.`,
+  monde: `Rien de neuf, et c'est voulu. La scène est un vide.`,
+  qui: [`andrew`,`june`],
+  gardes: [
+    `June ne vient trouver personne et ne signale rien à Andrew. Elle n'est pas un relais d'information : elle est un lieu où la nouvelle attend.`,
+    `Si une seule de ses répliques a l'air d'appeler Andrew à faire quelque chose, la séquence bascule.`
+  ],
+  clef: `🔴 **Et c'est ici que le nom d'Isaac entre dans le livre — par la bouche de June.** Elle dit avoir parlé à un certain Isaac ; Andrew répond que c'est un bon ami, et qu'il va aller lui parler. *Le lecteur attend donc de le rencontrer au chapitre suivant. Il rencontrera quelqu'un d'autre.*`,
+  ouvert: [`Un mois sépare l'arrivée d'Eliott de sa disparition — et la fiche d'Eliott pose des visites qui tiennent « sur des jours, pas sur des mois ». L'un des deux documents est à corriger.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2`
+},
+{
+  id: `s4`, no: `Scène 4`, col: 5, row: `joel`, acte: `La disparition`,
+  face: `g-poste`,
+  titre: `Première visite au commissariat`,
+  statut: `acquis`, pivot: true,
+  resume: `Il pousse la porte d'un poste de police et parle à quelqu'un de l'affaire. On lui donne des faits, et rien d'autre : des trajets, des horaires, un déroulé de journée. **Jamais un état d'esprit.** *C'est le premier chapitre de la vie d'avant, et le lecteur ne le sait pas.*`,
+  produit: `🔴 **Décision de l'autrice, 16 août 2026 : c'est là que le récit se dédouble, et la scène est de Joël.** *Le lecteur croit assister à la rencontre d'Andrew et d'Isaac, dont on vient de lui parler.* **Il assiste en réalité à une conversation entre Joël et son collègue, et il ne le saura qu'à la dernière page.**`,
+  clef: `**Et c'est ici que le lecteur se fabrique Isaac.** La silhouette, la voix, la façon de tenir un bureau, l'humeur : tout ce qu'il croira savoir d'Isaac vient de cet homme-là. *Le suspect était déjà une couture ; l'allié en est une aussi.*`,
+  lecture: `Il vient d'entendre June parler d'un certain Isaac et Andrew répondre que c'est un bon ami. **Il ouvre le chapitre suivant en s'attendant à le rencontrer, et il rencontre quelqu'un d'autre.**`,
+  monde: `Rien, et c'est la condition. Un poste de police se ressemble partout — c'est l'infrastructure même du dispositif.`,
+  qui: [`joel`,`liam`],
+  gardes: [
+    `**Aucun nom, ni celui de l'homme, ni celui de Joël.** Le lecteur apportera « Isaac » tout seul, et personne dans le texte ne le prononcera.`,
+    `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
+    `Les victimes ne sont ni comptées, ni sexuées, ni décrites.`,
+    `**Rien de ce qui décrit l'homme ne doit contredire Isaac plus tard.** Ni l'âge, ni l'apparence, ni un détail de bureau. *La contrainte est lourde, et elle vaut pour tous les chapitres où il reparaîtra.*`,
+    `🔴 **On ne discute jamais de l'enlèvement.** Ni ici ni ailleurs : pas de rappel des faits, pas de résumé de l'affaire, pas une phrase qui dise ce qui est arrivé et à qui. **On parle d'une affaire en cours, comme le font des gens qui la connaissent déjà.** *C'est ce qui rend le chapitre superposable à celui d'Andrew, et c'est la règle la plus stricte de toute la voie de Joël.*`,
+    `L'affaire a un nom — **l'affaire Sorel** — et c'est tout ce qu'on en saura. Un nom de famille, catégorie de mot qu'Andrew ne pourra même pas identifier comme un nom. *Il peut revenir cent fois sans jamais rien apprendre.*`
+  ],
+  pourquoi: [
+    `**Le procès-verbal ne retient pas les états.** C'est ce qui manque au dossier, et c'est ce qui pousse à retourner chez le témoin — le beat suivant tient par ce vide, dans les deux mondes.`,
+    `**Et le cri final change de nature.** Si le lecteur a passé le livre à croire que ce collègue est Isaac, alors c'est Isaac qu'il entend crier *« Joël, attends ! »*. *Le dernier chapitre s'écroule sur lui d'un cran de plus.*`
+  ],
+  ouvert: [`✅ **Il n'y a plus de carte « L'affaire Sorel ».** *Décision de l'autrice, 16 août 2026 : cet encart n'existait pas vraiment, il est regroupé ici.* **Aucun chapitre n'établit l'affaire** — elle est déjà là quand on entre dedans, comme dans la vie.`,
+           `⚠️ **La fiche de Liam est périmée.** Elle le donne pour « pas un personnage, une voix derrière lui ». **Il porte désormais la présentation de l'allié**, donc il existe, il a une manière, une façon de parler. *À réécrire — c'est la conséquence la plus lourde de cette décision.*`,
+           `Combien de fois il reparaît côté Joël avant la poursuite.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — décision du 16 août 2026`
+},
+{
+  id: `s5`, no: `Scène 5`, col: 6, row: `andrew`, acte: `La disparition`,
+  face: `g-temoin`,
+  titre: `Retour chez June, avec Isaac`,
+  statut: `acquis`,
+  resume: `Elle raconte comment ça se passe et l'état d'esprit du garçon : il peut être adorable puis devenir d'un coup hyper agressif. Il a une peur bleue de l'eau et a refusé les premiers cours de natation. Et la veille, il est rentré avec les genoux en sang et la lèvre fendue.`,
+  produit: `C'est la scène qui produit la direction du lendemain, et elle la produit par une inquiétude, pas par un indice. Il a dit être tombé ; elle est certaine que quelque chose n'allait pas au travail.`,
+  monde: `Les cours de natation donnés aux arrivants — un détail d'intégration ordinaire qui devient, pour le lecteur de la dernière page, une chose difficile à relire.`,
+  qui: [`andrew`,`isaac`,`june`],
+  gardes: [
+    `Sa terreur de l'eau ne s'explique pas, ne se commente pas, et ne revient pas comme motif.`,
+    `June restitue sans rien ajouter. Elle ne conclut jamais rien.`
+  ],
+  phrases: [{ t: `il s'est mis dans une colère noire, ça ne lui ressemblait pas`, n: `Formulation de l'autrice, à garder.` }],
+  double: `Beat doublable : deux fois la même pièce, deux fois la même question, et une seule fois où il en tire quelque chose.`,
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — §5`
+},
+
+/* ---------- LE MONDE COMME TERRAIN ---------- */
+{
+  id: `s6`, no: `Scène 6`, col: 7, row: `andrew`, acte: `Le monde comme terrain`,
+  face: `g-fac`,
+  titre: `Sur son lieu de travail`,
+  statut: `acquis`,
+  resume: `Le portage — une tournée, et c'est elle qui fait passer Eliott dans les rues d'ici. Le responsable donne sa version : la veille, Eliott était impliqué dans une bagarre avec un homme de vingt-deux ans. Il l'a congédié sur-le-champ, après plusieurs sommations, quand l'homme est devenu insultant et haineux.`,
+  produit: `L'économie de ce monde : qui travaille, à quelles conditions, et ce qu'on tolère pour tenir un effectif. Le responsable semble blasé, comme si ce n'était pas la première fois — des marginaux, il y en a partout, il faut vivre avec en limitant les débordements.`,
+  monde: `Le travail des jeunes arrivants, l'exclusion temporaire, le seuil de tolérance d'une société qui a besoin de ses effectifs.`,
+  qui: [`marginal`,`andrew`,`isaac`],
+  gardes: [
+    `Le responsable ne formule jamais la doctrine. Il est blasé, il a un effectif à tenir, c'est tout.`,
+    `Sa position sur les jeunes arrivants doit rester neutre — ni tendresse, ni mépris.`
+  ],
+  phrases: [{ t: `On les fait travailler pour que le reste du monde le supporte.`, n: `Retenue par l'autrice comme réplique du responsable, quand on lui demande pourquoi la sortie du marginal ne lui fait pas plus d'effet que ça.` }],
+  ouvert: [`Le prénom de l'homme de vingt-deux ans. Un nom d'éclaircie. Il traverse huit scènes sans être nommé.`,
+           `Ce que le portage porte exactement, à qui, et sur quel périmètre.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2`
+},
+{
+  id: `s7`, no: `Scène 7`, col: 8, row: `andrew`, acte: `Le monde comme terrain`,
+  titre: `Les autres travailleurs`,
+  statut: `acquis`,
+  resume: `Isaac interroge des amis du marginal absent. C'est là que leur point de vue tombe : l'accès sans mérite, les marches qu'ils ont faites et que d'autres n'ont pas faites, l'argument de la santé qui est vrai et vérifiable.`,
+  produit: `Le grief se dit dans leur bouche et jamais dans celle du narrateur. Les deux camps ont raison, le livre ne tranche pas, personne ne les corrige.`,
+  monde: `La jalousie ordinaire, entière, dans la bouche de ceux qui la portent. Pas un mouvement, pas un nom, pas un porte-parole : des gens à qui on a beaucoup demandé et qui font une remarque.`,
+  qui: [`isaac`,`andrew`],
+  gardes: [
+    `Ne jamais leur donner tort par un chiffre.`,
+    `Ne jamais mettre les deux arguments dans la même bouche.`,
+    `Ne jamais laisser Andrew formuler le nœud budgétaire. Il écoute, il s'en va, il pense à autre chose.`,
+    `Personne ne corrigera jamais leur sophisme — le corriger reviendrait à dire que naître vieux coûte cher, et cela, personne ne le dira.`
+  ],
+  phrases: [{ t: `les petits princes pourris du jardin`, n: `L'insulte du milieu. « Petits princes » pour l'accès sans mérite, « pourris » au sens de gâtés, « du jardin » pour le lieu où eux n'iront que très tard et pour très peu de temps.` },
+            { t: `libérer plus tôt`, n: `La formule du courant respectable. Il ne dit jamais « tuons-les » : il le dit avec des chiffres, dans des salles, devant des gens qui hochent la tête.` }],
+  ouvert: [`Où et combien de fois l'insulte se dit. Une fois en passant puis une fois qui glace, ou une seule occurrence ?`],
+  src: `02-univers/la-jalousie.md — 04-plan/le-parcours-de-l-enquete.md §2`
+},
+
+/* ---------- LE REGISTRE ---------- */
+{
+  id: `s8`, no: `Scène 8`, col: 9, row: `andrew`, acte: `Le registre`,
+  face: `g-archives`,
+  titre: `Retour à la ruche — le registre`,
+  statut: `acquis`, pivot: true,
+  resume: `Andrew enquête sur plusieurs lignes. D'abord celle de l'homme : un arrivant de quatre-vingt-onze ans. Puis la cérémonie d'éclaircie d'Eliott. Ce que la journée porte, à son heure, ce sont deux arrivées : Eliott, dix ans, et un arrivant de quarante ans. Il ne s'y arrête pas une seconde.`,
+  produit: `C'est le cas témoin du livre. Le lecteur apprend ici que deux arrivées le même jour signifient une seule mort — sur un cas parfaitement innocent, dans une scène occupée à tout autre chose. Une leçon qu'on reçoit sans savoir qu'on la reçoit, parce qu'elle ne sert à rien sur le moment.`,
+  clef: `Il s'en servira bien plus tard, sur la ligne de la paire : même structure, même journée partagée — plus une capsule qui n'éclaircit pas. Il n'aura besoin d'aucune explication.`,
+  monde: `Ce qu'un veilleur peut lire, et ce que le registre note : la travée, la date, l'âge relevé, le nom, le numéro. Et le rapport de capsule : nickel, belle forme, belle couleur, survenue assez vite, pas de développement — une capsule non préméditée.`,
+  qui: [`andrew`],
+  gardes: [
+    `Andrew ne fait jamais le lien. Il entend, à la fin, une histoire d'eau et de courant, et il ne va pas vérifier qui d'autre est arrivé ce jour-là. Personne ne le fait à sa place.`,
+    `Aucune phrase du texte ne rapproche jamais les deux arrivées. Pas un personnage qui compte, pas un narrateur qui rappelle la cérémonie, pas une reprise du regard de la première page.`,
+    `Il n'y a pas de capsule défaillante ce jour-là. Le bizutage est un souvenir d'un autre jour, ailleurs.`,
+    `Le registre est infaillible et il le reste. S'il peut se tromper, le mouvement où Andrew lit sa propre ligne s'effondre.`
+  ],
+  lecture: `Rien n'a été caché, rien n'a été déplacé, tout était écrit en clair — et ça ne ressemblait à rien. C'est le lecteur qui se souvient de l'homme debout à côté du petit, à la première page.`,
+  ouvert: [`Le motif d'Andrew pour aller au registre. Piste : il y va parce que c'est le seul terrain où il est le meilleur — c'est déjà son défaut à l'œuvre.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §3.3`
+},
+{
+  id: `s9`, no: `Scène 9`, col: 10, row: `andrew`, acte: `Le registre`,
+  face: `g-liam`,
+  titre: `Au téléphone, en parallèle`,
+  statut: `acquis`,
+  resume: `Isaac a fait des recherches sur l'homme. Andrew partage ses infos ; Isaac détaille sa vie. Plusieurs altercations, dont certaines ont dérapé. Et il a fait quelques jours « au silence » — la cellule temporaire — après avoir tenté, avec un groupe d'autres marginaux, d'empêcher l'entrée au jardin d'un groupe d'arrivants de six ans.`,
+  produit: `Deux choses d'un coup, et aucune n'est expliquée : un régime pénal qui existe et qui a un nom, et un homme dont l'hostilité a déjà pris la forme d'un acte public.`,
+  monde: `« Au silence ». Le mot ne s'explique pas, il se comprend au premier emploi par le contexte, et il dit quelque chose du monde sans que personne ait à le commenter.`,
+  qui: [`isaac`,`andrew`,`marginal`],
+  gardes: [`Le mot « au silence » n'est jamais défini. Il s'emploie.`],
+  ouvert: [`« Au silence » est à porter au lexique — aucun fichier de lexique n'existe encore dans le dossier.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §3.6`
+},
+{
+  id: `s10`, no: `Scène 10`, col: 11, row: `andrew`, acte: `Le registre`,
+  titre: `Vingt-six arrivants simultanés`,
+  statut: `acquis`, pivot: true,
+  resume: `Andrew, le registre encore sous le nez, évalue le groupe : vingt-trois arrivants de six ans, un de quarante-quatre, un de trente-neuf, un dernier de soixante et un. Vingt-six arrivants simultanés. Une cérémonie assez grandiose.`,
+  produit: `C'est le sismographe, et c'est peut-être le plus fort effet gratuit du livre. Vingt-trois petits chiffres dans le même paquet ne se lisent que d'une façon : quelque chose, de l'autre côté, a tué vingt-trois très jeunes d'un coup.`,
+  clef: `Personne ne peut le savoir ici. Le veilleur de l'époque y a vu une matinée chargée, l'administration un problème d'enregistrement, le service un manque de berceurs. Andrew y voit un fait exceptionnel qu'il note et qu'il range. Aucun de ces regards n'est faux, et aucun ne s'approche de ce qui s'est passé.`,
+  monde: `Ce qu'est une ruche sans que personne le sache : un sismographe. Trente capsules qui mûrissent le même jour signalent un tremblement de terre, une guerre, un naufrage.`,
+  qui: [`andrew`],
+  gardes: [
+    `✅ **C'était une cérémonie compliquée et atypique, et ça se voit.** *Précision de l'autrice, 17 août 2026 :* **peu de monde dans le public, et pas assez de berceuses** pour les arrivants qu'il fallait porter. *Rien ne s'est mal passé ; tout a été difficile.*`,
+    `✅ **Et leur entrée au jardin l'a été aussi.** *Un énorme groupe arrivé en même temps, en plus de ceux qui étaient prévus.* **Cette promotion-là a mis le système en difficulté aux deux bouts — à l'arrivée, puis huit ans plus tard à la grille.**`,
+    `La seule chose à faire est de ne rien faire. Pas de personnage qui s'étonne trop longtemps, pas de phrase qui pèse, pas de retour dessus plus tard.`,
+    `Il ne faut surtout pas l'expliquer. L'expliquer le détruirait, et rien ne le remplacerait.`
+  ],
+  lecture: `Le lecteur fait le calcul seul, dans une scène qui parle d'autre chose, au milieu d'une enquête sur un homme innocent.`,
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §3.2`
+},
+{
+  id: `s11`, no: `Scène 11`, col: 12, row: `andrew`, acte: `Le registre`,
+  face: `g-ancien`,
+  titre: `Au jardin — le veilleur de l'époque`,
+  statut: `acquis`,
+  resume: `Andrew et Isaac s'y donnent rendez-vous. Le veilleur qui s'était chargé de la cérémonie est désormais au jardin, âgé de huit ans. Il décrit la cérémonie et les réactions du public. Il n'y avait pas assez de berceurs ce jour-là ; la cérémonie a même pris du retard, l'administration ayant dû les enregistrer un à un.`,
+  produit: `Le fonctionnement du jardin, et l'attitude presque destructrice des marginaux dans un lieu d'innocence et de paix. Le marginal faisait partie du public : le transfert s'étant passé le jour même, il a enflammé ses camarades pour aller mettre le bazar à l'entrée du jardin.`,
+  clef: `Un veilleur de l'époque désormais à huit ans se souvient d'une matinée sans se souvenir de sa carrière. C'est gratuit et c'est terrible, à condition de ne jamais le commenter.`,
+  monde: `Le jardin : le dernier lieu de vie, huit ans et en dessous, dans les mêmes pièces. La mémoire qui s'allège en descendant. Le fait qu'on puisse aller poser une question à quelqu'un qui ne travaille plus.`,
+  qui: [`andrew`,`isaac`],
+  gardes: [
+    `Ne jamais commenter la mémoire du veilleur de l'époque.`,
+    `Le monde ne se livre jamais en description : quelqu'un répond à une question qu'on lui a posée. Il parle des berceurs parce qu'on l'interroge sur un retard.`,
+    `Test : si l'on peut retirer la question sans perdre l'information, la scène est une description déguisée et elle est à réécrire.`
+  ],
+  ouvert: [`Le basculement direct au jardin des vingt-trois arrivants de six ans a été confirmé le 16 août 2026 : on est au jardin dès qu'on a huit ans ou moins, quel que soit le sens de la trajectoire. **La scène ne bouge pas.**`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — 02-univers/le-jardin.md`
+},
+{
+  id: `ceremonie2`, no: `Entre 12 et 13`, col: 15, row: `andrew`, acte: `La fausse piste s'éteint`,
+  titre: `Sa cérémonie, vue de l'intérieur`,
+  statut: `acquis`, pivot: true,
+  resume: `Sa propre arrivée, dix ans plus tôt. **Il se réveille comme d'un sommeil profond**, aveuglé par la lumière, les voix lui parviennent étouffées. Une paire dont la salle s'émerveille, un veilleur qui note tout. Puis on s'adresse à lui : *« Quel sera ton prénom ? Comment veux-tu qu'on t'appelle pour te désigner ? »*`,
+  produit: `Le livre contient deux descriptions de cérémonie, toutes deux d'Andrew : celle où il accueille — le prologue, le professionnel au travail — et celle où il est accueilli, par quelqu'un qui n'a aucun mot pour ce qu'il voit. **Le même rite depuis les deux bouts, et c'est le dispositif d'ensemble à l'échelle d'un chapitre.**`,
+  clef: `**Elle s'intercale entre les deux scènes de Joël, et c'est quelque chose dans le discours de l'homme qui donne prétexte à se souvenir.** Décision de l'autrice, 16 août 2026. *Le lecteur croit lire une seule pensée continue : un homme sort d'un pas de porte et une chose qu'on vient de lui dire lui rappelle son propre premier jour. Il y a deux hommes, deux mondes, et il ne le saura pas.*`,
+  monde: `La cérémonie vue par quelqu'un qui ne sait rien. Et, sans que personne le sache, la journée des quatre capsules : la paire, lui, et une quatrième qui n'éclaircit pas.`,
+  qui: [`andrew`,`chrissy`],
+  gardes: [
+    `✅ **Il n'a pas eu une petite cérémonie : il a eu celle de la paire.** *Précision de l'autrice, 17 août 2026.* **Les capsules des jumelles avaient mis longtemps à mûrir — le temps exact de leur agonie dans l'autre monde — et leur cérémonie était prévue de longue date**, donc annoncée, donc suivie. *Moins d'une heure avant, la capsule d'Andrew surgit ; le veilleur de l'époque la note et décide de grouper.* **Un poste de plus, et c'est tout** — monter une seconde cérémonie aurait bloqué deux salles pour rien.`,
+    `⛔ **Et il n'y a rien de cruel là-dedans, contrairement à ce qu'on pourrait écrire.** *Le public ne vient pas pour quelqu'un en particulier : il vient pour célébrer une arrivée, et aucun lien ne se fait entre lui et les arrivants.* **Personne ne pense « zut, il y en a un troisième »** — ceux qui sont là constatent qu'il y en a un de plus, et c'est tout. *La seule chose vraie, et elle est banale : sans les jumelles, il y aurait eu moins de monde. Une question d'avoir prévenu plus tôt ou pas.*`,
+    `Il ne comprend rien et ne doit rien comprendre.`,
+    `🔴 **C'est ici, et seulement ici, que la paire est posée.** La salle s'émerveille : « elles sont pareilles », « première fois que j'en vois », « j'en ai déjà vu il y a quelques années ». *Rien de plus — mais assez pour que le lecteur emporte deux visages identiques dont il ne fera rien.* **C'est à cette scène qu'il se raccrochera devant les corps, six cents pages plus loin.**`,
+    `**La quatrième capsule doit être là et ne rien peser.** Un veilleur s'occupe des arrivants pendant qu'un autre racle, plus loin, pour que l'infamie de la chose n'entrave pas la cérémonie. *Un chifoumi silencieux s'est joué entre eux ce matin-là, et personne ne le racontera jamais.* Ce qu'Andrew en attrape est une odeur, mentionnée par quelqu'un au loin, et rien de plus.`,
+    `⚠️ **Le récit doit montrer qu'il n'entend pas.** Une bouche qui bouge, des mots qui ne se forment pas, une phrase d'accueil dont il ne retient que les deux premiers mots. **C'est la condition pour que la seconde version, au chapitre F, soit un blanc qu'on comble et non une information qu'on avait gardée sous le coude.**`,
+    `De la phrase d'ouverture, il n'attrape que *« Bienvenue à tous »*. La suite se perd, et le lecteur voit qu'elle se perd.`,
+    `Aucun personnage ne rapproche jamais les trois arrivées. Le lecteur seul aura vu la pièce.`
+  ],
+  pourquoi: [
+    `**Le souvenir est convoqué, pas déposé.** Ailleurs, ce chapitre arriverait parce que l'autrice en a besoin là. Ici il arrive parce que quelque chose l'a appelé — *c'est toute la différence entre un plan et un livre.*`,
+    `**La transition devient elle-même une pièce du dispositif.** Le lecteur sort d'un chapitre de la vie d'avant et entre dans un souvenir du monde d'ici, sans voir la couture, parce que c'est lui qui la fait. Il croit suivre une seule pensée continue.`,
+    `**Elle sépare deux chapitres de Joël.** Sans elle, les scènes 12 et 13 s'enchaînent et le lecteur passe trois chapitres d'affilée dans la vie d'avant — c'est long, et c'est le moment le plus fragile du livre.`,
+    `**Elle tombe juste avant le travail sur le registre.** La paire, les trois capsules et la quatrième qui n'éclaircit pas sont fraîches quand Andrew y retourne à la scène 14, et elles le seront encore à la toute fin.`,
+    `**Et ça change la nature du temps 5.** Quand il lit sa ligne, le lecteur ne reçoit pas une explication : il se souvient d'une pièce où il était. *Un souvenir frappe plus fort qu'une révélation.*`
+  ],
+  contre: `**Ce que ce placement coûte, et il faut le savoir :** la paire n'apparaît plus tôt dans le livre, mais au milieu — et dans une scène chargée, pas en décor. *Le risque est que le lecteur rapproche trop vite les deux corps identiques du chapitre B de la paire qu'il vient de voir naître.* **Ce qui l'en empêche est l'interdit n° 1 :** il ignore que les arrivées répondent à des morts, donc il n'a pas la marche à monter. **Mais la marche existe, et elle est plus courte qu'avant.**`,
+  ouvert: [`✅ **Ce chapitre est repris une seconde fois, au chapitre F**, après la mort de Joël — plus bref, moins tourné vers lui, et cette fois il entend la phrase entière. *Les deux récits doivent être vérifiables l'un contre l'autre : rien dans le second qui ne pouvait être manqué dans le premier.*`,
+           `⚠️ **Ce que l'homme dit qui donne prétexte au souvenir.** Il est du monde d'avant, donc Andrew ne l'entend pas : **le déclenchement ne vaut que pour le lecteur.** Pistes d'équivoque, à trancher — *« ça fait dix ans que ça dure »* (le chiffre exact de son arrivée) ; *« on est arrivés en même temps, lui et moi »* (embauchés la même semaine là-bas, trois capsules le même matin ici) ; *« vous croyez que je me souviens de ce que j'ai dit il y a dix ans ? »*`,
+           `⚠️ **Contrainte de loyauté, et elle est absolue.** Le texte ne doit **jamais** placer Andrew chez l'homme. Pas de « en repartant de chez lui », pas de voiture qu'on referme, pas de porte dans le dos. *On l'ouvre ailleurs — à la ruche, dans un couloir, devant un lavabo — et le lecteur fait le raccord tout seul. Rien n'est caché : quelque chose n'est simplement pas dit.*`,
+           `✅ **La paire est posée ici, et nulle part ailleurs.** *La carte « la paire, en passant » est supprimée : elle ne manquait pas, elle refaisait ce que cette scène fait déjà.* **Et le chapitre F ne la reprendra pas** — il ne donne que ce qu'Andrew avait omis.`,
+           `✅ **La réplique du ratio ne tombe pas ici.** *Elle part à la découverte du jardin, dans la bouche du pédiatre — décision de l'autrice, 16 août 2026.*`],
+  src: `04-plan/deux-histoires-en-une.md §7 — 04-plan/le-meme-jour.md §1`
+},
+{
+  id: `s12`, no: `Scène 12`, col: 14, row: `joel`, acte: `La fausse piste s'éteint`,
+  face: `g-suspect`,
+  titre: `Chez l'homme`,
+  statut: `acquis`, pivot: true,
+  resume: `Joël rend visite à un homme qui aurait harcelé les deux filles. Il est là, il ne veut pas leur parler, il les envoie promener — et il donne un alibi comme on jette une porte, sans rien démontrer, parce qu'il n'a pas à se justifier devant des gens qui n'ont rien contre lui.`,
+  produit: `🔴 **Décision du 16 août 2026 : la scène est de Joël, et le lecteur croit écouter un marginal du monde d'Andrew.** *Le suspect que le lecteur s'est fabriqué depuis la scène 6 n'existe pas : il est cousu de deux hommes qui ne se sont jamais rencontrés et qui ne vivent pas dans le même monde.*`,
+  clef: `**L'équivoque, et c'est le mot qui tient toute la scène : « des propos déplacés ».** Le responsable du monde d'Andrew, scène 6, parlait de propos haineux ; ici on dit déplacés, et le lecteur y lit un euphémisme pour la même chose. **C'étaient des propos sexistes tenus à deux filles de dix-huit ans.** Un seul mot, deux lectures, aucune des deux invraisemblable.`,
+  lecture: `Il a entendu parler du marginal aux scènes 6, 7 et 9 sans jamais le voir. Il le voit ici. Il ne remarquera pas que ce n'est pas le même homme, parce qu'il n'a aucune raison de le remarquer — et parce que les deux tiennent exactement le même discours.`,
+  monde: `Rien, et c'est la condition. Un homme en colère sur un pas de porte est le même dans les deux mondes.`,
+  qui: [`joel`],
+  gardes: [
+    `**Aucun nom de famille, et le sien n'est jamais donné.** On dit l'homme, il, le type de l'entrepôt.`,
+    `**Les deux filles ne sont jamais évoquées** — ni comptées, ni sexuées, ni décrites. Il ne dit jamais « elles ».`,
+    `**Aucun marqueur d'âge sur lui.** Le lecteur doit pouvoir le superposer à l'homme de vingt-deux ans de la scène 6 sans que rien ne résiste.`,
+    `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
+    `Ça tourne laid sans tourner violent. Personne ne lève la main, et le narrateur ne juge pas.`,
+    `Le grief reste réel, jamais caricatural, et on ne demande jamais d'y adhérer.`
+  ],
+  phrases: [
+    { t: `On lui a reproché des propos déplacés.`, n: `**Le pivot de la scène.** Le mot doit tomber sans être souligné, et personne ne demande lesquels.` },
+    { t: `Vous en seriez venus aux mains.`, n: `Formulation de l'autrice. Une bagarre au travail : même phrase, même sens, deux mondes.` },
+    { t: `J'ai dit ce que tout le monde pense, et c'est moi qu'on montre du doigt.`, n: `Proposition. Se lit comme le grief des jaloux, et c'est un homme qui a insulté deux filles.` },
+    { t: `J'ai perdu ma place pour trois mots.`, n: `Proposition. Il se croit la victime, et c'est ce qui le rend détestable et innocent en même temps.` }
+  ],
+  pourquoi: [
+    `**Son mobile, proposé :** il travaillait au même endroit qu'elles. Il a dit des choses. On l'a écarté — muté, congédié, peu importe — et depuis il considère qu'on lui a pris sa place pour rien. *Ce n'est pas un prédateur, c'est un homme qui s'estime lésé, et il n'a rien fait d'autre que parler.*`,
+    `**Son alibi, proposé :** il travaillait. Un poste, des horaires pointés, trois personnes qui l'ont vu. **Il ne le démontre pas** — il le jette, et c'est ce qui le rend crédible : un innocent n'apporte pas de preuves, il s'agace.`,
+    `*Les deux tiennent dans les deux mondes sans une retouche, et c'est la seule chose à vérifier avant d'écrire quoi que ce soit d'autre.*`
+  ],
+  ouvert: [`**Et la scène 13 ?** L'alibi qui se confirme suit-il du côté de Joël, ou repasse-t-il chez Andrew ? *Du même côté, la piste naît et meurt dans le même monde, ce qui est plus propre. Chez Andrew, l'enquête d'ici enterre une piste d'ailleurs, et personne ne le saura jamais.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §4.4 — décision du 16 août 2026`
+},
+{
+  id: `s13`, no: `Scène 13`, col: 16, row: `joel`, acte: `La fausse piste s'éteint`,
+  face: `g-alibi`,
+  titre: `L'alibi tient`,
+  statut: `acquis`,
+  resume: `Joël repart interroger quelqu'un, ailleurs, pour vérifier ce que l'homme a dit. Ça tient. La piste s'éteint sans coupable, sans explication et sans éclat.`,
+  produit: `🔴 **Décision du 16 août 2026 : la scène est de Joël, comme la précédente.** Le lecteur croit toujours suivre Andrew, et croit qu'on vérifie l'alibi du marginal. *La piste naît et meurt dans le même monde — celui que le lecteur ne sait pas lire.*`,
+  clef: `Celui qui crie n'est pas celui qui fait. L'homme a un alibi parce qu'il est bruyant : il crie, il est connu pour crier, tout le monde peut dire où il était. **Et ça vaut deux fois, puisqu'il y a deux hommes** — le vrai coupable, lui, est silencieux, et il est à l'exact opposé du milieu qu'on soupçonne.`,
+  monde: `Rien, et il ne faut rien y mettre. C'est une scène de vérification : un lieu, quelqu'un qu'on interroge, une réponse qui ne bouge pas. Elle doit pouvoir se dérouler dans n'importe lequel des deux mondes sans qu'un mot change.`,
+  qui: [`joel`],
+  gardes: [
+    `Mêmes contraintes que la scène 12 : aucun nom, aucun âge, aucun marqueur de monde, aucun mot de parenté, et les victimes jamais évoquées.`,
+    `**Le lieu doit exister des deux côtés.** Un dépôt, un poste de nuit, une salle de pause, un comptoir. Rien qui n'appartienne qu'à un seul monde.`,
+    `L'alibi tient franchement. Pas de doute résiduel, pas de témoin fuyant, pas de « mais » : une piste qui agonise fait perdre le lecteur, une piste qui meurt le libère.`,
+    `Le milieu de la jalousie reste une fausse piste et rien de plus. Le grief garde toute sa place, mais il ne mène plus à personne.`
+  ],
+  lecture: `**Rien de ce que la piste a coûté n'est perdu pour lui** : il a l'économie du monde, le grief, la ruche, le régime pénal, la cérémonie des vingt-six, le jardin — et, sans le savoir, il vient de passer trois chapitres dans la vie d'avant.`,
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §3.1, §4.4 — décision du 16 août 2026`
+},
+
+/* ---------- L'ENLISEMENT ---------- */
+{
+  id: `s14a`, no: `Scène 14 · a`, col: 17, row: `andrew`,
+  face: `g-coldcase`, acte: `L'enlisement`,
+  titre: `Le départ de la seconde enquête`,
+  statut: `acquis`, pivot: true,
+  resume: `Andrew retourne au registre et **tombe sur un jeune arrivant dont plus rien n'est écrit après une certaine date.** La ligne est là, parfaite ; ensuite, les traces s'arrêtent. Il va demander la suite à l'administratif — **et on la lui refuse.**`,
+  produit: `Andrew apprend qu'il existe une partie de ce monde qu'un veilleur n'a pas le droit de voir — et il l'apprend **avec le lecteur**, ce qui n'arrive nulle part ailleurs dans le livre.`,
+  clef: `**Le registre ne s'est pas trompé : il n'a jamais eu à savoir.** Il ne note que les arrivées ; ce qui vient après est ailleurs, dans les dossiers du suivi. Et ceux du jardin sont sous secret médical.`,
+  monde: `Le second registre, celui du suivi. Le secret médical du jardin. Et le fait qu'un veilleur ne soit pas au-dessus de tout.`,
+  qui: [`andrew`,`isaac`],
+  garde_forme: `**Ce n'est pas un mur, c'est un guichet.** Le secrétariat accepte de donner **le nom de le pédiatre qui a suivi l'arrivant et ce qu'il fait maintenant** — il exerce au jardin — **et refuse d'en dire davantage.** *Personne n'a rien décidé : on l'a renvoyé ailleurs, et le renvoi est l'information.* **La loi du monde ne s'énonce jamais, elle se heurte.**`,
+  gardes: [
+    `🔴 **Le registre ne peut pas être faux, et il ne l'est pas.** L'erreur est dans les dossiers d'après — le suivi, les affectations, tenus par des gens. *Si le registre devient discutable, le mouvement où Andrew lit sa propre ligne s'effondre.*`,
+    `Pas un paragraphe sur le secret médical, pas un personnage qui expose le fonctionnement du jardin. **Quelqu'un répond non à une question, et c'est tout.**`,
+    `**Test :** si l'on peut retirer la question sans perdre l'information, la scène est une description déguisée et elle est à réécrire.`,
+    `Il y va parce que c'est son terrain, et Isaac le suit parce qu'Andrew est l'homme du registre. **Ce n'est pas une intuition qu'Isaac suit, c'est une compétence.**`
+  ],
+  ouvert: [`⚠️ **Quelle est l'erreur administrative, exactement.** *Un transfert non consigné, une fiche jamais rouverte, un service qui a changé de nom : assez banal pour qu'on n'en veuille à personne, assez net pour avoir coûté deux semaines.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §4 ter.1, §4 ter.2 — décision du 16 août 2026`
+},
+{
+  id: `s14-appel`, no: `Scène 14 · a bis`, col: 18, row: `andrew`, acte: `L'enlisement`,
+  titre: `Il appelle Isaac`,
+  statut: `acquis`,
+  resume: `Il a une piste, un nom, un lieu. **Il prévient Isaac et ils se donnent rendez-vous au jardin.**`,
+  produit: `Rien d'autre qu'un raccord, et c'est ce qu'il faut : *il a quelque chose, il appelle son ami, ils se retrouvent là-bas.* **La scène doit être plate.**`,
+  clef: `🔴 **C'est le premier de deux coups de fil, et le second est celui qui compte.** *À la scène 17 c, il appellera de nouveau — et cette fois il dira « c'était là sous nos yeux ».* **Si celui-ci a le moindre relief, l'autre perd le sien.**`,
+  garde_bis: `**Il ne sait pas qu'il a besoin d'un policier.** Il appelle Isaac parce que c'est ce qu'il fait, depuis des années, sur des affaires qui n'ont rien à voir. *Ce n'est qu'au jardin qu'une porte s'ouvrira pour une raison qu'aucun des deux n'aura prévue.*`,
+  monde: `Rien.`,
+  qui: [`andrew`,`isaac`],
+  gardes: [
+    `**Aucun enthousiasme.** Il ne pense pas tenir quelque chose ; il pense avoir un nom et une adresse, et ça se dit en trois phrases.`,
+    `Isaac ne discute pas et ne pose pas de question. *Il vient parce qu'Andrew est l'homme du registre — et ça, c'est déjà écrit.*`,
+    `Ni l'un ni l'autre ne formule que le secret médical vient de leur fermer une porte. **Ils vont voir quelqu'un, c'est tout.**`
+  ],
+  ouvert: [`Est-ce un chapitre, ou la dernière page du précédent ? *Trois phrases suffisent peut-être, et le blanc fait le reste.*`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `s14b`, no: `Scène 14 · b`, col: 19, row: `andrew`, acte: `L'enlisement`,
+  titre: `L'entretien en marchant`,
+  statut: `acquis`, pivot: true,
+  resume: `Ils vont voir le pédiatre au jardin. **Il est un peu sur la réserve — puis il comprend qu'il a affaire à un policier, et il coopère normalement.** Il est très occupé : il leur propose de le suivre pendant qu'il répond. **Ils traversent le jardin en marchant à côté de lui.**`,
+  produit: `**Et c'est comme ça que le lecteur voit le jardin : de biais, en marchant, pendant qu'on parle d'autre chose.** *Personne ne visite, personne n'explique — on suit quelqu'un qui travaille et qui répond en même temps.* Au bout : l'erreur administrative, et quelqu'un de trois ans qui va très bien.`,
+  clef: `Le mur était un dossier, jamais une porte. **L'anticlimax est total, et il est humain : personne n'a rien fait de mal.** Ni victime, ni négligence, ni mauvaise volonté — une administration qui protège quelqu'un, et quelqu'un qui n'avait aucun besoin d'être cherché.`,
+  monde: `Le bas de la courbe, vu une fois, en entier. **À trois ans la parole est partie depuis longtemps** : ils ont cherché deux semaines quelqu'un qui n'avait jamais disparu, et qui n'aurait pas pu répondre même s'il l'avait été. *Et Andrew voit, sans le formuler, ce qu'Eliott va devenir.*`,
+  garde_forme: `**Le dispositif de la scène est la marche.** Il avance, ils suivent, il répond entre deux portes. *C'est ce qui autorise à montrer le jardin sans jamais le décrire : ce qu'on voit passe dans le champ, on ne s'y arrête pas.* **Sauf une fois — et c'est la scène suivante.**`,
+  qui: [`andrew`,`isaac`,`pediatre`],
+  gardes: [
+    `**Il ne s'excuse pas et ne se justifie pas.** Il applique une règle, puis il en applique une autre quand un policier est là.`,
+    `Aucun personnage ne formule l'ironie de la piste morte. Elle est dans le fait, pas dans une réplique.`,
+    `Il ne parle jamais de l'âge d'un enfant du jardin ni du jour où sa descente a commencé. **C'est la seule chose qu'il ne dira pas, même à un policier.**`,
+    `Le lecteur, lui, a la fiche complète d'Eliott en tête. **C'est le seul endroit du livre où l'épilogue est visible en avance, et il l'est par accident.**`,
+    `⚠️ **L'anomalie : elle pleure, et elle s'excuse.** *On a dit que les berceurs devaient être des professionnels ; celle-ci ne l'est pas tout à fait.* Le pédiatre le relève, avec compassion et sans s'arrêter de travailler — « allons, allons, pourquoi pleurez-vous ? » — et elle répond « je… heu… pardon ». **Personne n'y voit un défaut, et ce n'en est pas un : c'est trop d'amour, pas trop peu.**`,
+    `⛔ **Aucune description d'elle, et c'est vital.** Ni visage, ni âge, ni allure — *trois hommes regardent un bébé, pas une femme.* **Elle n'existe dans cette scène que par ce qu'elle dit et par la façon dont elle le dit** : une voix qui s'excuse d'exister. *Le lecteur non plus ne doit pas pouvoir la reconnaître de vue.*`,
+    `**Et ses larmes ne s'expliquent jamais.** *Est-ce qu'elle pleure cet enfant-ci, ou celui qu'elle a pris, ou ce qu'elle est en train de devenir ?* **Le livre ne le dira pas, pas même à la fin.**`,
+    `🔴 **C'est ici que tombe la réplique du ratio.** *Décision de l'autrice, 16 août 2026 : elle vient des données techniques que le pédiatre a en main.* — **« Ils mettent trois fois plus longtemps à descendre, en plus. »** *Sans commentaire, sans personne pour relever, et on parle d'autre chose à la phrase suivante.* **C'est la seule fois du livre où le lecteur peut se tromper d'arithmétique** : sans elle il calcule 1:1 et trouve huit au lieu de quinze.`,
+    `**Et elle ne contredit pas son secret.** *Il ne dit l'âge de personne et ne date aucune descente* — il énonce une propriété du barème, comme un médecin cite une posologie. **C'est justement parce qu'il la trouve banale que le lecteur la garde.**`,
+    `✅ **Un berceur, un homme, croisé en passant.** *Décision de l'autrice, 16 août 2026.* Le métier est mixte — le lexique dit « le berceur, la berceuse » — et le livre ne le montrait nulle part. **Il ne fait rien de particulier et personne ne le remarque :** il traverse, il porte quelque chose, il dit bonjour. *S'il devient un personnage, la correction se voit ; s'il n'est qu'un passant, elle s'installe.*`
+  ],
+  ouvert: [`Validée provisoirement le 16 août 2026 — l'autrice veut y revenir.`],
+  src: `04-plan/le-parcours-de-l-enquete.md §4 ter.2 bis — décision du 16 août 2026`
+},
+{
+  id: `s14c`, no: `Scène 14 · c`, col: 20, row: `andrew`, acte: `L'enlisement`,
+  titre: `La salle, en passant`,
+  statut: `acquis`, pivot: true,
+  resume: `Ils passent devant une salle. **Dedans, une berceuse en tête à tête avec un tout-petit sur le point de disparaître.** Andrew s'arrête. Le pédiatre sait que c'est rare de voir ça quand on est extérieur au jardin : **il laisse passer.**`,
+  produit: `**C'est la seule fois du livre où le monde est entièrement bon avec quelqu'un.** Partout ailleurs, quelqu'un est mal accompagné, mal cru, mal regardé, ou pas regardé du tout. Ici, non — il n'y a rien à reprocher à personne, et c'est la seule page dont on puisse le dire.`,
+  clef: `**Une scène presque de mère et d'enfant, dans une grâce et un amour profonds.** *Et le mot est impossible à écrire, ce qui oblige à le faire tenir entièrement dans les gestes.*`,
+  clefFin: `⚠️ **Et c'est elle.** La berceuse de cette scène est celle qui détient Eliott. *Le lecteur passe la plus belle page du livre à la regarder, et il l'aime.* Pendant ce temps, le garçon qu'elle a pris est enfermé quelque part.
+
+**Ce qu'Andrew emporte, c'est une voix.** Son attention est sur le bébé, et la scène doit l'y garder : il ne voit pas son visage, il ne la décrit pas, il ne la regarde pas. *Mais elle parle — et c'est ce timbre-là, et rien d'autre, qui reviendra à la scène 17 c.*`,
+  garde_forme: `🔴 **Le temps se dilate, et c'est le dispositif de la scène.** Trois personnes s'arrêtent — Andrew, Isaac, le pédiatre — et regardent. *On a donc tout le temps de décrire : les gestes, ce qui passe sur les visages, le rythme.* **On raconte une scène hors du temps pendant que trois personnes debout la regardent, et personne ne dit rien.**`,
+  garde_bis: `**Ce n'est pas seulement du métier.** Un berceur est payé, comme une assistante maternelle est payée — *et il donne aussi de la tendresse et de l'amour.* **Porter quelqu'un jusqu'à zéro est le dernier acte d'amour qu'il puisse donner.** Et cet amour est un reliquat : elle avait déjà cette vocation là-bas. *Rien de tout cela ne se dit jamais dans le texte.*`,
+  monde: `Jusqu'où va le métier de berceuse : jusqu'au dernier jour, littéralement, en portant. **Le lecteur n'a plus besoin qu'on le lui dise, il vient de le voir.** *Et ça charge rétroactivement June, sans qu'une ligne le formule.*`,
+  qui: [`berceuse`,`andrew`,`isaac`,`pediatre`],
+  gardes: [
+    `**Aucun pathos sur la page.** Une position à trouver, un poids à répartir, un rythme à tenir. *L'émotion est entièrement dans ce que le lecteur sait du métier, et pas une ligne ne la dit.*`,
+    `**Aucune explication.** Rien n'annonce que ça commence et rien ne signale que c'est fini. Personne ne commente en repartant.`,
+    `**Elle reste anonyme : un geste, une silhouette, pas un portrait.** Pas de visage, pas de nom, pas de réplique.`,
+    `**Ne rien faire de plus.** Pas de personnage qui s'attarde après, pas de retour dessus plus tard, pas de résonance ménagée avec l'épilogue.`
+  ],
+  phrases: [{ t: `Elle le berçait au rythme de la chaîne autour de son cou, symbole de sa foi.`, n: `**Le détail qui plante tout, et c'est un objet — pas un visage.** *Décision de l'autrice, 16 août 2026.* Il résout la contrainte d'anonymat au lieu de la contredire : **on ne décrit pas quelqu'un, on décrit une chose qu'il porte.** Et il rime avec la dernière image de la scène 19.` }],
+  ouvert: [`✅ **Et si c'était elle — le livre ne le dira jamais.** *Décision de l'autrice, 16 août 2026 : le doute plane et ne se referme pas.* Le lecteur se souviendra peut-être, à l'arrestation, d'avoir vu quelqu'un porter un mourant avec une tendresse parfaite. **Si c'est elle, la scène cesse d'être une belle parenthèse : c'est son mobile, joué devant nous, à l'instant où on la retire du monde.** *Et si ce n'est pas elle, la scène garde tout son sens. Rien ne dépend de la réponse — c'est ce qui permet de ne jamais la donner.*`,
+           `Chante-t-elle ? *S'il y a un chant, il ne doit être ni nommé ni décrit comme un rituel — le risque est de fabriquer une cérémonie là où il n'y a qu'un geste.*`,
+           `Ce que devient le corps, après. *La scène peut s'arrêter avant.*`],
+  src: `02-univers/le-jardin.md §6 — 03-personnages/la-berceuse.md §7 — décision du 16 août 2026`
+},
+{
+  id: `j3`, no: `Scène 14 · d`, col: 21, row: `joel`, acte: `L'enlisement`,
+  titre: `Il continue quand même`,
+  statut: `acquis`,
+  resume: `🔴 **Décision de l'autrice, 16 août 2026.** On le voit acculé. **C'était évidemment une fausse piste.** Une scène de lassitude, énervé d'avoir perdu du temps. *Et pourtant : il pense que ça vaut le coup de continuer.* **Il décide de retourner au commissariat pour parler avec son ami.**`,
+  produit: `🔴 **C'est aussi le creux, et le creux n'avait pas besoin de deux chapitres.** *La carte « Il n'a plus rien », qui s'intercalait à la 14 · a bis, est supprimée le 16 août 2026 : cette scène-ci la remplace.* **Les deux semaines perdues d'Andrew et les semaines perdues de Joël sont les mêmes semaines** — et les deux enquêtes s'enlisent en parallèle sans qu'aucun effet d'écriture n'ait à les rapprocher : *une enquête qui piétine se ressemble partout.*
+
+**Le raccord le plus large du livre.** Le lecteur regarde un homme décider d'aller au commissariat — et le chapitre suivant montre Andrew au commissariat. *Il n'a pas à supposer quoi que ce soit : il a vu la décision, il voit l'arrivée, il coud.* **La décision appartient à Joël, l'arrivée appartient à Andrew, et rien dans le texte ne ment.**`,
+  lecture: `**C'est la portion du livre où il est le plus incapable de distinguer les deux hommes**, et c'est voulu. \n\n**Ce que croit le lecteur :** Andrew sort du jardin, l'erreur administrative lui a mangé deux semaines, il est vidé, il rentre, il rumine — et il se dit que non, il ne lâche pas, et qu'il va aller voir Isaac. *La scène suivante lui donne raison.* **Ce qui se passe vraiment :** un autre homme, un autre monde, un autre ami.`,
+  clef: `🔴 **Et c'est ce qui rend la scène 15 a beaucoup plus dure.** *Le lecteur vient de regarder quelqu'un décider que ça valait le coup* — et à la page suivante, on lui dit de lâcher l'affaire. **La gifle n'est possible que si la main s'est levée dans le chapitre d'avant.**`,
+  garde_forme: `**Aucune phrase de décision.** Pas de « il ne lâcherait pas », pas de mâchoire serrée, pas de résolution formulée. *Ça se voit à ce qu'il fait : il ne rentre pas chez lui, il reprend la voiture, il regarde l'heure et il y va quand même.*`,
+  garde_bis: `**L'énervement est celui du temps perdu, pas celui de l'échec.** Il n'en veut pas à l'affaire, il en veut aux jours. *Et le livre sait, lui, que pendant ces jours-là les deux qu'il cherche vraiment sont en train de mourir — mais aucune phrase ne le dit ici.*`,
+  monde: `Rien, et c'est volontaire. Un bureau, une route, une fin de journée. **La deuxième portion du livre où il n'y a aucun monde à expliquer** — et c'est exactement ce qui la rend indépartageable.`,
+  qui: [`joel`],
+  gardes: [
+    `🔴 **Il ne nomme pas son ami.** *« L'autre », « lui », « son collègue » — jamais le prénom.* **C'est la seule condition du raccord** : un nom qui n'est pas Isaac casse tout, et un nom qui est Isaac serait un mensonge.`,
+    `⚠️ **À vérifier contre les autres chapitres de Joël.** *Si Liam y est nommé couramment, ne pas le nommer ici devient une anomalie repérable à la première lecture.* **Alors il faut que l'absence de nom soit la règle dans toute la branche, pas une exception dans ce chapitre-là.**`,
+    `La fatigue est physique et banale. Elle se dit par des choses : la faim qui est passée, la lumière du tableau de bord, une porte qu'on ferme trop fort.`,
+    `**Il ne récapitule pas l'affaire.** Pas de bilan mental, pas de liste de ce qu'il a éliminé. *Le lecteur en sait déjà assez — et un récapitulatif obligerait à nommer des choses qui n'existent que d'un côté.*`,
+    `Ni chiffre, ni date, ni lieu identifiable. **Le chapitre doit pouvoir se lire dans les deux mondes sans qu'un seul mot ait à être repris.**`,
+    `🔴 **On ne compte jamais.** Ni les disparues de l'affaire, ni celles du vieux dossier. *Le lecteur doit pouvoir lire « une vieille affaire mal classée » et la rapporter au dossier de l'arrivant dont les traces s'arrêtent.*`,
+    `**Ne pas égayer le creux.** Pas de rebondissement, pas de demi-indice, pas de scène de monde pour tenir le lecteur. *Ce qui tient le chapitre, c'est qu'il décide de continuer à la fin — et rien d'autre.*`
+  ],
+  ouvert: [`🔴 **Quelle était la fausse piste, exactement.** *Une piste, héritée de la carte supprimée : un vieux dossier mal classé qui ressemblait à un précédent, et où tout le monde va bien.* **Exactement comme en face** — et pendant ces semaines-là, les deux qu'il cherche vraiment sont en train de mourir.`,
+           `✅ **Le lendemain matin.** *Décision de l'autrice, 16 août 2026 : la nuit laisse au lecteur le temps de bien s'installer dans son erreur.* **Le chapitre se ferme donc le soir, sur la décision et pas sur le trajet** — et la scène 15 a s'ouvre sur un homme déjà au commissariat. *Personne ne raconte la nuit, et c'est dans ce blanc-là que le lecteur change d'homme sans le savoir.*`],
+  src: `décision du 16 août 2026`
+},
+{
+  id: `s15a`, no: `Scène 15 · a`, col: 22, row: `andrew`, acte: `L'enlisement`,
+  face: `s15b`,
+  titre: `Au commissariat`,
+  statut: `acquis`, pivot: true,
+  resume: `Andrew insiste. Il insiste encore. Il parle de reprendre le registre, de vérifier des lignes, de recouper des dates. **Il voit la motivation d'Isaac le lâcher et il panique un peu, sans contrôle** — il essaie de lui donner un coup de fouet. Isaac tranche sèchement. Fin de chapitre.`,
+  produit: `🔴 **Décision du 16 août 2026 — et c'est ici que le lecteur est explicitement du côté d'Andrew.** Aucune ambiguïté, aucun doute : on est dans ce monde-ci, avec ces deux hommes-là. *C'est ce qui rend le chapitre suivant impossible à soupçonner.*`,
+  clef: `**Sa panique est du métier retourné contre lui.** Ce qu'il propose pour relancer, c'est de vérifier des documents — le registre, des lignes, des dates. **Il n'a rien d'autre à offrir, parce que c'est tout ce qu'il sait faire**, et Isaac, lui, sait que ça ne vaut rien à ce stade.`,
+  monde: `Le registre revient dans sa bouche comme une solution, une fois de plus. Personne ne relève.`,
+  qui: [`andrew`,`isaac`],
+  gardes: [
+    `Sa panique ne se nomme pas. Pas de « il paniquait », pas de cœur qui s'emballe : ça se voit à ce qu'il propose, et au fait qu'il le propose deux fois.`,
+    `Isaac n'est ni las ni lâche. **Il a raison**, et il le dit comme on dit une chose désagréable qu'on a déjà pesée.`,
+    `✅ **Et c'est ici qu'il s'en va, pas dans un chapitre à lui.** *La scène 16 est supprimée le 16 août 2026 : Isaac se retirait deux fois.* **Ce n'est pas le délai, c'est la crédibilité** — il a suivi l'homme du registre dans un mur, et il ne se laissera pas emmener une seconde fois. *Son départ est entièrement juste et entièrement la faute d'Andrew.*`,
+    `Ne jamais faire d'Isaac un lâche, ni un tiède, ni un fonctionnaire. **Ne jamais lui faire dire qu'il a été trompé — il ne l'a pas été.** *La scène ne se joue pas entre un bon et un mauvais : elle se joue entre la raison et l'entêtement, et le livre ne donne tort ni à l'un ni à l'autre.*`,
+    `Le chapitre se ferme sur la réplique. Pas de réaction d'Andrew, pas de ligne de narrateur derrière.`
+  ],
+  phrases: [{ t: `Lâche l'affaire, Andrew… tu comprends pas, on a perdu trop de temps ; on court déjà après un cadavre !`, n: `Formulation de l'autrice. **Le prénom est capital** : il ancre le chapitre sans discussion possible dans le monde d'ici — et c'est précisément ce qui autorise le chapitre suivant.` }],
+  src: `04-plan/le-meme-jour.md §5.3, §5.5 — décision du 16 août 2026`
+},
+{
+  id: `s15b`, no: `Scène 15 · b`, col: 23, row: `joel`, acte: `L'enlisement`,
+  face: `s15a`,
+  titre: `« Lâche l'affaire »`,
+  statut: `acquis`, pivot: true,
+  resume: `Le ton est monté. On se répond, on hausse la voix, quelqu'un répète ce qu'il a déjà dit. **Puis il regarde les dossiers, et il n'y touche plus.** Le chapitre se ferme sur un abandon.`,
+  produit: `🔴 **Le chapitre suivant, et on a changé de monde sans que le lecteur le sache.** Il croit lire la suite de la dispute : même pièce, mêmes hommes, ton qui monte d'un cran. *Ce sont deux disputes, dans deux mondes, à dix ans d'écart — et c'est la coupe de chapitre qui fait tout le travail.*`,
+  clef: `**« Je te le répète » est la charnière, et c'est une équivoque parfaite.** Chez Joël, elle renvoie à ce qui a déjà été dit dans sa propre conversation. Pour le lecteur, elle renvoie au chapitre d'avant. **Les deux lectures sont exactes, et aucune n'est un mensonge.**`,
+  lecture: `Il vient de voir Isaac dire à Andrew de lâcher. Il lit la suite. Il n'y a pas de suite — *et il aura fabriqué lui-même la scène la plus importante du dispositif.* **Et il croit voir un homme abandonner**, ce qui rend le chapitre d'après plus fort qu'il n'a le droit de l'être.`,
+  monde: `Rien, et surtout rien. Un commissariat se ressemble partout, une engueulade entre deux collègues aussi : c'est exactement ce qui rend la méprise possible.`,
+  qui: [`joel`],
+  gardes: [
+    `**Aucun prénom.** Le chapitre précédent a dit « Andrew » ; celui-ci ne dit personne, et le lecteur reporte le nom tout seul.`,
+    `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
+    `Aucune des deux victimes n'est comptée, décrite ni sexuée. Le lecteur doit pouvoir y lire un garçon de dix ans.`,
+    `**Les deux chapitres ne se citent jamais l'un l'autre**, et rien dans celui-ci ne rappelle celui-là. C'est le lecteur qui raccorde ; s'il est aidé, il voit la couture.`
+  ],
+  phrases: [
+    { t: `Comment tu peux sortir ça ? Tant qu'on a rien retrouvé, on peut rien avancer.`, n: `Formulation de l'autrice. Joël se défend — et la phrase vaut mot pour mot pour un garçon disparu.` },
+    { t: `Je te le répète, lâche l'affaire ! À l'heure qu'il est, les vers ont sûrement commencé leur travail !`, n: `Formulation de l'autrice. **« Je te le répète » est le mot qui coud les deux chapitres.** Il ne doit être ni souligné, ni commenté, ni relevé par personne.` }
+  ],
+  ouvert: [`**Ce que devient « c'est déjà ce qu'on m'a dit ».** La réplique qui échappait à Andrew n'a plus de place ici : le dispositif ne passe plus par un écho dans sa tête, il passe par une coupe de chapitre. *À supprimer, ou à replacer ailleurs — mais pas ici, où elle ferait doublon avec un procédé plus fort.*`],
+  src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — décision du 16 août 2026`
+},
+{
+  id: `s15c`, no: `Scène 15 · c`, col: 24, row: `andrew`, acte: `La remontée`,
+  face: `s17b`,
+  titre: `Il passe outre, et il n'en tire rien`,
+  statut: `trou`, pivot: true,
+  resume: `**Décision de l'autrice, 16 août 2026 : ce chapitre en absorbe deux.** *L'ancienne scène 17 a — « il se fait des nœuds au cerveau » — n'existe plus séparément.* **Quelque chose a retenu son attention dans le dossier**, pendant la conversation houleuse au commissariat. Il décide d'y réfléchir au calme. *Là où l'autre s'est arrêté net, celui-ci ne s'arrête pas.* **Puis il y passe la journée, seul, et ça ne donne rien.**`,
+  produit: `**Le lecteur a lu une seule scène :** un homme sommé d'arrêter, qui désespère, qui regarde ses dossiers — puis qui décide de continuer quand même. **Il y avait deux hommes.** *Le premier s'est arrêté et il a perdu deux filles ; le second a continué et il retrouvera le garçon vivant.*`,
+  clef: `*C'est le §4 bis.3 rendu invisible : l'obéissance puis le refus, le même geste à deux issues, livré en trois coupes de chapitre et sans une phrase pour le signaler.* **Le lecteur croit assister à une hésitation. Il assiste à une bifurcation.**`,
+  clefFin: `✅ **Et c'est ce chapitre qui apprend au lecteur qu'Isaac est parti — par une absence.** *La scène 16, où Isaac lâchait l'affaire, est supprimée : il se retirait déjà en fermant la 15 a.* **Plus de second homme dans les scènes, plus de véhicule, plus de poste où entrer sans s'annoncer.** *Aucune phrase ne dit qu'il est parti. On s'en aperçoit.*`,
+  garde_forme: `⛔ **Ce qu'il a remarqué ne doit rien donner.** *C'est la condition de toute la séquence :* le chapitre ouvre sur quelque chose qui ressemble à une piste, y passe des heures — et se ferme sur rien. **Sans ça, l'idée arrivée en tête de chapitre pré-annonce la solution, et les trois chapitres suivants n'ont plus rien à découvrir.**
+
+**La forme suit :** ① il note la chose, sans y croire, dans une pièce où on lui crie dessus ; ② il se la garde ; ③ il y consacre sa journée ; ④ il n'en tire rien ; ⑤ **le chapitre se ferme sur une fin de journée** — pour que le suivant se lise comme un soir, et le troisième comme un lendemain.`,
+  lecture: `Il ne peut pas savoir qu'il vient de voir la différence entre les deux vies du même homme. *Il la verra à la relecture, et il n'y aura toujours rien à corriger : personne n'a menti.* **Et il sort du chapitre en croyant que cet homme-là est fini** — ce qui est exactement l'état qu'il faut pour lire le chapitre suivant de travers.`,
+  monde: `Rien de neuf, et ce n'est pas le moment d'en mettre.`,
+  qui: [`andrew`],
+  gardes: [
+    `**Aucun personnage ne rapproche les trois chapitres**, ni sur le moment ni plus tard.`,
+    `Andrew ne comprend rien à ce qui vient de se passer. Pas d'illumination, pas de déjà-vu formulé.`,
+    `Ce qu'il a remarqué ne doit contenir aucune information venue de l'autre monde. **Rien ne traverse.**`,
+    `**Il ne devient pas meilleur enquêteur : il devient un homme seul qui continue.** *Pas de progrès — c'est la condition pour que le chapitre suivant se lise comme une pause méritée.*`,
+    `⛔ **Aucun retour en arrière sur le départ d'Isaac.** Pas de « depuis qu'il était seul », pas de coup de fil qu'on ne passe plus, pas de souvenir de la dispute. *L'ellipse ne tient que si personne ne la comble.*`,
+    `✅ **Et personne ne dit ce que ça lui coûte.** *Passer outre, c'est perdre Isaac* — mais le chapitre ne le formule pas, ne l'anticipe pas, et ne se ferme pas sur un adieu.`
+  ],
+  pourquoi: [
+    `**Ce qui a été écarté le 16 août 2026 :** on lui demandait de signer quelque chose qui clôt le dossier — un formulaire, un classement, une restitution — **et il ne le faisait pas.** *C'était son défaut retourné pour la première fois : l'homme qui croit les documents et pas les gens refuse un document.* **Écarté parce qu'un refus est un geste, et qu'un geste se remarque** — or ce déclenchement-ci doit être le plus petit des trois.`,
+    `**Écarté aussi, plus sec :** il n'y a pas d'élément du tout, Isaac se détourne et Andrew ne bouge pas. *Ça marchait, mais ça ne donnait rien à la relecture — et surtout ça laissait la journée suivante sans objet.*`
+  ],
+  ouvert: [`⚠️ **Qu'est-ce qui a retenu son attention, exactement.** *Trou neuf, petit mais réel.* **Trois contraintes :** ça doit se voir dans un dossier qu'il a sous les yeux pendant qu'on lui crie dessus ; ça ne doit lui donner aucune direction ; **et ça doit pouvoir ne rien donner sans que le lecteur se sente floué.**`,
+           `⚠️ **Trois déclenchements se suivent** — celui-ci, le reliquat qui lui rend le geste, et la phrase d'Eliott qui lui donne le lieu. *Deux, c'est une remontée ; trois, c'est une machine.* **Celui-ci doit rester le plus petit : il décide seulement qu'il ne s'arrête pas.**`],
+  src: `04-plan/le-parcours-de-l-enquete.md §4 bis, §4 bis.3 — décision du 16 août 2026`
+},
+{
+  id: `s17b`, no: `Scène 17 · b`, col: 25, row: `joel`, acte: `La remontée`,
+  face: `s15c`,
+  titre: `Il rentre chez lui`,
+  statut: `acquis`, pivot: true,
+  resume: `Il est rentré chez lui, dépité. Il s'affale sur son canapé. Il fait des choses banales. **C'est un abandon complet.**`,
+  produit: `🔴 **Et le lecteur ne doit surtout pas le lire comme tel.** Pour lui, on est toujours chez Andrew : une fin de journée éreintante, une pause après tous ces nœuds au cerveau. *Un homme qui souffle, rien de plus.* **C'est le chapitre le plus dangereux du livre à écrire, parce qu'il doit être deux choses opposées à la fois sans qu'un seul mot penche d'un côté.**`,
+  clef: `**Ce que Joël fait ici, c'est renoncer. Ce que le lecteur voit, c'est quelqu'un qui se repose.** La seule différence entre les deux est dans ce qui suit — et le lecteur croira que ce qui suit, c'est le même homme qui repart.`,
+  lecture: `Il aura vu un homme s'obstiner, puis souffler, puis trouver. Trois chapitres, un seul arc. **Il y a deux hommes, et l'un des deux ne s'est jamais relevé.**`,
+  monde: `⚠️ **Un intérieur est l'endroit du livre où un monde se trahit le plus vite.** Rien chez lui ne doit être impossible chez Andrew : pas d'image de quelqu'un, pas d'objet qui suppose une histoire, rien qui vienne d'avant. *Corollaire de plan : mieux vaut que le lecteur n'ait jamais vu le logement d'Andrew avant ce chapitre — sinon il compare.*`,
+  qui: [`joel`],
+  gardes: [
+    `**Aucune phrase de renoncement.** Pas de « il n'y retournerait pas », pas de dossier qu'on repousse, pas de décision. Il rentre, il s'assoit, il fait des gestes.`,
+    `**Et aucune phrase de repos non plus.** Pas de « il avait besoin de souffler », pas de fatigue commentée. Le narrateur ne qualifie rien : il décrit des gestes, et le lecteur choisit — il choisira mal.`,
+    `Aucun nom, aucun marqueur de monde, aucun mot de parenté.`,
+    `**Ne rien y faire arriver.** Pas d'appel, pas de pensée qui relance, pas de détail qui reviendra plus tard. Une page où il ne se passe rien, et c'est tout le travail.`
+  ],
+  pourquoi: [
+    `**C'est l'endroit du livre où poser un faux raccord de corps.** Une scène domestique donne le rasage, le miroir, la main qui prend un verre, la façon de s'asseoir. *Le dossier cherchait une scène où la cicatrice puisse se voir sans qu'on montre un visage : elle est là.*`,
+    `**Et ça absorbe la carte « Joël retourne à ses notes », qui n'a plus lieu d'être.** L'ancien mécanisme voulait qu'Andrew regarde un homme reprendre un dossier lâché ; la doctrine du 16 août l'interdit — Andrew ne regarde rien, c'est le lecteur qui attribue. *Le retour de Joël à l'affaire se fait donc hors champ, entre ce chapitre et la planque, et le livre n'a jamais eu besoin de le montrer.*`
+  ],
+  src: `04-plan/le-parcours-de-l-enquete.md §4 bis.2 — décision du 16 août 2026`
+},
+{
+  id: `s17c`, no: `Scène 17 · c`, col: 26, row: `andrew`, acte: `La remontée`,
+  face: `g-piste`,
+  titre: `Il a trouvé`,
+  statut: `trou`, pivot: true,
+  resume: `Il refait la promenade qu'il avait faite avec le garçon, comme un homme qui suit un fantôme. Une phrase lui revient — *« il y avait un magasin de chaussures ici, pas une épicerie »* — et il entre dans l'épicerie. Il flâne dans les rayons, il passe en caisse. **La femme devant lui est nerveuse. Elle fait tomber sa monnaie.**`,
+  clefFin: `✅ **Et sa culpabilité reste exacte, sans qu'aucune phrase n'ait à être retrouvée.** *Ce n'est pas qu'il a manqué un indice : il est resté trois mètres devant elle et il ne l'a pas regardée.* **Il regardait le bébé.** *L'homme qui lit les documents et pas les gens était dans la même pièce que la coupable, et il n'a emporté qu'un timbre de voix.* **C'est la faute d'avant refaite à l'identique, dans la même vie, avec le même geste — et sans qu'il puisse le savoir.**`,
+  produit: `**C'est sa peur d'être reconnue qui la fait reconnaître.** *Elle sait qui il est : elle l'a vu au jardin avec le policier.* Andrew, lui, serait passé à côté — il n'avait pas retenu son visage. **Elle lâche sa monnaie parce qu'elle l'a vu, et c'est en ramassant la monnaie qu'il l'entend.** *Elle fabrique elle-même ce qu'elle redoute.*`,
+  clef: `**Il ne déduit rien de toute la scène : elle fait tout le travail.** Elle s'excuse trop vite, elle se retourne, et le lendemain elle le conduit à l'enfant sans savoir qu'elle est suivie. *Le chapitre s'appelle « Il a trouvé » et il n'y a pas une déduction dedans — seulement de l'entêtement, le même exactement qu'à la scène 15 a où il avait tort.*`,
+  garde_forme: `**Le déroulé.** ① il marche, la phrase du gamin lui revient, il entre dans l'épicerie — *sans rien chercher : le magasin ne contient rien* ; ② il flâne, il passe en caisse ; ③ la femme devant lui laisse tomber sa monnaie et **s'excuse auprès du caissier** — *« heu… pardon… »* — pendant qu'il s'accroupit pour l'aider ; ④ leurs regards se croisent — **un micro-blanc**, et elle essaie de le contenir ; ⑤ elle finit de payer maladroitement et sort en trombe ; ⑥ il retourne au jardin : **on lui donne un nom, pas une adresse** ; ⑦ le lendemain, il la prend en filature ; ⑧ elle le mène droit au lieu, elle en repart, il appelle.
+
+*Coupure de chapitre possible après ⑥ : le refus d'adresse ferme bien, et « le lendemain » rouvre.*`,
+  garde_bis: `⚠️ **Andrew relit deux fois la même scène sans le savoir.** *Au jardin, le pédiatre relevait ses larmes et elle bredouillait pardon ; ici, c'est au caissier qu'elle s'excuse d'avoir lâché sa monnaie.* **Deux fois quelqu'un derrière un comptoir, deux fois la même femme qui s'excuse d'exister — et il n'est l'interlocuteur ni de l'une ni de l'autre.**
+
+*Il ne reconnaît pas un visage : il reconnaît un timbre, et il n'est même pas celui à qui on parle.* **Ce qu'il entend, il l'entend par-dessus l'épaule de quelqu'un d'autre — exactement comme la première fois.**`,
+  lecture: `Le lecteur a passé la plus belle page du livre à la regarder bercer un tout-petit, **et il l'aimait.** *À la relecture, « je… heu… pardon » n'est plus une femme qui s'excuse de pleurer.*`,
+  monde: `Le jardin donne un nom et refuse une adresse. **Rien d'hostile, rien de dramatique** — la même administration qu'à la scène 14 b, qui protège des gens et le fait bien.`,
+  qui: [`andrew`,`isaac`],
+  gardes: [
+    `**Aucune phrase du genre « il la reconnut ».** *Il ne la reconnaît jamais complètement, pas même en la suivant.* Il a une voix, une attitude, et rien d'autre — et il y va quand même.`,
+    `Elle ne parle pas. **Deux mots dans tout le chapitre**, et ce sont ceux qu'elle a dits au jardin.`,
+    `⛔ **Il ne la reconnaît pas — c'est sa voix qui la reconnaît, et ça l'interpelle, rien de plus.** *Aucun soupçon dans le magasin : il aide quelqu'un à ramasser de la monnaie, c'est tout ce qu'il croit faire.* **Une écharde, pas une piste.** *Et c'est la façon dont elle sort qui, une minute plus tard, transforme l'écharde en question.*`,
+    `**Le micro-blanc ne s'écrit pas comme un suspense.** *Une seconde de trop, un regard qui ne se détourne pas assez vite, et elle qui se remet à compter sa monnaie.* Le narrateur n'en fait aucun cas.`,
+    `**La filature ne doit rien avoir de spectaculaire.** Un homme seul, sans voiture, qui attend dans une rue et qui marche derrière quelqu'un. *S'il y a du suspense, il vient de ce qu'on sait déjà, jamais de la mise en scène.*`,
+    `« C'était là sous nos yeux » est dit une fois, au téléphone, et personne ne le relève. Ça ne doit jamais être expliqué.`,
+    `**L'hypothèse « le gamin fabulait » reste debout jusqu'à la dernière page.** Rien de ce qu'Eliott a dit n'est confirmé par cette scène : c'est une femme qui s'excuse mal, pas une phrase qui se vérifie.`
+  ],
+  pourquoi: [
+    `**Trouvaille de l'autrice, 16 août 2026 — et elle rachète la scène 14 c**, qui était la plus belle du livre et ne servait à rien. *Elle y pleurait, le pédiatre le relevait doucement, elle bredouillait pardon.* **C'était de l'amour ; ça devient une pièce.**`,
+    `**L'asymétrie est le moteur.** *Elle le reconnaît, lui ne la reconnaît pas.* Elle réagit à une reconnaissance qui n'a pas eu lieu — **et c'est cette réaction-là qui la déclenche.** *Sans son affolement, il passait son chemin.*`,
+    `**Et ce sont les mots du gamin qui l'amènent là — sans être un indice.** *Il entre dans l'épicerie parce qu'un garçon en avait parlé et qu'il n'a plus que ça : un geste de deuil, pas d'enquête.* **Ce que ce gosse racontait lui a valu de n'être cru par personne, et ça l'a blessé.** *Ce sont ces mêmes mots, faux, moqués, qui amènent Andrew au bon endroit — et l'épicerie est bien une épicerie. Il avait tort, et il sauve tout.*`,
+    `**Le hasard n'achète qu'un soupçon.** *Elle fait ses courses dans le quartier où elle travaille, il entre dans un magasin pour une raison qui lui appartient — personne n'a besoin d'une coïncidence.* **Et tout ce qui suit est du travail :** retourner au jardin, obtenir un nom, se faire refuser l'adresse, attendre un jour, marcher derrière quelqu'un.`,
+    `⛔ **Écarté : ils se rentrent dedans dans la rue.** *Ça reposait entièrement sur un hasard, et ça ne donnait à Andrew que deux secondes pour tiquer.* **La caisse lui en donne trente**, à genoux, à côté d'elle, pendant qu'elle parle.`,
+    `**Et il ne trouve toujours rien lui-même : c'est elle qui le conduit.** *Ne sachant pas qu'elle est suivie, elle va là où il faut aller.* **L'homme qui croit les documents et pas les gens est sauvé en suivant quelqu'un.**`,
+    `⛔ **Écartées, notées pour ne pas y revenir :** la voiture qu'il n'a pas ; la voisine qui dit bonjour ; le nom prononcé et laissé tomber ; le gamin qui décrivait un intérieur ; **la fenêtre, la lumière qui s'éteint et le cadenas.** *Cette dernière marchait, mais elle obligeait le lieu à être sa maison — et elle donnait la scène à un homme qui déduit.*`
+  ],
+  ouvert: [`✅ **La réplique d'Eliott saute — décision du 16 août 2026.** *Elle ne servait plus, et ce qu'elle emportait est remplacé par mieux :* **l'indice à retrouver n'est plus une phrase, c'est une personne.** Le lecteur a passé la plus belle page du livre à la regarder. *Il n'avait pas à la déchiffrer : il avait juste à la voir, et il ne l'a pas vue non plus.*`,
+           `⚠️ **Où il la suit — sa maison, ou ailleurs.** *Ailleurs est plus fort : plus rien à déduire, il voit l'endroit.* **Et ça libère « c'était là sous nos yeux » de la géographie** — la phrase ne parle plus d'un lieu, elle parle d'elle. *Ils sont restés trois mètres devant elle pendant qu'elle berçait un enfant.*`,
+           `⚠️ **Est-ce que ça tient en un chapitre ou en deux.** *Le refus d'adresse au jardin ferme très bien, et « le lendemain » rouvre.*`],
+  phrases: [{ t: `c'était là sous nos yeux`, n: `⚠️ **Et depuis le 16 août 2026, elle ne parle plus d'un lieu : elle parle d'elle.** *Ils sont restés trois mètres devant elle, au jardin, pendant qu'elle berçait un enfant — et ils cherchaient le garçon qu'elle avait pris.* **C'est le sens le plus littéral que la phrase puisse avoir, et personne ne l'entend.**
+
+**Second coup de fil du livre, et le premier était plat exprès** — voir la scène 14 · a bis. Réplique d'Andrew à Isaac, au téléphone, au moment de donner l'adresse. C'est une réplique de policier, elle a le droit d'être banale — c'est le lecteur qui saura qu'elle est littérale. Les berceuses habitent à côté du jardin ; elle vit à quelques pas de chez June ; Andrew est passé devant sa porte à chacune de ses trois visites.
+
+✅ **Et depuis le 16 août 2026, elle est littérale trois fois.** *Il est passé devant. Il est passé devant avec le gamin. Et le gamin a parlé à cet endroit-là.* **C'est la seule réplique du livre qui dise exactement ce qu'elle dit, au moment où personne ne peut l'entendre** — Isaac la prend pour une formule de flic, et le lecteur se dit « mais oui, bien sûr ».` }],
+  pourquoi: [
+    `✅ **Trouvé le 16 août 2026 — et c'est l'autrice qui l'a trouvé.** *Le trou n'était pas « qu'est-ce qu'Eliott a dit » : c'était « comment Andrew y revient ».* **Il refait la promenade.** *Celle de la scène 2 — le petit parcours qu'il avait entrepris avec le garçon, la dernière fois qu'il l'a vu.* **Comme un homme qui suit un fantôme.** Il déambule, et un mot lui revient. Puis une intuition.`,
+    `**Pourquoi ça tient, alors que rien d'autre ne tenait :** *le trajet n'est pas le sien, c'est celui d'Eliott.* **Ses pieds n'ont donc pas à choisir cette rue-là : le gamin l'a choisie pour lui, il y a des semaines.** *Aucun hasard à couvrir, aucune attention à diriger — il suit un itinéraire qui existe déjà.*`,
+    `**Et les mots sont accrochés au trottoir.** *Regarder la scène 2 : « mais si, il y avait un boulanger ici, pas un magasin de chaussures » — c'est une phrase qu'on ne peut dire que devant quelque chose.* **Le gamin commentait ce qu'il passait, comme font les gamins ; Andrew marchait à côté et écoutait à moitié.** *Chaque bout de rue porte donc ce qui s'y est dit, et il suffit de le refaire pour que ça revienne.* **Ce n'est pas un procédé : c'est comme ça que la mémoire fonctionne.**`,
+    `**Devant une porte, la chose qu'il avait rangée dans le délire est debout devant lui.** *Et « c'était là sous nos yeux » devient exact au sens propre :* **il est passé là avec le garçon, et le garçon a parlé à cet endroit précis.**`,
+    `**C'est son défaut retourné, enfin.** *L'homme qui croit les documents relit le monde — et le seul document qu'il consulte ce jour-là est une promenade.* **Il n'est pas revenu chercher un indice : il a arrêté de travailler, et la chose est arrivée.** *Personne ne le formule.*`,
+    `⛔ **Trois pistes écartées le 16 août 2026, à ne pas refaire.** *① La voiture :* Andrew n'en a pas, il était déjà à pied les trois premières fois. *② Il s'arrête devant chez June et lit une porte :* **un homme planté devant une porte regarde ses pieds, pas la maison d'en face** — rien ne dirige son attention. *③ June parle d'Eliott et le nom tombe :* **ça marche, mais c'est elle qui trouve et lui qui reçoit**, et le chapitre s'appelle « Il a trouvé ».`,
+    `⚠️ **Ce que ça exige de la scène 2, et c'est une dépendance dure.** *La promenade doit être sur la page, marchée, avec les phrases dedans* — sinon le lecteur ne peut pas revenir en arrière et retrouver l'endroit. **Elle y est déjà : « puis ils sortent faire un tour — c'est dehors, en marchant, que le garçon dit ce qu'il dit ».** *Il faut seulement que les lieux y soient nommés, banalement, comme du décor qu'on traverse.*`
+  ],
+  ouvert: [`⚠️ **Ce qui le fait tiquer — proposition du 16 août 2026.** Le gamin avait décrit l'intérieur de cette maison. Debout devant la porte, Andrew perçoit la chose qu'il avait décrite — et comprend qu'elle est là.
+
+Ce n'est pas un pressentiment, c'est un fait : Eliott a décrit une pièce où il n'avait aucune raison d'être entré. Ça suffit pour entrer sans attendre, et ça n'a besoin d'aucun autre argument.`,
+           `**Et c'est la seule erreur de tri de tout le livre.** Le métier d'Andrew est de démêler ce qu'un jeune arrivant invente de ce qu'il a vu. Le gamin décrivait des lieux qui n'existent pas — un boulanger là où il y a un magasin de chaussures — alors quand il a décrit une cuisine, c'est parti au même endroit. *Il n'a pas manqué un indice caché : il a mal trié une phrase, une seule fois, et c'était celle-là.*`,
+           `**Ce que ça donne pour la suite, sans qu'un mot l'explique :** si le gamin connaissait cet intérieur, c'est qu'une porte s'était déjà ouverte pour lui. *Un enfant qui ne trouve sa place nulle part avait un endroit où on le laissait entrer.* **Personne ne l'a emmené de force la première fois** — et c'est ce qui rend la suite bien pire.`,
+           `⚠️ **Il reste à choisir le [X] — la chose que le gamin décrit.** Trois conditions : ça se dit en trois mots par un enfant ; c'est trop banal pour qu'on le note ; **et ça se perçoit depuis la rue au second passage.** *De préférence par l'oreille — alors Andrew comprend qu'il l'entendait déjà les trois fois d'avant, et « c'était là sous nos yeux » devient vrai une quatrième fois.* Un oiseau, une radio qu'on laisse allumée, un chien.`,
+           `⛔ **Écarté : le nom.** *La coupable était nommée par le gamin, et Andrew ne l'avait pas entendu.* **La faute était plus cruelle — « il a eu le nom et il l'a laissé tomber par terre » — mais un nom prononcé ne dit pas que l'enfant est à l'intérieur.** *Une description d'intérieur, si.*`,
+           `⛔ **Écarté : la voisine qui dit bonjour.** *Trop faible.* **On n'entre pas chez quelqu'un parce qu'il a salué un enfant dans la rue** — c'était un pressentiment déguisé en indice.`,
+           `**Il ne peut pas avoir décrit la cave : il n'y était jamais allé.** *Ce qu'il décrit est une pièce ordinaire — celle où l'on fait entrer quelqu'un une fois, pour cinq minutes.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §4, §4.3, §4 ter.4, §4 ter.6`
+},
+{
+  id: `s18`, no: `Scène 18`, col: 27, row: `andrew`, acte: `La remontée`,
+  face: `g-entre`,
+  titre: `Il entre seul, sans attendre`,
+  statut: `acquis`, pivot: true,
+  resume: `Il a appelé, il sait que l'autre arrive, et il n'attend pas. Ce n'est pas du courage et ce n'est pas de l'imprudence : c'est exactement la faute d'avant refaite à l'envers. On lui a dit d'arrêter de creuser une fois, et il a obéi. Cette fois, personne ne l'arrête parce que personne n'est là.`,
+  produit: `Le seuil. Fin de chapitre : l'air est lourd, il descend, et on referme.`,
+  clef: `Ce n'est pas une planque, c'est une maison ordinaire, dans une rue, comme les autres. La porte qu'il ouvre donne sur une cave.`,
+  monde: `Rien.`,
+  qui: [`andrew`,`joel`],
+  gardes: [`Les deux descentes ne se citent jamais. Le lecteur descend deux fois le même escalier et ouvre deux fois la même porte.`],
+  double: `C'est le seuil que le lecteur franchit deux fois — et le seul endroit du livre où le procédé produit son effet par la différence et non par la ressemblance.`,
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — 04-plan/le-meme-jour.md §5 quater`
+},
+
+/* ---------- LE SEUIL FRANCHI DEUX FOIS ---------- */
+{
+  id: `corps`, no: `Chapitre B`, col: 28, row: `joel`, acte: `Le seuil franchi deux fois`,
+  face: `s19a`,
+  titre: `Les corps`,
+  statut: `acquis`, pivot: true,
+  resume: `On décrit un premier corps, et on croit que c'est le garçon. Puis un second, plus loin. Deux corps identiques, encore roses de l'afflux sanguin, mortes depuis moins d'une heure.`,
+  produit: `Le trouble. Le lecteur peut se dire « la paire du début, qu'est-ce qu'elles font là ? » — c'est admis, c'est même souhaitable. Ce n'est pas encore la bascule : c'est une pièce de trop dans les mains, sans case où la ranger.`,
+  clef: `Le chemin émotionnel est à trois temps là où les références en ont deux : l'angoisse (c'est peut-être lui), le soulagement (ce n'est pas lui), l'horreur (ce sont elles, et on ne savait même pas qu'on pouvait les perdre).`,
+  monde: `Rien.`,
+  qui: [`joel`,`liam`,`chrissy`],
+  gardes: [
+    `Ne pas couper la description. Elle doit durer, et elle doit être précise : c'est le carburant de l'espoir. Un corps abîmé à ce point n'est plus reconnaissable — plus la description avance, plus on peut se dire « ça ne lui ressemble pas ».`,
+    `Aucun signe d'identité pendant la description. Rien qui nomme, rien qui prouve.`,
+    `Faire réagir le témoin avant de montrer la preuve.`,
+    `Finir court. Une phrase sans emphase, à la dernière ligne du chapitre. C'est le contraste de longueur qui frappe.`,
+    `Le soulagement du temps 2 doit être réel, tenir une phrase ou deux, avant d'être retourné.`,
+    `Les chapitres de la vie d'avant ne nomment personne : la phrase de chute ne peut pas porter de prénom. Elle devra tomber sur autre chose. Une heure. Une chaleur. Un fait.`
+  ],
+  clefFin: `On peut défigurer un visage. On ne peut pas défigurer une ressemblance. Ce qui clôt la scène n'est pas « c'est elle », mais que les deux corps sont les mêmes. La description peut être aussi atroce qu'on veut, l'espoir survivra tant que chaque corps est pris séparément — il meurt à la seconde où on les regarde ensemble.`,
+  refs: [
+    { t: `The Walking Dead — Carol et sa fille, la grange`, d: `La grange s'ouvre. On y a cherché quelqu'un pendant toute une saison. Ce qui en sort sort un par un, et on continue d'espérer jusqu'au dernier. Une paire de chaussures qu'on reconnaît, puis une démarche qui n'est plus humaine, puis une silhouette. Et le corps de celui qui regarde cède avant qu'on nous montre le visage.` },
+    { t: `Franck Thilliez — « Il était deux fois », Gabriel et Julie`, d: `Tout un chapitre de description atroce. Le ressenti et le désespoir du personnage sont décrits avant la sentence : on croit encore à un soulagement. La phrase tombe à la toute fin, brève, presque administrative.` }
+  ],
+  refNote: `Ce qu'elles ont en commun : la scène porte le lecteur jusqu'au bout dans l'espoir que ce ne soit pas elle. L'espoir n'est pas retiré à l'avance — on n'a pas été préparé, on a été accompagné. Et la description longue et atroce est précisément ce qui le fait tenir : elle horrifie, et elle protège l'espoir.`,
+  ouvert: [`L'espoir doit avoir été payé : la grange ne fonctionne que parce qu'on a cherché toute une saison. Il faut donc que la recherche ait du poids avant.`],
+  src: `07-recherches/references-de-scenes.md — 04-plan/le-meme-jour.md`
+},
+{
+  id: `s19a`, no: `Chapitre C`, col: 29, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  face: `corps`,
+  titre: `Le même lieu, l'autre issue`,
+  statut: `acquis`, pivot: true,
+  resume: `Le chapitre recommence. Même arrivée, même pesanteur — et Eliott est vivant. Isaac les rejoint. **Andrew sent pourtant une présence derrière eux. Une silhouette apparaît. Fin de chapitre.**`,
+  produit: `C'est la bascule du roman. Le lecteur comprend qu'il y a deux histoires — et il ne la reçoit ni d'une phrase ni d'un personnage : **il la reçoit de la forme du livre, qui se dédouble sous ses yeux.**`,
+  clef: `🔴 **Et le chapitre se ferme sur la silhouette, ce qui arme tout le reste.** Le lecteur y voit le ravisseur pris sur le fait, et il attend la course. *Il l'aura — mais pas dans ce monde-ci.*`,
+  lecture: `Il croit lire la fin d'une traque. Il lit la fin de deux traques, et une seule des deux va se terminer par une course.`,
+  monde: `La cave réaménagée : elle a peint, elle a meublé, elle a choisi. Ce n'est pas de la négligence retournée en gentillesse — **c'est de la préparation.** Du temps, des courses, des décisions prises une par une, des semaines avant. Ça dit qu'elle comptait rester.`,
+  qui: [`andrew`,`eliott`,`isaac`,`berceuse`],
+  gardes: [
+    `**La silhouette n'est décrite par rien.** Ni vêtement, ni taille, ni âge, ni sexe. *Le mot « silhouette » est féminin en français, ce qui protège gratuitement les deux lectures : on peut écrire « la silhouette » des deux côtés sans qu'un accord trahisse quoi que ce soit.*`,
+    `**Rien ne dit qu'elle bouge.** Elle apparaît, et le chapitre s'arrête. C'est le lecteur qui la fera courir.`,
+    `« Une chambre d'enfant » ne peut pas s'écrire, et aucune tournure de remplacement ne doit venir la doubler. Il faudra décrire les couleurs, la taille des meubles, une hauteur de table, un lit court. **Le lecteur nommera lui-même, et ça frappera plus fort.**`,
+    `Aucun personnage ne remarque le contraste avec l'autre cave.`
+  ],
+  ouvert: [`Combien de lignes tient la silhouette avant la coupe. *Trop, et on la décrit ; trop peu, et le lecteur ne la charge pas assez pour vouloir la poursuivre.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2, §4 ter.5 — décision du 16 août 2026`
+},
+{
+  id: `poursuite`, no: `Chapitre D`, col: 30, row: `joel`, acte: `Le seuil franchi deux fois`,
+  face: `s19c`,
+  titre: `La poursuite`,
+  statut: `acquis`, pivot: true,
+  resume: `**La silhouette prend la fuite.** Sans réfléchir, il s'élance. Une rage, la colère, l'envie de tuer. « Joël, attends ! » La poursuite en voiture, l'accident. Il meurt en même temps que l'assassin.`,
+  produit: `🔴 **Le cri tombe désormais au milieu d'une course que le lecteur a entièrement investie comme celle d'Andrew.** Il vient de voir la silhouette apparaître dans la cave d'ici ; il lit la suite. *Le nom ne révèle pas le dispositif : il révèle l'identité, et il arrive quand le lecteur est le moins capable de s'en défendre.*`,
+  clef: `**Le nom arrive attaché à un refus d'obéir.** La seule fois du roman où l'on entend son nom est la seule fois où quelqu'un essaie de l'arrêter et où il n'écoute pas. Son partenaire crie *attends* — le mot exact auquel il a cédé des semaines plus tôt, et qui est toute sa faute. **Son identité et sa faute sont données dans le même souffle, et en miroir.**`,
+  lecture: `Il croit qu'Andrew court après la ravisseuse. **Personne ne court, de ce côté-ci** — et il l'apprendra au chapitre suivant, sans qu'une ligne le lui dise.`,
+  monde: `Rien.`,
+  qui: [`joel`,`liam`],
+  gardes: [
+    `✅ **Ils meurent tous les deux dans le carambolage — l'autrice, 17 août 2026.** *Le tueur emboutit quelqu'un, Joël emboutit le tueur.* **En face il y a un poids lourd, qui ne bouge presque pas.** La voiture du tueur s'encastre dedans, celle de Joël suit bêtement. *Le tueur se retrouve pris en sandwich entre le camion et la voiture de police, et Joël fait un choc frontal en rentrant dans la sienne.*`,
+    `⛔ **Deux morts, deux capsules, et c'est de là que tout part.** *Une mort brutale ne laisse aucun délai de maturation :* **les deux capsules arrivent le jour même.** Celle de Joël éclaircira — et deviendra Andrew. **Celle du tueur n'éclaircira pas.**`,
+    `**Le chauffeur du poids lourd n'a presque pas bougé.** *Il n'y a donc pas de troisième capsule*, et rien à expliquer de ce côté-là.`,
+    `**Le chapitre s'ouvre sur la fuite, pas sur un lieu.** Aucune reprise du décor de la cave, aucun raccord visuel avec le chapitre précédent : c'est le lecteur qui raccorde, et s'il est aidé, il voit la couture.`,
+    `Un nom donné par le narrateur est une information ; un nom crié par un personnage est du bruit. **Le narrateur ne le prononce jamais, pas même là.**`,
+    `Le mot « attends » n'est ni répété, ni souligné, ni mis en italique.`,
+    `Il ne meurt pas en sauvant quelqu'un. Sa poursuite ne sert à rien, personne ne la lui demande, aucun personnage ne commente sa mort.`,
+    `Il ne veut pas l'arrêter, il veut le tuer — comme si les deux filles avaient pu être les siennes. **C'est la seule fois du livre où il n'est plus lui-même.**`
+  ],
+  phrases: [{ t: `Joël, attends !`, n: `Crié par son collègue. **Unique occurrence de son nom dans tout le roman**, et le dernier endroit possible du livre : le dispositif tient sur la totalité du volume, pas sur les neuf dixièmes.` }],
+  src: `04-plan/deux-histoires-en-une.md §2.2, §2.2.2, §2.2.3 — décision du 16 août 2026`
+},
+{
+  id: `s19c`, no: `Chapitre E`, col: 31, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  face: `poursuite`,
+  titre: `Elle n'a pas fui`,
+  statut: `acquis`, pivot: true,
+  resume: `On revient chez Andrew. **Il réalise sa propre mort.** Il observe, dubitatif, la berceuse qui a compris qu'elle était prise sur le fait. **Elle n'a pas tenté de s'enfuir.** Elle semblait juste profondément triste. **Elle tritura son collier, hésitante, avant d'enfin tendre ses deux mains en avant pour le passage des menottes.**`,
+  produit: `🔴 **Et le lecteur comprend, sans qu'une ligne le lui dise, que personne n'a couru de ce côté-ci.** La course qu'il vient de lire n'appartenait pas à cette cave. *Il n'a pas été trompé : on ne lui a jamais dit que la silhouette fuyait — il l'a supposé.*`,
+  clef: `**Elle n'a pas fui, et c'est ce qui la referme.** Elle ne voulait pas le tuer, elle voulait le garder ; on ne fuit pas quand on n'a nulle part où aller et rien à sauver. *Sa tristesse n'est pas du remords : c'est la fin de la seule chose qu'elle avait.*`,
+  lecture: `Deux images se superposent chez lui pour toujours : un homme qui court et meurt, et une femme qui ne bouge pas. **Il n'aura jamais les mots pour dire que c'est la même seconde.**`,
+  monde: `Rien de neuf. C'est le premier endroit du livre où le reliquat frappe en pleine scène, et personne ne le remarque.`,
+  qui: [`andrew`,`berceuse`,`isaac`,`eliott`],
+  gardes: [
+    `**Il ne comprend rien.** Il voit sa propre mort et il n'a aucun nom pour ça — pas de « c'était lui », pas de « il se reconnut ». Le corps sait, pas lui.`,
+    `**Il n'apprend jamais qu'il s'est appelé Joël.** Le nom n'existe que pour le lecteur.`,
+    `Elle ne s'explique pas, personne ne formule son motif à sa place, et le livre n'a pas de scène qui rende son geste intelligible.`,
+    `**Elle ne doit jamais s'écrire comme une démente qu'on range et qu'on oublie.** Sa tristesse est celle de quelqu'un à qui on reprend quelque chose, et elle ne se commente pas.`,
+    `Aucun personnage ne rapproche jamais sa présence ancienne et son arrestation. Pas de « elle était là depuis le début ».`,
+    `🔴 **Le collier est la seule chose qui relie les deux scènes, et personne ne le relève.** *C'est le lecteur qui l'a vu bercer à son rythme, six cents pages plus tôt.* **Il ne doit être ni nommé comme un signe, ni décrit deux fois de la même façon.**`
+  ],
+  ouvert: [`Ce qu'elle dit, ou ne dit pas, au moment de l'arrestation. *Le silence est la version la plus dure ; une seule phrase est la plus risquée.*`,
+           `Le livre lui donne-t-il un nom ? Trois canaux possibles, et il n'en faut qu'un.`,
+           `⚠️ **Ce qu'Andrew fait de sa stupeur dans les pages qui suivent.** Il vient de voir mourir un homme qui était lui ; le livre ne peut ni l'expliquer ni l'ignorer. *C'est la seule zone du dénouement qui reste à régler.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/la-berceuse.md — décision du 16 août 2026`
+},
+{
+  id: `ceremonie3`, no: `Chapitre F`, col: 32, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  titre: `La cérémonie, une seconde fois`,
+  statut: `acquis`, pivot: true,
+  resume: `🔴 **Elle ne redécrit rien.** *Décision de l'autrice, 16 août 2026 : ce chapitre ne rejoue pas la cérémonie — il donne uniquement ce qu'Andrew avait omis.* **Ce qu'il croyait ne pas avoir entendu :** la phrase d'ouverture en entier — *« la cérémonie du jour nous offre trois arrivants au lieu de deux ; le troisième nous ayant surpris par son éclaircissement inopiné ».* **Et ce qu'il croyait ne pas avoir senti :** l'odeur, dans les mots exacts du chapitre de la capsule pourrie — **et la réplique qui dit d'où elle venait.** *Un veilleur était entré avec sa tenue de travail, il venait de nettoyer une capsule qui n'avait pas éclairci, et quelqu'un le lui a fait remarquer :* « tu aurais pu enfiler une autre tenue, quand même. » **Personne ne s'en est offusqué, la cérémonie a continué, et un homme de vingt ans plus jeune ne l'a même pas entendu.**`,
+  produit: `🔴 **C'est son défaut qui se rejoue une dernière fois, et c'est la seule fois où le lecteur le voit se produire en direct.** L'information était dans sa tête depuis dix ans. Il ne l'a pas manquée : **il ne l'a pas écoutée** — exactement comme il n'a pas écouté un arrivant de dix ans qui lui parlait.`,
+  clef: `**Et ce n'est pas une tricherie, parce que le monde a déjà expliqué pourquoi il n'entendait pas.** Un arrivant sort embrumé, aveuglé, les voix lui parviennent étouffées : *le premier récit montrait déjà une bouche qui bougeait sans qu'il attrape les mots.* **Le texte n'a rien caché — il a rendu une perception, et elle était fidèle.**`,
+  lecture: `Il ne reçoit aucun fait nouveau : il reçoit un fait ancien, à sa place. *Et il peut relire les deux versions et vérifier que la seconde ne contient rien que la première ait escamoté.*`,
+  monde: `🔴 **Et c'est ici qu'on comprend ce qu'est une capsule qui n'éclaircit pas.** *Décision de l'autrice, 16 août 2026 : la chose n'a pas de scène à elle — elle se noie dans ce second récit.* Le lecteur avait entendu parler d'une odeur, au loin ; il sait maintenant ce qu'il y avait au bout de l'allée, et pourquoi on raclait pendant que les autres se nommaient. **Personne ne le lui dit : il le pose lui-même.**
+
+**Deux autres choses, et aucune n'est expliquée.** Les capsules de la paire étaient attendues ; la sienne, non. *Une vie qui s'éteint lentement fait mûrir lentement ; une mort soudaine fait mûrir vite.* Et l'odeur, au loin : un veilleur s'occupait des arrivants pendant qu'un autre raclait, pour que l'infamie de la quatrième capsule n'entrave pas la cérémonie.`,
+  qui: [`andrew`,`chrissy`],
+  gardes: [
+    `🔴 **Le chapitre se ferme sur l'odeur, et c'est sa dernière ligne.** *Structure donnée par l'autrice, 17 août 2026 :* la réplique — « tu aurais pu changer de tenue ! » — **puis « et là il la remarqua, cette odeur, insipide et prenante au nez, comme si… »** *et la formule reprise mot pour mot.* **Le lecteur ne peut que s'en souvenir : elle n'existe qu'à deux endroits dans tout le livre.**`,
+    `**Le premier récit doit montrer qu'il n'entend pas.** Des voix étouffées, une bouche qui bouge, des mots qui ne se forment pas. *Sans ça, la seconde version ressemble à une information qu'on avait gardée sous le coude ; avec ça, elle est un blanc que le lecteur avait sous les yeux.*`,
+    `**Personne ne commente.** Il ne dit pas « je me souviens maintenant », le narrateur ne signale pas que la version a changé, et aucune phrase ne rapproche les deux récits.`,
+    `🔴 **Ne rien reprendre de ce que le premier récit a déjà donné.** Ni la salle, ni la paire, ni le froid, ni le nom qu'on lui demande. *Le chapitre est court parce qu'il ne contient que deux choses — et c'est sa brièveté qui dit, sans un mot, qu'on n'y cherche plus la même chose.*`,
+    `Il ne comprend toujours rien. Il a un fait de plus et pas une conclusion.`,
+    `**L'odeur reste une odeur.** Personne ne dit ce qui la produisait, et surtout pas lui.`
+  ],
+  phrases: [
+    { t: `Bienvenue à tous.`, n: `Ouverture du premier récit, et tout ce qu'il en attrape.` },
+    { t: `Bienvenue à tous. La cérémonie du jour nous offre trois arrivants au lieu de deux, le troisième nous ayant surpris par son éclaircissement inopiné.`, n: `**La même phrase, entendue en entier.** Formulation de l'autrice. *Elle dit, sans que personne puisse le lire ainsi, que deux morts étaient prévisibles et qu'une ne l'était pas.*` },
+    { t: `Quel sera ton prénom ? Comment veux-tu qu'on t'appelle pour te désigner ?`, n: `Formulation de l'autrice, identique dans les deux récits — c'est elle qui prouve au lecteur que c'est bien la même scène.` }
+  ],
+  pourquoi: [
+    `**Le souvenir vient avant le registre, et il le motive.** Un homme qu'un reliquat vient de frapper ne va pas d'abord aux archives : quelque chose remonte, et c'est ce quelque chose qui l'envoie vérifier. *Le dossier cherchait depuis longtemps une raison qu'Andrew ait d'aller au registre. Elle est là, et elle arrive à la fin.*`,
+    `**Le souvenir n'établit rien, le registre établit tout.** L'un rouvre, l'autre prouve. Les intervertir donnerait une preuve avant une question, et il ne resterait plus qu'à commenter.`,
+    `**Et le doute vit un chapitre de plus.** Un souvenir ne se vérifie pas ; l'hypothèse « il fabule » sort de cette scène aussi solide qu'elle y est entrée.`
+  ],
+  ouvert: [`✅ **Les deux autres étaient attendues — décision de l'autrice, et la déduction est donc voulue.** Leur vie s'est éteinte lentement quand la sienne s'est arrêtée net : *elles ont agonisé pendant que Joël les cherchait, et la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler ; le lecteur a la règle depuis le premier chapitre.** À l'écriture : ne jamais appuyer. Le mot *inopiné* suffit, et le contraste se fait tout seul.`,
+           `La longueur du second récit. *Plus bref que le premier — c'est ce qui signale, sans un mot, qu'on n'y cherche plus la même chose.*`,
+           `⚠️ **Ce que devient la scène révulsante du dossier maître.** Le §8 demandait une description crue d'une capsule sans éclaircie, faite pour dégoûter avant qu'on ait à juger. *En noyant la chose ici, la compréhension devient froide et rétrospective — ce qui est plus juste, mais la révulsion n'a plus de logement.* **À trancher : on l'abandonne, ou elle se replace ailleurs, tôt, dans une journée de service ordinaire.**`],
+  src: `04-plan/deux-histoires-en-une.md §7 — 02-univers/la-ruche.md — décision du 16 août 2026`
+},
+{
+  id: `registre-fin`, no: `Temps 5`, col: 33, row: `andrew`, acte: `Le seuil franchi deux fois`,
+  titre: `La ligne de registre`,
+  statut: `acquis`,
+  resume: `🔴 **Il ne vient pas vérifier un détail : il vient vérifier sa propre mort.** *Il a réalisé, au chapitre précédent, que la silhouette n'avait pas bougé — et donc qu'il avait vu comment il était mort.* Il entre dans la salle du registre, seul, et il cherche le jour de son arrivée. **Il trouve sa ligne, et celle de la paire à côté.** *Puis il se demande si l'autre s'en est tiré* — et un souvenir de vingt ans lui répond.`,
+  produit: `La ligne ne révèle rien de neuf : elle confirme, et elle confirme par un document. C'est le bon ordre — **le lecteur devine, puis on lui prouve.** Il ne découvre rien, il vérifie. *Et la scène cesse d'être gratuite : le chapitre précédent lui a donné une raison d'ouvrir le registre.*`,
+  clef: `Il a déjà vu la figure une fois, propre, gratuite, sans conséquence, à la scène 8 : deux arrivées le même jour signifient une seule mort. Il sait ce qu'elle veut dire avant qu'on la lui remontre.`,
+  monde: `Le numéro, qu'il faut avoir fait passer plusieurs fois sous les yeux du lecteur avant, en n'ayant jamais rien voulu dire — un comptoir, un formulaire, une convocation.`,
+  qui: [`andrew`],
+  gardes: [
+    `✅ **Pourquoi il y va, et l'autrice l'a corrigé le 17 août 2026 : il sait comment il est mort.** *Au chapitre de la poursuite, le lecteur voit le carambolage. Au chapitre suivant, Andrew réalise que la silhouette n'a pas bougé* — **et il comprend qu'il a vu sa propre mort.** C'est ça qui l'amène ici, et pas un détail de cérémonie.`,
+    `✅ **Et c'est en vérifiant qu'il se pose la vraie question : est-ce que cette enflure a pu s'échapper ?** *Il a la stèle sous les yeux, il a sa ligne, il a celle de la paire à côté — et il n'y a rien pour l'autre.* **Alors l'intuition vient, et elle vient d'un souvenir de vingt ans :** un veilleur entré en tenue de travail, et quelqu'un qui lui dit *« tu aurais pu enfiler une autre tenue, quand même ».*
+  **Il connecte. Il sait que l'autre n'est jamais arrivé.**`,
+    `🔴 **Il a tout compris à sa propre mort — correction de l'autrice, 17 août 2026.** *Ce n'est pas un fait qu'il attrape, c'est sa vie.* **Il s'appelait Joël.** Il a ressenti dans son reliquat cette colère aveuglante, il a senti qu'il aurait pu tuer pour ces deux filles. **Il sait tout de sa ligne.**`,
+    `✅ **Et les reliquats lui viennent ici par flashs, en surimpression.** *Deux images données par l'autrice, à garder :* **le visage de June qui disparaît au moment où elle lui dit qu'Eliott a disparu, remplacé par celui d'une parfaite inconnue qui dit qu'elle s'inquiète.** Et **son regard qui se pose sur la photo d'identité d'Eliott dans un dossier — dédoublée, et devant une photo de famille des deux jumelles.**`,
+    `**C'est le faux-raccord rendu littéral, une seule fois, à la fin.** *Tout le livre a superposé deux vies sans le montrer ; ici la superposition se voit* — et elle se voit dans la tête d'un seul homme, dans une pièce où personne n'entre.`,
+    `⛔ **Ce qu'il n'a pas, et qu'il n'aura pas ici : l'homme d'à côté à la cérémonie d'Eliott.** *Cette réponse-là, c'est Eliott qui la lui apportera, six ans plus tard, et sans savoir ce qu'il donne.*`,
+    `⛔ **Rien de tout ça ne s'écrit en clair.** *Pas de récapitulatif, pas de phrase qui pose la conclusion, pas de narrateur qui confirme.* **Des images qui se remplacent, et un homme debout devant une stèle.**`,
+    `Le registre est infaillible. C'est une lecture, pas une hypothèse.`,
+    `Trop peu de numéros semés avant, et la reconnaissance ne repose sur rien ; trop appuyé, on annonce la scène.`,
+    `Il n'apprend jamais qu'il s'est appelé Joël. Le nom d'avant n'existe que pour le lecteur.`
+  ],
+  ouvert: [`Le nombre exact d'occurrences du numéro avant cette scène, et sa forme.`],
+  pourquoi: [`**Et on s'arrête là. Ellipse.** Le registre confirme son souvenir, et le chapitre se ferme sans qu'il en tire quoi que ce soit. *L'arc d'Andrew se termine ici — tout ce qui suit appartient au garçon.*`,
+    `**C'est plus subtil que de lui donner une quête.** Une scène où il irait chercher des réponses ferait de la dernière page son affaire à lui ; l'ellipse le laisse avec ce qu'il a, c'est-à-dire rien. **Il lui reste deux choses à faire, et aucune des deux n'est pour lui.**`],
+  src: `04-plan/deux-histoires-en-une.md §1 bis, §2.6 — 04-plan/le-meme-jour.md §3, §3 bis`
+},
+
+/* ---------- ÉPILOGUE ---------- */
+{
+  id: `excuses`, no: `Épilogue`, col: 34, row: `andrew`, acte: `Épilogue`,
+  titre: `Les excuses`,
+  statut: `acquis`,
+  resume: `Il pousse leur porte un après-midi ordinaire. Deux arrivantes d'une quinzaine d'années qui ne le connaissent pas. Elles ont presque l'âge des corps qu'il a trouvés — trois ans d'écart, rien de plus. Il s'excuse pour un monde dont elles n'ont aucun souvenir.`,
+  produit: `Il n'obtient ni absolution ni incompréhension : il obtient de la politesse. La culpabilité de ne pas avoir été capable de les retrouver à temps, et le soulagement de voir que l'équilibre leur a offert une seconde chance — et rien de tout cela ne peut se dire.`,
+  monde: `À quinze ans elles ont tous les mots, elles répondent, elles comprennent. Quand il prononce un des deux noms, une seule se retourne.`,
+  qui: [`andrew`,`chrissy`],
+  gardes: [
+    `La scène ne commente rien, ne compare pas, ne rappelle pas le chiffre.`,
+    `Leurs prénoms de la vie d'avant ne sont jamais donnés — ni au lecteur, ni à un personnage, ni au dossier. C'est un blanc et il reste blanc.`,
+    `« Jumelles » et « sœurs » sont réservés à la vie d'avant, jamais dans une scène d'ici.`
+  ],
+  src: `03-personnages/chrissy-et-tania.md`
+},
+{
+  id: `confession`, no: `Épilogue · 2 sur 2`, col: 36, row: `andrew`, acte: `Épilogue`,
+  titre: `En tête à tête`,
+  statut: `acquis`, pivot: true,
+  resume: `June vient de partir. **Un blanc — on ne sait pas qui va parler le premier, et c'est le garçon.** Il le remercie de son aide, puis plus largement : *de l'avoir cru.* Et parce qu'il sait qu'avec celui-là on ne se moquera pas, il raconte une dernière chose.`,
+  produit: `**L'arc d'Andrew s'est terminé au chapitre du registre. Celui-ci n'a plus qu'un objectif : rassurer Eliott.** *Il s'apprête à entrer dans un lieu d'innocence, et c'est le meilleur qui pouvait lui arriver.* **Rien n'est une révélation — le lecteur sait déjà tout.** Ce qu'il reçoit ici, ce n'est pas une information, c'est une phrase.`,
+  clef: `**C'est parce qu'il a été cru qu'il parle.** *Il réalise qu'Andrew a toujours été de son côté, et c'est ça qui le décide* — pas une confiance générale, mais le souvenir précis d'un homme qui ne s'est jamais moqué. **Le seul cadeau que ce livre fasse à quelqu'un, c'est celui-là, et il arrive à la dernière page.**`,
+  clefFin: `**Sa fin dans l'autre monde est irrévocablement triste, à en pleurer. Mais l'amour reste.** *C'est tout le contraste que la scène doit tenir : le récit est atroce et le garçon va bien.*`,
+  garde_forme: `**Il n'énonce rien : il décrit des sensations qu'il n'arrive pas à formuler.** *Il n'a ni le mot rivière avant l'école, ni le mot noyade, ni le mot père — il a des impressions et il les rend telles quelles.* **Et ce ne sont pas que celles de l'accident** : il y a aussi une odeur, un regard plein d'amour. *Une vie ne se souvient pas d'une seule minute.*
+
+**Le déroulé.** ① le blanc, et c'est lui qui le rompt ; ② il remercie — de l'avoir cru ; ③ *« tu n'as jamais eu cette impression, toi, de rêver en plein jour ? »* ; ④ les fragments, dans le désordre, sans hiérarchie ; ⑤ **ses deux questions**, qui sont les vraies ; ⑥ ce qu'Andrew trouve à répondre.`,
+  lecture: `Il a devant lui quelqu'un d'enthousiaste qui va vivre heureux, et il vient d'entendre comment il est mort. **Les deux sont vrais en même temps, et c'est la seule chose que le livre demande de tenir dans la main en le refermant.**`,
+  monde: `La parole est intacte à huit ans. Et la dernière grâce, qui ne doit jamais être confirmée : on suppose que les reliquats s'en vont une fois au jardin, et *ça se dit comme on parle des fantômes.*`,
+  qui: [`eliott`,`andrew`],
+  gardes: [
+    `**Personne ne traduit, personne ne commente, personne n'a l'air de comprendre.** Pas de narrateur qui éclaire, pas d'interlocuteur qui hoche la tête, pas de silence appuyé, pas de phrase juste après qui pèse.`,
+    `**Il ne dira jamais « papa » ni « père ».** Les mots n'existent pas, il ne les a jamais eus, et il ne peut donc pas même sentir qu'ils lui manquent.`,
+    `**Andrew ne fait jamais le lien** avec la ligne du registre, et il ne va jamais vérifier qui d'autre est arrivé le jour du garçon.`,
+    `**Aucun mot ne doit être plus grand que lui.** Il a huit ans, il a du vocabulaire d'école, et il bute. *Ce qui glace, c'est qu'il raconte ça calmement, comme une chose finie, sans se plaindre et sans chercher à émouvoir.*`,
+    `⚠️ **Les fragments ne sont pas tous noirs.** *Il se rappelle une odeur, un regard plein d'amour.* **Sinon la scène devient un récit d'accident, et ce n'en est pas un : c'est ce qui reste d'une vie entière.**`,
+    `Un seul personnage qui aurait l'air de saisir, et la réplique cesse d'être une trouvaille pour devenir un aveu.`,
+    `⛔ **Aucune résonance chez Andrew, et surtout pas une paix.** *Son arc s'est fermé au chapitre du registre — décision de l'autrice, 16 août 2026 : la scène d'avant sert déjà à ça, et le refaire ici la doublerait.* **Il donne un exemple à un gamin, ça ne lui coûte rien et ça ne lui rend rien.** *S'il était ému par ce qu'il vient de dire, il serait un homme qui sait à moitié — et c'est le lecteur, pas lui, qui doit recevoir la phrase.*`
+  ],
+  phrases: [
+    { t: `Tu n'as jamais eu cette impression, toi ? De rêver en plein jour ?`, n: `**L'ouverture, et c'est une question, pas une confidence.** *Formulation de l'autrice.* Il ne dit pas « je vais te raconter » : il demande si l'autre connaît ça, comme on vérifie qu'on ne va pas être seul.` },
+    { t: `J'ai senti le sol se dérober sous mes pieds alors que je ne bougeais même pas.`, n: `*Formulation de l'autrice, à retravailler.* Une sensation sans son objet : il n'a pas le mot pour ce qui l'a emporté.` },
+    { t: `J'avais les yeux ouverts et je pouvais sentir l'eau dans ma bouche.`, n: `*Formulation de l'autrice, à retravailler.* **Aucun mot de noyade, jamais.**` },
+    { t: `Je n'ai jamais vu de rivière. Je ne savais même pas ce que c'était, un courant, avant de l'apprendre à l'école. Et pourtant j'ai rêvé que je tombais dedans.`, n: `**La pièce maîtresse : il constate lui-même que ça n'a aucun sens.** *Formulation de l'autrice.* C'est ce qui rend la fabulation invérifiable et bouleversante à la fois — **il donne l'argument contre lui-même**, et l'interdit n° 4 tient sans effort.` },
+    { t: `L'arrivant qui était à côté de moi à ma cérémonie, j'ai rêvé de lui aussi. Il me tendait la main et je n'arrivais pas à l'attraper. Nos mains glissaient trop.`, n: `**Et c'est l'homme de la première page.** *Formulation de l'autrice.* Le lecteur se souvient de celui qui était debout à côté du petit, et il restera seul avec.` },
+    { t: `Je ne sais pas pourquoi, mais j'avais très peur. Autant pour moi que pour lui, alors que je ne le connaissais même pas.`, n: `*Formulation de l'autrice.* **Il avait peur pour quelqu'un qu'il ne connaissait pas** — et c'est la seule façon de dire « mon père » quand le mot n'existe pas.` },
+    { t: `Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui !`, n: `**La phrase qui ferme les fragments.** Il a le sentiment entier et il n'a pas le nom, alors il le décrit par l'identité et par la confusion des deux personnes — *c'est exactement ainsi qu'on décrirait un père si l'on n'avait jamais eu le concept.* Elle ne coûte rien à l'interdit n° 4 : un sentiment ne se confirme ni ne se réfute.` },
+    { t: `Et maintenant, je fais quoi avec ça ? Tu crois que les autres vont se moquer de moi ici aussi ?`, n: `⚠️ **La vraie question du livre, posée par un enfant de huit ans à la dernière page.** *Que faire des voiles ?* **Personne n'y a jamais répondu, ni le dossier ni le monde** — et c'est un gamin qui pose la question, à quelqu'un qui n'a pas la réponse.` },
+    { t: `Est-ce que tu viendras me voir, au jardin ?`, n: `**Et c'est celle-là qui compte pour lui.** *Elle est petite, et elle est la seule à laquelle Andrew peut répondre oui.*` },
+    { t: `J'ai connu quelqu'un qui se posait beaucoup de questions, lui aussi.`, n: `⚠️ **La réponse d'Andrew, et elle n'est pas une réponse.** *Il ne sait pas quoi faire des voiles — personne ne le sait — alors il donne un exemple au lieu d'une solution.* **Il parle sincèrement de quelqu'un qu'il croit avoir connu.** Les mots exacts restent à trouver ; ce qu'ils doivent porter : *c'était survivable.*` },
+    { t: `— Il s'appelait comment ?`, n: `⛔ **Et la question reste sans réponse. Décision de l'autrice, 16 août 2026 : le prénom ne revient pas sur la table.** *Le seul nom que le livre n'a jamais dit est demandé à voix haute, par un enfant, à la dernière page — et rien ne vient.*
+
+**Ce qui vient à la place, c'est la réponse à l'autre question :** oui, il viendra le voir au jardin. *Le garçon prend la réponse qu'il voulait, et personne ne s'aperçoit du trou.* **C'est le lecteur qui met le nom, comme il a mis tout le reste depuis six cents pages.**` }
+  ],
+  pourquoi: [
+    `✅ **Le prénom ne se dit pas — décision de l'autrice, 16 août 2026.** *Il y fait référence sans le savoir, et ça ne lui fait rien.* **Il parle sincèrement de quelqu'un qu'il croit avoir connu**, il ne ment pas et il ne confesse rien : il console un enfant avec sa propre vie racontée comme celle d'un autre. *C'est le dernier faux-raccord du livre, et le seul qu'un personnage produise à voix haute sans le percevoir.*`,
+    `⛔ **Écarté : « il s'appelait Joël ».** *Prononcé, le nom confirme* — même dit par quelqu'un qui ne sait pas ce qu'il dit. **Le livre n'a jamais rien confirmé en six cents pages ; il ne va pas commencer à la dernière ligne.** *Et la question posée sans réponse est plus forte que la réponse : c'est le seul nom que le livre n'a jamais dit, demandé à voix haute par un enfant, et rien ne vient.*`,
+    `⛔ **Et surtout, s'il sait qu'il parle de lui, la fin s'écroule.** *Il devient un homme qui savait, sa culpabilité cesse d'être tragique pour devenir délibérée*, et « il ne peut pas le savoir » — qui tenait tout le dernier tiers — devient faux rétroactivement.`,
+    `**Ça explique enfin pourquoi il l'a cru.** *Non pas parce qu'il sait qu'il est un porteur de voiles* — il ne le sait pas, il n'a jamais nommé la chose — **mais parce que quelque chose en lui a reconnu ça sans pouvoir le dire.** Il n'a jamais traité une seule de ses visites comme une audition, et le livre n'a jamais expliqué pourquoi.`,
+    `**Et ça se raccorde à la seconde cérémonie**, où il retrouve ce qu'il croyait ne pas avoir entendu et ce qu'il croyait ne pas avoir senti. *Il a déjà des fragments qu'il ne sait pas ranger. Un prénom en est un de plus.*`
+  ],
+    ouvert: [`✅ **Le livre se ferme sur trois phrases après la réplique du garçon — validé le 17 août 2026.** *Ils passent la grille, on la tire derrière eux ; les cris continuent exactement comme avant ; le banc n'est plus froid.* **La dernière note passe du garçon à Andrew, et c'est voulu :** la tristesse doit aller quelque part et elle n'a pas le droit d'aller sur Eliott.`,
+           `✅ **La question des voiles ne reçoit pas de réponse.** *« Et maintenant je fais quoi avec ça ? »* — **Andrew n'en a pas, et c'est ce qu'il faut :** il ne répond pas à la question, il répond à l'enfant. *Un exemple au lieu d'une solution — et ça s'arrête là : il n'en tire rien pour lui.*`,
+           `Andrew réagit-il visiblement ? *Le moins possible, et probablement rien du tout.*`,
+           `Combien de répliques autour de la phrase acquise. **Elle doit être la dernière, donc rien après.**`],
+  src: `01-dossier/les-interdits.md n° 11 — 01-dossier/phrases-a-garder.md`
+},
+{
+  id: `jardin-fin`, no: `Épilogue · 1 sur 2`, col: 35, row: `andrew`, acte: `Épilogue`,
+  titre: `L'entrée au jardin`,
+  statut: `acquis`, pivot: true,
+  resume: `**Une rentrée scolaire, et c'est exactement le registre.** De petits groupes attendent sur l'allée, près d'une grille, chacun avec son berceur. Les petits se regardent, certains ont déjà un copain, d'autres ne lâchent pas une jupe ; les adultes échangent des banalités. Puis la grille s'ouvre.`,
+  produit: `✅ **Les deux cartes de l'épilogue ne font qu'un seul chapitre — décision de l'autrice, 16 août 2026.** *Écrit, et lisible dans l'onglet Chapitres.* Elles restent séparées ici parce que ce sont deux beats distincts à suivre, mais le texte ne se coupe pas entre les deux : on passe de la grille au banc sans blanc.
+
+**Le lecteur ne doit pas se sentir triste du sort d'Eliott.** *Il va vivre heureux au jardin, et il est même très enthousiaste.* Il dépose ce qui le faisait souffrir et il entre dans l'insouciance : **c'est une fin qui n'est pas une mort.** Le registre de la rentrée le garantit tout seul — on ne pleure pas à une rentrée, on a le ventre serré et on y va.`,
+  clef: `**Et c'est le seul rite du livre qu'on n'a pas encore vu.** Le roman ouvre sur une arrivée à la ruche et se ferme sur une arrivée au jardin : *le même geste aux deux bouts d'une vie, et le lecteur reçoit le second en sachant tout ce que le premier ne disait pas.*`,
+  garde_forme: `**Le déroulé, tel que l'autrice l'a posé.** ① l'allée le long de l'enceinte, des groupes disséminés près d'une grille ; ② l'attente — la curiosité entre petits, les banalités entre adultes ; ③ **Andrew est déjà là et regarde de loin** ; ④ June l'aperçoit et l'invite à les rejoindre ; ⑤ la grille s'ouvre, le responsable de zone sort avec ses berceurs, les autres commencent à entrer ; ⑥ **June demande à celle qui lui succède quelques instants avant qu'on referme, et on les lui accorde** ; ⑦ ses adieux ; ⑧ elle salue Andrew et s'en va.
+
+*C'est cette permission demandée à la ⑥ qui rend possible tout le chapitre suivant : les deux restent dehors, sur l'allée, pendant que le reste du monde est déjà entré.*`,
+  garde_bis: `**Les adieux de June sont professionnels, et l'émotion se sent quand même.** *Le pincement au cœur d'une assistante maternelle qui voit partir le petit qu'elle gardait* — elle ne pleure pas, elle ne s'attarde pas, mais ce n'est pas une formalité de service. **C'est la fin d'une durée**, et c'est le premier des deux adieux d'une vie ; le second, celui de zéro, appartiendra à la femme à qui elle passe la main.`,
+  monde: `**Le seul endroit du livre où l'on voit le jardin comme institution.** L'enceinte crème vue de la ville, l'allée-parc qui la longe, les grilles multiples — et de l'autre côté une seconde ville dont on n'apercevra rien dans ce chapitre, parce qu'on reste dehors. *Le personnel est nombreux et spécialisé : responsable d'accueil, de zone, de dortoir, de section.*`,
+  qui: [`eliott`,`andrew`,`june`],
+  gardes: [
+    `**Personne ne lui dit dans quoi il entre.** Ni June, ni Andrew, ni un berceur.`,
+    `**Aucun pathos, et surtout aucune pitié.** Le registre est celui d'une rentrée : on s'installe, on est content, on regarde autour, on a un peu peur et ça passe.`,
+    `Ce n'est ni une mort ni une perte de la parole. **La parole est intacte à huit ans** et le restera des années.`,
+    `**June a vingt-deux ans et elle l'a gardé six ans.** Elle ne pleure pas et elle ne s'attarde pas — et ça se voit quand même.`,
+    `Le relais se fait sans cérémonie. Personne ne dit qu'on se relaie ; on voit seulement qu'une autre est là.`,
+    `⛔ **Ne nommer aucune salle par ce qu'elle développe.** *Ni éveil, ni apprentissage : ces mots supposent une direction que ce monde ne prend pas.* On dit la salle des tapis, le gymnase, les salles de jeu.`,
+    `⛔ **Le mot est interdit et les fresques le contournent.** On les décrit — peintes à hauteur de main, des proportions qui ne tiennent pas, des soleils qui ont un visage — *et on ne dit jamais qui les a faites.*`,
+    `Le livre ne confirme jamais que les reliquats s'en vont là-dedans.`
+  ],
+  ouvert: [`⚠️ **Trois raccords à reprendre dans la dernière page**, écrite avant celle-ci : *les portes de chaque côté* et *la lumière qui venait du fond et qui n'avait pas de source visible* décrivent un couloir intérieur — or ils sont dehors. **Et la porte qui bat derrière eux doit devenir une grille**, ou une portière sur le parking du centre pédiatrique.`,
+           `Ce que June lui dit exactement en partant. *« Le meilleur » est le sens ; les mots sont à trouver, et ils doivent tenir en une ligne.*`,
+           `✅ **On reste dehors — décision de l'autrice, 16 août 2026.** *Le lecteur n'a plus aucune raison d'entrer.* **La cartographie du jardin se donne à la scène 14 b**, quand elle sert à l'enquête : de biais, en marchant à côté d'un pédiatre pressé. *Ici on n'en voit que ce qui passe par une grille ouverte, et la description de l'enceinte elle-même appartient à la 14 b.*`],
+    src: `02-univers/le-jardin.md — décision du 16 août 2026`
+}
+];
+
+/* liens du tableau : [de, vers, classe] */
+const LIENS = [
+  [`ouv`,`capsule`,`a`],
+  [`capsule`,`s1`,``], [`s1`,`s2`,``], [`s2`,`s3`,``],
+  
+  [`s3`,`s4`,``], [`s4`,`s5`,``], [`s5`,`s6`,``], [`s6`,`s7`,``],
+  [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
+  [`s11`,`s12`,`j`], [`s12`,`ceremonie2`,`a`], [`ceremonie2`,`s13`,`j`], [`s13`,`s14a`,`a`],
+  [`s14a`,`s14-appel`,`a`], [`s14-appel`,`s14b`,`a`], [`s14b`,`s14c`,`a`], [`s14c`,`j3`,`j`], [`j3`,`s15a`,`a`], [`s15a`,`s15b`,`j`],
+  [`s15b`,`s15c`,`a`], [`s15c`,`s17b`,`j`], [`s17b`,`s17c`,`a`],
+  [`s17c`,`s18`,``],
+  [`s18`,`corps`,`j`], [`corps`,`s19a`,`a`],
+  [`s19a`,`poursuite`,`j`], [`poursuite`,`s19c`,`a`], [`s19c`,`ceremonie3`,`a`], [`ceremonie3`,`registre-fin`,`a`],
+  [`registre-fin`,`excuses`,`a`], [`excuses`,`jardin-fin`,`a`], [`jardin-fin`,`confession`,`a`]
+];
+
+
+/* ==========================================================================
+   LES NOTES — tout ce qui s'est dit, dans l'ordre.
+   v = les mots de l'autrice, cités. q = ce que ça a décidé.
+   e : acquis | provisoire | ouvert | ecarte
+   ========================================================================== */
+
+const NOTES = [
+
+/* ---------------- 13 AOÛT ---------------- */
+{ d:`13 août`, s:`Le couple, première version`, e:`ecarte`, t:[`décompte`,`personnages`],
+  v:`Le veilleur a 62 ans au moment de son décès, et sa copine en a 54 à cette époque. Elle décède 8 ans plus tard. Un reverse des âges qui reste complémentaire d'un monde à l'autre. Une connexion intra monde, hasard ou pas ? Mystère de deux âmes connectées.`,
+  q:`Le premier jet du couple. **Corrigé deux fois le même jour** — d'abord parce que l'écart de huit ans est le fonctionnement par défaut et non une anomalie, puis parce que la symétrie 62/54 → 54/62 risquait de perdre le lecteur. La version finale : dix ans entre son arrivée et la sienne, elle arrive à 64.` },
+
+{ d:`13 août`, s:`La violence sociale`, e:`acquis`, t:[`monde`,`jalousie`],
+  v:`Il faudrait approfondir la violence pouvant exister, l'insécurité, comme s'il y avait des groupes rebelles existants, des sortes de militants « anti-enfant ». Ils ne seraient pas vraiment anti-enfant mais ils sont tellement jaloux qu'ils font n'importe quoi.`,
+  q:`Origine du dossier de la jalousie. **Le mot « anti-enfants » est refusé** : aucun d'eux ne se pense comme tel. Ils se pensent comme des gens à qui on a beaucoup demandé et qui font une remarque.` },
+
+{ d:`13 août`, s:`La mort du veilleur`, e:`ecarte`, t:[`personnages`],
+  v:`Une autre idée insufflée : le veilleur serait mort après une intervention qui a mal tourné.`,
+  q:`Deux lectures étaient ouvertes — chirurgie ou police. **La police l'a emporté** avec l'affaire des jumelles : il meurt dans la poursuite, en même temps que l'assassin.` },
+
+{ d:`13 août`, s:`« Lâche l'affaire »`, e:`acquis`, t:[`dispositif`,`phrases`],
+  v:`Quand un autre veilleur lui dit de lâcher l'affaire avec le garçon, il a un réplicas et se souvient de son ancienne vie quand on lui a dit de lâcher l'affaire avec le cas des jumelles.`,
+  q:`**La première pierre du dispositif entier.** Elle est devenue le beat doublé modèle, puis « la couture » : Andrew se fait dire la phrase, Joël se la rappelle devant les corps. Une seule des deux scènes est jouée, donc il n'y a aucune répétition à repérer.` },
+
+{ d:`13 août`, s:`La règle des retrouvailles`, e:`acquis`, t:[`monde`],
+  v:`Les gens qui s'aimaient dans la vie d'avant, amants, famille etc., ont une chance de se recroiser dans la vie d'après. Leur destin est intimement lié. Le lien malgré leur ignorance reste toujours aussi fort. Ce n'est pas systématique.`,
+  q:`Devenu **l'interdit n° 9** : la règle n'est jamais énoncée. Si le lecteur comprend que ceux qui s'aiment se retrouvent toujours, le livre devient une formule qui apaise sans être vraie. Il faut que ce soit possible et jamais garanti.` },
+
+{ d:`13 août`, s:`L'Archiviste, idée de Kevin`, e:`acquis`, t:[`monde`],
+  v:`Kevin insufflait l'idée que l'Archiviste pouvait être un humain. C'est très humain aussi de conscientiser ce qui est bien et ce qui est mal. On peut laisser notre monde le supposer mais j'ai pas envie de le dire noir sur blanc pour autant, chacun son interprétation.`,
+  q:`Devenu **l'interdit n° 10**. La question est posée deux fois au maximum dans tout le livre, et jamais résolue. À la fin, aucun personnage n'a d'avis — le protagoniste non plus.` },
+
+{ d:`13 août`, s:`Les grands inventeurs`, e:`acquis`, t:[`monde`],
+  v:`Certains des grands inventeurs seraient des arrivants légèrement voilés, comme s'ils avaient des souvenirs de la vie passée sans pour autant les exploiter comme tels. Les frères Lumière, de Vinci, Gaudí — imagine ces grandes figures qui porteraient en elles des reliquats sans le savoir.`,
+  q:`Retenu comme **suggestion, jamais comme énoncé** : « je ne voulais pas nommer de grandes figures de notre monde, mais laisser pourquoi pas sous-entendre cette idée ». La forme retenue est le bâtiment inachevé — une ambition que rien ne justifie, commencée par quelqu'un qui a atteint le jardin avant de la finir.` },
+
+{ d:`13 août`, s:`Le nom du second monde`, e:`acquis`, t:[`monde`],
+  v:`Il faudrait trouver un nom au deuxième monde.`,
+  q:`**Tranché le jour même, et dans l'autre sens** : il n'y a pas de second monde à nommer. C'est la Terre, elle s'appelle la Terre, et il n'y a qu'une planète dont l'histoire humaine a été effacée et recommencée. Le fichier qui cherchait un nom a été archivé.` },
+
+{ d:`13 août`, s:`On n'entend pas son chiffre`, e:`acquis`, t:[`ruche`,`décompte`],
+  v:`On n'entend pas notre chiffre à la cérémonie de l'éclaircie. Le corps retranscrit notre âge, je te rappelle. Un vieux de 90 ans et un arrivant de 90 ans à l'aspect vieux. Une ado de 18 ans et une arrivante de 18 ans avec un physique de jeune de 18 ans.`,
+  q:`**La cérémonie garde l'émotion et l'estimation ; le registre garde le nombre.** Deux régimes séparés, et un seul homme passe de l'un à l'autre.` },
+
+{ d:`13 août`, s:`« L'Étale »`, e:`ecarte`, t:[`monde`,`écriture`],
+  v:`L'étale, j'aime pas trop l'appellation.`,
+  q:`Le mot est mort le jour même, avec « l'Aval ». Le vocabulaire arrêté depuis : **le jardin** pour le lieu, **le plateau** pour la phase. Jamais « le palier ».` },
+
+{ d:`13 août`, s:`Le karma n'est pas matériel`, e:`acquis`, t:[`monde`],
+  v:`L'histoire inverse que j'avais donnée en exemple, du « je suis pauvre dans un monde, je reviens riche dans l'autre » — pas une bonne idée. La bonté et le karma ne sont pas matériels.`,
+  q:`**La seule monnaie du système est le temps et sa qualité.** Jamais des biens, jamais un statut, jamais une réussite. Aucun mécanisme ne fait revenir un pauvre riche ou un humilié admiré. Répété une seconde fois deux jours plus tard, sur le dossier maître.` },
+
+{ d:`13 août`, s:`La géographie`, e:`acquis`, t:[`monde`],
+  v:`On pourrait dire que la base même est identique ? Et aussi dans ce cas garder l'appellation Terre. Les fleuves, océans, rivières, endroits auraient le même nom, sans pour autant que ce qui a été créé par l'homme soit identique : pas de tour Eiffel, mais peut-être autre chose à la place par exemple, avec sa propre histoire.`,
+  q:`**Est identique tout ce qui n'est pas sorti d'une main humaine, et leurs noms. Diffère tout ce qui en est sorti**, y compris les livres d'histoire.` },
+
+{ d:`13 août`, s:`Ce n'est pas un monde parallèle`, e:`acquis`, t:[`monde`],
+  v:`Pour l'histoire, c'est pas un monde parallèle, il est juste réécrit ! Seulement leurs livres d'histoire ne racontent pas la même chose. Il n'y a jamais eu d'exposition universelle, donc pas de tour Eiffel. Peut-être qu'à la place il y a eu autre chose, peut-être même pas un monument, peut-être que l'emplacement est juste vide, on n'en sait rien. On ne se pose pas la question.`,
+  q:`Le texte ne cherche jamais de point de départ commun — pas de « depuis que », pas de « autrefois, comme chez nous ». Une seule planète, une histoire effacée.` },
+
+{ d:`13 août`, s:`Ne jamais décrire une absence`, e:`acquis`, t:[`écriture`,`monde`],
+  v:`Si une scène se passe sous ce qui aurait dû être les pieds de la tour Eiffel, je ne vais pas décrire le lieu en disant « elle n'était pas là ». Ça sera plus quelque chose comme « il évolue sur la place vide de monde à cette heure, il regarde au loin le carrousel et les quelques enfants joyeux tout autour ». Sous-entendu : dans ce monde, la tour Eiffel a été remplacée par une aire de jeu.`,
+  q:`Devenu **l'interdit n° 5**, avec l'exemple gardé mot pour mot. Le texte décrit ce qui est là. Celui qui connaît l'endroit comprend ; celui qui ne le connaît pas ne perd rien.` },
+
+{ d:`13 août`, s:`L'histoire par la petite porte`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`Pour les événements historiques, pareil. Tout sera différent : pas de guerre froide, pas de Guernica, pas de première guerre mondiale. La Terre n° 2 a sa propre histoire, et on peut l'initier dans le roman avec par exemple une institutrice qui traite comme leçon du jour : la guerre du Sud, ou la seconde guerre des côtes. Nous, lecteurs, nous ignorons leur histoire et la découvrons avec eux.`,
+  q:`Devenu **l'interdit n° 6** et son corollaire sur les dates : on date avec leur calendrier, jamais avec le nôtre. Ce qui est interdit, c'est le nombre qui ressemble à une de nos années — pas la datation elle-même.` },
+
+{ d:`13 août`, s:`Les toponymes`, e:`acquis`, t:[`écriture`],
+  v:`Je suis d'accord : traiter les toponymes comme une convention d'écriture et jamais comme un fait, au même titre que tout le monde parle français dans mon roman. Et surtout, ne jamais laisser un personnage remarquer que les noms de lieux n'ont aucun sens dans sa langue. Le monde ne doit pas devenir un indice.`,
+  q:`Devenu **l'interdit n° 7**. Dès qu'un personnage la remarque, la convention devient un fait, le fait devient une énigme, et l'énigme devient une fissure de plus — ce que l'interdit n° 4 refuse.` },
+
+{ d:`13 août`, s:`Où l'on ressort`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`Géographiquement parlant, les individus se trouvent à peu près au même endroit que dans leur vie précédente au moment de leur mort. Tu es français, tu arrives dans une ruche française.`,
+  q:`Régularité de fait, jamais une loi énoncée. Personne ne la formule.` },
+
+{ d:`13 août`, s:`La fabulation`, e:`acquis`, t:[`écriture`,`personnages`],
+  v:`Pour le jeune garçon arrivant porteur de voiles, il peut fabuler sur des endroits : « mais si, il y avait un boulanger ici, pas un magasin de chaussures ! » Je ne veux pas énoncer de lieux connus, j'ai envie que ce soit subtilement amené.`,
+  q:`**Le régime de la fabulation est fixé : banale, locale, insignifiante.** Il n'évoque pas un ailleurs, il corrige un ici. Et c'est ce qui rend possible le déclencheur de la scène 17 : une description juste au milieu de vingt fausses n'est pas un miracle, c'est une coïncidence.` },
+
+{ d:`13 août`, s:`Le barème, figé`, e:`acquis`, t:[`monde`,`phrases`],
+  v:`C'est bon comme ça : « L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié. »`,
+  q:`**Le credo du livre.** Trois entrées, rien d'autre n'y est inscrit — ni richesse, ni pauvreté, ni succès, ni échec, ni talent, ni beauté. Et il reste hors du texte : l'interdit n° 3 le garde à l'état de doctrine contestée.` },
+
+{ d:`13 août`, s:`Le palier s'appelle le jardin`, e:`acquis`, t:[`monde`,`jardin`],
+  v:`« Il est au jardin depuis huit ans. » Carrément, j'aime la tournure, elle est gardée.`,
+  q:`Le nom du lieu est né d'une phrase d'exemple. Trois jours plus tard, il devient **le dernier lieu de vie tout entier** — de huit ans à zéro, pas seulement les huit.` },
+
+{ d:`13 août`, s:`Plusieurs ruches`, e:`acquis`, t:[`ruche`],
+  v:`On peut aussi estimer qu'il existe plusieurs ruches, mais on suit le héros dans une seule d'entre elles.`,
+  q:`Le texte ne dit jamais combien il y en a, ni comment elles se répartissent, ni si elles se ressemblent.` },
+
+{ d:`13 août`, s:`L'origine, hors de portée`, e:`acquis`, t:[`monde`],
+  v:`Non, la première capsule ne se date pas, ça remonte à loin, un peu comme nous quand nous réfléchissons à notre histoire. La vie a pris forme sur Terre il y a longtemps, ok.`,
+  q:`**C'est une question d'origine, pas une date d'histoire.** Même statut que l'apparition de la vie chez nous : on sait que ça a eu lieu, on ne sait ni quand ni comment, et ça n'intéresse presque personne. Les registres remontent aussi loin que des hommes en ont tenu, et rien avant.` },
+
+{ d:`13 août`, s:`Pas de numéro sur les capsules`, e:`acquis`, t:[`ruche`],
+  v:`Dans cet univers, pas de numéro sur les capsules. Le veilleur a des outils pour pouvoir estimer l'âge précisément de l'individu — un carbone 14 pour les humains, ahah.`,
+  q:`**L'instrument.** Il ne prédit rien, ne lit rien de la capsule : il donne un nombre sur un corps déjà sorti. C'est aussi la condition matérielle du tabou du jardin — il ne dit pas de quel côté du plateau on se trouve.` },
+
+{ d:`13 août`, s:`Pas de cinquième voie`, e:`acquis`, t:[`dispositif`],
+  v:`De cinquième voie ? Tu parles de quoi ? On a le monde, l'enquête, la fille, le voile c'est l'ancien monde. Le petit garçon et les ados jumelles découlent de son enquête, donc non, pas de cinquième voie en effet.`,
+  q:`Cadrage des voies de la frise. Depuis, la fille est suspendue et il n'en reste que deux : **Andrew — ce monde-ci ; Joël — la vie d'avant.**` },
+
+{ d:`13 août`, s:`Jeanette`, e:`ecarte`, t:[`écriture`],
+  v:`Jeanette c'était pour l'exemple ahah, arrête de la citer !`,
+  q:`Le prénom d'exemple avait fini par s'installer dans les documents comme un personnage. Supprimé partout. **Rappel de méthode : un exemple donné en passant n'est pas une décision.**` },
+
+{ d:`13 août`, s:`Le veilleur débutant`, e:`acquis`, t:[`personnages`,`ruche`],
+  v:`Débutant… mais on peut comprendre grâce à des veilleurs vétérans, ses collègues, que les capsules pourries ça ne date pas d'hier. On peut aussi amener la chose comme un bizutage : les vétérans (donc les plus jeunes dans l'histoire) laissent la sale besogne aux plus vieux.`,
+  q:`**L'ancienneté se lit à l'envers sur les visages**, et la sale besogne va à qui a l'air le plus vieux — ce qui désigne les derniers arrivés sans qu'on ait à le dire. Les vétérans fournissent aussi l'étalon : eux seuls peuvent dire que quelque chose a changé.` },
+
+{ d:`13 août`, s:`La mère et l'enfant`, e:`ouvert`, t:[`personnages`],
+  v:`Comment ça se passerait si une femme enceinte venait à mourir ? On aurait alors deux éclaircies simultanées. J'avoue avoir un faible pour un perso très très secondaire comme celui-ci. L'enfant arrive immédiatement au jardin, l'arrivante de 35 ans insiste pour devenir berceuse, prenant cette mission très à cœur. La mère et l'enfant qui ne se sont jamais rencontrés sur Terre 1, liés malgré tout sur Terre 2.`,
+  q:`Fiche écrite, **puis mise hors casting.** Le service qu'elle rendait — apprendre au lecteur que deux arrivées le même jour signifient une seule mort — a été repris par l'arrivant de quarante ans, en première page, sans rien coûter au casting.` },
+
+{ d:`13 août`, s:`Ce qu'on ne saura pas d'elle`, e:`acquis`, t:[`écriture`],
+  v:`En fait, l'histoire ne nous le dira pas. On ignore ce qui s'est passé sur Terre 1. Une chose est sûre : mère et enfant étaient réunis. Elle lui survit dans cette vie-là, mais dans la vie d'après, qui nous dit qu'elle ne le retrouvera pas ?`,
+  q:`**Ne jamais dater, ne jamais expliquer, ne jamais employer de vocabulaire clinique.** Principe d'ignorance totale, qui vaut bien au-delà de ce cas.` },
+
+{ d:`13 août`, s:`Dix ans, point`, e:`acquis`, t:[`calendrier`,`personnages`],
+  v:`On ne parle plus de 8 ans, c'est 10 ans entre son arrivée sur Terre 2 et la sienne, point. J'ai peur de perdre le lecteur si c'est trop similaire, 62 54, 54 62.`,
+  q:`**Simplification décidée contre la symétrie.** Andrew arrive à 62, elle arrive dix ans plus tard à 64. Il a 52 ans au début du roman.` },
+
+{ d:`13 août`, s:`Le reliquat s'accroche au visage`, e:`acquis`, t:[`monde`],
+  v:`Je voulais dire que peut-être qu'il y avait davantage de reliquat étant donné que c'est ce visage précisément qu'il connaît. Le relevé, j'aime bien l'idée.`,
+  q:`Le reliquat est **corporel**, pas informatif. Il monte quand le corps reconnaît, et il n'ouvre aucune porte.` },
+
+{ d:`13 août`, s:`Le climax du jardin`, e:`acquis`, t:[`dispositif`],
+  v:`Le garçon qui atteint le jardin à la fin, ça pourrait être le climax : le moment où le veilleur ne peut plus compter sur lui pour l'aider, le seul témoin de son existence. L'enfant retourne au jardin, le veilleur devra continuer seul pour découvrir la vérité.`,
+  q:`Écrit quand le livre tenait sur des années. **Le calendrier court l'a déplacé** : l'entrée au jardin est devenue l'épilogue, six ans après, et ce n'est plus une perte pour l'enquête — c'est une fin qui n'est pas une mort.` },
+
+{ d:`13 août`, s:`On ne le perd pas`, e:`acquis`, t:[`phrases`],
+  v:`On ne le perd pas, on le lui prend.`,
+  q:`Retenue pour le moment où le garçon entre au jardin. La différence entre une piste fausse et une piste coupée.` },
+
+{ d:`13 août`, s:`Les âges sur la frise`, e:`acquis`, t:[`outil`],
+  v:`J'aimerais que les âges soient affichés sur les moments clés de la frise, qu'on sache où on en est exactement.`,
+  q:`Demande d'outil, tenue : les âges figurent au calendrier et au décompte.` },
+
+{ d:`13 août`, s:`Naître vieux`, e:`acquis`, t:[`phrases`],
+  v:`Naître vieux donne plus de temps. Naître jeune donne un meilleur temps. Et personne ne sait dire lequel des deux a eu de la chance.`,
+  q:`**Phrase à garder.** Elle dit tout le monde en trois lignes sans donner un seul chiffre — exactement ce que demande l'interdit n° 3. Usage : conversation, quatrième de couverture. Jamais dans le texte : aucun personnage ne formule ce que tout le monde sait.` },
+
+{ d:`13 août`, s:`Pas d'année de récit`, e:`acquis`, t:[`calendrier`,`écriture`],
+  v:`J'aime pas trop la notion d'année de récit. C'est que pour moi ou pour la lecture ? Parce que si c'est ça, on se pose en 2026 aussi tu sais.`,
+  q:`**Aucun chapitre n'est jamais daté.** Pas d'année, pas de mention de durée, pas de « six ans plus tard » écrit en toutes lettres.` },
+
+/* ---------------- 14 AOÛT ---------------- */
+{ d:`14 août`, s:`LES JUMELLES ET LE VEILLEUR`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`Je viens de trouver comment lier les jumelles au veilleur ! C'est justement l'affaire sur laquelle il était avant de mourir ! Les reliquats qui remontent seront des chapitres dans le livre où nous suivrons l'avancée de son enquête quand il était flic.`,
+  q:`**Le pivot de tout le livre.** Il enquête sur une disparition inquiétante ; l'étau se resserre ; ils trouvent la planque, elles sont mortes depuis moins d'une heure ; le coupable s'enfuit ; il laisse ses collègues, poursuite en voiture, accident, il meurt en même temps que l'assassin.` },
+
+{ d:`14 août`, s:`La cérémonie groupée`, e:`acquis`, t:[`dispositif`,`ruche`],
+  v:`On aura aussi un flashback quand il se réveille lui-même lors de la cérémonie. Sans qu'il le sache, il s'agit de lui et des jumelles. Toute l'assemblée du jour est émerveillée de voir ce « cadeau de la nature » car les deux arrivantes sont identiques. Le veilleur de l'époque a bien sûr tout noté. Ce sera un chapitre dédié à sa naissance sur Terre 2.`,
+  q:`Le lien se fera plus tard, à la relecture du registre. **Et une capsule non éclaircie a surgi en même temps que la sienne : l'assassin des jumelles.**` },
+
+{ d:`14 août`, s:`Les excuses`, e:`acquis`, t:[`dispositif`,`personnages`],
+  v:`Ce sera d'autant plus poignant quand à la fin il ira s'excuser, presque en fondant en larmes de culpabilité mais aussi de soulagement. La culpabilité dans leur vie antérieure de ne pas avoir été capable de les retrouver à temps, le soulagement de voir que l'équilibre de l'univers leur a offert une seconde chance.`,
+  q:`Devenu la scène des excuses, à l'épilogue. **Il n'obtient ni absolution ni incompréhension : il obtient de la politesse.**` },
+
+{ d:`14 août`, s:`La faute`, e:`acquis`, t:[`dispositif`],
+  v:`Oui c'est ce que j'imaginais : à un moment de l'enquête on lui a dit d'arrêter, il a obéi, il a perdu des semaines, il a repris, et il est arrivé une heure trop tard. Le contrecoup de se dire : j'aurais dû continuer.`,
+  q:`**Le prix de l'obéissance est chiffré et il tient dans une heure.** Ce n'est pas une faute d'appréciation, c'est un écart de temps.` },
+
+{ d:`14 août`, s:`Pas « jumeaux »`, e:`acquis`, t:[`écriture`],
+  v:`Oui, je ne veux pas l'appellation « jumeaux ».`,
+  q:`Le mot n'existe pas dans cette langue, faute d'objet. Le registre dit **une paire** : « une paire, travée douze ». « Jumelles » et « sœurs » restent employables, mais uniquement dans les chapitres de la vie d'avant.` },
+
+{ d:`14 août`, s:`Le poste de police d'ici`, e:`acquis`, t:[`enquête`],
+  v:`Peut-être même ne pas comprendre au départ que les reliquats lui rappellent sa propre vie — comme s'il suivait un flic. Et pourquoi pas se rendre vraiment dans un centre de police sur Terre 2 pour demander s'ils ont des infos. Et c'est là-bas qu'un policier lui dirait de lâcher l'affaire, et hop, déclenchement du souvenir.`,
+  q:`C'est de là que vient **la couture** : la phrase est reçue ici, et rappelée là-bas. Le lecteur recoud deux morceaux de deux vies en un seul souvenir, et la couture ne se voit pas parce que c'est lui qui l'a faite.` },
+
+{ d:`14 août`, s:`DEUX HISTOIRES EN UNE`, e:`acquis`, t:[`dispositif`],
+  v:`Je vais raconter deux histoires simultanément qui vont s'entremêler chapitre après chapitre. L'objectif est de faire sciemment croire à une seule et même histoire pour qu'au final on réalise qu'il y en a 2. Le lecteur croira suivre un seul personnage, le veilleur, et pourtant il en suivra deux.`,
+  q:`**Le fil conducteur du roman, énoncé d'un coup.** Et la contrainte qui va avec : on n'évoquera jamais clairement les reliquats — on garde ça vraiment pour la fin.` },
+
+{ d:`14 août`, s:`Les cinq temps de la lecture`, e:`acquis`, t:[`dispositif`],
+  v:`Le lecteur doit penser jusqu'au bout qu'il suit une seule enquête. Là où il doit buguer, c'est quand le chapitre recommence. Même pas avant, quand on découvre les filles décédées — car il peut se dire « wtf, la paire du début, qu'est-ce qu'elles foutent là ? » Quand le chapitre recommence, on est choqué. Quand il se lance à la poursuite et qu'on entend « Joël », le lecteur sait définitivement. La relecture du registre confirme.`,
+  q:`**Le calendrier de la lecture, en cinq temps** : l'une seule enquête, le trouble, le chapitre qui recommence, le cri, le registre. Le lecteur devine, puis on lui prouve — jamais l'inverse.` },
+
+{ d:`14 août`, s:`Les faux raccords`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`Le veilleur est gaucher, l'enquêteur est droitier. Petite dissonance : « il leva son poignet droit pour checker l'heure », « quand son collègue lui demanda l'heure il lui tendit mécaniquement son bras gauche ». Un autre exemple : l'enquêteur a une cicatrice sur le visage qu'il voit le matin en se rasant. Le veilleur n'en a pas.`,
+  q:`**Le principe : ce qui diffère est du corps, ce qui se ressemble est de la personne.** Trois ou quatre paires dans tout le roman, très espacées, dont au moins une tardive — et aucune paire nette avant la découverte du lieu de séquestration.` },
+
+{ d:`14 août`, s:`Le corps immaculé`, e:`acquis`, t:[`monde`],
+  v:`Précision : un arrivant n'a jamais de blessure physique. Son corps est immaculé à sa venue dans le monde 2, même s'il s'est blessé au cours de sa vie sur le monde 1.`,
+  q:`Ce n'est pas une guérison : **le corps n'a jamais eu la blessure.** Une marque, dans ce monde, ne peut dater que d'ici. D'où la réplique possible d'un collègue : « tu as de la chance, toi, tu es immaculé depuis toujours ».` },
+
+{ d:`14 août`, s:`Les noms`, e:`acquis`, t:[`personnages`],
+  v:`Les jumelles se nomment Chrissy et Tania. June est la berceuse du petit garçon qui s'appelle Eliott. L'ancien prénom d'Andrew sur Terre 1, c'est Joël.`,
+  q:`Casting nommé. **Chrissy et Tania sont leurs noms d'éclaircie** — leurs prénoms de la vie d'avant ne sont jamais donnés, ni au lecteur, ni à un personnage, ni au dossier.` },
+
+{ d:`14 août`, s:`Le nom dit une seule fois`, e:`acquis`, t:[`dispositif`,`phrases`],
+  v:`On ne l'appelle pas par son nom quand on décrit une action sur Terre 1. On n'a jamais son nom Terre 1 de tout le roman, sauf à la toute fin quand il se lance à la poursuite de l'assassin. On peut entendre crier son partenaire dans son dos : « Joël non attends ! »`,
+  q:`**Un nom crié par un personnage est du bruit ; un nom donné par le narrateur est une information.** Le narrateur ne le prononce jamais, pas même là. Et c'est le dernier endroit possible du livre : le dispositif tient sur la totalité du volume.` },
+
+{ d:`14 août`, s:`On sort en sachant parler`, e:`acquis`, t:[`monde`],
+  v:`Une règle de mon monde : on sort de la capsule, on sait déjà parler. On ne sait faire que ça, l'esprit comme embrumé après un long sommeil. Le veilleur demande à l'arrivant comment il s'appelle et c'est l'arrivant qui instinctivement va répondre.`,
+  q:`**La langue est la seule chose déjà là.** Elle n'a pas été apprise, elle sort avec lui entière. Ce qu'il n'a pas, c'est ce à quoi les mots se rapportent. Et c'est l'exact renversement du troisième temps : elle est la première chose donnée et la dernière reprise.` },
+
+{ d:`14 août`, s:`Qui nomme`, e:`acquis`, t:[`ruche`],
+  v:`Les arrivants de moins de 8 ans sont systématiquement accueillis par un veilleur, et une berceuse est appelée : c'est elle qui choisit le prénom.`,
+  q:`**Le seuil du nom est exactement le seuil du système.** Huit ans est le point de convergence, et huit ans est aussi la ligne au-dessus de laquelle on se nomme et en dessous de laquelle on est nommé. Personne n'a décidé de les faire coïncider.` },
+
+{ d:`14 août`, s:`Pas de nom de famille`, e:`acquis`, t:[`monde`],
+  v:`On donne un nom de famille et on laisse une règle en suspens sans jamais la dire : dans le monde 2 il n'y a pas de nom de famille car déjà la famille n'est pas un concept. On pourrait alors dire « l'affaire [nom] » pour ne pas éveiller les soupçons.`,
+  q:`**Deux choses d'un coup.** La règle du monde, jamais énoncée. Et l'affaire Sorel : un mot qu'Andrew entendra sans pouvoir l'identifier — il ne peut même pas savoir que c'est un nom, donc il ne le retient pas, ne le note pas, ne le cherche pas.` },
+
+{ d:`14 août`, s:`Le monde et le voile`, e:`acquis`, t:[`dispositif`],
+  v:`On va nommer autrement : 1) le monde, c'est Andrew, le monde d'après, son présent. 2) le voile, c'est Joël, le monde d'avant, son passé.`,
+  q:`Les deux voies du parcours, et leurs couleurs dans tout ce dossier.` },
+
+{ d:`14 août`, s:`Les pédiatres pour vieux`, e:`acquis`, t:[`monde`],
+  v:`Petite note pour le lore de la société : il existe des « pédiatres » pour vieux ! Des rendez-vous médicaux obligatoires après éclaircie pour vérifier que tout va bien. Test de mémoire, de tonicité musculaire, évaluation de l'apprentissage, etc.`,
+  q:`Le suivi. Régime commun, banal, administratif, et **il y en a d'autant plus qu'on est arrivé haut.** À ne pas confondre avec les pédiatres du jardin, qui sont sous secret médical.` },
+
+{ d:`14 août`, s:`Elle ne peut pas dire « son fils »`, e:`acquis`, t:[`écriture`,`monde`],
+  v:`Il n'y a pas de notion de famille, elle ne peut pas dire « son fils ». Une berceuse n'est pas forcément la mère de l'arrivant du monde 1, attention.`,
+  q:`**Devenu l'interdit n° 11, point 1.** Aucun mot de parenté n'existe dans cette langue. Ce ne sont pas des mots tabous ni tombés en désuétude : la langue ne les a jamais formés, faute d'objet. La règle vaut ligne à ligne — ni en dialogue, ni en pensée rapportée, ni en comparaison.` },
+
+{ d:`14 août`, s:`Le calcul qui coince`, e:`ouvert`, t:[`décompte`],
+  v:`Cette histoire de calcul n'est toujours pas claire ! Elles sont mortes à 18, je veux qu'elles spawn à 18 avec des années supplémentaires au jardin. Faut arriver à la simplifier cette foutue règle, j'y arrive pas là.`,
+  q:`Le point le plus difficile du dossier, revenu quatre fois. **La règle simple, trouvée le lendemain :** on revient à l'âge où on est parti ; tout le monde converge vers huit ; le verdict ne décide que de la longueur du plateau.` },
+
+{ d:`14 août`, s:`June, témoin de passage`, e:`acquis`, t:[`personnages`],
+  v:`June n'est qu'un témoin de passage : elle signale l'enfant, Andrew l'interroge sur ce que disait l'enfant, point barre. Son intervention s'arrête ici.`,
+  q:`Corrigé une heure plus tard, dans un sens plus dur encore : **elle ne signale rien.** Elle n'est pas un relais d'information, elle est un lieu où la nouvelle attend.` },
+
+{ d:`14 août`, s:`C'est lui qui y va`, e:`acquis`, t:[`personnages`,`enquête`],
+  v:`Non, je ne veux pas que June vienne le voir. C'est lui, fin observateur, qui malgré lui prend l'arrivée du garçon très à cœur. C'est lui qui décide de le revoir, et oui c'est lui qui reçoit la nouvelle quand il retourne le voir et qu'il n'est plus là.`,
+  q:`**Correction décisive.** Andrew n'est pas appelé : il y va. Aucune phrase ne justifie ses visites — ni du narrateur, ni de lui, ni d'un tiers.` },
+
+{ d:`14 août`, s:`Un porteur de voiles n'est pas une anomalie notée`, e:`acquis`, t:[`monde`],
+  v:`Un porteur de voiles n'est pas une anomalie qui est notée. Juste que quand ce sont des vieux qui arrivent, c'est moins perceptible : ils sont plus hagards, ils ne sont pas matures. Là, l'enfant à 10 ans, un corps très jeune, très vif d'esprit — et c'est ce qu'il dit qui interpelle.`,
+  q:`**Il n'existe aucun dispositif de détection**, et le monde n'a pas de case pour ça. Chez un vieillard, ce qu'il dit d'impossible se noie dans tout ce qu'il dit d'incohérent. Chez un jeune arrivant, rien ne se noie.` },
+
+{ d:`14 août`, s:`Le jardin rallongé`, e:`acquis`, t:[`décompte`],
+  v:`Je préfère cette règle-là pour le jardin rallongé. C'est pas trop dur, un enfant de 5 ans qui n'en vit que 25 ? On devrait pas augmenter un tout petit peu dans la limite du raisonnable, et aussi pour que sur le fonctionnement de la société il n'y ait pas de dérives par jalousie ?`,
+  q:`Le plancher est passé de 25 à 30, puis à **40 ans**, le lendemain. La différence entre les deux bouts du monde cesse d'être une différence de quantité pour devenir une différence de nature : **la qualité change, la quantité non.**` },
+
+{ d:`14 août`, s:`Le casting`, e:`acquis`, t:[`personnages`],
+  v:`On a Andrew, Chrissy, Tania, Eliott, Isaac et June. // Joël, les jumelles, son collègue (nommé Liam pour ma bible personnelle mais son nom sortira nulle part).`,
+  q:`**Liam n'est écrit dans aucune page du roman.** Dans le texte il reste « son collègue », « son partenaire », « l'un d'eux ». C'est un nom de bible, pour que l'autrice sache de qui elle parle en écrivant la scène.` },
+
+{ d:`14 août`, s:`Les exceptions`, e:`ouvert`, t:[`décompte`],
+  v:`Oui et non pour ta seconde règle. On parle de 90 ans, mais il peut très bien y avoir des exceptions comme on en a chez nous avec les centenaires… ça on peut pas vraiment l'assurer.`,
+  q:`**La fin des grands chiffres est indatable.** Deux hommes arrivés le même jour au même âge n'iront pas au même terme, et il n'existe ni compte à rebours, ni durée annoncée, ni régularité observable.` },
+
+{ d:`14 août`, s:`Le ravisseur sort du milieu haineux`, e:`ecarte`, t:[`enquête`],
+  v:`Je veux que son ravisseur fasse partie des gens qui détestent les arrivants jeunes. Un peu comme un groupe de rebelles militants. Pourquoi ils détestent à ce point les jeunes : ils profitent de la société, les petits princes pourris du jardin. L'un d'eux va être assez fou pour envisager de faire du mal à un enfant… ce qui existe déjà tristement dans notre monde.`,
+  q:`**Périmé le lendemain, par l'autrice elle-même** : « milieu haineux est effectivement une fausse piste ». La coupable est à l'exact opposé — celle qui les aime trop. Le grief garde toute sa place dans le parcours, mais il ne mène plus à personne. **Correction encore à porter sur le dossier de la jalousie.**` },
+
+{ d:`14 août`, s:`Le sort du ravisseur`, e:`acquis`, t:[`monde`],
+  v:`Franchement le sujet ne se portera pas sur ce qu'est advenu le ravisseur. Et quand bien même le karma ne l'a pas rattrapé dans cette vie, s'il décide de réitérer, le karma le sacrifiera.`,
+  q:`Le système juge les actes et non les intentions : il ne sait pas faire la différence entre celui qui n'a pas tué et celui qui n'a pas réussi à tuer. Le livre n'y revient pas.` },
+
+{ d:`14 août`, s:`La critique en suspens`, e:`acquis`, t:[`monde`],
+  v:`Ce n'est plus le moteur de l'intrigue, mais le fait qu'on comprenne que ce sont des raclures qui ne naissent pas laisse en suspens une critique de l'autrice (c'est moiiii) sur la société actuelle. Il y en a de plus en plus parce que notre monde est malade.`,
+  q:`**Les capsules sans éclaircie se multiplient depuis quelques années et personne ne sait pourquoi.** La courbe reste visible et inexpliquée. Le lecteur seul en tire la conclusion, et rien ne doit jamais être dit : pas un personnage qui s'interroge, pas une réplique qui pointe.` },
+
+{ d:`14 août`, s:`Le temps court`, e:`acquis`, t:[`calendrier`],
+  v:`Je pense que l'histoire doit se dérouler sur un laps de temps court. C'est l'enlèvement d'un enfant, c'est universel, mais les chances de survie d'un enfant kidnappé sont minces au-delà d'un certain délai. Mais ça peut être un épilogue : l'épilogue, c'est son entrée au jardin.`,
+  q:`**Le calendrier sur douze ans tombe.** Le corps du roman tient sur quelques semaines ; l'épilogue est six ans plus tard — exactement le temps qu'Eliott met à descendre de dix ans à huit. Le chiffre ne s'invente pas, il sort du tableau du décompte.` },
+
+/* ---------------- 15 AOÛT ---------------- */
+{ d:`15 août`, s:`Les corrections du dossier maître`, e:`acquis`, t:[`écriture`],
+  v:`La ménopause, qui est propre aux femmes, il faudrait soit l'enlever soit avoir un terme pour les deux sexes.`,
+  q:`Corrigé : le renversement physiologique se dit en marqueurs neutres. Tout se renverse — la vigueur monte, les capacités suivent le même sens. **Descendre n'est jamais s'affaiblir : on n'arrive pas à huit ans épuisé, on y arrive intact.**` },
+
+{ d:`15 août`, s:`Le plancher mal compris`, e:`acquis`, t:[`décompte`],
+  v:`Pas sûre de comprendre, j'ai l'impression que tu as compris que le jardin c'est 5 ans et un jour on meurt à l'âge de 5 ans, on sait pas quand. On a une durée de vie au jardin qui stagne selon les âges mais qui finit par décroître. Un enfant de 5 ans qui a donc 30 ans de vie devant lui va en faire 25 à l'âge de 5 ans puis décroître jusqu'à 0.`,
+  q:`**La correction la plus importante du dossier.** Une vie a trois temps : l'approche, le plateau, la fin. Jamais deux des trois. Et « la vie entière est un palier » est faux et ne doit jamais être repris.` },
+
+{ d:`15 août`, s:`La capsule qui révulse`, e:`acquis`, t:[`écriture`],
+  v:`Il réalise seulement que le karma existe, sans pour autant le formuler, juste en le constatant. La description d'une capsule sans éclaircie doit être assez révulsante pour qu'ensuite, quand on réalise que c'était un humain, le spectateur se dise « mais bien fait pour sa gueule à ce connard ».`,
+  q:`**Le veilleur constate, il ne formule pas.** Et la scène doit dégoûter d'abord, pour que le lecteur éprouve la satisfaction de la punition avant d'avoir à la juger.` },
+
+{ d:`15 août`, s:`Les premières leçons`, e:`acquis`, t:[`monde`],
+  v:`Les premières leçons ne sont pas sur le cœur du métier mais sur ce que ça implique. Cuisine : le couteau ça coupe et le feu ça brûle. Pêcheur : le poisson c'est un être vivant et l'eau ça mouille. Agent immobilier : une maison c'est un endroit qu'on construit avec des murs, des fenêtres, une porte et un toit, et on habite dedans. Banquier : l'argent c'est fait pour acheter des choses, si tu fais 1 + 1 ça fait 2.`,
+  q:`**Ça vaut pour tous les métiers**, pas seulement la cuisine. Et ça pourrait donner une situation cocasse où Andrew ignore comment un truc s'utilise et un tuteur plus jeune le lui apprend.` },
+
+{ d:`15 août`, s:`Les chuchoteurs`, e:`ouvert`, t:[`monde`],
+  v:`Pas forcément qu'en politique : dans n'importe quel domaine, du moment que c'est un vieux qui est aux commandes. Les chuchoteurs sont des formateurs de terrain en quelque sorte.`,
+  q:`**Le rôle n'est encore écrit nulle part** dans les fiches du monde. Il figure au dossier maître et attend une définition.` },
+
+{ d:`15 août`, s:`LE JARDIN PASSE À HUIT ANS`, e:`acquis`, t:[`décompte`,`jardin`],
+  v:`On va changer l'arrivée au jardin à 8 ans. L'âge me semble meilleur comme palier. Je veux des exceptions : les enfants de moins de 8 ans ne régressent pas mais grandissent ! Ils grandissent jusqu'à 8 ans, comme si 8 ans était vraiment l'âge vers qui tout le monde tend. Ils se stabilisent à cet âge avant de régresser de nouveau.`,
+  q:`**Huit ans devient un point de convergence, pas un plancher.** Un enfant qui arrive à quatre ans et un homme qui arrive à soixante-deux font la même chose, à des vitesses et dans des directions opposées : ils vont au jardin. Le graphe cesse d'être un faisceau qui descend et devient un entonnoir.` },
+
+{ d:`15 août`, s:`Le tabou`, e:`acquis`, t:[`jardin`],
+  v:`Ça peut être tabou pour les berceurs autour, de leur dire qu'ils ont enclenché la 2e phase de leur vie et vont vers la mort. Ils sont trop petits et trop innocents pour qu'on leur pose cette bombe.`,
+  q:`**Le seul endroit du système où quelqu'un détient une information et la garde.** Le tabou ne porte pas sur ce qui arrive — l'enfant en a la démonstration sous les yeux tous les jours — mais sur une seule question : « est-ce que moi, j'ai commencé ? »` },
+
+{ d:`15 août`, s:`Quarante ans`, e:`acquis`, t:[`décompte`],
+  v:`On passe l'espérance de vie minimale à 40 ans, ça te convient ?`,
+  q:`**Personne ne vit moins de quarante ans.** Le plancher est public et il ne se discute pas ; c'est un minimum, jamais une norme.` },
+
+{ d:`15 août`, s:`L'incertitude des grands chiffres`, e:`acquis`, t:[`décompte`],
+  v:`J'aimerais que selon les âges cette limite soit incertaine. Dans notre monde, quelqu'un qui a atteint 90 ans a un bel âge, sa famille compte les années. Ce que je veux dire c'est qu'un vieux qui arrive à 8 ans continuerait de descendre, mais peut-être qu'il irait plus vite, moins vite, comme un mini-palier. On garde les paliers comme ils sont pour tous : c'est vraiment la fin de 8 à 0 qui va varier.`,
+  q:`**Les seuls dont la vie est garantie sont ceux qui n'en sauront jamais rien.** Andrew a cinquante-quatre ans de descente devant lui et pas une année de plus qui soit chiffrable : le plancher de quarante ans ne lui sert à rien, il l'a dépassé avant même d'atteindre le jardin.` },
+
+{ d:`15 août`, s:`L'argument de la santé`, e:`acquis`, t:[`jalousie`],
+  v:`À noter aussi, pour augmenter l'animosité : l'argument que plus tu es jeune plus tu votes, dû à moins de chances d'avoir des maladies, tu es plus robuste. Ils pointent du doigt l'inégalité de la santé en faveur des graciés.`,
+  q:`**Le seul de leurs griefs qui soit vrai et vérifiable.** Ce n'est pas une injustice du système, c'est de la biologie : le système distribue des âges, et la santé suit. Et personne ne peut le leur retirer.` },
+
+{ d:`15 août`, s:`Le décompte, en clair`, e:`acquis`, t:[`décompte`],
+  v:`On descend jusqu'à 0. Exemple, un enfant de 2 ans : il monte jusqu'à 8, palier 8, et il redescend jusqu'à 0. On considère par défaut qu'un arrivant de 8 ans arrive directement au jardin. Il a automatiquement un berceur ou une berceuse qui va le nommer. La parole commence à se dégrader vers 4. Ils grandissent à vitesse 1:1, stagnent au palier 8 et rajeunissent ensuite.`,
+  q:`**La règle, enfin simple.** Et un repère qui vaut de l'or : la parole se dégrade vers quatre ans, pas à huit. C'est un événement du troisième temps, bien plus tardif que tout ce que le livre montre.` },
+
+{ d:`15 août`, s:`Les deux camps`, e:`acquis`, t:[`jalousie`,`phrases`],
+  v:`Oui, les gens qui ne comprennent pas les détestent et trouvent leur condition injuste par rapport à la leur. Les autres sont étonnés mais en même temps ils voient bien que quand tu es trop petit, ton existence se résume à celle d'un bébé humain. Tu fais rien, on s'occupe de toi tout le temps, tu ne profites pas des premières années de ta vie. Ce n'est que plus juste que l'univers te donne la chance de grandir jusqu'à 8 ans.`,
+  q:`**Personne ne peut gagner cette dispute.** C'est une formulation d'autrice, jamais une réplique : si quelqu'un arbitre à voix haute, la dispute devient un discours et le livre perd son terrain. Le lecteur doit rester en travers.` },
+
+{ d:`15 août`, s:`Eliott doit témoigner`, e:`acquis`, t:[`dispositif`,`personnages`],
+  v:`Pour moi c'est essentiel qu'Eliott témoigne de ce qui lui est arrivé. S'il est arrivé porteur de voiles c'est bien car il n'était pas en paix avec lui-même. En se confessant avant son entrée au jardin, il expie ce qui le faisait souffrir et entre dans l'insouciance. On peut supposer sans en être certain que les reliquats disparaissent quand on a rejoint le jardin. C'est la dernière grâce.`,
+  q:`**La dernière grâce.** Le système retirerait en dernier ce qui empêchait de jouir du temps rendu. Jamais confirmée, jamais vérifiable, jamais énonçable : elle se dit comme on parle des fantômes.` },
+
+{ d:`15 août`, s:`Tout le monde ne sait pas parler`, e:`ouvert`, t:[`décompte`],
+  v:`Non, tout le monde ne sait pas parler en arrivant : les moins de 4 ans. Et on a des arrivants de tout âge, 90 ou même plus, puisque c'est un miroir à des plus petits de quelques semaines. On oublie les questions de grands prématurés, le lecteur se fera sa propre interrogation.`,
+  q:`**La contradiction est réelle et reste ouverte** : « on sort de la capsule en sachant parler » et « la parole se dégrade vers quatre ans » ne peuvent pas être vraies ensemble sous quatre ans. Le plancher d'arrivée n'est pas tranché.` },
+
+{ d:`15 août`, s:`Le vieux n'a pas de palier`, e:`acquis`, t:[`décompte`],
+  v:`Oui. C'est ce qu'on disait, un arrivant vieux n'a pas de palier. Il a un ratio 1:1 de 90 à 8. Ensuite c'est incertain : on estime dans la moyenne 8 ans à vivre, mais il peut tout aussi bien rajeunir plus vite ou moins vite. Comme un ancien chez nous qui flirte avec les 100 ans.`,
+  q:`**La vitesse est fixée à l'arrivée** et ne change plus jamais : Andrew descendra d'un an par an jusqu'au bout, y compris quand il en aura vingt.` },
+
+{ d:`15 août`, s:`Le ratio doit se comprendre`, e:`acquis`, t:[`décompte`,`écriture`],
+  v:`Il va falloir réussir à expliquer que le ratio de rajeunissement n'est pas 1:1. Sinon le lecteur ne comprend pas qu'elles ont 15. Il fait le calcul : elle avait 18 ans il y a 10 ans à leur mort, elle devrait avoir 10. Ils seraient donc dans l'erreur.`,
+  q:`**Le seul endroit du livre où le lecteur peut se tromper d'arithmétique.** La parade retenue : une phrase banale — « ils mettent trois fois plus longtemps à descendre, en plus ». ✅ **Placée le 16 août 2026 : à la découverte du jardin, dans la bouche du pédiatre**, qui a les données techniques en main et l'énonce comme un médecin cite une posologie. *Il ne dit l'âge de personne : il énonce une propriété du barème.* **C'est parce qu'il la trouve banale que le lecteur la garde.**` },
+
+{ d:`16 août`, s:`Il passe outre et il se fait des nœuds : un seul chapitre`, e:`acquis`, t:[`enquête`,`écriture`],
+  v:`La scène « il passe outre » peut se regrouper avec la scène « il se fait des nœuds au cerveau » : quelque chose a retenu son attention dans le dossier, il décide d'y réfléchir au calme après sa conversation houleuse au commissariat.`,
+  q:`**Fusionnées.** *Et ça règle un manque de l'ancienne 17 a : elle demandait à Andrew de tourner en rond sans rien à quoi tourner autour.* **Maintenant le chapitre a une colonne vertébrale** — une chose remarquée, une journée dessus, et rien au bout. \n\n⛔ **Contrainte dure : ce qu'il a remarqué ne doit rien donner.** Sinon l'idée posée en tête de chapitre pré-annonce la solution, et les trois chapitres suivants n'ont plus rien à découvrir. *Il faut que ça puisse ne rien donner sans que le lecteur se sente floué.* \n\n**Et la fusion arme le chapitre « Il a trouvé » :** une journée entière sur un document qui ne donne rien, puis la solution qui vient d'une phrase dite par un gamin. **L'homme qui croit les papiers et pas les gens est perdu par ce qu'il a lu et sauvé par ce qu'on lui a dit.** *Personne ne le formule.*` },
+
+{ d:`17 août`, s:`On ne voit pas de vieux dans une maternité`, e:`acquis`, t:[`monde`,`société`],
+  v:`Rien ne dit qu'Eliott ne pourra pas rendre visite à June. Du moins ça reste plus simple que de rendre visite à Andrew, étant donné que lui s'occupe du début de vie alors que lui se trouve en fin. C'est rare de voir des vieux dans une maternité :p`,
+  q:`**Une règle sociale, pas une règle administrative — et c'est ce qui la rend bonne.** *Les deux bouts de la vie ne se mélangent pas ; personne ne l'a décidé et personne ne le formule.* **On ne croise pas de petits à la ruche, comme on ne croise pas de personnes âgées dans une maternité.**
+
+**Et l'image se retourne magnifiquement : la maternité de ce monde est pleine de gens qui ont l'air vieux.** *Le lecteur l'a vu dès la première page — le prologue est une cérémonie où arrivent des gens de quarante et soixante ans.* **On ne le lui nommera jamais.**
+
+✅ **Conséquence sur l'épilogue, et elle est belle.** *Eliott peut aller voir June, qui habite à côté. Aller voir Andrew serait presque impensable.* **Donc c'est Andrew qui doit se déplacer — et c'est exactement ce qu'il fait sans qu'on le lui demande depuis six ans.** *Sa promesse est la seule qui exige un effort, et la seule qui aille dans le bon sens.*` },
+
+{ d:`17 août`, s:`Le jardin n'est pas fermé`, e:`acquis`, t:[`jardin`,`monde`],
+  v:`Tout comme les vieux qu'on peut croiser dans la rue accompagnés de soignants, on peut également croiser des petits et leurs berceurs. Le jardin est comme une mini ville dans une grande ville, mais il n'y a pas tout le nécessaire non plus : des gens entrent pour l'entretien, d'autres livrent les repas élaborés à l'extérieur. Un système école petite enfance.`,
+  q:`**Le modèle est enfin nommé, et il vaut pour tout ce qui touche au jardin : une école de petite enfance.** *Des sections, des responsables, des sorties, des livraisons, des horaires, une rentrée.* **Rien d'un hospice, rien d'un mouroir.**
+
+**Et la comparaison est exacte :** chez nous, croiser une personne âgée au bras d'un soignant ne fait lever la tête à personne. *Ici c'est un petit et son berceur, et ça ne fait lever la tête à personne non plus.*
+
+✅ **Ça règle une partie du problème de ton de l'épilogue.** *Le mur n'est pas une frontière, c'est une adresse.* **Y entrer n'est pas disparaître** — on en sort accompagné, on y reçoit de la visite, et il passe cette grille plus de gens en une journée qu'on ne l'imagine en voyant le mur. *La grille qui se referme cesse d'être une pierre tombale.*
+
+**Piste concrète pour la réécriture :** pendant qu'Andrew est sur le banc, un berceur remonte l'allée avec deux petits qui reviennent de quelque part. *Deux lignes, aucune explication, et la scène cesse d'être un cimetière.*` },
+
+{ d:`17 août`, s:`L'épilogue est la fin que Joël n'a pas eue`, e:`acquis`, t:[`dispositif`],
+  v:`En tout cas, il aurait été comme ça si le cas des jumelles avait fini autrement.`,
+  q:`**Toute la structure du livre tient dans cette phrase, et le chapitre change de sens quand on l'a lue.** *Andrew sur ce banc — humble, un peu à côté, venu sans qu'on le lui demande, incapable de savoir quoi faire de ses mains* — **c'est l'homme que l'autre serait devenu s'il avait retrouvé les siennes.**
+
+**C'est le seul endroit du livre où l'on voit l'après d'une affaire qui finit bien.** *Et l'autre n'en a jamais eu :* il a lâché, il a perdu deux filles, et il n'y a pas eu de rentrée scolaire au bout.
+
+⛔ **Conséquence : rien dans le chapitre ne doit y pointer.** *« J'ai connu quelqu'un qui se posait beaucoup de questions, lui aussi » suffit — et elle ne suffit que parce qu'elle ne sait pas ce qu'elle dit.* **Le lecteur qui a compris voit Joël assis sur ce banc ; celui qui n'a pas compris voit un homme fatigué qui a tenu parole.** Les deux ont raison, et le livre ne tranche pas.` },
+
+{ d:`17 août`, s:`L'épilogue sonne comme un enterrement`, e:`ouvert`, t:[`écriture`,`jardin`],
+  v:`En le relisant il fait quand même triste, comme s'ils partaient vers la mort. Ce qui est vrai, mais il ne faudrait pas que ça se ressente comme ça. C'est un accompagnement de fin de vie. On peut supposer que les discussions sont animées entre les berceurs, très légères : c'est le métier d'amener les petits ici. Oui il y a le pincement au cœur, mais tous ne le vivent pas pareil. June peut émettre la réserve qu'elle a, mais le fait qu'elle puisse lui rendre visite n'est pas fermé non plus. Le responsable et les berceurs sont accueillants aussi, des sourires, des regards bienveillants. Et Eliott, malgré ses inquiétudes, est heureux de rejoindre le jardin : il est curieux de voir ce qui s'y passe.`,
+  q:`**Diagnostic : j'ai écrit un enterrement là où le brief disait une rentrée scolaire.** *Le registre était posé dès le départ et il s'est perdu à l'exécution.*
+
+**La correction tient en une phrase : la tristesse doit être celle d'Andrew seul, jamais celle de la scène.** Tous les autres sont soit au travail, soit contents d'y aller. **Il est le seul pour qui c'est une perte** — et personne autour de lui ne partage ça. *C'est aussi ce qui le rend plus dur, pas moins.*
+
+**Six endroits où ça fuit :** les berceurs qui parlent « parce qu'on ne peut rien dire d'autre » ; *elles ne touchaient pas le sol et elles ne le toucheraient plus* — la plus funèbre, une pierre tombale ; *un jour pareil*, qui fait de l'entrée une épreuve ; *mieux qu'avec moi*, qui sonne comme ce qu'on dit à un mourant ; la sortie de June ; et aucun sourire nulle part chez le personnel.
+
+⚠️ **À calibrer :** si June peut revenir, la promesse d'Andrew perd un peu de poids. *Ça enlève la finalité, ce qui est le but — mais sa visite à lui ne doit pas devenir banale pour autant.*` },
+
+{ d:`17 août`, s:`Un champ de courges sous une halle sculptée`, e:`acquis`, t:[`ruche`,`monde`],
+  v:`Je les imagine bien comme sur une même ligne de végétation qui s'enchevêtre un peu partout. Les capsules sont à l'horizontale, comme attendant d'être cueillies — imagine des champs de courges ou de melons, ça serait sympa. Et pour la cérémonie, la capsule est amenée et maintenue dans une verticalité presque complète.`,
+  q:`**Le dernier trou du monde de la ruche est bouché, et par l'image la plus humble possible.** *Une coulée qui court, des fruits posés dessus, et rien qu'on puisse désigner comme la source.* **L'arbre mère est définitivement mort.**
+
+✅ **Et deux mots du dossier deviennent littéraux d'un coup.** *Travée* n'est plus une image d'église : ce sont des rangs de culture sous une halle. **Et « décrocher », c'est détacher la capsule de la coulée qui la porte**, comme on coupe un melon de sa tige.
+
+✅ **Le redressement devient le dernier geste du rituel.** *La capsule passe de l'horizontale à la verticale juste avant l'ouverture* — **c'est le seul moment de sa vie où elle se tient debout**, et ça arrive une minute avant que quelqu'un en sorte.
+
+**Ce que ça fait au ton :** un champ de courges est humble, agricole, chaud. *Rien là-dedans ne ressemble à de la science-fiction.* **C'est du maraîchage sous une halle sculptée, et c'est exactement ce qui rend le lieu inquiétant sans qu'on ait à le montrer.**` },
+
+{ d:`17 août`, s:`Il a eu la cérémonie des jumelles`, e:`acquis`, t:[`monde`,`cérémonie`],
+  v:`Les capsules des jumelles ont eu un délai de maturation égal au temps où, dans le monde 1, elles étaient dans l'agonie — leur cérémonie est prévue. Même pas une heure après, celle d'Andrew apparaît. Le veilleur de l'époque le note et décide d'en faire une seule cérémonie groupée. // Attention, ne me fais pas dire ce que je n'ai pas dit : ce n'est pas parce que la capsule arrive d'un coup que personne n'est là ! Oui il y a moins de monde, mais il peut y en avoir quand même. Et aucun lien ne se fait entre le public et les arrivants : ils viennent parce qu'ils le veulent bien, pour célébrer une arrivée. Le public ne se dit pas « zut, il y en a un troisième » ; ceux qui seront là se diront « oh, il y en a un de plus », c'est tout. Rien de cruel là-dedans.`,
+  q:`✅ **La règle de monde : le délai de maturation est celui de l'agonie.** *Une mort lente donne une capsule qui met longtemps ; une mort brutale donne une capsule qui surgit d'un coup.* **La façon dont on est mort décide de la façon dont on arrive**, et du délai qu'on a eu pour prévenir.
+
+⛔ **Et une correction de ma part, deux fois de suite.** *J'ai d'abord conclu à une salle vide ; puis, corrigé, j'ai écrit que la salle était pleine « et que rien de tout ça n'était pour lui ».* **Les deux étaient faux, et le second surtout : le public ne vient pour personne en particulier.** Il vient célébrer une arrivée, aucun lien ne se fait entre lui et les arrivants, et il n'y a donc rien à voler à Andrew.
+
+**La seule chose vraie, et elle est banale :** sans les jumelles, il y aurait eu moins de monde. *Une question d'avoir prévenu plus tôt ou pas.* — **Ce monde est plus doux que je ne l'écris ; c'est une erreur à surveiller partout.**` },
+
+{ d:`17 août`, s:`La promotion des vingt-six a été difficile aux deux bouts`, e:`acquis`, t:[`monde`,`jardin`],
+  v:`La grande cérémonie de la vingtaine d'enfants et des adultes était compliquée : peu de monde, pas assez de berceuses. Et au passage, même l'arrivée au jardin a été compliquée — c'est un énorme groupe qui est arrivé en même temps, en plus de ceux qui étaient prévus.`,
+  q:`**Rien ne s'est mal passé ; tout a été difficile.** *Peu de public — personne n'avait été prévenu à temps — et pas assez de berceuses pour les arrivants qu'il fallait porter.*
+
+✅ **Et huit ans plus tard, ça recommence à la grille.** *Un énorme groupe entre au jardin en même temps, en plus de ceux qui étaient prévus.* **La même promotion met le système en difficulté aux deux bouts de sa vie** — et personne ne fait le rapprochement, parce qu'il y a huit ans entre les deux.
+
+*C'est un des rares faits du livre qui se vérifie tout seul : quand vingt-six arrivent ensemble, ils repartent ensemble.*` },
+
+{ d:`17 août`, s:`L'épicentre : c'est de là que sortent les capsules`, e:`acquis`, t:[`monde`,`ruche`,`jugement`],
+  v:`Ou alors, justement, les capsules « sortent » de cet endroit. C'est un peu un sac de nœuds, ou plutôt un sac de racines, qui est ancré tout autour de cette salle. Et c'est une salle ouverte, presque une clairière, avec des arbres, des sortes de stèles et des gravures. Un veilleur sait où regarder et quoi lire ; il connaît la pièce par cœur et sait quand quelque chose a bougé. Ça donne un aspect de ruine abandonnée qui ne fait pas vraiment ruine. Imagine ce lieu comme pas forcément fermé à tous et réservé aux veilleurs, mais séparé du reste du complexe par de la création humaine. L'homme a voulu conserver cet épicentre comme quelque chose de sacré. C'est rare que d'autres personnes que des veilleurs y entrent, déjà parce que c'est un lieu avec beaucoup de croyance autour, mais aussi parce qu'une personne lambda ne sait pas lire ce lieu.`,
+  q:`**Mon instinct disait de garder les deux mystères séparés. C'était l'erreur, et voilà pourquoi.** *Le lien qu'on obtient n'est pas une explication — c'est un lieu.* **L'endroit d'où sortent les capsules est l'endroit où apparaissent les lignes**, et rien de tout ça ne s'éclaire pour autant.
+
+✅ **Et ça donne au livre son image centrale :** une clairière avec des stèles, un sac de racines ancré tout autour, une ruine qui n'en est pas une — **et un sanctuaire bâti par les hommes tout autour pour la garder.**
+
+**Le plus beau détail est celui de l'accès.** *L'endroit le plus sacré du monde n'est pas gardé.* On pourrait y entrer. **Presque personne ne le fait, parce qu'il y a de la croyance autour — et surtout parce qu'on ne saurait pas quoi y lire.**
+
+*C'est aussi ce que veut dire « lire le registre » : un veilleur connaît la pièce par cœur, il sait où regarder, et il sait quand quelque chose a bougé.*` },
+
+{ d:`17 août`, s:`La formule de l'odeur, et à quel moment on jubile`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`À ce stade de l'histoire on ne se dit pas « bien fait pour sa gueule », on trouve juste la capsule pourrie révulsante — c'est une description crade et nauséabonde. C'est au moment où Andrew connecte qu'en tant que lecteur on connecte avec lui, et là seulement on se dit bien fait pour sa gueule. // « La pierre mouillée, le fond sucré », je ne sais pas d'où ça sort, ça dégage. On pourrait décrire la capsule avec un vocabulaire précis, qui se succède : « une odeur, insipide, et prenante au nez, comme si [image mentale] ». Et à la fin : « — Tu aurais pu changer de tenue ! / Et là il la remarqua, cette odeur, insipide et prenante au nez, comme si… » Le lecteur ne peut que se souvenir de cette phrase, citée nulle part ailleurs que dans le chapitre de la capsule pourrie. La dernière ligne du chapitre. // Je t'arrête tout de suite : dans le prologue, à aucun moment on ne parle de capsule pourrie.`,
+  q:`⛔ **Trois corrections, et les trois portaient sur des choses que j'avais inventées.**
+
+**① Le moment de la jubilation.** *À la journée à la ruche, le lecteur ne jubile pas : il est écœuré, point.* Il ne sait pas qu'il y avait quelqu'un dedans et personne ne le lui dit. **« Bien fait pour sa gueule » arrive six cents pages plus loin, à l'instant où Andrew connecte** — et ce que le lecteur aura à juger, c'est sa propre satisfaction.
+
+**② La formule.** *La pierre mouillée et le fond sucré étaient de moi et ne servaient à rien.* **Une phrase exacte, à vocabulaire précis et successif, forgée à la journée à la ruche et reprise mot pour mot à la seconde cérémonie.** *Nulle part ailleurs, et la seconde cérémonie se ferme dessus :* la réplique sur la tenue, puis « et là il la remarqua, cette odeur… » **Deux occurrences, six cents pages, et pas un synonyme.**
+
+**③ Le prologue ne contient aucune capsule pourrie**, ni allusion. *La première que le lecteur rencontre est celle de la journée à la ruche, et elle doit le révulser sans préavis.* **Le prologue est donc libéré de la contrainte d'odeur que je lui avais mise.**` },
+
+{ d:`17 août`, s:`La superposition devient visible quand il la voit`, e:`acquis`, t:[`dispositif`],
+  v:`Tout le long du livre on a superposé les scènes sans s'en rendre compte en tant que lecteur, comme si lui-même l'ignorait. Et enfin, dans la salle du registre, il superpose clairement : deux lignes de vie, des souvenirs presque parallèles.`,
+  q:`**C'est le principe de tout le dispositif, formulé d'un coup — et il vaut mieux que tout ce que le dossier en disait.** *Le procédé est invisible pendant six cents pages parce que le personnage l'ignore ;* **il devient visible à l'instant exact où le personnage peut le voir.**
+
+**La forme et l'homme se réveillent ensemble**, et c'est la seule fois où le livre montre sa mécanique — *dans une pièce où personne n'entre, à quelqu'un qui n'en parlera jamais.*
+
+⛔ **Conséquence d'écriture : une seule fois.** *Aucune autre surimpression ailleurs dans le livre, pas même une esquisse.* Sinon le procédé cesse d'être un réveil pour devenir un effet.` },
+
+{ d:`17 août`, s:`Il a tout compris à sa propre mort`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`Bien sûr qu'il a compris. À sa propre mort il a tout compris. Il s'appelait Joël, il a ressenti cette colère aveuglante dans son reliquat, il a senti qu'il aurait pu tuer pour ces jumelles. Il sait tout sur sa ligne. Pour ce qui est de l'homme à côté d'Eliott, non, il ne sait pas — et c'est Eliott qui lui apporte cette réponse. Dans la salle du registre, on pourrait lui amener des reliquats par flash : le visage de June qui disparaît quand elle lui dit qu'Eliott a disparu, remplacé par le visage d'une parfaite inconnue qui dit qu'elle s'inquiète ; son regard qui se pose sur la photo d'identité d'Eliott dans un dossier, dédoublée et devant une photo de famille des deux jumelles.`,
+  q:`⛔ **Troisième correction sur le même point, et c'est moi qui n'arrêtais pas de rapetisser la scène.** *Ce n'est pas un fait qu'il attrape : c'est sa vie.* **Il s'appelait Joël, il a senti la colère, il sait qu'il aurait pu tuer pour ces deux filles.**
+
+✅ **Et les deux images de reliquat sont le faux-raccord rendu littéral, une seule fois, à la fin.** *Tout le livre a superposé deux vies sans jamais le montrer ; ici la superposition se voit* — **et elle se voit dans la tête d'un seul homme, dans une pièce où personne n'entre.** Le visage de June qui devient celui d'une inconnue. La photo d'identité d'Eliott dédoublée devant une photo de famille.
+
+✅ **Aucune conséquence sur l'épilogue, et la confusion venait de ma garde.** *L'autrice avait dit qu'on ne cite pas le prénom ; j'en avais fait qu'il ne devait pas comprendre.* **L'interdit ne porte que sur le mot.** **Maintenant qu'il sait, « j'ai connu quelqu'un qui se posait beaucoup de questions, lui aussi » cesse d'être un faux-raccord involontaire : c'est une discrétion.** *Il parle de lui et choisit de ne pas le dire ; la question de l'enfant reste sans réponse parce que répondre voudrait dire expliquer.*
+
+✅ **Le texte tient les deux lectures sans changer un mot** — *« ça lui était venu tout seul, et il ne s'étonna pas de l'avoir dit » se lit aussi bien d'un homme qui ignore que d'un homme qui laisse venir.* **C'est la fiche qui était fausse, pas le chapitre.**
+
+✅ **Et ça donne à l'épilogue ce qui lui manquait : Andrew y reçoit quelque chose.** *Il ne sait toujours pas qui était l'homme assis à côté d'Eliott à sa cérémonie.* **C'est le garçon qui le lui donne, sans savoir ce qu'il donne** — la seule chose que quelqu'un offre à Andrew dans tout le livre.` },
+
+{ d:`17 août`, s:`Le carambolage, et ce qu'Andrew comprend`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`Ils meurent tous les deux dans l'accident. En face c'était un poids lourd, il n'a quasi pas bougé ; la voiture du tueur s'est encastrée dedans et celle de Joël a suivi bêtement. // Houlà, tu vas où ? Bien sûr qu'il sait comment il est mort : dans le chapitre où on assiste à la poursuite, le chapitre d'après il réalise que la silhouette n'a pas bougé. Il réalise donc qu'il a vu sa propre mort, et c'est ce qui le pousse à aller vérifier. Et si, justement, en vérifiant, il se posait cette question : est-ce que cette enflure a pu s'échapper ? Et alors une intuition — il se souvient du « tu aurais pu enfiler une autre tenue », et il connecte.`,
+  q:`✅ **Deux morts brutales, donc aucun délai de maturation, donc deux capsules le jour même.** *Celle de Joël éclaircit et devient Andrew ; celle du tueur n'éclaircit pas.* **Le chauffeur du poids lourd n'a presque pas bougé : pas de troisième capsule.**
+
+⛔ **Et j'ai fait deux fois l'erreur inverse.** *D'abord je le faisais supposer sans certitude ; ensuite je lui retirais tout et je donnais le reveal au lecteur seul.* **Les deux étaient faux : il comprend, et c'est le seul endroit du livre où quelqu'un comprend quelque chose.**
+
+**La chaîne est à lui :** il a vu la silhouette ne pas bouger, donc il sait qu'il a vu sa propre mort — **c'est ça qui l'amène à la salle du registre**, pas un détail de cérémonie. Là, il trouve sa ligne et celle de la paire à côté, *et il se demande si l'autre s'en est tiré*. **Alors le souvenir de la tenue tachée remonte, et il connecte.**
+
+⚠️ **Mais il comprend un fait, pas une histoire.** *Ce qu'il n'aura jamais : qui étaient ces deux filles, que c'était son enquête, qu'il s'appelait Joël, et qui était l'homme d'à côté à la cérémonie d'Eliott.* **Le lecteur en sait trois crans de plus, et Andrew vient d'en gagner un.**` },
+
+{ d:`17 août`, s:`L'odeur était un veilleur qui venait de nettoyer`, e:`acquis`, t:[`ruche`,`dispositif`],
+  v:`Pourquoi le registre indiquerait-il des marques pour les capsules pourries au même endroit que des capsules en maturation ? Si les veilleurs n'ont pas fait le lien, c'est chaud. Il faudrait une autre solution qui lui fasse tiquer sur le fait que ce jour-là, il y avait bien une capsule pourrie dans un autre couloir en train de se faire racler. Et au passage, pourquoi l'odeur se sent depuis la salle de cérémonie ? C'est que mine de rien, on n'est pas accolé mais on n'est pas loin. Les veilleurs sont censés vite nettoyer pour éviter de contaminer les autres, par croyance. L'odeur reconnue ce jour-là pourrait très bien être celle d'un veilleur qui venait de nettoyer la capsule — un autre qui lui dirait « tu aurais pu enfiler une autre tenue, quand même… »`,
+  q:`⛔ **Ma marque sur la stèle est écartée, et l'objection est juste :** *pourquoi l'épicentre noterait-il des échecs au même endroit que des arrivées ?* **Une capsule qui n'éclaircit pas ne laisse aucune ligne** — personne n'est arrivé, il n'y a rien à inscrire. *C'est le seul endroit du monde où une absence est parfaitement silencieuse.*
+
+✅ **Et la solution est infiniment meilleure : c'est l'odeur qui porte tout.** *Un veilleur était entré avec sa tenue de travail, il venait de nettoyer, et quelqu'un le lui a fait remarquer.* **La réplique qui porte le reveal est parfaitement banale : « tu aurais pu enfiler une autre tenue, quand même. »** Personne ne s'en offusque, la cérémonie continue, et un homme de vingt ans plus jeune ne l'entend même pas.
+
+**Ça referme la boucle de l'odeur en entier**, et c'est pour ça qu'on la construisait depuis deux jours : *le prologue donne l'odeur propre ; la journée à la ruche la donne tournée, avec la raclette ; la seconde cérémonie la rappelle — et cette fois avec la phrase qui dit d'où elle venait.*
+
+⚠️ **Et ça change ce que la scène 33 va chercher.** *Le registre ne donne plus la capsule pourrie : il donne la paire.* **Qui était dedans ne se saura jamais** — Andrew suppose, le lecteur suppose avec lui, et le livre ne confirme rien. *C'est la seule chose qui ressemble à un jugement dans tout le roman, et personne ne l'a prononcée.*` },
+
+{ d:`17 août`, s:`Une ligne par lot, pas par personne`, e:`acquis`, t:[`monde`,`jugement`],
+  v:`Je parlais des lignes ! Donc non, ce n'est pas une ligne par capsule, c'est une ligne par lot de capsules arrivées en même temps. Et ça lève une erreur de ma part : c'est une ligne pour les jumelles et une pour lui. Le tueur n'existe pas.`,
+  q:`**Et ça change la nature de ce qu'on lit là-dedans : ce sont des événements, pas des individus.** *Une ligne à vingt-six est un accident. Une ligne à deux est une paire. Une ligne seule est quelqu'un qui est parti sans personne.*
+
+**Le registre ne dit donc pas qui vous êtes — il dit avec qui vous êtes mort.** *Et c'est la seule chose au monde qui ne mente jamais.*
+
+**Les jumelles ont leur ligne, Andrew a la sienne**, juste à côté : elles sont arrivées ensemble, lui une heure plus tard et tout seul. *À la scène 33, il va lire sa propre ligne — et celle des jumelles est la voisine.*
+
+✅ **Et le tueur n'existe pas** : ma question tombe.` },
+
+{ d:`17 août`, s:`Le registre n'enregistre que l'arrivée`, e:`acquis`, t:[`monde`,`jugement`],
+  v:`La maternité enregistre-t-elle seulement l'arrivée ou toute la vie ? Pour moi la réponse est non, c'est administratif. // Le registre ne doit pas contenir la fin.`,
+  q:`✅ **Une ligne par capsule : une année, un âge. Rien d'autre, jamais.** *Ni la fin, ni ce qui se passe entre les deux.*
+
+**Et ça resserre le défaut d'Andrew d'un cran de plus.** *La seule chose au monde qui ne mente jamais ne dit qu'un fait sur vous : que vous êtes arrivé.* **Tout le reste est de la paperasse tenue par des gens** — affectations, services, dossiers médicaux — et c'est faillible.
+
+*Conséquence sur la seconde piste : elle ne passe pas par l'épicentre.* **Le jeune arrivant dont plus rien n'est écrit, c'est un dossier ordinaire qui s'arrête** parce que le jardin ne rend rien. **Et elle meurt sur une erreur administrative** — l'homme qui croit les documents est tué par le seul type de document qui puisse se tromper.
+
+*L'Écriture du dossier : ça signifie aussi que l'Épicentre ne juge pas et n'enregistre pas les morts. Il envoie, et il note qu'il a envoyé.*` },
+
+{ d:`17 août`, s:`Les capsules vides sont un déchet`, e:`acquis`, t:[`monde`],
+  v:`Que devient le placenta après un accouchement ?`,
+  q:`**On les étudie, on s'en débarrasse, personne n'y pense.** *La gélatine conservée suit le même régime : un prélèvement clinique, rien de plus.*
+
+**Le miracle a lieu dans un temple et ses restes partent avec les ordures**, et ce contraste-là ne se souligne jamais.` },
+
+{ d:`17 août`, s:`Le registre est une pièce`, e:`acquis`, t:[`monde`,`jugement`],
+  v:`Je n'aime pas le fait que la phrase soit inscrite. On pourrait imaginer quelque chose de physique, visible : le registre ne serait pas un livre mais une pièce, complexe, que les veilleurs ont appris à lire avec le temps. À chaque capsule sa ligne, gravée quelque part, une année, un âge. Le public n'a pas accès à cette salle. Il ne pouvait pas mentir car quelque chose, ou quelqu'un, en est le maître, en est l'écrivain — personne d'autre ne peut écrire à sa place, on ne sait pas qui sait. On est dans une zone reculée du complexe, loin des capsules, comme dans les archives. De là est né le nom de l'Archiviste : on ne le voit pas, mais dans leur foi, il existe.`,
+  q:`**Et le nom vient du lieu, pas l'inverse.** *On a appelé Archiviste celui qui écrit dans les archives, parce qu'on n'avait que ça pour le nommer.* **C'est une théologie fondée sur une pièce.**
+
+✅ **Et ça retourne complètement le défaut d'Andrew.** *Il n'est pas superstitieux : il a raison.* **Le registre ne ment effectivement jamais** — les lignes s'inscrivent et personne ne les écrit. Son erreur n'est pas de le croire, elle est de croire que **tout ce qui est vrai y est écrit.** *Et le livre le punit exactement là : il recoupe des dates, ça ne donne rien, et ce qui le sauve est le babil d'un gamin et la voix d'une femme à une caisse.*
+
+✅ **Ça donne enfin une raison physique à « l'homme du registre ».** Isaac le suit parce qu'Andrew peut entrer dans une pièce où Isaac n'entrera jamais, et y lire quelque chose que personne d'autre ne sait lire.
+
+⛔ **Et rien n'est gravé sur les murs.** *Ma phrase taillée dans la pierre est abandonnée.* **La doctrine ne s'affiche pas, elle se constate dans une pièce fermée au public** — c'est infiniment plus fort qu'une devise.` },
+
+{ d:`17 août`, s:`Le prologue traverse le complexe`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`Le livre pourra montrer le centre. Le prologue, on va suivre le veilleur qui traverse le complexe. Il pourrait alors entrevoir les deux capsules du jour, il veillerait à choisir la bonne salle de cérémonie, etc. Ce qui se passe à la fin de la cérémonie quand Andrew quitte la pièce en tant que veilleur principal, on n'en parle pas dans le prologue, mais on pourra y venir quand ça sera au tour de décrire sa propre arrivée.`,
+  q:`**La traversée est le décor, et le décor est le sujet.** *Un homme qui va travailler montre son lieu de travail sans qu'un narrateur ait à le décrire* — c'est la règle du dossier tenue à la lettre, et elle donne au prologue sa colonne vertébrale.
+
+**Ce qu'il fait en chemin est déjà tout le rituel :** il entrevoit les deux capsules du jour, il en déduit ce qu'il lui faut, il choisit la salle, il installe les postes, le miroir, la bassine, la tablée.
+
+✅ **Et la sortie du veilleur principal est réservée.** *Ce qui se passe quand il quitte la pièce en dernier — la reconnaissance administrative — n'appartient pas au prologue.* **Ça se donnera à la seconde cérémonie, quand il se souviendra de sa propre arrivée.**` },
+
+{ d:`17 août`, s:`Pourquoi « ruche », et d'où elle vient`, e:`acquis`, t:[`ruche`,`monde`],
+  v:`Tu comprendras pourquoi le mot ruche, qui pourrait tout aussi bien en être un autre : il y a plein de métiers qui s'y croisent, avec toujours un même objectif, accueillir les capsules que l'on dit envoyées par l'Archiviste. Maintenant la question, c'est comment faire le lien avec une sorte d'entité nommée Archiviste ? On dit aussi que le registre ne ment pas — est-ce que cela s'inscrit quelque part ? Comment est née la ruche ? Est-ce qu'elle ne serait pas axée autour d'un ou plusieurs éléments, et l'homme aurait construit tout autour en acceptant de partager l'endroit avec la nature ?`,
+  q:`**L'étymologie est interne et elle vaut mieux que l'image des abeilles :** *beaucoup de métiers s'y croisent, et tous n'ont qu'un objectif.* **On appelle ça une ruche comme on appellerait ça une fourmilière** — pour l'activité, pas pour l'insecte.
+
+✅ **Et l'origine que tu proposes résout tout d'un coup.** *La ruche n'a pas été conçue puis bâtie : elle a été bâtie autour.* Il y avait là un endroit où les capsules apparaissaient, et une végétation qui y poussait ; on a construit tout autour et accepté de partager la place avec elle. **On n'orne pas un entrepôt — on orne un lieu qu'on ne comprend pas.** L'ornementation démesurée cesse d'être un choix esthétique et devient une conséquence. *Et ça répond à « qui les plante ? » sans arbre mère : personne.*
+
+**Le lien avec l'Archiviste n'est donc pas une preuve, c'est un bâtiment.** *On ne l'a jamais vu et on ne le verra jamais.* **Mais la ruche existe, et elle prouve une seule chose : qu'on y a cru assez pour tailler la pierre.**
+
+✅ **Et « le registre ne ment pas » requalifie le défaut d'Andrew.** *Ce n'est pas une manie personnelle : c'est la doctrine de son métier.* **Le livre le punit exactement là-dessus** — il consulte le registre, il recoupe des dates, ça ne donne rien ; et ce qui le sauve est le babil d'un gamin et la voix d'une femme à une caisse.` },
+
+{ d:`17 août`, s:`Un sanctuaire où l'on cultive`, e:`acquis`, t:[`ruche`,`monde`],
+  v:`Imagine un espace un peu comme le Sanctuaire de la Vérité à Pattaya : l'architecture est très ornementée, toute en courbes et arabesques. Autre référence : la scène de fin de Passengers, quand d'un arbre planté en plein milieu du vaisseau, l'entierté du hall est devenue une immense boule de nature ayant pris le dessus sur l'architecture. Dans l'un je veux te montrer le style d'ornementation très travaillé, exactement comme un sanctuaire ; dans le second, la nature qui a repris ses droits. Ici, dans la ruche, on est dans un environnement maîtrisé : un sanctuaire qui, même s'il semble très ouvert, est en fait un immense complexe avec de la végétation intérieure.`,
+  q:`**Les deux références se corrigent l'une l'autre, et c'est ça qui fait le lieu.** *Pattaya donne l'ornementation démesurée ; Passengers donne le végétal qui envahit.* **Sauf qu'ici la nature ne reprend rien : on la lui donne.** C'est un environnement tenu, et c'est ce qui distingue la ruche d'une ruine magnifique.
+
+**Et le lieu semble ouvert sans l'être.** *C'est cette contradiction qui produit le temps suspendu de la maternité :* on n'en sort pas, et on n'a aucune envie d'en sortir.
+
+⛔ **Aucune technologie visible.** *La maturité d'une capsule se lit à l'œil et à la main*, comme un maraîcher reconnaît un fruit prêt — **et c'est ce qui donne son sens au métier de veilleur.** Deux cent quarante ouvertures, ça veut dire qu'on sait.
+
+✅ **Une conséquence qui dépasse le décor :** ce monde a bâti **un sanctuaire pour ceux qui arrivent, et une institution pour ceux qui s'en vont.** *La ruche est sacrée ; le jardin est administré — des sections, des responsables, un formulaire dans la poche de devant.* **Personne ne remarque l'asymétrie et le livre ne la soulignera jamais.**` },
+
+{ d:`17 août`, s:`La ruche n'est pas une ruche d'abeilles`, e:`acquis`, t:[`ruche`,`monde`,`écriture`],
+  v:`Il ne faut déjà pas voir la ruche comme une ruche d'abeilles. J'imaginais quelque chose de très organique, un peu comme la sérénité d'une forêt ; ça reste un bâtiment à part entière, un endroit fermé type grand entrepôt, avec de longs couloirs, plusieurs pièces de collecte, c'est-à-dire des pièces avec des capsules plus ou moins à maturation. L'air est frais, un peu comme dans un monastère, il y a le passage du vent. Beaucoup d'ouvertures, une belle luminosité. Un lieu d'apaisement, comme lorsque tu te balades en forêt et que tu entends le son des feuilles dans les arbres. C'est un endroit assez extérieur au reste du monde, exactement comme les maternités : le temps y est comme suspendu, rien d'autre ne compte. La cérémonie d'éclaircie se passe dans une grande salle — ils en ont plusieurs selon la quantité d'éclaircies qui arrivent en même temps.`,
+  q:`**Six règles de monde en sortent, et elles ferment une image dangereuse.** ⛔ *Ni alvéoles, ni essaim, ni bourdonnement, ni reine :* le mot est un nom d'usage, pas une métaphore filée.
+
+**Et le modèle juste est celui de la maternité**, pas du funerarium : *le temps suspendu, les gens qui n'y sont plus tout à fait dans le monde, et des visiteurs qui viennent voir quelqu'un qui vient d'arriver.* **C'est la même correction de ton que pour le jardin, deux jours plus tôt** — et elle vaut désormais pour les deux bouts de la vie.
+
+**Quatre trous ouverts pour le prologue**, dans l'onglet Trancher : *ce qu'est une capsule* (on ne sait que l'éclaircie), *la couleur* (pourpre et or, ou bleu ciel et orangé), *le rituel* (le miroir et le nom sont acquis, le reste est à inventer), *les visiteurs* (qui, et comment choisis).` },
+
+{ d:`17 août`, s:`Le prologue repart de zéro`, e:`acquis`, t:[`écriture`],
+  v:`Je n'ai absolument pas relu le prologue, je veux recommencer de zéro. Garde-moi une version du prologue actuel, mais ne m'en parle pas ; pars du principe qu'on recommence ensemble quand on aura bien avancé. Je relirai l'ancien et je verrai s'il y a des choses qui m'intéressent à prendre dedans.`,
+  q:`**Sorti de l'atelier et archivé** dans <em>99-archives/prologue-v4-2026-08-16.md</em>. *L'onglet Chapitres ne contient plus que l'épilogue.*
+
+**Ce qui reste acquis du prologue et ne dépend pas du texte :** la première page suit l'éclaircie d'Eliott et de l'homme d'à côté ; le regard de deux secondes ne doit rien peser ; le miroir rend possible la dernière page ; ⛔ **et l'odeur n'est plus une contrainte du prologue** — *supprimée le 17 août 2026 : la formule se forge à la journée à la ruche et ne revient qu'à la seconde cérémonie.* **Le prologue est libre de ce côté-là.**` },
+
+{ d:`17 août`, s:`Le miroir de la cérémonie`, e:`acquis`, t:[`ruche`,`monde`],
+  v:`Une petite nuance qu'on arrivera aisément à expliquer par une phrase simple dans la conception de la cérémonie : le veilleur tend un miroir pour que l'arrivant puisse faire connaissance avec sa propre apparence.`,
+  q:`**Ça bouche un trou que je n'avais pas vu.** À l'épilogue, Eliott dit de l'homme d'à côté : *« j'ai vu ses yeux, tout pareils que les miens ».* **Or il venait d'arriver, et il n'avait jamais vu son propre visage.** La phrase ne tenait pas, et personne ne s'en était aperçu.
+
+**Le miroir la rend exacte, et il ne coûte qu'une ligne de protocole.** *On ne l'explique pas, on le fait — comme la couverture qu'on déplie.*
+
+**Et il ouvre une boucle** : si c'est Andrew qui tient le miroir, alors l'homme qui a montré à Eliott son propre visage est celui à qui il racontera l'histoire six cents pages plus loin. *À trancher demain, avec le prologue.*` },
+
+{ d:`16 août`, s:`Jeune se dit, adulte ne se dit pas`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`Pourquoi pas dire plus jeune ? Pour le coup ça peut être un mot classique pour eux. Nous on acquiert de l'expérience en vieillissant, eux en rajeunissant. Plus vieux, je suis d'accord, on évite. Plus jeune, je n'y vois pas de problème. // Plus simple : on retient juste que jeune est descriptif du physique.`,
+  q:`**Règle opérationnelle, en une ligne : jeune décrit le physique, et rien d'autre.** *Ni l'ancienneté, ni l'expérience, ni le statut.* **Plus vieux s'évite ; plus jeune ne s'évite pas.** Jeune arrivant passe, enfant reste interdit.
+
+**Et ça débloque une phrase qui serait impossible chez nous et qui est plate ici :** *il la retrouva plus jeune qu'il ne l'avait laissée.* Un lecteur arrivé à la page six cents la lit comme un constat.
+
+⛔ **Adulte, en revanche, ne veut rien dire et le livre ne l'emploie pas.** *Quelqu'un qui paraît quarante ans peut être arrivé le mois dernier.* **On nomme les gens par leur métier ou par rien.** C'est la conséquence directe de l'erreur commise sur June : l'âge apparent ne classe personne.` },
+
+{ d:`16 août`, s:`Le jardin, et le jour de la rentrée`, e:`acquis`, t:[`jardin`,`monde`],
+  v:`Imagine une rentrée scolaire pour petite section : c'est la même chose. De la ville on ne voit qu'un mur au crépi crème, une grande allée serpente le long de l'enceinte avec des bancs et des arbres, et il y a plusieurs grilles car l'enceinte est immense. L'intérieur est une seconde ville : allées, vrais jardins, aires de jeu, fresques tout du long, baraques à vélos, lotissements, centre pédiatrique au milieu avec parking, salles de jeu, gymnase avec tapis et obstacles en mousse. Le jour de la rentrée, de petits groupes attendent près d'une grille avec leurs berceurs, les petits se regardent, certains ont déjà un copain, d'autres restent dans les jupes. La grille s'ouvre, le responsable de zone sort avec un nombre de berceurs calculé par l'administration. Andrew est déjà là et observe de loin ; June l'aperçoit et l'invite. Elle demande à celle qui lui succède quelques instants avant qu'on referme, fait ses adieux, salue Andrew et s'en va.`,
+  q:`**Le dernier morceau de monde que le livre avait à poser, et il se pose tout seul** : la rentrée scolaire est un registre que tout lecteur connait, donc rien n'a à être expliqué. *On ne pleure pas à une rentrée : on a le ventre serré et on y va.* **C'est ce registre, et rien d'autre, qui garantit que le lecteur ne sera pas triste du sort d'Eliott.**
+
+**Et la permission demandée à la grille est la charnière** : c'est elle qui laisse les deux dehors pendant que le reste du monde est déjà entré. Sans elle, la dernière page n'a pas de lieu.
+
+⚠️ **Trois raccords à reprendre dans la dernière page**, écrite avant celle-ci : *les portes de chaque côté* et *la lumière qui venait du fond* décrivent un couloir intérieur, alors qu'ils sont sur une allée. **Et la porte qui bat derrière eux doit devenir une grille** — ou une portière, sur le parking du centre pédiatrique.
+
+⛔ **Deux mots que le monde ne peut pas dire.** *Éveil, apprentissage :* ils supposent une direction que ce monde ne prend pas. **Les salles se nomment par ce qu'elles contiennent** — la salle des tapis, le gymnase, les salles de jeu. Et les fresques se décrivent sans jamais dire qui les a peintes : à hauteur de main, des proportions qui ne tiennent pas, des soleils qui ont un visage.` },
+
+{ d:`16 août`, s:`Les deux commerces étaient inversés`, e:`acquis`, t:[`monde`],
+  v:`Magasin de chaussures, c'était monde 1 ; l'épicerie, c'est monde 2. Il faut le reverser partout.`,
+  q:`**Corrigé dans toutes les fiches et dans le dossier** — la ruche, la terre, Eliott, le mémo. *La formulation canonique devient :* « **mais si, il y avait un magasin de chaussures ici, pas une épicerie** ». Le garçon se souvient de la boutique de l'autre monde et refuse celle qu'il a sous les yeux. **Seule la source brute n'est pas touchée.**` },
+
+{ d:`16 août`, s:`Elle s'excuse au caissier, pas à lui`, e:`acquis`, t:[`écriture`],
+  v:`Quand elle dit pardon dans la boutique, elle s'adresse au caissier. C'est un peu un miroir de ses excuses lancées au pédiatre. Il relit la même scène deux fois sans le savoir.`,
+  q:`**Et ça rend Andrew encore plus passif, ce qui est exactement ce qu'on cherche.** *Deux fois quelqu'un derrière un comptoir, deux fois la même femme qui s'excuse d'exister* — **et il n'est l'interlocuteur ni de l'une ni de l'autre.** Ce qu'il entend, il l'entend par-dessus l'épaule de quelqu'un d'autre, exactement comme la première fois. *Il ne recueille rien : il assiste.*` },
+
+{ d:`16 août`, s:`Le prénom ne revient pas sur la table`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`Je ne suis pas convaincu de ramener le prénom de Joël sur la table, mais silencieusement il peut y faire référence, un peu comme s'il faisait la paix avec lui-même. // Mais la scène d'avant sert déjà à ça, donc je ne suis pas sûr que ce soit judicieux.`,
+  q:`**D'accord sur les deux points, et le second corrige ce que j'allais recommander.**
+
+⛔ **Le prénom ne se dit pas.** *Prononcé, il confirme* — même dans la bouche de quelqu'un qui ne sait pas ce qu'il dit. **Le livre n'a rien confirmé en six cents pages ; il ne va pas commencer à la dernière ligne.** *Et la question posée sans réponse est plus forte que la réponse :* le seul nom que le livre n'a jamais dit est demandé à voix haute, par un enfant, à la dernière page — **et rien ne vient.** Ce qui vient à la place, c'est la réponse à l'autre question : oui, il viendra le voir. *Le garçon prend la réponse qu'il voulait, et personne ne s'aperçoit du trou.*
+
+⛔ **Et aucune paix non plus.** *L'arc d'Andrew s'est fermé au chapitre du registre ; le refaire ici le doublerait.* **Il donne un exemple à un gamin, ça ne lui coûte rien et ça ne lui rend rien.** *S'il était ému par ce qu'il vient de dire, il serait un homme qui sait à moitié* — et c'est le lecteur, pas lui, qui doit recevoir la phrase.` },
+
+{ d:`16 août`, s:`Les souvenirs d'Eliott ne sont pas que l'accident`, e:`acquis`, t:[`écriture`],
+  v:`Les souvenirs d'Eliott peuvent ne pas raconter que l'accident : il peut se rappeler d'une odeur, d'un regard empli d'amour.`,
+  q:`**Sinon la scène devient un récit d'accident, et ce n'en est pas un : c'est ce qui reste d'une vie entière.** *Une odeur, un regard — des choses qui n'ont pas d'histoire et qui ne prouvent rien.*
+
+**Et ça protège le contraste que la scène doit tenir :** le récit est atroce et le garçon va bien. *S'il n'a que la noyade, il est un enfant traîné par un traumatisme ; s'il a aussi une odeur et un regard, il est un enfant qui a eu une vie — et qui la dépose en entrant au jardin.*` },
+
+{ d:`16 août`, s:`L'épicerie, et la monnaie qui tombe`, e:`acquis`, t:[`enquête`,`écriture`],
+  v:`Je ne suis pas sûre du fait de se rentrer dedans. Est-ce qu'on ne pourrait pas dire qu'en se remémorant les paroles du gamin — « ici il y a un magasin de chaussures, pas une épicerie » — il se décide à rentrer dans l'épicerie en question ? Il flâne dans les rayons et passe en caisse. La personne devant lui semble nerveuse, elle fait tomber des pièces de monnaie, « heu… pardon… ». Il l'aide à ramasser, leurs regards se croisent, micro-blanc. Elle montre des signes de nervosité qu'elle essaie de contenir, finit de payer maladroitement et sort en deux deux.`,
+  q:`**Et ça ressuscite la réplique du gamin avec un bien meilleur métier.** *Elle ne donne aucun indice — elle donne une destination.* Andrew entre dans cette épicerie parce qu'un garçon en avait parlé et qu'il n'a plus que ça : **un geste de deuil, pas d'enquête.** Le magasin ne contient rien, et il n'y cherche rien.
+
+**C'est là que le livre se retourne :** ce que ce gosse racontait lui a valu de n'être cru par personne, et ça l'a blessé — c'est le cœur de la scène 2. **Ce sont ces mêmes mots, faux, moqués, qui amènent Andrew au bon endroit.** *Et rien n'est vérifié pour autant : l'épicerie est bien une épicerie. Il avait tort, et il sauve tout.*
+
+**La caisse vaut mieux que la collision à tous points de vue.** *Elle a une raison d'être là, il a une raison d'être là, et personne n'a besoin d'un hasard.* **Et surtout : à genoux sur le carrelage à côté d'elle, il a trente secondes au lieu de deux** — le temps d'entendre « heu… pardon », le même mot avec la même hésitation qu'au jardin.
+
+⛔ **Il ne la soupçonne de rien dans le magasin.** *Il aide quelqu'un à ramasser de la monnaie, c'est tout ce qu'il croit faire.* **Ce qui le fait tiquer, c'est qu'elle parte comme ça** — et ça n'arrive qu'une fois qu'elle est dehors.` },
+
+{ d:`16 août`, s:`Comment il re-trouve ce qu'il a déjà entendu`, e:`acquis`, t:[`enquête`],
+  v:`Si tu as des idées pour la scène « il a trouvé » ? Parce que moi je sèche. // J'aime bien le fait qu'il reparte voir June, sans qu'il sache même quel espoir. Il y va à pied. Mais ton argument n'est pas logique : il y va bien à pied les premières fois qu'il rend visite à Eliott.`,
+  q:`**Le trou n'est pas « qu'est-ce qu'Eliott a dit » — c'est « comment Andrew y revient ».** *Il n'a pas d'enregistrement ; s'il l'avait noté, il l'aurait relu.* \n\n✅ **Trouvé — et c'est l'autrice qui l'a trouvé.** *« Il accompagne Eliott dans sa tournée, et comme un homme suivant un fantôme, il déambule en refaisant le petit parcours qu'il avait entrepris avec lui la dernière fois qu'il l'a vu. Un mot, une intuition lui revient en mémoire. »* \n\n**Ça tient là où le reste ne tenait pas, parce que le trajet n'est pas le sien.** *Ses pieds n'ont pas à choisir cette rue : le gamin l'a choisie pour lui il y a des semaines.* **Aucun hasard à couvrir, aucune attention à diriger.** \n\n**Et les mots sont accrochés au trottoir.** *« Mais si, il y avait un boulanger ici, pas un magasin de chaussures » est une phrase qu'on ne peut dire que devant quelque chose.* Le gamin commentait ce qu'il passait ; Andrew marchait à côté et écoutait à moitié. **Refaire le trajet suffit à tout rendre. Ce n'est pas un procédé, c'est comme ça que la mémoire fonctionne.** \n\n⛔ **Mes trois pistes, écartées :** la voiture *(il n'en a pas)* ; la rue devant chez June *(un homme planté devant une porte regarde ses pieds)* ; June qui parle *(ça marche, mais c'est elle qui trouve — et le chapitre s'appelle « Il a trouvé »)*. \n\n⚠️ **Dépendance dure sur la scène 2 :** la promenade doit être sur la page, avec les lieux nommés banalement, sinon le lecteur ne peut pas y revenir.` },
+
+{ d:`16 août`, s:`Isaac ne part pas deux fois`, e:`acquis`, t:[`enquête`,`écriture`],
+  v:`Franchement cette scène ne sert à rien, il se retire déjà de l'affaire quand il largue Joël.`,
+  q:`**Scène 16 supprimée, et l'argument est double.** *D'abord le sien :* du point de vue du lecteur, Isaac a déjà lâché deux fois — sèchement à la fin de la 15 a, puis dans la 15 b qu'il attribue encore à Isaac. **Un troisième chapitre pour la même sortie était un chapitre de trop.** \n\n*Ensuite :* la scène 17 a repose entièrement sur le manque — plus de second homme, plus de véhicule, plus de poste où entrer sans s'annoncer. **Un chapitre qui montrait le départ volait à celui-là ce qui fait sa force.** *Le départ se sent mieux qu'il ne se montre : la 15 c se ferme sur un homme qui passe outre, et au chapitre suivant il n'y a plus personne à côté de lui. C'est l'ellipse qui le dit.* \n\n**Ce qui est sauvé :** que le départ d'Isaac soit entièrement juste et entièrement la faute d'Andrew — ça passe en garde sur la 15 a. **Ce qui est perdu :** le dossier signalait ce beat comme le plus facile à doubler côté Joël. *La carte grise « Il reste seul » disparaît avec.*` },
+
+{ d:`16 août`, s:`La décision d'un homme, l'arrivée d'un autre`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`On pourra rajouter une scène pour Joël ici. On le voit acculé, c'était évidemment une fausse piste. Une scène de lassitude, énervé d'avoir bien sûr perdu du temps. Et pourtant, il pense que ça vaut le coup de continuer ! Et il décide de retourner au commissariat pour parler avec son ami. Ensuite c'est la 15 a et on rebascule bien sûr sur Andrew qui insiste avec Isaac.`,
+  q:`**Le raccord le plus large du livre, et le seul qui n'exige rien du lecteur.** *Ailleurs, il faut qu'il suppose ; ici, il voit.* **Un homme décide d'aller au commissariat ; au chapitre suivant, Andrew y est.** La décision appartient à Joël, l'arrivée appartient à Andrew, et pas un mot n'est faux. \n\n**Effet de bord : la scène 15 a devient beaucoup plus dure.** Le lecteur vient de regarder quelqu'un décider que ça valait le coup — et Isaac lui dit de lâcher. *La gifle n'est possible que parce que la main s'est levée dans le chapitre d'avant.* \n\n**Prix à payer :** l'ami de Joël ne peut pas être nommé dans ce chapitre. Un prénom qui n'est pas Isaac casse le raccord ; un prénom qui est Isaac serait un mensonge. **À vérifier dans toute la branche.**` },
+
+{ d:`16 août`, s:`Une journée type, et pas une scène`, e:`acquis`, t:[`écriture`],
+  v:`Je valide pour la place de la capsule non éclaircie. Faudra arriver à l'intégrer parce que j'ai du mal à voir comment… ou alors c'est une journée type pour Andrew ? Une description du levé au soir ?`,
+  q:`**La journée type règle le problème, et elle en règle deux autres au passage.** *Une carte « Andrew regarde un nettoyage » n'a aucune raison d'exister au milieu de la disparition d'Eliott ; une journée de travail, si.* **① Le ton devient juste tout seul** : le nettoyage doit être un incident d'exploitation et non une épreuve morale — alors le chapitre doit avoir la forme d'une journée et non celle d'une scène. **② Le lecteur n'a encore jamais vu Andrew travailler**, alors que tout le livre repose sur l'homme du registre. **③ Et le monde arrive gratuitement** : le tour de rôle, le bizutage, l'ancienneté qui se lit à l'envers sur les visages. \n\n⛔ **Mais pas « du levé au soir » : le chapitre commence quand il arrive.** *La scène 17 b est un chapitre chez Joël que le lecteur doit prendre pour une fin de journée d'Andrew* — et il ne le prendra que s'il n'a jamais vu où Andrew habite. **Montrer le logement ici tuerait le piège six cents pages avant qu'il se referme.** Du portail au portail, donc, et il sort à la fin sans qu'on le suive.` },
+
+{ d:`16 août`, s:`La capsule qui n'éclaircit pas est gardée`, e:`acquis`, t:[`écriture`,`monde`],
+  v:`Ah si… tu as raison, il faut la garder cette scène. Le rappel de l'odeur peut venir du même champ lexical, pour inciter le lecteur à raccrocher l'odeur à l'image. // Soit on la rajoute entre deux visites chez Eliott, soit on frappe fort et c'est le prologue… Est-ce que le lecteur voudrait lire la suite si une description aussi révulsante occupait les premières pages de ce bouquin ? Bonne question…`,
+  q:`**Gardée, et placée entre la deuxième et la troisième visite.** *Pas le prologue — et la raison n'est pas la pudeur.* **Le prologue est trop tôt pour une horreur pareille** : le lecteur n'a pas encore de norme à salir. *⛔ L'argument de l'odeur propre en page une est caduc depuis le 17 août 2026 — cette formule-là est supprimée.* **Trois occurrences en tout, et la troisième est le rappel du chapitre F :** propre au prologue, tournée à la capsule, et six cents pages plus loin Andrew se souvient qu'il avait senti quelque chose à sa propre cérémonie. **Le lecteur ferme le circuit seul.**` },
+
+{ d:`15 août`, s:`Les pédiatres du jardin`, e:`acquis`, t:[`jardin`],
+  v:`Il y a des pédiatres spéciaux jardin, tenus au secret médical. Les berceurs et berceuses sont dans la confidence mais ce sont les seuls, pour protéger les enfants. Rien ne dit qu'un jour quelqu'un ne tente pas de pirater les données pour savoir l'âge de chacun précisément. Après, un enfant qui a 8 ans pendant x années, ça ne passe pas inaperçu non plus. Bref, ça pourrait être une sous-intrigue intéressante, mais pas pour ce livre-là.`,
+  q:`**Trois choses d'un coup**, et la troisième est mise en réserve. Le secret médical du jardin est aussi ce qui produit le mur de la seconde fausse piste. Et le secret ne porte que sur la date de bascule, jamais sur l'état : qu'un enfant soit au jardin est un fait public que personne ne peut rater.` },
+
+{ d:`15 août`, s:`La relève des berceurs`, e:`acquis`, t:[`jardin`],
+  v:`Les berceurs ne sont pas éternels, ils sont relayés quand eux-mêmes rentrent au jardin. Disons que le berceur le plus jeune a 12 ans. Entre 12 et 8 ans, ils sont affectés à des tâches plus simples.`,
+  q:`**Celui qui accompagne finit accompagné, à l'endroit exact où il exerçait.** Et le tabou se retourne contre ses gardiens : un berceur à qui on confie des tâches plus simples reçoit exactement la nouvelle qu'il n'a jamais donnée aux enfants — il comprend, parce qu'il connaît le code. **C'est ce qui deviendra le mobile de la ravisseuse.**` },
+
+{ d:`15 août`, s:`Le garçon n'est plus l'horloge`, e:`ecarte`, t:[`calendrier`],
+  v:`« Garçon comme horloge » était utile quand le livre se basait sur plusieurs années, ce qui n'est plus le cas. Donc c'est pas gênant.`,
+  q:`Outil abandonné : un enfant qui perd deux ans en six ans ne renseigne le lecteur sur rien.` },
+
+{ d:`15 août`, s:`Le jardin, tout entier`, e:`acquis`, t:[`jardin`],
+  v:`Le jardin est le dernier lieu de vie. Il englobe tous les enfants de 8 à 0, pas seulement les 8 ans.`,
+  q:`**Correction qui refonde le document du jardin.** Ce n'est pas un âge, c'est un lieu. Il abrite dans les mêmes pièces des enfants de huit, sept, cinq, trois, un — une moitié bruyante et une moitié muette, sans cloison, et la frontière se déplace tous les jours d'un enfant à l'autre.` },
+
+{ d:`15 août`, s:`Ni « enfant » ni « vieillard »`, e:`acquis`, t:[`écriture`],
+  v:`Je pense qu'on va éviter de parler dans le livre de vieillard et enfant. Bien sûr on peut parler de tissu vieillissant, de corps rajeunissant, mais je ne peux pas utiliser les mots enfant et vieillard. On restera surtout sur des arrivants de x ans.`,
+  q:`**Interdit n° 11, point 3.** Les deux mots mentent : *enfant* dit une filiation et un avenir, *vieillard* dit une vie derrière soi. Aucun des deux n'est vrai ici. **Le corps, lui, reste entièrement descriptible** — c'est la catégorie sociale qui est interdite, pas la matière.` },
+
+{ d:`15 août`, s:`Question restée sans réponse`, e:`ouvert`, t:[`écriture`],
+  v:`—`,
+  q:`Est-ce que **garçon**, **fille**, **môme**, **gosse**, **adolescent** tombent aussi sous l'interdit n° 11 ? Ce ne sont ni des mots de parenté ni les deux mots visés, mais ils supposent la même chose : une place dans une vie qui aurait un ordre. **La question a été posée et n'a jamais reçu de réponse.**` },
+
+{ d:`15 août`, s:`Les numéros`, e:`acquis`, t:[`ruche`],
+  v:`Le nom de famille n'existe pas, mais dans notre société les veilleurs attribuent des chiffres pour faciliter l'administratif.`,
+  q:`**Et c'est ce qui rend possible le temps 5.** Andrew écrit son numéro sur des formulaires depuis dix ans sans le regarder — jusqu'au jour où il lit la ligne. À faire passer plusieurs fois sous les yeux du lecteur avant, en n'ayant jamais rien voulu dire.` },
+
+{ d:`15 août`, s:`Des encarts vides`, e:`acquis`, t:[`outil`],
+  v:`J'aimerais qu'on retravaille sur la frise. Ça serait peut-être sympa de commencer par rajouter des encarts vides avec au moins un descriptif de scènes que l'on voit déjà. Je ne parle pas de chapitre, je parle bien pour l'instant de scène.`,
+  q:`À l'origine du parcours en dix-neuf scènes, et de ce document-ci. **Les encarts vides existent** : ils sont en pointillés dans le parcours.` },
+
+{ d:`15 août`, s:`LES DEUX RÉFÉRENCES`, e:`acquis`, t:[`écriture`],
+  v:`Pour la scène de la découverte des jumelles, il y a deux références pour le style. The Walking Dead, quand Carol retrouve sa fille qui était enfermée dans la grange avec les autres. Ou le livre de Franck Thilliez, « Il était deux fois », où Gabriel retrouve Julie. Elles ont comme point commun que la scène porte le spectateur jusqu'au bout dans l'espoir que ce ne soit pas la fille de Carol, ou Julie.`,
+  q:`**L'espoir n'est pas retiré à l'avance.** On n'a pas été préparé, on a été accompagné — et c'est ce qui rend la chute insoutenable.` },
+
+{ d:`15 août`, s:`La description doit être longue`, e:`acquis`, t:[`écriture`],
+  v:`Tout le chapitre, il la décrit, mais elle ne ressemble plus à l'ado qu'il a connue. Il y a une description horrible et plus on se rapproche de la fin du chapitre, plus on espère que la personne écorchée n'est pas sa fille. C'est la dernière phrase du chapitre qui nous achève, alors qu'on s'attend à un pleur de soulagement : « il l'avait perdue, Julie ». Pour Walking Dead pareil : une paire de chaussures qu'on reconnaît, puis une démarche pas humaine, puis la silhouette qui se détache, Carol qui tombe à terre et crie.`,
+  q:`**Correction d'une erreur que j'avais faite.** J'avais écrit qu'il fallait être bref. C'est l'inverse : la description est longue et atroce, et c'est précisément ce qui fait tenir l'espoir — un corps abîmé à ce point n'est plus reconnaissable. **La retenue n'est pas dans la description : elle est dans la chute.**` },
+
+{ d:`15 août`, s:`L'enquête d'abord, la répartition ensuite`, e:`acquis`, t:[`méthode`],
+  v:`On peut très bien faire le déroulé de l'enquête en premier avec les différentes scènes. Ensuite on départagera les différentes scènes de façon assez égale entre les deux. Concrètement, la scène en parallèle sera identique pour Joël. C'est ensuite dans la façon d'écrire, avec seulement des faux raccords par-ci par-là, qu'à la deuxième lecture on comprendra que c'était des chapitres appartenant à Joël.`,
+  q:`**La méthode, et elle commande tout le reste.** On ne fabrique pas une ressemblance, on la découpe. Une enquête écrite d'un bloc puis coupée en deux donnera deux moitiés qui se ressemblent parce qu'elles l'étaient.` },
+
+{ d:`15 août`, s:`Les vers`, e:`acquis`, t:[`phrases`],
+  v:`Lâche l'affaire, à l'heure qu'il est, les vers ont commencé le travail.`,
+  q:`**Le sous-entendu, dit franchement.** Ce n'est ni un complot ni un secret : c'est de la lassitude, une journée à finir, un homme raisonnable en face.` },
+
+{ d:`15 août`, s:`Comme une migraine`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`Comme une migraine, quelque chose qui lui souffle un sentiment de déjà-vu sans que ce soit trop obvious. Soit dans la scène de la découverte des jumelles quand on décrit son désespoir, il se remémore cette réplique, soit dans la poursuite de l'assassin, et que toute sa rage, sa colère, toutes ses pensées intrusives le nourrissent.`,
+  q:`**Andrew ne comprend jamais.** Pas d'illumination, pas même atténuée. Une pression, un blanc, deux secondes de trop. Il enchaîne. **C'est le corps qui sait, pas lui.**` },
+
+{ d:`15 août`, s:`Le taureau`, e:`acquis`, t:[`personnages`],
+  v:`À ce moment-là, Joël n'est plus lui-même. Il ne veut pas poursuivre l'assassin pour l'arrêter, il veut le buter, comme si les jumelles auraient pu être ses propres filles. Il veut voir cette raclure morte. C'est un véritable taureau qui voit rouge.`,
+  q:`La seule fois du livre où il n'est plus lui-même. Et le seul endroit où les mots de parenté peuvent s'écrire — ils appartiennent à la vie d'avant.` },
+
+{ d:`15 août`, s:`LE JEU DE PISTE`, e:`acquis`, t:[`enquête`,`méthode`],
+  v:`J'aimerais que tu m'aides à faire un jeu de piste qui, en plus de faire avancer l'enquête, nous fait découvrir le monde, ses enjeux, son fonctionnement.`,
+  q:`**La demande qui a produit les dix-neuf scènes.** Et le principe qui en sort : une piste qui ne mène nulle part mais qui apprend quelque chose n'est pas une perte pour le lecteur. L'enquête revient à son point de départ ; le monde, lui, ne revient jamais en arrière.` },
+
+{ d:`15 août`, s:`Le portage`, e:`acquis`, t:[`enquête`,`monde`],
+  v:`Le portage, j'aime beaucoup l'idée.`,
+  q:`Le métier d'Eliott. **Et c'est aussi ce qui le fait passer devant des portes de ce monde-ci** — ce dont dépend le déclencheur de la scène 17.` },
+
+{ d:`15 août`, s:`La phrase du responsable`, e:`acquis`, t:[`phrases`],
+  v:`« On les fait travailler pour que le reste du monde le supporte. » Franchement ça peut être une phrase du responsable quand on lui demande pourquoi la réaction du marginal ne lui fait pas plus d'effet que ça, avec en opposition son point de vue sur les enfants, assez neutre.`,
+  q:`Réplique de la scène 6.` },
+
+{ d:`15 août`, s:`Le milieu haineux est une fausse piste`, e:`acquis`, t:[`enquête`],
+  v:`Milieu haineux est effectivement une fausse piste ;)`,
+  q:`**Le retournement complet du coupable.** On cherchait quelqu'un de discret parmi des gens hostiles ; c'est quelqu'un dont le métier est d'accompagner les plus jeunes, respecté, et dans la confidence des pédiatres du jardin. Personne ne peut la ranger du côté de ceux qui détestent, non parce qu'elle se tait, mais parce qu'elle est du côté opposé.` },
+
+{ d:`15 août`, s:`« Arrivant porteur de voiles »`, e:`acquis`, t:[`écriture`],
+  v:`J'aimerais modifier l'appellation partout. On va dire « arrivant porteur de voiles ». Arrivant voilé, c'est trop connoté. « Un porteur de voiles de cet âge… je n'en avais jamais vu. »`,
+  q:`Remplacé dans tout le dossier. Et la réplique de June est née dans la même phrase.` },
+
+{ d:`15 août`, s:`L'amour possessif`, e:`acquis`, t:[`enquête`,`personnages`],
+  v:`Pour la berceuse, oui j'aime beaucoup l'idée de l'amour possessif. C'est le mental qui lâche, mais bon… de là à enlever un enfant, c'est qu'elle a un peu sombré dans la folie quand même, tu ne trouves pas ?`,
+  q:`**Le trou le plus important du parcours, comblé en une phrase :** elle a passé sa vie à donner des arrivants au jardin, elle n'en a jamais gardé un seul. Ce n'est pas une rupture, c'est une érosion — et le déclencheur est le tabou retourné contre elle : c'est son tour.` },
+
+{ d:`15 août`, s:`La seconde fausse piste`, e:`acquis`, t:[`enquête`],
+  v:`Que penses-tu de créer une deuxième fausse piste ? Moi je le voyais de sorte que pour Isaac ça fasse déjà deux fois qu'ils se plantent : il lâche l'affaire, non pas par résignation mais par objectivité, là où Andrew ne veut pas. C'est un peu le point culminant du récit. Quand tout semble perdu, un petit truc et hop ça repart. Et si c'était un reliquat qui le relançait justement ?`,
+  q:`**Le nadir et la relance, trouvés dans la même phrase.** Isaac a raison, et c'est ce qui rend son départ insupportable. Un homme qui se trompe, on lui répond ; un homme qui a raison, on ne peut rien lui opposer que de vouloir.` },
+
+{ d:`15 août`, s:`Le reliquat n'apprend rien`, e:`acquis`, t:[`dispositif`],
+  v:`Ah oui ça c'est certain, je suis d'accord avec toi : le reliquat n'apprend rien, simplement un tic, une manière qui dans le monde 2 lui donne une révélation mais corporelle, qui va l'inciter à avancer ensuite. Je valide.`,
+  q:`**La contrainte absolue de la relance.** Faire passer un fait d'un monde à l'autre serait une tricherie, et le lecteur la sentirait même sans pouvoir la nommer : le livre aurait cessé de payer ses indices et se serait mis à en importer.` },
+
+{ d:`15 août`, s:`Une ravisseuse de douze ou quatorze ans`, e:`acquis`, t:[`personnages`],
+  v:`Donc une ravisseuse de genre 12/14 ans ?`,
+  q:`**L'objection est devenue un atout.** Elle approche de sa relève, donc elle a l'apparence d'une adolescente — et « il l'a juste écoutée et suivie » retire tout besoin de force. Personne ne se retourne sur une berceuse qui marche avec un jeune arrivant.` },
+
+{ d:`15 août`, s:`Le registre ne peut pas être faux`, e:`acquis`, t:[`enquête`],
+  v:`Ça me semble bien, mais deux semaines de perdues, va falloir réussir à combler le vide. Et comment le dossier peut être faux ? On part du dossier du registre ? C'est impossible.`,
+  q:`**Contrainte absolue, et elle commande tout le reste.** Si le registre peut se tromper, le mouvement où Andrew lit sa propre ligne s'effondre. La solution : le registre ne connaît que les arrivées, et ce qui vient après est ailleurs. Il ne s'est pas trompé — il n'a simplement jamais eu à savoir.` },
+
+{ d:`15 août`, s:`Écarter le jardin pour mieux y revenir`, e:`acquis`, t:[`enquête`,`phrases`],
+  v:`Le fait que ça écarte le jardin pour mieux y revenir, je trouve ça bien comme idée. Un peu comme « c'était là sous nos yeux depuis le début ! » Il pourrait lancer ça à Isaac au moment de l'appeler pour lui dire de se rendre à la planque qu'il a trouvée, qui est en fait une maison tout simplement — mais la porte qu'il ouvre, et qui est un mouroir pour les filles, serait une cave réaménagée en chambre d'enfant colorée.`,
+  q:`**Trois décisions en une phrase :** la structure de la seconde piste, la réplique du téléphone, et le repaire. Le seul endroit qu'on leur a refusé est le seul endroit où elle était.` },
+
+{ d:`15 août`, s:`Sous nos yeux`, e:`acquis`, t:[`phrases`],
+  v:`Elle vit à cent mètres de chez June. Andrew est passé devant sa porte à chacune de ses trois visites.`,
+  q:`**Phrase à garder.** Ce n'est pas une formule de fin d'enquête, c'est un fait : il a marché devant cette maison en allant voir le petit, trois fois, et il n'avait aucune raison de la regarder. Conséquence majeure : **il n'a pas été enlevé par quelqu'un, il est parti avec quelqu'un qu'il connaissait.**` },
+
+/* ---------------- 16 AOÛT ---------------- */
+{ d:`16 août`, s:`Eliott est mort noyé`, e:`acquis`, t:[`personnages`],
+  v:`Sa révélation à la fin, c'est de comprendre qu'il est mort assassiné. Il est mort noyé. Là où je coince désormais, c'est comment son agresseur a pu mourir aussi vite derrière.`,
+  q:`Le blocage qui a fait basculer toute la fin.` },
+
+{ d:`16 août`, s:`LA RANDONNÉE`, e:`acquis`, t:[`personnages`,`dispositif`],
+  v:`Ou alors on rebouge l'histoire… Le jour de l'arrivée d'Eliott, il y a un autre arrivant, d'une quarantaine d'années. Pas de capsule pourrie ce jour-là. À la fin du livre, ça peut être le témoignage d'un accident bête et méchant : une randonnée prévue entre père et fils qui tourne mal quand il tombe à l'eau et que le courant l'emporte. Son père a essayé de le sauver et s'est noyé à son tour. Fin de l'histoire.`,
+  q:`**Eliott n'a pas été assassiné.** Il n'y a ni crime, ni capsule défaillante ce jour-là, ni enquête possible d'aucun côté. Ils sont affectés ailleurs et ne se revoient jamais.` },
+
+{ d:`16 août`, s:`Le bug silencieux`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`Peut-être qu'il peut buguer silencieusement quand il voit le second arrivant à côté de lui lors de la cérémonie. Le bug silencieux doit se comprendre à la première lecture comme « il dévisage le second arrivant dans sa capsule ». À la seconde, il dévisage une personne qui lui fait penser à quelqu'un qu'il connaît déjà.`,
+  q:`**La première page du livre.** Un détail parmi les détails d'une matinée chargée. Le lecteur ne le retrouvera que parce qu'il était en première page.` },
+
+{ d:`16 août`, s:`Andrew ne doit jamais faire le lien`, e:`acquis`, t:[`dispositif`],
+  v:`Cent pour cent d'accord.`,
+  q:`Il entend, à la fin, une histoire d'eau et de courant. **Et il ne va pas vérifier qui d'autre est arrivé ce jour-là.** Personne ne le fait à sa place. C'est le lecteur qui se souvient de l'homme debout à côté du petit, à la première page — et personne dans le livre ne le saura jamais.` },
+
+{ d:`16 août`, s:`LE MOT QUI N'EXISTE PAS`, e:`acquis`, t:[`phrases`,`écriture`],
+  v:`Même à la révélation il ne dira pas le mot papa. Il évoquera un sentiment : « il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui ! »`,
+  q:`**La règle posée pour la cohérence du monde devient le moteur de l'émotion.** Il a le sentiment et il n'a pas le mot ; alors il tâtonne, et en tâtonnant il invente. C'est exactement ainsi qu'on décrirait un père si l'on n'avait jamais eu le concept. **Et ça ne coûte rien à l'interdit n° 4 : un sentiment ne se confirme ni ne se réfute.**` },
+
+{ d:`16 août`, s:`Le bout de la seconde piste`, e:`provisoire`, t:[`enquête`,`jardin`],
+  v:`La fausse piste n° 2 : l'autre enfant n'est pas mort ou disparu, il écoule ses dernières années tranquillement dans le jardin, il a 3 ans. Scène qui peut développer le fonctionnement de la fin de vie. Pourquoi pas aussi assister à la mort naturelle d'un 0. Tout en douceur, porté par une berceuse, c'est son métier, des gestes professionnels etc.`,
+  q:`**Validé provisoirement, à revoir.** Ce n'est pas un mur, c'est une personne. L'anticlimax est total, et il est humain : personne n'a rien fait de mal. Et le livre n'avait aucun autre endroit pour montrer le bas de la courbe.` },
+
+{ d:`16 août`, s:`La piste forte`, e:`provisoire`, t:[`enquête`,`personnages`],
+  v:`On peut valider cette idée pour l'instant, on y reviendra.`,
+  q:`**Et si la berceuse qui porte le mourant était elle ?** À la fin, quand elle sort menottée, le lecteur se souvient : il l'a vue porter un mourant avec une tendresse parfaite, et il a trouvé ça beau. **La scène qui fait aimer les berceuses est celle qui prépare la révélation.** Réserve qui commande tout : elle doit rester anonyme et non détaillée — un geste, une silhouette, pas un portrait.` },
+
+{ d:`13 août`, s:`Des onglets dans la frise`, e:`acquis`, t:[`outil`],
+  v:`Tu peux pas me créer des onglets dans le doc de la frise stp ? L'un pour les interdits, l'un pour le fonctionnement de la ruche, un pour les phrases à garder, et un pour avoir un graphe pour comprendre comment stagne l'âge selon les âges des arrivants ?`,
+  q:`À l'origine du document à écrans. Les quatre onglets demandés sont devenus **les interdits, les règles du monde, les phrases, et le graphe du décompte** — tous dans l'écran « Le monde », sauf les phrases qui sont passées avec les questions ouvertes.` },
+
+{ d:`15 août`, s:`Le synopsis`, e:`ouvert`, t:[`écriture`,`méthode`],
+  v:`T'as pas mieux comme synopsis ? Le genre fait pas très quatrième de couverture. C'était juste par curiosité, on n'en est pas du tout à l'étape de la synopsis.`,
+  q:`**Écarté pour l'instant, et à raison.** Un synopsis écrit trop tôt fige des choses qui bougent encore — le calendrier a changé deux fois depuis, et le coupable une fois. *La note reste ici pour se souvenir que le premier jet ne tenait pas la quatrième de couverture.*` },
+
+{ d:`16 août`, s:`L'enquête, en trois phrases`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`Résume-moi hyper concisément l'histoire de l'enquête, je lis à Kevin.`,
+  q:`**Un veilleur accueille un arrivant de dix ans qui dit des choses impossibles, et qui disparaît un mois plus tard.** Il enquête avec un ami policier ; deux pistes s'éteignent, on lui dit de lâcher, son ami s'en va, il continue seul et retrouve le garçon vivant dans la cave d'une berceuse. *Et le lecteur découvre au même moment qu'il lisait deux enquêtes : celle-ci, et celle que le même homme menait dans sa vie d'avant — deux filles qu'il a retrouvées une heure trop tard, et qui sont mortes.*` },
+
+/* ---------------- MÉTHODE DE TRAVAIL ---------------- */
+{ d:`13 août`, s:`Le workspace`, e:`acquis`, t:[`méthode`],
+  v:`Règle de base, enregistre ton travail dans le dossier workspace. Je te laisse bien ranger en créant des sous-dossiers.`,
+  q:`Tout est rangé dans R:\\Documents\\l'Eclaircie, en dossiers numérotés. Ce qu'on abandonne descend dans 99-archives et ne se supprime pas.` },
+
+{ d:`13 août`, s:`Trop d'un coup`, e:`acquis`, t:[`méthode`],
+  v:`Désolée mais tu me donnes trop d'infos d'un coup, c'est super difficile pour moi de suivre tous les sujets ! Le fait que tu répondes systématiquement entre mes réponses me fait perdre le fil.`,
+  q:`**Consigne de travail permanente.** Une chose à la fois, et on la laisse finir de parler.` },
+
+{ d:`13 août`, s:`Git`, e:`acquis`, t:[`méthode`],
+  v:`Installe git pour archiver, comme ça tu pourras archiver et faire des releases de doc.`,
+  q:`Le dossier est versionné. Chaque décision a son commit, et les grandes étapes sont marquées.` },
+
+{ d:`14 août`, s:`On valide, puis on modifie`, e:`acquis`, t:[`méthode`],
+  v:`Une fois que tu as tout corrigé pour ce soir, on valide ce que tu as compris et oui, on modifie.`,
+  q:`**Rien ne touche le dossier maître sans validation.** Et toute modification validée se répercute dans le parcours.` },
+
+{ d:`16 août`, s:`LE JARDIN, C'EST LA TRANCHE ENTIÈRE`, e:`acquis`, t:[`jardin`,`décompte`,`monde`],
+  v:`On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir.`,
+  q:`**Le jardin cesse d'être un lieu où l'on entre en descendant.** C'est la tranche de huit à zéro, tout entière, et on y est par le seul fait d'avoir huit ans ou moins. *Ça ferme deux choses d'un coup :* la contradiction de la scène 11 — les vingt-trois arrivants de six ans y basculent bien le jour même, la scène était juste — et la question ouverte depuis le 15 août sur la croissance sous huit ans. **Ce temps de la vie avait un lieu depuis le début ; c'était celui-là.**` },
+
+{ d:`16 août`, s:`Ce qui en découle`, e:`provisoire`, t:[`jardin`,`écriture`],
+  v:`—`,
+  q:`Trois conséquences que la règle produit toute seule. **Le jardin abrite dans les mêmes pièces des trajectoires qui montent et des trajectoires qui descendent** — deux corps de six ans côte à côte, indiscernables, deux directions opposées. **Plus on arrive jeune, plus grande est la part de la vie passée au jardin**, et pour qui arrive à huit ou en dessous c'est la totalité : le grief des jaloux en devient encore plus exact. Et **le tabou change de forme selon le sens** : la croissance est publique, on voit un corps de six ans devenir un corps de huit ans ; ce qui reste secret est le moment où ça s'inverse.` },
+
+{ d:`16 août`, s:`LE LECTEUR EST TOUJOURS ICI`, e:`acquis`, t:[`dispositif`,`méthode`],
+  v:`L'enquête se passe tout du long dans le monde 2 pour le spectateur, c'est la disparition d'Eliott. De temps en temps des chapitres traiteront l'affaire des jumelles du point de vue de Joël sans jamais que le spectateur ne le soupçonne. Ce seront les faux raccords subtilement glissés qui le feront comprendre à la seconde lecture.`,
+  q:`**La doctrine, arrêtée.** Rien ne signale un chapitre de Joël : ni titre, ni typographie, ni changement de voix. *Ce qui change, c'est ma façon de lire le parcours : la voie de Joël n'est pas une seconde ligne narrative que le lecteur suit en parallèle — c'est une ligne qu'il ne voit pas du tout.*` },
+
+{ d:`16 août`, s:`Le « lâche l'affaire » est de Joël`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`La scène du lâche l'affaire, on sera explicitement du côté de Joël alors que le lecteur à la première lecture sera persuadé de suivre une scène se déroulant dans le monde 2.`,
+  q:`**Précisé le même jour, et c'est plus fort : la scène se scinde en trois chapitres.** Le premier est explicitement d'Andrew, au commissariat — il insiste, il propose de vérifier des registres, il panique un peu, et Isaac tranche : *« Lâche l'affaire, Andrew… on court déjà après un cadavre ! »* **Le chapitre suivant a changé de monde et le lecteur ne le sait pas** : le ton est monté, on se répond, quelqu'un dit *« je te le répète »*. **Et le troisième referme tout.** Le chapitre de Joël se termine sur un abandon — il regarde les dossiers et il n'y touche plus. Le suivant est d'Andrew : quelque chose le décide, et là où l'autre s'est arrêté net, celui-ci passe outre. *Le lecteur croit assister à une hésitation. Il assiste à une bifurcation : le premier s'est arrêté et il a perdu deux filles, le second continue et il retrouvera le garçon vivant.*` },
+
+{ d:`16 août`, s:`Les scènes 12 et 13 aussi`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`La scène 12 c'est aussi une scène pour Joël. Il rend visite à un homme qui aurait harcelé les 2 jumelles. On ne dit jamais son nom de famille, on n'évoque pas les jumelles. « Vous en seriez venus aux mains. » Le responsable dit l'avoir entendu tenir des propos déplacés — le mot est ambigu, l'homme a tenu des propos sexistes aux jumelles. Il faut donc lui trouver une raison, qu'il se défende et donne un alibi, tandis que l'on croit toujours écouter un marginal du monde 2 mais qui est un type du monde 1. // L'alibi tient : nouvelle fois Joël qui part interroger quelqu'un dans un lieu pour valider l'alibi de l'homme.`,
+  q:`**Le suspect que le lecteur s'est construit n'existe pas : il est cousu de deux hommes.** Les scènes 6, 7 et 9 bâtissent un marginal d'ici ; les scènes 12 et 13 montrent un homme d'ailleurs. Et l'alibi les tue tous les deux d'un coup. *Ça donne aussi son nom à un procédé neuf — l'équivoque, le mot qui se lit des deux côtés sans qu'aucune des deux lectures soit fausse.*` },
+
+{ d:`16 août`, s:`Où tombe sa cérémonie`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`Est-ce que justement cette scène de cérémonie ne viendrait pas juste après ? Quelque chose dans le discours de l'homme donne prétexte à se souvenir. On tranche entre les deux scènes avec de nouveau le point de vue d'Andrew.`,
+  q:`**Meilleur que ce que je proposais.** J'avais recommandé un placement précoce, en troisième chapitre — structurellement juste, mais le souvenir y arrivait parce que l'autrice en avait besoin là. **Ici il arrive parce que quelque chose l'appelle**, et la transition elle-même devient une pièce du dispositif : le lecteur sort d'un chapitre de la vie d'avant et entre dans un souvenir d'ici sans voir la couture. *Et ça évite trois chapitres de Joël d'affilée au moment le plus fragile du livre.*` },
+
+{ d:`16 août`, s:`Une scène de Joël dans le creux`, e:`caduc`, t:[`enquête`],
+  v:`On aura une scène entre la 14a et la 14b, une scène côté Joël. // Non, on s'est mal compris : tu me fais sauter l'encart « Il n'a plus rien » et tu intercales la 14 d.`,
+  n:`🔴 **Remplacée le 16 août 2026.** *Le creux n'avait pas besoin de deux chapitres de Joël* — la scène 14 d, plus loin, fait le même travail et décide en plus. **La carte « Il n'a plus rien » est supprimée.**`,
+  q:`**Elle sépare le refus au comptoir de la traversée du jardin**, et elle arme la scène 15 : une enquête qui n'a plus rien est une enquête qu'on peut demander d'arrêter. *Le contenu exact reste à trouver — et elle absorbe l'ancienne carte « On lui dit d'arrêter », devenue un doublon depuis que le « lâche l'affaire » est passé du côté de Joël.*` },
+
+{ d:`16 août`, s:`Le dénouement, refait`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`La scène recommence, Andrew vient de retrouver Eliott. Isaac les rejoint. Il sent pourtant une présence derrière eux. Une silhouette apparaît. Fin du chapitre. // Chapitre suivant, la silhouette prend la fuite. Sans réfléchir, il s'élance à sa poursuite. Une rage, la colère, l'envie de tuer. « Joël attends ! » La poursuite, la mort. // On revient ensuite côté Andrew, qui réalise sa propre mort. Il observe dubitativement la berceuse qui a compris qu'elle était prise sur le fait. Elle n'a pas tenté de s'enfuir, elle semblait juste profondément triste. Isaac lui passe les menottes.`,
+  q:`**La silhouette existe dans les deux mondes ; seule la fuite n'appartient qu'à un seul.** Le chapitre d'Andrew se ferme sur une apparition et rien de plus — *rien ne dit qu'elle bouge, c'est le lecteur qui la fait courir.* **Le cri tombe donc au milieu d'une course entièrement investie comme celle d'Andrew**, au moment où le lecteur est le moins capable de s'en défendre. Puis le chapitre suivant apprend, sans une ligne pour le dire, que personne n'a couru de ce côté-ci. *Elle n'a pas fui : on ne fuit pas quand on n'a nulle part où aller et rien à sauver.*` },
+
+{ d:`16 août`, s:`Ce qu'Andrew fait de la révélation`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`Est-ce que ce ne serait pas le meilleur moment pour qu'il consulte le registre ? Soit ça, soit il se remémore un détail de la cérémonie, des phrases qui n'ont pas été dites, du moins qu'il n'a pas jugé bon de se souvenir à la première description. Un veilleur qui précise que les capsules étaient prévues pour les paires, mais que la sienne ne l'était pas.`,
+  q:`**Les deux, et dans cet ordre : le souvenir d'abord, le registre ensuite.** *L'un rouvre, l'autre prouve.* Un homme qu'un reliquat vient de frapper ne va pas d'abord aux archives : quelque chose remonte, et c'est ce quelque chose qui l'y envoie. **Et ça bouche un trou que le dossier traînait depuis le début — le motif qu'Andrew a d'ouvrir le registre.** Les intervertir donnerait une preuve avant une question, et il ne resterait plus qu'à commenter.` },
+
+{ d:`16 août`, s:`Ce qu'il n'avait pas entendu`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`« Bienvenue à tous. La cérémonie du jour nous offre 3 arrivants au lieu de 2, le troisième nous ayant surpris par son éclaircissement inopiné. » // Quelqu'un au loin parlant d'une odeur horrible, comme si un chifoumi silencieux s'était joué chez les veilleurs : un veilleur s'est occupé des arrivants et l'autre a nettoyé la capsule pourrie pour ne pas entraver la cérémonie par son aspect infâme.`,
+  q:`**Et ce n'est pas une tricherie, parce que le monde avait déjà expliqué pourquoi il n'entendait pas.** Un arrivant sort embrumé, aveuglé, les voix étouffées. *La condition, écrite comme une contrainte ferme : le premier récit doit montrer qu'il n'entend pas* — une bouche qui bouge, des mots qui ne se forment pas, deux mots attrapés sur une phrase entière. **Alors la seconde version est un blanc qu'on comble, et non une information qu'on avait gardée sous le coude.**` },
+
+{ d:`16 août`, s:`Ce que le lecteur peut en déduire`, e:`acquis`, t:[`monde`,`dispositif`],
+  v:`Si si, les deux autres étaient attendues.`,
+  q:`**Confirmé, donc la déduction est voulue.** Si les capsules de la paire étaient prévues et pas la sienne, c'est que leur vie s'est éteinte lentement quand la sienne s'est arrêtée net — *donc qu'elles ont agonisé pendant que Joël les cherchait, et que la ruche faisait mûrir leurs capsules pendant ce temps-là.* **Personne dans le livre ne peut le formuler. Le lecteur, lui, a la règle depuis le premier chapitre.**` },
+
+{ d:`16 août`, s:`Le mot qui protège tout seul`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`—`,
+  q:`Remarque d'écriture née de la scène : **« silhouette » est féminin en français.** On peut donc écrire *la silhouette prend la fuite* aussi bien pour l'assassin des filles que pour la berceuse, **sans qu'un seul accord trahisse quoi que ce soit.** *Le dispositif reçoit là une protection gratuite, et il n'y en a pas beaucoup.*` },
+
+{ d:`16 août`, s:`LA FIN : l'ellipse, puis deux tâches`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`Il parcourt le registre qui lui confirme son souvenir, et on stoppe là. Ellipse temporelle, comme si on était arrivé à l'épilogue. Il lui reste 2 tâches : rendre visite aux filles, puis petit saut dans le temps — comment se déroule une arrivée au jardin. Andrew finit en tête à tête avec Eliott quand June fait ses adieux et s'en va en lui souhaitant le meilleur. C'est à ce moment-là qu'on finit sur sa réplique.`,
+  q:`**Plus subtil que ce que je proposais, et je m'étais trompé.** J'avais fait revenir Andrew chez Eliott pendant six ans pour expliquer sa présence à la fin — *ça faisait de la dernière page son affaire à lui.* **L'ellipse est meilleure : elle le laisse avec ce qu'il a, c'est-à-dire rien.** Son arc se termine au registre ; tout ce qui suit appartient au garçon, et c'est le garçon qui a le dernier mot.` },
+
+{ d:`16 août`, s:`Eliott ne doit pas faire pitié`, e:`acquis`, t:[`écriture`,`personnages`],
+  v:`Le lecteur ne doit pas se sentir triste de son sort. Il va vivre heureux au jardin, il est même très enthousiaste. Ça doit contraster avec sa révélation mais sans que cette dernière soit trop brutale. Oui, sa fin sur monde 1 est irrévocablement triste à en pleurer. Mais l'amour reste et sa dernière phrase en est le témoin.`,
+  q:`**C'est la contrainte de ton de toute la fin.** Le récit est atroce et le garçon va bien — *les deux sont vrais en même temps, et c'est la seule chose que le livre demande de tenir dans la main en le refermant.* **Aucun pathos, aucune pitié :** s'il faut un registre pour l'entrée au jardin, c'est celui d'une rentrée. On s'installe, on est content, on regarde autour.` },
+
+{ d:`16 août`, s:`Le livre s'ouvre et se ferme sur une arrivée`, e:`acquis`, t:[`dispositif`],
+  v:`—`,
+  q:`Conséquence de la nouvelle fin, et elle n'était pas cherchée : **le roman ouvre sur une arrivée à la ruche et se ferme sur une arrivée au jardin.** *Le même geste aux deux bouts d'une vie — et le lecteur reçoit le second en sachant tout ce que le premier ne disait pas.*` },
+
+{ d:`16 août`, s:`La réserve, et je la défends`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`—`,
+  q:`**Andrew ne consulte jamais la ligne d'Eliott**, il ne se demande jamais qui d'autre est arrivé le jour du garçon, et personne ne le fait à sa place. *S'il l'apprenait, la dernière réplique du livre cesserait d'être un cri que personne n'entend pour devenir la réponse à une question posée — et c'est tout ce qui la rend insupportable.* **Deux porteurs de voiles dans la même pièce pendant six ans, et rien qui se confirme jamais : c'est aussi la seule façon de tenir l'interdit n° 4 jusqu'au bout.**` },
+
+{ d:`16 août`, s:`Il n'y a pas de fragments`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`« L'affaire Sorel », justement, cet encart n'existe pas vraiment, tu le regroupes avec la scène 4. On ne parlera pas vraiment de fragment, on ne discute pas de l'enlèvement des jumelles.`,
+  q:`**Le mot tombe, et c'est cohérent avec tout le reste.** Les chapitres de la vie d'avant ne sont ni des éclats, ni des inserts : ce sont des chapitres entiers, de même longueur et de même facture. *Un fragment se repère ; un chapitre, non.* **Et aucun d'eux n'établit l'affaire :** on ne discute jamais de l'enlèvement, on parle d'une affaire en cours comme le font des gens qui la connaissent déjà. *C'est ce qui rend chaque chapitre superposable à celui d'Andrew — et c'est la règle la plus stricte de toute la voie de Joël.*` },
+
+{ d:`16 août`, s:`LES PENDANTS CHEZ JOËL`, e:`acquis`, t:[`dispositif`,`enquête`],
+  v:`« Retour chez un témoin » : c'est leur mère, le parallèle de June. « Sur son lieu de travail » : une sortie de fac, le responsable est un surveillant, les marginaux un groupe de lourds — le marginal aime semer le désordre, l'équivalent d'un casseur dans une manif. Scène 8, retour à la ruche : un retour dans le service des archives du commissariat. Au téléphone : c'est Mael qui donne des infos. « Au jardin, le veilleur de l'époque » : visite d'un ancien policier chez lui, présent le jour d'une manif qui a dégénéré. 17a et 17c : Joël a trouvé une piste seul après avoir perdu énormément de temps. « Il entre seul, sans attendre » : pareil côté Joël.`,
+  q:`**Et ça dissout le risque majeur du dossier.** Le §3.5 posait que les scènes de monde ne peuvent être que d'Andrew — donc ses chapitres chargés, ceux de Joël secs, *deux textures, et le dispositif se fissure exactement là où il ne doit pas.* **Un homme qui consulte des archives est le même partout ; un surveillant de fac et un responsable d'atelier disent la même chose ; l'ancien policier chez lui et le veilleur au jardin sont tous les deux celui qui était là et qui n'est plus en service.** *Il ne reste qu'une seule scène sans jumeau dans tout le livre : la cérémonie des vingt-six, et c'est très bien ainsi — c'est la seule chose que ce monde-ci sait faire et que l'autre ne sait pas.*` },
+
+{ d:`16 août`, s:`Les pendants ne s'écriront pas`, e:`acquis`, t:[`méthode`,`écriture`],
+  v:`Non, ça c'est bon, il n'y aura pas de scène de ce côté-là. C'est à titre indicatif.`,
+  q:`**Précision importante, et elle lève une alarme que j'avais posée pour rien.** Les cartes en pointillé ne sont pas des scènes en attente : **ce sont des repères d'écriture**, pour savoir ce qui se passe de l'autre côté pendant qu'on écrit celle d'en face. *Elles peuvent donc dire des choses que le roman ne pourra jamais dire — « leur mère », par exemple.* **Ce qui est écrit dans une carte grisée n'a aucune contrainte de langue, puisqu'il n'entrera jamais dans un texte.**` },
+
+{ d:`16 août`, s:`ANDREW EST PRIORITAIRE`, e:`acquis`, t:[`méthode`,`écriture`],
+  v:`C'est pour m'aider moi, comprendre l'équivalent à peu près, pour à l'écriture me dire : voilà, je suis de tel côté, il s'est passé ça avant, comment je peux écrire ma scène pour qu'il y ait deux lectures sans trahir de manière prioritaire la branche Andrew, mais en conservant une certaine logique pour la branche Joël.`,
+  q:`**La règle d'arbitrage de toute l'écriture, et elle manquait.** *On écrit la scène pour qu'elle se lise d'abord comme celle de ce monde-ci ; l'autre lecture doit seulement rester **possible**, jamais servie.* **Aucune phrase ne se contorsionne pour Joël** — s'il faut choisir, c'est Andrew qui gagne, toujours. Joël, lui, doit simplement ne jamais devenir impossible.` },
+
+{ d:`16 août`, s:`Les trois questions à se poser`, e:`acquis`, t:[`méthode`,`écriture`],
+  v:`—`,
+  q:`Ce que l'atelier affiche désormais sous chaque vis-à-vis, pour l'avoir sous les yeux en écrivant : **est-ce qu'un mot d'ici manque là-bas ? est-ce qu'un mot de là-bas n'existe pas ici ? est-ce que ce qui vient d'arriver tient dans les deux calendriers ?** *Les trois suffisent à attraper presque tout — le troisième est celui qu'on oublie.*` },
+
+{ d:`16 août`, s:`Mael n'existe pas`, e:`acquis`, t:[`personnages`],
+  v:`J'ai dit Mael ? Non c'est Liam pardon. On n'a pas de Mael dans l'histoire.`,
+  q:`Fiche supprimée. **Et c'est mieux ainsi : le même homme porte tout.** La présentation d'Isaac au commissariat, les renseignements du téléphone, et le cri de la fin. *Il gagne en épaisseur à chaque apparition sans jamais être nommé — et c'est exactement ce qui rend le dernier chapitre si dur.*` },
+
+{ d:`16 août`, s:`Ce que raconte la cérémonie des vingt-six`, e:`acquis`, t:[`monde`,`dispositif`],
+  v:`Encore une fois les encarts non écrits sont pour moi et rien n'y sera forcément relié. Tu peux dire : accident d'un groupe d'enfants avec leurs accompagnants adultes.`,
+  q:`**Le seul endroit du dossier où l'on écrit la réponse à une question que le livre pose sans jamais y répondre.** Vingt-trois arrivants de six ans, un de quarante-quatre, un de trente-neuf, un de soixante et un : *un groupe d'enfants et leurs accompagnants.* **Aucune scène, aucune ligne, aucune allusion** — le lecteur devinera, ou pas.` },
+
+{ d:`16 août`, s:`LE DERNIER ACTE D'AMOUR`, e:`acquis`, t:[`monde`,`personnages`],
+  v:`Certes les berceurs et berceuses sont payés pour s'occuper des petits 8-0, mais c'est un peu l'équivalent des assistantes maternelles : elles offrent aussi de la douceur et de l'amour. C'est toujours un mini déchirement quand l'arrivant atteint 0, on lui dit au revoir pour la dernière fois. Là où dans notre monde c'est la vie, c'est comme ça, le petit rentre à la maternelle, ils ne le reverront jamais — ici il ne va nulle part, il est innocent jusqu'au bout et ils ne le reverront plus jamais. La dernière berceuse, c'est un peu le dernier acte d'amour que peut prodiguer un ou une berceur.`,
+  q:`**Correction de fond, et je les avais écrits trop professionnels.** *La comparaison est exacte et elle fait tout : chez nous le petit part à l'école et la vie continue ; ici il ne va nulle part.* **La même perte, et rien de l'autre côté.**` },
+
+{ d:`16 août`, s:`Ce que ça change au mobile`, e:`acquis`, t:[`personnages`,`enquête`],
+  v:`—`,
+  q:`**L'érosion de la ravisseuse cesse d'être abstraite.** On savait qu'elle avait passé sa vie à donner des arrivants au jardin sans jamais en garder un ; on sait maintenant que **chacun de ces départs était un adieu et un dernier acte d'amour.** *Des centaines. Ce n'est pas de la lassitude qui cède, c'est une accumulation de deuils minuscules que personne n'a jamais nommés.*` },
+
+{ d:`16 août`, s:`Le métier est un reliquat`, e:`acquis`, t:[`monde`,`personnages`],
+  v:`Un amour sincère pour la plupart des berceurs, qui ont cette vocation d'aimer — mère, assistante maternelle, assmat, les métiers de la petite enfance dans le monde 1.`,
+  q:`**Et c'est la règle du reliquat appliquée à un métier entier.** *On ne se rappelle pas ce qu'on a été : on y retourne.* Leur douceur n'est donc pas de la conscience professionnelle, **c'est une vie qu'ils recommencent sans le savoir.** *Ce qui donne à la ravisseuse la forme la plus cruelle de son histoire : elle est revenue au seul métier qui garantisse qu'on perde tout le monde.* **Rien de tout cela ne peut se dire dans le livre — l'interdit n° 1 l'empêche — et tout doit s'y sentir.**` },
+
+{ d:`16 août`, s:`Le chagrin est dans le personnage`, e:`acquis`, t:[`écriture`],
+  v:`—`,
+  q:`**Et ça ne contredit pas la consigne d'écriture, ça la précise.** *Aucun pathos sur la page* : elle ne pleure pas, elle ne prend pas un ton, le narrateur ne dit rien. **Mais elle sait ce qu'elle est en train de faire, et c'est la dernière fois.** *L'émotion est entièrement dans ce que le lecteur sait du métier — pas une ligne ne la dit, et c'est ce qui la rend insoutenable.*` },
+
+{ d:`16 août`, s:`Combien d'adieux dans une vie`, e:`acquis`, t:[`monde`],
+  v:`Pas forcément. June continue à s'occuper d'Eliott jusqu'à son arrivée au jardin, elle délègue ensuite à une collègue du jardin. June doit avoir environ 22 ans. Le temps qu'Eliott passe au jardin, dans l'épilogue elle a rajeuni également, mais pas suffisamment pour entrer elle aussi au jardin.`,
+  q:`**Tranché : deux adieux, deux personnes.** Le berceur du dehors accompagne jusqu'à la porte, puis passe la main. *Et ça donne à la dernière page quelque chose qu'elle n'avait pas :* **June garde Eliott six ans**, de dix ans à huit. **Son adieu n'est pas une formalité de service, c'est la fin d'une durée.**` },
+
+{ d:`16 août`, s:`L'erreur que je viens de faire`, e:`acquis`, t:[`monde`,`méthode`],
+  v:`Pourquoi tu dis qu'elle commence ? Tu peux pas le savoir. June est peut-être une arrivante de 60, 80, 102 ans qui est arrivée ! Elle peut être expérimentée ou non, l'histoire ne le dit pas. Seulement on constate que 6 ans plus tard June n'a plus 22 ans, elle a rajeuni elle aussi, mais il lui reste encore quelques années comme berceuse avant d'elle-même rentrer au jardin.`,
+  q:`**J'avais écrit que June débutait parce qu'elle a vingt-deux ans. C'est exactement l'erreur que le lecteur fera.** *Dans ce monde, l'âge apparent ne dit rien de l'ancienneté : il dit ce qu'il reste.* **Vingt-deux ans signifie seulement qu'elle a encore quelques années avant sa propre relève** — elle a pu arriver à cent deux, et personne ne peut le savoir en la regardant. *C'est le renversement du monde qui fonctionne, et il a marché sur moi.*` },
+
+{ d:`16 août`, s:`Comment on lui refuse le dossier`, e:`acquis`, t:[`enquête`,`écriture`],
+  v:`Il a un dossier de l'arrivant et il pourrait savoir quel service médical l'a pris en charge. Peut-être que le côté très secrétariat lui dirait alors non, et qu'il déciderait lui-même d'aller voir la pédiatre en charge de cet arrivant, qui exerce au jardin. Il aurait alors pu soutirer que 2 infos : par qui l'arrivant a été suivi, et ce qu'elle fait maintenant — mais avec un refus catégorique sur la demande du dossier. C'est alors avec la présence d'Isaac que la pédiatre pourrait parler du dossier, de l'erreur administrative, contrainte d'en parler face à la présence d'un policier.`,
+  q:`**Trois marches au lieu d'un mur, et aucune n'est une explication.** Le secrétariat refuse mais lâche deux miettes en s'en débarrassant — *le renvoi est l'information.* Le pédiatre, lui, ne refuse rien : réservé d'abord, il coopère dès qu'il comprend qu'il y a un policier. **Et ça donne enfin une raison d'entrer au jardin : ils y vont pour la voir, et c'est comme ça qu'ils le traversent.**` },
+
+{ d:`16 août`, s:`Ce que la scène dit d'eux deux`, e:`acquis`, t:[`personnages`],
+  v:`—`,
+  q:`Conséquence non cherchée, et elle est bonne. **Isaac suivait Andrew parce qu'il est l'homme du registre ; ici, Andrew ne peut rien sans Isaac.** *Une porte s'ouvre parce qu'il y a un policier dans le couloir, pas parce qu'il y a un veilleur.* **Et ça rend la scène 16 concrète : quand Isaac s'en va, les portes se referment pour de bon.**` },
+
+{ d:`16 août`, s:`L'erreur ne touche jamais le registre`, e:`acquis`, t:[`enquête`,`monde`],
+  v:`—`,
+  q:`**Contrainte absolue à tenir en écrivant l'erreur administrative :** elle est dans les dossiers d'après — le suivi, les affectations, tenus par des gens — **jamais dans le registre.** *S'il devient discutable, le mouvement où Andrew lit sa propre ligne s'effondre, et avec lui la fin du livre.*` },
+
+{ d:`16 août`, s:`LE DOUTE RESTE`, e:`acquis`, t:[`dispositif`,`personnages`],
+  v:`Le livre ne dira jamais clairement si c'était ou non la même berceuse. Il laissera le doute planer.`,
+  q:`**Ce n'était pas une question à trancher : c'est la réponse.** *Le lecteur observateur se dira peut-être que la berceuse qui berçait l'enfant est celle qu'on arrête — et il n'aura jamais confirmation.* **Et c'est exactement le régime du livre partout ailleurs :** l'Archiviste n'est jamais expliqué, la règle des retrouvailles n'est jamais énoncée, les reliquats ne sont jamais nommés. *On pose, on ne résout pas.* **Conséquence pratique et considérable : l'autrice elle-même n'a pas à décider.** La scène s'écrit pour que les deux lectures tiennent, et personne — ni dans le livre, ni derrière — n'aura à choisir.` },
+
+{ d:`16 août`, s:`Ce que ça demande à la chaîne`, e:`acquis`, t:[`écriture`],
+  v:`—`,
+  q:`**Si le doute doit tenir, la chaîne ne peut pas être une preuve.** *Elle doit donc être un signe assez répandu pour ne désigner personne* — d'autres en portent, et le lecteur peut le vérifier s'il y pense. **Mais assez présente pour qu'on la remarque deux fois.** *C'est tout le dosage : trop rare, elle démontre ; trop banale, elle disparaît.* **La question du lexique est donc tranchée : répandue.**` },
+
+{ d:`16 août`, s:`Deux fiches, pas une`, e:`acquis`, t:[`personnages`],
+  v:`Il faudra faire une fiche pour la berceuse coupable aussi.`,
+  q:`**Le casting distingue désormais la berceuse de la salle et la berceuse coupable.** *Deux entrées, et entre elles une question que le livre ne referme pas.* C'est aussi ce qui protège l'écriture : **on écrit la scène de la salle sans savoir**, donc on n'y met rien qui désigne.` },
+
+{ d:`16 août`, s:`LA CHAÎNE`, e:`acquis`, t:[`écriture`,`personnages`],
+  v:`« Elle le berçait, au rythme de sa chaîne autour de son cou, symbole de sa foi. » Et dernière scène : « elle tritura son collier, hésitant, avant d'enfin tendre ses deux mains en avant pour le passage des menottes. »`,
+  q:`**Et ça résout une contrainte que je croyais bloquante.** Il fallait que le lecteur la retienne sans qu'on la décrive — *un geste, une silhouette, jamais un portrait.* **La solution n'est pas de décrire quelqu'un, c'est de décrire une chose qu'il porte.** Un objet se retient mieux qu'un visage et ne désigne personne. *Le lecteur l'a vue bercer à son rythme six cents pages plus tôt ; il la reconnaît au moment où elle la triture.* **Et personne dans le livre ne relève rien.**` },
+
+{ d:`16 août`, s:`L'entretien se fait en marchant`, e:`acquis`, t:[`enquête`,`écriture`],
+  v:`Ce n'est pas la pédiatre qui refuse, c'est un service administratif. Au jardin, la pédiatre est un peu sur la réserve, mais quand elle comprend qu'elle a affaire à un policier, elle coopère normalement. Elle est très occupée et nous propose de la suivre en même temps qu'elle répond à nos questions.`,
+  q:`**Le refus est en amont, une seule fois, et il est administratif.** *Le secrétariat donne le nom du pédiatre et ce qu'il fait maintenant, et refuse d'en dire plus.* **Et la marche devient le dispositif de la scène :** elle avance, ils suivent, elle répond entre deux portes. *C'est ce qui autorise à montrer le jardin sans jamais le décrire — ce qu'on voit passe dans le champ, on ne s'y arrête pas. Sauf une fois.*` },
+
+{ d:`16 août`, s:`La salle, et le temps qui se dilate`, e:`acquis`, t:[`écriture`],
+  v:`C'est en passant de manière impromptue devant une salle avec un tout petit sur le point de disparaître qu'Andrew peut s'arrêter pour observer. La pédiatre sait que c'est rare de voir ce genre de scène quand on est extérieur au jardin, elle laisse passer. On a le temps de décrire, les gestes, les émotions, comme si tout le monde se concentrait sur ce qu'on voyait alors qu'on décrit une scène hors du temps. La berceuse, en tête à tête avec le tout petit. Une scène presque mère-enfant, dans une grâce et un amour profond.`,
+  q:`**Trois personnes debout s'arrêtent et regardent, et la narration se dilate.** *C'est ce qui autorise enfin la description longue, sans que le livre ait l'air de s'attarder : ce sont les personnages qui s'attardent.* **Et le mot « mère » est impossible à écrire**, ce qui oblige à faire tenir la chose entière dans les gestes — c'est le régime du livre à son maximum de rendement.` },
+
+{ d:`16 août`, s:`Le cold case qui n'en est pas un`, e:`acquis`, t:[`enquête`,`dispositif`],
+  v:`« Le secrétariat refuse » : je nommerais plutôt cette partie « départ de la seconde enquête ». Elle équivaudrait pour Joël à une seconde affaire de disparitions, deux jeunes filles du même âge disparues quelques années auparavant dans la même région, un cold case qui en fait n'en était pas un — les deux jeunes filles sont bien vivantes, mais les dossiers n'ont jamais été correctement classifiés côté administratif.`,
+  q:`**La symétrie est exacte des deux côtés : une trace qui s'arrête pour une raison administrative, et au bout, des gens qui vont très bien.** *Andrew trouve un arrivant de trois ans au jardin ; Joël trouve deux filles vivantes et un dossier mal classé.* **Et ça produit quelque chose que personne n'écrira jamais : il court après deux filles qui vont bien pendant que les deux qu'il cherche vraiment sont en train de mourir.** *Le lecteur ne peut pas le savoir. L'autrice, si.*` },
+
+{ d:`16 août`, s:`Ce que ça interdit au chapitre du creux`, e:`acquis`, t:[`écriture`],
+  v:`—`,
+  q:`Le repère peut dire « deux jeunes filles » — **il ne s'écrira pas.** Mais le chapitre du creux, lui, s'écrit, et il tombe sous la règle absolue : *on ne compte jamais, on ne sexue jamais, on ne donne aucun âge.* **Le lecteur doit pouvoir lire « une vieille affaire mal classée » et la rapporter tout seul au dossier de l'arrivant dont les traces s'arrêtent.**` },
+
+{ d:`16 août`, s:`Un berceur, croisé en passant`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`« Un berceur croisé en passant au jardin suffirait, si tu veux le corriger. » Validé.`,
+  q:`**Il ne fait rien de particulier et personne ne le remarque** : il traverse, il porte quelque chose, il dit bonjour. *S'il devient un personnage, la correction se voit ; s'il n'est qu'un passant, elle s'installe.* **C'est le même principe que partout ailleurs dans ce livre : ce qui est montré sans être souligné est ce qui est cru.**` },
+
+{ d:`16 août`, s:`Le premier des deux coups de fil`, e:`acquis`, t:[`enquête`,`écriture`],
+  v:`Justement Andrew a une piste, un nom, un lieu. Il peut prévenir Isaac et se donner rendez-vous au jardin.`,
+  q:`**Le trou était visible sur la frise, et il est comblé.** *Mais ça produit mieux qu'un raccord :* c'est **le premier de deux coups de fil**, et le second est celui de la scène 17 c — *« c'était là sous nos yeux ».* **Donc celui-ci doit être plat.** Aucun enthousiasme, trois phrases, un nom et une adresse. *Si le premier a le moindre relief, le second perd le sien.*` },
+
+{ d:`16 août`, s:`Il ne sait pas qu'il a besoin d'un policier`, e:`acquis`, t:[`personnages`],
+  v:`—`,
+  q:`À noter en écrivant l'appel : **il appelle Isaac parce que c'est ce qu'il fait**, depuis des années, sur des affaires qui n'ont rien à voir. *Ce n'est qu'au jardin qu'une porte s'ouvrira pour une raison qu'aucun des deux n'aura prévue.* **Ni l'un ni l'autre ne formule jamais que le secret médical vient de leur fermer une porte — ils vont voir quelqu'un, c'est tout.**` },
+
+{ d:`16 août`, s:`La capsule qui n'éclaircit pas n'a pas de scène`, e:`acquis`, t:[`dispositif`,`écriture`],
+  v:`Concrètement, elle se noie dans la seconde lecture de sa propre arrivée. C'est à cet instant qu'on comprend ce qu'est une capsule qui n'éclaircit pas.`,
+  q:`**Carte supprimée : la chose n'a pas de scène à elle.** Le lecteur avait entendu parler d'une odeur, au loin, à la première cérémonie ; au chapitre F il sait ce qu'il y avait au bout de l'allée et pourquoi on raclait pendant que les autres se nommaient. *Personne ne le lui dit — il le pose lui-même.* **La compréhension devient froide et rétrospective, ce qui est le régime du livre.**` },
+
+{ d:`16 août`, s:`Ce que ça laisse en suspens`, e:`ouvert`, t:[`écriture`],
+  v:`—`,
+  q:`Conséquence à trancher : **le §8 du dossier maître demandait une description crue d'une capsule sans éclaircie**, faite pour dégoûter avant qu'on ait à juger — *« bien fait pour sa gueule », puis la gêne.* En noyant la chose au chapitre F, **la révulsion n'a plus de logement.** *On l'abandonne, ou elle se replace ailleurs, tôt, dans une journée de service ordinaire.*` },
+
+{ d:`16 août`, s:`Ce qu'était « la paire, en passant »`, e:`acquis`, t:[`dispositif`],
+  v:`« La paire, en passant », je comprends pas.`,
+  q:`**Une contrainte du dossier, devenue inutile.** Chrissy et Tania devaient apparaître une fois, tôt, comme du décor — *sinon le trouble du chapitre B ne s'accroche à rien : le lecteur ne peut pas se dire « la paire du début, qu'est-ce qu'elles font là ? » s'il ne les a jamais vues.* **Mais la cérémonie d'Andrew les montre déjà.** Carte supprimée, et la contrainte passe sur la cérémonie : *elle doit laisser au lecteur deux visages identiques dont il ne fera rien.*` },
+
+{ d:`16 août`, s:`L'atelier se maintient`, e:`acquis`, t:[`méthode`,`outil`],
+  v:`Ton rôle sera de maintenir ce document à chaque décision / échange. Tu as le droit de créer des releases de cette doc ou des productions qu'on fait sur git. Tu pourras t'en servir pour remonter ou versionner des documents.`,
+  q:`**Règle permanente.** À chaque décision : on corrige la fiche concernée, on répercute ici, on reconstruit, on vérifie, on commite. *Un atelier qui retarde d'une séance ne sert plus à rien.* Et les étapes se marquent par des tags git — `+"`"+`v1`+"`"+` à `+"`"+`v4`+"`"+` pour la mise en place du monde, `+"`"+`v5`+"`"+` pour l'atelier — ce qui permet de retrouver n'importe quelle version d'un document et de comparer deux états.` },
+
+{ d:`16 août`, s:`Le prologue va trop vite`, e:`acquis`, t:[`écriture`],
+  v:`Concernant le chapitre, ça manque cruellement de description des lieux, des personnages, de l'ambiance générale de la scène. Tout va beaucoup trop vite.`,
+  q:`**Correction juste, et elle vaut au-delà du prologue.** La première version était un enchaînement de gestes sans décor. Réécrite de 1 100 à 2 700 mots : le hall avant la capsule, la capsule avant l'ouverture, l'ouverture avant le protocole. *Et le dispositif y gagne : plus il y a de choses autour du regard d'Eliott, moins il pèse. **C'est la description qui protège la révélation, pas la brièveté.***` },
+
+{ d:`14 août`, s:`Les sous-agents`, e:`acquis`, t:[`méthode`],
+  v:`Tu restes le « main », je veux pouvoir te parler toujours pour échanger. Lors des éditions/corrections des fichiers, utilise des sous-agents que tu surveilles.`,
+  q:`Les corrections de fichiers partent en tâches parallèles, sur des lots disjoints. La conversation, elle, ne s'interrompt jamais.` },
+
+{ d:`17 août`, s:`Le premier jet du prologue`, e:`acquis`, t:[`prologue`,`monde`],
+  v:`est-ce qu'on se lancerait pas maintenant dans un test de prologue, avec toutes les infos que tu as ? on garde en tête que c'est la découverte de la cérémonie d'Eliott et son « père ». On est donc dans la salle de cérémonie… la scène se termine quand Andrew referme la porte sur les visiteurs et qu'il quitte la pièce à son tour.`,
+  q:`**Le cadrage du chapitre, donné en une fois.** Andrew entre dans la salle et prépare les postes ; on ne décrit que la salle, *jamais le complexe entier — celui-là est gardé pour la journée type.* Puis l'arrivée des deux capsules, l'aspect, la gelée, la préparation du corps à sa sortie, la première boisson, les cadeaux, la porte refermée. **Et le rappel à l'épilogue :** Eliott voit son propre visage dans le miroir, puis la foule, puis Andrew, puis l'autre arrivant.` },
+
+{ d:`17 août`, s:`La serre`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`préparateur arrive de manière trop abrupte. on sait pas qui sait. on peut les distinguer par des préparateurs, des agents du service opérant dans la serre (la serre étant la zone où serpente la coulée autour de la zone du registre)`,
+  q:`**Un lieu neuf, et il règle un problème d'écriture.** *Les préparateurs ne sont plus un mot lâché sans contexte :* **ils viennent de la serre**, la zone où serpente la coulée autour de la salle du registre. Ils y vivent au milieu de la ligne, la suivent d'un bout à l'autre, savent à la main quand une capsule est prête et la décrochent. *On ne les voit que deux fois par cérémonie, et ils ont toujours l'air de sortir d'ailleurs.*` },
+
+{ d:`17 août`, s:`Ce qui active le corps`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`les capsules d'Eliott et son père sont arrivées d'un coup. pas d'histoire d'arrivée plus tôt. c'était inopiné, il a fallu préparer la cérémonie rapidement. ce qui semble activer les corps, c'est quand on ôte le couvercle. il faut pas tarder mais c'est pas non plus une urgence. juste que question organisation, ils se doivent d'être attentifs.`,
+  q:`**Deux règles d'un coup.** ① **C'est le retrait du rabat qui active le corps** — tant qu'il est en place, rien ne bouge. ② **Le tempo du métier :** une capsule à maturité ne se garde pas, mais rien n'est urgent. *« On ne court pas, mais on ne s'assoit pas non plus. »* **C'est une question d'organisation, jamais de danger.**
+
+**Et ça corrige le prologue :** les deux capsules ne sont pas apparues deux jours plus tôt, elles surgissent le matin même. *Une noyade ne laisse aucun délai de maturation.* **Donc la cérémonie se monte dans la journée, on a prévenu tard, et il y a peu de monde.** La fiche tient en trois lignes.` },
+
+{ d:`17 août`, s:`L'ordre du chapitre`, e:`acquis`, t:[`prologue`],
+  v:`il doit lancer un regard à l'autre arrivant. d'où l'importance que la phase du nom lui soit demandée avant tout. il répond et ensuite on enchaîne sur sa « démence apparente » car c'est à partir du nom donné qu'Andrew bascule sur la deuxième capsule et ouvre le capot. pendant ce temps, Nora a pris le relais avec Eliott.`,
+  q:`**La correction qui fait le chapitre.** *Dans le premier jet, le garçon parlait face à Andrew.* **Maintenant :** il se voit, il balaie la pièce — *la capsule d'à côté passe dans le balayage sans y peser* — son regard tombe sur Andrew, on lui demande son nom, il répond. **Et c'est le nom donné qui fait basculer Andrew sur la seconde capsule.**
+
+*C'est pendant qu'il a les deux mains sur le capot, de dos, que le garçon se met à parler.* **« Andrew ne se retourna pas. »** — le « on passe outre » n'est plus une décision, c'est une position de corps.` },
+
+{ d:`17 août`, s:`Les visiteurs, ce n'est pas froid`, e:`acquis`, t:[`prologue`,`ruche`],
+  v:`un peu trop froid.. c'est une arrivée, c'est cool de voir une capsule s'ouvrir, on reste dans un silence cérémonieux, mais il y a l'excitation du moment, ça reste une naissance !!`,
+  q:`**Le silence tient jusqu'aux cadeaux, et là il tombe.** *On se penche pour mieux voir, on commente, deux personnes se serrent le bras sans se connaître, une femme déplace sa pierre de dix centimètres et rit toute seule.* **Des « bienvenue » se reprennent de bouche en bouche.**
+
+*La règle du monde n'est pas contredite, elle passe simplement après la joie :* **« Aucun d'eux ne les connaissait. Aucun ne les reverrait. Ça n'enlevait rien. »**` },
+
+{ d:`17 août`, s:`Nicolas`, e:`acquis`, t:[`personnages`,`prologue`],
+  v:`Il dit qu'il s'appelait Nicolas quand on le lui demanda`,
+  q:`**Le nom d'éclaircie de l'arrivant de quarante ans est tranché.** *Il apparaît deux fois dans tout le livre, première page et scène 8, et rien ne doit inviter à le rapprocher de celui d'Eliott.* **Sa phrase de nom passe en direct :** Andrew lui redit les mêmes mots qu'au garçon, le texte ne les répète pas, et la réponse tombe seule.` },
+
+{ d:`17 août`, s:`Ce que le garçon dit ne doit rien vouloir dire`, e:`acquis`, t:[`prologue`,`personnages`],
+  v:`j'aime pas « il est pas remonté, il faut le remonter » je veux pas qu'on puisse faire un lien quelconque avec le jour de l'accident ! c'est dommage, je trouve que ça gâche l'épilogue qui nous apprend ce qui s'est passé. par contre, parler d'un truc qu'il est pas censé connaître, ça c'est chouette : « mes poches… il faut vider mes poches », ça n'a aucun sens. « je reviens bientôt »`,
+  q:`**Un interdit neuf, et il protège la dernière page.** *Rien de ce que dit Eliott à sa cérémonie ne doit pouvoir se rattacher au jour de sa mort.* **Pas d'eau, pas de « en bas », pas de « il n'est pas remonté ».** Le lecteur n'apprend ce qui s'est passé qu'à l'épilogue, et il ne doit pas pouvoir l'avoir deviné en page une.
+
+**Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
+
+{ d:`19 août`, s:`La douzième capsule n'est pas un fil`, e:`acquis`, t:[`écriture`,`structure`],
+  v:`et pour la capsule apparente... en fait je vois pas trop quoi en faire.. c'est un fait qui n'apportera rien je pense...`,
+  q:`✅ **La scène reste entière.** *C'est elle qui porte tout le reste : le désaccord de comptage donne la conversation à trois, la conversation donne les quatre relevés minimum, la capsule flash, le tableau noir des salles, et surtout la hiérarchie des deux métiers.* **La couper coûterait la moitié du chapitre pour économiser une promesse.**
+
+⛔ **Une seule phrase promettait quelque chose :** *« Il souligna le tout. »* **Souligner, c'est dire au lecteur de retenir.** *Elle tombe. Andrew écrit la travée, la capsule, la date et l'heure — comme il écrit tout le reste de sa journée — et le paragraphe suivant referme de lui-même : il n'avait pas d'avis sur la date et il n'en aurait pas.*
+
+🔴 **Le chapitre disait déjà que ce n'était rien.** *« On en oubliait. On les retrouvait. »* **Une capsule trouvée tard est un incident de travail, pas un mystère — et le laisser ouvert sans le souligner, c'est exactement ce que fait un vrai lieu de travail.**` },
+
+{ d:`19 août`, s:`Une capsule non éclaircie n'a jamais été une capsule`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`« Elle était restée sombre du premier jour au dernier » ça insinue qu'elle est là depuis longtemps. non, une capsule pourrie, elle pop d'un coup, et deverse toute sa merde d'un coup. on la considere trop comme une capsule. on devrait meme pas dire qu'elle y ressemble en fait. ça donne l'impression que quelque chose a maturé de façon erronée, mais a maturé quand meme. presque on a du mal à croire que c'est une capsule, comme si c'était plutôt une excroissance de la coulée que la coulée elle-même a rejetée pour ne pas contaminer le reste.`,
+  q:`⛔ **Dire qu'elle n'a pas mûri, c'est encore lui accorder d'avoir mûri quelque part.** *Ma version parlait d'une paroi restée sombre du premier jour au dernier — donc d'une durée, donc d'une histoire, donc d'une capsule qui aurait raté quelque chose.* **Il n'y a rien eu à rater.**\n\n✅ **Le nom est celui du registre et il ne décrit rien.** *« C'était le mot du registre, et ce n'était pas celui des yeux. »* **Ni la longueur, ni les nervures, ni la dissymétrie de ce qui a poussé :** une poche sombre et boursouflée, sortie de travers sur un coulant, venue d'un coup et crevée dans la nuit. *On dirait une excroissance que la coulée s'est faite à elle-même et qu'elle a poussée à l'écart pour ne pas salir ce qu'il y avait autour.*\n\n✅ **Et la dénégation saute dans la foulée.** *« à cause de la pente, et pas pour une autre raison » : ne pas l'insinuer invitait à l'imaginer quand même.* **Il ne reste que la masse qui descend parce que le sol descend.**
+
+🔴 **Et c'est ce qui protège le reveal.** *Tant que la chose ressemble à une capsule ratée, le lecteur peut y loger quelqu'un tout de suite.* **Elle ne ressemble à rien, alors il ne cherche pas — et six cents pages plus tard il comprendra tout seul, à froid.**` },
+
+{ d:`19 août`, s:`Le chapitre premier est validé`, e:`acquis`, t:[`écriture`],
+  v:`et je te valide le reste`,
+  q:`✅ **Treize passes en une journée, et le livre a maintenant deux chapitres écrits et un épilogue.** *3 494 mots.*\n\n**Ce que le chapitre a rapporté au monde en cours de route :** l'école et les cours du soir, la zone de résidence, le double métier de l'analyste, la capsule flash, les quatre relevés minimum, la définition ferme de la travée, l'autorité de l'analyste sur la date, le mot peau proscrit partout — et la formule de l'odeur, arrêtée mot pour mot.\n\n**Ce qu'il a corrigé au dossier :** la mémoire d'Andrew, qui était fausse depuis le début.\n\n⚠️ **Ce qui reste en attente :** la case de la frise n'a pas bougé — elle est toujours en colonne 3, entre la deuxième et la troisième visite, alors que le chapitre suit désormais le prologue. *La faire glisser décale tout ce qui suit, et ça ne se fait pas sans l'autrice.*` },
+
+{ d:`19 août`, s:`Deux erreurs de dossier corrigées d'un coup : la mémoire, et l'école`, e:`acquis`, t:[`monde`,`personnages`],
+  v:`« il ne se souvient plus des cérémonies » je sais pas d'ou ça sort, mais c'est pas le cas... il se souvient que partiellement de sa propre ceremonie car comme tout arrivant, il était dans le coltard. au reveal, il raccroche tous les wagons. lui par contre, en temps que veilleur, il se souvient des ceremonies. il est tres physionomiste et clairement il se souvient du monsieur. // il ne peut pas occuper ce poste s'il a 72 et qu'il est arrivé à 72 ans aussi... il va à l'école avant.`,
+  q:`**① La piste était fausse et elle est retirée.** *Le dossier portait depuis le début une « honte quotidienne : il ne se souvient plus des cérémonies ».* **C'est l'inverse : il est très physionomiste et il se souvient des siennes.** *Le seul trou est dans sa propre cérémonie — comme tout arrivant il était dans le coltard — et ce n'est pas une honte, c'est ce qui rend le reveal possible.* ✅ **Ça consolide le chapitre F au lieu de l'affaiblir :** ce qu'il croyait ne pas avoir entendu ni senti, il ne l'a pas oublié, il ne l'a jamais enregistré.\n\n**② Et il manquait une pièce entière du monde : l'école.** *On ne prend pas un poste en sortant de sa capsule.* **Un arrivant sort avec la langue et rien d'autre ; il lui faut des années avant de tenir un métier.** *L'homme au chiffon sort donc de sa capsule à soixante-seize ans, va à l'école, et prend son premier travail quelques années plus tard, à un âge inférieur à celui qu'on lui a compté.*\n\n✅ **Ce qui rend au passage son « 76 » à l'autrice** — le chiffre était le bon, il manquait l'école entre les deux. ⛔ *Et on ne dit pas depuis quand : le lecteur voit la descente et ne peut pas la chiffrer.*` },
+
+{ d:`19 août`, s:`La formule du rite revient sur un homme qui tient un chiffon`, e:`acquis`, t:[`dispositif`,`monde`],
+  v:`« Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté 76 ans », se souvient Andrew en observant le jeune préparateur. Tu crois que c'est trop ?`,
+  q:`**Ce n'est pas trop — mais le nombre l'était.** *L'idée est excellente : la formule du prologue, mot pour mot, quatre mois plus tard, sur quelqu'un qui travaille là.* **Le lecteur l'a entendue sur un garçon de dix ans et sur un homme de quarante-deux ; il l'entend maintenant sur l'homme au chiffon.** *Plus rien à expliquer.*\n\n⛔ **Seulement, soixante-seize à la cérémonie et soixante-douze quatre mois après, ça fait quatre ans en quatre mois.** *Le lecteur pose la division tout seul, et il obtient une vitesse.* **Une vitesse est un barème, et l'interdit n° 3 tombe dans la même phrase :** *un système calculable est un système négociable, et un système négociable ne fait plus peur à personne.*\n\n✅ **Alors c'est soixante-douze des deux côtés.** *On apprend qu'on sort d'une capsule avec un âge, et rien sur ce qui se passe ensuite.* **Règle d'écriture posée : tout âge d'arrivée rappelé après coup tombe sur l'âge apparent du moment.**\n\n⛔ *La première version faisait dire au texte qu'il ne se rappelait plus la salle — c'était faux, et corrigé le jour même.*` },
+
+{ d:`19 août`, s:`Le hook du chapitre : un préparateur de soixante-douze ans`, e:`acquis`, t:[`monde`,`dispositif`],
+  v:`elle pourrait se notifier avec le preparateur qui trouve la capsule jolie. une phrase qui choque, le hook du chapitre : le preparateur de 72 ans qui est emerveillé par la beauté de la capsule comme s'il n'en avait jamais vu. et en meme temps ça se comprenait.`,
+  q:`✅ **La trouvaille range trois problèmes d'un coup.** *L'inversion des âges cherchait sa place depuis deux jours : refusée dans la description d'Andrew — trop frontale — puis tentée en amorce plate dans une description de lieu, où elle ne faisait que déminer le bizutage.* **Ici elle tombe sur quelqu'un, dans une scène tendre, au moment où le lecteur ne s'y attend pas.**\n\n**Trois phrases qui descendent :** *« Il s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu. C'était à peu près le cas : il en était à son quatrième mois. Il avait soixante-douze ans. »*\n\n**Puis la règle, à plat :** *« Personne ne trouva ça remarquable. Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien. »*\n\n⛔ **Le narrateur affirme que ça se comprend et ne dit jamais pourquoi.** *C'est l'interdit n° 1 utilisé comme moteur : la phrase reste sur les bras du lecteur, et le bizutage n'a plus rien à lui expliquer.*` },
+
+{ d:`19 août`, s:`Le mot peau est proscrit, et la formule de l'odeur trouve son image`, e:`acquis`, t:[`écriture`,`dispositif`],
+  v:`je veux pas le mot peau, nulle part. On peut parler de membrane pour la suite si tu veux, mais rien qui pourrait inciter à dire qu'il y avait quelque chose dedans. // l'image n'est pas assez marquante`,
+  q:`⛔ **Le mot sortait quatre fois, et une fois du prologue** — *le voile roulé « comme une peau de fruit »*, ce qui suffisait à donner une matière vivante à ce qu'on retire. **On dit la pelure d'un fruit, et une membrane à la surface.** *Le contrôleur du document refuse désormais le mot, comme il refuse déjà les mots de parenté.*\n\n🔴 **Et la formule a changé d'image.** *Le linge tiède ne marquait pas assez.* **« une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été. »**\n\n*Pourquoi celle-là :* tout le monde l'a déjà eue dans le nez, elle n'a rien à elle, elle prend le nez sans qu'on puisse dire de quoi elle est faite — **et c'est une odeur de plante, dans un lieu qui n'est que ça.** ⛔ *Impossible d'y rattacher un corps, ce qui est la condition du chapitre.*` },
+
+{ d:`19 août`, s:`La série s'explique enfin, et le préparateur est un débutant`, e:`acquis`, t:[`ruche`,`monde`],
+  v:`Une main de préparateur ne valait pas celle d'un analyste. Oui bien sur qu'elle pouvait sembler prête. Mais ce n'est pas si simple que ça. // Il était nouveau dans le métier. Son ignorance n'était pas mal accueillie.`,
+  q:`**Le passage explicatif était creux, et l'autrice l'a rempli.** *Un point seul sur un graphique vierge ne se lit pas.* **Il en faut quatre au minimum pour chiffrer le jour d'une éclaircie totale**, et comme l'analyste relève deux fois par jour, ça fait les deux jours qu'elle demande. *Toutes les capsules n'arrivent pas à maturation de la même manière : c'est en croisant des moyennes, des chiffres accumulés sur des années et les relevés faits sur place qu'on finit par savoir.*\n\n**Et Bastien devient un débutant** — ce qui règle le seul reste de conflit. *Il peut se tromper comme ne pas se tromper, un préparateur ne tranche pas, tout le monde le pense tout bas sans le dire tout haut, et personne ne lui en veut de ne pas savoir encore.*\n\n✅ **Nouveau mot du monde : la capsule flash.** *« De toute manière, si ça avait été une capsule flash, elle se serait ouverte depuis longtemps. »* **C'est le premier raisonnement d'une analyste devant une trouvaille**, et ça écarte l'urgence sans écarter le risque. ⛔ *Ce qui provoque une capsule flash n'est jamais dit — le lecteur a de quoi le deviner tout seul.*` },
+
+{ d:`19 août`, s:`Le chemin des visiteurs entre dans le livre`, e:`acquis`, t:[`ruche`,`écriture`],
+  v:`bon allez, vera devient Yvan. on a du mal à capter que la preparatrice est pas vera. au moins la ca sera plus fluide // on n'évoque pas le couloir que va emprunter les invités`,
+  q:`**Deux corrections de lisibilité, et la seconde donne une pièce du monde.** *L'analyste et la préparatrice au chiffon étaient toutes les deux des femmes, et deux pronoms féminins à trois paragraphes d'écart rendaient la scène illisible.* **C'est le chiffon qui a changé de main : l'analyste reste Vera.**\n\n**Le chemin des visiteurs se dit en trois lignes, frontalement, et ne se prend jamais.** *Ils sortent par l'autre côté, traversent la zone de résidence, arrivent devant la bonne porte.* **C'est là que le mot analyste entre dans le livre** — et qu'on apprend au passage qu'il joue sur deux tableaux : *l'examen du corps à la consultation, puis le retour aux planches.* ⛔ **Le roman n'y mettra jamais les pieds.**` },
+
+{ d:`19 août`, s:`Le quartier des préparateurs : une information, pas un conflit`, e:`acquis`, t:[`ruche`,`écriture`],
+  v:`je comprend pas le fon du pb ? le préparateur n'a pas a tenir tete à l'analyste, c'est elle qui a le dernier mot ! ou alors ils ne parlent pas de la meme capsule et peut prevenir l'analyste qu'il y a un défaut de compte. c'est donc plus un conflit mais une info`,
+  q:`**La correction règle la scène et donne au monde trois règles qu'il n'avait pas.** *La travée dix-neuf comptait onze capsules hier et en compte douze ce matin.* **La douzième n'est sur aucune planche** — jamais relevée, parce que personne n'avait jamais su qu'elle était là. *Au ras du sol, sous les autres, on ne la voit qu'accroupi.*\n\n**Personne n'a tort, et c'est ce qui rend la scène tenable.** Bastien informe. Vera vérifie, ne conteste pas la main posée, et pose ce qu'elle peut poser : *il faut cinq relevés pour donner un jour, elle n'en a aucun, elle ne dira rien avant cinq jours.* **Andrew ne peut pas réserver une salle pour une capsule qui n'existe nulle part** — alors il passera tous les matins, vingt minutes qu'il appelle rien du tout.\n\n🔴 **Et la douzième capsule reste ouverte à la fin du chapitre.** *Le livre ne dit pas ce qu'Andrew y trouve.* **Porte à rouvrir, ou fil à couper.**` },
+
+{ d:`19 août`, s:`La journée à la ruche passe en chapitre deux`, e:`acquis`, t:[`plan`,`écriture`],
+  v:`oui, tu as finis de me convaincre. oui on commence par la journée type. En effet son objectif premier est la salle de cérémonie. On peut commencer à le suivre quand il entre dans la ruche.`,
+  q:`**Quatre raisons, et la première suffit.** *Les visites chez Eliott ne valent que si le lecteur sait à quoi ressemble une semaine d'Andrew* — sinon elles sont trois scènes de gentillesse dans un lieu qu'on n'a pas encore vu. **② La capsule pourrie frappe le plus fort collée à la cérémonie propre** : le lecteur vient de voir le rite tenu au millimètre, et il tombe sur ce que le même endroit produit quand ça rate. **③ Andrew doit exister comme homme avant d'être un enquêteur** — le portrait n'a pas d'autre endroit où tenir. **④ Et les visites ouvriraient trois mondes d'un coup** : June, Eliott, et le jardin.\n\n⛔ **Ce que le déplacement coûte :** la fiche disait *« il tient parce qu'à la page suivante la place est vide »*. **Ce n'est plus vrai, et il faut donc qu'il tienne tout seul.** *Il tient sur sa dernière ligne.*` },
+
+{ d:`19 août`, s:`La formule de l'odeur, proposée`, e:`à trancher`, t:[`écriture`,`dispositif`],
+  v:`insister sur l'odeur avec la phrase de fin qui sera repris mot pour mot à la fin du livre pour le reveal`,
+  q:`🔴 **La phrase, telle qu'elle est écrite aujourd'hui :** *« une odeur, insipide, et prenante au nez, comme si on respirait à travers un linge tiède qu'on aurait laissé plié. »* **Le modèle est de l'autrice ; l'image est de moi et elle attend son verdict.**\n\n*Pourquoi celle-là :* un linge tiède n'a pas d'odeur à lui — il a celle de ce qui a été dedans. **Ce qui tombe juste six cents pages plus loin, où la source est une tenue de travail que quelqu'un n'a pas changée.**\n\n*Variante en réserve :* **« comme si l'air lui-même avait tourné »**, qui rime avec le petit-lait deux paragraphes plus haut. ⛔ **Le jour où l'une des deux est retenue, la seconde cérémonie se récrit en même temps — les deux occurrences ne peuvent pas dériver l'une de l'autre.**` },
+
+{ d:`19 août`, s:`L'inversion des âges a trouvé sa place`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`je suis pas d'accord pour que la regle du monde soit expliqué dans sa description. et elle est trop frontal`,
+  q:`**Elle se pose dans le bizutage, en deux lignes, sans un mot d'explication.** *« C'était le dernier entré au service. C'était aussi le seul à qui on aurait donné soixante ans. »* **Le lecteur n'a pas de quoi conclure ; il a de quoi tiquer** — et c'est exactement le régime demandé.\n\n*Le détail qui la rend gratuite :* **la sale besogne va au dernier arrivé**, ce qui est vrai dans n'importe quel service du monde. *C'est l'âge qui ne va pas avec, et personne dans la scène ne le remarque.*` },
+
+{ d:`18 août`, s:`Le rabat, et le mot capot est proscrit`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`il peut pas etre rigide, la capsule a des asymétries, elle est organique. peut etre que le capot n'est pas une bonne appelation car ça donne l'impression d'un truc dur. faudra qu'il soit mou, qu'il le laisse pendouiller ou qu'il le plie comme quelque chose de souple mais pas cassant`,
+  q:`**Le mot change, et la correction en règle une autre par ricochet.** *Le texte disait déjà* **« ouvert, dégagé, refermé, dans une autre pièce »** *— on avait donc refermé.* **Ce qui recouvre l'ouverture est un morceau de la paroi elle-même**, découpé ailleurs et remis dessus. *Ce qui explique du même coup pourquoi il est plus sombre et plus mat que le reste : il a été détaché.*
+
+**On dit le rabat.** *Il se replie, il tient où on le laisse, il s'ôte.* **« Ça ne cassait pas, ça pliait. »** ⛔ *Et rien de la capsule ne doit jamais recevoir de vocabulaire de mécanique — pas de rainures, pas de glissières, pas de crans sur le rabat.*` },
+
+];
+
+/* ==========================================================================
+   LE MONDE — lexique, règles, interdits, décompte
+   ========================================================================== */
+
+const LEXIQUE = [
+["L'accueil","Premiere piece de la ruche, apres l'entree principale : un guichet et des chaises, comme une salle d'attente de clinique. Le veilleur y prend un papier avec le numero de sa salle du jour ; les visiteurs y bifurquent vers leur propre couloir.","02-univers/la-ruche.md",""],
+["Le grand couloir","L'axe qui mene de l'accueil au coeur du complexe. Il commence banal, neons au plafond, et la lumiere du jour, la vegetation puis l'ornement y prennent le relais a mesure qu'on avance.","02-univers/la-ruche.md",""],
+["La salle de consultation","Adjacente aux salles de ceremonie, dans la serre. C'est la que les arrivants sont guides apres l'eclaircie, et c'est l'analyste qui les y recoit. Un petit acces mene de la au couloir des chambres.","02-univers/la-ruche.md",""],
+["L'ecole","Ce qui vient apres les huit jours de residence. On ne prend pas un poste en sortant de sa capsule : un arrivant sort avec la langue et rien d'autre, et il lui faut des annees avant de tenir un metier. On en sort par le bas, en apprenti, et on garde des cours du soir un moment. Un homme de soixante-seize ans sort donc de sa capsule, va a l'ecole, et prend son premier travail quelques annees plus tard - a un age inferieur a celui qu'on lui a compte.","02-univers/la-ruche.md","Sa duree, ce qu'on y apprend, et qui la tient. Le roman n'y met pas les pieds pour l'instant."],
+["La zone de residence","La partie du complexe ou les arrivants passent leurs huit premiers jours apres la consultation : des chambres par lots, un refectoire, et des gens qui viennent les voir. Les visiteurs la traversent avant d'arriver devant la salle de ceremonie - c'est leur chemin a eux, et il ne croise pas celui des veilleurs.","02-univers/la-ruche.md","Le roman n'y met jamais les pieds. Elle ne se decrit qu'en passant, de l'exterieur."],
+["Les chambres","Le long du couloir des visiteurs, avec le refectoire. Les arrivants y sont dispatches apres la consultation et y restent huit jours. On peut venir les y voir.","02-univers/la-ruche.md",""],
+["L'analyste","Metier de la serre, et il joue sur deux tableaux. Cote capsules, il ne mesure rien : il regarde, il note, il compare - la couleur, l'avancee de l'eclaircie, l'intervalle entre deux releves, et c'est la serie accumulee qui donne une prediction. Cote arrivants, c'est lui qui tient la consultation : examen du corps, verification qu'il est entier, sans blessure et sans anomalie. Puis il retourne a ses planches. Sa date fait autorite et le preparateur l'accepte sans discuter.","02-univers/la-ruche.md","Un seul metier a deux faces, ou deux specialites du meme titre ? Le livre ne tranche pas."],
+["L'ecusson","Embleme de la ruche, brode sur l'epaule de la tenue. Une capsule de profil, d'un seul fil. Tout le monde sait le lire au premier coup d'oeil, dedans comme dehors : on reconnait quelqu'un de la ruche avant qu'il ait parle. Reference d'autrice : le caducee - le mot n'entre jamais dans le texte (interdit n.6).","02-univers/la-ruche.md","Y a-t-il une variante par metier, ou un seul embleme pour tout le complexe ?"],
+["La tenue","Vetement de travail du service : une blouse de toile ecrue, croisee sur le devant, six boutons sur le cote droit, l'ecusson brode sur l'epaule opposee, deux poches basses, une ceinture a crans. On en change des qu'elle est marquee.","02-univers/la-ruche.md","La porte-t-il en ville ? C'est ce qui lui ouvre des portes sans mandat."],
+["Le coulant","Un brin de la vegetation, celui qu'on peut montrer du doigt : epais comme un bras, il entre par une bouche du mur, s'enroule autour des colonnes et ressort ailleurs. C'est le mot du jardinier pour ce qui rampe et se prolonge - les courges filent sur leurs coulants. Les capsules poussent a plat dessus.","02-univers/la-ruche.md",""],
+["La coulee","La masse : l'enchevetrement de coulants qui court dans tout le complexe et au milieu duquel vivent les gens de la serre. Le rapport entre les deux mots est celui du lierre a une branche de lierre.","02-univers/la-ruche.md",""],
+["La serviette de ceremonie","Un grand rectangle de toile perce d'un trou pour la tete, qui tombe droit devant et droit derriere. Le second veilleur rabat les pans sur les cotes et les ferme d'une ceinture. Quatre tailles a l'office, on en descend une de chaque puisqu'on ne sait pas qui va sortir.","02-univers/la-ruche.md",""],
+["La serre","Zone du complexe ou serpente la coulee, autour de la salle du registre. C'est le domaine des preparateurs : ils y vivent au milieu de la ligne, la suivent d'un bout a l'autre, savent a la main quand une capsule est prete, et la decrochent.","02-univers/la-ruche.md","Sa taille, et si elle a une limite nette ou si elle se perd dans le reste du complexe."],
+["Le preparateur","Agent du service de la serre. Il decroche les capsules, les accompagne jusqu'a la salle de ceremonie, redresse les chariots, remet la fiche au veilleur - puis il s'arrete a la porte et regarde. Il revient a la fin chercher les capsules vides et les bassines.","02-univers/la-ruche.md","On ne les voit que la, deux fois par ceremonie. Ce qu'ils font le reste du temps n'est pas ecrit."],
+["Le rabat","Le morceau de paroi decoupe lors de l'ouverture chirurgicale, remis en place sur la capsule et qui y reste jusqu'a la salle de ceremonie. Plus sombre et plus mat que le reste depuis qu'on l'a detache. Souple et pas cassant : il se replie, il tient ou on le laisse, il s'ote. C'est son retrait qui active le corps.","02-univers/la-ruche.md","Le mot capot est proscrit - decision de l'autrice, 18 aout 2026 : il donne l'impression d'un truc dur, et rien ici n'est dur."],
+["L'éclaircie","Éclaircissement de la texture d'une capsule qui approche du terme : elle devient pâle, presque transparente. C'est le seul signe lisible du métier — une capsule claire va s'ouvrir bientôt. De là viennent le nom du phénomène, du rite et de la croyance.","02-univers/la-ruche.md",""],
+["La capsule","Contenant d'où sort un arrivant. Elle se forme de manière irrégulière, à un emplacement que personne n'a choisi, et mûrit plus ou moins vite selon le souffle de vie restant de l'autre côté. Aucun chiffre, aucun numéro, rien n'est marqué dessus.","02-univers/la-ruche.md","L'origine de la première capsule est hors de portée des archives, jamais datée ni expliquée."],
+["La capsule flash","Capsule qui va du debut a l'eclaircie en tres peu de temps. On la reconnait a ce qu'elle ne laisse pas le temps de faire une serie : quand on s'apercoit qu'elle est la, elle est deja ouverte. Une capsule claire depuis un moment n'en est donc pas une, et c'est le premier raisonnement que fait une analyste devant une trouvaille.","02-univers/la-ruche.md","Ce qui les provoque n'est jamais dit. Le lecteur a de quoi le deviner : une mort soudaine fait murir vite."],
+["La capsule qui n'éclaircit pas","Le nom est celui du registre, et il ne decrit rien. Ca n'a jamais ressemble a une capsule : ni la longueur, ni les nervures, ni la dissymetrie de ce qui a pousse. Une poche sombre et boursouflee, sortie de travers sur un coulant. Elle ne murit pas et ne s'annonce pas - elle vient d'un coup et elle creve, et personne n'a jamais eu le temps de la relever. On dirait une excroissance que la coulee s'est faite a elle-meme et qu'elle a poussee a l'ecart. Aucune ceremonie possible ; on nettoie. C'est la sortie des condamnes - l'irreparable ne recoit rien.","02-univers/la-ruche.md","Pourquoi elles se multiplient depuis quelques années : personne dans le livre ne le saura jamais. Le lecteur seul en tire la conclusion."],
+["La ruche","Le lieu où les capsules mûrissent et s'ouvrent, organisé en travées — et en même temps l'entité qui classe. Il y en a plusieurs ; le roman n'en suit qu'une.","02-univers/la-ruche.md","Combien il y en a et où. La taille de celle du roman."],
+["L'Archiviste","La ruche comme entité. Elle ne juge pas devant témoin, ne parle pas, ne console pas : elle classe. Ce n'est pas un père, c'est un service d'archives — on ne le prie pas, on le consulte, il ne répond jamais.","02-univers/la-ruche.md","Chose ou quelqu'un ? La question est posée deux fois au maximum dans le livre, et jamais résolue (interdit n° 10)."],
+["La travée","Une section de la serre : un troncon de coulee repere et numerote, sur lequel poussent plusieurs capsules a la fois. On dit la travee dix-neuf comme on dirait le rayon douze. C'est l'unite de reperage du registre - une capsule est a telle travee, et deux capsules apparues le meme jour peuvent l'etre a quelques travees d'ecart. ⛔ Une travee n'est jamais une capsule : elle en contient. On n'ecrit donc jamais que la travee a eclairci.","02-univers/la-ruche.md","Combien de travees dans la serre, et si elles suivent la coulee ou un quadrillage."],
+["Le relevé","Geste de métier du veilleur : mesure de l'avancée de l'éclaircie au fil des visites, et relevé de l'âge à l'instrument le jour de l'ouverture. Il produit un âge, une fois pour toutes, et alimente le registre.","02-univers/la-ruche.md",""],
+["Le registre","Archive de la ruche, tenue par les veilleurs. On y note pour chaque capsule la travée, la date d'apparition, l'avancée de l'éclaircie, la date d'ouverture, l'âge relevé, le nom d'éclaircie et le numéro. Consultable par métier, sans autorisation : un document ennuyeux que personne ne lit.","02-univers/la-ruche.md","Il est infaillible, et il le reste. C'est la condition du temps 5."],
+["L'instrument","Outil de mesure de l'âge dont se sert le veilleur. Il ne prédit rien, ne lit rien de la capsule : il donne un nombre sur un corps déjà sorti. Et il ne dit pas de quel côté du plateau on se trouve.","02-univers/la-ruche.md","À quoi il ressemble, quel geste il demande, combien de temps il prend — jamais décrit en détail."],
+["Le veilleur","Homme de métier de la ruche. Il surveille la maturation, relève l'éclaircie, tient le registre, nettoie ce qui n'a pas éclairci, mesure l'âge, demande son nom à l'arrivant et l'inscrit.","02-univers/la-ruche.md","Ce que le livre montre du métier ordinaire."],
+["Le métier est mixte","**Berceurs et berceuses, et le livre doit le montrer au moins une fois** — un homme croisé en passant au jardin, qui ne fait rien de particulier. *Sans ça, tous les personnages de la petite enfance du roman sont des femmes, et le monde reproduit sans le vouloir le codage du nôtre.*","décision du 16 août 2026",""],
+["Le berceur, la berceuse","Métier de l'accompagnement. Nomme les arrivants de huit ans et en dessous, accompagne jusqu'au dernier jour, et fait partie du seul cercle mis dans la confidence des pédiatres du jardin. **C'est un métier payé, et c'est aussi de la tendresse et de l'amour** — l'équivalent d'une assistante maternelle. Exerce jusqu'à douze ans, puis tâches simples, puis entre au jardin à huit.","02-univers/la-ruche.md","Est-ce le même berceur du haut en bas de la descente, ou change-t-on de personne quand l'enfant cesse de parler ? *La question a désormais un enjeu : c'est celle de savoir combien d'adieux compte une vie.*"],
+["Le tuteur","Métier de l'apprentissage. Instruit ceux qui auront à s'en servir : se tenir, se laver, cuisiner, travailler, comprendre une rue, une monnaie, un métier. Le tuteur instruit ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage.","02-univers/la-ruche.md","Qui prend en charge un arrivant qui va grandir ? Le partage n'avait pas prévu quelqu'un qui monte."],
+["Le formateur","Celui qui enseigne à l'école obligatoire, quel que soit l'âge d'arrivée. Les formateurs sont toujours plus jeunes que leurs apprenants. Les premières leçons ne portent jamais sur le cœur du métier mais sur ce qu'il suppose : le couteau coupe, le feu brûle.","02-univers/le-corps-des-arrivants.md",""],
+["Le chuchoteur","Jeune bras droit d'un ancien aux commandes, dans n'importe quel domaine — pas seulement en politique. Une sorte de formateur de terrain.","L-ECLAIRCIE-dossier-complet.md §10","Le rôle n'est encore écrit dans aucune fiche du monde. Il attend une définition."],
+["Les pédiatres du jardin","Corps médical propre au jardin, tenu au secret médical. Ils suivent chaque enfant de huit ans à zéro et surveillent une seule chose : le jour où l'âge repart. Les berceurs sont dans la confidence, et ils sont les seuls.","02-univers/le-jardin.md","Leur nom de métier dans le monde n'est pas fixé."],
+["Le suivi","Rendez-vous médicaux obligatoires après toute éclaircie — mémoire, tonicité musculaire, apprentissage, coordination, élocution. Régime commun, banal, administratif ; il y en a d'autant plus qu'on est arrivé haut. Une pédiatrie pour vieillards.","02-univers/le-corps-des-arrivants.md","Le nom du métier et du rendez-vous n'est pas choisi. « Pédiatre pour vieux » est la formule de travail et n'entre pas dans le roman."],
+["Le jardin","Le dernier lieu de vie, et ce n'est pas un lieu où l'on entre en descendant : c'est la tranche de huit à zéro, tout entière. Quiconque a huit ans ou moins y est, par défaut, quel que soit le sens de sa trajectoire — qu'il grandisse vers huit ou qu'il redescende vers zéro. On n'en sort pas.","02-univers/le-jardin.md","Lieu unique et fermé, ou plusieurs endroits ? Les âges sont-ils séparés en salles ?"],
+["Le plateau","La phase du décompte où l'âge s'arrête à huit ans, pour un temps variable, avant de repartir vers le bas. Ne jamais confondre avec le jardin : le plateau est une phase, le jardin est un lieu.","02-univers/ce-qui-est-juge.md","La durée du plateau n'est fixée pour personne, et aucun chiffre ne doit être inventé."],
+["Le palier","Ancien mot du dossier pour le plateau. Proscrit.","02-univers/le-jardin.md","Vocabulaire arrêté : le jardin (le lieu), le plateau (la phase). Jamais « le palier »."],
+["Le jardin allongé","Ce que reçoit le meurtri : des années supplémentaires à huit ans, dans le seul endroit de ce monde où l'on est bien. Le supplément est proportionnel à ce qui a été pris.","02-univers/ce-qui-est-juge.md","Aucun barème n'existe et il ne faut jamais en écrire un. La longueur exacte n'est lisible nulle part."],
+["L'arrivant","Celui qui sort d'une capsule. Il a l'âge complet dans son corps et rien dans l'esprit : il ne sait pas qui il est, ne sait rien du monde, ne sait rien faire. Une seule chose est déjà là : la langue.","02-univers/le-corps-des-arrivants.md","Jusqu'où va la langue qui sort avec lui — a-t-il le mot d'une chose qu'il n'a jamais vue ?"],
+["Le porteur de voiles","Arrivant qui n'est pas en paix avec lui-même, et chez qui quelque chose n'a pas été soldé de l'autre côté. Il n'existe aucun dispositif de détection ; seuls les jeunes arrivants sont remarquables, parce que ce qu'ils disent arrive comme du contenu et non comme de la confusion.","02-univers/ce-qui-est-juge.md","On ne dit jamais « arrivant voilé » : trop connoté."],
+["Le voile","Le poids que porte celui qui arrive sans être en paix avec lui-même — un dossier à finir ou une blessure à dire. On s'en libère en parlant, et on n'obtient jamais de réponse.","02-univers/ce-qui-est-juge.md",""],
+["Le reliquat","Ce qui traverse d'un monde à l'autre : jamais un souvenir, une vocation. On ne se rappelle pas ce qu'on a été, on y retourne. Il agit sur le corps, jamais sur la pensée.","02-univers/le-corps-des-arrivants.md","On suppose, sans jamais le vérifier, que les reliquats disparaissent une fois qu'on a rejoint le jardin."],
+["La dernière grâce","Hypothèse : les reliquats disparaîtraient une fois au jardin. Le système retirerait en dernier ce qui empêchait de jouir du temps rendu.","02-univers/ce-qui-est-juge.md","Jamais confirmée, jamais vérifiable, jamais énonçable. Une seule phrase de trop en ferait une règle du monde."],
+["Une paire","Deux arrivants identiques, sortis de deux capsules voisines le même jour. C'est le mot du registre et le seul : « une paire, travée douze ». Le mot « jumeau » n'existe pas dans cette langue.","02-univers/la-ruche.md",""],
+["Le nom d'éclaircie","Le nom qu'un arrivant obtient à son arrivée, et le seul qu'il aura jamais. Au-dessus de huit ans il le produit lui-même, instinctivement, quand le veilleur le lui demande ; à huit ans et en dessous, un berceur le choisit.","02-univers/la-ruche.md","Rien ne garantit que ce soit le nom d'avant, et personne ne peut le savoir."],
+["Le numéro","Chiffre attribué par le veilleur en même temps que le nom est inscrit. Commodité administrative, rien d'autre : il n'y a pas de noms de famille et deux personnes finissent par produire le même mot. On l'écrit sans y penser.","02-univers/la-ruche.md","Suit-il l'ordre des arrivées ? Laisse-t-il un trou quand une capsule n'éclaircit pas ? Sa forme n'est pas fixée."],
+["Le portage (métier d'Eliott)","Une tournée. C'est ce qui fait passer un jeune arrivant dans les rues de ce monde-ci — et donc devant des portes qu'il n'aurait pas dû connaître.","04-plan/le-parcours-de-l-enquete.md","Ce que le portage porte, à qui, et sur quel périmètre."],
+["La chaîne","Un collier porté au cou, symbole de foi. **Le seul détail physique donné à une berceuse** — et c'est un objet, jamais un visage. *L'une berce à son rythme ; l'autre le triture au moment de tendre les mains.* **Le signe est répandu : d'autres en portent, donc il ne prouve rien — et c'est ce qui laisse le doute planer.**","décision du 16 août 2026",""],
+["Le portage (geste de la berceuse)","Porter, bercer, tenir au chaud, ne pas laisser seul une seconde. C'est jusque-là que va le métier, littéralement, en portant.","02-univers/le-jardin.md","Chante-t-elle ? S'il y a un chant, il ne doit être ni nommé ni décrit comme un rituel."],
+["Être immaculé","Se dit de quelqu'un dont le corps ne porte aucune marque. Compliment banal — « tu as de la chance, toi, tu es immaculé depuis toujours » — qui veut dire : tu as eu une vie sans accident. Tout arrivant l'est à sa venue.","02-univers/le-corps-des-arrivants.md","Une blessure prise ici s'efface-t-elle en repassant sous l'âge où elle a été prise ?"],
+["Le bizutage","Rite de service : le nettoyage de ce qui n'a pas éclairci échoit aux derniers arrivés, c'est-à-dire aux plus vieux d'aspect. Des veilleurs d'apparence adolescente laissent la raclette à un homme qui paraît soixante ans, et l'ordre est normal des deux côtés.","02-univers/la-ruche.md",""],
+["Le vétéran","Ancien du service, et mémoire vivante de la ruche. Eux seuls peuvent dire que quelque chose a changé, parce qu'eux seuls ont un point de comparaison.","02-univers/la-ruche.md","Par quel canal le chiffre des capsules sans éclaircie arrive-t-il au lecteur ? Deux occurrences, pas davantage."],
+["Le sismographe","Ce qu'est la ruche sans que personne le sache : trente capsules qui se forment et mûrissent le même jour signalent un tremblement de terre, une guerre, un naufrage. Les veilleurs voient une semaine anormale et ne comprendront jamais ce qu'ils ont vu passer.","02-univers/la-ruche.md","Le lecteur seul comprend, et rien ne doit jamais être dit."],
+["La cérémonie","Rite d'ouverture d'une capsule, devant une foule. La foule estime l'âge à vue et se trompe de quelques années ; puis le veilleur fait le relevé à l'instrument et tranche pour tous. Elle revient aux anciens du service.","02-univers/la-ruche.md","La marge entre l'estimation et le relevé se referme donc à chaque fois, et le livre s'en sert dès la première page."],
+["« Au silence »","La cellule temporaire. On fait quelques jours au silence. Le mot ne s'explique pas : il se comprend au premier emploi par le contexte.","04-plan/le-parcours-de-l-enquete.md §3.6","Le mot est neuf et n'a encore été porté dans aucun fichier de lexique du dossier."],
+["Le marginal","Celui qui déteste les arrivants jeunes et le fait savoir. Ni groupe, ni organisation, ni porte-parole : des individus, des rumeurs, des négligences, une foule un soir.","02-univers/la-jalousie.md","Le mot n'est défini dans aucune fiche du monde ; il vient du jeu de piste."],
+["Les petits princes pourris du jardin","Insulte du milieu jaloux visant les arrivants jeunes. « Petits princes » pour l'accès sans mérite, « pourris » au sens de gâtés, « du jardin » pour le lieu où eux n'iront que très tard et pour très peu de temps.","02-univers/la-jalousie.md","Où elle se dit et combien de fois."],
+["« Libérer plus tôt »","Formule du courant politique respectable qui juge cruel de faire durer une vie qui n'ira nulle part. Il ne dit jamais « tuons-les » : il le dit avec des chiffres, dans des salles, devant des gens qui hochent la tête.","02-univers/la-jalousie.md",""],
+["L'escalier","Image du décompte : naître vieux, c'est avoir tout l'escalier. Sert à décrire les chemins inégaux vers la même destination, jamais à nommer un groupe.","02-univers/la-jalousie.md",""],
+["L'élu","Fonction publique de ce monde, citée parmi ceux qui finissent au jardin comme tout le monde — d'où le pacte : ils voteraient sur le lieu où ils finiront.","02-univers/le-jardin.md",""],
+["Le pacte","Ce qui tient le tabou : chacun finira sa vie inutile et dépendant, entretenu par les autres. Avec le jardin, ce n'est plus un raisonnement mais une adresse — on sait dans quel bâtiment.","02-univers/le-jardin.md","Il ne tient plus sur une échéance connue depuis que la fin des grands chiffres est indatable. Correction en attente sur le dossier maître."],
+["La Terre","Le monde du roman : la même planète, le même nom, la même nature — mais dont l'histoire humaine a été effacée et recommencée. Ce n'est pas un monde parallèle : il n'y a qu'une seule planète.","02-univers/la-terre.md",""],
+["La guerre du Sud","Exemple d'événement de l'histoire de cette Terre, qui n'a rien de commun avec la nôtre. S'apprend par la petite porte, dans une leçon où personne n'explique rien. Voir aussi « la seconde guerre des côtes », « l'année des greniers vides ».","02-univers/la-terre.md","Le rythme des scènes d'histoire — combien de fois avant que le procédé se voie."],
+["Le bâtiment inachevé","Ambition que rien ne justifie, commencée par un arrivant qui a atteint le jardin avant de la finir. Façon retenue de suggérer les grandes figures porteuses de voiles sans nommer personne de notre monde.","02-univers/la-terre.md","Il se décrit par ce qui est là — échafaudages, grue immobile, mur qui s'arrête — jamais par ce qu'il aurait dû être."],
+["L'affaire Sorel","Nom de l'affaire des deux filles dans la vie d'avant. Un nom de famille — catégorie de mot qu'Andrew entendra sans pouvoir l'identifier. Il ne peut même pas savoir que c'est un nom, donc il ne le retient pas, ne le note pas, ne le cherche pas.","04-plan/deux-histoires-en-une.md §2.5",""],
+["La couture","Nom donné à une continuité fabriquée : Andrew se fait dire la phrase au commissariat, Joël se la rappelle devant les corps. Une seule des deux scènes est jouée, donc il n'y a aucune répétition à repérer. Le lecteur recoud deux morceaux de deux vies en un seul souvenir.","04-plan/faux-raccords.md §2 ter","C'est le seul élément du dossier qui augmente le dispositif sans rien lui prendre."],
+["La règle des retrouvailles","Ceux qui se sont aimés ont une chance de se recroiser dans la vie suivante. Le lien tient malgré l'ignorance totale des deux personnes. Ce n'est jamais systématique, et ça ne se dit jamais.","02-univers/les-ages-croises.md","La non-systématicité n'est pas négociable (interdit n° 9)."]
+];
+
+const REGLES = [
+["Ruche","LE PLAN, 19 aout 2026. La serre n'est pas une zone qu'on traverse : c'est le sol. Les quartiers - salle de repos, analystes, preparateurs - sont des batiments que les hommes ont construits DEDANS, ornementes comme le reste. La coulee passe entre eux, et il y a des capsules un peu partout.","acquis"],
+["Ruche","Les couloirs sont un ajout humain, creuses entre les quartiers pour avoir des acces moins nature - par praticite, pour deplacer les capsules.","acquis"],
+["Ruche","Le plan a la forme d'une fleur : le registre au centre comme un coeur, la serre en corolle autour, les salles de ceremonie en petales de tailles differentes qu'on ne devine qu'une fois dedans. Personne dans le livre ne le remarque jamais.","acquis"],
+["Ruche","On entre par un accueil avec des chaises, comme une salle d'attente. Le veilleur y recupere un papier avec le numero de sa salle du jour, puis prend le grand couloir - neons au plafond, banal - ou la lumiere du jour, la vegetation puis l'ornement prennent le relais a mesure qu'on avance. Pas de seuil : une cassure.","acquis"],
+["Ruche","Deux circuits. Le veilleur passe par la serre et entre dans la salle par la porte qui y donne ; les visiteurs font le tour depuis l'accueil, par un couloir qui longe le refectoire et les chambres. A la fin, les visiteurs ressortent par ou ils sont entres ; le veilleur choisit.","acquis"],
+["Ruche","La porte du fond d'une salle de ceremonie donne sur la serre. Les arrivants apercoivent la coulee pendant quelques metres avant d'entrer en consultation, et personne ne leur dit ce que c'est.","acquis"],
+["Ruche","Apres la consultation, un petit acces mene au couloir des chambres. Les arrivants s'y dispatchent dans les chambres libres et y restent huit jours - et les visiteurs peuvent venir les y voir, pas seulement assister aux ceremonies.","acquis"],
+["Ruche","L'analyste commande, le preparateur execute : l'un est le medecin, l'autre l'infirmier. L'analyste determine les capsules qui vont eclaircir et l'indique au preparateur, qui procede a la cueillie, transporte la capsule au quartier, branche les appareils et attend que l'analyste vienne. C'est un gain de temps, parce que l'analyste joue sur deux tableaux.","acquis"],
+["Ruche","Le mot cueilleur est ecarte : ce sont les preparateurs qui procedent a la cueillie. On garde la cueillie comme acte, jamais comme metier.","acquis"],
+["Ruche","On ne laisse pas une capsule aller au bout du bout. Quand elle est quasi prete, elle est encore souple, et le preparateur y taille des entailles harmonieuses pour faciliter le travail du veilleur : il prepare l'aspect final de la capsule pour la ceremonie.","acquis"],
+["Ruche","Une capsule qui eclaircit d'un coup n'a presque pas besoin de travail : son rabat est si fin qu'il pourrait ceder a tout moment, et on ne taille rien. Elle est nettoyee, branchee aux appareils, relevee, et c'est tout.","acquis"],
+["Ruche","Le preparateur pourrait regarder le visage en premier. Par principe il ne le fait pas : la decouverte appartient a la ceremonie. C'est un rituel que personne n'a ecrit et que personne n'enfreint.","acquis"],
+["Ruche","L'enceinte du registre n'est pas une piece fermee : un mur qui pourrait avoir ete sculpte, la coulee qui serpente dessus et tout autour. Les hommes y ont pose une porte massive, imposante et tres ornementee, entre la serre et lui.","acquis"],
+["Ruche","Les analystes ont des donnees theoriques, pas des appareils. Ils jugent la maturation a la couleur, notent les changements et l'intervalle entre deux relevés, et predisent plus ou moins precisement l'eclaircie. La regle « aucune technologie visible » tient : ce n'est pas de l'instrument, c'est de la serie.","acquis"],
+["Ruche","Ils predisent quand, jamais qui. L'age de celui qui sortira reste inconnu jusqu'a l'ouverture, et c'est pour ca qu'une ceremonie reste une decouverte.","acquis"],
+["Ruche","C'est ce travail-la qui permet d'annoncer une ceremonie a l'avance, donc d'avoir du public. Une capsule inopinee n'a aucune serie derriere elle : sa fiche tient en trois lignes, et le medecin des capsules est d'autant plus vigilant.","acquis"],
+["Jugement","Consequence que personne dans le livre ne verra jamais : le delai de maturation etant celui de l'agonie, les registres des analystes sont un releve exact du temps que chaque arrivant a mis a mourir de l'autre cote. Des etageres entieres. Le lecteur seul peut faire ce calcul, et rien ne doit l'y aider.","acquis"],
+["Ruche","La tenue est claire, et on en change des qu'elle est marquee. C'est une habitude, pas une consigne - et c'est ce qui arme le « tu aurais pu changer de tenue ! » de la seconde ceremonie : ce veilleur-la n'a pas fait ce que tout le monde fait.","acquis"],
+["Ruche","L'ecusson de la ruche fonctionne comme un caducee : c'est un signe d'appartenance reconnu de tous, dedans comme dehors. Consequence a exploiter - Andrew est identifiable dans la rue, et ca lui ouvre des portes qu'aucun mandat ne lui donnerait pendant l'enquete sauvage.","provisoire"],
+["Corps","Andrew ne peut porter aucune cicatrice : il est arrive il y a dix ans et le corps est immacule a l'arrivee. Les cicatrices aux mains et pres du sourcil appartiennent a Joel, et a lui seul. Le meme homme decrit deux fois, et la seule difference entre les deux portraits, ce sont les marques.","acquis"],
+["Jalousie","La premiere trace du courant jaloux est en page une, et c'est un souffle : quelqu'un expire par le nez quand on annonce dix ans, et personne ne se retourne. Interdit n.8 tenu a la lettre - pas un groupe, pas un porte-parole, une expiration.","acquis"],
+["Ruche","L'assemblee n'est donc pas unanime devant un arrivant jeune. La plupart s'emerveillent, un s'agace, et le livre ne revient jamais sur ce souffle-la.","acquis"],
+["Ruche","Le public d'une ceremonie n'a pas d'age commun, et c'est le seul endroit du livre ou l'inversion se voit sans qu'on la nomme : celui qui parait vingt-cinq ans est le plus ancien de la salle, il connait tout le monde et il appelle chacun par son prenom.","acquis"],
+["Ruche","Un arrivant de dix ans surprend l'assemblee. Ce n'est pas commun, et ceux qui sont la sont pour la plupart arrives grands. La surprise tient en une replique, jamais davantage : on repete le chiffre, et on dit qu'on n'en a jamais vu d'aussi jeune.","acquis"],
+["Ruche","Deux marches basses courent le long du mur de la salle de ceremonie, pour ceux de derriere. On s'y assoit ou on reste debout ; il n'y a ni estrade, ni rangees de chaises pour le public.","acquis"],
+["Nom","Les mots d'apparence physique passent : un gars, un garcon, une femme, une fille, une fillette. Decision de l'autrice, 18 aout 2026 - ce sont des attraits qui touchent le physique, la taille en general. C'est la categorie sociale ou d'age qui est interdite, jamais la matiere.","acquis"],
+["Nom","Ce qui ne passe pas, en plus des mots de parente : enfant, bebe, nourrisson, vieux, vieille, vieillard, senior. Chacun suppose une place dans une lignee ou une direction dans une vie, et ni l'une ni l'autre n'existent ici.","acquis"],
+["Ruche","On dit un coulant pour un brin, la coulee pour la masse. Decision de l'autrice, 18 aout 2026 : ligne etait trop plat, et coulee ne convient pas a une plante qui rampe. Le mot vient du jardinage - le rejet qui part du pied et va faire racine plus loin.","acquis"],
+["Ruche","Les salles de ceremonie portent un numero, pas un nom. La salle 4, la salle du bas. Ecrit en chiffre.","acquis"],
+["Ruche","Apres le nom vient le pichet, et c'est un usage dont personne ne sait dater l'origine : on dit que la premiere eau emporte ce qui reste du sommeil, et que personne ne peut aller le chercher a sa place. Ceux qui n'y croient pas regardent quand meme - c'est le seul moment ou l'on voit un corps faire une chose que personne ne lui a apprise.","acquis"],
+["Ruche","On replie le rabat d'un quart, et pas davantage : le visage, la gorge, le haut des epaules. Le reste attend le second veilleur. Ce n'est pas de la pudeur, c'est l'ordre du rite - le miroir et le nom viennent avant le corps.","acquis"],
+["Ruche","Les prelevements de gelatine ne se font qu'une fois, et c'est le premier veilleur qui les fait - decision de l'autrice, 18 aout 2026 : c'est un geste important, et il ne se delegue pas. Il remplit ses flacons a meme le voile qu'il vient d'oter, apres le nom et avant de passer a la capsule suivante.","acquis"],
+["Ruche","Le second veilleur ne fait donc que finir : il ote le rabat en entier, decolle ce qui reste de gelee aux plis, aide a sortir, habille et installe a la table.","acquis"],
+["Ruche","Une ceremonie annoncee reunit une vingtaine de personnes. Une ceremonie montee dans la journee, faute d'avoir pu prevenir, en reunit une douzaine - et elles tiennent toutes sur un seul cote de la salle.","acquis"],
+["Ruche","Un poste, c'est une lampe sur pied a hauteur d'epaule orientee vers le sol, un miroir sur pied roulant a frein, et une bassine avec ses flacons. La table porte une nappe blanche, un chemin de table orange, un pichet, et devant chaque place un verre, une timbale et un biberon - on ne sait pas qui va sortir, et on ne parie pas.","acquis"],
+["Corps","Un arrivant qui parle de travers a son reveil, ca arrive, et ce n'est pas systematique. La langue sort avec lui et tourne a vide un moment avant de se poser sur quelque chose. Il n'y a rien a comprendre ; juste a attendre.","acquis"],
+["Ruche","La serre est la zone ou serpente la coulee, autour de la salle du registre. Decision de l'autrice, 17 aout 2026. Les preparateurs en viennent, et c'est ce qui explique qu'on ne les croise nulle part ailleurs : ils ont toujours l'air de sortir d'ailleurs.","acquis"],
+["Ruche","C'est l'ouverture du rabat qui active le corps. Tant qu'il est en place, rien ne bouge ; des qu'on le replie, la lumiere entre et le corps remonte. Personne dans le livre ne l'explique.","acquis"],
+["Ruche","Rien de la capsule n'est dur ni cassant. Elle a pousse, elle est asymetrique, et le rabat qu'on lui a decoupe se plie comme un cuir souple. Aucun vocabulaire de mecanique ne doit s'en approcher.","acquis"],
+["Ruche","D'ou le tempo du metier : une capsule a maturite ne se garde pas, mais rien n'est urgent. On ne court pas, on ne s'assoit pas non plus. C'est une question d'organisation, jamais de danger.","acquis"],
+["Ruche","Une capsule inopinee n'a rien pu etre suivi en amont : sa fiche tient en trois lignes, sans duree de maturation. Le veilleur y porte l'aspect, l'etat du voile et l'heure, et laisse l'age pour l'instrument.","acquis"],
+["Ruche","L'ornement s'arrete et la coulee prend le releve, sur la meme colonne. C'est l'image qui porte toute la regle : on ne sait pas laquelle des deux a copie l'autre.","acquis"],
+["Corps","Une mort brutale ne laisse aucun delai de maturation : la capsule arrive le jour meme. C'est ce qui s'est passe pour Joel et pour le tueur des jumelles, morts ensemble dans le carambolage.","acquis"],
+["Ruche","On traverse l'ornement dans la penombre, et on debouche sur la clarte. Les passages sculptes sont sombres et satures ; les travees, les salles de ceremonie et l'epicentre sont baignes de lumiere. C'est un meme trajet, pas une contradiction.","acquis"],
+["Ruche","Tout ce qui est figuratif est humain : les dieux, les animaux, les creatures, les visages qui portent les arches. Rien dans l'epicentre ne l'est - des steles, des gravures, une coulee de racines. Le contraste entre les deux est le sujet du lieu.","acquis"],
+["Ruche","L'ornement imite ce qu'il entoure : le batiment n'a pas l'air d'avoir ete construit, il a l'air d'avoir lentement pousse.","acquis"],
+["Jugement","Le registre de l'epicentre n'enregistre que l'arrivee, et pas une ligne par personne : une ligne par lot de capsules arrivees en meme temps. Une annee, un age, et c'est tout.","acquis"],
+["Jugement","Ce qu'on y lit, ce sont donc des evenements, pas des individus. Une ligne a vingt-six est un accident ; une ligne a deux est une paire ; une ligne seule est quelqu'un qui est parti sans personne.","acquis"],
+["Jugement","Les jumelles ont leur ligne, et Andrew a la sienne : elles sont arrivees ensemble, lui une heure plus tard et tout seul.","acquis"],
+["Jugement","Une capsule qui n'eclaircit pas ne laisse aucune ligne. Personne n'est arrive, donc il n'y a rien a inscrire - et c'est le seul endroit du monde ou une absence est parfaitement silencieuse.","acquis"],
+["Ruche","On nettoie vite une capsule qui n'a pas eclairci, pour ne pas contaminer les autres. C'est une croyance de metier, pas une consigne d'hygiene, et personne ne l'a jamais verifiee.","acquis"],
+["Ruche","L'analyste a le dernier mot sur la date, et le preparateur l'accepte sans discuter. Ce n'est pas une hierarchie : personne ne commande a personne dans ce batiment. C'est que c'est son metier et qu'elle l'a appris par coeur - observer, reconnaitre, comparer, predire. Une main posee ne remplace pas une serie ; elle ne la contredit pas non plus.","acquis"],
+["Ecriture","Un age d'arrivee rappele apres coup ne doit jamais s'accompagner d'une duree chiffree. Deux nombres et un intervalle donnent une vitesse, une vitesse donne un bareme, et l'interdit n.3 tombe dans la meme phrase. Au chapitre premier, l'Archiviste a compte soixante-seize ans a un homme qui en parait moins, et on ne dit pas depuis quand : le lecteur voit la descente et ne peut pas la chiffrer.","acquis"],
+["Societe","L'anciennete se lit a l'envers sur les visages : dans un service, les plus anciens du metier sont aussi ceux qui ont l'air les plus jeunes, et la sale besogne va au dernier entre - donc a celui qui parait le plus age. Personne ne le remarque, personne ne l'explique. C'est enonce une fois au chapitre premier, a plat, et jamais commente ailleurs.","acquis"],
+["Ecriture","Une capsule non eclaircie ne se decrit jamais comme une capsule ratee. Decision de l'autrice, 19 aout 2026 : dire qu'elle est restee sombre, qu'elle n'a pas muri, qu'elle a echoue, c'est encore lui accorder d'avoir muri quelque part. Elle n'a pas rate une maturation : il n'y en a jamais eu. Le texte ne doit rien lui preter de la capsule - ni forme, ni nervure, ni duree.","acquis"],
+["Langue","On ne renomme pas les metiers ordinaires. Une secretaire est une secretaire, un medecin un medecin. Le monde a deja ses mots a lui - le veilleur, l'analyste, le preparateur, l'arrivant, la cueillie - et il est bien assez complet comme ca : renommer en plus ce qui existe deja chez nous rendrait le livre illisible sans rien gagner. Decision de l'autrice, 19 aout 2026.","acquis"],
+["Langue","Le mot peau ne s'ecrit nulle part, pas meme pour un fruit. Decision de l'autrice, 19 aout 2026 : rien de ce qui recouvre une capsule ou ce qui en sort ne doit laisser croire qu'il y a quelqu'un dedans. On dit la pelure d'un fruit, une membrane a la surface. Le controleur du document le refuse desormais.","acquis"],
+["Ruche","Une serie ne dit rien de son premier point : un point seul sur un graphique vierge ne se lit pas. Il en faut quatre au minimum pour chiffrer le jour d'une eclaircie totale, et l'analyste releve deux fois par jour - d'ou les deux jours qu'elle demande avant de se prononcer. Toutes les capsules n'arrivent pas a maturation de la meme maniere : c'est en croisant des moyennes, des chiffres accumules sur des annees et les releves faits sur place qu'on finit par savoir. Une capsule decouverte tard est donc une capsule sans date, quoi qu'on fasse.","acquis"],
+["Ruche","On oublie des capsules, et on les retrouve. Il y en a des dizaines de milliers dans le batiment, elles poussent ou elles poussent, et certaines sont au ras du sol sous les autres. Rien d'extraordinaire a ce qu'une travee en compte une de plus qu'hier.","acquis"],
+["Ruche","Les sculptures ne se decrivent jamais deux fois avec les memes elements. Les colonnes de la salle de ceremonie portent des feuilles, des tiges, des grappes, et dans les feuilles des corps et des visages tournes vers le milieu de la piece. Le grand couloir, lui, porte des bandes horizontales, des scenes minuscules, des entrelacs et un second plan taille plus profond. Le complexe est orne partout ; chaque endroit doit l'etre autrement.","acquis"],
+["Ruche","Les salles de ceremonie ne sont pas accolees aux pieces de collecte, mais elles n'en sont pas loin. Une odeur y arrive sans qu'on sache d'ou elle vient.","acquis"],
+["Administration","Tout le reste est de la paperasse ordinaire, tenue par des gens : affectations, services, dossiers medicaux, jardin sous secret. C'est faillible, ca se perd, ca se trompe - et c'est la que travaille reellement un enqueteur.","acquis"],
+["Jugement","Consequence : la seule chose au monde qui ne mente jamais ne dit qu'un fait sur vous, celui que vous etes arrive. Tout le reste est humain.","acquis"],
+["Jugement","La salle du registre est l'epicentre : c'est de la que sortent les capsules. Un sac de racines y est ancre tout autour, et la coulee part de la pour courir dans le reste du complexe.","acquis"],
+["Jugement","C'est une salle ouverte, presque une clairiere : des arbres, des steles, des gravures. Ca donne un aspect de ruine abandonnee sans que ce soit une ruine - et c'est l'homme qui a voulu conserver l'epicentre comme quelque chose de sacre.","acquis"],
+["Jugement","L'epicentre n'est pas ferme au public : il est separe du reste du complexe par de la construction humaine. On pourrait y entrer. Presque personne ne le fait, parce qu'il y a beaucoup de croyance autour et parce qu'une personne ordinaire ne saurait pas lire le lieu.","acquis"],
+["Jugement","Un veilleur connait la piece par coeur. Il sait ou regarder, ce qu'il faut lire, et il sait quand quelque chose a bouge. C'est ca, lire le registre.","acquis"],
+["Ruche","Les capsules vides sont un dechet clinique. On les etudie, puis on s'en debarrasse, et personne n'y pense - exactement comme un placenta apres un accouchement. La gelatine conservee suit le meme regime.","acquis"],
+["Ruche","Le public vient parce qu'il le veut bien, pour celebrer une arrivee - et aucun lien ne se fait entre lui et les arrivants. On ne vient pas pour quelqu'un en particulier, on vient pour l'evenement.","acquis"],
+["Ruche","Une capsule qui surgit d'un coup ne veut pas dire une salle vide : il y a moins de monde, c'est tout, et c'est seulement une question d'avoir prevenu plus tot ou pas. Ceux qui sont la constatent qu'il y en a un de plus, et rien d'autre.","acquis"],
+["Ruche","La vegetation est une meme ligne qui s'enchevetre un peu partout dans le complexe. Pas de tronc, pas de coeur, pas d'organe central : on ne peut designer aucune chose et dire que c'est elle qui produit.","acquis"],
+["Ruche","Les capsules reposent a l'horizontale sur cette ligne, en attente d'etre cueillies - l'image juste est un champ de courges ou de melons, pas une soute de vaisseau. C'est pour ca qu'on les decroche : on les detache de la coulee qui les porte.","acquis"],
+["Ruche","Elles sont alignees en travees, et le mot est litteral : des rangs de culture sous une halle. C'est ainsi qu'on les designe entre veilleurs - travee neuf, travee quarante.","acquis"],
+["Ruche","Pour la ceremonie, la capsule est amenee et maintenue dans une verticalite presque complete. Le passage de l'horizontale a la verticale est le dernier geste avant l'ouverture, et c'est le seul moment ou une capsule se redresse.","acquis"],
+["Corps","Le delai de maturation d'une capsule est celui de l'agonie dans l'autre monde. Une mort lente donne une capsule qui met longtemps a murir ; une mort brutale donne une capsule qui surgit d'un coup.","acquis"],
+["Ruche","Une capsule inopinee n'a pas besoin d'etre preparee a l'ouverture : elle tient a si peu qu'elle pourrait s'ouvrir seule, sans l'aide de personne. Le preparateur se contente de brancher les machines de controle.","acquis"],
+["Ruche","Quand une capsule surgit juste avant une ceremonie deja prevue, on ne monte pas une seconde ceremonie : on l'ajoute a celle qui existe. Un poste de plus, et c'est tout. Bloquer deux salles pour un seul arrivant ne se fait pas.","acquis"],
+["Jugement","Le registre n'est pas un livre, c'est une piece. Un ensemble complexe que les veilleurs ont appris a lire avec le temps : a chaque capsule sa ligne, gravee quelque part, une annee, un age.","acquis"],
+["Jugement","Le registre est au centre du complexe, pas au fond - le plan du 19 aout 2026 tranche. Le nom d'Archiviste ne vient donc pas de son eloignement mais de ce qu'on y trouve : une piece ou apparaissent des lignes que personne n'a tracees.","acquis"],
+["Jugement","Le registre ne ment pas, et ce n'est pas un article de foi : c'est un constat. Les lignes s'inscrivent, personne ne les ecrit, et personne ne peut ecrire a la place de celui qui les ecrit. On ne sait pas qui sait.","acquis"],
+["Jugement","On ne voit pas l'Archiviste. Dans leur foi, il existe - et la seule chose qui l'atteste est une piece ou apparaissent des lignes que personne n'a tracees.","acquis"],
+["Jugement","Rien ne doit jamais etre inscrit en toutes lettres sur les murs de la ruche. La doctrine ne se grave pas : elle se constate dans une piece fermee au public.","acquis"],
+["Ruche","Le mot ruche ne vient pas des abeilles : il vient de ce qui s'y passe. Beaucoup de metiers s'y croisent - veilleurs, preparateurs, medecins des capsules, assistants, berceurs commis d'office, le service qui prend le relais - et tous n'ont qu'un objectif, accueillir les capsules.","acquis"],
+["Jugement","On dit que les capsules sont envoyees par l'Archiviste. C'est une doctrine, pas un fait : personne n'a jamais rien vu envoyer quoi que ce soit, et le livre ne confirmera jamais qu'il existe.","acquis"],
+["Jugement","Le registre ne ment pas. C'est la phrase qui tient le metier, et c'est un article de foi avant d'etre une methode : si l'Archiviste envoie, le registre enregistre - et ce qui est ecrit est vrai parce que ca a ete ecrit.","acquis"],
+["Ruche","La ruche n'a pas ete concue puis batie : elle a ete batie autour. Il y avait la un endroit ou les capsules apparaissaient, et une vegetation qui y poussait ; les hommes ont construit tout autour et accepte de partager la place avec elle.","provisoire"],
+["Ruche","C'est ce qui explique tout le reste : on n'orne pas un entrepot, on orne un lieu qu'on ne comprend pas. La vegetation interieure n'est pas un decor rapporte, c'est ce qui etait la avant - et personne ne l'a arrachee.","provisoire"],
+["Ruche","Une capsule tient a mi-chemin entre une coque de fruit et une chrysalide. A maturite, elle est sur le point de s'ouvrir - et l'eclaircie, c'est le moment de l'ouvrir avant qu'elle ne se derobe sous son propre poids.","acquis"],
+["Ruche","Toutes les capsules sont identiques de l'exterieur. On ne peut pas juger la taille de qui est dedans, donc personne ne sait quel age va sortir. Une ceremonie est une decouverte, exactement comme une naissance.","acquis"],
+["Ruche","Une capsule qui grandit lentement laisse le temps d'annoncer l'evenement : il y a du public. Une capsule qui surgit d'un coup n'en laisse pas : il y a moins de monde.","acquis"],
+["Ruche","A maturite, on decroche la capsule et on l'envoie dans un autre service. La, chirurgicalement, on procede a l'ouverture puis on remet le rabat en place, ou il reste jusqu'a la salle de ceremonie.","acquis"],
+["Ruche","Dedans, la silhouette se distingue mal : la peau se confond avec le fond de la capsule. Le corps est recouvert d'un voile gelatineux orange qui s'enleve sans couler, et il est place comme dans une position confortable.","acquis"],
+["Ruche","C'est le seul endroit du monde ou l'on branche des machines : dans ce service, pour surveiller l'evolution d'une capsule ouverte et preparee. Nulle part ailleurs, et jamais dans une salle de ceremonie.","acquis"],
+["Ruche","Les preparateurs accompagnent la capsule de l'ouverture chirurgicale jusqu'a la salle. C'est le role qu'ont chez nous ceux qui accompagnent une femme jusqu'au bloc, et il s'arrete a la porte.","acquis"],
+["Ruche","Ce sont les preparateurs qui indiquent le nombre d'arrivants attendus, et ca reste une estimation. Le veilleur agit et se prepare en fonction : c'est sur ce chiffre-la qu'il choisit sa salle et compte ses postes.","acquis"],
+["Ruche","Le chiffre peut donc changer jusqu'au dernier moment. Une capsule qui surgit une heure avant ajoute un poste a une ceremonie deja prete - c'est exactement ce qui est arrive a Andrew.","acquis"],
+["Ruche","Un poste par capsule : un miroir sur pied roulant, une lumiere, une bassine. Au centre de la salle, une tablee avec un pichet d'eau et des verres tout autour. Le veilleur choisit la salle selon le nombre d'arrivants et l'installe avant que les capsules arrivent.","acquis"],
+["Ruche","Tout se dimensionne sur le nombre d'arrivants : plus il y en a, plus on selectionne une grande salle de ceremonie, et plus il y a de veilleurs. Une ceremonie a deux et la ceremonie des vingt-six ne se ressemblent en rien, sans qu'un seul geste du rituel change.","acquis"],
+["Ruche","Il y a toujours deux veilleurs au minimum, meme pour une seule capsule. Le premier ouvre et eveille ; le second prend le relais derriere lui, et des assistants les rejoignent au besoin.","acquis"],
+["Ruche","Le premier regard d'un arrivant se porte sur son propre visage. Le veilleur deplace le miroir en biais pour que ce soit le cas - c'est sa propre rencontre, et c'est le premier geste du rituel.","acquis"],
+["Ruche","Le veilleur profite du temps d'egarement pour faire le releve a l'instrument et noter l'etat de la capsule. Puis il attend que le regard se porte sur lui : c'est le signe qu'on peut lui parler.","acquis"],
+["Ruche","L'instrument est etrange pour qui ignore a quoi il sert, banal pour qui sait le manier. Il ne se decrit jamais plus que ca.","acquis"],
+["Ruche","On demande alors a l'arrivant le mot par lequel il veut qu'on l'appelle. Il repond d'instinct, et c'est la qu'on decouvre sa voix.","acquis"],
+["Ruche","Le second veilleur ote le rabat en entier, nettoie le tour du corps, aide a sortir, enveloppe dans une serviette de ceremonie percee d'un trou pour la tete, et installe l'arrivant a la tablee. Les prelevements, eux, ont deja ete faits par le premier.","acquis"],
+["Ruche","Un arrivant tres jeune n'est pas porte par un veilleur mais par un berceur commis d'office, qui le prend dans ses bras et vient s'asseoir avec lui a la tablee.","acquis"],
+["Ruche","Second temps : le veilleur passe avec le pichet et remplit les recipients, qui dependent de l'age - un verre, une timbale, un biberon. C'est la premiere action de leur vie, et le premier apaisement apres ce qui ressemblait a un long sommeil sans reve.","acquis"],
+["Ruche","Le public vient ensuite deposer au centre de la table des cadeaux de bienvenue, souvent en accord avec sa croyance : des choses censees apporter joie, paix et bonheur. Puis il quitte la piece.","acquis"],
+["Ruche","Le travail du veilleur s'arrete la. Les preparateurs reprennent les capsules et les bassines et vont les deposer dans une autre section.","acquis"],
+["Administration","Ce sont les donnees relevees pendant la ceremonie qui font qu'une personne est reconnue - l'equivalent d'un passage en mairie apres une naissance. C'est le veilleur qui en a la charge, et il est la derniere personne a quitter la salle.","acquis"],
+["Administration","Un autre metier prend alors le relais. L'arrivant a une premiere visite medicale, puis plusieurs dans la semaine, et il reste huit jours a la ruche avant d'etre guide ailleurs.","acquis"],
+["Corps","L'analyste et le medecin des capsules sont un seul metier, et on dit analyste - decision de l'autrice, 19 aout 2026. Comparaison donnee par elle : un gynecologue. Il suit la gestation de la capsule, puis le post-partum de l'arrivant.","acquis"],
+["Corps","La qualite de la gelatine et le bel aspect de la capsule sont des informations cliniques, rien de plus : l'equivalent de ne par voie basse ou par le siege. Ca figure au dossier medical et ca revient dans les visites.","acquis"],
+["Corps","L'analyste est d'autant plus vigilant quand une capsule est arrivee d'un coup : elle n'a pas pu etre etudiee en amont.","acquis"],
+["Corps","L'ouverture provoque un reflexe pupillaire - la fraicheur du dehors, le trop-plein de lumiere. L'arrivant se reveille perdu, comme on se reveille d'un sommeil profond.","acquis"],
+["Ruche","Le style est celui d'un sanctuaire : une ornementation tres travaillee, tout en courbes et en arabesques, sculptee. Reference de l'autrice : le Sanctuaire de la Verite de Pattaya. Quelqu'un a bati ce lieu avec un soin demesure, et ca se voit partout.","acquis"],
+["Ruche","De la vegetation a l'interieur, partout, mais maitrisee. Reference de l'autrice : la fin de Passengers, ou la nature reprend ses droits sur l'architecture - sauf qu'ici elle ne les reprend pas, on les lui donne. C'est un environnement tenu.","acquis"],
+["Ruche","Le lieu semble tres ouvert et ne l'est pas. C'est un complexe immense et ferme, et c'est cette contradiction qui produit le temps suspendu : on n'en sort pas, et on n'a aucune envie d'en sortir.","acquis"],
+["Ruche","Aucune technologie visible. Pas d'ecran, pas de mesure, pas d'appareillage. La maturite d'une capsule se lit a l'oeil et a la main, comme un maraicher reconnait un fruit pret - c'est ce qui donne son sens au metier de veilleur.","acquis"],
+["Societe","Ce monde a bati un sanctuaire pour ceux qui arrivent, et une institution pour ceux qui s'en vont. La ruche est sacree, le jardin est administre. Personne ne remarque l'asymetrie et le livre ne la souligne jamais.","acquis"],
+["Ruche","Ce n'est pas une ruche d'abeilles, et l'image ne doit jamais etre convoquee. Ni alveoles, ni essaim, ni bourdonnement, ni reine. Le mot est un nom d'usage, pas une metaphore filee.","acquis"],
+["Ruche","C'est un batiment entier, ferme, du genre d'un grand entrepot : de longs couloirs, plusieurs pieces de collecte ou les capsules sont a des degres divers de maturation, et de grandes salles pour les ceremonies.","acquis"],
+["Ruche","Beaucoup d'ouvertures, une belle luminosite, l'air frais et un passage du vent - la fraicheur d'un monastere. L'impression a produire est organique : la serenite d'une foret, le son des feuilles quand on s'y promene.","acquis"],
+["Ruche","Le nombre de salles utilisees depend du nombre d'eclaircies estimees pour le meme jour. Une ceremonie a deux arrivants et la ceremonie des vingt-six ne se tiennent pas au meme endroit.","acquis"],
+["Ruche","Le temps y est suspendu, exactement comme dans une maternite : ceux qui sont dedans ne sont plus tout a fait dans le monde, et rien d'autre ne compte pendant qu'ils y sont. C'est un lieu de paix totale.","acquis"],
+["Ruche","Des visiteurs viennent accueillir les nouveaux arrivants, comme la parente vient voir un nouveau-ne dans l'autre monde. Qui ils sont et comment ils sont designes n'est pas encore tranche.","provisoire"],
+["Societe","Les deux bouts de la vie ne se melangent pas, et ce n'est pas un interdit : c'est un usage. On ne croise pas de petits a la ruche, comme on ne croise pas de personnes agees dans une maternite. Personne ne l'a decide, personne ne le formule.","acquis"],
+["Societe","La maternite de ce monde est donc pleine de gens qui ont l'air vieux. Le lecteur l'a vu des la premiere page sans qu'on le lui nomme, et on ne le lui nommera jamais.","acquis"],
+["Jardin","Les visites vont dans les deux sens. On peut venir au jardin, et les petits en sortent accompagnes - Eliott peut donc aller voir June, qui habite a cote. Aller voir Andrew serait bien plus rare : il travaille a l'autre bout de la vie.","acquis"],
+["Jardin","Le jardin n'est pas ferme. Comme on croise dans nos rues des personnes agees accompagnees d'un soignant, on croise ici des petits accompagnes de leur berceur - au marche, dans un parc, sur un trottoir. Personne ne s'en etonne et personne ne les regarde.","acquis"],
+["Jardin","C'est une petite ville dans une grande, mais elle n'a pas tout le necessaire. Des equipes entrent pour l'entretien, d'autres livrent les repas prepares a l'exterieur. Il passe la grille plus de gens en une journee qu'on ne l'imagine en voyant le mur.","acquis"],
+["Jardin","Le modele a garder en tete pour tout ce qui touche au jardin est celui d'une ecole de petite enfance : des sections, des responsables, des sorties, des livraisons, des horaires, une rentree. Rien d'un hospice et rien d'un mouroir.","acquis"],
+["Jardin","Le mur n'est donc pas une frontiere, c'est une adresse. Y entrer n'est pas disparaitre - on en sort accompagne, et on peut y recevoir de la visite.","acquis"],
+["Ruche","Pendant la ceremonie, le veilleur tend un miroir a l'arrivant pour qu'il fasse connaissance avec sa propre apparence. Personne n'explique pourquoi et personne ne s'en etonne : c'est un geste du protocole, au meme titre que la couverture.","acquis"],
+["Nom","Jeune, rajeunir, plus jeune : mots ordinaires, jamais tabous. Ils decrivent le physique et rien d'autre. Plus vieux s'evite, jeune ne s'evite pas. Jeune arrivant passe ; enfant reste interdit.","acquis"],
+["Nom","Adulte ne veut rien dire ici et le livre ne l'emploie pas. Quelqu'un qui parait quarante ans peut etre arrive le mois dernier. On nomme les gens par leur metier - un berceur, une veilleuse, un responsable - ou par rien du tout.","acquis"],
+["Jardin","De la ville, on ne voit qu'un mur. Une enceinte haute au crepi creme, et rien d'autre. Le jardin est immense - de l'ordre d'un grand parc urbain - et il n'a donc pas une entree mais plusieurs grilles, disseminees tout du long.","acquis"],
+["Jardin","Une grande allee serpente le long de l'enceinte, cote ville : des bancs, des poubelles, des arbres. C'est un lieu de passage ordinaire, et c'est la que se font les arrivees, les attentes et les adieux. Le dehors du jardin est d'une sobriete totale.","acquis"],
+["Jardin","De l'autre cote du mur, c'est une seconde ville. Des allees, de vrais jardins, des zones betonnees, des aires de jeu. Beaucoup d'arbres, beaucoup d'ombre, un air plus frais qu'en ville.","acquis"],
+["Jardin","Les murs ne sont creme que du dehors. A l'interieur, des fresques courent tout du long - peintes a hauteur de main, avec des proportions qui ne tiennent pas et des soleils qui ont un visage. On ne dit jamais qui les a faites.","acquis"],
+["Jardin","On y trouve des baraques a velos et a tricycles, plusieurs lotissements qui logent ensemble les petits et leurs berceurs, un centre pediatrique au milieu avec son parking, des salles de jeu, et un gymnase equipe de tapis et d'obstacles en mousse.","acquis"],
+["Jardin","Aucune de ces salles ne porte un nom qui dirait a quoi elle sert. Ni eveil, ni developpement, ni apprentissage : ces mots supposent une direction que ce monde ne prend pas. On dit la salle des tapis, le gymnase, les salles de jeu.","acquis"],
+["Jardin","Le personnel est nombreux et specialise : responsables d'accueil, de dortoir, de section, responsables pediatriques. Le jardin s'administre comme une institution, pas comme un refuge.","acquis"],
+["Jardin","Une entree au jardin ressemble a une rentree scolaire, et c'est exactement le registre a tenir. De petits groupes attendent sur l'allee pres d'une grille, chacun avec son berceur ou sa berceuse - et pas systematiquement un pour un, certains en accompagnent plusieurs.","acquis"],
+["Jardin","On y entre a tout age de zero a huit ans, mais la grande majorite des entrants ont huit ans. Les autres sont arrives en dessous et grandissent vers le haut.","acquis"],
+["Jardin","La grille s'ouvre a l'heure dite. Un responsable de zone sort, suivi d'un nombre de berceurs calcule par l'administration sur le nombre d'entrees prevues. Il n'y a ni discours ni ceremonie : on ouvre, et on entre.","acquis"],
+["Société","Andrew n'a pas de voiture et fait toute la ville à pied, la ruche comprise. Les seules fois du livre où il monte dans une voiture, c'est Isaac qui a proposé de l'emmener quelque part — le lieu de travail d'Eliott, le jardin, l'homme chez lui. Donc quand Isaac s'en va, ce n'est pas la marche qui commence : c'est le rayon qui se referme sur ce qu'on atteint à pied.","acquis"],
+["Décompte","Tout le monde revient à l'âge où il est parti : l'âge d'arrivée est l'âge de mort, sans exception et sans correctif.","acquis"],
+["Décompte","Tout le monde converge vers huit ans — en descendant si l'on arrive au-dessus, en grandissant si l'on arrive en dessous. Huit ans n'est pas un plancher, c'est un point de convergence.","acquis"],
+["Décompte","On ne régresse jamais en dessous de son âge d'arrivée : un arrivant de deux ans ne redescend pas vers zéro, il monte jusqu'à huit.","acquis"],
+["Décompte","La croissance sous huit ans se fait à 1:1, un an par an. C'est la seule vitesse du système qui ne dépende pas du chiffre d'arrivée.","acquis"],
+["Décompte","La descente se fait à une marche par an au-dessus de cinquante ans, et à environ trois ans par marche chez les jeunes arrivants. Plus on arrive haut, plus on descend vite.","acquis"],
+["Décompte","La vitesse est fixée à l'arrivée, une fois pour toutes, et ne se recalcule jamais. Andrew descendra d'un an par an y compris quand il en aura vingt.","acquis"],
+["Décompte","Une vie a trois temps : l'approche vers huit, le plateau, la fin jusqu'à zéro. Jamais deux des trois.","acquis"],
+["Décompte","On meurt à zéro. On ne perd pas son innocence : on la regagne, et on disparaît dedans.","acquis"],
+["Décompte","Personne ne vit moins de quarante ans. Le plancher est public et il ne se discute pas ; c'est un minimum, jamais une norme.","acquis"],
+["Décompte","La fin est certaine pour les petits chiffres et incertaine pour les grands. Les seuls dont la vie est garantie sont ceux qui n'en sauront jamais rien.","acquis"],
+["Décompte","Personne ne peut dater sa fin. Ni compte à rebours, ni durée annoncée, ni régularité observable.","acquis"],
+["Décompte","La zone intermédiaire, entre huit et cinquante ans, n'est pas chiffrée — et le dossier refuse de la chiffrer.","ouvert"],
+["Décompte","Le plancher d'arrivée n'est pas tranché, et il se heurte à une contradiction : on sort de la capsule en sachant parler, mais la parole se dégrade vers quatre ans. Les deux règles ne peuvent pas être vraies ensemble sous quatre ans.","ouvert"],
+["Corps","On ne naît pas bébé : on naît à un âge, et cet âge est l'âge réel, corps et esprit ensemble. Le corps est l'âge.","acquis"],
+["Corps","Le corps est immaculé à l'arrivée. Ce n'est pas une guérison : le corps n'a jamais eu la blessure. Une marque, ici, ne peut dater que d'ici.","acquis"],
+["Corps","L'arrivant sort vide : il ne sait pas qui il est, ne sait rien du monde, ne sait rien faire. Il faut tout lui apprendre, à commencer par tenir une cuillère.","acquis"],
+["Corps","La langue est déjà là, et elle est la seule chose qui le soit. Ce qu'il n'a pas, c'est ce à quoi les mots se rapportent.","acquis"],
+["Corps","L'esprit n'est pas vide comme celui d'un nourrisson : il est embrumé, comme après un long sommeil. Un nourrisson n'a pas encore d'esprit ; un arrivant a un esprit qui n'est pas encore revenu.","acquis"],
+["Corps","En descendant, la parole se dégrade vers quatre ans. Elle est la première chose donnée et la dernière reprise.","acquis"],
+["Corps","Tout se renverse physiologiquement : la vigueur et la force montent, les capacités cognitives suivent. Descendre n'est jamais s'affaiblir — on n'arrive pas à huit ans épuisé, on y arrive intact.","acquis"],
+["Corps","Chez celui qui arrive sous huit ans, rien ne se renverse : il grandit à l'endroit. Il n'a pas de reconquête à faire, parce qu'il n'a rien perdu.","acquis"],
+["Corps","Tout le monde est stérile. Aucun corps ne produit d'enfant : la ruche est la seule source d'arrivées.","acquis"],
+["Corps","Une blessure prise ici s'efface-t-elle en repassant sous l'âge où elle a été prise, ou reste-t-elle ? Le choix engage le registre entier du livre.","ouvert"],
+["Jugement","L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié. Trois entrées, et rien d'autre n'y est inscrit.","acquis"],
+["Jugement","Ce qui est jugé, c'est la vie, pas la mort. La manière dont elle s'est terminée n'entre jamais dans le calcul.","acquis"],
+["Jugement","La mort est la porte, pas la sentence. Mourir jeune n'est pas un verdict, mourir vieux n'est pas une récompense.","acquis"],
+["Jugement","La seule chose que le verdict décide, c'est la longueur du plateau.","acquis"],
+["Jugement","La condamnation empêche d'arriver : l'irréparable ne reçoit pas un mauvais jardin, il ne reçoit rien. Il n'y a pas de bas de barème, il y a une porte fermée.","acquis"],
+["Jugement","La seule monnaie du système est le temps et sa qualité. Jamais des biens, jamais un statut, jamais une réussite.","acquis"],
+["Jugement","La grâce est proportionnelle à ce qui a été pris. Le rapport exact n'est jamais chiffré et n'existe dans aucun document du monde.","acquis"],
+["Jugement","La grâce ne se voit pas. Rien ne marque un plateau allongé, et personne ne sait quelle durée est normale pour un chiffre donné, parce que personne ne tient ce tableau.","acquis"],
+["Jugement","Le système juge les actes et non les intentions : il ne sait pas faire la différence entre celui qui n'a pas tué et celui qui n'a pas réussi à tuer.","acquis"],
+["Jugement","Le karma ne frappe pas deux fois. Il n'y a pas de régularité, et le suicide n'entre pas dans le système.","acquis"],
+["Nom","On sort de la capsule en sachant parler. Le veilleur explique en une phrase courte ce qu'est un prénom, il demande, l'arrivant répond instinctivement, il inscrit. Pas de délibération, pas de liste.","acquis"],
+["Nom","À huit ans et en dessous, un berceur est appelé et c'est lui qui choisit le prénom — même si l'enfant sait parler et pourrait choisir.","acquis"],
+["Nom","Le seuil du nom est exactement le seuil du système. Personne n'a décidé de les faire coïncider.","acquis"],
+["Nom","Rien ne garantit que le nom produit soit le nom d'avant, et personne ne peut le savoir. Il n'existe aucun document à quoi comparer.","acquis"],
+["Nom","Personne n'a de nom de famille. Un prénom, un seul, et un numéro.","acquis"],
+["Nom","Aucun mot de parenté n'existe dans cette langue. Ce ne sont ni des mots tabous ni des mots tombés en désuétude : la langue ne les a jamais formés, faute d'objet.","acquis"],
+["Nom","La règle vaut ligne à ligne : ni en dialogue, ni en pensée rapportée, ni en comparaison, ni en formule toute faite. Les chapitres de la vie d'avant, eux, peuvent tout dire.","acquis"],
+["Nom","Que se passe-t-il quand le mot ne vient pas — un arrivant qui ne répond rien, ou qui produit le même mot qu'un autre ? Le protocole doit avoir une routine banale.","ouvert"],
+["Administration","Chaque arrivant reçoit un numéro. Aucun sens : ni place, ni rang, ni signe. Il le suit toute sa vie et on l'écrit sans y penser.","acquis"],
+["Administration","Aucun chiffre n'est inscrit sur les capsules. Mais le veilleur sort son instrument devant la salle, fait le relevé, et annonce : capsule éclaircie, arrivant réactif, l'Archiviste lui a compté tant d'années. Correction de l'autrice, 17 août 2026.","acquis"],
+["Administration","La foule estime à vue avant lui et se trompe de quelques années - elle chuchote douze quand il en a dix. La formule tranche pour tous, et c'est la seule fois du rite ou un chiffre est prononce.","acquis"],
+["Administration","Le veilleur reste le seul homme qui passe de l'émotion au nombre : c'est lui qui mesure, lui qui annonce, lui qui inscrit. La cérémonie et le registre ne sont pas deux mondes, ce sont deux moments de son après-midi.","acquis"],
+["Administration","Le registre est consultable par un veilleur au titre de son métier, sans autorisation. Ce n'est pas un secret, c'est un document ennuyeux.","acquis"],
+["Administration","Une capsule qui n'a pas éclairci entre au registre comme le reste — travée, dates — mais sans âge, sans nom et sans numéro. Une ligne courte, et personne ne s'y arrête.","acquis"],
+["Administration","Le registre ne connaît que les arrivées. Tout ce qui vient après est ailleurs, dans des dossiers ordinaires, incomplets et dispersés.","acquis"],
+["Administration","Les numéros suivent-ils l'ordre des arrivées ? Si oui, deux capsules ouvertes le même jour donnent des numéros qui se suivent, et une capsule sans éclaircie laisse un trou.","ouvert"],
+["Ruche","Les capsules se forment de manière irrégulière et mûrissent plus ou moins vite selon le souffle de vie restant de l'autre côté : mort soudaine, maturation rapide ; vie qui s'éteint lentement, des années.","acquis"],
+["Ruche","L'éclaircie est le seul signe lisible : ni son, ni mouvement, ni chaleur, ni indication de ce qui sortira.","acquis"],
+["Ruche","La vitesse de maturation dit la mort : une vie qui s'éteint lentement fait mûrir lentement et se prévoit ; une mort soudaine fait mûrir vite et surprend. **Le service parle d'un éclaircissement inopiné.** Personne n'en tire jamais de conclusion.","acquis"],
+["Ruche","Les capsules sans éclaircie se multiplient depuis quelques années et personne ne sait pourquoi. Rien ne doit jamais être dit.","acquis"],
+["Ruche","Le nettoyage est un incident d'exploitation, pas une épreuve morale : une corvée d'affectation qui échoit aux derniers arrivés.","acquis"],
+["Ruche","Dans le corps de métier, l'ancienneté se lit à l'envers sur les visages. Les anciens du service sont les plus jeunes d'aspect, et personne ne trouve cela remarquable.","acquis"],
+["Ruche","On ressort à peu près là où l'on est mort. Régularité de fait, jamais une loi énoncée.","acquis"],
+["Ruche","Les registres remontent aussi loin que des hommes en ont tenu, et rien avant. C'est une limite d'archives, pas une limite du monde.","acquis"],
+["Jardin","Le jardin est la tranche de huit à zéro. On y est parce qu'on a huit ans ou moins, point — qu'on soit en train de grandir ou de rajeunir. Aucune porte pour en sortir.","acquis"],
+["Jardin","Il abrite donc, dans les mêmes pièces, des trajectoires qui montent et des trajectoires qui descendent. Deux corps de six ans côte à côte, l'un qui va vers huit et l'autre qui va vers zéro, et rien ne les distingue.","acquis"],
+["Jardin","Plus on arrive jeune, plus grande est la part de la vie passée au jardin — et pour qui arrive à huit ou en dessous, c'est la totalité. Un arrivant de six ans y entre le jour de son éclaircie et n'en sort jamais.","acquis"],
+["Jardin","**L'amour est sincère chez la plupart d'entre eux, et ce n'est pas un hasard : c'est un reliquat.** Ils avaient déjà cette vocation d'aimer — mères, assistantes maternelles, métiers de la petite enfance. *On ne se rappelle pas ce qu'on a été : on y retourne.* **Rien de tout cela ne peut se dire dans le livre, et tout doit s'y sentir.**","acquis"],
+["Jardin","**Chaque arrivant qui atteint zéro est un petit déchirement.** On lui dit au revoir pour la dernière fois, et c'est tout — il ne va nulle part. *Chez nous, le petit part à l'école et la vie continue ; ici, il est innocent jusqu'au bout, et on ne le reverra pas davantage.*","acquis"],
+["Jardin","**La dernière berceuse est le dernier acte d'amour qu'un berceur puisse donner.** Porter quelqu'un jusqu'à zéro n'est pas la fin d'une tâche : c'est ce que le métier a de plus haut, et ça n'arrive qu'une fois par personne accompagnée.","acquis"],
+["Jardin","Une vie compte **au moins deux adieux** : celui de huit ans, quand on quitte le dehors pour le jardin, et celui de zéro. **Ce ne sont pas forcément les mêmes personnes** — le berceur du dehors accompagne jusqu'à la porte, puis passe la main à une consœur du jardin.","acquis"],
+["Jardin","**Un berceur peut donc garder quelqu'un des années.** June a Eliott de dix ans à huit : six ans. *L'adieu de la porte n'est pas une formalité de service, c'est la fin d'une durée.*","acquis"],
+["Ruche","**L'âge apparent ne dit rien de l'ancienneté, il dit ce qu'il reste.** Une berceuse de vingt-deux ans a pu arriver à cent deux ; ce qu'on sait d'elle, c'est le nombre d'années qui la séparent de sa propre relève. *L'expérience, elle, ne se lit sur personne.*","acquis"],
+["Jardin","Le jardin est universel : le veilleur, le tuteur, le berceur, l'élu, et jusqu'à celui qui déteste les arrivants jeunes et le dit à voix haute.","acquis"],
+["Jardin","Le jardin ne stagne pas, il s'écoule. Il y a toujours quelqu'un qui vient d'entrer et quelqu'un qui achève.","acquis"],
+["Jardin","Une moitié bruyante et une moitié muette, sans cloison, et la frontière se déplace tous les jours d'un enfant à l'autre.","acquis"],
+["Jardin","Le tabou ne porte pas sur ce qui arrive — l'enfant en a la démonstration sous les yeux tous les jours — mais sur une seule question : est-ce que moi, j'ai commencé ?","acquis"],
+["Jardin","Rien ne remplit la case tout seul : sept ans ressemble à huit, le corps ne fait pas d'annonce, et l'information est dans un dossier que l'enfant ne lit pas.","acquis"],
+["Jardin","Le secret ne porte que sur la date de bascule, jamais sur l'état. Un enfant qui a huit ans pendant des années, ça ne passe pas inaperçu.","acquis"],
+["Jardin","Un berceur exerce jusqu'à douze ans, puis des tâches simples, puis il entre au jardin à son tour. Celui qui accompagne finit accompagné, à l'endroit exact où il exerçait.","acquis"],
+["Jardin","Le système n'a pas à protéger le secret : il s'efface tout seul. Ni serment, ni sanction, ni surveillance.","acquis"],
+["Jardin","Le tabou se retourne contre ses gardiens : un berceur à qui on confie des tâches plus simples reçoit exactement la nouvelle qu'il n'a jamais donnée aux enfants.","acquis"],
+["Jardin","La croissance sous huit ans se passe au jardin, et ce sont les berceurs qui s'en occupent. Ce temps de la vie avait un lieu depuis le début — c'était celui-là.","acquis"],
+["Jardin","La croissance, elle, est publique : on voit un corps de six ans devenir un corps de huit ans, et personne n'a à le taire. Ce qui reste secret est le moment où ça s'inverse.","provisoire"],
+["Fin de vie","La mort au jardin se fait portée par une berceuse, avec des gestes de métier et sans pathos. Rien n'annonce que ça commence et rien ne signale que c'est fini.","provisoire"],
+["Fin de vie","Ce que devient le corps de quelqu'un arrivé à zéro n'est dit nulle part.","ouvert"],
+["Société","Ni famille, ni parents, ni sang, ni filiation, ni lignée. Cette humanité n'a pas de préhistoire.","acquis"],
+["Société","Personne ne sait depuis combien de temps ça dure. La première capsule ne se date pas : c'est une question d'origine, pas une date d'histoire.","acquis"],
+["Société","Cette société compte ses années, mais son an 1 n'est pas la première capsule. On date avec leur calendrier, jamais avec le nôtre.","acquis"],
+["Société","L'école est obligatoire quel que soit l'âge d'arrivée, et les formateurs sont toujours plus jeunes que leurs apprenants.","acquis"],
+["Société","Toute éclaircie est suivie de rendez-vous médicaux obligatoires. Il y en a d'autant plus qu'on est arrivé haut.","acquis"],
+["Société","L'apprentissage suit une pente : on apprend mal au début, de mieux en mieux ensuite, à mesure qu'on rajeunit.","acquis"],
+["Société","Il n'existe aucun dispositif de détection des porteurs de voiles, et le monde n'a pas de case pour ça.","acquis"],
+["Société","Les grands chiffres coûtent une fortune en soins. Le groupe qui consomme le plus de soin est exactement celui qui réclame qu'on le redistribue.","acquis"],
+["Jalousie","La jalousie n'est pas un mouvement : pas de nom, pas de manifeste, pas de porte-parole, rien à quoi on adhère et rien qu'on puisse dissoudre.","acquis"],
+["Jalousie","Le grief porte sur l'accès, jamais sur la durée. Même récompense, chemins radicalement inégaux.","acquis"],
+["Jalousie","Le grief a un second objet depuis que le plancher est public : eux, on leur a garanti quarante ans ; nous, on ne nous a rien garanti du tout. C'est vrai, et cela ne leur donne rien à réclamer.","acquis"],
+["Jalousie","Le grief ne porte jamais sur le verdict, dont ils ignorent jusqu'à l'existence. Leur erreur n'est pas de croire à une loterie : c'est de croire qu'il y a quelque chose à compter.","acquis"],
+["Jalousie","L'argument de la santé est le seul de leurs griefs qui soit vrai et vérifiable. Ce n'est pas une injustice du système, c'est de la biologie.","acquis"],
+["Jalousie","Personne ne corrigera jamais leur sophisme budgétaire : le corriger reviendrait à dire que naître vieux coûte cher.","acquis"],
+["Jalousie","Quatre étages sans coordination : le salon, le discours respectable, ce qui déborde, et ce qui arrive quand même.","acquis"],
+["Jalousie","Les deux camps ont raison, et la dispute ne se referme jamais, faute de grandeur commune.","acquis"],
+["Jalousie","Tuer un arrivant est un tort irréparable : celui qui va au bout ne renaîtra pas. Ce n'est écrit nulle part et personne ne le dit.","acquis"],
+["Terre","Une seule planète, dont l'histoire humaine a été effacée et recommencée. Le texte ne cherche jamais de point de départ commun.","acquis"],
+["Terre","Est identique tout ce qui n'est pas sorti d'une main humaine, et leurs noms. Diffère tout ce qui en est sorti, y compris l'histoire.","acquis"],
+["Terre","Le texte ne dit jamais ce qui manque : il décrit ce qui est là.","acquis"],
+["Terre","L'histoire s'apprend par la petite porte, où elle est déjà de l'acquis pour tout le monde sauf pour nous.","acquis"],
+["Terre","Les toponymes de nos langues sont une convention d'écriture, jamais un fait du monde.","acquis"],
+["Terre","La fabulation d'un jeune porteur de voiles reste banale et locale. Il n'évoque pas un ailleurs, il corrige un ici.","acquis"],
+["Écriture","Rien du système ne doit jamais être énoncé dans le texte. Si le lecteur peut calculer, il arrête d'avoir peur.","acquis"],
+["Écriture","Tout ce qui touche à la ruche est un fonctionnement observé, jamais expliqué. Un ancien constate, il n'explique pas.","acquis"],
+["Écriture","Aucun personnage ne trouve remarquable d'avoir un prénom, un numéro, ou qu'on lui demande son nom.","acquis"],
+["Écriture","Le monde ne se livre jamais en description : il s'apprend à l'intérieur d'une action d'enquête. Test — si l'on peut retirer la question sans perdre l'information, la scène est une description déguisée.","acquis"]
+];
+
+const INTERDITS = [
+{n:1, t:`Ne jamais nommer le mécanisme côté « chez nous »`,
+ c:`Les personnages sortent vides : ils ne peuvent rien savoir de l'autre côté. Ce n'est pas un trou dans l'univers, c'est la limite naturelle du point de vue.`,
+ p:`La cohérence du point de vue, et avec elle la tenue du livre entier. Dès qu'une voix du texte sait qu'il y a eu une vie avant, le monde devient un dispositif à comprendre au lieu d'un monde à habiter.`,
+ e:`Écrire qu'une capsule « contient quelqu'un qui vient de mourir ailleurs », ou faire dire à un veilleur que les arrivants « reviennent » de quelque part. On écrit qu'une capsule mûrit, qu'elle éclaircit, qu'elle s'ouvre. Rien de plus.`},
+{n:2, t:`C'est le lecteur qui fournit notre monde`,
+ c:`Il est de chez nous, lui. Il fera le calcul tout seul, avec ses propres morts. Il ira toujours plus loin que l'autrice.`,
+ p:`La puissance du livre, qui n'est pas dans ce qu'il montre mais dans ce que le lecteur y apporte. Toute explication ajoutée remplace le mort du lecteur par celui de l'autrice, et perd au change à chaque fois.`,
+ e:`Appuyer un cas pour être sûre qu'il soit compris. Il suffit d'un chiffre bas et d'une salle qui se fige.`},
+{n:3, t:`Pas de barème dans le texte`,
+ c:`Si le lecteur peut calculer, il arrête d'avoir peur. Tout ce dossier n'existe, dans le livre, que comme doctrine : ce que les veilleurs croient, ce que certains contestent. Jamais confirmé.`,
+ p:`La peur, qui est le moteur du livre. Un système calculable est un système négociable, et un système négociable ne fait plus peur à personne.`,
+ e:`Une réplique du type « qui n'a rien à se reprocher revient à l'âge où il est parti ». Au mieux, une phrase de sermon que personne ne sait démontrer.`},
+{n:4, t:`Rationner les reliquats`,
+ c:`Un seul porteur de voiles au centre. L'hypothèse « il fabule » doit rester debout jusqu'au bout. Une fissure = une intrigue ; trois = une contradiction.`,
+ p:`Le doute, qui doit survivre à la dernière page. Chaque fissure supplémentaire transforme une anomalie en règle, et une règle démontrée ferme le livre.`,
+ e:`Un troisième personnage qui se rappellerait quelque chose, un objet impossible qu'on pourrait tenir dans la main, un document qui prouverait.`},
+{n:5, t:`Ne jamais décrire une absence`,
+ c:`—`,
+ p:`Le naturel du monde. Dire ce qui manque, c'est faire parler un narrateur qui compare deux mondes, donc rouvrir l'interdit n° 1 par une autre porte.`,
+ e:`Écrire « la tour n'était pas là ». On écrit une place vide à cette heure-là, un carrousel au loin, quelques enfants autour. Celui qui connaît l'endroit comprend ; celui qui ne le connaît pas ne perd rien.`},
+{n:6, t:`Ne jamais nommer un lieu, une œuvre, une figure ou un événement de notre monde`,
+ c:`—`,
+ p:`L'intégrité de l'autre Terre. Corollaire sur les dates : on date avec leur calendrier, jamais avec le nôtre. Un chiffre reconnaissable installerait un axe commun, et le livre deviendrait une uchronie à résoudre.`,
+ e:`« Comme après la guerre de 2024. » On écrit « la guerre du Sud, il y a quarante ans », et on n'explique pas davantage.`},
+{n:7, t:`Ne jamais faire remarquer que les toponymes n'ont pas de sens`,
+ c:`—`,
+ p:`La convention d'écriture qui rend le monde lisible. Dès qu'un personnage la remarque, elle devient un fait, le fait devient une énigme, et l'énigme devient un indice. Le monde ne doit jamais devenir un indice.`,
+ e:`Un personnage qui s'étonne qu'un nom de fleuve ne veuille rien dire dans sa langue. Les noms sont là, personne ne les interroge, ils sont simplement le monde.`},
+{n:8, t:`Le groupe des jaloux n'existe pas comme groupe`,
+ c:`—`,
+ p:`La justesse du climat social, et l'impossibilité d'un ennemi. Lui donner une forme, ce serait donner au lecteur quelqu'un à vaincre, alors qu'il n'y a rien à dissoudre et personne à démasquer.`,
+ e:`Un nom, un sigle, un manifeste, un porte-parole, un chef. On écrit une phrase à table, du tapage devant une maison un soir, et le lendemain plus personne n'en parle.`},
+{n:9, t:`La règle des retrouvailles n'est jamais énoncée`,
+ c:`—`,
+ p:`Le refus de la consolation. Si le lecteur comprend que ceux qui s'aiment se retrouvent toujours, le livre devient une formule qui apaise sans être vraie. Il faut que ce soit possible et jamais garanti.`,
+ e:`Un personnage qui affirme que les liens se retrouvent, ou une seconde coïncidence que quelqu'un relève à voix haute. « On se reverra » est la phrase d'un homme, pas une loi du monde.`},
+{n:10, t:`L'Archiviste n'est jamais expliqué`,
+ c:`—`,
+ p:`Le vertige, et le fait que le livre pose une question sans y répondre. À la fin, aucun personnage n'a d'avis — le protagoniste non plus.`,
+ e:`Une scène où l'on comprend enfin comment fonctionne la ruche, un personnage qui tranche entre l'entité et la machine. On consulte l'Archiviste, on ne le prie pas, et il ne répond jamais.`},
+{n:11, t:`Trois catégories de mots qui n'existent pas`,
+ c:`Aucun mot de parenté · Aucun nom de famille · Ni « enfant », ni « vieillard »`,
+ p:`La langue elle-même, qui est le dernier endroit où un monde se trahit. Un mot suppose toujours quelque chose. Enfant ne dit pas un âge : il dit une filiation et un avenir. Vieillard non plus : il dit une vie derrière soi. Aucun des deux n'est vrai ici. Ce qui reste permis : le corps se décrit — tissu vieillissant, corps qui rajeunit, voix qui mue à l'envers. C'est la catégorie sociale qui est interdite, pas la matière.`,
+ e:`« Une chambre d'enfant » ne peut pas s'écrire. Il faut décrire les couleurs, la hauteur d'une table, un lit court. Le lecteur nommera lui-même, et ça frappera plus fort.`,
+ bonus:`La contrepartie : la règle posée pour la cohérence du monde devient le moteur de l'émotion. Eliott n'a pas le mot « papa », alors il tâtonne — et le contournement dit davantage que le mot n'aurait dit. Chaque fois qu'un interdit semble bloquer une scène, la question n'est pas comment le contourner mais ce que le contournement va produire. Le blocage est souvent la scène elle-même.`}
+];
+
+/* le décompte — trois segments par trajectoire.
+   arr = âge d'arrivée, desc = années jusqu'à huit, sur = certitude du segment final */
+const COURBES = [
+  {arr:90, desc:82, lab:`90 ans`,        c:`var(--texte-3)`, note:`une marche par an`},
+  {arr:64, desc:56, lab:`64 — Erin`,     c:`var(--texte-4)`, note:`personnage suspendu`},
+  {arr:62, desc:54, lab:`62 — Andrew`,   c:`var(--andrew)`,  note:`52 ans au début du livre`},
+  {arr:40, desc:null, lab:`40 ans`,      c:`var(--texte-4)`, note:`vitesse non chiffrée entre 8 et 50`},
+  {arr:18, desc:30, lab:`18 — la paire`, c:`var(--joel)`,    note:`trois ans par marche · une quinzaine d'années pendant le livre`},
+  {arr:10, desc:6,  lab:`10 — Eliott`,   c:`var(--alerte)`,  note:`deux marches, six ans — c'est ce chiffre qui donne l'épilogue`},
+  {arr:5,  desc:-3, lab:`5 ans`,         c:`var(--acquis)`,  note:`il grandit, à un an par an`},
+  {arr:2,  desc:-6, lab:`2 ans`,         c:`var(--acquis)`,  note:`il grandit, à un an par an`}
+];
+
+const CALENDRIER = [
+["Jour 0","La cérémonie d'Eliott. Deux capsules s'ouvrent à la même heure : lui, dix ans ; et un arrivant de quarante ans, mort de la même noyade. Aucune capsule pourrie ce jour-là.","acquis"],
+["Un mois","Eliott vit chez June. Andrew revient le voir deux fois de lui-même.","provisoire"],
+["Le jour de la disparition","Il n'est pas rentré de son travail. June a déjà prévenu la police. Andrew l'apprend sur un pas de porte.","acquis"],
+["Deux semaines","La durée de la seconde fausse piste, et la durée de la disparition comptée au moment du « lâche l'affaire ». Les deux chiffres sont les mêmes.","ouvert"],
+["Le corps du roman","Quelques semaines. Jamais des années. Aucun chapitre n'est daté.","acquis"],
+["Andrew pendant le livre","52 ans à la première page, 52 ans à la dernière. Il ne vieillit pas pendant le livre. Il est arrivé à 62, il y a dix ans.","acquis"],
+["Eliott pendant le livre","Dix ans au jour 0, dix ans tout du long. Sa première marche tombe trois ans après la dernière page.","acquis"],
+["Chrissy et Tania pendant le livre","Une quinzaine d'années. Arrivées à dix-huit ans il y a dix ans, à trois ans par marche : trois marches perdues. Presque exactement l'âge des corps qu'il a trouvés, à trois ans près.","acquis"],
+["Dix ans plus tôt","La journée des quatre capsules : les deux filles, lui, l'assassin. Trois éclaircissent et font une fête ; la quatrième se racle.","acquis"],
+["L'heure de retard","Les filles sont mortes depuis moins d'une heure quand il trouve la planque. Le prix de l'obéissance est chiffré et il tient dans une heure.","acquis"],
+["L'épilogue","Six ans après. C'est exactement le temps qu'Eliott met à descendre de dix ans à huit — le chiffre ne s'invente pas, il sort du tableau du décompte. Eliott a huit ans, Andrew quarante-six.","acquis"],
+["Après le livre, Andrew","Il entre au jardin 44 ans après la fin du roman. Un écart signalé et non tranché : la consigne disait « cinquante-quatre ans après le livre », l'arithmétique donne 44.","ouvert"]
+];
+
+/* ==========================================================================
+   LES GENS
+   ========================================================================== */
+
+const GENS = [
+{ id:`andrew`, nom:`Andrew`, voie:`andrew`, role:`Le veilleur. Protagoniste.`,
+  age:`Arrivé à 62 ans — son âge de mort. 52 ans au début du roman, 46 à l'épilogue.`,
+  resume:`Dix ans dans ce monde, plusieurs années de service : ni débutant, ni vétéran. Il sait faire, et il ne sait rien de l'histoire de son métier. Il est porteur de voiles et personne ne le sait, lui non plus. Ce qu'il veut, il ne peut pas le formuler : il reçoit un arrivant de dix ans à une cérémonie ordinaire, quelque chose l'accroche malgré lui, et il retourne le voir sans mandat, sans mission, sans savoir pourquoi.`,
+  traits:[`Fin observateur — c'est le seul trait de métier qu'on lui connaisse, et il ne s'en sert qu'à noter des chiffres.`,
+    `Il demande son nom à un arrivant des dizaines de fois sans jamais se demander d'où vient le mot.`,
+    `Il se sent chez lui dans un poste de police sans que rien ne l'explique.`,
+    `Il sait à vue, sans compter, à quoi ressemble une arrivée de dix-huit ans au bout de dix ans — et il ne pose jamais l'opération.`,
+    `Son apparence de cinquantenaire le désigne comme un arrivant encore récent : l'ancienneté et la jeunesse vont ensemble.`],
+  faille:`Il fait confiance au document, pas à la personne. Il sur-lit une ligne de registre qui s'arrête, et il sous-lit un jeune arrivant qui lui parle. Le registre ne l'a jamais déçu, les gens si. C'est exactement la faute de Joël, qui a obéi à une procédure au lieu de suivre son affaire — le même homme, deux fois, et le même geste.`,
+  arc:`Il retourne voir le garçon de lui-même, deux fois ; à la troisième il n'est plus là. On lui dit de lâcher l'affaire ; cette fois il refuse, et c'est le même examen repassé sans qu'il sache qu'il le repasse. Il continue seul, il trouve, et le garçon est vivant. Il remonte ensuite jusqu'à sa faute, va demander pardon à deux jeunes filles qui ne comprennent rien, et n'obtient rien.`,
+  gardes:[`Aucune phrase ne justifie ses visites — ni du narrateur, ni de lui, ni d'un tiers.`,
+    `Il ne comprend jamais. Pas d'illumination, pas même atténuée : « il chasse l'idée », « quelque chose lui échappe » sont faux.`,
+    `Il n'apprend jamais qu'il s'est appelé Joël. Le nom d'avant n'existe que pour le lecteur.`,
+    `Il ne calcule jamais un âge à voix haute ni dans sa tête.`,
+    `Il ne retourne jamais au registre pour chercher qui d'autre est arrivé le jour d'Eliott.`,
+    `Rien de sa mort passée ne doit ressembler à un sacrifice.`,
+    `On ne commente jamais qu'il se sente chez lui au poste. Pas de « il se sentait étrangement à sa place ici ».`],
+  portrait:[`**Grand sans etre imposant**, silhouette solide et equilibree, epaules larges, taille droite, bras fermes. *Le physique d'un homme qui entretient sa condition sans chercher a paraitre plus fort qu'il ne l'est.*`,
+    `**Cheveux bruns, courts, legerement desordonnes** - quelques meches refusant de rester en place, **quelques autres restees blanches.** *Le seul mot qui porte le systeme est <em>restees</em>, et il ne s'explique pas.* Barbe courte, machoire carree, nez droit, sourcils epais, bouche expressive.`,
+    `**Yeux d'un brun profond, attentifs**, toujours en train d'observer. *Chaleureux quand il se detend, nettement plus serieux des qu'il se concentre.* **Rien d'intimidant au premier regard, et pourtant il vaut mieux ne pas le sous-estimer.**`,
+    `**Cinquante-deux ans. Dix ans de service.** ⛔ *Et la regle du monde ne s'explique jamais dans sa description* - decision de l'autrice, 19 aout 2026 : trop frontal. L'inversion des ages se posera ailleurs, dans un lieu ou dans une visite.`,
+    `**La tenue :** blouse de toile ecrue, croisee sur le devant, six boutons sur le cote droit, l'ecusson brode sur l'epaule opposee, deux poches basses. **La ceinture au septieme trou en partant de l'extremite.** *Le petit clic, toujours au meme endroit. Pas six, pas huit. Sept.*`,
+    `**Ses chaussures sont la seule chose a lui**, usees comme celles d'un homme qui traverse sa ville a pied tous les jours. **Quatre cent trente-huit** - le nombre de pas qui separent la ruche de son logement.`,
+    `✅ **La manie ne se nomme jamais dans le portrait : elle se compte.** *Cinquante-deux, dix, six, deux, sept, quatre cent trente-huit.* **Personne ne dit qu'il compte ; on lit la description d'un homme qui compte.**`],
+  phrases:[`C'est déjà ce qu'on m'a dit.`,`J'aurais dû continuer.`,`C'était là sous nos yeux.`],
+  ouvert:[`Ce qui l'accroche chez Eliott, précisément — ou s'il n'y a rien à montrer.`,`✅ **Sa manie : il compte.** *Plantée en page une, 18 août 2026* — vingt-deux chaises empilées qu'il n'a pas décidé de compter, dix-sept visiteurs, sept éléments sur la table. **Et à la dernière page du livre :** *« il compta les petits en traversant. Ils étaient quarante-deux ».*`,`⛔ **La piste « il ne se souvient plus des cérémonies » était fausse et elle est retirée.** *Correction de l'autrice, 19 août 2026.* **C'est l'inverse : il est très physionomiste et il se souvient de ses cérémonies** — au chapitre premier il reconnaît un préparateur qu'il a relevé lui-même, et la formule qu'il a prononcée ce jour-là lui remonte entière. *« se souvint Andrew en considérant son sourire béat »*\n\n**Le seul trou est dans sa propre cérémonie**, et il n'a rien d'une honte : *comme tout arrivant il était dans le coltard, et il n'en a gardé que des morceaux.* **C'est au reveal qu'il raccroche tous les wagons.**`,`Réagit-il visiblement à la phrase du sentiment, à l'épilogue ?`],
+  src:`03-personnages/andrew.md` },
+
+{ id:`joel`, nom:`Joël`, voie:`joel`, role:`L'enquêteur qu'Andrew a été. La vie d'avant.`,
+  age:`Mort à 62 ans, sur l'affaire des jumelles. C'est cet âge-là qu'il rapporte à sa capsule.`,
+  resume:`Il travaille sur la disparition de deux sœurs jumelles ; l'étau se resserre sur un seul homme. Au milieu de l'enquête, on lui dit d'arrêter de creuser et il obéit — il perd des semaines. Il reprend, trouve la planque, et les filles sont mortes depuis moins d'une heure. Devant les corps, la culpabilité se retourne en rage en quelques secondes.`,
+  traits:[`Il obéit à une consigne sans discuter, et c'est ce qui le perd.`,
+    `Devant les corps, ce n'est pas de la tristesse mais un compte qui tombe — des jours identifiables, des heures pendant lesquelles il faisait autre chose.`,
+    `Il laisse ses collègues sur place et ne se retourne pas quand on le rappelle.`,
+    `Un taureau qui voit rouge, et c'est la seule fois du livre où il n'est plus lui-même.`],
+  faille:`La même qu'Andrew, à l'inverse : aucune mesure. Il obéit quand il ne fallait pas, puis il n'obéit plus à rien, pas même à lui-même — et c'est la seconde qui le tue.`,
+  arc:`Il cesse de chercher, il reprend, il arrive une heure trop tard, il part pour tuer, et il meurt. Le système ne juge pas les intentions : il n'a tué personne, il revient donc à soixante-deux ans, dossier ordinaire. Sa mort n'est pas la sanction de sa faute : c'est sa faute vue de l'autre côté.`,
+  gardes:[`Il n'est nommé par personne dans tous les chapitres de la vie d'avant. On dit l'enquêteur, il, l'homme. Sauf une fois.`,
+    `Aucun autre nom n'est prononcé dans ces chapitres — les deux filles n'en ont donc aucun.`,
+    `Il ne meurt pas en sauvant quelqu'un. Sa poursuite ne sert à rien, personne ne la lui demande, aucun personnage ne commente sa mort.`,
+    `La scène où on lui dit de lâcher l'affaire est la sienne, et le lecteur croit qu'elle est celle d'Andrew. Le chapitre d'avant est bien d'Andrew ; celui-ci ne l'est pas, et rien ne le signale.`],
+  portrait:[`✅ **Le meme portrait qu'Andrew, a une chose pres : les marques.** *Quelques cicatrices discretes se devinent sur ses mains et pres de son sourcil, sans qu'il semble leur accorder la moindre importance.* **Elles font simplement partie de lui.**`,
+    `**Et le lecteur ne peut pas s'en servir.** *Il n'a aucune raison de rapprocher un enqueteur marque d'un veilleur qui ne l'est pas.* **C'est seulement au bout qu'il comprend que l'un est la version lavee de l'autre.**`],
+  phrases:[`Joël, non, attends !`,`On m'avait dit de laisser tomber, et je l'ai fait.`],
+  ouvert:[`Pourquoi il reprend l'enquête — de lui-même, ou parce qu'un élément est ressorti. Le livre n'a pas besoin de trancher.`],
+  src:`03-personnages/andrew.md` },
+
+{ id:`eliott`, nom:`Eliott`, voie:`andrew`, role:`L'arrivant de dix ans. Le second et dernier porteur de voiles du livre.`,
+  age:`Dix ans du début à la fin du corps du roman. Huit ans à l'épilogue, six ans plus tard.`,
+  resume:`Il sort de sa capsule en parlant, comme tout le monde, et ce qu'il dit ne va pas : il est comme empreint d'une terreur qu'on ne comprend pas, et on passe outre. Tout le monde le prend pour un fabulateur. Ce qu'il porte, c'est une faute qui n'en est pas une : dans la vie d'avant il est tombé à l'eau, le courant l'a emporté, et quelqu'un s'est noyé en venant le chercher. Il ne sait rien de tout cela ; il a un sentiment énorme et pas un seul mot où le ranger.`,
+  traits:[`Il parle d'emblée, et ce qu'il dit ne va pas.`,
+    `Peur bleue de l'eau, colère noire au premier cours de natation.`,
+    `Il boude dans un coin quand personne ne le croit — et ça le blesse énormément.`,
+    `Il dévisage deux secondes l'arrivant de quarante ans, à la cérémonie. Quelque chose se ferme, il enchaîne.`,
+    `Il raconte comme un enfant raconte : concrètement, dans le désordre, sans hiérarchie. C'est le calme qui glace.`,
+    `Il part avec quelqu'un qu'il connaissait, sans se retourner.`],
+  faille:`La culpabilité du survivant, qui n'a aucun fondement. Il porte une faute qui n'en est pas une, et il n'a ni les mots ni la notion de ce qu'il porte.`,
+  arc:`Il arrive, il fabule, personne ne l'écoute. Il est enlevé par une berceuse qu'il croisait. Il est retrouvé vivant, deux semaines plus tard. Six ans après, à huit ans, il raconte l'eau et le sentiment juste avant d'entrer au jardin, personne ne comprend, et on l'emmène.`,
+  gardes:[`Rien de ce qu'il dit ne doit être vérifiable ni se recouper avec ce qui remonte chez Andrew. Banal, local, insignifiant — jamais un monument.`,
+    `Sa terreur ne s'explique pas, ne se commente pas, et ne revient pas comme motif.`,
+    `Les scènes de visite ne s'écrivent jamais comme des auditions.`,
+    `Il ne dira jamais « papa » ni « père » ni aucun mot de parenté. Ils n'existent pas dans sa langue et il ne les cherche même pas.`,
+    `Aucune phrase n'explique sa réplique finale. Ni personnage qui s'étonne, ni narrateur qui souligne qu'il manque un mot.`,
+    `Son entrée au jardin n'est ni une mort ni une perte de la parole. Personne ne lui dit dans quoi il entre.`],
+  phrases:[`Mais si, il y avait un boulanger ici, pas un magasin de chaussures.`,
+    `Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui !`],
+  ouvert:[`Combien de visites exactement, et ce qu'il dit pendant.`,`Ce qu'il a dit exactement qui relance Andrew — le dernier trou du parcours.`,`Passait-il devant chez la ravisseuse sur sa tournée ? Lui a-t-il donné son nom ?`,`Qui est présent à l'épilogue.`],
+  src:`03-personnages/eliott.md` },
+
+{ id:`june`, nom:`June`, voie:`andrew`, role:`Berceuse. Celle qui a la charge d'Eliott.`,
+  age:`**Environ vingt-deux ans** — décision de l'autrice, 16 août 2026. *C'est un âge apparent, et il ne dit rien de son ancienneté :* **elle a pu arriver à soixante ans, à quatre-vingts, à cent deux.** Ce qu'il dit, c'est ce qu'il lui reste — un berceur exerce jusqu'à douze ans, donc elle a encore quelques années devant elle. À l'épilogue elle a rajeuni, et il lui en reste toujours avant d'entrer au jardin à son tour.`,
+  resume:`Elle exerce le métier qui accompagne jusqu'au dernier jour, auprès d'enfants de tous les âges du jardin. C'est elle qu'on appelle pour nommer les arrivants de huit ans et moins, mais Eliott est arrivé à dix : elle ne l'a pas nommé, elle arrive après le registre. Elle héberge les visites d'Andrew sans les trouver remarquables, cherche l'enfant quand il disparaît, prévient la police dans l'ordre, et le lui apprend parce qu'il faut bien que quelqu'un le dise.`,
+  traits:[`Elle ouvre, elle laisse parler, elle n'assiste pas forcément.`,
+    `Elle est la mémoire de ce que le petit racontait, et le restitue sans y rien ajouter.`,
+    `Elle est dans la confidence des pédiatres du jardin et connaît, pour chaque enfant dont elle a la charge, la date où la descente a commencé.`,
+    `Elle se tait par métier, et c'est la seule personne pour qui ce silence est une habitude.`,
+    `Dépassée, elle laisse une demi-phrase en suspens puis passe à autre chose.`],
+  faille:`Son métier lui demande de détenir un savoir et de ne jamais le rendre à l'intéressé. Elle n'est pas une menteuse : elle n'a jamais eu à se demander si c'était bien. C'est le seul endroit du monde où quelqu'un sait et garde.`,
+  arc:`Trois gestes pendant l'enquête, et aucun ne déclenche quoi que ce soit : elle héberge, elle constate et prévient, elle annonce. **Puis elle garde Eliott six ans**, de dix ans à huit, et l'accompagne jusqu'à la porte du jardin — où elle passe la main à une consœur et lui dit au revoir. *C'est le seul personnage du livre dont l'arc soit une durée.*`,
+  clef:`✅ **Sa réserve à l'épilogue n'est pas du chagrin : elle sait qu'elle le rejoindra.** *Trouvaille de l'autrice, 17 août 2026.* **On peut rendre visite au jardin — c'est autorisé et ça se fait.** Mais elle ne sait pas combien de temps il lui reste comme berceuse, et une promesse de visite serait donc une promesse qu'elle ne tient pas. *C'est compliqué à répondre, et heureusement Eliott ne le lui demande pas.*
+
+**Conséquence sur ses adieux :** *tu vas être bien là-dedans, mieux qu'avec moi* cesse d'être ce qu'on dit à un mourant. **C'est quelqu'un qui sait que l'endroit est bien, puisqu'elle y sera.** — *Et c'est Andrew qui répond à sa place, une fois qu'elle est partie : « t'inquiète pas, elle viendra te voir, tu la connais ».*`,
+  gardes:[`Elle ne signale rien et ne vient trouver personne. Toute version qui lui donne ce rôle est périmée.`,
+    `Elle n'est pas un relais d'information : elle est un lieu où la nouvelle attend.`,
+    `Si une seule de ses répliques a l'air d'appeler Andrew à faire quelque chose, la séquence bascule.`,
+    `Ne jamais lui faire dire qu'elle se tait. Le tabou ne se formule pas.`,
+    `Sa suspicion se dit une fois, en une demi-phrase, jamais reprise, pas même quand le garçon disparaît.`,
+    `Une réplique qui désignerait la berceuse voisine, même en passant, ferait basculer sa fiche.`],
+  phrases:[`Un porteur de voiles de cet âge… je n'en avais jamais vu.`,`Il s'est mis dans une colère noire, ça ne lui ressemblait pas.`],
+  ouvert:[`Assiste-t-elle aux visites ou laisse-t-elle la pièce ?`,
+    `✅ **Elle est présente à l'épilogue, et c'est elle qui dit l'adieu de huit ans.** Le second, celui de zéro, appartiendra à quelqu'un d'autre.`,
+    `La revoit-on entre l'enquête et l'épilogue, ou l'ellipse la garde-t-elle entière ?`,
+    `⚠️ **Est-ce que le lecteur peut comprendre qu'elle ira au jardin ?** *Il a tout ce qu'il faut — elle a visiblement rajeuni en six ans, et il connaît la règle.* **Rien ne le lui dit, et rien ne l'en empêche.** À laisser tel quel, probablement : c'est exactement la sorte de chose que ce livre confie au lecteur.`,
+    `Que savaient exactement l'une de l'autre les deux berceuses voisines ?`],
+  src:`03-personnages/june.md` },
+
+{ id:`isaac`, nom:`Isaac`, voie:`andrew`, role:`Agent de police, ami d'Andrew.`,
+  age:`Non fixé. L'inversion vaut pour la police comme pour la ruche : un ancien du métier a l'air jeune.`,
+  resume:`Sa fonction est structurelle : c'est lui qui rend naturelle la présence d'un veilleur dans une enquête criminelle. Il fait appel à Andrew régulièrement, pour des affaires qui n'ont rien à voir — le veilleur est témoin de toutes les arrivées et peut consulter le registre. De cette habitude naît l'amitié, et de l'amitié naît tout le reste. Il enquête sur une disparition, point : il est bon dans son travail, il est fatigué comme on l'est, il a d'autres dossiers.`,
+  traits:[`Il sollicite Andrew comme une ressource ordinaire, pas comme un ami à qui on fait plaisir.`,
+    `Le poste est un endroit qu'Andrew connaît, où il pousse une porte qu'il a déjà poussée cent fois.`,
+    `Il ne soupçonne rien, jamais — ni sur Andrew, ni sur le monde.`,
+    `Il part par objectivité, pas par résignation. Il a raison, et c'est ce qui rend son départ insupportable.`],
+  faille:`—`,
+  arc:`Sa relation avec Andrew donne un accès gradué : il est chez lui au poste tant qu'on veut bien de lui, et le jour où on lui dit de lâcher l'affaire, la porte se ferme sur un homme qui la croyait ouverte. Il ne perd pas un droit, il perd une place.`,
+  gardes:[`Il ne sert jamais de porte-parole à une théorie. Pas de doute utile, pas de « et si ».`,
+    `L'hypothèse « il fabule » ne survit pas à un policier lucide.`,
+    `Ne jamais en faire un lâche, ni un tiède, ni un fonctionnaire.`,
+    `Ne jamais lui faire dire qu'il a été trompé — il ne l'a pas été. Il a suivi de trop près quelqu'un qui avait tort, et il le sait sans avoir à le formuler.`],
+  phrases:[],
+  ouvert:[`Son âge d'arrivée et son apparence.`,`Est-ce le même homme que celui qui dit à Andrew de lâcher l'affaire ?`],
+  src:`03-personnages/isaac.md` },
+
+{ id:`chrissy`, nom:`Chrissy et Tania`, voie:`joel`, role:`La paire. L'objet unique de la faute, du remords et des excuses d'Andrew.`,
+  age:`Mortes à dix-huit ans, arrivées à dix-huit ans. Une quinzaine d'années pendant le livre — presque exactement l'âge des corps qu'il a trouvés, à trois ans près.`,
+  resume:`Dans la vie d'avant, deux sœurs jumelles enlevées et tuées par le même homme, et l'enquêteur est arrivé une heure trop tard. Ici, elles sortent de deux capsules voisines le même jour et produisent chacune leur prénom — les seuls qu'elles porteront jamais. Elles sont identiques en tout, et le monde n'a aucun mot pour ce qu'elles sont l'une à l'autre : une paire, travée douze. Elles sont des meurtries, et la grâce qui leur revient n'est pas un chiffre plus bas mais un plateau allongé.`,
+  traits:[`Leur ressemblance émerveille la salle, qui dit simplement « elles sont pareilles ».`,
+    `Le seul trait qui les sépare est le mot que chacune a prononcé, et il est sorti d'elles, vides, sans témoin.`,
+    `À quinze ans elles ont tous les mots : elles répondent, elles comprennent, elles pourraient très bien demander à Andrew ce qu'il veut.`,
+    `Quand il prononce un des deux noms, une seule se retourne.`],
+  faille:`—`,
+  arc:`Elles ne font rien dans l'intrigue. Elles apparaissent tôt, une fois, comme du décor du monde, puis elles reviennent comme une ligne de registre qu'Andrew cherche et trouve — sans savoir qu'il lit aussi la sienne. À la toute fin, il pousse leur porte un après-midi ordinaire, et il n'obtient ni absolution ni incompréhension : il obtient de la politesse.`,
+  gardes:[`Leurs prénoms de la vie d'avant ne sont jamais donnés. C'est un blanc et il reste blanc.`,
+    `« Jumelles » et « sœurs » sont réservés à la vie d'avant.`,
+    `Le lecteur ne doit jamais pouvoir soustraire : la date appartient au document, l'âge appartient au regard, et les deux ne se croisent jamais dans la même scène.`,
+    `Leur âge de quinze ans n'est jamais écrit. Andrew ne pose jamais l'opération.`,
+    `Leur apparition précoce ne doit jamais donner de quoi formuler l'hypothèse des deux histoires.`],
+  phrases:[`Ils mettent trois fois plus longtemps à descendre, en plus.`,`Lui, il est arrivé à douze. Ça fait une éternité qu'il est là. Il en a dix.`],
+  ouvert:[`Sont-elles prises en charge ensemble ou séparées ?`,`Où tombe exactement la réplique du ratio, et dans quelle bouche ?`],
+  src:`03-personnages/chrissy-et-tania.md` },
+
+{ id:`berceuse`, nom:`La berceuse coupable`, voie:`andrew`, role:`La ravisseuse. L'exact contraire de ce qu'on cherchait.`,
+  age:`Non fixé. Des décennies de service, et elle approche de sa relève — un berceur exerce jusqu'à douze ans. Donc l'apparence d'une adolescente.`,
+  resume:`Elle a passé sa vie à donner des arrivants au jardin et n'en a jamais gardé un seul : accueillir, nommer, accompagner, les regarder entrer, puis basculer, puis descendre jusqu'en bas, en sachant chaque fois la date et en se taisant chaque fois. Eliott, lui, n'y est pas encore : dix ans, dehors, il travaille, il parle, il se met en colère — c'est quelqu'un, et dans six ans ce sera fini. Alors elle en garde un, une fois.`,
+  faille:`Ce n'est pas une rupture, c'est une érosion. Et le déclencheur est le tabou retourné contre elle : on commence à lui confier des tâches plus simples sans lui dire pourquoi, et elle reçoit le silence qu'elle a imposé à des centaines d'autres. Elle prend un arrivant au moment exact où on commence à la retirer du monde.`,
+  traits:[`Elle vit à quelques pas de chez June, dans une maison ordinaire d'une rue ordinaire — les berceuses habitent à côté du jardin.`,
+    `Elle est la seule personne au monde qui pouvait emmener un jeune arrivant sans que quiconque se retourne. Lui non plus ne s'est pas retourné.`,
+    `Elle a peint, meublé et choisi une cave réaménagée, des semaines avant qu'il y ait quelqu'un dedans.`,
+    `Rien sur elle ne se remarque. Si elle est aimable ou douce dans une scène, elle l'est comme tout le monde.`,
+    `Elle sort menottée de la maison, déjà prête à être embarquée.`,
+    `🔴 **Elle porte une chaîne au cou, symbole de sa foi.** *C'est le seul détail physique que le livre lui donne, et c'est un objet — pas un visage.* **Elle berce à son rythme ; et au moment de l'arrestation, elle la triture avant de tendre les mains.**`],
+  arc:`Elle emmène Eliott, qui la connaissait, sans ruse ni force ni piège — le passage à l'acte n'a ni scène, ni seuil, ni bascule : il a la forme exacte de ce qu'elle a fait toute sa vie. Elle le garde deux semaines dans une cave aménagée, vivant, puisque le mobile est de garder et jamais de supprimer.`,
+  gardes:[`Rien de son motif ne se dit dans le texte. Elle ne l'explique pas, personne ne le formule à sa place, et le livre n'a pas de scène qui rende son geste intelligible.`,
+    `Elle ne doit jamais s'écrire comme une démente qu'on range et qu'on oublie.`,
+    `Aucun personnage ne rapproche jamais sa présence ancienne et son arrestation. Pas de « elle était là depuis le début ».`,
+    `Si elle apparaît au jardin, elle reste anonyme et non détaillée : un geste, une silhouette, une façon de tenir un poids. Jamais un portrait, jamais un visage, jamais une réplique qui reste.`],
+  phrases:[],
+  cle:`Elle a passé sa vie à donner des arrivants au jardin. Elle n'en a jamais gardé un seul.`,
+  ouvert:[`Andrew lui parle-t-il au jardin, ou la croise-t-il seulement ?`,`Le livre lui donne-t-il un nom, et par lequel des trois canaux possibles ?`,`Ce qu'elle comptait faire ensuite. Rien, probablement — et c'est peut-être la réponse.`,`Ce qu'elle dit, ou ne dit pas, au moment de l'arrestation.`],
+  src:`03-personnages/la-berceuse.md` },
+
+{ id:`quarante`, nom:`Nicolas`, voie:`andrew`, role:`Le second arrivant de la première page. Le père d'Eliott dans la vie d'avant. Nom d'éclaircie : Nicolas.`,
+  age:`Quarante-deux ans, son âge de mort — *l'autrice, 18 août 2026 : pas de chiffre rond.* Verdict ordinaire, ni supplément ni retranchement.`,
+  resume:`Une randonnée prévue entre un père et son fils : l'enfant tombe à l'eau, le courant l'emporte, il se jette pour le sauver et se noie à son tour. Personne n'a commis l'irréparable, il n'y a rien d'autre à trouver, personne à qui en vouloir, et aucune enquête possible d'aucun côté. Les deux capsules surgissent donc le même matin, à quelques travées l'une de l'autre — une noyade ne laisse aucun délai de maturation — et la cérémonie se monte dans la journée.`,
+  traits:[`Un corps debout à côté d'un autre, à la première page, qui sort du livre à la fin du chapitre.`,
+    `Il est ce qu'Eliott dévisage deux secondes sans savoir pourquoi.`,
+    `Puis ils sont affectés ailleurs et ne se revoient jamais.`],
+  faille:`—`, arc:`Il n'intervient pas dans l'histoire.`,
+  gardes:[`Il n'a ni fiche, ni scène, ni réplique, et il ne faut jamais lui en donner davantage. Tout ce qu'on lui ajouterait ferait de la scène une annonce.`,
+    `Aucune phrase de narrateur ne rapproche les deux arrivées. Andrew ne retourne jamais au registre pour chercher qui d'autre est arrivé ce jour-là.`,
+    `Les mots de parenté ne valent que pour la vie d'avant.`],
+  phrases:[],
+  ouvert:[`✅ **Son nom d'éclaircie est Nicolas** — *validé par l'autrice le 17 août 2026.* **Il apparaît deux fois, première page et scène 8**, et rien ne doit inviter à le rapprocher de celui d'Eliott.`,
+    `Combien de lignes doit durer le dévisagement.`],
+  src:`03-personnages/eliott.md` },
+
+{ id:`marginal`, nom:`L'homme de vingt-deux ans`, voie:`andrew`, role:`La fausse piste. Le grief, dans une bouche.`,
+  age:`Vingt-deux ans.`,
+  resume:`Il appartient au milieu jaloux que tout le livre montre. Il a voulu bloquer une entrée au jardin, et il a fait des jours « au silence » pour ça. C'est vers ce milieu que l'enquête cherche son coupable, et le lecteur avec elle. Il n'y en a pas.`,
+  traits:[`Il est allé jusqu'au geste, là où le reste du milieu s'en tient aux paroles.`,
+    `Il a un alibi parce qu'il est bruyant : il crie, il est connu pour crier, tout le monde peut dire où il était.`,
+    `Il envoie promener les enquêteurs sans rien démontrer, parce qu'il n'a pas à se justifier.`],
+  faille:`—`,
+  arc:`Le climat dont il fait partie garde toute sa place et paie le lecteur en monde, mais il ne mène plus à personne.`,
+  gardes:[`Le grief reste réel, jamais caricatural, et on ne demande jamais d'y adhérer.`,`La piste ne doit mener à rien.`],
+  phrases:[],
+  ouvert:[`Son prénom. Un nom d'éclaircie. Il traverse huit scènes sans être nommé.`],
+  src:`02-univers/la-jalousie.md` },
+
+{ id:`liam`, nom:`Liam`, voie:`joel`, role:`Le collègue de Joël. Une voix derrière lui.`,
+  age:`—`,
+  resume:`Le partenaire de l'enquêteur. **Il porte bien plus qu'un cri désormais** : c'est lui qu'on rencontre au commissariat — et le lecteur, qui vient d'entendre parler d'Isaac, croit rencontrer Isaac. C'est lui aussi qui renseigne au téléphone. Et à la fin, quand Joël s'élance derrière le fuyard, c'est lui qui crie.`,
+  traits:[`Il voit ce que Joël va faire, et il essaie de l'arrêter.`,`Il ne sait rien de ce que son cri produira, ni de l'écho qu'il fait à la faute de son collègue.`],
+  faille:`—`,
+  arc:`Il traverse la voie de Joël d'un bout à l'autre — le commissariat, le téléphone, la planque, le cri — sans jamais être nommé.`,
+  gardes:[`Le mot « Liam » n'est écrit dans aucune page du roman. Dans le texte il reste son collègue, son partenaire, l'un d'eux.`,
+    `Il ne relève jamais l'écho entre son cri et la faute de Joël, et il n'a aucune raison de le faire.`],
+  phrases:[`Joël, non, attends !`],
+  ouvert:[],
+  src:`03-personnages/andrew.md` },
+
+{ id:`pediatre`, nom:`Le pédiatre du jardin`, voie:`andrew`, role:`Celui qui a suivi l'autre arrivant. Il ne refuse rien.`,
+  age:`Non fixé. Il exerce au jardin, donc il est bien au-dessus de huit ans.`,
+  resume:`Il a suivi l'arrivant dont les traces s'arrêtent. **Il est un peu sur la réserve quand ils arrivent — puis il comprend qu'il a affaire à un policier, et il coopère normalement.** Il est très occupé : il leur propose de le suivre pendant qu'il répond, et c'est comme ça qu'ils traversent le jardin.`,
+  traits:[`Il marche vite et parle en marchant. **Il ne s'arrête pas pour répondre**, sauf une fois.`,
+    `Il ne s'excuse pas et ne se justifie pas : il applique une règle, puis il en applique une autre.`,
+    `Il connaît la date de chaque enfant dont il a la charge, et c'est la seule chose qu'il ne dira jamais, même à un policier.`,
+    `**Devant la salle, il laisse passer.** Il sait que c'est rare de voir ça quand on est extérieur au jardin, et il ne dit rien.`],
+  faille:`—`,
+  arc:`Il apparaît une fois, le temps d'un couloir. Il ne revient pas.`,
+  gardes:[`**Il n'explique jamais le fonctionnement du jardin.** Il répond à des questions qu'on lui pose, entre deux portes, et il s'arrête là.`,
+    `Ce qu'il dit ne touche jamais le registre : l'erreur est dans les dossiers d'après.`,
+    `**Ce n'est pas lui qui refuse.** Le refus est administratif, en amont — un secrétariat qui donne son nom et ce qu'il fait maintenant, et rien de plus.`,
+    `Devant la salle, il ne commente pas. *Ni avant, ni pendant, ni après.*`],
+  phrases:[],
+  ouvert:[`Son nom, s'il en a un dans le texte.`,`Combien de questions il répond avant l'arrêt devant la salle.`],
+  src:`décision du 16 août 2026` },
+
+{ id:`berceuse-salle`, nom:`La berceuse de la salle`, voie:`andrew`, role:`Celle qu'Andrew regarde bercer un mourant, scène 14 · c.`,
+  age:`Non fixé — et elle ne doit surtout pas être située. *Un âge apparent la rendrait comparable, donc identifiable.*`,
+  resume:`En tête à tête avec un tout-petit sur le point de disparaître. **Une scène presque de mère et d'enfant, dans une grâce et un amour profonds** — et le mot est impossible à écrire, ce qui oblige à le faire tenir entièrement dans les gestes. **Elle berce au rythme de la chaîne qu'elle porte au cou, symbole de sa foi.**`,
+  traits:[`Elle porte, elle berce, elle tient au chaud. Des gestes de métier, faits des centaines de fois.`,
+    `Elle ne pleure pas et ne prend pas un ton. **Le chagrin est en elle, jamais dans la phrase.**`,
+    `**Une chaîne au cou**, et le bercement en suit le rythme.`],
+  faille:`—`,
+  arc:`Elle apparaît une fois, quelques minutes, à travers une porte. Personne ne lui parle.`,
+  gardes:[`**Aucun visage, aucun nom, aucune réplique.** Un geste, une silhouette, un objet — jamais un portrait.`,
+    `Personne ne la présente et personne ne la commente. Ils regardent, puis ils repartent.`,
+    `**Rien ne la désigne comme importante.** Si le texte s'attarde sur elle plutôt que sur ce qu'elle fait, tout est perdu.`],
+  phrases:[],
+  cle:`**Et si c'était elle.**`,
+  ouvert:[`✅ **Est-ce la ravisseuse ? Le livre ne le dira jamais.** *Décision de l'autrice, 16 août 2026 : le doute reste.* **Le lecteur observateur se dira peut-être que c'est la même**, il l'aura vue porter un mourant avec une tendresse parfaite, il aura trouvé ça beau — *et il n'obtiendra aucune confirmation.* **La chaîne est le seul fil entre les deux scènes, et personne dans le livre ne le relève.**`,
+    `*Ça vaut aussi pour l'écriture : on écrit la scène sans savoir, donc on n'y met rien qui désigne.*`],
+  src:`02-univers/le-jardin.md §6 — décision du 16 août 2026` },
+
+{ id:`la-mere`, nom:`Leur mère`, voie:`joel`, role:`Le pendant de June. La vie d'avant.`,
+  age:`—`,
+  resume:`C'est chez elle que Joël retourne pour ce que le procès-verbal n'a pas retenu : l'état d'esprit, les habitudes, ce qui n'allait pas. **Elle raconte ce qu'elle a vu, et elle a peur.**`,
+  traits:[`Elle a déjà tout dit une fois, à quelqu'un qui notait des trajets.`,`Elle répond, elle ne demande rien.`],
+  faille:`—`,
+  arc:`Elle n'apparaît pas. Le livre ne dit rien d'elle, et c'est le lecteur qui, à la relecture, saura qu'elle existait.`,
+  gardes:[`**Elle n'a pas de scène, et n'en aura pas.** Cette fiche est un repère d'écriture : savoir ce qu'il y a de ce côté-là pendant qu'on écrit June.`,
+    `Le parallèle avec June n'est jamais souligné, ni par un personnage ni par le narrateur — et pour cause, il ne se voit nulle part.`],
+  phrases:[],
+  ouvert:[`Le livre la montre-t-il une fois ou deux ?`],
+  src:`décision du 16 août 2026` },
+
+{ id:`mere`, nom:`L'arrivante de trente-cinq ans`, voie:`andrew`, role:`Hors casting — en réserve.`,
+  age:`Trente-cinq ans. Vingt-sept marches avant le jardin, à une vitesse qui n'est fixée nulle part.`,
+  resume:`Elle et l'enfant qu'elle attendait étaient réunis au moment où leurs deux vies se sont arrêtées ; le livre ne dit pas comment. Deux capsules se forment ensemble et s'ouvrent le même jour. Elle produit son nom elle-même pendant qu'à côté, une inconnue qu'on a fait venir choisit le mot d'un petit chiffre. Elle insiste ensuite pour devenir berceuse, avec un sérieux que personne ne s'explique, elle-même comprise : elle ne se rappelle rien, elle y retourne.`,
+  traits:[`Sa vocation est un reliquat pur.`,`Elle ne sait pas, et ne peut pas savoir, ce que cet enfant est pour elle — ce lien n'a pas de nom ici, et pas d'existence non plus.`,`Elle deviendra à son tour celle qu'on appelle pour nommer un arrivant qui n'est rien pour elle.`],
+  faille:`—`,
+  arc:`Deux courbes qui vont l'une vers l'autre sans jamais se superposer.`,
+  gardes:[`Elle n'est pas porteuse de voiles. Jamais de souvenir, jamais de vertige, jamais de reconnaissance.`,
+    `Aucun personnage ne commente sa vocation.`,
+    `Elle devient berceuse ; elle ne devient pas sa berceuse.`,
+    `Ne jamais dater, ne jamais expliquer, ne jamais employer de vocabulaire clinique.`],
+  phrases:[],
+  ouvert:[`Tout est suspendu tant que l'autrice ne réintègre pas ce couple. Le service qu'elle rendait — apprendre au lecteur qu'une journée à deux arrivées signifie une seule mort — a été repris par la scène d'ouverture.`],
+  src:`03-personnages/la-mere-et-l-enfant.md` }
+];
+
+/* ==========================================================================
+   LE DISPOSITIF ET LES FAUX RACCORDS
+   ========================================================================== */
+
+const DISPOSITIF = [
+["Deux récits, une voix","Deux histoires racontées simultanément, entremêlées chapitre après chapitre, et délibérément données à lire comme une seule. Deux temporalités qui ne communiquent pas, deux récits sans aucun point de contact, et une seule voix pour les porter."],
+["Deux enlèvements","C'est ce qui rend la confusion possible autant qu'honnête : le lecteur ne se trompe pas parce qu'on lui cache quelque chose, il se trompe parce que les deux récits racontent la même chose. La ressemblance n'est pas fabriquée, elle est réelle."],
+["Il n'y a pas de fragments","**Décision du 16 août 2026 : le mot n'a plus cours.** Les chapitres de la vie d'avant ne sont ni des éclats, ni des flashs, ni des inserts — ce sont des chapitres entiers, de même longueur et de même facture que les autres. *Un fragment se repère ; un chapitre, non.* Et aucun d'eux n'établit l'affaire : elle est déjà là quand on entre dedans, comme dans la vie."],
+["Les reliquats ne sont jamais nommés","Le mot, la notion, l'explication : rien. Aucun personnage ne dit qu'il se souvient, aucun narrateur ne signale un basculement, aucune typographie ne trie les chapitres."],
+["Temps 1 — une seule enquête","De la première page jusqu'au seuil du lieu de séquestration. La contrainte n'est pas « il ne doit pas comprendre » mais : il ne doit pas même se poser la question. Un lecteur qui formule l'hypothèse et la met de côté a déjà tout perdu — il ne lira plus les chapitres, il les triera."],
+["Temps 2 — le trouble","La découverte des corps. Le lecteur peut se dire « la paire du début, qu'est-ce qu'elles font là ? », et c'est admis, c'est même souhaitable. Ce n'est pas encore la bascule : c'est une pièce de trop dans les mains, sans case où la ranger. Il n'a pas d'hypothèse, il a un inconfort."],
+["Temps 3 — le chapitre qui recommence","Même lieu, même arrivée, même lourdeur, autre issue. C'est là, et seulement là, que le lecteur comprend qu'il y a deux histoires. Il ne le reçoit ni d'une phrase ni d'un personnage : il le reçoit de la forme du livre, qui se dédouble sous ses yeux."],
+["Temps 4 — le cri","« Joël, non, attends ! » Le temps 3 avait appris qu'il y avait deux histoires ; le temps 4 apprend qui est le second homme et referme le livre d'un coup. Le nom ne révèle pas le dispositif, il révèle l'identité."],
+["Temps 5 — le registre","La ligne d'archive ne révèle rien de neuf : elle confirme, et elle confirme par un document. C'est le bon ordre — le lecteur devine, puis on lui prouve."],
+["Le nom arrive attaché à un refus d'obéir","La seule fois du roman où l'on entend son nom est la seule fois où quelqu'un essaie de l'arrêter et où il n'écoute pas. Son partenaire crie « attends » — le mot exact auquel il a cédé des semaines plus tôt, et qui est toute sa faute. Son identité et sa faute sont données dans le même souffle, et en miroir."],
+["Ce n'est pas une entourloupe (1)","Andrew enquête comme l'enquêteur parce qu'il est l'enquêteur : le reliquat n'est pas un souvenir, c'est une vocation. La ressemblance des deux récits n'est pas une astuce d'autrice, c'est une règle énoncée par le livre avant que le lecteur ait à s'en servir. Il a été trompé par une cohérence, pas par une omission."],
+["Ce n'est pas une entourloupe (2)","Les deux mondes ont des postes de police, des procédures, des voitures, des dossiers. Une scène d'enquête ne trahit jamais lequel des deux on lit — non parce qu'on gomme les indices, mais parce qu'il n'y en a pas à gommer."],
+["Le lecteur est dans le monde d'ici, tout du long","**Doctrine arrêtée le 16 août 2026.** Pour lui, l'enquête est celle de la disparition d'Eliott, du premier chapitre au dernier. De temps en temps, un chapitre traite l'affaire des filles du point de vue de Joël — et il ne le soupçonne jamais. Rien ne le signale : ni titre, ni typographie, ni changement de voix. **Ce sont les faux raccords, semés trois ou quatre fois dans tout le volume, qui le lui apprendront à la seconde lecture.**"],
+["La couture","Le lecteur recoud deux morceaux de deux vies en un seul souvenir, et la couture ne se voit pas parce que c'est lui qui l'a faite. *Le procédé a changé d'échelle : il ne porte plus une phrase, il porte des chapitres entiers.*"],
+["Le suspect est une couture","**Il n'existe pas.** Les scènes 6, 7 et 9 construisent un homme du monde d'ici — vingt-deux ans, des propos haineux, des jours au silence. Les scènes 12 et 13 montrent un homme du monde d'avant, qui a tenu des propos déplacés à deux filles. Le lecteur n'en voit qu'un. **Deux hommes qui ne se sont jamais rencontrés et qui ne vivent pas dans le même monde, et l'alibi de la scène 13 les tue tous les deux d'un coup.**"],
+["L'équivoque","Le procédé qui rend la méprise possible, et il ne se confond pas avec le faux raccord. **Le faux raccord différencie ; l'équivoque, elle, autorise deux lectures d'un même mot.** *Des propos déplacés* : le lecteur y entend l'euphémisme du grief anti-jeunes, et ce sont des propos sexistes. *Vous en seriez venus aux mains* : une bagarre au travail, dans les deux mondes. **Aucune des deux lectures n'est fausse, et c'est pour ça que rien ne se démonte à la relecture.**"],
+["La couture obéit à d'autres règles","Elle ne consomme aucune paire du dosage, puisqu'elle ne produit aucun soupçon au premier passage. Et la règle d'espacement s'inverse : une paire doit être très écartée pour qu'on oublie ; ici il faut qu'on se souvienne. Assez près pour que la couture prenne, assez loin pour qu'elle ne se regarde pas."],
+["L'escalier et la porte","Le lecteur descend deux fois le même escalier et ouvre deux fois la même porte : là-bas un mouroir et deux corps, ici une cave repeinte, meublée, et quelqu'un de vivant. C'est le seul endroit du livre où le procédé produit son effet par la différence et non par la ressemblance."],
+["Les deux cérémonies","Deux descriptions du même rite, toutes deux du point de vue d'Andrew : celle où il accueille (analytique) et celle où il est accueilli (l'accueilli qui ne comprend rien). Le même rite vu depuis les deux bouts — et le lecteur ne réalise pas tout de suite que le second point de vue est celui du même homme."],
+["La même phrase, fausse deux fois","Dite à Joël au milieu de l'affaire, alors que les filles sont vivantes : il obéit, il perd des semaines, elles meurent moins d'une heure avant qu'il arrive. Dite à Andrew, alors qu'Eliott est vivant : il refuse, et Eliott est vivant. Personne n'a menti — les deux policiers avaient raison sur le calcul et tort sur le cas."],
+["Rien ne se commente","Aucun personnage ne relève l'écho, aucun narrateur ne souligne la ressemblance, et le mot « attends » n'est ni répété, ni souligné, ni mis en italique. Si l'écho se voit, c'est l'autrice qu'on entend."],
+["La soupape n'est pas une fuite","Le lecteur doit pouvoir se dire « bizarre » ; il ne doit jamais pouvoir se dire « ce sont deux histoires ». Le trouble doit rester sans destinataire — dès qu'il peut le poser à un personnage ou à une page précise, il devient une piste."],
+["Ce que ça coûte aux victimes","La règle « aucun nom dans la vie d'avant » a été écrite pour protéger l'enquêteur ; elle atteint aussi les deux filles, qui traversent tout le livre comme « les deux filles », « elles ». Ce qui protège le protagoniste prive les victimes de leur nom — ce n'est pas un effet secondaire, c'est le même geste."]
+];
+
+const RACCORDS = [
+["La main","« Il leva son poignet droit pour regarder l'heure » — droitier, la montre au poignet de la main non directrice.","« Quand son collègue lui demanda l'heure, il lui tendit machinalement son bras gauche » — gaucher ; le bras ne se lève pas vers soi, il se tend vers un autre.","Deux membres très espacés, dans des scènes où regarder l'heure est le geste le plus banal. On n'écrit jamais « il était gaucher ».","retenu"],
+["La cicatrice","Une cicatrice au visage, qu'il voit le matin en se rasant. La lame qui passe dessous, la peau qu'on tend, le geste qui ralentit d'un demi-temps au même endroit depuis des années.","Aucune marque. Un collègue peut lui lancer sans y penser : « Tu as de la chance, toi, tu es immaculé depuis toujours. »","Côté vie d'avant, dans une scène de rasage où l'on ne voit que la marque et jamais un visage. Ici, une réplique qui parle du monde et non de lui.","retenu"],
+["La langue — les mots de parenté","Mère, père, fils, frère, sœur, famille, jumeau : partout. On peut écrire « comme si les jumelles avaient pu être ses propres filles ».","Ces mots n'existent pas. La phrase n'a aucune forme possible de ce côté-ci : il faut inventer des tournures en permanence — celui dont elle a la charge, l'arrivant qu'elle accompagne, les deux qui se ressemblent.","Partout, tout le temps, dans chaque page et chaque dialogue de ce monde-ci. Il ne se plante pas et ne se dose pas : il joue entièrement par l'absence.","structurel"],
+["La langue — les noms de famille","L'affaire porte un nom de famille : « l'affaire Sorel ». Un seul mot qui couvre les deux sœurs sans en désigner aucune.","Personne n'a de nom de famille, et la règle n'est jamais énoncée dans le roman.","Un marqueur présent d'un seul côté est un tri ; un marqueur absent d'un seul côté n'en est pas un.","structurel"],
+["La langue — « enfant » et « vieillard »","Ces mots existent et s'emploient normalement. La description de la planque a tous les mots et peut dire ce qu'elle voit.","Remplacés par l'âge. « Une chambre d'enfant » ne peut pas s'écrire : il faut décrire les couleurs, la hauteur d'une table, un lit court.","Point le plus chargé : les deux caves, où une seule des deux descriptions a le droit de dire ce qu'elle voit.","structurel"],
+["Le mot qu'il ne peut pas classer","On lui dit « l'affaire Sorel », et c'est ainsi qu'on nomme une affaire.","Il entend un mot dont il ne peut pas identifier la catégorie : pas de case où le ranger, pas d'usage à lui supposer. Il ne peut même pas savoir que c'est un nom, donc il ne le retient pas, ne le note pas, ne le cherche pas.","Au comptoir du poste de police, si l'autrice décide qu'il lâche le mot. Les deux versions tiennent et aucune n'est retenue.","ouvert"],
+["Le numéro","Rien. Il n'existe pas dans la vie d'avant et ne se compare à rien.","Chaque arrivant reçoit un numéro. Andrew l'écrit sur des formulaires depuis dix ans sans le regarder.","À faire passer plusieurs fois sous les yeux du lecteur avant le temps 5, en n'ayant jamais rien voulu dire. Trop peu, la reconnaissance ne repose sur rien ; trop appuyé, on annonce la scène.","retenu"],
+["La vue","L'un tient un papier à bout de bras pour le lire.","L'autre non.","Dans deux scènes de lecture de document, dont le livre ne manque pas.","piste"],
+["La taille","Face au même type d'interlocuteur, l'un lève les yeux.","L'autre les baisse.","L'indice n'est jamais dans une mesure, il est dans une direction du regard.","piste"],
+["Une dent ébréchée","Une dent qu'on cherche de la langue sans y penser, manie involontaire jamais nommée.","Absente.","À semer comme un tic corporel, jamais commenté par personne.","piste"],
+["Une articulation","Un genou au froid, une épaule le matin — une vieille blessure qui rappelle.","Rien ne fait mal.","Ne jamais laisser un personnage dire qu'il n'a jamais eu mal : ce serait un signalement, pas une phrase sur le monde.","piste"],
+["Le contre-exemple — le prénom","Joël.","Andrew.","Ce n'est pas un faux raccord et il n'entre pas dans le dispositif : un prénom n'est jamais anodin isolément, il n'est pas un fait de corps, et il ne peut pas s'espacer. Ce qui identifie ne se sème pas, ce qui différencie se sème.","écarté"]
+];
+
+/* règles d'usage des faux raccords */
+const RACCORDS_REGLES = [
+`Jamais commenté par un personnage — sauf une remarque portant sur le monde et non sur lui.`,
+`Parfaitement plausible isolément. Seule la paire se contredit.`,
+`Physique et involontaire. Jamais une opinion, un savoir ou un goût.`,
+`Très espacé.`,
+`Invisible à la première lecture, évident à la seconde.`,
+`Trois ou quatre paires dans tout le roman — l'arbitrage penche vers trois — dont au moins une tardive, dans le dernier tiers mais avant le cri.`,
+`Et surtout : aucune paire nette avant la découverte du lieu de séquestration.`
+];
+
+/* ==========================================================================
+   LES PHRASES
+   ========================================================================== */
+
+const PHRASES = [
+{ t:`Naître vieux donne plus de temps. Naître jeune donne un meilleur temps. Et personne ne sait dire lequel des deux a eu de la chance.`,
+  u:`bible`, q:`Elle dit tout le monde en trois lignes sans donner un seul chiffre — exactement ce que demande l'interdit n° 3. Usage : conversation, quatrième de couverture, présentation. **Pas dans le texte** : aucun personnage ne formule ce que tout le monde sait.`, d:`13 août` },
+{ t:`Plus on arrive jeune, plus on descend lentement — de sorte qu'un petit chiffre ne veut pas dire une petite vie.`,
+  u:`bible`, q:`La seule façon claire de dire le ratio. Outil d'explication, jamais une réplique.`, d:`13 août` },
+{ t:`C'était là sous nos yeux.`,
+  u:`texte`, q:`**La réplique la plus chargée du livre, et la plus banale à l'oreille.** Andrew à Isaac, au téléphone, au moment de donner l'adresse — *second coup de fil du livre, et le premier était plat exprès.* **Elle est littérale trois fois :** il est passé devant cette porte ; il est passé devant **avec le gamin** ; et le gamin a parlé à cet endroit précis. *Isaac l'entend comme une formule de flic et ne la relève pas. Elle ne doit jamais être expliquée.*`, d:`16 août` },
+{ t:`Ils mettent trois fois plus longtemps à descendre, en plus.`,
+  u:`texte`, q:`**La parade au calcul faux.** ✅ **Placée : le pédiatre, à la découverte du jardin** — il a les données techniques en main et l'énonce comme on cite une posologie. Un silence, et on parle d'autre chose. *Sans elle, le lecteur calcule 1:1 et trouve huit au lieu de quinze.*`, d:`16 août` },
+{ t:`On ne le perd pas, on le lui prend.`,
+  u:`bible`, q:`Le garçon qui entre au jardin. La différence entre une piste fausse et une piste coupée.`, d:`13 août` },
+{ t:`Le paysage se souvient, les hommes non.`,
+  u:`bible`, q:`La Terre a gardé ses fleuves et leurs noms ; rien de ce qu'ont fait les hommes n'a été gardé. Le texte ne la dira jamais : il se contentera de décrire ce qui est là.`, d:`13 août` },
+{ t:`L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.`,
+  u:`doctrine`, q:`Le credo. Il ne peut exister dans le livre que comme **doctrine contestée** — ce que les veilleurs croient, ce que certains haussent les épaules d'entendre. Jamais confirmé.`, d:`13 août` },
+{ t:`Les deux camps ont raison. Personne ne peut gagner cette dispute. Tout le monde y pense, la règle tient quand même.`,
+  u:`bible`, q:`**Jamais une réplique.** Si quelqu'un arbitre à voix haute, la dispute devient un discours et le livre perd son terrain. Ce qu'il faut obtenir dans le texte : deux personnes qui parlent, chacune avec sa part de vrai, et le narrateur qui ne tranche pas.`, d:`15 août` },
+{ t:`Elle vit à cent mètres de chez June. Andrew est passé devant sa porte à chacune de ses trois visites.`,
+  u:`bible`, q:`Ce n'est pas une formule de fin d'enquête, c'est un fait : il a marché devant cette maison en allant voir le petit, trois fois, et il n'avait aucune raison de la regarder.`, d:`15 août` },
+{ t:`C'était là sous nos yeux depuis le début.`,
+  u:`texte`, q:`Andrew à Isaac, au téléphone, au moment de donner l'adresse. Une réplique de policier, elle a le droit d'être banale — **c'est le lecteur qui saura qu'elle est littérale.** Dite une fois, jamais expliquée, personne ne la relève.`, d:`15 août` },
+{ t:`Il m'aimait beaucoup, un sentiment fort, très fort. J'avais l'impression qu'il était moi et que moi j'étais lui. Comme si je l'aimais encore plus fort que lui !`,
+  u:`texte`, q:`**La seule réplique du texte de cette liste.** Eliott, devant le jardin. Il a le sentiment entier et il n'a pas le nom, alors il le décrit par l'identité et par la confusion des deux personnes. Personne ne la traduit, personne ne la commente, personne n'a l'air de comprendre.`, d:`16 août` },
+{ t:`Lâche l'affaire. À l'heure qu'il est, les vers ont commencé le travail.`,
+  u:`texte`, q:`Le sous-entendu, dit franchement. Ni complot ni secret : de la lassitude, une journée à finir, un homme raisonnable en face.`, d:`15 août` },
+{ t:`C'est déjà ce qu'on m'a dit.`,
+  u:`texte`, q:`Ce qui échappe à Andrew. Une phrase qui n'est pas de cette vie-ci — et il ne le saura jamais. Comme une migraine : une pression, un blanc, deux secondes de trop. Il enchaîne.`, d:`15 août` },
+{ t:`Joël, non, attends !`,
+  u:`texte`, q:`Crié par son collègue. **Unique occurrence de son nom dans tout le roman**, et le dernier endroit possible du livre. Un nom crié par un personnage est du bruit ; un nom donné par le narrateur serait une information.`, d:`14 août` },
+{ t:`On les fait travailler pour que le reste du monde le supporte.`,
+  u:`texte`, q:`Le responsable, scène 6, quand on lui demande pourquoi la sortie du marginal ne lui fait pas plus d'effet que ça.`, d:`15 août` },
+{ t:`Un porteur de voiles de cet âge… je n'en avais jamais vu.`,
+  u:`texte`, q:`June, scène 2. Une phrase qui s'arrête, jamais une hypothèse. C'est par elle que le lecteur apprend ce qu'est un porteur de voiles, sans qu'aucun narrateur ne l'explique.`, d:`15 août` },
+{ t:`Il s'est mis dans une colère noire, ça ne lui ressemblait pas.`,
+  u:`texte`, q:`June, scène 5, sur le refus des cours de natation.`, d:`15 août` },
+{ t:`Tu as de la chance, toi, tu es immaculé depuis toujours.`,
+  u:`texte`, q:`Un collègue, sans y penser. La phrase parle du monde et non de lui — c'est ce qui la rend invisible. Le corps neuf est un fait ordinaire, donc le lecteur la range comme du décor.`, d:`14 août` },
+{ t:`Les petits princes pourris du jardin.`,
+  u:`texte`, q:`L'insulte du milieu jaloux. Petits princes pour l'accès sans mérite, pourris au sens de gâtés, du jardin pour le lieu où eux n'iront que très tard et pour très peu de temps.`, d:`—` },
+{ t:`Il est au jardin depuis huit ans.`,
+  u:`texte`, q:`La tournure qui a donné son nom au lieu.`, d:`13 août` },
+{ t:`Il n'y a pas eu d'éclaircie.`,
+  u:`texte`, q:`Ce qu'on dit d'une capsule qui ne s'est pas ouverte comme il faut. Rien de plus, jamais.`, d:`—` },
+{ t:`Elle a passé sa vie à donner des arrivants au jardin. Elle n'en a jamais gardé un seul.`,
+  u:`bible`, q:`Le mobile de la ravisseuse, en une phrase. **Rien de tout cela ne se dit dans le texte** : elle ne l'explique pas, personne ne le formule à sa place, et le livre n'a pas de scène qui rende son geste intelligible.`, d:`15 août` }
+];
+
+/* ==========================================================================
+   À TRANCHER
+   ========================================================================== */
+
+const QUESTIONS = [
+{ g:`Le monde`, t:`Comment Andrew sait qu'il y avait une capsule pourrie ce jour-là`, e:`acquis`,
+  q:`⛔ **Écarté : une marque dans le registre.** *Pourquoi l'épicentre noterait-il des capsules pourries au même endroit que des arrivées ? Et si les veilleurs n'avaient jamais fait le lien, il ne pourrait pas la lire.* **La solution ne passe pas par le registre.**
+
+✅ **Elle passe par l'odeur — trouvaille de l'autrice, 17 août 2026.** *Les salles de cérémonie ne sont pas accolées aux pièces de collecte, mais elles n'en sont pas loin.* **Ce qu'il croyait ne pas avoir senti, c'était un veilleur qui venait de nettoyer une capsule et qui était entré avec sa tenue de travail.** Et un autre qui le lui a fait remarquer.`,
+  o:[`**La réplique porte tout le reveal, et elle est parfaitement banale :** *« tu aurais pu enfiler une autre tenue, quand même. »* Personne ne s'en offusque, la cérémonie continue, et un homme de vingt ans plus jeune ne l'entend même pas.`,
+     `**Et rien n'est jamais confirmé.** *Une capsule qui n'éclaircit pas ne laisse aucune ligne : personne n'est arrivé, donc il n'y a rien à inscrire.* **Qui était dedans ne se saura jamais** — c'est Andrew qui suppose, et c'est le lecteur qui suppose avec lui.`,
+     `⚠️ **Ça change ce que la scène 33 va chercher.** *Le registre ne donne plus la capsule pourrie : il donne la paire.* Il confirme que les deux filles de l'enquête sont bien celles de sa cérémonie, arrivées ce jour-là, sur la ligne voisine de la sienne.`],
+  n:`✅ **Et ça referme la boucle de l'odeur en entier.** *Le prologue donne l'odeur propre ; la journée à la ruche la donne tournée, avec la raclette ; la seconde cérémonie la rappelle — et cette fois avec la phrase qui dit d'où elle venait.* **Trois occurrences, et le lecteur ferme le circuit seul.**` },
+
+{ g:`Le monde`, t:`Ce qu'Andrew lit, et où`, e:`acquis`,
+  q:`✅ **Tranché le 17 août 2026 : le registre de l'épicentre n'enregistre que l'arrivée.** *Ni la fin, ni rien entre les deux.* **Une ligne par capsule, une année, un âge, et c'est tout.**
+
+**Tout le reste est de la paperasse ordinaire**, tenue par des gens : affectations, services, dossiers médicaux, jardin sous secret. *C'est faillible, ça se perd, ça se trompe.* — **Et c'est là que travaille réellement un enquêteur.**`,
+  o:[`**La seconde piste ne passe donc pas par l'épicentre.** *Le jeune arrivant dont plus rien n'est écrit après une certaine date, c'est un dossier administratif qui s'arrête* — et il s'arrête parce que le jardin ne rend rien.`,
+     `**Et le défaut d'Andrew se resserre encore.** *La seule chose au monde qui ne mente jamais ne dit qu'un fait sur vous : que vous êtes arrivé.* **Tout ce sur quoi il travaille réellement est humain, donc faillible** — et la seconde piste meurt précisément sur une erreur administrative.`] },
+
+{ g:`Le monde`, t:`Le métier sait-il ce que dit une maturation lente ?`, e:`ouvert`,
+  q:`**Le délai de maturation est celui de l'agonie**, et c'est un fait du monde. *La question est de savoir si les veilleurs l'ont remarqué.*`,
+  o:[`**S'ils le savent :** une longue maturation veut dire une longue mort, et chaque veilleur le lit sans avoir à le dire. **C'est le genre de chose qu'un métier constate et ne mentionne jamais** — et ça rend leur douceur beaucoup plus lourde.`,
+     `**S'ils l'ignorent :** c'est une corrélation que seul le lecteur peut faire, à la relecture, en rapprochant deux chiffres qui ne se rencontrent nulle part dans le texte.`],
+  n:`⚠️ **La première option est plus riche et plus dangereuse.** *Elle donne aux veilleurs un savoir de plus à taire* — et ce monde en compte déjà beaucoup.` },
+
+{ g:`Le prologue`, t:`À quoi les capsules sont-elles fixées ?`, e:`acquis`,
+  q:`✅ **Trouvé par l'autrice, 17 août 2026 — et c'est un champ de courges.** *Une même ligne de végétation qui s'enchevêtre un peu partout, et les capsules posées à l'horizontale dessus, comme en attente d'être cueillies.* **Pas de tronc, pas de cœur, pas d'arbre mère** — une coulée qui court, et des fruits où elle passe.`,
+  o:[`**Le mot travee devient littéral :** des rangs de culture sous une halle. *C'est pour ça qu'on dit travée neuf comme on dirait rang neuf.*`,
+     `**Et « décrocher » aussi :** on détache la capsule de la coulée qui la porte, comme on coupe un melon de sa tige.`,
+     `✅ **Le dernier geste avant l'ouverture est un redressement.** *Pour la cérémonie, la capsule est amenée et maintenue dans une verticalité presque complète* — **c'est le seul moment de sa vie où une capsule se tient debout.**`],
+  n:`**Ce que ça fait au ton, et c'est énorme :** *un champ de courges est humble, agricole, chaud.* **Rien dans ce décor ne ressemble à de la science-fiction** — c'est un maraîchage sous une halle sculptée, et c'est exactement ce qui rend le lieu inquiétant sans jamais le montrer.` },
+
+{ g:`Le monde`, t:`Comment la ruche fait le lien avec l'Archiviste`, e:`ouvert`,
+  q:`**Proposition, 17 août 2026 : le lien n'est pas une preuve, c'est un bâtiment.** *On dit que les capsules sont envoyées par l'Archiviste ; on ne l'a jamais vu, on ne le verra jamais, et le livre ne confirmera rien.* **Mais on a bâti autour de l'endroit où elles apparaissent — et un bâtiment, ça, c'est vérifiable.**
+
+*La ruche est donc la seule preuve que ce monde possède : elle ne prouve pas qu'il existe, elle prouve qu'on y a cru assez pour tailler la pierre.*`,
+  o:[`**Ce que ça règle :** on n'orne pas un entrepôt. On orne un lieu qu'on ne comprend pas. L'ornementation démesurée cesse d'être un choix esthétique et devient une conséquence.`,
+     `**Et ça répond à « qui les plante ? » sans arbre mère :** personne. Elles apparaissent. Le reste est de la doctrine.`,
+     `✅ **Le livre montre le centre — décision de l'autrice, 17 août 2026.** *Le prologue suit le veilleur qui traverse le complexe :* il entrevoit les deux capsules du jour, il choisit la bonne salle de cérémonie, il installe. **La traversée est le décor, et le décor est le sujet.**`],
+  n:`⛔ **Rien ne doit être expliqué.** Personne dans le livre ne raconte la fondation de la ruche. *Ça se sait comme on sait l'âge d'une cathédrale : sans que personne l'ait dit.*` },
+
+{ g:`Le monde`, t:`Le registre est une pièce, pas un livre`, e:`acquis`,
+  q:`✅ **Trouvé par l'autrice, 17 août 2026, et ça remplace la phrase gravée que j'avais proposée.** *Le registre est un ensemble complexe que les veilleurs ont appris à lire avec le temps : à chaque capsule sa ligne, gravée quelque part, une année, un âge.* **Le public n'y a pas accès.** Il est dans une zone reculée du complexe, loin des capsules, comme des archives — **et c'est de là qu'est venu le nom de l'Archiviste.**
+
+**Il ne ment pas, et ce n'est plus un article de foi : c'est un constat.** *Les lignes s'inscrivent, personne ne les écrit, et personne ne peut écrire à la place de celui qui les écrit.*`,
+  o:[`⛔ **Rien n'est gravé sur les murs.** La doctrine ne s'affiche pas : elle se constate dans une pièce fermée. *C'est infiniment plus fort qu'une devise.*`,
+     `**Et ça retourne le défaut d'Andrew.** Il n'est pas superstitieux : **il a raison.** Le registre ne ment effectivement jamais. *Son erreur est de croire que tout ce qui est vrai y est écrit* — et le livre le punit là-dessus, précisément.`,
+     `**Ça donne enfin une raison physique à « l'homme du registre ».** Isaac le suit parce qu'Andrew peut entrer dans une pièce où Isaac n'entrera jamais, et y lire quelque chose que personne d'autre ne sait lire.`],
+  n:`⚠️ **À répercuter sur deux scènes du parcours :** *Retour à la ruche — le registre* (col. 9) et *La ligne de registre* (col. 33) ne se passent plus devant un livre, mais dans cette pièce.` },
+
+{ g:`Le prologue`, t:`Les capsules poussent-elles là, ou les y apporte-t-on ?`, e:`trou`,
+  q:`**Le décor est tranché — un sanctuaire orné avec de la végétation intérieure maîtrisée — mais pas ça.** *Et ça change ce qu'est le bâtiment.*`,
+  o:[`**Si elles poussent là :** la ruche est une serre, les pièces de collecte sont des cultures, et le personnel jardine autant qu'il veille. La végétation et les capsules appartiennent au même monde botanique.`,
+     `**Si on les y apporte :** la ruche est un sanctuaire où l'on dépose une récolte, la végétation est un décor entretenu, et **il existe un dehors d'où elles viennent — que le livre ne montrera jamais.**`],
+  n:`⚠️ **La seconde option est plus inquiétante et coûte moins cher :** elle laisse un vide que personne ne comble, et elle donne sa force à la récolte qui se gâte. *La première est plus chaude mais oblige à répondre à la question suivante — qui les plante ?* — **et on retombe sur l'arbre mère écarté.**` },
+
+{ g:`Le prologue`, t:`Qu'est-ce qu'une capsule, exactement ?`, e:`trou`,
+  q:`**On sait qu'elles s'éclaircissent, et rien d'autre.** *Ni de quoi elles sont faites, ni comment elles arrivent là, ni ce qu'elles font pendant qu'elles murissent.* **Le prologue est le premier endroit du livre où le lecteur en voit une** — il faudra bien qu'elle ait une matière, une odeur, un poids, une façon de s'ouvrir.`,
+  o:[`Ce qu'on en sait déjà : la paroi cède par le haut, sans bruit, en une poignée de secondes ; ça sent la pierre mouillée avec dessous un fond légèrement sucré ; quand ça n'éclaircit pas, il faut des combinaisons, une raclette et des seaux.`,
+     `Les pièces de collecte les contiennent à des degrés divers de maturation — donc ça se voit, une capsule plus ou moins avancée.`],
+  n:`⛔ **Ne pas expliquer le mécanisme.** Le monde s'observe et ne se documente jamais — un veilleur constate, il n'explique pas.` },
+
+{ g:`Le prologue`, t:`La couleur de la ruche`, e:`ouvert`,
+  q:`⚠️ **La référence du 17 août fait nettement pencher, et propose peut-être la synthèse.** *Le bois sombre, l'or, les teintes chaudes pour les passages sculptés* — **et le bleu et l'orangé pour la trouée de lumière au fond.** *Les deux directions cessent alors d'être concurrentes : elles sont les deux moments du trajet.* — Voir <em>07-recherches/reference-sanctuaire.md</em>.
+
+**Le sanctuaire fait pencher la balance sans la trancher.** *Un lieu sculpté, courbe, orné, avec de la végétation dedans, appelle plutôt le bois et l'or que le petit matin.* **Mais rien n'interdit une lumière bleue et orangée sur une matière chaude** — c'est peut-être là que les deux directions se rejoignent.
+
+**Deux directions, et l'autrice n'a pas tranché.** *Le rouge pourpre mêlé de doré* — ou *le bleu ciel mêlé d'orangé.* **Elle veut que ce soit signifiant**, pas décoratif.`,
+  o:[`Le pourpre et l'or tirent vers le sanctuaire et la châsse : un lieu où l'on dépose quelque chose de précieux.`,
+     `Le bleu ciel et l'orangé tirent vers le petit matin et le dehors : un lieu ouvert, traé de lumière, plus proche de la forêt que du temple.`],
+  n:`⚠️ **Le choix engage tout le livre**, puisque la ruche revient au prologue, à la journée de travail, aux deux cérémonies et à la ligne de registre. *Autant le trancher avant d'écrire la première page.*` },
+
+{ g:`Le prologue`, t:`Le rituel de la cérémonie d'éclaircie`, e:`acquis`,
+  q:`✅ **Écrit en entier par l'autrice le 17 août 2026**, de la maturation de la capsule jusqu'à la sortie du public. *Le détail complet est dans l'onglet Monde et dans <em>02-univers/la-ruche.md</em>.*
+
+**Et il ferme les deux questions qui restaient sur le miroir.** ① *Le miroir vient avant le nom* — c'est le premier geste, et c'est ce qui laisse au veilleur le temps de relever ce qu'il a à relever. ② *C'est le veilleur qui ouvre qui le tient*, placé de l'autre côté de la capsule.`,
+  o:[`**L'ordre est fixe :** on ouvre — on plie le couvercle ramolli — on ne voit que le visage et les épaules — on déplace le miroir en biais — on note pendant l'égarement — on attend que le regard vienne — on demande le mot par lequel il veut qu'on l'appelle.`,
+     `**Puis la tablée, l'eau, les cadeaux, et le public sort.** Le veilleur sort en dernier, parce que c'est lui qui porte la reconnaissance administrative.`],
+  n:`⚠️ **Ce qui reste à trancher pour le prologue :** l'éclaircie d'Eliott et de l'homme était-elle annoncée ? *Une capsule qui grandit lentement laisse le temps de prévenir et remplit la salle ; une capsule qui surgit d'un coup ne laisse presque personne.* **Ça décide combien de monde assiste à la première page.**` },
+
+{ g:`Le prologue`, t:`Les visiteurs — qui vient accueillir un arrivant ?`, e:`ouvert`,
+  q:`**Des visiteurs viennent accueillir les nouveaux arrivants**, et il faut les voir comme la parenté qui vient rencontrer un nouveau-né dans l'autre monde. *Ils sont déjà dans le décor du prologue — la corde, les deux hommes qui commentent, la femme au pliant — mais on ne sait pas ce qu'ils sont.*`,
+  o:[`**Qui sont-ils ?** Des volontaires, des affectés, des habitués ? Viennent-ils pour quelqu'un en particulier ou pour la cérémonie ?`,
+     `**Comment sont-ils choisis ?** Il y a une sélection, donc quelqu'un sélectionne — et c'est une place que quelqu'un peut vouloir.`,
+     `**Est-ce qu'ils reviennent ?** La femme au pliant vient depuis six ans, dans la version archivée du prologue. Si ça se garde, c'est un personnage.`],
+  n:`✅ **Ce qu'ils font est acquis :** à la fin de la cérémonie, ils viennent déposer au centre de la tablée des cadeaux de bienvenue, souvent en accord avec leur croyance — *des choses censées apporter joie, paix et bonheur.* Puis ils quittent la pièce. **Ce qui reste ouvert, c'est seulement qui ils sont et comment ils viennent là.**
+
+⚠️ **Le parallèle avec la maternité est la clé :** on vient voir quelqu'un qui vient d'arriver, on ne le connaît pas, et on est content pour lui. *Rien de solennel, rien de funèbre.*` },
+
+{ g:`Les trous du parcours`, e:`trou`,
+  t:`Ce qu'Eliott a dit exactement, et qui relance Andrew`,
+  q:`**Le dernier trou du parcours, scène 17.** Il ne peut pas avoir décrit la cave : il n'y était jamais allé. Deux pistes, aucune tranchée.`,
+  o:[`**La maison vue de la rue**, sur sa tournée de portage. Il en parle comme il parle du reste — un détail d'ici, dans la même phrase qu'un détail impossible.`,
+     `**Elle.** Une personne qui lui a parlé, mentionnée dans la même phrase qu'une boulangerie qui n'existe pas : il avait donné son nom, et Andrew ne l'a pas entendu.`],
+  n:`La seconde est nettement plus cruelle : elle fait passer la faute d'Andrew de « il n'a pas su lire un indice » à **« il a eu le nom de la coupable et il l'a laissé tomber par terre »**. Elle sert exactement le défaut nommé au §4 ter.4, et elle est la seule des deux qui le serve. C'est aussi la plus difficile à tenir sans crever l'interdit n° 4 : le nom doit passer sans peser, une seule fois, au milieu d'une phrase invérifiable.` },
+
+{ g:`Les trous du parcours`, e:`trou`,
+  t:`Le prénom de l'homme de vingt-deux ans`,
+  q:`Un nom d'éclaircie. **Il traverse huit scènes sans être nommé.**`, o:[], n:`` },
+
+{ g:`Les trous du parcours`, e:`trou`,
+  t:`Le nom d'éclaircie de l'arrivant de quarante ans`,
+  q:`Il en produit un à la cérémonie comme tout le monde, et il figure sur la ligne du registre qu'Andrew lit à la scène 8. **Mineur mais nécessaire** : c'est le seul mot par lequel il existe dans le livre, il apparaît deux fois — première page et scène 8 — et **rien ne doit inviter à le rapprocher de celui d'Eliott.**`, o:[], n:`` },
+
+{ g:`Les trous du parcours`, e:`trou`,
+  t:`La scène où la paire apparaît tôt`,
+  q:`Chrissy et Tania doivent apparaître une fois, tôt, comme du décor du monde — sans quoi le trouble du chapitre B ne s'accroche à rien. **La scène n'existe pas encore.** C'est aussi le meilleur endroit pour placer la phrase du ratio.`, o:[], n:`` },
+
+{ g:`Les trous du parcours`, e:`trou`,
+  t:`Le motif d'Andrew pour aller au registre, scène 8`,
+  q:`Piste proposée : il y va **parce que c'est le seul terrain où il est le meilleur.** Ce serait déjà son défaut à l'œuvre — il fait confiance au document, pas à la personne — et ça prépare la scène 14 sans rien annoncer.`, o:[], n:`` },
+
+{ g:`Validé provisoirement — à revoir`, e:`provisoire`,
+  t:`Le bout de la seconde fausse piste`,
+  q:`Ce n'est pas un mur, c'est une personne de trois ans qui achève tranquillement sa vie au jardin. Ils entrent, ils traversent, ils repartent — **et elle y était.** Avec, au milieu, la mort d'un zéro portée par une berceuse.`,
+  o:[], n:`**Validé le 16 août 2026, provisoirement.** L'autrice veut y revenir : rien n'est définitif.` },
+
+{ g:`Validé provisoirement — à revoir`, e:`provisoire`,
+  t:`La berceuse qui porte le mourant est-elle la ravisseuse ?`,
+  q:`À la fin, quand elle sort menottée, le lecteur se souvient : il l'a vue porter un mourant avec une tendresse parfaite, et il a trouvé ça beau. **La scène qui fait aimer les berceuses est celle qui prépare la révélation.**`,
+  o:[], n:`**La réserve commande l'écriture de la scène, et elle vaut même si la piste est écartée :** elle doit rester anonyme et non détaillée. Un geste, une silhouette, pas un portrait. Le risque est symétrique — trop peu, et la scène ne porte rien ; trop, et le lecteur sait déjà.` },
+
+{ g:`Validé provisoirement — à revoir`, e:`ouvert`,
+  t:`Est-ce qu'Andrew lui parle, ce jour-là ?`,
+  q:`Ou est-ce qu'il la croise seulement ?`,
+  o:[`**Croisée** — elle reste une silhouette et rien ne peut s'y accrocher. C'est la version sûre, et c'est la moins forte.`,
+     `**Adressée** — elle devient quelqu'un à qui il a parlé sans le savoir, et il l'a laissé tomber par terre comme il a laissé tomber le reste. Bien plus cruel, bien plus risqué.`],
+  n:`Question liée : s'il lui parle, a-t-elle un nom, et le donne-t-elle ? **Attention** : la version où Eliott donne le nom est déjà ouverte, et les deux ensemble feraient deux fois trop. Trois portes pour un seul nom, et il n'en faut qu'une.` },
+
+{ g:`Les contradictions à répercuter`, e:`trou`,
+  t:`Le milieu de la jalousie ne mène plus à personne`,
+  q:`**Arbitré par l'autrice** : le milieu est une fausse piste et rien de plus. La coupable est à l'exact opposé — celle qui les aime trop.`,
+  o:[], n:`**Correction encore à porter sur 02-univers/la-jalousie.md**, signalée et non appliquée. Sont concernés : la section « Le ravisseur d'Eliott sort de ce milieu-là », « Le verdict qui l'attend », et la question ouverte « groupe ou pas de groupe », qui tombe d'elle-même.` },
+
+{ g:`Les contradictions à répercuter`, e:`trou`,
+  t:`Le mois contre le calendrier court`,
+  q:`La scène 3 pose un mois entre l'arrivée d'Eliott et sa disparition. La fiche d'Eliott pose des visites qui tiennent « sur des jours, pas sur des mois ». **L'un des deux documents est à corriger.**`, o:[], n:`` },
+
+{ g:`Les contradictions à répercuter`, e:`acquis`,
+  t:`Vingt-trois arrivants de six ans basculés directement au jardin`,
+  q:`**Arbitré le 16 août 2026, dans le sens du jeu de piste : la scène 11 est juste et ne bouge pas.** « On entre dans le jardin à partir du moment où on a 8 ans. On y est par défaut quel que soit l'âge entre 8 et 0, que l'on soit en train de grandir ou de rajeunir. »`,
+  o:[], n:`**Le jardin cesse d'être un lieu où l'on entre en descendant : c'est la tranche de huit à zéro, tout entière.** Et ça ferme du même coup la question ouverte depuis le 15 août — qui s'occupe de la croissance sous huit ans. Réponse : le jardin, et les berceurs. *Ce temps de la vie avait un lieu depuis le début ; c'était celui-là.*` },
+
+{ g:`Les contradictions à répercuter`, e:`trou`,
+  t:`Les dates d'août sont fausses dans sept fichiers`,
+  q:`Des décisions sont datées du **17 et du 19 août** dans sept fichiers du dossier, alors que les séances ont eu lieu les 13, 14, 15 et 16. **35 occurrences.** Rien de grave sur le fond, mais dans six mois on cherchera ce qui s'est passé le 19 et il ne se sera rien passé.`, o:[], n:`Correction mécanique, sans effet sur le contenu.` },
+
+{ g:`Les contradictions à répercuter`, e:`ouvert`,
+  t:`« Au silence » n'est dans aucun lexique`,
+  q:`Le mot de la cellule temporaire est excellent et il n'existe que dans le parcours. **Aucun fichier de lexique n'existe dans le dossier** — à créer, ou à ranger dans la fiche de la ruche avec le reste du vocabulaire institutionnel.`, o:[], n:`` },
+
+{ g:`Le dossier maître`, e:`ouvert`,
+  t:`Cinq sections attendent encore ta validation`,
+  q:`Les corrections des 15 et 16 août ont été appliquées aux §4, §6, §7, §8, §9, §10, §11, §12 et §15. **Restent en attente :**`,
+  o:[`**§4 — la parole** : on sort en sachant parler, et la parole se dégrade vers quatre ans.`,
+     `**§8 — le moteur** : la critique en suspens sur les capsules qui se multiplient.`,
+     `**§10 — le lexique** : jardin, une paire, nom d'éclaircie, porteur de voiles, pas de noms de famille ni de parenté.`,
+     `**§13 — le plan** : caduc depuis le passage au calendrier court et aux dix-neuf scènes.`,
+     `**§16 — les phrases** : à remonter depuis le fichier complémentaire.`],
+  n:`` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`« Garçon », « gosse », « adolescent » tombent-ils aussi ?`,
+  q:`L'interdit n° 11 vise « enfant » et « vieillard ». Ces mots-là ne sont ni des mots de parenté ni les deux mots visés, **mais ils supposent la même chose : une place dans une vie qui aurait un ordre.**`,
+  o:[], n:`**La question a été posée le 16 août et n'a jamais reçu de réponse.**` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`La répartition, scène par scène, entre Andrew et Joël`,
+  q:`Tu la veux « assez égale ». **Elle est désormais contrainte** : les scènes 8, 10, 11 et la traversée du jardin ne peuvent être que d'Andrew, parce que Joël n'a rien à expliquer. L'égalité ne peut donc plus être une égalité de matière — seulement de nombre et de forme.`,
+  o:[], n:`**La parade :** le monde ne se livre jamais en description, il s'apprend à l'intérieur d'une action d'enquête. Un chapitre reste un chapitre d'interrogatoire des deux côtés. Test à appliquer scène par scène : si l'on peut retirer la question sans perdre l'information, la scène est une description déguisée.` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`Le nombre de chapitres, et l'alternance`,
+  q:`Contrainte connue : **l'alternance ne doit jamais dessiner un rythme régulier** qui se lirait comme deux séries.`, o:[], n:`` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`Lesquels seront doublés, et combien`,
+  q:`Un seul doublage est acquis — le « lâche l'affaire », scène 15. Trois autres sont proposés : le retour chez un témoin (scène 5), le suspect avec un alibi (scènes 12-13), et « seul » (scène 16).`,
+  o:[], n:`Réglage général : les deux occurrences ne doivent jamais se citer l'une l'autre, et rien dans la seconde ne doit ressembler à un rappel.` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`Où tombe l'indice du déclencheur`,
+  q:`Scène 1 ou scène 2 ? **La scène 2 est le meilleur emplacement** : ils sortent faire un tour, et le garçon parle en marchant dans des rues réelles.`, o:[], n:`` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`Combien de temps dure la détention d'Eliott ?`,
+  q:`Deux semaines sont comptées à la scène 15, et la scène 14 en compte deux aussi. **Les deux chiffres sont désormais les mêmes, et il faut décider s'ils se recouvrent ou s'ils s'ajoutent.** C'est le compteur du livre.`, o:[], n:`` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`La longueur de la seconde fausse piste, en pages`,
+  q:`La recommandation initiale était qu'elle soit plus courte que la première ; le contenu trouvé compte deux semaines, soit autant. **Elle se déplace :** ce n'est plus la durée racontée qui doit être plus courte, c'est le nombre de scènes.`,
+  o:[], n:`Et il ne faut pas la raccourcir trop : **le creux est le meilleur endroit du dispositif.** C'est la portion du livre où le lecteur est le plus incapable de distinguer les deux hommes — les deux semaines perdues d'Andrew et les semaines perdues de Joël sont les mêmes semaines.` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`La traversée du jardin est-elle une scène ou deux ?`,
+  q:`Le refus au comptoir, la traversée et la mort d'un zéro peuvent tenir ensemble ou se séparer. **Le creux ne doit pas être égayé ; la scène de la mort est ce qui s'en rapproche le plus dangereusement.** À doser.`, o:[], n:`` },
+
+{ g:`Questions d'écriture`, e:`ouvert`,
+  t:`Où le lecteur apprend-il ce qu'est un porteur de voiles ?`,
+  q:`La scène 2 est le canal principal, et elle est la seule à ne rien expliquer en l'expliquant. **Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.**`, o:[], n:`` },
+
+{ g:`Le monde`, e:`ouvert`,
+  t:`Le plancher d'arrivée existe-t-il encore ?`,
+  q:`**Contradiction réelle et non résolue :** on sort de la capsule en sachant parler, et la parole se dégrade vers quatre ans. Les deux règles ne peuvent pas être vraies ensemble sous quatre ans.`, o:[], n:`` },
+
+{ g:`Le monde`, e:`ouvert`,
+  t:`Les durées de plateau et de fin`,
+  q:`Elles ne sont fixées pour personne — **et aucun chiffre ne doit être inventé.** Plateau et fin sont-ils liés ou indépendants ? La fin va-t-elle à la même vitesse que la marche vers huit, ou à une seconde vitesse ?`, o:[], n:`` },
+
+{ g:`Le monde`, e:`acquis`,
+  t:`Qui s'occupe de la croissance en dessous de huit ans ?`,
+  q:`**Tranché le 16 août 2026 : le jardin, et les berceurs.** Un arrivant de deux ans y entre le jour de son éclaircie, il y grandit jusqu'à huit, il y reste, il y redescend. *Ce n'était pas le seul temps de la vie sans lieu attribué : c'était le même lieu depuis le début, et on ne l'avait pas vu.*`,
+  o:[], n:`**Une conséquence à travailler, et elle est neuve.** Pour ceux qui montent, la croissance est publique — on voit un corps de six ans devenir un corps de huit ans, et personne n'a à le taire. Ce qui reste secret est le moment où ça s'inverse. **Le tabou ne porte donc pas sur la même chose selon le sens de la trajectoire**, et le dossier ne l'avait pas prévu.` },
+
+{ g:`Le monde`, e:`ouvert`,
+  t:`Deux corps de six ans, côte à côte`,
+  q:`Depuis que le jardin prend toute la tranche de huit à zéro, il abrite dans les mêmes pièces des trajectoires qui montent et des trajectoires qui descendent. **Un de six ans qui va vers huit et un de six ans qui va vers zéro sont indiscernables** — même corps, même âge, deux directions opposées, et rien pour les distinguer.`,
+  o:[], n:`*Le livre n'a pas encore de scène là-dessus, et il y a de quoi en faire une. À noter aussi : c'est un cadeau pour le tabou, puisque même en regardant on ne peut rien déduire.*` },
+
+{ g:`Le monde`, e:`ouvert`,
+  t:`Une blessure prise ici s'efface-t-elle ?`,
+  q:`En repassant sous l'âge où elle a été prise, ou reste-t-elle ? **Le choix engage le registre entier du livre** — et il touche directement le faux raccord de la cicatrice.`, o:[], n:`` },
+
+{ g:`Le monde`, e:`ouvert`,
+  t:`Le jardin : un lieu ou plusieurs ?`,
+  q:`Un bâtiment par ville, une maison, un quartier ? Y entre-t-on définitivement, ou en sort-on la journée ? Les âges sont-ils séparés en salles ?`, o:[], n:`` },
+
+{ g:`Le monde`, e:`ouvert`,
+  t:`Le rôle du chuchoteur n'est écrit nulle part`,
+  q:`Il figure au dossier maître — un jeune bras droit d'un ancien aux commandes, dans n'importe quel domaine — et **aucune fiche du monde ne le développe.**`, o:[], n:`` },
+
+{ g:`Le monde`, e:`ouvert`,
+  t:`Les numéros suivent-ils l'ordre des arrivées ?`,
+  q:`Si oui, deux capsules ouvertes le même jour donnent des numéros qui se suivent — **et une capsule sans éclaircie laisse un trou dans la suite.** Les deux points se tranchent ensemble, et ils touchent directement la scène du registre final.`, o:[], n:`` },
+
+{ g:`En réserve`, e:`ecarte`,
+  t:`Erin, l'histoire d'amour`,
+  q:`Suspendue. « Pour l'instant tu oublies l'histoire d'amour, je ne sais pas comment l'intégrer. » Elle arrive à 64 ans, dix ans après lui ; elle a douze ans de plus que lui ; il ne peut rien lui avouer ; elle le friendzone ; il se dit qu'il la reverra dans l'autre monde, sans qu'elle puisse le comprendre.`,
+  o:[], n:`**Le calendrier sur douze ans n'existait que pour elle.** Sa réintégration rouvrirait toute la durée du livre.` },
+
+{ g:`En réserve`, e:`ecarte`,
+  t:`La mère et l'enfant`,
+  q:`Hors casting. Le service qu'elle rendait — apprendre au lecteur qu'une journée à deux arrivées signifie une seule mort — **a été repris intégralement par l'arrivant de quarante ans**, en première page, sans rien coûter au casting.`,
+  o:[], n:`L'arithmétique de ses deux courbes est à refaire si elle revient : elle suppose une vitesse de descente entre huit et cinquante ans qui n'est fixée nulle part.` },
+
+{ g:`En réserve`, e:`ecarte`,
+  t:`Le piratage des données du jardin`,
+  q:`« Rien ne dit qu'un jour quelqu'un ne tente pas de pirater les données pour savoir l'âge de chacun précisément. Ça pourrait être une sous-intrigue intéressante, **mais pas pour ce livre-là.** »`, o:[], n:`` }
+];
+const TEXTES = [{
+  id: `prologue`,
+  rang: `Prologue`,
+  titre: `La cérémonie`,
+  scene: `ouv`,
+  sous: `La cérémonie d'Eliott et de Nicolas · point de vue d'Andrew · écrit avec l'autrice les 17 et 18 août 2026`,
+  p: [
+
+[`p`,`Deux capsules étaient venues pendant la nuit, et personne ne savait qui allait en sortir.`],
+[`p`,`On lui avait donné la salle 4 pour les deux.`],
+[`p`,`C'était trop grand, et il n'avait rien dit. On ne discute pas une salle, et surtout pas celle qui était libre.`],
+[`p`,`Le veilleur poussa la porte, les bras chargés, et le soleil lui arriva dessus d'un coup. Il entrait par les ouvertures ménagées entre les nervures du plafond et posait sur les dalles de longues bandes obliques. Contre le mur du fond, un coulant passait. Épais comme un bras, entré par une percée du mur, enroulé autour de deux colonnes, ressorti plus loin sans qu'on sache où il allait.`],
+[`p`,`Personne ne l'avait planté là. On avait bâti autour, et on avait sculpté tout le reste.`],
+[`p`,`Les colonnes étaient couvertes du pied au chapiteau. Des feuilles, des tiges, des grappes lourdes, et dans les feuilles des corps, des mains, des visages tournés vers le milieu de la pièce. Sur la troisième en partant du seuil, la sculpture montait jusqu'à mi-hauteur et s'arrêtait net. Le coulant prenait le relais et continuait jusqu'en haut.`],
+[`p`,`On ne savait pas laquelle des deux avait copié l'autre.`],
+[`p`,`Il posa ses affaires sur la desserte. Vingt-deux chaises empilées contre le mur, en quatre piles inégales. Il n'avait pas décidé de les compter.`],
+[`p`,`Deux capsules, deux postes.`],
+[`p`,`Il déplia la lampe sur pied à hauteur d'épaule, orientée vers le sol, et fit rouler un premier miroir depuis le mur jusqu'à l'emplacement du poste. Il stoppa sa course en activant le frein. Il l'essuya avec le linge accroché à la barre, en commençant par le haut, recula d'un pas, se vit dedans, et le tourna vers le mur. Une bassine à droite, vide, avec les flacons dedans.`],
+[`p`,`Quand il eut terminé de mettre le premier poste en place, il s'affaira au deuxième, réitérant deux mètres plus loin : lampe, miroir, bassine.`],
+[`p`,`Restait la table. Elle trônait au milieu de la pièce, dans la bande de soleil qui tombait là à cette heure-là. Il prit sur la desserte une nappe blanche et toute lisse, ainsi que son chemin de table, une grande bande rectangulaire orangée. Il les ajusta sur le plateau immaculé avant d'y déposer un pichet d'eau au milieu. Un aller-retour à la desserte : deux verres, deux timbales, deux biberons. Il en disposa trois devant chaque place.`],
+[`p`,`On ne pariait pas. Alors on posait les trois, on prenait celui qu'il fallait le moment venu et on remettait les deux autres sur la desserte sans y penser. La pile de serviettes suivait le même principe : quatre tailles, et il en descendit une de chaque.`],
+[`p`,`Il compta les éléments sur la table. Sept. On était bon.`],
+[`p`,`Il récupéra deux chaises du tas.`],
+[`p`,`Les visiteurs arrivèrent avant les capsules, comme toujours, par petits groupes, et ils s'installèrent le long des murs en parlant à voix basse. Ils s'appliquaient à parler bas. C'était une chose qu'on faisait ici sans que personne l'ait jamais demandé. On avait prévenu tard, alors ils n'étaient pas nombreux. Ils étaient douze, et ils tenaient tous sur un seul côté.`],
+[`p`,`Deux marches basses couraient le long de ce mur-là, pour ceux de derrière. Trois s'assirent dessus, les autres restèrent debout. Ils n'avaient pas d'âge commun : une femme qui en paraissait quatre-vingts, deux hommes autour de la cinquantaine, un autre d'une vingtaine d'années qui les connaissait tous et les appelait par leur prénom.`],
+[`p`,`Nora entra la dernière, en nouant ses manches.`],
+[`tiret`,`— Bonjour Andrew. On est deux ?`],
+[`tiret`,`— On est deux.`],
+[`tiret`,`— Alors c'est un bon jour.`],
+
+[`pause`,`· · ·`],
+
+[`p`,`Deux nouvelles personnes, des préparateurs, firent rouler deux chariots jusqu'à leur poste respectif, et un murmure parcourut le petit groupe.`],
+[`p`,`Ils étaient de la serre. C'étaient eux qui vivaient au milieu de la coulée, qui la suivaient d'un bout à l'autre, qui savaient à la main quand une capsule était prête et qui la décrochaient.`],
+[`p`,`Les deux éclaircies du jour étaient couchées côte à côte, comme on les avait cueillies. Une capsule, ça ne pousse pas debout : ça pousse à plat sur le coulant, en rang avec les autres, et il faut la détacher de ce qui la porte. Celles-ci étaient venues dans la nuit, toutes les deux, d'un coup, à quelques travées l'une de l'autre, et il avait fallu monter la cérémonie au matin.`],
+[`p`,`Elles faisaient la longueur d'un corps et un peu plus. Larges au milieu, effilées aux deux bouts, avec cette dissymétrie qu'ont les choses qui ont poussé : un flanc plus plein que l'autre, une courbe qui reprenait là où on ne l'attendait pas. Des nervures couraient sur toute la longueur, très fines, serrées près des pointes et écartées au ventre, et elles se rejoignaient sans jamais tout à fait se toucher. Rien là-dedans n'avait été dessiné.`],
+[`p`,`Elles étaient belles. La paroi avait pris ce jaune très pâle qui vient à la fin, presque comme de la cire, et par endroits on voyait au travers. Une ombre plus dense, une courbe, quelque chose de replié. On ne distinguait rien de plus. Là-dedans, tout se confondait avec le fond, et ceux qui prétendaient reconnaître un genou ou une épaule à travers une paroi mentaient, ou débutaient.`],
+[`p`,`Sur le dessus, le rabat était en place, plus sombre et plus mat que le reste. Personne n'y avait taillé quoi que ce soit : à ce stade la paroi est si fine qu'elle finirait par céder toute seule, et on ne fait pas d'entailles à une chose qui va s'ouvrir sans vous.`],
+[`p`,`Le reste avait été fait ailleurs, par d'autres mains. Nettoyées, branchées, relevées une dernière fois.`],
+[`p`,`Les préparateurs redressèrent les chariots. Les capsules passèrent de l'horizontale à la verticale en trois crans, très lentement, avec un bruit de crémaillère que tout le monde entendit.`],
+[`p`,`Un des préparateurs lui tendit une fiche, puis rejoignit son collègue, déjà droit et immobile, les mains croisées devant lui, sur une des bordures de la salle. Andrew la parcourut en diagonale et la rangea dans son carnet. L'heure de la cueillie, et l'état de la capsule avant cérémonie.`],
+
+[`pause`,`· · ·`],
+
+[`p`,`Il prit le rabat à deux mains et le replia d'un quart. Ça ne cassait pas, ça pliait, et ça tenait où on le laissait. Un quart, pas plus : le visage, la gorge, le haut des épaules. Le reste attendrait le second veilleur.`],
+[`p`,`La lumière entra dedans.`],
+[`p`,`Le corps eut un mouvement — pas un sursaut, un ralentissement de tout, comme quelqu'un qu'on tire d'un sommeil trop profond et qui remonte par paliers. Les paupières bougèrent sans s'ouvrir. Elles s'ouvrirent, se refermèrent aussitôt sur la lumière, se rouvrirent à moitié. Les pupilles mirent longtemps à se faire.`],
+[`p`,`On chuchota « douze » le long du mur, et « treize » plus loin.`],
+[`p`,`Un voile de gelée le recouvrait entièrement, orange, épais, mat, sans une goutte nulle part. Ça ne coulait pas, cette chose-là. Ça s'enlevait. Andrew posa la main à plat sur l'épaule et fit descendre la paume : le voile vint d'un seul tenant, roulé sur lui-même comme la pelure d'un fruit, et découvrit le bras et la main, qui étaient parfaitement propres et parfaitement secs. Il le déposa dans la bassine. Il recommença sur l'autre épaule.`],
+[`p`,`Le corps était placé comme on se place pour dormir quand on n'a mal nulle part.`],
+[`p`,`Le veilleur sortit un instrument — étrange pour qui ignore à quoi il sert, banal pour qui sait le manier. Il fit le relevé. Puis, comme un exercice exécuté depuis des années, il trancha pour tous.`],
+[`tiret`,`— Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté dix ans.`],
+[`tiret`,`— Dix ans, répéta le visiteur d'une vingtaine d'années. C'est si rare !`],
+[`p`,`Plus loin sur la marche, quelqu'un souffla par le nez. Personne ne se retourna.`],
+[`p`,`Andrew fit pivoter le miroir sur son pied et le régla en biais, à la bonne hauteur, un peu de trois quarts.`],
+[`p`,`Le garçon se vit.`],
+[`p`,`Il resta là-dessus un long moment. Sa respiration changea de rythme deux fois.`],
+[`p`,`Puis il regarda les différents visages qui s'attardaient sur le sien, l'autre capsule à deux mètres de la sienne, et le plafond, qu'il interrogea du regard pour comprendre d'où venait la lumière.`],
+[`p`,`Puis le regard du garçon se posa sur lui.`],
+[`p`,`C'était le signe ; on ne parlait jamais avant.`],
+[`tiret`,`— Bienvenue à toi.`],
+[`p`,`Il attendit.`],
+[`tiret`,`— Ici, chacun a un mot qui le désigne. Un seul, et c'est le sien, et il ne changera pas. Comment veux-tu qu'on t'appelle ?`],
+[`p`,`Le jeune arrivant répondit sans réfléchir une seconde, comme on répond à une question dont on connaît la réponse depuis toujours.`],
+[`tiret`,`— Eliott.`],
+[`p`,`Andrew écrivit le mot sur son carnet, et à la suite le numéro qu'il porterait toute sa vie. Il souligna les deux.`],
+[`p`,`Puis il prit les deux flacons et les remplit lui-même, à même le voile, en le pressant entre le pouce et l'index. Il les boucha, les essuya, les rangea debout dans un coin de la bassine. Il ne dit rien en le faisant, et personne ne dit rien non plus.`],
+[`p`,`Nora prit son relais et ôta le rabat en entier. La veilleuse passa autour du corps d'Eliott et décolla ce qui restait de gelée aux plis des coudes et des genoux.`],
+
+[`pause`,`· · ·`],
+
+[`p`,`De la même manière, Andrew replia le second rabat d'un quart et l'arrêta là.`],
+[`p`,`Ce corps-là mit plus longtemps à revenir. Une quarantaine d'années, et pour une fois personne ne se trompa de beaucoup. Il ouvrit les yeux, les referma, les rouvrit, et regarda le plafond très haut sans rien y chercher.`],
+[`p`,`Eliott observait la scène tandis que Nora s'affairait autour de lui. Il regardait ce qu'on faisait à l'autre. Les mains sur l'épaule, le voile qui venait d'un tenant, le miroir qu'on tournait. Il regardait comme on regarde quelqu'un subir la chose qu'on vient soi-même de subir, avec cet intérêt un peu bête qu'on y met.`],
+[`p`,`Nora tendit les mains. Le garçon les prit et sortit tout seul, les jambes hésitantes, et elle le tint le temps qu'il fallait. Elle lui passa par la tête une serviette de cérémonie — un grand rectangle de toile percé d'un trou, qui tombait droit devant et droit derrière — croisa les pans sur les côtés et les ferma d'une ceinture.`],
+[`p`,`Le garçon brisa les murmures en une phrase.`],
+[`tiret`,`— Il faut vider mes poches.`],
+[`p`,`Personne ne répondit. Il ne regardait personne en particulier, et il attendait vraiment qu'on fasse quelque chose.`],
+[`tiret`,`— Elles sont pleines.`],
+[`p`,`Deux ou trois personnes regardèrent la serviette, comme s'il avait pu y avoir des poches dessus. Il n'y avait rien. Une femme, au milieu du mur, avait posé la main sur le bras de son voisin sans s'en apercevoir.`],
+[`p`,`Andrew ne se retourna pas. Il avait les deux mains occupées à prélever la gelée sur le corps de l'homme.`],
+[`p`,`Puis le garçon reprit, plus doucement, comme on rassure quelqu'un :`],
+[`tiret`,`— Je reviens bientôt.`],
+[`p`,`Nora marqua un temps. Un seul.`],
+[`tiret`,`— Ça arrive, dit-elle, pour la salle. Ça arrive souvent.`],
+[`p`,`Et c'était vrai. Les arrivants sortaient avec la langue et rien d'autre, et la langue tournait à vide un moment avant de se poser sur quelque chose. Il n'y avait rien à comprendre ; juste à attendre. Ce n'était pas systématique.`],
+[`tiret`,`— Non non, tu ne comprends pas, c'est un peu tard !`],
+[`p`,`La veilleuse eut un léger mouvement de tête étonné, sauvé par un sourire rassurant. Elle rajusta sa serviette qui n'en avait pas besoin et l'installa à table.`],
+[`p`,`Il rouvrit la bouche, la referma. Et ce fut tout.`],
+
+[`pause`,`· · ·`],
+
+[`p`,`Andrew sortit l'instrument, fit le relevé, et trancha pour tous.`],
+[`tiret`,`— Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté quarante-deux ans.`],
+[`p`,`Le miroir pivota. L'homme se vit dedans. Il regarda longtemps, lui aussi.`],
+[`p`,`Puis on lui posa la même question qu'au garçon.`],
+[`tiret`,`— Nicolas.`],
+[`p`,`La voix sortit grave et éraillée, et elle le surprit autant que les autres.`],
+[`p`,`Andrew s'éloigna et vint se placer près du pichet. Son travail aux postes s'arrêtait là.`],
+[`p`,`Sa collègue finit tout ce qu'il y avait à faire, aida le quadragénaire à sortir et le dirigea vers la table, à la place voisine. Il posa les mains à plat devant lui parce qu'il ne savait pas quoi en faire.`],
+[`p`,`Puis il tourna la tête.`],
+[`p`,`Eliott le regardait déjà.`],
+[`p`,`L'homme leva la main et se toucha la bouche, du bout des doigts, comme on vérifie une chose qu'on vient de voir. Eliott leva la main et se toucha la bouche.`],
+[`p`,`Il fit descendre l'index le long de son menton. Eliott fit descendre le sien.`],
+[`p`,`Il ouvrit la paume devant lui et la regarda. Eliott ouvrit la sienne.`],
+[`p`,`Quelqu'un rit tout bas contre le mur. C'était drôle, ce petit qui singeait l'autre, et la salle avait besoin de rire de quelque chose.`],
+[`p`,`L'homme s'aperçut de ce qui se passait et s'arrêta. Eliott s'arrêta aussi, la main en l'air, puis il la reposa sur la table.`],
+[`p`,`Ça dura le temps que ça dura, et il tira sur sa serviette parce qu'elle glissait de l'épaule.`],
+[`p`,`À ce moment-là, Andrew refermait la bassine.`],
+
+[`pause`,`· · ·`],
+
+[`p`,`Andrew prit le pichet et fit le tour de la table. Il versa de l'eau dans chacun des verres et les recentra en face de chaque arrivant. Il récupéra le reste et le rapporta à la desserte.`],
+[`p`,`Ils burent tous les deux.`],
+[`p`,`Après le nom, le pichet. C'était l'usage, et personne n'aurait su dire depuis quand : on disait que la première eau emportait ce qui restait du sommeil, et que personne ne pouvait aller le chercher à sa place. Ceux qui n'y croyaient pas regardaient quand même — c'est le seul moment où l'on voit un corps faire une chose que personne ne lui a apprise.`],
+[`p`,`L'homme reposa son verre, regarda le fond, et le reprit.`],
+[`p`,`Alors la salle s'avança, et pour la première fois de la matinée il y eut du bruit.`],
+[`p`,`Ils vinrent un par un déposer au milieu de la table ce qu'ils avaient apporté pour leur porter chance. Un fruit. Une boule d'osier tressée. Trois épis noués par un fil de laine rouge. Une pierre plate. Une femme posa la sienne, la regarda, et la tourna d'un quart. Elle voulait qu'elle soit dans le bon sens. Il n'y avait pas de bon sens.`],
+[`p`,`Ça se penchait pour mieux voir. Ça commentait. Deux personnes se serrèrent le bras sans se connaître.`],
+[`tiret`,`— Bienvenue, dirent plusieurs, sans s'adresser à personne en particulier.`],
+[`p`,`D'autres reprirent le mot en passant derrière eux. Une main s'attarda une seconde sur une épaule et repartit.`],
+[`p`,`Aucun d'eux ne les connaissait. Aucun ne les reverrait. Ça n'enlevait rien.`],
+[`p`,`Eliott regardait le tas grossir au milieu de la table.`],
+[`p`,`Puis les visiteurs sortirent, dans le même ordre où ils étaient entrés.`],
+[`p`,`Andrew tint la porte le temps que le dernier passe, et il la referma sur eux.`],
+[`p`,`Le bruit du couloir s'arrêta net.`],
+[`p`,`Nora fit signe à Eliott et Nicolas de la suivre. Ils se levèrent et lui emboîtèrent le pas, vers une porte au fond de la pièce à laquelle ni l'un ni l'autre n'avait fait attention jusqu'ici.`],
+[`p`,`Elle s'ouvrit sur du vert, et se referma.`],
+[`p`,`Les préparateurs recouchèrent les capsules sur les chariots, chargèrent les bassines et les emportèrent. Un moment plus tard, il n'y avait plus dans la pièce que deux miroirs, deux lampes, une table avec des cadeaux dessus, et un homme debout avec un carnet.`],
+[`p`,`Andrew reporta les deux arrivants en une ligne. Le jour, les deux travées, l'heure, les âges relevés, les deux mots, les deux numéros. Il écrivait vite, d'une écriture qui n'était belle nulle part ailleurs.`],
+[`p`,`Sous la ligne, il y avait une case pour les observations.`],
+[`p`,`Son regard remonta d'un cran, sur le mot du garçon, et redescendit dessus. La pointe de la plume effleura le papier, s'y attarda, et se releva.`],
+[`p`,`Il rangea le carnet.`],
+[`p`,`Il éteignit les deux lampes et sortit.`,`fin`]
+
+  ],
+  tenu: [
+`<strong>Le rite entier, joué sans une ligne d'explication.</strong> Le capot, le voile, le miroir, le relevé, le nom, le numéro, la serviette, le pichet, les cadeaux. <em>Rien n'est commenté : tout est fait devant le lecteur par quelqu'un qui l'a fait mille fois.</em>`,
+`<strong>Le miroir, et il rend possible la dernière page.</strong> Eliott voit son propre visage avant tout le reste. Six cents pages plus loin il dira de l'homme d'à côté : <em>« j'ai vu ses yeux, tout pareils que les miens »</em> — il ne pouvait le dire que s'il venait de voir les siens, et c'est Andrew qui a tourné le miroir.`,
+`<strong>L'ordre du regard, tenu au mot près.</strong> Son visage, la salle, le plafond, la capsule voisine, puis Andrew. <em>Il ne voit Nicolas qu'à la table, quand celui-ci tourne la tête</em> — ce qui valide le <em>« je l'avais pas vu, au début. Je crois que lui non plus »</em> de l'épilogue.`,
+`<strong>Le mimétisme au lieu du dévisagement.</strong> Il ne fixe pas : il fait pareil. La salle rit, ce qui la soulage de ce qui vient de se passer, et le lecteur range ça dans la curiosité. <em>Ce n'en est pas.</em>`,
+`<strong>Ce qu'il dit n'a aucun sens et ne peut pas être décodé.</strong> Des poches qui n'existent pas, un retour annoncé à personne. <em>Rien ne se rattache au jour de sa mort, et c'est ce qui protège l'épilogue.</em>`,
+`<strong>Le narrateur se fait contredire.</strong> Il pose la règle du monde — <em>« il n'y avait rien à comprendre ; juste à attendre »</em> — et le garçon répond « non non, tu ne comprends pas ». <strong>Il a raison sur le monde et tort sur celui-là, et il ne le saura jamais.</strong>`,
+`<strong>Andrew a le dos tourné pendant la seule phrase qui compte.</strong> « Je reviens bientôt » tombe pendant qu'il a les deux mains dans une capsule.`,
+`<strong>La case des observations.</strong> Une plume qui effleure le papier et se relève. <em>C'est le seul endroit du chapitre où quelque chose reste en suspens, et personne ne le nomme.</em>`,
+`<strong>La manie de compter, plantée en page une.</strong> Vingt-deux chaises qu'il n'a pas décidé de compter, dix-sept visiteurs, sept éléments sur la table — et <em>« il compta les petits en traversant. Ils étaient quarante-deux »</em> à la dernière page du livre.`
+  ],
+  ouvre: [
+`<strong>Est-ce que le lecteur se souviendra du mimétisme à l'épilogue ?</strong> <em>Rien ne pèse, personne ne relève, et c'est voulu</em> — mais il faut qu'il ait quelque chose à retrouver six cents pages plus loin. <strong>C'est la vraie question ouverte du chapitre.</strong>`,
+`<strong>La phrase d'accueil est donnée entière ici</strong> — <em>« Bienvenue à toi »</em> — alors qu'à sa propre cérémonie Andrew n'en attrapera que le début. À confirmer : c'est gratuit, mais il faut le vouloir.`,
+`<strong>La case des observations, à garder ou à couper.</strong> C'est le seul gramme du chapitre.`,
+`<strong>Le numéro n'est pas écrit en toutes lettres.</strong> Sa forme n'est fixée nulle part dans le dossier, et le texte le contourne pour l'instant.`
+  ],
+  note: `Écrit avec l'autrice les 17 et 18 août 2026, en une dizaine de passes. <strong>Une matinée de travail ordinaire dans un lieu qu'on ne comprend pas.</strong> <em>Le système entier passe là sans un mot d'explication : un homme prépare une salle, ouvre deux capsules, note deux lignes, et éteint les lampes.</em> La quatrième version du prologue, et la première qui parte de la cérémonie d'Eliott.`
+},{
+  id: `chapitre-1`,
+  rang: `Chapitre premier`,
+  titre: `Une journée à la ruche`,
+  scene: `capsule`,
+  sous: `La ruche traversée d'un bout à l'autre · point de vue d'Andrew · écrit avec l'autrice le 19 août 2026`,
+  p: [
+
+[`p`,`Quatre cent trente-huit.`],
+[`p`,`C'était le nombre de pas qui séparaient sa porte de celle de la ruche. Il ne l'avait jamais compté exprès : le chiffre était venu tout seul, un matin, et il n'était jamais reparti. Les jours où une voiture se garait en travers du trottoir, il en faisait quatre cent quarante et un. Ces matins-là ne comptaient pas.`],
+[`p`,`La ruche s'ouvrait par deux battants de bois clair que personne ne fermait avant la nuit. Sur le montant de droite, à hauteur d'épaule, on avait taillé une capsule de profil, d'un seul trait. Tant de mains l'avaient touchée en entrant qu'elle n'était plus qu'un creux. Andrew y posa la sienne sans y penser, comme les autres.`],
+[`pause`,`· · ·`],
+[`p`,`Tout de suite en entrant, sur la gauche, l'accueil.`],
+[`p`,`C'était une pièce rectangulaire et basse, la seule du complexe qui ressemblât à quelque chose de connu. Un guichet, une vitre, des chaises alignées avec le mur et d'autres dos à dos au milieu. Des gens attendaient qu'on vienne les chercher. Ils étaient dix-huit, et deux d'entre eux tenaient sur les genoux quelque chose qu'ils avaient apporté et qu'ils n'avaient pas voulu poser.`],
+[`p`,`Ils savaient tous qu'il faudrait attendre. On ne fait pas commencer une cérémonie parce que les gens sont arrivés. Alors ils attendaient, et ils parlaient, et l'un d'eux regardait la porte du fond toutes les deux minutes.`],
+[`p`,`On y était bien. Trois grandes plantes en pot dans les angles, de larges feuilles fendues qui montaient plus haut que les dossiers. Aux murs, des toiles sans sujet, des aplats de bleu pâle qui viraient à l'orange sur les bords. Personne ne les regardait deux fois, et elles faisaient très bien leur travail.`],
+[`p`,`Anna, la secrétaire, leur avait expliqué comment ça allait se passer. Elle le referait pour ceux qui arriveraient en retard, et elle le referait encore pour ceux qui n'avaient rien retenu la première fois, parce qu'on ne retient rien la première fois.`],
+[`p`,`Il longea le comptoir, en poussa le portillon et prit lui-même sa feuille dans le casier. Du côté des chaises, il y eut ce petit temps d'arrêt qu'on a lorsqu'un médecin traverse sa propre salle d'attente sans s'y asseoir.`],
+[`tiret`,`— Bonjour Anna.`],
+[`tiret`,`— Bonjour toi. Salle 2, ils sont quatre aujourd'hui. Nora descend à dix heures.`],
+[`tiret`,`— Quatre.`],
+[`tiret`,`— Quatre. Tu es en avance de deux minutes.`],
+[`tiret`,`— Je suis toujours en avance de deux minutes.`],
+[`tiret`,`— Je sais. C'est pour ça que je le dis.`],
+[`p`,`Il rit. C'était la même plaisanterie depuis des années et elle marchait encore.`],
+[`p`,`Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.`],
+[`pause`,`· · ·`],
+[`p`,`Les dix-huit, eux, ne prendraient pas ce chemin-là. On viendrait les chercher, on les ferait sortir par l'autre côté, et ils traverseraient d'abord la zone de résidence avant d'arriver devant la bonne porte. C'est là que les arrivants passaient leurs huit premiers jours, après la première consultation : des chambres, un réfectoire, et des visiteurs pour leur tenir compagnie.`],
+[`p`,`Si on inspectait les corps une première fois, c'était pour vérifier que l'arrivant était bien arrivé immaculé, sans anomalie et sans blessure. On n'est jamais trop prudent. Toutes les capsules n'étaient pas aussi régulières qu'annoncé, et il arrivait qu'une série se termine sur des relevés étranges ; autant s'assurer que celui qui en sortait n'avait pas été touché d'une manière ou d'une autre. C'était l'analyste qui s'en chargeait, des hommes et des femmes experts dans leur domaine. Puisqu'ils passaient déjà leurs journées à étudier des capsules, il était logique qu'ils s'occupent aussi de ce qui en sortait.`],
+[`p`,`Le veilleur quitta l'accueil et s'engagea dans le grand couloir.`],
+[`p`,`Ce dernier était large, linéaire, avec un plafond bas et des appliques tous les six mètres. Pendant vingt pas, on aurait pu être dans n'importe quel bâtiment administratif du pays.`],
+[`p`,`Puis le plafond montait.`],
+[`p`,`Il montait d'un coup, et il continuait de monter. À mesure, les lampes devenaient inutiles. On ne les éteignait pas — personne n'avait jamais reçu l'ordre de les éteindre — mais quelque chose de plus grand qu'elles arrivait par le haut. Le jour tombait de très loin, en longues obliques. Il posait sur les dalles des plaques claires qu'on pouvait traverser ou contourner. Andrew les traversait.`],
+[`p`,`On n'était pas dehors. On n'était jamais dehors, ici. Tout tenait sous un seul toit, et ce toit était si haut qu'on avait cessé d'y penser.`],
+[`p`,`Les murs, eux, étaient sculptés. Pas décorés : sculptés, du sol jusqu'à la hauteur où le regard renonce. Des bandes horizontales courant sur toute la longueur, l'une au-dessus de l'autre, et dans chaque bande une scène minuscule qu'il aurait fallu s'arrêter pour lire. Des entrelacs entre les bandes. Des signes qui revenaient tous les trois mètres et dont plus personne ne connaissait la valeur. Et derrière tout ça, taillé plus profond, un second plan qu'on n'apercevait qu'en biais, quand le jour tombait du bon côté.`],
+[`p`,`Ce n'était pas de la magie. Ce patrimoine n'avait pas surgi de nulle part du jour au lendemain, et personne n'avait jamais prétendu le contraire. Seulement, on n'avait jamais su de quelle génération l'idée était venue.`],
+[`p`,`Et par-dessus, la végétation courait.`],
+[`p`,`Elle avait l'air libre et elle ne l'était pas tout à fait. On avait bâti là où l'on pouvait bâtir, ce qui suppose qu'on avait regardé avant. Ensuite on s'était adapté : jamais un coulant n'avait été coupé pour faire passer un mur. Quand un coulant passait, on perçait le mur et on continuait de l'autre côté. Il y avait des trous partout, ronds, propres, avec un brin vert au milieu, et personne ne trouvait ça remarquable.`],
+[`p`,`À mi-parcours, une porte sur la droite ouvrait vers la salle de repos. Il en sortait une odeur de café et des voix qui se coupaient la parole. Il reconnut celle de Nora. Il ne s'arrêta pas pour autant.`],
+[`pause`,`· · ·`],
+[`p`,`Puis le couloir cessa.`],
+[`p`,`Il ne donnait pas sur une pièce, il donnait sur un volume. Le sol changeait, la lumière changeait, l'air était plus lourd de deux ou trois degrés. La coulée prenait tout : sur les murs, entre les colonnes, en travers du vide, du sol jusqu'à des hauteurs où personne n'était jamais monté vérifier.`],
+[`p`,`Et sur la coulée, les capsules.`],
+[`p`,`Il y en avait partout, et jamais deux fois au même endroit. Une à hauteur de hanche sur un coulant qui rampait le long d'un banc. Une autre à six mètres, seule, sur une branche qui traversait le vide. Puis, dix pas plus loin, six collées les unes contre les autres sur deux mètres, si serrées qu'il faudrait les décrocher dans l'ordre. Elles poussaient à plat, couchées sur ce qui les portait. Elles avaient la couleur de la coulée tant qu'elles étaient jeunes, et elles la perdaient en mûrissant, jusqu'au jaune très pâle, presque translucide, de la fin.`],
+[`p`,`Pour aller chercher les hautes, on montait des échafaudages, et on les redescendait après.`],
+[`p`,`C'était la serre. Le mot ne voulait plus dire grand-chose : il n'y avait ni vitre ni châssis, rien qu'un quart du complexe où la coulée était chez elle. Ailleurs, elle ne faisait que passer — un brin dans un mur, un coulant en travers d'un couloir, et rien autour. Ici elle avait de la place, et c'est ici, et nulle part ailleurs, que les capsules venaient.`],
+[`p`,`Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule presque blanche. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.`],
+[`p`,`Au loin, immanquable, la porte du registre. Massive, elle aussi tout autant chargée d'ornements que le reste, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.`],
+[`p`,`Les différents quartiers, eux, se fondaient dans l'environnement de la serre. Des murs, un toit, une porte, sculptés comme tout ce qui avait été bâti ici, et la coulée qui passait entre eux et par-dessus.`],
+[`p`,`Un préparateur répondant au nom de Bastien reconnut le veilleur de loin, à sa silhouette et à sa façon de marcher.`],
+[`p`,`Andrew était grand sans être imposant, l'épaule large, la taille droite, avec la solidité tranquille de ceux qui entretiennent leur condition sans chercher à paraître plus forts qu'ils ne le sont. Cheveux bruns, courts, légèrement désordonnés, deux ou trois mèches refusant de rester en place — et quelques autres restées blanches. Barbe courte, mâchoire carrée, nez droit, sourcils épais. Les yeux d'un brun profond, attentifs, toujours en train d'observer quelque chose : chaleureux quand il se détendait, nettement plus sérieux dès qu'il se concentrait. Rien d'intimidant au premier regard. Ce n'était pas une raison pour le sous-estimer.`],
+[`p`,`Cinquante-deux ans. Dix ans de service.`],
+[`p`,`Il portait la tenue, comme tout le monde ici : blouse de toile écrue, croisée sur le devant, six boutons sur le côté droit, l'écusson brodé sur l'épaule opposée, deux poches basses. La ceinture au septième trou en partant du bout. Le petit clic tombait toujours au même endroit. Pas six, pas huit.`],
+[`p`,`Ses chaussures étaient la seule chose à lui.`],
+[`p`,`Bastien traversa pour le rejoindre. Il venait de la coulée et ça se voyait : manches roulées, avant-bras verts jusqu'au coude, et cette odeur de tige coupée que les gens de la serre traînent partout et ne sentent plus.`],
+[`tiret`,`— Andrew ! Tu tombes bien.`],
+[`tiret`,`— C'est ce qu'on me dit tous les matins, et ça n'a jamais rien annoncé de bon.`],
+[`tiret`,`— J'ai un problème de compte. Tu as deux minutes ?`],
+[`tiret`,`— J'ai deux heures.`],
+[`pause`,`· · ·`],
+[`p`,`Le quartier des préparateurs s'ouvrait sur une allée centrale, assez large pour y faire passer deux chariots de front, et de chaque côté des boxes où l'on travaillait. Pas de portes : des cloisons à mi-hauteur, un établi par box, des crochets partout. Des caisses empilées contre le mur du fond, quatorze. Des bottes alignées à l'entrée, jamais par paires. Sur la cloison de droite, un tableau noir couvert de numéros de travées, effacé et réécrit tant de fois que le noir était devenu gris.`],
+[`p`,`Ils étaient une quinzaine, et il n'y avait pas de bureaux.`],
+[`p`,`Deux ou trois levèrent la main en le voyant entrer. On lui proposa du café et il accepta de bon cœur. Il n'avait pas fait le détour par la salle de repos ; ce n'était pas une raison pour refuser une bonne tasse.`],
+[`p`,`Dans le premier box, sur l'établi, une capsule. Cueillie dans la nuit, calée sur deux berceaux de mousse, avec deux personnes autour. L'une lavait la paroi au chiffon, à l'eau claire, en tournant toujours dans le même sens, et l'eau du seau était verte. L'autre avait décollé le rabat sur dix centimètres, glissé dessous trois sondes souples, et rabattu par-dessus. Les sondes remontaient jusqu'à un appareil posé au bout de la table, une caisse grise avec un cadran et deux aiguilles qui ne bougeaient presque pas.`],
+[`p`,`C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne serait plus touchée que par un veilleur.`],
+[`tiret`,`— Elle est pour toi, celle-ci, non ? dit le préparateur au chiffon.`],
+[`tiret`,`— Salle 2. À dix heures.`],
+[`tiret`,`— Elle est belle.`],
+[`tiret`,`— Elles sont toutes belles.`],
+[`tiret`,`— Celle-là, ce n'est pas pareil. Regarde-la.`],
+[`p`,`Il la regarda. Elle était belle.`],
+[`p`,`L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu.`],
+[`tiret`,`— On ne t'en a pas montré, à l'école ? dit Andrew.`],
+[`tiret`,`— Oh si, si. Mais ce n'est pas la même chose que de les voir en vrai !`],
+[`p`,`« Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans », se souvint Andrew en considérant son sourire béat.`],
+[`p`,`Personne ne pouvait lui en vouloir. Il avait encore des cours du soir, et ça faisait à peine un mois qu'il était là. Un apprenti modèle, qui apprenait vite.`],
+[`p`,`Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.`],
+[`p`,`Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.`],
+[`p`,`Quand l'analyste tranchait, elle avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, elle l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait, il l'acceptait sans discuter, et il avait cent fois raison de le faire.`],
+[`tiret`,`— La dix-neuf, dit Bastien.`],
+[`tiret`,`— La travée dix-neuf ?`],
+[`tiret`,`— Oui. Elle a douze capsules.`],
+[`p`,`Vera ne leva pas la tête tout de suite.`],
+[`tiret`,`— Elle en a onze.`],
+[`tiret`,`— Ça, c'était avant. Maintenant il y en a douze. Je suis allé les recompter trois fois.`],
+[`p`,`Elle posa son crayon et sortit sa planche de la travée dix-neuf. Onze colonnes, onze séries, onze histoires commencées à onze dates différentes. La douzième n'était nulle part. Elle n'avait jamais été relevée, parce que personne n'avait jamais su qu'elle était là.`],
+[`tiret`,`— Elle est où ?`],
+[`tiret`,`— Tout au fond, au ras du sol, sous les autres. On ne la voit qu'accroupi. Je ne descends pas là toutes les semaines.`],
+[`tiret`,`— Depuis quand ?`],
+[`tiret`,`— Aucune idée.`],
+[`p`,`Andrew écoutait sans rien dire. Ça n'avait rien d'extraordinaire : une capsule pousse où elle pousse, personne n'a jamais choisi l'emplacement d'une seule d'entre elles, et il y en avait des dizaines de milliers dans ce bâtiment. On en oubliait. On les retrouvait.`],
+[`tiret`,`— Tu l'as touchée ? dit Vera.`],
+[`tiret`,`— Oui.`],
+[`tiret`,`— Et ?`],
+[`tiret`,`— Elle est prête.`],
+[`p`,`Une main de préparateur ne valait pas celle d'une analyste. Bien sûr qu'elle pouvait sembler prête. Ce n'était pas si simple que ça.`],
+[`p`,`Le geste seul ne donnait pas de date. Vera pouvait relever cette capsule dans l'heure, elle n'aurait qu'un point sur un graphique vierge, et il en fallait quatre au minimum pour chiffrer correctement le jour d'une éclaircie totale. Toutes les capsules n'arrivaient pas à maturation de la même manière. C'était en croisant des moyennes, des chiffres accumulés sur des années et les relevés faits sur place qu'on finissait par le savoir.`],
+[`p`,`Or Bastien pouvait se tromper comme ne pas se tromper. Il était nouveau dans le métier, et un préparateur ne tranchait pas. Tout le monde le pensait tout bas sans le dire tout haut. Personne ne lui en voulait de ne pas savoir encore.`],
+[`tiret`,`— Deux jours, dit-elle. Avant ça, je ne dirai rien. De toute manière, si ça avait été une capsule flash, elle se serait ouverte depuis longtemps.`],
+[`tiret`,`— Mais elle est claire, dit Bastien.`],
+[`tiret`,`— Je sais.`],
+[`p`,`Andrew regarda le tableau noir. Le neuf, le dix et le onze étaient pleins. Trois salles, trois veilleurs, et rien pour la dix-neuf, parce qu'on ne réserve pas une salle pour une capsule qui n'existe sur aucune planche.`],
+[`p`,`Une capsule qui s'ouvre sans personne autour s'ouvre quand même. Elle n'attend pas, elle ne prévient pas. C'était arrivé deux fois depuis qu'il était là, et les deux fois quelqu'un s'était retrouvé debout tout seul au milieu de la coulée, sans miroir, sans eau, sans personne à qui donner son nom.`],
+[`tiret`,`— Je relèverai deux fois par jour, dit Vera. Matin et soir. Et je veux qu'on recompte tout le fond avant la fin de la semaine.`],
+[`tiret`,`— Ça va prendre trois jours.`],
+[`tiret`,`— Ça prendra trois jours.`],
+[`p`,`Andrew sortit son carnet.`],
+[`tiret`,`— Je passerai la voir aussi.`],
+[`tiret`,`— Quand ?`],
+[`tiret`,`— Le matin. Avant de descendre.`],
+[`p`,`Il écrivit : travée dix-neuf, douzième capsule, et la date et l'heure qu'il était.`],
+[`p`,`Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait, et le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien.`],
+[`tiret`,`— Et si elle s'ouvre cette nuit ? dit Vera.`],
+[`tiret`,`— Alors elle s'ouvrira cette nuit, et on n'y pourra rien.`],
+[`p`,`C'était vrai, ça ne consolait personne, et les trois s'en contentèrent parce qu'il n'y avait rien d'autre à en tirer.`],
+[`tiret`,`— Tu descends où, aujourd'hui ? demanda Bastien en le raccompagnant jusqu'à la porte.`],
+[`tiret`,`— Salle 2. Ils sont quatre.`],
+[`tiret`,`— Quatre, répéta Bastien, avec le petit hochement de tête qu'on a pour les bonnes nouvelles des autres. Alors c'est un bon jour.`],
+[`tiret`,`— C'est déjà ce qu'on m'a dit ce matin.`],
+[`pause`,`· · ·`],
+[`p`,`Il ressortit et prit à gauche, vers l'aile des cérémonies.`],
+[`p`,`Il n'avait rien à porter. On avait descendu la veille ce qu'il fallait dans la salle 2 : la nappe et le chemin de table, les serviettes dans les quatre tailles, les timbales, les flacons vides. On le faisait pour lui, il le faisait pour d'autres, et personne ne tenait le compte.`],
+[`p`,`L'odeur le prit à cinquante mètres.`],
+[`p`,`Elle n'arrivait pas de face. Elle était déjà là, installée dans l'allée, sans direction, comme une température. Il aurait pu faire le tour par l'autre côté. Il ne le fit pas, parce qu'il était en avance et parce qu'on ne change pas de chemin pour une odeur.`],
+[`pause`,`· · ·`],
+[`p`,`Ils étaient quatre au bout de l'allée, en combinaison. Trois regardaient. Le quatrième raclait.`],
+[`tiret`,`— Ouais, et surtout le fond ! On laisse rien, faut que ça brille ! criait l'un, et les autres riaient, et celui qui raclait riait aussi parce que c'était son tour et qu'il n'y avait rien à dire.`],
+[`p`,`C'était le dernier entré au service. C'était aussi le seul à qui on aurait donné soixante ans.`],
+[`p`,`Andrew le regarda le temps de passer et ne trouva rien à en dire.`],
+[`p`,`On disait de celles-là que c'étaient des capsules non éclaircies. C'était le mot du registre, et ce n'était pas celui des yeux.`],
+[`p`,`Ça ne ressemblait pas à une capsule. Ça n'en avait ni la longueur, ni les nervures, ni cette dissymétrie qu'ont les choses qui ont poussé. Une poche sombre et boursouflée, sortie de travers sur un coulant de bordure. Personne ne l'avait vue grossir et personne n'aurait pu la relever : elle était venue d'un coup, et elle avait crevé dans la nuit sur le flanc, sans que rien l'annonce. On aurait dit une excroissance que la coulée s'était faite à elle-même et qu'elle avait poussée à l'écart pour ne pas salir ce qu'il y avait autour. Il en restait ça, affaissé sur le coulant comme un sac qu'on a vidé sans le poser.`],
+[`p`,`Le reste avait coulé.`],
+[`p`,`Ce n'était pas de la gelée. La gelée est orange, mate, sèche ; elle s'enlève d'un tenant et elle ne laisse rien derrière elle. Ça, c'était autre chose.`],
+[`p`,`Ça s'était étalé sur trois mètres et ça avait pris la pente. Par endroits c'était encore en tas, avec des grumeaux gros comme le poing, plus pâles au cœur, qui gardaient un moment la marque de la raclette et se refermaient lentement dessus. Ailleurs c'était plus clair et plus liquide, et ça s'était insinué dans le joint entre deux dalles, où il faudrait revenir gratter demain. Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du seau quand on relevait l'outil et qui ne se décidaient pas à tomber, une membrane formée en surface qui se plissait quand on marchait à côté, et dessous la masse qui continuait de descendre, parce que le sol descendait.`],
+[`p`,`Les régurgitations de n'importe quel être vivant, petit ou grand, à côté de ça, c'était du petit-lait.`],
+[`p`,`Les seaux étaient alignés le long du mur, à moitié pleins. Il y en avait six, et il en faudrait un septième.`],
+[`tiret`,`— La deuxième cette semaine, dit quelqu'un derrière.`],
+[`p`,`Personne ne répondit. Il n'y avait rien à répondre, et il restait deux mètres à faire.`],
+[`p`,`On nettoyait vite. Pas pour l'odeur : parce qu'on disait qu'une travée gâtée gâte ses voisines. Personne n'avait jamais vérifié si c'était vrai, et personne ne tenait à être celui qui essaierait.`],
+[`p`,`Andrew n'y toucha pas. Il l'avait fait pendant deux ans, comme tout le monde, et depuis, d'autres le faisaient. Il ne ralentit pas et il ne se boucha pas le nez, parce qu'aucun des quatre ne l'aurait fait à sa place et qu'on se tient devant les gens qui travaillent.`],
+[`p`,`Il passa à trois mètres et continua vers la salle 2, où quatre capsules s'apprêtaient à être redressées pour dix heures précisément, claires et propres, sur leurs chariots.`],
+[`p`,`L'odeur le suivit dans l'allée. Une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été.`,`fin`],
+  ],
+  tenu: [
+`<strong>Le complexe donné par quelqu'un qui y va travailler.</strong> L'accueil, le grand couloir, le basculement de la lampe au jour, la serre, les quartiers bâtis dedans. <em>Personne n'explique rien.</em>
+
+<strong>Et le chemin des visiteurs, dit en trois lignes et jamais emprunté :</strong> l'autre côté, la zone de résidence, la bonne porte. <em>C'est là que le mot analyste entre dans le livre — et qu'on apprend qu'il joue sur deux tableaux : le corps des arrivants, puis ses planches.</em>`,
+`<strong>On voit enfin une capsule pousser.</strong> Partout, jamais deux fois au même endroit, onze collées les unes aux autres à un endroit et une seule à six mètres ailleurs. <em>Et personne n'a jamais choisi l'emplacement d'une seule d'entre elles.</em>`,
+`<strong>La cueillie se fait devant le lecteur</strong>, sur un échafaudage, à trois, à la main. <em>On ne guette pas une capsule : une analyste a donné le jour, et c'est aujourd'hui.</em> L'heure finit sur la fiche que le prologue faisait passer au veilleur.`,
+`<strong>Le mot serre arrive après la chose, et se désavoue.</strong> <em>« Ni vitre ni châssis, rien qu'un quart du complexe où la coulée est chez elle. »</em> La coulée va partout ; les capsules, non.`,
+`<strong>Les passerelles sont la seule chose laide du complexe.</strong> Personne n'a jamais proposé de faire autrement.`,
+`<strong>Le bâti est des anciens, la végétation est à elle.</strong> Aucun coulant n'a jamais été coupé pour faire passer un mur : on perce le mur, on continue de l'autre côté, <em>et personne ne trouve ça remarquable.</em>`,
+`<strong>Le portrait d'Andrew, sur un regard de loin.</strong> <em>La manie ne se nomme jamais : quatre cent trente-huit, neuf, quatorze, cinquante-deux, dix, sept, six seaux et un septième.</em>`,
+`<strong>La capsule d'Andrew est préparée sous ses yeux</strong> — lavée, sondée, branchée, vérifiée par l'analyste au passage. <em>« Elles sont toutes belles. » « Non. Regarde-la. » Il la regarda. Elle était belle.</em>`,
+`✅ <strong>Ce n'est pas un conflit, c'est une information.</strong> <em>Décision de l'autrice, 19 août 2026 : le préparateur n'a pas à tenir tête à l'analyste, c'est elle qui a le dernier mot.</em> <strong>Alors il ne la contredit pas : il lui apprend qu'il y a une capsule de plus.</strong> Chacun fait son métier et personne n'a tort.`,
+`<strong>La douzième capsule de la travée dix-neuf n'est sur aucune planche.</strong> Jamais relevée, parce que personne n'avait jamais su qu'elle était là — au ras du sol, sous les autres, <em>on ne la voit qu'accroupi.</em>
+
+<strong>Et l'enjeu tombe tout seul :</strong> une main dit qu'elle est prête, une série ne se lit pas avant quatre relevés, et une salle ne se réserve pas pour une capsule qui n'existe nulle part. <em>Une capsule qui s'ouvre sans personne autour s'ouvre quand même : c'est arrivé deux fois, et les deux fois quelqu'un s'est retrouvé seul au milieu de la coulée, sans miroir, sans eau, sans personne à qui donner son nom.</em>`,
+`<strong>Andrew paie la différence de sa poche.</strong> Vingt minutes chaque matin, qu'il appelle <em>rien du tout</em>. Personne ne le remercie et le lecteur l'a vu.`,
+`<strong>Le registre ne s'est jamais trompé parce qu'il n'avance jamais rien.</strong> Dit une fois, en passant.
+
+<strong>Bastien est un débutant, et personne ne le lui reproche.</strong> <em>« Or Bastien pouvait se tromper comme ne pas se tromper. Il était nouveau dans le métier, et un préparateur ne tranche pas. Tout le monde le pensait tout bas sans le dire tout haut. »</em> <strong>C'est la seule ligne du chapitre où quelqu'un est jugé, et elle est douce.</strong>`,
+`🔴 <strong>L'inversion des âges tombe ici, et c'est le hook du chapitre.</strong> <em>Trouvaille de l'autrice, 19 août 2026 : le préparateur qui s'émerveille devant une capsule est un homme de soixante-douze ans qui n'en avait jamais vu.</em>
+
+<strong>Et l'âge n'est pas donné par le narrateur : il revient dans la voix du rite, et à l'intérieur de la tête d'Andrew.</strong> <em>« Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans », se souvint Andrew en considérant son sourire béat.</em> <strong>La formule n'est pas prononcée : elle remonte.</strong>
+
+<strong>Et le mot école arrive avant, en dialogue, l'air de rien :</strong> <em>« — On ne t'en a pas montré, à l'école ? — Oh si, si. Mais ce n'est pas la même chose que de les voir en vrai ! »</em> <strong>C'est « soixante-seize ans », deux lignes plus bas, qui le fait exploser.</strong>
+
+<strong>Puis l'excuse, qui est le coup de grâce :</strong> <em>« Personne ne pouvait lui en vouloir. Il venait tout juste de quitter les bancs de l'école et il avait encore des cours du soir. Ça faisait à peine un mois qu'il était là, un apprenti modèle qui apprenait vite. »</em>
+
+<strong>C'est la phrase la plus tendre du chapitre, et elle dit tout le système.</strong>
+
+<strong>C'est la formule du prologue, mot pour mot, quatre mois plus tard, sur un homme qui tient un chiffon.</strong> <em>Le lecteur l'a entendue sur un garçon de dix ans et sur un homme de quarante-deux ; il l'entend maintenant sur quelqu'un qui travaille là.</em>
+
+⛔ <strong>Un seul âge, et aucune durée.</strong> <em>On ne dit pas depuis quand il est sorti : le lecteur voit qu'il a rajeuni et ne peut pas chiffrer de combien.</em> <strong>Deux nombres et un intervalle donneraient une vitesse, et l'interdit n° 3 tomberait dans la même phrase.</strong>
+
+✅ <strong>Et l'école règle la vraisemblance :</strong> <em>on ne prend pas un poste en sortant de sa capsule.</em> <strong>Les bancs de l'école et les cours du soir sont les mots les plus banals du chapitre, et les plus violents.</strong>
+
+<strong>Puis la règle du monde, énoncée à plat et jamais expliquée :</strong> <em>« Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien. »</em> ⚠️ <em>Ces deux phrases sont les seules du passage qui généralisent — elles peuvent sauter, et le bizutage porterait alors la règle tout seul.</em>
+
+⛔ <strong>Le narrateur affirme que ça se comprend et ne dit pas pourquoi.</strong> <em>Le lecteur reste avec la phrase sur les bras — et le bizutage, vingt pages plus loin, n'a plus rien à lui expliquer.</em>`,
+`<strong>La capsule pourrie ne contient personne — et n'est même pas une capsule.</strong> <em>« C'était le mot du registre, et ce n'était pas celui des yeux. »</em> Ni la longueur, ni les nervures, ni la dissymétrie de ce qui a poussé : <strong>une poche sombre et boursouflée, venue d'un coup, qu'on dirait une excroissance que la coulée s'est faite à elle-même et qu'elle a poussée à l'écart.</strong> <em>Rien n'a mûri là-dedans, et c'est ce qui interdit au lecteur d'y loger quoi que ce soit.</em> Une matière, une pente, six seaux et il en faudra un septième.`,
+`<strong>Le chapitre se ferme sur la formule</strong>, qui n'existera qu'à un seul autre endroit du livre.`
+  ],
+  ouvre: [
+`✅ <strong>La formule, arrêtée.</strong> <em>« une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été. »</em> — <em>le linge tiède ne marquait pas assez.</em> <strong>Celle-ci est plate, connue de tout le monde, impossible à rattacher à un corps — et c'est une odeur de plante, dans un lieu qui n'est que ça.</strong> Le jour où elle bouge, la seconde cérémonie bouge avec.`,
+`✅ <strong>La dénégation est supprimée.</strong> <em>« à cause de la pente, et pas pour une autre raison » — décision de l'autrice, 19 août 2026 : ne pas l'insinuer invite à l'imaginer quand même.</em> <strong>Il ne reste que la masse qui descend parce que le sol descend.</strong>`,
+`<strong>Anna, Bastien, Vera.</strong> Trois prénoms inventés pour le chapitre. <em>L'analyste reste une femme — c'est la préparatrice au chiffon qui est devenue un homme, pour qu'on ne confonde plus les deux.</em>`,
+`✅ <strong>La douzième capsule n'est pas un fil.</strong> <em>Décision de l'autrice, 19 août 2026 : « je vois pas trop quoi en faire, c'est un fait qui n'apportera rien ».</em> <strong>La scène reste — c'est elle qui apprend au lecteur qui tranche et qui exécute — mais le livre ne doit plus rien.</strong> <em>Le soulignement du carnet est tombé : Andrew note, comme il note tout, et on passe.</em>`,
+`<strong>Les plantes de l'accueil ne sont toujours pas nommées</strong> — <em>de larges feuilles fendues</em>.`,
+`<strong>Le chapitre s'arrête avant la cérémonie</strong>, et le registre tombe avec elle. <em>À replacer ailleurs, ou à rendre à ce chapitre.</em>`,
+`<strong>Andrew ne dit rien de la capsule pourrie, et ne pense rien.</strong> <em>C'est le régime demandé — reste à vérifier que ça ne le rend pas froid juste après qu'on a travaillé à le rendre chaleureux.</em>`
+  ],
+  note: `⚠️ <strong>Validé momentanément par l'autrice le 19 août 2026</strong>, au bout de quinze passes. <em>Une relecture à tête reposée est prévue le lendemain — rien n'est figé.</em> <strong>Le deuxième chapitre du livre, et le premier où l'on voit le lieu.</strong> <em>Un homme arrive au travail, traverse la serre, discute d'une travée avec les deux métiers qui ne se prédisent pas de la même façon, repart vers sa salle — et croise en chemin une chose qu'on est en train de racler.</em> La cérémonie qu'il allait faire n'est pas dans le chapitre.`
+},{
+  id: `epilogue`,
+  rang: `Épilogue`,
+  titre: `Épilogue`,
+  scene: `jardin-fin`,
+  sous: `Le jour de l'entrée au jardin · point de vue d'Andrew · écrit avec l'autrice le 16 août 2026`,
+  p: [
+
+[`p`,`Il n'y avait aucun endroit où se mettre.`],
+[`p`,`Andrew s'en aperçut en arrivant, et il aurait dû s'en douter. Plus près, il faisait partie d'un groupe auquel il n'appartenait pas. Plus loin, il regardait. Il finit par s'adosser à un arbre, à une trentaine de mètres, et ne sut pas quoi faire de ses mains.`],
+[`p`,`Les groupes attendaient devant la grille, en petits paquets qui s'étaient formés tout seuls le long de l'enceinte. Chaque groupe avait ses berceurs : parfois un berceur pour un arrivant, parfois trois arrivants pour un berceur et parfois plus.`],
+[`p`,`Les petits, eux, se regardaient. Deux avaient déjà commencé à se courir après en riant, en tournant autour d'un berceur qui ne bougeait pas. Un troisième faisait le tour d'un groupe voisin par l'extérieur, l'air de rien, en cherchant une ouverture. Un quatrième ne lâchait pas la jupe de sa berceuse et fixait le mur.`],
+[`p`,`Les berceurs, entre confrères et consœurs, tenaient des conversations animées. Il était question de la construction du nouveau centre commercial, d'un collègue ayant changé de section, de petits potins de quartier. Ils faisaient ça tous les ans.`],
+[`p`,`Une femme, un peu à l'écart, ne participait pas. Elle avait gardé la main sur l'épaule du sien.`],
+[`p`,`June était tout au bout, contre la grille. Six ans qu'il ne l'avait pas vue.`],
+[`p`,`Il la retrouva plus jeune qu'il ne l'avait laissée. Rien d'autre n'avait bougé : elle tenait Eliott par l'épaule, sans le serrer, de la main dont on tient quelqu'un qui va partir mais pas tout de suite. Une autre berceuse se tenait avec eux, et June lui parlait déjà. Le petit, lui, se tenait sur la pointe des pieds. Il essayait de voir à travers les barreaux, et ce qu'il y avait derrière ne se voyait pas d'ici.`],
+[`p`,`Elle leva la tête et le vit. Elle n'eut pas l'air surprise — elle devait s'y attendre — mais son visage se détendit un peu, et elle fit un petit mouvement du menton, deux centimètres, qui voulait dire viens.`],
+[`p`,`Il compta les petits en traversant. Ils étaient quarante-deux.`],
+[`p`,`Il les rejoignit. Eliott leva la tête, lui dit bonjour, et retourna à ses barreaux. Andrew se mit à côté d'eux, à la bonne distance : celle d'un homme qui n'a rien à faire là et qui est venu quand même.`],
+[`p`,`La grille s'ouvrit à l'heure. Il n'y eut ni annonce ni discours : deux battants qu'on tira vers l'intérieur, et un homme qui sortit d'un pas, suivi de cinq berceurs qui se répartirent le long de la file sans qu'on ait à leur dire où aller. Il en connaissait plusieurs et les salua par leur prénom.`],
+[`p`,`Sept ou huit petits pour un berceur, c'était la norme de l'administration. Dans les faits ça ne tombait jamais juste : les plus jeunes étaient presque tous pris au cas par cas, et ceux de sept et huit ans formaient des groupes plus gros. Andrew fit le calcul avant d'y penser. Le compte tombait juste.`],
+[`p`,`Les groupes se mirent en mouvement. Ça se fit sans ordre et sans bousculade, à la vitesse à laquelle des gens qui se connaissent se laissent passer les uns les autres. Des petits se retournèrent, deux ou trois s'accrochèrent, on les décrocha doucement.`],
+[`p`,`Une berceuse s'accroupit, toute souriante, devant l'un d'entre eux qui hésitait, et lui prit les deux mains.`],
+[`tiret`,`— Eh bien dis donc ! On t'attendait, toi.`],
+[`p`,`La plupart entrèrent sans regarder derrière eux. Un petit se retourna pour vérifier qu'on le regardait, constata que c'était le cas, et repartit en sautillant pour rattraper son groupe.`],
+[`p`,`June ne bougea pas. Elle laissa la file s'écouler devant elle, puis elle se tourna vers sa consœur et lui parla à voix basse.`],
+[`p`,`L'autre était agenouillée à hauteur d'Eliott et lui caressait les cheveux en écoutant. Elle regarda la grille, puis Andrew. Elle se tourna vers le responsable d'accueil, qui suivait la file de loin, et lui fit un signe. Il répondit par un autre, plus court, et les deux battants restèrent où ils étaient. Alors elle se releva et recula de quelques pas.`],
+[`p`,`Andrew s'avança d'un pas. June ne le regarda pas tout de suite : elle avait les yeux sur le petit et elle vérifiait des choses qui n'avaient pas besoin de l'être.`],
+[`tiret`,`— Tu as ton sac. La feuille est dans la poche de devant, tu ne la sors pas, c'est eux qui la demanderont.`],
+[`tiret`,`— D'accord.`],
+[`tiret`,`— Ils vont te montrer où tu dors, et après tu mangeras. Tu n'auras rien à demander à personne, ils viendront te chercher.`],
+[`tiret`,`— Je sais.`],
+[`tiret`,`— Je sais que tu sais.`],
+[`p`,`Elle s'accroupit devant lui. Elle resta une seconde de trop dans cette position, une seule, et Andrew regarda ailleurs pendant cette seconde-là.`],
+[`p`,`Puis elle lui prit les deux mains et lui dit la seule phrase qui n'était pas une consigne.`],
+[`tiret`,`— Tu vas être bien là-dedans. Mieux qu'avec moi.`],
+[`p`,`Eliott ne répondit pas. Il n'y avait rien à répondre à ça, et surtout il n'écoutait plus vraiment : derrière la grille, il y avait des petits pas précipités et des murmures enjoués ; c'était plus fort que lui.`],
+[`p`,`Elle se releva, lissa le devant de sa veste d'un geste qui ne servait à rien, et se tourna vers Andrew.`],
+[`tiret`,`— Merci d'être venu.`],
+[`tiret`,`— C'est normal.`],
+[`p`,`Elle eut un petit sourire qui n'était pas vraiment pour lui, puis elle passa la lanière de son sac sur son épaule et s'en alla.`],
+[`p`,`Elle avait dit ce qu'elle avait à dire et elle l'avait dit vite. S'attarder, lui laisser une chance de répondre, ça aurait voulu dire rester — et elle n'aurait plus su repartir ensuite. Andrew regarda sa silhouette se fondre entre les arbres. Elle ne se retourna pas.`],
+[`p`,`Eliott aussi l'observa une bonne minute, silencieux.`],
+[`tiret`,`— T'inquiète pas. Elle viendra te voir, tu la connais.`],
+[`p`,`Il hocha la tête sans quitter les arbres des yeux.`],
+[`p`,`Peu à peu, l'allée se vida. Les berceurs repartaient à leurs occupations, seuls ou à deux, et le bruit de leurs conversations s'éloigna vers le bout de la rue.`],
+[`p`,`Qu'est-ce qu'on pouvait faire, dans ces cas-là ? Andrew ne savait pas s'il fallait dire quelque chose, ou si le silence faisait partie de ce qu'on offrait. Il regardait le bout de ses chaussures et il attendait, comme on attend un train dont on n'a pas l'horaire.`],
+[`p`,`La femme qui prenait la suite s'était éloignée de quelques pas — assez pour laisser de la place, pas assez pour disparaître.`],
+[`p`,`Eliott s'assit sur un banc de pierre non loin d'eux, encore froid de la nuit. Il regardait droit devant lui, quelque part dans ses pensées. Andrew l'observa un moment, puis il vint s'asseoir à côté de lui et regarda dans la même direction. Deux moineaux se disputaient une miette d'on ne sait quoi, au milieu de l'allée, inconscients d'être épiés par deux parfaits inconnus.`],
+[`p`,`Ce fut Eliott qui parla.`],
+[`tiret`,`— Merci.`],
+[`p`,`Andrew leva la tête.`],
+[`tiret`,`— De quoi ?`],
+[`tiret`,`— De rien. De tout. On m'a parlé de ce jardin et j'avais tellement envie de le voir de mes propres yeux… mais elle… elle voulait pas. Elle voulait plus, et je sais pas pourquoi. Pourtant ça a l'air beau.`],
+[`p`,`Il hésita.`],
+[`tiret`,`— Il lui est arrivé quoi, tu crois ?`],
+[`tiret`,`— J'en sais trop rien.`],
+[`p`,`C'était vrai. Personne ne le lui avait dit à lui non plus.`],
+[`p`,`Eliott pencha légèrement la tête, l'oreille tendue. De l'autre côté de l'enceinte, des cris et des rires montaient par vagues, se rapprochaient, s'éloignaient. Il y avait le bruissement des feuilles, des chants quelque part, et sous les chants le ronflement d'une tondeuse. L'odeur de l'herbe coupée arrivait jusqu'à eux. Eliott inspira longuement, comme on savoure. Il balançait toujours ses jambes sous le banc. Elles ne touchaient pas le sol, et elles n'en prenaient pas le chemin.`],
+[`p`,`Puis il ajouta, plus bas, comme s'il s'agissait d'une chose d'un autre ordre :`],
+[`tiret`,`— … Et de m'avoir cru.`],
+[`p`,`Andrew ne répondit pas. Il y avait une réponse quelque part, il la chercha deux ou trois secondes, et elle ne vint pas.`],
+[`p`,`Le silence dura. Il n'avait rien de gêné.`],
+[`tiret`,`— Toi, tu n'as jamais eu cette impression ?`],
+[`p`,`Andrew sut immédiatement où la question l'amenait.`],
+[`tiret`,`— De rêver en plein jour ?`],
+[`p`,`Eliott plongea son regard dans celui du quadragénaire. Andrew fit non de la tête. C'était vrai et ce n'était pas vrai, et il n'avait pas de mot pour le milieu.`],
+[`tiret`,`— Le premier, c'était le jour de ma cérémonie.`],
+[`p`,`Il ne baissa pas la voix. Il en parlait comme d'une chose survenue à quelqu'un qu'il connaissait bien.`],
+[`tiret`,`— Le monsieur à côté de moi. Je l'avais pas vu, au début. Je crois que lui non plus. J'ai vu tous les autres avant lui. Et quand je me suis tourné, j'ai vu ses yeux. Tout pareils que les miens. Je les ai regardés, et c'est comme si j'étais plus là. J'étais dehors. Pas dans la ruche. Dehors, dans un endroit que je connais pas. Il faisait froid comme il fait froid ici le matin, sauf que c'était pas ici.`],
+[`p`,`Andrew écoutait sans bouger. Il ne relevait rien, il ne demandait pas de précision, il ne notait rien. Il ne cherchait pas à remettre les morceaux dans un ordre qui aurait tenu debout — il avait passé des semaines à faire exactement ça, et ça n'avait servi à rien.`],
+[`p`,`Eliott poursuivit, le regard perdu dans le vague, comme s'il revoyait la scène à mesure qu'il la décrivait.`],
+[`tiret`,`— Quelqu'un m'aidait à mettre un sac sur le dos. Un gros ! On aurait pu ranger la maison entière dedans.`],
+[`p`,`Il rit tout seul.`],
+[`tiret`,`— Il tirait sur les bretelles pour que ça tienne bien, et il a tapé deux fois dessus quand ça a été bon.`],
+[`p`,`Il fit le geste. Deux petites tapes dans le vide, à hauteur de son épaule.`],
+[`tiret`,`— C'était lui. Le monsieur d'à côté.`],
+[`p`,`Et il repartit, plus vite, comme si tout lui revenait en même temps et qu'il fallait le dire avant que ça s'en aille. Sur le sac, un imperméable pendouillait à un mousqueton d'un côté, une gourde dépassait d'une poche de l'autre. Et dedans, il y avait une corde. Noire et orange. Très solide et très longue.`],
+[`tiret`,`— C'est moi qui la portais ! C'est lui qui l'avait dit.`],
+[`p`,`Il changea de voix sans s'en rendre compte, la fit plus grave, beaucoup trop grave :`],
+[`tiret`,`— <em>C'est toi qui porteras la corde.</em>`],
+[`p`,`Il trouvait ça drôle.`],
+[`tiret`,`— Je me revois la tendre entre deux arbres, pour la tente.`],
+[`p`,`Puis, sans transition :`],
+[`tiret`,`— Et avant de partir, une dame m'a embrassé sur le front.`],
+[`p`,`Il se balançait déjà, le buste de droite à gauche, la tête suivant le mouvement avec un temps de retard. Les yeux fermés, un large sourire sur le visage.`],
+[`tiret`,`— Ce monsieur… j'avais l'impression de le connaître depuis toujours, alors que je l'avais jamais vu. Et puis c'est parti dans tous les sens. Lui, il me tendait la main. Il la tendait fort, tu vois, avec tout le bras. Moi j'arrivais pas à l'attraper. Nos mains glissaient trop.`],
+[`tiret`,`— Glissaient trop ?`],
+[`p`,`Ce fut la seule question qu'Andrew posa, et il la regretta aussitôt : elle n'appelait pas de réponse, elle demandait seulement qu'on répète.`],
+[`p`,`Eliott ne répéta pas. Il naviguait dans ses souvenirs comme dans un trop-plein, et ce qui sortait de sa tête n'en sortait pas trié. Il n'y avait ni avant ni après, ni grand ni petit : tout venait dans le même souffle. Il rattachait les morceaux les uns aux autres comme un élève qui déverse tout sur sa copie, sans plan, de peur d'en oublier un en route.`],
+[`tiret`,`— J'ai senti le sol s'en aller sous mes pieds alors que je bougeais même pas. Je bougeais même pas, je te jure. J'étais assis. Et le sol est parti ! J'avais les yeux ouverts et j'avais de l'eau dans la bouche.`],
+[`p`,`Andrew ne bougea pas. Quelque part le long de l'enceinte, une grille se referma.`],
+[`tiret`,`— J'ai jamais vu de rivière. Je savais même pas ce que c'était, un courant — on me l'a appris à l'école, cette année. Et pourtant j'ai rêvé que je tombais dedans.`],
+[`p`,`Il dit ça avec un petit haussement d'épaules, un peu vexé, comme quelqu'un qui vient d'apporter lui-même la preuve qu'il a tort.`],
+[`tiret`,`— Et j'avais peur. Pas juste pour moi. J'avais peur pour lui aussi, et je sais pas pourquoi.`],
+[`p`,`Il se tut, puis reprit d'une voix différente, plus légère, comme s'il passait à quelque chose de plus agréable — et c'était exactement ce qu'il faisait.`],
+[`tiret`,`— Il n'y a pas que ça, hein. Il y a une odeur, aussi. Je sais pas de quoi… De la fraise. De la chantilly. Et un petit côté fumé, juste par-dessus.`],
+[`p`,`Il s'arrêta net. Puis il se tourna vers Andrew, les yeux pétillants, avec la tête de quelqu'un qui vient de trouver la réponse avant tout le monde.`],
+[`tiret`,`— Comme un anniversaire !`],
+[`p`,`Il en rit presque, et répéta le mot pour lui-même, content de l'avoir attrapé. Puis il repartit du même souffle :`],
+[`tiret`,`— Et il y a un regard. Quelqu'un qui me regarde. C'est tout, il fait rien d'autre, il me regarde. Mais quand je me souviens de ça, je suis bien.`],
+[`p`,`La femme qui attendait plus loin consulta quelque chose, tandis qu'un berceur remontait l'allée dans l'autre sens avec deux petits revenant de quelque part.`],
+[`p`,`Les moineaux s'envolèrent subitement ; Andrew les perdit de vue.`],
+[`tiret`,`— Et maintenant, je fais quoi avec ça ?`],
+[`p`,`Il avait posé ça comme on pose une question de mathématiques : sérieusement, en attendant une méthode.`],
+[`tiret`,`— Tu crois qu'ils vont se moquer de moi ici aussi ?`],
+[`p`,`Andrew ouvrit la bouche. Il n'avait rien.`],
+[`tiret`,`— Est-ce que tu viendras me voir ?`],
+[`p`,`Le veilleur mit du temps. Il regarda l'allée, l'enceinte, la grille restée ouverte au bout.`],
+[`tiret`,`— J'ai connu quelqu'un qui se posait beaucoup de questions, lui aussi.`],
+[`p`,`Il dit ça comme on constate. Ça lui était venu tout seul, et il ne s'étonna pas de l'avoir dit.`],
+[`tiret`,`— Il s'appelait comment ?`],
+[`p`,`Près de la grille, la femme fit un pas et s'arrêta, les mains devant elle. Elle attendait comme on attend au fond d'une pièce où deux personnes ont quelque chose à finir.`],
+[`tiret`,`— Je viendrai te voir.`],
+[`p`,`Eliott hocha la tête. Il resta un moment les mains sur les genoux, puis il descendit du banc d'un petit bond. Les moineaux ne devaient pas être loin ; il fit deux pas dans l'allée pour les retrouver.`],
+[`p`,`Il n'était plus question de la miette. Ils tournaient l'un autour de l'autre, les petits becs se frôlant, dans de courts gazouillis.`],
+[`p`,`Il les regarda un moment. Sa respiration lente, presque suspendue.`],
+[`tiret`,`— Il m'aimait beaucoup, tu sais.`],
+[`p`,`Et parce que c'était là qu'il était depuis le début, Andrew continua de regarder en silence ce petit homme parler de son monsieur.`],
+[`p`,`La femme s'était rapprochée. Elle ne dit rien : elle tendit la main, et elle souriait comme on sourit à quelqu'un qu'on va emmener voir quelque chose. Eliott lui donna la main sans hésiter.`],
+[`tiret`,`— Un sentiment fort. Très fort. J'avais l'impression que lui c'était moi et que moi c'était lui.`],
+[`p`,`Il tourna la tête, juste assez pour qu'Andrew attrape son profil. Il marqua une toute petite pause, la dernière, et détacha chacun de ses mots, un sourire empli d'une nostalgie nouvelle :`],
+[`tiret`,`— Comme si je l'aimais encore plus fort que lui.`],
+[`p`,`Andrew les regarda s'éloigner, la main du petit dans celle de la femme. Ils passèrent la grille sans se retourner, et quelqu'un la tira derrière eux.`],
+[`p`,`Il resta assis. De l'autre côté du mur, les cris continuaient exactement comme avant.`],
+[`p`,`Le banc n'était plus froid.`]
+
+  ],
+  tenu: [
+`<strong>L'homme est entièrement là et jamais nommé.</strong> <em>Ses yeux, tout pareils que les miens</em> fait tout le travail, et personne ne le relève. Aucun mot de parenté n'apparaît : le petit ne les a jamais eus, il ne peut donc pas sentir qu'ils lui manquent.`,
+`<strong>Et l'homme parle une fois.</strong> <em>C'est toi qui portes la corde</em> — cinq mots, rapportés par quelqu'un qui en est fier, six cents pages après le début. C'est tout ce qu'on aura jamais de lui.`,
+`<strong>Ce ne sont pas les fragments d'un accident, ce sont ceux d'une vie.</strong> La corde, la tente, le baiser sur le front, la fraise et la chantilly, le regard. Le petit n'est pas traîné par un souvenir : il en a un plein sac, et il en sort les plus beaux.`,
+`<strong>Il donne lui-même l'argument contre lui</strong> — il n'a jamais vu de rivière, on lui a appris le mot cette année. La vérité reste invérifiable parce que c'est lui qui la démonte.`,
+`<strong>Le registre est celui d'une rentrée, et c'est ce qui empêche la fin d'être triste.</strong> On ne pleure pas à une rentrée : on a le ventre serré et on y va. Aucun pathos, aucune pitié, personne qui s'attarde.`,
+`<strong>Andrew n'a jamais su s'autoriser à être là.</strong> Six ans plus tard il est encore à trente mètres, à vérifier de loin que le petit rentre bien — et c'est elle qui doit lui faire signe d'approcher. Le livre ne le dira jamais.`,
+`<strong>Il compte les têtes, puis il vérifie le ratio des berceurs.</strong> C'est l'homme du registre une dernière fois, à vide, le jour où ça n'a plus aucune importance. Et la scène suivante, c'est un gamin qui le remercie de l'avoir cru.`,
+`<strong>Personne ne traduit et personne ne comprend.</strong> Andrew dit quinze mots dans tout le tête à tête, dont une question qu'il regrette aussitôt.`,
+`<strong>La question du nom reste sans réponse, et rien ne le signale.</strong> Il ne se dérobe pas : il répond à l'autre question, celle qui compte pour le petit. Le trou passe inaperçu de tout le monde sauf du lecteur.`,
+`<strong>Il sait tout, et l'interdit ne porte que sur le prénom.</strong> <em>Il a compris à sa propre mort, et la salle du registre le lui a confirmé : il s'appelait Joël.</em> <strong>Donc « j'ai connu quelqu'un qui se posait beaucoup de questions, lui aussi » est une discrétion, pas un faux-raccord involontaire</strong> — il parle de lui et il choisit de ne pas le dire. <em>Et la question de l'enfant reste sans réponse pour la même raison : répondre voudrait dire expliquer, et ce n'est pas le jour.</em>`,
+`<strong>Aucune résonance chez Andrew pour autant.</strong> <em>Non parce qu'il ignore — il sait — mais parce que c'est réglé depuis six ans.</em> Son arc s'est fermé au chapitre du registre ; celui-ci appartient au garçon. <strong>Sa phrase lui vient toute seule et il ne s'étonne pas de l'avoir dite, comme on ne s'étonne pas d'une chose qu'on a fini de porter.</strong>`,
+`<strong>Ce qu'il ne sait toujours pas, en revanche :</strong> qui était l'homme assis à côté d'Eliott à sa cérémonie. <em>C'est le garçon qui le lui donne, ici, sans savoir ce qu'il donne</em> — et c'est la seule chose que quelqu'un offre à Andrew dans tout le livre.`,
+`<strong>Il est déjà parti quand il finit sa phrase.</strong> Il a donné sa main à quelqu'un d'autre et il termine par-dessus son épaule.`,
+`<strong>Ce chapitre est aussi la fin que Joël n'a pas eue.</strong> <em>Lecture de l'autrice, 17 août 2026 : « il aurait été comme ça si le cas des jumelles avait fini autrement ».</em> Andrew sur ce banc, humble, un peu à côté, venu sans qu'on le lui demande — <strong>c'est l'homme que l'autre serait devenu s'il avait retrouvé les siennes.</strong> C'est le seul endroit du livre où l'on voit l'après d'une affaire qui finit bien, et l'autre n'en a jamais eu.`,
+`<strong>Conséquence : rien dans le chapitre ne doit y pointer.</strong> <em>La phrase « j'ai connu quelqu'un qui se posait beaucoup de questions, lui aussi » suffit — et elle ne suffit que parce qu'elle ne sait pas ce qu'elle dit.</em> Le lecteur qui a compris voit Joël assis sur ce banc. Celui qui n'a pas compris voit un homme fatigué qui a tenu parole.`,
+`<strong>Et la tristesse se pose sur celui qui reste.</strong> Elle n'a pas le droit d'aller sur Eliott — il entre dans l'insouciance, c'est le meilleur qui pouvait lui arriver. Alors elle va à l'homme resté dehors, et elle s'y pose sans qu'un seul mot nomme un sentiment. <em>Le banc n'était plus froid</em> dit combien de temps il est resté là, et rien d'autre.`,
+`<strong>Trois fils se referment en trois phrases.</strong> La grille, maintenue ouverte pour eux, se referme ; les cris de l'autre côté continuent exactement comme avant, parce que le monde ne s'est aperçu de rien ; et le banc, <em>encore froid de la nuit</em> quatre-vingt-dix paragraphes plus tôt, ne l'est plus.`,
+`<strong>Ce que dit la dernière ligne, et il ne faut pas la « clarifier ».</strong> Le banc n'a pas gardé la chaleur d'un corps : il a gardé celle de ce qui s'y est dit. <em>Le petit y a vidé son sac — l'eau, la corde, le baiser, l'odeur d'anniversaire — et il repart sans.</em> La pierre était froide et dure le matin ; elle ne l'est plus. Ce n'est pas une trace de lui, c'est ce qu'il a déposé.`,
+`<strong>Et la tournure négative fait tout le travail.</strong> <em>La place était encore chaude</em> serait une consolation qu'on ajoute ; <em>n'était plus froid</em> ne donne rien, ça retire seulement quelque chose. Rien n'est gagné — c'est juste un peu moins dur qu'au début de la journée. <em>Le seul pas du livre vers le réconfort, et il se fait par soustraction.</em>`,
+`<strong>Ça referme le thème, pas seulement la scène.</strong> Tout le roman traite les voiles comme un fardeau, jusqu'à <em>et maintenant, je fais quoi avec ça ?</em> — auquel personne ne répond. La dernière ligne répond sans formuler : <strong>ce qu'il portait n'était pas que mauvais.</strong> Il y avait une corde dont il était fier, une dame qui l'embrassait sur le front, une odeur de gâteau.`,
+`<strong>Le banc de pierre du matin n'est donc pas du décor.</strong> <em>Encore froid de la nuit</em> à la première moitié du chapitre : c'est l'endroit où il posera ce qu'il portait, et il faut qu'il soit dur et froid quand il s'y assoit.`
+  ],
+  ouvre: [
+`⚠️ <strong>LE CHANTIER DE DEMAIN — le chapitre sonne trop triste.</strong> <em>Relecture de l'autrice, 17 août 2026 : « on dirait qu'ils partent vers la mort. Ce qui est vrai, mais il ne faudrait pas que ça se ressente comme ça. C'est un accompagnement de fin de vie. »</em> Le registre demandé au départ — une rentrée scolaire — s'est perdu à l'écriture.`,
+`<strong>La correction en une phrase :</strong> la tristesse doit être celle d'Andrew seul, jamais celle de la scène. <em>Tous les autres sont soit au travail, soit contents d'y aller.</em> Il est le seul pour qui c'est une perte, et personne autour de lui ne partage ça.`,
+`✅ <strong>Et le jardin n'est pas fermé, ce qui change le ton à lui seul.</strong> <em>On croise des petits et leur berceur dans la rue comme on croise ici une personne âgée au bras d'un soignant ; des équipes entrent pour l'entretien, d'autres livrent les repas.</em> <strong>Le mur n'est pas une frontière, c'est une adresse.</strong> — Piste : pendant qu'Andrew est sur le banc, un berceur remonte l'allée avec deux petits qui reviennent de quelque part. Deux lignes, et la scène cesse d'être un cimetière.`,
+`✅ <strong>Et sa promesse est la seule qui aille dans le bon sens.</strong> <em>Eliott pourra aller voir June, qui habite à côté ; aller voir Andrew serait presque impensable — on ne croise pas de petits à la ruche, comme on ne croise pas de personnes âgées dans une maternité.</em> <strong>C'est donc à lui de se déplacer, et c'est ce qu'il fait sans qu'on le lui demande depuis six ans.</strong>`,
+`<strong>Ce qu'il faut ajouter, point par point.</strong> ① <em>Les berceurs discutent de façon animée et légère</em> — c'est leur métier d'amener les petits ici, ils le font tous les ans ; la météo et la circulation dites « parce qu'on ne peut rien dire d'autre » sont à retourner. ② <em>Le pincement au cœur existe, mais tous ne le vivent pas pareil</em> — il en faut au moins un·e que ça ne remue pas. ③ <em>Le responsable et les berceurs d'accueil sont accueillants</em> : des sourires, des regards bienveillants, pas seulement des signes de tête administratifs. ④ <em>Eliott est heureux d'y aller</em> — inquiet, oui, mais curieux, pressé de voir ce qui se passe derrière. ⑤ <em>June peut dire sa réserve, mais la visite n'est pas fermée</em> : elle peut repasser, et ça change tout au ton de ses adieux.`,
+`<strong>Les six endroits où la tristesse fuit, dans l'ordre du texte.</strong> ① les berceurs qui parlent « quand on ne peut rien dire d'autre » ; ② <em>elles ne touchaient pas le sol et elles ne le toucheraient plus</em> — la ligne la plus funèbre du chapitre, une pierre tombale ; ③ <em>ce qu'on puisse souhaiter à quelqu'un un jour pareil</em>, qui fait de l'entrée une épreuve ; ④ <em>mieux qu'avec moi</em>, qui sonne comme ce qu'on dit à un mourant ; ⑤ la sortie de June, qui est une sortie d'enterrement ; ⑥ aucun sourire nulle part chez le personnel.`,
+`<strong>Et une question à calibrer :</strong> si June peut revenir, la promesse d'Andrew — <em>je viendrai te voir</em> — perd un peu de son poids. <em>À doser : elle enlève la finalité, ce qui est le but, mais elle ne doit pas rendre la sienne banale.</em>`,
+`<strong>L'odeur.</strong> <em>La fraise, la chantilly, et un petit côté fumé par-dessus</em> — les bougies qu'on vient de souffler, et personne ne le dit. Elle ne doit jamais recouper celle des capsules — la formule de la capsule pourrie, forgée à la journée à la ruche.`,
+`<strong>La réplique d'Andrew.</strong> <em>J'ai connu quelqu'un qui se posait beaucoup de questions, lui aussi</em> — les mots exacts restent à trouver. Ce qu'ils doivent porter : c'était survivable. Ce qu'ils ne doivent surtout pas porter : que ça s'est bien terminé.`,
+`<strong>« Une nostalgie nouvelle »</strong> est le seul endroit où le narrateur pointe du doigt. C'est assumé, pour une dernière ligne. À relire une fois l'ensemble en place.`,
+`<strong>Le chiffre d'arrivée de June.</strong> Il ne se dira jamais dans le texte, mais il faut le connaître pour savoir de combien elle a bougé en six ans — et ne pas la décrire deux fois de deux façons incompatibles.`,
+`<strong>Ce chapitre n'a aucun filet.</strong> Tout repose sur le fait que le lecteur, lui, sait. Si le chapitre précédent ne l'a pas amené ici en sachant tout, la seconde moitié devient un gamin qui raconte des rêves. <em>Le réglage ne se fait pas ici — il se fait avant.</em>`,
+`<strong>La description de l'enceinte appartient à la scène 14 b.</strong> Ici on n'en voit que ce qui passe par une grille ouverte, et le mur ne se décrit pas une seconde fois.`
+  ],
+  note: `Écrit avec l'autrice le 16 août 2026, en une vingtaine de passes. <strong>Une rentrée scolaire, puis un monologue où le seul qui parle a huit ans.</strong> <em>Andrew ne comprend rien de ce qu'on lui raconte ; le lecteur comprend tout et n'a personne à qui le dire.</em>`
+}];
+
+/* ==========================================================================
+   L'APPLICATION
+   ========================================================================== */
+const $  = (s, r) => (r || document).querySelector(s);
+const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
+const esc = s => String(s == null ? `` : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+/* **gras** et *italique* dans les textes de données */
+/* Quatre marques, et rien d'autre. Elles remplacent les pastilles :
+   un mot se lit, un rond rouge ne dit rien — et il y en avait trente-sept. */
+/* Le rond rouge marquait « ça vient d'elle, ne le perds pas ». Il y en avait
+   trente-sept : il ne marquait donc plus rien. On ne garde que l'état. */
+const MARQ = { '⛔':[`i`,`interdit`], '⚠':[`t`,`à trancher`], '✅':[`v`,`tranché`] };
+/* Sur les cartes du plateau, tout le balisage saute : ni marque, ni gras,
+   ni italique. Un aperçu se survole, il ne se lit pas. */
+const nu = s => esc(String(s == null ? `` : s)
+  .replace(/[\u{1F534}⛔⚠✅]️?\s*/gu, ``)
+  .replace(/\*\*(.+?)\*\*/g, `$1`)
+  .replace(/(^|[\s(«"])\*(?!\s)(.+?)\*/g, `$1$2`));
+const rich = s => esc(s)
+  /* Un seul gras par bloc. Tout souligner revient a ne rien souligner :
+     la premiere emphase reste, les suivantes redeviennent du texte. */
+  .replace(/\*\*(.+?)\*\*/g, (m, t, i, whole) =>
+    whole.slice(0, i).includes(`**`) ? t : `<strong>${t}</strong>`)
+  .replace(/\*\*/g, ``)
+  .replace(/(^|[\s(«"])\*(?!\s)(.+?)\*/g, `$1<em>$2</em>`)
+  .replace(/\u{1F534}️?\s*/gu, ``)
+  .replace(/(⛔|⚠|✅)️?\s*/gu,
+           (m, e) => `<span class="marq m-${MARQ[e][0]}">${MARQ[e][1]}</span>`);
+const ST = { acquis:`acquis`, provisoire:`provisoire`, trou:`à trouver`, ouvert:`ouvert`, ecarte:`écarté` };
+
+/* ---------- mémoire du navigateur, avec repli ----------
+   Certains contextes interdisent le stockage. Le document doit fonctionner
+   quand même : on retombe alors sur une mémoire vive, perdue en fermant. */
+const memo = (() => {
+  let dispo = false;
+  try { localStorage.setItem(`__essai`, `1`); localStorage.removeItem(`__essai`); dispo = true; } catch (e) {}
+  const tampon = Object.create(null);
+  return {
+    dispo,
+    lire: k => { try { return dispo ? localStorage.getItem(k) : (k in tampon ? tampon[k] : null); }
+                 catch (e) { return k in tampon ? tampon[k] : null; } },
+    ecrire: (k, v) => { tampon[k] = v; try { if (dispo) localStorage.setItem(k, v); } catch (e) {} },
+    effacer: k => { delete tampon[k]; try { if (dispo) localStorage.removeItem(k); } catch (e) {} }
+  };
+})();
+
+/* ---------- thème ---------- */
+const clefTheme = `eclaircie-theme`;
+function poserTheme(t){
+  if (t) document.documentElement.setAttribute(`data-theme`, t);
+  else document.documentElement.removeAttribute(`data-theme`);
+}
+const SOLEIL = `<circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/>`;
+const LUNE = `<path d="M20 14.2A8.4 8.4 0 0 1 9.8 4a8.4 8.4 0 1 0 10.2 10.2z"/>`;
+function themeActuel(){
+  return document.documentElement.getAttribute(`data-theme`)
+    || (matchMedia(`(prefers-color-scheme: dark)`).matches ? `dark` : `light`);
+}
+function marquerTheme(){
+  const vaVers = themeActuel() === `dark` ? `light` : `dark`;
+  const b = $(`#btn-theme`);
+  $(`svg`, b).innerHTML = vaVers === `dark` ? LUNE : SOLEIL;
+  $(`span`, b).textContent = vaVers === `dark` ? `Sombre` : `Clair`;
+  b.setAttribute(`aria-label`, vaVers === `dark` ? `Passer au thème sombre` : `Passer au thème clair`);
+  b.title = vaVers === `dark` ? `Passer au thème sombre` : `Passer au thème clair`;
+}
+poserTheme(memo.lire(clefTheme));
+marquerTheme();
+$(`#btn-theme`).addEventListener(`click`, () => {
+  const t = themeActuel() === `dark` ? `light` : `dark`;
+  poserTheme(t); memo.ecrire(clefTheme, t);
+  marquerTheme(); dessinerCourbes();
+});
+
+/* ---------- navigation ---------- */
+$$(`.rail-btn[data-vue]`).forEach(b => b.addEventListener(`click`, () => {
+  $$(`.rail-btn[data-vue]`).forEach(x => x.classList.remove(`on`));
+  $$(`.vue`).forEach(v => v.classList.remove(`on`));
+  b.classList.add(`on`);
+  $(`#v-` + b.dataset.vue).classList.add(`on`);
+  if (b.dataset.vue === `monde`) dessinerCourbes();
+}));
+
+function souffler(txt){
+  const s = $(`#souffleur`); s.innerHTML = txt; s.classList.add(`on`);
+  clearTimeout(s._t); s._t = setTimeout(() => s.classList.remove(`on`), 2600);
+}
+$(`#btn-aide`).addEventListener(`click`, () => souffler(
+  `<kbd>←</kbd> <kbd>→</kbd> scène précédente / suivante &nbsp;·&nbsp; <kbd>Échap</kbd> fermer le dossier &nbsp;·&nbsp; tout est enregistré dans ce navigateur`));
+
+/* ==========================================================================
+   VUE 1 — LE PARCOURS
+   ========================================================================== */
+const COLW = 268, NODEW = 208, NODEH = 134, X0 = 172, BANDEH = 44;
+/* deux voies de récit, et entre elles la bande mince des étapes */
+let ROWY = { andrew: 60, commun: 226, joel: 300 }, HAUT = 500;
+function mesurerVoies(){
+  const dispo = $(`#plateau`).clientHeight;
+  HAUT = Math.max(470, dispo - 12);
+  const trou = Math.max(20, (HAUT - 2 * NODEH - BANDEH) / 4);
+  ROWY = {
+    andrew: trou,
+    commun: 2 * trou + NODEH,
+    joel:   3 * trou + NODEH + BANDEH
+  };
+}
+
+let filtreVoie = `tous`;
+let scenesVisibles = SCENES.slice();
+let idSel = null;
+
+/* filtres de voie */
+(function filtresParcours(){
+  const box = $(`#f-parcours`);
+  const opts = [[`tous`,`tout le parcours`],[`andrew`,`Andrew`],[`joel`,`Joël`],[`gris`,`non écrites`],[`trou`,`à trouver`]];
+  opts.forEach(([k, lab]) => {
+    const b = document.createElement(`button`);
+    b.className = `puce` + (k === `tous` ? ` on` : ``);
+    const n = k === `tous` ? SCENES.length
+            : k === `trou` ? SCENES.filter(s => s.statut === `trou`).length
+            : k === `gris` ? SCENES.filter(s => s.gris).length
+            : SCENES.filter(s => s.row === k && !s.gris).length;
+    b.innerHTML = esc(lab) + `<span class="n">${n}</span>`;
+    b.addEventListener(`click`, () => {
+      filtreVoie = k;
+      $$(`#f-parcours .puce`).forEach(x => x.classList.remove(`on`));
+      b.classList.add(`on`);
+      construirePlateau();
+    });
+    box.appendChild(b);
+  });
+})();
+
+const colX = c => X0 + c * COLW;
+
+function construirePlateau(){
+  const carte = $(`#carte`);
+  mesurerVoies();
+  $$(`.noeud, .acte, .voie-nom, .etape, .lot`, carte).forEach(e => e.remove());
+
+  scenesVisibles = filtreVoie === `tous` ? SCENES
+    : filtreVoie === `trou` ? SCENES.filter(s => s.statut === `trou`)
+    : filtreVoie === `gris` ? SCENES.filter(s => s.gris)
+    : SCENES.filter(s => s.row === filtreVoie && !s.gris);
+  scenesVisibles = scenesVisibles.slice().sort((a, b) => a.col - b.col);
+
+  const colMax = Math.max(...SCENES.map(s => s.col));
+  const larg = colX(colMax) + NODEW + 90;
+  carte.style.width = larg + `px`;
+  carte.style.minHeight = HAUT + `px`;
+
+  /* fond : les travées */
+  const tv = $(`#travees`);
+  tv.setAttribute(`viewBox`, `0 0 ${larg} ${HAUT}`);
+  tv.setAttribute(`width`, larg); tv.setAttribute(`height`, HAUT);
+  let f = ``;
+  for (let x = X0 - 40; x < larg; x += 67)
+    f += `<line x1="${x}" y1="0" x2="${x}" y2="${HAUT}" stroke="var(--trait)" stroke-width=".5" opacity=".35"/>`;
+  [`andrew`, `joel`].forEach(k => {
+    f += `<rect x="0" y="${ROWY[k] - 14}" width="${larg}" height="${NODEH + 28}" fill="var(--fond-2)" opacity=".38"/>`;
+  });
+  f += `<rect x="0" y="${ROWY.commun - 8}" width="${larg}" height="${BANDEH + 16}" fill="var(--fond-2)" opacity=".22"/>`;
+  tv.innerHTML = f;
+
+  /* les lots : posés avant tout le reste, ils passent derrière */
+  if (filtreVoie === `tous`) BLOCS.forEach(b => {
+    const d = document.createElement(`div`);
+    d.className = `lot` + (b.pic ? ` pic` : ``) + (b.vert ? ` vert` : ``);
+    d.style.left = (colX(b.c0) - 26) + `px`;
+    d.style.width = (colX(b.c1) - colX(b.c0) + NODEW + 52) + `px`;
+    d.style.top = (ROWY.andrew - 32) + `px`;
+    d.style.height = (ROWY.joel + NODEH + 26 - ROWY.andrew + 32) + `px`;
+    d.innerHTML = `<b>${esc(b.t)}<em>${esc(b.q)}</em></b>`;
+    carte.appendChild(d);
+  });
+
+  /* actes */
+  ACTES.forEach(a => {
+    const d = document.createElement(`div`);
+    d.className = `acte`;
+    d.style.left = (colX(a.c0) - 34) + `px`;
+    d.innerHTML = `<i>${esc(a.t)}</i>`;
+    carte.appendChild(d);
+  });
+
+  /* étiquettes de voie */
+  const voies = $(`#voies`);
+  voies.innerHTML = ``;
+  Object.entries(VOIES).forEach(([k, v]) => {
+    const d = document.createElement(`div`);
+    d.className = `voie-nom voie-${k}`;
+    d.style.top = (ROWY[k] + 8) + `px`;
+    d.innerHTML = `<b>${esc(v.nom)}</b><i>${esc(v.desc)}</i>`;
+    voies.appendChild(d);
+  });
+
+  /* les étapes du tronc */
+  if (filtreVoie === `tous` || filtreVoie === `commun`) ETAPES.forEach(e => {
+    const d = document.createElement(`div`);
+    d.className = `etape`;
+    d.style.left = colX(e.c0) + `px`;
+    d.style.top = ROWY.commun + `px`;
+    d.style.width = (colX(e.c1) - colX(e.c0) + NODEW) + `px`;
+    d.innerHTML = `<i>ÉTAPE</i><b>${esc(e.t)}</b>`;
+    carte.appendChild(d);
+  });
+
+  /* nœuds */
+  const visibles = new Set(scenesVisibles.map(s => s.id));
+  scenesVisibles.forEach((s, i) => {
+    const b = document.createElement(`button`);
+    b.className = `noeud n-${s.row}` + (s.statut === `trou` ? ` trou` : ``)
+                + (s.pivot ? ` pivot` : ``) + (s.gris ? ` gris` : ``);
+    b.style.left = colX(s.col) + `px`;
+    b.style.top = ROWY[s.row] + `px`;
+    b.style.height = (s.gris ? NODEH - 26 : NODEH) + `px`;
+    if (s.gris) b.style.top = (ROWY[s.row] + 13) + `px`;
+    b.style.animationDelay = Math.min(i * 26, 900) + `ms`;
+    b.dataset.id = s.id;
+    b.innerHTML =
+      `<span class="bandeau"></span>` +
+      `<span class="no">${esc(s.no)}</span>` +
+      `<h3>${esc(s.titre)}</h3>` +
+      `<p>${nu(s.resume)}</p>` +
+      `<div class="marques">` +
+        (s.statut !== `acquis` ? `<span class="cle">${esc(ST[s.statut] || s.statut)}</span>` : ``) +
+        (s.flottant ? `<span class="cle" style="color:var(--texte-4)">placement à trancher</span>` : ``) +
+      `</div>`;
+    b.addEventListener(`click`, () => ouvrirTiroir(s.id));
+    carte.appendChild(b);
+  });
+
+  /* liens */
+  const sv = $(`#liens`);
+  sv.setAttribute(`viewBox`, `0 0 ${larg} ${HAUT}`);
+  sv.setAttribute(`width`, larg); sv.setAttribute(`height`, HAUT);
+  const parId = Object.fromEntries(SCENES.map(s => [s.id, s]));
+  let p = ``;
+  LIENS.forEach(([a, z, cls], i) => {
+    const A = parId[a], Z = parId[z];
+    if (!A || !Z || !visibles.has(a) || !visibles.has(z)) return;
+    const x1 = colX(A.col) + NODEW, y1 = ROWY[A.row] + NODEH / 2;
+    const x2 = colX(Z.col),          y2 = ROWY[Z.row] + NODEH / 2;
+    const teinte = cls === `a` ? `var(--andrew)` : cls === `j` ? `var(--joel)` : `var(--commun)`;
+    p += `<path class="${cls ? `l-` + (cls === `a` ? `andrew` : `joel`) : ``}" d="${trace(x1, y1, x2, y2)}" `
+       + `stroke-dasharray="1400" stroke-dashoffset="1400" style="animation-delay:${Math.min(i * 30, 900)}ms"/>`;
+    /* pointe de direction */
+    p += `<polygon points="${x2 - 9},${y2 - 5} ${x2},${y2} ${x2 - 9},${y2 + 5}" fill="${teinte}"/>`;
+  });
+  sv.innerHTML = p;
+
+  carte.classList.remove(`anim`); void carte.offsetWidth; carte.classList.add(`anim`);
+}
+
+function trace(x1, y1, x2, y2){
+  if (Math.abs(y1 - y2) < 2) return `M ${x1} ${y1} H ${x2}`;
+  const m = x1 + (x2 - x1) / 2, r = 11, s = y2 > y1 ? 1 : -1;
+  return `M ${x1} ${y1} H ${m - r} Q ${m} ${y1} ${m} ${y1 + r * s} V ${y2 - r * s} Q ${m} ${y2} ${m + r} ${y2} H ${x2}`;
+}
+
+/* ---------- le tiroir ---------- */
+const parIdScene = Object.fromEntries(SCENES.map(s => [s.id, s]));
+const parIdGens  = Object.fromEntries(GENS.map(g => [g.id, g]));
+
+function ouvrirTiroir(id){
+  const s = parIdScene[id]; if (!s) return;
+  idSel = id;
+  $$(`.noeud`).forEach(n => n.classList.toggle(`sel`, n.dataset.id === id));
+  $(`#t-no`).textContent = s.no + `  ·  ` + s.acte;
+  $(`#t-titre`).textContent = s.titre;
+  $(`#t-meta`).innerHTML =
+    `<span class="st st-${s.statut}">${esc(ST[s.statut] || s.statut)}</span>` +
+    `<span class="etiq">${esc(VOIES[s.row].nom)}</span>` +
+    (s.flottant ? `<span class="etiq" style="color:var(--provisoire)">placement à trancher</span>` : ``);
+
+  let h = ``;
+  h += bloc(`Ce qui s'y passe`, `<p>${rich(s.resume)}</p>`);
+  if (s.produit) h += bloc(`Ce que la scène doit produire`, `<p>${rich(s.produit)}</p>`);
+  if (s.clef)    h += bloc(`Le point de la scène`, `<div class="dit">${rich(s.clef)}</div>`);
+  if (s.clefFin) h += bloc(`Ce qui la referme`, `<div class="dit">${rich(s.clefFin)}</div>`);
+  if (s.lecture) h += bloc(`Ce que le lecteur en fait`, `<div class="dit">${rich(s.lecture)}</div>`);
+  if (s.monde)   h += bloc(`Ce qu'elle apprend du monde`, `<p>${rich(s.monde)}</p>`);
+  if (s.garde_forme) h += bloc(`Comment ça se donne`, `<div class="dit">${rich(s.garde_forme)}</div>`);
+  if (s.garde_bis)   h += bloc(`Ce qu'il faut savoir sans l'écrire`, `<div class="dit">${rich(s.garde_bis)}</div>`);
+  if (s.double)  h += bloc(`Beat doublable`, `<p>${rich(s.double)}</p>`);
+  if (s.pourquoi && s.pourquoi.length)
+    h += bloc(`Pourquoi là`, `<ul>` + s.pourquoi.map(x => `<li>${rich(x)}</li>`).join(``) + `</ul>`);
+  if (s.contre)
+    h += bloc(`L'autre option`, `<div class="garde"><b>ce qu'elle coûterait</b>${rich(s.contre)}</div>`);
+
+  if (s.face && parIdScene[s.face]){
+    const o = parIdScene[s.face];
+    h += bloc(`En face — ce qui se passe de l'autre côté`,
+      `<div class="face f-${o.row}">
+         <span class="etiq">${esc(VOIES[o.row].nom)}${o.gris ? ` · repère, ne s'écrira pas` : ``}</span>
+         <h5>${esc(o.titre)}</h5>
+         <p>${rich(o.resume)}</p>
+         <button class="renvoi" data-face="${esc(o.id)}">ouvrir son dossier →</button>
+       </div>
+       <p class="prio"><strong>La branche d'Andrew est prioritaire.</strong> On écrit la scène pour qu'elle se lise
+        d'abord comme celle de ce monde-ci ; l'autre lecture doit seulement rester <em>possible</em>, jamais servie.
+        <br>Trois questions à se poser : <em>est-ce qu'un mot d'ici manque là-bas ? est-ce qu'un mot de là-bas
+        n'existe pas ici ? est-ce que ce qui vient d'arriver tient dans les deux calendriers ?</em></p>`);
+  }
+  if (s.qui && s.qui.length){
+    h += bloc(`Qui est là`, s.qui.map(q => {
+      const g = parIdGens[q];
+      return `<button class="renvoi" data-gens="${esc(q)}">${esc(g ? g.nom : q)}</button>`;
+    }).join(``));
+  }
+  if (s.phrases && s.phrases.length){
+    h += bloc(`Phrases à placer`, s.phrases.map(f =>
+      `<div class="dit parle">« ${esc(f.t)} »<cite>${rich(f.n)}</cite></div>`).join(``));
+  }
+  if (s.gardes && s.gardes.length){
+    h += bloc(`Ce qu'il faut tenir`, `<div class="garde"><b>à surveiller à l'écriture</b><ul>` +
+      s.gardes.map(g => `<li>${rich(g)}</li>`).join(``) + `</ul></div>`);
+  }
+  if (s.refs && s.refs.length){
+    h += bloc(`Références`, s.refs.map(r =>
+      `<div class="paie"><span class="q">modèle</span><div><strong>${esc(r.t)}</strong><br>${rich(r.d)}</div></div>`).join(``) +
+      (s.refNote ? `<p style="margin-top:12px">${rich(s.refNote)}</p>` : ``));
+  }
+  if (s.ouvert && s.ouvert.length){
+    h += bloc(`Reste à trancher`, `<ul>` + s.ouvert.map(o => `<li>${rich(o)}</li>`).join(``) + `</ul>`);
+  }
+  h += bloc(`Source`, `<p style="font-family:var(--mono);font-size:11.5px;color:var(--texte-4)">${esc(s.src)}</p>`);
+
+  $(`#t-corps`).innerHTML = h;
+  $(`#t-corps`).scrollTop = 0;
+  $$(`#t-corps [data-face]`).forEach(b => b.addEventListener(`click`, () => {
+    const n = $(`.noeud[data-id="${b.dataset.face}"]`);
+    if (n) $(`#plateau`).scrollTo({ left: Math.max(0, n.offsetLeft - 300), behavior: `smooth` });
+    ouvrirTiroir(b.dataset.face);
+  }));
+  $$(`#t-corps [data-gens]`).forEach(b => b.addEventListener(`click`, () => {
+    $(`.rail-btn[data-vue="gens"]`).click();
+    const c = document.getElementById(`g-` + b.dataset.gens);
+    if (c) { c.scrollIntoView({ behavior:`smooth`, block:`center` }); c.style.borderColor = `var(--andrew)`;
+             setTimeout(() => c.style.borderColor = ``, 1800); }
+  }));
+
+  const i = scenesVisibles.findIndex(x => x.id === id);
+  $(`#t-pos`).textContent = (i + 1) + ` / ` + scenesVisibles.length;
+  $(`#tiroir`).classList.add(`on`);
+  $(`#tiroir`).setAttribute(`aria-hidden`, `false`);
+}
+function bloc(t, c){ return `<section class="bloc"><h4>${esc(t)}</h4>${c}</section>`; }
+
+function fermerTiroir(){
+  $(`#tiroir`).classList.remove(`on`);
+  $(`#tiroir`).setAttribute(`aria-hidden`, `true`);
+  $$(`.noeud`).forEach(n => n.classList.remove(`sel`));
+  idSel = null;
+}
+function bouger(pas){
+  if (!idSel) return;
+  const i = scenesVisibles.findIndex(x => x.id === idSel);
+  const j = i + pas;
+  if (j < 0 || j >= scenesVisibles.length) return;
+  const s = scenesVisibles[j];
+  ouvrirTiroir(s.id);
+  const n = $(`.noeud[data-id="${s.id}"]`);
+  if (n) $(`#plateau`).scrollTo({ left: Math.max(0, n.offsetLeft - 260), behavior: `smooth` });
+}
+$(`#t-fermer`).addEventListener(`click`, fermerTiroir);
+$(`#t-prec`).addEventListener(`click`, () => bouger(-1));
+$(`#t-suiv`).addEventListener(`click`, () => bouger(1));
+document.addEventListener(`keydown`, e => {
+  if (e.target.matches(`input,textarea`)) return;
+  if (e.key === `Escape`) fermerTiroir();
+  if (!$(`#v-parcours`).classList.contains(`on`)) return;
+  if (e.key === `ArrowRight`) { bouger(1); }
+  if (e.key === `ArrowLeft`)  { bouger(-1); }
+});
+
+construirePlateau();
+
+/* la molette fait défiler vers la droite */
+$(`#plateau`).addEventListener(`wheel`, e => {
+  const p = $(`#plateau`);
+  if (e.ctrlKey || p.scrollWidth <= p.clientWidth + 2) return;
+  const k = e.deltaMode === 1 ? 26 : e.deltaMode === 2 ? p.clientWidth : 1;
+  const d = (Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX) * k;
+  if (!d) return;
+  p.scrollLeft += d;
+  e.preventDefault();
+}, { passive: false });
+
+let _redim;
+addEventListener(`resize`, () => {
+  clearTimeout(_redim);
+  _redim = setTimeout(() => { construirePlateau(); if (idSel) ouvrirTiroir(idSel); }, 180);
+});
+
+/* ==========================================================================
+   VUE 2 — LE CHAPITRAGE
+   ========================================================================== */
+const CLEF_CH = `eclaircie-chapitres-v1`;
+let plan = JSON.parse(memo.lire(CLEF_CH) || `null`) || { ch: [{ t: `Chapitre 1`, s: [] }] };
+function sauverPlan(){ memo.ecrire(CLEF_CH, JSON.stringify(plan)); }
+
+function jeton(s, dansChapitre){
+  const b = document.createElement(`div`);
+  b.className = `jeton j-${s.row}`;
+  b.draggable = true;
+  b.dataset.id = s.id;
+  b.innerHTML = `<span class="n">${esc(s.no)}</span><span class="t">${esc(s.titre)}</span>`;
+  b.addEventListener(`dragstart`, e => {
+    e.dataTransfer.setData(`text/plain`, s.id);
+    e.dataTransfer.effectAllowed = `move`;
+    b.classList.add(`glisse`);
+  });
+  b.addEventListener(`dragend`, () => b.classList.remove(`glisse`));
+  b.title = dansChapitre
+    ? `glisser vers un autre chapitre · cliquer pour remettre en réserve`
+    : `glisser dans un chapitre · cliquer pour l'ajouter au dernier`;
+  b.addEventListener(`click`, () => {
+    if (dansChapitre) retirer(s.id);
+    else { retirer(s.id); plan.ch[plan.ch.length - 1].s.push(s.id); }
+    sauverPlan(); rendreChapitrage();
+  });
+  return b;
+}
+function retirer(id){ plan.ch.forEach(c => { c.s = c.s.filter(x => x !== id); }); sauverPlan(); }
+
+function rendreChapitrage(){
+  const places = new Set(plan.ch.flatMap(c => c.s));
+  const res = $(`#ch-reserve`); res.innerHTML = ``;
+  const reste = SCENES.filter(s => !places.has(s.id));
+  reste.forEach(s => res.appendChild(jeton(s, false)));
+  $(`#ch-reste`).textContent = reste.length;
+  if (!reste.length) res.innerHTML = `<div class="vide">tout est placé</div>`;
+
+  const liste = $(`#ch-liste`); liste.innerHTML = ``;
+  plan.ch.forEach((c, i) => {
+    const d = document.createElement(`div`);
+    d.className = `chapitre`;
+    d.innerHTML = `<div class="ct"><span class="rang">${String(i + 1).padStart(2, `0`)}</span>` +
+      `<input value="${esc(c.t)}" aria-label="Titre du chapitre"><button title="Supprimer">supprimer</button></div>` +
+      `<div class="depot"></div>`;
+    const inp = $(`input`, d);
+    inp.addEventListener(`input`, () => { c.t = inp.value; sauverPlan(); });
+    $(`button`, d).addEventListener(`click`, () => {
+      plan.ch.splice(i, 1); if (!plan.ch.length) plan.ch = [{ t:`Chapitre 1`, s:[] }];
+      sauverPlan(); rendreChapitrage();
+    });
+    const dep = $(`.depot`, d);
+    c.s.forEach(id => { const s = parIdScene[id]; if (s) dep.appendChild(jeton(s, true)); });
+    dep.addEventListener(`dragover`, e => { e.preventDefault(); d.classList.add(`survol`); });
+    dep.addEventListener(`dragleave`, () => d.classList.remove(`survol`));
+    dep.addEventListener(`drop`, e => {
+      e.preventDefault(); d.classList.remove(`survol`);
+      const id = e.dataTransfer.getData(`text/plain`);
+      if (!id) return;
+      retirer(id); c.s.push(id); sauverPlan(); rendreChapitrage();
+    });
+    liste.appendChild(d);
+  });
+}
+$(`#ch-reserve`).addEventListener(`dragover`, e => e.preventDefault());
+$(`#ch-reserve`).addEventListener(`drop`, e => {
+  e.preventDefault();
+  const id = e.dataTransfer.getData(`text/plain`);
+  if (id) { retirer(id); rendreChapitrage(); }
+});
+$(`#ch-ajouter`).addEventListener(`click`, () => {
+  plan.ch.push({ t: `Chapitre ` + (plan.ch.length + 1), s: [] }); sauverPlan(); rendreChapitrage();
+});
+$(`#ch-vider`).addEventListener(`click`, () => {
+  plan.ch.forEach(c => c.s = []); sauverPlan(); rendreChapitrage();
+});
+$(`#ch-export`).addEventListener(`click`, () => {
+  const txt = `L'ÉCLAIRCIE — plan de chapitres\n\n` + plan.ch.map((c, i) =>
+    `${String(i + 1).padStart(2, `0`)}. ${c.t}\n` +
+    (c.s.length ? c.s.map(id => { const s = parIdScene[id];
+      return `    · ${s.no} — ${s.titre}  [${VOIES[s.row].nom}]`; }).join(`\n`) : `    (vide)`)
+  ).join(`\n\n`);
+  const b = new Blob([txt], { type: `text/plain;charset=utf-8` });
+  const a = document.createElement(`a`);
+  a.href = URL.createObjectURL(b); a.download = `eclaircie-plan-chapitres.txt`; a.click();
+  URL.revokeObjectURL(a.href);
+  souffler(`Plan exporté en fichier texte.`);
+});
+rendreChapitrage();
+
+/* ==========================================================================
+   VUE 3 — LES NOTES
+   ========================================================================== */
+let nTag = `tout`, nTexte = ``;
+const TAGS = [...new Set(NOTES.flatMap(n => n.t))].sort();
+
+(function filtresNotes(){
+  const box = $(`#n-filtres`);
+  const opts = [[`tout`, `tout`], ...TAGS.map(t => [t, t]),
+                [`__ecarte`, `écarté`], [`__ouvert`, `ouvert`], [`__provisoire`, `provisoire`]];
+  opts.forEach(([k, lab]) => {
+    const b = document.createElement(`button`);
+    b.className = `puce` + (k === `tout` ? ` on` : ``);
+    const n = k === `tout` ? NOTES.length
+            : k.startsWith(`__`) ? NOTES.filter(x => x.e === k.slice(2)).length
+            : NOTES.filter(x => x.t.includes(k)).length;
+    b.innerHTML = esc(lab) + `<span class="n">${n}</span>`;
+    b.addEventListener(`click`, () => {
+      nTag = k; $$(`#n-filtres .puce`).forEach(x => x.classList.remove(`on`)); b.classList.add(`on`);
+      rendreNotes();
+    });
+    box.appendChild(b);
+  });
+})();
+$(`#n-cherche`).addEventListener(`input`, e => { nTexte = e.target.value.toLowerCase().trim(); rendreNotes(); });
+
+function rendreNotes(){
+  const l = $(`#n-liste`);
+  const sel = NOTES.filter(n => {
+    if (nTag !== `tout`) {
+      if (nTag.startsWith(`__`)) { if (n.e !== nTag.slice(2)) return false; }
+      else if (!n.t.includes(nTag)) return false;
+    }
+    if (nTexte && !(n.v + ` ` + n.q + ` ` + n.s + ` ` + n.t.join(` `)).toLowerCase().includes(nTexte)) return false;
+    return true;
+  });
+  l.innerHTML = sel.length ? sel.map(n =>
+    `<article class="note n-${n.e === `ecarte` ? `ecarte` : n.e === `provisoire` ? `provisoire` : n.e === `acquis` ? `decision` : `elle`}">
+      <div class="tete">
+        <span class="jour">${esc(n.d)}</span>
+        <span class="sujet">${esc(n.s)}</span>
+        <span class="st st-${n.e}">${esc(ST[n.e] || n.e)}</span>
+      </div>
+      ${n.v && n.v !== `—` ? `<p class="verbatim">${esc(n.v)}</p>` : ``}
+      <p class="quoi">${rich(n.q)}</p>
+      <div class="bas">${n.t.map(t => `<span class="mot">${esc(t)}</span>`).join(``)}</div>
+    </article>`).join(``)
+    : `<div class="vide">rien ici</div>`;
+}
+rendreNotes();
+
+/* ==========================================================================
+   VUE 4 — LE MONDE
+   ========================================================================== */
+let mOnglet = `lexique`, mTexte = ``;
+const ONGLETS = [[`lexique`,`Le lexique`],[`regles`,`Les règles`],[`interdits`,`Les interdits`],
+                 [`decompte`,`Le décompte`],[`calendrier`,`Le calendrier`],
+                 [`dispositif`,`Le dispositif`],[`raccords`,`Les faux raccords`]];
+(function ongletsMonde(){
+  const box = $(`#m-onglets`);
+  ONGLETS.forEach(([k, lab]) => {
+    const b = document.createElement(`button`);
+    b.className = `puce` + (k === `lexique` ? ` on` : ``);
+    b.textContent = lab;
+    b.addEventListener(`click`, () => {
+      mOnglet = k; $$(`#m-onglets .puce`).forEach(x => x.classList.remove(`on`)); b.classList.add(`on`);
+      rendreMonde();
+    });
+    box.appendChild(b);
+  });
+})();
+$(`#m-cherche`).addEventListener(`input`, e => { mTexte = e.target.value.toLowerCase().trim(); rendreMonde(); });
+
+function rendreMonde(){
+  const c = $(`#m-corps`);
+  const f = t => !mTexte || t.toLowerCase().includes(mTexte);
+
+  if (mOnglet === `lexique`){
+    const l = LEXIQUE.filter(([m, d, s, o]) => f(m + ` ` + d + ` ` + o));
+    c.innerHTML = `<p class="chapo">Les mots propres à ce monde, et ceux du quotidien qui y prennent un autre sens. <strong>Aucun ne s'explique dans le texte : ils s'emploient.</strong></p>`
+      + `<dl class="lexique">` + l.map(([m, d, s, o]) =>
+        `<div class="mot-l"><dt><b>${esc(m)}</b>${o ? `<br><span class="st st-ouvert">non tranché</span>` : ``}</dt>
+         <dd>${rich(d)}${o ? `<span class="ouv">${rich(o)}</span>` : ``}
+         <span class="src" style="margin-top:7px">${esc(s)}</span></dd></div>`).join(``) + `</dl>`;
+  }
+
+  else if (mOnglet === `regles`){
+    const l = REGLES.filter(([cat, t]) => f(cat + ` ` + t));
+    const cats = [...new Set(l.map(r => r[0]))];
+    c.innerHTML = `<p class="chapo">Ce que l'autrice doit connaître au chiffre près, pour que le monde soit solide. <strong>Le lecteur, lui, doit juste savoir qui envier.</strong></p>`
+      + cats.map(cat => `<h2 class="titre-section">${esc(cat)} <span>${l.filter(r => r[0] === cat).length}</span></h2>`
+        + l.filter(r => r[0] === cat).map(([, t, st]) =>
+          `<div class="regle"><span class="cat"></span><span class="txt">${rich(t)}</span>
+           <span class="st st-${st}">${esc(ST[st] || st)}</span></div>`).join(``)).join(``);
+  }
+
+  else if (mOnglet === `interdits`){
+    const l = INTERDITS.filter(i => f(i.t + ` ` + i.p + ` ` + (i.e || ``)));
+    c.innerHTML = `<p class="chapo">La liste de tout ce que <strong>le texte du roman</strong> ne doit jamais faire. La numérotation est stable : un interdit garde son numéro à vie.<br>
+      <em>La bible d'autrice, elle, n'est soumise à aucun d'entre eux — les documents de travail peuvent tout dire, tout nommer, tout calculer.</em></p>`
+      + `<div class="grille deux">` + l.map(i =>
+        `<article class="interdit"><h3><span class="num">${i.n}</span>${esc(i.t)}</h3>
+         ${i.c && i.c !== `—` ? `<p class="cite">${esc(i.c)}</p>` : ``}
+         <p>${rich(i.p)}</p>
+         ${i.e ? `<p class="ex"><b>ce qui est interdit</b><br>${rich(i.e)}</p>` : ``}
+         ${i.bonus ? `<p class="ex" style="margin-top:10px;color:var(--acquis)"><b style="color:var(--acquis)">et sa contrepartie</b><br>${rich(i.bonus)}</p>` : ``}
+        </article>`).join(``) + `</div>`;
+  }
+
+  else if (mOnglet === `decompte`){
+    c.innerHTML = `<p class="chapo"><strong>Tout le monde revient à l'âge où il est parti.</strong> Tout le monde rejoint huit ans — en descendant si l'on arrive au-dessus, en grandissant si l'on arrive en dessous. Puis un plateau, dont la durée varie d'un dossier à l'autre. Puis on repart vers le bas, et on meurt à zéro.<br>
+      <strong>La bande du bas est le jardin</strong>, et il ne commence pas au plateau : il prend toute la tranche de huit à zéro. Qui arrive en dessous de huit y entre le jour de son éclaircie et y passe sa vie entière.<br>
+      <em>Le trait plein est ce qui est chiffré. Le pointillé est ce que le dossier refuse de chiffrer — et il refuse pour une raison : personne, dans ce monde, ne peut dater sa fin.</em></p>
+      <div class="graphe-boite"><svg id="graphe" viewBox="0 0 900 470" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <h2 class="titre-section">Le piège <span>à ne jamais confondre</span></h2>
+      <p class="chapo"><strong>Cinquante-quatre n'est pas un âge, c'est un nombre d'années vécues.</strong> L'âge rejoint huit, s'y immobilise le temps du plateau, puis repart jusqu'à zéro ; le temps vécu monte et ne s'arrête jamais. Personne n'a jamais cinquante-quatre ans dans ce monde : on les vit.<br><br>
+      Et <strong>personne ne meurt à huit ans</strong> — quand on disparaît, le corps n'a plus d'âge du tout. Ne jamais écrire « il s'éteint à huit ans » : presque toutes les erreurs d'arithmétique du dossier viennent de là.</p>
+      <h2 class="titre-section">Les vitesses <span>fixées à l'arrivée, jamais recalculées</span></h2>
+      <div class="grille">
+        <div class="fiche"><span class="sur">au-dessus de cinquante ans</span><p><strong>Une marche par an.</strong> On descend d'un an chaque année. Andrew descendra d'un an par an jusqu'au bout, y compris quand il en aura vingt.</p></div>
+        <div class="fiche"><span class="sur">chez les jeunes arrivants</span><p><strong>Environ trois ans par marche.</strong> On vit trois ans pour perdre un an d'âge. C'est ce que le lecteur ratera s'il compte 1:1.</p></div>
+        <div class="fiche"><span class="sur">en dessous de huit ans</span><p><strong>1:1.</strong> On grandit d'un an par an. La seule vitesse du système qui ne dépende pas du chiffre d'arrivée.</p></div>
+        <div class="fiche"><span class="sur">entre huit et cinquante</span><p><strong>Non chiffrée</strong> — et le dossier refuse de la chiffrer. Aucune vitesse n'existe pour ces arrivées-là.</p></div>
+      </div>`;
+    dessinerCourbes();
+  }
+
+  else if (mOnglet === `calendrier`){
+    const l = CALENDRIER.filter(([r, t]) => f(r + ` ` + t));
+    c.innerHTML = `<p class="chapo"><strong>Aucun chapitre n'est jamais daté.</strong> Pas d'année, pas de mention de durée, pas de « six ans plus tard » écrit en toutes lettres. Ce tableau est pour l'autrice seule.</p>`
+      + l.map(([r, t, st]) =>
+        `<div class="regle"><span class="cat">${esc(r)}</span><span class="txt">${rich(t)}</span>
+         <span class="st st-${st}">${esc(ST[st] || st)}</span></div>`).join(``);
+  }
+
+  else if (mOnglet === `dispositif`){
+    const l = DISPOSITIF.filter(([t, d]) => f(t + ` ` + d));
+    c.innerHTML = `<p class="chapo">Comment deux histoires se lisent comme une seule, et pourquoi ce n'est pas une tricherie : <strong>Andrew enquête comme l'enquêteur parce qu'il est l'enquêteur.</strong> Le lecteur a été trompé par une cohérence, pas par une omission.</p>`
+      + `<div class="grille deux">` + l.map(([t, d]) =>
+        `<article class="fiche"><h3>${esc(t)}</h3><p>${rich(d)}</p></article>`).join(``) + `</div>`;
+  }
+
+  else if (mOnglet === `raccords`){
+    const l = RACCORDS.filter(r => f(r.join(` `)));
+    c.innerHTML = `<p class="chapo"><strong>Ce qui diffère est du corps. Ce qui se ressemble est de la personne.</strong><br>
+      Les indices qui trahissent qu'on suit deux hommes — invisibles à la première lecture, évidents à la seconde.</p>`
+      + `<div class="grille deux">` + l.map(([t, j, a, ou, st]) =>
+        `<article class="fiche"><div class="haut"><h3>${esc(t)}</h3><span class="st st-${st === `retenu` || st === `structurel` ? `acquis` : st === `écarté` ? `ecarte` : `ouvert`}">${esc(st)}</span></div>
+         <div class="paie"><span class="q" style="color:var(--joel)">Joël</span><div>${rich(j)}</div></div>
+         <div class="paie"><span class="q" style="color:var(--andrew)">Andrew</span><div>${rich(a)}</div></div>
+         <div class="paie"><span class="q">où</span><div>${rich(ou)}</div></div></article>`).join(``) + `</div>`
+      + `<h2 class="titre-section">Les règles d'usage <span>elles valent pour toutes les paires</span></h2>`
+      + `<div class="fiche"><ul>` + RACCORDS_REGLES.map(r => `<li>${rich(r)}</li>`).join(``) + `</ul></div>`;
+  }
+}
+
+function dessinerCourbes(){
+  const g = document.getElementById(`graphe`); if (!g) return;
+  const W = 960, H = 540, ML = 150, MR = 178, MT = 20, MB = 44;
+  const px = v => ML + (v / 100) * (W - ML - MR);
+  const py = v => H - MB - (v / 94) * (H - MT - MB);
+  let s = ``;
+
+  /* la bande du jardin */
+  s += `<rect x="${ML}" y="${py(8)}" width="${W - ML - MR}" height="${py(0) - py(8)}"
+         fill="var(--provisoire)" opacity=".05"/>`;
+  /* quadrillage */
+  for (let a = 0; a <= 90; a += 10)
+    s += `<line class="gq" x1="${ML}" y1="${py(a)}" x2="${W - MR}" y2="${py(a)}" opacity=".4"/>
+          <text x="${ML - 10}" y="${py(a) + 4}" text-anchor="end" fill="var(--texte-4)" font-size="10.5" font-family="var(--sans)">${a}</text>`;
+  for (let t = 20; t <= 100; t += 20)
+    s += `<line class="gq" x1="${px(t)}" y1="${MT}" x2="${px(t)}" y2="${py(0)}" opacity=".25"/>
+          <text x="${px(t)}" y="${H - MB + 18}" text-anchor="middle" fill="var(--texte-4)" font-size="10.5" font-family="var(--sans)">${t}</text>`;
+  s += `<line class="gaxe" x1="${ML}" y1="${py(0)}" x2="${W - MR}" y2="${py(0)}"/>
+        <line class="gaxe" x1="${ML}" y1="${MT}" x2="${ML}" y2="${py(0)}"/>`;
+  /* la ligne des huit ans, et la bande du jardin */
+  s += `<line class="gpalier" x1="${ML}" y1="${py(8)}" x2="${W - MR + 40}" y2="${py(8)}"/>
+        <text x="${W - MR + 46}" y="${py(8) + 4}" fill="var(--provisoire)" font-size="10" font-family="var(--sans)" letter-spacing=".1em">HUIT ANS</text>
+        <text x="${W - MR + 46}" y="${(py(8) + py(0)) / 2 + 4}" fill="var(--provisoire)" font-size="10.5" font-family="var(--sans)" letter-spacing=".14em">LE JARDIN</text>
+        <text x="${W - MR + 46}" y="${(py(8) + py(0)) / 2 + 19}" fill="var(--texte-4)" font-size="9.5" font-family="var(--sans)">de huit à zéro, tout entier</text>`;
+  s += `<text x="${ML - 10}" y="${MT + 2}" text-anchor="end" fill="var(--texte-4)" font-size="9.5" font-family="var(--sans)" letter-spacing=".1em">ÂGE</text>
+        <text x="${W - MR}" y="${H - MB + 34}" text-anchor="end" fill="var(--texte-4)" font-size="9.5" font-family="var(--sans)" letter-spacing=".1em">ANNÉES VÉCUES →</text>`;
+
+  /* étiquettes rangées à gauche, sans se chevaucher */
+  const tri = COURBES.map((c, i) => ({ c, i, y: py(c.arr) })).sort((a, b) => a.y - b.y);
+  let dernier = -99;
+  tri.forEach(o => { o.ly = Math.max(o.y, dernier + 15); dernier = o.ly; });
+
+  COURBES.forEach((cb, idx) => {
+    const d = cb.desc === null ? null : Math.abs(cb.desc);
+    const y0 = cb.arr;
+    let xEnd;
+    if (d === null){
+      xEnd = 28;
+      s += `<path class="gc flou" stroke="${cb.c}" d="M ${px(0)} ${py(y0)} L ${px(xEnd)} ${py(8)}"/>`;
+      s += `<text x="${px(12)}" y="${py((y0 + 8) / 2) - 7}" fill="var(--texte-4)" font-size="12" font-family="var(--sans)">?</text>`;
+    } else {
+      xEnd = d;
+      s += `<path class="gc" stroke="${cb.c}" d="M ${px(0)} ${py(y0)} L ${px(xEnd)} ${py(8)}"/>`;
+    }
+    const plat = 15, fin = 13;
+    s += `<path class="gc flou" stroke="${cb.c}" d="M ${px(xEnd)} ${py(8)} L ${px(xEnd + plat)} ${py(8)} L ${px(xEnd + plat + fin)} ${py(0)}"/>`;
+    s += `<circle cx="${px(0)}" cy="${py(y0)}" r="3.4" fill="${cb.c}"/>`;
+    /* étiquette + trait de rappel */
+    const o = tri.find(t => t.i === idx);
+    s += `<line x1="${ML - 46}" y1="${o.ly}" x2="${px(0) - 5}" y2="${py(y0)}" stroke="${cb.c}" stroke-width=".8" opacity=".4"/>`;
+    s += `<text class="glab" x="${ML - 50}" y="${o.ly + 4}" text-anchor="end" fill="${cb.c}">${esc(cb.lab)}</text>`;
+  });
+  g.setAttribute(`viewBox`, `0 0 ${W} ${H}`);
+  g.innerHTML = s;
+}
+rendreMonde();
+
+/* ==========================================================================
+   VUE 5 — LES GENS
+   ========================================================================== */
+let gFiltre = `tous`;
+(function filtresGens(){
+  const box = $(`#g-filtres`);
+  [[`tous`,`tout le monde`],[`andrew`,`ce monde-ci`],[`joel`,`la vie d'avant`]].forEach(([k, lab]) => {
+    const b = document.createElement(`button`);
+    b.className = `puce` + (k === `tous` ? ` on` : ``);
+    b.innerHTML = esc(lab) + `<span class="n">${k === `tous` ? GENS.length : GENS.filter(g => g.voie === k).length}</span>`;
+    b.addEventListener(`click`, () => {
+      gFiltre = k; $$(`#g-filtres .puce`).forEach(x => x.classList.remove(`on`)); b.classList.add(`on`);
+      rendreGens();
+    });
+    box.appendChild(b);
+  });
+})();
+function rendreGens(){
+  const l = GENS.filter(g => gFiltre === `tous` || g.voie === gFiltre);
+  $(`#g-liste`).innerHTML = l.map(g =>
+    `<article class="fiche" id="g-${esc(g.id)}" style="border-left:2px solid var(--${g.voie === `joel` ? `joel` : `andrew`})">
+      <span class="sur">${esc(g.role)}</span>
+      <h3>${esc(g.nom)}</h3>
+      <p style="font-family:var(--sans);font-size:12.5px;color:var(--texte-3)">${esc(g.age)}</p>
+      <p>${rich(g.resume)}</p>
+      ${g.cle ? `<div class="dit">${rich(g.cle)}</div>` : ``}
+      ${g.portrait && g.portrait.length ? `<div class="rub">son portrait</div><ul>${g.portrait.map(t => `<li>${rich(t)}</li>`).join(``)}</ul>` : ``}
+      ${g.traits && g.traits.length ? `<div class="rub">à l'écriture</div><ul>${g.traits.map(t => `<li>${rich(t)}</li>`).join(``)}</ul>` : ``}
+      ${g.faille && g.faille !== `—` ? `<div class="rub">sa faille</div><p>${rich(g.faille)}</p>` : ``}
+      ${g.arc && g.arc !== `—` ? `<div class="rub">son arc</div><p>${rich(g.arc)}</p>` : ``}
+      ${g.gardes && g.gardes.length ? `<div class="garde" style="margin-top:12px"><b>ce qu'on ne fait jamais</b><ul>${g.gardes.map(t => `<li>${rich(t)}</li>`).join(``)}</ul></div>` : ``}
+      ${g.phrases && g.phrases.length ? `<div class="rub">ses phrases</div>${g.phrases.map(p => `<div class="dit parle">« ${esc(p)} »</div>`).join(``)}` : ``}
+      ${g.ouvert && g.ouvert.length ? `<div class="rub">reste à trancher</div><ul>${g.ouvert.map(t => `<li>${rich(t)}</li>`).join(``)}</ul>` : ``}
+      <span class="src">${esc(g.src)}</span>
+    </article>`).join(``);
+}
+rendreGens();
+
+/* ==========================================================================
+   VUE 6 — À TRANCHER
+   ========================================================================== */
+let qFiltre = `tout`;
+(function filtresQ(){
+  const box = $(`#q-filtres`);
+  const gs = [...new Set(QUESTIONS.map(q => q.g))];
+  [[`tout`,`tout`], ...gs.map(g => [g, g])].forEach(([k, lab]) => {
+    const b = document.createElement(`button`);
+    b.className = `puce` + (k === `tout` ? ` on` : ``);
+    b.innerHTML = esc(lab) + `<span class="n">${k === `tout` ? QUESTIONS.length : QUESTIONS.filter(q => q.g === k).length}</span>`;
+    b.addEventListener(`click`, () => {
+      qFiltre = k; $$(`#q-filtres .puce`).forEach(x => x.classList.remove(`on`)); b.classList.add(`on`);
+      rendreQ();
+    });
+    box.appendChild(b);
+  });
+})();
+function rendreQ(){
+  const l = QUESTIONS.filter(q => qFiltre === `tout` || q.g === qFiltre);
+  const gs = [...new Set(l.map(q => q.g))];
+  $(`#q-corps`).innerHTML =
+    `<p class="chapo">Les trous, les contradictions et les décisions en attente. <strong>Les phrases à garder sont au bas de cette page.</strong></p>` +
+    gs.map(g => `<h2 class="titre-section">${esc(g)} <span>${l.filter(q => q.g === g).length}</span></h2>
+      <div class="grille deux">` + l.filter(q => q.g === g).map(q =>
+        `<article class="fiche">
+          <div class="haut"><h3>${esc(q.t)}</h3><span class="st st-${q.e}">${esc(ST[q.e] || q.e)}</span></div>
+          <p>${rich(q.q)}</p>
+          ${q.o && q.o.length ? `<ul>${q.o.map(o => `<li>${rich(o)}</li>`).join(``)}</ul>` : ``}
+          ${q.n ? `<div class="garde" style="margin-top:10px"><b>à savoir avant de trancher</b>${rich(q.n)}</div>` : ``}
+        </article>`).join(``) + `</div>`).join(``) +
+    `<h2 class="titre-section">Les phrases à garder <span>${PHRASES.length}</span></h2>
+     <p class="chapo"><strong>texte</strong> = à prononcer telle quelle dans le roman. <strong>bible</strong> = pour écrire les scènes, jamais pour être dite. <strong>doctrine</strong> = existe dans le livre, mais contestée et jamais confirmée.</p>
+     <div class="grille deux">` + PHRASES.map(p =>
+      `<article class="fiche">
+        <div class="haut"><span class="sur">${esc(p.d)}</span><span class="st st-${p.u === `texte` ? `acquis` : p.u === `doctrine` ? `provisoire` : `ouvert`}">${esc(p.u)}</span></div>
+        <div class="dit parle" style="margin-top:4px">« ${esc(p.t)} »</div>
+        <p>${rich(p.q)}</p>
+      </article>`).join(``) + `</div>`;
+}
+rendreQ();
+
+/* ==========================================================================
+   VUE — LES CHAPITRES ÉCRITS
+   ========================================================================== */
+let xSel = 0;
+(function choixTextes(){
+  const box = $(`#x-choix`);
+  TEXTES.forEach((t, i) => {
+    const b = document.createElement(`button`);
+    b.className = `puce` + (i === 0 ? ` on` : ``);
+    b.textContent = t.rang;
+    b.addEventListener(`click`, () => {
+      xSel = i; $$(`#x-choix .puce`).forEach(x => x.classList.remove(`on`)); b.classList.add(`on`);
+      rendreTextes();
+    });
+    box.appendChild(b);
+  });
+})();
+
+function texteBrut(t){
+  return t.rang.toUpperCase() + `\n` + t.titre + `\n\n` +
+    t.p.map(([k, s]) => s.replace(/<[^>]+>/g, ``)).join(`\n\n`) + `\n`;
+}
+function rendreTextes(){
+  const t = TEXTES[xSel]; if (!t) return;
+  const sc = parIdScene[t.scene];
+  $(`#x-corps`).innerHTML =
+    `<article class="page">
+      <span class="rang">${esc(t.rang)}</span>
+      <h2>${esc(t.titre)}</h2>
+      <p class="dedic">${esc(t.sous)}</p>
+      <div class="txt">` +
+      t.p.map(([k, s, f]) => `<p class="${k === `p` ? (f || ``) : k}">${s}</p>`).join(``) +
+      `</div></article>
+     <aside class="appareil">
+      <div class="actes">
+        <button id="x-copier">copier le texte</button>
+        <button id="x-tel">télécharger .txt</button>
+        ${sc ? `<button id="x-scene">voir la scène</button>` : ``}
+      </div>
+      <div class="bl"><h4>Ce que c'est</h4><p>${t.note}</p></div>
+      <div class="bl tenu"><h4>Ce que le texte tient</h4><ul>${t.tenu.map(x => `<li>${x}</li>`).join(``)}</ul></div>
+      <div class="bl ouvre"><h4>Ce qu'il laisse ouvert</h4><ul>${t.ouvre.map(x => `<li>${x}</li>`).join(``)}</ul></div>
+     </aside>`;
+
+  $(`#x-copier`).addEventListener(`click`, () => {
+    if (!navigator.clipboard) { souffler(`Le presse-papier n'est pas disponible ici — passe par le téléchargement.`); return; }
+    navigator.clipboard.writeText(texteBrut(t))
+      .then(() => souffler(`Texte copié. Colle-le où tu veux.`))
+      .catch(() => souffler(`Le navigateur a refusé le presse-papier — passe par le téléchargement.`));
+  });
+  $(`#x-tel`).addEventListener(`click`, () => {
+    const b = new Blob([texteBrut(t)], { type: `text/plain;charset=utf-8` });
+    const a = document.createElement(`a`);
+    a.href = URL.createObjectURL(b); a.download = `eclaircie-` + t.id + `.txt`; a.click();
+    URL.revokeObjectURL(a.href);
+  });
+  if (sc) $(`#x-scene`).addEventListener(`click`, () => {
+    $(`.rail-btn[data-vue="parcours"]`).click();
+    ouvrirTiroir(t.scene);
+    const n = $(`.noeud[data-id="${t.scene}"]`);
+    if (n) $(`#plateau`).scrollTo({ left: Math.max(0, n.offsetLeft - 260), behavior: `smooth` });
+  });
+}
+rendreTextes();
+
+/* ---------- premier souffle ---------- */
+setTimeout(() => souffler(`Clique une scène pour ouvrir son dossier d'écriture.`), 900);
+
+
+
