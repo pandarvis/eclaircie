@@ -52,8 +52,10 @@ d.SCENES.forEach(s => { if (!voies.includes(s.row)) pb.push('voie inconnue : ' +
 /* les mots que le texte du roman ne peut pas employer */
 /* liste arretee par l'autrice le 18 aout 2026 : les mots d'apparence physique passent
    (un gars, un garcon, une femme, une fille, une fillette) ; c'est la categorie sociale
-   ou d'age qui est interdite, jamais la matiere. */
-const bannis = /\b(enfants?|b[ée]b[ée]s?|nourrissons?|vieux|vieilles?|vieillards?|seniors?|p[èe]res?|m[èe]res?|fils|famille|jumeaux?|jumelles?)\b/i;
+   ou d'age qui est interdite, jamais la matiere.
+   Ajout du 19 aout : le mot peau ne doit apparaitre nulle part, pas meme
+   pour un fruit -- rien ne doit laisser croire qu'il y a quelqu'un dedans. */
+const bannis = /\b(enfants?|b[ée]b[ée]s?|nourrissons?|vieux|vieilles?|vieillards?|seniors?|p[èe]res?|m[èe]res?|fils|famille|jumeaux?|jumelles?|peaux?)\b/i;
 d.TEXTES.forEach(t => {
   const brut = t.p.map(x => x[1]).join(' ').replace(/<[^>]+>/g, '');
   const m = brut.match(bannis);

@@ -36,9 +36,9 @@ Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.
 
 · · ·
 
-Les neuf, eux, ne prendraient pas ce chemin-là. On viendrait les chercher, on les ferait sortir par l'autre côté, et ils traverseraient d'abord la zone de résidence avant d'arriver devant la bonne porte. C'est là que les arrivants passent leurs huit premiers jours, après la consultation : des chambres, un réfectoire, et des gens qui viennent les voir.
+Les neuf, eux, ne prendraient pas ce chemin-là. On viendrait les chercher, on les ferait sortir par l'autre côté, et ils traverseraient d'abord la zone de résidence avant d'arriver devant la bonne porte. C'est là que les arrivants passaient leurs huit premiers jours, après la première consultation : des chambres, un réfectoire, et des visiteurs pour leur tenir compagnie.
 
-La consultation, c'est l'analyste qui la fait, et c'est le même métier que celui qui passe ses journées à regarder mûrir des capsules. Il examine, il vérifie qu'un corps est entier, sans blessure et sans anomalie. Puis il retourne à ses planches.
+Si on inspectait les corps une première fois, c'était pour vérifier que l'arrivant était bien arrivé immaculé, sans anomalie et sans blessure. On n'est jamais trop prudent. Toutes les capsules ne sont pas aussi régulières qu'annoncé, et il arrive qu'une série se termine sur des relevés étranges ; autant s'assurer que celui qui en sort n'a pas été touché d'une manière ou d'une autre. C'était l'analyste qui s'en chargeait. Puisqu'il passait déjà ses journées à étudier des capsules, il était logique qu'il s'occupe aussi de ce qui en sortait.
 
 Le veilleur quitta l'accueil et s'engagea dans le grand couloir.
 
@@ -80,7 +80,7 @@ Au loin, immanquable, la porte du registre. Massive, elle aussi tout autant char
 
 Les différents quartiers, eux, se fondaient dans l'environnement de la serre. Des murs, un toit, une porte, sculptés comme tout ce qui avait été bâti ici, et la coulée qui passait entre eux et par-dessus.
 
-Un préparateur répondant au nom de Bastien repéra le veilleur de loin. Il n'y avait pas de mal à le repérer.
+Un préparateur répondant au nom de Bastien reconnut le veilleur de loin, à sa silhouette et à sa façon de marcher.
 
 Andrew était grand sans être imposant, l'épaule large, la taille droite, avec la solidité tranquille de ceux qui entretiennent leur condition sans chercher à paraître plus forts qu'ils ne le sont. Cheveux bruns, courts, légèrement désordonnés, deux ou trois mèches refusant de rester en place — et quelques autres restées blanches. Barbe courte, mâchoire carrée, nez droit, sourcils épais. Les yeux d'un brun profond, attentifs, toujours en train d'observer quelque chose : chaleureux quand il se détendait, nettement plus sérieux dès qu'il se concentrait. Rien d'intimidant au premier regard. Ce n'était pas une raison pour le sous-estimer.
 
@@ -102,13 +102,13 @@ Bastien traversa pour le rejoindre. Il venait de la coulée et ça se voyait : m
 
 · · ·
 
-Le quartier des préparateurs était une seule grande pièce, longue, avec une allée au milieu et des établis de chaque côté. Des crochets partout. Des caisses empilées contre le mur du fond, quatorze. Des bottes alignées à l'entrée, jamais par paires. Sur la cloison de droite, un tableau noir couvert de numéros de travées, effacé et réécrit tant de fois que le noir était devenu gris.
+Le quartier des préparateurs s'ouvrait sur une allée centrale, assez large pour y faire passer deux chariots de front, et de chaque côté des boxes où l'on travaillait. Pas de portes : des cloisons à mi-hauteur, un établi par box, des crochets partout. Des caisses empilées contre le mur du fond, quatorze. Des bottes alignées à l'entrée, jamais par paires. Sur la cloison de droite, un tableau noir couvert de numéros de travées, effacé et réécrit tant de fois que le noir était devenu gris.
 
-Ils étaient une quinzaine, et il n'y avait pas de bureaux.
+Ils étaient une quinzaine, et il n'y avait pas de bureaux. Les plus anciens du service étaient aussi ceux qui paraissaient les plus jeunes, et personne n'y faisait attention.
 
 Deux ou trois levèrent la main en le voyant entrer. On lui proposa du café et il accepta de bon cœur. Il n'avait pas fait le détour par la salle de repos ; ce n'était pas une raison pour refuser une bonne tasse.
 
-Sur le premier établi, une capsule. Cueillie dans la nuit, calée sur deux berceaux de mousse, avec deux personnes autour. L'une lavait la paroi au chiffon, à l'eau claire, en tournant toujours dans le même sens, et l'eau du seau était verte. L'autre avait décollé le rabat sur dix centimètres, glissé dessous trois sondes souples, et rabattu par-dessus. Les sondes remontaient jusqu'à un appareil posé au bout de la table, une caisse grise avec un cadran et deux aiguilles qui ne bougeaient presque pas.
+Dans le premier box, sur l'établi, une capsule. Cueillie dans la nuit, calée sur deux berceaux de mousse, avec deux personnes autour. L'une lavait la paroi au chiffon, à l'eau claire, en tournant toujours dans le même sens, et l'eau du seau était verte. L'autre avait décollé le rabat sur dix centimètres, glissé dessous trois sondes souples, et rabattu par-dessus. Les sondes remontaient jusqu'à un appareil posé au bout de la table, une caisse grise avec un cadran et deux aiguilles qui ne bougeaient presque pas.
 
 C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne serait plus touchée que par un veilleur.
 
@@ -120,7 +120,7 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 
 — Elles sont toutes belles.
 
-— Non, dit-il. Regarde-la.
+— Celle-là, ce n'est pas pareil. Regarde-la.
 
 Il la regarda. Elle était belle.
 
@@ -162,9 +162,9 @@ Andrew écoutait sans rien dire. Ça n'avait rien d'extraordinaire : une capsule
 
 Une main de préparateur ne valait pas celle d'une analyste. Bien sûr qu'elle pouvait sembler prête. Ce n'était pas si simple que ça.
 
-Le geste seul ne donnait pas de date. Vera pouvait relever cette capsule dans l'heure, elle n'aurait qu'un point sur un graphique vierge, et il en fallait quatre au minimum pour chiffrer correctement le jour d'une éclaircie totale. Toutes les capsules n'arrivent pas à maturation de la même manière. C'est en croisant des moyennes, des chiffres accumulés sur des années et les relevés faits sur place qu'on finit par le savoir.
+Le geste seul ne donnait pas de date. Vera pouvait relever cette capsule dans l'heure, elle n'aurait qu'un point sur un graphique vierge, et il en fallait quatre au minimum pour chiffrer correctement le jour d'une éclaircie totale. Toutes les capsules n'arrivaient pas à maturation de la même manière. C'était en croisant des moyennes, des chiffres accumulés sur des années et les relevés faits sur place qu'on finissait par le savoir.
 
-Or Bastien pouvait se tromper comme ne pas se tromper. Il était nouveau dans le métier, et un préparateur ne tranche pas. Tout le monde le pensait tout bas sans le dire tout haut. Personne ne lui en voulait de ne pas savoir encore.
+Or Bastien pouvait se tromper comme ne pas se tromper. Il était nouveau dans le métier, et un préparateur ne tranchait pas. Tout le monde le pensait tout bas sans le dire tout haut. Personne ne lui en voulait de ne pas savoir encore.
 
 — Deux jours, dit-elle. Avant ça, je ne dirai rien. De toute manière, si ça avait été une capsule flash, elle se serait ouverte depuis longtemps.
 
@@ -190,7 +190,7 @@ Andrew sortit son carnet.
 
 — Le matin. Avant de descendre.
 
-Il écrivit : travée dix-neuf, douzième capsule, aucune série, la date et l'heure qu'il était. Puis, en dessous, les sept matins qui suivaient, un par ligne. Il souligna le dernier, parce qu'il soulignait toujours le dernier de quelque chose.
+Il écrivit : travée dix-neuf, douzième capsule, et la date et l'heure qu'il était. Il souligna le tout.
 
 Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait, et le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien.
 
@@ -216,27 +216,27 @@ Il n'avait rien à porter. On avait descendu la veille ce qu'il fallait dans la 
 
 L'odeur le prit à cinquante mètres.
 
-Elle n'arrivait pas de face. Elle était déjà là, installée dans l'allée, sans direction, comme une température. Il aurait pu faire le tour par l'autre côté. Il ne le fit pas, parce qu'il était en avance, parce que celle-ci était plus courte, et parce qu'on ne change pas de chemin pour une odeur.
+Elle n'arrivait pas de face. Elle était déjà là, installée dans l'allée, sans direction, comme une température. Il aurait pu faire le tour par l'autre côté. Il ne le fit pas, parce qu'il était en avance et parce qu'on ne change pas de chemin pour une odeur.
 
 · · ·
 
 Ils étaient quatre au bout de l'allée, en combinaison. Trois regardaient. Le quatrième raclait.
 
-— Au fond ! Va chercher au fond ! criait l'un, et les autres riaient, et celui qui raclait riait aussi parce que c'était son tour et qu'il n'y avait rien à dire.
+— Ouais, et surtout le fond ! On laisse rien, faut que ça brille ! criait l'un, et les autres riaient, et celui qui raclait riait aussi parce que c'était son tour et qu'il n'y avait rien à dire.
 
 C'était le dernier entré au service. C'était aussi le seul à qui on aurait donné soixante ans.
 
 Andrew le regarda le temps de passer et ne trouva rien à en dire.
 
-La capsule s'était ouverte toute seule pendant la nuit, sans prévenir personne, et pas par le haut. Elle avait cédé sur le flanc, en bas, là où la paroi est la plus épaisse. La travée n'avait jamais éclairci. Elle était restée sombre du premier jour au dernier, et elle était là maintenant, fendue sur toute la longueur, affaissée sur elle-même comme un sac qu'on a vidé sans le poser.
+La capsule s'était ouverte toute seule pendant la nuit, sans prévenir personne, et pas par le haut. Elle avait cédé sur le flanc, en bas, là où la paroi est la plus épaisse. On disait de celles-là que c'étaient des capsules non éclaircies, ni plus ni moins. Une anomalie de la coulée. On n'avait même pas eu le temps de la voir : comme si la coulée avait rejeté la coque avant de lui avoir laissé sa chance. Elle était restée sombre du premier jour au dernier, et elle était là maintenant, fendue sur toute la longueur, affaissée sur elle-même comme un sac qu'on a vidé sans le poser.
 
 Le reste avait coulé.
 
-Ce n'était pas de la gelée. La gelée est orange, mate, sèche ; elle s'enlève d'un tenant et elle laisse la peau propre. Ça, c'était autre chose.
+Ce n'était pas de la gelée. La gelée est orange, mate, sèche ; elle s'enlève d'un tenant et elle ne laisse rien derrière elle. Ça, c'était autre chose.
 
-Ça s'était étalé sur trois mètres et ça avait pris la pente. Par endroits c'était encore en tas, avec des grumeaux gros comme le poing, plus pâles au cœur, qui gardaient un moment la marque de la raclette et se refermaient lentement dessus. Ailleurs c'était plus clair et plus liquide, et ça s'était insinué dans le joint entre deux dalles, où il faudrait revenir gratter demain. Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du seau quand on relevait l'outil et qui ne se décidaient pas à tomber, une peau formée en surface qui se plissait quand on marchait à côté, et sous la peau quelque chose qui bougeait encore un peu — à cause de la pente, et pas pour une autre raison.
+Ça s'était étalé sur trois mètres et ça avait pris la pente. Par endroits c'était encore en tas, avec des grumeaux gros comme le poing, plus pâles au cœur, qui gardaient un moment la marque de la raclette et se refermaient lentement dessus. Ailleurs c'était plus clair et plus liquide, et ça s'était insinué dans le joint entre deux dalles, où il faudrait revenir gratter demain. Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du seau quand on relevait l'outil et qui ne se décidaient pas à tomber, une membrane formée en surface qui se plissait quand on marchait à côté, et dessous quelque chose qui bougeait encore un peu — à cause de la pente, et pas pour une autre raison.
 
-Un animal malade rend sur le carrelage quelque chose qu'on essuie sans y penser. À côté de ça, c'était du petit-lait.
+Les régurgitations de n'importe quel être vivant, petit ou grand, à côté de ça, c'était du petit-lait.
 
 Les seaux étaient alignés le long du mur, à moitié pleins. Il y en avait six, et il en faudrait un septième.
 
@@ -248,6 +248,6 @@ On nettoyait vite. Pas pour l'odeur : parce qu'on disait qu'une travée gâtée 
 
 Andrew n'y toucha pas. Il l'avait fait pendant deux ans, comme tout le monde, et depuis, d'autres le faisaient. Il ne ralentit pas et il ne se boucha pas le nez, parce qu'aucun des quatre ne l'aurait fait à sa place et qu'on se tient devant les gens qui travaillent.
 
-Il passa à trois mètres et continua vers la salle 2, où quatre capsules seraient dressées avant dix heures, claires et propres, sur leurs chariots.
+Il passa à trois mètres et continua vers la salle 2, où quatre capsules s'apprêtaient à être redressées pour dix heures précisément, claires et propres, sur leurs chariots.
 
-L'odeur le suivit dans l'allée. Une odeur, insipide, et prenante au nez, comme si on respirait à travers un linge tiède qu'on aurait laissé plié.
+L'odeur le suivit dans l'allée. Une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été.
