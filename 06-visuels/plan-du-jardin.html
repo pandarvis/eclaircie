@@ -130,8 +130,8 @@ aside em{color:var(--or-pale);font-style:italic}
   transition:fill .12s,stroke-width .12s}
 .jeu:hover,.jeu.on{fill:#3a2c14;stroke:var(--or);stroke-width:2.6}
 
-.arbre{fill:var(--vert-sombre);opacity:.55}
-.arbre2{fill:none;stroke:var(--vert);stroke-width:.7;opacity:.3}
+.arbre{fill:var(--vert-sombre);opacity:.44}
+.arbre2{fill:none;stroke:var(--vert);stroke-width:.7;opacity:.22}
 .grille{stroke:var(--or);stroke-width:2.6;stroke-linecap:round}
 .grille.cond{stroke:#6b4a3a;stroke-dasharray:3 3}
 .fresque{fill:none;stroke:var(--vert-clair);stroke-width:2.2;opacity:.35;
@@ -190,7 +190,7 @@ aside em{color:var(--or-pale);font-style:italic}
 .halo-m{fill:var(--bleu);opacity:.18;animation:battre 2.4s ease-in-out infinite}
 @keyframes battre{0%,100%{opacity:.18}50%{opacity:.05}}
 .feuille{animation:respire 9s ease-in-out infinite}
-@keyframes respire{0%,100%{opacity:.5}50%{opacity:.72}}
+@keyframes respire{0%,100%{opacity:.4}50%{opacity:.58}}
 @media (prefers-reduced-motion: reduce){
   .onde,.surface,.halo-m,.feuille,.lueur{animation:none}
   .onde{opacity:.28} .lueur{opacity:.1}
@@ -443,7 +443,6 @@ const PLANS=[
   ['La fresque s\'arrête au gymnase','On l\'a adossé au mur bien plus tard. Les dessins reprennent de l\'autre côté, en plus petit.'],
   ['Un sentier contre la margelle','Personne ne l\'a tracé. À force de longer l\'eau pour regarder dedans, l\'herbe n\'a pas repoussé.']],
  grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[934,380,'est',0],[330,628,'sud-ouest',0],[560,646,'sud',1]],
- sentiers:[[[688,360],[700,430],[712,466]]],
  etendue:[468,388,180,140],
  /* L'anneau : le tour de l'etendue, plus large que le reste. C'est celui
     que les petits font a velo. */
@@ -558,18 +557,6 @@ function dessine(p){
   el('path',{d:lisse(p.mur),class:'mur-in'},cB);
   el('path',{d:lisse(p.mur),class:'mur'},cB);
   const c0=centre(p.mur);
-  const gFresq=el('g',{class:'zone'},cB);
-  (p.fresques||[]).forEach(([a,b])=>{
-    const m=[(a[0]+b[0])/2,(a[1]+b[1])/2];
-    const dx=c0[0]-m[0], dy=c0[1]-m[1], l=Math.hypot(dx,dy)||1;
-    const dec=v=>[v[0]+dx/l*13, v[1]+dy/l*13];
-    const A=dec(a), B=dec(b), M=dec(m);
-    el('path',{d:`M${n2(A[0])},${n2(A[1])} Q${n2(M[0])},${n2(M[1])} ${n2(B[0])},${n2(B[1])}`,
-      class:'fresque'},gFresq);
-  });
-  if(p.fresques && p.fresques.length)
-    cliquable(gFresq,'Les fresques','le mur, côté cour',LIEUX['Les fresques'][1]);
-
   /* ---- les grilles ---- */
   (p.grilles||[]).forEach(([x,y,nom,cond])=>{
     const dx=c0[0]-x, dy=c0[1]-y, l=Math.hypot(dx,dy)||1;
@@ -917,7 +904,6 @@ function legende(p){
        ['#a8d18a','lapins'],['#d99a9a','cochons d\'Inde'],['#9fb4c9','chats']]
        .map(([c,t])=>`<span><i style="background:${c};border-radius:50%;width:9px;height:9px"></i>${t}</span>`).join('')
     + `<span><i style="background:none;border-top:3px solid #8a7350"></i>le grand chemin</span>`
-    + `<span><i style="background:none;border-top:2px dashed #a8d18a"></i>les fresques du mur</span>`
     + `<span><i style="background:none;border-top:2px solid #93825e"></i>les routes, d'une porte à une autre</span>`
     + `<span style="color:var(--texte-2)">— cliquez n'importe quoi</span>`;
 }
