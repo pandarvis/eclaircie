@@ -1007,6 +1007,16 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Aucun chemin ne mord un bâtiment, et la mare a une forme écrite`, e:`acquis`, t:[`visuel`,`fabrication`],
+  v:`ton lac grignote le chemin de droite maintenant. au passage il n'est toujours pas de la bonne forme. il part toucher les chemins et au fur et à mesure, le chemin de base passe à travers les bâtiments. on n'est pas bon. attention, les chemins ne doivent pas rentrer dans des bâtiments ou local, cabanon, etc, le lac ne doit pas toucher non plus !`,
+  q:`⛔ **Je corrigeais à l'œil, et c'est pour ça que chaque réparation en cassait une autre.** *Le contrôleur existant ne voyait que les rectangles entre eux : il ne regardait pas les tracés.* **Deux outils neufs règlent ça pour de bon.**
+
+✅ **`verifier-les-chemins.py` ouvre la page dans un navigateur et mesure les vrais tracés**, pas les points dont ils sont issus — *ils sont lissés au rendu, leur forme ne se calcule pas.* Il teste la largeur du chemin, pas son axe : **une allée de neuf pixels mord un bâtiment que son axe évite.** Treize fautes au premier passage.
+
+✅ **`degager-les-chemins.py` les répare :** *pour chaque bâtiment qui touche une voie, il cherche le plus petit déplacement qui le dégage — seize directions, par pas de deux — sans le sortir du mur, sans le mettre dans l'eau, sans le poser sur un voisin.* **Onze bâtiments et la mare déplacés, plus rien ne mord rien.**
+
+🔴 **La mare ne sera plus jamais tirée au hasard : son contour est écrit, quinze points, une fois pour toutes.** *C'est la silhouette que l'autrice a retenue, et aucun ajout ailleurs ne peut plus la déformer.*` },
+
 { d:`19 août`, s:`Le jardin respire, et la mare arrête de changer de forme`, e:`acquis`, t:[`visuel`],
   v:`il faudrait aussi un peu éclaircir le grand chemin car dessiné comme tel, on a visuellement une frontière entre tout le jardin et l'étendue. pourtant l'étendue n'est pas fermée, il reste un espace vert comme le reste. il y a de l'herbe partout et des arbres partout. si ça fait too much, tu enlèves les herbes et tu mets une petite animation sur certains arbres comme une luminescence douce qui varie -> je veux que ça respire. [...] à chaque fois tu me modifies la forme de la mare, c'est dommage. garde celle-ci, plus irrégulière.`,
   q:`🔴 **La mare changeait de forme à chaque passe, et ce n'était pas un caprice.** *Les contours irréguliers sortent d'une suite de nombres unique et partagée. Dès que j'ajoutais ou retirais quelque chose dessiné avant elle — de l'herbe, des arbres — la suite se décalait et la mare recevait d'autres nombres.* **Chaque forme a maintenant sa propre graine : la mare, sa surface, chaque pré, chaque enclos. Elles ne bougeront plus, quoi que j'ajoute ailleurs.**
