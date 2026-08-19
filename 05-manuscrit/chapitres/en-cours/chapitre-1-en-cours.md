@@ -124,7 +124,11 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 
 Il la regarda. Elle était belle.
 
-L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu. C'était à peu près le cas : il en était à son quatrième mois. Il avait soixante-douze ans.
+L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu. C'était à peu près le cas : il en était à son quatrième mois.
+
+Andrew avait tenu son poste ce matin-là. Il se rappelait la phrase, et plus la salle.
+
+— Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-douze ans.
 
 Personne ne trouva ça remarquable. Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.
 
