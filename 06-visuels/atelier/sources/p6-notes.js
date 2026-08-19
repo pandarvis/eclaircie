@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`L'atelier montrait un plan vieux de deux corrections`, e:`acquis`, t:[`atelier`,`méthode`],
+  v:`c'est trop jaune par rapport au reste, et ça accroche le regard. tu me réduis encore la luminescence stp`,
+  q:`🔴 **Elle regardait une version que j'avais déjà corrigée deux fois.** *L'atelier ne lit pas la page du jardin : il en garde une copie figée, versée par un script. J'éditais la page, je vérifiais la page, je livrais la page — et l'atelier, lui, dormait sur l'ancienne.*
+
+🔴 **J'ai vérifié ce que je modifiais, pas ce qu'elle regarde.** C'est le même angle mort que les contrôleurs : ils cherchent des collisions, pas des orphelins ; ici je cherchais une couleur, pas une copie en retard.
+
+✅ **La fabrication refuse désormais de tourner si la copie a pris du retard** : l'injecteur signe ce qu'il verse, la fabrication recalcule la signature et s'arrête. *Testé en la faussant exprès — elle s'arrête.* **Aucune correction du plan ne peut plus rester invisible.**` },
+
 { d:`20 août`, s:`Le soleil rentre dans le rang des couleurs`, e:`acquis`, t:[`visuel`],
   v:`c'est un peu trop lumineux ahah, plus sobre, meme teinte luminosité que le réfectoire, ça sera très bien`,
   q:`✅ **Le halo s'éteint et la teinte redescend à celle du réfectoire** — même or, même fond, même luminosité que n'importe quel bâtiment commun. *J'avais fait briller le seul bâtiment qui n'a pas besoin qu'on le désigne.*

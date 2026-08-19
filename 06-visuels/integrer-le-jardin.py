@@ -9,6 +9,7 @@ jamais se demander si un nom entre en collision avec l'atelier.
 
 usage : python integrer-le-jardin.py   (depuis 06-visuels/)
 """
+import hashlib
 import io
 import json
 import re
@@ -22,11 +23,16 @@ page = io.open(SRC, encoding='utf-8').read()
 # navigateur ne lit pas le JavaScript, il cherche la fin du script.
 brut = json.dumps(page, ensure_ascii=False).replace(u'</', u'<\\/')
 
+# L'empreinte de la page versee. fabriquer.sh la recalcule et refuse de
+# fabriquer si elle ne correspond plus : la copie figee ne peut plus dormir.
+empreinte = hashlib.sha256(page.encode('utf-8')).hexdigest()
+
 part = u"""
 /* ==========================================================================
    LE PLAN DU JARDIN — genere depuis 06-visuels/plan-du-jardin.html
    Ne pas editer ici : editer la page autonome, puis relancer
    06-visuels/integrer-le-jardin.py
+   empreinte-source: EMPREINTE
    ========================================================================== */
 const JARDIN_SRC = %s;
 
@@ -48,7 +54,7 @@ const JARDIN_SRC = %s;
 })();
 """ % brut
 
-io.open(DST, 'w', encoding='utf-8').write(part)
+io.open(DST, 'w', encoding='utf-8').write(part.replace(u"EMPREINTE", empreinte))
 
 # ---------- le style, la vue et le bouton ----------
 def injecter(fichier, balise, bloc, ancre, css=False):
