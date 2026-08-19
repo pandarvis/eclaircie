@@ -47,6 +47,25 @@ test('un bloc mal forme est signale', () => {
   assert.match(pb[0], /balise, texte/);
 });
 
+test('un bloc avec une classe connue passe', () => {
+  const avecClasse = { ...texteValide, p: [['p', 'Il éteignit les deux lampes.', 'fin']] };
+  assert.deepEqual(verifierLeContrat({ TEXTES: [avecClasse], SCENES: scenes }), []);
+});
+
+test('une classe inconnue du site est signalee', () => {
+  const casse = { ...texteValide, p: [['p', 'Il sortit.', 'exergue']] };
+  const pb = verifierLeContrat({ TEXTES: [casse], SCENES: scenes });
+  assert.equal(pb.length, 1);
+  assert.match(pb[0], /exergue/);
+});
+
+test('un bloc a quatre elements est signale', () => {
+  const casse = { ...texteValide, p: [['p', 'a', 'fin', 'de trop']] };
+  const pb = verifierLeContrat({ TEXTES: [casse], SCENES: scenes });
+  assert.equal(pb.length, 1);
+  assert.match(pb[0], /triplet/);
+});
+
 test('TEXTES disparu est signale sans planter', () => {
   const pb = verifierLeContrat({ SCENES: scenes });
   assert.equal(pb.length, 1);

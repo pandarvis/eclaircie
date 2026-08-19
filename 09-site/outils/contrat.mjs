@@ -4,6 +4,12 @@
 /* Les trois balises de paragraphe que l'atelier emploie aujourd'hui. */
 const BALISES = new Set(['p', 'pause', 'tiret']);
 
+/* Un bloc peut porter une classe facultative en troisieme position.
+   L'atelier n'en emploie qu'une : `fin`, qui pose une respiration avant le
+   dernier paragraphe. Elle passe par liste blanche comme tout le reste — une
+   classe nouvelle arrete la fabrication au lieu d'entrer dans le HTML. */
+const CLASSES = new Set(['fin']);
+
 /* Ce qui traverse jusqu'au lecteur, et rien d'autre.
    On liste ce qui passe au lieu d'exclure ce qui ne passe pas : un champ
    ajoute demain par l'autrice ne franchira pas la frontiere tout seul.
@@ -53,12 +59,22 @@ export function verifierLeContrat({ TEXTES, SCENES }) {
 
     t.p.forEach((bloc, j) => {
       const ouBloc = `${ou}, bloc n° ${j + 1}`;
-      if (!Array.isArray(bloc) || bloc.length !== 2
+
+      if (!Array.isArray(bloc) || bloc.length < 2 || bloc.length > 3
           || typeof bloc[0] !== 'string' || typeof bloc[1] !== 'string') {
-        pb.push(`${ouBloc} : on attend un couple [balise, texte]`);
-      } else if (!BALISES.has(bloc[0])) {
+        pb.push(`${ouBloc} : on attend un couple [balise, texte], `
+              + `ou un triplet [balise, texte, classe]`);
+        return;
+      }
+
+      if (!BALISES.has(bloc[0])) {
         pb.push(`${ouBloc} : la balise « ${bloc[0]} » est inconnue du site `
               + `(connues : ${[...BALISES].join(', ')})`);
+      }
+
+      if (bloc.length === 3 && !CLASSES.has(bloc[2])) {
+        pb.push(`${ouBloc} : la classe « ${bloc[2]} » est inconnue du site `
+              + `(connues : ${[...CLASSES].join(', ')})`);
       }
     });
   });
