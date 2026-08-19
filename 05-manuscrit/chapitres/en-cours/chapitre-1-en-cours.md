@@ -124,13 +124,13 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 
 Il la regarda. Elle était belle.
 
-L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu. C'était le cas : il en était à son quatrième mois dans le service, et avant ça il était à l'école.
+L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu.
 
-Andrew avait tenu son poste à sa cérémonie. Il n'oubliait pas un visage.
+— Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans, se souvint Andrew en considérant son sourire béat.
 
-— Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans.
+Personne ne pouvait lui en vouloir. Il venait tout juste de quitter les bancs de l'école et il avait encore des cours du soir. Ça faisait à peine un mois qu'il était là, un apprenti modèle qui apprenait vite.
 
-Personne ne trouva ça remarquable. Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.
+Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.
 
 Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
 
