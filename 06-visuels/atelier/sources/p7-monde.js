@@ -97,6 +97,7 @@ const GLOSSAIRE = [
 [`Jardin allongé`,`Des années supplémentaires à huit ans, accordées à qui a été meurtri. Le supplément est proportionnel à ce qui a été subi.`],
 [`« Libérer plus tôt »`,`Formule d'un courant politique qui juge cruel de faire durer une vie qui n'ira nulle part. Il ne dit jamais ce qu'il propose.`],
 [`Marginal`,`Celui qui déteste les arrivants jeunes et le fait savoir. Ni groupe, ni organisation, ni porte-parole : des individus, des rumeurs, une foule un soir.`],
+[`Section 0`,`Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* Six chambres, une véranda, un jardin clos derrière. Zéro comme l'âge.`],
 [`Médecins du jardin`,`Corps médical propre au jardin, tenu au secret. Ils suivent chaque enfant de huit ans à zéro et surveillent une seule chose : le jour où l'âge repart vers le bas.`],
 [`Nom d'éclaircie`,`Le nom qu'un arrivant reçoit en sortant, et le seul qu'il aura jamais. Au-dessus de huit ans il le produit lui-même, sans savoir d'où il lui vient ; en dessous, c'est une berceuse qui le donne.`],
 [`Numéro`,`Chiffre attribué par le veilleur en même temps que le nom est inscrit. Il n'y a pas de noms de famille dans ce monde, et deux arrivants peuvent porter le même nom.`],
