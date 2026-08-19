@@ -37,7 +37,16 @@ html,body{margin:0;height:100%;background:var(--nuit);color:var(--texte);font-fa
   display:none;transition:.16s;letter-spacing:.02em}
 #rejouer:hover{border-color:var(--bleu);background:#12242f}
 #rejouer.vu{display:block}
-svg{flex:1;min-height:0;width:100%;margin-top:4px}
+#cadre{flex:1;min-height:0;position:relative;display:flex;margin-top:4px}
+svg{flex:1;min-height:0;width:100%}
+#flotte{
+  position:absolute;pointer-events:none;z-index:5;padding:5px 11px;
+  background:rgba(10,13,16,.92);border:1px solid var(--or);border-radius:3px;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--or-pale);
+  opacity:0;transition:opacity .14s;white-space:nowrap;
+  transform:translate(-50%,-190%);
+}
+#flotte.on{opacity:1}
 #legende{flex:none;display:flex;gap:16px;flex-wrap:wrap;font-size:11px;
   color:var(--texte-3);padding-top:8px;border-top:1px solid var(--trait);margin-top:4px}
 #legende span{display:flex;align-items:center;gap:6px}
@@ -83,25 +92,32 @@ aside em{color:var(--or-pale);font-style:italic}
 .clos{fill:#15181c;stroke:#8d6c7a;stroke-width:1.1}
 .sport{fill:#161d1a;stroke:#4a5f4a;stroke-width:1.1}
 
+/* La surbrillance doit se voir de l'autre bout de la piece : la forme
+   s'allume en plein, comme dans le plan de la ruche. */
 .zone{cursor:pointer}
-.zone:hover .pre,.zone:hover .enclos{stroke:var(--or-pale);opacity:1}
-.zone:hover .eau{fill:#122c3f}
-.zone.on .pre,.zone.on .enclos{stroke:var(--or);stroke-width:1.8;stroke-dasharray:none}
-.zone.on .margelle{stroke:var(--or-pale)}
-.zone.on .etendue{stroke:var(--or);stroke-width:2}
+.zone:hover .pre,.zone:hover .enclos,.zone.on .pre,.zone.on .enclos{
+  stroke:var(--or);stroke-width:2.2;stroke-dasharray:none;fill:rgba(217,164,65,.13)}
+.zone:hover .etendue,.zone.on .etendue{stroke:var(--or);stroke-width:2.4;
+  fill:rgba(217,164,65,.07)}
+.zone:hover .eau,.zone.on .eau{fill:#16384e}
+.zone:hover .margelle,.zone.on .margelle{stroke:var(--or-pale);stroke-width:3.2}
+.zone:hover .anneau,.zone.on .anneau{stroke:var(--or);stroke-width:6.4}
+.zone:hover .chemin,.zone.on .chemin{stroke:var(--or);stroke-width:4}
+.zone:hover .sport,.zone.on .sport{stroke:var(--or);stroke-width:2.2;
+  fill:rgba(217,164,65,.11)}
 
-.bat{fill:#171c22;stroke:var(--creme);stroke-width:1.2;opacity:.92;cursor:pointer}
-.bat:hover{fill:#222a33;stroke:var(--or-pale)}
-.bat.on{fill:#2a2114;stroke:var(--or);stroke-width:1.8}
+.bat{fill:#171c22;stroke:var(--creme);stroke-width:1.2;opacity:.92;cursor:pointer;
+  transition:fill .12s,stroke-width .12s}
+.bat:hover,.bat.on{fill:#3a2c14;stroke:var(--or);stroke-width:2.6}
 .bat.soin{fill:#101a20;stroke:var(--bleu)}
 .bat.soin:hover{fill:#152430}
 .bat.fin{fill:#1a1216;stroke:#8d6c7a}
 .bat.commun{fill:#1b1a14;stroke:var(--or);opacity:.95}
 .bat.ferme{fill:#1c1710;stroke:var(--paille);opacity:.95}
 .cab{fill:#141a15;stroke:var(--vert-sombre);stroke-width:.9}
-.jeu{fill:#1e1a14;stroke:var(--orange);stroke-width:1;opacity:.9;cursor:pointer}
-.jeu:hover{fill:#2a2317}
-.jeu.on{stroke-width:2}
+.jeu{fill:#1e1a14;stroke:var(--orange);stroke-width:1;opacity:.9;cursor:pointer;
+  transition:fill .12s,stroke-width .12s}
+.jeu:hover,.jeu.on{fill:#3a2c14;stroke:var(--or);stroke-width:2.6}
 
 .arbre{fill:var(--vert-sombre);opacity:.55}
 .arbre2{fill:none;stroke:var(--vert);stroke-width:.7;opacity:.3}
@@ -177,7 +193,8 @@ aside em{color:var(--or-pale);font-style:italic}
         elles répondent différemment à une seule question — <b style="color:var(--texte-2)">qui passe devant les salles de fin de vie</b>.</div>
       <div id="barre"></div>
     </div>
-    <svg id="svg" viewBox="0 0 1020 700" preserveAspectRatio="xMidYMid meet"></svg>
+    <div id="cadre"><svg id="svg" viewBox="0 0 1020 700" preserveAspectRatio="xMidYMid meet"></svg>
+      <div id="flotte"></div></div>
     <div id="legende"></div>
   </div>
   <aside><div id="pan"></div></aside>
@@ -242,52 +259,13 @@ function surLeTour(pts,t){
 const trait=(d,g,s,couleur='var(--creme)',w=1,o=.5)=>el('path',{d,transform:`scale(${s})`,
   style:`stroke:${couleur};stroke-width:${w};opacity:${o};fill:none;stroke-linecap:round`},g);
 
+/* Une tete de poney a quatorze pixels ne ressemble a rien. Un point de
+   couleur, si : on lit l'espece a la teinte, et le plan reste propre. */
+const TEINTES={
+  poney:'#d9a441', chevre:'#e9e0cc', poule:'#ec9006',
+  lapin:'#a8d18a', cochon:'#d99a9a', chat:'#9fb4c9'
+};
 const BETES={
-  /* Des tetes vues de face, dessinees au minimum. A quatorze pixels, une
-     silhouette entiere devient une tache ; une tete reste une tete. */
-  poney:(g,s)=>{
-    el('path',{d:'M4,4.6 L2.6,1.2 L6,2.8 M12,4.6 L13.4,1.2 L10,2.8',transform:`scale(${s})`,class:'bete'},g);
-    el('path',{d:'M4.4,4 C4.4,2.6 11.6,2.6 11.6,4 L11,10.4 C11,12.6 9.6,14 8,14 C6.4,14 5,12.6 5,10.4 Z',
-      transform:`scale(${s})`,class:'bete'},g);
-    trait('M6.4,6.6 l0,.9 M9.6,6.6 l0,.9',g,s,'var(--nuit)',1.5,.85);
-    trait('M6.8,11.4 l0,.7 M9.2,11.4 l0,.7',g,s,'var(--nuit)',1.2,.7);
-  },
-  chevre:(g,s)=>{
-    trait('M4.6,3.4 C3,1.4 1.8,.6 1,1.2 M11.4,3.4 C13,1.4 14.2,.6 15,1.2',g,s,'var(--creme)',1.3,.6);
-    el('path',{d:'M4.2,4.4 C4.2,3 11.8,3 11.8,4.4 L10.8,10 C10.8,12 9.6,13.2 8,13.2 C6.4,13.2 5.2,12 5.2,10 Z',
-      transform:`scale(${s})`,class:'bete'},g);
-    trait('M6.4,6.6 l0,.9 M9.6,6.6 l0,.9',g,s,'var(--nuit)',1.5,.85);
-    trait('M8,13.2 l0,2.6',g,s,'var(--creme)',1.3,.5);
-  },
-  poule:(g,s)=>{
-    el('path',{d:'M5.4,3.6 C5.4,2 6.2,1.2 7,1.4 C7.4,.4 8.4,.4 8.8,1.4 C9.6,1.2 10.4,2 10.4,3.6 Z',
-      transform:`scale(${s})`,class:'bete paille'},g);
-    el('circle',{cx:8,cy:8,r:4.4,transform:`scale(${s})`,class:'bete paille'},g);
-    el('path',{d:'M8,9.4 L11,11 L8,12.4 Z',transform:`scale(${s})`,class:'bete paille'},g);
-    trait('M6.3,7 l0,.9 M9.7,7 l0,.9',g,s,'var(--nuit)',1.5,.85);
-  },
-  lapin:(g,s)=>{
-    el('path',{d:'M5.2,5 C4,1.6 4.4,-.4 5.6,-.4 C6.8,-.4 7.2,1.8 7,5 Z M10.8,5 C12,1.6 11.6,-.4 10.4,-.4 C9.2,-.4 8.8,1.8 9,5 Z',
-      transform:`scale(${s})`,class:'bete'},g);
-    el('circle',{cx:8,cy:9,r:4.6,transform:`scale(${s})`,class:'bete'},g);
-    trait('M6.2,8 l0,.9 M9.8,8 l0,.9',g,s,'var(--nuit)',1.5,.85);
-    trait('M8,10.6 l0,.9 M8,11.5 l-1.4,.8 M8,11.5 l1.4,.8',g,s,'var(--nuit)',1,.6);
-  },
-  cochon:(g,s)=>{
-    el('path',{d:'M3.6,5.4 C2.6,4 2.8,2.8 4,2.8 C5,2.8 5.6,3.6 5.8,4.6 Z M12.4,5.4 C13.4,4 13.2,2.8 12,2.8 C11,2.8 10.4,3.6 10.2,4.6 Z',
-      transform:`scale(${s})`,class:'bete paille'},g);
-    el('ellipse',{cx:8,cy:9,rx:4.8,ry:4.2,transform:`scale(${s})`,class:'bete paille'},g);
-    trait('M6.2,8 l0,.9 M9.8,8 l0,.9',g,s,'var(--nuit)',1.5,.85);
-    trait('M6.8,11.4 l2.4,0',g,s,'var(--nuit)',1,.55);
-  },
-  chat:(g,s)=>{
-    el('path',{d:'M4,5.4 L3.2,1.6 L6.6,3.4 Z M12,5.4 L12.8,1.6 L9.4,3.4 Z',
-      transform:`scale(${s})`,class:'chat'},g);
-    el('circle',{cx:8,cy:8.6,r:4.6,transform:`scale(${s})`,class:'chat'},g);
-    trait('M6.2,7.6 l0,.9 M9.8,7.6 l0,.9',g,s,'var(--nuit)',1.5,.9);
-    trait('M3.2,10 l2.2,-.5 M3.2,11.2 l2.2,-1 M12.8,10 l-2.2,-.5 M12.8,11.2 l-2.2,-1',
-      g,s,'#c9b8a0',.8,.6);
-  },
   toboggan:(g,s)=>trait('M2,14 L10,4 L13,4 M10,4 L10,14 M13,4 C15,7 15,11 13,14',g,s,'var(--orange)',1.3,.75),
   balancoire:(g,s)=>trait('M3,14 L8,3 L13,14 M5.4,7 L5.4,13 M10.6,7 L10.6,13 M4.4,13 L6.4,13 M9.6,13 L11.6,13',g,s,'var(--orange)',1.2,.7),
   ballon:(g,s)=>{
@@ -297,8 +275,15 @@ const BETES={
   }
 };
 function bete(type,x,y,s=1,p=svg){
+  const t=TEINTES[type];
+  if(t){
+    const g=el('g',{transform:`translate(${n2(x)},${n2(y)})`},p);
+    el('circle',{cx:0,cy:0,r:n2(5.4*s),fill:t,opacity:.13},g);
+    el('circle',{cx:0,cy:0,r:n2(3.1*s),fill:t,opacity:.9},g);
+    return g;
+  }
   const g=el('g',{transform:`translate(${n2(x)},${n2(y)}) translate(-8,-9)`},p);
-  (BETES[type]||BETES.chat)(g,s);
+  (BETES[type]||(()=>{}))(g,s);
   return g;
 }
 
@@ -448,7 +433,7 @@ const PLANS=[
   [560,452,58,40,'Le pré des chèvres','chevre',4]],
  encl:[
   [444,474,42,28,'Les poules','poule',4],
-  [318,452,38,26,'Les petites bêtes',['lapin','lapin','cochon','cochon'],4]],
+  [322,470,40,26,'Les petites bêtes',['lapin','lapin','cochon','cochon'],4]],
  chats:[[.05,1],[.42,-1],[.71,1]],
  zones:[['pelouse',[[196,132],[268,120],[286,186],[210,196]]]],
  sport:[[330,92,152,74,'Le terrain']],
@@ -460,8 +445,8 @@ const PLANS=[
   ['commun',694,182,112,60,'Salle de jeu','Pour les jours de pluie, et il pleut souvent. Le parquet est marqué aux endroits où les tables reviennent toujours.',5],
   ['ferme',600,266,52,26,'L\'écurie','Quatre boxes, une sellerie, du foin jusqu\'au plafond. Les poneys y rentrent seuls le soir, et l\'un d\'eux sait ouvrir le loquet.',6],
   ['ferme',416,444,34,18,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',-4],
-  ['ferme',296,424,34,18,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
-  ['ferme',358,492,58,24,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
+  ['ferme',294,462,34,18,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
+  ['ferme',392,494,58,24,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
   ['ferme',494,392,44,22,'La cabane','Le foin, les seaux, les brosses, les bottes en trois tailles. Ça sent la paille mouillée toute l\'année.',-5],
   ['ferme',316,398,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
   ['bat',196,120,100,52,'Dortoirs 1','Vingt petits, quatre berceurs, un salon commun et une buanderie. Les fenêtres du bas ont des barreaux ronds peints en jaune.',-5],
@@ -513,8 +498,17 @@ function choisir(nom,genre,txt,noeud){
   if(noeud) noeud.classList.add('on');
   rendPan();
 }
+const flotte=document.getElementById('flotte');
+const cadre=document.getElementById('cadre');
 function cliquable(g,nom,genre,txt,cible){
   g.addEventListener('click',e=>{e.stopPropagation(); choisir(nom,genre,txt,cible||g);});
+  g.addEventListener('mouseenter',()=>{flotte.textContent=nom; flotte.classList.add('on');});
+  g.addEventListener('mouseleave',()=>flotte.classList.remove('on'));
+  g.addEventListener('mousemove',e=>{
+    const r=cadre.getBoundingClientRect();
+    flotte.style.left=(e.clientX-r.left)+'px';
+    flotte.style.top=(e.clientY-r.top)+'px';
+  });
 }
 
 function dessine(p){
@@ -682,6 +676,7 @@ function dessine(p){
     el('text',{x:n2(x+w/2),y:n2(y+h+12),class:'etiq','text-anchor':'middle'},cE).textContent=t;
     const f=LIEUX[t]||['au jardin',''];
     cliquable(g,t,f[0],f[1],r);
+    g.addEventListener('mouseenter',()=>{flotte.textContent=t; flotte.classList.add('on');});
   });
 
   /* ---- les creux ---- */
@@ -725,7 +720,7 @@ function dessine(p){
       a.style.cursor='pointer';
       const genre = cls==='soin'?'le soin':cls==='fin'?'la fin de vie':
                     cls==='ferme'?'la fermette':cls==='commun'?'bâtiment commun':'les dortoirs';
-      a.addEventListener('click',e=>{e.stopPropagation(); choisir(t,genre,txt,a);});
+      cliquable(a,t,genre,txt,a);
     }
     const dedansAutre = cls==='fin' && (p.bat||[]).some(o=>o[0]==='soin'
       && x>o[1] && y>o[2] && x+w<o[1]+o[3] && y+h<o[2]+o[4]);
@@ -754,21 +749,43 @@ function dessine(p){
   /* Les chats n'ont pas d'itineraire. Ils marchent, ils tournent quand
      l'envie leur prend, et le mur les fait revenir. */
   if(p.chats){
+    /* Ou un chat peut poser une patte : dans l'enceinte, hors du bati, et
+       pas dans la mare. Le reste du jardin lui appartient. */
+    const murs=(p.bat||[]).map(o=>[o[1]-3,o[2]-3,o[3]+6,o[4]+6])
+      .concat((p.jeux||[]).map(o=>[o[0],o[1],o[2],o[3]]));
+    const libre=(x,y)=>{
+      if(!dedans(p.mur,[x,y])) return false;
+      if(murs.some(([a2,b2,w,h])=>x>a2&&x<a2+w&&y>b2&&y<b2+h)) return false;
+      if(p.eau){
+        const [mx,my,mrx,mry]=p.eau;
+        if(Math.pow((x-mx)/(mrx+3),2)+Math.pow((y-my)/(mry+3),2) < 1) return false;
+      }
+      return true;
+    };
     p.chats.forEach(()=>{
       const g=el('g',{style:'cursor:pointer;pointer-events:auto'},cA);
       bete('chat',0,0,.92,g);
       g.addEventListener('click',e=>{e.stopPropagation();
         choisir('Les chats',LIEUX['Les chats'][0],LIEUX['Les chats'][1],null);});
-      let x=c0[0]+(alea()-.5)*300, y=c0[1]+(alea()-.5)*220;
-      let cap=alea()*Math.PI*2, pause=0;
+      let x=c0[0], y=c0[1];
+      for(let i=0;i<400;i++){
+        const px=110+alea()*800, py=90+alea()*500;
+        if(libre(px,py)){ x=px; y=py; break; }
+      }
+      let cap=alea()*Math.PI*2, pause=0, coince=0;
       mobiles.push({tick:(dt)=>{
         if(pause>0){ pause-=dt; return; }
-        if(alea()<0.004) { pause=600+alea()*2400; return; }
+        if(alea()<0.004){ pause=600+alea()*2400; return; }
         cap += (alea()-.5)*0.11;
         const v=0.021*dt;
-        let nx=x+Math.cos(cap)*v, ny=y+Math.sin(cap)*v;
-        if(!dedans(p.mur,[nx,ny])){ cap+=Math.PI*(0.6+alea()*0.8); nx=x; ny=y; }
-        x=nx; y=ny;
+        const nx=x+Math.cos(cap)*v, ny=y+Math.sin(cap)*v;
+        if(libre(nx,ny)){ x=nx; y=ny; coince=0; }
+        else {
+          /* Il bute : il tourne, comme il ferait. Et s'il tourne en rond,
+             il finit par faire demi-tour franchement. */
+          cap += (++coince>7) ? Math.PI : Math.PI*(0.35+alea()*0.5);
+          coince = coince>7 ? 0 : coince;
+        }
         g.setAttribute('transform',
           `translate(${n2(x)},${n2(y)}) scale(${Math.cos(cap)<0?-1:1},1)`);
       }});
@@ -842,6 +859,9 @@ function legende(p){
     ['#0d2130','#0081B3','la mare'],['#152418','#3d5a3a','prés et enclos']];
   document.getElementById('legende').innerHTML =
     L.map(([f,b,t])=>`<span><i style="background:${f};border:1px solid ${b}"></i>${t}</span>`).join('')
+    + [['#d9a441','poneys'],['#e9e0cc','chèvres'],['#ec9006','poules'],
+       ['#a8d18a','lapins'],['#d99a9a','cochons d\'Inde'],['#9fb4c9','chats']]
+       .map(([c,t])=>`<span><i style="background:${c};border-radius:50%;width:9px;height:9px"></i>${t}</span>`).join('')
     + `<span><i style="background:none;border-top:3px solid #8a7350"></i>l'anneau, à vélo</span>`
     + `<span><i style="background:none;border-top:2px solid #7a6544"></i>les chemins de l'étendue</span>`
     + `<span style="color:var(--texte-2)">— cliquez n'importe quoi</span>`;

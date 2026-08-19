@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Des points, pas des têtes, et une surbrillance qui se voit`, e:`acquis`, t:[`visuel`],
+  v:`le chat, il passe dans l'eau et il traverse les batiments ahah [...] le clapier se superpose avec le local technique et... tant pis, fais juste des points pour les animaux de differentes couleurs parce que c'est pas super joli en fait... et la surbrillance, elle est pas assez dominante si tu compares avec la ruche.`,
+  q:`⛔ **Le chat marchait sur l'eau.** *Je ne testais que l'enceinte : il traversait la mare et les murs.* **Il connaît maintenant le bâti et la mare, et quand il bute il tourne — comme il ferait.** *Vérifié sur quatre cent vingt relevés : aucune patte dans l'eau, aucun mur traversé.*
+
+✅ **Les têtes de bêtes sautent, des points de couleur les remplacent.** *Une teinte par espèce, reportée dans la légende.* **Le plan redevient propre, et on lit l'espèce sans plisser les yeux.**
+
+🔴 **La surbrillance s'aligne sur celle de la ruche.** *Elle était timide.* **La forme s'allume en plein à l'or, et une étiquette flottante suit le curseur avec le nom du lieu** — exactement le dispositif du plan de la ruche.` },
+
 { d:`19 août`, s:`L'étendue se traverse, et l'anneau se fait à vélo`, e:`acquis`, t:[`monde`,`visuel`],
   v:`ah si si, on peut faire un chemin qui traverse justement, c'est plus agréable ! on y va parce qu'on veut y aller, ou on traverse juste, tout dépend le chemin que tu veux prendre ! et autour de l'étendue, le chemin est un poil plus large, les enfants font en général le tour de l'étendue avec leur vélo ! le pointillé orangé par contre je suis pas convaincue. les chats se baladent où ils veulent, ils ont pas de patterns prédéfinis. les animaux sont bizarres, sinon tu les symbolises par une tête style emoji épuré ? je veux pas qu'il soit systématiquement affiché [le trajet]. crée moi une nouvelle porte en bas aussi. le clapier contient les lapins ET les cochons d'inde. tu peux donner un effet d'animation pour l'herbe de l'étendue ?`,
   q:`✅ **Ma phrase était fausse et l'autrice l'a corrigée :** *je disais qu'on ne traverse pas l'étendue.* **On la traverse très bien — on y va parce qu'on veut y aller, ou on coupe juste, et tout dépend du chemin qu'on prend.** *Deux chemins la traversent maintenant, et ils se croisent près de la mare.*
