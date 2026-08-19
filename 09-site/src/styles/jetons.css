@@ -1,0 +1,37 @@
+/* Herite de l'atelier : 06-visuels/atelier/sources/p1-style.html.
+   Les couleurs de voie (--andrew, --joel, --commun) sont volontairement
+   absentes : elles trahiraient le montage du roman. */
+:root {
+  --fond: #E9EDF1; --fond-2: #FFFFFF; --fond-3: #F5F8FA;
+  --trait: #D0D9E1; --trait-fort: #A9B9C7;
+  --texte: #13202C; --texte-2: #43596E; --texte-3: #6E8699; --texte-4: #93A6B5;
+  --accent: #1B7690;
+  --serif: Constantia, "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: Corbel, Candara, "Segoe UI", Tahoma, sans-serif;
+  --mesure: 34rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fond: #0A0E13; --fond-2: #101720; --fond-3: #161F2A;
+    --trait: #22303E; --trait-fort: #35495D;
+    --texte: #E6EBF0; --texte-2: #A7B5C2; --texte-3: #6D8093; --texte-4: #4B5D6E;
+    --accent: #7CC6DC;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+::selection { background: var(--accent); color: var(--fond); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }

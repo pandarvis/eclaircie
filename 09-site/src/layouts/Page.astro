@@ -1,0 +1,16 @@
+---
+import '../styles/jetons.css';
+const { titre } = Astro.props;
+---
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Phase privee : le site ne s'indexe pas. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{titre}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
