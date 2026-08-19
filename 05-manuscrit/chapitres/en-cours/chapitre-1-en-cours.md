@@ -8,13 +8,13 @@ La ruche s'ouvrait par deux battants de bois clair que personne ne fermait avant
 
 Tout de suite en entrant, sur la gauche, l'accueil.
 
-C'était une pièce rectangulaire et basse, la seule du complexe qui ressemblât à quelque chose de connu. Un guichet, une vitre, des chaises alignées avec le mur et d'autres dos à dos au milieu, et sur les chaises des gens qui attendaient qu'on vienne les chercher. Ils étaient neuf. Deux d'entre eux tenaient sur les genoux quelque chose qu'ils avaient apporté et qu'ils n'avaient pas voulu poser.
+C'était une pièce rectangulaire et basse, la seule du complexe qui ressemblât à quelque chose de connu. Un guichet, une vitre, des chaises alignées avec le mur et d'autres dos à dos au milieu. Des gens attendaient qu'on vienne les chercher. Ils étaient dix-huit, et deux d'entre eux tenaient sur les genoux quelque chose qu'ils avaient apporté et qu'ils n'avaient pas voulu poser.
 
 Ils savaient tous qu'il faudrait attendre. On ne fait pas commencer une cérémonie parce que les gens sont arrivés. Alors ils attendaient, et ils parlaient, et l'un d'eux regardait la porte du fond toutes les deux minutes.
 
-On était bien là-dedans. Trois grandes plantes en pot dans les angles, avec de larges feuilles fendues qui montaient plus haut que les chaises. Aux murs, des toiles sans sujet, des aplats de bleu pâle qui viraient à l'orange sur les bords. Personne ne les regardait deux fois, et ce n'était pas grave : on ne vient pas ici pour les toiles. Elles faisaient seulement que l'endroit était agréable, ce qui n'est pas rien pour une salle d'attente.
+On y était bien. Trois grandes plantes en pot dans les angles, de larges feuilles fendues qui montaient plus haut que les dossiers. Aux murs, des toiles sans sujet, des aplats de bleu pâle qui viraient à l'orange sur les bords. Personne ne les regardait deux fois, et elles faisaient très bien leur travail.
 
-Anna leur avait expliqué comment ça allait se passer. Elle le referait pour ceux qui arriveraient en retard, et elle le referait encore pour ceux qui n'avaient rien retenu la première fois, parce qu'on ne retient rien la première fois.
+Anna, la secrétaire, leur avait expliqué comment ça allait se passer. Elle le referait pour ceux qui arriveraient en retard, et elle le referait encore pour ceux qui n'avaient rien retenu la première fois, parce qu'on ne retient rien la première fois.
 
 Il longea le comptoir, en poussa le portillon et prit lui-même sa feuille dans le casier. Du côté des chaises, il y eut ce petit temps d'arrêt qu'on a lorsqu'un médecin traverse sa propre salle d'attente sans s'y asseoir.
 
@@ -36,9 +36,9 @@ Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.
 
 · · ·
 
-Les neuf, eux, ne prendraient pas ce chemin-là. On viendrait les chercher, on les ferait sortir par l'autre côté, et ils traverseraient d'abord la zone de résidence avant d'arriver devant la bonne porte. C'est là que les arrivants passaient leurs huit premiers jours, après la première consultation : des chambres, un réfectoire, et des visiteurs pour leur tenir compagnie.
+Les dix-huit, eux, ne prendraient pas ce chemin-là. On viendrait les chercher, on les ferait sortir par l'autre côté, et ils traverseraient d'abord la zone de résidence avant d'arriver devant la bonne porte. C'est là que les arrivants passaient leurs huit premiers jours, après la première consultation : des chambres, un réfectoire, et des visiteurs pour leur tenir compagnie.
 
-Si on inspectait les corps une première fois, c'était pour vérifier que l'arrivant était bien arrivé immaculé, sans anomalie et sans blessure. On n'est jamais trop prudent. Toutes les capsules ne sont pas aussi régulières qu'annoncé, et il arrive qu'une série se termine sur des relevés étranges ; autant s'assurer que celui qui en sort n'a pas été touché d'une manière ou d'une autre. C'était l'analyste qui s'en chargeait. Puisqu'il passait déjà ses journées à étudier des capsules, il était logique qu'il s'occupe aussi de ce qui en sortait.
+Si on inspectait les corps une première fois, c'était pour vérifier que l'arrivant était bien arrivé immaculé, sans anomalie et sans blessure. On n'est jamais trop prudent. Toutes les capsules n'étaient pas aussi régulières qu'annoncé, et il arrivait qu'une série se termine sur des relevés étranges ; autant s'assurer que celui qui en sortait n'avait pas été touché d'une manière ou d'une autre. C'était l'analyste qui s'en chargeait, des hommes et des femmes experts dans leur domaine. Puisqu'ils passaient déjà leurs journées à étudier des capsules, il était logique qu'ils s'occupent aussi de ce qui en sortait.
 
 Le veilleur quitta l'accueil et s'engagea dans le grand couloir.
 
