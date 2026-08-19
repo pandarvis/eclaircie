@@ -82,8 +82,6 @@ vie qui n'ira nulle part. Il ne dit jamais ce qu'il propose.
 **Marginal.** Celui qui déteste les arrivants jeunes et le fait savoir. Ni groupe, ni
 organisation, ni porte-parole : des individus, des rumeurs, une foule un soir.
 
-**Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* Six chambres, une véranda, un jardin clos derrière. Zéro comme l'âge.
-
 **Médecins du jardin.** Corps médical propre au jardin, tenu au secret. Ils suivent chaque
 enfant de huit ans à zéro et surveillent une seule chose : le jour où l'âge repart vers le bas.
 
@@ -137,6 +135,8 @@ Il y en a plusieurs dans le monde.
 
 **Salle de consultation.** Où l'analyste reçoit un arrivant dans l'heure qui suit sa sortie.
 Premier examen, premiers mots, premières questions.
+
+**Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* Six chambres, une véranda, un jardin clos derrière. Zéro comme l'âge.
 
 **Serre.** Le quart du complexe où la coulée est chez elle, autour de la salle du registre.
 Ce n'est pas une zone qu'on traverse : c'est le sol. Domaine des préparateurs.
