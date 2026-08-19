@@ -1,0 +1,241 @@
+<body>
+<div id="app">
+
+  <nav class="rail" aria-label="Écrans">
+    <span class="sigle">L'Éclaircie</span>
+
+    <button class="rail-btn on" data-vue="parcours" aria-label="Le parcours">
+      <svg viewBox="0 0 24 24"><path d="M3 12h4l3-6 4 12 3-6h4"/></svg><span>Parcours</span>
+    </button>
+    <button class="rail-btn" data-vue="textes" aria-label="Les chapitres écrits">
+      <svg viewBox="0 0 24 24"><path d="M4 4.5h7a2 2 0 0 1 2 2V20a2 2 0 0 0-2-2H4zM20 4.5h-7a2 2 0 0 0-2 2V20a2 2 0 0 1 2-2h7z"/></svg><span>Chapitres</span>
+    </button>
+    <button class="rail-btn" data-vue="chapitrage" aria-label="Le plan">
+      <svg viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v6h-7zM13 13h7v6h-7z"/></svg><span>Plan</span>
+    </button>
+    <button class="rail-btn" data-vue="notes" aria-label="Les notes">
+      <svg viewBox="0 0 24 24"><path d="M5 3h11l3 3v15H5zM16 3v4h3M8 11h8M8 15h6"/></svg><span>Notes</span>
+    </button>
+    <button class="rail-btn" data-vue="monde" aria-label="Le monde">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c4 4.5 4 12.5 0 17M12 3.5c-4 4.5-4 12.5 0 17"/></svg><span>Monde</span>
+    </button>
+    <button class="rail-btn" data-vue="gens" aria-label="Les gens">
+      <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/><circle cx="17.5" cy="9" r="2.4"/><path d="M15 15.5c2.6-.6 5.5.9 5.5 3.5"/></svg><span>Gens</span>
+    </button>
+    <button class="rail-btn" data-vue="trancher" aria-label="À trancher">
+      <svg viewBox="0 0 24 24"><path d="M12 3v13M7.5 11.5 12 16l4.5-4.5M5 20h14"/></svg><span>Trancher</span>
+    </button>
+
+
+
+
+
+
+
+
+
+
+<!--<<ruche-bouton>>-->
+    <button class="rail-btn" data-vue="ruche" aria-label="Le plan de la ruche">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 9V4M12 15v5M9 12H4M15 12h5M9.9 9.9 6.3 6.3M14.1 14.1l3.6 3.6M14.1 9.9l3.6-3.6M9.9 14.1l-3.6 3.6"/></svg><span>La ruche</span>
+    </button>
+
+<!--<<fin ruche-bouton>>-->
+    <div class="bas">
+      <button class="rail-btn" id="btn-theme" aria-label="Changer de thème">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg><span>Thème</span>
+      </button>
+      <button class="rail-btn" id="btn-aide" aria-label="Aide">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.4a2.5 2.5 0 1 1 3.3 2.4c-.6.3-.9.9-.9 1.5v.5"/><circle cx="12" cy="17" r=".7" fill="currentColor"/></svg><span>Aide</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="vues">
+
+    <!-- ================= LE PARCOURS ================= -->
+    <section class="vue on" id="v-parcours">
+      <header class="chapeau">
+        <h1>Le parcours</h1>
+        <p class="sous">Une seule enquête, et le lecteur croit n'en lire qu'une.<br>
+          Clique une scène : son dossier s'ouvre, avec <strong>ce qui se passe en face</strong>.</p>
+        <div class="outils" id="f-parcours"></div>
+      </header>
+      <div class="plateau" id="plateau">
+        <div class="scene-carte" id="carte">
+          <svg class="travees" id="travees" aria-hidden="true"></svg>
+          <svg class="liens" id="liens" aria-hidden="true"></svg>
+          <div class="voies" id="voies"></div>
+        </div>
+      </div>
+      <footer class="legende">
+        <span><b style="font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--texte-4)">Le fil</b> — l'ordre de lecture</span>
+        <span><i class="ech a"></i> Andrew — ce monde-ci, le présent</span>
+        <span><i class="ech"></i> Les étapes — le beat, sans son monde</span>
+        <span><i class="ech j"></i> Joël — la vie d'avant, que le lecteur ne voit pas</span>
+        <span><i class="ech t"></i> reste à trouver</span>
+        <span><i class="ech p"></i> le point culminant</span>
+        <span><i class="ech f"></i> la scène jouée deux fois</span>
+        <span><i class="ech" style="border-top:2px dotted var(--texte-4);background:none;height:0"></i> repère — ne s'écrira pas</span>
+        <span class="aide"><kbd>←</kbd> <kbd>→</kbd> pour circuler · <kbd>Échap</kbd> pour fermer</span>
+      </footer>
+
+      <aside class="tiroir" id="tiroir" aria-hidden="true">
+        <header class="tiroir-tete">
+          <div style="flex:1;min-width:0">
+            <span class="no" id="t-no"></span>
+            <h2 id="t-titre"></h2>
+            <div class="meta" id="t-meta"></div>
+          </div>
+          <button class="fermer" id="t-fermer" aria-label="Fermer">
+            <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </header>
+        <div class="tiroir-corps" id="t-corps"></div>
+        <footer class="tiroir-pied">
+          <button id="t-prec">← précédente</button>
+          <button id="t-suiv">suivante →</button>
+          <span class="sep" id="t-pos"></span>
+        </footer>
+      </aside>
+    </section>
+
+    <!-- ================= LES CHAPITRES ÉCRITS ================= -->
+    <section class="vue" id="v-textes">
+      <header class="chapeau">
+        <h1>Les chapitres</h1>
+        <p class="sous">Du texte, pas des notes. Une proposition à réécrire, jamais une version.</p>
+        <div class="outils" id="x-choix"></div>
+      </header>
+      <div class="corps"><div class="lecture" id="x-corps"></div></div>
+    </section>
+
+    <!-- ================= LE PLAN ================= -->
+    <section class="vue" id="v-chapitrage">
+      <header class="chapeau">
+        <h1>Le plan</h1>
+        <p class="sous">Glisse les scènes dans des chapitres. Tout est gardé dans ce navigateur, et se récupère en texte.</p>
+        <div class="outils">
+          <button class="puce" id="ch-export">Exporter le plan</button>
+          <button class="puce" id="ch-vider">Tout remettre en réserve</button>
+        </div>
+      </header>
+      <div class="chap-plan">
+        <div class="reserve">
+          <h4>En réserve <span class="compte" id="ch-reste"></span></h4>
+          <div id="ch-reserve"></div>
+        </div>
+        <div class="chap-zone">
+          <h4>Le plan</h4>
+          <div id="ch-liste"></div>
+          <button class="ajout-chap" id="ch-ajouter">+ ajouter un chapitre</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LES NOTES ================= -->
+    <section class="vue" id="v-notes">
+      <header class="chapeau">
+        <h1>Les notes</h1>
+        <p class="sous">Tout ce qui s'est dit, dans l'ordre où ça s'est dit. Rien n'a été jeté.</p>
+        <div class="outils">
+          <input class="champ" id="n-cherche" type="search" placeholder="chercher un mot, un nom, une idée…" aria-label="Chercher dans les notes">
+        </div>
+      </header>
+      <div class="filtres" id="n-filtres"></div>
+      <div class="corps"><div class="mise"><div class="grille deux" id="n-liste"></div></div></div>
+    </section>
+
+    <!-- ================= LE MONDE ================= -->
+    <section class="vue" id="v-monde">
+      <header class="chapeau">
+        <h1>Le monde</h1>
+        <p class="sous">Le lexique, les règles, le décompte, et ce que le texte n'a pas le droit de faire.</p>
+        <div class="outils">
+          <input class="champ" id="m-cherche" type="search" placeholder="chercher un mot…" aria-label="Chercher dans le monde">
+        </div>
+      </header>
+      <div class="filtres" id="m-onglets"></div>
+      <div class="corps"><div class="mise" id="m-corps"></div></div>
+    </section>
+
+    <!-- ================= LES GENS ================= -->
+    <section class="vue" id="v-gens">
+      <header class="chapeau">
+        <h1>Les gens</h1>
+        <p class="sous">Ce qu'il faut avoir en tête avant d'écrire une scène où ils entrent.</p>
+        <div class="outils" id="g-filtres"></div>
+      </header>
+      <div class="corps"><div class="mise"><div class="grille deux" id="g-liste"></div></div></div>
+    </section>
+
+    <!-- ================= À TRANCHER ================= -->
+    <section class="vue" id="v-trancher">
+      <header class="chapeau">
+        <h1>À trancher</h1>
+        <p class="sous">Les trous, les contradictions, et les questions qui attendent une décision.</p>
+        <div class="outils" id="q-filtres"></div>
+      </header>
+      <div class="corps"><div class="mise" id="q-corps"></div></div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+<!--<<ruche-vue>>-->
+
+    <!-- ================= LE PLAN DE LA RUCHE ================= -->
+    <section class="vue" id="v-ruche">
+<div id="r-app">
+  <div id="r-scene">
+    <div id="r-titre">
+      <div class="sur">L'Éclaircie</div>
+      <h1>Le plan de la ruche</h1>
+      <div class="ss">D'après le plan de l'autrice, 19 août 2026 — cliquez un secteur</div>
+    </div>
+    <svg id="r-svg" viewBox="0 -104 1010 1118" preserveAspectRatio="xMidYMid meet"></svg>
+    <div id="r-flotte"></div>
+  </div>
+
+  <aside id="r-panneau">
+    <div id="r-pan-corps">
+      <div class="vide" id="r-accueil-pan">
+        <p style="font-family:var(--serif);font-size:19px;line-height:1.6;color:var(--creme);margin:0 0 20px">
+          La ruche n'a pas été conçue puis bâtie.<br>Elle a été bâtie <em style="color:var(--or-pale)">autour</em>.
+        </p>
+        <p>Il y avait là un endroit où les capsules apparaissaient, et une végétation qui y poussait. Les hommes ont construit tout autour et accepté de partager la place avec elle.</p>
+        <p style="margin-top:20px;color:var(--texte-3)">Le plan a la forme d'une fleur — le registre au cœur, la serre en corolle, les salles de cérémonie en pétales. <b>Personne dans le livre ne le remarque jamais.</b></p>
+        <p style="margin-top:24px;font-size:12px;color:var(--texte-3)">Survolez, cliquez. Ou suivez un trajet, en bas.</p>
+      </div>
+      <div id="r-pan-fiche" style="display:none">
+        <div id="r-pan-num"></div>
+        <h2 id="r-pan-titre"></h2>
+        <div id="r-pan-sur"></div>
+        <div id="r-pan-txt"></div>
+      </div>
+    </div>
+    <div id="r-cmd">
+      <div class="lab">Les trajets</div>
+      <div class="trajets">
+        <button class="tj" data-tj="veilleur"><span class="r-pt" style="background:#d9a441"></span>Le veilleur</button>
+        <button class="tj" data-tj="visiteur"><span class="r-pt" style="background:#0081B3"></span>Les visiteurs</button>
+        <button class="tj" data-tj="arrivant"><span class="r-pt" style="background:#e9e0cc"></span>L'arrivant</button>
+        <button class="tj" data-tj="capsule"><span class="r-pt" style="background:#ec9006"></span>La capsule</button>
+      </div>
+      <button id="r-reset">tout réafficher</button>
+    </div>
+  </aside>
+</div>
+    </section>
+
+<!--<<fin ruche-vue>>-->
+  </main>
+</div>
+
+<div class="souffleur" id="souffleur"></div>

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L'Éclaircie — l'atelier</title>
+<style>
+/* ============================================================
+   L'ÉCLAIRCIE — ATELIER
+   Un seul fichier. Aucune dépendance. Aucun appel réseau.
+   ============================================================ */
+
+/* ---------- jetons ---------- */
+:root{
+  --fond:#0A0E13; --fond-2:#101720; --fond-3:#161F2A; --fond-4:#1D2836;
+  --trait:#22303E; --trait-fort:#35495D; --ombre:rgba(0,0,0,.55);
+  --texte:#E6EBF0; --texte-2:#A7B5C2; --texte-3:#6D8093; --texte-4:#4B5D6E;
+  --andrew:#7CC6DC; --andrew-sourd:#2C5B6B;
+  --joel:#D2A06B;  --joel-sourd:#6A4E2C;
+  --commun:#94A3B1; --commun-sourd:#3A4854;
+  --alerte:#D0705F; --acquis:#8CB887; --provisoire:#DCB95E;
+  --lueur:rgba(124,198,220,.18);
+  --pic:#AC8BE4; --lot:#5A6B80; --fin:#5FD3A4;
+  --serif:Constantia,"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:Corbel,Candara,"Segoe UI",Tahoma,sans-serif;
+  --mono:Consolas,"Cascadia Mono","DejaVu Sans Mono",monospace;
+  --rail:64px;
+}
+@media (prefers-color-scheme:light){
+  :root{
+    --fond:#E9EDF1; --fond-2:#FFFFFF; --fond-3:#F5F8FA; --fond-4:#EAF0F5;
+    --trait:#D0D9E1; --trait-fort:#A9B9C7; --ombre:rgba(28,45,62,.13);
+    --texte:#13202C; --texte-2:#43596E; --texte-3:#6E8699; --texte-4:#93A6B5;
+    --andrew:#1B7690; --andrew-sourd:#B4DCE7;
+    --joel:#8E5D1E;  --joel-sourd:#EBD6B8;
+    --commun:#5A6C7C; --commun-sourd:#CBD5DD;
+    --alerte:#A6392B; --acquis:#3B7345; --provisoire:#87681A;
+    --lueur:rgba(27,118,144,.12);
+    --pic:#6B44BC; --lot:#7C8CA2; --fin:#12805A;
+  }
+}
+:root[data-theme="light"]{
+  --fond:#E9EDF1; --fond-2:#FFFFFF; --fond-3:#F5F8FA; --fond-4:#EAF0F5;
+  --trait:#D0D9E1; --trait-fort:#A9B9C7; --ombre:rgba(28,45,62,.13);
+  --texte:#13202C; --texte-2:#43596E; --texte-3:#6E8699; --texte-4:#93A6B5;
+  --andrew:#1B7690; --andrew-sourd:#B4DCE7;
+  --joel:#8E5D1E;  --joel-sourd:#EBD6B8;
+  --commun:#5A6C7C; --commun-sourd:#CBD5DD;
+  --alerte:#A6392B; --acquis:#3B7345; --provisoire:#87681A;
+  --lueur:rgba(27,118,144,.12);
+  --pic:#6B44BC; --lot:#7C8CA2; --fin:#12805A;
+}
+:root[data-theme="dark"]{
+  --fond:#0A0E13; --fond-2:#101720; --fond-3:#161F2A; --fond-4:#1D2836;
+  --trait:#22303E; --trait-fort:#35495D; --ombre:rgba(0,0,0,.55);
+  --texte:#E6EBF0; --texte-2:#A7B5C2; --texte-3:#6D8093; --texte-4:#4B5D6E;
+  --andrew:#7CC6DC; --andrew-sourd:#2C5B6B;
+  --joel:#D2A06B;  --joel-sourd:#6A4E2C;
+  --commun:#94A3B1; --commun-sourd:#3A4854;
+  --alerte:#D0705F; --acquis:#8CB887; --provisoire:#DCB95E;
+  --lueur:rgba(124,198,220,.18);
+  --pic:#AC8BE4; --lot:#5A6B80; --fin:#5FD3A4;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; background:var(--fond); color:var(--texte);
+  font-family:var(--serif); font-size:16px; line-height:1.6;
+  -webkit-font-smoothing:antialiased; overflow:hidden;
+}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+:focus-visible{outline:2px solid var(--andrew);outline-offset:2px;border-radius:2px}
+::selection{background:var(--andrew);color:var(--fond)}
+
+/* barres de défilement */
+*::-webkit-scrollbar{height:11px;width:11px}
+*::-webkit-scrollbar-track{background:var(--fond)}
+*::-webkit-scrollbar-thumb{background:var(--trait-fort);border:3px solid var(--fond);border-radius:6px}
+*::-webkit-scrollbar-thumb:hover{background:var(--texte-3)}
+
+/* ---------- ossature ---------- */
+#app{display:flex;height:100vh;width:100vw}
+
+.rail{
+  width:var(--rail);flex:0 0 var(--rail);background:var(--fond-2);
+  border-right:1px solid var(--trait);display:flex;flex-direction:column;
+  align-items:center;padding:14px 0 10px;gap:2px;z-index:40;
+}
+.rail .sigle{
+  font-family:var(--sans);font-size:9px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--texte-4);writing-mode:vertical-rl;transform:rotate(180deg);
+  margin-bottom:14px;user-select:none;
+}
+.rail-btn{
+  width:46px;height:52px;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:5px;border-radius:4px;color:var(--texte-3);
+  transition:background .16s,color .16s;position:relative;
+}
+.rail-btn svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.4;
+  stroke-linecap:round;stroke-linejoin:round}
+.rail-btn span{font-family:var(--sans);font-size:8.5px;letter-spacing:.06em;text-transform:uppercase}
+.rail-btn:hover{color:var(--texte);background:var(--fond-3)}
+.rail-btn.on{color:var(--andrew);background:var(--fond-3)}
+.rail-btn.on::before{
+  content:"";position:absolute;left:-9px;top:12px;bottom:12px;width:2px;
+  background:var(--andrew);border-radius:0 2px 2px 0;
+}
+.rail .bas{margin-top:auto;display:flex;flex-direction:column;gap:2px}
+
+.vues{flex:1;min-width:0;position:relative}
+.vue{position:absolute;inset:0;display:none;flex-direction:column}
+.vue.on{display:flex}
+
+/* ---------- en-tête de vue ---------- */
+.chapeau{
+  flex:0 0 auto;padding:16px 26px 13px;border-bottom:1px solid var(--trait);
+  background:var(--fond-2);display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;
+}
+.chapeau h1{
+  margin:0;font-size:20px;font-weight:400;letter-spacing:.01em;line-height:1.15;
+}
+.chapeau .sous{
+  font-family:var(--sans);font-size:12.5px;color:var(--texte-3);
+  margin:0;flex:1;min-width:200px;line-height:1.45;
+}
+.chapeau .outils{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+
+/* ---------- contrôles génériques ---------- */
+.puce{
+  font-family:var(--sans);font-size:11px;letter-spacing:.05em;text-transform:uppercase;
+  padding:5px 11px;border:1px solid var(--trait);border-radius:100px;color:var(--texte-3);
+  transition:all .15s;white-space:nowrap;background:var(--fond-3);
+}
+.puce:hover{border-color:var(--trait-fort);color:var(--texte)}
+.puce.on{background:var(--texte);color:var(--fond);border-color:var(--texte)}
+.puce .n{opacity:.6;margin-left:5px;font-family:var(--mono);font-size:10px}
+
+.champ{
+  font-family:var(--sans);font-size:13px;background:var(--fond-3);color:var(--texte);
+  border:1px solid var(--trait);border-radius:4px;padding:7px 11px;min-width:220px;
+}
+.champ::placeholder{color:var(--texte-4)}
+.champ:focus{outline:none;border-color:var(--andrew)}
+
+.etiq{
+  font-family:var(--sans);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--texte-3);
+}
+
+/* états */
+.st{font-family:var(--sans);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
+  padding:3px 8px;border-radius:3px;border:1px solid;white-space:nowrap;display:inline-block}
+.st-acquis{color:var(--acquis);border-color:color-mix(in srgb,var(--acquis) 45%,transparent)}
+.st-provisoire{color:var(--provisoire);border-color:color-mix(in srgb,var(--provisoire) 45%,transparent)}
+.st-trou{color:var(--alerte);border-color:color-mix(in srgb,var(--alerte) 45%,transparent)}
+.st-ouvert{color:var(--texte-3);border-color:var(--trait-fort)}
+.st-ecarte{color:var(--texte-4);border-color:var(--trait);text-decoration:line-through}

@@ -1,0 +1,306 @@
+
+/* ============================================================
+   VUE 1 — LE PARCOURS (le tableau de nœuds)
+   ============================================================ */
+.plateau{
+  flex:1;overflow-x:auto;overflow-y:hidden;position:relative;background:var(--fond);
+  overscroll-behavior-x:contain;
+}
+
+.scene-carte{position:relative;height:100%;min-height:520px}
+
+/* fond : les travées */
+.travees{position:absolute;inset:0;pointer-events:none;opacity:.5}
+
+/* étiquettes de voie, collées à gauche */
+.voies{
+  position:sticky;left:0;top:0;height:100%;width:0;z-index:20;pointer-events:none;float:left;
+}
+.voies::before{
+  content:"";position:absolute;left:0;top:0;bottom:0;width:172px;
+  background:linear-gradient(90deg,var(--fond) 0 152px,transparent 172px);
+}
+.voie-nom{
+  position:absolute;left:10px;width:134px;padding:7px 10px;border-radius:3px;
+  background:var(--fond-2);border:1px solid var(--trait);
+}
+.voie-nom b{
+  display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.15em;
+  text-transform:uppercase;font-weight:600;
+}
+.voie-nom i{display:block;font-family:var(--sans);font-size:10px;font-style:normal;
+  color:var(--texte-3);line-height:1.35;margin-top:3px}
+.voie-andrew b{color:var(--andrew)} .voie-joel b{color:var(--joel)} .voie-commun b{color:var(--commun)}
+
+/* actes */
+/* --- les lots : un groupe de chapitres qu'on lit d'un seul tenant --- */
+.lot{
+  position:absolute;z-index:2;pointer-events:none;border-radius:12px;
+  border:1.5px dashed color-mix(in srgb,var(--lot) 52%,transparent);
+  background:color-mix(in srgb,var(--lot) 5%,transparent);
+}
+.lot > b{
+  position:absolute;top:5px;left:14px;display:flex;align-items:baseline;gap:10px;
+  padding:5px 12px 6px;border-radius:4px;white-space:nowrap;
+  background:var(--fond-2);border:1px solid color-mix(in srgb,var(--lot) 45%,transparent);
+  font:700 10px/1 var(--sans);letter-spacing:.15em;text-transform:uppercase;color:var(--lot);
+}
+.lot > b em{font:italic 11.5px/1 var(--serif);letter-spacing:0;text-transform:none;color:var(--texte-3)}
+.lot.pic{
+  border-style:solid;border-width:2px;
+  border-color:color-mix(in srgb,var(--pic) 62%,transparent);
+  background:color-mix(in srgb,var(--pic) 8%,transparent);
+  box-shadow:0 0 46px -10px color-mix(in srgb,var(--pic) 55%,transparent),
+             inset 0 0 60px -30px color-mix(in srgb,var(--pic) 70%,transparent);
+}
+.lot.pic > b{
+  color:var(--pic);border-color:color-mix(in srgb,var(--pic) 60%,transparent);
+  box-shadow:0 0 18px -6px color-mix(in srgb,var(--pic) 60%,transparent);
+}
+.lot.pic.vert{
+  border-color:color-mix(in srgb,var(--fin) 62%,transparent);
+  background:color-mix(in srgb,var(--fin) 8%,transparent);
+  box-shadow:0 0 46px -10px color-mix(in srgb,var(--fin) 55%,transparent),
+             inset 0 0 60px -30px color-mix(in srgb,var(--fin) 70%,transparent);
+}
+.lot.pic.vert > b{
+  color:var(--fin);border-color:color-mix(in srgb,var(--fin) 60%,transparent);
+  box-shadow:0 0 18px -6px color-mix(in srgb,var(--fin) 60%,transparent);
+}
+@media (prefers-reduced-motion:reduce){ .lot.pic{box-shadow:none} }
+
+.acte{
+  position:absolute;top:0;bottom:0;pointer-events:none;
+  border-left:1px dashed var(--trait);
+}
+.acte i{
+  position:absolute;top:12px;left:12px;font-style:normal;
+  font-family:var(--sans);font-size:9.5px;letter-spacing:.19em;text-transform:uppercase;
+  color:var(--texte-4);white-space:nowrap;
+}
+
+/* liens */
+.liens{position:absolute;top:0;left:0;pointer-events:none;z-index:5;overflow:visible}
+.liens path{
+  fill:none;stroke-width:2.4;stroke:var(--commun);opacity:.9;
+  filter:drop-shadow(0 0 4px color-mix(in srgb,var(--commun) 45%,transparent));
+}
+.liens path.l-andrew{
+  stroke:var(--andrew);
+  filter:drop-shadow(0 0 5px color-mix(in srgb,var(--andrew) 50%,transparent));
+}
+.liens path.l-joel{
+  stroke:var(--joel);
+  filter:drop-shadow(0 0 5px color-mix(in srgb,var(--joel) 50%,transparent));
+}
+.liens polygon{opacity:.95}
+.liens path.vif{stroke:var(--andrew);opacity:1;stroke-width:1.9;filter:drop-shadow(0 0 5px var(--lueur))}
+.liens circle{fill:var(--trait-fort)}
+
+/* nœud */
+.noeud{
+  position:absolute;z-index:10;width:208px;
+  background:var(--fond-3);border:1px solid var(--trait);
+  padding:11px 13px 12px;text-align:left;color:var(--texte);
+  clip-path:polygon(0 0,calc(100% - 11px) 0,100% 11px,100% 100%,11px 100%,0 calc(100% - 11px));
+  transition:transform .18s cubic-bezier(.2,.8,.3,1),border-color .18s,background .18s,box-shadow .18s;
+  display:block;
+}
+.noeud:hover{
+  transform:translateY(-3px);border-color:var(--trait-fort);background:var(--fond-4);
+  box-shadow:0 8px 22px var(--ombre);
+}
+.noeud.sel{border-color:var(--andrew);box-shadow:0 0 0 1px var(--andrew),0 10px 26px var(--ombre)}
+.noeud .no{
+  font-family:var(--mono);font-size:10px;color:var(--texte-4);letter-spacing:.08em;
+  display:block;margin-bottom:3px;
+}
+.noeud h3{
+  margin:0;font-size:14.5px;font-weight:400;line-height:1.28;letter-spacing:.005em;
+}
+.noeud p{
+  margin:6px 0 0;font-family:var(--sans);font-size:11.5px;line-height:1.45;color:var(--texte-3);
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+}
+.noeud .bandeau{
+  position:absolute;left:0;top:11px;bottom:0;width:2px;background:var(--commun);
+}
+.n-andrew .bandeau{background:var(--andrew)} .n-joel .bandeau{background:var(--joel)}
+.n-andrew h3{color:var(--texte)}
+.noeud .marques{display:flex;gap:5px;margin-top:8px;align-items:center;flex-wrap:wrap}
+.noeud .pt{
+  width:5px;height:5px;border-radius:50%;background:var(--texte-4);display:inline-block;
+}
+.noeud .cle{
+  font-family:var(--sans);font-size:9px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--provisoire);
+}
+
+/* étape du tronc : un encart léger, pas une scène */
+.etape{
+  position:absolute;z-index:9;width:208px;height:44px;
+  border:1px dashed var(--trait-fort);border-radius:3px;
+  background:color-mix(in srgb,var(--fond-3) 70%,transparent);
+  display:flex;flex-direction:column;justify-content:center;padding:0 11px;
+  pointer-events:none;
+}
+.etape b{
+  font-family:var(--sans);font-size:11px;line-height:1.2;color:var(--texte-2);font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.etape i{
+  font-style:normal;font-family:var(--mono);font-size:9px;letter-spacing:.1em;
+  color:var(--texte-4);margin-bottom:2px;
+}
+
+/* scène non écrite : plus petite, en retrait — elle ne porte pas la ligne */
+.noeud.gris{
+  background:transparent;border-style:dotted;opacity:.55;
+  width:172px;padding:9px 11px 10px;
+  clip-path:polygon(0 0,calc(100% - 9px) 0,100% 9px,100% 100%,9px 100%,0 calc(100% - 9px));
+}
+.noeud.gris .no{font-size:9px}
+.noeud.gris h3{color:var(--texte-3);font-weight:400;font-size:13px}
+.noeud.gris p{color:var(--texte-4);font-size:10.5px;-webkit-line-clamp:3}
+.noeud.gris .bandeau{opacity:.35;top:9px}
+.noeud.gris:hover{opacity:1}
+
+/* scène écrite : c'est elle qui porte la ligne */
+.noeud:not(.gris){box-shadow:0 2px 10px color-mix(in srgb,var(--ombre) 60%,transparent)}
+
+/* nœud à trouver */
+.noeud.trou{
+  background:transparent;border-style:dashed;border-color:color-mix(in srgb,var(--alerte) 40%,var(--trait));
+}
+.noeud.trou h3{color:var(--texte-2);font-style:italic}
+.noeud.trou .bandeau{background:repeating-linear-gradient(180deg,var(--alerte) 0 4px,transparent 4px 8px)}
+
+/* nœud de bascule (fin de chapitre / choc) */
+.noeud.pivot{border-color:var(--trait-fort)}
+.noeud.pivot::after{
+  content:"";position:absolute;right:-1px;top:-1px;width:11px;height:11px;
+  background:var(--provisoire);
+  clip-path:polygon(100% 0,0 0,100% 100%);
+}
+
+/* jalons losange (ouverture / seuils) */
+.jalon{
+  position:absolute;z-index:10;width:120px;text-align:center;color:var(--texte-2);
+}
+.jalon .los{
+  width:20px;height:20px;margin:0 auto 7px;border:1.4px solid var(--texte-3);
+  transform:rotate(45deg);background:var(--fond-2);
+}
+.jalon b{display:block;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;font-weight:600;color:var(--texte-2)}
+.jalon i{display:block;font-style:normal;font-family:var(--sans);font-size:10px;color:var(--texte-4);margin-top:2px}
+
+/* apparition */
+@keyframes surgir{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.anim .noeud,.anim .jalon{animation:surgir .42s cubic-bezier(.2,.8,.3,1) backwards}
+@keyframes tracer{from{stroke-dashoffset:1400}to{stroke-dashoffset:0}}
+.anim .liens path{animation:tracer .9s ease-out both}
+@media (prefers-reduced-motion:reduce){
+  .anim .noeud,.anim .jalon,.anim .liens path{animation:none}
+  .liens path{stroke-dashoffset:0 !important}
+  .noeud:hover{transform:none}
+}
+
+/* légende / pied du plateau */
+.legende{
+  flex:0 0 auto;border-top:1px solid var(--trait);background:var(--fond-2);
+  padding:9px 26px;display:flex;gap:20px;align-items:center;flex-wrap:wrap;
+  font-family:var(--sans);font-size:11px;color:var(--texte-3);
+}
+.legende span{display:flex;gap:7px;align-items:center}
+.legende .ech{width:16px;height:2px;background:var(--commun);border-radius:2px}
+.legende .ech.a{background:var(--andrew)} .legende .ech.j{background:var(--joel)}
+.legende .ech.t{background:none;border-top:2px dashed var(--alerte);height:0}
+.legende .ech.p{background:none;border:1.5px solid var(--pic);height:9px;border-radius:2px}
+.legende .ech.f{background:none;border:1.5px solid var(--fin);height:9px;border-radius:2px}
+.legende .aide{margin-left:auto;color:var(--texte-4)}
+
+/* ============================================================
+   LE TIROIR (dossier de scène)
+   ============================================================ */
+.tiroir{
+  position:absolute;top:0;right:0;bottom:0;width:min(560px,50vw);z-index:60;
+  background:var(--fond-2);border-left:1px solid var(--trait-fort);
+  box-shadow:-18px 0 44px var(--ombre);
+  transform:translateX(102%);transition:transform .3s cubic-bezier(.2,.8,.3,1);
+  display:flex;flex-direction:column;
+}
+.tiroir.on{transform:none}
+@media (prefers-reduced-motion:reduce){.tiroir{transition:none}}
+@media (max-width:880px){.tiroir{width:100%}}
+
+.tiroir-tete{
+  flex:0 0 auto;padding:18px 22px 15px;border-bottom:1px solid var(--trait);
+  display:flex;align-items:flex-start;gap:14px;
+}
+.tiroir-tete .no{font-family:var(--mono);font-size:11px;color:var(--texte-4);letter-spacing:.1em}
+.tiroir-tete h2{margin:3px 0 0;font-size:22px;font-weight:400;line-height:1.15}
+.tiroir-tete .meta{display:flex;gap:8px;margin-top:9px;flex-wrap:wrap;align-items:center}
+.fermer{
+  flex:0 0 auto;width:30px;height:30px;border:1px solid var(--trait);border-radius:3px;
+  display:flex;align-items:center;justify-content:center;color:var(--texte-3);
+}
+.fermer:hover{color:var(--texte);border-color:var(--trait-fort);background:var(--fond-3)}
+.fermer svg{width:14px;height:14px;stroke:currentColor;stroke-width:1.6;fill:none;stroke-linecap:round}
+
+.tiroir-corps{flex:1;overflow-y:auto;padding:4px 22px 40px}
+.tiroir-pied{
+  flex:0 0 auto;border-top:1px solid var(--trait);padding:10px 22px;
+  display:flex;gap:10px;align-items:center;font-family:var(--sans);font-size:12px;
+}
+.tiroir-pied button{
+  color:var(--texte-3);padding:5px 10px;border:1px solid var(--trait);border-radius:3px;
+  font-family:var(--sans);font-size:11.5px;
+}
+.tiroir-pied button:hover{color:var(--texte);border-color:var(--trait-fort)}
+.tiroir-pied .sep{margin-left:auto;color:var(--texte-4);font-size:11px}
+
+/* blocs de dossier */
+.bloc{margin:22px 0 0;padding-top:16px;border-top:1px solid var(--trait)}
+.bloc:first-child{border-top:none;padding-top:14px}
+.bloc>h4{
+  margin:0 0 9px;font-family:var(--sans);font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--texte-3);font-weight:600;
+}
+.bloc p{margin:0 0 10px;font-size:15px;line-height:1.62}
+.bloc p:last-child{margin-bottom:0}
+.bloc ul{margin:0;padding-left:18px}
+.bloc li{margin:0 0 7px;font-size:14.5px;line-height:1.55}
+.bloc li::marker{color:var(--texte-4)}
+.bloc em{color:var(--texte-2)}
+.bloc strong{font-weight:600;color:var(--texte)}
+
+.dit{
+  margin:0 0 11px;padding:11px 15px;border-left:2px solid var(--andrew);
+  background:var(--fond-3);font-size:15.5px;line-height:1.55;
+}
+.dit.parle{font-style:italic}
+.dit cite{display:block;font-style:normal;font-family:var(--sans);font-size:10.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--texte-4);margin-top:7px}
+
+.garde{
+  margin:0 0 10px;padding:10px 14px;border:1px solid color-mix(in srgb,var(--alerte) 35%,var(--trait));
+  border-left-width:2px;border-left-color:var(--alerte);background:var(--fond-3);
+  font-size:14.5px;line-height:1.55;
+}
+.garde b{color:var(--alerte);font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;display:block;margin-bottom:5px}
+
+.paie{
+  display:flex;gap:11px;padding:10px 0;border-bottom:1px dotted var(--trait);
+  font-size:14px;line-height:1.5;
+}
+.paie:last-child{border-bottom:none}
+.paie .q{flex:0 0 82px;font-family:var(--sans);font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--texte-4);padding-top:3px}
+
+.renvoi{
+  display:inline-block;font-family:var(--sans);font-size:11px;padding:3px 9px;margin:0 5px 5px 0;
+  border:1px solid var(--trait);border-radius:100px;color:var(--texte-2);background:var(--fond-3);
+}
+.renvoi:hover{border-color:var(--andrew);color:var(--andrew)}
