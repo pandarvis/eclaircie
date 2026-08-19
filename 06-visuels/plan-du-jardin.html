@@ -673,7 +673,9 @@ function dessine(p){
     const g=el('g',{},cB);
     const TAU=Math.PI*2, N=7;                 /* six chambres et la veranda */
     const R=sr, ri=sr*.54, rc=sr*.30;
-    const gap=TAU/N*.19, tip=TAU/N*.40;
+    /* Large a la base, etroit a la pointe : c'est ce qui fait le rayon.
+       L'inverse donne des palettes, pas un soleil. */
+    const gap=TAU/N*.45, tip=TAU/N*.14;
     const pt=(a,r)=>[sx+Math.cos(a)*r, sy+Math.sin(a)*r];
     const trace=q=>q.map((v,i)=>(i?'L':'M')+n2(v[0])+','+n2(v[1])).join(' ')+'Z';
 
