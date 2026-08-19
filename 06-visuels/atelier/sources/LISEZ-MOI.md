@@ -42,3 +42,18 @@ avait fait disparaître la couleur de la coulée.
 
 **`pdf3.py` n'imprime rien.** Il écrit une page HTML. Passer directement un
 chemin `.pdf` en sortie produit un fichier HTML déguisé en PDF.
+
+**Un heredoc de shell avale les antislashs d'une expression régulière.** Un motif
+`(...)` écrit dans un `python << EOF` arrive comme `` simple, c'est-à-dire un
+caractère d'effacement, et le motif ne trouve plus rien — **sans erreur, en annonçant
+zéro résultat.** C'est ainsi qu'un contrôle a certifié « aucun mot banni » sur un texte
+qui en contenait trois. *Tout script qui contient un antislash s'écrit dans un fichier.*
+
+## Les outils d'écriture
+
+| Script | À quoi il sert |
+|---|---|
+| `analyse-style.py` | mesure les textes de l'atelier : temps, longueurs, répétitions, ambiguïtés |
+| `controler-un-texte.py <fichier.md>` | passe un brouillon au même contrôle : mots bannis et mesures de style |
+| `glossaire.py` | verse `05-manuscrit/glossaire.md` dans l'atelier |
+| `paroles.py` | régénère `01-dossier/paroles-de-l-autrice.md` depuis la transcription |
