@@ -20,7 +20,7 @@ Il longea le comptoir, en poussa le portillon et prit lui-même sa feuille dans 
 
 — Bonjour Anna.
 
-— Bonjour toi. Salle 2, ils sont quatre aujourd'hui. Nora arrive à dix heures.
+— Bonjour toi. Salle 2, ils sont quatre aujourd'hui. Nora descend à dix heures.
 
 — Quatre.
 
@@ -104,7 +104,7 @@ Bastien traversa pour le rejoindre. Il venait de la coulée et ça se voyait : m
 
 Le quartier des préparateurs s'ouvrait sur une allée centrale, assez large pour y faire passer deux chariots de front, et de chaque côté des boxes où l'on travaillait. Pas de portes : des cloisons à mi-hauteur, un établi par box, des crochets partout. Des caisses empilées contre le mur du fond, quatorze. Des bottes alignées à l'entrée, jamais par paires. Sur la cloison de droite, un tableau noir couvert de numéros de travées, effacé et réécrit tant de fois que le noir était devenu gris.
 
-Ils étaient une quinzaine, et il n'y avait pas de bureaux. Les plus anciens du service étaient aussi ceux qui paraissaient les plus jeunes, et personne n'y faisait attention.
+Ils étaient une quinzaine, et il n'y avait pas de bureaux.
 
 Deux ou trois levèrent la main en le voyant entrer. On lui proposa du café et il accepta de bon cœur. Il n'avait pas fait le détour par la salle de repos ; ce n'était pas une raison pour refuser une bonne tasse.
 
@@ -123,6 +123,10 @@ C'était la dernière chose qu'on faisait à une capsule. Après ça, elle ne se
 — Celle-là, ce n'est pas pareil. Regarde-la.
 
 Il la regarda. Elle était belle.
+
+L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu. C'était à peu près le cas : il en était à son quatrième mois. Il avait soixante-douze ans.
+
+Personne ne trouva ça remarquable. Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.
 
 Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
 
