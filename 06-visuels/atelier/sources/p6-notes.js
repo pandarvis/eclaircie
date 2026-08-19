@@ -1007,6 +1007,16 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`La section 0, le bâtiment soleil`, e:`acquis`, t:[`monde`],
+  v:`plutôt que "fin de vie" : j'aime pas trop... on pourrait le nommer le bâtiment soleil, surnommé comme ça parce que les enfants ont toujours l'impression de voir dans sa forme un soleil. tu nommes "section 0 (bâtiment soleil)", 0 pour 0 ans. [...] je comprends pas les traits en pointillé vert. [...] le trajet d'Andrew et Isaac arrive depuis le nord-ouest, passe par le chemin d'en dessous, longe le clapier, le poulailler, le pré des chèvres et ils peuvent voir le lac et le pré des chevaux au loin. leur point doit finir en dessous, la porte du centre médical est en dessous du bâtiment.`,
+  q:`🔴 **Le mot fin de vie disparait du monde.** *C'est le bâtiment soleil, et c'est le seul nom que les petits emploient : ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* **Le registre, lui, dit section 0 — zéro comme l'âge.**
+
+⚠ **Un nom d'administration et un nom d'usage pour la même porte, et les deux sont vrais.** *C'est exactement le genre d'écart qui rend un monde habité : le registre ne parle pas la langue de ceux qui vivent dedans.*
+
+✅ **Les pointillés verts étaient les fresques du mur et rien ne le disait.** *Ils entrent dans la légende, et ils se cliquent : de l'extérieur le mur est nu, de ce côté-ci il est peint sur toute sa longueur, par ceux qui vivent là.*
+
+✅ **Le trajet finit sous le centre médical**, parce que la porte est dessous.` },
+
 { d:`19 août`, s:`La sortie est devient droite, et l'écurie rentre`, e:`acquis`, t:[`monde`,`visuel`],
   v:`ton chemin nord-ouest / est va presque jusqu'à l'entrée est, puis revient en arrière, monte et contourne tous les bâtiments par la droite pour sortir. une fois que le chemin est sorti de l'étendue, il passe sous le centre médical et on est direct à la sortie. l'écurie doit être dans l'étendue, accolée au pré des poneys.`,
   q:`⛔ **Le détour n'était pas un caprice du tracé : la porte était mal placée.** *Elle tombait pile derrière le centre médical, et il ne restait qu'une fente de vingt pixels entre le bâtiment et le mur. Le chemin ne pouvait pas y entrer, alors il remontait contourner tout le quartier par le nord.*
