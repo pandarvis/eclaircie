@@ -1007,6 +1007,12 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`Les ailes du soleil se rétrécissent vers la pointe`, e:`acquis`, t:[`visuel`],
+  v:`ton "soleil" ne fait pas soleil, regarde bien. les pointes terminent plus large que la partie attachée... moi c'est large à la base et ça se rétrécit.`,
+  q:`⛔ **J'avais lu le croquis à l'envers.** *Mes ailes s'évasaient vers l'extérieur : ça donne des palettes, ou une roue dentée.* **Un rayon part large et finit en pointe** — c'est la seule chose qui distingue un soleil d'un engrenage.
+
+✅ **Inversé :** *l'aile occupe presque toute la face de l'anneau à sa base, et se réduit au tiers à sa pointe.* **Les encoches entre les ailes deviennent des V profonds, comme sur le dessin.**` },
+
 { d:`20 août`, s:`Le bâtiment soleil a sept ailes`, e:`acquis`, t:[`monde`,`visuel`],
   v:`houla t'y es pas du tout pour la forme en soleil. moi je pensais à un truc dans ce style-là tu vois, le hachuré c'est la cour intérieure. [croquis]`,
   q:`⛔ **J'avais fait un disque avec des piquants.** *Un rond, et seize petits traits plantés dessus — un soleil de dessin d'école, pas un bâtiment.*
