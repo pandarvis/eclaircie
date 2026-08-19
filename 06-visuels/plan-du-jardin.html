@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>L'Éclaircie — le jardin, trois plans</title>
+<title>L'Éclaircie — le plan du jardin</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 :root{
@@ -24,7 +24,8 @@ html,body{margin:0;height:100%;background:var(--nuit);color:var(--texte);font-fa
 #tete h1{margin:0;font-family:var(--serif);font-size:23px;font-weight:400;
   letter-spacing:.05em;color:var(--creme)}
 #tete .ss{margin-top:5px;font-size:12px;color:var(--texte-3);letter-spacing:.04em}
-#barre{display:flex;gap:8px;margin:14px 0 2px;flex-wrap:wrap;align-items:center}
+#barre{display:flex;gap:8px;margin:12px 0 2px;flex-wrap:wrap;align-items:center;
+  min-height:32px}
 .pl{background:#141a20;border:1px solid var(--trait);color:var(--texte-2);
   border-radius:999px;padding:7px 15px;font:inherit;font-size:12.5px;cursor:pointer;
   transition:.16s;letter-spacing:.02em}
@@ -201,9 +202,8 @@ aside em{color:var(--or-pale);font-style:italic}
 <div id="page">
   <div id="scene">
     <div id="tete">
-      <h1>Le jardin — trois plans</h1>
-      <div class="ss">Trois façons de poser les mêmes bâtiments. Elles ne diffèrent pas par le décor :
-        elles répondent différemment à une seule question — <b style="color:var(--texte-2)">qui passe devant la section 0</b>.</div>
+      <h1>Le jardin</h1>
+      <div class="ss">Le mur, l'étendue, les bêtes, les chemins. <b style="color:var(--texte-2)">Cliquez n'importe quoi.</b></div>
       <div id="barre"></div>
     </div>
     <div id="cadre"><svg id="svg" viewBox="0 0 1020 700" preserveAspectRatio="xMidYMid meet"></svg>
@@ -326,99 +326,6 @@ function bete(type,x,y,s=1,p=svg){
    ===================================================================== */
 const PLANS=[
 {
- cle:'A', nom:'Le damier', sous:'la cité scolaire',
- mur:[[122,74],[600,60],[880,120],[934,340],[890,592],[520,640],[168,600],[96,352]],
- principe:`<p><b>On a tracé des rues et on a posé les bâtiments dessus.</b> Deux axes qui se
-  croisent, huit lotissements en deux rangées, et tout le reste dans les cases qui restent.
-  <em>C'est un plan de commande publique : quelqu'un a dessiné ça sur une table, d'un coup, et
-  ça n'a jamais été rediscuté.</em></p>
-  <p>Le centre médical est <b>au milieu du croisement</b>, là où tout le monde passe.
-  La cantine lui est accolée : on y va deux fois par jour.</p>`,
- enjeu:`<p><b>La section 0 donne sur la cour d'honneur.</b> Elle est derrière une
-  porte comme les autres, dans le même bâtiment que la cantine, et <em>quatre cents petits
-  passent devant deux fois par jour sans savoir ce qu'il y a derrière.</em></p>
-  <p>C'est le plan le plus glaçant des trois, et le plus vraisemblable : <b>personne n'a pensé
-  à les mettre ailleurs, parce que personne n'a voulu y penser.</b></p>`,
- defauts:[
-  ['Le lotissement 3 est de travers','Bâti avant les autres, sur une orientation qui n\'existe plus. On a tracé la rue autour.'],
-  ['La grille ouest est condamnée','Elle donnait sur une voie qui n\'a jamais été percée. On l\'a laissée, avec sa serrure.'],
-  ['Le bassin est comblé','Il reste un creux dans la pelouse, et l\'herbe y est plus verte.'],
-  ['La fresque s\'arrête net','Le gymnase a été adossé au mur vingt ans après. Les dessins reprennent de l\'autre côté, en plus petit.']],
- grilles:[[512,66,'principale',0],[928,300,'livraisons',0],[540,641,'sud',0],[102,330,'ouest',1]],
- allees:[[[512,66],[512,640]],[[110,340],[930,308]],[[300,80],[300,620]],[[730,72],[730,620]],
-         [[180,190],[880,178]],[[170,480],[890,470]]],
- sentiers:[[[300,190],[404,258],[512,300]],[[730,470],[640,540],[540,600]]],
- zones:[
-  ['pelouse',[[330,340],[490,332],[494,452],[326,458]]],
-  ['pelouse',[[760,190],[880,186],[884,300],[758,302]]],
-  ['beton',[[404,214],[622,208],[626,300],[406,304]]]],
- bat:[
-  ['soin',424,214,196,110,'Centre médical','Trois étages, le seul du jardin. Consultations au rez, dortoir de garde au premier, les dossiers au second.'],
-  ['fin',444,330,150,52,'Fin de vie','Six chambres, une véranda, un couloir qui ne dessert rien d\'autre. La porte donne sur la cour, entre la cantine et le centre médical.'],
-  ['commun',330,214,64,110,'Cantine','Les repas arrivent de la ville en camion, deux fois par jour.'],
-  ['commun',150,205,120,80,'Gymnase','Adossé au mur, ce qui coupe la fresque.'],
-  ['commun',150,320,120,70,'Salle de jeu','Pour les jours de pluie, et il pleut souvent.'],
-  ['bat',180,110,100,58,'Lotissement 1','Vingt petits, quatre berceurs, un salon commun et une buanderie.'],
-  ['bat',330,104,100,58,'Lotissement 2','Identique au 1. Ils ont été livrés le même mois.'],
-  ['bat',492,148,100,58,'Lotissement 3','De travers. Il est plus ancien que le plan, et on a tracé l\'allée autour de lui.',1],
-  ['bat',634,106,100,58,'Lotissement 4','Identique au 1.'],
-  ['bat',761,130,100,58,'Lotissement 5','Le plus éloigné du centre médical. Les berceurs s\'en plaignent depuis toujours.'],
-  ['bat',186,530,100,58,'Lotissement 6','Identique au 1.'],
-  ['bat',352,532,100,58,'Lotissement 7','Identique au 1.'],
-  ['bat',640,528,100,58,'Lotissement 8','Le dernier bâti. Il a une véranda que les autres n\'ont pas, et tout le monde le sait.'],
-  ['cab',292,410,52,30,'Cabanon','Vélos et tricycles. La porte ferme mal.'],
-  ['cab',700,400,52,30,'Cabanon','Le second, ajouté quand le 8 est sorti de terre.'],
-  ['cab',836,470,44,28,'Entretien','Les gens de la ville entrent par là, tôt.']],
- jeux:[[560,400,120,90,'Aire de jeu','toboggan'],[786,376,110,80,'Aire de jeu','balancoire'],[196,398,80,70,'Bacs à sable','']],
- trous:[[400,470,42,'Le bassin comblé']],
- fresques:[[[130,120],[560,86]],[[600,84],[900,150]],[[900,200],[912,540]],[[820,600],[210,592]]],
- etiq:[[512,52,'gd','ENTRÉE'],[512,660,'','allée sud'],[960,340,'','le mur']]
-},
-{
- cle:'B', nom:'La couronne', sous:'tout tourne autour du soin',
- mur:[[300,58],[660,54],[880,180],[930,380],[790,600],[430,646],[160,548],[92,300]],
- principe:`<p><b>Un cœur, un anneau, une lisière.</b> Le centre médical est au milieu exact, les
-  bâtiments communs autour de lui, les lotissements en arc, et la lisière contre le mur est
-  laissée aux arbres et aux jeux.</p>
-  <p><em>C'est la même figure que la ruche — le registre au cœur, la serre en corolle.</em>
-  <b>Personne dans le livre ne le remarque, et c'est justement ce qui rend la chose troublante
-  quand le lecteur, lui, le remarque.</b></p>`,
- enjeu:`<p><b>La section 0 est au cœur du cœur.</b> On n'y accède que de l'intérieur du
-  centre médical, par un couloir qui ne dessert rien d'autre, et elles ouvrent sur un petit
-  jardin clos qu'aucune allée ne longe.</p>
-  <p>C'est le plan le plus protecteur — <em>et le plus institutionnel : le secret médical a été
-  bâti en pierre.</em> <b>C'est aussi celui où quelque chose peut se passer sans que personne
-  dehors n'en voie rien.</b></p>`,
- grilles:[[480,56,'principale',0],[924,352,'ambulances',0],[664,614,'sud',0],[128,420,'entretien',0]],
- allees:[[[480,56],[480,196]],[[924,352],[700,352]],[[610,632],[560,500]],[[128,420],[300,400]]],
- anneaux:[[512,352,150],[512,352,236]],
- sentiers:[[[300,400],[380,440],[470,470]],[[700,250],[760,190],[820,170]]],
- zones:[['pelouse',[[560,430],[680,470],[620,560],[500,540]]],
-        ['pelouse',[[300,180],[400,150],[430,230],[330,262]]]],
- bat:[
-  ['soin',430,286,164,132,'Centre médical','Circulaire, un seul niveau, une verrière au milieu. Toutes les allées y aboutissent.'],
-  ['fin',476,326,72,54,'Fin de vie','Au centre du centre. Six chambres autour d\'un patio planté. Aucune fenêtre ne donne sur l\'extérieur.'],
-  ['commun',372,196,140,66,'Cantine','Premier anneau, face à l\'entrée.'],
-  ['commun',618,222,116,74,'Gymnase','Posé de biais pour ne pas boucher la vue depuis le centre.'],
-  ['commun',585,432,120,70,'Salle de jeu','La plus fréquentée, parce que la plus proche des lotissements.'],
-  ['commun',300,430,110,66,'Buanderie et réserves','Les livraisons entrent par la grille d\'entretien, à l\'ouest.'],
-  ['bat',260,132,94,52,'Lotissement 1','Les six premiers ont été livrés ensemble et se ressemblent au centimètre.'],
-  ['bat',402,96,94,52,'Lotissement 2',''],
-  ['bat',504,96,94,52,'Lotissement 3',''],
-  ['bat',692,146,94,52,'Lotissement 4',''],
-  ['bat',781,243,94,52,'Lotissement 5',''],
-  ['bat',732,404,94,52,'Lotissement 6',''],
-  ['bat',553,549,94,52,'Lotissement 7','Bâti quinze ans après les six premiers. Il casse l\'anneau, et il a fallu déplacer deux arbres.',1],
-  ['bat',383,557,94,52,'Lotissement 8','Le jumeau du 7, livré la même année.',1],
-  ['bat',176,286,94,52,'Lotissement 9',''],
-  ['cab',636,336,50,30,'Cabanon','Vélos et tricycles, au milieu, pour que personne ne soit plus loin qu\'un autre.'],
-  ['cab',836,338,46,28,'Garage','Deux véhicules du centre médical, et le parking qui va avec.']],
- jeux:[[214,186,104,84,'Aire de jeu','toboggan'],[706,456,104,80,'Aire de jeu','balancoire'],[196,470,96,74,'Aire de jeu','toboggan'],[600,90,86,64,'Bacs à sable','']],
- trous:[],
- fresques:[[[310,72],[650,66]],[[880,200],[924,370]],[[760,600],[440,636]],[[110,320],[168,530]]],
- etiq:[[480,44,'gd','ENTRÉE'],[956,352,'','']]
-},
-{
  cle:'C', nom:'La fermette', sous:'une deuxième ville dans la ville',
  mur:[[150,86],[520,52],[900,96],[946,300],[906,560],[560,650],[190,616],[80,330]],
  principe:`<p><b>Au milieu, on a laissé le terrain tranquille.</b> Une mare, des bouts de prés,
@@ -451,7 +358,7 @@ const PLANS=[
  routes:[
   {de:`nord-ouest`,a:`est`,pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[327,389],[333,404],[492,404],[516,392],[606,386],[648,365],[729,365],[747,383],[934,380]]},
   {de:`sud-ouest`,a:`principale`,pts:[[330,628],[366,593],[366,584],[375,569],[375,545],[393,524],[393,488],[402,479],[405,446],[441,410],[462,404],[468,278],[489,278],[510,260],[549,257],[567,239],[627,239],[645,224],[651,224],[675,197],[675,152],[681,146],[681,113],[700,74]]}],
- trajet:{pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[327,389],[333,404],[492,404],[516,392],[606,386],[648,365],[729,365],[747,383],[822,383],[836,370]]},
+ trajet:{pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[273,356],[291,377],[291,428],[300,437],[306,461],[306,440],[315,422],[357,413],[375,413],[381,419],[381,428],[405,455],[405,467],[399,485],[375,509],[369,524],[525,527],[543,509],[573,506],[609,470],[621,467],[633,443],[645,431],[645,416],[651,404],[660,395],[669,395],[684,380],[702,371],[747,371],[753,377],[825,377],[836,370]]},
  eau:[385,350,56,40],
  pres:[
   [546,328,56,42,'Le pré des poneys','poney',3],
@@ -517,7 +424,7 @@ const LIEUX={
 /* =====================================================================
    RENDU
    ===================================================================== */
-let courant=2, choisi=null, anim=null;
+let courant=0, choisi=null, anim=null;
 const sortirClasses=()=>[].forEach.call(svg.querySelectorAll('.on'),e=>e.classList.remove('on'));
 function choisir(nom,genre,txt,noeud){
   choisi=[nom,genre,txt]; sortirClasses();
@@ -915,8 +822,8 @@ function rendPan(){
     h+=`<div class="fiche"><div class="kind">${choisi[1]||''}</div><h3>${choisi[0]}</h3>
         <p>${choisi[2] || `Rien de particulier — et c'est bien le but : la plupart des bâtiments d'un jardin sont interchangeables.`}</p></div>`;
   }
-  h+=`<div class="sur">Plan ${p.cle}</div><h2>${p.nom}</h2>
-    <p style="color:var(--texte-3);font-size:12px;margin-top:-8px">${p.sous}</p>`;
+  h+=`<div class="sur">${p.nom}</div>
+    <p style="color:var(--texte-3);font-size:12px;margin-top:-6px">${p.sous}</p>`;
   h+=`${p.principe}
     <div class="lab">Ce que ce plan décide</div>${p.enjeu}`;
   if(p.defauts && p.defauts.length){
@@ -928,19 +835,6 @@ function rendPan(){
   document.querySelector('aside').scrollTop=0;
 }
 
-const barre=document.getElementById('barre');
-PLANS.forEach((p,i)=>{
-  const b=document.createElement('button');
-  b.className='pl'+(i===courant?' on':'');
-  b.innerHTML=`<b>${p.cle}</b>${p.nom}${p.cle==='C'?' · retenu':''}`;
-  b.addEventListener('click',()=>{
-    courant=i; choisi=null;
-    [].forEach.call(barre.querySelectorAll('.pl'),x=>x.classList.remove('on'));
-    b.classList.add('on');
-    dessine(PLANS[i]); rendPan();
-  });
-  barre.appendChild(b);
-});
 const rej=document.createElement('button');
 rej.id='rejouer'; barre.appendChild(rej);
 
