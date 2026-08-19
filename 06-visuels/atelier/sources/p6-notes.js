@@ -1007,6 +1007,16 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Cinq réseaux de chemins, tracés par le calcul`, e:`ouvert`, t:[`monde`,`visuel`],
+  v:`tu prends mon screen et tu fais les MÊME chemins. un chemin qui commence d'une porte et qui part vers une autre sans interruption. on ne doit pas passer à travers les bâtiments. tu dois corriger ensuite le trajet d'Andrew en conséquence. tu testes, tu es critique, tu me proposes 5 versions à mon retour avec toutes les contraintes énoncées. les prés et enclos et le lac doivent être contenus toujours dans l'étendue.`,
+  q:`⛔ **J'ai arrêté de router à la main : c'était la cause de tout.** *Dans un jardin aussi dense, déplacer un chemin pour libérer un bâtiment en bouche un autre. Trois passes de corrections à l'œil n'avaient rien réglé.*
+
+✅ **Un routeur remplace la main.** *L'espace libre du jardin devient une grille ; un chemin y est cherché par A-étoile. Il ne peut pas traverser un bâtiment, la mare, un pré ni un enclos, parce que ces cases n'existent pas pour lui.* **Chaque version se distingue par ses points de passage imposés, pas par un tracé bricolé.**
+
+🔴 **Cinq réseaux, et ils décident chacun ce qu'Andrew voit en traversant :** *La croix* (tout le monde passe au milieu), *Le contour* (personne n'entre), *La traverse unique* (seule la route du centre médical entre), *Le Y* (les deux routes partagent un tronçon et créent une place), *Les deux rives* (deux traversantes parallèles, la mare entre elles, et deux personnes peuvent passer sans se voir).
+
+⚠ **Trois choses ont dû bouger pour que ça tienne :** *le bac à sable rejoint l'aire de jeu de l'ouest — il ne laissait que six pixels entre lui et le réfectoire, aucun chemin ne pouvait descendre de la grille principale ; le local technique descend le long de la margelle ; les deux prés rétrécissent pour tenir dans l'étendue.*` },
+
 { d:`19 août`, s:`Aucun chemin ne mord un bâtiment, et la mare a une forme écrite`, e:`acquis`, t:[`visuel`,`fabrication`],
   v:`ton lac grignote le chemin de droite maintenant. au passage il n'est toujours pas de la bonne forme. il part toucher les chemins et au fur et à mesure, le chemin de base passe à travers les bâtiments. on n'est pas bon. attention, les chemins ne doivent pas rentrer dans des bâtiments ou local, cabanon, etc, le lac ne doit pas toucher non plus !`,
   q:`⛔ **Je corrigeais à l'œil, et c'est pour ça que chaque réparation en cassait une autre.** *Le contrôleur existant ne voyait que les rectangles entre eux : il ne regardait pas les tracés.* **Deux outils neufs règlent ça pour de bon.**

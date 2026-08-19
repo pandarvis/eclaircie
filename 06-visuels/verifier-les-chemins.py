@@ -16,6 +16,7 @@ import io
 import os
 import re
 import subprocess
+import sys
 
 CHROME = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 ICI = os.path.dirname(os.path.abspath(__file__))
@@ -23,6 +24,10 @@ SRC = os.path.join(ICI, 'plan-du-jardin.html')
 TMP = os.path.join(ICI, '.controle-chemins.html')
 
 SONDE = u"""<script>
+setTimeout(function(){
+  var rz=document.querySelectorAll('#reseaux .rz');
+  if(rz.length && rz[__N__]) rz[__N__].click();
+},900);
 setTimeout(function(){
   try{
     var svg=document.getElementById('svg');
@@ -93,13 +98,17 @@ setTimeout(function(){
     }
 
     var l=Object.keys(fautes);
-    document.title='CONTROLE|'+voies.length+'|'+bats.length+'|'+(l.length?l.join(' ~ '):'RIEN');
+    var on=document.querySelector('#reseaux .rz.on');
+    document.title='CONTROLE|'+(on?on.textContent:'plan')+'|'+bats.length+'|'
+      +(l.length?l.join(' ~ '):'RIEN');
   }catch(e){ document.title='CONTROLE|0|0|ERREUR '+e.message; }
 },1700);
 </script>"""
 
+N = sys.argv[1] if len(sys.argv) > 1 else '0'
 page = io.open(SRC, encoding='utf-8').read()
-io.open(TMP, 'w', encoding='utf-8').write(page.replace(u'</body>', SONDE + u'</body>', 1))
+io.open(TMP, 'w', encoding='utf-8').write(
+    page.replace(u'</body>', SONDE.replace('__N__', N) + u'</body>', 1))
 
 url = 'file:///' + TMP.replace('\\', '/')
 out = subprocess.Popen(
@@ -108,12 +117,12 @@ out = subprocess.Popen(
     stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()[0].decode('utf-8', 'replace')
 os.remove(TMP)
 
-m = re.search(r'<title>CONTROLE\|(\d+)\|(\d+)\|(.*?)</title>', out, re.S)
+m = re.search(r'<title>CONTROLE\|(.*?)\|(\d+)\|(.*?)</title>', out, re.S)
 if not m:
     print(u"la sonde n'a rien rendu")
     raise SystemExit(1)
 
-print(u'%s traces mesures, %s batiments testes' % (m.group(1), m.group(2)))
+print(u'reseau : %s   (%s batiments testes)' % (m.group(1), m.group(2)))
 if m.group(3) == 'RIEN':
     print(u'\nAucun chemin ne mord un batiment, et la mare ne touche rien.')
 else:
