@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`Le soleil rentre dans le rang des couleurs`, e:`acquis`, t:[`visuel`],
+  v:`c'est un peu trop lumineux ahah, plus sobre, meme teinte luminosité que le réfectoire, ça sera très bien`,
+  q:`✅ **Le halo s'éteint et la teinte redescend à celle du réfectoire** — même or, même fond, même luminosité que n'importe quel bâtiment commun. *J'avais fait briller le seul bâtiment qui n'a pas besoin qu'on le désigne.*
+
+🔴 **C'est la forme qui fait le soleil, pas la lumière.** *Sept ailes larges à la base et une cour hachurée : ça suffit, et ça se voit de loin sans qu'un halo vienne le souligner.* **Un plan ne souligne pas.**
+
+🔵 Les hachures de la cour étaient tombées à .4 avec le reste et ne se lisaient plus. Elles remontent à .55 : c'est la cour qui distingue ce bâtiment, pas sa brillance.` },
+
 { d:`20 août`, s:`Le bâtiment soleil passe au jaune orangé`, e:`acquis`, t:[`visuel`],
   v:`on est bon. si tu peux lui donner une teinte plus jaune orangé que violet, ça serait nickel !`,
   q:`✅ **Le violet venait de la fin de vie, et la fin de vie n'existe plus.** *C'était la couleur que j'avais choisie quand je croyais le bâtiment tabou.* **Il passe au jaune orangé, et le mot, la forme et la teinte disent enfin la même chose.**

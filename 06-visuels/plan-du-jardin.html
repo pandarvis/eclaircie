@@ -121,12 +121,9 @@ aside em{color:var(--or-pale);font-style:italic}
 .bat:hover,.bat.on{fill:#3a2c14;stroke:var(--or);stroke-width:2.6}
 .bat.soin{fill:#101a20;stroke:var(--bleu)}
 .bat.soin:hover{fill:#152430}
-.bat.fin{fill:#2b1f0c;stroke:#f2b755}
-.cour{fill:#3a2a10;stroke:#f2b755;stroke-width:1}
-.hachure{stroke:#f2b755;stroke-width:.8;opacity:.5}
-/* Il ne s'appelle pas le batiment soleil pour rien : il en repand un peu. */
-.halo-soleil{pointer-events:none;animation:rayonne 11s ease-in-out infinite}
-@keyframes rayonne{0%,100%{opacity:.62}50%{opacity:1}}
+.bat.fin{fill:#1b1a14;stroke:var(--or);opacity:.95}
+.cour{fill:#232014;stroke:var(--or);stroke-width:1}
+.hachure{stroke:var(--or);stroke-width:.8;opacity:.55}
 .bat.commun{fill:#1b1a14;stroke:var(--or);opacity:.95}
 .bat.ferme{fill:#1c1710;stroke:var(--paille);opacity:.95}
 .cab{fill:#141a15;stroke:var(--vert-sombre);stroke-width:.9}
@@ -674,14 +671,6 @@ function dessine(p){
   if(p.soleil){
     const [sx,sy,sr,snom,stxt]=p.soleil;
     const g=el('g',{},cB);
-    const defs=el('defs',{},g);
-    defs.innerHTML='<radialGradient id="g-soleil">'
-      +'<stop offset="24%" stop-color="#f2b755" stop-opacity=".17"/>'
-      +'<stop offset="58%" stop-color="#f2b755" stop-opacity=".07"/>'
-      +'<stop offset="100%" stop-color="#f2b755" stop-opacity="0"/>'
-      +'</radialGradient>';
-    el('circle',{cx:n2(sx),cy:n2(sy),r:n2(sr*2.4),fill:'url(#g-soleil)',
-      class:'halo-soleil'},g);
     const TAU=Math.PI*2, N=7;                 /* six chambres et la veranda */
     const R=sr, ri=sr*.54, rc=sr*.30;
     /* Large a la base, etroit a la pointe : c'est ce qui fait le rayon.
@@ -711,7 +700,7 @@ function dessine(p){
     for(let k=-8;k<=8;k++)
       el('line',{x1:n2(sx-rc*1.4+k*4),y1:n2(sy-rc*1.4),
                  x2:n2(sx+rc*1.4+k*4),y2:n2(sy+rc*1.4),class:'hachure'},gh);
-    el('path',{d:trace(cour),fill:'none',stroke:'#f2b755','stroke-width':1,
+    el('path',{d:trace(cour),fill:'none',stroke:'var(--or)','stroke-width':1,
       opacity:.8},g);
 
     el('text',{x:n2(sx),y:n2(sy+R+15),class:'etiq','text-anchor':'middle'},cE)
@@ -874,7 +863,7 @@ function dessine(p){
 function legende(p){
   const L=[['#171c22','#e9e0cc','dortoirs'],['#1b1a14','#d9a441','bâtiments communs'],
     ['#1c1710','#c9a86a','la fermette'],['#101a20','#0081B3','centre médical'],
-    ['#2b1f0c','#f2b755','la section 0'],['#1e1a14','#ec9006','aires de jeu'],
+    ['#1b1a14','#d9a441','la section 0'],['#1e1a14','#ec9006','aires de jeu'],
     ['#0d2130','#0081B3','la mare'],['#152418','#3d5a3a','prés et enclos']];
   document.getElementById('legende').innerHTML =
     L.map(([f,b,t])=>`<span><i style="background:${f};border:1px solid ${b}"></i>${t}</span>`).join('')
