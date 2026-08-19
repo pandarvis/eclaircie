@@ -122,6 +122,8 @@ aside em{color:var(--or-pale);font-style:italic}
 .bat.soin{fill:#101a20;stroke:var(--bleu)}
 .bat.soin:hover{fill:#152430}
 .bat.fin{fill:#1a1216;stroke:#8d6c7a}
+.cour{fill:#241a1e;stroke:#8d6c7a;stroke-width:1}
+.hachure{stroke:#8d6c7a;stroke-width:.8;opacity:.55}
 .bat.commun{fill:#1b1a14;stroke:var(--or);opacity:.95}
 .bat.ferme{fill:#1c1710;stroke:var(--paille);opacity:.95}
 .cab{fill:#141a15;stroke:var(--vert-sombre);stroke-width:.9}
@@ -392,7 +394,7 @@ const PLANS=[
  /* Ils prennent l'allee du nord-ouest, puis la grande allee par le sud,
     puis l'allee de service. Ils ne coupent a travers rien. */
  /* La section 0 : un batiment rond et une petite cour au milieu. */
- soleil:[840,430,40,'Section 0','<b>Le bâtiment soleil</b>, et c\'est le seul nom que les petits emploient : ils voient un soleil dans sa forme, et personne ne les a jamais contredits. <em>Le registre, lui, dit section 0 — zéro comme l\'âge.</em> Un plan rond, une petite cour plantée au milieu qu\'on ne voit que d\'en haut, six chambres et une véranda tout autour. <b>On y accompagne ceux qui arrivent à zéro, et ça n\'a rien de caché</b> : c\'est un bâtiment du jardin comme les autres.'],
+ soleil:[840,428,44,'Section 0','<b>Le bâtiment soleil</b>, et c\'est le seul nom que les petits emploient : ils voient un soleil dans sa forme, et personne ne les a jamais contredits. <em>Le registre, lui, dit section 0 — zéro comme l\'âge.</em> Un plan rond, une petite cour plantée au milieu qu\'on ne voit que d\'en haut, six chambres et une véranda tout autour. <b>On y accompagne ceux qui arrivent à zéro, et ça n\'a rien de caché</b> : c\'est un bâtiment du jardin comme les autres.'],
  echelle:[104,676],
  etiq:[[700,60,'','entrée principale']]
 }];
@@ -669,21 +671,37 @@ function dessine(p){
   if(p.soleil){
     const [sx,sy,sr,snom,stxt]=p.soleil;
     const g=el('g',{},cB);
-    const dehors=tache(sx,sy,sr,sr*.9,15,.055,5501993);
-    const cour=tache(sx,sy,sr*.3,sr*.28,11,.09,7714402);
-    /* Le mur exterieur et la cour d'un seul trait : la cour est un trou. */
-    const mur=el('path',{d:dehors+' '+cour,'fill-rule':'evenodd',
+    const TAU=Math.PI*2, N=7;                 /* six chambres et la veranda */
+    const R=sr, ri=sr*.54, rc=sr*.30;
+    const gap=TAU/N*.19, tip=TAU/N*.40;
+    const pt=(a,r)=>[sx+Math.cos(a)*r, sy+Math.sin(a)*r];
+    const trace=q=>q.map((v,i)=>(i?'L':'M')+n2(v[0])+','+n2(v[1])).join(' ')+'Z';
+
+    /* le corps : un anneau, et sept ailes qui s'evasent */
+    let corps=[];
+    for(let i=0;i<N;i++){
+      const a=-Math.PI/2 + i*TAU/N;
+      corps.push(pt(a-gap,ri), pt(a-tip,R), pt(a+tip,R), pt(a+gap,ri));
+    }
+    /* la cour, au milieu */
+    const cour=[];
+    for(let i=0;i<8;i++) cour.push(pt(i/8*TAU + Math.PI/8, rc));
+
+    const mur=el('path',{d:trace(corps)+' '+trace(cour),'fill-rule':'evenodd',
       class:'bat fin','data-nom':snom},g);
     mur.style.cursor='pointer';
-    /* Les redents du pourtour, qui font le soleil. */
-    for(let i=0;i<16;i++){
-      const a=i/16*Math.PI*2;
-      const x1=sx+Math.cos(a)*sr*1.0, y1=sy+Math.sin(a)*sr*.9;
-      const x2=sx+Math.cos(a)*sr*1.16, y2=sy+Math.sin(a)*sr*1.06;
-      el('line',{x1:n2(x1),y1:n2(y1),x2:n2(x2),y2:n2(y2),
-        stroke:'#8d6c7a','stroke-width':1.4,'stroke-linecap':'round',opacity:.5},g);
-    }
-    el('text',{x:n2(sx),y:n2(sy+sr*1.34),class:'etiq','text-anchor':'middle'},cE)
+
+    /* la cour est hachuree : c'est ce qui la distingue d'un trou */
+    const cl=el('clipPath',{id:'cour-0'},g);
+    el('path',{d:trace(cour)},cl);
+    const gh=el('g',{'clip-path':'url(#cour-0)'},g);
+    for(let k=-8;k<=8;k++)
+      el('line',{x1:n2(sx-rc*1.4+k*4),y1:n2(sy-rc*1.4),
+                 x2:n2(sx+rc*1.4+k*4),y2:n2(sy+rc*1.4),class:'hachure'},gh);
+    el('path',{d:trace(cour),fill:'none',stroke:'#8d6c7a','stroke-width':1,
+      opacity:.8},g);
+
+    el('text',{x:n2(sx),y:n2(sy+R+15),class:'etiq','text-anchor':'middle'},cE)
       .textContent=snom;
     cliquable(g,snom,'le b\u00e2timent soleil',stxt,mur);
   }

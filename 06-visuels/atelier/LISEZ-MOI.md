@@ -10,7 +10,7 @@
 |---|---|
 | **Le parcours** | Le tableau des scènes, qui défile vers la droite. Trois voies : Andrew, le tronc commun, Joël. **Clique une scène** — son dossier d'écriture s'ouvre à droite : ce qui s'y passe, ce que la scène doit produire, ce qu'elle apprend du monde, les phrases à y placer, ce qu'il faut tenir, et ce qui reste à trancher. |
 | **Les chapitres** | Glisse les scènes dans des chapitres pour construire le plan. Un clic suffit aussi. **Tout est gardé dans le navigateur** et s'exporte en fichier texte. |
-| **Les notes** | 250 notes — tout ce qui s'est dit du 13 au 19 août, dans l'ordre. Tes mots sont cités tels quels, et en dessous ce que la décision a produit. Cherchable, filtrable. |
+| **Les notes** | 251 notes — tout ce qui s'est dit du 13 au 19 août, dans l'ordre. Tes mots sont cités tels quels, et en dessous ce que la décision a produit. Cherchable, filtrable. |
 | **Le glossaire** | *Onglet d'ouverture du Monde.* Les cinquante-et-un mots du livre, ordre alphabétique, définitions courtes — la page de fin de volume, telle qu'un lecteur perdu la lirait. |
 | **Le jardin** | Le plan du jardin — **la fermette** : l'étendue, les bêtes, la mare qui ride, les chats qui se promènent et le trajet d'Andrew qu'on peut lancer. Tout se clique. |
 | **Le monde** | Le lexique de travail, les règles, les onze interdits, le décompte des âges (avec son graphe), le calendrier, le dispositif des deux récits, et les faux raccords. |
