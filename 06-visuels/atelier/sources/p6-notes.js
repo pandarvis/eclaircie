@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Le jardin, trois plans`, e:`ouvert`, t:[`monde`,`visuel`],
+  v:`j'aimerais que tu me fasses un plan du jardin. cette fois je te passe pas de visuel, à toi de m'en proposer trois différents. tu te bases sur le plan de la ruche pour que l'architecture reste logique. le detail c'est ce qui fait qu'un monde est realiste. les details et imperfection rendent un monde vivant et coherent.`,
+  q:`✅ **Trois plans, et ils ne diffèrent pas par le décor.** *Ils répondent différemment à une seule question : qui passe devant les salles de fin de vie.* **A, le damier : elles donnent sur la cour, et quatre cents petits passent devant deux fois par jour. B, la couronne : elles sont au cœur du cœur, invisibles, la figure exacte de la ruche. C, les hameaux : le centre médical est à l'écart contre sa propre grille, et c'est le seul plan où quelqu'un peut entrer et sortir sans croiser âme qui vive.**
+
+🔴 **Le choix décide de la scène du tout-petit bercé**, puisqu'elle a lieu en passant devant une porte. *Un lieu qui cache, un lieu qui protège, ou un lieu qui isole.*
+
+⚠ **Un conflit dans le dossier, à arbitrer.** *Le 16 août : la pédiatre devient un homme, pour la parité. Le 19 : la médecin en chef qui observe.* **Ce n'est peut-être pas la même personne — mais si c'en est une seule, il faut choisir.**` },
+
 { d:`19 août`, s:`Le glossaire du monde, cinquante entrées`, e:`acquis`, t:[`monde`,`fabrication`],
   v:`Je veux aussi un glossaire pour toutes les dénominations du monde 2. Mais un glossaire propre, destiné à être lu rapidement. imagine le à la fin du livre pour un lecteur qui galère avec l'univers. ordre alphabétique, mot en gras, comme dans un dictionnaire. une description courte et efficace.`,
   q:`✅ **Cinquante entrées, d'Accueil à Voile.** *La source est 05-manuscrit/glossaire.md — c'est une page du livre, pas une fiche de travail. L'atelier n'en est qu'un miroir : on corrige le markdown, on relance glossaire.py, on refabrique.*
