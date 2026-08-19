@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`La sortie est devient droite, et l'écurie rentre`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`ton chemin nord-ouest / est va presque jusqu'à l'entrée est, puis revient en arrière, monte et contourne tous les bâtiments par la droite pour sortir. une fois que le chemin est sorti de l'étendue, il passe sous le centre médical et on est direct à la sortie. l'écurie doit être dans l'étendue, accolée au pré des poneys.`,
+  q:`⛔ **Le détour n'était pas un caprice du tracé : la porte était mal placée.** *Elle tombait pile derrière le centre médical, et il ne restait qu'une fente de vingt pixels entre le bâtiment et le mur. Le chemin ne pouvait pas y entrer, alors il remontait contourner tout le quartier par le nord.*
+
+✅ **La porte descend au bout du passage qui court sous le centre médical**, entre lui et la fin de vie. *La route passe dessous et sort tout droit : seize points au lieu de cinquante et un.*
+
+✅ **L'écurie est dans l'étendue, dans le pré des poneys.** *Elle était dehors, de l'autre côté du grand chemin, ce qui n'avait aucun sens : les poneys auraient eu à traverser pour rentrer le soir.*` },
+
 { d:`19 août`, s:`Le grand chemin, et les deux routes dictées`, e:`acquis`, t:[`monde`,`visuel`],
   v:`ce que tu appelles l'anneau je ne sais pour quelle raison, c'est le grand chemin qui délimite l'étendue du reste du jardin. [...] le chemin qui commence à l'entrée nord-ouest passe entre l'aire de jeu et le dortoir 5 et rejoint le grand chemin. [...] entre les bacs à sable et le réfectoire, entre le dortoir 3 et la salle de jeu, bifurque à gauche de l'écurie. [...] la porte de service (qui d'ailleurs doit être une porte normale). [...] entre le gymnase et le dortoir 7. [...] un carrefour quasiment au centre de l'étendue. le chemin du nord-ouest rejoint celui du service, et le chemin du sud-ouest rejoint celui de l'entrée principale. [...] le 1er passe entre le lac et le local technique, puis entre le pré des poneys et la cabane. le second passe entre le clapier et le poulailler, puis entre le lac et le pré des poneys, et longe l'abri par la droite.`,
   q:`⛔ **Le mot était faux et il induisait le dessin en erreur.** *J'appelais anneau ce qui est le grand chemin — celui qui délimite l'étendue du reste du jardin.* **Un anneau, on le longe ; un grand chemin, on le prend.** Renommé partout, et sa fiche le dit maintenant.
