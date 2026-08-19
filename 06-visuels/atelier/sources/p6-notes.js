@@ -1007,6 +1007,12 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Le trajet prend le chemin d'en bas, et il ne reste qu'un plan`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`on est quasi bon sauf pour le trajet : je veux qu'ils passent sur le chemin d'en bas comme mon tracé rouge. tu peux en profiter pour supprimer les 2 autres propositions du damier et de la couronne, ils sont obsolètes.`,
+  q:`✅ **Andrew et Isaac ne coupent plus par le milieu.** *Ils entrent au nord-ouest, rejoignent le grand chemin à l'ouest et suivent son arc sud :* **sous le local technique, sous les petites bêtes, sous le poulailler et les poules, sous le pré des chèvres**, puis ils remontent à l'est et entrent au centre médical par la porte du dessous. *La mare et le pré des poneys leur restent au nord — ils les voient, ils ne les traversent pas.*
+
+⛔ **Le damier et la couronne sont supprimés.** *Ils avaient servi à poser la question — qui passe devant la section 0 — et la réponse est prise.* **Il ne reste que la fermette, et le document s'appelle désormais le plan du jardin, sans pluriel.**` },
+
 { d:`19 août`, s:`La section 0, le bâtiment soleil`, e:`acquis`, t:[`monde`],
   v:`plutôt que "fin de vie" : j'aime pas trop... on pourrait le nommer le bâtiment soleil, surnommé comme ça parce que les enfants ont toujours l'impression de voir dans sa forme un soleil. tu nommes "section 0 (bâtiment soleil)", 0 pour 0 ans. [...] je comprends pas les traits en pointillé vert. [...] le trajet d'Andrew et Isaac arrive depuis le nord-ouest, passe par le chemin d'en dessous, longe le clapier, le poulailler, le pré des chèvres et ils peuvent voir le lac et le pré des chevaux au loin. leur point doit finir en dessous, la porte du centre médical est en dessous du bâtiment.`,
   q:`🔴 **Le mot fin de vie disparait du monde.** *C'est le bâtiment soleil, et c'est le seul nom que les petits emploient : ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* **Le registre, lui, dit section 0 — zéro comme l'âge.**
