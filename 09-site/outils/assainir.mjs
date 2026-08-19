@@ -4,7 +4,11 @@
    seulement quand elles s'apparient vraiment. Une balise fermante ne passe
    que si la balise ouvrante correspondante, plus tot dans le meme texte, a
    elle-meme ete autorisee : sinon un </em> orphelin pourrait refermer un
-   <em> legitime plus loin dans le paragraphe. */
+   <em> legitime plus loin dans le paragraphe. Et symetriquement, une balise
+   ouvrante qui n'est jamais refermee -- ou dont la fermeture tombe au
+   mauvais endroit dans un croisement -- n'a jamais ete vraiment autorisee
+   non plus : elle est echappee a la fin, comme si on ne l'avait pas laissee
+   passer des le depart. La sortie est donc toujours du HTML equilibre. */
 
 const BALISE = /<[^>]*>/g;
 const OUVRANTES = new Set(['<em>', '<strong>']);
@@ -16,8 +20,10 @@ function echapper(morceau) {
 
 export function assainir(texte) {
   const s = String(texte);
+  const morceaux = [];
+  /* La pile retient, pour chaque ouvrante gardee, son nom et l'indice du
+     morceau ou elle a ete posee -- pour pouvoir revenir dessus a la fin. */
   const pile = [];
-  let resultat = '';
   let position = 0;
 
   for (const trouvee of s.matchAll(BALISE)) {
@@ -25,20 +31,28 @@ export function assainir(texte) {
     const debut = trouvee.index;
 
     /* Le texte avant la balise s'echappe normalement. */
-    resultat += echapper(s.slice(position, debut));
+    morceaux.push(echapper(s.slice(position, debut)));
     position = debut + balise.length;
 
     if (OUVRANTES.has(balise)) {
-      pile.push(balise.slice(1, -1));
-      resultat += balise;
-    } else if (FERMANTES[balise] && pile[pile.length - 1] === FERMANTES[balise]) {
+      morceaux.push(balise);
+      pile.push({ nom: balise.slice(1, -1), indice: morceaux.length - 1 });
+    } else if (FERMANTES[balise] && pile.length > 0
+               && pile[pile.length - 1].nom === FERMANTES[balise]) {
       pile.pop();
-      resultat += balise;
+      morceaux.push(balise);
     } else {
-      resultat += echapper(balise);
+      morceaux.push(echapper(balise));
     }
   }
 
-  resultat += echapper(s.slice(position));
-  return resultat;
+  morceaux.push(echapper(s.slice(position)));
+
+  /* Ce qui reste sur la pile n'a jamais trouve sa fermante : ces
+     ouvrantes-la ne devaient pas passer, on les echappe apres coup. */
+  for (const { indice } of pile) {
+    morceaux[indice] = echapper(morceaux[indice]);
+  }
+
+  return morceaux.join('');
 }

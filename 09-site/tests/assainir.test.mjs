@@ -35,3 +35,14 @@ test('une balise autorisee avec un attribut est echappee', () => {
     '&lt;em onclick="vol()"&gt;x&lt;/em&gt;',
   );
 });
+
+test('une balise ouvrante jamais refermee est echappee', () => {
+  assert.equal(assainir('<em>jamais referme'), '&lt;em&gt;jamais referme');
+});
+
+test('un croisement de balises ne laisse rien d ouvert', () => {
+  assert.equal(
+    assainir('<em>a<strong>b</em>c</strong>'),
+    '&lt;em&gt;a<strong>b&lt;/em&gt;c</strong>',
+  );
+});
