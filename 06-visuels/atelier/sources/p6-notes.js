@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`Le bâtiment soleil a sept ailes`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`houla t'y es pas du tout pour la forme en soleil. moi je pensais à un truc dans ce style-là tu vois, le hachuré c'est la cour intérieure. [croquis]`,
+  q:`⛔ **J'avais fait un disque avec des piquants.** *Un rond, et seize petits traits plantés dessus — un soleil de dessin d'école, pas un bâtiment.*
+
+✅ **Le croquis de l'autrice montre autre chose : un anneau, et des ailes en trapèze qui s'élargissent vers l'extérieur, séparées par des encoches profondes.** *Ce sont des bâtiments, pas des rayons. C'est la forme qui fait le soleil, pas un ornement posé dessus.*
+
+🔴 **Sept ailes : six chambres et la véranda.** *Le compte était déjà dans la fiche, il ne demandait qu'à devenir un plan.* **Et la cour est hachurée, comme sur le croquis : c'est ce qui la distingue d'un trou.**` },
+
 { d:`20 août`, s:`Le jardin a été aménagé, et la section 0 prend la forme d'un soleil`, e:`acquis`, t:[`monde`,`visuel`],
   v:`le lieu ne s'est absolument pas fait tout seul ! il a été créé par l'homme comme on a créé des ehpad, des parcours de fin de vie, etc. [...] ça ne me choque pas, c'est toi qui as considéré qu'elle était recluse, comme si c'était tabou. ça ne l'est pas. après, le bâtiment mériterait effectivement de ressembler à une sorte de soleil, comme s'il avait été construit sur une base arrondie avec une petite cour intérieure visible depuis le ciel. [...] ils marchent d'un pas décidé, disons une dizaine de minutes.`,
   q:`⛔ **Ma critique du plan reposait sur un contresens.** *Je lui reprochais d'être trop régulier pour un lieu qui se serait fait tout seul.* **Le jardin n'a jamais été laissé à lui-même : il a été aménagé, comme on aménage un établissement.** La régularité des dortoirs et l'ovale du grand chemin ne sont pas des défauts, ce sont des preuves. *Le texte du plan le dit maintenant.*
