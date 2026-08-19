@@ -1,0 +1,62 @@
+---
+import Page from '../../layouts/Page.astro';
+import { assainir } from '../../../outils/assainir.mjs';
+import textes from '../../../donnees/textes.json';
+
+export function getStaticPaths() {
+  return textes.map((t, i) => ({
+    params: { id: t.id },
+    props: { texte: t, precedent: textes[i - 1] ?? null, suivant: textes[i + 1] ?? null },
+  }));
+}
+
+const { texte, precedent, suivant } = Astro.props;
+---
+<Page titre={`${texte.titre} — L'Éclaircie`}>
+  <article class="texte">
+    <header>
+      <p class="rang">{texte.rang}</p>
+      <h1>{texte.titre}</h1>
+    </header>
+
+    {texte.p.map(([balise, contenu, classe]) => (
+      balise === 'pause'
+        ? <p class="pause" aria-hidden="true">{contenu}</p>
+        : <p
+            class={[balise === 'tiret' ? 'tiret' : null, classe].filter(Boolean).join(' ')}
+            set:html={assainir(contenu)}
+          />
+    ))}
+
+    <nav>
+      {precedent && <a href={`/lire/${precedent.id}/`}>← {precedent.titre}</a>}
+      <a href="/">Sommaire</a>
+      {suivant && <a href={`/lire/${suivant.id}/`}>{suivant.titre} →</a>}
+    </nav>
+  </article>
+</Page>
+
+<style>
+  .texte { max-width: var(--mesure); margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+  header { margin-bottom: 3.5rem; }
+  .rang {
+    font-family: var(--sans); font-size: .75rem; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--texte-3); margin: 0 0 .5rem;
+  }
+  h1 { font-weight: 400; font-size: 2rem; margin: 0; }
+  p { margin: 0 0 1.35em; text-wrap: pretty; }
+  .tiret { text-indent: 0; }
+  /* Une respiration avant le dernier paragraphe, comme dans l'atelier. */
+  .fin { margin-top: 1.6em; }
+  .pause {
+    text-align: center; color: var(--texte-4); letter-spacing: .5em;
+    margin: 2.5em 0; user-select: none;
+  }
+  nav {
+    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+    margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--trait);
+    font-family: var(--sans); font-size: .85rem;
+  }
+  nav a { color: var(--texte-3); text-decoration: none; }
+  nav a:hover { color: var(--accent); }
+</style>
