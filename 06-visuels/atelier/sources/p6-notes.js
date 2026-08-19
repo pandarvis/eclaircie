@@ -1007,6 +1007,12 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Deux cabanons et les semelles s'en vont`, e:`acquis`, t:[`visuel`,`monde`],
+  v:`fais-moi sauter les 2 cabanons. et aussi, c'est quoi cette zone "les semelles du cinquième groupe" ?? je sais pas ce que ça représente, ça dégage aussi.`,
+  q:`⛔ **Les semelles étaient une bonne idée écrite et une mauvaise idée dessinée.** *Le béton d'un bâtiment jamais construit, qui dépasse encore de l'herbe — ça se raconte en une phrase et le lecteur voit tout de suite.* **Sur un plan, ça devient une tache sombre sans légende, et l'autrice a raison de demander ce que c'est.** Le dessin part, et le texte qui l'expliquait part avec lui : *une imperfection qui a besoin d'une notice n'est pas une imperfection, c'est une énigme.*
+
+✅ **Les deux cabanons anonymes sautent aussi.** *Ils ne servaient rien et ne disaient rien.* **Il reste le cabanon de l'est et le garage, qui appartiennent tous les deux au centre médical.**` },
+
 { d:`19 août`, s:`Les cabanons ne se chevauchent plus`, e:`acquis`, t:[`visuel`],
   v:`les cabanons se chevauchent.`,
   q:`⛔ **Ce n'étaient pas les bâtiments, c'étaient leurs étiquettes.** *Les rectangles ne se touchaient pas — le contrôleur le disait — mais leur nom était écrit à la verticale, faute de largeur, et une étiquette tournée déborde chez le voisin.* **Mon contrôle ne regarde que les formes, jamais le texte : il était vert pendant que le plan était illisible.**
