@@ -1,5 +1,11 @@
 # Incidences des notes du 13 août sur le plan
 
+> **Périmé sur la forme, valide sur le fond — 19 août 2026.**
+> Ce document raisonne en **actes et en mouvements numérotés**, un découpage remplacé
+> depuis par les **seize étapes** et les **trente-six scènes** de la frise. Les analyses
+> tiennent, les numéros ne renvoient plus à rien. Il est gardé parce que six documents
+> vivants le citent en source. **Pour situer une scène, ouvrir la frise, pas ce fichier.**
+
 Ce que les nouvelles idées changent, mouvement par mouvement.
 Le plan de référence reste le §13 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md).
 Calendrier et décompte dans [`duree-et-calendrier.md`](duree-et-calendrier.md).

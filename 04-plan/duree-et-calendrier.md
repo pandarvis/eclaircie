@@ -496,4 +496,4 @@ Le corps du livre prend quelques semaines dans une vie qui compte au moins cinqu
 - **[`../03-personnages/june.md`](../03-personnages/june.md)** — celui qui grandit est au jardin avant huit ans, donc dans la charge d'une berceuse dès le premier jour.
 - **[`../01-dossier/expliquer-le-systeme.md`](../01-dossier/expliquer-le-systeme.md)** — « le petit qui grandit » monte au jardin, et la vulgarisation gagne à le dire.
 - **[`../06-visuels/atelier/atelier.html`](../06-visuels/atelier/atelier.html)** — la carte « qui s'occupe de la croissance en dessous de huit ans ? » perd sa moitié « hors du jardin » ; la contradiction des vingt-trois arrivants de six ans passe de *ouvert* à *réglé*.
-- **[`../06-visuels/frise-narrative/frise-narrative.html`](../06-visuels/frise-narrative/frise-narrative.html)** — les courbes sont inchangées, seule la légende du lieu bougerait. **À ne toucher qu'après validation de l'autrice.**
+- **[`../06-visuels/atelier/atelier.html`](../06-visuels/atelier/atelier.html)**, onglet **Le monde** — les courbes du décompte sont inchangées, seule la légende du lieu bougerait. **À ne toucher qu'après validation de l'autrice.**

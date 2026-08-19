@@ -442,4 +442,4 @@ Le dispositif la rend possible : il y a des dates, elles sont écrites, elles so
 | [`../03-personnages/june.md`](../03-personnages/june.md) | *« qui arrive en dessous grandit jusqu'à huit, et le rejoindra »* — **il ne rejoint rien : il y est déjà.** La charge d'une berceuse comprend donc aussi des enfants qui montent |
 | [`la-ruche.md`](la-ruche.md) | protocole de nomination : un berceur nomme à huit ans et en dessous. **Le seuil du nom et le seuil du jardin ne coïncident plus seulement — ils sont la même ligne**, et l'enfant nommé par un berceur est celui qu'on emmène au jardin le jour même |
 | [`le-corps-des-arrivants.md`](le-corps-des-arrivants.md) | le suivi médical après l'éclaircie : **un arrivant sous huit ans relève des pédiatres du jardin dès le premier jour**, pas du suivi ordinaire. À vérifier et à trancher |
-| [`../01-dossier/recapitulatif-pour-validation.md`](../01-dossier/recapitulatif-pour-validation.md) | la décision du 16 août 2026 n'y figure pas encore |
+| l'atelier, onglet **Notes** | la décision du 16 août 2026 y est datée et citée |

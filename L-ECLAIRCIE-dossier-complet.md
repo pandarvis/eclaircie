@@ -1,22 +1,16 @@
-# L'ÉCLAIRCIE
-## Dossier de création — archive complète
-
-*Roman. Univers, système, personnages, plan et règles d'écriture.*
-> ## ⚠️ Deux chapitres sont écrits — au 18 août 2026
+> **État au 19 août 2026 — ce document n'est plus la source de vérité.**
+> Il reste à la racine, et il n'en bougera pas : tout le dossier le cite par ses
+> numéros de paragraphe. **On le lit pour ses §, plus pour ses conclusions.**
 >
-> **[Prologue — La cérémonie](05-manuscrit/chapitres/L-Eclaircie-Prologue.pdf)** · 2 655 mots · la cérémonie d'éclaircie d'Eliott et de Nicolas, du moment où Andrew entre dans la salle vide jusqu'à la porte refermée.
+> **Ce qu'il contient de faux :** une arrivante nommée **Erin**, qui n'existe plus dans
+> le casting ; une architecture en **quatre actes**, remplacée par les seize étapes de la
+> frise ; un tableau du **§7** calculé sur un palier à cinq ans et un plancher à trente,
+> périmés tous les deux ; le mot **peau**, proscrit partout depuis le 19 août ; et le plan
+> d'avant la bascule en deux récits.
 >
-> **[Épilogue](05-manuscrit/chapitres/L-Eclaircie-Epilogue.pdf)** · 2 631 mots · le jour de l'entrée au jardin, six ans plus tard.
->
-> *Les deux sont tenus dans l'atelier (`06-visuels/atelier/atelier.html`, onglet Chapitres), qui est la source : les PDF en sont générés. **Toute divergence entre ce dossier et l'atelier se tranche en faveur de l'atelier.***
->
-> ⚠️ **Ce dossier maître n'a toujours pas intégré la révision du §4** (on sort de la capsule en sachant parler), ni le rite complet de la cérémonie, ni la serre, ni le coulant, ni le rabat. *Voir [`02-univers/la-ruche.md`](02-univers/la-ruche.md) et [`02-univers/le-corps-des-arrivants.md`](02-univers/le-corps-des-arrivants.md).*
-
-*Document destiné à servir de base de travail. Tout est modifiable.*
-
-> **L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.**
-
-*Corrections appliquées les 15 et 16 août 2026 : §6, §4, §7, §8, §9, §10 (chuchoteurs), §11, §12, §15. **Le 16 août : le palier passe de cinq à huit ans, les moins de huit ans grandissent, le plancher de vie passe à quarante ans, et la fin devient incertaine pour les grands chiffres.** **D'autres corrections restent en attente de validation** — voir [`01-dossier/recapitulatif-pour-validation.md`](01-dossier/recapitulatif-pour-validation.md).*
+> **Où est la vérité :** dans `06-visuels/atelier/atelier.html` pour les décisions, le
+> lexique, les règles, les interdits et les textes ; dans `02-univers/`, `03-personnages/`
+> et `04-plan/` pour les développements. **En cas de désaccord, l'atelier a raison.**
 
 ---
 

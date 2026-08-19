@@ -1,11 +1,14 @@
 # Le manuscrit
 
-*Ce qui est écrit du roman, au 18 août 2026.*
+*Ce qui est écrit du roman, au 19 août 2026.*
 
 | | Chapitre | Mots | Scène | Écrit |
 |---|---|---|---|---|
 | **Prologue** | [La cérémonie](chapitres/L-Eclaircie-Prologue.pdf) | 2 655 | `ouv` | 17–18 août 2026 |
+| **Chapitre premier** | [Une journée à la ruche](chapitres/L-Eclaircie-Chapitre-1.pdf) | 3 490 | `capsule` | 19 août 2026, seize passes |
 | **Épilogue** | [Épilogue](chapitres/L-Eclaircie-Epilogue.pdf) | 2 631 | `jardin-fin` | 16 août 2026 |
+
+**8 776 mots.** Le brouillon en cours d'un chapitre vit dans `chapitres/en-cours/` ; il n'a pas d'autorité sur l'atelier.
 
 ---
 
@@ -15,7 +18,7 @@
 
 Chaque chapitre y porte son appareil : **ce que le texte tient**, **ce qu'il laisse ouvert**, et un lien vers sa scène sur la frise.
 
-## Ce que les deux chapitres forment ensemble
+## Ce que le prologue et l'épilogue forment ensemble
 
 **Ils encadrent le livre, et ils se répondent au mot près.**
 
