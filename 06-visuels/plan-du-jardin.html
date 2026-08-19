@@ -442,7 +442,7 @@ const PLANS=[
   ['Les deux derniers dortoirs sont plus grands','Bâtis trente ans après les autres. Fenêtres plus hautes, crépi d\'une autre teinte, et tout le monde le sait.'],
   ['La fresque s\'arrête au gymnase','On l\'a adossé au mur bien plus tard. Les dessins reprennent de l\'autre côté, en plus petit.'],
   ['Un sentier contre la margelle','Personne ne l\'a tracé. À force de longer l\'eau pour regarder dedans, l\'herbe n\'a pas repoussé.']],
- grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[940,330,'est',0],[330,628,'sud-ouest',0],[560,646,'sud',1]],
+ grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[934,380,'est',0],[330,628,'sud-ouest',0],[560,646,'sud',1]],
  sentiers:[[[688,360],[700,430],[712,466]]],
  etendue:[468,388,180,140],
  /* L'anneau : le tour de l'etendue, plus large que le reste. C'est celui
@@ -450,9 +450,9 @@ const PLANS=[
  anneau:[[468,236],[556,250],[624,286],[656,340],[652,410],[616,470],[548,514],[468,530],[386,516],[320,478],[286,418],[292,348],[334,286],[398,250]],
  /* Deux chemins la traversent pour de bon, et se croisent pres de la mare. */
  routes:[
-  {de:`nord-ouest`,a:`est`,pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[327,389],[333,404],[375,404],[378,407],[492,404],[504,395],[516,392],[561,392],[567,386],[588,386],[642,359],[693,359],[696,356],[723,356],[741,374],[786,374],[798,383],[834,383],[843,374],[891,374],[897,371],[744,371],[705,332],[705,311],[696,302],[696,254],[684,242],[687,182],[693,170],[693,98],[696,95],[762,95],[774,107],[831,113],[834,116],[855,116],[870,122],[870,137],[909,176],[909,233],[921,245],[924,254],[924,293],[940,330]]},
-  {de:`sud-ouest`,a:`principale`,pts:[[330,628],[366,593],[366,584],[375,569],[375,545],[393,524],[393,488],[402,479],[405,446],[441,410],[462,404],[468,278],[501,278],[510,269],[585,269],[627,245],[651,224],[675,197],[675,152],[681,146],[681,113],[700,74]]}],
- trajet:{pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[327,389],[333,404],[492,404],[516,392],[561,392],[567,386],[588,386],[642,359],[687,359],[693,365],[752,368]]},
+  {de:`nord-ouest`,a:`est`,pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[327,389],[333,404],[492,404],[516,392],[606,386],[648,365],[729,365],[747,383],[934,380]]},
+  {de:`sud-ouest`,a:`principale`,pts:[[330,628],[366,593],[366,584],[375,569],[375,545],[393,524],[393,488],[402,479],[405,446],[441,410],[462,404],[468,278],[489,278],[510,260],[549,257],[567,239],[627,239],[645,224],[651,224],[675,197],[675,152],[681,146],[681,113],[700,74]]}],
+ trajet:{pts:[[115,208],[177,272],[189,299],[207,305],[225,323],[249,323],[273,335],[327,389],[333,404],[492,404],[516,392],[606,386],[648,365],[741,365],[752,372]]},
  eau:[385,350,56,40],
  pres:[
   [546,328,56,42,'Le pré des poneys','poney',3],
@@ -469,7 +469,7 @@ const PLANS=[
   ['commun',504,102,150,64,'Réfectoire','Les repas arrivent de la ville en camion, deux fois par jour. On les réchauffe ici, on ne les fait pas. Les œufs, eux, viennent du poulailler.',3],
   ['commun',227,507,124,64,'Gymnase','Adossé au mur, ce qui coupe la fresque. Sol souple, filets aux fenêtres, une odeur qui ne part jamais.',-6],
   ['commun',694,182,112,60,'Salle de jeu','Pour les jours de pluie, et il pleut souvent. Le parquet est marqué aux endroits où les tables reviennent toujours.',5],
-  ['ferme',632,266,52,26,'L\'écurie','Quatre boxes, une sellerie, du foin jusqu\'au plafond. Les poneys y rentrent seuls le soir, et l\'un d\'eux sait ouvrir le loquet.',6],
+  ['ferme',584,296,34,22,'L\'écurie','Quatre boxes, une sellerie, du foin jusqu\'au plafond. Elle est dans l\'étendue, accolée au pré : les poneys y rentrent seuls le soir, et l\'un d\'eux sait ouvrir le loquet.',4],
   ['ferme',416,450,36,18,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',16],
   ['ferme',352,472,32,16,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
   ['ferme',400,268,54,22,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
