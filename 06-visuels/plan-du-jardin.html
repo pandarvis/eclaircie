@@ -84,7 +84,7 @@ aside em{color:var(--or-pale);font-style:italic}
 .pelouse{fill:#12201a;stroke:#25392a;stroke-width:.9}
 .beton{fill:#1a1e22;stroke:#2c333a;stroke-width:.9}
 
-.etendue{fill:#101d17;stroke:#2b4231;stroke-width:1.2}
+.etendue{fill:#101d17;stroke:none}
 .pre{fill:#152418;stroke:#3d5a3a;stroke-width:1.1;stroke-dasharray:6 4}
 .enclos{fill:#1a1d15;stroke:#6d7a52;stroke-width:1.1;stroke-dasharray:4 3}
 .eau{fill:#0d2130;stroke:none}
@@ -155,17 +155,20 @@ aside em{color:var(--or-pale);font-style:italic}
   stroke-linejoin:round;opacity:.9}
 .chemin-fond{fill:none;stroke:#221d14;stroke-width:5.6;stroke-linecap:round;
   stroke-linejoin:round}
-.anneau{fill:none;stroke:#8a7350;stroke-width:5.4;stroke-linecap:round;
-  stroke-linejoin:round;opacity:.92}
-.anneau-fond{fill:none;stroke:#241f16;stroke-width:8.4;stroke-linecap:round;
+.anneau{fill:none;stroke:#8d7856;stroke-width:9;stroke-linecap:round;
+  stroke-linejoin:round;opacity:.95}
+.anneau-fond{fill:none;stroke:#33291c;stroke-width:12.6;stroke-linecap:round;
   stroke-linejoin:round}
+.anneau-grain{fill:none;stroke:#b9a37c;stroke-width:9;stroke-linecap:butt;
+  stroke-dasharray:.8 4.2;opacity:.32}
 /* L'herbe : de petits traits qui prennent le vent, chacun a son heure. */
-.herbe{stroke:#3f6042;stroke-width:1.1;stroke-linecap:round;fill:none;opacity:.55;
+.herbe{stroke:#4f7a52;stroke-width:1.2;stroke-linecap:round;fill:none;opacity:.7;
   transform-box:fill-box;transform-origin:bottom center;
-  animation:souffle 4.6s ease-in-out infinite}
+  animation:souffle 3.4s ease-in-out infinite}
 @keyframes souffle{
-  0%,100%{transform:rotate(-5deg)}
-  50%{transform:rotate(6deg)}
+  0%{transform:rotate(-14deg)}
+  50%{transform:rotate(15deg)}
+  100%{transform:rotate(-14deg)}
 }
 #g-trajet{display:none}
 #g-trajet.vu{display:block}
@@ -409,12 +412,14 @@ const PLANS=[
   ['La fresque s\'arrête au gymnase','On l\'a adossé au mur bien plus tard. Les dessins reprennent de l\'autre côté, en plus petit.'],
   ['Un sentier contre la margelle','Personne ne l\'a tracé. À force de longer l\'eau pour regarder dedans, l\'herbe n\'a pas repoussé.']],
  grilles:[[115,208,'nord-ouest',0],[700,74,'principale',0],[940,330,'service',0],[330,628,'sud-ouest',0],[560,646,'sud',1]],
- allees:[[[115,208],[196,246],[258,306],[264,404],[300,494],[392,552],[520,566],[628,540],[676,462],[688,360],[652,270],[560,224],[430,220],[330,244],[268,306]],
-         [[700,74],[694,140],[664,196],[604,222]],
-         [[940,330],[856,330],[790,338]],
-         [[688,360],[766,344]],
-         [[264,404],[176,398]],
-         [[392,552],[352,596],[330,628]]],
+ allees:[[[115,208],[196,246],[262,300],[300,332]],
+         [[700,74],[694,140],[660,200],[628,262]],
+         [[940,330],[856,332],[766,338],[662,344]],
+         [[790,338],[790,300],[810,266]],
+         [[292,378],[230,392],[176,398]],
+         [[468,530],[472,576],[520,566]],
+         [[386,516],[366,556],[352,596],[330,628]],
+         [[548,514],[600,548],[664,536]]],
  sentiers:[[[688,360],[700,430],[712,466]]],
  etendue:[468,388,180,140],
  /* L'anneau : le tour de l'etendue, plus large que le reste. C'est celui
@@ -432,8 +437,8 @@ const PLANS=[
   [560,318,74,50,'Le pré des poneys','poney',3],
   [560,452,58,40,'Le pré des chèvres','chevre',4]],
  encl:[
-  [444,474,42,28,'Les poules','poule',4],
-  [322,470,40,26,'Les petites bêtes',['lapin','lapin','cochon','cochon'],4]],
+  [466,486,36,22,'Les poules','poule',4],
+  [356,462,34,20,'Les petites bêtes',['lapin','lapin','cochon','cochon'],4]],
  chats:[[.05,1],[.42,-1],[.71,1]],
  zones:[['pelouse',[[196,132],[268,120],[286,186],[210,196]]]],
  sport:[[330,92,152,74,'Le terrain']],
@@ -444,9 +449,9 @@ const PLANS=[
   ['commun',230,500,124,64,'Gymnase','Adossé au mur, ce qui coupe la fresque. Sol souple, filets aux fenêtres, une odeur qui ne part jamais.',-6],
   ['commun',694,182,112,60,'Salle de jeu','Pour les jours de pluie, et il pleut souvent. Le parquet est marqué aux endroits où les tables reviennent toujours.',5],
   ['ferme',600,266,52,26,'L\'écurie','Quatre boxes, une sellerie, du foin jusqu\'au plafond. Les poneys y rentrent seuls le soir, et l\'un d\'eux sait ouvrir le loquet.',6],
-  ['ferme',416,444,34,18,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',-4],
-  ['ferme',294,462,34,18,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
-  ['ferme',392,494,58,24,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
+  ['ferme',430,452,36,18,'Le poulailler','Une cabane sur pilotis, une échelle, une trappe. Ce sont les petits qui ramassent, et il y a un tableau à la porte pour dire qui ramasse quand.',16],
+  ['ferme',346,432,32,16,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
+  ['ferme',424,284,54,22,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
   ['ferme',494,392,44,22,'La cabane','Le foin, les seaux, les brosses, les bottes en trois tailles. Ça sent la paille mouillée toute l\'année.',-5],
   ['ferme',316,398,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
   ['bat',196,120,100,52,'Dortoirs 1','Vingt petits, quatre berceurs, un salon commun et une buanderie. Les fenêtres du bas ont des barreaux ronds peints en jaune.',-5],
@@ -564,23 +569,28 @@ function dessine(p){
   if(p.etendue){
     const [ex,ey,erx,ery]=p.etendue;
     const ge=el('g',{class:'zone'},cB);
-    el('path',{d:tache(ex,ey,erx,ery,13,.09),class:'etendue'},ge);
+    /* Pas de contour a elle : c'est la grande allee qui la delimite. */
+    el('path',{d:lisse(p.anneau,.48),class:'etendue'},ge);
     cliquable(ge,"L'étendue",LIEUX["L'étendue"][0],LIEUX["L'étendue"][1]);
 
     /* L'herbe, avant tout le reste : elle passe dessous. */
-    for(let i=0;i<120;i++){
-      const a=alea()*Math.PI*2, k=Math.sqrt(alea())*.97;
+    /* Les touffes penchent toutes du meme cote, mais jamais en meme temps :
+       c'est ce decalage qui fait le vent. */
+    for(let i=0;i<170;i++){
+      const a=alea()*Math.PI*2, k=Math.sqrt(alea())*.94;
       const hx=ex+Math.cos(a)*erx*k, hy=ey+Math.sin(a)*ery*k;
-      const t=el('path',{d:`M${n2(hx)},${n2(hy)} q${n2(-1+alea()*2)},-3 ${n2(-1.4+alea()*2.8)},-5.4`,
-        class:'herbe'},cB);
-      t.style.animationDelay=n2(alea()*4.6)+'s';
-      t.style.animationDuration=n2(3.6+alea()*2.6)+'s';
+      const h=7+alea()*4;
+      const t=el('path',{d:`M${n2(hx)},${n2(hy)} q${n2(1+alea()*2.4)},${n2(-h*.55)} `
+        +`${n2(1.6+alea()*3)},${n2(-h)}`, class:'herbe'},cB);
+      t.style.animationDelay=n2(-alea()*3.4)+'s';
+      t.style.animationDuration=n2(2.8+alea()*1.8)+'s';
     }
     if(p.anneau){
       const d=lisse(p.anneau,.48);
       const ga=el('g',{class:'zone'},cB);
       el('path',{d,class:'anneau-fond'},ga);
       el('path',{d,class:'anneau'},ga);
+      el('path',{d,class:'anneau-grain'},ga);   /* le gravier */
       cliquable(ga,"L'anneau",LIEUX["L'anneau"][0],LIEUX["L'anneau"][1]);
     }
     if(p.chemin){
@@ -753,13 +763,21 @@ function dessine(p){
        pas dans la mare. Le reste du jardin lui appartient. */
     const murs=(p.bat||[]).map(o=>[o[1]-3,o[2]-3,o[3]+6,o[4]+6])
       .concat((p.jeux||[]).map(o=>[o[0],o[1],o[2],o[3]]));
+    /* Le mur dessine est le trace lisse, qui rentre a l'interieur des
+       angles du polygone. On teste donc la forme, pas les points. */
+    const enceinte=el('path',{d:lisse(dilate(p.mur,-14)),fill:'none',stroke:'none'},cA);
+    const pt=svg.createSVGPoint();
     const libre=(x,y)=>{
-      if(!dedans(p.mur,[x,y])) return false;
+      pt.x=x; pt.y=y;
+      if(!enceinte.isPointInFill(pt)) return false;
       if(murs.some(([a2,b2,w,h])=>x>a2&&x<a2+w&&y>b2&&y<b2+h)) return false;
       if(p.eau){
         const [mx,my,mrx,mry]=p.eau;
         if(Math.pow((x-mx)/(mrx+3),2)+Math.pow((y-my)/(mry+3),2) < 1) return false;
       }
+      /* Un chat ne va pas se promener chez les poules. Enfin, celui-ci non. */
+      for(const [zx,zy,zrx,zry] of (p.pres||[]).concat(p.encl||[]))
+        if(Math.pow((x-zx)/(zrx+4),2)+Math.pow((y-zy)/(zry+4),2) < 1) return false;
       return true;
     };
     p.chats.forEach(()=>{

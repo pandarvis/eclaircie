@@ -1007,6 +1007,16 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Une seule allee, et c'est elle qui delimite l'etendue`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`les chats sortent plus loin, la ou j'ai hachuré en rouge. [...] il n'y a pas d'animation sur l'herbe, un petit mouvement des traits comme si le vent passait ça serait bien. l'étendue a une délimitation pas jolie, le chemin pourrait servir de délimitation. par ailleurs on dirait qu'il y a 2 chemins. j'en veux qu'un, que tout le monde emprunte, assez large, des graviers, comme une grande allée pour piétons cyclistes. le bâtiment des poules a une orientation qui pourrait suivre la courbe de l'étendue. le clapier ne doit pas sortir de l'étendue. idéalement, les chats pourraient éviter de se balader dans les zones des autres animaux.`,
+  q:`⛔ **Les chats sortaient par où le dessin ment.** *Je testais le polygone du mur ; le mur affiché est le tracé lissé, qui rentre à l'intérieur des angles.* **On teste désormais la forme elle-même, pas ses points.** *Trois cent soixante relevés : aucun chat dehors, aucun dans un bâtiment, aucun dans la mare, aucun chez les autres bêtes.*
+
+✅ **Il y avait deux anneaux presque confondus — l'allée de ceinture et le tour de l'étendue.** *C'est ce qui faisait ce doublon qu'on voyait sans savoir le nommer.* **Il n'en reste qu'un, large, en graviers, piétons et cyclistes, et les allées des grilles viennent s'y brancher.**
+
+🔴 **L'étendue n'a plus de contour à elle : c'est l'allée qui la délimite.** *Une bordure dessinée à côté d'un chemin qui suit la même courbe, c'est une ligne de trop.*
+
+⚠ **L'herbe se voit enfin bouger** — cent soixante-dix touffes plus longues, un balancement trois fois plus ample, et chacune à son heure.` },
+
 { d:`19 août`, s:`Des points, pas des têtes, et une surbrillance qui se voit`, e:`acquis`, t:[`visuel`],
   v:`le chat, il passe dans l'eau et il traverse les batiments ahah [...] le clapier se superpose avec le local technique et... tant pis, fais juste des points pour les animaux de differentes couleurs parce que c'est pas super joli en fait... et la surbrillance, elle est pas assez dominante si tu compares avec la ruche.`,
   q:`⛔ **Le chat marchait sur l'eau.** *Je ne testais que l'enceinte : il traversait la mare et les murs.* **Il connaît maintenant le bâti et la mare, et quand il bute il tourne — comme il ferait.** *Vérifié sur quatre cent vingt relevés : aucune patte dans l'eau, aucun mur traversé.*
