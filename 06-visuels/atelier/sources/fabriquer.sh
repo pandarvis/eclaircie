@@ -22,3 +22,4 @@ cat p5-scenes.js p6-notes.js p7-monde.js p8-gens.js p9-trancher.js \
   | sed '1s|<script>||' | sed 's|</script>||;s|</body>||;s|</html>||' > check.js
 node ../valide.js
 rm -f check.js combo.js
+echo "FABRICATION OK"

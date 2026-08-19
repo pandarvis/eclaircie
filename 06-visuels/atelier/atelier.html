@@ -3326,9 +3326,9 @@ const NOTES = [
   v:`ton lac grignote le chemin de droite maintenant. au passage il n'est toujours pas de la bonne forme. il part toucher les chemins et au fur et à mesure, le chemin de base passe à travers les bâtiments. on n'est pas bon. attention, les chemins ne doivent pas rentrer dans des bâtiments ou local, cabanon, etc, le lac ne doit pas toucher non plus !`,
   q:`⛔ **Je corrigeais à l'œil, et c'est pour ça que chaque réparation en cassait une autre.** *Le contrôleur existant ne voyait que les rectangles entre eux : il ne regardait pas les tracés.* **Deux outils neufs règlent ça pour de bon.**
 
-✅ **`verifier-les-chemins.py` ouvre la page dans un navigateur et mesure les vrais tracés**, pas les points dont ils sont issus — *ils sont lissés au rendu, leur forme ne se calcule pas.* Il teste la largeur du chemin, pas son axe : **une allée de neuf pixels mord un bâtiment que son axe évite.** Treize fautes au premier passage.
+✅ **verifier-les-chemins.py ouvre la page dans un navigateur et mesure les vrais tracés**, pas les points dont ils sont issus — *ils sont lissés au rendu, leur forme ne se calcule pas.* Il teste la largeur du chemin, pas son axe : **une allée de neuf pixels mord un bâtiment que son axe évite.** Treize fautes au premier passage.
 
-✅ **`degager-les-chemins.py` les répare :** *pour chaque bâtiment qui touche une voie, il cherche le plus petit déplacement qui le dégage — seize directions, par pas de deux — sans le sortir du mur, sans le mettre dans l'eau, sans le poser sur un voisin.* **Onze bâtiments et la mare déplacés, plus rien ne mord rien.**
+✅ **degager-les-chemins.py les répare :** *pour chaque bâtiment qui touche une voie, il cherche le plus petit déplacement qui le dégage — seize directions, par pas de deux — sans le sortir du mur, sans le mettre dans l'eau, sans le poser sur un voisin.* **Onze bâtiments et la mare déplacés, plus rien ne mord rien.**
 
 🔴 **La mare ne sera plus jamais tirée au hasard : son contour est écrit, quinze points, une fois pour toutes.** *C'est la silhouette que l'autrice a retenue, et aucun ajout ailleurs ne peut plus la déformer.*` },
 
