@@ -7,3 +7,9 @@ desktop.ini
 ~$*
 *.tmp
 *.bak
+
+# fichiers intermediaires de fabrication
+check.js
+combo.js
+sonde*.html
+vue*.html

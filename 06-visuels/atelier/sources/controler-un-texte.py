@@ -64,7 +64,7 @@ def controle(chemin):
     lg = sorted(len(MOTS.findall(x)) for x in ph)
     mots = MOTS.findall(t)
     adv = [w for w in mots if w.lower().endswith('ment') and len(w) > 6
-           and w.lower() not in FAUX_ADVERBES]
+           and re.sub(r"^[ldjcnstm]'", '', w.lower()) not in FAUX_ADVERBES]
     ronds = [w for w in re.findall(r'\b(dix|vingt|trente|quarante|cinquante|soixante|'
                                    r'cent|mille)\b(?!-)', t, re.I)]
 
