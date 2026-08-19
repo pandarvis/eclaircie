@@ -1,7 +1,42 @@
 ---
-// Page temoin : remplacee par le sommaire a la tache 6.
+import Page from '../layouts/Page.astro';
+import textes from '../../donnees/textes.json';
 ---
-<html lang="fr">
-  <head><meta charset="utf-8" /><title>L'Éclaircie</title></head>
-  <body><p>Le socle tient.</p></body>
-</html>
+<Page titre="L'Éclaircie">
+  <main class="sommaire">
+    <h1>L'Éclaircie</h1>
+    <p class="exergue">
+      L'irréparable est condamné, le réparable est pardonné, le meurtri est gracié.
+    </p>
+
+    <ol>
+      {textes.map((t) => (
+        <li>
+          <a href={`/lire/${t.id}/`}>
+            <span class="rang">{t.rang}</span>
+            <span class="titre">{t.titre}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+
+    <p class="etat">Un roman en cours d'écriture.</p>
+  </main>
+</Page>
+
+<style>
+  .sommaire { max-width: var(--mesure); margin: 0 auto; padding: 4rem 1.5rem; }
+  h1 { font-weight: 400; font-size: 2.25rem; letter-spacing: .01em; margin: 0 0 1.5rem; }
+  .exergue { color: var(--texte-2); font-style: italic; margin: 0 0 3rem; }
+  ol { list-style: none; padding: 0; margin: 0; }
+  li { border-top: 1px solid var(--trait); }
+  li:last-child { border-bottom: 1px solid var(--trait); }
+  a { display: flex; flex-direction: column; gap: .2rem; padding: 1.1rem 0; text-decoration: none; }
+  a:hover .titre { color: var(--accent); }
+  .rang {
+    font-family: var(--sans); font-size: .75rem; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--texte-3);
+  }
+  .titre { font-size: 1.25rem; transition: color .16s; }
+  .etat { margin-top: 3rem; font-family: var(--sans); font-size: .8rem; color: var(--texte-4); }
+</style>
