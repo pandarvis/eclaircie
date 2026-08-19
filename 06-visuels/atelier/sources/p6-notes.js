@@ -1007,6 +1007,14 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`Les portes s'alignent sur le mur, la ride reste dans l'eau`, e:`acquis`, t:[`visuel`],
+  v:`pourquoi le trait des portes n'est pas aligné avec le mur ? et pour l'eau, les pointillés de l'animation sortent de la zone de la mare.`,
+  q:`⛔ **Les portes s'orientaient sur le rayon partant du centre du jardin.** *Sur un cercle ça marcherait ; le mur est une courbe irrégulière, et le rayon ne coïncide presque jamais avec la tangente.* **Chaque porte tombait donc de travers, d'autant plus que le mur s'écarte du cercle.**
+
+✅ **On demande maintenant au tracé lui-même où il passe et dans quel sens il va.** *Le vantail se pose dans l'axe du mur, les barreaux en travers, et l'étiquette part vers le dehors le long de la normale.* **La porte est posée sur le mur, plus à côté.**
+
+✅ **La ride de la mare était une seconde tache tirée au hasard**, et rien ne la retenait dans l'eau. *Elle vient du même contour écrit, réduit de deux cinquièmes : elle ne peut plus sortir.*` },
+
 { d:`19 août`, s:`Deux cabanons et les semelles s'en vont`, e:`acquis`, t:[`visuel`,`monde`],
   v:`fais-moi sauter les 2 cabanons. et aussi, c'est quoi cette zone "les semelles du cinquième groupe" ?? je sais pas ce que ça représente, ça dégage aussi.`,
   q:`⛔ **Les semelles étaient une bonne idée écrite et une mauvaise idée dessinée.** *Le béton d'un bâtiment jamais construit, qui dépasse encore de l'herbe — ça se raconte en une phrase et le lecteur voit tout de suite.* **Sur un plan, ça devient une tache sombre sans légende, et l'autrice a raison de demander ce que c'est.** Le dessin part, et le texte qui l'expliquait part avec lui : *une imperfection qui a besoin d'une notice n'est pas une imperfection, c'est une énigme.*
