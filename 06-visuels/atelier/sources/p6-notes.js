@@ -1007,6 +1007,22 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Le glossaire du monde, cinquante entrées`, e:`acquis`, t:[`monde`,`fabrication`],
+  v:`Je veux aussi un glossaire pour toutes les dénominations du monde 2. Mais un glossaire propre, destiné à être lu rapidement. imagine le à la fin du livre pour un lecteur qui galère avec l'univers. ordre alphabétique, mot en gras, comme dans un dictionnaire. une description courte et efficace.`,
+  q:`✅ **Cinquante entrées, d'Accueil à Voile.** *La source est 05-manuscrit/glossaire.md — c'est une page du livre, pas une fiche de travail. L'atelier n'en est qu'un miroir : on corrige le markdown, on relance glossaire.py, on refabrique.*
+
+⛔ **Ce que j'en ai écarté :** le sismographe, la dernière grâce, la couture, l'affaire Sorel, la règle des retrouvailles. *Ce sont des mots d'autrice, pas des mots du monde — et trois d'entre eux racontent la fin.* **Un glossaire de fin de volume se lit pendant la lecture : il ne peut rien savoir que le lecteur ne sache déjà.**
+
+🔴 **Le contrôleur vérifie désormais l'ordre alphabétique, les doublons et la longueur des définitions.**` },
+
+{ d:`19 août`, s:`Le style, mesuré sur les trois textes`, e:`acquis`, t:[`écriture`],
+  v:`analyser le style d'écriture des 3 chapitres validés. analyser les temps, les accords, les descriptions, etc. Je t'ai souvent repris sur des tournures de phrases pas belles, sur des répétitions, sur le fait qu'on ne savait plus de qui on parlait (il elle) des phrases anormalement trop longues... Et tu me ressors un template d'écriture.`,
+  q:`✅ **01-dossier/le-style.md, établi en mesurant, pas en opinant.** *Médiane à onze mots par phrase, un cinquième du texte en cinq mots ou moins, trois phrases seulement dépassent quarante mots dans tout le livre, zéro parenthèse, un point-virgule pour mille mots.*
+
+🔴 **Le diagnostic que l'autrice avait senti sans le chiffrer :** *« ce premier chapitre n'est absolument pas harmonieux ».* **Le chapitre premier a deux fois plus de négations que le prologue, cinq fois plus de « jamais », huit fois plus de conditionnel, et des paragraphes bien plus longs.** *Parce que c'est lui qui doit apprendre le monde au lecteur, et qu'à chaque fois j'ai écrit ce que la chose n'était pas.*
+
+⛔ **Règle qui en sort : on n'explique jamais un objet du monde par ce qu'il n'est pas.** *Dire ce qu'une chose n'est pas, c'est encore l'invoquer — exactement l'erreur corrigée sur la capsule pourrie.*` },
+
 { d:`19 août`, s:`La douzième capsule n'est pas un fil`, e:`acquis`, t:[`écriture`,`structure`],
   v:`et pour la capsule apparente... en fait je vois pas trop quoi en faire.. c'est un fait qui n'apportera rien je pense...`,
   q:`✅ **La scène reste entière.** *C'est elle qui porte tout le reste : le désaccord de comptage donne la conversation à trois, la conversation donne les quatre relevés minimum, la capsule flash, le tableau noir des salles, et surtout la hiérarchie des deux métiers.* **La couper coûterait la moitié du chapitre pour économiser une promesse.**

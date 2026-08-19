@@ -8,13 +8,32 @@ const coupe = src.indexOf('const $  = (s, r)');
 src = src.slice(0, coupe > 0 ? coupe : src.length);
 src += `
 ;globalThis.__d = { SCENES, LIENS, NOTES, QUESTIONS, TEXTES, VOIES, ACTES,
-                    LEXIQUE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
+                    LEXIQUE, GLOSSAIRE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
 
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(src, ctx);
 const d = ctx.__d;
 
 const pb = [];
+
+/* Le glossaire est une page du livre : il se lit dans l'ordre, et une entree
+   hors d'ordre ou en double se voit tout de suite a la lecture. */
+{
+  const plat = m => m.toLowerCase()
+    .replace(/[éèê]/g, 'e').replace(/[àâ]/g, 'a')
+    .replace(/ç/g, 'c').replace(/[ôö]/g, 'o')
+    .replace(/[ûù]/g, 'u').replace(/[îï]/g, 'i')
+    .replace(/[«»"]/g, '').trim();
+  const mots = d.GLOSSAIRE.map(([m]) => m);
+  if (new Set(mots).size !== mots.length) pb.push('glossaire : entree en double');
+  for (let i = 1; i < mots.length; i++)
+    if (plat(mots[i]) < plat(mots[i - 1]))
+      pb.push('glossaire hors ordre : ' + mots[i - 1] + ' avant ' + mots[i]);
+  d.GLOSSAIRE.forEach(([m, def]) => {
+    if (!def || def.length < 20) pb.push('glossaire : definition trop courte pour ' + m);
+    if (def && def.length > 460) pb.push('glossaire : definition trop longue pour ' + m);
+  });
+}
 const trous = [];
 d.SCENES.forEach((s, i) => { if (s === undefined) trous.push(i); });
 if (trous.length) pb.push('trous dans SCENES : ' + trous.join(', '));
@@ -73,6 +92,7 @@ console.log('liens       ', d.LIENS.length);
 console.log('notes       ', d.NOTES.length);
 console.log('questions   ', d.QUESTIONS.length);
 console.log('lexique     ', d.LEXIQUE.length, '· règles', d.REGLES.length, '· interdits', d.INTERDITS.length);
+console.log('glossaire   ', d.GLOSSAIRE.length, 'entrées');
 console.log('gens        ', d.GENS.length, '· phrases', d.PHRASES.length);
 console.log('chapitres   ', d.TEXTES.length, '(' + mots.join(', ') + ' mots)');
 console.log('à trouver   ', d.SCENES.filter(s => s.statut === 'trou').length, 'scènes');

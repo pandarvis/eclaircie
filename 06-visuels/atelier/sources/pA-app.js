@@ -540,7 +540,7 @@ rendreNotes();
    VUE 4 — LE MONDE
    ========================================================================== */
 let mOnglet = `lexique`, mTexte = ``;
-const ONGLETS = [[`lexique`,`Le lexique`],[`regles`,`Les règles`],[`interdits`,`Les interdits`],
+const ONGLETS = [[`lexique`,`Le lexique`],[`glossaire`,`Le glossaire`],[`regles`,`Les règles`],[`interdits`,`Les interdits`],
                  [`decompte`,`Le décompte`],[`calendrier`,`Le calendrier`],
                  [`dispositif`,`Le dispositif`],[`raccords`,`Les faux raccords`]];
 (function ongletsMonde(){
@@ -569,6 +569,15 @@ function rendreMonde(){
         `<div class="mot-l"><dt><b>${esc(m)}</b>${o ? `<br><span class="st st-ouvert">non tranché</span>` : ``}</dt>
          <dd>${rich(d)}${o ? `<span class="ouv">${rich(o)}</span>` : ``}
          <span class="src" style="margin-top:7px">${esc(s)}</span></dd></div>`).join(``) + `</dl>`;
+  }
+
+  else if (mOnglet === `glossaire`){
+    const l = GLOSSAIRE.filter(([m, d]) => f(m + ` ` + d));
+    c.innerHTML = `<p class="chapo">La page de fin de volume, pour le lecteur qui se perd. <strong>Ordre alphabétique, une définition courte, et rien qui raconte le livre.</strong><br>
+      <em>La source est <code>05-manuscrit/glossaire.md</code> — c'est une page du livre, pas une fiche de travail. On corrige le markdown, puis <code>python glossaire.py</code>.</em></p>`
+      + `<p class="chapo" style="opacity:.7">${l.length} entrée${l.length > 1 ? `s` : ``}${mTexte ? ` sur ${GLOSSAIRE.length}` : ``}.</p>`
+      + `<dl class="lexique">` + l.map(([m, d]) =>
+        `<div class="mot-l"><dt><b>${esc(m)}</b></dt><dd>${rich(d)}</dd></div>`).join(``) + `</dl>`;
   }
 
   else if (mOnglet === `regles`){
