@@ -54,20 +54,23 @@ lien pointe sur une scène qui existe, que chaque texte a sa fiche, et il refuse
 
 **Il se met à jour à chaque décision.** Une validation, une correction, une idée retenue : on corrige d'abord la fiche Markdown concernée, puis on répercute ici, on reconstruit, on vérifie dans le navigateur, on commite. *Un atelier qui retarde d'une séance ne sert plus à rien.*
 
-**Les étapes sont marquées par des tags git.** `git tag -l -n1` les liste ; chaque tag porte l'état du récit à sa date.
+**Les étapes sont marquées par des tags git.** `git tag -l -n1` les liste. Deux familles, et
+elles ne se mélangent pas : **`etape-NN`** pour les jalons du récit, **`vX.Y.Z`** pour les
+versions publiées.
 
 | | |
 |---|---|
-| `v1` – `v4` | la mise en place du monde, du casting et du système |
-| `v5` | l'atelier — le dossier devient un outil d'écriture |
-| `v6` – `v7` | le lecteur ne quitte jamais ce monde-ci ; deux voies, une bande d'étapes |
-| `v8` | l'épilogue écrit et validé |
-| `v9` | le prologue existe |
-| `v10` | **Une journée à la ruche** — le chapitre premier, seize passes |
-| `v1.0` | **premier état livrable**, posé avant le grand nettoyage du 19 août |
+| `etape-01` – `etape-04` | la mise en place du monde, du casting et du système |
+| `etape-05` | l'atelier — le dossier devient un outil d'écriture |
+| `etape-06` – `etape-07` | le lecteur ne quitte jamais ce monde-ci ; deux voies, une bande d'étapes |
+| `etape-08` | l'épilogue écrit et validé |
+| `etape-09` | le prologue existe |
+| `etape-10` | **Une journée à la ruche** — le chapitre premier, seize passes |
+| `avant-le-menage` | le filet posé avant le grand nettoyage du 19 août |
+| **`v0.1.0`** | **la première version publiée** |
 
-Pour retrouver une version : `git show v9:04-plan/le-parcours-de-l-enquete.md`
-Pour comparer : `git diff v9 v10 -- 06-visuels/`
+Pour retrouver une version : `git show etape-09:04-plan/le-parcours-de-l-enquete.md`
+Pour comparer : `git diff etape-09 etape-10 -- 06-visuels/`
 
 ## Ce qu'il ne fait pas
 
