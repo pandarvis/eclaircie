@@ -1007,6 +1007,16 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`19 août`, s:`Le mur se refermait mal, et Andrew coupait à travers le gymnase`, e:`acquis`, t:[`visuel`],
+  v:`il y a trop de brins d'herbe je trouve et d'après ce que je vois il y a zéro arbre. je dis pas d'en mettre dans les prés, mais faudrait qu'il y en ait quand même dans l'étendue. l'enceinte finit bizarrement en haut à gauche. la mare déborde sur le chemin, on dirait qu'il existe plus en bas de la mare. le chemin du haut de la mare à supprimer car ne sert à rien. le chemin à droite s'arrête avant de rejoindre le grand chemin. Andrew et Isaac traversent littéralement le gymnase et un dortoir alors qu'ils devraient être sur le chemin.`,
+  q:`⛔ **La queue en haut à gauche était un bogue de tracé, et il touchait tout le dessin.** *La fonction qui arrondit les contours partait d'un sommet et finissait au milieu d'une arête : la fermeture repassait par une ligne droite qui dépassait.* **Corrigé à la source — le mur, l'étendue et la grande allée se referment tous les trois proprement maintenant.**
+
+🔴 **Andrew et Isaac ne coupent plus à travers rien.** *Leur trajet était une ligne brisée tracée à vue, qui passait dans le gymnase et dans un dortoir.* **Il suit désormais l'allée du nord-ouest, la grande allée par le sud, puis l'allée de service.** *Vérifié sur quatre cents points le long du parcours : aucun bâtiment traversé.*
+
+✅ **La mare recule de la grande allée**, qu'elle mordait au sud, et son local technique la suit. Le chemin du haut de la mare saute, celui de droite va enfin jusqu'à l'allée.
+
+⚠ **Moins d'herbe, et des arbres dans l'étendue** — mais pas dans les prés : *une bête a besoin d'herbe, pas d'ombre, et l'ombre elle l'a déjà dans son abri.*` },
+
 { d:`19 août`, s:`Une seule allee, et c'est elle qui delimite l'etendue`, e:`acquis`, t:[`monde`,`visuel`],
   v:`les chats sortent plus loin, la ou j'ai hachuré en rouge. [...] il n'y a pas d'animation sur l'herbe, un petit mouvement des traits comme si le vent passait ça serait bien. l'étendue a une délimitation pas jolie, le chemin pourrait servir de délimitation. par ailleurs on dirait qu'il y a 2 chemins. j'en veux qu'un, que tout le monde emprunte, assez large, des graviers, comme une grande allée pour piétons cyclistes. le bâtiment des poules a une orientation qui pourrait suivre la courbe de l'étendue. le clapier ne doit pas sortir de l'étendue. idéalement, les chats pourraient éviter de se balader dans les zones des autres animaux.`,
   q:`⛔ **Les chats sortaient par où le dessin ment.** *Je testais le polygone du mur ; le mur affiché est le tracé lissé, qui rentre à l'intérieur des angles.* **On teste désormais la forme elle-même, pas ses points.** *Trois cent soixante relevés : aucun chat dehors, aucun dans un bâtiment, aucun dans la mare, aucun chez les autres bêtes.*

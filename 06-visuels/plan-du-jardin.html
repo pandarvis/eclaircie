@@ -215,7 +215,10 @@ const alea=()=>{graine=(graine*1103515245+12345)&0x7fffffff; return graine/0x7ff
 
 /* Une enceinte n'est jamais droite : elle suit la rue. */
 const lisse=(pts,f=.42)=>{
-  let d=`M${n2(pts[0][0])},${n2(pts[0][1])}`;
+  /* On demarre la ou la boucle finira, sinon le Z refermait par un segment
+     droit qui depassait du trace -- la queue vue en haut a gauche du mur. */
+  const d0=[pts[0][0]+(pts[1][0]-pts[0][0])*f, pts[0][1]+(pts[1][1]-pts[0][1])*f];
+  let d=`M${n2(d0[0])},${n2(d0[1])}`;
   for(let i=0;i<pts.length;i++){
     const a=pts[i], b=pts[(i+1)%pts.length], c=pts[(i+2)%pts.length];
     const m1=[a[0]+(b[0]-a[0])*(1-f),a[1]+(b[1]-a[1])*(1-f)];
@@ -225,6 +228,19 @@ const lisse=(pts,f=.42)=>{
   return d+'Z';
 };
 const poly=pts=>`M${pts.map(p=>n2(p[0])+','+n2(p[1])).join(' L')}`;
+/* Meme arrondi que lisse(), mais sur un chemin qui ne se referme pas. */
+const lisseOuvert=(pts,f=.42)=>{
+  if(pts.length<3) return poly(pts);
+  let d=`M${n2(pts[0][0])},${n2(pts[0][1])}`;
+  for(let i=1;i<pts.length-1;i++){
+    const a=pts[i-1], b=pts[i], c=pts[i+1];
+    const m1=[a[0]+(b[0]-a[0])*(1-f), a[1]+(b[1]-a[1])*(1-f)];
+    const m2=[b[0]+(c[0]-b[0])*f,     b[1]+(c[1]-b[1])*f];
+    d+=` L${n2(m1[0])},${n2(m1[1])} Q${n2(b[0])},${n2(b[1])} ${n2(m2[0])},${n2(m2[1])}`;
+  }
+  const z=pts[pts.length-1];
+  return d+` L${n2(z[0])},${n2(z[1])}`;
+};
 const boucle=pts=>poly(pts)+' Z';
 /* Rien de ce qui pousse n'est rectangulaire. Une tache fermee, irreguliere
    mais reproductible : meme graine, meme contour a chaque ouverture. */
@@ -428,11 +444,10 @@ const PLANS=[
  /* Deux chemins la traversent pour de bon, et se croisent pres de la mare. */
  chemin:[
   [[468,236],[452,282],[440,330],[444,382],[456,432],[464,482],[468,530]],
-  [[286,418],[330,400],[376,398],[418,388],[458,392],[512,404],[566,414],[616,414]],
-  [[398,250],[382,286],[356,318],[336,352]],
+  [[286,418],[330,410],[376,406],[424,400],[470,402],[520,406],[572,410],[622,410],[652,410]],
   [[548,514],[540,478],[556,450]],
   [[386,516],[402,486],[424,470]]],
- eau:[372,352,64,46],
+ eau:[394,346,56,40],
  pres:[
   [560,318,74,50,'Le pré des poneys','poney',3],
   [560,452,58,40,'Le pré des chèvres','chevre',4]],
@@ -453,7 +468,7 @@ const PLANS=[
   ['ferme',346,432,32,16,'Le clapier','Les lapins et les cochons d\'Inde ensemble : deux étages de clapiers, du grillage fin, des tuyaux enterrés dans l\'enclos. On ferme le soir à cause des chats.',3],
   ['ferme',424,284,54,22,'L\'abri','Un toit sur quatre poteaux, de la paille au sol, ouvert sur trois côtés. C\'est là que les bêtes vont quand il pleut, et les petits avec elles. Personne ne les en empêche.',-4],
   ['ferme',494,392,44,22,'La cabane','Le foin, les seaux, les brosses, les bottes en trois tailles. Ça sent la paille mouillée toute l\'année.',-5],
-  ['ferme',316,398,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
+  ['ferme',344,392,52,22,'Le local technique','Contre la margelle, à moitié enterré. La pompe et le filtre de la mare. Un bâtiment que personne ne regarde et sans lequel l\'eau serait verte en deux semaines.',-9],
   ['bat',196,120,100,52,'Dortoirs 1','Vingt petits, quatre berceurs, un salon commun et une buanderie. Les fenêtres du bas ont des barreaux ronds peints en jaune.',-5],
   ['bat',330,196,100,52,'Dortoirs 2','',4],
   ['bat',560,166,100,52,'Dortoirs 3','',-3],
@@ -470,7 +485,9 @@ const PLANS=[
  jeux:[[196,214,92,62,'Aire de jeu','toboggan'],[810,180,92,58,'Aire de jeu','balancoire'],[674,110,82,52,'Bacs à sable','']],
  trous:[[196,520,38,'Les semelles du cinquième groupe']],
  fresques:[[[160,100],[500,66]],[[540,62],[890,110]],[[928,340],[900,540]],[[850,590],[220,606]]],
- trajet:{pts:[[115,208],[196,246],[258,306],[264,404],[300,494],[392,552],[520,566],[628,540],[676,462],[688,360],[766,344]],
+ /* Ils prennent l'allee du nord-ouest, puis la grande allee par le sud,
+    puis l'allee de service. Ils ne coupent a travers rien. */
+ trajet:{pts:[[115,208],[196,246],[262,300],[300,332],[292,348],[286,418],[320,478],[386,516],[468,530],[548,514],[616,470],[652,410],[656,340],[662,344],[720,341],[766,340]],
          t:'Andrew et Isaac — onze minutes à pied de la grille nord-ouest au centre médical'},
  echelle:[104,676],
  etiq:[[700,60,'','entrée principale']]
@@ -576,7 +593,7 @@ function dessine(p){
     /* L'herbe, avant tout le reste : elle passe dessous. */
     /* Les touffes penchent toutes du meme cote, mais jamais en meme temps :
        c'est ce decalage qui fait le vent. */
-    for(let i=0;i<170;i++){
+    for(let i=0;i<78;i++){
       const a=alea()*Math.PI*2, k=Math.sqrt(alea())*.94;
       const hx=ex+Math.cos(a)*erx*k, hy=ey+Math.sin(a)*ery*k;
       const h=7+alea()*4;
@@ -621,10 +638,31 @@ function dessine(p){
     poser(p.pres,'pre');
     poser(p.encl,'enclos');
 
+    /* Des arbres dans l'etendue, mais pas dans les pres : une bete a besoin
+       d'herbe, pas d'ombre, et l'ombre elle l'a deja dans son abri. */
+    const zones=(p.pres||[]).concat(p.encl||[]);
+    const batFerme=(p.bat||[]).filter(b=>b[0]==='ferme')
+      .map(b=>[b[1]-8,b[2]-8,b[3]+16,b[4]+16]);
+    let arbres=0;
+    for(let i=0;i<600 && arbres<17;i++){
+      const a=alea()*Math.PI*2, k=Math.sqrt(alea())*.9;
+      const ax=ex+Math.cos(a)*erx*k, ay=ey+Math.sin(a)*ery*k;
+      if(p.eau && Math.pow((ax-p.eau[0])/(p.eau[2]+12),2)
+                 +Math.pow((ay-p.eau[1])/(p.eau[3]+12),2) < 1) continue;
+      if(zones.some(([zx,zy,zrx,zry])=>
+        Math.pow((ax-zx)/(zrx+10),2)+Math.pow((ay-zy)/(zry+10),2) < 1)) continue;
+      if(batFerme.some(([bx,by,bw,bh])=>ax>bx&&ax<bx+bw&&ay>by&&ay<by+bh)) continue;
+      const r=4+alea()*4;
+      const c=el('circle',{cx:n2(ax),cy:n2(ay),r:n2(r),class:'arbre'},cB);
+      c.classList.add('feuille'); c.style.animationDelay=n2(alea()*9)+'s';
+      el('circle',{cx:n2(ax),cy:n2(ay),r:n2(r+3.4),class:'arbre2'},cB);
+      arbres++;
+    }
+
     if(p.eau){
       const [mx,my,mrx,mry]=p.eau;
       const gm=el('g',{class:'zone'},cB);
-      const d=tache(mx,my,mrx,mry,15,.2);
+      const d=tache(mx,my,mrx,mry,15,.11);
       el('path',{d,class:'eau'},gm);
       el('path',{d:tache(mx,my,mrx*.7,mry*.68,13,.22),class:'surface'},gm);
       el('path',{d,class:'margelle'},gm);
@@ -701,8 +739,9 @@ function dessine(p){
   let chemin=null, gTraj=null;
   if(p.trajet){
     gTraj=el('g',{id:'g-trajet'},cB);
-    el('path',{d:poly(p.trajet.pts),class:'trajet-ombre'},gTraj);
-    chemin=el('path',{d:poly(p.trajet.pts),class:'trajet'},gTraj);
+    const dt=lisseOuvert(p.trajet.pts,.45);
+    el('path',{d:dt,class:'trajet-ombre'},gTraj);
+    chemin=el('path',{d:dt,class:'trajet'},gTraj);
     const a=p.trajet.pts[0], z=p.trajet.pts[p.trajet.pts.length-1];
     [a,z].forEach(q=>el('circle',{cx:n2(q[0]),cy:n2(q[1]),r:4.6,fill:'var(--bleu)',
       stroke:'var(--nuit)','stroke-width':1.4},gTraj));
