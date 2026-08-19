@@ -1007,6 +1007,16 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`Le jardin a été aménagé, et la section 0 prend la forme d'un soleil`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`le lieu ne s'est absolument pas fait tout seul ! il a été créé par l'homme comme on a créé des ehpad, des parcours de fin de vie, etc. [...] ça ne me choque pas, c'est toi qui as considéré qu'elle était recluse, comme si c'était tabou. ça ne l'est pas. après, le bâtiment mériterait effectivement de ressembler à une sorte de soleil, comme s'il avait été construit sur une base arrondie avec une petite cour intérieure visible depuis le ciel. [...] ils marchent d'un pas décidé, disons une dizaine de minutes.`,
+  q:`⛔ **Ma critique du plan reposait sur un contresens.** *Je lui reprochais d'être trop régulier pour un lieu qui se serait fait tout seul.* **Le jardin n'a jamais été laissé à lui-même : il a été aménagé, comme on aménage un établissement.** La régularité des dortoirs et l'ovale du grand chemin ne sont pas des défauts, ce sont des preuves. *Le texte du plan le dit maintenant.*
+
+⛔ **Et j'avais rendu la section 0 recluse sans qu'on me le demande.** *Aucune allée ne la longe, on ne voit que le toit, personne ne croise personne — j'avais installé un tabou qui n'existe pas.* **Retiré : c'est un bâtiment du jardin comme les autres, et les petits savent très bien où il est.**
+
+✅ **En revanche elle prend la forme que les petits lui voient :** *un plan rond, une petite cour plantée au milieu qu'on ne voit que d'en haut, des redents sur le pourtour.* **De loin personne n'y verrait un soleil ; sur un plan, un enfant si — et c'est exactement le point.**
+
+⚠ **Le trajet fait 657 mètres à l'échelle, soit huit minutes d'un pas décidé.** *L'autrice arrondit à une dizaine, et c'est elle qui tient le rythme.*` },
+
 { d:`20 août`, s:`La dernière tache sans nom, et le code mort avec elle`, e:`acquis`, t:[`visuel`],
   v:`tu as encore une zone bizarre ici. après moi je ne vois rien de plus.`,
   q:`⛔ **C'était une pelouse dessinée du temps où trois plans coexistaient.** *Elle servait à marquer un espace ouvert dans un jardin qui n'en avait pas encore.* **Depuis, tout le jardin est vert : elle ne disait plus rien, et elle débordait sous les dortoirs 1.**

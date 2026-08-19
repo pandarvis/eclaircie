@@ -113,7 +113,7 @@ const GLOSSAIRE = [
 [`Résidence (zone de)`,`Les huit premiers jours d'un arrivant, après la consultation : des chambres par lots, un réfectoire, et des gens qui expliquent. On peut venir l'y voir.`],
 [`Ruche`,`Le lieu où les capsules mûrissent et s'ouvrent. Bâti sur la serre elle-même, en forme de fleur : le registre au cœur, la serre en corolle, les salles de cérémonie en pétales. Il y en a plusieurs dans le monde.`],
 [`Salle de consultation`,`Où l'analyste reçoit un arrivant dans l'heure qui suit sa sortie. Premier examen, premiers mots, premières questions.`],
-[`Section 0`,`Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* Six chambres, une véranda, un jardin clos derrière. Zéro comme l'âge.`],
+[`Section 0`,`Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* Un plan rond, une petite cour plantée au milieu qu'on ne voit que d'en haut, six chambres et une véranda tout autour. Zéro comme l'âge.`],
 [`Serre`,`Le quart du complexe où la coulée est chez elle, autour de la salle du registre. Ce n'est pas une zone qu'on traverse : c'est le sol. Domaine des préparateurs.`],
 [`Serviette de cérémonie`,`Grand rectangle de toile percé d'un trou pour la tête, qui tombe droit devant et droit derrière. Le second veilleur en croise les pans et les ferme d'une ceinture. C'est le premier vêtement d'un arrivant.`],
 [`« Silence (au) »`,`La cellule temporaire. *On fait quelques jours au silence.*`],
