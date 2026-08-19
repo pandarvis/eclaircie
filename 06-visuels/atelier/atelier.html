@@ -1132,8 +1132,8 @@ const VOIES = {
 };
 
 const ACTES = [
-  { t: `Ouverture`,          c0: 0,  c1: 0 },
-  { t: `Avant la disparition`, c0: 1,  c1: 3 },
+  { t: `Ouverture`,          c0: 0,  c1: 1 },
+  { t: `Avant la disparition`, c0: 2,  c1: 3 },
   { t: `La disparition`,       c0: 4,  c1: 6 },
   { t: `Le monde comme terrain`, c0: 7, c1: 8 },
   { t: `Le registre`,          c0: 9,  c1: 13 },
@@ -1367,7 +1367,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md — « Avant le parcours »`
 },
 {
-  id: `s1`, no: `Scène 1`, col: 1, row: `andrew`, acte: `Avant la disparition`,
+  id: `s1`, no: `Scène 1`, col: 2, row: `andrew`, acte: `Avant la disparition`,
   titre: `Première visite chez June`,
   statut: `acquis`,
   resume: `Andrew revient de lui-même, sans mandat et sans que personne le lui ait demandé. Il échange avec Eliott. Le garçon s'acclimate comme il peut, mais il semble très mal à l'aise — ce n'est pas de la timidité, c'est un corps qui ne trouve pas sa place dans une pièce.`,
@@ -1383,7 +1383,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/eliott.md §4 bis`
 },
 {
-  id: `s2`, no: `Scène 2`, col: 2, row: `andrew`, acte: `Avant la disparition`,
+  id: `s2`, no: `Scène 2`, col: 3, row: `andrew`, acte: `Avant la disparition`,
   titre: `Deuxième visite`,
   statut: `acquis`, pivot: true,
   resume: `Eliott est retrouvé à bouder dans un coin. La raison est nette et elle est le cœur de la scène : personne ne le croit, et ça le blesse énormément. Grosse discussion, puis ils sortent faire un tour — c'est dehors, en marchant, que le garçon dit ce qu'il dit.`,
@@ -1414,7 +1414,7 @@ const SCENES = [
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/june.md §2 bis`
 },
 {
-  id: `capsule`, no: `Chapitre premier`, ecrit: true, col: 3, row: `andrew`, acte: `Les trois visites`,
+  id: `capsule`, no: `Chapitre premier`, ecrit: true, col: 1, row: `andrew`, acte: `Ouverture`,
   titre: `Une journée à la ruche`,
   statut: `acquis`,
   resume: `Ce n'est pas une scène, c'est une journée de travail. Combinaisons, raclette, seaux, odeur. Andrew n'y touche pas : ce n'est plus son tour. Il regarde un plus récent se faire bizuter, et il ne trouve rien à en dire. Puis la journée continue, parce que c'est une journée.`,
@@ -1428,13 +1428,13 @@ const SCENES = [
   garde_forme: `**Une journée, pas une scène.** Une carte « Andrew regarde un nettoyage » n'a aucune raison d'exister au milieu de la disparition d'Eliott ; une journée de travail, si. Et le nettoyage doit être un incident d'exploitation, pas une épreuve morale — alors la forme dit déjà ce que le contenu dit.
 
 Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② une éclaircie ordinaire, réussie, avec l'odeur propre ; ③ le creux du milieu de journée, les conversations ; ④ la travée qui n'a pas éclairci ; ⑤ le registre, en fin de journée — la première fois que le lecteur voit ce que c'est ; ⑥ il sort.`,
-  garde_bis: `✅ **Le chapitre a changé de place : il suit le prologue.** *Décision de l'autrice, 19 août 2026.* Il n'est donc plus pris en sandwich entre la douceur et le vide — **il est collé à la cérémonie propre**, et c'est ce qui fait le plus mal : *le lecteur vient de voir un rite tenu au millimètre, et il tombe sur ce que le même lieu produit quand ça rate.*\n\n⛔ **La case de la frise n'a pas bougé, elle.** *Elle est restée en colonne 3, entre la deuxième et la troisième visite* — la faire glisser en colonne 2 décale tout ce qui suit, et ça ne se fait pas sans l'autrice.`,
+  garde_bis: `✅ **Le chapitre a changé de place : il suit le prologue.** *Décision de l'autrice, 19 août 2026.* Il n'est donc plus pris en sandwich entre la douceur et le vide — **il est collé à la cérémonie propre**, et c'est ce qui fait le plus mal : *le lecteur vient de voir un rite tenu au millimètre, et il tombe sur ce que le même lieu produit quand ça rate.*\n\n✅ **Et la frise suit, le 19 août 2026 :** *la case passe en colonne 1, juste après le prologue, et l'acte d'ouverture compte désormais deux chapitres.* **Les deux visites chez June glissent d'un cran.**`,
   monde: `Le tour de rôle, le bizutage, l'ancienneté qui se lit à l'envers sur les visages : la sale besogne va aux derniers arrivés, c'est-à-dire à ceux qui ont l'air les plus vieux.`,
   qui: [`andrew`],
   gardes: [
     `**Reprendre les mots du prologue, pas d'autres.** C'est la répétition littérale qui fera le raccord, pas une comparaison. Et personne ne dit que c'est la même odeur.`,
     `Le nettoyage est un incident d'exploitation. Personne ne s'attendrit, personne ne s'interroge.`,
-    `Ce souvenir n'a rien à voir avec Eliott : un autre jour, une autre travée.`,
+    `⛔ **La capsule pourrie n'a rien à voir avec Eliott** : un autre jour, une autre travée. *Et ce n'est plus un souvenir depuis que le chapitre a changé de place — c'est une matinée ordinaire, un mois avant qu'il ne rencontre le garçon.*`,
     `Les capsules sans éclaircie se multiplient depuis quelques années et personne ne sait pourquoi. Deux occurrences dans le livre, pas davantage, et jamais un personnage qui pointe la courbe.`,
     `⛔ **Le chapitre ne montre pas le logement d'Andrew.** Il commence quand il arrive, il s'arrête quand il sort. La scène 17 b en dépend : c'est un chapitre chez Joël que le lecteur doit prendre pour une fin de journée d'Andrew, et il ne le prendra que s'il n'a jamais vu où Andrew habite.`,
     `**Ce n'est pas une visite guidée.** On suit quelqu'un qui travaille, pas quelqu'un qui explique.`,
@@ -2258,8 +2258,8 @@ Ce n'est pas un pressentiment, c'est un fait : Eliott a décrit une pièce où i
 
 /* liens du tableau : [de, vers, classe] */
 const LIENS = [
-  [`ouv`,`s1`,`a`],
-  [`s1`,`s2`,``], [`s2`,`capsule`,``], [`capsule`,`s3`,``],
+  [`ouv`,`capsule`,`a`],
+  [`capsule`,`s1`,``], [`s1`,`s2`,``], [`s2`,`s3`,``],
   
   [`s3`,`s4`,``], [`s4`,`s5`,``], [`s5`,`s6`,``], [`s6`,`s7`,``],
   [`s7`,`s8`,`a`], [`s8`,`s9`,`a`], [`s9`,`s10`,`a`], [`s10`,`s11`,`a`],
