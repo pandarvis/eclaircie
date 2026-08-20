@@ -54,7 +54,7 @@ Il rit. C'était la même plaisanterie depuis des années et elle marchait encor
 
 Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.
 
-Le veilleur quitta l'accueil et s'engagea dans le grand couloir.
+Le veilleur quitta l'accueil et s'engagea dans un grand couloir.
 
 · · ·
 
