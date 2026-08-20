@@ -1682,4 +1682,13 @@ const NOTES = [
 
 *Consigné dans 01-dossier/le-style.md, §7 — mes défauts à moi.*` },
 
+
+{ d:`20 août`, s:`« C'était là » renvoyait à la porte, pas à la zone`, e:`acquis`, t:[`écriture`],
+  v:`à première lecture, on croit que les arrivants sont à la porte`,
+  q:`**Le démonstratif se raccrochait au dernier nom cité**, et le dernier nom cité était *la porte qui leur était destinée*. *On lisait donc que les arrivants passaient huit jours à une porte.*
+
+✅ **On nomme la chose au lieu de la montrer du doigt :** « Cette partie du complexe était réservée aux arrivants. » *L'ambiguïté tombe sans qu'on ait à répéter « zone de résidence ».*
+
+⚠️ **Un chiffre a changé de nature au passage, et je le signale sans y toucher :** *« leurs huit premiers jours » devient* **« huit jours au minimum »**. *La durée était fixe, elle devient un plancher.* **Le glossaire porte encore « les huit premiers jours »**, et il attend de savoir lequel des deux est vrai.` },
+
 ];
