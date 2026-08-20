@@ -1422,4 +1422,22 @@ const NOTES = [
 
 **Le geste, lui, existe bel et bien et il est séparé :** *porter, bercer, tenir au chaud, ne pas laisser seul une seconde* — **le soin, dans la vie d'un arrivant de zéro qui va mourir.** ⚠️ *Il n'a pas de nom à lui, et il n'en a peut-être pas besoin.*` },
 
+
+{ d:`20 août`, s:`Porteur de voiles est une croyance, et le mot n'est pas tendre`, e:`acquis`, t:[`monde`,`écriture`,`scènes`],
+  v:`c'est une croyance. on dit de quelqu'un qui dit n'importe quoi qu'il serait porteur de voiles. Eliott l'a entendu ; "ils m'ont dit que j'étais un porteur de voiles" ou alors c'est June qui dit "ils l'ont traité de porteur de voiles". c'est pas une appellation tres sympathique`,
+  q:`**Le dossier le traitait comme une catégorie du monde, presque un diagnostic. C'en est une croyance** — *rien ne permet de le détecter, et personne ne vérifie jamais rien.*
+
+🔴 **Et l'emploi ordinaire est méprisant : on le dit de quelqu'un qui raconte n'importe quoi, et on en traite les gens.** *Ça change la couleur du mot dans tout le livre — il n'est jamais neutre dans une bouche.*
+
+✅ **Ça ferme la question de savoir où le lecteur l'apprend : il l'entend, il ne le lit pas.** ❓ *Deux bouches possibles, non tranchées : Eliott, et la blessure est dans sa bouche à lui — c'est le cœur de la scène 2 ; ou June, qui répète ce qu'on a dit d'un gamin qu'elle aime bien.*
+
+⚠️ **Conséquence à vérifier ailleurs, non appliquée :** *Andrew est un porteur de voiles, et plusieurs fiches emploient le mot comme une notice de dossier.* **Personne ne le dirait aimablement.**` },
+
+
+{ d:`20 août`, s:`Le préparateur n'apparaît pas deux fois par cérémonie : il tient la serre`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`c'est leur role. ils surveillent la serre. ils sont en etroite collaboration avec les analystes`,
+  q:`**La question était mal posée : je cherchais ce qu'ils font « le reste du temps », comme si la cérémonie était leur métier.** *C'est l'inverse — la cérémonie est le bout visible d'une surveillance continue.*
+
+**La serre est leur poste : ils y passent leurs journées, ils la connaissent à la main, et ils travaillent en étroite collaboration avec les analystes.** *Ce qui éclaire au passage l'échange du chapitre premier : Bastien dit « elle est prête » parce que c'est son terrain — et Vera ne le contredit pas sur le geste, seulement sur la date.*` },
+
 ];
