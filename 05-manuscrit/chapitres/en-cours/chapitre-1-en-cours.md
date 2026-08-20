@@ -52,9 +52,7 @@ Il longea le comptoir, en poussa le portillon et prit lui-même sa feuille dans 
 
 Il rit. C'était la même plaisanterie depuis des années et elle marchait encore.
 
-Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.
-
-Le veilleur quitta l'accueil et s'engagea dans un grand couloir.
+Le veilleur plia la feuille en deux et la glissa dans la poche basse de sa blouse. Il quitta l'accueil et s'engagea dans un grand couloir.
 
 · · ·
 

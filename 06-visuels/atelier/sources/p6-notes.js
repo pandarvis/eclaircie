@@ -1673,4 +1673,13 @@ const NOTES = [
 
 ⚠️ *Un mot a dû suivre :* « Il était large et linéaire » *devient* « **Le couloir** était large et linéaire ». **En passant derrière neuf paragraphes d'aparté, le pronom ne pouvait plus rattraper son antcédent** — le déplacer en créait un second au moment où il en réglait un premier.` },
 
+
+{ d:`20 août`, s:`J'aère trop — un blanc doit isoler quelque chose`, e:`acquis`, t:[`écriture`],
+  v:`après je comprends que tu veuilles aerer le texte mais par moment, il l'est vraiment trop.. tu vois là par exemple, il avait pas besoin d'un retour à la ligne`,
+  q:`🔴 **Un retour à la ligne est une respiration ; deux d'affilée sont un tic.** *Le blanc doit isoler quelque chose qui vaut d'être isolé — une bascule, un temps, une phrase qui porte.* ⛔ **Deux gestes du même personnage à la suite tiennent dans le même paragraphe** : plier une feuille et sortir d'une pièce, c'est un seul mouvement.
+
+✅ *Et sa correction fait mieux que fusionner : elle rend la main au veilleur.* **« Le veilleur plia la feuille […] Il quitta l'accueil »** — *après trois répliques, un « Il » était loin de son sujet ; le nom revient d'abord, le pronom ensuite.*
+
+*Consigné dans 01-dossier/le-style.md, §7 — mes défauts à moi.*` },
+
 ];

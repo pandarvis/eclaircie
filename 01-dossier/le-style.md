@@ -220,6 +220,8 @@ de parole ; à la troisième réplique il a perdu, et il relit.
 par de l'image. Ça donne les phrases que tu supprimes d'un mot. **Le bon réflexe est de te
 poser la question, pas de meubler.**
 
+**J'aère trop.** *Constat de l'autrice, 20 août 2026 : « je comprends que tu veuilles aérer le texte mais par moment, il l'est vraiment trop ».* **Un retour à la ligne est une respiration ; deux d'affilée sont un tic.** *Le blanc doit isoler quelque chose qui vaut d'être isolé — une bascule, un temps, une phrase qui porte.* ⛔ **Deux gestes du même personnage à la suite tiennent dans le même paragraphe** : *plier une feuille et sortir d'une pièce, c'est un seul mouvement.*
+
 **J'explique ce que je viens de montrer.** J'écris la scène juste, puis j'ajoute la phrase
 qui dit ce qu'elle voulait dire. *« Dans ce service, les plus anciens du métier étaient
 aussi ceux qui avaient l'air les plus jeunes »* — tu l'as signalée comme retirable, et tu as
