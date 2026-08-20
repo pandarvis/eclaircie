@@ -1449,4 +1449,21 @@ const NOTES = [
 
 ⚠️ *Lucas est un exemple de l'autrice, pas un personnage du casting.*` },
 
+
+{ d:`20 août`, s:`La serre a une limite, et ce sont des hommes qui l'ont tracée`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`la serre est partout, le complexe a ete bati sur elle. puis les limites ont été créées par les humains. ils ont regardé jusqu'où les dernières capsules allaient et ils ont délimité un peu plus large pour contenir tout ça. le complexe. on ne sait pas sinon si ça n'aurait pas continué plus loin. la coulée a continué d'évoluer contre les murs sans franchir la limite. un peu comme on délimiterait un potager. les plantes vont rarement au delà, le réseau racinaire et feuille reste contenu`,
+  q:`**Le bâtiment n'est pas venu avant : le complexe a été bâti sur elle.** *Le fragment « le quart du complexe » saute — la serre n'est pas une portion découpée dans un bâtiment, c'est le sol sur lequel le bâtiment a été posé.*
+
+**On a regardé jusqu'où allaient les dernières capsules, et on a délimité un peu plus large pour tout contenir.** *La coulée est venue jusqu'aux murs et n'est pas passée outre.*
+
+🔴 **Et c'est là que l'image de l'autrice fait tout le travail : le potager.** *On délimite, et les plantes ne vont guère au-delà — le réseau des racines et des feuilles reste dedans, sans qu'on ait rien fait pour l'y forcer.* **Ce n'est donc pas un mur qui retient la coulée : c'est qu'elle n'est pas allée plus loin.** ⛔ *Et personne ne saura jamais si elle l'aurait fait — la question n'est pas posée dans le livre, et surtout pas résolue.*` },
+
+{ d:`20 août`, s:`Le veilleur n'avait rien à trancher, et le suivi descend`, e:`acquis`, t:[`dossier`,`monde`],
+  v:`pourquoi veilleur c'est pas tranché ? il est là et prépare les cérémonies`,
+  q:`**Elle a raison, et ce n'était pas une question.** *« Ce que le livre montre du métier ordinaire » est une note de fabrication, pas une décision de monde — elle traînait dans l'ancien lexique et la fusion l'a recopiée telle quelle.* **À surveiller : il en reste peut-être d'autres du même acabit.**
+
+➕ *Et l'entrée gagne ce qui lui manquait vraiment :* **il prépare les cérémonies et il les tient.**
+
+**Le suivi descend dans la bible** — le nom du rendez-vous reste à trouver, et il devra se distinguer de la consultation d'initiation.` },
+
 ];
