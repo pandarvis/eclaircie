@@ -76,7 +76,7 @@ Puis le plafond montait.
 
 Il montait d'un coup, et continuait de monter.
 
-À mesure qu'il s'élevait, les lampes devenaient inutiles. On ne les éteignait pas — personne n'avait jamais reçu l'ordre de le faire — mais quelque chose de plus grand qu'elles arrivait par le haut. Le jour tombait de très loin, en longues obliques, et déposait sur les dalles des plaques claires que l'on pouvait traverser ou contourner.
+À mesure qu'il s'élevait, les lampes devenaient inutiles. On ne les éteignait pas — personne n'avait jamais reçu l'ordre de le faire — mais quelque chose de plus grand qu'elles arrivait par le haut. Le jour tombait de très loin, en longues obliques. Sur les dalles, il déposait des plaques claires que l'on pouvait traverser ou contourner.
 
 Andrew les traversait.
 

@@ -1633,4 +1633,13 @@ const NOTES = [
 
 ⚠️ **Un chiffre a changé, et il ne se voit pas dans le texte : « la deuxième cette semaine » devient « la cinquième ».** *C'est la seule occurrence du dossier, donc rien ne se contredit.* **Mais cinq en une semaine est une alarme d'un autre ordre que deux** — *plus difficile à manquer pour le lecteur, et plus difficile à ne pas commenter pour les quatre qui raclent.* ✅ *Personne ne répond, et c'est ce qui la tient.*` },
 
+
+{ d:`20 août`, s:`La phrase du jour ne respirait pas`, e:`acquis`, t:[`écriture`],
+  v:`oui, je trouvais que la phrase entière ne respirait pas assez, elle était très lourde. soit la virgule, soit on reformule`,
+  q:`**La virgule seule aurait été fausse :** *elle séparait le verbe de son complément —* « déposait sur les dalles, des plaques claires ». **Mais l'instinct était juste : c'est bien là que la phrase manque d'air.**
+
+✅ **On coupe en deux et on passe le lieu devant :** *« Le jour tombait de très loin, en longues obliques. Sur les dalles, il déposait des plaques claires que l'on pouvait traverser ou contourner. »* **La virgule devient légitime, et elle tombe à l'endroit exact où elle la voulait.**
+
+*Et « traverser ou contourner » reste en fin de phrase, parce que le paragraphe suivant tient en trois mots :* « Andrew les traversait. »` },
+
 ];

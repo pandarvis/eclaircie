@@ -199,7 +199,7 @@ const TEXTES = [{
 [`p`,`Il était large et linéaire, avec un plafond bas et des appliques disposées tous les six mètres. Pendant vingt pas, on aurait pu se croire dans n'importe quel bâtiment administratif du pays.`],
 [`p`,`Puis le plafond montait.`],
 [`p`,`Il montait d'un coup, et continuait de monter.`],
-[`p`,`À mesure qu'il s'élevait, les lampes devenaient inutiles. On ne les éteignait pas — personne n'avait jamais reçu l'ordre de le faire — mais quelque chose de plus grand qu'elles arrivait par le haut. Le jour tombait de très loin, en longues obliques, et déposait sur les dalles des plaques claires que l'on pouvait traverser ou contourner.`],
+[`p`,`À mesure qu'il s'élevait, les lampes devenaient inutiles. On ne les éteignait pas — personne n'avait jamais reçu l'ordre de le faire — mais quelque chose de plus grand qu'elles arrivait par le haut. Le jour tombait de très loin, en longues obliques. Sur les dalles, il déposait des plaques claires que l'on pouvait traverser ou contourner.`],
 [`p`,`Andrew les traversait.`],
 [`p`,`On n'était pas dehors. On n'était jamais dehors, ici. Tout tenait sous un seul toit, et ce toit était si haut qu'on avait cessé d'y penser.`],
 [`p`,`Les murs, eux, étaient sculptés.`],
