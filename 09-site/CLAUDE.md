@@ -33,5 +33,20 @@ npm test            # les tests des outils
 
 ## La pile
 
-Astro 6.3, statique. Aucune dépendance de test : `node:test`, fourni par Node 22.
+Astro 6.4, statique. Aucune dépendance de test : `node:test`, fourni par Node 22.
 Le natif partout où le navigateur sait faire ; une librairie seulement là où il ne sait pas.
+
+## Deux pieges rencontres
+
+**Les styles a portee d'Astro n'atteignent pas `set:html`.** Astro pose son attribut
+`data-astro-cid-*` sur les elements ecrits dans le gabarit, pas sur ceux injectes par
+`set:html`. Le dessin de la ruche et ses halos sont injectes : leurs regles vivent dans
+un bloc `<style is:global>` (voir `src/composants/PlanSource.astro`), pas dans le style
+a portee du composant. Une regle `.halo { ... }` ecrite dans `Plaque.astro` ne
+s'applique tout simplement pas.
+
+**L'etat par defaut doit etre l'etat visible.** Toutes les mises en scene sont accrochees
+a `html.js`, une classe posee par un script en-tete avant le premier pixel. Sans
+JavaScript, aucune de ces regles ne s'applique et la page s'affiche entiere : les
+planches sont dessinees, les legendes lisibles. On n'ecrit jamais un etat de depart
+cache qui aurait besoin de JavaScript pour se reveler.

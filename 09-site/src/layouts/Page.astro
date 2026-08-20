@@ -16,6 +16,7 @@ const { titre, vue } = Astro.props;
     <script is:inline>
       /* Avant le premier pixel, pour qu'aucune page ne clignote au chargement. */
       (() => {
+        document.documentElement.classList.add('js');
         const pose = () => {
           const choisi = localStorage.getItem('eclaircie-theme');
           if (choisi) document.documentElement.dataset.theme = choisi;

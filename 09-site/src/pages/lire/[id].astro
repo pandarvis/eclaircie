@@ -1,6 +1,7 @@
 ---
 import Page from '../../layouts/Page.astro';
-import Plan from '../../composants/Plan.astro';
+import PlanSource from '../../composants/PlanSource.astro';
+import Plaque from '../../composants/Plaque.astro';
 import { assainir } from '../../../outils/assainir.mjs';
 import textes from '../../../donnees/textes.json';
 import ancres from '../../../donnees/lieux.json';
@@ -14,6 +15,8 @@ export function getStaticPaths() {
 
 const { texte, precedent, suivant } = Astro.props;
 
+/* La planche vient APRES le paragraphe qui nomme le lieu : le plan ne
+   montre que ce que le texte a deja dit. Il n'annonce rien, il fait echo. */
 const lieux = ancres.filter((a) => a.texte === texte.id);
 const parBloc = new Map(lieux.map((a) => [a.bloc, a.lieu]));
 
@@ -33,47 +36,41 @@ const mots = texte.p
     </div>
   </header>
 
-  <div class={lieux.length ? 'lecture avec-plan' : 'lecture'}>
-    <article class="texte">
-      {texte.p.map(([balise, contenu, classe], i) => (
-        balise === 'pause'
+  {lieux.length > 0 && <PlanSource />}
+
+  <article class="texte">
+    {texte.p.map(([balise, contenu, classe], i) => (
+      <>
+        {balise === 'pause'
           ? <p class="pause" aria-hidden="true">{contenu}</p>
           : <p
               class={[balise === 'tiret' ? 'tiret' : null, classe].filter(Boolean).join(' ')}
-              data-lieu={parBloc.get(i)}
               set:html={assainir(contenu)}
-            />
-      ))}
+            />}
+        {parBloc.has(i) && <Plaque lieu={parBloc.get(i)} />}
+      </>
+    ))}
 
-      <nav class="fin-de-texte">
-        {precedent
-          ? <a class="pas" href={`/lire/${precedent.id}/`}><span class="etiq">Avant</span><b>{precedent.titre}</b></a>
-          : <span></span>}
-        {suivant
-          ? <a class="pas droite" href={`/lire/${suivant.id}/`}><span class="etiq">Ensuite</span><b>{suivant.titre}</b></a>
-          : <span class="pas droite muet"><span class="etiq">Ensuite</span><b>Pas encore écrit</b></span>}
-      </nav>
-    </article>
-
-    {lieux.length > 0 && (
-      <aside class="colonne">
-        <Plan lieux={lieux} />
-      </aside>
-    )}
-  </div>
+    <nav class="fin-de-texte">
+      {precedent
+        ? <a class="pas" href={`/lire/${precedent.id}/`}><span class="etiq">Avant</span><b>{precedent.titre}</b></a>
+        : <span></span>}
+      {suivant
+        ? <a class="pas droite" href={`/lire/${suivant.id}/`}><span class="etiq">Ensuite</span><b>{suivant.titre}</b></a>
+        : <span class="pas droite muet"><span class="etiq">Ensuite</span><b>Pas encore écrit</b></span>}
+    </nav>
+  </article>
 </Page>
 
 <style>
-  .lecture { padding: 4.5rem 1.5rem 7rem; }
-  .lecture .texte { max-width: var(--mesure); margin: 0 auto; }
-
-  .avec-plan {
-    display: grid; gap: 3.5rem; justify-content: center;
-    grid-template-columns: minmax(0, var(--mesure)) 21rem;
-    align-items: start;
+  /* La colonne de lecture, et les planches qui la traversent de bord a bord. */
+  .texte {
+    display: grid;
+    grid-template-columns: 1fr min(var(--mesure), calc(100% - 3rem)) 1fr;
+    padding: 4.5rem 0 7rem;
   }
-  .avec-plan .texte { margin: 0; }
-  .colonne { position: sticky; top: 5.4rem; }
+  .texte > :global(*) { grid-column: 2; }
+  .texte > :global(.plaque) { grid-column: 1 / -1; }
 
   .texte p { margin: 0 0 1.35em; text-wrap: pretty; }
   .tiret { text-indent: 0; }
@@ -83,15 +80,6 @@ const mots = texte.p
     text-align: center; color: var(--texte-4); letter-spacing: .5em;
     margin: 2.5em 0; user-select: none;
   }
-
-  /* Le paragraphe qui ouvre un lieu : un filet d'or dans la marge. */
-  .texte p[data-lieu] {
-    position: relative;
-    padding-left: 1rem; margin-left: -1rem;
-    border-left: 2px solid transparent;
-    transition: border-color .5s;
-  }
-  .texte p[data-lieu].ici { border-left-color: var(--accent); }
 
   .fin-de-texte {
     display: flex; justify-content: space-between; gap: 14px;
@@ -111,13 +99,6 @@ const mots = texte.p
   .muet:hover { transform: none; border-color: var(--trait); background: var(--fond-3); }
   .muet b { color: var(--texte-3); }
 
-  /* Sous 1050px, le plan cesse de suivre : il se donne une fois, en tete. */
-  @media (max-width: 1050px) {
-    .avec-plan { display: block; }
-    .avec-plan .texte { max-width: var(--mesure); margin: 0 auto; }
-    .colonne { position: static; max-width: var(--mesure); margin: 0 auto 3rem; }
-  }
-
   @media (prefers-reduced-motion: reduce) {
     .pas { transition: none; }
     .pas:hover { transform: none; }
@@ -125,74 +106,69 @@ const mots = texte.p
 </style>
 
 <script>
-  /* Le plan suit la lecture. Sans ce script, il reste entier et lisible. */
-  function suivreLesLieux() {
-    const plan = document.querySelector('[data-plan]');
-    if (!plan) return;
+  /* Chaque planche se cadre sur son lieu et se dessine quand on arrive dessus.
+     Sans ce script, le plan reste entier et lisible, et le texte ne bouge pas. */
+  function animerLesPlanches() {
+    const planches = document.querySelectorAll('[data-plaque]:not([data-prete])');
+    if (!planches.length) return;
 
-    const svg = plan.querySelector('svg');
-    const vue = plan.querySelector('[data-vue]');
-    const nom = plan.querySelector('[data-nom-lieu]');
-    const reperes = [...document.querySelectorAll('.texte p[data-lieu]')];
-    if (!svg || !vue || !reperes.length) return;
+    const cadrer = (planche) => {
+      const svg = planche.querySelector('svg');
+      const vue = planche.querySelector('[data-vue]');
+      const formes = planche.querySelectorAll('.halo');
+      if (!svg || !vue || !formes.length) return;
 
-    const vb = svg.viewBox.baseVal;
-    const cadres = new Map();
-
-    for (const forme of plan.querySelectorAll('.halo')) {
-      const l = forme.dataset.lieu;
-      const b = forme.getBBox();
-      const a = cadres.get(l);
-      cadres.set(l, a ? {
-        x: Math.min(a.x, b.x), y: Math.min(a.y, b.y),
-        X: Math.max(a.X, b.x + b.width), Y: Math.max(a.Y, b.y + b.height),
-      } : { x: b.x, y: b.y, X: b.x + b.width, Y: b.y + b.height });
-    }
-
-    let dernier = null;
-
-    const regarder = () => {
-      const ligne = window.innerHeight * 0.45;
-      let vise = null;
-      for (const p of reperes) {
-        if (p.getBoundingClientRect().top < ligne) vise = p;
-      }
-      const lieu = vise ? vise.dataset.lieu : null;
-      if (lieu === dernier) return;
-      dernier = lieu;
-
-      for (const p of reperes) p.classList.toggle('ici', p === vise);
-
-      for (const forme of plan.querySelectorAll('.halo')) {
-        const cest = forme.dataset.lieu === lieu;
-        forme.classList.remove('ici');
-        if (cest) { void forme.getBoundingClientRect(); forme.classList.add('ici'); }
+      const vb = svg.viewBox.baseVal;
+      let c = null;
+      for (const f of formes) {
+        const b = f.getBBox();
+        c = c ? {
+          x: Math.min(c.x, b.x), y: Math.min(c.y, b.y),
+          X: Math.max(c.X, b.x + b.width), Y: Math.max(c.Y, b.y + b.height),
+        } : { x: b.x, y: b.y, X: b.x + b.width, Y: b.y + b.height };
       }
 
-      const c = lieu && cadres.get(lieu);
-      if (!c) {
-        vue.style.transform = '';
-        nom.textContent = '';
-        nom.classList.remove('la');
-        return;
-      }
+      /* La planche est large : on cadre sur la largeur visible, pas sur le viewBox. */
+      const r = svg.getBoundingClientRect();
+      const vus = { l: vb.height * (r.width / r.height), h: vb.height };
 
       const lb = c.X - c.x, hb = c.Y - c.y;
-      const k = Math.max(1, Math.min(3,
-        Math.min(vb.width / (lb * 2.4), vb.height / (hb * 2.4))));
+      /* La piece doit occuper environ un tiers du cadre, qu'elle soit
+         l'accueil ou une salle de ceremonie : on part de son ajustement
+         plein cadre et on recule d'autant. */
+      const plein = Math.min(vus.l / lb, vus.h / hb);
+      const k = Math.max(1, Math.min(4.5, plein * 0.32));
       const tx = (vb.x + vb.width / 2) - k * (c.x + lb / 2);
       const ty = (vb.y + vb.height / 2) - k * (c.y + hb / 2);
-      vue.style.transform = `translate(${tx.toFixed(1)}px, ${ty.toFixed(1)}px) scale(${k.toFixed(3)})`;
 
-      nom.textContent = lieu;
-      nom.classList.add('la');
+      /* On pose le point de depart un cran plus large, pour que l'arrivee se voie. */
+      vue.style.transform = `translate(${(tx * .55).toFixed(1)}px, ${(ty * .55).toFixed(1)}px) scale(${(1 + (k - 1) * .35).toFixed(3)})`;
+      planche.dataset.arrivee = `translate(${tx.toFixed(1)}px, ${ty.toFixed(1)}px) scale(${k.toFixed(3)})`;
+      planche.dataset.prete = '1';
     };
 
-    window.addEventListener('scroll', regarder, { passive: true });
-    window.addEventListener('resize', regarder, { passive: true });
-    regarder();
+    /* La planche se devoile quand elle entre franchement dans la vue.
+       Au defilement plutot qu'a l'IntersectionObserver : meme resultat, une
+       API de moins, et ca se verifie sans compositeur. */
+    const devoiler = () => {
+      const h = window.innerHeight;
+      for (const p of planches) {
+        if (p.classList.contains('vu')) continue;
+        const r = p.getBoundingClientRect();
+        if (r.top < h * 0.8 && r.bottom > h * 0.2) {
+          const vue = p.querySelector('[data-vue]');
+          if (vue && p.dataset.arrivee) vue.style.transform = p.dataset.arrivee;
+          p.classList.add('vu');
+        }
+      }
+    };
+
+    for (const p of planches) cadrer(p);
+    window.addEventListener('scroll', devoiler, { passive: true });
+    window.addEventListener('resize', devoiler, { passive: true });
+    devoiler();
   }
 
-  suivreLesLieux();
-  document.addEventListener('astro:page-load', suivreLesLieux);
+  animerLesPlanches();
+  document.addEventListener('astro:page-load', animerLesPlanches);
 </script>
