@@ -31,13 +31,12 @@ là** — il parle, il répète un mot et il le retient tout de suite. *Mais il 
 ce qu'il voit pour la première fois : le mot ne lui manque pas, c'est la chose qu'il ne
 connaît pas.* **Le reste s'apprend à l'école, et en écoutant les mots revenir.**
 
-**Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes distincts, et l'arrivant
-passe de l'un à l'autre à huit ans, quand il entre au jardin :** ceux des quatorze à huit,
-accolés au jardin sans y être, et ceux du jardin même, qui prennent le relais et restent
-jusqu'au dernier jour. **Un arrivant de la tranche haute ne va ni à l'école ni chez un tuteur
-: son berceur lui apprend ce qu'il faut pour son âge.** Ce sont ceux du jardin qui nomment les
-arrivants de huit ans et au-dessous. **Métier payé, métier mixte, et c'est aussi de la
-tendresse.**
+**Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes, et l'arrivant passe de l'un
+à l'autre à huit ans, quand il entre au jardin.** Ceux de la tranche haute — quatorze à huit —
+suivent chacun leurs arrivants et leur apprennent ce qu'il faut pour leur âge : ni école, ni
+tuteur. **Ceux du jardin, eux, ne sont attachés à personne en particulier : ils tiennent un
+dortoir, un groupe, une zone**, et ce sont eux qui nomment les arrivants de huit ans et moins.
+**Métier payé, métier mixte, et c'est aussi de la tendresse.**
 
 **Bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le
 service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont les

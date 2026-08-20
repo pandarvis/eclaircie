@@ -309,6 +309,28 @@ Chaque métier aurait sa sortie, et elle serait toujours la même : on vous conf
 
 ---
 
+## 5 bis. Comment les berceurs sont répartis — par groupes, jamais par personne
+
+> **Décision de l'autrice, 20 août 2026.**
+>
+> *« Il faut voir presque ça comme un centre de loisirs, les animateurs. […] Ils ne sont pas rattachés à des enfants en particulier mais à des groupes d'enfants. […] On a des berceurs là où on en a besoin, et c'est tout. »*
+
+🔴 **Et ça répond à une question qui n'avait pas d'objet.** *On demandait si un berceur du jardin garde sa charge jusqu'à zéro, ou s'il passe la main quand l'arrivant cesse de parler.* **Il n'a pas de charge.** Il tient un dortoir, un groupe, une zone — pas quelqu'un.
+
+### Ce qui organise la journée
+
+**Des dortoirs assignés, et globalement les mêmes groupes.** Chacun a sa fonction et les rôles s'échangent. *Certains sont plus habitués aux tout-petits, d'autres aux plus grands* — c'est une habitude de terrain, pas une spécialité déclarée.
+
+**La zone médicale est plus restreinte.** Ceux qui y travaillent y restent en général, **mais ils bougent selon l'affluence du moment** : s'ils sont trop nombreux au regard des arrivées de futurs zéros, ils vont aider au jardin. *C'est un relais, pas une affectation.*
+
+### Ce que ça coupe, et il faut le savoir en écrivant
+
+⚠️ **La tranche haute attache, le jardin non.** *De quatorze à huit, un arrivant a son berceur — c'est une personne, elle lui apprend ce qu'il doit savoir, elle répond de lui.* **À huit, il entre dans un lieu où personne n'est à lui en particulier.**
+
+**Une vie compte donc un seul adieu, et il tombe là.** *Après, il n'y a plus personne dont se séparer.* ⛔ **Rien de cela ne s'énonce dans le roman**, et surtout pas comme une tristesse : c'est une organisation de service, et tout le monde la trouve normale.
+
+---
+
 ## 6. 🟡 La mort d'un zéro — la scène à écrire
 
 > **Décision de l'autrice, validée provisoirement le 16 août 2026 — à revoir.**

@@ -1485,4 +1485,13 @@ const NOTES = [
 
 ⛔ *Le geste ne se commente jamais, et l'objet ne se décrit jamais deux fois de la même manière.*` },
 
+
+{ d:`20 août`, s:`Au jardin, un berceur n'est attaché à personne`, e:`acquis`, t:[`jardin`,`monde`,`personnages`],
+  v:`quand on arrive au jardin, il faut voir presque ça comme un centre de loisirs, les animateurs. […] ils ne sont pas rattachés à des enfants en particulier mais à des groupes d'enfants. […] on a des berceurs là où on en a besoin et c'est tout`,
+  q:`🔴 **La question n'avait pas d'objet, et c'est la meilleure façon de la fermer.** *On demandait si un berceur du jardin garde sa charge jusqu'à zéro ou passe la main quand l'arrivant cesse de parler.* **Il n'a pas de charge :** il tient un dortoir, un groupe, une zone.
+
+**Des dortoirs assignés, globalement les mêmes groupes, et les rôles s'échangent.** *Certains sont plus habitués aux tout-petits, d'autres aux plus grands — habitude de terrain, pas spécialité déclarée.* **La zone médicale est plus restreinte** : on y reste en général, mais on bouge selon l'affluence. *S'il y a trop de monde au regard des arrivées de futurs zéros, on va aider au jardin.* **C'est un relais, pas une affectation.**
+
+⚠️ **Et ça coupe quelque chose qu'il faut savoir en écrivant : la tranche haute attache, le jardin non.** *De quatorze à huit, un arrivant a son berceur — une personne, qui lui apprend et qui répond de lui. À huit, il entre dans un lieu où personne n'est à lui en particulier.* **Une vie compte donc un seul adieu, et il tombe là.** ⛔ *Rien de cela ne s'énonce dans le roman, et surtout pas comme une tristesse : c'est une organisation de service, et tout le monde la trouve normale.*` },
+
 ];
