@@ -33,6 +33,7 @@ nommé avant : c'est voulu, l'application doit démarrer quand tout est déjà l
 | `verser.py <fichier.md> <id-du-chapitre>` | verse un brouillon markdown dans `pB-textes.js` |
 | `pdf3.py <id> <rang> <sous-titre> <sortie.html>` | fabrique la page A4 d'un chapitre ; **le PDF se tire ensuite avec Chrome `--print-to-pdf`, cette page n'est pas le PDF** |
 | `grille.py` | vide la frise dans un tableau lisible, pour vérifier l'ordre des colonnes |
+| `extraire-le-chapitre.py <id>` ou `--tous` | **régénère le brouillon markdown de `05-manuscrit/chapitres/en-cours/` depuis le texte de l'atelier.** *À lancer après chaque correction — un brouillon qui diverge en silence est la panne déjà payée deux fois* |
 | `reprendre-la-revision.py` | **rejoue sur `pB-textes.js` les corrections faites par l'autrice dans l'atelier.** Sans argument, il va chercher le dernier `eclaircie-revision-*.json` dans les téléchargements. `--voir` montre sans rien écrire |
 | `../../integrer-le-plan.py` | ré-injecte le plan de la ruche dans `p3-style.html`, `p4-corps.html` et `pC-ruche.js` |
 | `../../integrer-le-jardin.py` | ré-injecte le plan du jardin. **Il passe par une iframe** : aucune classe à renommer, isolation totale |

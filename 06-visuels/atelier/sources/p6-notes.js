@@ -1556,4 +1556,21 @@ const NOTES = [
 
 *Le chapitre passe de 3 490 à 3 649 mots. Le brouillon en cours était en phase au paragraphe près : il l'est resté. L'entrée Accueil du glossaire suit le texte, et non l'inverse.*` },
 
+
+{ d:`20 août`, s:`La cueillie donne son nom au premier examen`, e:`acquis`, t:[`écriture`,`ruche`,`monde`],
+  v:`C'était là que les arrivants passaient leurs huit premiers jours, après l'examen de la cueillie, le tout premier examen de leur vie.`,
+  q:`🔴 **Le nom manquant est peut-être trouvé, et il l'a été en écrivant.** *L'entrée du glossaire porte encore « consultation d'initiation », formule de travail marquée non tranchée.* **Le texte, lui, dit l'examen de la cueillie** — et il l'accroche au geste qui précède tout : décrocher la capsule mûre.
+
+⚠️ **À confirmer, parce que le mot se lit de deux façons.** *L'examen qui suit la cueillie, ou l'examen de la cueillie elle-même ?* **Le premier sens est celui du texte, le second est celui de la grammaire.** *Si le nom est gardé, le glossaire suit ; sinon la question reste ouverte.*
+
+✅ *Et le mot « série », qu'elle avait refusé, disparaît du même coup : le texte dit désormais* « d'une travée à l'autre, leur maturation s'achève sur des relevés étranges ».` },
+
+{ d:`20 août`, s:`Le brouillon ne peut plus diverger : il se régénère`, e:`acquis`, t:[`atelier`],
+  v:``,
+  q:`**Le brouillon de « en-cours » était tenu à jour à la main, et il l'était au paragraphe près.** *C'est exactement la situation qui précède une divergence : ça tient tant que quelqu'un y pense.*
+
+✅ **extraire-le-chapitre.py le régénère depuis l'atelier**, qui est la source. *Il ne fait le trajet que dans ce sens ; verser.py fait l'inverse, pour un texte qui arrive du dehors.* **À lancer après chaque correction, et notamment après reprendre-la-revision.py.**
+
+⚠️ *C'est la troisième fois qu'une copie figée se met à dormir dans ce projet. Les deux premières étaient le plan du jardin et le glossaire ; les trois ont maintenant leur garde-fou.*` },
+
 ];
