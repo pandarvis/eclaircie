@@ -1331,4 +1331,27 @@ const NOTES = [
 
 *Le prix de son retour est affiché sur la fiche, pour qu'il ne se découvre pas après coup :* **elle rouvre toute la durée du livre.** Le calendrier sur douze ans n'existait que pour elle.` },
 
+
+{ d:`20 août`, s:`Le glossaire et le lexique n'en font plus qu'un`, e:`acquis`, t:[`dossier`,`monde`,`écriture`],
+  v:`le glossaire et le lexique... c'est un peu pareil nn ? on pourrait pas les regrouper en un ? les description peut se permetre un poil plus long comme dans un entre deux. il y a des choses obsolètes aussi à nettoyer`,
+  q:`**Quarante-neuf entrées sur cinquante et une étaient le même mot défini deux fois**, dans deux fichiers que rien ne synchronisait. *Et la dérive avait commencé : le corps médical du jardin s'appelait « médecins » d'un côté et « pédiatres » de l'autre.*
+
+**Une seule source désormais — 02-univers/les-mots.md — et deux parties.** *Les mots du monde*, qui **sont** la page de fin de volume : le livre la reçoit générée, on ne l'édite plus à la main. Et *la bible*, décidée par l'autrice : **la couture, le sismographe, la règle des retrouvailles, la chaîne, la dernière grâce, l'affaire Sorel** — tout ce qui vendrait la fin du livre ou n'appartient qu'à l'atelier. *La chaîne, surtout : sur une page de fin de volume, elle vend la berceuse.*
+
+⚠️ **Deux mots morts rangés là aussi.** *Le palier* est un mot de bible, dit l'autrice. *Le capot* disparaît comme entrée : ce n'était pas le bon mot, c'est le rabat — **et le rabat lui-même cesse d'être un mot à part** pour aller dans la description de la capsule, dont il est un morceau.` },
+
+{ d:`20 août`, s:`Trois mots proscrits dormaient dans une page du livre`, e:`acquis`, t:[`écriture`,`monde`],
+  v:`il y a des choses obsolètes aussi à nettoyer. des anciennes appelations par exemple`,
+  q:`**Le glossaire est une page du livre : il est donc soumis aux interdits.** *Personne ne le vérifiait.* Le validateur contrôlait l'ordre alphabétique et la longueur des définitions, jamais leur vocabulaire — et l'interdit n° 11 bis dormait à côté.
+
+**Ce qui était passé :** *chaque **enfant** de huit ans à zéro* chez les médecins du jardin, *d'autant plus **vieux** qu'on est parti **vieux*** au bizutage, et *il n'y a pas de noms de **famille*** au numéro. **Et un quatrième que le contrôle neuf a trouvé tout seul** : *« ce n'est pas un **père**, c'est un service d'archives »* à l'Archiviste. *La phrase disait la bonne chose avec un mot que cette langue n'a jamais formé ; elle la dit maintenant sans lui.*
+
+✅ **Le validateur porte désormais la liste**, et il a été testé en cassant exprès la page. ⚠️ *La bible, elle, n'est soumise à rien : elle a le droit de nommer ce qui est interdit — c'est même sa raison d'être.*` },
+
+{ d:`20 août`, s:`Le nom des médecins du jardin`, e:`ouvert`, t:[`monde`,`jardin`],
+  v:``,
+  q:`**Deux noms coexistaient, et il faut en garder un.** *Pédiatres du jardin* — le mot du lexique — dit mieux la spécialité, mais **il suppose l'enfance, que cette langue n'a pas formée** : il tombe avec « enfant », et le dossier disait déjà que « pédiatre pour vieux » était une formule de travail qui n'entre pas dans le roman.
+
+⚠️ **« Médecins du jardin » est le nom de repli, pas un choix.** *C'est celui qui passe l'interdit sans retouche ; il ne dit rien de la spécialité.* **La question attend l'autrice**, et elle est liée à celle qui traîne depuis le 19 août : est-ce un homme, ou la médecin en chef ?` },
+
 ];

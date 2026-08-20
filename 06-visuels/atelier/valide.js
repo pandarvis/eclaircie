@@ -8,7 +8,7 @@ const coupe = src.indexOf('const $  = (s, r)');
 src = src.slice(0, coupe > 0 ? coupe : src.length);
 src += `
 ;globalThis.__d = { SCENES, LIENS, NOTES, QUESTIONS, TEXTES, VOIES, ACTES,
-                    LEXIQUE, GLOSSAIRE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
+                    MOTS, BIBLE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
 
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(src, ctx);
@@ -16,22 +16,38 @@ const d = ctx.__d;
 
 const pb = [];
 
-/* Le glossaire est une page du livre : il se lit dans l'ordre, et une entree
-   hors d'ordre ou en double se voit tout de suite a la lecture. */
+/* Les mots du monde sont une page du livre : ils se lisent dans l'ordre, et
+   une entree hors d'ordre ou en double se voit tout de suite a la lecture. */
 {
   const plat = m => m.toLowerCase()
     .replace(/[éèê]/g, 'e').replace(/[àâ]/g, 'a')
     .replace(/ç/g, 'c').replace(/[ôö]/g, 'o')
     .replace(/[ûù]/g, 'u').replace(/[îï]/g, 'i')
     .replace(/[«»"]/g, '').trim();
-  const mots = d.GLOSSAIRE.map(([m]) => m);
-  if (new Set(mots).size !== mots.length) pb.push('glossaire : entree en double');
+  const mots = d.MOTS.map(([m]) => m);
+  if (new Set(mots).size !== mots.length) pb.push('les mots : entree en double');
   for (let i = 1; i < mots.length; i++)
     if (plat(mots[i]) < plat(mots[i - 1]))
-      pb.push('glossaire hors ordre : ' + mots[i - 1] + ' avant ' + mots[i]);
-  d.GLOSSAIRE.forEach(([m, def]) => {
-    if (!def || def.length < 20) pb.push('glossaire : definition trop courte pour ' + m);
-    if (def && def.length > 460) pb.push('glossaire : definition trop longue pour ' + m);
+      pb.push('les mots, hors ordre : ' + mots[i - 1] + ' avant ' + mots[i]);
+  d.MOTS.forEach(([m, def]) => {
+    if (!def || def.length < 110) pb.push('les mots : definition trop courte pour ' + m);
+    if (def && def.length > 560) pb.push('les mots : definition trop longue pour ' + m);
+  });
+
+  /* Le vocabulaire, enfin. Cette liste EST une page du livre : elle est donc
+     soumise aux interdits, ce que personne ne verifiait. La bible, elle, a le
+     droit de tout nommer -- c'est meme sa raison d'etre. */
+  const PROSCRITS = ['enfant', 'enfants', 'bebe', 'bebes', 'nourrisson', 'nourrissons',
+                     'vieux', 'vieille', 'vieilles', 'vieillard', 'vieillards', 'senior',
+                     'seniors', 'mere', 'meres', 'pere', 'peres', 'famille', 'familles',
+                     'frere', 'freres', 'soeur', 'soeurs', 'jumeau', 'jumeaux', 'jumelle',
+                     'jumelles', 'peau', 'capot', 'palier'];
+  d.MOTS.forEach(([m, def]) => {
+    const nu = plat(def).replace(/[œ]/g, 'oe');
+    PROSCRITS.forEach(p => {
+      if (new RegExp('\\b' + p + '\\b').test(nu))
+        pb.push('mot proscrit dans la page du lecteur : ' + p + ' (' + m + ')');
+    });
   });
 }
 const trous = [];
@@ -91,8 +107,7 @@ console.log('étapes      ', d.ETAPES.length);
 console.log('liens       ', d.LIENS.length);
 console.log('notes       ', d.NOTES.length);
 console.log('questions   ', d.QUESTIONS.length);
-console.log('lexique     ', d.LEXIQUE.length, '· règles', d.REGLES.length, '· interdits', d.INTERDITS.length);
-console.log('glossaire   ', d.GLOSSAIRE.length, 'entrées');
+console.log('les mots    ', d.MOTS.length, '· bible', d.BIBLE.length, '· règles', d.REGLES.length, '· interdits', d.INTERDITS.length);
 console.log('gens        ', d.GENS.length, '· phrases', d.PHRASES.length);
 console.log('chapitres   ', d.TEXTES.length, '(' + mots.join(', ') + ' mots)');
 console.log('à trouver   ', d.SCENES.filter(s => s.statut === 'trou').length, 'scènes');

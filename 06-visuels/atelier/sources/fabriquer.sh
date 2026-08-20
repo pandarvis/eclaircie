@@ -10,13 +10,25 @@ ORDRE="p1-style.html p2-style.html p3-style.html p4-corps.html
 # Elle est figee ici ; la page autonome, elle, bouge. On a deja livre deux
 # corrections que personne n'a jamais vues parce que cette copie dormait.
 ATTENDU=$(sha256sum ../../plan-du-jardin.html | cut -d' ' -f1)
-PORTE=$(sed -n 's|.*empreinte-source: ||p' pD-jardin.js | tr -d ' ')
+PORTE=$(sed -n 's|.*empreinte-source: ||p' pD-jardin.js | tr -d ' 
+')
 if [ "$ATTENDU" != "$PORTE" ]; then
   echo "PROBLEME : pD-jardin.js est en retard sur plan-du-jardin.html."
   echo "           relancer  python integrer-le-jardin.py  depuis 06-visuels/"
   exit 1
 fi
 echo "le plan du jardin : a jour"
+
+# Verification 0 bis : la liste des mots n'a pas pris de retard non plus.
+# p7-monde.js et 05-manuscrit/glossaire.md sont generes depuis le markdown.
+ATTENDU=$(sha256sum ../../../02-univers/les-mots.md | cut -d' ' -f1)
+PORTE=$(grep -o 'empreinte-source: [0-9a-f]*' p7-monde.js | head -1 | cut -d' ' -f2)
+if [ "$ATTENDU" != "$PORTE" ]; then
+  echo "PROBLEME : p7-monde.js est en retard sur 02-univers/les-mots.md."
+  echo "           relancer  python les-mots.py  depuis ce dossier"
+  exit 1
+fi
+echo "les mots : a jour"
 
 cat $ORDRE > ../atelier.html
 echo "atelier.html fabrique"

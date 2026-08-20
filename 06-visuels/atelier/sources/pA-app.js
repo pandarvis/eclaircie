@@ -539,15 +539,15 @@ rendreNotes();
 /* ==========================================================================
    VUE 4 — LE MONDE
    ========================================================================== */
-let mOnglet = `glossaire`, mTexte = ``;
-const ONGLETS = [[`glossaire`,`Le glossaire`],[`lexique`,`Le lexique`],[`regles`,`Les règles`],[`interdits`,`Les interdits`],
+let mOnglet = `mots`, mTexte = ``;
+const ONGLETS = [[`mots`,`Les mots`],[`bible`,`La bible`],[`regles`,`Les règles`],[`interdits`,`Les interdits`],
                  [`decompte`,`Le décompte`],[`calendrier`,`Le calendrier`],
                  [`dispositif`,`Le dispositif`],[`raccords`,`Les faux raccords`]];
 (function ongletsMonde(){
   const box = $(`#m-onglets`);
   ONGLETS.forEach(([k, lab]) => {
     const b = document.createElement(`button`);
-    b.className = `puce` + (k === `glossaire` ? ` on` : ``);
+    b.className = `puce` + (k === `mots` ? ` on` : ``);
     b.textContent = lab;
     b.addEventListener(`click`, () => {
       mOnglet = k; $$(`#m-onglets .puce`).forEach(x => x.classList.remove(`on`)); b.classList.add(`on`);
@@ -562,22 +562,26 @@ function rendreMonde(){
   const c = $(`#m-corps`);
   const f = t => !mTexte || t.toLowerCase().includes(mTexte);
 
-  if (mOnglet === `lexique`){
-    const l = LEXIQUE.filter(([m, d, s, o]) => f(m + ` ` + d + ` ` + o));
-    c.innerHTML = `<p class="chapo">Les mots propres à ce monde, et ceux du quotidien qui y prennent un autre sens. <strong>Aucun ne s'explique dans le texte : ils s'emploient.</strong></p>`
+  if (mOnglet === `mots`){
+    const l = MOTS.filter(([m, d, s, o]) => f(m + ` ` + d + ` ` + o));
+    c.innerHTML = `<p class="chapo">Les mots propres à ce monde, et ceux du quotidien qui y prennent un autre sens. <strong>Aucun ne s'explique dans le texte : ils s'emploient.</strong><br>
+      <em>Cette liste <strong>est</strong> la page de fin de volume du livre. La source est <code>02-univers/les-mots.md</code> ; <code>05-manuscrit/glossaire.md</code> en est généré. La ligne de source et la question ouverte, elles, ne vont jamais sous les yeux du lecteur.</em></p>`
+      + `<p class="chapo" style="opacity:.7">${l.length} mot${l.length > 1 ? `s` : ``}${mTexte ? ` sur ${MOTS.length}` : ``}.</p>`
       + `<dl class="lexique">` + l.map(([m, d, s, o]) =>
         `<div class="mot-l"><dt><b>${esc(m)}</b>${o ? `<br><span class="st st-ouvert">non tranché</span>` : ``}</dt>
          <dd>${rich(d)}${o ? `<span class="ouv">${rich(o)}</span>` : ``}
          <span class="src" style="margin-top:7px">${esc(s)}</span></dd></div>`).join(``) + `</dl>`;
   }
 
-  else if (mOnglet === `glossaire`){
-    const l = GLOSSAIRE.filter(([m, d]) => f(m + ` ` + d));
-    c.innerHTML = `<p class="chapo">La page de fin de volume, pour le lecteur qui se perd. <strong>Ordre alphabétique, une définition courte, et rien qui raconte le livre.</strong><br>
-      <em>La source est <code>05-manuscrit/glossaire.md</code> — c'est une page du livre, pas une fiche de travail. On corrige le markdown, puis <code>python glossaire.py</code>.</em></p>`
-      + `<p class="chapo" style="opacity:.7">${l.length} entrée${l.length > 1 ? `s` : ``}${mTexte ? ` sur ${GLOSSAIRE.length}` : ``}.</p>`
-      + `<dl class="lexique">` + l.map(([m, d]) =>
-        `<div class="mot-l"><dt><b>${esc(m)}</b></dt><dd>${rich(d)}</dd></div>`).join(``) + `</dl>`;
+  else if (mOnglet === `bible`){
+    const l = BIBLE.filter(([m, d, s, o]) => f(m + ` ` + d + ` ` + o));
+    c.innerHTML = `<p class="chapo">Ce que l'autrice seule sait : les outils d'écriture, les mots morts, et ce qui vendrait la fin du livre. <strong>Rien de cette page ne va sous les yeux du lecteur.</strong><br>
+      <em>La chaîne, le sismographe et la règle des retrouvailles sont ici pour cette raison, et pas parce qu'ils comptent moins.</em></p>`
+      + `<p class="chapo" style="opacity:.7">${l.length} entrée${l.length > 1 ? `s` : ``}${mTexte ? ` sur ${BIBLE.length}` : ``}.</p>`
+      + `<dl class="lexique">` + l.map(([m, d, s, o]) =>
+        `<div class="mot-l"><dt><b>${esc(m)}</b>${o ? `<br><span class="st st-ouvert">non tranché</span>` : ``}</dt>
+         <dd>${rich(d)}${o ? `<span class="ouv">${rich(o)}</span>` : ``}
+         <span class="src" style="margin-top:7px">${esc(s)}</span></dd></div>`).join(``) + `</dl>`;
   }
 
   else if (mOnglet === `regles`){
