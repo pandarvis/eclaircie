@@ -1624,4 +1624,13 @@ const NOTES = [
 
 **Les trois autres :** *la capsule qu'on décroche est « considérée comme arrivée à maturité » — le doute revient dans la phrase, et la couleur ne se dit plus deux fois* ; *la règle des âges s'élargit à* « comme partout ailleurs », *ce qui la sort du service* ; *et Vera se lit en deux phrases au lieu d'une.*` },
 
+
+{ d:`20 août`, s:`La capsule qui a crevé : on la voit enfin, et le chiffre passe à cinq`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`Ce n'était pas de la gelée. La gelée est orange, mate, sèche ; elle s'enlève d'un tenant et ne laisse rien derrière elle. […] Les régurgitations de n'importe quel être vivant, petit ou grand, à côté de ça, c'était du petit-lait.`,
+  q:`**Dix-neuf paragraphes en deviennent trente et un, et la scène révoltànte que le §8 du dossier maître réclamait est enfin là.** *La question était ouverte depuis le 16 août : en noyant la capsule non éclaircie dans le second récit de la cérémonie, la compréhension devenait froide et rétrospective, et la révulsion n'avait plus de logement.* **Elle en a un : ici, dans une journée de service ordinaire, exactement où le dossier proposait de la replacer.**
+
+🔴 **Et la comparaison porte tout : on nomme d'abord ce que ça n'est pas.** *La gelée est orange, mate, sèche, elle s'enlève d'un tenant.* **Le lecteur se cale sur du connu, puis on le déplace** — les grumeaux qui se referment sur la marque de la raclette, la membrane qui se plisse quand on marche à côté, la masse qui descend parce que le sol descend.
+
+⚠️ **Un chiffre a changé, et il ne se voit pas dans le texte : « la deuxième cette semaine » devient « la cinquième ».** *C'est la seule occurrence du dossier, donc rien ne se contredit.* **Mais cinq en une semaine est une alarme d'un autre ordre que deux** — *plus difficile à manquer pour le lecteur, et plus difficile à ne pas commenter pour les quatre qui raclent.* ✅ *Personne ne répond, et c'est ce qui la tient.*` },
+
 ];
