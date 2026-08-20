@@ -1527,4 +1527,13 @@ const NOTES = [
 
 *Proposition déposée dans 05-manuscrit/chapitres/propositions/accueil-2026-08-20.md — non appliquée au texte.*` },
 
+
+{ d:`20 août`, s:`Une répétition, et le prologue en cachait une seconde`, e:`acquis`, t:[`écriture`],
+  v:`"et l'on y parlait à cette hauteur de voix que personne n'avait jamais demandée. Certains se demandaient dans quelle salle on les enverrait." répétition demandé`,
+  q:`**Vue, et elle en a fait voir une seconde sans la chercher.** *Le prologue porte déjà : « C'était une chose qu'on faisait ici sans que personne l'ait jamais demandé. »* **La phrase répétait donc le mot à dix lignes et l'observation à cinquante pages.**
+
+✅ **On n'explique plus rien du tout : « et l'on y parlait bas ».** *Deux mots au lieu de treize, et le lecteur qui a lu le prologue entend l'écho tout seul.*
+
+⚠️ **Le réflexe à garder : une observation déjà posée ne se repose pas, elle se convoque.** *Le premier chapitre hérite du prologue, il n'a pas à le refaire.*` },
+
 ];
