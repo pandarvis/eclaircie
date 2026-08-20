@@ -34,7 +34,9 @@ Les berceurs et berceuses **accompagnent ceux qui sont au jardin, jusqu'au derni
 >
 > **Mais ses journées ne sont pas vides pour autant, et c'est là que le jardin revient.** Ses charges travaillent : pendant leurs heures, **c'est leur employeur qui en répond, pas elle.** *Alors elle y va en renfort, dès que son planning le permet.* **Elle connaît donc le jardin, elle y a ses habitudes, et elle y accompagne des arrivants qui ne sont pas les siens.**
 >
-> ⚠️ **Conséquence à vérifier sur l'épilogue, non appliquée :** si Eliott entre au jardin, **il change de berceur ce jour-là.** June ne le suit pas — elle le passe. *C'est peut-être exactement la scène qu'il faut, et c'est peut-être ce qui la fait sortir du livre. À trancher avec l'autrice.*
+> ⚠️ **Conséquence à vérifier sur l'épilogue, non appliquée :** si Eliott entre au jardin, **il change de berceur ce jour-là** — au jardin, personne n'est à personne en particulier, et June le passe à un groupe.
+>
+> **Mais ça ne la fait pas sortir du livre, et c'est une précision de l'autrice du 20 août 2026 :** *les berceurs du dehors rendent visite, et on les recroise régulièrement dans le jardin.* **Elle peut être là le jour où il entre, et elle peut y revenir.** *Ce qui a changé n'est pas la présence : c'est le lien.*
 
 ### Le seuil de nommage — huit ans et en dessous
 
@@ -122,7 +124,7 @@ Ce que ça fait à la fiche, et ce n'est pas mince pour un personnage de passage
 - [ ] **Assiste-t-elle aux visites, ou laisse-t-elle la pièce ?** Sa présence donne un témoin adulte aux propos d'Eliott ; son absence laisse les deux porteurs de voiles seuls dans la pièce.
 - [ ] **La revoit-on après l'annonce ?** La fiche pose que non. À confirmer si l'enquête a besoin d'un retour chez elle. **L'épilogue rouvre la question** : elle est la berceuse d'Eliott et devrait être là quand il entre au jardin.
 - [ ] **Est-elle présente à l'épilogue ?** Voir [`eliott.md`](eliott.md). Si oui, elle y est la seule personne pour qui le silence est une habitude de métier — et elle n'a pas une ligne à dire pour que ça se voie.
-- [x] ~~**Suit-elle le même enfant du haut en bas ?**~~ — **clos le 20 août 2026, et la question n'avait pas d'objet.** *Deux groupes de berceurs : l'arrivant passe de l'un à l'autre à huit ans, et **au jardin, un berceur n'est attaché à personne en particulier** — il tient un dortoir, un groupe, une zone.* **Une vie compte donc un seul adieu, et il tombe à huit ans** : après, il n'y a plus personne dont se séparer. Voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §5 bis.
+- [x] ~~**Suit-elle le même enfant du haut en bas ?**~~ — **clos le 20 août 2026, et la question n'avait pas d'objet.** *Deux groupes de berceurs : l'arrivant passe de l'un à l'autre à huit ans, et **au jardin, un berceur n'est attaché à personne en particulier** — il tient un dortoir, un groupe, une zone.* **Ce qui change à huit ans n'est pas la présence mais le lien** : *les berceurs du dehors rendent visite, et on les recroise régulièrement dans le jardin.* Voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §5 bis.
 
 ---
 
