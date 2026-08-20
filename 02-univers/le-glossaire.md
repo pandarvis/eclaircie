@@ -57,14 +57,13 @@ ce qu'il voit pour la première fois : le mot ne lui manque pas, c'est la chose 
 connaît pas.* **Le reste s'apprend à l'école, et en écoutant les mots revenir.**
 > `02-univers/le-corps-des-arrivants.md`
 
-**Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes distincts, et l'arrivant
-passe de l'un à l'autre à huit ans, quand il entre au jardin :** ceux des quatorze à huit,
-accolés au jardin sans y être, et ceux du jardin même, qui prennent le relais et restent
-jusqu'au dernier jour. **Un arrivant de la tranche haute ne va ni à l'école ni chez un
-tuteur : son berceur lui apprend ce qu'il faut pour son âge.** Ce sont ceux du jardin qui
-nomment les arrivants de huit ans et au-dessous. **Métier payé, métier mixte, et c'est aussi
-de la tendresse.**
-> `02-univers/la-ruche.md` · ❓ Un berceur du jardin garde-t-il sa charge jusqu'à zéro, ou passe-t-il la main quand l'arrivant cesse de parler ? Et la frontière avec le tuteur reste à retracer — le chuchoteur tombe au même endroit.
+**Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes, et l'arrivant passe de
+l'un à l'autre à huit ans, quand il entre au jardin.** Ceux de la tranche haute — quatorze à
+huit — suivent chacun leurs arrivants et leur apprennent ce qu'il faut pour leur âge : ni
+école, ni tuteur. **Ceux du jardin, eux, ne sont attachés à personne en particulier : ils
+tiennent un dortoir, un groupe, une zone**, et ce sont eux qui nomment les arrivants de huit
+ans et moins. **Métier payé, métier mixte, et c'est aussi de la tendresse.**
+> `02-univers/le-jardin.md` §5 bis
 
 **Bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le
 service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont les
@@ -231,7 +230,7 @@ qu'une travée a éclairci.
 **Tuteur.** Métier de l'apprentissage. Instruit ceux qui auront à s'en servir : se tenir, se
 laver, cuisiner, travailler, comprendre une rue, une monnaie, un métier. **Le tuteur instruit
 ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage.**
-> `02-univers/la-ruche.md` · ❓ Deux frontières à retracer : les berceurs des quatorze à huit ans mordent sur son territoire, et le chuchoteur pourrait se fondre en lui.
+> `02-univers/la-ruche.md` · ❓ **La frontière basse est tranchée : la tranche haute relève d'un berceur, pas de lui.** Reste le chuchoteur, qui pourrait se fondre en lui.
 
 **Veilleur.** Homme ou femme de métier de la ruche. Surveille la maturation, relève
 l'éclaircie, tient le registre, **prépare les cérémonies et les tient**, mesure l'âge, donne
