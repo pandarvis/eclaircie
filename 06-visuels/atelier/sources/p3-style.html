@@ -447,5 +447,29 @@ kbd{
 #v-jardin .attente{padding:60px;color:var(--texte-3);font-size:13px}
 
 /*<<fin jardin-style>>*/
+
+/* ---------- le mode revision de l'onglet Chapitres ---------- */
+.txt.revise p{position:relative;padding-left:26px;border-radius:3px}
+.txt.revise p:hover{background:rgba(217,164,65,.05)}
+.txt.revise p[contenteditable]:focus{outline:none;background:rgba(217,164,65,.09);
+  box-shadow:inset 2px 0 0 var(--or)}
+.txt.revise p.touche{box-shadow:inset 2px 0 0 #7fb069;background:rgba(127,176,105,.06)}
+.txt.revise p.ote{opacity:.32;text-decoration:line-through;box-shadow:inset 2px 0 0 #b06060}
+.txt.revise p.neuf{box-shadow:inset 2px 0 0 #6a9ec0;background:rgba(106,158,192,.06)}
+.gouttiere{position:absolute;left:0;top:.15em;display:flex;gap:3px;opacity:0;transition:opacity .12s}
+.txt.revise p:hover .gouttiere{opacity:1}
+.gouttiere button{all:unset;cursor:pointer;font-size:11px;line-height:1;padding:2px 4px;
+  border-radius:3px;color:var(--doux);background:rgba(255,255,255,.06)}
+.gouttiere button:hover{color:var(--or);background:rgba(217,164,65,.16)}
+.barre-revision{position:sticky;bottom:0;margin-top:14px;padding:10px 14px;border-radius:6px;
+  background:rgba(18,17,14,.94);border:1px solid rgba(217,164,65,.3);
+  display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px}
+.barre-revision .compte{color:var(--doux)}
+.barre-revision .compte b{color:var(--or)}
+.barre-revision button{all:unset;cursor:pointer;padding:5px 11px;border-radius:4px;
+  border:1px solid rgba(217,164,65,.35);color:var(--or);font-size:12px}
+.barre-revision button:hover{background:rgba(217,164,65,.14)}
+.barre-revision button.efface{border-color:rgba(176,96,96,.4);color:#c98a8a}
+
 </style>
 </head>

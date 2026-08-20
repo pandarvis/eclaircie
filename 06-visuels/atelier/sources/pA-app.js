@@ -809,9 +809,114 @@ let xSel = 0;
   });
 })();
 
+/* ---------- le mode revision ----------
+   L'autrice corrige le texte ici meme. Ses changements tiennent dans le
+   navigateur (localStorage) et ressortent en un fichier de couples
+   avant/apres, que je rejoue sur pB-textes.js. Le texte d'origine n'est
+   jamais ecrase : REVIS ne contient que l'ecart. */
+const CLEF_REV = `eclaircie-revision-`;
+let enRevision = false;
+
+function lireRev(id){
+  try { return JSON.parse(localStorage.getItem(CLEF_REV + id)) || []; }
+  catch(e){ return []; }
+}
+function ecrireRev(id, r){
+  try {
+    if (r.length) localStorage.setItem(CLEF_REV + id, JSON.stringify(r));
+    else localStorage.removeItem(CLEF_REV + id);
+  } catch(e){ souffler(`Le navigateur refuse d'enregistrer — telecharge avant de fermer.`); }
+}
+
+/* Ce que contenteditable rend n'est pas toujours ce qu'on lui a donne :
+   on ramene a l'italique et au gras du dossier, et rien d'autre. */
+function propre(html){
+  return html
+    .replace(/<br\s*\/?>/gi, ` `)
+    .replace(/<\/?(?:div|span|font|p)[^>]*>/gi, ``)
+    .replace(/<b>/gi, `<strong>`).replace(/<\/b>/gi, `</strong>`)
+    .replace(/<i>/gi, `<em>`).replace(/<\/i>/gi, `</em>`)
+    .replace(/\u00a0/g, ` `)
+    .replace(/\s+/g, ` `)
+    .trim();
+}
+
+/* L'ordre d'affichage : les paragraphes d'origine, leurs corrections,
+   les ajouts glisses derriere leur ancre. */
+function paragraphes(t){
+  const rev = lireRev(t.id);
+  const chg = new Map(), otes = new Set(), neufs = new Map();
+  rev.forEach(r => {
+    if (r.etat === `modifie`) chg.set(r.i, r.apres);
+    else if (r.etat === `ote`) otes.add(r.i);
+    else if (r.etat === `neuf`) {
+      if (!neufs.has(r.apresI)) neufs.set(r.apresI, []);
+      neufs.get(r.apresI).push(r);
+    }
+  });
+  const out = [];
+  t.p.forEach(([k, s, f], i) => {
+    out.push({ i, k, f, s: chg.has(i) ? chg.get(i) : s,
+               touche: chg.has(i), ote: otes.has(i) });
+    (neufs.get(i) || []).forEach(n => out.push({ i, rang: n.rang, k: n.k, s: n.apres, neuf: true }));
+  });
+  return out;
+}
+
+function corpsTexte(t){
+  return paragraphes(t).map(o => {
+    const cls = [o.k === `p` ? (o.f || ``) : o.k];
+    if (enRevision){
+      if (o.touche) cls.push(`touche`);
+      if (o.ote) cls.push(`ote`);
+      if (o.neuf) cls.push(`neuf`);
+    }
+    const rep = enRevision
+      ? ` contenteditable="true" data-i="${o.i}"${o.neuf ? ` data-rang="${o.rang}"` : ``}`
+      : ``;
+    const g = enRevision
+      ? `<span class="gouttiere" contenteditable="false">`
+        + `<button data-act="ote" title="${o.ote ? `remettre` : `oter ce paragraphe`}">${o.ote ? `\u21ba` : `\u00d7`}</button>`
+        + `<button data-act="neuf" title="ajouter un paragraphe dessous">+</button></span>`
+      : ``;
+    return `<p class="${cls.join(` `).trim()}"${rep}>${g}${o.s}</p>`;
+  }).join(``);
+}
+
+function texteDuP(el){
+  const c = el.cloneNode(true);
+  const g = c.querySelector(`.gouttiere`);
+  if (g) g.remove();
+  return propre(c.innerHTML);
+}
+
+function barreRevision(t){
+  const rev = lireRev(t.id);
+  const m = rev.filter(r => r.etat === `modifie`).length;
+  const o = rev.filter(r => r.etat === `ote`).length;
+  const n = rev.filter(r => r.etat === `neuf`).length;
+  const rien = !rev.length;
+  return `<div class="barre-revision">
+    <span class="compte">${rien ? `Aucun changement pour l'instant. Clique dans un paragraphe et corrige.`
+      : `<b>${m}</b> corrig\u00e9${m > 1 ? `s` : ``} \u00b7 <b>${o}</b> \u00f4t\u00e9${o > 1 ? `s` : ``} \u00b7 <b>${n}</b> ajout\u00e9${n > 1 ? `s` : ``}`}</span>
+    <button id="r-tel"${rien ? ` disabled style="opacity:.4"` : ``}>enregistrer pour Claude</button>
+    <button id="r-copier"${rien ? ` disabled style="opacity:.4"` : ``}>copier les changements</button>
+    <button id="r-vider" class="efface"${rien ? ` disabled style="opacity:.4"` : ``}>tout annuler</button>
+   </div>`;
+}
+
+function fichierRevision(t){
+  return JSON.stringify({
+    atelier: `revision de chapitre`,
+    chapitre: t.id,
+    titre: t.titre,
+    changements: lireRev(t.id)
+  }, null, 2);
+}
+
 function texteBrut(t){
   return t.rang.toUpperCase() + `\n` + t.titre + `\n\n` +
-    t.p.map(([k, s]) => s.replace(/<[^>]+>/g, ``)).join(`\n\n`) + `\n`;
+    paragraphes(t).filter(o => !o.ote).map(o => o.s.replace(/<[^>]+>/g, ``)).join(`\n\n`) + `\n`;
 }
 function rendreTextes(){
   const t = TEXTES[xSel]; if (!t) return;
@@ -821,11 +926,11 @@ function rendreTextes(){
       <span class="rang">${esc(t.rang)}</span>
       <h2>${esc(t.titre)}</h2>
       <p class="dedic">${esc(t.sous)}</p>
-      <div class="txt">` +
-      t.p.map(([k, s, f]) => `<p class="${k === `p` ? (f || ``) : k}">${s}</p>`).join(``) +
-      `</div></article>
+      <div class="txt${enRevision ? ` revise` : ``}">` + corpsTexte(t) +
+      `</div>${enRevision ? barreRevision(t) : ``}</article>
      <aside class="appareil">
       <div class="actes">
+        <button id="x-reviser">${enRevision ? `fermer la révision` : `réviser le texte`}</button>
         <button id="x-copier">copier le texte</button>
         <button id="x-tel">télécharger .txt</button>
         ${sc ? `<button id="x-scene">voir la scène</button>` : ``}
@@ -834,6 +939,80 @@ function rendreTextes(){
       <div class="bl tenu"><h4>Ce que le texte tient</h4><ul>${t.tenu.map(x => `<li>${x}</li>`).join(``)}</ul></div>
       <div class="bl ouvre"><h4>Ce qu'il laisse ouvert</h4><ul>${t.ouvre.map(x => `<li>${x}</li>`).join(``)}</ul></div>
      </aside>`;
+
+  $(`#x-reviser`).addEventListener(`click`, () => {
+    enRevision = !enRevision;
+    rendreTextes();
+    souffler(enRevision
+      ? `Corrige directement dans le texte. \u00c0 la fin : enregistrer pour Claude.`
+      : `R\u00e9vision ferm\u00e9e. Tes changements sont gard\u00e9s.`);
+  });
+
+  if (enRevision){
+    const zone = $(`#x-corps .txt`);
+
+    /* Entree ne coupe pas un paragraphe : on en ajoute un par le bouton. */
+    zone.addEventListener(`keydown`, e => { if (e.key === `Enter`) e.preventDefault(); });
+
+    /* On ne retient que l'ecart : si le texte revient a l'original, la
+       ligne de revision dispara\u00eet au lieu de rester \u00e0 tra\u00eener. */
+    zone.addEventListener(`focusout`, e => {
+      const p = e.target.closest(`p[contenteditable]`); if (!p) return;
+      const i = +p.dataset.i, rang = p.dataset.rang, apres = texteDuP(p);
+      const rev = lireRev(t.id);
+      if (rang !== undefined){
+        const l = rev.find(r => r.etat === `neuf` && r.rang === rang);
+        if (l) { l.apres = apres; ecrireRev(t.id, rev); rendreTextes(); }
+        return;
+      }
+      const avant = t.p[i][1];
+      const j = rev.findIndex(r => r.etat === `modifie` && r.i === i);
+      if (apres === propre(avant)){ if (j >= 0) rev.splice(j, 1); }
+      else if (j >= 0) rev[j].apres = apres;
+      else rev.push({ etat: `modifie`, i, k: t.p[i][0], avant, apres });
+      ecrireRev(t.id, rev);
+      rendreTextes();
+    });
+
+    zone.addEventListener(`click`, e => {
+      const b = e.target.closest(`.gouttiere button`); if (!b) return;
+      const p = b.closest(`p`), i = +p.dataset.i, rang = p.dataset.rang;
+      const rev = lireRev(t.id);
+      if (b.dataset.act === `ote`){
+        if (rang !== undefined){
+          const j = rev.findIndex(r => r.etat === `neuf` && r.rang === rang);
+          if (j >= 0) rev.splice(j, 1);
+        } else {
+          const j = rev.findIndex(r => r.etat === `ote` && r.i === i);
+          if (j >= 0) rev.splice(j, 1); else rev.push({ etat: `ote`, i, texte: t.p[i][1] });
+        }
+      } else {
+        rev.push({ etat: `neuf`, apresI: i, rang: `n` + rev.length + `-` + i,
+                   k: t.p[i][0], ancre: t.p[i][1], apres: `\u00e0 \u00e9crire\u2026` });
+      }
+      ecrireRev(t.id, rev);
+      rendreTextes();
+    });
+
+    $(`#r-vider`).addEventListener(`click`, () => {
+      if (!confirm(`On efface tous tes changements sur ce chapitre ?`)) return;
+      ecrireRev(t.id, []); rendreTextes(); souffler(`Remis \u00e0 l'original.`);
+    });
+    $(`#r-tel`).addEventListener(`click`, () => {
+      const b = new Blob([fichierRevision(t)], { type: `application/json;charset=utf-8` });
+      const a = document.createElement(`a`);
+      a.href = URL.createObjectURL(b);
+      a.download = `eclaircie-revision-` + t.id + `.json`; a.click();
+      URL.revokeObjectURL(a.href);
+      souffler(`Fichier enregistr\u00e9. Dis-moi \u00ab j'ai r\u00e9vis\u00e9 \u00bb et je le reprends.`);
+    });
+    $(`#r-copier`).addEventListener(`click`, () => {
+      if (!navigator.clipboard) { souffler(`Presse-papier indisponible \u2014 passe par l'enregistrement.`); return; }
+      navigator.clipboard.writeText(fichierRevision(t))
+        .then(() => souffler(`Changements copi\u00e9s. Colle-les dans la conversation.`))
+        .catch(() => souffler(`Le navigateur a refus\u00e9 \u2014 passe par l'enregistrement.`));
+    });
+  }
 
   $(`#x-copier`).addEventListener(`click`, () => {
     if (!navigator.clipboard) { souffler(`Le presse-papier n'est pas disponible ici — passe par le téléchargement.`); return; }
