@@ -199,6 +199,18 @@ Ce n'est pas de la négligence, et ce n'est pas non plus une ravisseuse qui se r
 
 ---
 
+## 8. Ce qu'elle porte au cou — et ce que ça ne prouve pas
+
+> **Précision de l'autrice, 20 août 2026 : ce n'est pas un uniforme.** *« Certaines en ont, d'autres pas, comme certaines ont un bracelet, d'autres non. »*
+
+**Une chaîne portée au cou, symbole de foi.** C'est **le seul détail physique donné à une berceuse** dans tout le dossier — et c'est un objet, jamais un visage. *L'une berce à son rythme ; l'autre la triture au moment de tendre les mains.*
+
+⚠️ **Et c'est parce que ce n'est pas une règle de métier que le signe ne prouve rien.** *Si toutes en portaient, le détail serait un uniforme et ne dirait rien de personne ; si une seule en portait, il la désignerait.* **Là, il est répandu sans être général — donc le doute tient.**
+
+⛔ *Le geste ne se commente jamais, et l'objet ne se décrit jamais deux fois de la même manière.*
+
+---
+
 ## Questions ouvertes
 
 - [ ] 🟡 **Est-ce qu'Andrew lui parle, ce jour-là, ou est-ce qu'il la croise seulement ?** *La scène du jardin, §7.* **Croisée**, elle reste une silhouette et rien ne peut s'y accrocher — sûr, et moins fort. **Adressée**, elle devient quelqu'un à qui il a parlé sans savoir à qui il parlait, **et il l'a laissé tomber par terre comme il a laissé tomber le reste** — c'est exactement le défaut nommé au §4 ter.4 du [parcours](../04-plan/le-parcours-de-l-enquete.md), et c'est bien plus cruel. *Le risque est celui du §7.3 : une réplique reste en mémoire, un geste non.*

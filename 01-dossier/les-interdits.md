@@ -175,6 +175,18 @@ Rappel du §14 :
 
 ⚠️ **Le validateur de l'atelier avait été écrit plus sévère que l'interdit** — il bannissait *garçon*, *gamin* et *gosse*. **Il porte désormais la liste de l'autrice**, pas la mienne. Voir `06-visuels/atelier/valide.js`.
 
+## 11 quater. Les mots morts — anciennes appellations, proscrites
+
+*Ajouté le 20 août 2026, en fusionnant le glossaire et le lexique : ces quatre-là traînaient
+dans une liste de travail et n'étaient écrits nulle part ici.*
+
+| Mot mort | Ce qu'on dit | Pourquoi |
+|---|---|---|
+| **le palier** | **le plateau** (la phase), **le jardin** (le lieu) | vocabulaire arrêté ; le palier était l'ancien mot du dossier |
+| **le capot** | **le rabat** | ce n'était pas le bon mot : rien dans une capsule n'est dur |
+| **pédiatre**, sous toutes ses formes | *à trouver* | le mot suppose l'enfance, que cette langue n'a jamais formée. ⛔ Ni *pédiatres du jardin*, ni *pédiatre pour vieux* |
+| **arrivant voilé** | **porteur de voiles** | trop connoté |
+
 ## 11 ter. Aucun vocabulaire de mécanique sur une capsule
 
 ⛔ **Ni rainures, ni glissières, ni crans, ni capot.** *La capsule a poussé, elle est asymétrique, elle est organique : rien en elle n'est dur ni cassant.* **La crémaillère du chariot est permise** — elle est dans le chariot.
