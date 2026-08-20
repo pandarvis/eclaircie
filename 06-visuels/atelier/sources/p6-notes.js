@@ -1503,4 +1503,17 @@ const NOTES = [
 
 ✅ *Conséquence directe sur l'épilogue : June ne sort pas du livre le jour où Eliott entre au jardin. Elle peut être là, et elle peut y revenir.*` },
 
+
+{ d:`20 août`, s:`L'atelier devient modifiable : le mode révision`, e:`acquis`, t:[`atelier`,`écriture`],
+  v:`n'est-il pas possible de creer un outil pour que je puisse dirrectement depuis l'atelier modifier le chapitre et que tu en prennes connaissance ? car te dire en toute lettre de remplacer un prenom par un il ou inversement par exemple c'est chiant. j'aimerais le faire moi meme et que tu le prennes en compte`,
+  q:`**Onglet Chapitres, bouton « réviser le texte ».** *Chaque paragraphe devient modifiable sur place ; une gouttière à gauche en ôte un ou en glisse un dessous.*
+
+🔴 **Ce qui est retenu n'est pas le texte, c'est l'écart :** un couple *avant / après* par paragraphe touché. *Si le texte revient à son état d'origine, la ligne disparaît au lieu de traîner.* **Un couple se rejoue tout seul, et il se vérifie** — c'est ce qui évite d'avoir à dire en toutes lettres « remplace le prénom par un pronom ».
+
+**Le circuit :** elle corrige → « enregistrer pour Claude » dépose un fichier → *reprendre-la-revision.py* le rejoue sur pB-textes.js → fabrication.
+
+⚠️ **Chaque « avant » doit se retrouver une fois et une seule, sinon le script s'arrête.** *Une correction qui ne trouve pas son ancre est une correction qu'on croirait passée.* ⛔ **Et le navigateur n'est pas une sauvegarde** : tant que le fichier n'est pas sorti, les corrections ne vivent qu'à un endroit.
+
+✅ *Éprouvé dans un navigateur avant livraison : correction, retour à l'original, suppression, ajout, fermeture et réouverture de la révision.*` },
+
 ];

@@ -33,8 +33,32 @@ nommé avant : c'est voulu, l'application doit démarrer quand tout est déjà l
 | `verser.py <fichier.md> <id-du-chapitre>` | verse un brouillon markdown dans `pB-textes.js` |
 | `pdf3.py <id> <rang> <sous-titre> <sortie.html>` | fabrique la page A4 d'un chapitre ; **le PDF se tire ensuite avec Chrome `--print-to-pdf`, cette page n'est pas le PDF** |
 | `grille.py` | vide la frise dans un tableau lisible, pour vérifier l'ordre des colonnes |
+| `reprendre-la-revision.py` | **rejoue sur `pB-textes.js` les corrections faites par l'autrice dans l'atelier.** Sans argument, il va chercher le dernier `eclaircie-revision-*.json` dans les téléchargements. `--voir` montre sans rien écrire |
 | `../../integrer-le-plan.py` | ré-injecte le plan de la ruche dans `p3-style.html`, `p4-corps.html` et `pC-ruche.js` |
 | `../../integrer-le-jardin.py` | ré-injecte le plan du jardin. **Il passe par une iframe** : aucune classe à renommer, isolation totale |
+
+## Le mode révision — l'autrice corrige, je reprends
+
+**Onglet Chapitres, bouton « réviser le texte ».** Chaque paragraphe devient modifiable sur
+place ; une gouttière à gauche permet d'en ôter un ou d'en glisser un dessous.
+
+**Ce qui est retenu n'est pas le texte : c'est l'écart.** Un couple *avant / après* par
+paragraphe touché, gardé dans le `localStorage` du navigateur. *Si le texte revient à son
+état d'origine, la ligne disparaît au lieu de traîner.*
+
+**Le circuit :**
+
+1. elle corrige, la page compte les changements en bas ;
+2. **« enregistrer pour Claude »** dépose un `eclaircie-revision-<chapitre>.json` ;
+3. `python reprendre-la-revision.py` le rejoue sur `pB-textes.js` ;
+4. `sh fabriquer.sh`.
+
+⚠️ **Chaque « avant » doit se retrouver une fois et une seule dans `pB-textes.js`, sinon le
+script s'arrête.** *Une correction qui ne trouve pas son ancre est une correction qu'on
+croirait passée.*
+
+⛔ **Le `localStorage` n'est pas une sauvegarde.** Il tient au navigateur et au chemin du
+fichier. *Tant que le `.json` n'est pas enregistré, les corrections ne vivent qu'à un endroit.*
 
 ## Deux pièges déjà payés
 
