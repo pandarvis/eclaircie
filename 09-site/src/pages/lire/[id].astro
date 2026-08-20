@@ -1,7 +1,9 @@
 ---
 import Page from '../../layouts/Page.astro';
+import Plan from '../../composants/Plan.astro';
 import { assainir } from '../../../outils/assainir.mjs';
 import textes from '../../../donnees/textes.json';
+import ancres from '../../../donnees/lieux.json';
 
 export function getStaticPaths() {
   return textes.map((t, i) => ({
@@ -11,6 +13,9 @@ export function getStaticPaths() {
 }
 
 const { texte, precedent, suivant } = Astro.props;
+
+const lieux = ancres.filter((a) => a.texte === texte.id);
+const parBloc = new Map(lieux.map((a) => [a.bloc, a.lieu]));
 
 const mots = texte.p
   .filter(([balise]) => balise !== 'pause')
@@ -28,29 +33,47 @@ const mots = texte.p
     </div>
   </header>
 
-  <article class="texte">
-    {texte.p.map(([balise, contenu, classe]) => (
-      balise === 'pause'
-        ? <p class="pause" aria-hidden="true">{contenu}</p>
-        : <p
-            class={[balise === 'tiret' ? 'tiret' : null, classe].filter(Boolean).join(' ')}
-            set:html={assainir(contenu)}
-          />
-    ))}
+  <div class={lieux.length ? 'lecture avec-plan' : 'lecture'}>
+    <article class="texte">
+      {texte.p.map(([balise, contenu, classe], i) => (
+        balise === 'pause'
+          ? <p class="pause" aria-hidden="true">{contenu}</p>
+          : <p
+              class={[balise === 'tiret' ? 'tiret' : null, classe].filter(Boolean).join(' ')}
+              data-lieu={parBloc.get(i)}
+              set:html={assainir(contenu)}
+            />
+      ))}
 
-    <nav class="fin-de-texte">
-      {precedent
-        ? <a class="pas" href={`/lire/${precedent.id}/`}><span class="etiq">Avant</span><b>{precedent.titre}</b></a>
-        : <span></span>}
-      {suivant
-        ? <a class="pas droite" href={`/lire/${suivant.id}/`}><span class="etiq">Ensuite</span><b>{suivant.titre}</b></a>
-        : <span class="pas droite muet"><span class="etiq">Ensuite</span><b>Pas encore écrit</b></span>}
-    </nav>
-  </article>
+      <nav class="fin-de-texte">
+        {precedent
+          ? <a class="pas" href={`/lire/${precedent.id}/`}><span class="etiq">Avant</span><b>{precedent.titre}</b></a>
+          : <span></span>}
+        {suivant
+          ? <a class="pas droite" href={`/lire/${suivant.id}/`}><span class="etiq">Ensuite</span><b>{suivant.titre}</b></a>
+          : <span class="pas droite muet"><span class="etiq">Ensuite</span><b>Pas encore écrit</b></span>}
+      </nav>
+    </article>
+
+    {lieux.length > 0 && (
+      <aside class="colonne">
+        <Plan lieux={lieux} />
+      </aside>
+    )}
+  </div>
 </Page>
 
 <style>
-  .texte { max-width: var(--mesure); margin: 0 auto; padding: 4.5rem 1.5rem 7rem; }
+  .lecture { padding: 4.5rem 1.5rem 7rem; }
+  .lecture .texte { max-width: var(--mesure); margin: 0 auto; }
+
+  .avec-plan {
+    display: grid; gap: 3.5rem; justify-content: center;
+    grid-template-columns: minmax(0, var(--mesure)) 21rem;
+    align-items: start;
+  }
+  .avec-plan .texte { margin: 0; }
+  .colonne { position: sticky; top: 5.4rem; }
 
   .texte p { margin: 0 0 1.35em; text-wrap: pretty; }
   .tiret { text-indent: 0; }
@@ -60,6 +83,15 @@ const mots = texte.p
     text-align: center; color: var(--texte-4); letter-spacing: .5em;
     margin: 2.5em 0; user-select: none;
   }
+
+  /* Le paragraphe qui ouvre un lieu : un filet d'or dans la marge. */
+  .texte p[data-lieu] {
+    position: relative;
+    padding-left: 1rem; margin-left: -1rem;
+    border-left: 2px solid transparent;
+    transition: border-color .5s;
+  }
+  .texte p[data-lieu].ici { border-left-color: var(--accent); }
 
   .fin-de-texte {
     display: flex; justify-content: space-between; gap: 14px;
@@ -79,8 +111,88 @@ const mots = texte.p
   .muet:hover { transform: none; border-color: var(--trait); background: var(--fond-3); }
   .muet b { color: var(--texte-3); }
 
+  /* Sous 1050px, le plan cesse de suivre : il se donne une fois, en tete. */
+  @media (max-width: 1050px) {
+    .avec-plan { display: block; }
+    .avec-plan .texte { max-width: var(--mesure); margin: 0 auto; }
+    .colonne { position: static; max-width: var(--mesure); margin: 0 auto 3rem; }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .pas { transition: none; }
     .pas:hover { transform: none; }
   }
 </style>
+
+<script>
+  /* Le plan suit la lecture. Sans ce script, il reste entier et lisible. */
+  function suivreLesLieux() {
+    const plan = document.querySelector('[data-plan]');
+    if (!plan) return;
+
+    const svg = plan.querySelector('svg');
+    const vue = plan.querySelector('[data-vue]');
+    const nom = plan.querySelector('[data-nom-lieu]');
+    const reperes = [...document.querySelectorAll('.texte p[data-lieu]')];
+    if (!svg || !vue || !reperes.length) return;
+
+    const vb = svg.viewBox.baseVal;
+    const cadres = new Map();
+
+    for (const forme of plan.querySelectorAll('.halo')) {
+      const l = forme.dataset.lieu;
+      const b = forme.getBBox();
+      const a = cadres.get(l);
+      cadres.set(l, a ? {
+        x: Math.min(a.x, b.x), y: Math.min(a.y, b.y),
+        X: Math.max(a.X, b.x + b.width), Y: Math.max(a.Y, b.y + b.height),
+      } : { x: b.x, y: b.y, X: b.x + b.width, Y: b.y + b.height });
+    }
+
+    let dernier = null;
+
+    const regarder = () => {
+      const ligne = window.innerHeight * 0.45;
+      let vise = null;
+      for (const p of reperes) {
+        if (p.getBoundingClientRect().top < ligne) vise = p;
+      }
+      const lieu = vise ? vise.dataset.lieu : null;
+      if (lieu === dernier) return;
+      dernier = lieu;
+
+      for (const p of reperes) p.classList.toggle('ici', p === vise);
+
+      for (const forme of plan.querySelectorAll('.halo')) {
+        const cest = forme.dataset.lieu === lieu;
+        forme.classList.remove('ici');
+        if (cest) { void forme.getBoundingClientRect(); forme.classList.add('ici'); }
+      }
+
+      const c = lieu && cadres.get(lieu);
+      if (!c) {
+        vue.style.transform = '';
+        nom.textContent = '';
+        nom.classList.remove('la');
+        return;
+      }
+
+      const lb = c.X - c.x, hb = c.Y - c.y;
+      const k = Math.max(1, Math.min(3,
+        Math.min(vb.width / (lb * 2.4), vb.height / (hb * 2.4))));
+      const tx = (vb.x + vb.width / 2) - k * (c.x + lb / 2);
+      const ty = (vb.y + vb.height / 2) - k * (c.y + hb / 2);
+      vue.style.transform = `translate(${tx.toFixed(1)}px, ${ty.toFixed(1)}px) scale(${k.toFixed(3)})`;
+
+      nom.textContent = lieu;
+      nom.classList.add('la');
+    };
+
+    window.addEventListener('scroll', regarder, { passive: true });
+    window.addEventListener('resize', regarder, { passive: true });
+    regarder();
+  }
+
+  suivreLesLieux();
+  document.addEventListener('astro:page-load', suivreLesLieux);
+</script>

@@ -6,6 +6,8 @@ import { createContext, runInContext } from 'node:vm';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { verifierLeContrat, pourLeLecteur } from './outils/contrat.mjs';
+import { moissonnerLaRuche } from './extraire-ruche.mjs';
+import { LIEUX, verifierLesAncres } from './mise-en-scene/lieux.mjs';
 
 const ici = dirname(fileURLToPath(import.meta.url));
 const SOURCES = join(ici, '..', '06-visuels', 'atelier', 'sources');
@@ -26,7 +28,12 @@ export function moissonner(dossier = SOURCES) {
 function principal() {
   const controleSeul = process.argv.includes('--controle-seul');
   const donnees = moissonner();
-  const pb = verifierLeContrat(donnees);
+  const ruche = moissonnerLaRuche();
+
+  const pb = [
+    ...verifierLeContrat(donnees),
+    ...verifierLesAncres(donnees.TEXTES, ruche.lieux),
+  ];
 
   if (pb.length) {
     console.error('\nLe site de lecture ne peut plus lire l\'atelier :\n');
@@ -47,7 +54,11 @@ function principal() {
     JSON.stringify(pourLeLecteur(donnees.TEXTES), null, 2),
     'utf8',
   );
-  console.log(`moisson : ${donnees.TEXTES.length} textes`);
+  writeFileSync(join(ici, 'donnees', 'ruche.json'), JSON.stringify(ruche), 'utf8');
+  writeFileSync(join(ici, 'donnees', 'lieux.json'), JSON.stringify(LIEUX, null, 2), 'utf8');
+
+  console.log(`moisson : ${donnees.TEXTES.length} textes, `
+            + `${ruche.lieux.length} lieux du plan, ${LIEUX.length} ancres`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) principal();

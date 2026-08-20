@@ -1,0 +1,107 @@
+---
+/* Le plan de la ruche, dessine par le code de l'autrice et rejoue ici.
+   Il ne montre que ce que le texte a deja dit : il n'annonce rien, il fait echo. */
+import ruche from '../../donnees/ruche.json';
+
+const { lieux } = Astro.props;
+
+const ATTRS_PORTES = new Set([
+  'd', 'x', 'y', 'cx', 'cy', 'r', 'rx', 'ry', 'width', 'height', 'points', 'transform',
+  'class', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin',
+  'stroke-dasharray', 'stroke-opacity', 'fill-opacity', 'opacity', 'filter', 'style',
+  'text-anchor', 'id', 'font-size', 'letter-spacing',
+]);
+
+const echapper = (v) => String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+
+function tracer(n) {
+  const attrs = Object.entries(n.attrs)
+    .filter(([k]) => ATTRS_PORTES.has(k))
+    .map(([k, v]) => `${k}="${echapper(v)}"`).join(' ');
+  const dedans = (n.enfants || []).map(tracer).join('')
+    + (n.texte ? echapper(n.texte) : '');
+  return `<${n.tag}${attrs ? ' ' + attrs : ''}>${dedans}</${n.tag}>`;
+}
+
+const dessin = ruche.dessin.map(tracer).join('');
+
+/* Les halos : une copie de chaque zone nommee que le texte de cette page cite. */
+const cites = new Set(lieux.map((l) => l.lieu));
+const halos = ruche.lieux
+  .filter((z) => cites.has(z.nom))
+  .map((z) => {
+    const attrs = Object.entries(z.attrs)
+      .filter(([k]) => ATTRS_PORTES.has(k) && k !== 'class' && k !== 'fill' && k !== 'stroke')
+      .map(([k, v]) => `${k}="${echapper(v)}"`).join(' ');
+    return `<${z.tag} class="halo" data-lieu="${echapper(z.nom)}" pathLength="1" ${attrs}></${z.tag}>`;
+  }).join('');
+---
+<figure class="plan" data-plan>
+  <svg viewBox={ruche.vue} role="img" aria-label="Plan de la ruche" preserveAspectRatio="xMidYMid meet">
+    <g class="vue" data-vue set:html={dessin + halos} />
+  </svg>
+  <figcaption>
+    <span class="etiq">Le plan de la ruche</span>
+    <b data-nom-lieu></b>
+  </figcaption>
+</figure>
+
+<style>
+  .plan {
+    margin: 0;
+    background: var(--fond-2);
+    border: 1px solid var(--trait);
+    clip-path: polygon(0 0, calc(100% - 13px) 0, 100% 13px, 100% 100%, 13px 100%, 0 calc(100% - 13px));
+    overflow: hidden;
+  }
+  .plan svg { display: block; width: 100%; height: auto; aspect-ratio: 1010 / 1118; }
+
+  .vue { transition: transform 1s cubic-bezier(.22, .8, .28, 1); }
+
+  figcaption {
+    display: flex; flex-direction: column; gap: 3px;
+    padding: 11px 14px 13px; border-top: 1px solid var(--trait);
+    background: var(--fond-3); min-height: 3.4rem;
+  }
+  figcaption b {
+    font-family: var(--serif); font-size: 1rem; font-weight: 400;
+    color: var(--accent); opacity: 0; transform: translateY(4px);
+    transition: opacity .45s, transform .45s;
+  }
+  figcaption b.la { opacity: 1; transform: none; }
+
+  /* --- l'habillage de son dessin, porte dans les deux themes --- */
+  .plan :global(svg) { --or: #D9A441; --vert: #7FB069; --bleu: #0081B3; }
+  .plan :global(.caps) { opacity: .55; }
+  .plan :global(.zone) { display: none; }
+  .plan :global(.etiq) {
+    font-family: var(--sans); font-size: 9.5px; letter-spacing: .24em;
+    text-transform: uppercase; fill: var(--texte-3); pointer-events: none;
+  }
+  .plan :global(.etiq.petite) { font-size: 8px; letter-spacing: .18em; }
+  .plan :global(.coulee) {
+    fill: none; stroke: var(--vert); stroke-width: 2.6; stroke-linecap: round;
+    opacity: .45; stroke-dasharray: 16 13;
+  }
+  .plan :global(.coulee.fine) { stroke-width: 1.5; opacity: .28; }
+  .plan :global(.mur) { fill: none; stroke: var(--trait-fort); stroke-width: 1.5; }
+
+  /* --- le lieu dont on est en train de lire --- */
+  .plan :global(.halo) {
+    fill: none; stroke: var(--accent); stroke-width: 3;
+    vector-effect: non-scaling-stroke; opacity: 0;
+    stroke-dasharray: 1; stroke-dashoffset: 1;
+    transition: opacity .5s;
+  }
+  .plan :global(.halo.ici) {
+    opacity: 1;
+    fill: var(--accent-sourd);
+    animation: tracer 1.1s cubic-bezier(.3, .7, .2, 1) forwards;
+  }
+  @keyframes tracer { to { stroke-dashoffset: 0; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .vue, figcaption b { transition: none; }
+    .plan :global(.halo.ici) { animation: none; stroke-dashoffset: 0; }
+  }
+</style>
