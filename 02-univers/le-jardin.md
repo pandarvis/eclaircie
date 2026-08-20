@@ -323,11 +323,13 @@ Chaque métier aurait sa sortie, et elle serait toujours la même : on vous conf
 
 **La zone médicale est plus restreinte.** Ceux qui y travaillent y restent en général, **mais ils bougent selon l'affluence du moment** : s'ils sont trop nombreux au regard des arrivées de futurs zéros, ils vont aider au jardin. *C'est un relais, pas une affectation.*
 
-### Ce que ça coupe, et il faut le savoir en écrivant
+### Ce que ça change à huit ans — et ce que ça ne coupe pas
 
 ⚠️ **La tranche haute attache, le jardin non.** *De quatorze à huit, un arrivant a son berceur — c'est une personne, elle lui apprend ce qu'il doit savoir, elle répond de lui.* **À huit, il entre dans un lieu où personne n'est à lui en particulier.**
 
-**Une vie compte donc un seul adieu, et il tombe là.** *Après, il n'y a plus personne dont se séparer.* ⛔ **Rien de cela ne s'énonce dans le roman**, et surtout pas comme une tristesse : c'est une organisation de service, et tout le monde la trouve normale.
+> **Mais ce n'est pas une rupture, et il ne faut pas l'écrire comme telle.** *Précision de l'autrice, 20 août 2026 :* **les berceurs du dehors rendent visite, et on les recroise régulièrement dans le jardin.** *Ils y accompagnent, ils y viennent en renfort, ils passent — le lieu n'est fermé qu'aux arrivants, pas à eux.*
+
+**Ce qui change n'est donc pas la présence : c'est le lien.** *On ne cesse pas de voir la personne qui était à nous ; elle cesse d'être à nous.* ⛔ **Et personne ne le formule jamais, parce que personne ne le vit comme une perte** — c'est une organisation de service, et tout le monde la trouve normale.
 
 ---
 
