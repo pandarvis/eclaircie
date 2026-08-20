@@ -190,7 +190,7 @@ const TEXTES = [{
 [`p`,`Le veilleur plia la feuille en deux et la glissa dans la poche basse de sa blouse. Il quitta l'accueil et s'engagea dans un grand couloir.`],
 [`pause`,`· · ·`],
 [`p`,`Les dix-huit, eux, ne prendraient pas ce chemin. On viendrait les chercher dans la salle d'attente, puis on les ferait sortir par l'autre côté. De là, ils traverseraient la zone de résidence avant de rejoindre la porte qui leur était destinée.`],
-[`p`,`C'était là que les arrivants passaient leurs huit premiers jours, après l'examen de la cueillie, le tout premier examen de leur vie. Des chambres, un réfectoire, et quelques visiteurs chargés de leur tenir compagnie pendant ce qui pouvait ressembler, vu de l'extérieur, à une période de repos.`],
+[`p`,`Cette partie du complexe était réservée aux arrivants. Après l'examen de la cueillie — le tout premier examen de leur vie —, ils y resteraient huit jours au minimum. Des chambres, un réfectoire, et quelques visiteurs chargés de leur tenir compagnie pendant ce qui pouvait ressembler, vu de l'extérieur, à une période de repos.`],
 [`p`,`La première inspection avait un but simple : s'assurer que l'arrivant était bien arrivé immaculé, sans anomalie ni blessure.`],
 [`p`,`On n'était jamais trop prudent.`],
 [`p`,`D'après les études menées jusque-là, toutes les capsules n'avaient pas les mêmes délais de maturation. Il arrivait même que, d'une travée à l'autre, leur maturation s'achève sur des relevés étranges. Dans ces cas-là, on vérifiait que l'arrivant n'avait pas été touché d'une manière ou d'une autre au cours du processus.`],
