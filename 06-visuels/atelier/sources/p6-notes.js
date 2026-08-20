@@ -1757,4 +1757,19 @@ const NOTES = [
 
 *Ce qui reste vrai malgré tout, pour la suite : ces trois endroits sont les seuls du chapitre où la description cesse d'être vue par Andrew. Si la lourdeur revient à la relecture, c'est là qu'il faudra regarder.*` },
 
+
+{ d:`20 août`, s:`Encore une phrase qui dit ce que la scène montrait`, e:`acquis`, t:[`écriture`],
+  v:`"Deux personnes se serrèrent le bras sans se connaître." on va faire sauter cette phrase aussi dans le prologue`,
+  q:`**Deuxième du même genre en dix minutes, et c'est le même défaut.** *Le paragraphe montrait déjà une salle qui s'avance, se penche pour mieux voir, commente —* **et j'ajoutais le geste qui prouve que des inconnus se touchent.** *La preuve retirait à la scène ce qu'elle avait de simple.*
+
+⚠️ **Deux phrases coupées du prologue aujourd'hui, toutes deux de la même famille : la phrase qui commente le geste qu'on vient de décrire.** *C'est mon défaut n° 2, et il ne se voit qu'à la relecture d'un tiers.*` },
+
+{ d:`20 août`, s:`L'appareil citait une phrase morte`, e:`acquis`, t:[`atelier`,`écriture`],
+  v:``,
+  q:`**Trouvé en cherchant autre chose : la fiche du chapitre premier promettait encore** *« Ni vitre ni châssis, rien qu'un quart du complexe où la coulée est chez elle »*, **une phrase supprimée du texte ce matin même.**
+
+🔴 **C'est la troisième fois aujourd'hui qu'un appareil survit à son texte** — après la ligne du registre et celle de la règle des âges. *Quand un paragraphe change, la fiche qui le cite ne bouge pas toute seule, et rien ne le signale : le validateur vérifie l'ordre, la longueur, le vocabulaire, jamais les citations.*
+
+⚠️ *Piste, non faite : un contrôle qui vérifierait que chaque passage cité entre guillemets dans un appareil se retrouve dans le texte du chapitre.*` },
+
 ];

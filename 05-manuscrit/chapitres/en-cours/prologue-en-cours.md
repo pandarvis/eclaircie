@@ -58,7 +58,7 @@ Le reste avait été fait ailleurs, par d'autres mains. Nettoyées, branchées, 
 
 Les préparateurs redressèrent les chariots. Les capsules passèrent de l'horizontale à la verticale en trois crans, très lentement, avec un bruit de crémaillère que tout le monde entendit.
 
-Un des préparateurs lui tendit une fiche, puis rejoignit son collègue, déjà droit et immobile, les mains croisées devant lui, sur une des bordures de la salle. Andrew la parcourut en diagonale et la rangea dans son carnet. L'heure de la cueillie, et l'état de la capsule avant cérémonie.
+Un des préparateurs lui tendit les deux fiches de cueillie, puis rejoignit son collègue, déjà droit et immobile, les mains croisées devant lui, sur une des bordures de la salle. Andrew les parcourut en diagonale et les rangea dans son carnet. L'heure de la cueillie, et l'état de chaque capsule avant cérémonie.
 
 · · ·
 
@@ -106,7 +106,7 @@ Le jeune arrivant répondit sans réfléchir une seconde, comme on répond à un
 
 Andrew écrivit le mot sur son carnet, et à la suite le numéro qu'il porterait toute sa vie. Il souligna les deux.
 
-Puis il prit les deux flacons et les remplit lui-même, à même le voile, en le pressant entre le pouce et l'index. Il les boucha, les essuya, les rangea debout dans un coin de la bassine. Il ne dit rien en le faisant, et personne ne dit rien non plus.
+Puis il prit les deux flacons et les remplit lui-même, à même le voile, en le pressant entre le pouce et l'index. Il les boucha, les essuya, les rangea debout dans un coin de la bassine.
 
 Nora prit son relais et ôta le rabat en entier. La veilleuse passa autour du corps d'Eliott et décolla ce qui restait de gelée aux plis des coudes et des genoux.
 
@@ -198,7 +198,7 @@ Alors la salle s'avança, et pour la première fois de la matinée il y eut du b
 
 Ils vinrent un par un déposer au milieu de la table ce qu'ils avaient apporté pour leur porter chance. Un fruit. Une boule d'osier tressée. Trois épis noués par un fil de laine rouge. Une pierre plate. Une femme posa la sienne, la regarda, et la tourna d'un quart. Elle voulait qu'elle soit dans le bon sens. Il n'y avait pas de bon sens.
 
-Ça se penchait pour mieux voir. Ça commentait. Deux personnes se serrèrent le bras sans se connaître.
+Ça se penchait pour mieux voir. Ça commentait.
 
 — Bienvenue, dirent plusieurs, sans s'adresser à personne en particulier.
 

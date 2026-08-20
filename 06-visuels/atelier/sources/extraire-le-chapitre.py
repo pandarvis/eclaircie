@@ -44,7 +44,12 @@ def extraire(nom):
             paras = paragraphes(deb, fin)
             assert paras, u'chapitre vide : ' + nom
             cible = os.path.join(DST, nom + '-en-cours.md')
-            avant = io.open(cible, encoding='utf-8').read() if os.path.exists(cible) else u''
+            if not os.path.exists(cible):
+                # On ne cree pas de brouillon : en-cours ne contient que ce
+                # qui est en cours. Un epilogue fini n'y a pas sa place.
+                print(u'  %-12s pas de brouillon ouvert, on passe' % nom)
+                return
+            avant = io.open(cible, encoding='utf-8').read()
             texte = u'\n\n'.join(paras) + u'\n'
             if u' '.join(avant.split()) == u' '.join(texte.split()):
                 print(u'  %-12s deja en phase (%d paragraphes)' % (nom, len(paras)))
