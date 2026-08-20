@@ -1700,4 +1700,17 @@ const NOTES = [
 
 *L'entrée de la bible suit. ⛔ L'analogie de l'autrice reste hors du texte : l'interdit n° 6 proscrit toute référence à notre monde.*` },
 
+
+{ d:`20 août`, s:`Le tableau noir mélangeait deux numérotations sans le dire`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`"Le neuf, le dix et le onze étaient pleins." je comprends pas`,
+  q:`**Trois défauts empilés dans deux phrases.** *« Le neuf, le dix et le onze » étaient des salles ; « la dix-neuf » était une travée ; et le mot* **travée n'avait jamais été prononcé dans le chapitre** — le tableau était seulement dit « couvert de numéros de travées », cinquante lignes plus haut. *Le lecteur avait deux systèmes de chiffres, aucun des deux nommé, et rien pour les distinguer.*
+
+✅ **Le tableau dit maintenant ce qu'il est** — un appariement : *« Trois travées avaient une salle en face : la neuf, la dix, la onze. »* **Et « la dix-neuf » reçoit son ancre** : *« celle de Bastien »*, ce qui la relie à la capsule dont on vient de parler.
+
+⚠️ *Réglage à vérifier à la relecture : j'ai supposé que le tableau apparie travée et salle. C'est ce qui rend les deux phrases cohérentes, mais rien ne le disait avant.*` },
+
+{ d:`20 août`, s:`Vera ne sait pas : elle ne dit pas le contraire`, e:`acquis`, t:[`écriture`,`personnages`],
+  v:`— Mais elle est claire, dit Bastien. / — Je ne dis pas le contraire`,
+  q:`**« Je sais » accordait à Bastien qu'il avait raison, et retirait à la scène son sujet.** *« Je ne dis pas le contraire » concède sans rien céder* — **c'est exactement une professionnelle qui refuse de s'engager sur une date**, et ça tient la règle du métier posée trois lignes plus haut : un relèvement seul ne donne rien, il en faut quatre.` },
+
 ];
