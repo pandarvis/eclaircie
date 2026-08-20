@@ -129,8 +129,12 @@ lumière artificielle au plafond, puis le jour, la végétation et l'ornement le
 mesure qu'on avance.
 > `02-univers/la-ruche.md`
 
-**Cueillie.** L'acte de décrocher une capsule mûre. Ce sont les préparateurs qui la font.
-*Le mot ne nomme pas un métier : personne n'est cueilleur.*
+**Cueillie.** L'acte de décrocher une capsule mûre. Ce sont les préparateurs qui la font,
+et jamais de leur propre autorité : **la date vient de l'analyste.** *Le mot ne nomme pas un
+métier : personne n'est cueilleur.* **Chaque capsule décrochée a sa fiche de cueillie** —
+l'heure, l'état de la paroi avant cérémonie — *que le préparateur remet au veilleur en même
+temps que la capsule. Ce n'est pas la feuille de service du matin : celle-là vient de
+l'accueil, celle-ci vient de la serre.*
 > `02-univers/la-ruche.md`
 
 **Éclaircie.** La paroi d'une capsule qui approche du terme perd la couleur de la coulée et

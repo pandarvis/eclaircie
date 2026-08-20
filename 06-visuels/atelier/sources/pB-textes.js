@@ -38,7 +38,7 @@ const TEXTES = [{
 [`p`,`Sur le dessus, le rabat était en place, plus sombre et plus mat que le reste. Personne n'y avait taillé quoi que ce soit : à ce stade la paroi est si fine qu'elle finirait par céder toute seule, et on ne fait pas d'entailles à une chose qui va s'ouvrir sans vous.`],
 [`p`,`Le reste avait été fait ailleurs, par d'autres mains. Nettoyées, branchées, relevées une dernière fois.`],
 [`p`,`Les préparateurs redressèrent les chariots. Les capsules passèrent de l'horizontale à la verticale en trois crans, très lentement, avec un bruit de crémaillère que tout le monde entendit.`],
-[`p`,`Un des préparateurs lui tendit une fiche, puis rejoignit son collègue, déjà droit et immobile, les mains croisées devant lui, sur une des bordures de la salle. Andrew la parcourut en diagonale et la rangea dans son carnet. L'heure de la cueillie, et l'état de la capsule avant cérémonie.`],
+[`p`,`Un des préparateurs lui tendit les deux fiches de cueillie, puis rejoignit son collègue, déjà droit et immobile, les mains croisées devant lui, sur une des bordures de la salle. Andrew les parcourut en diagonale et les rangea dans son carnet. L'heure de la cueillie, et l'état de chaque capsule avant cérémonie.`],
 
 [`pause`,`· · ·`],
 
