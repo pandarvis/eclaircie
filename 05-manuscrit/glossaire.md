@@ -131,19 +131,23 @@ colis et de lettres, dans un quartier. **L'un des métiers faciles confiés à l
 — *on la fait à pied, faute d'avoir le temps devant soi pour apprendre à conduire.* Et c'est
 ce qui fait passer un jeune arrivant dans les rues, donc devant des portes.
 
-**Porteur de voiles.** Arrivant qui n'est pas en paix avec lui-même, et chez qui quelque chose
-n'a pas été soldé de l'autre côté. **Rien ne permet de le détecter** ; on le reconnaît à ce
-qu'il fait. *On ne dit jamais « arrivant voilé » : trop connoté.*
+**Porteur de voiles.** Celui qui arrive sans être en paix avec lui-même, et chez qui quelque
+chose n'a pas été soldé de l'autre côté. **C'est une croyance, pas un diagnostic** : rien ne
+permet de le détecter, et personne ne vérifie jamais rien. *Et le mot n'est pas tendre* — **on
+l'emploie couramment pour dire de quelqu'un qu'il raconte n'importe quoi**, et on en traite
+les gens. ⛔ On ne dit jamais « arrivant voilé » : trop connoté.
 
-**Préparateur.** Agent de la serre. Il décroche les capsules, les nettoie, les conduit jusqu'à
-la salle de cérémonie, redresse les chariots, remet la fiche au veilleur — puis il s'arrête à
-la porte et regarde. **Il exécute et il écoute : la date ne lui appartient pas.** Il revient à
-la fin chercher les capsules vides et les bassines.
+**Préparateur.** Agent de la serre, et **c'est elle qu'il surveille** : il y passe ses
+journées, il la connaît à la main, et il travaille en étroite collaboration avec les
+analystes. Il décroche les capsules mûres, les nettoie, les conduit jusqu'à la salle de
+cérémonie, remet la fiche au veilleur — puis il s'arrête à la porte et regarde, et il revient
+à la fin chercher les capsules vides. **Il exécute et il écoute : la date ne lui appartient
+pas.**
 
 **Registre.** L'archive de la ruche, tenue par les veilleurs. Pour chaque capsule : la travée,
 la date d'apparition, l'avancée de l'éclaircie, la date d'ouverture, l'âge relevé, le nom
 donné et le numéro. Consultable par métier, sans autorisation. **Le registre n'avance jamais
-rien : il constate.**
+rien : il constate**, et **il est infaillible.**
 
 **Ruche.** Le lieu où les capsules mûrissent et s'ouvrent, organisé en travées. Bâtie sur la
 serre elle-même, en forme de fleur : **le registre au cœur, la serre en corolle, les salles de

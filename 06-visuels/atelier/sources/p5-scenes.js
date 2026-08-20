@@ -267,6 +267,8 @@ const SCENES = [
   qui: [`andrew`,`eliott`,`june`],
   gardes: [
     `La suspicion doit rester une phrase qui s'arrête, jamais une hypothèse. June n'est pas un relais d'information : elle bute sur un mot et passe à autre chose.`,
+    `🔴 **Et le mot arrive par le bas, pas par le haut.** *Décision de l'autrice, 20 août 2026 :* **porteur de voiles est une croyance, et le mot n'est pas tendre** — *on l'emploie couramment pour dire de quelqu'un qu'il raconte n'importe quoi, et on en traite les gens.* **C'est comme ça que le lecteur l'apprend : entendu, pas expliqué.**`,
+    `❓ **Deux bouches possibles, et l'autrice n'a pas tranché.** Eliott : *« ils m'ont dit que j'étais un porteur de voiles ».* Ou June : *« ils l'ont traité de porteur de voiles ».* **La première met la blessure dans sa bouche à lui** — c'est le cœur de la scène, personne ne le croit et ça le blesse. *La seconde la met dans celle de quelqu'un qui l'aime bien et qui répète ce qu'on a dit.*`,
     `Personne ne la confirme. Une gêne n'est pas une fissure — c'est ce qui la rend compatible avec l'interdit n° 4.`,
     `Elle n'est jamais reprise, pas même quand le garçon disparaît.`,
     `**Ce que dit le garçon ne mène nulle part, et c'est maintenant la règle.** *Rien de ce qui sort de sa bouche ne se vérifiera jamais* — ni ici, ni plus tard, ni à la relecture. **L'hypothèse « il fabulait » doit rester debout jusqu'à la dernière page.**`,
