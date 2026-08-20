@@ -145,11 +145,13 @@ n'y trouve rien à redire. ⛔ **Elle ne concerne pas la tranche des quatorze à
 ceux-là relèvent d'un berceur, qui leur apprend ce qu'il faut pour leur âge.
 > `02-univers/la-ruche.md`
 
-**Jardin.** Le dernier lieu de vie, et ce n'est pas un endroit où l'on entre en descendant :
-**c'est la tranche de huit ans à zéro, tout entière.** Quiconque a huit ans ou moins y est,
-par défaut, quel que soit le sens de sa trajectoire — qu'il monte vers huit ou qu'il
-redescende vers zéro. On n'en sort pas.
-> `02-univers/le-jardin.md` · ❓ Lieu unique et fermé, ou plusieurs endroits ? Les âges sont-ils séparés en salles ?
+**Jardin.** Le dernier lieu de vie : **la tranche de huit ans à zéro, tout entière.**
+Quiconque a huit ans ou moins y est, quel que soit le sens de sa trajectoire, et on n'en sort
+pas. **Un lieu clos, un par ville, comme la ruche** — il y en a d'autres ailleurs, plus ou
+moins grands. Dedans, **rien n'est séparé par principe** : on se croise au réfectoire, sur
+l'étendue, partout. *Les dortoirs et les aires de jeu le sont ; le reste se répartit tout
+seul — les grands aux jeux, les petits sur les tapis de l'éveil, et plus encadrés.*
+> `02-univers/le-jardin.md`
 
 **« Libérer plus tôt ».** Formule d'un courant politique respectable qui juge cruel de faire
 durer une vie qui n'ira nulle part. **Il ne dit jamais ce qu'il propose** : il le dit avec
@@ -158,25 +160,21 @@ des chiffres, dans des salles, devant des gens qui hochent la tête.
 
 **Médecins du jardin.** Corps médical propre au jardin, tenu au secret. Ils suivent chacun de
 huit ans à zéro et **surveillent une seule chose : le jour où l'âge repart.** Les berceurs
-sont dans la confidence, et ils sont les seuls.
-> `02-univers/le-jardin.md` · ❓ **Nom non tranché.** Le lexique disait « pédiatres du jardin » ; le mot suppose l'enfance, que cette langue n'a pas formée (interdit n° 11 bis). « Médecins du jardin » est le nom de repli, pas un choix. Question liée : est-ce un homme, ou la médecin en chef ?
-
-**Nom d'éclaircie.** Le nom qu'un arrivant obtient en sortant, et le seul qu'il aura jamais.
-Au-dessus de huit ans **il le produit lui-même**, instinctivement, quand le veilleur le lui
-demande ; à huit ans et au-dessous, c'est une berceuse qui le donne.
-> `02-univers/la-ruche.md` · ❓ Rien ne garantit que ce soit le nom d'avant, et personne ne peut le savoir.
+sont dans la confidence, et ils sont les seuls. **Le service a sa hiérarchie comme n'importe
+quel service** — et celui qu'on suit dans le livre est un chef de service : *pour une
+enquête, on s'adresse au responsable.*
+> `02-univers/le-jardin.md` · ❓ **Le nom reste à trouver, et il se cherchera plus tard.** « Médecins du jardin » tient la place. ⛔ *Ce qui est acquis : on n'emploiera jamais le mot « pédiatre ».* Décision de l'autrice, 20 août 2026.
 
 **Paire.** Deux arrivants identiques, sortis de deux capsules voisines le même jour. **C'est
 le mot du registre et le seul** : *« une paire, travée douze »*. Devant elles, la salle dit
 simplement qu'elles sont pareilles, et l'émerveillement fait le reste.
 > `02-univers/la-ruche.md`
 
-**Portage.** Deux emplois. **Une tournée de livraison** — de petits colis, des lettres, dans
-un quartier —, l'un des métiers faciles confiés à la tranche haute : *on la fait à pied, on
-n'a pas le temps devant soi pour apprendre à conduire.* Et, au jardin, **le geste de la
-berceuse** qui porte, berce, tient au chaud et ne laisse pas seul une seconde. *C'est
-jusque-là que va le métier, littéralement, en portant.*
-> `02-univers/le-jardin.md` · ❓ Chante-t-elle ? S'il y a un chant, il ne doit être ni nommé ni décrit comme un rituel.
+**Portage.** Le métier d'Eliott, et **l'équivalent d'un petit postier** : une tournée de
+menus colis et de lettres, dans un quartier. **L'un des métiers faciles confiés à la tranche
+haute** — *on la fait à pied, faute d'avoir le temps devant soi pour apprendre à conduire.*
+Et c'est ce qui fait passer un jeune arrivant dans les rues, donc devant des portes.
+> `04-plan/le-parcours-de-l-enquete.md`
 
 **Porteur de voiles.** Arrivant qui n'est pas en paix avec lui-même, et chez qui quelque
 chose n'a pas été soldé de l'autre côté. **Rien ne permet de le détecter** ; on le reconnaît
@@ -197,8 +195,9 @@ jamais rien : il constate.**
 
 **Ruche.** Le lieu où les capsules mûrissent et s'ouvrent, organisé en travées. Bâtie sur la
 serre elle-même, en forme de fleur : **le registre au cœur, la serre en corolle, les salles
-de cérémonie en pétales.** Il y en a plusieurs dans le monde ; le roman n'en suit qu'une.
-> `02-univers/la-ruche.md` · ❓ Combien il y en a et où. La taille de celle du roman.
+de cérémonie en pétales.** **Une par ville**, plus ou moins grande ; le roman n'en suit
+qu'une, celle de la sienne.
+> `02-univers/la-ruche.md` · ❓ La taille de celle du roman. *Combien et où est tranché : une par ville, comme le jardin.*
 
 **Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne
 l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil
@@ -311,6 +310,13 @@ soir. **Hors du glossaire : c'est un état de caractère, pas un mot du monde** 
 dira jamais « c'est un marginal » dans le livre. *Décision de l'autrice, 20 août 2026.*
 > `02-univers/la-jalousie.md`
 
+**Une par ville.** *L'échelle du monde, et l'analogie de l'autrice pour la tenir :* **une
+ruche et un jardin par ville, comme nos maternités et nos EHPAD.** *Pas à tous les coins de
+rue, et pas un par quartier : généralement un de chaque, et on y va.* ⛔ **L'analogie ne
+sort jamais du dossier** — l'interdit n° 6 proscrit toute référence à notre monde dans le
+texte. *Elle sert à doser, pas à écrire.*
+> `02-univers/le-jardin.md` · ❓ Décision de l'autrice, 20 août 2026. *L'analogie sert à doser une échelle, elle n'a rien à trancher.*
+
 **Le moindre mal.** *Pourquoi la tranche haute travaille, et c'est un argument avant d'être
 une organisation.* **Participer à l'effort commun à l'échelle de son âge, avant de rejoindre
 le jardin.** ⚠️ **Sa vraie fonction est de faire passer la pilule** à ceux qui ne trouvent pas
@@ -330,9 +336,22 @@ occupées ailleurs : il va en renfort au jardin, dès que son planning le permet
 **Les mots morts.** ⛔ **Le palier** — ancien mot du dossier pour le plateau, proscrit ; le
 vocabulaire arrêté est *le jardin* (le lieu) et *le plateau* (la phase). ⛔ **Le capot** —
 ancien mot pour le rabat, abandonné : *ce n'était pas le bon mot, et rien dans une capsule
-n'est dur.* ⛔ **Pédiatre pour vieux** — formule de travail pour le suivi, qui n'entre pas
-dans le roman. ⛔ **Arrivant voilé** — trop connoté ; on dit *porteur de voiles*.
+n'est dur.* ⛔ **Pédiatre** — sous toutes ses formes, et pour de bon : *le mot suppose
+l'enfance, que cette langue n'a jamais formée.* Ni **pédiatres du jardin**, ni **pédiatre
+pour vieux**, qui n'était de toute façon qu'une formule de travail. ⛔ **Arrivant voilé** — trop connoté ; on dit *porteur de voiles*.
 > `01-dossier/les-interdits.md §11 bis`
+
+**Le geste de la dernière berceuse.** *Ce n'est pas du portage, et le lexique les confondait
+sous le même mot.* **C'est le soin, dans la vie d'un arrivant de zéro qui va mourir** :
+porter, bercer, tenir au chaud, ne pas laisser seul une seconde. *C'est jusque-là que va le
+métier, littéralement, en portant.*
+> `02-univers/le-jardin.md` · ❓ Chante-t-elle ? S'il y a un chant, il ne doit être ni nommé ni décrit comme un rituel. ⚠️ *Le geste n'a pas de nom à lui, et il n'en a peut-être pas besoin.*
+
+**Le nom d'éclaircie.** Le nom qu'un arrivant obtient en sortant, et le seul qu'il aura
+jamais. Au-dessus de huit ans **il le produit lui-même**, instinctivement, quand le veilleur
+le lui demande ; à huit ans et au-dessous, c'est une berceuse qui le donne. **Hors du
+glossaire : c'est un nom, point** — décision de l'autrice, 20 août 2026.
+> `02-univers/la-ruche.md` · ❓ Rien ne garantit que ce soit le nom d'avant, et personne ne peut le savoir.
 
 **Le numéro.** Chiffre attribué par le veilleur en même temps que le nom est inscrit.
 Commodité administrative, rien d'autre : on n'a qu'un mot pour se nommer, et deux personnes

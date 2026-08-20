@@ -92,11 +92,20 @@ if doubles:
 
 # ---------- p7-monde.js ----------
 B = u'`'
+BS = chr(92)                       # la barre inverse
+
+
+def sur(t):
+    """Rien qui puisse fermer un litteral JS ni ouvrir une interpolation."""
+    t = t.replace(BS, BS + BS)
+    t = t.replace(B, BS + B)
+    return t.replace(u'${', BS + u'${')
 
 
 def tableau(nom, entrees):
     lignes = [u'[%s%s%s,%s%s%s,%s%s%s,%s%s%s],'
-              % (B, m, B, B, d, B, B, s, B, B, o, B) for m, d, s, o in entrees]
+              % (B, sur(m), B, B, sur(d), B, B, sur(s), B, B, sur(o), B)
+              for m, d, s, o in entrees]
     return u'const %s = [\n%s\n];\n' % (nom, u'\n'.join(lignes))
 
 

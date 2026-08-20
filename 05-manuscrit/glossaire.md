@@ -105,10 +105,12 @@ du soir. Les formateurs sont toujours plus jeunes que leurs apprenants, et perso
 rien à redire. ⛔ **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là
 relèvent d'un berceur, qui leur apprend ce qu'il faut pour leur âge.
 
-**Jardin.** Le dernier lieu de vie, et ce n'est pas un endroit où l'on entre en descendant :
-**c'est la tranche de huit ans à zéro, tout entière.** Quiconque a huit ans ou moins y est,
-par défaut, quel que soit le sens de sa trajectoire — qu'il monte vers huit ou qu'il
-redescende vers zéro. On n'en sort pas.
+**Jardin.** Le dernier lieu de vie : **la tranche de huit ans à zéro, tout entière.**
+Quiconque a huit ans ou moins y est, quel que soit le sens de sa trajectoire, et on n'en sort
+pas. **Un lieu clos, un par ville, comme la ruche** — il y en a d'autres ailleurs, plus ou
+moins grands. Dedans, **rien n'est séparé par principe** : on se croise au réfectoire, sur
+l'étendue, partout. *Les dortoirs et les aires de jeu le sont ; le reste se répartit tout seul
+— les grands aux jeux, les petits sur les tapis de l'éveil, et plus encadrés.*
 
 **« Libérer plus tôt ».** Formule d'un courant politique respectable qui juge cruel de faire
 durer une vie qui n'ira nulle part. **Il ne dit jamais ce qu'il propose** : il le dit avec des
@@ -116,21 +118,18 @@ chiffres, dans des salles, devant des gens qui hochent la tête.
 
 **Médecins du jardin.** Corps médical propre au jardin, tenu au secret. Ils suivent chacun de
 huit ans à zéro et **surveillent une seule chose : le jour où l'âge repart.** Les berceurs
-sont dans la confidence, et ils sont les seuls.
-
-**Nom d'éclaircie.** Le nom qu'un arrivant obtient en sortant, et le seul qu'il aura jamais.
-Au-dessus de huit ans **il le produit lui-même**, instinctivement, quand le veilleur le lui
-demande ; à huit ans et au-dessous, c'est une berceuse qui le donne.
+sont dans la confidence, et ils sont les seuls. **Le service a sa hiérarchie comme n'importe
+quel service** — et celui qu'on suit dans le livre est un chef de service : *pour une enquête,
+on s'adresse au responsable.*
 
 **Paire.** Deux arrivants identiques, sortis de deux capsules voisines le même jour. **C'est
 le mot du registre et le seul** : *« une paire, travée douze »*. Devant elles, la salle dit
 simplement qu'elles sont pareilles, et l'émerveillement fait le reste.
 
-**Portage.** Deux emplois. **Une tournée de livraison** — de petits colis, des lettres, dans
-un quartier —, l'un des métiers faciles confiés à la tranche haute : *on la fait à pied, on
-n'a pas le temps devant soi pour apprendre à conduire.* Et, au jardin, **le geste de la
-berceuse** qui porte, berce, tient au chaud et ne laisse pas seul une seconde. *C'est
-jusque-là que va le métier, littéralement, en portant.*
+**Portage.** Le métier d'Eliott, et **l'équivalent d'un petit postier** : une tournée de menus
+colis et de lettres, dans un quartier. **L'un des métiers faciles confiés à la tranche haute**
+— *on la fait à pied, faute d'avoir le temps devant soi pour apprendre à conduire.* Et c'est
+ce qui fait passer un jeune arrivant dans les rues, donc devant des portes.
 
 **Porteur de voiles.** Arrivant qui n'est pas en paix avec lui-même, et chez qui quelque chose
 n'a pas été soldé de l'autre côté. **Rien ne permet de le détecter** ; on le reconnaît à ce
@@ -148,7 +147,8 @@ rien : il constate.**
 
 **Ruche.** Le lieu où les capsules mûrissent et s'ouvrent, organisé en travées. Bâtie sur la
 serre elle-même, en forme de fleur : **le registre au cœur, la serre en corolle, les salles de
-cérémonie en pétales.** Il y en a plusieurs dans le monde ; le roman n'en suit qu'une.
+cérémonie en pétales.** **Une par ville**, plus ou moins grande ; le roman n'en suit qu'une,
+celle de la sienne.
 
 **Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne
 l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil
