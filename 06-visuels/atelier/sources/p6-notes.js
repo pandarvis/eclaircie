@@ -1722,4 +1722,15 @@ const NOTES = [
 
 ⚠️ *Réserve de registre, signalée sans y toucher :* « validation interne » **est un mot d'organigramme dans un livre qui n'en emploie aucun.** *Une formulation du monde dirait plutôt « une fois la date donnée » — c'est la même chose, et ça nomme qui la donne.*` },
 
+
+{ d:`20 août`, s:`Deux papiers, et il en manquait un`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`son papier qu'il prend dans son casier chapitre un c'est celui-ci... donc normalement, il devrait pas recuperer un autre papier de la part des transporteurs... ou alors c'est un check in`,
+  q:`**Ce sont bien deux papiers, et le dossier les distinguait déjà — c'est le texte qui ne le disait pas.** *Celui du chapitre premier est son affectation du jour, pris dans un casier à l'accueil, et Anna en récite le contenu à voix haute.* **Celui du prologue vient de la serre et arrive avec les capsules** : l'heure de la cueillie, l'état de la paroi. *Ça ne peut pas être écrit le matin — la cueillie n'a pas encore eu lieu.*
+
+✅ **Son mot « check in » est le bon : c'est un passage de relais.** La serre remet ce qu'elle a fait, le veilleur en prend la charge.
+
+🔴 **Et sa question a fait remonter un vrai défaut : il y avait deux capsules dans le prologue et une seule fiche.** *On dit maintenant* **les deux fiches de cueillie** *— le pluriel règle le compte, et le nom empêche la confusion avec la feuille du matin.* **Le mot rejoint celui qu'elle vient d'installer au chapitre premier, l'examen de la cueillie.**
+
+*L'entrée Cueillie du glossaire porte désormais les deux : chaque capsule a sa fiche, et celle-ci vient de la serre quand l'autre vient de l'accueil.*` },
+
 ];
