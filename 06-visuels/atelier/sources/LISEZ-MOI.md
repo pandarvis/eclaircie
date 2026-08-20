@@ -34,6 +34,8 @@ nommé avant : c'est voulu, l'application doit démarrer quand tout est déjà l
 | `pdf3.py <id> <rang> <sous-titre> <sortie.html>` | fabrique la page A4 d'un chapitre ; **le PDF se tire ensuite avec Chrome `--print-to-pdf`, cette page n'est pas le PDF** |
 | `grille.py` | vide la frise dans un tableau lisible, pour vérifier l'ordre des colonnes |
 | `extraire-le-chapitre.py <id>` ou `--tous` | **régénère le brouillon markdown de `05-manuscrit/chapitres/en-cours/` depuis le texte de l'atelier.** *À lancer après chaque correction — un brouillon qui diverge en silence est la panne déjà payée deux fois* |
+| `pdf-recueil.py <sortie.html> <id…>` | **plusieurs chapitres à la suite, en une page imprimable.** *Chacun commence sur une page neuve ; aucun nombre de mots* |
+| `node tirer-le-pdf.js <entree.html> <sortie.pdf>` | **tire le PDF avec une numérotation en pied.** ⚠️ *Chrome n'implémente pas les boîtes de marge CSS — une numérotation écrite en `@bottom-center` ne sort jamais. On passe par le protocole, qui accepte un gabarit de pied : un numéro centré, ni date, ni titre, ni adresse du fichier* |
 | `verrouiller-les-textes.py` | **le verrou des textes validés.** `--verifier` (appelé par la fabrication), `--ouvrir <id>` pour une séance de correction demandée, `--poser` pour refermer |
 | `reprendre-la-revision.py` | **rejoue sur `pB-textes.js` les corrections faites par l'autrice dans l'atelier.** Sans argument, il va chercher le dernier `eclaircie-revision-*.json` dans les téléchargements. `--voir` montre sans rien écrire |
 | `../../integrer-le-plan.py` | ré-injecte le plan de la ruche dans `p3-style.html`, `p4-corps.html` et `pC-ruche.js` |
