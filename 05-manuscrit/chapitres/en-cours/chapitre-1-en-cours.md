@@ -238,9 +238,9 @@ Or Bastien pouvait se tromper comme ne pas se tromper. Il était nouveau dans le
 
 — Mais elle est claire, dit Bastien.
 
-— Je sais.
+— Je ne dis pas le contraire.
 
-Andrew regarda le tableau noir. Le neuf, le dix et le onze étaient pleins. Trois salles, trois veilleurs, et rien pour la dix-neuf, parce qu'on ne réserve pas une salle pour une capsule qui n'existe sur aucune planche.
+Andrew regarda le tableau noir. Trois travées avaient une salle en face : la neuf, la dix, la onze. Trois salles, trois veilleurs. En face de la dix-neuf, celle de Bastien, il n'y avait rien — on ne réserve pas une salle pour une capsule qui n'existe sur aucune planche.
 
 Une capsule qui s'ouvre sans personne autour s'ouvre quand même. Elle n'attend pas, elle ne prévient pas. C'était arrivé deux fois depuis qu'il était là, et les deux fois quelqu'un s'était retrouvé debout tout seul au milieu de la coulée, sans miroir, sans eau, sans personne à qui donner son nom.
 
