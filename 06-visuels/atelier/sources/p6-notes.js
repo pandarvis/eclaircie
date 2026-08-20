@@ -1653,4 +1653,15 @@ const NOTES = [
 
 *Point de métier respecté : on assemble bord à bord sur un support, puis on racle jusqu'à ne plus sentir les joints sous la main.*` },
 
+
+{ d:`20 août`, s:`La marqueterie, version de l'autrice`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`La matière faisait le paysage autant qu'elle le représentait. […] le paysage, le bois, ou la manière dont l'un était devenu l'autre.`,
+  q:`**Trois paragraphes au lieu de deux, et deux phrases qui n'étaient pas dans la mienne.**
+
+🔴 *« La matière faisait le paysage autant qu'elle le représentait »* — **c'est la thèse, et elle était restée implicite chez moi.** *Un marqueteur ne peint pas une montagne : il en trouve une dans une planche.*
+
+✅ **Et la chute est meilleure de deux manières.** *J'avais écrit* « la matière, ce qu'elle représentait, ou les deux », *un troisième terme qui ne fait qu'additionner les deux premiers.* **Elle écrit** « le paysage, le bois, ou la manière dont l'un est devenu l'autre » : *le troisième terme est une chose neuve, et c'est le geste du métier.*
+
+*Deux gains de précision au passage : les joints « disparaissent » au lieu de ne plus se sentir sous la main, et les veines « deviennent parfois presque des lignes de dessin » — ce que je n'aurais pas su voir.*` },
+
 ];
