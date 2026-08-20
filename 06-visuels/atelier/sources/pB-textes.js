@@ -64,7 +64,7 @@ const TEXTES = [{
 [`p`,`Le jeune arrivant répondit sans réfléchir une seconde, comme on répond à une question dont on connaît la réponse depuis toujours.`],
 [`tiret`,`— Eliott.`],
 [`p`,`Andrew écrivit le mot sur son carnet, et à la suite le numéro qu'il porterait toute sa vie. Il souligna les deux.`],
-[`p`,`Puis il prit les deux flacons et les remplit lui-même, à même le voile, en le pressant entre le pouce et l'index. Il les boucha, les essuya, les rangea debout dans un coin de la bassine. Il ne dit rien en le faisant, et personne ne dit rien non plus.`],
+[`p`,`Puis il prit les deux flacons et les remplit lui-même, à même le voile, en le pressant entre le pouce et l'index. Il les boucha, les essuya, les rangea debout dans un coin de la bassine.`],
 [`p`,`Nora prit son relais et ôta le rabat en entier. La veilleuse passa autour du corps d'Eliott et décolla ce qui restait de gelée aux plis des coudes et des genoux.`],
 
 [`pause`,`· · ·`],

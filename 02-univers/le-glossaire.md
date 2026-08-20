@@ -53,10 +53,11 @@ soixante-seize ans. »*
 > `02-univers/la-ruche.md`
 
 **Arrivant.** Celui qui sort d'une capsule. Il a l'âge complet dans son corps et rien dans
-l'esprit : il ne sait ni qui il est, ni où il est, ni rien faire. **La langue, elle, est déjà
-là** — il parle, il répète un mot et il le retient tout de suite. *Mais il ne peut pas nommer
-ce qu'il voit pour la première fois : le mot ne lui manque pas, c'est la chose qu'il ne
-connaît pas.* **Le reste s'apprend à l'école, et en écoutant les mots revenir.**
+l'esprit. **La langue, elle, est déjà là** — il parle, il répète un mot et il le retient tout
+de suite ; *mais il ne peut pas nommer ce qu'il voit pour la première fois.* **Dans les
+premières minutes, il se tait ou il dit des choses qui n'ont aucun sens** — *les deux sont
+ordinaires, et la salle n'en retient rien.* **Le reste s'apprend à l'école, et en écoutant
+les mots revenir.**
 > `02-univers/le-corps-des-arrivants.md`
 
 **Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes, et l'arrivant passe de
