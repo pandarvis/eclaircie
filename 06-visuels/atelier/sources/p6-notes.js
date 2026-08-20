@@ -1573,4 +1573,13 @@ const NOTES = [
 
 ⚠️ *C'est la troisième fois qu'une copie figée se met à dormir dans ce projet. Les deux premières étaient le plan du jardin et le glossaire ; les trois ont maintenant leur garde-fou.*` },
 
+
+{ d:`20 août`, s:`Lire depuis l'atelier, et toujours depuis le même fichier`, e:`acquis`, t:[`atelier`],
+  v:`moi je lis depuis le chapitre dans l'atelier à chaque fois`,
+  q:`**Ça confirme le régime : l'atelier est la surface de lecture, pas seulement la source.** *Il est donc refabriqué et remis après chaque correction du texte, sans qu'elle ait à le demander.*
+
+🔴 **Et ça découvre un piège que le mode révision vient de créer.** *Les corrections en cours sont gardées par le navigateur, et le navigateur les range par chemin de fichier.* **Une copie téléchargée n'a pas le même chemin que le fichier du dépôt** — des corrections faites dans l'une seraient introuvables dans l'autre, sans le moindre message.
+
+✅ **La consigne est donc simple, et elle est en tête du mode d'emploi : ouvrir toujours** *06-visuels/atelier/atelier.html*, **le mettre en favori, et rafraîchir.** *Les copies envoyées servent à regarder, jamais à corriger.*` },
+
 ];
