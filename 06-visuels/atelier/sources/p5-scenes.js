@@ -271,7 +271,10 @@ const SCENES = [
     `Elle n'est jamais reprise, pas même quand le garçon disparaît.`,
     `**Ce que dit le garçon ne mène nulle part, et c'est maintenant la règle.** *Rien de ce qui sort de sa bouche ne se vérifiera jamais* — ni ici, ni plus tard, ni à la relecture. **L'hypothèse « il fabulait » doit rester debout jusqu'à la dernière page.**`,
     `⚠️ **La promenade se fabrique ici, et elle sert encore — autrement.** *Andrew la refera seul à la scène 17 c, comme un homme qui suit un fantôme.* **Elle n'a plus à porter de phrase à retrouver : elle amène ses pieds dans ce quartier-là, et c'est tout ce qu'on lui demande.** *Un chemin de deuil qui passe par hasard là où il fallait passer.*`,
-    `⛔ **Aucune insistance sur l'itinéraire.** Pas de description de trajet, pas de rue nommée deux fois, rien qui ait l'air d'être posé pour servir.`
+    `⛔ **Aucune insistance sur l'itinéraire.** Pas de description de trajet, pas de rue nommée deux fois, rien qui ait l'air d'être posé pour servir.`,
+    `🔴 **C'est ici que le roman met les pieds à l'école — depuis la rue, en longeant la grille.** *Décision de l'autrice, 20 août 2026.* **Une salle de classe, une fenêtre ouverte, des arrivants qui ont cours avec un professeur de quinze ans.** *Un homme de quatre-vingt-douze ans lève la main pour répondre, surexcité ; deux élèves se font reprendre par la maîtresse.* **Plus loin, la grille du terrain d'endurance**, et le professeur de sport qui encourage les plus âgés : « allez, donne-toi, ça ira de mieux en mieux, donne tout ! »`,
+    `⛔ **Et rien de tout cela ne tourne à la drôlerie ni au ridicule.** *C'est une école, ce sont des élèves, et personne dans la rue ne s'arrête pour regarder.* **Le lecteur seul trouve la scène étrange — et il ne doit rien lire qui l'y invite.**`,
+    `⚠️ **On ne passe jamais devant une étude du soir.** *Les cours accélérés existent, Eliott en a commencé un peu, et ça se dit en une phrase — jamais en scène.*`
   ],
   phrases: [{ t: `Un porteur de voiles de cet âge… je n'en avais jamais vu.`, n: `Exemple donné par l'autrice, à garder tel quel.` },
             { t: `Mais si, il y avait un magasin de chaussures ici, pas une épicerie.`,

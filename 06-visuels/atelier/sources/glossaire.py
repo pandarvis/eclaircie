@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Verse la liste unique des mots dans l'atelier et dans le livre.
+"""Verse le glossaire et la bible dans l'atelier et dans le livre.
 
-La source est 02-univers/les-mots.md, et elle est la seule. On y edite, on
+La source est 02-univers/le-glossaire.md, et elle est la seule. On y edite, on
 relance ce script, on refabrique.
 
 Avant, il y avait deux listes : un lexique ecrit a la main dans p7-monde.js
@@ -10,7 +10,7 @@ definis deux fois, et les deux definitions avaient commence a diverger --
 le corps medical du jardin portait deja deux noms.
 
 Ce script produit :
-  - p7-monde.js            les tableaux MOTS et BIBLE de l'atelier
+  - p7-monde.js            les tableaux GLOSSAIRE et BIBLE de l'atelier
   - 05-manuscrit/glossaire.md   la page de fin de volume, generee
 
 La page du livre ne recoit que les mots du monde, et sans leur ligne de
@@ -23,7 +23,7 @@ import re
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 RACINE = os.path.abspath(os.path.join(ICI, '..', '..', '..'))
-SRC = os.path.join(RACINE, '02-univers', 'les-mots.md')
+SRC = os.path.join(RACINE, '02-univers', 'le-glossaire.md')
 JS = os.path.join(ICI, 'p7-monde.js')
 PAGE = os.path.join(RACINE, '05-manuscrit', 'glossaire.md')
 
@@ -100,13 +100,13 @@ def tableau(nom, entrees):
     return u'const %s = [\n%s\n];\n' % (nom, u'\n'.join(lignes))
 
 
-bloc = (u'/* Genere depuis 02-univers/les-mots.md par les-mots.py.\n'
+bloc = (u'/* Genere depuis 02-univers/le-glossaire.md par glossaire.py.\n'
         u'   Ne pas editer ici : editer le markdown, puis relancer le script.\n'
         u'   empreinte-source: %s */\n\n' % empreinte
-        + tableau(u'MOTS', MONDE) + u'\n' + tableau(u'BIBLE', BIBLE))
+        + tableau(u'GLOSSAIRE', MONDE) + u'\n' + tableau(u'BIBLE', BIBLE))
 
 js = io.open(JS, encoding='utf-8').read()
-deb = js.index(u'const LEXIQUE = [') if u'const LEXIQUE = [' in js else js.index(u'/* Genere depuis')
+deb = js.index(u'/* Genere depuis')
 fin = js.index(u'const REGLES = [')
 js = js[:deb] + bloc + u'\n' + js[fin:]
 open(JS, 'wb').write(js.encode('utf-8'))
@@ -115,7 +115,7 @@ open(JS, 'wb').write(js.encode('utf-8'))
 tete = (u'# Glossaire\n\n'
         u'*Page de fin de volume. Se lit vite, se consulte en cours de lecture, ne raconte rien.*\n\n'
         u'> ⚠️ **Cette page est générée depuis '
-        u'[`../02-univers/les-mots.md`](../02-univers/les-mots.md).**\n'
+        u'[`../02-univers/le-glossaire.md`](../02-univers/le-glossaire.md).**\n'
         u'> *On corrige là-bas, jamais ici.*\n\n---\n\n')
 
 

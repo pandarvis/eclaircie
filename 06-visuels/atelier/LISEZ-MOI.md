@@ -10,11 +10,11 @@
 |---|---|
 | **Le parcours** | Le tableau des scènes, qui défile vers la droite. Trois voies : Andrew, le tronc commun, Joël. **Clique une scène** — son dossier d'écriture s'ouvre à droite : ce qui s'y passe, ce que la scène doit produire, ce qu'elle apprend du monde, les phrases à y placer, ce qu'il faut tenir, et ce qui reste à trancher. |
 | **Les chapitres** | Glisse les scènes dans des chapitres pour construire le plan. Un clic suffit aussi. **Tout est gardé dans le navigateur** et s'exporte en fichier texte. |
-| **Les notes** | 261 notes — tout ce qui s'est dit du 13 au 20 août, dans l'ordre. Tes mots sont cités tels quels, et en dessous ce que la décision a produit. Cherchable, filtrable. |
-| **Les mots** | *Onglet d'ouverture du Monde.* **Les cinquante-et-un mots du monde, et cette liste EST la page de fin de volume du livre.** Ordre alphabétique, définitions d'un entre-deux : plus longues qu'une note de bas de page, plus courtes qu'une fiche. La source est [`02-univers/les-mots.md`](../../02-univers/les-mots.md) ; `05-manuscrit/glossaire.md` en est généré. |
-| **La bible** | Ce que l'autrice seule sait : les outils d'écriture, les mots morts, et ce qui vendrait la fin. **Rien de cet onglet ne va sous les yeux du lecteur** — la chaîne, le sismographe, la règle des retrouvailles. |
+| **Les notes** | 268 notes — tout ce qui s'est dit du 13 au 20 août, dans l'ordre. Tes mots sont cités tels quels, et en dessous ce que la décision a produit. Cherchable, filtrable. |
+| **Le glossaire** | *Onglet d'ouverture du Monde.* **Les trente-cinq mots du monde, et cette liste EST la page de fin de volume du livre.** Ordre alphabétique, définitions d'un entre-deux : plus longues qu'une note de bas de page, plus courtes qu'une fiche. La source est [`02-univers/le-glossaire.md`](../../02-univers/le-glossaire.md) ; `05-manuscrit/glossaire.md` en est généré. |
+| **La bible** | Vingt-huit entrées : les outils d'écriture, les mots morts, ce qui vendrait la fin, et ce que tout le monde comprend déjà sans qu'on le lui explique. **Rien de cet onglet ne va sous les yeux du lecteur** — la chaîne, le sismographe, la règle des retrouvailles. |
 | **Le jardin** | Le plan du jardin — **la fermette** : l'étendue, les bêtes, la mare qui ride, les chats qui se promènent et le trajet d'Andrew qu'on peut lancer. Tout se clique. |
-| **Le monde** | Les mots, la bible, les règles, les onze interdits, le décompte des âges (avec son graphe), le calendrier, le dispositif des deux récits, et les faux raccords. |
+| **Le monde** | Le glossaire, la bible, les règles, les onze interdits, le décompte des âges (avec son graphe), le calendrier, le dispositif des deux récits, et les faux raccords. |
 | **Les gens** | Une fiche par personnage : ce qu'il faut avoir en tête avant d'écrire une scène où il entre. |
 | **À trancher** | Les trous, les contradictions à répercuter, les questions en attente — et les phrases à garder. |
 
