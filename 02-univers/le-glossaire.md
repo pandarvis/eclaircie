@@ -353,8 +353,10 @@ pour qu'une date veuille dire quelque chose.**
 pensée.
 > `02-univers/le-corps-des-arrivants.md`
 
-**La résidence.** Les huit premiers jours d'un arrivant, après la consultation : des chambres
-par lots le long du couloir des visiteurs, un réfectoire, et des gens qui expliquent. On peut
+**La résidence.** Où un arrivant passe ses premiers jours, après l'examen : des chambres par
+lots le long du couloir des visiteurs, un réfectoire, et des gens qui expliquent. **Huit
+jours au minimum, et davantage si quelque chose ne va pas** — *la durée est un plancher, pas
+un terme.* On peut
 venir l'y voir. *Les visiteurs la traversent pour rejoindre la salle de cérémonie — c'est
 leur chemin, et il ne croise pas celui des veilleurs.*
 > `02-univers/la-ruche.md` · ❓ Le roman n'y met jamais les pieds. Elle ne se décrit qu'en passant, de l'extérieur.
