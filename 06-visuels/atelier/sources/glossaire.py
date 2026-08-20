@@ -66,6 +66,7 @@ def decoupe(bloc):
             source = source.strip().strip(u'`')
             ouvert = ouvert.strip()
         definition = u' '.join(reste.split())
+        assert chr(96) not in source, u'source mal fermee : ' + source
         entrees.append((mot, definition, source, ouvert))
     return entrees
 

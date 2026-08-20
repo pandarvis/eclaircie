@@ -1783,4 +1783,15 @@ const NOTES = [
 
 *Quatrième garde-fou d'empreinte du projet, après le plan du jardin, le glossaire et le brouillon en cours.*` },
 
+
+{ d:`20 août`, s:`L'atelier de lecture, pour un lecteur beta`, e:`acquis`, t:[`atelier`],
+  v:`une version qui ne contient pas toutes les remarques pour nous. une version destinée à un lecteur beta. tu me gardes uniquement le glossaire, les personnages, les chapitres écrits sans notes en plus, et les plans de la ruche et du jardin`,
+  q:`**lecture.html : sommaire, chapitres sans appareil, gens, glossaire, les deux plans.** *Même design, six onglets au lieu de neuf.*
+
+🔴 **Une chose ne pouvait pas être reprise telle quelle : les fiches de personnages.** *Elles sont écrites pour l'autrice et elles donnent le livre en trois lignes —* « l'enquêteur qu'Andrew a été », « la ravisseuse », « le père d'Eliott dans la vie d'avant ». **Le seul champ « rôle » suffisait à tout vendre.** *Les sept fiches de la version de lecture sont donc écrites à neuf, et seulement d'après ce que le lecteur vient de lire : Andrew, Nora, Eliott, Nicolas, Anna, Bastien, Vera.* ⚠️ **À relire par l'autrice.**
+
+✅ **Et la règle de fabrication est plus dure que « ne pas afficher » : le fichier ne contient pas la matière d'autrice.** *Le script refuse de produire si une note, une scène, une règle, une entrée de bible ou le prénom Joël apparaît dans la source.* **Quelqu'un qui ouvre le fichier ne trouve rien de plus que ce qu'il voit.**
+
+*L'épilogue n'y est pas — il est écrit, mais c'est la fin. Le sommaire le montre comme une ligne, sans texte.*` },
+
 ];
