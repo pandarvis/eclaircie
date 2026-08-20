@@ -161,17 +161,15 @@ personne ne les a contredits. Entre soignants on dit *la section 0*, ou plus cou
 ; et quand on veut que ça sonne moins froid, **on dit le soleil.** *« Tu rejoins le soleil ? —
 Oui, j'y vais pour Lucas. »*
 
-**Serre.** Le quart du complexe où la coulée est chez elle, autour de la salle du registre.
-**Ce n'est pas une zone qu'on traverse : c'est le sol.** Domaine des préparateurs, qui y
-vivent au milieu de la ligne, la suivent d'un bout à l'autre et savent à la main quand une
-capsule est prête.
+**Serre.** La part du complexe où la coulée est chez elle, autour de la salle du registre.
+**Ce n'est pas une zone qu'on traverse : c'est le sol** — *le complexe a été bâti sur elle.*
+**Et sa limite a été tracée par des hommes :** on a regardé jusqu'où allaient les dernières
+capsules, et on a délimité un peu plus large pour tout contenir. *La coulée est venue
+jusqu'aux murs et n'est pas passée outre.* **Personne ne sait si elle serait allée plus
+loin.**
 
 **« Silence (au) ».** La cellule temporaire. *On fait quelques jours au silence.* **Le mot ne
 s'explique pas :** il se comprend au premier emploi, par le contexte.
-
-**Suivi.** Rendez-vous médicaux obligatoires après toute éclaircie : mémoire, tonicité,
-apprentissage, coordination, élocution. **Régime commun, banal, administratif** — et il y en a
-d'autant plus qu'on est arrivé haut.
 
 **Travée.** Une section de la serre : un tronçon de coulée repéré et numéroté, sur lequel
 poussent plusieurs capsules à la fois. On dit *la travée dix-neuf* comme on dirait le rayon
@@ -183,6 +181,6 @@ laver, cuisiner, travailler, comprendre une rue, une monnaie, un métier. **Le t
 ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage.**
 
 **Veilleur.** Homme ou femme de métier de la ruche. Surveille la maturation, relève
-l'éclaircie, tient le registre, mesure l'âge, donne le premier miroir, demande son nom à
-l'arrivant et l'inscrit — et nettoie ce qui n'a pas éclairci. **Il ne prédit rien et ne décide
-rien.**
+l'éclaircie, tient le registre, **prépare les cérémonies et les tient**, mesure l'âge, donne
+le premier miroir, demande son nom à l'arrivant et l'inscrit — et nettoie ce qui n'a pas
+éclairci. **Il ne prédit rien et ne décide rien.**

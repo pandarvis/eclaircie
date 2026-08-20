@@ -211,20 +211,16 @@ zéro** ; et quand on veut que ça sonne moins froid, **on dit le soleil.** *« 
 soleil ? — Oui, j'y vais pour Lucas. »*
 > `02-univers/le-jardin-le-plan.md`
 
-**Serre.** Le quart du complexe où la coulée est chez elle, autour de la salle du registre.
-**Ce n'est pas une zone qu'on traverse : c'est le sol.** Domaine des préparateurs, qui y
-vivent au milieu de la ligne, la suivent d'un bout à l'autre et savent à la main quand une
-capsule est prête.
-> `02-univers/la-ruche.md` · ❓ Sa taille, et si elle a une limite nette ou si elle se perd dans le reste du complexe.
+**Serre.** La part du complexe où la coulée est chez elle, autour de la salle du registre.
+**Ce n'est pas une zone qu'on traverse : c'est le sol** — *le complexe a été bâti sur elle.*
+**Et sa limite a été tracée par des hommes :** on a regardé jusqu'où allaient les dernières
+capsules, et on a délimité un peu plus large pour tout contenir. *La coulée est venue jusqu'aux
+murs et n'est pas passée outre.* **Personne ne sait si elle serait allée plus loin.**
+> `02-univers/la-ruche.md`
 
 **« Silence (au) ».** La cellule temporaire. *On fait quelques jours au silence.* **Le mot ne
 s'explique pas :** il se comprend au premier emploi, par le contexte.
 > `04-plan/le-parcours-de-l-enquete.md §3.6`
-
-**Suivi.** Rendez-vous médicaux obligatoires après toute éclaircie : mémoire, tonicité,
-apprentissage, coordination, élocution. **Régime commun, banal, administratif** — et il y en
-a d'autant plus qu'on est arrivé haut.
-> `02-univers/le-corps-des-arrivants.md` · ❓ Le nom du rendez-vous n'est pas choisi, et il doit se distinguer de la consultation d'initiation.
 
 **Travée.** Une section de la serre : un tronçon de coulée repéré et numéroté, sur lequel
 poussent plusieurs capsules à la fois. On dit *la travée dix-neuf* comme on dirait le rayon
@@ -238,10 +234,10 @@ ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l
 > `02-univers/la-ruche.md` · ❓ Deux frontières à retracer : les berceurs des quatorze à huit ans mordent sur son territoire, et le chuchoteur pourrait se fondre en lui.
 
 **Veilleur.** Homme ou femme de métier de la ruche. Surveille la maturation, relève
-l'éclaircie, tient le registre, mesure l'âge, donne le premier miroir, demande son nom à
-l'arrivant et l'inscrit — et nettoie ce qui n'a pas éclairci. **Il ne prédit rien et ne
-décide rien.**
-> `02-univers/la-ruche.md` · ❓ Ce que le livre montre du métier ordinaire.
+l'éclaircie, tient le registre, **prépare les cérémonies et les tient**, mesure l'âge, donne
+le premier miroir, demande son nom à l'arrivant et l'inscrit — et nettoie ce qui n'a pas
+éclairci. **Il ne prédit rien et ne décide rien.**
+> `02-univers/la-ruche.md`
 
 ---
 
@@ -415,11 +411,25 @@ d'une ceinture. **C'est le premier vêtement d'un arrivant.** Quatre tailles à 
 en descend une de chaque puisqu'on ne sait pas qui va sortir.
 > `02-univers/la-ruche.md`
 
+**Le potager.** *L'image de l'autrice pour tenir la limite de la serre, et elle vaut mieux
+qu'une explication.* **On délimite un potager, et les plantes ne vont guère au-delà** : le
+réseau des racines et des feuilles reste dedans, sans qu'on ait rien fait pour l'y forcer.
+⚠️ **La coulée est venue jusqu'aux murs et s'est arrêtée là.** *Ce n'est pas un mur qui la
+retient — c'est qu'elle n'est pas allée plus loin, et personne ne saura jamais si elle
+l'aurait fait.* ⛔ **Rien de cette question n'est posé dans le livre**, et surtout pas résolu.
+> `02-univers/la-ruche.md` · décision de l'autrice, 20 août 2026
+
 **Le sismographe.** Ce qu'est la ruche sans que personne le sache : trente capsules qui se
 forment et mûrissent le même jour signalent un tremblement de terre, une guerre, un naufrage.
 **Les veilleurs voient une semaine anormale et ne comprendront jamais ce qu'ils ont vu
 passer.** ⛔ Le lecteur seul comprend, et rien ne doit jamais être dit.
 > `02-univers/la-ruche.md`
+
+**Le suivi.** Rendez-vous médicaux obligatoires après toute éclaircie : mémoire, tonicité,
+apprentissage, coordination, élocution. **Régime commun, banal, administratif** — et il y en
+a d'autant plus qu'on est arrivé haut. **Hors du glossaire** — décision de l'autrice,
+20 août 2026.
+> `02-univers/le-corps-des-arrivants.md` · ❓ Le nom du rendez-vous n'est pas choisi, et il doit se distinguer de la consultation d'initiation.
 
 **La Terre.** Le monde du roman : la même planète, le même nom, la même nature — mais dont
 l'histoire humaine a été effacée et recommencée. **Ce n'est pas un monde parallèle : il n'y a
