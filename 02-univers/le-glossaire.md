@@ -37,8 +37,9 @@ sans s'arrêter.
 
 **Analyste.** Métier de la serre, **et c'est un seul métier à deux faces.** Devant les
 capsules il ne mesure rien : il regarde, il note, il compare — la couleur, l'avancée de
-l'éclaircie, l'intervalle entre deux relevés — et c'est la série accumulée qui donne une
-date. Puis il reçoit les arrivants en consultation, juste après leur sortie. *Les deux
+l'éclaircie, l'intervalle entre deux relevés. **Un relèvement seul ne donne rien : il en
+faut quatre au minimum**, croisés avec des moyennes accumulées sur des années, pour
+chiffrer une date. Puis il reçoit les arrivants en consultation, juste après leur sortie. *Les deux
 tâches sont à lui, et il n'existe pas de spécialité qui n'en ferait qu'une.* **L'analyste dit
 quand ; il ne dit jamais qui.**
 > `02-univers/la-ruche.md`
@@ -56,12 +57,14 @@ ce qu'il voit pour la première fois : le mot ne lui manque pas, c'est la chose 
 connaît pas.* **Le reste s'apprend à l'école, et en écoutant les mots revenir.**
 > `02-univers/le-corps-des-arrivants.md`
 
-**Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes bien distincts, et on ne
-passe pas de l'un à l'autre :** ceux des quatorze à huit ans, accolés au jardin, et ceux du
-jardin même, qui prennent le relais à huit et restent jusqu'au dernier jour. Ce sont ces
-derniers qui nomment les arrivants de huit ans et au-dessous. **C'est un métier payé, et
-c'est aussi de la tendresse.** Métier mixte, et le livre doit le montrer au moins une fois.
-> `02-univers/la-ruche.md` · ❓ Conséquence à porter ailleurs : la bande des quatorze à huit ans n'était prévue nulle part, et elle chevauche le tuteur.
+**Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes distincts, et l'arrivant
+passe de l'un à l'autre à huit ans, quand il entre au jardin :** ceux des quatorze à huit,
+accolés au jardin sans y être, et ceux du jardin même, qui prennent le relais et restent
+jusqu'au dernier jour. **Un arrivant de la tranche haute ne va ni à l'école ni chez un
+tuteur : son berceur lui apprend ce qu'il faut pour son âge.** Ce sont ceux du jardin qui
+nomment les arrivants de huit ans et au-dessous. **Métier payé, métier mixte, et c'est aussi
+de la tendresse.**
+> `02-univers/la-ruche.md` · ❓ Un berceur du jardin garde-t-il sa charge jusqu'à zéro, ou passe-t-il la main quand l'arrivant cesse de parler ? Et la frontière avec le tuteur reste à retracer — le chuchoteur tombe au même endroit.
 
 **Bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le
 service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont les
@@ -77,11 +80,13 @@ rabat**, plus sombre et plus mat que le reste depuis qu'on l'a détaché. Il se 
 tient où on le laisse, il s'ôte ; c'est son retrait qui active le corps.*
 > `02-univers/la-ruche.md`
 
-**Capsule flash.** Capsule qui va du début à l'éclaircie en très peu de temps. On la
-reconnaît à ce qu'elle ne laisse pas le temps de faire une série : quand on s'aperçoit
-qu'elle est là, elle est déjà ouverte. **Une capsule claire depuis un moment n'en est donc
-pas une**, et c'est le premier raisonnement d'une analyste devant une trouvaille.
-> `02-univers/la-ruche.md` · ❓ Ce qui les provoque n'est jamais dit. Le lecteur a de quoi le deviner : une mort soudaine fait mûrir vite.
+**Capsule flash.** Capsule qui éclaircira comme les autres, **mais qui est arrivée d'un
+coup** : elle n'était pas là la veille, personne ne l'a vue pousser, et **aucun relèvement
+n'a pu être fait** — il en faut quatre au minimum pour chiffrer un jour. *Elle a poussé si
+vite que la paroi paraît sur le point de se détacher toute seule.* **On ne traîne pas : la
+cérémonie se fait dans la foulée.** ⚠️ *Une capsule claire depuis un moment n'en est donc
+pas une, et c'est le premier raisonnement d'une analyste devant une trouvaille.*
+> `02-univers/la-ruche.md`
 
 **Capsule qui n'éclaircit pas.** Le nom est celui du registre, et il ne décrit rien. Ça n'a
 jamais ressemblé à une capsule : ni la longueur, ni les nervures, ni la dissymétrie de ce qui
@@ -132,11 +137,12 @@ transparente. **C'est le seul signe lisible du métier** — une capsule claire 
 bientôt —, et il donne son nom au phénomène, au rite, à la croyance et à tout le reste.
 > `02-univers/la-ruche.md`
 
-**École.** Obligatoire pour tout arrivant, quel que soit son âge. **On n'y apprend pas un
-métier : on y apprend le monde.** Pour qui arrive très âgé, elle va de nos petites classes
-jusqu'au collège, et elle prend des années. **Les autres — ceux qui arrivent avec moins à
-rattraper — n'ont que des cours accélérés du soir.** Les formateurs sont toujours plus jeunes
-que leurs apprenants, et personne n'y trouve rien à redire.
+**École.** Obligatoire pour tout arrivant qui aura une vie active devant lui. **On n'y
+apprend pas un métier : on y apprend le monde.** Pour qui arrive très âgé, elle va de nos
+petites classes jusqu'au collège, et elle prend des années ; les autres n'ont que des cours
+accélérés du soir. Les formateurs sont toujours plus jeunes que leurs apprenants, et personne
+n'y trouve rien à redire. ⛔ **Elle ne concerne pas la tranche des quatorze à huit ans** :
+ceux-là relèvent d'un berceur, qui leur apprend ce qu'il faut pour leur âge.
 > `02-univers/la-ruche.md`
 
 **Jardin.** Le dernier lieu de vie, et ce n'est pas un endroit où l'on entre en descendant :
@@ -165,9 +171,11 @@ le mot du registre et le seul** : *« une paire, travée douze »*. Devant elles
 simplement qu'elles sont pareilles, et l'émerveillement fait le reste.
 > `02-univers/la-ruche.md`
 
-**Portage.** Deux emplois. **Une tournée de livraison**, pour un jeune qui travaille en ville
-— et, au jardin, **le geste de la berceuse** qui porte, berce, tient au chaud et ne laisse
-pas seul une seconde. *C'est jusque-là que va le métier, littéralement, en portant.*
+**Portage.** Deux emplois. **Une tournée de livraison** — de petits colis, des lettres, dans
+un quartier —, l'un des métiers faciles confiés à la tranche haute : *on la fait à pied, on
+n'a pas le temps devant soi pour apprendre à conduire.* Et, au jardin, **le geste de la
+berceuse** qui porte, berce, tient au chaud et ne laisse pas seul une seconde. *C'est
+jusque-là que va le métier, littéralement, en portant.*
 > `02-univers/le-jardin.md` · ❓ Chante-t-elle ? S'il y a un chant, il ne doit être ni nommé ni décrit comme un rituel.
 
 **Porteur de voiles.** Arrivant qui n'est pas en paix avec lui-même, et chez qui quelque
@@ -302,6 +310,22 @@ organisation, ni porte-parole** : des individus, des rumeurs, des négligences, 
 soir. **Hors du glossaire : c'est un état de caractère, pas un mot du monde** — personne ne
 dira jamais « c'est un marginal » dans le livre. *Décision de l'autrice, 20 août 2026.*
 > `02-univers/la-jalousie.md`
+
+**Le moindre mal.** *Pourquoi la tranche haute travaille, et c'est un argument avant d'être
+une organisation.* **Participer à l'effort commun à l'échelle de son âge, avant de rejoindre
+le jardin.** ⚠️ **Sa vraie fonction est de faire passer la pilule** à ceux qui ne trouvent pas
+juste qu'on entre au jardin sans contrepartie. *C'est la réponse debout du monde à la
+jalousie, et elle tient parce qu'elle est modeste : on ne prétend pas que c'est équitable, on
+dit que c'est un moindre mal.*
+> `02-univers/la-jalousie.md` · ❓ Correction à porter sur la fiche de la jalousie, signalée et non appliquée.
+
+**Le travail de la tranche haute.** *Comment ça s'organise, en pratique.* Un métier facile :
+pas d'études, pas de condition physique, rien qui demande d'apprendre longtemps. **Pendant
+ses heures, c'est son employeur qui en répond, pas son berceur.** Il n'y a pas vraiment de
+cours du soir pour eux — **le berceur lui apprend ce qu'il doit savoir pour son âge**, et
+c'est tout. *Et le berceur ne reste pas les bras ballants quand ses charges sont toutes
+occupées ailleurs : il va en renfort au jardin, dès que son planning le permet.*
+> `02-univers/la-ruche.md` · ❓ Frontière à retracer avec le tuteur — et le chuchoteur tombe au même endroit.
 
 **Les mots morts.** ⛔ **Le palier** — ancien mot du dossier pour le plateau, proscrit ; le
 vocabulaire arrêté est *le jardin* (le lieu) et *le plateau* (la phase). ⛔ **Le capot** —
