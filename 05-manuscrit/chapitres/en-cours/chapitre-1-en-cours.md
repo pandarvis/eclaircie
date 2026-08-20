@@ -126,7 +126,7 @@ Pour aller chercher celles qui poussaient en hauteur, on montait des échafaudag
 
 C'était la serre.
 
-Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule arrivée au bout, la paroi tendue, translucide, d'un jaune orangé. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.
+Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule considérée comme arrivée à maturité. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.
 
 Au loin, immanquable, la porte du registre. Massive, elle aussi tout autant chargée d'ornements que le reste, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.
 
@@ -154,7 +154,7 @@ Bastien traversa pour le rejoindre. Il venait de la coulée et ça se voyait : m
 
 · · ·
 
-Le quartier des préparateurs s'ouvrait sur une allée centrale, assez large pour y faire passer deux chariots de front, et de chaque côté des boxes où l'on travaillait. Pas de portes : des cloisons à mi-hauteur, un établi par box, des crochets partout. Des caisses empilées contre le mur du fond, quatorze. Des bottes alignées à l'entrée, jamais par paires. Sur la cloison de droite, un tableau noir couvert de numéros de travées, effacé et réécrit tant de fois que le noir était devenu gris.
+Le quartier des préparateurs s'ouvrait sur une allée centrale, assez large pour y faire passer deux chariots de front, et de chaque côté des boxes où l'on travaillait. Pas de portes : des cloisons à mi-hauteur, un établi par box, des crochets partout. Des caisses empilées contre le mur du fond, quatorze. Sur la cloison de droite, un tableau noir couvert de numéros de travées, effacé et réécrit tant de fois que le noir était devenu gris.
 
 Ils étaient une quinzaine, et il n'y avait pas de bureaux.
 
@@ -186,9 +186,9 @@ L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en a
 
 Personne ne pouvait lui en vouloir. Il avait encore des cours du soir, et ça faisait à peine un mois qu'il était là. Un apprenti modèle, qui apprenait vite.
 
-Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.
+Dans ce service — comme partout ailleurs — les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.
 
-Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
+Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes et ne dit rien. Elle continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.
 
 Quand l'analyste tranchait, elle avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, elle l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait, il l'acceptait sans discuter, et il avait cent fois raison de le faire.
 
@@ -256,7 +256,7 @@ Andrew sortit son carnet.
 
 Il écrivit : travée dix-neuf, douzième capsule, et la date et l'heure qu'il était.
 
-Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait, et le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien.
+Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait.
 
 — Et si elle s'ouvre cette nuit ? dit Vera.
 

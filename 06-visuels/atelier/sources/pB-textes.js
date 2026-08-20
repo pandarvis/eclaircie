@@ -224,7 +224,7 @@ const TEXTES = [{
 [`p`,`Jeunes, elles avaient la couleur de la coulée. Puis elles la perdaient en mûrissant, jusqu'à prendre, à la fin, ce jaune orangé, presque translucide, qui indiquait qu'elles étaient prêtes.`],
 [`p`,`Pour aller chercher celles qui poussaient en hauteur, on montait des échafaudages. On les redescendait ensuite.`],
 [`p`,`C'était la serre.`],
-[`p`,`Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule arrivée au bout, la paroi tendue, translucide, d'un jaune orangé. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.`],
+[`p`,`Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule considérée comme arrivée à maturité. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.`],
 [`p`,`Au loin, immanquable, la porte du registre. Massive, elle aussi tout autant chargée d'ornements que le reste, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.`],
 [`p`,`Les différents quartiers, eux, se fondaient dans l'environnement de la serre. Des murs, un toit, une porte, sculptés comme tout ce qui avait été bâti ici, et la coulée qui passait entre eux et par-dessus.`],
 [`p`,`Un préparateur répondant au nom de Bastien reconnut le veilleur de loin, à sa silhouette et à sa façon de marcher.`],
@@ -238,7 +238,7 @@ const TEXTES = [{
 [`tiret`,`— J'ai un problème de compte. Tu as deux minutes ?`],
 [`tiret`,`— J'ai deux heures.`],
 [`pause`,`· · ·`],
-[`p`,`Le quartier des préparateurs s'ouvrait sur une allée centrale, assez large pour y faire passer deux chariots de front, et de chaque côté des boxes où l'on travaillait. Pas de portes : des cloisons à mi-hauteur, un établi par box, des crochets partout. Des caisses empilées contre le mur du fond, quatorze. Des bottes alignées à l'entrée, jamais par paires. Sur la cloison de droite, un tableau noir couvert de numéros de travées, effacé et réécrit tant de fois que le noir était devenu gris.`],
+[`p`,`Le quartier des préparateurs s'ouvrait sur une allée centrale, assez large pour y faire passer deux chariots de front, et de chaque côté des boxes où l'on travaillait. Pas de portes : des cloisons à mi-hauteur, un établi par box, des crochets partout. Des caisses empilées contre le mur du fond, quatorze. Sur la cloison de droite, un tableau noir couvert de numéros de travées, effacé et réécrit tant de fois que le noir était devenu gris.`],
 [`p`,`Ils étaient une quinzaine, et il n'y avait pas de bureaux.`],
 [`p`,`Deux ou trois levèrent la main en le voyant entrer. On lui proposa du café et il accepta de bon cœur. Il n'avait pas fait le détour par la salle de repos ; ce n'était pas une raison pour refuser une bonne tasse.`],
 [`p`,`Dans le premier box, sur l'établi, une capsule. Cueillie dans la nuit, calée sur deux berceaux de mousse, avec deux personnes autour. L'une lavait la paroi au chiffon, à l'eau claire, en tournant toujours dans le même sens, et l'eau du seau était verte. L'autre avait décollé le rabat sur dix centimètres, glissé dessous trois sondes souples, et rabattu par-dessus. Les sondes remontaient jusqu'à un appareil posé au bout de la table, une caisse grise avec un cadran et deux aiguilles qui ne bougeaient presque pas.`],
@@ -254,8 +254,8 @@ const TEXTES = [{
 [`tiret`,`— Oh si, si. Mais ce n'est pas la même chose que de les voir en vrai !`],
 [`p`,`« Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans », se souvint Andrew en considérant son sourire béat.`],
 [`p`,`Personne ne pouvait lui en vouloir. Il avait encore des cours du soir, et ça faisait à peine un mois qu'il était là. Un apprenti modèle, qui apprenait vite.`],
-[`p`,`Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.`],
-[`p`,`Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes, ne dit rien, et continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.`],
+[`p`,`Dans ce service — comme partout ailleurs — les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien.`],
+[`p`,`Vera arrivait derrière eux. En tant qu'analyste, elle se pencha sur le cadran, le regarda deux secondes et ne dit rien. Elle continua jusqu'au fond de la pièce, où l'attendaient un tabouret trop haut pour sa table et l'ensemble de ses planches.`],
 [`p`,`Quand l'analyste tranchait, elle avait raison. Ce n'était pas une affaire de grade — personne dans ce bâtiment ne commandait à personne. C'était son métier, et rien d'autre. La maturation d'une capsule, elle l'avait apprise par cœur, année après année, relevé après relevé. Observer, reconnaître, comparer, prédire. Le préparateur cueillait, lavait, branchait et conduisait ; il écoutait la date qu'on lui donnait, il l'acceptait sans discuter, et il avait cent fois raison de le faire.`],
 [`tiret`,`— La dix-neuf, dit Bastien.`],
 [`tiret`,`— La travée dix-neuf ?`],
@@ -289,7 +289,7 @@ const TEXTES = [{
 [`tiret`,`— Quand ?`],
 [`tiret`,`— Le matin. Avant de descendre.`],
 [`p`,`Il écrivit : travée dix-neuf, douzième capsule, et la date et l'heure qu'il était.`],
-[`p`,`Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait, et le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien.`],
+[`p`,`Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait.`],
 [`tiret`,`— Et si elle s'ouvre cette nuit ? dit Vera.`],
 [`tiret`,`— Alors elle s'ouvrira cette nuit, et on n'y pourra rien.`],
 [`p`,`C'était vrai, ça ne consolait personne, et les trois s'en contentèrent parce qu'il n'y avait rien d'autre à en tirer.`],
@@ -337,7 +337,7 @@ const TEXTES = [{
 
 <strong>Et l'enjeu tombe tout seul :</strong> une main dit qu'elle est prête, une série ne se lit pas avant quatre relevés, et une salle ne se réserve pas pour une capsule qui n'existe nulle part. <em>Une capsule qui s'ouvre sans personne autour s'ouvre quand même : c'est arrivé deux fois, et les deux fois quelqu'un s'est retrouvé seul au milieu de la coulée, sans miroir, sans eau, sans personne à qui donner son nom.</em>`,
 `<strong>Andrew paie la différence de sa poche.</strong> Vingt minutes chaque matin, qu'il appelle <em>rien du tout</em>. Personne ne le remercie et le lecteur l'a vu.`,
-`<strong>Le registre ne s'est jamais trompé parce qu'il n'avance jamais rien.</strong> Dit une fois, en passant.
+`<strong>Les autres prévoyaient, lui constatait.</strong> Dit une fois, en passant, sans nommer le registre — <em>il n'a pas encore été présenté, et surtout il n'annonce rien.</em>
 
 <strong>Bastien est un débutant, et personne ne le lui reproche.</strong> <em>« Or Bastien pouvait se tromper comme ne pas se tromper. Il était nouveau dans le métier, et un préparateur ne tranche pas. Tout le monde le pensait tout bas sans le dire tout haut. »</em> <strong>C'est la seule ligne du chapitre où quelqu'un est jugé, et elle est douce.</strong>`,
 `🔴 <strong>L'inversion des âges tombe ici, et c'est le hook du chapitre.</strong> <em>Trouvaille de l'autrice, 19 août 2026 : le préparateur qui s'émerveille devant une capsule est un homme de soixante-douze ans qui n'en avait jamais vu.</em>
@@ -356,7 +356,7 @@ const TEXTES = [{
 
 ✅ <strong>Et l'école règle la vraisemblance :</strong> <em>on ne prend pas un poste en sortant de sa capsule.</em> <strong>Les bancs de l'école et les cours du soir sont les mots les plus banals du chapitre, et les plus violents.</strong>
 
-<strong>Puis la règle du monde, énoncée à plat et jamais expliquée :</strong> <em>« Dans ce service, les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien. »</em> ⚠️ <em>Ces deux phrases sont les seules du passage qui généralisent — elles peuvent sauter, et le bizutage porterait alors la règle tout seul.</em>
+<strong>Puis la règle du monde, énoncée à plat et jamais expliquée :</strong> <em>« Dans ce service — comme partout ailleurs — les plus anciens du métier étaient aussi ceux qui avaient l'air les plus jeunes. Ça se comprenait très bien. »</em> ⚠️ <em>Ces deux phrases sont les seules du passage qui généralisent — elles peuvent sauter, et le bizutage porterait alors la règle tout seul.</em>
 
 ⛔ <strong>Le narrateur affirme que ça se comprend et ne dit pas pourquoi.</strong> <em>Le lecteur reste avec la phrase sur les bras — et le bizutage, vingt pages plus loin, n'a plus rien à lui expliquer.</em>`,
 `<strong>La capsule pourrie ne contient personne — et n'est même pas une capsule.</strong> <em>« C'était le mot du registre, et ce n'était pas celui des yeux. »</em> Ni la longueur, ni les nervures, ni la dissymétrie de ce qui a poussé : <strong>une poche sombre et boursouflée, venue d'un coup, qu'on dirait une excroissance que la coulée s'est faite à elle-même et qu'elle a poussée à l'écart.</strong> <em>Rien n'a mûri là-dedans, et c'est ce qui interdit au lecteur d'y loger quoi que ce soit.</em> Une matière, une pente, six seaux et il en faudra un septième.`,
