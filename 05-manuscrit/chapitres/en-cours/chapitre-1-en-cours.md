@@ -8,11 +8,25 @@ La ruche s'ouvrait par deux battants de bois clair que personne ne fermait avant
 
 Tout de suite en entrant, sur la gauche, l'accueil.
 
-C'était une pièce rectangulaire et basse, la seule du complexe qui ressemblât à quelque chose de connu. Un guichet, une vitre, des chaises alignées avec le mur et d'autres dos à dos au milieu. Des gens attendaient qu'on vienne les chercher. Ils étaient dix-huit, et deux d'entre eux tenaient sur les genoux quelque chose qu'ils avaient apporté et qu'ils n'avaient pas voulu poser.
+C'était une grande pièce rectangulaire, basse de plafond, la seule du complexe qui eût quelque chose de familier. On y trouvait un guichet derrière une vitre, quelques chaises alignées contre les murs et d'autres disposées dos à dos au centre de la pièce. Dix-huit visiteurs attendaient qu'on vienne les chercher. Deux d'entre eux gardaient sur les genoux ce qu'ils avaient apporté avec eux, refusant, pour une raison ou pour une autre, de le poser à leurs pieds.
 
-Ils savaient tous qu'il faudrait attendre. On ne fait pas commencer une cérémonie parce que les gens sont arrivés. Alors ils attendaient, et ils parlaient, et l'un d'eux regardait la porte du fond toutes les deux minutes.
+Tous savaient qu'il faudrait attendre. Une cérémonie ne commence pas parce que ceux qui doivent y assister sont arrivés.
 
-On y était bien. Trois grandes plantes en pot dans les angles, de larges feuilles fendues qui montaient plus haut que les dossiers. Aux murs, des toiles sans sujet, des aplats de bleu pâle qui viraient à l'orange sur les bords. Personne ne les regardait deux fois, et elles faisaient très bien leur travail.
+Alors chacun s'occupait comme il pouvait. De petits groupes s'étaient formés, trois ou quatre personnes tout au plus, et les conversations flottaient dans la pièce à cette hauteur de voix que personne n'a besoin de demander. On échangeait des suppositions sur la salle où l'on serait envoyé, sur le nombre de personnes qui viendraient ensuite, sur l'âge qu'on leur donnerait, sur ce qu'on allait voir entrer.
+
+Chez certains, l'attente commençait à se lire sur les visages.
+
+Près de la porte du fond, quatre visiteurs la regardaient toutes les deux minutes.
+
+La pièce, pourtant, avait été pensée pour rendre l'attente supportable. Aux deux extrémités, de grandes plantes s'élevaient le long de troncs fins qui semblaient avoir poussé avec elles. Leur feuillage, plus dense à la base, s'ouvrait ensuite en larges feuilles retombant de part et d'autre. Sur les murs étaient accrochés des tableaux d'artisans, sobres et soigneusement faits, de ceux devant lesquels on s'arrête parfois sans savoir exactement ce qui a retenu le regard.
+
+Des appliques diffusaient une lumière jaune orangé, douce sans être faible.
+
+Et, au fond de la pièce, une sculpture de verre s'élevait presque jusqu'au plafond. De minces filets d'eau coulaient le long de ses deux faces et disparaissaient dans un bassin qu'on distinguait à peine.
+
+C'était le seul bruit continu de la salle.
+
+L'eau.
 
 Anna, la secrétaire, leur avait expliqué comment ça allait se passer. Elle le referait pour ceux qui arriveraient en retard, et elle le referait encore pour ceux qui n'avaient rien retenu la première fois, parce qu'on ne retient rien la première fois.
 

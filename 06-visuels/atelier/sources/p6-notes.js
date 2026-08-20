@@ -1545,4 +1545,15 @@ const NOTES = [
 
 🔴 **Et c'est une constante du lieu, pas un détail de ce passage :** *chacun tient son volume, et personne n'a jamais eu à le demander* — le prologue le posait déjà. **À tenir partout dans la ruche : jamais le silence d'un temple, jamais le bruit d'une salle d'attente.**` },
 
+
+{ d:`20 août`, s:`L'accueil est posé, dans la version de l'autrice`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`tu remplaces stp`,
+  q:`**Trois paragraphes en deviennent dix, et le texte est le sien, mot pour mot.** *Ma proposition est marquée caduque ; elle ne vaut plus que pour ce qu'elle discutait.*
+
+✅ **Deux des trois questions que je posais sont tranchées par son texte, sans qu'elle ait eu à les commenter.** *Le mot « tuteur » ne s'y trouve pas — elle écrit* « de grandes plantes s'élevaient le long de troncs fins qui semblaient avoir poussé avec elles ». *Et le mot « pari » non plus :* **« on échangeait des suppositions »** — l'écho au « on ne pariait pas » du prologue tombe de lui-même. ⚠️ **Reste l'eau, et sa fin la rend plus visible encore.**
+
+🔴 **Et elle a résolu le volume mieux que moi.** *Je cherchais à dire que l'eau s'entend sans que la salle soit muette ; elle écrit* **« C'était le seul bruit continu de la salle. »** *Continu — les voix ne le sont pas. Puis un paragraphe d'un mot :* **« L'eau. »**
+
+*Le chapitre passe de 3 490 à 3 649 mots. Le brouillon en cours était en phase au paragraphe près : il l'est resté. L'entrée Accueil du glossaire suit le texte, et non l'inverse.*` },
+
 ];
