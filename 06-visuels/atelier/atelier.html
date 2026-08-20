@@ -4175,6 +4175,17 @@ const NOTES = [
 
 *Quatrième garde-fou d'empreinte du projet, après le plan du jardin, le glossaire et le brouillon en cours.*` },
 
+
+{ d:`20 août`, s:`L'atelier de lecture, pour un lecteur beta`, e:`acquis`, t:[`atelier`],
+  v:`une version qui ne contient pas toutes les remarques pour nous. une version destinée à un lecteur beta. tu me gardes uniquement le glossaire, les personnages, les chapitres écrits sans notes en plus, et les plans de la ruche et du jardin`,
+  q:`**lecture.html : sommaire, chapitres sans appareil, gens, glossaire, les deux plans.** *Même design, six onglets au lieu de neuf.*
+
+🔴 **Une chose ne pouvait pas être reprise telle quelle : les fiches de personnages.** *Elles sont écrites pour l'autrice et elles donnent le livre en trois lignes —* « l'enquêteur qu'Andrew a été », « la ravisseuse », « le père d'Eliott dans la vie d'avant ». **Le seul champ « rôle » suffisait à tout vendre.** *Les sept fiches de la version de lecture sont donc écrites à neuf, et seulement d'après ce que le lecteur vient de lire : Andrew, Nora, Eliott, Nicolas, Anna, Bastien, Vera.* ⚠️ **À relire par l'autrice.**
+
+✅ **Et la règle de fabrication est plus dure que « ne pas afficher » : le fichier ne contient pas la matière d'autrice.** *Le script refuse de produire si une note, une scène, une règle, une entrée de bible ou le prénom Joël apparaît dans la source.* **Quelqu'un qui ouvre le fichier ne trouve rien de plus que ce qu'il voit.**
+
+*L'épilogue n'y est pas — il est écrit, mais c'est la fin. Le sommaire le montre comme une ligne, sans texte.*` },
+
 ];
 /* ==========================================================================
    LE MONDE — lexique, règles, interdits, décompte
@@ -4182,14 +4193,14 @@ const NOTES = [
 
 /* Genere depuis 02-univers/le-glossaire.md par glossaire.py.
    Ne pas editer ici : editer le markdown, puis relancer le script.
-   empreinte-source: 7b508bc4065e25ec70655ad91f10b29196ceb7306c70190a48ec936d521c0633 */
+   empreinte-source: f1da960e2395164b1f72e024326de37eacd460c9263480edda12cdaace2cd0fa */
 
 const GLOSSAIRE = [
 [`Accueil`,`Première pièce de la ruche, après l'entrée principale : un guichet derrière une vitre, des chaises contre les murs et d'autres dos à dos au milieu. **La pièce a été pensée pour rendre l'attente supportable** — de grandes plantes, des tableaux d'artisans, une lumière jaune orangé, et au fond une sculpture de verre où l'eau descend. Le veilleur y prend le numéro de sa salle du jour ; les visiteurs y attendent qu'on vienne les chercher, et les gens du service passent derrière eux sans s'arrêter.`,`02-univers/la-ruche.md`,``],
 [`Analyste`,`Métier de la serre, **et c'est un seul métier à deux faces.** Devant les capsules il ne mesure rien : il regarde, il note, il compare — la couleur, l'avancée de l'éclaircie, l'intervalle entre deux relevés. **Un relèvement seul ne donne rien : il en faut quatre au minimum**, croisés avec des moyennes accumulées sur des années, pour chiffrer une date. Puis il reçoit les arrivants en consultation, juste après leur sortie. *Les deux tâches sont à lui, et il n'existe pas de spécialité qui n'en ferait qu'une.* **L'analyste dit quand ; il ne dit jamais qui.**`,`02-univers/la-ruche.md`,``],
 [`Archiviste`,`La ruche prise comme une seule entité. Elle ne parle pas, ne juge pas devant témoin, ne console personne : elle classe. **Ce n'est pas quelqu'un qu'on prie, c'est un service d'archives** — on le consulte, et il ne répond jamais. *« L'Archiviste lui a compté soixante-seize ans. »*`,`02-univers/la-ruche.md`,``],
 [`Arrivant`,`Celui qui sort d'une capsule. Il a l'âge complet dans son corps et rien dans l'esprit. **La langue, elle, est déjà là** — il parle, il répète un mot et il le retient tout de suite ; *mais il ne peut pas nommer ce qu'il voit pour la première fois.* **Dans les premières minutes, il se tait ou il dit des choses qui n'ont aucun sens** — *les deux sont ordinaires, et la salle n'en retient rien.* **Le reste s'apprend à l'école, et en écoutant les mots revenir.**`,`02-univers/le-corps-des-arrivants.md`,``],
-[`Berceur, berceuse`,`Métier de l'accompagnement. **Deux groupes, et l'arrivant passe de l'un à l'autre à huit ans, quand il entre au jardin.** Ceux de la tranche haute — quatorze à huit — suivent chacun leurs arrivants et leur apprennent ce qu'il faut pour leur âge : ni école, ni tuteur. **Ceux du jardin, eux, ne sont attachés à personne en particulier : ils tiennent un dortoir, un groupe, une zone**, et ce sont eux qui nomment les arrivants de huit ans et moins. **Métier payé, métier mixte, et c'est aussi de la tendresse.**`,`02-univers/le-jardin.md\` §5 bis`,``],
+[`Berceur, berceuse`,`Métier de l'accompagnement. **Deux groupes, et l'arrivant passe de l'un à l'autre à huit ans, quand il entre au jardin.** Ceux de la tranche haute — quatorze à huit — suivent chacun leurs arrivants et leur apprennent ce qu'il faut pour leur âge : ni école, ni tuteur. **Ceux du jardin, eux, ne sont attachés à personne en particulier : ils tiennent un dortoir, un groupe, une zone**, et ce sont eux qui nomment les arrivants de huit ans et moins. **Métier payé, métier mixte, et c'est aussi de la tendresse.**`,`02-univers/le-jardin.md §5 bis`,``],
 [`Bizutage`,`Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont les plus âgés d'aspect qui s'y collent** — des veilleurs d'allure adolescente laissent la raclette à un homme qui paraît soixante ans, et l'ordre est normal des deux côtés.`,`02-univers/la-ruche.md`,``],
 [`Capsule`,`Contenant d'où sort un arrivant. Elle pousse à plat sur un coulant, à un endroit que personne n'a choisi, et mûrit plus ou moins vite selon ce qui reste de souffle de l'autre côté. Large au milieu, effilée aux bouts, jamais deux pareilles, et **rien n'est marqué dessus.** *On l'ouvre en découpant un morceau de la paroi qu'on remet en place ensuite — **le rabat**, plus sombre et plus mat que le reste depuis qu'on l'a détaché. Il se replie, il tient où on le laisse, il s'ôte ; c'est son retrait qui active le corps.*`,`02-univers/la-ruche.md`,``],
 [`Capsule flash`,`Capsule qui éclaircira comme les autres, **mais qui est arrivée d'un coup** : elle n'était pas là la veille, personne ne l'a vue pousser, et **aucun relèvement n'a pu être fait** — il en faut quatre au minimum pour chiffrer un jour. *Elle a poussé si vite que la paroi paraît sur le point de se détacher toute seule.* **On ne traîne pas : la cérémonie se fait dans la foulée.** ⚠️ *Une capsule claire depuis un moment n'en est donc pas une, et c'est le premier raisonnement d'une analyste devant une trouvaille.*`,`02-univers/la-ruche.md`,``],

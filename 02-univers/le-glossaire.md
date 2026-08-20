@@ -66,7 +66,7 @@ huit — suivent chacun leurs arrivants et leur apprennent ce qu'il faut pour le
 école, ni tuteur. **Ceux du jardin, eux, ne sont attachés à personne en particulier : ils
 tiennent un dortoir, un groupe, une zone**, et ce sont eux qui nomment les arrivants de huit
 ans et moins. **Métier payé, métier mixte, et c'est aussi de la tendresse.**
-> `02-univers/le-jardin.md` §5 bis
+> `02-univers/le-jardin.md §5 bis`
 
 **Bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le
 service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont les
