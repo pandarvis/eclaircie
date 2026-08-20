@@ -1642,4 +1642,15 @@ const NOTES = [
 
 *Et « traverser ou contourner » reste en fin de phrase, parce que le paragraphe suivant tient en trois mots :* « Andrew les traversait. »` },
 
+
+{ d:`20 août`, s:`La marqueterie entre dans la ruche — clin d'œil au métier de l'autrice`, e:`acquis`, t:[`écriture`,`ruche`,`monde`],
+  v:`petit clin d'oeil a mon métier […] la marqueterie c'est des essences de bois que tu viens assembler et coller sur un support pour en faire un motif digne d'un tableau`,
+  q:`**Les tableaux « sobres et soigneusement faits » deviennent des tableaux de marqueterie**, et le passage gagne deux paragraphes.
+
+🔴 **Le détail qui fait tout le travail : aucune couleur n'est peinte.** *« Toutes les couleurs venaient du bois. »* **C'est ça qui rend les montagnes imaginaires sans qu'on ait à le dire** — des versants blonds, des ombres tirées d'une essence presque noire, des ciels veinés qu'aucun ciel n'a jamais eus. *Et ça garde la question qu'elle voulait à la fin : la matière, ce qu'elle représentait, ou les deux ?*
+
+✅ **Et le motif tombe juste dans ce monde-ci, sans qu'aucune phrase ne le souligne : tout y est fait de ce qui pousse.** *La ruche est bâtie sur la coulée, les capsules poussent sur des coulants, les plantes de l'entrée montent le long de troncs — et on accroche du bois assemblé aux murs.* ⛔ *À ne jamais commenter.*
+
+*Point de métier respecté : on assemble bord à bord sur un support, puis on racle jusqu'à ne plus sentir les joints sous la main.*` },
+
 ];
