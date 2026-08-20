@@ -1396,4 +1396,30 @@ const NOTES = [
   v:`"elle ne laisse pas le temps de faire une série" c'est à dire ? j'ai bcp de mal avec le mot série. je trouve qu'il porte à confusion. […] une capsule flash c'est une capsule qui va éclaircir mais qui est arrivé d'un coup, qui ne pouvait pas etre prédite et suivie par les analystes. on la reconnais parce que bien sur elle n'était pas là avant, elle a poussé d'un coup, et si vite que la membrane parait sur le point de se detacher toute seule. en général il faut pas trainer et faire la cérémonie dans la foulée`,
   q:`**Le mot sort des deux entrées où il traînait, et le chapitre premier avait déjà le bon vocabulaire :** *« un point sur un graphique vierge, et il en fallait quatre au minimum »*. **On dit des relèvements et des moyennes, jamais une série.**\n\n**Et la définition change de nature : elle se dit par ce que le métier voit, pas par ce qui la produit.** *Elle n'était pas là la veille, personne ne l'a vue pousser, aucun relèvement n'a pu être fait ; elle a poussé si vite que la paroi paraît sur le point de se détacher toute seule.* **On ne traîne pas : la cérémonie se fait dans la foulée.**\n\n✅ *Et le raisonnement de Vera reste debout, mot pour mot : une capsule claire depuis un moment n'en est pas une.*` },
 
+
+{ d:`20 août`, s:`Le jardin : un lieu clos, un par ville, et rien n'y est séparé par principe`, e:`acquis`, t:[`jardin`,`monde`],
+  v:`ils sont pas vraiment séparé tout le temps, mais disons que logistiquement, dans les zones style doctoire ou air de jeux, oui il le seront ! après il peuvent se croiser au refectoire, à l'etendu, n'importe ou, seulement les plus petits sont plus encadrés et forcément de maniere naturelle, les plus grand vont dans les air de jeux et les plus petits sont sur les tapis mousse de gymnastique "eveil"`,
+  q:`**Rien n'est séparé par principe, et c'est ce qui fait la différence avec un établissement qui trierait.** *On se croise au réfectoire, sur l'étendue, partout.* **Les dortoirs et les aires de jeu, eux, le sont — par logistique**, pas par doctrine. Et le reste se répartit tout seul : les grands aux jeux, les petits sur les tapis de l'éveil, plus encadrés.\n\n🔴 **Et ça referme la question qui traînait : le jardin est un lieu unique et clos.** *Il y en a plusieurs dans le monde, comme il y a plusieurs ruches, plus ou moins grandes.* **Celui du roman est celui de sa ville, et la ruche aussi.**` },
+
+{ d:`20 août`, s:`L'échelle du monde : une ruche et un jardin par ville`, e:`acquis`, t:[`monde`,`ruche`,`jardin`],
+  v:`c'est comme les maternité et les epad chez nous. bon seulement, on va pas en avoir à tous les coins de rue. il y en a généralement une chaque par ville`,
+  q:`**Le dossier n'avait aucune échelle, et il en a une maintenant : une de chaque par ville.** *Pas à tous les coins de rue, pas une par quartier.* **Ce qui ferme aussi le « combien il y en a et où » de la ruche** — il ne reste ouvert que la taille de celle du roman.\n\n⛔ **L'analogie de l'autrice ne sort jamais du dossier.** *L'interdit n° 6 proscrit toute référence à notre monde dans le texte : elle sert à doser une échelle, pas à écrire une phrase.* Rangée dans la bible sous *Une par ville*.` },
+
+{ d:`20 août`, s:`Les médecins du jardin ont une hiérarchie, et « pédiatre » est enterré`, e:`provisoire`, t:[`monde`,`jardin`],
+  v:`on va chercher un nom plus tard, mais oui on n'utilisera jamais le mot pediatre. ensuite comme chez nous, il y a une hierarchie. et forcement le medecin que l'on suit dans le jardin est un chef de service, on s'adresse au responsable pour l'enquete`,
+  q:`**Le service a sa hiérarchie comme n'importe quel service, et celui qu'on suit dans le livre est un chef de service.** *La raison est d'enquête avant d'être de monde : pour une enquête, on s'adresse au responsable.* **Ça répond du même coup à la question du 19 août** — ce n'est pas un médecin de couloir, c'est le responsable du service.\n\n⛔ **« Pédiatre » est mort, sous toutes ses formes** : ni *pédiatres du jardin*, ni *pédiatre pour vieux*. *Le mot suppose l'enfance, que cette langue n'a jamais formée.* Descendu chez les mots morts.\n\n⚠️ **Le nom, lui, reste à trouver, et il se cherchera plus tard.** *« Médecins du jardin » tient la place et n'est pas un choix.*` },
+
+{ d:`20 août`, s:`Le nom d'éclaircie descend aussi : c'est un nom, point`, e:`acquis`, t:[`monde`,`dossier`],
+  v:`Nom d'éclaircie : pas dans le glossaire, c'est un nom point`,
+  q:`**Le lecteur n'a pas besoin qu'on lui explique qu'un nom est un nom.** *Le mécanisme — produit soi-même au-dessus de huit ans, donné par une berceuse en dessous — reste entier dans la bible, avec la réserve qui compte : rien ne garantit que ce soit le nom d'avant, et personne ne peut le savoir.*\n\n**Le glossaire tombe à trente-quatre mots ; la bible en porte trente-deux.**` },
+
+
+{ d:`20 août`, s:`Le portage n'a jamais eu deux sens`, e:`acquis`, t:[`monde`,`personnages`],
+  v:`portage tu confonds […] le portage est le métier d'Eliott : l'équivalent d'un petit postier. la dernière berceuse c'est effectivement le geste de soin dans la vie d'un nourrisson qui va mourir`,
+  q:`**Le double emploi venait de l'ancien lexique, qui portait deux entrées « portage ».** *Vérification faite dans tout le dossier : le mot ne désigne que la tournée — la fiche de la berceuse écrit elle-même « sa tournée de portage ».* **Le lexique avait inventé le second sens, et la fusion l'avait recopié sans le voir.**
+
+**Le portage est le métier d'Eliott, et c'est l'équivalent d'un petit postier :** menus colis et lettres, un quartier, à pied.
+
+**Le geste, lui, existe bel et bien et il est séparé :** *porter, bercer, tenir au chaud, ne pas laisser seul une seconde* — **le soin, dans la vie d'un arrivant de zéro qui va mourir.** ⚠️ *Il n'a pas de nom à lui, et il n'en a peut-être pas besoin.*` },
+
 ];
