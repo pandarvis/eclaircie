@@ -1691,4 +1691,13 @@ const NOTES = [
 
 ⚠️ **Un chiffre a changé de nature au passage, et je le signale sans y toucher :** *« leurs huit premiers jours » devient* **« huit jours au minimum »**. *La durée était fixe, elle devient un plancher.* **Le glossaire porte encore « les huit premiers jours »**, et il attend de savoir lequel des deux est vrai.` },
 
+
+{ d:`20 août`, s:`Huit jours est un plancher, pas un terme`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`oui, parce que comme dans une maternité, s'il y a un pb, en général on y reste plus longtemps`,
+  q:`**La durée était fixe dans le dossier ; elle devient un minimum.** *Huit jours, et davantage si quelque chose ne va pas.*
+
+🔴 **Et ça donne une existence à ce que l'examen cherche.** *Le texte dit qu'on vérifie qu'un arrivant est bien arrivé immaculé, sans anomalie ni blessure, et que « on n'était jamais trop prudent ».* **Si la résidence peut s'allonger, c'est que parfois la réponse est non** — sans qu'aucune phrase ait à le dire.
+
+*L'entrée de la bible suit. ⛔ L'analogie de l'autrice reste hors du texte : l'interdit n° 6 proscrit toute référence à notre monde.*` },
+
 ];
