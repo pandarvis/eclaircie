@@ -12,6 +12,26 @@
 
 ---
 
+## 🔒 Les trois textes sont verrouillés
+
+> **Validés par l'autrice le 20 août 2026.** *« On les lock pour l'instant. On y reviendra que
+> si je le demande explicitement. »*
+
+**Prologue, chapitre premier, épilogue : aucun des trois ne bouge plus.** *Et ce n'est pas
+une promesse* — `06-visuels/atelier/sources/textes-verrouilles.txt` porte l'empreinte de
+chacun, **et la fabrication de l'atelier refuse de tourner si l'un d'eux a changé.**
+
+*Pour en corriger un, quand elle le demande :*
+
+```
+python verrouiller-les-textes.py --ouvrir chapitre-1
+   … la séance de correction …
+python verrouiller-les-textes.py --poser
+```
+
+**Le détour est volontaire.** *C'est ce qui empêche une correction de passer sans que personne
+l'ait demandée.*
+
 ## ⛔ On ne touche pas à un texte hors séance
 
 > **Règle de l'autrice, 20 août 2026 :** *« quand on n'est pas réellement en train de

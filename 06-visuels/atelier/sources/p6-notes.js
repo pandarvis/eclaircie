@@ -1772,4 +1772,15 @@ const NOTES = [
 
 ⚠️ *Piste, non faite : un contrôle qui vérifierait que chaque passage cité entre guillemets dans un appareil se retrouve dans le texte du chapitre.*` },
 
+
+{ d:`20 août`, s:`Les trois textes sont verrouillés`, e:`acquis`, t:[`écriture`,`atelier`,`dossier`],
+  v:`allez, je valide epilogue, chap 1 et prologue. On les lock pour l'instant. on y reviendra que si je le demande explicitement`,
+  q:`**Prologue, chapitre premier, épilogue : validés le 20 août 2026.** *Le « validé momentanément » du chapitre premier tombe : la relecture à tête reposée a eu lieu, et elle a duré la journée.*
+
+🔒 **Et le verrou n'est pas une promesse.** *textes-verrouilles.txt porte l'empreinte des trois, et la fabrication de l'atelier refuse de tourner si l'un d'eux a changé.* **Éprouvé dans les deux sens avant livraison** : un mot modifié sans demande arrête la fabrication, et la restitution la relance.
+
+**Pour en corriger un, quand elle le demande :** *--ouvrir, la séance, --poser.* ⚠️ **Le détour est volontaire** — c'est ce qui empêche une correction de passer sans que personne l'ait demandée. *Elle avait repéré ce matin même trois modifications post-validation sur le chapitre premier ; ça ne peut plus arriver en silence.*
+
+*Quatrième garde-fou d'empreinte du projet, après le plan du jardin, le glossaire et le brouillon en cours.*` },
+
 ];

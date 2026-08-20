@@ -151,7 +151,9 @@ const TEXTES = [{
 `<strong>La case des observations, à garder ou à couper.</strong> C'est le seul gramme du chapitre.`,
 `<strong>Le numéro n'est pas écrit en toutes lettres.</strong> Sa forme n'est fixée nulle part dans le dossier, et le texte le contourne pour l'instant.`
   ],
-  note: `Écrit avec l'autrice les 17 et 18 août 2026, en une dizaine de passes. <strong>Une matinée de travail ordinaire dans un lieu qu'on ne comprend pas.</strong> <em>Le système entier passe là sans un mot d'explication : un homme prépare une salle, ouvre deux capsules, note deux lignes, et éteint les lampes.</em> La quatrième version du prologue, et la première qui parte de la cérémonie d'Eliott.`
+  note: `🔒 <strong>VERROUILLÉ — validé par l'autrice le 20 août 2026.</strong> <em>Ce texte ne bouge plus, sauf demande explicite de sa part.</em> <strong>La fabrication de l'atelier vérifie son empreinte et refuse de tourner s'il a changé.</strong>
+
+Écrit avec l'autrice les 17 et 18 août 2026, en une dizaine de passes. <strong>Une matinée de travail ordinaire dans un lieu qu'on ne comprend pas.</strong> <em>Le système entier passe là sans un mot d'explication : un homme prépare une salle, ouvre deux capsules, note deux lignes, et éteint les lampes.</em> La quatrième version du prologue, et la première qui parte de la cérémonie d'Eliott.`
 },{
   id: `chapitre-1`,
   rang: `Chapitre premier`,
@@ -385,7 +387,9 @@ const TEXTES = [{
 `<strong>Le chapitre s'arrête avant la cérémonie</strong>, et le registre tombe avec elle. <em>À replacer ailleurs, ou à rendre à ce chapitre.</em>`,
 `<strong>Andrew ne dit rien de la capsule pourrie, et ne pense rien.</strong> <em>C'est le régime demandé — reste à vérifier que ça ne le rend pas froid juste après qu'on a travaillé à le rendre chaleureux.</em>`
   ],
-  note: `⚠️ <strong>Validé momentanément par l'autrice le 19 août 2026</strong>, au bout de quinze passes. <em>Une relecture à tête reposée est prévue le lendemain — rien n'est figé.</em> <strong>Le deuxième chapitre du livre, et le premier où l'on voit le lieu.</strong> <em>Un homme arrive au travail, traverse la serre, discute d'une travée avec les deux métiers qui ne se prédisent pas de la même façon, repart vers sa salle — et croise en chemin une chose qu'on est en train de racler.</em> La cérémonie qu'il allait faire n'est pas dans le chapitre.`
+  note: `🔒 <strong>VERROUILLÉ — validé par l'autrice le 20 août 2026.</strong> <em>Ce texte ne bouge plus, sauf demande explicite de sa part.</em> <strong>La fabrication de l'atelier vérifie son empreinte et refuse de tourner s'il a changé.</strong>
+
+Écrit avec l'autrice le 19 août 2026 en quinze passes, repris le 20 en une trentaine de corrections — l'accueil, le grand couloir, la serre, la capsule qui a crevé. <strong>Le deuxième chapitre du livre, et le premier où l'on voit le lieu.</strong> <em>Un homme arrive au travail, traverse la serre, discute d'une travée avec les deux métiers qui ne se prédisent pas de la même façon, repart vers sa salle — et croise en chemin une chose qu'on est en train de racler.</em> La cérémonie qu'il allait faire n'est pas dans le chapitre.`
 },{
   id: `epilogue`,
   rang: `Épilogue`,
@@ -552,5 +556,7 @@ const TEXTES = [{
 `<strong>Ce chapitre n'a aucun filet.</strong> Tout repose sur le fait que le lecteur, lui, sait. Si le chapitre précédent ne l'a pas amené ici en sachant tout, la seconde moitié devient un gamin qui raconte des rêves. <em>Le réglage ne se fait pas ici — il se fait avant.</em>`,
 `<strong>La description de l'enceinte appartient à la scène 14 b.</strong> Ici on n'en voit que ce qui passe par une grille ouverte, et le mur ne se décrit pas une seconde fois.`
   ],
-  note: `Écrit avec l'autrice le 16 août 2026, en une vingtaine de passes. <strong>Une rentrée scolaire, puis un monologue où le seul qui parle a huit ans.</strong> <em>Andrew ne comprend rien de ce qu'on lui raconte ; le lecteur comprend tout et n'a personne à qui le dire.</em>`
+  note: `🔒 <strong>VERROUILLÉ — validé par l'autrice le 20 août 2026.</strong> <em>Ce texte ne bouge plus, sauf demande explicite de sa part.</em> <strong>La fabrication de l'atelier vérifie son empreinte et refuse de tourner s'il a changé.</strong>
+
+Écrit avec l'autrice le 16 août 2026, en une vingtaine de passes. <strong>Une rentrée scolaire, puis un monologue où le seul qui parle a huit ans.</strong> <em>Andrew ne comprend rien de ce qu'on lui raconte ; le lecteur comprend tout et n'a personne à qui le dire.</em>`
 }];

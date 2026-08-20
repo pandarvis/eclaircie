@@ -30,6 +30,12 @@ if [ "$ATTENDU" != "$PORTE" ]; then
 fi
 echo "le glossaire : a jour"
 
+# Verification 0 ter : aucun texte verrouille n'a bouge.
+# Un chapitre valide ne se corrige que sur demande explicite de l'autrice.
+# Une regle ecrite tient tant que quelqu'un y pense ; celle-ci ne depend
+# de personne.
+python verrouiller-les-textes.py --verifier || exit 1
+
 cat $ORDRE > ../atelier.html
 echo "atelier.html fabrique"
 
