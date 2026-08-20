@@ -19,16 +19,16 @@ if [ "$ATTENDU" != "$PORTE" ]; then
 fi
 echo "le plan du jardin : a jour"
 
-# Verification 0 bis : la liste des mots n'a pas pris de retard non plus.
+# Verification 0 bis : le glossaire n'a pas pris de retard non plus.
 # p7-monde.js et 05-manuscrit/glossaire.md sont generes depuis le markdown.
-ATTENDU=$(sha256sum ../../../02-univers/les-mots.md | cut -d' ' -f1)
+ATTENDU=$(sha256sum ../../../02-univers/le-glossaire.md | cut -d' ' -f1)
 PORTE=$(grep -o 'empreinte-source: [0-9a-f]*' p7-monde.js | head -1 | cut -d' ' -f2)
 if [ "$ATTENDU" != "$PORTE" ]; then
-  echo "PROBLEME : p7-monde.js est en retard sur 02-univers/les-mots.md."
-  echo "           relancer  python les-mots.py  depuis ce dossier"
+  echo "PROBLEME : p7-monde.js est en retard sur 02-univers/le-glossaire.md."
+  echo "           relancer  python glossaire.py  depuis ce dossier"
   exit 1
 fi
-echo "les mots : a jour"
+echo "le glossaire : a jour"
 
 cat $ORDRE > ../atelier.html
 echo "atelier.html fabrique"

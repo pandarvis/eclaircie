@@ -8,7 +8,7 @@ const coupe = src.indexOf('const $  = (s, r)');
 src = src.slice(0, coupe > 0 ? coupe : src.length);
 src += `
 ;globalThis.__d = { SCENES, LIENS, NOTES, QUESTIONS, TEXTES, VOIES, ACTES,
-                    MOTS, BIBLE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
+                    GLOSSAIRE, BIBLE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
 
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(src, ctx);
@@ -16,7 +16,7 @@ const d = ctx.__d;
 
 const pb = [];
 
-/* Les mots du monde sont une page du livre : ils se lisent dans l'ordre, et
+/* Le glossaire est une page du livre : ils se lisent dans l'ordre, et
    une entree hors d'ordre ou en double se voit tout de suite a la lecture. */
 {
   const plat = m => m.toLowerCase()
@@ -24,14 +24,14 @@ const pb = [];
     .replace(/ç/g, 'c').replace(/[ôö]/g, 'o')
     .replace(/[ûù]/g, 'u').replace(/[îï]/g, 'i')
     .replace(/[«»"]/g, '').trim();
-  const mots = d.MOTS.map(([m]) => m);
-  if (new Set(mots).size !== mots.length) pb.push('les mots : entree en double');
+  const mots = d.GLOSSAIRE.map(([m]) => m);
+  if (new Set(mots).size !== mots.length) pb.push('glossaire : entree en double');
   for (let i = 1; i < mots.length; i++)
     if (plat(mots[i]) < plat(mots[i - 1]))
-      pb.push('les mots, hors ordre : ' + mots[i - 1] + ' avant ' + mots[i]);
-  d.MOTS.forEach(([m, def]) => {
-    if (!def || def.length < 110) pb.push('les mots : definition trop courte pour ' + m);
-    if (def && def.length > 560) pb.push('les mots : definition trop longue pour ' + m);
+      pb.push('glossaire, hors ordre : ' + mots[i - 1] + ' avant ' + mots[i]);
+  d.GLOSSAIRE.forEach(([m, def]) => {
+    if (!def || def.length < 110) pb.push('glossaire : definition trop courte pour ' + m);
+    if (def && def.length > 560) pb.push('glossaire : definition trop longue pour ' + m);
   });
 
   /* Le vocabulaire, enfin. Cette liste EST une page du livre : elle est donc
@@ -42,7 +42,7 @@ const pb = [];
                      'seniors', 'mere', 'meres', 'pere', 'peres', 'famille', 'familles',
                      'frere', 'freres', 'soeur', 'soeurs', 'jumeau', 'jumeaux', 'jumelle',
                      'jumelles', 'peau', 'capot', 'palier'];
-  d.MOTS.forEach(([m, def]) => {
+  d.GLOSSAIRE.forEach(([m, def]) => {
     const nu = plat(def).replace(/[œ]/g, 'oe');
     PROSCRITS.forEach(p => {
       if (new RegExp('\\b' + p + '\\b').test(nu))
@@ -107,7 +107,7 @@ console.log('étapes      ', d.ETAPES.length);
 console.log('liens       ', d.LIENS.length);
 console.log('notes       ', d.NOTES.length);
 console.log('questions   ', d.QUESTIONS.length);
-console.log('les mots    ', d.MOTS.length, '· bible', d.BIBLE.length, '· règles', d.REGLES.length, '· interdits', d.INTERDITS.length);
+console.log('glossaire   ', d.GLOSSAIRE.length, '· bible', d.BIBLE.length, '· règles', d.REGLES.length, '· interdits', d.INTERDITS.length);
 console.log('gens        ', d.GENS.length, '· phrases', d.PHRASES.length);
 console.log('chapitres   ', d.TEXTES.length, '(' + mots.join(', ') + ' mots)');
 console.log('à trouver   ', d.SCENES.filter(s => s.statut === 'trou').length, 'scènes');
