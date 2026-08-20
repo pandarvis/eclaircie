@@ -1664,4 +1664,13 @@ const NOTES = [
 
 *Deux gains de précision au passage : les joints « disparaissent » au lieu de ne plus se sentir sous la main, et les veines « deviennent parfois presque des lignes de dessin » — ce que je n'aurais pas su voir.*` },
 
+
+{ d:`20 août`, s:`« Ce chemin » ne renvoyait à rien : Andrew n'était pas encore parti`, e:`acquis`, t:[`écriture`],
+  v:`on a oublié dire qu'andrew partait faire le couloir`,
+  q:`**Le départ était neuf paragraphes trop bas.** *Il pliait sa feuille, on passait à la ligne, et l'aparté s'ouvrait sur* « Les dix-huit, eux, ne prendraient pas ce chemin » — **un chemin que personne n'avait encore pris.**
+
+✅ **On remonte « Le veilleur quitta l'accueil et s'engagea dans le grand couloir » juste après la feuille pliée.** *L'aparté devient alors ce qu'il est vraiment : une digression pendant qu'il marche.* **Et « ce chemin » a son antécédent à la ligne précédente.**
+
+⚠️ *Un mot a dû suivre :* « Il était large et linéaire » *devient* « **Le couloir** était large et linéaire ». **En passant derrière neuf paragraphes d'aparté, le pronom ne pouvait plus rattraper son antcédent** — le déplacer en créait un second au moment où il en réglait un premier.` },
+
 ];

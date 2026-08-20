@@ -5,10 +5,10 @@
 | | Chapitre | Mots | Scène | Écrit |
 |---|---|---|---|---|
 | **Prologue** | [La cérémonie](chapitres/L-Eclaircie-Prologue.pdf) | 2 655 | `ouv` | 17–18 août 2026 |
-| **Chapitre premier** | [Une journée à la ruche](chapitres/L-Eclaircie-Chapitre-1.pdf) | 3 741 | `capsule` | 19 août 2026, seize passes |
+| **Chapitre premier** | [Une journée à la ruche](chapitres/L-Eclaircie-Chapitre-1.pdf) | 3 742 | `capsule` | 19 août 2026, seize passes |
 | **Épilogue** | [Épilogue](chapitres/L-Eclaircie-Epilogue.pdf) | 2 631 | `jardin-fin` | 16 août 2026 |
 
-**9 027 mots.** Le brouillon en cours d'un chapitre vit dans `chapitres/en-cours/` ; il n'a pas d'autorité sur l'atelier.
+**9 028 mots.** Le brouillon en cours d'un chapitre vit dans `chapitres/en-cours/` ; il n'a pas d'autorité sur l'atelier.
 
 ---
 

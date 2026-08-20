@@ -54,6 +54,8 @@ Il rit. C'était la même plaisanterie depuis des années et elle marchait encor
 
 Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.
 
+Le veilleur quitta l'accueil et s'engagea dans le grand couloir.
+
 · · ·
 
 Les dix-huit, eux, ne prendraient pas ce chemin. On viendrait les chercher dans la salle d'attente, puis on les ferait sortir par l'autre côté. De là, ils traverseraient la zone de résidence avant de rejoindre la porte qui leur était destinée.
@@ -74,9 +76,7 @@ C'était, au fond, la même chose.
 
 Du moins, c'était ainsi qu'on le présentait.
 
-Le veilleur quitta l'accueil et s'engagea dans le grand couloir.
-
-Il était large et linéaire, avec un plafond bas et des appliques disposées tous les six mètres. Pendant vingt pas, on aurait pu se croire dans n'importe quel bâtiment administratif du pays.
+Le couloir était large et linéaire, avec un plafond bas et des appliques disposées tous les six mètres. Pendant vingt pas, on aurait pu se croire dans n'importe quel bâtiment administratif du pays.
 
 Puis le plafond montait.
 
