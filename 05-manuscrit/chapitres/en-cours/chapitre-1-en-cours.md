@@ -28,9 +28,9 @@ C'était le seul bruit continu de la salle.
 
 L'eau.
 
-Anna, la secrétaire, leur avait expliqué comment ça allait se passer. Elle le referait pour ceux qui arriveraient en retard, et elle le referait encore pour ceux qui n'avaient rien retenu la première fois, parce qu'on ne retient rien la première fois.
+Anna, la secrétaire, leur avait expliqué comment ça allait se passer. Elle le referait pour ceux qui arriveraient en retard, et elle le referait encore pour ceux qui n'avaient rien retenu la première fois, parce qu'il y en avait toujours un ou deux qui avaient la tête dans les nuages, tant le moment était un rendez-vous attendu.
 
-Il longea le comptoir, en poussa le portillon et prit lui-même sa feuille dans le casier. Du côté des chaises, il y eut ce petit temps d'arrêt qu'on a lorsqu'un médecin traverse sa propre salle d'attente sans s'y asseoir.
+Il longea le comptoir, en poussa le portillon et prit lui-même sa feuille dans un casier. Du côté des chaises, il y eut ce petit temps d'arrêt qu'on a lorsqu'un médecin traverse sa propre salle d'attente sans s'y asseoir.
 
 — Bonjour Anna.
 
@@ -50,9 +50,23 @@ Il plia la feuille en deux et la glissa dans la poche basse de sa blouse.
 
 · · ·
 
-Les dix-huit, eux, ne prendraient pas ce chemin-là. On viendrait les chercher, on les ferait sortir par l'autre côté, et ils traverseraient d'abord la zone de résidence avant d'arriver devant la bonne porte. C'est là que les arrivants passaient leurs huit premiers jours, après la première consultation : des chambres, un réfectoire, et des visiteurs pour leur tenir compagnie.
+Les dix-huit, eux, ne prendraient pas ce chemin. On viendrait les chercher dans la salle d'attente, puis on les ferait sortir par l'autre côté. De là, ils traverseraient la zone de résidence avant de rejoindre la porte qui leur était destinée.
 
-Si on inspectait les corps une première fois, c'était pour vérifier que l'arrivant était bien arrivé immaculé, sans anomalie et sans blessure. On n'est jamais trop prudent. Toutes les capsules n'étaient pas aussi régulières qu'annoncé, et il arrivait qu'une série se termine sur des relevés étranges ; autant s'assurer que celui qui en sortait n'avait pas été touché d'une manière ou d'une autre. C'était l'analyste qui s'en chargeait, des hommes et des femmes experts dans leur domaine. Puisqu'ils passaient déjà leurs journées à étudier des capsules, il était logique qu'ils s'occupent aussi de ce qui en sortait.
+C'était là que les arrivants passaient leurs huit premiers jours, après l'examen de la cueillie, le tout premier examen de leur vie. Des chambres, un réfectoire, et quelques visiteurs chargés de leur tenir compagnie pendant ce qui pouvait ressembler, vu de l'extérieur, à une période de repos.
+
+La première inspection avait un but simple : s'assurer que l'arrivant était bien arrivé immaculé, sans anomalie ni blessure.
+
+On n'était jamais trop prudent.
+
+D'après les études menées jusque-là, toutes les capsules n'avaient pas les mêmes délais de maturation. Il arrivait même que, d'une travée à l'autre, leur maturation s'achève sur des relevés étranges. Dans ces cas-là, on vérifiait que l'arrivant n'avait pas été touché d'une manière ou d'une autre au cours du processus.
+
+Cette vérification revenait à l'analyste.
+
+Ils étaient hommes et femmes, tous experts dans leur domaine, et passaient déjà leurs journées à étudier les capsules, leurs mesures et leurs variations. Il n'y avait donc rien d'étrange à ce qu'ils examinent également ce qui en sortait.
+
+C'était, au fond, la même chose.
+
+Du moins, c'était ainsi qu'on le présentait.
 
 Le veilleur quitta l'accueil et s'engagea dans le grand couloir.
 
