@@ -203,11 +203,13 @@ de cérémonie en pétales.** **Une par ville**, plus ou moins grande ; le roman
 qu'une, celle de la sienne.
 > `02-univers/la-ruche.md` · ❓ La taille de celle du roman. *Combien et où est tranché : une par ville, comme le jardin.*
 
-**Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Personne ne
-l'appelle comme ça.** *Les petits disent le bâtiment soleil, parce qu'ils voient un soleil
-dans sa forme, et personne ne les a jamais contredits.* **Sept ailes en étoile autour d'une
-cour** qu'on ne voit que d'en haut : six chambres et la véranda. Zéro comme l'âge.
-> `02-univers/le-jardin-le-plan.md` · ❓ Comment les soignants l'appellent entre eux.
+**Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Sept ailes en
+étoile autour d'une cour** qu'on ne voit que d'en haut : six chambres et la véranda. *Zéro
+comme l'âge.* **Les petits disent le bâtiment soleil** — ils voient un soleil dans sa forme,
+et personne ne les a contredits. Entre soignants on dit *la section 0*, ou plus court **la
+zéro** ; et quand on veut que ça sonne moins froid, **on dit le soleil.** *« Tu rejoins le
+soleil ? — Oui, j'y vais pour Lucas. »*
+> `02-univers/le-jardin-le-plan.md`
 
 **Serre.** Le quart du complexe où la coulée est chez elle, autour de la salle du registre.
 **Ce n'est pas une zone qu'on traverse : c'est le sol.** Domaine des préparateurs, qui y

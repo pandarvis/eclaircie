@@ -1440,4 +1440,13 @@ const NOTES = [
 
 **La serre est leur poste : ils y passent leurs journées, ils la connaissent à la main, et ils travaillent en étroite collaboration avec les analystes.** *Ce qui éclaire au passage l'échange du chapitre premier : Bastien dit « elle est prête » parce que c'est son terrain — et Vera ne le contredit pas sur le geste, seulement sur la date.*` },
 
+
+{ d:`20 août`, s:`La zéro, et le soleil quand on veut que ce soit doux`, e:`acquis`, t:[`jardin`,`monde`,`écriture`],
+  v:`la section 0 ou plus rapide, "tu vas à la zero ?" sous entendu la section zero. ou alors pour que ça paraisse moins froid : "tu rejoins le soleil ?" "oui, j'y vais pour Lucas"`,
+  q:`**Trois registres pour un seul bâtiment, et c'est le troisième qui dit tout.** *La section 0*, le nom du registre. **La zéro**, l'abréviation de service — celle qu'on emploie sans y penser, un lieu comme un autre dans un planning. **Et le soleil, quand on veut que ça sonne moins froid.**
+
+🔴 **Ce sont les soignants qui empruntent le mot des petits, pas l'inverse.** *Le bâtiment soleil n'est pas un surnom d'enfant que les adultes tolèrent : c'est le seul nom tendre disponible, et ils s'en servent quand ils en ont besoin.* **« Tu rejoins le soleil ? — Oui, j'y vais pour Lucas. »** *La phrase dit d'un coup que c'est un poste, et que ce n'est pas qu'un poste.*
+
+⚠️ *Lucas est un exemple de l'autrice, pas un personnage du casting.*` },
+
 ];
