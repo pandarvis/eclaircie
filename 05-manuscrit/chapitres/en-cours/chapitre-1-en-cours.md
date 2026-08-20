@@ -20,9 +20,11 @@ Près de la porte du fond, quatre visiteurs la regardaient toutes les deux minut
 
 La pièce, pourtant, avait été pensée pour rendre l'attente supportable. Aux deux extrémités, de grandes plantes s'élevaient le long de troncs fins qui semblaient avoir poussé avec elles. Leur feuillage, plus dense à la base, s'ouvrait ensuite en larges feuilles retombant de part et d'autre.
 
-Sur les murs, des tableaux de marqueterie. Pas de peinture : des essences de bois taillées en feuilles minces, assemblées bord à bord sur leur support, puis raclées jusqu'à ce qu'on ne sente plus les joints sous la main. Toutes les couleurs venaient du bois.
+Sur les murs, des tableaux de marqueterie. De fines feuilles de bois, choisies dans des essences différentes, découpées puis assemblées bord à bord jusqu'à ce que les joints disparaissent. Rien n'était peint. Les couleurs appartenaient au bois : ses blonds, ses bruns, ses noirs, ses veines qui devenaient parfois presque des lignes de dessin.
 
-Ceux-là montraient des montagnes qui n'existaient nulle part. Des versants blonds, des ombres tirées d'une essence presque noire, des ciels veinés qu'aucun ciel n'a jamais eus. On s'arrêtait parfois devant sans savoir ce qui avait retenu le regard — la matière, ce qu'elle représentait, ou les deux.
+Ceux-là montraient des montagnes qui n'existaient nulle part. Des versants blonds sous des ombres presque noires, des ciels parcourus de veines qu'aucun ciel n'avait jamais eues. La matière faisait le paysage autant qu'elle le représentait.
+
+On s'arrêtait parfois devant sans savoir ce qui avait retenu le regard — le paysage, le bois, ou la manière dont l'un était devenu l'autre.
 
 Des appliques diffusaient une lumière jaune orangé, douce sans être faible.
 
