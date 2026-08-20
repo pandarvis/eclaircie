@@ -1733,4 +1733,19 @@ const NOTES = [
 
 *L'entrée Cueillie du glossaire porte désormais les deux : chaque capsule a sa fiche, et celle-ci vient de la serre quand l'autre vient de l'accueil.*` },
 
+
+{ d:`20 août`, s:`Un arrivant se tait, ou il dit n'importe quoi`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`dans le prologue, Eliott parle ! donc on peut considérer qu'ils ont la parole, mais soit ils restent muets, soit ils disent des choses qui n'ont aucun sens`,
+  q:`**La ligne de base des premières minutes est posée : silence ou non-sens, et les deux sont ordinaires.** *La salle n'en retient rien.*
+
+🔴 **Et ça remet debout ce qui fonde le porteur de voiles — que j'avais perdu en réécrivant le glossaire ce matin.** *L'ancien lexique disait : « seuls les jeunes arrivants sont remarquables, parce que ce qu'ils disent arrive comme du contenu et non comme de la confusion. »* **C'est la distinction qui fait tout** — la confusion est la norme, le contenu est l'anomalie — **et elle ne figure plus dans l'entrée.** ⚠️ *À remettre, et c'est ma perte, pas la sienne.*
+
+*Et ça explique au passage pourquoi le mot n'est pas tendre : si tout le monde babille en sortant, traiter quelqu'un de porteur de voiles revient à lui dire qu'il n'en est jamais sorti.*` },
+
+{ d:`20 août`, s:`Une phrase de trop dans le prologue`, e:`acquis`, t:[`écriture`],
+  v:`dans le prologue, ça saute : "Il ne dit rien en le faisant, et personne ne dit rien non plus."`,
+  q:`**Le paragraphe montrait déjà un homme qui remplit deux flacons, les bouche, les essuie, les range debout dans un coin de la bassine.** *La phrase venait dire que ça se faisait en silence — ce que quatre gestes décrits sans une parole avaient déjà dit.*
+
+⚠️ *C'est mon défaut n° 2 du document de style, en pleine action : j'écris la scène juste, puis j'ajoute la phrase qui dit ce qu'elle voulait dire.*` },
+
 ];
