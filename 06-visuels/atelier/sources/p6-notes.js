@@ -1466,4 +1466,23 @@ const NOTES = [
 
 **Le suivi descend dans la bible** — le nom du rendez-vous reste à trouver, et il devra se distinguer de la consultation d'initiation.` },
 
+
+{ d:`20 août`, s:`La bible est un glossaire caché, pas un carnet`, e:`acquis`, t:[`dossier`],
+  v:`en fait tu as rajouté plein de truc dans la bible qui sont pas utile... c'est de la reflexion. j'imagine plus la bible comme le glossaire bible qui ne sera pas accessible aux lecteurs : la derniere grace, les marginaux, l'affaire sorel... ce genre de choses là quoi`,
+  q:`**La définition manquait, et je l'avais remplie à ma façon : des notions nommées, et rien d'autre.** *Même nature que le glossaire, même forme — simplement pas accessible au lecteur.*
+
+⛔ **Neuf entrées sortent, et aucune n'était un mot :** *la couture* et *l'escalier* (des images d'écriture), *le moindre mal* et *le travail de la tranche haute* (des réflexions), *les mots morts* et *le vocabulaire qui n'existe pas* (des listes de règles), *une par ville* et *le potager* (des analogies d'autrice), et **la chaîne**.
+
+✅ **Rien n'est perdu, et deux choses n'existaient nulle part ailleurs :** *les mots morts n'étaient écrits dans aucun interdit — ils ont maintenant leur tableau, en 11 quater* ; *la chaîne n'était dans aucune fiche — elle entre chez la berceuse, en section 8.* **Le reste était déjà logé : les fiches, les interdits, ou ces notes.**
+
+⚠️ *Et le pourquoi des capsules qui n'éclaircissent plus a rejoint le sismographe : c'est la même aiguille, et une question n'est pas une entrée.*` },
+
+{ d:`20 août`, s:`La chaîne n'est pas un uniforme`, e:`acquis`, t:[`personnages`,`monde`],
+  v:`tu fais une generalité de la chaine pour tous les berceurs. non, ce n'est pas une generalité. certains en ont, d'autres pas, comme certains ont un bracelet, d'autres non`,
+  q:`**Je l'avais écrite comme un signe de métier. C'est un bijou personnel** — *certaines en portent, d'autres un bracelet, d'autres rien.*
+
+🔴 **Et c'est justement ce qui fait tenir le doute.** *Si toutes en portaient, le détail serait un uniforme et ne dirait rien de personne ; si une seule en portait, il la désignerait.* **Là, il est répandu sans être général** — le lecteur ne peut ni conclure ni écarter. *La correction rend le signe plus solide qu'il ne l'était.*
+
+⛔ *Le geste ne se commente jamais, et l'objet ne se décrit jamais deux fois de la même manière.*` },
+
 ];

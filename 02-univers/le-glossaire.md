@@ -243,9 +243,14 @@ le premier miroir, demande son nom à l'arrivant et l'inscrit — et nettoie ce 
 
 # La bible
 
-*Ce que l'autrice seule sait. **Rien de cette partie ne va sur la page du lecteur** — ni les
-outils d'écriture, ni les mots morts, ni ce qui vendrait la fin du livre, ni ce que tout le
-monde comprend déjà sans qu'on le lui explique.*
+*Le glossaire caché. **Les mêmes entrées, de la même nature — simplement pas accessibles au
+lecteur.** Des notions qui portent un nom : ce qui vendrait la fin du livre, et ce que tout
+le monde comprend déjà sans qu'on le lui explique.*
+
+> ⛔ **Ce n'est pas un carnet de réflexions** — décision de l'autrice, 20 août 2026. *Les
+> images mentales, les analogies d'autrice, les listes de règles et les partis pris
+> d'écriture n'y entrent pas : ils vivent dans les fiches du monde, dans les interdits, ou
+> dans les notes datées de l'atelier.*
 
 **L'affaire Sorel.** Nom de l'affaire des deux filles dans la vie d'avant. **Un nom de
 famille** — catégorie de mot qu'Andrew entendra sans pouvoir l'identifier. *Il ne peut même
@@ -258,18 +263,6 @@ atteint le jardin avant de la finir. **Façon retenue de suggérer les grandes f
 porteuses de voiles sans nommer personne de notre monde.** *Il se décrit par ce qui est là —
 échafaudages, grue immobile, mur qui s'arrête — jamais par ce qu'il aurait dû être.*
 > `02-univers/la-terre.md`
-
-**La chaîne.** Un collier porté au cou, symbole de foi. **Le seul détail physique donné à une
-berceuse** — et c'est un objet, jamais un visage. *L'une berce à son rythme ; l'autre le
-triture au moment de tendre les mains.* **Le signe est répandu : d'autres en portent, donc il
-ne prouve rien** — et c'est ce qui laisse le doute planer.
-> `décision du 16 août 2026` · ❓ Si tu la trouves trop lisible, elle peut se réduire au bruit : on entendrait le tintement sans jamais voir l'objet.
-
-**La couture.** Nom donné à une continuité fabriquée : Andrew se fait dire la phrase au
-commissariat, Joël se la rappelle devant les corps. **Une seule des deux scènes est jouée,
-donc il n'y a aucune répétition à repérer.** Le lecteur recoud deux morceaux de deux vies en
-un seul souvenir.
-> `04-plan/faux-raccords.md §2 ter`
 
 **La dernière grâce.** Hypothèse : les reliquats disparaîtraient une fois au jardin. Le
 système retirerait en dernier ce qui empêchait de jouir du temps rendu. ⛔ **Jamais
@@ -284,10 +277,6 @@ identifie quelqu'un au sein de la ruche, comme le caducée sur une blouse de mé
 mot *caducée* n'entre jamais dans le texte (interdit n° 6). **Hors du glossaire : tout le
 monde sait ce qu'est un écusson.**
 > `02-univers/la-ruche.md`
-
-**L'escalier.** Image du décompte : naître âgé, c'est avoir tout l'escalier. Sert à décrire
-les chemins inégaux vers la même destination, **jamais à nommer un groupe.**
-> `02-univers/la-jalousie.md`
 
 **Être immaculé.** Se dit d'un corps qui ne porte aucune marque. Compliment banal — *« tu as
 de la chance, toi, tu es immaculé depuis toujours »* — qui veut dire : tu as eu une vie sans
@@ -311,37 +300,6 @@ organisation, ni porte-parole** : des individus, des rumeurs, des négligences, 
 soir. **Hors du glossaire : c'est un état de caractère, pas un mot du monde** — personne ne
 dira jamais « c'est un marginal » dans le livre. *Décision de l'autrice, 20 août 2026.*
 > `02-univers/la-jalousie.md`
-
-**Une par ville.** *L'échelle du monde, et l'analogie de l'autrice pour la tenir :* **une
-ruche et un jardin par ville, comme nos maternités et nos EHPAD.** *Pas à tous les coins de
-rue, et pas un par quartier : généralement un de chaque, et on y va.* ⛔ **L'analogie ne
-sort jamais du dossier** — l'interdit n° 6 proscrit toute référence à notre monde dans le
-texte. *Elle sert à doser, pas à écrire.*
-> `02-univers/le-jardin.md` · ❓ Décision de l'autrice, 20 août 2026. *L'analogie sert à doser une échelle, elle n'a rien à trancher.*
-
-**Le moindre mal.** *Pourquoi la tranche haute travaille, et c'est un argument avant d'être
-une organisation.* **Participer à l'effort commun à l'échelle de son âge, avant de rejoindre
-le jardin.** ⚠️ **Sa vraie fonction est de faire passer la pilule** à ceux qui ne trouvent pas
-juste qu'on entre au jardin sans contrepartie. *C'est la réponse debout du monde à la
-jalousie, et elle tient parce qu'elle est modeste : on ne prétend pas que c'est équitable, on
-dit que c'est un moindre mal.*
-> `02-univers/la-jalousie.md` · ❓ Correction à porter sur la fiche de la jalousie, signalée et non appliquée.
-
-**Le travail de la tranche haute.** *Comment ça s'organise, en pratique.* Un métier facile :
-pas d'études, pas de condition physique, rien qui demande d'apprendre longtemps. **Pendant
-ses heures, c'est son employeur qui en répond, pas son berceur.** Il n'y a pas vraiment de
-cours du soir pour eux — **le berceur lui apprend ce qu'il doit savoir pour son âge**, et
-c'est tout. *Et le berceur ne reste pas les bras ballants quand ses charges sont toutes
-occupées ailleurs : il va en renfort au jardin, dès que son planning le permet.*
-> `02-univers/la-ruche.md` · ❓ Frontière à retracer avec le tuteur — et le chuchoteur tombe au même endroit.
-
-**Les mots morts.** ⛔ **Le palier** — ancien mot du dossier pour le plateau, proscrit ; le
-vocabulaire arrêté est *le jardin* (le lieu) et *le plateau* (la phase). ⛔ **Le capot** —
-ancien mot pour le rabat, abandonné : *ce n'était pas le bon mot, et rien dans une capsule
-n'est dur.* ⛔ **Pédiatre** — sous toutes ses formes, et pour de bon : *le mot suppose
-l'enfance, que cette langue n'a jamais formée.* Ni **pédiatres du jardin**, ni **pédiatre
-pour vieux**, qui n'était de toute façon qu'une formule de travail. ⛔ **Arrivant voilé** — trop connoté ; on dit *porteur de voiles*.
-> `01-dossier/les-interdits.md §11 bis`
 
 **Le geste de la dernière berceuse.** *Ce n'est pas du portage, et le lexique les confondait
 sous le même mot.* **C'est le soin, dans la vie d'un arrivant de zéro qui va mourir** :
@@ -377,13 +335,6 @@ d'une personne à l'autre, avant de repartir vers le bas. **Ne pas confondre ave
 le plateau est une durée, le jardin est un lieu.**
 > `02-univers/ce-qui-est-juge.md` · ❓ La durée du plateau n'est fixée pour personne, et aucun chiffre ne doit être inventé.
 
-**Pourquoi les capsules cessent d'éclaircir.** *Réponse de l'autrice, 20 août 2026 :* **parce
-que notre monde devient malade, et qu'il y a de plus en plus d'imbéciles sur cette belle
-planète.** ⛔ **Rien de cela n'entre dans le livre**, ni dans le glossaire : personne dans le
-roman ne le saura jamais. *Le lecteur a tout ce qu'il faut pour le poser lui-même — c'est un
-sismographe, et il enregistre ce qui se passe de l'autre côté.*
-> `02-univers/la-ruche.md`
-
 **La règle des retrouvailles.** Ceux qui se sont aimés ont une chance de se recroiser dans la
 vie suivante, et le lien tient malgré l'ignorance totale des deux personnes. ⛔ **Ce n'est
 jamais systématique, et ça ne se dit jamais** (interdit n° 9).
@@ -411,18 +362,13 @@ d'une ceinture. **C'est le premier vêtement d'un arrivant.** Quatre tailles à 
 en descend une de chaque puisqu'on ne sait pas qui va sortir.
 > `02-univers/la-ruche.md`
 
-**Le potager.** *L'image de l'autrice pour tenir la limite de la serre, et elle vaut mieux
-qu'une explication.* **On délimite un potager, et les plantes ne vont guère au-delà** : le
-réseau des racines et des feuilles reste dedans, sans qu'on ait rien fait pour l'y forcer.
-⚠️ **La coulée est venue jusqu'aux murs et s'est arrêtée là.** *Ce n'est pas un mur qui la
-retient — c'est qu'elle n'est pas allée plus loin, et personne ne saura jamais si elle
-l'aurait fait.* ⛔ **Rien de cette question n'est posé dans le livre**, et surtout pas résolu.
-> `02-univers/la-ruche.md` · décision de l'autrice, 20 août 2026
-
 **Le sismographe.** Ce qu'est la ruche sans que personne le sache : trente capsules qui se
 forment et mûrissent le même jour signalent un tremblement de terre, une guerre, un naufrage.
 **Les veilleurs voient une semaine anormale et ne comprendront jamais ce qu'ils ont vu
-passer.** ⛔ Le lecteur seul comprend, et rien ne doit jamais être dit.
+passer.** ⛔ Le lecteur seul comprend, et rien ne doit jamais être dit. *Et c'est la même
+aiguille qui explique les capsules qui cessent d'éclaircir :* **notre monde devient malade,
+et il y a de plus en plus d'imbéciles sur cette belle planète** — réponse de l'autrice,
+20 août 2026. ⛔ *Personne dans le roman ne le saura jamais.*
 > `02-univers/la-ruche.md`
 
 **Le suivi.** Rendez-vous médicaux obligatoires après toute éclaircie : mémoire, tonicité,
@@ -447,12 +393,6 @@ qui arme le « tu aurais pu changer de tenue ! » de la seconde cérémonie.*
 **Le vétéran.** Ancien du service, et mémoire vivante de la ruche. **Seul à pouvoir dire que
 quelque chose a changé**, parce que seul à avoir un point de comparaison.
 > `02-univers/la-ruche.md` · ❓ Par quel canal le chiffre des capsules sans éclaircie arrive-t-il au lecteur ? Deux occurrences, pas davantage.
-
-**Le vocabulaire qui n'existe pas.** ⛔ Aucun mot de parenté, aucun nom de famille, aucun
-vocabulaire de mécanique sur une capsule. Et la liste arrêtée par l'autrice : **enfant ·
-bébé · nourrisson · vieux · vieille · vieillard · senior.** *Les mots d'apparence physique
-passent — un gars, une femme, une fille, une fillette.*
-> `01-dossier/les-interdits.md §11 bis` · ❓ « Garçon », « gosse », « adolescent » tombent-ils aussi ? La question est posée depuis le 16 août et n'a pas reçu de réponse.
 
 **Le voile.** Le poids que porte celui qui arrive sans être en paix avec lui-même : un
 dossier à finir, une blessure à dire. **On s'en libère en parlant, et on n'obtient rien de
