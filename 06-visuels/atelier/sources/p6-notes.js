@@ -1713,4 +1713,13 @@ const NOTES = [
   v:`— Mais elle est claire, dit Bastien. / — Je ne dis pas le contraire`,
   q:`**« Je sais » accordait à Bastien qu'il avait raison, et retirait à la scène son sujet.** *« Je ne dis pas le contraire » concède sans rien céder* — **c'est exactement une professionnelle qui refuse de s'engager sur une date**, et ça tient la règle du métier posée trois lignes plus haut : un relèvement seul ne donne rien, il en faut quatre.` },
 
+
+{ d:`20 août`, s:`Le préparateur ne décroche pas de sa propre autorité`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`qui savaient déterminer à la main quand une capsule était prête et qui après validation interne, la décrochaient`,
+  q:`**La phrase du prologue faisait du préparateur quelqu'un qui décide** — *sa main dit « prête », et il décroche.* **Or c'est l'analyste qui donne le jour**, et le chapitre premier fait tenir une scène entière là-dessus : *« une main de préparateur ne valait pas celle d'une analyste ».*
+
+✅ *La correction remet les deux gestes dans le bon ordre : il sait, puis on valide, puis il décroche.* **Première modification du prologue depuis qu'il est fini**, et elle est demandée en séance.
+
+⚠️ *Réserve de registre, signalée sans y toucher :* « validation interne » **est un mot d'organigramme dans un livre qui n'en emploie aucun.** *Une formulation du monde dirait plutôt « une fois la date donnée » — c'est la même chose, et ça nomme qui la donne.*` },
+
 ];
