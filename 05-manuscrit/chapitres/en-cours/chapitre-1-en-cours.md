@@ -284,9 +284,13 @@ Elle n'arrivait pas de face. Elle était déjà là, installée dans l'allée, s
 
 · · ·
 
-Ils étaient quatre au bout de l'allée, en combinaison. Trois regardaient. Le quatrième raclait.
+Ils étaient quatre au bout de l'allée, en combinaison.
 
-— Ouais, et surtout le fond ! On laisse rien, faut que ça brille ! criait l'un, et les autres riaient, et celui qui raclait riait aussi parce que c'était son tour et qu'il n'y avait rien à dire.
+Trois regardaient. Le quatrième raclait.
+
+— Ouais, et surtout le fond ! On laisse rien, faut que ça brille ! criait l'un.
+
+Les autres riaient, et celui qui raclait riait aussi, parce que c'était son tour et qu'il n'y avait rien à dire.
 
 C'était le dernier entré au service. C'était aussi le seul à qui on aurait donné soixante ans.
 
@@ -294,26 +298,46 @@ Andrew le regarda le temps de passer et ne trouva rien à en dire.
 
 On disait de celles-là que c'étaient des capsules non éclaircies. C'était le mot du registre, et ce n'était pas celui des yeux.
 
-Ça ne ressemblait pas à une capsule. Ça n'en avait ni la longueur, ni les nervures, ni cette dissymétrie qu'ont les choses qui ont poussé. Une poche sombre et boursouflée, sortie de travers sur un coulant de bordure. Personne ne l'avait vue grossir et personne n'aurait pu la relever : elle était venue d'un coup, et elle avait crevé dans la nuit sur le flanc, sans que rien l'annonce. On aurait dit une excroissance que la coulée s'était faite à elle-même et qu'elle avait poussée à l'écart pour ne pas salir ce qu'il y avait autour. Il en restait ça, affaissé sur le coulant comme un sac qu'on a vidé sans le poser.
+Ça ne ressemblait pas à une capsule. Ça n'en avait ni la longueur, ni les nervures, ni cette dissymétrie propre aux choses qui ont poussé. C'était une poche sombre et boursouflée, sortie de travers sur un coulant de bordure.
+
+Personne ne l'avait vue grossir et personne n'aurait pu la relever. Elle était venue d'un coup, puis avait crevé dans la nuit, sur le flanc, sans que rien l'annonce.
+
+On aurait dit une excroissance que la coulée s'était faite à elle-même, puis qu'elle avait poussée à l'écart pour ne pas salir ce qu'il y avait autour.
+
+Il en restait ça : quelque chose d'affaissé sur le coulant, comme un sac qu'on aurait vidé sans le poser.
 
 Le reste avait coulé.
 
-Ce n'était pas de la gelée. La gelée est orange, mate, sèche ; elle s'enlève d'un tenant et elle ne laisse rien derrière elle. Ça, c'était autre chose.
+Ce n'était pas de la gelée. La gelée est orange, mate, sèche ; elle s'enlève d'un tenant et ne laisse rien derrière elle.
 
-Ça s'était étalé sur trois mètres et ça avait pris la pente. Par endroits c'était encore en tas, avec des grumeaux gros comme le poing, plus pâles au cœur, qui gardaient un moment la marque de la raclette et se refermaient lentement dessus. Ailleurs c'était plus clair et plus liquide, et ça s'était insinué dans le joint entre deux dalles, où il faudrait revenir gratter demain. Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du seau quand on relevait l'outil et qui ne se décidaient pas à tomber, une membrane formée en surface qui se plissait quand on marchait à côté, et dessous la masse qui continuait de descendre, parce que le sol descendait.
+Ça, c'était autre chose.
+
+Ça s'était étalé sur trois mètres et avait pris la pente. Par endroits, c'était encore en tas, avec des grumeaux gros comme le poing, plus pâles au cœur, qui gardaient un moment la marque de la raclette avant de se refermer lentement dessus.
+
+Ailleurs, c'était plus clair, plus liquide, et ça s'était insinué dans le joint entre deux dalles. Il faudrait revenir gratter demain.
+
+Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du seau lorsqu'on relevait l'outil et ne se décidaient pas à tomber ; une membrane formée en surface qui se plissait quand on marchait à côté ; et, dessous, la masse qui continuait de descendre parce que le sol descendait.
 
 Les régurgitations de n'importe quel être vivant, petit ou grand, à côté de ça, c'était du petit-lait.
 
-Les seaux étaient alignés le long du mur, à moitié pleins. Il y en avait six, et il en faudrait un septième.
+Les seaux étaient alignés le long du mur, à moitié pleins.
 
-— La deuxième cette semaine, dit quelqu'un derrière.
+Il y en avait six.
 
-Personne ne répondit. Il n'y avait rien à répondre, et il restait deux mètres à faire.
+Il en faudrait un septième.
 
-On nettoyait vite. Pas pour l'odeur : parce qu'on disait qu'une travée gâtée gâte ses voisines. Personne n'avait jamais vérifié si c'était vrai, et personne ne tenait à être celui qui essaierait.
+— La cinquième cette semaine, dit quelqu'un derrière.
 
-Andrew n'y toucha pas. Il l'avait fait pendant deux ans, comme tout le monde, et depuis, d'autres le faisaient. Il ne ralentit pas et il ne se boucha pas le nez, parce qu'aucun des quatre ne l'aurait fait à sa place et qu'on se tient devant les gens qui travaillent.
+Personne ne répondit.
 
-Il passa à trois mètres et continua vers la salle 2, où quatre capsules s'apprêtaient à être redressées pour dix heures précisément, claires et propres, sur leurs chariots.
+Il n'y avait rien à répondre, et il restait deux mètres à faire.
+
+On nettoyait vite. Pas pour l'odeur : parce qu'on disait qu'une travée gâtée gâtait ses voisines. Personne n'avait jamais vérifié si c'était vrai, et personne ne tenait à être celui qui essaierait.
+
+Andrew n'y toucha pas.
+
+Il l'avait fait pendant deux ans, comme tout le monde, et depuis, d'autres le faisaient. Il ne ralentit pas et ne se boucha pas le nez, parce qu'aucun des quatre ne l'aurait fait à sa place et qu'on se tient droit devant les gens qui travaillent.
+
+Il passa à trois mètres et continua vers la salle 2, où quatre capsules s'apprêtaient à être redressées pour dix heures précises, claires et propres, sur leurs chariots.
 
 L'odeur le suivit dans l'allée. Une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été.
