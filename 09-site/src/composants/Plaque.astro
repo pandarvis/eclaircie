@@ -34,10 +34,20 @@ const halos = ruche.lieux.filter((z) => z.nom === lieu).map((z) => {
 </figure>
 
 <style>
-  .plaque { margin: 4.5rem 0; }
+  /* Plein ecran : la planche est un temps du recit, pas une illustration
+     posee dans la marge. C'est le geste du livre — on tourne la page et
+     il n'y a que ca. */
+  .plaque {
+    margin: 5rem 0;
+    height: 100svh; min-height: 26rem;
+    /* minmax(0, 1fr) : sans ca, la rangee se laisse pousser par la hauteur
+       naturelle du dessin et la planche deborde de l'ecran. */
+    display: grid; grid-template-rows: minmax(0, 1fr) auto;
+    scroll-snap-align: center;
+  }
 
   .cadre {
-    aspect-ratio: 16 / 7;
+    min-height: 0;
     overflow: hidden;
     /* Les bords se fondent dans la page : pas de cadre, pas d'arete. */
     -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent),
@@ -74,8 +84,13 @@ const halos = ruche.lieux.filter((z) => z.nom === lieu).map((z) => {
   :global(html.js) .plaque.vu figcaption b { opacity: 1; transform: none; }
 
   @media (max-width: 700px) {
-    .cadre { aspect-ratio: 4 / 3; }
-    .plaque { margin: 3rem 0; }
+    .plaque { margin: 3rem 0; height: 78svh; }
+  }
+
+  /* Sans le plein ecran (navigateurs anciens), on garde un cadre large. */
+  @supports not (height: 100svh) {
+    .plaque { height: auto; }
+    .cadre { aspect-ratio: 16 / 7; }
   }
 
   @media (prefers-reduced-motion: reduce) {

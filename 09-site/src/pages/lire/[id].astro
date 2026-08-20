@@ -20,6 +20,19 @@ const { texte, precedent, suivant } = Astro.props;
 const lieux = ancres.filter((a) => a.texte === texte.id);
 const parBloc = new Map(lieux.map((a) => [a.bloc, a.lieu]));
 
+/* Les sequences : l'autrice a deja pose les coupures avec ses « · · · ».
+   On ne les invente pas, on les prend au serieux — chacune devient une
+   section, et c'est la qu'on peut respirer et s'accrocher au defilement. */
+const sequences = [];
+{
+  let courante = [];
+  texte.p.forEach((bloc, i) => {
+    if (bloc[0] === 'pause') { sequences.push(courante); courante = []; }
+    else courante.push({ bloc, i });
+  });
+  sequences.push(courante);
+}
+
 const mots = texte.p
   .filter(([balise]) => balise !== 'pause')
   .map(([, s]) => s).join(' ').replace(/<[^>]+>/g, '')
@@ -39,16 +52,19 @@ const mots = texte.p
   {lieux.length > 0 && <PlanSource />}
 
   <article class="texte">
-    {texte.p.map(([balise, contenu, classe], i) => (
-      <>
-        {balise === 'pause'
-          ? <p class="pause" aria-hidden="true">{contenu}</p>
-          : <p
+    {sequences.map((seq, n) => (
+      <section class="sequence">
+        {n > 0 && <p class="pause" aria-hidden="true">· · ·</p>}
+        {seq.map(({ bloc: [balise, contenu, classe], i }) => (
+          <>
+            <p
               class={[balise === 'tiret' ? 'tiret' : null, classe].filter(Boolean).join(' ')}
               set:html={assainir(contenu)}
-            />}
-        {parBloc.has(i) && <Plaque lieu={parBloc.get(i)} />}
-      </>
+            />
+            {parBloc.has(i) && <Plaque lieu={parBloc.get(i)} />}
+          </>
+        ))}
+      </section>
     ))}
 
     <nav class="fin-de-texte">
@@ -63,22 +79,38 @@ const mots = texte.p
 </Page>
 
 <style>
-  /* La colonne de lecture, et les planches qui la traversent de bord a bord. */
+  /* La colonne de lecture, et les planches qui la traversent de bord a bord.
+     Les sequences reprennent la grille du parent (subgrid) pour que les
+     planches gardent le droit de sortir de la colonne. */
   .texte {
     display: grid;
     grid-template-columns: 1fr min(var(--mesure), calc(100% - 3rem)) 1fr;
     padding: 4.5rem 0 7rem;
   }
   .texte > :global(*) { grid-column: 2; }
-  .texte > :global(.plaque) { grid-column: 1 / -1; }
+
+  .sequence {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+    /* On s'accroche ici, en douceur : au debut d'une sequence, jamais
+       au milieu d'un paragraphe. */
+    scroll-snap-align: start;
+    scroll-margin-top: 5.5rem;
+  }
+  .sequence > :global(*) { grid-column: 2; }
+  .sequence > :global(.plaque) { grid-column: 1 / -1; }
 
   .texte p { margin: 0 0 1.35em; text-wrap: pretty; }
   .tiret { text-indent: 0; }
   /* Une respiration avant le dernier paragraphe, comme dans l'atelier. */
   .fin { margin-top: 1.6em; }
+
+  /* La coupure de l'autrice. C'est de la ponctuation de recit : on lui
+     donne l'air qu'elle demande. */
   .pause {
-    text-align: center; color: var(--texte-4); letter-spacing: .5em;
-    margin: 2.5em 0; user-select: none;
+    text-align: center; color: var(--texte-4); letter-spacing: .6em;
+    margin: 5.5rem 0 4.5rem; user-select: none; font-size: .9rem;
   }
 
   .fin-de-texte {
