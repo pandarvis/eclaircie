@@ -18,7 +18,11 @@ Chez certains, l'attente commençait à se lire sur les visages.
 
 Près de la porte du fond, quatre visiteurs la regardaient toutes les deux minutes.
 
-La pièce, pourtant, avait été pensée pour rendre l'attente supportable. Aux deux extrémités, de grandes plantes s'élevaient le long de troncs fins qui semblaient avoir poussé avec elles. Leur feuillage, plus dense à la base, s'ouvrait ensuite en larges feuilles retombant de part et d'autre. Sur les murs étaient accrochés des tableaux d'artisans, sobres et soigneusement faits, de ceux devant lesquels on s'arrête parfois sans savoir exactement ce qui a retenu le regard.
+La pièce, pourtant, avait été pensée pour rendre l'attente supportable. Aux deux extrémités, de grandes plantes s'élevaient le long de troncs fins qui semblaient avoir poussé avec elles. Leur feuillage, plus dense à la base, s'ouvrait ensuite en larges feuilles retombant de part et d'autre.
+
+Sur les murs, des tableaux de marqueterie. Pas de peinture : des essences de bois taillées en feuilles minces, assemblées bord à bord sur leur support, puis raclées jusqu'à ce qu'on ne sente plus les joints sous la main. Toutes les couleurs venaient du bois.
+
+Ceux-là montraient des montagnes qui n'existaient nulle part. Des versants blonds, des ombres tirées d'une essence presque noire, des ciels veinés qu'aucun ciel n'a jamais eus. On s'arrêtait parfois devant sans savoir ce qui avait retenu le regard — la matière, ce qu'elle représentait, ou les deux.
 
 Des appliques diffusaient une lumière jaune orangé, douce sans être faible.
 
