@@ -29,10 +29,12 @@ sur la page du lecteur.*
 
 # Les mots du monde
 
-**Accueil.** Première pièce de la ruche, après l'entrée principale : un guichet, une vitre,
-des chaises, des plantes en pot. Le veilleur y prend le numéro de sa salle du jour ; les
-visiteurs y attendent qu'on vienne les chercher, et les gens du service passent derrière eux
-sans s'arrêter.
+**Accueil.** Première pièce de la ruche, après l'entrée principale : un guichet derrière une
+vitre, des chaises contre les murs et d'autres dos à dos au milieu. **La pièce a été pensée
+pour rendre l'attente supportable** — de grandes plantes, des tableaux d'artisans, une
+lumière jaune orangé, et au fond une sculpture de verre où l'eau descend. Le veilleur y prend
+le numéro de sa salle du jour ; les visiteurs y attendent qu'on vienne les chercher, et les
+gens du service passent derrière eux sans s'arrêter.
 > `02-univers/la-ruche.md`
 
 **Analyste.** Métier de la serre, **et c'est un seul métier à deux faces.** Devant les
