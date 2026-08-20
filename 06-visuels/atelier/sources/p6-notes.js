@@ -1309,4 +1309,26 @@ const NOTES = [
 
 **On dit le rabat.** *Il se replie, il tient où on le laisse, il s'ôte.* **« Ça ne cassait pas, ça pliait. »** ⛔ *Et rien de la capsule ne doit jamais recevoir de vocabulaire de mécanique — pas de rainures, pas de glissières, pas de crans sur le rabat.*` },
 
+
+/* ---------------- 20 AOÛT ---------------- */
+{ d:`20 août`, s:`Le ménage est validé`, e:`acquis`, t:[`dossier`],
+  v:`je viens de checker 1, j'ai pas grand chose à redire, ça me parait bon`,
+  q:`**Les quatre suppressions du 19 août sont confirmées.** *La frise autonome, l'épilogue en double, le récapitulatif de validation et la table d'aiguillage ne reviennent pas.* Le tag *avant-le-menage* reste la porte de secours, et elle ne se referme jamais.
+
+⚠️ **Un point n'a pas été tranché, il reste donc en l'état :** le dossier maître et les incidences du 13 août sont périmés mais conservés, uniquement parce que trente-et-un renvois les citent par numéros de paragraphe. *Ils restent, avec leur bannière. Les sortir coûte la réécriture des trente-et-un renvois.*` },
+
+{ d:`20 août`, s:`Le plan du jardin est validé — les descriptions non`, e:`acquis`, t:[`jardin`,`visuels`],
+  v:`je te valide le batiment soleil, ça me va. d'ailleurs, petit précisions, je valide le plan mais j'ai pas forcément lu toutes les descriptions. on y reviendra surtout quand j'aurais fini le chapitre qui nous amene la description du jardin`,
+  q:`**Le plan est acquis — le tracé, les bâtiments, les chemins, et la section 0 au même or que le réfectoire.** *Le bâtiment soleil ne cherche plus le regard : il est un bâtiment du jardin comme les autres, ce qui est exactement ce que le dossier en dit.*
+
+🔴 **Et la validation s'arrête là, volontairement.** Les trois descriptions ne sont pas lues, et elles ne le seront **qu'après le chapitre qui amène le jardin.** *L'ordre s'inverse, et c'est le bon sens : le texte passe devant, la description se vérifie contre lui.* ⛔ **Rien de ces trois morceaux ne doit être traité comme acquis d'ici là.**` },
+
+{ d:`20 août`, s:`Erin est écartée du casting, pas du projet`, e:`acquis`, t:[`personnages`,`dossier`],
+  v:`tu as gadé quelque part en archivé l'arc d'Erin ? ça reste une idée d'intrigue secondaire meme si pour l'instant elle est ecartee`,
+  q:`**Réponse : oui, et mieux qu'archivé — intact.** *Le décompte des deux courbes, la table année par année, son nom d'éclaircie et la raison de son silence n'ont jamais bougé de 02-univers/les-ages-croises.md, sous une bannière qui interdit d'y toucher.*
+
+⚠️ **Mais personne ne pouvait le retrouver, et deux phrases invitaient même à le jeter.** Le fichier porte le nom du décompte, pas le sien ; aucune fiche ne portait son nom dans les personnages ; et le dossier maître annonçait en tête une arrivante *qui n'existe plus*. **Corrigé aux deux endroits, et une fiche de renvoi porte désormais son nom.**
+
+*Le prix de son retour est affiché sur la fiche, pour qu'il ne se découvre pas après coup :* **elle rouvre toute la durée du livre.** Le calendrier sur douze ans n'existait que pour elle.` },
+
 ];
