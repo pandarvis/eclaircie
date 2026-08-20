@@ -133,9 +133,10 @@ mesure qu'on avance.
 *Le mot ne nomme pas un métier : personne n'est cueilleur.*
 > `02-univers/la-ruche.md`
 
-**Éclaircie.** La paroi d'une capsule qui approche du terme pâlit jusqu'à devenir presque
-transparente. **C'est le seul signe lisible du métier** — une capsule claire va s'ouvrir
-bientôt —, et il donne son nom au phénomène, au rite, à la croyance et à tout le reste.
+**Éclaircie.** La paroi d'une capsule qui approche du terme perd la couleur de la coulée et
+s'éclaircit ; **au bout, elle est tendue, translucide, d'un jaune orangé.** ⛔ *Jamais
+blanche.* **C'est le seul signe lisible du métier** — une capsule claire va s'ouvrir bientôt
+—, et il donne son nom au phénomène, au rite, à la croyance et à tout le reste.
 > `02-univers/la-ruche.md`
 
 **École.** Obligatoire pour tout arrivant qui aura une vie active devant lui. **On n'y

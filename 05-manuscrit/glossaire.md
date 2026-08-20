@@ -95,9 +95,10 @@ qu'on avance.
 **Cueillie.** L'acte de décrocher une capsule mûre. Ce sont les préparateurs qui la font. *Le
 mot ne nomme pas un métier : personne n'est cueilleur.*
 
-**Éclaircie.** La paroi d'une capsule qui approche du terme pâlit jusqu'à devenir presque
-transparente. **C'est le seul signe lisible du métier** — une capsule claire va s'ouvrir
-bientôt —, et il donne son nom au phénomène, au rite, à la croyance et à tout le reste.
+**Éclaircie.** La paroi d'une capsule qui approche du terme perd la couleur de la coulée et
+s'éclaircit ; **au bout, elle est tendue, translucide, d'un jaune orangé.** ⛔ *Jamais
+blanche.* **C'est le seul signe lisible du métier** — une capsule claire va s'ouvrir bientôt
+—, et il donne son nom au phénomène, au rite, à la croyance et à tout le reste.
 
 **École.** Obligatoire pour tout arrivant qui aura une vie active devant lui. **On n'y apprend
 pas un métier : on y apprend le monde.** Pour qui arrive très âgé, elle va de nos petites

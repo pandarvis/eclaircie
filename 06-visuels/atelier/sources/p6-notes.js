@@ -1582,4 +1582,21 @@ const NOTES = [
 
 ✅ **La consigne est donc simple, et elle est en tête du mode d'emploi : ouvrir toujours** *06-visuels/atelier/atelier.html*, **le mettre en favori, et rafraîchir.** *Les copies envoyées servent à regarder, jamais à corriger.*` },
 
+
+{ d:`20 août`, s:`La serre cesse d'être expliquée : elle est montrée, puis nommée`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`"C'était la serre. Le mot ne voulait plus dire grand-chose : il n'y avait ni vitre ni châssis, rien qu'un quart du complexe où la coulée était chez elle." ???????? j'avais pas validé ça la première fois...`,
+  q:`🔴 **Le paragraphe expliquait un mot au lieu de montrer un lieu, et il portait en plus une donnée périmée du matin même** — *« un quart du complexe », alors que le complexe a été bâti sur elle.*
+
+✅ **Sa version le règle sans discuter : le volume, la coulée qui prend tout, les capsules partout, les échafaudages qu'on monte et qu'on redescend.** *Puis trois mots :* **« C'était la serre. »** *Le lecteur a déjà tout vu ; le mot ne fait que ranger ce qu'il vient de voir.*
+
+**Dix-sept paragraphes en deviennent vingt-neuf**, et le chapitre perd cinquante mots au passage. *La description ne s'allonge pas : elle se coupe en respirations.*` },
+
+{ d:`20 août`, s:`La capsule mûre n'est pas blanche — et le chapitre se contredisait`, e:`ouvert`, t:[`monde`,`ruche`,`écriture`],
+  v:`"une capsule presque blanche." ? elle s'étire pour les plus mûres par quelque chose de translucide, jaune orangé, mais pas blanc`,
+  q:`**Le chapitre se contredisait lui-même à six lignes d'intervalle :** *un paragraphe disait déjà* « jusqu'au jaune très pâle, presque translucide, de la fin », *et le suivant* « une capsule presque blanche ».
+
+✅ **Corrigé :** *« une capsule arrivée au bout, la paroi tendue, translucide, d'un jaune orangé ».* **Et l'entrée Éclaircie du glossaire porte enfin une couleur** — elle n'en donnait aucune, elle disait seulement « pâlit ». ⛔ *Jamais blanche.*
+
+⚠️ **Une nuance reste à trancher, et elle est à six lignes d'écart.** *Le paragraphe général dit* **jaune très pâle** *; celui de la capsule qu'on décroche dit* **jaune orangé**. **Les deux sont de toi, à quelques minutes d'intervalle.** *Si les plus mûres virent à l'orangé, le paragraphe général devrait le dire aussi ; sinon c'est l'autre qui doit pâlir.*` },
+
 ];

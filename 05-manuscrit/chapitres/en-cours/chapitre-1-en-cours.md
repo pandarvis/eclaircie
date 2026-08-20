@@ -70,39 +70,63 @@ Du moins, c'était ainsi qu'on le présentait.
 
 Le veilleur quitta l'accueil et s'engagea dans le grand couloir.
 
-Ce dernier était large, linéaire, avec un plafond bas et des appliques tous les six mètres. Pendant vingt pas, on aurait pu être dans n'importe quel bâtiment administratif du pays.
+Il était large et linéaire, avec un plafond bas et des appliques disposées tous les six mètres. Pendant vingt pas, on aurait pu se croire dans n'importe quel bâtiment administratif du pays.
 
 Puis le plafond montait.
 
-Il montait d'un coup, et il continuait de monter. À mesure, les lampes devenaient inutiles. On ne les éteignait pas — personne n'avait jamais reçu l'ordre de les éteindre — mais quelque chose de plus grand qu'elles arrivait par le haut. Le jour tombait de très loin, en longues obliques. Il posait sur les dalles des plaques claires qu'on pouvait traverser ou contourner. Andrew les traversait.
+Il montait d'un coup, et continuait de monter.
+
+À mesure qu'il s'élevait, les lampes devenaient inutiles. On ne les éteignait pas — personne n'avait jamais reçu l'ordre de le faire — mais quelque chose de plus grand qu'elles arrivait par le haut. Le jour tombait de très loin, en longues obliques, et déposait sur les dalles des plaques claires que l'on pouvait traverser ou contourner.
+
+Andrew les traversait.
 
 On n'était pas dehors. On n'était jamais dehors, ici. Tout tenait sous un seul toit, et ce toit était si haut qu'on avait cessé d'y penser.
 
-Les murs, eux, étaient sculptés. Pas décorés : sculptés, du sol jusqu'à la hauteur où le regard renonce. Des bandes horizontales courant sur toute la longueur, l'une au-dessus de l'autre, et dans chaque bande une scène minuscule qu'il aurait fallu s'arrêter pour lire. Des entrelacs entre les bandes. Des signes qui revenaient tous les trois mètres et dont plus personne ne connaissait la valeur. Et derrière tout ça, taillé plus profond, un second plan qu'on n'apercevait qu'en biais, quand le jour tombait du bon côté.
+Les murs, eux, étaient sculptés.
 
-Ce n'était pas de la magie. Ce patrimoine n'avait pas surgi de nulle part du jour au lendemain, et personne n'avait jamais prétendu le contraire. Seulement, on n'avait jamais su de quelle génération l'idée était venue.
+Pas décorés : sculptés.
+
+Du sol jusqu'à la hauteur où le regard renonce, des bandes horizontales couraient sur toute la longueur, l'une au-dessus de l'autre. Dans chacune, une scène minuscule qu'il aurait fallu s'arrêter pour lire. Des entrelacs s'intercalaient entre les bandes. Des signes revenaient tous les trois mètres, et plus personne ne connaissait leur valeur. Derrière tout cela, taillé plus profondément dans la pierre, un second plan n'apparaissait qu'en biais, lorsque le jour tombait du bon côté.
+
+Ce n'était pas de la magie.
+
+Ce patrimoine n'avait pas surgi de nulle part du jour au lendemain, et personne n'avait jamais prétendu le contraire. Seulement, on n'avait jamais su de quelle génération l'idée était venue.
 
 Et par-dessus, la végétation courait.
 
-Elle avait l'air libre et elle ne l'était pas tout à fait. On avait bâti là où l'on pouvait bâtir, ce qui suppose qu'on avait regardé avant. Ensuite on s'était adapté : jamais un coulant n'avait été coupé pour faire passer un mur. Quand un coulant passait, on perçait le mur et on continuait de l'autre côté. Il y avait des trous partout, ronds, propres, avec un brin vert au milieu, et personne ne trouvait ça remarquable.
+Elle avait l'air libre, mais elle ne l'était pas tout à fait. On avait bâti là où l'on pouvait bâtir, ce qui supposait qu'on avait regardé avant. Ensuite, on s'était adapté.
 
-À mi-parcours, une porte sur la droite ouvrait vers la salle de repos. Il en sortait une odeur de café et des voix qui se coupaient la parole. Il reconnut celle de Nora. Il ne s'arrêta pas pour autant.
+Jamais un coulant n'avait été coupé pour faire passer un mur.
+
+Lorsqu'un coulant passait, on perçait le mur et on continuait de l'autre côté. Il y avait des trous partout, ronds et propres, avec un brin vert au milieu, et personne ne trouvait cela remarquable.
+
+À mi-parcours, une porte sur la droite ouvrait sur la salle de repos. Une odeur de café s'en échappait, mêlée à des voix qui se coupaient la parole. Il reconnut celle de Nora.
+
+Il ne s'arrêta pas pour autant.
 
 · · ·
 
 Puis le couloir cessa.
 
-Il ne donnait pas sur une pièce, il donnait sur un volume. Le sol changeait, la lumière changeait, l'air était plus lourd de deux ou trois degrés. La coulée prenait tout : sur les murs, entre les colonnes, en travers du vide, du sol jusqu'à des hauteurs où personne n'était jamais monté vérifier.
+Il ne donnait pas sur une pièce. Il donnait sur un volume.
+
+Le sol changeait, la lumière aussi. L'air était plus lourd de deux ou trois degrés. La coulée prenait tout : les murs, l'espace entre les colonnes, la traversée du vide, du sol jusqu'à des hauteurs où personne n'était jamais monté vérifier.
 
 Et sur la coulée, les capsules.
 
-Il y en avait partout, et jamais deux fois au même endroit. Une à hauteur de hanche sur un coulant qui rampait le long d'un banc. Une autre à six mètres, seule, sur une branche qui traversait le vide. Puis, dix pas plus loin, six collées les unes contre les autres sur deux mètres, si serrées qu'il faudrait les décrocher dans l'ordre. Elles poussaient à plat, couchées sur ce qui les portait. Elles avaient la couleur de la coulée tant qu'elles étaient jeunes, et elles la perdaient en mûrissant, jusqu'au jaune très pâle, presque translucide, de la fin.
+Il y en avait partout, et jamais deux fois au même endroit.
 
-Pour aller chercher les hautes, on montait des échafaudages, et on les redescendait après.
+Une à hauteur de hanche, sur un coulant qui rampait le long d'un banc. Une autre à six mètres, seule, accrochée à une branche qui traversait le vide. Puis, dix pas plus loin, six collées les unes aux autres sur deux mètres, si serrées qu'il faudrait les décrocher dans l'ordre.
 
-C'était la serre. Le mot ne voulait plus dire grand-chose : il n'y avait ni vitre ni châssis, rien qu'un quart du complexe où la coulée était chez elle. Ailleurs, elle ne faisait que passer — un brin dans un mur, un coulant en travers d'un couloir, et rien autour. Ici elle avait de la place, et c'est ici, et nulle part ailleurs, que les capsules venaient.
+Elles poussaient à plat, couchées sur ce qui les portait.
 
-Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule presque blanche. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.
+Jeunes, elles avaient la couleur de la coulée. Puis elles la perdaient en mûrissant, jusqu'à prendre, à la fin, ce jaune très pâle, presque translucide, qui indiquait qu'elles étaient prêtes.
+
+Pour aller chercher celles qui poussaient en hauteur, on montait des échafaudages. On les redescendait ensuite.
+
+C'était la serre.
+
+Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule arrivée au bout, la paroi tendue, translucide, d'un jaune orangé. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.
 
 Au loin, immanquable, la porte du registre. Massive, elle aussi tout autant chargée d'ornements que le reste, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.
 
