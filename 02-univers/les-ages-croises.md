@@ -19,6 +19,8 @@ Le décompte du couple central, d'un monde à l'autre.
 >
 > **Son nom d'éclaircie est [Erin](#son-nom-déclaircie-est-erin).** C'est le nom qu'elle porte dans ce monde-ci, et le seul dont ce dossier dispose.
 >
+> **Fiche de renvoi à son nom : [`../03-personnages/erin.md`](../03-personnages/erin.md)** — *ce fichier-ci porte le nom du décompte, pas le sien, et personne ne l'y cherchait.*
+>
 > *Conséquence pratique sur les autres documents : partout où un plan, une frise ou un calendrier s'appuyait sur elle, la ligne se retire — elle ne se réécrit pas autrement.*
 
 ---

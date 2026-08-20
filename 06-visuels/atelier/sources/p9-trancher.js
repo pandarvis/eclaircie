@@ -290,7 +290,9 @@ const QUESTIONS = [
 { g:`En réserve`, e:`ecarte`,
   t:`Erin, l'histoire d'amour`,
   q:`Suspendue. « Pour l'instant tu oublies l'histoire d'amour, je ne sais pas comment l'intégrer. » Elle arrive à 64 ans, dix ans après lui ; elle a douze ans de plus que lui ; il ne peut rien lui avouer ; elle le friendzone ; il se dit qu'il la reverra dans l'autre monde, sans qu'elle puisse le comprendre.`,
-  o:[], n:`**Le calendrier sur douze ans n'existait que pour elle.** Sa réintégration rouvrirait toute la durée du livre.` },
+  o:[], n:`**Le calendrier sur douze ans n'existait que pour elle.** Sa réintégration rouvrirait toute la durée du livre.
+
+✅ **Écartée du casting, pas du projet — précision de l'autrice, 20 août 2026 :** *« ça reste une idée d'intrigue secondaire ».* **L'arc est intact dans 02-univers/les-ages-croises.md**, et une fiche de renvoi le rend trouvable : *03-personnages/erin.md*. ⚠️ *Le décompte est à reprendre tel quel, pas à refaire.*` },
 
 { g:`En réserve`, e:`ecarte`,
   t:`La mère et l'enfant`,
