@@ -1,7 +1,6 @@
 ---
 import Page from '../../layouts/Page.astro';
-import PlanSource from '../../composants/PlanSource.astro';
-import Plaque from '../../composants/Plaque.astro';
+import PlanFlottant from '../../composants/PlanFlottant.astro';
 import { assainir } from '../../../outils/assainir.mjs';
 import textes from '../../../donnees/textes.json';
 import ancres from '../../../donnees/lieux.json';
@@ -15,14 +14,18 @@ export function getStaticPaths() {
 
 const { texte, precedent, suivant } = Astro.props;
 
-/* La planche vient APRES le paragraphe qui nomme le lieu : le plan ne
-   montre que ce que le texte a deja dit. Il n'annonce rien, il fait echo. */
+/* Chaque lieu a une portee : il tient du paragraphe qui le nomme jusqu'au
+   suivant, puis la page se recentre. Sans portee, le texte resterait
+   decentre tout le chapitre et le plan redeviendrait un meuble. */
 const lieux = ancres.filter((a) => a.texte === texte.id);
-const parBloc = new Map(lieux.map((a) => [a.bloc, a.lieu]));
+const portees = lieux.map((a, n) => ({
+  lieu: a.lieu,
+  de: a.bloc,
+  a: n + 1 < lieux.length ? lieux[n + 1].bloc - 1 : Math.min(a.bloc + 12, texte.p.length - 1),
+}));
 
 /* Les sequences : l'autrice a deja pose les coupures avec ses « · · · ».
-   On ne les invente pas, on les prend au serieux — chacune devient une
-   section, et c'est la qu'on peut respirer et s'accrocher au defilement. */
+   On ne les invente pas, on les prend au serieux. */
 const sequences = [];
 {
   let courante = [];
@@ -49,20 +52,18 @@ const mots = texte.p
     </div>
   </header>
 
-  {lieux.length > 0 && <PlanSource />}
+  {lieux.length > 0 && <PlanFlottant lieux={lieux} />}
 
-  <article class="texte">
+  <article class="texte" data-texte data-portees={JSON.stringify(portees)}>
     {sequences.map((seq, n) => (
       <section class="sequence">
         {n > 0 && <p class="pause" aria-hidden="true">· · ·</p>}
         {seq.map(({ bloc: [balise, contenu, classe], i }) => (
-          <>
-            <p
-              class={[balise === 'tiret' ? 'tiret' : null, classe].filter(Boolean).join(' ')}
-              set:html={assainir(contenu)}
-            />
-            {parBloc.has(i) && <Plaque lieu={parBloc.get(i)} />}
-          </>
+          <p
+            class={[balise === 'tiret' ? 'tiret' : null, classe].filter(Boolean).join(' ')}
+            data-bloc={i}
+            set:html={assainir(contenu)}
+          />
         ))}
       </section>
     ))}
@@ -79,35 +80,27 @@ const mots = texte.p
 </Page>
 
 <style>
-  /* La colonne de lecture, et les planches qui la traversent de bord a bord.
-     Les sequences reprennent la grille du parent (subgrid) pour que les
-     planches gardent le droit de sortir de la colonne. */
+  /* La colonne garde TOUJOURS la meme largeur : elle se translate, elle ne
+     se redimensionne jamais. Les coupures de ligne ne bougent donc pas, et
+     l'oeil ne perd pas sa ligne quand la page fait de la place au plan. */
   .texte {
-    display: grid;
-    grid-template-columns: 1fr min(var(--mesure), calc(100% - 3rem)) 1fr;
-    padding: 4.5rem 0 7rem;
+    max-width: var(--mesure);
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 7rem;
+    transition: transform 1.2s cubic-bezier(.22, .85, .26, 1);
   }
-  .texte > :global(*) { grid-column: 2; }
 
   .sequence {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: subgrid;
-    /* On s'accroche ici, en douceur : au debut d'une sequence, jamais
-       au milieu d'un paragraphe. */
     scroll-snap-align: start;
     scroll-margin-top: 5.5rem;
   }
-  .sequence > :global(*) { grid-column: 2; }
-  .sequence > :global(.plaque) { grid-column: 1 / -1; }
 
   .texte p { margin: 0 0 1.35em; text-wrap: pretty; }
   .tiret { text-indent: 0; }
   /* Une respiration avant le dernier paragraphe, comme dans l'atelier. */
   .fin { margin-top: 1.6em; }
 
-  /* La coupure de l'autrice. C'est de la ponctuation de recit : on lui
-     donne l'air qu'elle demande. */
+  /* La coupure de l'autrice. C'est de la ponctuation de recit. */
   .pause {
     text-align: center; color: var(--texte-4); letter-spacing: .6em;
     margin: 5.5rem 0 4.5rem; user-select: none; font-size: .9rem;
@@ -115,7 +108,10 @@ const mots = texte.p
 
   .fin-de-texte {
     display: flex; justify-content: space-between; gap: 14px;
-    margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--trait);
+    /* De l'air avant la sortie : le chapitre ne se termine pas colle au
+       bas de l'ecran, et les dernieres ancres ont la place de remonter
+       jusqu'a la ligne de decision. */
+    margin-top: 40vh; padding-top: 2rem; border-top: 1px solid var(--trait);
   }
   .pas {
     display: block; text-decoration: none; padding: 12px 16px;
@@ -132,75 +128,111 @@ const mots = texte.p
   .muet b { color: var(--texte-3); }
 
   @media (prefers-reduced-motion: reduce) {
-    .pas { transition: none; }
+    .texte, .pas { transition: none; }
     .pas:hover { transform: none; }
   }
 </style>
 
 <script>
-  /* Chaque planche se cadre sur son lieu et se dessine quand on arrive dessus.
-     Sans ce script, le plan reste entier et lisible, et le texte ne bouge pas. */
-  function animerLesPlanches() {
-    const planches = document.querySelectorAll('[data-plaque]:not([data-prete])');
-    if (!planches.length) return;
+  /* La page fait de la place au plan, puis la reprend.
+     Tout est facultatif : sans ce script, la colonne reste centree et le
+     plan n'apparait jamais — le roman se lit exactement pareil. */
+  function mettreEnScene() {
+    const colonne = document.querySelector('[data-texte]');
+    const plan = document.querySelector('[data-plan]');
+    if (!colonne || !plan) return;
 
-    const cadrer = (planche) => {
-      const svg = planche.querySelector('svg');
-      const vue = planche.querySelector('[data-vue]');
-      const formes = planche.querySelectorAll('.halo');
-      if (!svg || !vue || !formes.length) return;
+    const portees = JSON.parse(colonne.dataset.portees || '[]');
+    if (!portees.length) return;
 
-      const vb = svg.viewBox.baseVal;
-      let c = null;
-      for (const f of formes) {
-        const b = f.getBBox();
-        c = c ? {
-          x: Math.min(c.x, b.x), y: Math.min(c.y, b.y),
-          X: Math.max(c.X, b.x + b.width), Y: Math.max(c.Y, b.y + b.height),
-        } : { x: b.x, y: b.y, X: b.x + b.width, Y: b.y + b.height };
-      }
+    const vue = plan.querySelector('[data-vue]');
+    const nom = plan.querySelector('[data-nom-lieu]');
+    const svg = plan.querySelector('svg');
+    const vb = svg.viewBox.baseVal;
 
-      /* La planche est large : on cadre sur la largeur visible, pas sur le viewBox. */
-      const r = svg.getBoundingClientRect();
-      const vus = { l: vb.height * (r.width / r.height), h: vb.height };
+    /* Le cadrage de chaque piece, calcule une fois. */
+    const cadres = new Map();
+    for (const forme of plan.querySelectorAll('.halo')) {
+      const l = forme.dataset.lieu;
+      const b = forme.getBBox();
+      const a = cadres.get(l);
+      cadres.set(l, a ? {
+        x: Math.min(a.x, b.x), y: Math.min(a.y, b.y),
+        X: Math.max(a.X, b.x + b.width), Y: Math.max(a.Y, b.y + b.height),
+      } : { x: b.x, y: b.y, X: b.x + b.width, Y: b.y + b.height });
+    }
 
+    const cadrage = (lieu) => {
+      const c = cadres.get(lieu);
+      if (!c) return '';
       const lb = c.X - c.x, hb = c.Y - c.y;
-      /* La piece doit occuper environ un tiers du cadre, qu'elle soit
-         l'accueil ou une salle de ceremonie : on part de son ajustement
-         plein cadre et on recule d'autant. */
-      const plein = Math.min(vus.l / lb, vus.h / hb);
-      const k = Math.max(1, Math.min(4.5, plein * 0.32));
+      const plein = Math.min(vb.width / lb, vb.height / hb);
+      const k = Math.max(1, Math.min(3.4, plein * 0.34));
       const tx = (vb.x + vb.width / 2) - k * (c.x + lb / 2);
       const ty = (vb.y + vb.height / 2) - k * (c.y + hb / 2);
-
-      /* On pose le point de depart un cran plus large, pour que l'arrivee se voie. */
-      vue.style.transform = `translate(${(tx * .55).toFixed(1)}px, ${(ty * .55).toFixed(1)}px) scale(${(1 + (k - 1) * .35).toFixed(3)})`;
-      planche.dataset.arrivee = `translate(${tx.toFixed(1)}px, ${ty.toFixed(1)}px) scale(${k.toFixed(3)})`;
-      planche.dataset.prete = '1';
+      return `translate(${tx.toFixed(1)}px, ${ty.toFixed(1)}px) scale(${k.toFixed(3)})`;
     };
 
-    /* La planche se devoile quand elle entre franchement dans la vue.
-       Au defilement plutot qu'a l'IntersectionObserver : meme resultat, une
-       API de moins, et ca se verifie sans compositeur. */
-    const devoiler = () => {
-      const h = window.innerHeight;
-      for (const p of planches) {
-        if (p.classList.contains('vu')) continue;
-        const r = p.getBoundingClientRect();
-        if (r.top < h * 0.8 && r.bottom > h * 0.2) {
-          const vue = p.querySelector('[data-vue]');
-          if (vue && p.dataset.arrivee) vue.style.transform = p.dataset.arrivee;
-          p.classList.add('vu');
-        }
+    const blocs = new Map();
+    for (const p of colonne.querySelectorAll('p[data-bloc]')) blocs.set(+p.dataset.bloc, p);
+
+    let lieuCourant = null;
+
+    const jouer = () => {
+      /* La ligne de decision est haute dans l'ecran : on bascule quand le
+         paragraphe declencheur arrive en haut, pas quand il est au milieu.
+         L'oeil n'a pas encore commence a lire cette zone. */
+      /* Au tout dernier ecran, plus rien ne peut remonter : on abaisse la
+         ligne, sinon un lieu nomme dans les dernieres lignes ne parait
+         jamais. */
+      const bas = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 4;
+      const ligne = bas ? window.innerHeight : window.innerHeight * 0.34;
+
+      let vise = null;
+      for (const p of portees) {
+        const debut = blocs.get(p.de), fin = blocs.get(p.a);
+        if (!debut) continue;
+        const hautDebut = debut.getBoundingClientRect().top;
+        const basFin = fin ? fin.getBoundingClientRect().bottom : hautDebut;
+        if (hautDebut < ligne && basFin > 0) vise = p.lieu;
+      }
+
+      if (vise === lieuCourant) return;
+      lieuCourant = vise;
+
+      if (!vise) {
+        plan.classList.remove('la');
+        plan.setAttribute('aria-hidden', 'true');
+        colonne.style.transform = '';
+        for (const f of plan.querySelectorAll('.halo')) f.classList.remove('ici');
+        return;
+      }
+
+      /* De combien la colonne s'ecarte : de quoi centrer l'ensemble
+         colonne + plan, sans jamais sortir de l'ecran. */
+      const large = plan.getBoundingClientRect().width;
+      const scene = document.querySelector('.scene');
+      const dispo = scene ? scene.getBoundingClientRect().width : window.innerWidth;
+      const ecart = Math.min(large * 0.5 + 24, Math.max(0, (dispo - colonne.offsetWidth) / 2 - 24));
+
+      colonne.style.transform = `translateX(${(-ecart).toFixed(0)}px)`;
+      plan.classList.add('la');
+      plan.setAttribute('aria-hidden', 'false');
+
+      vue.style.transform = cadrage(vise);
+      nom.textContent = vise;
+
+      for (const f of plan.querySelectorAll('.halo')) {
+        f.classList.remove('ici');
+        if (f.dataset.lieu === vise) { void f.getBoundingClientRect(); f.classList.add('ici'); }
       }
     };
 
-    for (const p of planches) cadrer(p);
-    window.addEventListener('scroll', devoiler, { passive: true });
-    window.addEventListener('resize', devoiler, { passive: true });
-    devoiler();
+    window.addEventListener('scroll', jouer, { passive: true });
+    window.addEventListener('resize', jouer, { passive: true });
+    jouer();
   }
 
-  animerLesPlanches();
-  document.addEventListener('astro:page-load', animerLesPlanches);
+  mettreEnScene();
+  document.addEventListener('astro:page-load', mettreEnScene);
 </script>

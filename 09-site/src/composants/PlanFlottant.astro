@@ -1,0 +1,132 @@
+---
+/* Le plan n'est pas un meuble : c'est un moment.
+   Il n'existe pas tant qu'un lieu n'est pas nomme. Quand il l'est, la
+   colonne de lecture glisse vers la gauche et le plan parait — puis il
+   s'en va et la page se recentre.
+
+   Un seul exemplaire pour toute la page : c'est le meme plan qui se
+   deplace d'une piece a l'autre, ce qui donne la continuite. */
+import ruche from '../../donnees/ruche.json';
+
+const { lieux } = Astro.props;
+
+const ATTRS_DESSIN = new Set([
+  'd', 'x', 'y', 'cx', 'cy', 'r', 'rx', 'ry', 'width', 'height', 'points', 'transform',
+  'class', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin',
+  'stroke-dasharray', 'stroke-opacity', 'fill-opacity', 'opacity', 'filter', 'style',
+  'text-anchor', 'id', 'font-size', 'letter-spacing',
+]);
+const ATTRS_FORME = new Set(['d', 'x', 'y', 'cx', 'cy', 'r', 'rx', 'ry', 'width', 'height', 'points', 'transform']);
+
+const echapper = (v) => String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+
+function tracer(n) {
+  const attrs = Object.entries(n.attrs)
+    .filter(([k]) => ATTRS_DESSIN.has(k))
+    .map(([k, v]) => `${k}="${echapper(v)}"`).join(' ');
+  const dedans = (n.enfants || []).map(tracer).join('') + (n.texte ? echapper(n.texte) : '');
+  return `<${n.tag}${attrs ? ' ' + attrs : ''}>${dedans}</${n.tag}>`;
+}
+
+const dessin = ruche.dessin.map(tracer).join('');
+
+const cites = new Set(lieux.map((l) => l.lieu));
+const halos = ruche.lieux.filter((z) => cites.has(z.nom)).map((z) => {
+  const attrs = Object.entries(z.attrs)
+    .filter(([k]) => ATTRS_FORME.has(k))
+    .map(([k, v]) => `${k}="${echapper(v)}"`).join(' ');
+  return `<${z.tag} class="halo" data-lieu="${echapper(z.nom)}" pathLength="1" ${attrs}></${z.tag}>`;
+}).join('');
+---
+<aside class="plan-flottant" data-plan aria-hidden="true">
+  <svg viewBox={ruche.vue} preserveAspectRatio="xMidYMid meet" role="img" aria-label="Plan de la ruche">
+    <g class="vue" data-vue set:html={dessin + halos} />
+  </svg>
+  <p class="legende">
+    <span class="etiq">Le plan de la ruche</span>
+    <b data-nom-lieu></b>
+  </p>
+</aside>
+
+<style>
+  .plan-flottant {
+    position: fixed;
+    right: max(2rem, calc(50% - 40rem));
+    top: 50%;
+    width: min(34rem, 42vw);
+    /* On part de la valeur d'arrivee : sans JavaScript, rien de tout ceci
+       ne s'active et le plan reste simplement absent (voir html.js). */
+    display: none;
+  }
+  .plan-flottant svg { display: block; width: 100%; height: auto; max-height: 78vh; }
+
+  .legende {
+    display: flex; align-items: baseline; gap: 14px;
+    margin: .8rem 0 0; padding: 0;
+  }
+  .legende b {
+    font-family: var(--serif); font-size: 1.05rem; font-weight: 400;
+    color: var(--accent);
+  }
+
+  .vue { transition: transform 1.4s cubic-bezier(.22, .85, .26, 1); }
+</style>
+
+<style is:global>
+  /* Le plan n'existe que si le navigateur peut l'animer et si la page est
+     assez large pour lui faire de la place. */
+  @media (min-width: 1180px) {
+    html.js .plan-flottant {
+      display: block;
+      transform: translate(2.5rem, -50%);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 1.1s ease-out, transform 1.1s cubic-bezier(.22, .85, .26, 1);
+    }
+    html.js .plan-flottant.la {
+      opacity: 1;
+      transform: translate(0, -50%);
+    }
+  }
+
+  .plan-flottant svg { --or: #D9A441; --vert: #7FB069; --bleu: #0081B3; }
+  .plan-flottant .caps { opacity: .45; }
+  .plan-flottant .zone { display: none; }
+  .plan-flottant .etiq {
+    font-family: var(--sans); font-size: 9.5px; letter-spacing: .24em;
+    text-transform: uppercase; fill: var(--texte-3); pointer-events: none;
+  }
+  .plan-flottant .etiq.petite { font-size: 8px; letter-spacing: .18em; }
+  .plan-flottant .coulee {
+    fill: none; stroke: var(--vert); stroke-width: 2.6; stroke-linecap: round;
+    opacity: .35; stroke-dasharray: 16 13;
+  }
+  .plan-flottant .coulee.fine { stroke-width: 1.5; opacity: .22; }
+  .plan-flottant .mur { fill: none; stroke: var(--trait-fort); stroke-width: 1.5; }
+
+  /* Les halos sont injectes par set:html : Astro ne leur pose pas son
+     attribut de portee, donc leurs regles vivent en global. */
+  .plan-flottant .halo {
+    fill: var(--accent); fill-opacity: 0;
+    stroke: var(--accent); stroke-width: 2.5;
+    vector-effect: non-scaling-stroke;
+    stroke-dasharray: 1; stroke-dashoffset: 1;
+  }
+  .plan-flottant .halo.ici {
+    animation: tracer 1.3s .35s cubic-bezier(.3, .7, .2, 1) forwards,
+               emplir 1s 1.3s ease-out forwards;
+  }
+  @keyframes tracer { to { stroke-dashoffset: 0; } }
+  @keyframes emplir { to { fill-opacity: .14; } }
+
+  .plan-flottant .legende .etiq, .plan-flottant .legende b {
+    opacity: 0; transition: opacity .7s .5s;
+  }
+  .plan-flottant.la .legende .etiq, .plan-flottant.la .legende b { opacity: 1; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html.js .plan-flottant { transition: opacity .01s; transform: translate(0, -50%); }
+    .plan-flottant .vue { transition: none; }
+    .plan-flottant .halo.ici { animation: none; stroke-dashoffset: 0; fill-opacity: .14; }
+  }
+</style>
