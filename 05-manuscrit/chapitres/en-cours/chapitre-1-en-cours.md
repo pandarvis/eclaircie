@@ -120,7 +120,7 @@ Une à hauteur de hanche, sur un coulant qui rampait le long d'un banc. Une autr
 
 Elles poussaient à plat, couchées sur ce qui les portait.
 
-Jeunes, elles avaient la couleur de la coulée. Puis elles la perdaient en mûrissant, jusqu'à prendre, à la fin, ce jaune très pâle, presque translucide, qui indiquait qu'elles étaient prêtes.
+Jeunes, elles avaient la couleur de la coulée. Puis elles la perdaient en mûrissant, jusqu'à prendre, à la fin, ce jaune orangé, presque translucide, qui indiquait qu'elles étaient prêtes.
 
 Pour aller chercher celles qui poussaient en hauteur, on montait des échafaudages. On les redescendait ensuite.
 
