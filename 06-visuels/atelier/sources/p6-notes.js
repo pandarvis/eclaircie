@@ -1748,4 +1748,13 @@ const NOTES = [
 
 ⚠️ *C'est mon défaut n° 2 du document de style, en pleine action : j'écris la scène juste, puis j'ajoute la phrase qui dit ce qu'elle voulait dire.*` },
 
+
+{ d:`20 août`, s:`Le chapitre premier ne sera pas allégé`, e:`acquis`, t:[`écriture`],
+  v:`pour le chapitre 1, je ne me vois pas revenir sur l'explication de la ruche, d'andrew ou des details du murs... je pense qu'on va laisser comme ça du coup`,
+  q:`**Les trois coupes proposées sont écartées** — le portrait d'Andrew, l'inventaire de la tenue, le détail des murs sculptés. *224 mots qui restent.*
+
+**Question fermée, et elle ne se rouvre pas d'elle-même.** ⛔ *Le chapitre reste à 3 765 mots contre 2 648 au prologue, et c'est assumé : l'autrice a déjà dit qu'on ne se met pas de barrière de longueur avant que le livre existe.*
+
+*Ce qui reste vrai malgré tout, pour la suite : ces trois endroits sont les seuls du chapitre où la description cesse d'être vue par Andrew. Si la lourdeur revient à la relecture, c'est là qu'il faudra regarder.*` },
+
 ];

@@ -185,9 +185,10 @@ Et c'est ce qui fait passer un jeune arrivant dans les rues, donc devant des por
 
 **Porteur de voiles.** Celui qui arrive sans être en paix avec lui-même, et chez qui quelque
 chose n'a pas été soldé de l'autre côté. **C'est une croyance, pas un diagnostic** : rien ne
-permet de le détecter, et personne ne vérifie jamais rien. *Et le mot n'est pas tendre* —
-**on l'emploie couramment pour dire de quelqu'un qu'il raconte n'importe quoi**, et on en
-traite les gens. ⛔ On ne dit jamais « arrivant voilé » : trop connoté.
+permet de le détecter. **Tout le monde dit n'importe quoi en sortant ; seuls les jeunes
+arrivants sont remarquables, parce que chez eux ça arrive comme du contenu et non comme de
+la confusion.** *Et le mot n'est pas tendre* — on l'emploie pour dire de quelqu'un qu'il
+raconte n'importe quoi, et on en traite les gens. ⛔ Jamais « arrivant voilé ».
 > `02-univers/ce-qui-est-juge.md` · ❓ **Le lecteur l'apprend par cet emploi-là, scène 2, et l'autrice donne deux bouches possibles :** Eliott — *« ils m'ont dit que j'étais un porteur de voiles »* — ou June — *« ils l'ont traité de porteur de voiles »*. À trancher.
 
 **Préparateur.** Agent de la serre, et **c'est elle qu'il surveille** : il y passe ses
