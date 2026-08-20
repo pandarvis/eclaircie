@@ -196,7 +196,8 @@ pas.**
 **Registre.** L'archive de la ruche, tenue par les veilleurs. Pour chaque capsule : la
 travée, la date d'apparition, l'avancée de l'éclaircie, la date d'ouverture, l'âge relevé, le
 nom donné et le numéro. Consultable par métier, sans autorisation. **Le registre n'avance
-jamais rien : il constate**, et **il est infaillible.**
+jamais rien : il constate**, et **il est infaillible.** ⛔ *Il n'annonce aucune éclaircie à
+venir : une capsule y entre quand elle s'ouvre, jamais avant.*
 > `02-univers/la-ruche.md`
 
 **Ruche.** Le lieu où les capsules mûrissent et s'ouvrent, organisé en travées. Bâtie sur la

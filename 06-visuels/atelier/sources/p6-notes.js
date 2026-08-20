@@ -1601,4 +1601,27 @@ const NOTES = [
 
 ✅ **Tranché : jaune orangé, aux deux endroits.** *« Jaune très pâle » venait de l'ancien texte et a été repris sans être réexaminé ; « translucide, jaune orangé » est la formule donnée en décrivant le monde.* **Et une paroi qui s'étire ne va pas vers le pâle : elle va vers ce qu'on voit à travers.**` },
 
+
+{ d:`20 août`, s:`On ne touche pas à un texte hors séance`, e:`acquis`, t:[`écriture`,`dossier`],
+  v:`je vois bien que depuis la derniere fois tu avais modifié des choses dans le chapitre alors qu'on n'était pas en phase d'écriture.. rassure moi, tu n'as pas remodifié le prologue ou l'épilogue de la même maniere ? parce que quand on n'est pas réellement en train de corriger un chapitre, tu n'as rien à modifier dans ceux déjà écrits !`,
+  q:`✅ **Vérification faite dans l'historique, paragraphe par paragraphe : le prologue et l'épilogue n'ont pas bougé d'un mot depuis qu'ils sont finis.** *2 655 et 2 631, inchangés.*
+
+🔴 **Mais elle a raison sur le chapitre premier : il a bougé trois fois le 19 août, après le commit qui le validait.** *L'accueil et le mot « secrétaire », la capsule non éclaircie, la douzième capsule.* **Trois corrections de détail, et trois de trop** — un texte validé qui bouge sans séance, c'est une confiance qui s'use.
+
+⛔ **Règle posée en tête du LISEZ-MOI du manuscrit : un chapitre écrit ne bouge que pendant une séance de correction, sur demande explicite.** *Pas au passage d'une décision de monde, pas pour aligner une phrase sur une fiche, pas pour corriger une incohérence repérée en chemin.* **Ce qui est vu se signale ; ça ne se corrige pas.**` },
+
+{ d:`20 août`, s:`Le registre n'annonce rien, et la phrase le laissait croire`, e:`acquis`, t:[`monde`,`ruche`,`écriture`],
+  v:`petite dissonance, la phrase reste bizarre car on n'a encore jamais parlé du registre. puis surtout, si le registre indiquait à l'avance les capsules eclaircie, alors il suffirait de le consulter pour prédire. non, le registre les inscrit quand l'arrivant en sort`,
+  q:`**Deux défauts dans une phrase.** *Le premier est de place : le registre n'a pas encore été présenté, seule sa porte a été vue de loin.* 🔴 **Le second est de fond, et il ouvrait un trou dans le monde :** *« le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien » laissait entendre qu'il aurait pu avancer quelque chose.* **S'il annonçait les éclaircies à venir, il suffirait de le consulter pour prédire — et tout le métier de l'analyste tombe.**
+
+✅ **La phrase garde son contraste et perd le registre :** *« les autres prévoyaient, lui constatait. »* **Et le glossaire porte désormais la règle :** *une capsule y entre quand elle s'ouvre, jamais avant.*
+
+⚠️ *Reste à préciser un jour comment l'inscription se fait — l'autrice dit* « un peu comme si un signal lui était envoyé ». **Et ça touche l'interdit n° 10 : l'Archiviste ne s'explique jamais.**` },
+
+{ d:`20 août`, s:`Quatre corrections, dont un détail qui ne servait à rien`, e:`acquis`, t:[`écriture`],
+  v:`"Des bottes alignées à l'entrée, jamais par paires." : pourquoi ce detail ?`,
+  q:`**Aucune raison, et c'est la réponse honnête.** *C'était de la texture : dire qu'un lieu sert et que rien n'y appartient à personne.* ⛔ **Mais un détail sans emploi qui a l'air posé exprès invite à y chercher quelque chose** — exactement ce que le chapitre s'interdit ailleurs. **Coupé.**
+
+**Les trois autres :** *la capsule qu'on décroche est « considérée comme arrivée à maturité » — le doute revient dans la phrase, et la couleur ne se dit plus deux fois* ; *la règle des âges s'élargit à* « comme partout ailleurs », *ce qui la sort du service* ; *et Vera se lit en deux phrases au lieu d'une.*` },
+
 ];
