@@ -221,7 +221,7 @@ const TEXTES = [{
 [`p`,`Il y en avait partout, et jamais deux fois au même endroit.`],
 [`p`,`Une à hauteur de hanche, sur un coulant qui rampait le long d'un banc. Une autre à six mètres, seule, accrochée à une branche qui traversait le vide. Puis, dix pas plus loin, six collées les unes aux autres sur deux mètres, si serrées qu'il faudrait les décrocher dans l'ordre.`],
 [`p`,`Elles poussaient à plat, couchées sur ce qui les portait.`],
-[`p`,`Jeunes, elles avaient la couleur de la coulée. Puis elles la perdaient en mûrissant, jusqu'à prendre, à la fin, ce jaune très pâle, presque translucide, qui indiquait qu'elles étaient prêtes.`],
+[`p`,`Jeunes, elles avaient la couleur de la coulée. Puis elles la perdaient en mûrissant, jusqu'à prendre, à la fin, ce jaune orangé, presque translucide, qui indiquait qu'elles étaient prêtes.`],
 [`p`,`Pour aller chercher celles qui poussaient en hauteur, on montait des échafaudages. On les redescendait ensuite.`],
 [`p`,`C'était la serre.`],
 [`p`,`Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule arrivée au bout, la paroi tendue, translucide, d'un jaune orangé. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.`],

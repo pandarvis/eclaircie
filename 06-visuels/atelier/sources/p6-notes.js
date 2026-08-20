@@ -1591,12 +1591,14 @@ const NOTES = [
 
 **Dix-sept paragraphes en deviennent vingt-neuf**, et le chapitre perd cinquante mots au passage. *La description ne s'allonge pas : elle se coupe en respirations.*` },
 
-{ d:`20 août`, s:`La capsule mûre n'est pas blanche — et le chapitre se contredisait`, e:`ouvert`, t:[`monde`,`ruche`,`écriture`],
+{ d:`20 août`, s:`La capsule mûre n'est pas blanche — et le chapitre se contredisait`, e:`acquis`, t:[`monde`,`ruche`,`écriture`],
   v:`"une capsule presque blanche." ? elle s'étire pour les plus mûres par quelque chose de translucide, jaune orangé, mais pas blanc`,
   q:`**Le chapitre se contredisait lui-même à six lignes d'intervalle :** *un paragraphe disait déjà* « jusqu'au jaune très pâle, presque translucide, de la fin », *et le suivant* « une capsule presque blanche ».
 
 ✅ **Corrigé :** *« une capsule arrivée au bout, la paroi tendue, translucide, d'un jaune orangé ».* **Et l'entrée Éclaircie du glossaire porte enfin une couleur** — elle n'en donnait aucune, elle disait seulement « pâlit ». ⛔ *Jamais blanche.*
 
-⚠️ **Une nuance reste à trancher, et elle est à six lignes d'écart.** *Le paragraphe général dit* **jaune très pâle** *; celui de la capsule qu'on décroche dit* **jaune orangé**. **Les deux sont de toi, à quelques minutes d'intervalle.** *Si les plus mûres virent à l'orangé, le paragraphe général devrait le dire aussi ; sinon c'est l'autre qui doit pâlir.*` },
+⚠️ **Une nuance reste à trancher, et elle est à six lignes d'écart.** *Le paragraphe général dit* **jaune très pâle** *; celui de la capsule qu'on décroche dit* **jaune orangé**. **Les deux étaient de toi, à quelques minutes d'intervalle.**
+
+✅ **Tranché : jaune orangé, aux deux endroits.** *« Jaune très pâle » venait de l'ancien texte et a été repris sans être réexaminé ; « translucide, jaune orangé » est la formule donnée en décrivant le monde.* **Et une paroi qui s'étire ne va pas vers le pâle : elle va vers ce qu'on voit à travers.**` },
 
 ];
