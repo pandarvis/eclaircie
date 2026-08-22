@@ -37,7 +37,8 @@ nommé avant : c'est voulu, l'application doit démarrer quand tout est déjà l
 | `fabriquer-lecture.py` | **l'atelier de lecture, `../lecture.html` — la version qu'on donne à lire.** *Sommaire, chapitres sans leur appareil, gens écrits pour le lecteur, glossaire, les deux plans.* ⛔ **Le fichier ne contient pas la matière d'autrice, il ne se contente pas de la cacher** : le script vérifie qu'aucune note, scène, règle, fiche de personnage ou entrée de bible n'a fui dans la source. *Refabriqué à chaque `fabriquer.sh`* |
 | `pdf-recueil.py <sortie.html> <id…>` | **plusieurs chapitres à la suite, en une page imprimable.** *Chacun commence sur une page neuve ; aucun nombre de mots* |
 | `node tirer-le-pdf.js <entree.html> <sortie.pdf>` | **tire le PDF avec une numérotation en pied.** ⚠️ *Chrome n'implémente pas les boîtes de marge CSS — une numérotation écrite en `@bottom-center` ne sort jamais. On passe par le protocole, qui accepte un gabarit de pied : un numéro centré, ni date, ni titre, ni adresse du fichier* |
-| `verrouiller-les-textes.py` | **le verrou des textes validés.** `--verifier` (appelé par la fabrication), `--ouvrir <id>` pour une séance de correction demandée, `--poser` pour refermer |
+| `verrouiller-les-textes.py` | **le verrou des textes validés.** `--verifier` (appelé par la fabrication), `--ouvrir <id>` pour une séance de correction demandée, `--poser` pour refermer. **Il ne s'oppose pas à l'autrice :** une révision venue de l'atelier le rouvre et le repose toute seule |
+| `relire.py` | **le relevé des fautes mécaniques** d'un texte : espaces en double, mot écrit deux fois, ponctuation sans son espace. **Il signale et n'écrit rien** |
 | `reprendre-la-revision.py` | **rejoue sur `pB-textes.js` les corrections faites par l'autrice dans l'atelier.** Sans argument, il va chercher le dernier `eclaircie-revision-*.json` dans les téléchargements. `--voir` montre sans rien écrire |
 | `../../integrer-le-plan.py` | ré-injecte le plan de la ruche dans `p3-style.html`, `p4-corps.html` et `pC-ruche.js` |
 | `../../integrer-le-jardin.py` | ré-injecte le plan du jardin. **Il passe par une iframe** : aucune classe à renommer, isolation totale |
@@ -55,7 +56,7 @@ paragraphe touché, gardé dans le `localStorage` du navigateur. *Si le texte re
 
 1. elle corrige, la page compte les changements en bas ;
 2. **« enregistrer pour Claude »** dépose un `eclaircie-revision-<chapitre>.json` ;
-3. `python reprendre-la-revision.py` le rejoue sur `pB-textes.js` ;
+3. `python reprendre-la-revision.py` le rejoue sur `pB-textes.js`, **repose le verrou et l'inscrit dans `journal-des-revisions.md`** ;
 4. `sh fabriquer.sh`.
 
 ⚠️ **Chaque « avant » doit se retrouver une fois et une seule dans `pB-textes.js`, sinon le

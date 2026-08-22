@@ -1794,4 +1794,14 @@ const NOTES = [
 
 *L'épilogue n'y est pas — il est écrit, mais c'est la fin. Le sommaire le montre comme une ligne, sans texte.*` },
 
+{ d:`22 août`, s:`Le verrou reconnaît sa main`, e:`acquis`, t:[`atelier`,`écriture`],
+  v:`ah mais si c'est moi qui ecrit, c'est normal que je ne te demande pas ton accord pour deverouiller. du coup faut trouver une solution sinon il y a aucun interet à ce que je puisse corriger toute seule les petites choses.. dans un autre sens, c'est problématique que tu ne puisse pas corriger car je pourrais faire des fautes betes qui resteraient`,
+  q:`🔴 **Le verrou avait été posé contre moi, et il se refermait sur elle.** *Il existe parce que trois modifications étaient passées sur le chapitre premier sans que personne les demande — pas pour lui faire demander la permission de corriger son propre livre.*
+
+**Une révision venue de l'atelier ouvre et repose le verrou toute seule.** *reprendre-la-revision.py applique l'écart, repose l'empreinte, et inscrit la passe dans journal-des-revisions.md.* ⛔ **Le détour --ouvrir / --poser ne vaut plus que pour moi.**
+
+**L'autre moitié de la question : les fautes bêtes qui resteraient.** *relire.py relève le mécanique — l'espace en double, le mot écrit deux fois de suite, la ponctuation sans son espace : ce qui est faux quel que soit le sens de la phrase.* 🔴 **Il signale et n'écrit rien.** *Ce qui est vu se signale ; ça ne se corrige pas — la règle tient, mais elle ne coûte plus une faute qui dort.*
+
+⚠️ **Et le navigateur reste le maillon nu :** tant que « enregistrer pour Claude » n'a pas été cliqué, une correction ne vit qu'à un endroit et personne d'autre ne la voit.` },
+
 ];
