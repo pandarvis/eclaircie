@@ -404,7 +404,7 @@ const TEXTES = [{
 [`pause`,`· · ·`],
 [`p`,`La rue montait sans qu'on s'en aperçoive et les maisons se ressemblaient toutes. Un carré d'herbe devant, une allée de gravier jusqu'au perron, une boîte aux lettres sur son piquet. Celle de June était la quatrième après le tournant, avec un cerisier plein à craquer.`],
 [`p`,`Il sonna. L'attente fut courte.`],
-[`p`,`June ouvrit, un torchon à la main. La berceuse avait pris soin de tirer ses cheveux blonds en arrière et de les nouer bas, sans que cela la durcisse. Grande, fine, vêtue de presque rien qui se remarque, avec par-dessus un tablier qui avait déjà servi ce matin-là. Vingt-deux ans, à peu près.`],
+[`p`,`June ouvrit, un torchon à la main. Elle avait tiré ses cheveux blonds en arrière et les avait noués bas. Grande et fine, elle avait le visage d'une jeune femme au début de la vingtaine. Son tablier avait déjà servi ce matin-là. Elle le portait avec cette simplicité des vêtements qu'on enfile pour travailler, sans chercher à leur donner plus d'importance qu'ils n'en avaient.`],
 [`p`,`Si le métier lui avait appris quelque chose, c'était la douceur. C'était en tout cas ce qu'Andrew voyait d'elle à chacune de ses visites.`],
 [`p`,`Une berceuse prenait chez elle ceux qui arrivaient à quatorze ans, les accompagnait au quotidien pendant des années, puis les remettait à ses consœurs et confrères du jardin, passé huit ans. June en avait trois sous son toit.`],
 [`p`,`Le reste du métier ne s'écrivait nulle part et tenait en peu de mots. Aimer son prochain. C'était par ces hommes et ces femmes que les plus jeunes s'épanouissaient.`],
