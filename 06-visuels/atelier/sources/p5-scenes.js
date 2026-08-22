@@ -252,7 +252,11 @@ const SCENES = [
 
 ⛔ **Ce qu'il rouvre est son carnet, jamais le registre.** *Correction de l'autrice, 22 août 2026 : le registre est une salle, la ronde au cœur de la ruche — on n'y feuillette pas une page.* **Et elle est réservée à la scène 8**, où Andrew y revient pour de bon. *Ici, il rouvre la poche de sa blouse, et c'est tout.*
 
-⛔ **Et son trouble ne se nomme jamais.** *La fiche d'Andrew l'interdit : pas d'illumination, pas même atténuée — <em>il chasse l'idée</em>, <em>quelque chose lui échappe</em> sont faux.* **C'est le geste répété qui le dit** : il rouvre à la même page un matin pour vérifier une heure, il la rouvre le mardi suivant, et il ne vérifie rien.`,
+⛔ **Et son trouble ne se nomme jamais.** *La fiche d'Andrew l'interdit : pas d'illumination, pas même atténuée — <em>il chasse l'idée</em>, <em>quelque chose lui échappe</em> sont faux.*
+
+🔴 **Mais le geste seul ne suffisait pas, et l'autrice l'a repris le 22 août 2026 :** *« à un moment donné, ça l'interroge quoi, on peut pas appeler un chat un chien. »* **La sortie n'est pas de lui faire pressentir quelque chose : c'est de lui faire chercher un mot qu'il n'a pas.**
+
+✅ **Ce qui manque à Andrew n'est pas la compréhension, c'est la case.** *Il sait très bien ce qu'il a vu — le garçon levait la main quand l'autre levait la main — et il sait ce qu'est une observation : une capsule en retard, un instrument qui a sauté, une salle qu'on a changée.* **Un gosse qui imite un geste n'entre nulle part.** ⛔ *Il ne conclut rien, il ne pressent rien : il range le carnet et il va travailler.*`,
   garde_forme: `**Le déroulé, tel que l'autrice l'a posé :** ① il sonne, June ouvre sans surprise — description très brève ; ② Eliott, et c'est là que le lecteur le voit vraiment pour la première fois ; ③ ils sortent — **l'aquarium, décision du 22 août 2026, et ils entrent dedans** : *des couloirs sombres, des bassins, de quoi glisser de belles descriptions pendant qu'on traite la mélancolie du garçon* ; ④ au retour, l'école et le gymnase, en passant — **et le contraste est le sujet du chapitre** : *un lieu où on l'emmène et où il entre, une cour où il n'entrera jamais.*
 
 **Fin proposée :** *ils rentrent, Eliott passe la porte, Andrew reste une seconde devant.* **« Il ne compta pas les pas du retour »** — l'écho du chapitre premier dit qu'il est ailleurs sans dire où. ⛔ *Et le chapitre ne se ferme pas chez lui : le lecteur ne doit jamais voir où Andrew habite.*`,
