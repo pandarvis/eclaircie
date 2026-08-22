@@ -8,6 +8,23 @@
 
 ---
 
+## Elle en a trois à charge
+
+> **Décision de l'autrice, 22 août 2026.** *« Ça peut apporter un peu de profondeur à June qui
+> s'occupe de trois arrivants à la fois, Eliott étant le dernier arrivé. »*
+
+**Paul, Julie, et Eliott.** *Les deux premiers vivent là depuis plus longtemps que lui.*
+
+**Ce que ça change, et ce n'est pas rien :** elle n'est pas quelqu'un qui peine avec un garçon.
+**Elle est quelqu'un qui s'en occupe de trois et qui n'arrive pas à créer le lien avec
+celui-là.** *Son soulagement de voir arriver Andrew se comprend alors sans qu'une phrase ait à
+l'expliquer.*
+
+⚠️ **Et ils sont des témoins.** *On n'interroge pas une maison sans interroger ceux qui y
+vivent — ils reparaissent quand Joël et Liam viennent.* **Leurs âges restent à fixer.**
+
+Fiche : [`../06-visuels/atelier/`](../06-visuels/atelier/) — onglet Gens, « Paul et Julie ».
+
 ## État civil
 
 | | |
