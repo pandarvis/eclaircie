@@ -21,7 +21,9 @@ celui-là.** *Son soulagement de voir arriver Andrew se comprend alors sans qu'u
 l'expliquer.*
 
 ⚠️ **Et ils sont des témoins.** *On n'interroge pas une maison sans interroger ceux qui y
-vivent — ils reparaissent quand Joël et Liam viennent.* **Leurs âges restent à fixer.**
+vivent — ils sont là tous les deux quand Joël et Liam viennent.* ⛔ **Ultra-secondaires :
+deux apparitions en tout, et ils ne reviennent plus après cet entretien.** *Leurs âges
+restent à fixer.*
 
 Fiche : [`../06-visuels/atelier/`](../06-visuels/atelier/) — onglet Gens, « Paul et Julie ».
 
