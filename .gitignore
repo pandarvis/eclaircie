@@ -13,3 +13,5 @@ check.js
 combo.js
 sonde*.html
 vue*.html
+__pycache__/
+*.pyc

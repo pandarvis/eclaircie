@@ -4,11 +4,11 @@
 
 | | Chapitre | Mots | Scène | Écrit |
 |---|---|---|---|---|
-| **Prologue** | [La cérémonie](chapitres/L-Eclaircie-Prologue.pdf) | 2 639 | `ouv` | 17–18 août 2026 |
+| **Prologue** | [La cérémonie](chapitres/L-Eclaircie-Prologue.pdf) | 2 644 | `ouv` | 17–18 août 2026, corrigé le 22 |
 | **Chapitre premier** | [Une journée à la ruche](chapitres/L-Eclaircie-Chapitre-1.pdf) | 3 765 | `capsule` | 19 août 2026, seize passes |
 | **Épilogue** | [Épilogue](chapitres/L-Eclaircie-Epilogue.pdf) | 2 631 | `jardin-fin` | 16 août 2026 |
 
-**9 035 mots.** Le brouillon en cours d'un chapitre vit dans `chapitres/en-cours/` ; il n'a pas d'autorité sur l'atelier.
+**9 040 mots.** Le brouillon en cours d'un chapitre vit dans `chapitres/en-cours/` ; il n'a pas d'autorité sur l'atelier.
 
 ---
 
@@ -21,7 +21,25 @@
 une promesse* — `06-visuels/atelier/sources/textes-verrouilles.txt` porte l'empreinte de
 chacun, **et la fabrication de l'atelier refuse de tourner si l'un d'eux a changé.**
 
-*Pour en corriger un, quand elle le demande :*
+### Le verrou ne s'oppose jamais à l'autrice
+
+> **Règle, 22 août 2026 :** *« si c'est moi qui écris, c'est normal que je ne te demande pas
+> ton accord pour déverrouiller. »*
+
+**Le verrou est là pour empêcher une correction que personne n'a demandée — pas pour
+l'empêcher, elle, de corriger son propre livre.** *Quand une correction vient de l'atelier,*
+`reprendre-la-revision.py` *l'applique, repose le verrou tout seul et l'inscrit au journal.*
+**Elle n'a rien à ouvrir, rien à refermer, rien à demander.**
+
+*Son circuit, en entier :*
+
+```
+… elle corrige dans l'atelier, puis « enregistrer pour Claude » …
+python reprendre-la-revision.py        applique, repose le verrou, journalise
+python relire.py prologue              le relevé des fautes mécaniques
+```
+
+*Le mien, quand elle demande une séance de correction :*
 
 ```
 python verrouiller-les-textes.py --ouvrir chapitre-1
@@ -29,8 +47,14 @@ python verrouiller-les-textes.py --ouvrir chapitre-1
 python verrouiller-les-textes.py --poser
 ```
 
-**Le détour est volontaire.** *C'est ce qui empêche une correction de passer sans que personne
-l'ait demandée.*
+**Le détour ne vaut que pour moi.** *C'est ce qui empêche une correction de passer sans que
+personne l'ait demandée.*
+
+### Les fautes bêtes
+
+**`relire.py` signale, et ne corrige pas.** *Il ne cherche que le mécanique — l'espace en
+double, le mot écrit deux fois de suite, la ponctuation sans son espace : ce qui est faux quel
+que soit le sens de la phrase.* **Ce qu'il trouve part en liste ; c'est elle qui tranche.**
 
 ## ⛔ On ne touche pas à un texte hors séance
 
