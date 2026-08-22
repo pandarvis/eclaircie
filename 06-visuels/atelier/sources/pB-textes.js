@@ -404,7 +404,7 @@ const TEXTES = [{
 [`pause`,`· · ·`],
 [`p`,`La rue montait sans qu'on s'en aperçoive et les maisons se ressemblaient toutes. Un carré d'herbe devant, une allée de gravier jusqu'au perron, une boîte aux lettres sur son piquet. Celle de June était la quatrième après le tournant, avec un cerisier qui n'avait plus rien à donner à cette saison.`],
 [`p`,`Il sonna. L'attente fut courte.`],
-[`p`,`June ouvrit, un torchon à la main. Blonde, les cheveux tirés en arrière et noués bas, sans que ça la durcisse. Élancée, des vêtements simples, un tablier par-dessus. Vingt-deux ans, à peu près, et berceuse depuis plus longtemps que ça.`],
+[`p`,`June ouvrit, un torchon à la main. Blonde, les cheveux tirés en arrière et noués bas, sans que ça la durcisse. Élancée, des vêtements simples, un tablier par-dessus. Vingt-deux ans, à peu près, et berceuse.`],
 [`tiret`,`— Ah, bonjour. Entrez, entrez.`],
 [`p`,`Elle s'essuya les mains à son tablier et s'écarta pour le laisser passer. Elle avait la manche gauche remontée plus haut que l'autre.`],
 [`tiret`,`— Il finit quelque chose là-haut, il en a pour deux minutes. Vous prendrez bien un verre d'eau, il fait une chaleur.`],
