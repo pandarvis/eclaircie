@@ -301,7 +301,7 @@ const SCENES = [
     `⚠️ **La tournée se fabrique ici, et elle sert encore — autrement.** *Andrew la refera seul à la scène 17 c, comme la dernière fois qu'il l'a vu dans ce contexte de sortie.* **Les lieux doivent donc être sur la page, nommés banalement, comme du décor qu'on traverse** — sinon le lecteur ne peut pas revenir en arrière et retrouver l'endroit.`,
     `⛔ **Aucune insistance sur l'itinéraire.** *Rien qui ait l'air d'être posé pour servir.*`,
     `⛔ **L'école n'est plus ici.** *Elle est passée à la visite précédente, avec la découverte — décision du 22 août 2026.*`,
-    `🔴 **Le sifflet tombe ici, et il a un motif.** *Décision de l'autrice, 22 août 2026 : en marchant, Eliott aperçoit Paul ou Julie — l'un des deux autres arrivants de chez June — et le siffle entre ses doigts pour l'interpeller.* **— Tu vas où ? — June m'a demandé de récupérer du lait !** *Deux répliques, et on repart.*`,
+    `🔴 **Le sifflet tombe ici, et il a un motif.** *Décision de l'autrice, 22 août 2026 : en marchant, Eliott aperçoit Julie — l'une des deux autres arrivantes de chez June — et la siffle entre ses doigts pour l'interpeller.* **— Tu vas où ? — June m'a demandé de récupérer du lait !** *Deux répliques, et on repart.*`,
     `🔴 **Et c'est le seul geste qu'Andrew relève de tout le livre.** *Décision de l'autrice, 22 août 2026 : il s'en étonne — personne ne fait ça ici pour appeler quelqu'un.* **Il demande, Eliott ne sait pas répondre, et on passe.** ⛔ *Il n'en fait rien : pas de note, pas de retour, pas une pensée plus loin.*`,
     `✅ **Pourquoi ce geste-là et pas un autre : c'est le seul des trois qui ne prouve rien.** *Un sifflement ne se vérifie pas, ne se recoupe pas, ne mène nulle part — quelqu'un d'ici pourrait l'apprendre demain.* 🔴 **Et ça achète une chose précieuse : le lecteur voit qu'Andrew est capable de tiquer.** *Alors quand il ne tique pas sur la phrase de l'épicerie, ce n'est plus le narrateur qui triche — c'est lui qui n'a rien vu.* **Son silence sur le reste devient crédible parce qu'il a parlé une fois.**`,
     `⚠️ **L'homme qui remarque ce qui ne compte pas et manque ce qui compte.** *C'est sa faille écrite en une scène de dix lignes, et personne ne la nomme.*`,
@@ -319,7 +319,7 @@ const SCENES = [
 
 **Et c'est là que le livre se retourne :** ce que le garçon racontait lui a valu de n'être cru par personne, et ça l'a blessé. **Ce sont ces mêmes mots, faux, moqués, qui amèneront Andrew au bon endroit.** *Rien n'est vérifié pour autant : l'épicerie est bien une épicerie. Il avait tort, et il sauve tout.*` }],
   ouvert: [`⚠️ **Ce que le lecteur entend de la conversation avec June.** *Tout, ou seulement la fin ? Andrew est sur le pas de la porte, et ce genre de conversation commence toujours avant qu'on l'écoute.*`,
-           `✅ **Ils ont un nom et ils restent : Paul et Julie.** *Décision de l'autrice, 22 août 2026.* **Ils sont donc des témoins, et ils reparaissent quand Joël et Liam viennent chez June** — *sinon l'enquête aurait un trou : on n'interroge pas une maison sans interroger ceux qui y vivent.* ⚠️ *Leurs âges restent à fixer.*`,
+           `✅ **Ils ont un nom et ils restent : Paul et Julie.** *Décision de l'autrice, 22 août 2026 — c'est Julie qu'il siffle.* **Ils reparaissent une fois, quand Joël et Liam viennent chez June, et plus jamais après** — *sinon l'enquête aurait un trou : on n'interroge pas une maison sans interroger ceux qui y vivent.* ⛔ **Ultra-secondaires, et ils le restent.** ⚠️ *Leurs âges sont à fixer.*`,
            `**Où le lecteur apprend ce qu'est un porteur de voiles s'il ne l'apprend pas d'elle.** *Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.*`],
   src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/june.md §2 bis — décisions du 22 août 2026`
 },
@@ -418,6 +418,7 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   gardes: [
     `Sa terreur de l'eau ne s'explique pas, ne se commente pas, et ne revient pas comme motif.`,
     `June restitue sans rien ajouter. Elle ne conclut jamais rien.`,
+    `🔴 **Paul et Julie sont présents tous les deux.** *Décision de l'autrice, 22 août 2026 : on n'interroge pas une maison sans interroger ceux qui y vivent.* ⛔ **Ils ne savent rien** — *ils vivaient avec lui, ils ne l'ont pas suivi au travail, et ce qu'ils disent ne fait avancer personne.* **C'est leur dernière apparition du livre.**`,
     `🔴 **La colère est unique, et c'est ici qu'on l'apprend.** *Décision de l'autrice, 22 août 2026 : une seule fois, jamais comprise, jamais expliquée.* ⛔ **Aucune colère au pluriel dans les chapitres d'avant** — *June s'y inquiète qu'il n'aille pas bien, refermé, en difficulté, et rien de plus.* **Le motif est le reliquat corporel de la noyade : le banaliser tôt le dépense.**`
   ],
   phrases: [{ t: `il s'est mis dans une colère noire, ça ne lui ressemblait pas`, n: `Formulation de l'autrice, à garder.` }],
@@ -431,15 +432,16 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   face: `g-fac`,
   titre: `Sur son lieu de travail`,
   statut: `acquis`,
-  resume: `Le portage — une tournée, et c'est elle qui fait passer Eliott dans les rues d'ici. Le responsable donne sa version : la veille, Eliott était impliqué dans une bagarre avec un homme de vingt-deux ans. Il l'a congédié sur-le-champ, après plusieurs sommations, quand l'homme est devenu insultant et haineux.`,
+  resume: `Le portage — une tournée, et c'est elle qui fait passer Eliott dans les rues d'ici. **Henri**, le responsable, donne sa version : la veille, Eliott était impliqué dans une bagarre avec un homme de vingt-deux ans. Il l'a congédié sur-le-champ, après plusieurs sommations, quand l'homme est devenu insultant et haineux.`,
   produit: `L'économie de ce monde : qui travaille, à quelles conditions, et ce qu'on tolère pour tenir un effectif. Le responsable semble blasé, comme si ce n'était pas la première fois — des marginaux, il y en a partout, il faut vivre avec en limitant les débordements.`,
   monde: `Le travail des jeunes arrivants, l'exclusion temporaire, le seuil de tolérance d'une société qui a besoin de ses effectifs.`,
   qui: [`marginal`,`andrew`,`isaac`],
   gardes: [
+    `🔴 **Le responsable a un nom : Henri.** *Décision de l'autrice, 22 août 2026.*`,
     `Le responsable ne formule jamais la doctrine. Il est blasé, il a un effectif à tenir, c'est tout.`,
     `Sa position sur les jeunes arrivants doit rester neutre — ni tendresse, ni mépris.`
   ],
-  phrases: [{ t: `On les fait travailler pour que le reste du monde le supporte.`, n: `Retenue par l'autrice comme réplique du responsable, quand on lui demande pourquoi la sortie du marginal ne lui fait pas plus d'effet que ça.` }],
+  phrases: [{ t: `On les fait travailler pour que le reste du monde le supporte.`, n: `Retenue par l'autrice comme réplique d'Henri, quand on lui demande pourquoi la sortie du marginal ne lui fait pas plus d'effet que ça.` }],
   ouvert: [`Le prénom de l'homme de vingt-deux ans. Un nom d'éclaircie. Il traverse huit scènes sans être nommé.`,
            `Ce que le portage porte exactement, à qui, et sur quel périmètre.`],
   src: `04-plan/le-parcours-de-l-enquete.md §2`
