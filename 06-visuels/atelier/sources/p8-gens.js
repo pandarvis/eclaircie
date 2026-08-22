@@ -91,6 +91,9 @@ const GENS = [
   clef:`✅ **Sa réserve à l'épilogue n'est pas du chagrin : elle sait qu'elle le rejoindra.** *Trouvaille de l'autrice, 17 août 2026.* **On peut rendre visite au jardin — c'est autorisé et ça se fait.** Mais elle ne sait pas combien de temps il lui reste comme berceuse, et une promesse de visite serait donc une promesse qu'elle ne tient pas. *C'est compliqué à répondre, et heureusement Eliott ne le lui demande pas.*
 
 **Conséquence sur ses adieux :** *tu vas être bien là-dedans, mieux qu'avec moi* cesse d'être ce qu'on dit à un mourant. **C'est quelqu'un qui sait que l'endroit est bien, puisqu'elle y sera.** — *Et c'est Andrew qui répond à sa place, une fois qu'elle est partie : « t'inquiète pas, elle viendra te voir, tu la connais ».*`,
+  portrait:[`**Donné par l'autrice le 22 août 2026, et court par consigne.** *Blonde, les cheveux tirés en arrière et noués bas, sans que ça la durcisse. Élancée, des vêtements simples, un tablier par-dessus.* **Vingt-deux ans, à peu près.**`,
+    `⛔ **Rien de strict.** *La coiffure tirée pourrait faire sévère et ne le fait pas — c'est la seule chose que le portrait ait à corriger.*`,
+    `**Elle est nommée dès la porte.** *Andrew la connaît : écrire « une jeune femme lui ouvrit » supposerait un narrateur qui la découvre, et le livre n'en a pas.* **Le lecteur reçoit le nom et le visage en même temps.**`],
   gardes:[`Elle ne signale rien et ne vient trouver personne. Toute version qui lui donne ce rôle est périmée.`,
     `Elle n'est pas un relais d'information : elle est un lieu où la nouvelle attend.`,
     `Si une seule de ses répliques a l'air d'appeler Andrew à faire quelque chose, la séquence bascule.`,
