@@ -412,7 +412,7 @@ const TEXTES = [{
 [`p`,`Si le métier lui avait appris quelque chose, c'était la douceur. C'était en tout cas ce qu'Andrew voyait d'elle à chacune de ses visites.`],
 [`p`,`Une berceuse prenait chez elle ceux qui arrivaient à quatorze ans, les accompagnait au quotidien pendant des années, puis les remettait à ses consœurs et confrères du jardin, passé huit ans. June en avait trois sous son toit.`],
 [`p`,`Le reste du métier ne s'écrivait nulle part et tenait en peu de mots. Aimer son prochain. C'était par ces hommes et ces femmes que les plus jeunes s'épanouissaient.`],
-[`tiret`,`— Ah, bonjour. Entrez, entrez.`],
+[`tiret`,`— Andrew, bonjour. Entrez, entrez.`],
 [`p`,`Elle s'essuya les mains à son tablier et s'écarta pour le laisser passer. Sa manche gauche était remontée un peu plus haut que l'autre.`],
 [`p`,`Il entra dans le séjour. La pièce faisait aussi office de salle à manger et de cuisine, sans séparation véritable. Le canapé occupait un côté, la table l'autre, et le plan de travail courait au fond.`],
 [`p`,`Elle le dépassa et retourna à sa planche.`],
@@ -458,7 +458,7 @@ const TEXTES = [{
 [`tiret`,`— On sort ?`],
 [`p`,`Eliott regarda June, qui lui montra la porte avec le menton.`],
 [`tiret`,`— On va où ?`],
-[`tiret`,`— Tu verras.`],
+[`tiret`,`— Tu verras, répondit le veilleur.`],
 [`tiret`,`— Je déteste quand vous dites ça.`],
 [`p`,`Il s'assit par terre dans le couloir pour mettre ses chaussures, et il y mit plus de temps qu'il n'en fallait. June rouvrit la porte pour eux et la tint jusqu'à ce qu'ils soient dehors tous les deux.`],
 
