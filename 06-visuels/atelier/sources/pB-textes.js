@@ -404,7 +404,7 @@ const TEXTES = [{
 [`p`,`Ce qu'il aurait mis dans la case, il n'aurait pas su le dire. Le garçon avait imité l'autre geste pour geste et l'autre s'en était aperçu ; ça s'était arrêté là.`],
 [`p`,`Il aurait fallu écrire pourquoi il l'avait imité.`],
 [`p`,`Ça ne faisait pas une observation. Une observation, c'était une capsule qui prenait du retard, un instrument qui avait sauté, une salle qu'on avait changée. Il n'y avait pas de case pour une question.`],
-[`p`,`Il rangea le carnet et descendit prendre sa première travée.`],
+[`p`,`Il remit le carnet dans sa poche et alla ouvrir sa salle.`],
 [`pause`,`· · ·`],
 [`p`,`La rue montait sans qu'on s'en aperçoive et les maisons se ressemblaient toutes. Un carré d'herbe devant, une allée de gravier jusqu'au perron, une boîte aux lettres sur son piquet. Celle de June était la quatrième après le tournant, avec un cerisier plein à craquer.`],
 [`p`,`Il sonna. L'attente fut courte.`],

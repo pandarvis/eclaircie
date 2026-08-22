@@ -260,7 +260,9 @@ const SCENES = [
 
 🔴 **Et le fait tient en une phrase — reprise de l'autrice, 22 août 2026 :** *« il l'a imité, l'autre s'est arrêté, ça a cassé l'action, fin de l'histoire. La question est, pourquoi il a cherché à l'imiter ? »* **C'est la question qui doit rester sur la page, pas le détail des gestes.**
 
-✅ **D'où la chute : il n'y avait pas de case pour une question.** *La colonne attend un fait ; il n'a qu'un pourquoi.* ⛔ *Il ne conclut rien, il ne pressent rien : il range le carnet et il va travailler.*`,
+✅ **D'où la chute : il n'y avait pas de case pour une question.** *La colonne attend un fait ; il n'a qu'un pourquoi.* ⛔ *Il ne conclut rien, il ne pressent rien : il remet le carnet dans sa poche et il va ouvrir sa salle.*
+
+⛔ **Un veilleur prend une salle, pas une travée.** *J'avais écrit « il descendit prendre sa première travée » : le chapitre premier dit le contraire — les travées ont une salle en face, et c'est la salle qui revient au veilleur.* **Et rien ne le place à un étage : il ne descend nulle part.**`,
   garde_forme: `**Le déroulé, tel que l'autrice l'a posé :** ① il sonne, June ouvre sans surprise — description très brève ; ② Eliott, et c'est là que le lecteur le voit vraiment pour la première fois ; ③ ils sortent — **l'aquarium, décision du 22 août 2026, et ils entrent dedans** : *des couloirs sombres, des bassins, de quoi glisser de belles descriptions pendant qu'on traite la mélancolie du garçon* ; ④ au retour, l'école et le gymnase, en passant — **et le contraste est le sujet du chapitre** : *un lieu où on l'emmène et où il entre, une cour où il n'entrera jamais.*
 
 **Fin proposée :** *ils rentrent, Eliott passe la porte, Andrew reste une seconde devant.* **« Il ne compta pas les pas du retour »** — l'écho du chapitre premier dit qu'il est ailleurs sans dire où. ⛔ *Et le chapitre ne se ferme pas chez lui : le lecteur ne doit jamais voir où Andrew habite.*`,
