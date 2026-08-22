@@ -30,7 +30,7 @@ const TEXTES = [{
 
 [`pause`,`· · ·`],
 
-[`p`,`Deux nouvelles personnes, des préparateurs, entrèrent à leur tour et firent rouler deux chariots jusqu'à leur poste respectif, et un murmure parcourut le petit groupe.`],
+[`p`,`Deux nouvelles personnes, des préparateurs, entrèrent à leur tour et firent rouler deux chariots jusqu'à leur poste respectif ; un murmure parcourut le petit groupe.`],
 [`p`,`Ils étaient de la serre. C'étaient eux qui vivaient au milieu de la coulée, qui la suivaient d'un bout à l'autre, qui savaient déterminer à la main quand une capsule était prête et qui, après validation interne, la décrochaient.`],
 [`p`,`Les deux éclaircies du jour étaient couchées côte à côte, comme on les avait cueillies. Une capsule, ça ne pousse pas debout : ça pousse à plat sur le coulant, en rang avec les autres, et il faut la détacher de ce qui la porte. Celles-ci étaient venues dans la nuit, toutes les deux, d'un coup, à quelques travées l'une de l'autre, et il avait fallu monter la cérémonie au matin.`],
 [`p`,`Elles faisaient la longueur d'un corps et un peu plus. Larges au milieu, effilées aux deux bouts, avec cette dissymétrie qu'ont les choses qui ont poussé : un flanc plus plein que l'autre, une courbe qui reprenait là où on ne l'attendait pas. Des nervures couraient sur toute la longueur, très fines, serrées près des pointes et écartées au ventre, et elles se rejoignaient sans jamais tout à fait se toucher. Rien là-dedans n'avait été dessiné.`],
