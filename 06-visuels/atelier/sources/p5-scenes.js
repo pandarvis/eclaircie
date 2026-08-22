@@ -256,7 +256,11 @@ const SCENES = [
 
 🔴 **Mais le geste seul ne suffisait pas, et l'autrice l'a repris le 22 août 2026 :** *« à un moment donné, ça l'interroge quoi, on peut pas appeler un chat un chien. »* **La sortie n'est pas de lui faire pressentir quelque chose : c'est de lui faire chercher un mot qu'il n'a pas.**
 
-✅ **Ce qui manque à Andrew n'est pas la compréhension, c'est la case.** *Il sait très bien ce qu'il a vu — le garçon levait la main quand l'autre levait la main — et il sait ce qu'est une observation : une capsule en retard, un instrument qui a sauté, une salle qu'on a changée.* **Un gosse qui imite un geste n'entre nulle part.** ⛔ *Il ne conclut rien, il ne pressent rien : il range le carnet et il va travailler.*`,
+✅ **Ce qui manque à Andrew n'est pas la compréhension, c'est la case.** *Il sait ce qu'il a vu et il sait ce qu'est une observation : une capsule en retard, un instrument qui a sauté, une salle qu'on a changée.*
+
+🔴 **Et le fait tient en une phrase — reprise de l'autrice, 22 août 2026 :** *« il l'a imité, l'autre s'est arrêté, ça a cassé l'action, fin de l'histoire. La question est, pourquoi il a cherché à l'imiter ? »* **C'est la question qui doit rester sur la page, pas le détail des gestes.**
+
+✅ **D'où la chute : il n'y avait pas de case pour une question.** *La colonne attend un fait ; il n'a qu'un pourquoi.* ⛔ *Il ne conclut rien, il ne pressent rien : il range le carnet et il va travailler.*`,
   garde_forme: `**Le déroulé, tel que l'autrice l'a posé :** ① il sonne, June ouvre sans surprise — description très brève ; ② Eliott, et c'est là que le lecteur le voit vraiment pour la première fois ; ③ ils sortent — **l'aquarium, décision du 22 août 2026, et ils entrent dedans** : *des couloirs sombres, des bassins, de quoi glisser de belles descriptions pendant qu'on traite la mélancolie du garçon* ; ④ au retour, l'école et le gymnase, en passant — **et le contraste est le sujet du chapitre** : *un lieu où on l'emmène et où il entre, une cour où il n'entrera jamais.*
 
 **Fin proposée :** *ils rentrent, Eliott passe la porte, Andrew reste une seconde devant.* **« Il ne compta pas les pas du retour »** — l'écho du chapitre premier dit qu'il est ailleurs sans dire où. ⛔ *Et le chapitre ne se ferme pas chez lui : le lecteur ne doit jamais voir où Andrew habite.*`,
