@@ -36,10 +36,11 @@ mots revenir.**
 
 **Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes, et l'arrivant passe de l'un
 à l'autre à huit ans, quand il entre au jardin.** Ceux de la tranche haute — quatorze à huit —
-suivent chacun leurs arrivants et leur apprennent ce qu'il faut pour leur âge : ni école, ni
-tuteur. **Ceux du jardin, eux, ne sont attachés à personne en particulier : ils tiennent un
-dortoir, un groupe, une zone**, et ce sont eux qui nomment les arrivants de huit ans et moins.
-**Métier payé, métier mixte, et c'est aussi de la tendresse.**
+suivent chacun leurs arrivants et les instruisent eux-mêmes : ni école, ni tuteur, et ils ne
+passent la main que pour ce qu'ils ne peuvent donner seuls, comme la natation. **Ceux du
+jardin ne sont attachés à personne : ils tiennent un dortoir, un groupe, une zone**, et ce
+sont eux qui nomment les arrivants de huit ans et moins. **Métier payé, mixte, et c'est aussi
+de la tendresse.**
 
 **Bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le
 service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont les
@@ -108,9 +109,10 @@ blanche.* **C'est le seul signe lisible du métier** — une capsule claire va s
 **École.** Obligatoire pour tout arrivant qui aura une vie active devant lui. **On n'y apprend
 pas un métier : on y apprend le monde.** Pour qui arrive très âgé, elle va de nos petites
 classes jusqu'au collège, et elle prend des années ; les autres n'ont que des cours accélérés
-du soir. Les formateurs sont toujours plus jeunes que leurs apprenants, et personne n'y trouve
-rien à redire. ⛔ **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là
-relèvent d'un berceur, qui leur apprend ce qu'il faut pour leur âge.
+du soir, autour de cinquante à soixante-dix ans. Les formateurs sont toujours plus jeunes que
+leurs apprenants, et personne n'y trouve rien à redire. ⛔ **Elle ne concerne pas la tranche
+des quatorze à huit ans** : ceux-là relèvent d'un berceur, qui leur apprend ce qu'il faut pour
+leur âge.
 
 **Jardin.** Le dernier lieu de vie : **la tranche de huit ans à zéro, tout entière.**
 Quiconque a huit ans ou moins y est, quel que soit le sens de sa trajectoire, et on n'en sort
