@@ -446,6 +446,11 @@ const TEXTES = [{
 `<strong>Julie porte l'inversion des âges, et personne ne l'explique.</strong> <em>Elle a dix ans, elle réparait des toits, et elle est chez elle.</em> Eliott bute dessus en trois répliques, Andrew répond deux mots, et on passe.`,
 `<strong>Paul entre par une phrase et n'apparaît pas.</strong> <em>Il compte les jours à l'envers depuis un mois.</em> Ce qu'est une entrée au jardin n'est pas décrit : l'épilogue est là pour ça.`
   ],
+  ouvre: [
+`<strong>Le titre.</strong> <em>L'aquarium suit la forme des deux autres, qui nomment un lieu — mais il dit peut-être trop tôt où ils vont.</em>`,
+`<strong>Le portrait d'Eliott tient en un bloc, à la descente de l'escalier.</strong> <em>S'il arrête le chapitre, le corps peut repartir dehors, en marchant, et ne laisser ici que le visage.</em>`,
+`<strong>Combien de lieux du rituel sont montrés.</strong> <em>L'aquarium occupe déjà tout l'aller ; un second ferait visite guidée.</em>`
+  ],
   note: `⚠️ <strong>Premier jet du premier mouvement, 22 août 2026.</strong> <em>La maison, jusqu'à la sortie.</em> <strong>La suite — l'aquarium, puis l'école au retour — vient après ta lecture.</strong>
 
 <strong>Le titre est provisoire.</strong> <em>Il suit la forme des deux autres, qui nomment un lieu ; s'il en dit trop tôt sur la sortie, il saute.</em>`

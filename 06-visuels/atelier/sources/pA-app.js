@@ -935,9 +935,9 @@ function rendreTextes(){
         <button id="x-tel">télécharger .txt</button>
         ${sc ? `<button id="x-scene">voir la scène</button>` : ``}
       </div>
-      <div class="bl"><h4>Ce que c'est</h4><p>${t.note}</p></div>
-      <div class="bl tenu"><h4>Ce que le texte tient</h4><ul>${t.tenu.map(x => `<li>${x}</li>`).join(``)}</ul></div>
-      <div class="bl ouvre"><h4>Ce qu'il laisse ouvert</h4><ul>${t.ouvre.map(x => `<li>${x}</li>`).join(``)}</ul></div>
+      <div class="bl"><h4>Ce que c'est</h4><p>${t.note || ``}</p></div>
+      <div class="bl tenu"><h4>Ce que le texte tient</h4><ul>${(t.tenu || []).map(x => `<li>${x}</li>`).join(``)}</ul></div>
+      <div class="bl ouvre"><h4>Ce qu'il laisse ouvert</h4><ul>${(t.ouvre || []).map(x => `<li>${x}</li>`).join(``)}</ul></div>
      </aside>`;
 
   $(`#x-reviser`).addEventListener(`click`, () => {

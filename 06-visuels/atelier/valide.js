@@ -84,6 +84,17 @@ d.SCENES.forEach(s => { if (!voies.includes(s.row)) pb.push('voie inconnue : ' +
   }));
 });
 
+/* un chapitre sans son appareil aveugle son onglet : la vue lit note,
+   tenu et ouvre sans filet, et une exception laisse l'onglet precedent
+   a l'ecran. Le 22 aout 2026, le chapitre deuxieme est sorti sans ouvre
+   et il affichait le chapitre premier. */
+d.TEXTES.forEach((t, i) => {
+  [`note`, `tenu`, `ouvre`].forEach(c => {
+    if (t[c] === undefined)
+      pb.push(`chapitre ` + (t.id || i) + ` : le champ ` + c + ` manque, son onglet n'afficherait rien`);
+  });
+});
+
 /* les mots que le texte du roman ne peut pas employer */
 /* liste arretee par l'autrice le 18 aout 2026 : les mots d'apparence physique passent
    (un gars, un garcon, une femme, une fille, une fillette) ; c'est la categorie sociale
