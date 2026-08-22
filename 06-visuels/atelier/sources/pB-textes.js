@@ -399,8 +399,8 @@ const TEXTES = [{
   p: [
 
 [`p`,`Il n'avait rien écrit dans la case.`],
-[`p`,`La ligne était partie aux archives avec celles de la semaine. Il redemanda le registre trois jours plus tard, pour vérifier une heure sur une autre page, et il l'ouvrit à celle-là. Le jour, les travées, l'heure, les âges relevés, les mots, les numéros. Tout y était. Le bout de la ligne était blanc.`],
-[`p`,`Il le redemanda le mardi suivant. On le lui donna sans rien lui demander, comme la première fois.`],
+[`p`,`Le carnet resta dans la poche de sa blouse toute la semaine, et les pages s'empilèrent par-dessus. Il le rouvrit un matin avant de commencer, à celle-là, pour vérifier une heure. Le jour, les deux travées, l'heure, les âges relevés, les deux mots, les deux numéros. Tout y était. Le bout de la ligne était blanc.`],
+[`p`,`Il le rouvrit à la même page le mardi suivant, et il ne vérifia rien.`],
 [`pause`,`· · ·`],
 [`p`,`Les berceuses habitaient toutes le même quartier, du côté du jardin. Des maisons basses, chacune la sienne, avec un carré d'herbe devant et une allée de gravier qui montait jusqu'au perron. Une boîte aux lettres sur son piquet. Celle de June était la quatrième après le tournant, avec un cerisier qui n'avait plus rien à donner à cette saison.`],
 [`p`,`Il sonna.`],
