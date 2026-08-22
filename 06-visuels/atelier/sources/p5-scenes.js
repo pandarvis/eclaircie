@@ -419,6 +419,7 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
     `Sa terreur de l'eau ne s'explique pas, ne se commente pas, et ne revient pas comme motif.`,
     `June restitue sans rien ajouter. Elle ne conclut jamais rien.`,
     `🔴 **Paul et Julie sont présents tous les deux.** *Décision de l'autrice, 22 août 2026 : on n'interroge pas une maison sans interroger ceux qui y vivent.* ⛔ **Ils ne savent rien** — *ils vivaient avec lui, ils ne l'ont pas suivi au travail, et ce qu'ils disent ne fait avancer personne.* **C'est leur dernière apparition du livre.**`,
+    `🔴 **June seule parle de son comportement et du cours de natation.** *Décision de l'autrice, 22 août 2026 : la parole utile est à elle, et à personne d'autre dans cette maison.* ⛔ **Et leur non-savoir doit être actif :** *on leur demande forcément s'il leur a parlé de quelque chose — ils répondent, et leur réponse ne sert à rien.* **Un témoin présent qui n'apporte rien doit avoir l'air de n'avoir rien, pas d'être escamoté.**`,
     `🔴 **La colère est unique, et c'est ici qu'on l'apprend.** *Décision de l'autrice, 22 août 2026 : une seule fois, jamais comprise, jamais expliquée.* ⛔ **Aucune colère au pluriel dans les chapitres d'avant** — *June s'y inquiète qu'il n'aille pas bien, refermé, en difficulté, et rien de plus.* **Le motif est le reliquat corporel de la noyade : le banaliser tôt le dépense.**`
   ],
   phrases: [{ t: `il s'est mis dans une colère noire, ça ne lui ressemblait pas`, n: `Formulation de l'autrice, à garder.` }],
