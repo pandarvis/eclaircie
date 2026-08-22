@@ -156,6 +156,18 @@ Rappel du §14 :
 
 > **L'autrice doit connaître le système au chiffre près, pour que le monde soit solide. Le lecteur doit juste savoir qui envier.**
 
+## Et le vocabulaire des objets n'est pas un interdit non plus
+
+> **Décision de l'autrice, 22 août 2026.** *« On reste dans un monde alternatif. Il y a des technologies qui ont évolué ici aussi, elles s'appellent peut-être pas de la même manière, mais on parle déjà de voiture par exemple. Si on doit trouver un nom à chaque objet différent du nom qu'on a ici, le glossaire va juste exploser inutilement. Et à chaque fois qu'on sera dans des chapitres Joël, on sera cramé direct. »*
+
+**Les trois catégories du n° 11 visent des mots qui ne désignent rien ici** — la parenté, les noms de famille, l'enfance et la vieillesse comme catégories. *Ils n'ont pas d'objet, c'est pour ça qu'ils sont interdits.*
+
+⛔ **Un objet qui existe des deux côtés garde son nom des deux côtés.** *Une voiture est une voiture. Un biberon est un biberon. Un poteau, une porte, une caisse, un trottoir.* **On ne rebaptise rien.**
+
+🔴 **Et ce n'est pas une facilité, c'est une exigence du dispositif.** *Les chapitres de Joël doivent être superposables à ceux d'Andrew* — **un vocabulaire d'objets qui changerait d'un monde à l'autre trahirait la couture à la première page**, et le lecteur saurait au mot près quand il change de récit. *Ce qui change entre les deux mondes, ce sont les mots qui n'ont pas d'objet. Pas les choses.*
+
+*Voir aussi la section « Ce qui vaut pour les trois » du n° 11 : la langue change avec le monde, mais elle ne change que là où le monde a réellement changé.*
+
 
 ---
 
