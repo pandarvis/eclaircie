@@ -102,13 +102,15 @@ const GENS = [
   src:`03-personnages/june.md` },
 
 { id:`paul-julie`, nom:`Paul et Julie`, voie:`andrew`, role:`Les deux autres arrivants de chez June.`,
-  age:`🔴 **Paul a huit ans, Julie en a dix — décision de l'autrice, 22 août 2026.** *Paul rejoint le jardin dans quelques semaines.* **Julie est arrivée vers soixante ou soixante-dix ans** — *le livre ne le dit pas et s'en moque : ce qui compte est qu'elle ait le même âge qu'Eliott avec un demi-siècle de vécu derrière elle.*`,
+  age:`🔴 **Paul a huit ans, Julie en a dix — décision de l'autrice, 22 août 2026.** *Paul rejoint le jardin dans quelques semaines.* **Julie est arrivée dans ce monde vers soixante ou soixante-dix ans** — *le livre ne le dit pas et s'en moque.* ⛔ **Elle n'est pas chez June depuis cinquante ans pour autant :** *elle a eu son école, ses tuteurs, un métier, et elle est passée chez une berceuse à quatorze ans comme tout le monde.* **Quatre ans chez June, à peu près.**`,
   resume:`🔴 **Décision de l'autrice, 22 août 2026.** *June n'a pas un arrivant à charge, elle en a trois, et Eliott est le dernier arrivé.* **Ils ne servent pas l'intrigue : ils servent June.** *Elle n'est pas quelqu'un qui peine avec un garçon — elle est quelqu'un qui s'en occupe de trois et qui n'arrive pas à créer le lien avec celui-là.*`,
   traits:[`On les croise, on ne les visite pas. **Une silhouette dans une rue, une porte qui claque, une voix depuis une autre pièce.**`,
     `**Ils ont été très accueillants avec lui, et il est resté distant.** *Décision de l'autrice, 22 août 2026 : aucune animosité, aucun conflit, rien à jouer de ce côté-là.* ⛔ **La distance vient de lui seul** — *il ne trouve sa place nulle part, et cette maison n'y est pour rien.*`,
     `**Paul part au jardin dans quelques semaines**, et personne n'en fait un événement. ⛔ *Et on ne décrit surtout pas ce qu'est une entrée au jardin : l'épilogue est là pour ça.*`,
     `⛔ **Aucun mot de parenté entre eux.** *Ils vivent au même endroit, c'est tout ce qu'on en sait — ni fratrie, ni famille, ni rien qui y ressemble.*`],
-  clef:`🔴 **Julie est l'inversion des âges à hauteur de gamin, et sans un mot d'explication.** *Deux corps de dix ans dans la même maison : l'un est là depuis un mois, l'autre depuis cinquante ans.* **Eliott a du mal à le comprendre** — *et c'est tout ce que le livre en dit.*
+  clef:`🔴 **Julie est l'inversion des âges à hauteur de gamin, et sans un mot d'explication.** *Deux corps de dix ans dans la même maison : l'un est né il y a un mois, l'autre a une vie entière derrière elle — l'école, un métier, des dizaines d'années.* **Eliott a du mal à le comprendre** — *et c'est tout ce que le livre en dit.*
+
+⛔ **Et c'est lui, le cas rare, pas elle.** *Julie a rejoint la tranche haute à quatorze ans comme tout le monde ; Eliott y est arrivé directement, sans rien derrière lui.*
 
 **C'est Julie qu'Eliott siffle dans la rue, à la tournée.** *— Tu vas où ? — June m'a demandé de récupérer du lait !* **Deux répliques, et on repart.** *C'est par elles que la maisonnée entre dans le livre, sans une phrase d'exposition.*`,
   gardes:[`**Ils sont des témoins, et l'enquête doit les voir.** *On n'interroge pas une maison sans interroger ceux qui y vivent* — **ils sont là tous les deux quand Joël et Liam viennent chez June.**`,

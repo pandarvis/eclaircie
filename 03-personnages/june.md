@@ -13,7 +13,12 @@
 > **Décision de l'autrice, 22 août 2026.** *« Ça peut apporter un peu de profondeur à June qui
 > s'occupe de trois arrivants à la fois, Eliott étant le dernier arrivé. »*
 
-**Paul, Julie, et Eliott.** *Les deux premiers vivent là depuis plus longtemps que lui.*
+**Paul, huit ans. Julie, dix ans. Et Eliott, le dernier arrivé.**
+
+**Paul rejoint le jardin dans quelques semaines.** *Julie est arrivée dans ce monde vers
+soixante ou soixante-dix ans : elle a eu son école, ses tuteurs, un métier, et elle est passée
+chez une berceuse à quatorze ans comme tout le monde.* ⛔ **Le cas rare, c'est Eliott** — arrivé
+directement dans la tranche haute, à dix ans, sans rien derrière lui.
 
 **Ce que ça change, et ce n'est pas rien :** elle n'est pas quelqu'un qui peine avec un garçon.
 **Elle est quelqu'un qui s'en occupe de trois et qui n'arrive pas à créer le lien avec
