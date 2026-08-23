@@ -357,6 +357,8 @@ setTimeout(() => souffler('Bonne lecture. Le glossaire est l\\u00e0 si un mot te
 STYLE_SUP = u"""<style>
 /* ---------- l'atelier de lecture ---------- */
 .lecture{grid-template-columns:minmax(0,1fr);max-width:820px}
+/* le rang tient lieu de titre, et il lui faut la place que prenait la dedicace */
+.page h2{margin:0 0 32px;padding-bottom:24px;border-bottom:1px solid var(--trait)}
 .page .txt{max-width:none}
 .page{padding:44px 52px 56px}
 @media (max-width:640px){.page{padding:28px 22px 34px}}
