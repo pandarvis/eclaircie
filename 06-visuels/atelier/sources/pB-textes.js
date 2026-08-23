@@ -539,7 +539,7 @@ const TEXTES = [{
 [`p`,`Personne ne parla pendant qu'elle était au-dessus d'eux. Personne sauf Eliott, qui reprit sa chanson à mi-voix. Il y était question d'une raie qui se mettait à faire de la musique avec un autre poisson.`],
 [`p`,`Ça ne voulait rien dire.`],
 [`p`,`Eliott gardait la tête levée.`],
-[`tiret`,`— J'en ai déjà vu, des comme ça.`],
+[`tiret`,`— Les orange, tout à l'heure. J'en ai déjà vu.`],
 [`p`,`Andrew regarda l'eau.`],
 [`tiret`,`— Où ?`],
 [`tiret`,`— Dans une boîte en verre, posée sur un meuble. Il y avait un tapis en dessous.`],

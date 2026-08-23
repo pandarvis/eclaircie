@@ -273,6 +273,8 @@ const SCENES = [
 
 *Un bras d'abord, qui se déroule le long d'une pierre et se colle dessus par en dessous. Puis tous les autres à la fois.* **— Il y en a combien ? — Huit.** *Et il les compte en la suivant.*
 
+⚠️ **La fabulation parle des poissons-clowns, pas de ce qu'il a sous les yeux.** *Repérage de l'autrice, 23 août 2026 : sous le tunnel il y a une raie, et personne n'a de raie dans son salon.* **Il y repense et le dit plus tard :** *« Les orange, tout à l'heure. J'en ai déjà vu. »* ✅ **La scène garde sa place dans la courbe** — *il faut qu'il se soit ouvert avant de se refermer* — **et le décalage montre qu'il y a pensé pendant toute la visite.**
+
 ⛔ **Les méduses sont écartées — décision de l'autrice, 23 août 2026.** *Le caméo était le sien : celle qu'on étudie chez nous peut inverser son cycle et recommencer.* **Mais elle fait quelques millimètres, ne se maintient qu'en laboratoire et n'est jamais présentée au public** — *il aurait fallu un bac à part et un verre grossissant pour la rendre plausible, et ça ne valait pas ce que ça coûtait.* ✅ *« Si un problème, on fait sauter les méduses, ça n'apporte rien de plus. »*
 
 💡 **Les axolotls reprennent la place.** *Quatre, roses et pâles, posés sur du sable clair, qui ne font rien du tout. L'un d'eux ouvre la bouche, la referme, et en garde l'air content.* **— Il sourit. — On dirait.** *C'est le seul moment de complicité du chapitre.*
