@@ -36,11 +36,11 @@ sont eux qui nomment les arrivants de huit ans et moins. **Métier payé, mixte,
 de la tendresse.**
 
 **Capsule.** Contenant d'où sort un arrivant. Elle pousse à plat sur un coulant, à un endroit
-que personne n'a choisi, et mûrit plus ou moins vite selon ce qui reste de souffle de l'autre
-côté. Large au milieu, effilée aux bouts, jamais deux pareilles, et **rien n'est marqué
-dessus.** *On l'ouvre en découpant un morceau de la paroi qu'on remet en place ensuite — **le
-rabat**, plus sombre et plus mat que le reste depuis qu'on l'a détaché. Il se replie, il tient
-où on le laisse, il s'ôte ; c'est son retrait qui active le corps.*
+que personne n'a choisi, et elle ne mûrit pas toutes à la même vitesse. Large au milieu,
+effilée aux bouts, jamais deux pareilles, et **rien n'est marqué dessus.** *On l'ouvre en
+découpant un morceau de la paroi qu'on remet en place ensuite — **le rabat**, plus sombre et
+plus mat que le reste depuis qu'on l'a détaché. Il se replie, il tient où on le laisse, il
+s'ôte ; c'est son retrait qui active le corps.*
 
 **Capsule flash.** Capsule qui éclaircira comme les autres, **mais qui est arrivée d'un coup**
 : elle n'était pas là la veille, personne ne l'a vue pousser, et **aucun relèvement n'a pu
@@ -64,15 +64,13 @@ avant. Elle revient aux anciens du service.
 il entre par une bouche du mur, s'enroule aux colonnes et repart.
 
 **Coulée.** La masse : l'enchevêtrement des coulants qui court dans tout le complexe et au
-milieu duquel vivent les gens de la serre. **Un coulant se désigne, la coulée s'habite.** *Le
-rapport entre les deux mots est celui du lierre à une branche de lierre.*
+milieu duquel vivent les gens de la serre. **Un coulant se désigne, la coulée s'habite.**
 
 **Cueillie.** L'acte de décrocher une capsule mûre. Ce sont les préparateurs qui la font, et
 jamais de leur propre autorité : **la date vient de l'analyste.** *Le mot ne nomme pas un
 métier : personne n'est cueilleur.* **Chaque capsule décrochée a sa fiche de cueillie** —
 l'heure, l'état de la paroi avant cérémonie — *que le préparateur remet au veilleur en même
-temps que la capsule. Ce n'est pas la feuille de service du matin : celle-là vient de
-l'accueil, celle-ci vient de la serre.*
+temps que la capsule.*
 
 **Éclaircie.** La paroi d'une capsule qui approche du terme perd la couleur de la coulée et
 s'éclaircit ; **au bout, elle est tendue, translucide, d'un jaune orangé.** **C'est le seul
@@ -87,18 +85,11 @@ travail, et un tuteur au cas par cas. Les formateurs sont toujours plus jeunes q
 apprenants. **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là relèvent
 d'un berceur.
 
-**Jardin.** Le dernier lieu de vie : **la tranche de huit ans à zéro, tout entière.**
-Quiconque a huit ans ou moins y est, quel que soit le sens de sa trajectoire, et on n'en sort
-pas. **Un lieu clos, un par ville, comme la ruche** — il y en a d'autres ailleurs, plus ou
+**Jardin.** Le lieu où l'on entre à huit ans, et où des berceurs accompagnent ceux qui y
+vivent. **Un lieu clos, un par ville, comme la ruche** — il y en a d'autres ailleurs, plus ou
 moins grands. Dedans, **rien n'est séparé par principe** : on se croise au réfectoire, sur
-l'étendue, partout. *Les dortoirs et les aires de jeu le sont ; le reste se répartit tout seul
-— les grands aux jeux, les petits sur les tapis de l'éveil, et plus encadrés.*
-
-**Médecins du jardin.** Corps médical propre au jardin, tenu au secret. Ils suivent chacun de
-huit ans à zéro et **surveillent une seule chose : le jour où l'âge repart.** Les berceurs
-sont dans la confidence, et ils sont les seuls. **Le service a sa hiérarchie comme n'importe
-quel service** — et celui qu'on suit dans le livre est un chef de service : *pour une enquête,
-on s'adresse au responsable.*
+l'étendue, partout. *Les dortoirs et les aires de jeu le sont ; le reste se répartit tout
+seul.*
 
 **Paire.** Deux arrivants identiques, sortis de deux capsules voisines le même jour. **C'est
 le mot du registre et le seul** : *« une paire, travée douze »*. Devant elles, la salle dit
@@ -110,12 +101,11 @@ devant soi pour apprendre à conduire.** *La maison, elle, emploie de tout — i
 condition physique pour livrer le reste.* Et c'est ce qui fait passer un jeune arrivant dans
 les rues, donc devant des portes.
 
-**Porteur de voiles.** Celui qui arrive sans être en paix avec lui-même, et chez qui quelque
-chose n'a pas été soldé de l'autre côté. **C'est une croyance, pas un diagnostic** : rien ne
-permet de le détecter. **Tout le monde dit n'importe quoi en sortant ; seuls les jeunes
-arrivants sont remarquables, parce que chez eux ça arrive comme du contenu et non comme de la
-confusion.** *Et le mot n'est pas tendre* — on l'emploie pour dire de quelqu'un qu'il raconte
-n'importe quoi, et on en traite les gens.
+**Porteur de voiles.** Celui qui arrive sans être en paix avec lui-même. **C'est une croyance,
+pas un diagnostic** : rien ne permet de le détecter. **Tout le monde dit n'importe quoi en
+sortant ; seuls les jeunes arrivants sont remarquables, parce que chez eux ça arrive comme du
+contenu et non comme de la confusion.** *Et le mot n'est pas tendre* — on l'emploie pour dire
+de quelqu'un qu'il raconte n'importe quoi, et on en traite les gens.
 
 **Préparateur.** Agent de la serre, et **c'est elle qu'il surveille** : il y passe ses
 journées, il la connaît à la main, et il travaille en étroite collaboration avec les
@@ -132,15 +122,7 @@ capsule y entre quand elle s'ouvre, jamais avant.*
 
 **Ruche.** Le lieu où les capsules mûrissent et s'ouvrent, organisé en travées. Bâtie sur la
 serre elle-même, en forme de fleur : **le registre au cœur, la serre en corolle, les salles de
-cérémonie en pétales.** **Une par ville**, plus ou moins grande ; le roman n'en suit qu'une,
-celle de la sienne.
-
-**Section 0.** Le bâtiment où l'on accompagne ceux qui arrivent à zéro. **Sept ailes en étoile
-autour d'une cour** qu'on ne voit que d'en haut : six chambres et la véranda. *Zéro comme
-l'âge.* **Les petits disent le bâtiment soleil** — ils voient un soleil dans sa forme, et
-personne ne les a contredits. Entre soignants on dit *la section 0*, ou plus court **la zéro**
-; et quand on veut que ça sonne moins froid, **on dit le soleil.** *« Tu rejoins le soleil ? —
-Oui, j'y vais pour Lucas. »*
+cérémonie en pétales.** **Une par ville**, plus ou moins grande.
 
 **Serre.** La part du complexe où la coulée est chez elle, autour de la salle du registre.
 **Ce n'est pas une zone qu'on traverse : c'est le sol** — *le complexe a été bâti sur elle.*
@@ -150,12 +132,12 @@ jusqu'aux murs et n'est pas passée outre.* **Personne ne sait si elle serait al
 loin.**
 
 **Travée.** Une section de la serre : un tronçon de coulée repéré et numéroté, sur lequel
-poussent plusieurs capsules à la fois. On dit *la travée dix-neuf* comme on dirait le rayon
-douze.
+poussent plusieurs capsules à la fois. On dit *la travée dix-neuf*, et le numéro suffit à tout
+le monde.
 
 **Tuteur.** Métier de l'apprentissage. Instruit ceux qui auront à s'en servir : se tenir, se
-laver, cuisiner, travailler, comprendre une rue, une monnaie, un métier. **Le tuteur instruit
-ceux qui auront à s'en servir, le berceur accompagne ceux qui n'en auront pas l'usage.**
+laver, cuisiner, travailler, comprendre une rue, une monnaie, un métier. **Le tuteur instruit,
+le berceur accompagne.**
 
 **Veilleur.** Homme ou femme de métier de la ruche. Surveille la maturation, relève
 l'éclaircie, tient le registre, **prépare les cérémonies et les tient**, mesure l'âge, donne

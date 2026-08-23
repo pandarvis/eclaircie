@@ -103,7 +103,7 @@ for ident in LISIBLES:
 monde = lire('p7-monde.js')
 bloc = entre(monde, u'const GLOSSAIRE = [', u'\n];')
 mots = re.findall(r'\[`([^`]*)`,`([^`]*)`,`[^`]*`,`[^`]*`\],', bloc)
-assert len(mots) > 25, u'%d mots' % len(mots)
+assert len(mots) > 18, u'%d mots' % len(mots)   # le glossaire du lecteur se resserre quand une entree en dit trop
 MOTS = (u'const MOTS = [\n'
         + u'\n'.join(u'[%s%s%s,%s%s%s],' % (B, m, B, B, d, B) for m, d in mots)
         + u'\n];\n')
