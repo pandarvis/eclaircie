@@ -853,7 +853,9 @@ const TEXTES = [{
 [`tiret`,`— En tout cas, un porteur de voiles de cet âge…`],
 [`p`,`Elle secoua lentement la tête.`],
 [`tiret`,`— Je n'en avais jamais vu.`],
-[`p`,`Puis elle rentra chez elle, et la porte se referma doucement derrière elle.`],
+[`p`,`Elle inspira, marqua une pause. Avant de poser le pied sur la marche suivante, elle posa la paume de sa main sur son épaule.`],
+[`tiret`,`— Merci, en tout cas. De prendre de votre temps pour lui.`],
+[`p`,`Il hocha la tête sans rien dire. Elle lui répondit d'un signe, puis rentra chez elle ; la porte se referma doucement sur sa silhouette.`],
 [`p`,`Andrew resta assis sur la deuxième marche.`],
 [`p`,`En haut, la fenêtre du garçon était fermée.`],
 
