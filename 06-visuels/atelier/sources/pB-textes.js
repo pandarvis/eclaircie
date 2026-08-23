@@ -636,7 +636,7 @@ const TEXTES = [{
 [`p`,`Andrew regarda la cour avec lui.`],
 [`tiret`,`— Parce que je suis trop petit.`],
 [`p`,`C'était vrai.`],
-[`p`,`L'école prenait ceux qui arrivaient tout en haut. La plupart avaient entre quatre-vingts et quatre-vingt-dix ans lorsqu'ils en franchissaient les portes. Il arrivait qu'on en reçoive de plus haut encore, quatre-vingt-quinze, cent et un. Cela ne changeait rien : ils entraient, apprenaient, recommençaient, et prenaient le temps qu'il fallait.`],
+[`p`,`L'école prenait ceux qui arrivaient tout en haut. La plupart avaient entre quatre-vingts et quatre-vingt-dix ans lorsqu'ils en franchissaient les portes. Il arrivait qu'on en reçoive de plus haut encore, quatre-vingt-quinze, cent un. Cela ne changeait rien : ils entraient, apprenaient, recommençaient, et prenaient le temps qu'il fallait.`],
 [`p`,`Pour eux, l'école durait des années. On y apprenait les premières lettres, les nombres, l'histoire du monde, les gestes de la vie courante et tout ce qu'il fallait savoir pour y trouver sa place.`],
 [`p`,`Ceux qui arrivaient plus bas, autour de cinquante ou soixante ans, n'avaient pas ce temps-là. Ils entraient directement dans la vie active et recevaient, le soir, des cours adaptés à leur rythme. Un tuteur les accompagnait au début, au cas par cas, jusqu'à ce qu'ils puissent avancer seuls.`],
 [`p`,`Et pour les plus jeunes, il y avait les berceurs.`],
