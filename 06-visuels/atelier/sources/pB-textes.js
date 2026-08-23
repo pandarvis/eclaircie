@@ -815,7 +815,8 @@ const TEXTES = [{
 [`tiret`,`— Il vous a dit ça comme ça ?`],
 [`tiret`,`— Il me l'a dit en débarrassant. Sans s'arrêter, sans me regarder. Et après il est monté.`],
 [`p`,`Elle se releva, épousseta l'arrière de son tablier.`],
-[`tiret`,`— Un porteur de voiles de cet âge… je n'en avais jamais vu.`],
+[`tiret`,`— Et vous pensez que ça pourrait en être un ?`],
+[`tiret`,`— Je ne sais pas, répondit-elle. En tout cas, un porteur de voiles de cet âge… je n'en avais jamais vu.`],
 [`p`,`Puis elle rentra chez elle, et la porte se referma doucement derrière elle.`],
 [`p`,`Andrew resta assis sur la deuxième marche. En haut, la fenêtre du garçon était fermée.`],
 
