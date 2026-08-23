@@ -506,7 +506,7 @@ const TEXTES = [{
 [`tiret`,`— Huit.`],
 [`p`,`Il les compta en la suivant.`],
 [`p`,`Au bout de la salle, le garçon s'arrêta et ne repartit plus.`],
-[`p`,`Celui-là était petit, rond, et il portait des couleurs qu'on n'avait pas l'habitude de voir ensemble. Du jaune, de l'orange, et une bande bleue qui lui coupait l'œil en deux.`],
+[`p`,`C'était un poisson-mandarin, et il était petit. Sur le vert de son dos couraient des lignes orange bordées de bleu, qui tournaient, se recoupaient et ne faisaient jamais deux fois le même dessin.`],
 [`p`,`Il se tenait presque immobile, à hauteur de visage, et remuait une nageoire pour rester où il était.`],
 [`p`,`Eliott posa les deux mains sur la barre.`],
 [`tiret`,`— Regardez celui-là. Regardez-le.`],
