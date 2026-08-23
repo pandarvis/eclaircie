@@ -520,6 +520,64 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   lecture: `Il vient d'entendre June parler d'un certain Isaac et Andrew répondre que c'est un bon ami. **Il ouvre le chapitre suivant en s'attendant à le rencontrer, et il rencontre quelqu'un d'autre.**`,
   monde: `Rien, et c'est la condition. Un poste de police se ressemble partout — c'est l'infrastructure même du dispositif.`,
   qui: [`joel`,`liam`],
+  garde_forme: `🔴 **Le deroule, donne par l'autrice le 23 août 2026.** *La déposition a été
+faite la veille : le dossier est tout frais, et Liam le sort devant lui.*
+
+**① Le poste, en quelques lignes.** ② *Un homme, décrit, qu'on ne nomme pas.* ③ **Liam sort le
+dossier et la retranscription de la plainte.** ④ *Il parcourt, il regarde les photos — et le
+texte ne dit jamais ce qu'il y a dessus.* ⑤ **Liam parle, et c'est de lui que vient presque
+tout.** ⑥ *Il veut repasser chez elle et fouiller la chambre.* ⑦ **Liam doit voir l'employeur
+aujourd'hui : « est-ce que tu veux m'accompagner ? »**
+
+⚠️ **Ni l'un ni l'autre n'est bavard.** *« Andrew n'est pas très loquace, tout comme Joël. »*
+**Les informations viennent de Liam, à mesure que l'autre lit.**`,
+  garde_mur: `🔴 **Premier mur : on ne peut nommer personne.** *Ni Andrew, ni le veilleur — et
+Joël non plus.* **Le chapitre entier tient sur un « il ».**
+
+✅ *Ce qui le rend jouable : Liam, lui, est nommé, et deux collègues ne s'appellent pas par
+leur nom toutes les trois répliques.* ⚠️ **Mais la moindre incise du genre « dit le veilleur »
+fait tout tomber.**`,
+  garde_mur2: `🔴 **Second mur, et c'est le vrai : aucun mot de parenté n'existe dans la langue
+du roman.** *Or ici il y a une mère, un père et deux filles.*
+
+⛔ **Le texte ne peut donc écrire ni mère, ni père, ni filles, ni jumelles.** *On dira « elle »,
+« la femme qui a déposé », « les deux ».*
+
+✅ **Et c'est ce qui sauve la scène au lieu de la gêner.** *Un lecteur habitué depuis quatre
+chapitres à un monde sans ces mots ne remarquera pas leur absence.* **Il lira une femme
+démunie et deux disparues, exactement comme il lirait une berceuse et deux arrivants.**
+
+⚠️ *« Interroger les deux » vaut des deux côtés : June et Julie ici, le père et la mère
+là-bas.*`,
+  garde_dialogue: `**Le dialogue proposé par l'autrice, 23 août 2026 — à garder comme
+matériau, pas comme état final.**
+
+*— Je viens à l'instant de chez elle, elle était assez démunie.*
+*— Oui. Hier, j'avais beaucoup de mal à la calmer, son récit partait dans tous les sens. Mais
+entre nous, la fugue n'est pas une option à écarter… à cet âge-là, tu sais, on agit souvent
+sans réfléchir. Une bêtise, quelque chose qui contrarie, et on ne réfléchit pas. Et tous ces
+jeunes-là, ils ne se rendent pas compte.*
+*— Mais elle t'a dit quoi, là-dessus ? Tu lui as dit que tu soupçonnais une fugue ? Il m'est
+arrivé de passer dans le quartier, j'ai cru entendre qu'il y avait des soucis au travail.*
+*— Oui. Dans le rapport, j'ai noté une altercation houleuse. Je dois rencontrer l'employeur
+aujourd'hui. Tu veux m'accompagner ?*
+
+🔴 **« Tous ces jeunes-là, ils ne se rendent pas compte » travaille des deux côtés.** *Chez
+nous c'est une banalité de vieux flic ; dans l'autre monde, c'est exactement le grief des
+marginaux.* ⛔ **Personne ne le relève.**
+
+⚠️ **Et « une altercation houleuse » sert les deux enquêtes** — *elle mène à l'employeur, donc
+à la scène suivante, dans les deux mondes à la fois.*`,
+  ouvre_monde: `❓ **Un ou deux éléments, pas plus, qui feront comprendre à la relecture qu'on
+est chez nous.** *Demande de l'autrice, 23 août 2026 : discrets, et deux au maximum.*
+
+⛔ **Ils ne peuvent pas être un nom de lieu, une œuvre, une figure ni un événement de notre
+monde** — interdit n° 6. ⛔ *Ni un objet, puisque le vocabulaire des objets est commun aux
+deux mondes.*
+
+💡 **Ce qui reste : ce que ce monde-ci n'a pas.** *Un mot de parenté entendu à côté, un âge qui
+monte au lieu de descendre, une durée qui ne colle pas, un formulaire qui demande quelque
+chose qui n'existe pas là-bas.* **À trouver.**`,
   gardes: [
     `🔴 **La fugue se suppose des deux côtés — décision de l'autrice, 23 août 2026.** *Chez June, elle sort d'un remords : elle a été moins à l'écoute ces derniers temps.* **Ici, c'est Liam qui l'avance pour les deux filles** — *sans remords, sans cruauté : c'est ce qu'on fait dans une enquête, on n'écarte jamais la fugue.*
 
