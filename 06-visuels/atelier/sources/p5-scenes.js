@@ -363,7 +363,9 @@ const SCENES = [
 **Fin proposée :** *le mot en dernière réplique, puis un geste et rien d'autre —* **il regarde la fenêtre du haut, elle est fermée.** *Le lecteur enchaîne parce qu'il vient d'apprendre une chose que le gamin ne sait pas qu'on a dite.*`,
   monde: `⛔ **Le palier ne s'explique pas dans ce chapitre — décision de l'autrice, 23 août 2026.** *Ni la mécanique, ni le temps qu'il reste à un arrivant de dix ans, ni ce que ça fait grincer chez ceux qui ont trimé.* **C'est Henri qui l'apprendra au lecteur**, scène 6, socialement, par un homme qui tient un effectif.
 
-💡 *Reste possible ici, et rien de plus : une conséquence pratique, sans un chiffre. Le modèle est dans le glossaire, à l'entrée Portage — « on la fait à pied, faute d'avoir le temps devant soi pour apprendre à conduire ».* ⛔ **Et Andrew ne calcule jamais un âge, ni à voix haute ni dans sa tête.**
+✅ **Ce qui est permis ici, et rien de plus — décision de l'autrice, 23 août 2026 :** *Andrew peut nous apprendre, par son métier, ce qu'il a déjà constaté des variantes d'espérance de vie, sans entrer dans le détail.* **Il constate, il n'explique pas.**
+
+✅ **Et la conséquence pratique est validée telle quelle :** *« on la fait à pied, faute d'avoir le temps devant soi pour apprendre à conduire »* — *modèle pris au glossaire, à l'entrée Portage.* ⛔ **Aucun chiffre. Et Andrew ne calcule jamais un âge, ni à voix haute ni dans sa tête.**
 
 **Le portage, le métier d'Eliott** — l'équivalent d'un petit postier — vu en marchant, par celui qui le fait. *Et c'est par June que le lecteur apprend ce qu'est un porteur de voiles, sans qu'aucun narrateur ne l'explique.*`,
   qui: [`andrew`,`eliott`,`june`,`paul-julie`],
