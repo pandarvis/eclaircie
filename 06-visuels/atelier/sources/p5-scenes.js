@@ -323,6 +323,9 @@ const SCENES = [
 
 ✅ *Et son expérience se dit quand même, mais par elle et sans malice : « Moi, c'est le quatrième. On s'y fait. »*`,
     `⛔ **Eliott ne va pas à l'école, et il n'a jamais commencé de cours accélérés.** *La fiche disait le contraire : c'était faux, corrigé le 22 août 2026.* **À son âge, c'est le berceur qui instruit** — *June lui apprend ce qu'il faut, et elle ne passe la main que pour ce qu'elle ne peut pas donner elle-même, comme la natation.* **Les cours du soir et les tuteurs sont pour les arrivants de cinquante à soixante-dix ans.**`,
+    `⛔ **Le paragraphe de l'école ne dit pas ce qu'il reste à vivre.** *Repérage de l'autrice, 23 août 2026 : « L'école accueillait ceux qui arrivaient avec encore toute une vie devant eux » est horrible si on ne connaît pas encore le système.* **Trois lignes après « parce que je suis trop petit », le lecteur ferait le calcul : plus on arrive haut, plus on a de temps — donc ce garçon-là n'en a presque pas.**
+
+⛔ **Ce n'est pas le chapitre qui doit apprendre ça, et personne n'a de raison de le dire ici.** *La phrase devient « L'école prenait ceux qui arrivaient tout en haut » : l'information passe, la sentence tombe.*`,
     `⛔ **Aucun âge précis à l'école — décision de l'autrice, 23 août 2026.** *On voit que la maîtresse est bien plus jeune que ceux qui l'écoutent, et c'est tout ce qu'on écrit.* **L'homme du troisième rang n'a plus quatre-vingt-douze ans, il lève la main.**
 
 ✅ **Et les deux qui papotent gagnent leur malice :** *une main devant la bouche, reprises sans qu'elle se retourne ni hausse le ton, et elles se taisent le temps qu'il faut avant de recommencer plus bas.*
