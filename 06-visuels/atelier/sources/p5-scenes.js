@@ -273,7 +273,13 @@ const SCENES = [
 
 *Un bras d'abord, qui se déroule le long d'une pierre et se colle dessus par en dessous. Puis tous les autres à la fois.* **— Il y en a combien ? — Huit.** *Et il les compte en la suivant.*
 
-⚠️ **La fabulation parle des poissons-clowns, pas de ce qu'il a sous les yeux.** *Repérage de l'autrice, 23 août 2026 : sous le tunnel il y a une raie, et personne n'a de raie dans son salon.* **Il y repense et le dit plus tard :** *« Les orange, tout à l'heure. J'en ai déjà vu. »* ✅ **La scène garde sa place dans la courbe** — *il faut qu'il se soit ouvert avant de se refermer* — **et le décalage montre qu'il y a pensé pendant toute la visite.**
+🔴 **La courbe du chapitre, arrêtée par l'autrice le 23 août 2026.** *Elle tient en quatre temps et elle commande l'ordre des bassins.*
+
+**① Il s'ouvre devant le petit poisson** — *« Regardez celui-là »*, puis il chante pour lui seul. **② Il se referme aussitôt après**, sur sa propre fabulation : *une boîte en verre, un meuble, un tapis dessous* — *« vous me croyez pas », « c'est pareil », « tout le monde fait ça, on dit ah et après on parle d'autre chose »*, mains dans les poches. **③ La fermeture dure trois bassins** : *les herbes où Andrew dit « je te crois » sans qu'il le prenne, les axolotls qui lui arrachent deux mots, la raie sous laquelle il rechante à mi-voix — il va mieux, il ne parle toujours pas.* **④ Andrew le relance :** *« Il était de quelle couleur, le meuble ? »*
+
+⛔ **Personne ne nomme ce qui vient de se passer.** *Un homme a demandé un détail à un garçon que personne n'écoute — c'est un réflexe d'enquêteur, et il ne sait pas qu'il en a un.* ✅ **C'est la réponse à « pourquoi il vous parle, à vous », et elle n'est jamais donnée.**
+
+⚠️ **Et la fabulation porte sur le petit poisson, pas sur la raie.** *Repérage de l'autrice : personne n'a de raie dans son salon.*
 
 ⛔ **Les méduses sont écartées — décision de l'autrice, 23 août 2026.** *Le caméo était le sien : celle qu'on étudie chez nous peut inverser son cycle et recommencer.* **Mais elle fait quelques millimètres, ne se maintient qu'en laboratoire et n'est jamais présentée au public** — *il aurait fallu un bac à part et un verre grossissant pour la rendre plausible, et ça ne valait pas ce que ça coûtait.* ✅ *« Si un problème, on fait sauter les méduses, ça n'apporte rien de plus. »*
 
