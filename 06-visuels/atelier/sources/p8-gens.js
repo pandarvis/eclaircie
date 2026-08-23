@@ -242,11 +242,16 @@ const GENS = [
   phrases:[`Joël, non, attends !`],
   ouvert:[],
   portrait:[`**Donné par l'autrice le 23 août 2026.** **Grand, la silhouette large et pleine.** *Les épaules donnent de l'ampleur à sa carrure ; le torse et les bras sont solides sans être athlétiques.*`,
-    `**Le visage large, les traits réguliers et expressifs.** *Des sourcils épais encadrent des yeux bruns, profonds et attentifs. Un nez droit et assez large, accordé aux proportions du visage. Des lèvres pleines, qui adoucissent l'ensemble malgré la force des traits.* **Une barbe noire, dense et soigneusement entretenue**, qui souligne la mâchoire et remonte un peu sur les joues.`,
+    `**Le teint sombre, le visage large, les traits réguliers et expressifs.** *Des sourcils épais et très noirs encadrent des yeux presque noirs, profonds et attentifs. Un nez large, accordé aux proportions du visage. Des lèvres pleines, qui adoucissent l'ensemble malgré la force des traits.* **Une barbe noire, dense et soigneusement entretenue**, qui souligne la mâchoire et remonte un peu sur les joues.`,
+    `🔴 **Liam est d'origine indienne — décision de l'autrice, 24 août 2026.** *C'est ce qui le sépare d'Andrew d'un seul coup, au lieu des deux adjectifs que je cherchais.*
+
+⛔ **Mais le mot ne s'écrit jamais.** *L'Inde est un lieu de notre monde : l'interdit n° 6 l'exclut du texte.* ⛔ **Et le mot <em>peau</em> est proscrit partout** — *décision du 19 août.* ✅ **On écrit donc le teint, les traits, le noir des cheveux, et rien d'autre.**
+
+✅ **Et l'impossibilité de le nommer est un cadeau :** *dans un monde où tout le monde sort d'une capsule, une apparence ne renvoie à aucune origine — le mot lui-même n'aurait pas de sens là-bas.* **Le lecteur voit un homme, pas une provenance.**`,
     `**Cheveux noirs, épais, légèrement ondulés** — plus courts sur les côtés, retombant avec naturel sur le dessus. *Quelques mèches se détachent et reviennent vers le front.*`,
     `**Les mains grandes, les poignets épais, la posture droite.** *Il dégage une présence tranquille, qui tient plus à son regard et à l'assurance de ses gestes qu'à sa carrure.*`,
     `🔴 **Ce portrait est le seul que le lecteur lira d'un policier, et c'est tout l'enjeu.** *Isaac n'est jamais décrit, nulle part.* **Quand le lecteur imaginera Isaac, il lui donnera ce visage-là** — et il ne saura qu'à la dernière page qu'il regardait quelqu'un d'autre.`,
-    `⚠️ **À vérifier avant d'écrire : Liam ressemble beaucoup à Andrew.** *Sourcils épais, yeux bruns attentifs, nez droit, barbe, mèches qui reviennent sur le front, épaules larges, posture droite — le portrait d'Andrew dit presque les mêmes choses.* **Or le lecteur doit voir deux hommes dans cette scène, pas un.** ⚠️ *Ce qui les sépare aujourd'hui : Liam est plus massif, plus sombre, la barbe plus dense, les cheveux ondulés et non coupés court, le nez plus large, les lèvres pleines.* **Est-ce assez ? C'est à trancher, et ça se règle en deux adjectifs.**`],
+    `✅ **Le risque de confusion avec Andrew est levé.** *Le portrait initial disait presque les mêmes choses que le sien — sourcils épais, yeux bruns attentifs, nez droit, barbe, mèches sur le front, épaules larges.* **Le teint et le noir des cheveux les séparent maintenant sans qu'on ait à y revenir**, et le lecteur voit deux hommes dans la pièce.`],
   src:`03-personnages/andrew.md` },
 
 { id:`pediatre`, nom:`Le pédiatre du jardin`, voie:`andrew`, role:`Celui qui a suivi l'autre arrivant. Il ne refuse rien.`,
