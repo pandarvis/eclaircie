@@ -498,7 +498,7 @@ const TEXTES = [{
 [`p`,`Ils étaient une dizaine à regarder, debout, chacun devant son morceau de vitre. On distinguait à peine les visages.`],
 [`p`,`Le plafond descendit. Des bassins de la taille d'une fenêtre s'alignaient des deux côtés, et il fallait s'arrêter devant chacun pour voir tout ce qu'il contenait.`],
 [`p`,`Dans le premier, tout vivait ensemble. Des coraux tenaient le fond, les uns durs et branchus, les autres mous et remuants, dans des mauves et des verts qu'on n'attend pas d'une pierre. Une anémone se refermait à moitié sur des poissons orange barrés de blanc qui entraient et ressortaient sans en avoir l'air gêné. Au-dessus, une dizaine de petits jaunes vifs repartaient tous ensemble dès qu'on approchait et revenaient dès qu'on s'arrêtait de bouger. Un poisson-ange empereur passait au milieu de tout ça sans se presser, rayé de jaune et de bleu de la tête à la queue, avec une barre noire en travers de l'œil. Il ne s'occupait de personne.`],
-[`p`,`Il y avait plus de couleurs dans cette boîte d'eau que dans toute la rue qu'ils venaient de descendre.`],
+[`p`,`Depuis qu'il était arrivé dans ce monde, le garçon n'avait pas dû en voir autant d'un coup.`],
 [`p`,`Au fond, un bassin profond, avec des rochers empilés et un creux dessous.`],
 [`p`,`Une pieuvre en sortit pendant qu'ils étaient là. Un bras d'abord, qui se déroula le long d'une pierre et se colla dessus par en dessous. Un autre suivit. Puis tous les autres à la fois, et elle traversa le bassin sans se presser, en tenant tout ce qu'elle touchait.`],
 [`p`,`Eliott ne bougea plus.`],
