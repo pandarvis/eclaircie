@@ -235,6 +235,14 @@ Ce qui charge chacune de ses visites : **n'importe laquelle peut être celle-là
 
 **Un berceur exerce jusqu'à douze ans.** En dessous, il est affecté à des tâches plus simples. À huit, il est au jardin à son tour, et quelqu'un d'autre l'accompagne.
 
+### Et douze ans vaut pour tous les métiers
+
+> **Décision de l'autrice, 23 août 2026.** *La règle n'était écrite que des berceurs ; elle est générale.*
+
+**On quitte son métier à douze ans, quel qu'il soit.** *La raison est physique, pas professionnelle : ce n'est pas le métier qui relâche, c'est le corps qui descend.* **Entre douze et huit, on est affecté à des tâches simples** — et à huit, on entre au jardin.
+
+**Le portage d'Eliott en est une.** *Il a dix ans : il est dans la fourchette, et « un métier facile, sans études et sans condition physique » est exactement ce qu'on donne entre douze et huit.* ⛔ **Ce n'est donc pas un métier, c'est ce qui reste** — et personne dans le livre ne le formule.
+
 ### 5.0 Vérification de cohérence avec la règle d'entrée — **rien ne casse**
 
 **Il fallait le vérifier, et le résultat est net : la relève tient sans une retouche.**
