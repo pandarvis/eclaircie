@@ -357,7 +357,11 @@ const SCENES = [
 ✅ **Ils s'asseyent sur les marches.** *Andrew ne franchit toujours pas la porte, mais la conversation a le temps de se faire.*
 
 🔴 **La blessure n'est plus montrée : elle est rapportée, et une porte s'est refermée entre les deux.** *Décision de l'autrice, 22 août 2026.* **On voit un visage fermé sans savoir pourquoi, le gamin file, et on apprend la raison une fois qu'il n'est plus là.** *Le lecteur recompose la journée à rebours, et Andrew reste dehors avec une chose qu'il n'a pas vue arriver.*`,
-  clef: `🔴 **Ce que le garçon cache derrière ce qu'il dit — décision de l'autrice, 23 août 2026.** *Il tourne autour du pot, et ce qu'il sort est un sentiment d'injustice : on ne lui a pas demandé ce qu'il voulait faire, on lui a donné le portage.* **Le métier des autres a l'air plus vrai que le sien.** *Il en veut au monde de ne pas l'avoir consulté — et il projette là-dessus ce qu'il ne dit pas.*
+  clef: `🔴 **Le ton d'Eliott sur toute la tournée : à cran, et pas contre Andrew.** *Indication de l'autrice, 23 août 2026 : « un peu comme un futur ado, un truc le gonfle et il est à cran sur tout ».* **Ça se voit partout et ça ne vise personne** — *il ne remercie pas la femme à la lettre, il donne un coup de pied dans un caillou qui ne part pas, il répond sec à des questions qui n'attaquent rien.*
+
+✅ **Et l'épicerie n'est plus un entêtement, c'est une contrariété de plus.** *Il s'arrête, il regarde la devanture, il inspire un coup — puis :* **« Bon. C'est pas grave, j'ai rien à y livrer de toute façon. »** *Et il repart sans y jeter un œil.* ⛔ **Il ne défend pas sa version, il la lâche** — *ce qui la rend beaucoup plus difficile à ranger dans le délire.*
+
+🔴 **Ce que le garçon cache derrière ce qu'il dit — décision de l'autrice, 23 août 2026.** *Il tourne autour du pot, et ce qu'il sort est un sentiment d'injustice : on ne lui a pas demandé ce qu'il voulait faire, on lui a donné le portage.* **Le métier des autres a l'air plus vrai que le sien.** *Il en veut au monde de ne pas l'avoir consulté — et il projette là-dessus ce qu'il ne dit pas.*
 
 ⛔ **Ce qu'il ne dit pas : ce qui se passe vraiment au travail.** *Le lecteur ne l'apprendra qu'au chapitre suivant, quand June racontera qu'il est rentré avec les genoux en sang.* **Ici il ne lâche qu'une phrase, et elle a l'air de rien :** *« ils le disent pas aux autres, ils le disent à moi ».*
 
