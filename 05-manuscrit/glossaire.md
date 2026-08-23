@@ -61,9 +61,7 @@ tranche pour tous. **La découverte du visage appartient à la cérémonie :** p
 avant. Elle revient aux anciens du service.
 
 **Coulant.** Un brin de la végétation, celui qu'on peut montrer du doigt. Épais comme un bras,
-il entre par une bouche du mur, s'enroule aux colonnes et repart. **C'est le mot du jardinier
-pour ce qui rampe et se prolonge** — les courges filent sur leurs coulants. Les capsules
-poussent dessus.
+il entre par une bouche du mur, s'enroule aux colonnes et repart.
 
 **Coulée.** La masse : l'enchevêtrement des coulants qui court dans tout le complexe et au
 milieu duquel vivent les gens de la serre. **Un coulant se désigne, la coulée s'habite.** *Le

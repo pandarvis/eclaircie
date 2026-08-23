@@ -91,9 +91,7 @@ regarde avant. Elle revient aux anciens du service.
 > `02-univers/la-ruche.md`
 
 **Coulant.** Un brin de la végétation, celui qu'on peut montrer du doigt. Épais comme un
-bras, il entre par une bouche du mur, s'enroule aux colonnes et repart. **C'est le mot du
-jardinier pour ce qui rampe et se prolonge** — les courges filent sur leurs coulants. Les
-capsules poussent dessus.
+bras, il entre par une bouche du mur, s'enroule aux colonnes et repart.
 > `02-univers/la-ruche.md`
 
 **Coulée.** La masse : l'enchevêtrement des coulants qui court dans tout le complexe et au
