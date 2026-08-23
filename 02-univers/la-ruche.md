@@ -71,6 +71,8 @@ Puis **la serre**, d'où l'on entre à peu près partout.
 
 **Ce que fait le préparateur :** il procède à **la cueillie**, transporte la capsule au quartier, **branche les appareils** et attend que l'analyste vienne. *C'est un gain de temps, parce que l'analyste joue sur deux tableaux.* ⛔ **Le mot « cueilleur » est écarté** — la cueillie est un acte, jamais un métier.
 
+> **Et le premier examen s'appelle la consultation de la cueillie.** *Décision de l'autrice, 23 août 2026.* **Le nom provisoire « consultation d'initiation » est mort**, et son entrée de glossaire est sortie avec lui.
+
 **Et il prépare l'aspect final de la capsule pour la cérémonie.** *On ne laisse pas une capsule aller au bout du bout :* quand elle est quasi prête, elle est encore souple, et **on y taille des entailles harmonieuses** pour faciliter le travail du veilleur.
 
 ✅ **Une capsule qui éclaircit d'un coup, elle, n'a presque pas besoin de travail.** *Son rabat est si fin qu'il pourrait céder à tout moment, et on ne taille rien.* **Nettoyée, branchée, relevée, et c'est tout** — c'est le cas des deux capsules du prologue.

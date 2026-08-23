@@ -29,14 +29,6 @@ sur la page du lecteur.*
 
 # Les mots du monde
 
-**Accueil.** Première pièce de la ruche, après l'entrée principale : un guichet derrière une
-vitre, des chaises contre les murs et d'autres dos à dos au milieu. **La pièce a été pensée
-pour rendre l'attente supportable** — de grandes plantes, des tableaux d'artisans, une
-lumière jaune orangé, et au fond une sculpture de verre où l'eau descend. Le veilleur y prend
-le numéro de sa salle du jour ; les visiteurs y attendent qu'on vienne les chercher, et les
-gens du service passent derrière eux sans s'arrêter.
-> `02-univers/la-ruche.md`
-
 **Analyste.** Métier de la serre, **et c'est un seul métier à deux faces.** Devant les
 capsules il ne mesure rien : il regarde, il note, il compare — la couleur, l'avancée de
 l'éclaircie, l'intervalle entre deux relevés. **Un relèvement seul ne donne rien : il en
@@ -69,12 +61,6 @@ groupe, une zone**, et ce sont eux qui nomment les arrivants de huit ans et moin
 payé, mixte, et c'est aussi de la tendresse.**
 > `02-univers/le-jardin.md §5 bis`
 
-**Bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le
-service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont les
-plus âgés d'aspect qui s'y collent** — des veilleurs d'allure adolescente laissent la
-raclette à un homme qui paraît soixante ans, et l'ordre est normal des deux côtés.
-> `02-univers/la-ruche.md`
-
 **Capsule.** Contenant d'où sort un arrivant. Elle pousse à plat sur un coulant, à un endroit
 que personne n'a choisi, et mûrit plus ou moins vite selon ce qui reste de souffle de l'autre
 côté. Large au milieu, effilée aux bouts, jamais deux pareilles, et **rien n'est marqué
@@ -104,17 +90,6 @@ tranche pour tous. **La découverte du visage appartient à la cérémonie :** p
 regarde avant. Elle revient aux anciens du service.
 > `02-univers/la-ruche.md`
 
-**Chuchoteur.** Jeune bras droit d'un ancien aux commandes, dans n'importe quel domaine — pas
-seulement en politique. Une sorte de formateur de terrain.
-> `L-ECLAIRCIE-dossier-complet.md §10` · ❓ **Entre parenthèses.** Rien ne dit qu'il servira : *le rôle peut très bien se fondre dans celui du tuteur.* Décision de l'autrice, 20 août 2026.
-
-**Consultation d'initiation.** Le premier examen, dans l'heure qui suit la sortie, dans une
-salle adjacente à celle de la cérémonie. L'analyste vérifie le corps entier : réflexes, suivi
-du regard, force de préhension, marche, paumes, ongles, bouche. Trois mots à retenir et à
-redire, un compte à rebours. **Tout le monde est normal à ce stade, et l'examen sert
-justement à le dire.**
-> `02-univers/la-ruche.md` · ❓ **Le nom n'est pas arrêté.** « Consultation d'initiation » est la formule de travail de l'autrice, 20 août 2026.
-
 **Coulant.** Un brin de la végétation, celui qu'on peut montrer du doigt. Épais comme un
 bras, il entre par une bouche du mur, s'enroule aux colonnes et repart. **C'est le mot du
 jardinier pour ce qui rampe et se prolonge** — les courges filent sur leurs coulants. Les
@@ -124,11 +99,6 @@ capsules poussent dessus.
 **Coulée.** La masse : l'enchevêtrement des coulants qui court dans tout le complexe et au
 milieu duquel vivent les gens de la serre. **Un coulant se désigne, la coulée s'habite.**
 *Le rapport entre les deux mots est celui du lierre à une branche de lierre.*
-> `02-univers/la-ruche.md`
-
-**Couloir (le grand).** L'axe qui mène de l'accueil au cœur du complexe. Il commence banal,
-lumière artificielle au plafond, puis le jour, la végétation et l'ornement le gagnent à
-mesure qu'on avance.
 > `02-univers/la-ruche.md`
 
 **Cueillie.** L'acte de décrocher une capsule mûre. Ce sont les préparateurs qui la font,
@@ -162,11 +132,6 @@ l'étendue, partout. *Les dortoirs et les aires de jeu le sont ; le reste se ré
 seul — les grands aux jeux, les petits sur les tapis de l'éveil, et plus encadrés.*
 > `02-univers/le-jardin.md`
 
-**« Libérer plus tôt ».** Formule d'un courant politique respectable qui juge cruel de faire
-durer une vie qui n'ira nulle part. **Il ne dit jamais ce qu'il propose** : il le dit avec
-des chiffres, dans des salles, devant des gens qui hochent la tête.
-> `02-univers/la-jalousie.md`
-
 **Médecins du jardin.** Corps médical propre au jardin, tenu au secret. Ils suivent chacun de
 huit ans à zéro et **surveillent une seule chose : le jour où l'âge repart.** Les berceurs
 sont dans la confidence, et ils sont les seuls. **Le service a sa hiérarchie comme n'importe
@@ -191,7 +156,7 @@ chose n'a pas été soldé de l'autre côté. **C'est une croyance, pas un diagn
 permet de le détecter. **Tout le monde dit n'importe quoi en sortant ; seuls les jeunes
 arrivants sont remarquables, parce que chez eux ça arrive comme du contenu et non comme de
 la confusion.** *Et le mot n'est pas tendre* — on l'emploie pour dire de quelqu'un qu'il
-raconte n'importe quoi, et on en traite les gens. ⛔ Jamais « arrivant voilé ».
+raconte n'importe quoi, et on en traite les gens.
 > `02-univers/ce-qui-est-juge.md` · ❓ **Le lecteur l'apprend par cet emploi-là, scène 2, et l'autrice donne deux bouches possibles :** Eliott — *« ils m'ont dit que j'étais un porteur de voiles »* — ou June — *« ils l'ont traité de porteur de voiles »*. À trancher.
 
 **Préparateur.** Agent de la serre, et **c'est elle qu'il surveille** : il y passe ses
@@ -229,10 +194,6 @@ soleil ? — Oui, j'y vais pour Lucas. »*
 capsules, et on a délimité un peu plus large pour tout contenir. *La coulée est venue jusqu'aux
 murs et n'est pas passée outre.* **Personne ne sait si elle serait allée plus loin.**
 > `02-univers/la-ruche.md`
-
-**« Silence (au) ».** La cellule temporaire. *On fait quelques jours au silence.* **Le mot ne
-s'explique pas :** il se comprend au premier emploi, par le contexte.
-> `04-plan/le-parcours-de-l-enquete.md §3.6`
 
 **Travée.** Une section de la serre : un tronçon de coulée repéré et numéroté, sur lequel
 poussent plusieurs capsules à la fois. On dit *la travée dix-neuf* comme on dirait le rayon
@@ -389,7 +350,7 @@ et il y a de plus en plus d'imbéciles sur cette belle planète** — réponse d
 apprentissage, coordination, élocution. **Régime commun, banal, administratif** — et il y en
 a d'autant plus qu'on est arrivé haut. **Hors du glossaire** — décision de l'autrice,
 20 août 2026.
-> `02-univers/le-corps-des-arrivants.md` · ❓ Le nom du rendez-vous n'est pas choisi, et il doit se distinguer de la consultation d'initiation.
+> `02-univers/le-corps-des-arrivants.md` · ❓ Le nom du rendez-vous n'est pas choisi, et il doit se distinguer de **la consultation de la cueillie**, qui est le premier examen.
 
 **La Terre.** Le monde du roman : la même planète, le même nom, la même nature — mais dont
 l'histoire humaine a été effacée et recommencée. **Ce n'est pas un monde parallèle : il n'y a

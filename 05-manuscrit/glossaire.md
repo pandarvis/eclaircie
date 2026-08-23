@@ -7,13 +7,6 @@
 
 ---
 
-**Accueil.** Première pièce de la ruche, après l'entrée principale : un guichet derrière une
-vitre, des chaises contre les murs et d'autres dos à dos au milieu. **La pièce a été pensée
-pour rendre l'attente supportable** — de grandes plantes, des tableaux d'artisans, une lumière
-jaune orangé, et au fond une sculpture de verre où l'eau descend. Le veilleur y prend le
-numéro de sa salle du jour ; les visiteurs y attendent qu'on vienne les chercher, et les gens
-du service passent derrière eux sans s'arrêter.
-
 **Analyste.** Métier de la serre, **et c'est un seul métier à deux faces.** Devant les
 capsules il ne mesure rien : il regarde, il note, il compare — la couleur, l'avancée de
 l'éclaircie, l'intervalle entre deux relevés. **Un relèvement seul ne donne rien : il en faut
@@ -42,11 +35,6 @@ jardin ne sont attachés à personne : ils tiennent un dortoir, un groupe, une z
 sont eux qui nomment les arrivants de huit ans et moins. **Métier payé, mixte, et c'est aussi
 de la tendresse.**
 
-**Bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le
-service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont les
-plus âgés d'aspect qui s'y collent** — des veilleurs d'allure adolescente laissent la raclette
-à un homme qui paraît soixante ans, et l'ordre est normal des deux côtés.
-
 **Capsule.** Contenant d'où sort un arrivant. Elle pousse à plat sur un coulant, à un endroit
 que personne n'a choisi, et mûrit plus ou moins vite selon ce qui reste de souffle de l'autre
 côté. Large au milieu, effilée aux bouts, jamais deux pareilles, et **rien n'est marqué
@@ -72,15 +60,6 @@ nettoie.
 tranche pour tous. **La découverte du visage appartient à la cérémonie :** personne ne regarde
 avant. Elle revient aux anciens du service.
 
-**Chuchoteur.** Jeune bras droit d'un ancien aux commandes, dans n'importe quel domaine — pas
-seulement en politique. Une sorte de formateur de terrain.
-
-**Consultation d'initiation.** Le premier examen, dans l'heure qui suit la sortie, dans une
-salle adjacente à celle de la cérémonie. L'analyste vérifie le corps entier : réflexes, suivi
-du regard, force de préhension, marche, paumes, ongles, bouche. Trois mots à retenir et à
-redire, un compte à rebours. **Tout le monde est normal à ce stade, et l'examen sert justement
-à le dire.**
-
 **Coulant.** Un brin de la végétation, celui qu'on peut montrer du doigt. Épais comme un bras,
 il entre par une bouche du mur, s'enroule aux colonnes et repart. **C'est le mot du jardinier
 pour ce qui rampe et se prolonge** — les courges filent sur leurs coulants. Les capsules
@@ -89,10 +68,6 @@ poussent dessus.
 **Coulée.** La masse : l'enchevêtrement des coulants qui court dans tout le complexe et au
 milieu duquel vivent les gens de la serre. **Un coulant se désigne, la coulée s'habite.** *Le
 rapport entre les deux mots est celui du lierre à une branche de lierre.*
-
-**Couloir (le grand).** L'axe qui mène de l'accueil au cœur du complexe. Il commence banal,
-lumière artificielle au plafond, puis le jour, la végétation et l'ornement le gagnent à mesure
-qu'on avance.
 
 **Cueillie.** L'acte de décrocher une capsule mûre. Ce sont les préparateurs qui la font, et
 jamais de leur propre autorité : **la date vient de l'analyste.** *Le mot ne nomme pas un
@@ -121,10 +96,6 @@ moins grands. Dedans, **rien n'est séparé par principe** : on se croise au ré
 l'étendue, partout. *Les dortoirs et les aires de jeu le sont ; le reste se répartit tout seul
 — les grands aux jeux, les petits sur les tapis de l'éveil, et plus encadrés.*
 
-**« Libérer plus tôt ».** Formule d'un courant politique respectable qui juge cruel de faire
-durer une vie qui n'ira nulle part. **Il ne dit jamais ce qu'il propose** : il le dit avec des
-chiffres, dans des salles, devant des gens qui hochent la tête.
-
 **Médecins du jardin.** Corps médical propre au jardin, tenu au secret. Ils suivent chacun de
 huit ans à zéro et **surveillent une seule chose : le jour où l'âge repart.** Les berceurs
 sont dans la confidence, et ils sont les seuls. **Le service a sa hiérarchie comme n'importe
@@ -146,7 +117,7 @@ chose n'a pas été soldé de l'autre côté. **C'est une croyance, pas un diagn
 permet de le détecter. **Tout le monde dit n'importe quoi en sortant ; seuls les jeunes
 arrivants sont remarquables, parce que chez eux ça arrive comme du contenu et non comme de la
 confusion.** *Et le mot n'est pas tendre* — on l'emploie pour dire de quelqu'un qu'il raconte
-n'importe quoi, et on en traite les gens. ⛔ Jamais « arrivant voilé ».
+n'importe quoi, et on en traite les gens.
 
 **Préparateur.** Agent de la serre, et **c'est elle qu'il surveille** : il y passe ses
 journées, il la connaît à la main, et il travaille en étroite collaboration avec les
@@ -179,9 +150,6 @@ Oui, j'y vais pour Lucas. »*
 capsules, et on a délimité un peu plus large pour tout contenir. *La coulée est venue
 jusqu'aux murs et n'est pas passée outre.* **Personne ne sait si elle serait allée plus
 loin.**
-
-**« Silence (au) ».** La cellule temporaire. *On fait quelques jours au silence.* **Le mot ne
-s'explique pas :** il se comprend au premier emploi, par le contexte.
 
 **Travée.** Une section de la serre : un tronçon de coulée repéré et numéroté, sur lequel
 poussent plusieurs capsules à la fois. On dit *la travée dix-neuf* comme on dirait le rayon
