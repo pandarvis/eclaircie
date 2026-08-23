@@ -371,6 +371,10 @@ const SCENES = [
 
 ✅ **Et Andrew croit tenir le problème.** *Il le dit à June — personne ne lui a demandé ce qu'il voulait faire — et il garde pour lui la réserve : ça n'explique pas le premier jour.*
 
+🔴 **Et June ne peut pas le consoler avec un « c'est pareil pour tout le monde » — correction de l'autrice, 23 août 2026.** *Le choix du métier se rétrécit à mesure qu'on arrive bas : ceux d'en haut choisissent, ceux du milieu choisissent moins, et aux plus bas on attribue.* **Elle a choisi d'être berceuse. Elle le dit.**
+
+⛔ **Elle ne s'en excuse pas et ne s'en vante pas.** *« J'ai eu l'école, j'ai eu le temps de regarder autour. J'ai vu travailler une berceuse et j'ai su. Lui, il n'aura rien vu du tout. »* ✅ **Et c'est ce qui rend la scène dure :** *elle est d'accord avec le garçon, et elle ne peut rien y faire.* — *« Il le sait ? » « Il le sent. C'est pire. »*
+
 🔴 **C'est June qui dit le mot, et la question des deux bouches est tranchée.** *Décision de l'autrice, 22 août 2026 : elle rapporte qu'Eliott lui a dit que les autres le traitaient de porteur de voiles au boulot.* **Elle parle aussi de ses difficultés à elle** — le garçon ne va pas bien, il se referme, et elle n'arrive pas à créer le lien.
 
 ⛔ **Elle n'en fait jamais une hypothèse.** *C'est une phrase qui s'arrête, pas un relais d'information — elle bute sur un mot et passe à autre chose.*`,

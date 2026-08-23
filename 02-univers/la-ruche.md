@@ -734,6 +734,27 @@ Le métier est décrit par ses pics — la cérémonie, le nettoyage — et une 
 - [ ] **La taille de la ruche.** Combien de travées, combien de veilleurs — c'est-à-dire : le protagoniste travaille-t-il seul, ou dans une équipe qui le voit faire ?
 - [x] ~~**Qui nomme un arrivant ?**~~ — **tranché le 15 août 2026 : personne. L'arrivant se nomme lui-même**, et le veilleur inscrit le mot. Aucune des deux pistes documentées n'était la bonne ; elles sont supprimées. **Exception, précisée le 16 août : à huit ans et en dessous, un berceur nomme — même si l'enfant sait parler.** Voir [« Qui nomme un arrivant »](#qui-nomme-un-arrivant).
 - [ ] **Que fait le veilleur d'un arrivant de huit ans pile ?** Le seuil est inclusif — huit ans relève du berceur —, mais c'est aussi l'arrivant qui entre au jardin le premier jour, sans un an de vie ordinaire. Le protocole d'accueil est-il le même que pour un arrivant de six ans ? *Question neuve : ce cas n'existait pas avant le 16 août 2026.*
+### Le choix du métier se rétrécit à mesure qu'on arrive bas
+
+> **Décision de l'autrice, 23 août 2026.** *« Il n'y a aucune raison que les arrivants les plus
+> âgés n'aient pas pu choisir. Tout dépend de la complexité du métier. »*
+
+**Ceux qui arrivent tout en haut choisissent.** *Ils ont eu l'école, des années devant eux, le
+temps de regarder autour et de voir des gens travailler.* **Ceux qui arrivent plus bas, avec
+des cours du soir, choisissent moins** — *la liste est plus courte, et certains métiers leur
+sont fermés faute d'années pour les apprendre.*
+
+**Et aux plus bas, on attribue.** *Personne ne leur demande : on leur donne un travail simple,
+qu'ils tiendront le temps qu'ils ont.*
+
+⛔ **Rien de tout cela n'est une injustice décidée par quelqu'un.** *C'est une conséquence, et
+personne dans ce monde ne la conteste.* **Le grief des marginaux dit l'inverse** — *que les
+jeunes arrivants sont avantagés* — **et les deux sont vrais en même temps.** *C'est ce qui
+interdit au livre de trancher.*
+
+**June a choisi d'être berceuse**, comme Andrew a peut-être choisi d'être veilleur : *une
+vocation, pas une affectation.* **Eliott, non.**
+
 - [x] **Qui prend en charge un arrivant qui va grandir ? — tranché le 22 août 2026.** **C'est le berceur, et personne d'autre.** *« À son âge, c'est le berceur qui prend en charge l'éducation. Ils ont quelques cours théoriques et pratiques quand c'est compliqué de faire autrement, notamment le cours de natation, mais majoritairement ce sont eux. Les cours du soir et tuteurs, c'est pour les arrivants d'environ soixante-dix à cinquante ans. »* ⛔ **Le tuteur n'entre pas dans la tranche haute** ; le berceur ne passe la main que pour ce qu'il ne peut pas donner lui-même.
 - [x] ~~Le nom de famille de l'affaire~~ — **tranché le 15 août 2026 : Sorel.** *« L'affaire Sorel. »* Deux syllabes, aucune couleur régionale, et ça se dit sans y penser — ce qu'il faut pour un mot qu'Andrew entendra sans pouvoir l'identifier.
 - [ ] **La phrase courte du veilleur.** Ce qu'il dit exactement pour expliquer ce qu'est un prénom, en une phrase, à quelqu'un qui vient de sortir. Elle sera prononcée au moins deux fois dans le livre — à la cérémonie d'ouverture, et à la cérémonie groupée — et il faut qu'elle soit la même les deux fois, usée comme une formule de métier.
