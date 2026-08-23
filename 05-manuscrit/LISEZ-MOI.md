@@ -12,6 +12,14 @@
 
 ---
 
+## Les titres de chapitre sont des étiquettes de travail
+
+> **Décision de l'autrice, 23 août 2026.** *« Le nom, il est pour nous. J'ai pas envie de nommer les chapitres plus tard. »*
+
+**Le livre n'aura pas de titres de chapitre.** *Seulement* Prologue, Chapitre premier, Chapitre deuxième, Épilogue. **Les titres de l'atelier —** *La cérémonie, Une journée à la ruche, L'aquarium* **— servent à s'y retrouver, et à rien d'autre.**
+
+⛔ **Ils ne sortent donc ni dans le PDF ni dans la version de lecture.** *Les deux ont été repris le 23 août 2026 : le recueil imprimé n'affiche plus que le rang, et le sommaire de lecture met le rang en titre et l'étiquette en dessous, en petit.*
+
 ## 🔒 Les trois textes sont verrouillés
 
 > **Validés par l'autrice le 20 août 2026.** *« On les lock pour l'instant. On y reviendra que

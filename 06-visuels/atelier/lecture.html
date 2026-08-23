@@ -2223,8 +2223,8 @@ if (btnT) btnT.addEventListener('click', () => {
 /* ---------- le sommaire ---------- */
 $('#s-liste').innerHTML = SOMMAIRE.map(s => `
   <article class="carte ${s.etat}">
-    <div class="rang-s">${esc(s.rang)}</div>
-    <h3>${esc(s.titre)}</h3>
+    <h3>${esc(s.rang)}</h3>
+    <div class="rang-s">${esc(s.titre)}</div>
     ${s.mot ? `<p class="incipit">${esc(s.mot)}</p>` : ``}
     ${s.etat === 'lu' ? `<button class="puce lire" data-titre="${esc(s.titre)}">lire</button>` : ``}
   </article>`).join('');
@@ -2252,8 +2252,7 @@ function rendreTextes(){
   const t = TEXTES[xSel]; if (!t) return;
   $('#x-corps').innerHTML =
     `<article class="page">
-       <span class="rang">${esc(t.rang)}</span>
-       <h2>${esc(t.titre)}</h2>
+       <h2>${esc(t.rang)}</h2>
        <div class="txt">` +
        t.p.map(([k, s]) => `<p class="${k === 'p' ? '' : k}">${s}</p>`).join('') +
      `</div></article>`;

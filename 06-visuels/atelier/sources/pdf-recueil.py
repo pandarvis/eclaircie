@@ -50,14 +50,15 @@ blocs, total = [], 0
 for n, cible in enumerate(cibles):
     rang, titre, corps, nb = chapitre(cible)
     total += nb
+    # Le titre ne sort pas : c'est une etiquette de travail, pas un
+    # titre de chapitre -- decision de l'autrice, 23 aout 2026.
     blocs.append(u"""<section class="chap%s">
   <header class="ouverture">
-    <div class="rang">%s</div>
     <h1>%s</h1>
     <div class="filet"></div>
   </header>
 %s
-</section>""" % (u' premier' if n == 0 else u'', rang, titre, corps))
+</section>""" % (u' premier' if n == 0 else u'', rang, corps))
 
 page = u"""<!doctype html>
 <html lang="fr"><head><meta charset="utf-8"><title>L'Éclaircie</title>
@@ -85,13 +86,9 @@ body {
 section { page-break-before: always; }
 section.premier { page-break-before: avoid; }
 .ouverture { text-align: center; margin: 0 0 20mm 0; page-break-after: avoid; }
-.ouverture .rang {
-  font: 400 9.5pt/1 Cambria, Georgia, serif; letter-spacing: .34em;
-  text-transform: uppercase; color: #6a6f78;
-}
 .ouverture h1 {
   font: 400 19pt/1.25 Cambria, Georgia, serif; letter-spacing: .04em;
-  margin: 8mm 0 5mm; font-variant: small-caps;
+  margin: 0 0 5mm; font-variant: small-caps;
 }
 .ouverture .filet { width: 30mm; height: 1px; background: #b9bec6; margin: 0 auto; }
 
