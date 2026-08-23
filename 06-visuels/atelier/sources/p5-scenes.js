@@ -269,7 +269,9 @@ const SCENES = [
 
 ⛔ **Un bassin n'est pas une espèce.** *Reprise de l'autrice, 23 août 2026 : « les espèces sont rarement séparées dans un aquarium, tu peux avoir des tableaux très beaux avec beaucoup de couleurs ».* **Le premier bassin de la salle basse les mélange donc tous** — *corail, anémone, poissons-clowns, petits jaunes et le rond et plat au milieu.*
 
-💡 **Et les axolotls, proposés par elle le même jour.** *Quatre, roses et pâles, posés sur du sable clair, qui ne font rien du tout.* **C'est le seul moment de complicité du chapitre :** *— Il sourit. — On dirait.* ⚠️ **Second animal qui ne suit pas le cours ordinaire d'une vie, après les méduses** — *rien ne le dit, rien ne l'appuie, et il vaut mieux s'arrêter à deux.*
+🔴 **Une pieuvre, et pas des axolotls — décision de l'autrice, 23 août 2026.** *Je lui avais signalé que l'axolotl était un second animal qui ne suit pas le cours ordinaire d'une vie, après les méduses ; elle l'a écarté.* **Il reste donc un seul de ces échos, et c'est le bon.**
+
+*Un bras d'abord, qui se déroule le long d'une pierre et se colle dessus par en dessous. Puis tous les autres à la fois.* **— Il y en a combien ? — Huit.** *Et il les compte en la suivant.*
 
 🔴 **Le caméo des méduses, trouvé par l'autrice le 23 août 2026.** *Une salle entière, des colonnes d'eau éclairées par en dessous — et une réplique de plaque, lue à voix haute par Andrew :* **« Celles-là, ça dépend. Quand elles sont abîmées, elles redeviennent petites et ça repart. »**
 
