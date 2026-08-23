@@ -784,7 +784,7 @@ const TEXTES = [{
 [`tiret`,`— Et lui ?`],
 [`tiret`,`— Lui, il est poli.`],
 [`p`,`Elle laissa le mot où il était tombé.`],
-[`tiret`,`— Je lui pose des questions, il répond ce qu'il faut pour que j'arrête d'en poser. Je lui propose des choses, il dit oui, et il n'a pas envie. Ça fait un mois qu'on vit sous le même toit et je ne saurais pas dire ce qu'il aime.`],
+[`tiret`,`— Il me remercie après chaque repas. Je lui propose des choses, il dit oui, et il n'a pas envie. Ça fait un mois qu'on vit sous le même toit et je ne saurais pas dire ce qu'il aime.`],
 [`p`,`Andrew regarda l'allée de gravier.`],
 [`tiret`,`— Je crois qu'il n'a pas envie de me connaître, dit-elle.`],
 [`p`,`Elle le dit sans se plaindre, comme on donne un résultat.`],
