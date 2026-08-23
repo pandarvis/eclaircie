@@ -179,10 +179,11 @@ le mot du registre et le seul** : *« une paire, travée douze »*. Devant elles
 simplement qu'elles sont pareilles, et l'émerveillement fait le reste.
 > `02-univers/la-ruche.md`
 
-**Portage.** Le métier d'Eliott, et **l'équivalent d'un petit postier** : une tournée de
-menus colis et de lettres, dans un quartier. **L'un des métiers faciles confiés à la tranche
-haute** — *on la fait à pied, faute d'avoir le temps devant soi pour apprendre à conduire.*
-Et c'est ce qui fait passer un jeune arrivant dans les rues, donc devant des portes.
+**Portage.** Le petit nom de ce qu'on confie aux plus bas dans une entreprise de
+livraison : une tournée de menus colis et de lettres, dans un quartier, **à pied, faute
+d'avoir le temps devant soi pour apprendre à conduire.** *La maison, elle, emploie de tout —
+il faut de la condition physique pour livrer le reste.* Et c'est ce qui fait passer un jeune
+arrivant dans les rues, donc devant des portes.
 > `04-plan/le-parcours-de-l-enquete.md`
 
 **Porteur de voiles.** Celui qui arrive sans être en paix avec lui-même, et chez qui quelque

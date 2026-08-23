@@ -241,7 +241,9 @@ Ce qui charge chacune de ses visites : **n'importe laquelle peut être celle-là
 
 **On quitte son métier à douze ans, quel qu'il soit.** *La raison est physique, pas professionnelle : ce n'est pas le métier qui relâche, c'est le corps qui descend.* **Entre douze et huit, on est affecté à des tâches simples** — et à huit, on entre au jardin.
 
-**Le portage d'Eliott en est une.** *Il a dix ans : il est dans la fourchette, et « un métier facile, sans études et sans condition physique » est exactement ce qu'on donne entre douze et huit.* ⛔ **Ce n'est donc pas un métier, c'est ce qui reste** — et personne dans le livre ne le formule.
+**Le portage d'Eliott en est une.** *Il a dix ans : il est dans la fourchette, et « un métier facile, sans études et sans condition physique » est exactement ce qu'on donne entre douze et huit.*
+
+⛔ **Mais l'entreprise qui l'emploie, elle, n'est pas réservée aux petits nombres.** *Précision de l'autrice, 23 août 2026 : Henri tient une entreprise de livraison ordinaire, et il faut de la condition physique pour livrer certaines choses.* **Le portage est seulement le petit nom qu'on donne à ce qu'on confie aux plus bas** — *les menus colis, les lettres, ce qui se porte à pied.* **Tout le reste de la maison est tenu par des gens qui peuvent soulever.**
 
 ### 5.0 Vérification de cohérence avec la règle d'entrée — **rien ne casse**
 
