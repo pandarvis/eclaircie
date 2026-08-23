@@ -158,7 +158,7 @@ GENS = u"""const GENS = [
 
 { rang:`Autour`, nom:`Julie`, quoi:`Chez June`,
   quand:`Chapitres deuxième et troisième`,
-  texte:`Dix ans, le même âge qu'Eliott, et **onze ans de couture derrière elle** — un grand magasin de vêtements, en ville. Elle a repris toutes ses affaires sans qu'on le lui demande. Protectrice, et jamais démonstrative.` },
+  texte:`Dix ans, le même âge qu'Eliott, et **vingt-cinq ans de couture derrière elle** — un grand magasin de vêtements, en ville. Elle a repris toutes ses affaires sans qu'on le lui demande. Protectrice, et jamais démonstrative.` },
 
 { rang:`Autour`, nom:`Paul`, quoi:`Chez June`,
   quand:`Chapitre deuxième`,
