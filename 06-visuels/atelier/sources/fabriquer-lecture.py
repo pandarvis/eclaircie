@@ -29,6 +29,29 @@ def entre(s, a, b):
     return s[s.index(a) + len(a):s.index(b)]
 
 
+def sans_scelle(src):
+    """Retire les blocs marques scelle : ce sont des notes d'autrice.
+
+    Le plan de la ruche est ecrit pour elle, et certains encarts disent
+    ce que le livre met six cents pages a dire. On les marque dans la
+    source avec la classe << scelle >>, et ils ne sortent jamais ici.
+    """
+    out, n = [], 0
+    i = 0
+    while True:
+        j = src.find(u'<div class="cite scelle">', i)
+        if j < 0:
+            out.append(src[i:])
+            break
+        out.append(src[i:j])
+        k = src.index(u'</div>', j) + len(u'</div>')
+        i = k
+        n += 1
+    src = u''.join(out)
+    print(u'  %d encart(s) scelle(s) retire(s) de la lecture' % n)
+    return src
+
+
 B = u'`'
 
 
@@ -387,7 +410,7 @@ STYLE_SUP = u"""<style>
 page = (lire('p1-style.html') + lire('p2-style.html') + lire('p3-style.html')
         + STYLE_SUP + CORPS
         + u'<script>\n' + TEXTES + u'\n' + MOTS + u'\n' + GENS + u'\n' + SOMMAIRE + u'</script>\n'
-        + u'<script>\n' + lire('pC-ruche.js') + u'\n</script>\n'
+        + u'<script>\n' + sans_scelle(lire('pC-ruche.js')) + u'\n</script>\n'
         + u'<script>\n' + lire('pD-jardin.js') + u'\n</script>\n'
         + APP)
 
@@ -397,7 +420,8 @@ open(SORTIE, 'wb').write(page.encode('utf-8'))
 # --------- le controle qui compte : rien de l'autrice n'a fui ---------
 INTERDITS = [u'const NOTES', u'const SCENES', u'const REGLES', u'const INTERDITS',
              u'const BIBLE', u'const QUESTIONS', u'const DISPOSITIF', u'const RACCORDS',
-             u'faille:', u'gardes:', u'arc:', u'Joël', u'ravisseuse', u'reliquat']
+             u'faille:', u'gardes:', u'arc:', u'Joël', u'ravisseuse', u'reliquat',
+             u'agonie', u'cite scelle']
 fuites = [m for m in INTERDITS if m in page]
 if fuites:
     raise SystemExit(u'FUITE dans lecture.html : ' + u', '.join(fuites))
