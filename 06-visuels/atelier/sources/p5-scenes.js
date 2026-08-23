@@ -623,7 +623,49 @@ deux mondes.*
 
 💡 **Ce qui reste : ce que ce monde-ci n'a pas.** *Un mot de parenté entendu à côté, un âge qui
 monte au lieu de descendre, une durée qui ne colle pas, un formulaire qui demande quelque
-chose qui n'existe pas là-bas.* **À trouver.**
+chose qui n'existe pas là-bas.*
+
+---
+
+🔴 **L'idée de l'autrice, 24 août 2026 : une expression de chez nous, qui passe inaperçue.**
+*Son exemple : Rome ne s'est pas faite en un jour — « dans monde 2, Rome n'existe pas, et ça
+reste une expression, donc bon ».*
+
+✅ **Le principe est juste, et c'est même le meilleur angle possible.** *Une expression figée est
+un reliquat de langue : un mot qui a survécu à ce qu'il désignait.* **C'est exactement le
+mécanisme du livre**, appliqué à la grammaire au lieu de la mémoire — le sifflement d'Eliott,
+mais dans une phrase.
+
+⛔ **L'exemple, lui, ne tient pas, et pour deux raisons.**
+
+**① Un nom propre se voit.** *Le lecteur aura passé quatre chapitres dans un monde qui n'en
+contient aucun des nôtres.* **Il ne lira pas « nous sommes chez nous » : il lira une erreur**,
+et un accroc qu'on prend pour une faute ne travaille pas, il abîme.
+
+**② Et surtout, ça contredit l'interdit n° 11 de face.** *Ce monde est bâti sur une règle
+simple : pas d'objet, pas de mot.* **Si une expression pouvait survivre à son référent, les
+mots de parenté auraient survécu aussi** — et toute la scène du jardin s'écroule avec.
+
+✅ **Ce qu'il faut à la place : une expression dont le présupposé est factuel, pas culturel.**
+*Rien qui suppose une histoire ; quelque chose qui suppose un fait du monde.* **Et le seul fait
+qui sépare vraiment les deux mondes, c'est la direction du temps.**
+
+---
+
+🔴 **Les deux éléments écrits dans le chapitre, à valider ou à jeter.**
+
+**① *Ça ne nous rajeunit pas, tout ça.*** *Dite par Liam en se relevant du bureau, à la fin.*
+⚠️ **Chez Andrew, le temps qui passe rajeunit tout le monde, littéralement.** *La phrase y
+serait un contresens intégral — et c'est le genre de formule que personne n'écoute, y compris
+le lecteur.*
+
+**② *J'en ai fait, moi, des bêtises.*** *Liam parle de sa propre jeunesse au passé.* ⚠️ **Chez
+Andrew, on n'a pas été jeune : on le devient.** *Personne là-bas ne peut placer sa jeunesse
+derrière soi.*
+
+✅ *Aucun nom propre, aucun mot proscrit, aucune bizarrerie à la première lecture.* **Les deux
+portent sur la même faille, et c'est voulu : deux coups au même endroit valent mieux que deux
+indices dispersés.**
 
 ⛔ **L'affaire Sorel est écartée — décision de l'autrice, 23 août 2026.** *J'avais proposé le
 nom de famille comme premier élément : elle craint que ce soit « cramé trop vite ».* **Le nom
