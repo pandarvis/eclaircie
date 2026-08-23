@@ -237,6 +237,9 @@ ne dit pas de quel côté du plateau on se trouve. **Hors du glossaire : on sait
 instrument.**
 > `02-univers/la-ruche.md` · ❓ À quoi il ressemble, quel geste il demande, combien de temps il prend : jamais décrit en détail.
 
+**Le jardin, ce qu'il est vraiment.** *L'entrée du glossaire n'en dit plus que ce qu'un lecteur des premiers chapitres peut savoir — décision de l'autrice, 23 août 2026.* **Ici, la vérité : le dernier lieu de vie, la tranche de huit ans à zéro tout entière.** Quiconque a huit ans ou moins y est, *quel que soit le sens de sa trajectoire*, et on n'en sort pas. **Certains descendent, d'autres montent.** ⛔ *Rien de tout cela n'entre dans le glossaire du lecteur tant qu'Andrew n'y est pas allé.*
+> `02-univers/le-jardin.md`
+
 **Le jardin allongé.** Des années supplémentaires à huit ans, accordées à qui a été meurtri,
 dans le seul endroit de ce monde où l'on est bien. **Le supplément est proportionnel à ce qui
 a été pris.** ⛔ Aucun barème n'existe et il ne faut jamais en écrire un ; la longueur exacte
