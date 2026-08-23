@@ -71,15 +71,13 @@ for ident in LISIBLES:
     rang = re.search(r'rang: `([^`]*)`', bloc).group(1)
     titre = re.search(r'titre: `([^`]*)`', bloc).group(1)
     paras = re.findall(r'\[`(p|tiret|pause)`,`([^`]*)`', bloc)
-    corps = u',\n'.join(u'[%s%s%s,%s%s%s]' % (B, k, B, B, t, B) for k, t in paras)
-    textes.append(u'{ id:%s%s%s, rang:%s%s%s, titre:%s%s%s, p:[\n%s\n]}'
-                  % (B, ident, B, B, rang, B, B, titre, B, corps))
-TEXTES = u'const TEXTES = [\n' + u',\n'.join(textes) + u'\n];\n'
+    textes.append({'id': ident, 'rang': rang, 'titre': titre, 'p': list(paras)})
 
 
 # =====================================================================
 #  LE GLOSSAIRE — les mots du monde, sans source ni question ouverte
 # =====================================================================
+# (le liage des renvois se fait plus bas, une fois le glossaire lu)
 monde = lire('p7-monde.js')
 bloc = entre(monde, u'const GLOSSAIRE = [', u'\n];')
 mots = re.findall(r'\[`([^`]*)`,`([^`]*)`,`[^`]*`,`[^`]*`\],', bloc)
@@ -87,6 +85,55 @@ assert len(mots) > 25, u'%d mots' % len(mots)
 MOTS = (u'const MOTS = [\n'
         + u'\n'.join(u'[%s%s%s,%s%s%s],' % (B, m, B, B, d, B) for m, d in mots)
         + u'\n];\n')
+
+
+# =====================================================================
+#  LES RENVOIS — la premiere fois qu'un mot du monde apparait, il mene
+#  a son entree. Une seule fois pour tout le livre, et jamais pour un
+#  mot qui porte une tension du recit.
+# =====================================================================
+NE_PAS_LIER = [u'Porteur de voiles', u'Paire', u'Archiviste', u'Section 0']
+
+def formes(entree):
+    """Les ecritures possibles d'une entree, de la plus longue a la plus courte."""
+    out = []
+    for part in entree.split(u','):
+        base = part.split(u'(')[0].strip()
+        if not base:
+            continue
+        out.append(base)
+        if not base.endswith(u's'):
+            out.append(base + u's')
+    return sorted(set(out), key=len, reverse=True)
+
+
+def lier(textes_bruts):
+    """Enveloppe la premiere occurrence de chaque entree. Retourne le compte."""
+    a_lier = [m for m, d in mots if m not in NE_PAS_LIER]
+    restants = {m: formes(m) for m in a_lier}
+    faits = []
+    for t in textes_bruts:              # dans l'ordre de lecture
+        for i, (genre, texte) in enumerate(t['p']):
+            for entree in list(restants):
+                pose = False
+                for f in restants[entree]:
+                    # hors d'une balise, sur un mot entier, casse indifferente
+                    motif = re.compile(u'(?<![\w\u00c0-\u017f])(' + re.escape(f)
+                                       + u')(?![\w\u00c0-\u017f])'
+                                       + u'(?![^<]*>)', re.IGNORECASE)
+                    m = motif.search(texte)
+                    if m:
+                        texte = (texte[:m.start(1)]
+                                 + u'<a class="glo" data-mot="' + entree + u'">'
+                                 + m.group(1) + u'</a>'
+                                 + texte[m.end(1):])
+                        t['p'][i] = (genre, texte)
+                        faits.append(entree)
+                        pose = True
+                        break
+                if pose:
+                    del restants[entree]
+    return faits
 
 
 # =====================================================================
@@ -150,6 +197,19 @@ SOMMAIRE = u"""const SOMMAIRE = [
   mot:`` }
 ];
 """
+
+
+# =====================================================================
+#  LE LIAGE, puis le rendu des textes
+# =====================================================================
+poses = lier(textes)
+TEXTES = (u'const TEXTES = [\n'
+          + u',\n'.join(
+              u'{ id:%s%s%s, rang:%s%s%s, titre:%s%s%s, p:[\n%s\n]}'
+              % (B, t['id'], B, B, t['rang'], B, B, t['titre'], B,
+                 u',\n'.join(u'[%s%s%s,%s%s%s]' % (B, k, B, B, x, B) for k, x in t['p']))
+              for t in textes)
+          + u'\n];\n')
 
 
 # =====================================================================
@@ -338,6 +398,26 @@ $('#g-liste').innerHTML = RANGS.map(r => `
     `</div>
   </section>`).join('');
 
+/* ---------- un renvoi mene au mot ---------- */
+document.addEventListener('click', e => {
+  const a = e.target.closest && e.target.closest('.glo');
+  if (!a) return;
+  e.preventDefault();
+  $('.rail-btn[data-vue="mots"]').click();
+  const f = a.dataset.mot;
+  /* on montre le glossaire entier et on vise l'entree : le lecteur
+     garde ce qu'il y a autour, et il peut lire plus loin s'il veut. */
+  $('#m-cherche').value = '';
+  rendreMots('');
+  const i = MOTS.findIndex(([m]) => m === f);
+  const el = $$('#m-liste .mot-l')[i];
+  if (el) {
+    el.classList.add('vise');
+    el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    setTimeout(() => el.classList.remove('vise'), 2800);
+  }
+});
+
 /* ---------- le glossaire ---------- */
 function rendreMots(f){
   const l = MOTS.filter(([m, d]) => !f || (m + ' ' + d).toLowerCase().includes(f));
@@ -366,6 +446,20 @@ STYLE_SUP = u"""<style>
   font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--texte-3);margin-bottom:6px
 }
+/* ---------- les renvois vers le glossaire ---------- */
+.mot-l{border-radius:7px;transition:background .3s}
+.mot-l.vise{
+  background:color-mix(in srgb,var(--andrew) 13%,transparent);
+  box-shadow:0 0 0 9px color-mix(in srgb,var(--andrew) 13%,transparent)
+}
+.glo{
+  color:inherit;text-decoration:none;cursor:pointer;
+  border-bottom:1px dotted color-mix(in srgb,var(--andrew) 52%,transparent);
+  transition:color .14s,border-color .14s
+}
+.glo:hover{color:var(--andrew);border-bottom-color:var(--andrew)}
+.glo:focus-visible{outline:1px solid var(--andrew);outline-offset:2px}
+
 /* ---------- la frise du sommaire ---------- */
 .frise-h{overflow-x:auto;overscroll-behavior-x:contain;padding:2px 0 10px}
 .frise-h ol{
@@ -485,4 +579,5 @@ if fuites:
 
 print(u'lecture.html : %d chapitres, %d mots de glossaire, %d personnages, %d ko'
       % (len(textes), len(mots), page.count(u', nom:`'), len(page.encode('utf-8')) // 1024))
+print(u'%d renvois poses : %s' % (len(poses), u', '.join(poses)))
 print(u'aucune matiere d\'autrice dans le fichier')

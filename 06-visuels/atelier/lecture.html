@@ -949,6 +949,20 @@ kbd{
   font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--texte-3);margin-bottom:6px
 }
+/* ---------- les renvois vers le glossaire ---------- */
+.mot-l{border-radius:7px;transition:background .3s}
+.mot-l.vise{
+  background:color-mix(in srgb,var(--andrew) 13%,transparent);
+  box-shadow:0 0 0 9px color-mix(in srgb,var(--andrew) 13%,transparent)
+}
+.glo{
+  color:inherit;text-decoration:none;cursor:pointer;
+  border-bottom:1px dotted color-mix(in srgb,var(--andrew) 52%,transparent);
+  transition:color .14s,border-color .14s
+}
+.glo:hover{color:var(--andrew);border-bottom-color:var(--andrew)}
+.glo:focus-visible{outline:1px solid var(--andrew);outline-offset:2px}
+
 /* ---------- la frise du sommaire ---------- */
 .frise-h{overflow-x:auto;overscroll-behavior-x:contain;padding:2px 0 10px}
 .frise-h ol{
@@ -1185,10 +1199,10 @@ kbd{
 <script>
 const TEXTES = [
 { id:`prologue`, rang:`Prologue`, titre:`La cérémonie`, p:[
-[`p`,`Deux capsules étaient venues pendant la nuit, et personne ne savait qui allait en sortir.`],
+[`p`,`Deux <a class="glo" data-mot="Capsule">capsules</a> étaient venues pendant la nuit, et personne ne savait qui allait en sortir.`],
 [`p`,`On lui avait donné la salle 4 pour les deux.`],
 [`p`,`C'était trop grand, et il n'avait rien dit. On ne discute pas une salle, et surtout pas celle qui était libre.`],
-[`p`,`Le veilleur poussa la porte, les bras chargés, et le soleil lui arriva dessus d'un coup. Il entrait par les ouvertures ménagées entre les nervures du plafond et posait sur les dalles de longues bandes obliques. Contre le mur du fond, un coulant passait. Épais comme un bras, entré par une percée du mur, enroulé autour de deux colonnes, ressorti plus loin sans qu'on sache où il allait.`],
+[`p`,`Le <a class="glo" data-mot="Veilleur">veilleur</a> poussa la porte, les bras chargés, et le soleil lui arriva dessus d'un coup. Il entrait par les ouvertures ménagées entre les nervures du plafond et posait sur les dalles de longues bandes obliques. Contre le mur du fond, un <a class="glo" data-mot="Coulant">coulant</a> passait. Épais comme un bras, entré par une percée du mur, enroulé autour de deux colonnes, ressorti plus loin sans qu'on sache où il allait.`],
 [`p`,`Personne ne l'avait planté là. On avait bâti autour, et on avait sculpté tout le reste.`],
 [`p`,`Les colonnes étaient couvertes du pied au chapiteau. Des feuilles, des tiges, des grappes lourdes, et dans les feuilles des corps, des mains, des visages tournés vers le milieu de la pièce. Sur la troisième en partant du seuil, la sculpture montait jusqu'à mi-hauteur et s'arrêtait net. Le coulant prenait le relais et continuait jusqu'en haut.`],
 [`p`,`On ne savait pas laquelle des deux avait copié l'autre.`],
@@ -1207,9 +1221,9 @@ const TEXTES = [
 [`tiret`,`— On est deux.`],
 [`tiret`,`— Alors c'est un bon jour.`],
 [`pause`,`· · ·`],
-[`p`,`Deux nouvelles personnes, des préparateurs, entrèrent à leur tour et firent rouler deux chariots jusqu'à leur poste respectif ; un murmure parcourut le petit groupe.`],
-[`p`,`Ils étaient de la serre. C'étaient eux qui vivaient au milieu de la coulée, qui la suivaient d'un bout à l'autre, qui savaient déterminer à la main quand une capsule était prête et qui, après validation interne, la décrochaient.`],
-[`p`,`Les deux éclaircies du jour étaient couchées côte à côte, comme on les avait cueillies. Une capsule, ça ne pousse pas debout : ça pousse à plat sur le coulant, en rang avec les autres, et il faut la détacher de ce qui la porte. Celles-ci étaient venues dans la nuit, toutes les deux, d'un coup, à quelques travées l'une de l'autre, et il avait fallu monter la cérémonie au matin.`],
+[`p`,`Deux nouvelles personnes, des <a class="glo" data-mot="Préparateur">préparateurs</a>, entrèrent à leur tour et firent rouler deux chariots jusqu'à leur poste respectif ; un murmure parcourut le petit groupe.`],
+[`p`,`Ils étaient de la <a class="glo" data-mot="Serre">serre</a>. C'étaient eux qui vivaient au milieu de la <a class="glo" data-mot="Coulée">coulée</a>, qui la suivaient d'un bout à l'autre, qui savaient déterminer à la main quand une capsule était prête et qui, après validation interne, la décrochaient.`],
+[`p`,`Les deux <a class="glo" data-mot="Éclaircie">éclaircies</a> du jour étaient couchées côte à côte, comme on les avait <a class="glo" data-mot="Cueillie">cueillies</a>. Une capsule, ça ne pousse pas debout : ça pousse à plat sur le coulant, en rang avec les autres, et il faut la détacher de ce qui la porte. Celles-ci étaient venues dans la nuit, toutes les deux, d'un coup, à quelques <a class="glo" data-mot="Travée">travées</a> l'une de l'autre, et il avait fallu monter la <a class="glo" data-mot="Cérémonie">cérémonie</a> au matin.`],
 [`p`,`Elles faisaient la longueur d'un corps et un peu plus. Larges au milieu, effilées aux deux bouts, avec cette dissymétrie qu'ont les choses qui ont poussé : un flanc plus plein que l'autre, une courbe qui reprenait là où on ne l'attendait pas. Des nervures couraient sur toute la longueur, très fines, serrées près des pointes et écartées au ventre, et elles se rejoignaient sans jamais tout à fait se toucher. Rien là-dedans n'avait été dessiné.`],
 [`p`,`Elles étaient belles. La paroi avait pris ce jaune très pâle qui vient à la fin, presque comme de la cire, et par endroits on voyait au travers. Une ombre plus dense, une courbe, quelque chose de replié. On ne distinguait rien de plus. Là-dedans, tout se confondait avec le fond, et ceux qui prétendaient reconnaître un genou ou une épaule à travers une paroi mentaient, ou débutaient.`],
 [`p`,`Sur le dessus, le rabat était en place, plus sombre et plus mat que le reste. Personne n'y avait taillé quoi que ce soit : à ce stade la paroi est si fine qu'elle finirait par céder toute seule, et on ne fait pas d'entailles à une chose qui va s'ouvrir sans vous.`],
@@ -1224,7 +1238,7 @@ const TEXTES = [
 [`p`,`Un voile de gelée le recouvrait entièrement, orange, épais, mat, sans une goutte nulle part. Ça ne coulait pas, cette chose-là. Ça s'enlevait. Andrew posa la main à plat sur l'épaule et fit descendre la paume : le voile vint d'un seul tenant, roulé sur lui-même comme la pelure d'un fruit, et découvrit le bras et la main, qui étaient parfaitement propres et parfaitement secs. Il le déposa dans la bassine. Il recommença sur l'autre épaule.`],
 [`p`,`Le corps était placé comme on se place pour dormir quand on n'a mal nulle part.`],
 [`p`,`Le veilleur sortit un instrument — étrange pour qui ignore à quoi il sert, banal pour qui sait le manier. Il fit le relevé. Puis, comme un exercice exécuté depuis des années, il trancha pour tous.`],
-[`tiret`,`— Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté dix ans.`],
+[`tiret`,`— Capsule éclaircie, <a class="glo" data-mot="Arrivant">arrivant</a> réactif. L'Archiviste lui a compté dix ans.`],
 [`tiret`,`— Dix ans, répéta le visiteur d'une vingtaine d'années. C'est si rare !`],
 [`p`,`Plus loin sur la marche, quelqu'un souffla par le nez. Personne ne se retourna.`],
 [`p`,`Andrew fit pivoter le miroir sur son pied et le régla en biais, à la bonne hauteur, un peu de trois quarts.`],
@@ -1304,7 +1318,7 @@ const TEXTES = [
 ]},
 { id:`chapitre-1`, rang:`Chapitre premier`, titre:`Une journée à la ruche`, p:[
 [`p`,`Quatre cent trente-huit.`],
-[`p`,`C'était le nombre de pas qui séparaient sa porte de celle de la ruche. Il ne l'avait jamais compté exprès : le chiffre était venu tout seul, un matin, et il n'était jamais reparti. Les jours où une voiture se garait en travers du trottoir, il en faisait quatre cent quarante et un. Ces matins-là ne comptaient pas.`],
+[`p`,`C'était le nombre de pas qui séparaient sa porte de celle de la <a class="glo" data-mot="Ruche">ruche</a>. Il ne l'avait jamais compté exprès : le chiffre était venu tout seul, un matin, et il n'était jamais reparti. Les jours où une voiture se garait en travers du trottoir, il en faisait quatre cent quarante et un. Ces matins-là ne comptaient pas.`],
 [`p`,`La ruche s'ouvrait par deux battants de bois clair que personne ne fermait avant la nuit. Sur le montant de droite, à hauteur d'épaule, on avait taillé une capsule de profil, d'un seul trait. Tant de mains l'avaient touchée en entrant qu'elle n'était plus qu'un creux. Andrew y posa la sienne sans y penser, comme les autres.`],
 [`pause`,`· · ·`],
 [`p`,`Tout de suite en entrant, sur la gauche, l'accueil.`],
@@ -1337,7 +1351,7 @@ const TEXTES = [
 [`p`,`La première inspection avait un but simple : s'assurer que l'arrivant était bien arrivé immaculé, sans anomalie ni blessure.`],
 [`p`,`On n'était jamais trop prudent.`],
 [`p`,`D'après les études menées jusque-là, toutes les capsules n'avaient pas les mêmes délais de maturation. Il arrivait même que, d'une travée à l'autre, leur maturation s'achève sur des relevés étranges. Dans ces cas-là, on vérifiait que l'arrivant n'avait pas été touché d'une manière ou d'une autre au cours du processus.`],
-[`p`,`Cette vérification revenait à l'analyste.`],
+[`p`,`Cette vérification revenait à l'<a class="glo" data-mot="Analyste">analyste</a>.`],
 [`p`,`Ils étaient hommes et femmes, tous experts dans leur domaine, et passaient déjà leurs journées à étudier les capsules, leurs mesures et leurs variations. Il n'y avait donc rien d'étrange à ce qu'ils examinent également ce qui en sortait.`],
 [`p`,`C'était, au fond, la même chose.`],
 [`p`,`Du moins, c'était ainsi qu'on le présentait.`],
@@ -1370,7 +1384,7 @@ const TEXTES = [
 [`p`,`Pour aller chercher celles qui poussaient en hauteur, on montait des échafaudages. On les redescendait ensuite.`],
 [`p`,`C'était la serre.`],
 [`p`,`Très haut, sur une plateforme montée la veille, trois préparateurs travaillaient autour d'une capsule considérée comme arrivée à maturité. Deux la tenaient par-dessous pendant que le troisième la détachait. Ils ne l'auraient pas fait hier et ils ne le feraient pas demain : l'analyste avait donné le jour, et c'était aujourd'hui. On appelait ça la cueillie. L'heure serait notée, et elle finirait sur la fiche qu'on remettrait au veilleur.`],
-[`p`,`Au loin, immanquable, la porte du registre. Massive, elle aussi tout autant chargée d'ornements que le reste, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.`],
+[`p`,`Au loin, immanquable, la porte du <a class="glo" data-mot="Registre">registre</a>. Massive, elle aussi tout autant chargée d'ornements que le reste, encadrée de chaque côté par le mur de pierre qui faisait le tour de la salle, et la coulée serpentant dessus par endroits. Il n'allait pas là non plus.`],
 [`p`,`Les différents quartiers, eux, se fondaient dans l'environnement de la serre. Des murs, un toit, une porte, sculptés comme tout ce qui avait été bâti ici, et la coulée qui passait entre eux et par-dessus.`],
 [`p`,`Un préparateur répondant au nom de Bastien reconnut le veilleur de loin, à sa silhouette et à sa façon de marcher.`],
 [`p`,`Andrew était grand sans être imposant, l'épaule large, la taille droite, avec la solidité tranquille de ceux qui entretiennent leur condition sans chercher à paraître plus forts qu'ils ne le sont. Cheveux bruns, courts, légèrement désordonnés, deux ou trois mèches refusant de rester en place — et quelques autres restées blanches. Barbe courte, mâchoire carrée, nez droit, sourcils épais. Les yeux d'un brun profond, attentifs, toujours en train d'observer quelque chose : chaleureux quand il se détendait, nettement plus sérieux dès qu'il se concentrait. Rien d'intimidant au premier regard. Ce n'était pas une raison pour le sous-estimer.`],
@@ -1395,7 +1409,7 @@ const TEXTES = [
 [`tiret`,`— Celle-là, ce n'est pas pareil. Regarde-la.`],
 [`p`,`Il la regarda. Elle était belle.`],
 [`p`,`L'homme au chiffon s'émerveillait devant une capsule comme quelqu'un qui n'en aurait jamais vu.`],
-[`tiret`,`— On ne t'en a pas montré, à l'école ? dit Andrew.`],
+[`tiret`,`— On ne t'en a pas montré, à l'<a class="glo" data-mot="École">école</a> ? dit Andrew.`],
 [`tiret`,`— Oh si, si. Mais ce n'est pas la même chose que de les voir en vrai !`],
 [`p`,`« Capsule éclaircie, arrivant réactif. L'Archiviste lui a compté soixante-seize ans », se souvint Andrew en considérant son sourire béat.`],
 [`p`,`Personne ne pouvait lui en vouloir. Il avait encore des cours du soir, et ça faisait à peine un mois qu'il était là. Un apprenti modèle, qui apprenait vite.`],
@@ -1421,7 +1435,7 @@ const TEXTES = [
 [`p`,`Une main de préparateur ne valait pas celle d'une analyste. Bien sûr qu'elle pouvait sembler prête. Ce n'était pas si simple que ça.`],
 [`p`,`Le geste seul ne donnait pas de date. Vera pouvait relever cette capsule dans l'heure, elle n'aurait qu'un point sur un graphique vierge, et il en fallait quatre au minimum pour chiffrer correctement le jour d'une éclaircie totale. Toutes les capsules n'arrivaient pas à maturation de la même manière. C'était en croisant des moyennes, des chiffres accumulés sur des années et les relevés faits sur place qu'on finissait par le savoir.`],
 [`p`,`Or Bastien pouvait se tromper comme ne pas se tromper. Il était nouveau dans le métier, et un préparateur ne tranchait pas. Tout le monde le pensait tout bas sans le dire tout haut. Personne ne lui en voulait de ne pas savoir encore.`],
-[`tiret`,`— Deux jours, dit-elle. Avant ça, je ne dirai rien. De toute manière, si ça avait été une capsule flash, elle se serait ouverte depuis longtemps.`],
+[`tiret`,`— Deux jours, dit-elle. Avant ça, je ne dirai rien. De toute manière, si ça avait été une <a class="glo" data-mot="Capsule flash">capsule flash</a>, elle se serait ouverte depuis longtemps.`],
 [`tiret`,`— Mais elle est claire, dit Bastien.`],
 [`tiret`,`— Je ne dis pas le contraire.`],
 [`p`,`Andrew regarda le tableau noir. Trois travées avaient une salle en face : la neuf, la dix, la onze. Trois salles, trois veilleurs. En face de la dix-neuf, celle de Bastien, il n'y avait rien — on ne réserve pas une salle pour une capsule qui n'existe sur aucune planche.`],
@@ -1491,7 +1505,7 @@ const TEXTES = [
 [`p`,`Il sonna. L'attente fut courte.`],
 [`p`,`June ouvrit, un torchon à la main. Elle avait tiré ses cheveux blonds en arrière et les avait noués bas. Grande et mince, elle avait le visage d'une jeune femme au début de la vingtaine, les traits fins et quelque chose de tranquille dans les yeux. Son tablier avait déjà servi ce matin-là. Elle le portait avec cette simplicité des vêtements qu'on enfile pour travailler, sans chercher à leur donner plus d'importance qu'ils n'en avaient.`],
 [`p`,`Si le métier lui avait appris quelque chose, c'était la douceur. C'était en tout cas ce qu'Andrew voyait d'elle à chacune de ses visites.`],
-[`p`,`Une berceuse prenait chez elle ceux qui arrivaient à quatorze ans, les accompagnait au quotidien pendant des années, puis les remettait à ses consœurs et confrères du jardin, passé huit ans. June en avait trois sous son toit.`],
+[`p`,`Une <a class="glo" data-mot="Berceur, berceuse">berceuse</a> prenait chez elle ceux qui arrivaient à quatorze ans, les accompagnait au quotidien pendant des années, puis les remettait à ses consœurs et confrères du <a class="glo" data-mot="Jardin">jardin</a>, passé huit ans. June en avait trois sous son toit.`],
 [`p`,`Le reste du métier ne s'écrivait nulle part et tenait en peu de mots. Aimer son prochain. C'était par ces hommes et ces femmes que les plus jeunes s'épanouissaient.`],
 [`tiret`,`— Andrew, bonjour. Entrez, entrez.`],
 [`p`,`Elle s'essuya les mains à son tablier et s'écarta pour le laisser passer. Sa manche gauche était remontée un peu plus haut que l'autre.`],
@@ -1720,7 +1734,7 @@ const TEXTES = [
 [`p`,`C'était vrai.`],
 [`p`,`L'école prenait ceux qui arrivaient tout en haut. La plupart avaient entre quatre-vingts et quatre-vingt-dix ans lorsqu'ils en franchissaient les portes. Il arrivait qu'on en reçoive de plus haut encore, quatre-vingt-quinze, cent un. Cela ne changeait rien : ils entraient, apprenaient, recommençaient, et prenaient le temps qu'il fallait.`],
 [`p`,`Pour eux, l'école durait des années. On y apprenait les premières lettres, les nombres, l'histoire du monde, les gestes de la vie courante et tout ce qu'il fallait savoir pour y trouver sa place.`],
-[`p`,`Ceux qui arrivaient plus bas, autour de cinquante ou soixante ans, n'avaient pas ce temps-là. Ils entraient directement dans la vie active et recevaient, le soir, des cours adaptés à leur rythme. Un tuteur les accompagnait au début, au cas par cas, jusqu'à ce qu'ils puissent avancer seuls.`],
+[`p`,`Ceux qui arrivaient plus bas, autour de cinquante ou soixante ans, n'avaient pas ce temps-là. Ils entraient directement dans la vie active et recevaient, le soir, des cours adaptés à leur rythme. Un <a class="glo" data-mot="Tuteur">tuteur</a> les accompagnait au début, au cas par cas, jusqu'à ce qu'ils puissent avancer seuls.`],
 [`p`,`Et pour les plus jeunes, il y avait les berceurs.`],
 [`p`,`Eliott ne quittait pas la cour des yeux.`],
 [`p`,`Andrew le laissa regarder aussi longtemps qu'il voulut.`],
@@ -1792,7 +1806,7 @@ const TEXTES = [
 [`tiret`,`— Sûrement.`],
 [`p`,`Quelques pas passèrent.`],
 [`tiret`,`— Un vrai.`],
-[`tiret`,`— Le portage est un métier.`],
+[`tiret`,`— Le <a class="glo" data-mot="Portage">portage</a> est un métier.`],
 [`tiret`,`— Le mien, c'est pas un vrai.`],
 [`tiret`,`— C'en est un.`],
 [`tiret`,`— On me l'a donné. On m'a pas demandé.`],
@@ -2814,6 +2828,26 @@ $('#g-liste').innerHTML = RANGS.map(r => `
       </article>`).join('') +
     `</div>
   </section>`).join('');
+
+/* ---------- un renvoi mene au mot ---------- */
+document.addEventListener('click', e => {
+  const a = e.target.closest && e.target.closest('.glo');
+  if (!a) return;
+  e.preventDefault();
+  $('.rail-btn[data-vue="mots"]').click();
+  const f = a.dataset.mot;
+  /* on montre le glossaire entier et on vise l'entree : le lecteur
+     garde ce qu'il y a autour, et il peut lire plus loin s'il veut. */
+  $('#m-cherche').value = '';
+  rendreMots('');
+  const i = MOTS.findIndex(([m]) => m === f);
+  const el = $$('#m-liste .mot-l')[i];
+  if (el) {
+    el.classList.add('vise');
+    el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    setTimeout(() => el.classList.remove('vise'), 2800);
+  }
+});
 
 /* ---------- le glossaire ---------- */
 function rendreMots(f){
