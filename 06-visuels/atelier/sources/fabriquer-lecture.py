@@ -330,13 +330,13 @@ CORPS = u"""<body>
   <form class="coffre" id="coffre">
     <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8.2 10.5V7.8a3.8 3.8 0 0 1 7.6 0v2.7"/></svg>
     <h2>L'épilogue est fermé</h2>
-    <p>Il est écrit, et il se lit en dernier. Si on t'a donné le mot, tu peux entrer.</p>
-    <input id="c-mot" type="password" autocomplete="off" placeholder="le mot" aria-label="le mot">
+    <p>Il est écrit, et il se lit en dernier. Si on t'a donné son nom, tu peux entrer.</p>
+    <input id="c-mot" type="password" autocomplete="off" placeholder="son nom" aria-label="son nom">
     <div class="coffre-btn">
       <button type="button" class="puce" id="c-non">plus tard</button>
       <button type="submit" class="puce on">entrer</button>
     </div>
-    <p class="coffre-err" id="c-err" hidden>Ce n'est pas le mot.</p>
+    <p class="coffre-err" id="c-err" hidden>Ce n'est pas lui.</p>
   </form>
 </div>
 """ % (RUCHE_BTN, JARDIN_BTN, RUCHE_VUE, JARDIN_VUE)
@@ -389,7 +389,7 @@ $('#s-liste').innerHTML = `<div class="frise-h"><ol>` + SOMMAIRE.map(s => {
       ${s.etat === 'lu' || (s.etat === 'clef' && ouvert)
           ? `<span class="jalon-lire">lire<svg viewBox="0 0 24 24"><path d="M5 12h13M12.5 6l6 6-6 6"/></svg></span>`
           : s.etat === 'clef'
-            ? `<span class="jalon-lire">le mot<svg viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8.2 10.5V7.8a3.8 3.8 0 0 1 7.6 0v2.7"/></svg></span>`
+            ? `<span class="jalon-lire">son nom<svg viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8.2 10.5V7.8a3.8 3.8 0 0 1 7.6 0v2.7"/></svg></span>`
             : ``}`;
   const cliquable = s.etat === 'lu' || (s.etat === 'clef' && TEXTES.some(t => t.rang === s.rang));
   return `<li class="jalon ${s.etat === 'clef' && ouvert ? 'lu' : s.etat}">` +
