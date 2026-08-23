@@ -212,6 +212,21 @@ porteuses de voiles sans nommer personne de notre monde.** *Il se décrit par ce
 échafaudages, grue immobile, mur qui s'arrête — jamais par ce qu'il aurait dû être.*
 > `02-univers/la-terre.md`
 
+**Le bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans
+le service. Comme on arrive dans ce monde d'autant plus âgé qu'on est parti âgé, **ce sont
+les plus âgés d'aspect qui s'y collent** — des veilleurs d'allure adolescente laissent la
+raclette à un homme qui paraît soixante ans, et l'ordre est normal des deux côtés.
+**Hors du glossaire du lecteur** — *le chapitre premier le montre, et le nommer l'expliquerait.*
+> `02-univers/la-ruche.md`
+
+**La consultation de la cueillie.** Le premier examen, dans l'heure qui suit la sortie, dans
+une salle adjacente à celle de la cérémonie. L'analyste vérifie le corps entier : réflexes,
+suivi du regard, force de préhension, marche, paumes, ongles, bouche. Trois mots à retenir et
+à redire, un compte à rebours. **Tout le monde est normal à ce stade, et l'examen sert
+justement à le dire.** *Le nom provisoire « consultation d'initiation » est mort le 23 août
+2026.*
+> `02-univers/le-corps-des-arrivants.md`
+
 **La dernière grâce.** Hypothèse : les reliquats disparaîtraient une fois au jardin. Le
 système retirerait en dernier ce qui empêchait de jouir du temps rendu. ⛔ **Jamais
 confirmée, jamais vérifiable, jamais énonçable.** *Une seule phrase de trop en ferait une
@@ -245,6 +260,11 @@ dans le seul endroit de ce monde où l'on est bien. **Le supplément est proport
 a été pris.** ⛔ Aucun barème n'existe et il ne faut jamais en écrire un ; la longueur exacte
 n'est lisible nulle part. **Hors du glossaire : c'est le barème, et le barème est caché.**
 > `02-univers/ce-qui-est-juge.md`
+
+**« Libérer plus tôt ».** Formule d'un courant politique respectable qui juge cruel de faire
+durer une vie qui n'ira nulle part. **Il ne dit jamais ce qu'il propose** : il le dit avec
+des chiffres, dans des salles, devant des gens qui hochent la tête.
+> `02-univers/la-jalousie.md`
 
 **Le marginal.** Celui qui déteste les arrivants jeunes et le fait savoir. **Ni groupe, ni
 organisation, ni porte-parole** : des individus, des rumeurs, des négligences, une foule un
@@ -330,6 +350,10 @@ d'une ceinture. **C'est le premier vêtement d'un arrivant.** Quatre tailles à 
 en descend une de chaque puisqu'on ne sait pas qui va sortir.
 > `02-univers/la-ruche.md`
 
+**« Au silence ».** La cellule temporaire. *On fait quelques jours au silence.* **Le mot ne
+s'explique pas :** il se comprend au premier emploi, par le contexte.
+> `04-plan/le-parcours-de-l-enquete.md`
+
 **Le sismographe.** Ce qu'est la ruche sans que personne le sache : trente capsules qui se
 forment et mûrissent le même jour signalent un tremblement de terre, une guerre, un naufrage.
 **Les veilleurs voient une semaine anormale et ne comprendront jamais ce qu'ils ont vu
@@ -337,6 +361,14 @@ passer.** ⛔ Le lecteur seul comprend, et rien ne doit jamais être dit. *Et c'
 aiguille qui explique les capsules qui cessent d'éclaircir :* **notre monde devient malade,
 et il y a de plus en plus d'imbéciles sur cette belle planète** — réponse de l'autrice,
 20 août 2026. ⛔ *Personne dans le roman ne le saura jamais.*
+> `02-univers/la-ruche.md`
+
+**Le souffle qui reste.** Ce qui règle la vitesse de maturation d'une capsule : **ce qu'il
+reste de souffle de l'autre côté.** Une agonie longue donne une capsule lente ; une mort
+brutale donne une capsule flash. ⛔ **Rien de cela n'entre dans le glossaire du lecteur** —
+*l'entrée « Capsule » disait « selon ce qui reste de souffle de l'autre côté », et c'était la
+phrase la plus dangereuse de la page.* **Elle ne dit plus que ceci : les capsules ne mûrissent
+pas toutes à la même vitesse.**
 > `02-univers/la-ruche.md`
 
 **Le suivi.** Rendez-vous médicaux obligatoires après toute éclaircie : mémoire, tonicité,

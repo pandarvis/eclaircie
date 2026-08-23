@@ -95,5 +95,7 @@ qui en contenait trois. *Tout script qui contient un antislash s'écrit dans un 
 |---|---|
 | `analyse-style.py` | mesure les textes de l'atelier : temps, longueurs, répétitions, ambiguïtés |
 | `controler-un-texte.py <fichier.md>` | passe un brouillon au même contrôle : mots bannis et mesures de style |
+> **Le glossaire est au lecteur, la bible est à nous.** *Règle de l'autrice, 23 août 2026 : « comme ça on se dit que le glossaire est bien destiné au lecteur sans ambiguïté, et le reste part dans la bible ».* **Une entrée qui en dit trop ne se supprime pas : elle se déplace.**
+
 | `glossaire.py` | verse `05-manuscrit/glossaire.md` dans l'atelier |
 | `paroles.py` | régénère `01-dossier/paroles-de-l-autrice.md` depuis la transcription |
