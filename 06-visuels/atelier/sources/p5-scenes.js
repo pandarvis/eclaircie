@@ -273,6 +273,8 @@ const SCENES = [
 
 *Un bras d'abord, qui se déroule le long d'une pierre et se colle dessus par en dessous. Puis tous les autres à la fois.* **— Il y en a combien ? — Huit.** *Et il les compte en la suivant.*
 
+⚠️ **Vérification demandée par l'autrice : celle qu'on étudie chez nous ne se voit pas à l'œil nu.** *Quelques millimètres, presque jamais présentée au public, tenue dans des laboratoires.* ✅ **D'où le dernier bac : petit, à hauteur d'appui, avec un verre bombé devant pour grossir — sans lui on ne verrait rien.** *Elles sont trois, à peine plus grandes qu'une tête d'épingle.* **Et c'est ce qui rend naturel qu'Andrew se penche vers la plaque :** *on lit les plaques quand on ne voit pas grand-chose.*
+
 🔴 **Le caméo des méduses, trouvé par l'autrice le 23 août 2026.** *Une salle entière, des colonnes d'eau éclairées par en dessous — et une réplique de plaque, lue à voix haute par Andrew :* **« Celles-là, ça dépend. Quand elles sont abîmées, elles redeviennent petites et ça repart. »**
 
 ⛔ **Personne ne relève. Eliott dit « ah » et ils passent à la salle suivante.** *C'est le livre entier, dit devant un bocal, par un homme qui ne comprend pas ce qu'il lit et à un garçon que ça n'intéresse pas.* ⚠️ **Et ça n'expose rien :** *dans ce monde-là, une bête qui recommence n'a rien de remarquable — c'est le lecteur, et lui seul, qui s'arrête.* ; ④ au retour, l'école et le gymnase, en passant — **et le contraste est le sujet du chapitre** : *un lieu où on l'emmène et où il entre, une cour où il n'entrera jamais.*
