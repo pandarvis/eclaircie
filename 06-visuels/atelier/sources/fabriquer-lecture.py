@@ -17,6 +17,7 @@ Sortie : 06-visuels/atelier/lecture.html
 import io
 import os
 import re
+import unicodedata
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 
@@ -61,7 +62,27 @@ B = u'`'
 js = lire('pB-textes.js')
 bornes = [(m.group(1), m.start()) for m in re.finditer(r'\n  id: `([a-z0-9-]+)`,', js)]
 
-LISIBLES = ['prologue', 'chapitre-1', 'chapitre-2', 'chapitre-3']
+LISIBLES = ['prologue', 'chapitre-1', 'chapitre-2', 'chapitre-3', 'epilogue']
+SOUS_CLEF = ['epilogue']          # lisibles, mais seulement apres le mot de passe
+
+
+def empreinte(mot):
+    """FNV-1a 32 bits, sur le mot mis a plat.
+
+    Le mot de passe ne doit apparaitre nulle part dans le fichier : on
+    n'y met que ce nombre, et la page refait le meme calcul sur ce
+    qu'on tape. Ce n'est pas un coffre-fort -- voir la note du bas.
+    """
+    plat = unicodedata.normalize('NFD', mot.lower())
+    plat = u''.join(c for c in plat if unicodedata.category(c) != 'Mn')
+    plat = u''.join(c for c in plat if c.isalnum())
+    h = 0x811c9dc5
+    for c in plat:
+        h = ((h ^ ord(c)) * 0x01000193) & 0xffffffff
+    return h
+
+
+CLEF = empreinte(u'Joël')
 textes = []
 for ident in LISIBLES:
     n = [i for i, (x, _) in enumerate(bornes) if x == ident][0]
@@ -71,7 +92,8 @@ for ident in LISIBLES:
     rang = re.search(r'rang: `([^`]*)`', bloc).group(1)
     titre = re.search(r'titre: `([^`]*)`', bloc).group(1)
     paras = re.findall(r'\[`(p|tiret|pause)`,`([^`]*)`', bloc)
-    textes.append({'id': ident, 'rang': rang, 'titre': titre, 'p': list(paras)})
+    textes.append({'id': ident, 'rang': rang, 'titre': titre, 'p': list(paras),
+                   'clef': ident in SOUS_CLEF})
 
 
 # =====================================================================
@@ -112,15 +134,15 @@ def lier(textes_bruts):
     a_lier = [m for m, d in mots if m not in NE_PAS_LIER]
     restants = {m: formes(m) for m in a_lier}
     faits = []
-    for t in textes_bruts:              # dans l'ordre de lecture
+    for t in [x for x in textes_bruts if not x['clef']]:   # dans l'ordre de lecture
         for i, (genre, texte) in enumerate(t['p']):
             for entree in list(restants):
                 pose = False
                 for f in restants[entree]:
                     # hors d'une balise, sur un mot entier, casse indifferente
-                    motif = re.compile(u'(?<![\w\u00c0-\u017f])(' + re.escape(f)
-                                       + u')(?![\w\u00c0-\u017f])'
-                                       + u'(?![^<]*>)', re.IGNORECASE)
+                    # une frontiere de mot, et hors d'une balise
+                    motif = re.compile(u'\\b(' + re.escape(f) + u')\\b(?![^<]*>)',
+                                       re.IGNORECASE)
                     m = motif.search(texte)
                     if m:
                         texte = (texte[:m.start(1)]
@@ -193,7 +215,7 @@ SOMMAIRE = u"""const SOMMAIRE = [
   mot:`Il y retourna le mardi suivant, et le mardi d'après.` },
 { etat:`vient`, rang:`La suite`, note:`en cours d'écriture`,
   mot:`` },
-{ etat:`loin`, rang:`Épilogue`, note:`écrit, et gardé pour la fin`,
+{ etat:`clef`, rang:`Épilogue`, note:`écrit, et gardé pour la fin`,
   mot:`` }
 ];
 """
@@ -205,8 +227,9 @@ SOMMAIRE = u"""const SOMMAIRE = [
 poses = lier(textes)
 TEXTES = (u'const TEXTES = [\n'
           + u',\n'.join(
-              u'{ id:%s%s%s, rang:%s%s%s, titre:%s%s%s, p:[\n%s\n]}'
+              u'{ id:%s%s%s, rang:%s%s%s, titre:%s%s%s, clef:%s, p:[\n%s\n]}'
               % (B, t['id'], B, B, t['rang'], B, B, t['titre'], B,
+                 u'true' if t['clef'] else u'false',
                  u',\n'.join(u'[%s%s%s,%s%s%s]' % (B, k, B, B, x, B) for k, x in t['p']))
               for t in textes)
           + u'\n];\n')
@@ -302,6 +325,20 @@ CORPS = u"""<body>
 </div>
 
 <div class="souffleur" id="souffleur"></div>
+
+<div class="voile" id="voile" hidden>
+  <form class="coffre" id="coffre">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8.2 10.5V7.8a3.8 3.8 0 0 1 7.6 0v2.7"/></svg>
+    <h2>L'épilogue est fermé</h2>
+    <p>Il est écrit, et il se lit en dernier. Si on t'a donné le mot, tu peux entrer.</p>
+    <input id="c-mot" type="password" autocomplete="off" placeholder="le mot" aria-label="le mot">
+    <div class="coffre-btn">
+      <button type="button" class="puce" id="c-non">plus tard</button>
+      <button type="submit" class="puce on">entrer</button>
+    </div>
+    <p class="coffre-err" id="c-err" hidden>Ce n'est pas le mot.</p>
+  </form>
+</div>
 """ % (RUCHE_BTN, JARDIN_BTN, RUCHE_VUE, JARDIN_VUE)
 
 
@@ -315,6 +352,10 @@ const esc = t => String(t).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'
 const rich = t => esc(t)
   .replace(/\\*\\*(.+?)\\*\\*/g, '<strong>$1</strong>')
   .replace(/\\*(.+?)\\*/g, '<em>$1</em>');
+
+/* l'epilogue est ferme tant qu'on n'a pas donne le mot ; le sommaire
+   le lit des son premier rendu, donc l'etat vient avant tout. */
+let ouvert = false;
 
 let souffle;
 function souffler(t){
@@ -338,38 +379,99 @@ if (btnT) btnT.addEventListener('click', () => {
 });
 
 /* ---------- le sommaire ---------- */
+function rendreSommaire(){
 $('#s-liste').innerHTML = `<div class="frise-h"><ol>` + SOMMAIRE.map(s => {
   const dedans = `
       <span class="jalon-point" aria-hidden="true"></span>
       <span class="jalon-rang">${esc(s.rang)}</span>
       ${s.note ? `<span class="jalon-note">${esc(s.note)}</span>` : ``}
       ${s.mot ? `<span class="jalon-mot">${esc(s.mot)}</span>` : ``}
-      ${s.etat === 'lu' ? `<span class="jalon-lire">lire<svg viewBox="0 0 24 24"><path d="M5 12h13M12.5 6l6 6-6 6"/></svg></span>` : ``}`;
-  return `<li class="jalon ${s.etat}">` +
-    (s.etat === 'lu'
+      ${s.etat === 'lu' || (s.etat === 'clef' && ouvert)
+          ? `<span class="jalon-lire">lire<svg viewBox="0 0 24 24"><path d="M5 12h13M12.5 6l6 6-6 6"/></svg></span>`
+          : s.etat === 'clef'
+            ? `<span class="jalon-lire">le mot<svg viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8.2 10.5V7.8a3.8 3.8 0 0 1 7.6 0v2.7"/></svg></span>`
+            : ``}`;
+  const cliquable = s.etat === 'lu' || (s.etat === 'clef' && TEXTES.some(t => t.rang === s.rang));
+  return `<li class="jalon ${s.etat === 'clef' && ouvert ? 'lu' : s.etat}">` +
+    (cliquable
       ? `<button class="jalon-bloc" data-rang="${esc(s.rang)}">${dedans}</button>`
       : `<div class="jalon-bloc">${dedans}</div>`) +
   `</li>`;
 }).join('') + `</ol></div>`;
 
-$$('#s-liste .jalon.lu .jalon-bloc').forEach(b => b.addEventListener('click', () => {
+$$('#s-liste .jalon-bloc[data-rang]').forEach(b => b.addEventListener('click', () => {
   const i = TEXTES.findIndex(t => t.rang === b.dataset.rang);
-  $('.rail-btn[data-vue="textes"]').click();
-  if (i >= 0) { xSel = i; majChoix(); rendreTextes(); }
+  if (i < 0) return;
+  const aller = () => {
+    $('.rail-btn[data-vue="textes"]').click();
+    xSel = i; majChoix(); rendreTextes();
+  };
+  if (TEXTES[i].clef && !ouvert) { demanderLeMot(aller); return; }
+  aller();
 }));
+}
+rendreSommaire();
+
+/* ---------- le coffre ----------
+   Le mot n'est ecrit nulle part : la page refait le meme calcul sur
+   ce qu'on tape et compare deux nombres. */
+const plat = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                   .toLowerCase().replace(/[^a-z0-9]/g, '');
+function empreinte(t){
+  let h = 0x811c9dc5;
+  for (const c of plat(t)) { h ^= c.charCodeAt(0); h = Math.imul(h, 0x01000193) >>> 0; }
+  return h;
+}
+
+let apresCoffre = null;
+function demanderLeMot(suite){
+  apresCoffre = suite;
+  $('#c-err').hidden = true;
+  $('#c-mot').value = '';
+  $('#voile').hidden = false;
+  setTimeout(() => $('#c-mot').focus(), 40);
+}
+function fermerCoffre(){ $('#voile').hidden = true; apresCoffre = null; }
+$('#c-non').addEventListener('click', fermerCoffre);
+$('#voile').addEventListener('click', e => { if (e.target.id === 'voile') fermerCoffre(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#voile').hidden) fermerCoffre(); });
+$('#coffre').addEventListener('submit', e => {
+  e.preventDefault();
+  if (empreinte($('#c-mot').value) !== CLEF) {
+    $('#c-err').hidden = false;
+    $('#c-mot').select();
+    return;
+  }
+  ouvert = true;
+  document.body.classList.add('ouvert');
+  const suite = apresCoffre;      /* avant de fermer : fermerCoffre l'efface */
+  fermerCoffre();
+  souffler('L\u2019\u00e9pilogue est ouvert.');
+  majChoix();
+  rendreSommaire();
+  if (suite) suite();
+});
 
 /* ---------- les chapitres ---------- */
 let xSel = 0;
 const boxChoix = $('#x-choix');
 TEXTES.forEach((t, i) => {
   const b = document.createElement('button');
-  b.className = 'puce' + (i === 0 ? ' on' : '');
-  b.textContent = t.rang;
-  b.addEventListener('click', () => { xSel = i; majChoix(); rendreTextes(); });
+  b.className = 'puce' + (i === 0 ? ' on' : '') + (t.clef ? ' a-clef' : '');
+  b.innerHTML = esc(t.rang) + (t.clef
+    ? ` <svg class="cadenas" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8.2 10.5V7.8a3.8 3.8 0 0 1 7.6 0v2.7"/></svg>`
+    : ``);
+  b.addEventListener('click', () => {
+    if (t.clef && !ouvert) { demanderLeMot(() => { xSel = i; majChoix(); rendreTextes(); }); return; }
+    xSel = i; majChoix(); rendreTextes();
+  });
   boxChoix.appendChild(b);
 });
 function majChoix(){
-  $$('#x-choix .puce').forEach((x, i) => x.classList.toggle('on', i === xSel));
+  $$('#x-choix .puce').forEach((x, i) => {
+    x.classList.toggle('on', i === xSel);
+    if (ouvert) x.classList.remove('a-clef');
+  });
 }
 function rendreTextes(){
   const t = TEXTES[xSel]; if (!t) return;
@@ -446,6 +548,51 @@ STYLE_SUP = u"""<style>
   font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--texte-3);margin-bottom:6px
 }
+/* ---------- le coffre de l'epilogue ---------- */
+.puce.a-clef{opacity:.62}
+.puce .cadenas{
+  width:11px;height:11px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;vertical-align:-1px;margin-left:2px
+}
+body.ouvert .puce .cadenas{display:none}
+.jalon.clef{opacity:.72;width:186px}
+.jalon.clef .jalon-point{background:var(--fond);border:1px solid var(--andrew)}
+.jalon.clef .jalon-rang{color:var(--texte-2);font-size:16px}
+.jalon.clef .jalon-bloc{cursor:pointer}
+.jalon.clef .jalon-bloc:hover .jalon-lire{opacity:1}
+.voile{
+  position:fixed;inset:0;z-index:200;display:flex;align-items:center;justify-content:center;
+  background:color-mix(in srgb,#000 62%,transparent);
+  backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);padding:20px
+}
+.voile[hidden]{display:none}
+.coffre{
+  width:100%;max-width:370px;text-align:center;padding:30px 30px 26px;
+  background:var(--fond-2);border:1px solid var(--trait);border-radius:14px;
+  box-shadow:0 24px 60px -20px rgba(0,0,0,.7)
+}
+.coffre > svg{
+  width:26px;height:26px;fill:none;stroke:var(--andrew);stroke-width:1.6;
+  stroke-linecap:round;stroke-linejoin:round;margin-bottom:14px
+}
+.coffre h2{
+  margin:0 0 9px;font-family:var(--serif);font-weight:400;font-size:21px;color:var(--texte)
+}
+.coffre p{
+  margin:0 0 18px;font-family:var(--sans);font-size:13px;line-height:1.55;color:var(--texte-2)
+}
+.coffre input{
+  width:100%;padding:10px 13px;border-radius:8px;text-align:center;
+  background:var(--fond);border:1px solid var(--trait);color:var(--texte);
+  font-family:var(--sans);font-size:15px;letter-spacing:.22em
+}
+.coffre input:focus{outline:none;border-color:var(--andrew)}
+.coffre-btn{display:flex;gap:9px;justify-content:center;margin-top:16px}
+.coffre-err{
+  margin:14px 0 0;color:var(--alerte);font-size:12.5px;letter-spacing:.02em
+}
+.coffre-err[hidden]{display:none}
+
 /* ---------- les renvois vers le glossaire ---------- */
 .mot-l{border-radius:7px;transition:background .3s}
 .mot-l.vise{
@@ -558,9 +705,19 @@ STYLE_SUP = u"""<style>
 </style>
 """
 
-page = (lire('p1-style.html') + lire('p2-style.html') + lire('p3-style.html')
+def sans_nom(css):
+    """Le nom de la seconde voie ne traine pas dans les styles repris.
+
+    L'atelier nomme ses couleurs par personnage. Ici ces noms ne
+    servent a rien, et l'un d'eux dit quelque chose : on le remplace.
+    """
+    return css.replace(u'joel', u'v2')
+
+
+page = (sans_nom(lire('p1-style.html') + lire('p2-style.html') + lire('p3-style.html'))
         + STYLE_SUP + CORPS
-        + u'<script>\n' + TEXTES + u'\n' + MOTS + u'\n' + GENS + u'\n' + SOMMAIRE + u'</script>\n'
+        + u'<script>\nconst CLEF = %d;\n' % CLEF + TEXTES + u'\n' + MOTS + u'\n'
+        + GENS + u'\n' + SOMMAIRE + u'</script>\n'
         + u'<script>\n' + sans_scelle(lire('pC-ruche.js')) + u'\n</script>\n'
         + u'<script>\n' + lire('pD-jardin.js') + u'\n</script>\n'
         + APP)
@@ -572,8 +729,13 @@ open(SORTIE, 'wb').write(page.encode('utf-8'))
 INTERDITS = [u'const NOTES', u'const SCENES', u'const REGLES', u'const INTERDITS',
              u'const BIBLE', u'const QUESTIONS', u'const DISPOSITIF', u'const RACCORDS',
              u'faille:', u'gardes:', u'arc:', u'Joël', u'ravisseuse', u'reliquat',
-             u'agonie', u'cite scelle']
-fuites = [m for m in INTERDITS if m in page]
+             u'agonie', u'cite scelle', u'Joel', u'JOEL', u'joel']
+def present(mot, texte):
+    """Un mot entier, pas un morceau : --joel n'est pas Joel."""
+    return re.search(u'(?<![\\w-])' + re.escape(mot) + u'(?![\\w-])', texte) is not None
+
+
+fuites = [m for m in INTERDITS if present(m, page)]
 if fuites:
     raise SystemExit(u'FUITE dans lecture.html : ' + u', '.join(fuites))
 
