@@ -278,15 +278,21 @@ if (btnT) btnT.addEventListener('click', () => {
 });
 
 /* ---------- le sommaire ---------- */
-$('#s-liste').innerHTML = SOMMAIRE.map(s => `
-  <article class="carte ${s.etat}">
-    <h3>${esc(s.rang)}</h3>
-    ${s.note ? `<div class="rang-s">${esc(s.note)}</div>` : ``}
-    ${s.mot ? `<p class="incipit">${esc(s.mot)}</p>` : ``}
-    ${s.etat === 'lu' ? `<button class="puce lire" data-rang="${esc(s.rang)}">lire</button>` : ``}
-  </article>`).join('');
+$('#s-liste').innerHTML = `<div class="frise-h"><ol>` + SOMMAIRE.map(s => {
+  const dedans = `
+      <span class="jalon-point" aria-hidden="true"></span>
+      <span class="jalon-rang">${esc(s.rang)}</span>
+      ${s.note ? `<span class="jalon-note">${esc(s.note)}</span>` : ``}
+      ${s.mot ? `<span class="jalon-mot">${esc(s.mot)}</span>` : ``}
+      ${s.etat === 'lu' ? `<span class="jalon-lire">lire<svg viewBox="0 0 24 24"><path d="M5 12h13M12.5 6l6 6-6 6"/></svg></span>` : ``}`;
+  return `<li class="jalon ${s.etat}">` +
+    (s.etat === 'lu'
+      ? `<button class="jalon-bloc" data-rang="${esc(s.rang)}">${dedans}</button>`
+      : `<div class="jalon-bloc">${dedans}</div>`) +
+  `</li>`;
+}).join('') + `</ol></div>`;
 
-$$('#s-liste .lire').forEach(b => b.addEventListener('click', () => {
+$$('#s-liste .jalon.lu .jalon-bloc').forEach(b => b.addEventListener('click', () => {
   const i = TEXTES.findIndex(t => t.rang === b.dataset.rang);
   $('.rail-btn[data-vue="textes"]').click();
   if (i >= 0) { xSel = i; majChoix(); rendreTextes(); }
@@ -358,16 +364,65 @@ STYLE_SUP = u"""<style>
   font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--texte-3);margin-bottom:6px
 }
-#s-liste{display:grid;gap:14px;max-width:760px}
-#s-liste .carte h3{margin:0 0 8px;font-family:var(--serif);font-weight:400;font-size:21px}
-#s-liste .incipit{
-  font-family:var(--serif);font-size:15px;line-height:1.6;color:var(--texte-2);
-  font-style:italic;margin:0 0 14px;max-width:60ch
+/* ---------- la frise du sommaire ---------- */
+.frise-h{overflow-x:auto;overscroll-behavior-x:contain;padding:2px 0 10px}
+.frise-h ol{
+  position:relative;display:flex;align-items:stretch;gap:14px;
+  list-style:none;margin:0;padding:0 2px 2px;width:max-content
 }
-#s-liste .carte.vient,#s-liste .carte.loin{opacity:.5}
-#s-liste .carte.loin h3,#s-liste .carte.vient h3{color:var(--texte-2)}
+.frise-h ol::before{
+  content:"";position:absolute;left:8px;right:8px;top:5px;height:1px;
+  background:linear-gradient(90deg,var(--andrew) 0%,var(--andrew) 46%,var(--trait) 76%,transparent 100%)
+}
+.jalon{position:relative;flex:none;width:206px;display:flex}
+.jalon-bloc{
+  display:flex;flex-direction:column;width:100%;text-align:left;
+  background:none;border:0;color:inherit;font:inherit;padding:0;
+  border-radius:11px;transition:background .16s
+}
+.jalon-point{
+  display:block;width:11px;height:11px;border-radius:50%;flex:none;
+  background:var(--andrew);box-shadow:0 0 0 5px var(--fond);margin:0 0 20px 3px;
+  transition:transform .16s
+}
+.jalon.vient .jalon-point,.jalon.loin .jalon-point{
+  background:var(--fond);border:1px solid var(--trait);box-shadow:0 0 0 5px var(--fond)
+}
+.jalon-rang{
+  display:block;font-family:var(--serif);font-size:19px;font-weight:400;
+  color:var(--texte);letter-spacing:.01em;padding:0 14px
+}
+.jalon-note{
+  display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--texte-3);margin-top:6px;padding:0 14px
+}
+.jalon-mot{
+  display:block;font-family:var(--serif);font-size:14px;line-height:1.6;
+  color:var(--texte-2);font-style:italic;margin-top:9px;padding:0 14px
+}
+.jalon-lire{
+  display:inline-flex;align-items:center;gap:6px;margin:auto 0 0;padding:16px 14px 0;
+  font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--andrew);opacity:.7;transition:.16s
+}
+.jalon-lire svg{
+  width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;transition:transform .16s
+}
+.jalon.lu .jalon-bloc{cursor:pointer}
+.jalon.lu .jalon-bloc:hover .jalon-point{transform:scale(1.3)}
+.jalon.lu .jalon-bloc:hover .jalon-rang{color:var(--texte)}
+.jalon.lu .jalon-bloc:hover .jalon-lire{opacity:1}
+.jalon.lu .jalon-bloc:hover .jalon-lire svg{transform:translateX(3px)}
+.jalon.lu .jalon-bloc:focus-visible{outline:1px solid var(--andrew);outline-offset:3px}
+.jalon.vient .jalon-rang,.jalon.loin .jalon-rang{color:var(--texte-2);font-size:16px}
+.jalon.vient,.jalon.loin{opacity:.6;width:152px}
+@media (max-width:640px){.jalon{width:200px}}
+/* la frise se pose au milieu de la page, pas en haut */
+#v-sommaire .corps{display:flex;align-items:center}
+#v-sommaire .mise{width:100%}
 #g-liste .role{
-  font-family:var(--sans);font-size:12px;letter-spacing:.06em;color:var(--or);
+  font-family:var(--sans);font-size:12px;letter-spacing:.06em;color:var(--andrew);
   margin:0 0 10px
 }
 #g-liste .role .ou{color:var(--texte-3);letter-spacing:0}
@@ -395,7 +450,7 @@ STYLE_SUP = u"""<style>
   background:var(--fond-2);border:1px solid var(--trait);border-radius:12px
 }
 #v-jardin .verrou-carte svg{
-  width:26px;height:26px;fill:none;stroke:var(--or);stroke-width:1.6;
+  width:26px;height:26px;fill:none;stroke:var(--andrew);stroke-width:1.6;
   stroke-linecap:round;stroke-linejoin:round;margin-bottom:12px
 }
 #v-jardin .verrou-carte p{
