@@ -961,6 +961,38 @@ kbd{
 }
 #g-liste .role .ou{color:var(--texte-3);letter-spacing:0}
 #g-liste .carte p{font-size:14.5px;line-height:1.62;color:var(--texte-2);margin:0}
+.rang-bloc{margin:0 0 34px}
+.rang-titre{
+  font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--texte-3);margin:0 0 14px
+}
+#g-liste .carte.scelle{opacity:.42}
+#g-liste .carte.scelle .role{color:var(--texte-3)}
+.avis{
+  font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--texte-2);
+  background:var(--fond-2);border:1px solid var(--trait);border-radius:8px;
+  padding:9px 13px;margin:12px 0 0;max-width:62ch
+}
+#v-jardin{position:relative}
+#v-jardin .verrou{
+  position:absolute;inset:0;z-index:40;display:flex;align-items:center;justify-content:center;
+  background:color-mix(in srgb, var(--fond) 88%, transparent);
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)
+}
+#v-jardin .verrou-carte{
+  text-align:center;max-width:340px;padding:26px 30px;
+  background:var(--fond-2);border:1px solid var(--trait);border-radius:12px
+}
+#v-jardin .verrou-carte svg{
+  width:26px;height:26px;fill:none;stroke:var(--or);stroke-width:1.6;
+  stroke-linecap:round;stroke-linejoin:round;margin-bottom:12px
+}
+#v-jardin .verrou-carte p{
+  font-family:var(--sans);font-size:14px;color:var(--texte);margin:0;font-weight:600
+}
+#v-jardin .verrou-carte .verrou-sous{
+  font-weight:400;font-size:12.5px;color:var(--texte-2);margin-top:8px;line-height:1.5
+}
 </style>
 <body>
 <div id="app">
@@ -974,8 +1006,8 @@ kbd{
     <button class="rail-btn" data-vue="textes" aria-label="Les chapitres">
       <svg viewBox="0 0 24 24"><path d="M4 4.5h7a2 2 0 0 1 2 2V20a2 2 0 0 0-2-2H4zM20 4.5h-7a2 2 0 0 0-2 2V20a2 2 0 0 1 2-2h7z"/></svg><span>Chapitres</span>
     </button>
-    <button class="rail-btn" data-vue="gens" aria-label="Les gens">
-      <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/><circle cx="17.5" cy="9" r="2.4"/><path d="M15 15.5c2.6-.6 5.5.9 5.5 3.5"/></svg><span>Gens</span>
+    <button class="rail-btn" data-vue="gens" aria-label="Les personnages">
+      <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/><circle cx="17.5" cy="9" r="2.4"/><path d="M15 15.5c2.6-.6 5.5.9 5.5 3.5"/></svg><span>Personnages</span>
     </button>
     <button class="rail-btn" data-vue="mots" aria-label="Le glossaire">
       <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c4 4.5 4 12.5 0 17M12 3.5c-4 4.5-4 12.5 0 17"/></svg><span>Glossaire</span>
@@ -1019,16 +1051,17 @@ kbd{
 
     <section class="vue" id="v-gens">
       <header class="chapeau">
-        <h1>Les gens</h1>
+        <h1>Les personnages</h1>
         <p class="sous">Ceux que tu as déjà croisés, et rien de ce qu'ils feront ensuite.</p>
       </header>
-      <div class="corps"><div class="mise"><div class="grille deux" id="g-liste"></div></div></div>
+      <div class="corps"><div class="mise"><div id="g-liste"></div></div></div>
     </section>
 
     <section class="vue" id="v-mots">
       <header class="chapeau">
         <h1>Le glossaire</h1>
         <p class="sous">La page de fin de volume. <strong>Rien n'y raconte le livre</strong> — on vient y chercher un mot, on repart.</p>
+        <p class="avis">⚠️ <strong>Il s'écrit en même temps que le roman.</strong> Les définitions bougent encore : à ne pas prendre au pied de la lettre en l'état.</p>
         <input class="cherche" id="m-cherche" placeholder="chercher un mot…" autocomplete="off">
       </header>
       <div class="corps"><div class="mise"><dl class="lexique" id="m-liste"></dl></div></div>
@@ -1084,6 +1117,14 @@ kbd{
     <!-- ================= LE PLAN DU JARDIN ================= -->
     <section class="vue" id="v-jardin">
       <div class="attente">Le plan s'ouvre…</div>
+    
+      <div class="verrou">
+        <div class="verrou-carte">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8.2 10.5V7.8a3.8 3.8 0 0 1 7.6 0v2.7"/></svg>
+          <p>Non disponible.</p>
+          <p class="verrou-sous">Vous devez avancer dans l'histoire pour déverrouiller ce nouveau lieu.</p>
+        </div>
+      </div>
     </section>
 
   </main>
@@ -1385,6 +1426,456 @@ const TEXTES = [
 [`p`,`Il l'avait fait pendant deux ans, comme tout le monde, et depuis, d'autres le faisaient. Il ne ralentit pas et ne se boucha pas le nez, parce qu'aucun des quatre ne l'aurait fait à sa place et qu'on se tient droit devant les gens qui travaillent.`],
 [`p`,`Il passa à trois mètres et continua vers la salle 2, où quatre capsules s'apprêtaient à être redressées pour dix heures précises, claires et propres, sur leurs chariots.`],
 [`p`,`L'odeur le suivit dans l'allée. Une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été.`]
+]},
+{ id:`chapitre-2`, rang:`Chapitre deuxième`, titre:`L'aquarium`, p:[
+[`p`,`Il n'avait rien écrit dans la case.`],
+[`p`,`Le carnet resta dans la poche de sa blouse toute la semaine, et les pages s'empilèrent par-dessus. Il le rouvrit un matin avant de commencer, pour une salle qu'on lui redemandait, et il s'arrêta à celle-là. Le jour, les deux travées, l'heure, les âges relevés, les deux mots, les deux numéros. Tout y était. Le bout de la ligne était blanc.`],
+[`p`,`Il le rouvrit à la même page le mardi suivant, et il ne vérifia rien.`],
+[`p`,`Ce qu'il aurait mis dans la case, il n'aurait pas su le dire. Le garçon avait imité l'autre geste pour geste et l'autre s'en était aperçu ; ça s'était arrêté là.`],
+[`p`,`Il aurait fallu écrire pourquoi il l'avait imité.`],
+[`p`,`Ça ne faisait pas une observation. Une observation, c'était une capsule qui prenait du retard, un instrument qui avait sauté, une salle qu'on avait changée. Il n'y avait pas de case pour une question.`],
+[`p`,`Il remit le carnet dans sa poche et alla ouvrir sa salle.`],
+[`pause`,`· · ·`],
+[`p`,`La rue montait sans qu'on s'en aperçoive et les maisons se ressemblaient toutes. Un carré d'herbe devant, une allée de gravier jusqu'au perron, une boîte aux lettres sur son piquet. Celle de June était la quatrième après le tournant, avec un cerisier plein à craquer.`],
+[`p`,`Il sonna. L'attente fut courte.`],
+[`p`,`June ouvrit, un torchon à la main. Elle avait tiré ses cheveux blonds en arrière et les avait noués bas. Grande et mince, elle avait le visage d'une jeune femme au début de la vingtaine, les traits fins et quelque chose de tranquille dans les yeux. Son tablier avait déjà servi ce matin-là. Elle le portait avec cette simplicité des vêtements qu'on enfile pour travailler, sans chercher à leur donner plus d'importance qu'ils n'en avaient.`],
+[`p`,`Si le métier lui avait appris quelque chose, c'était la douceur. C'était en tout cas ce qu'Andrew voyait d'elle à chacune de ses visites.`],
+[`p`,`Une berceuse prenait chez elle ceux qui arrivaient à quatorze ans, les accompagnait au quotidien pendant des années, puis les remettait à ses consœurs et confrères du jardin, passé huit ans. June en avait trois sous son toit.`],
+[`p`,`Le reste du métier ne s'écrivait nulle part et tenait en peu de mots. Aimer son prochain. C'était par ces hommes et ces femmes que les plus jeunes s'épanouissaient.`],
+[`tiret`,`— Andrew, bonjour. Entrez, entrez.`],
+[`p`,`Elle s'essuya les mains à son tablier et s'écarta pour le laisser passer. Sa manche gauche était remontée un peu plus haut que l'autre.`],
+[`p`,`Il entra dans le séjour. La pièce faisait aussi office de salle à manger et de cuisine, sans séparation véritable. Le canapé occupait un côté, la table l'autre, et le plan de travail courait au fond.`],
+[`p`,`Elle le dépassa et retourna à sa planche.`],
+[`tiret`,`— Il finit quelque chose là-haut, il en a pour deux minutes. Vous prendrez bien un verre d'eau.`],
+[`tiret`,`— Je veux bien.`],
+[`p`,`Elle sortit une bouteille du réfrigérateur, lui servit un verre et reprit là où elle s'était arrêtée. Des poivrons ouverts en deux, un couteau court, et le bruit régulier de la lame contre la planche.`],
+[`p`,`Andrew resta debout, comme les autres fois, une oreille sur l'étage.`],
+[`pause`,`· · ·`],
+[`p`,`Julie, l'une des trois, était installée à la table, une machine à coudre devant elle et un pantalon en travers des genoux. Elle avait dix ans, comme Eliott. Ses cheveux bruns, légèrement ondulés, étaient retenus d'un côté par une pince. Elle leva la tête, dit bonjour, puis retourna à sa couture.`],
+[`p`,`Andrew la regarda faire. Elle plia l'ourlet à l'ongle, le fit passer sous le pied de biche sans une épingle, tourna le tissu d'un quart à l'angle et repartit dans l'autre sens. Elle releva les yeux et le trouva en train de la regarder.`],
+[`tiret`,`— J'ai été couturière, dit-elle. Onze ans. Pour un magasin de vêtements en ville, un grand.`],
+[`tiret`,`— Ça se voit.`],
+[`tiret`,`— C'est ce qu'on me dit.`],
+[`tiret`,`— Julie s'est proposée pour reprendre toutes les affaires d'Eliott, dit June sans lever les yeux de sa planche. Entre les allers-retours en ville et le reste, ça me fait ça en moins à m'occuper.`],
+[`p`,`Julie haussa une épaule et lui rendit son sourire.`],
+[`pause`,`· · ·`],
+[`tiret`,`— Paul s'en va, dit June. Trois semaines. Ou quatre, ça dépendra de la place.`],
+[`tiret`,`— Il est content d'aller au jardin ?`],
+[`tiret`,`— Il compte les jours à l'envers depuis un mois. Il a refait son sac deux fois, et il l'a défait deux fois pour vérifier qu'il avait bien tout mis. Je le laisse faire, ça l'occupe.`],
+[`tiret`,`— Et vous ?`],
+[`tiret`,`— Moi, c'est le quatrième à partir. On s'y fait.`],
+[`p`,`Elle mit les queues et les graines de côté, en un tas qu'elle repoussa du dos de la lame, et elle ne repartit pas tout de suite.`],
+[`tiret`,`— Enfin, c'est ce qu'on dit.`],
+[`pause`,`· · ·`],
+[`tiret`,`— Lui, c'est autre chose, reprit-elle. Je ne dirais pas que c'est de pire en pire. Mais il ne me raconte plus rien. Il rentre, il monte, il redescend pour manger. Je lui pose une question, il me répond juste ce qu'il faut pour que j'arrête d'en poser.`],
+[`tiret`,`— Il dort ?`],
+[`tiret`,`— Il dort. C'est déjà ça.`],
+[`p`,`Elle chercha son torchon, le trouva sur son épaule, et s'essuya les mains avec.`],
+[`tiret`,`— Il vous parle, à vous.`],
+[`p`,`Elle dit ça comme on dit qu'il va pleuvoir, et elle passa à autre chose.`],
+[`pause`,`· · ·`],
+[`p`,`L'escalier fit du bruit. Eliott descendit les dernières marches d'un coup et s'arrêta en bas, une main sur la rampe.`],
+[`tiret`,`— Vous êtes venu.`],
+[`tiret`,`— J'ai dit que je viendrais.`],
+[`p`,`Il avait des affaires à lui, maintenant, et elles tombaient bien. Des chaussures que personne n'avait encore usées.`],
+[`p`,`Son visage était doux, encore rond aux joues, avec un nez court et droit et une bouche fine. Quelqu'un qui savait le faire lui avait coupé les cheveux, et ils repartaient quand même en mèches sur le front et sur les oreilles. Ce qui tenait le visage, c'étaient les yeux. Verts, grands, et ils lui donnaient une présence que le reste n'annonçait pas.`],
+[`p`,`Son corps était encore mince. Les épaules étroites, les poignets fins, les mains encore petites. Il y avait dans sa façon de se tenir quelque chose qui cherchait encore sa forme.`],
+[`p`,`Julie posa son ouvrage et se leva pour lui tirer sur le bas de la chemise, des deux côtés, jusqu'à ce que ça tombe droit.`],
+[`tiret`,`— Voilà. Comme ça tu es beau.`],
+[`tiret`,`— Arrête.`],
+[`p`,`Il se laissa faire jusqu'au bout, et il attendit qu'elle ait fini pour reculer.`],
+[`pause`,`· · ·`],
+[`tiret`,`— On sort ?`],
+[`p`,`Eliott regarda June, qui lui montra la porte avec le menton.`],
+[`tiret`,`— On va où ?`],
+[`tiret`,`— Tu verras, répondit le veilleur.`],
+[`tiret`,`— Je déteste quand vous dites ça.`],
+[`p`,`Il s'assit par terre dans le couloir pour mettre ses chaussures, et il y mit plus de temps qu'il n'en fallait. June rouvrit la porte pour eux et la tint jusqu'à ce qu'ils soient dehors tous les deux.`],
+[`p`,`Ils descendirent la rue ensemble. Eliott marchait un demi-pas devant et ne demanda pas où ils allaient.`],
+[`p`,`Le bâtiment était bas et long, en pierre claire, avec une porte battante au milieu. Au-dessus, une planche peinte indiquait le nom du lieu et l'heure à laquelle on fermait.`],
+[`p`,`Eliott s'arrêta à quelques pas.`],
+[`tiret`,`— C'est quoi ?`],
+[`tiret`,`— Un aquarium.`],
+[`tiret`,`— C'est de l'eau.`],
+[`tiret`,`— Il y a des choses dedans.`],
+[`tiret`,`— Quoi ?`],
+[`tiret`,`— Des poissons.`],
+[`p`,`Eliott regarda la porte.`],
+[`p`,`Andrew attendit.`],
+[`p`,`Il avait appris à ne pas remplir trop vite les silences d'Eliott. Il y avait chez lui des moments où une réponse semblait sur le point de venir, puis disparaissait avant d'avoir trouvé son chemin.`],
+[`tiret`,`— Tu ne seras pas déçu.`],
+[`tiret`,`— Mouais.`],
+[`tiret`,`— Et je n'ai pas pris d'affaires de rechange. On ne va pas se baigner.`],
+[`p`,`Andrew fit un pas vers la porte.`],
+[`p`,`Eliott le regarda, puis passa devant lui. Il monta la marche du perron et poussa doucement la porte.`],
+[`p`,`Dedans, il y avait un guichet sur la gauche. Une femme se tenait derrière et leva la tête en les entendant.`],
+[`p`,`Sur le comptoir, une pancarte proposait plusieurs montants : la nourriture d'une semaine, l'entretien d'un bassin, les soins aux animaux. En dessous, une ligne précisait que chacun donnait ce qu'il voulait et qu'on entrait de toute façon.`],
+[`tiret`,`— Il faut payer ?`],
+[`tiret`,`— Non. Mais les poissons ne se nourrissent pas que de bulles.`],
+[`p`,`Andrew sourit en guettant la réaction du garçon.`],
+[`p`,`Eliott ne répondit pas. Le veilleur se demanda s'il en avait déjà vu autrement que dans une assiette.`],
+[`tiret`,`— Tu vas comprendre.`],
+[`p`,`Il posa de quoi pour deux dans la coupelle. La femme le remercia et leur souhaita une bonne visite.`],
+[`p`,`On passait de la rue à autre chose en trois pas.`],
+[`p`,`Le couloir tournait tout de suite. La lumière baissait d'un cran à chaque tournant et le bruit du dehors s'arrêtait quelque part derrière eux. L'air devint frais, avec une odeur qui n'était ni celle de la rue ni celle d'une maison.`],
+[`p`,`Les murs étaient noirs.`],
+[`p`,`On ne voyait bientôt plus très bien où l'on posait les pieds, et cela n'avait aucune importance. Il n'y avait qu'un sens. Plus loin, quelque chose brillait.`],
+[`p`,`Le couloir s'ouvrit.`],
+[`p`,`Il n'y eut plus de mur devant eux.`],
+[`p`,`Le bassin montait du sol jusqu'au plafond. Il fallait lever la tête pour en trouver le haut, et le bas descendait plus bas que le sol où ils se tenaient. La lumière tombait du dessus et se défaisait en descendant, jusqu'à ne plus rien éclairer, tout en bas.`],
+[`p`,`Eliott ne fit pas trois pas de plus.`],
+[`p`,`Ce qu'il avait sur le visage en entrant n'y était plus. Sa bouche s'était ouverte un peu, et son regard passait d'un bout à l'autre de la vitre sans arriver à se poser.`],
+[`p`,`Ils étaient des centaines derrière la vitre. Plats, gris, argentés sur le flanc, tous dans le même sens. Ils faisaient le tour et revenaient. De temps en temps, le banc entier virait d'un coup, sans que rien ne l'ait commandé, et la lumière changeait avec lui.`],
+[`p`,`Puis, loin derrière eux, quelque chose de gros passa sans se presser et repartit dans le noir.`],
+[`p`,`Eliott s'approcha jusqu'à poser le front contre la vitre.`],
+[`p`,`Un poisson passa devant lui. Il le suivit des yeux jusqu'à ce qu'il disparaisse, puis attendit son retour.`],
+[`p`,`Ils étaient une dizaine à regarder, debout, chacun devant son morceau de vitre. On distinguait à peine les visages.`],
+[`p`,`Plus loin, le plafond descendait. Des bassins de la taille d'une fenêtre s'alignaient des deux côtés, et il fallait s'arrêter devant chacun pour voir tout ce qu'il contenait.`],
+[`p`,`Dans le premier, tout vivait ensemble.`],
+[`p`,`Des coraux tenaient le fond, les uns durs et branchus, les autres mous et remuants, dans des mauves et des verts qu'on n'attendait pas d'une pierre. Une anémone se refermait à moitié sur des poissons orange barrés de blanc qui entraient et ressortaient sans en avoir l'air gênés.`],
+[`p`,`Au-dessus, une dizaine de petits jaunes vifs repartaient tous ensemble dès qu'on approchait, puis revenaient dès qu'on s'arrêtait.`],
+[`p`,`Un poisson-ange empereur passa au milieu de tout ça sans se presser, rayé de jaune et de bleu de la tête à la queue, avec une barre noire en travers de l'œil. Il ne s'occupait de personne.`],
+[`p`,`Depuis qu'il était arrivé dans ce monde, le garçon n'avait pas dû en voir autant d'un coup.`],
+[`p`,`Au fond, un bassin plus profond, avec des rochers empilés et un creux dessous.`],
+[`p`,`Une pieuvre en sortit pendant qu'ils étaient là.`],
+[`p`,`Un bras d'abord, qui se déroula le long d'une pierre et s'y colla par en dessous. Un autre suivit. Puis tous les autres à la fois.`],
+[`p`,`Elle traversa le bassin sans se presser, en tenant tout ce qu'elle touchait.`],
+[`p`,`Eliott ne bougea plus.`],
+[`tiret`,`— Il y en a combien ?`],
+[`tiret`,`— Huit.`],
+[`p`,`Il les compta en la suivant des yeux.`],
+[`p`,`Au bout de la rangée, le garçon s'arrêta et ne repartit plus.`],
+[`p`,`Celui-ci était petit, mais étonnant. Sur le vert de son dos couraient des lignes orange bordées de bleu, qui tournaient, se recoupaient et ne faisaient jamais deux fois le même dessin.`],
+[`p`,`Il se tenait presque immobile, à hauteur de visage, et remuait une nageoire pour rester où il était.`],
+[`p`,`Eliott posa les deux mains sur la barre.`],
+[`tiret`,`— Regardez celui-là. Regardez-le.`],
+[`p`,`Il ne se retourna pas pour vérifier qu'Andrew le regardait.`],
+[`p`,`Il resta là, changeant d'appui d'un pied sur l'autre.`],
+[`p`,`Au bout d'un moment, il se mit à chanter.`],
+[`p`,`Pas fort. Pour lui seul, en suivant le poisson des yeux.`],
+[`p`,`C'était une vraie chanson, avec des mots dedans, et il en connaissait la fin. Il y était question d'eau, ou de ce qu'il y avait dessous.`],
+[`p`,`Andrew ne la connaissait pas. Il ne demanda pas où il l'avait apprise.`],
+[`p`,`Puis le garçon s'arrêta de chanter.`],
+[`tiret`,`— J'en ai déjà vu un comme ça.`],
+[`p`,`Andrew regarda le bassin.`],
+[`tiret`,`— Où ?`],
+[`tiret`,`— Dans une boîte en verre, posée sur un meuble. Il y avait un tapis en dessous.`],
+[`p`,`Andrew resta silencieux.`],
+[`tiret`,`— Ah.`],
+[`p`,`Eliott tourna la tête vers lui.`],
+[`tiret`,`— Vous me croyez pas.`],
+[`tiret`,`— J'ai rien dit.`],
+[`tiret`,`— C'est pareil.`],
+[`p`,`Il s'écarta de la vitre et enfonça les mains dans ses poches.`],
+[`tiret`,`— Tout le monde fait ça. On dit « ah », et après on parle d'autre chose.`],
+[`tiret`,`— Qu'est-ce que tu veux que je dise ?`],
+[`tiret`,`— Rien.`],
+[`p`,`Ils repartirent.`],
+[`p`,`Ailleurs, quelque chose bougeait entre des herbes qui montaient du fond en se tenant droites. On ne le voyait jamais en entier.`],
+[`p`,`Eliott se pencha d'un côté, puis de l'autre.`],
+[`tiret`,`— Il est où ?`],
+[`tiret`,`— Quoi ?`],
+[`tiret`,`— Le truc.`],
+[`p`,`Andrew regarda à son tour.`],
+[`tiret`,`— Je ne sais pas.`],
+[`tiret`,`— Il était là.`],
+[`tiret`,`— Je te crois.`],
+[`p`,`Eliott continua de chercher.`],
+[`p`,`Ensuite, un bassin bas, à peine éclairé, avec du sable clair au fond.`],
+[`p`,`Quatre axolotls y étaient posés, roses et pâles, avec leurs petites pattes et leur couronne de plumes de chaque côté de la tête. Ils ne faisaient rien du tout.`],
+[`p`,`L'un d'eux ouvrit la bouche, la referma et garda l'air content.`],
+[`tiret`,`— Il sourit.`],
+[`tiret`,`— On dirait.`],
+[`p`,`Ils passèrent.`],
+[`p`,`Pour finir, il n'y eut plus de plafond du tout.`],
+[`p`,`L'eau passait au-dessus d'eux et redescendait des deux côtés, et ils marchaient dessous.`],
+[`p`,`C'était le moment que le lieu gardait pour la fin. Tout le monde ralentissait sans qu'on le leur demande.`],
+[`p`,`La lumière traversait l'eau et bougeait sur le sol. Des poissons passaient dans la clarté, disparaissaient, revenaient ailleurs.`],
+[`p`,`Puis une raie traversa tout le plafond, d'un bord à l'autre, si large qu'elle les mit à l'ombre en passant. Elle battit des ailes une fois, très lentement, et cela suffit pour longtemps.`],
+[`p`,`Personne ne parla pendant qu'elle était au-dessus d'eux.`],
+[`p`,`Personne sauf Eliott, qui reprit sa chanson à mi-voix. Cette fois-ci, la raie en devenait le personnage principal et faisait de la musique avec un autre poisson.`],
+[`p`,`Ça ne voulait rien dire.`],
+[`p`,`Ils firent quelques pas sous l'eau. Un banc de petits poissons vira au-dessus d'eux, d'un seul bloc. Leur ombre passa sur le sol.`],
+[`p`,`Andrew attendit encore un peu.`],
+[`tiret`,`— Il était de quelle couleur, le meuble ?`],
+[`p`,`Eliott releva la tête.`],
+[`tiret`,`— Quoi ?`],
+[`tiret`,`— Le meuble. Celui avec la boîte dessus.`],
+[`p`,`Le garçon le regarda un moment.`],
+[`tiret`,`— Marron. Foncé.`],
+[`p`,`Il réfléchit.`],
+[`tiret`,`— Avec une porte qui fermait mal.`],
+[`p`,`Andrew hocha la tête.`],
+[`tiret`,`— D'accord.`],
+[`p`,`Ils sortirent.`],
+[`p`,`Dehors, il fallut un moment pour que leurs yeux reviennent. La lumière paraissait trop franche après les couloirs noirs de l'aquarium.`],
+[`p`,`Ils prirent un autre chemin pour rentrer.`],
+[`p`,`Cette fois, Eliott marchait à côté d'Andrew. Il parlait encore de l'aquarium, par morceaux, sans vraiment chercher à raconter ce qu'il avait vu. Un poisson revenait dans plusieurs de ses phrases. Puis un autre. Puis la pieuvre.`],
+[`p`,`La rue remontait doucement.`],
+[`p`,`Au bout de quelques minutes, les maisons laissèrent place à une longue grille. Elle suivait le trottoir sur plusieurs dizaines de mètres, et derrière elle on apercevait des bâtiments bas, des fenêtres ouvertes et, plus loin, une cour.`],
+[`p`,`Eliott ralentit.`],
+[`tiret`,`— C'est quoi ?`],
+[`p`,`Andrew regarda derrière les barreaux.`],
+[`tiret`,`— Une école.`],
+[`p`,`Ils avancèrent encore de quelques pas.`],
+[`p`,`Une fenêtre était ouverte au ras du trottoir. On entendait une voix depuis l'intérieur.`],
+[`p`,`Une femme écrivait au tableau en parlant sans se retourner. Elle était debout, droite, vive dans ses gestes, et elle avait le visage d'une fille de quinze ou seize ans.`],
+[`p`,`Devant elle, une vingtaine de personnes occupaient les tables.`],
+[`p`,`Ils étaient tous tout en haut, quatre-vingts ans et plus. Certains avaient le dos droit, d'autres déjà bien courbé ; l'un tendait l'oreille vers le tableau, un autre plissait les yeux sur son cahier. Tous avaient pourtant l'air d'être à leur place.`],
+[`p`,`Un homme du troisième rang, la nuque dégarnie et les mains tachées, dressa brusquement le bras.`],
+[`p`,`Il le tendit si haut qu'on aurait dit qu'il voulait toucher le plafond. La main tremblait presque d'impatience.`],
+[`p`,`La professeure continua d'écrire. L'homme remua les doigts. Toujours rien.`],
+[`p`,`Derrière lui, deux autres se penchèrent l'un vers l'autre. Le premier se couvrit la bouche de la main et souffla quelques mots. Le second eut un sourire qu'il tenta de cacher derrière son cahier.`],
+[`p`,`La professeure s'interrompit.`],
+[`tiret`,`— Dis donc, vous deux.`],
+[`p`,`Ils levèrent les yeux vers elle avec une innocence parfaite. Ce n'était visiblement pas la première fois : ils s'étaient sus visés avant qu'elle ait fini sa phrase.`],
+[`p`,`Elle ne les regardait même pas.`],
+[`tiret`,`— Vous savez très bien que je vous entends.`],
+[`p`,`Le premier baissa la tête pour dissimuler son sourire. Son voisin fit de même.`],
+[`p`,`Deux secondes passèrent.`],
+[`p`,`Puis la main du troisième rang monta encore plus haut.`],
+[`p`,`Cette fois, la professeure se retourna.`],
+[`tiret`,`— Oui ?`],
+[`p`,`Le visage de l'homme s'éclaira aussitôt.`],
+[`tiret`,`— Je veux répondre, s'il te plaît ! Je sais la réponse, je peux ? J'ai levé le doigt !`],
+[`p`,`Elle sourit malgré elle.`],
+[`tiret`,`— Bien sûr. Dis-moi.`],
+[`p`,`La grille continuait.`],
+[`p`,`Les salles laissèrent peu à peu place à une cour, puis à un terrain couvert de lignes peintes. Onze personnes en faisaient le tour, à leur rythme, avec ou sans appui — une canne, un déambulateur.`],
+[`p`,`Plusieurs les encadraient. L'un des professeurs de sport s'occupait du retardataire.`],
+[`tiret`,`— Voilà ! C'est bien ! Encore un peu !`],
+[`tiret`,`— J'en peux plus.`],
+[`tiret`,`— Alors on ralentit.`],
+[`p`,`Il cala son pas sur le sien.`],
+[`tiret`,`— Mais on ne s'arrête pas.`],
+[`tiret`,`— C'est facile à dire.`],
+[`tiret`,`— Je sais.`],
+[`p`,`Il lui donna une petite tape encourageante sur le haut du bras.`],
+[`tiret`,`— Allez. Encore jusqu'au poteau. Après, tu pourras me bouder si tu veux.`],
+[`p`,`L'homme eut un rire essoufflé.`],
+[`tiret`,`— Je boude déjà !`],
+[`tiret`,`— Parfait. Ça veut dire qu'on progresse.`],
+[`p`,`Ils continuèrent.`],
+[`p`,`Eliott s'était arrêté contre la grille. Ses doigts s'étaient glissés entre deux barreaux.`],
+[`p`,`Il regardait le terrain.`],
+[`p`,`Puis la cour.`],
+[`p`,`Puis les fenêtres.`],
+[`tiret`,`— C'est donc à ça que ça ressemble, l'école.`],
+[`tiret`,`— Oui.`],
+[`p`,`Il resta silencieux.`],
+[`tiret`,`— June m'a dit que je pourrais jamais y aller.`],
+[`p`,`Andrew regarda la cour avec lui.`],
+[`tiret`,`— Parce que je suis trop petit.`],
+[`p`,`C'était vrai.`],
+[`p`,`L'école prenait ceux qui arrivaient tout en haut. La plupart avaient entre quatre-vingts et quatre-vingt-dix ans lorsqu'ils en franchissaient les portes. Il arrivait qu'on en reçoive de plus haut encore, quatre-vingt-quinze, cent un. Cela ne changeait rien : ils entraient, apprenaient, recommençaient, et prenaient le temps qu'il fallait.`],
+[`p`,`Pour eux, l'école durait des années. On y apprenait les premières lettres, les nombres, l'histoire du monde, les gestes de la vie courante et tout ce qu'il fallait savoir pour y trouver sa place.`],
+[`p`,`Ceux qui arrivaient plus bas, autour de cinquante ou soixante ans, n'avaient pas ce temps-là. Ils entraient directement dans la vie active et recevaient, le soir, des cours adaptés à leur rythme. Un tuteur les accompagnait au début, au cas par cas, jusqu'à ce qu'ils puissent avancer seuls.`],
+[`p`,`Et pour les plus jeunes, il y avait les berceurs.`],
+[`p`,`Eliott ne quittait pas la cour des yeux.`],
+[`p`,`Andrew le laissa regarder aussi longtemps qu'il voulut.`],
+[`p`,`Puis, quand le garçon finit par décrocher ses doigts de la grille, ils reprirent leur chemin.`],
+[`p`,`Ils rentrèrent sans se presser.`],
+[`p`,`Devant chez June, Eliott monta les marches et poussa la porte tout seul, puis il se retourna sur le seuil, une main sur le montant.`],
+[`tiret`,`— La prochaine fois, c'est où ?`],
+[`tiret`,`— Tu verras.`],
+[`p`,`Eliott le regarda encore une seconde.`],
+[`p`,`Puis il entra.`],
+[`p`,`La porte se referma. À l'intérieur, quelqu'un lui demanda quelque chose et il répondit en montant l'escalier.`],
+[`p`,`Andrew resta un moment devant l'allée de gravier.`],
+[`p`,`Puis il repartit par où il était venu.`],
+[`p`,`Il ne compta pas.`]
+]},
+{ id:`chapitre-3`, rang:`Chapitre troisième`, titre:`La tournée`, p:[
+[`p`,`Il y retourna le mardi suivant, et le mardi d'après.`],
+[`p`,`Il y eut d'autres fois. À force de se voir, quelque chose changea entre eux sans qu'aucun des deux ne s'en aperçoive vraiment. Un matin, Eliott lui dit bonjour sans le vouvoyer.`],
+[`p`,`Andrew ne releva pas.`],
+[`p`,`Ce ne fut que deux jours plus tard, en y repensant, qu'il comprit.`],
+[`p`,`Ce jour-là, il rejoignit Eliott sur sa tournée.`],
+[`p`,`Le garçon l'attendait au coin de la rue, la sacoche en travers du corps. Il dit bonjour et repartit sans attendre.`],
+[`p`,`Il avait le visage des mauvais jours.`],
+[`p`,`La sacoche s'ouvrait sur le devant. Des enveloppes y étaient maintenues par une pince, et, au fond, trois paquets attendaient dans l'ordre où il devait les livrer.`],
+[`p`,`Eliott connaissait les boîtes. Il savait laquelle s'ouvrait mal, laquelle prenait les gros paquets et laquelle il fallait pousser par en dessous. Devant l'une, il se mit sur la pointe des pieds ; devant une autre, il s'accroupit sans ralentir.`],
+[`p`,`Tout se faisait à pied. On ne donnait pas de véhicule à quelqu'un qui n'aurait pas le temps, devant lui, d'apprendre à conduire.`],
+[`p`,`Andrew avait relevé assez d'âges pour savoir ce que cela valait.`],
+[`p`,`Chez les grands nombres, la descente se tenait : régulière, prévisible d'une année sur l'autre. Il n'y avait qu'à laisser faire.`],
+[`p`,`Chez les petits, elle faisait ce qu'elle voulait.`],
+[`p`,`On l'avait constaté. Personne n'avait jamais dit pourquoi.`],
+[`p`,`Au bout de la deuxième rue, une femme sortit sur son perron en agitant une enveloppe.`],
+[`tiret`,`— Tu me la prends ?`],
+[`tiret`,`— Faut la timbrer.`],
+[`tiret`,`— Elle est timbrée.`],
+[`p`,`Eliott la retourna, vérifia le timbre et la glissa dans le rabat du fond, celui qui repartait au centre de tri.`],
+[`tiret`,`— Merci, mon grand.`],
+[`p`,`Il ne répondit pas.`],
+[`p`,`Ils repartirent.`],
+[`tiret`,`— Elle le fait toutes les semaines, dit-il au bout de dix pas. Et une fois sur deux, elle n'a pas timbré.`],
+[`tiret`,`— Et tu la prends quand même.`],
+[`tiret`,`— Ben oui.`],
+[`p`,`Il haussa les épaules, comme si la question était bête. C'était peut-être le cas.`],
+[`p`,`Il connaissait son quartier par cœur. Il savait chez qui il fallait sonner deux fois, laquelle des maisons de la rangée haute avait un chien qui n'aboyait jamais, et quelle porte s'ouvrait avant même qu'on ait posé le paquet.`],
+[`p`,`Son responsable lui avait ajouté deux rues le mois précédent, puis une troisième la semaine passée.`],
+[`tiret`,`— Il t'en donne de plus en plus.`],
+[`tiret`,`— Il dit que je vais vite.`],
+[`tiret`,`— Tu vas vite ?`],
+[`tiret`,`— Je vais normalement. C'est les autres qui traînent.`],
+[`p`,`Il l'avait dit sans sourire.`],
+[`p`,`Ils descendirent la rue en pente, celle qui donnait sur la place.`],
+[`tiret`,`— Après, je redescends jusqu'au magasin de chaussures et je remonte par le haut.`],
+[`tiret`,`— L'épicerie.`],
+[`tiret`,`— Non. Magasin de chaussures, je te dis.`],
+[`p`,`Eliott s'arrêta.`],
+[`p`,`Il regarda la devanture, fronça légèrement les sourcils et inspira par le nez.`],
+[`tiret`,`— Il y avait un magasin de chaussures, ici…`],
+[`p`,`Il resta encore une seconde devant la vitrine.`],
+[`tiret`,`— Bon. C'est pas grave. J'ai rien à y livrer de toute façon.`],
+[`p`,`Il repartit sans regarder derrière lui.`],
+[`p`,`Andrew jeta un coup d'œil à la vitrine en passant. Des cageots occupaient le trottoir. Un panneau était posé contre la porte, écrit à la craie. Une femme rentrait des caisses vides.`],
+[`p`,`Le garçon avait déjà repris son itinéraire là où il l'avait laissé. Après le bas, il remontait par la rangée du haut, celle où personne ne descendait jamais chercher son courrier.`],
+[`p`,`Il parlait un peu plus, maintenant.`],
+[`p`,`De tout.`],
+[`p`,`Et, à travers tout ce qu'il disait, il tournait autour de quelque chose.`],
+[`tiret`,`— Nicolas, il fait quoi ?`],
+[`p`,`Andrew mit un moment à remettre le prénom.`],
+[`tiret`,`— Nicolas ?`],
+[`tiret`,`— L'autre. Celui qui est arrivé avec moi.`],
+[`tiret`,`— Je ne sais pas. Il est parti chez un tuteur.`],
+[`tiret`,`— Il va apprendre un métier.`],
+[`tiret`,`— Sûrement.`],
+[`p`,`Quelques pas passèrent.`],
+[`tiret`,`— Un vrai.`],
+[`tiret`,`— Le portage est un métier.`],
+[`tiret`,`— Le mien, c'est pas un vrai.`],
+[`tiret`,`— C'en est un.`],
+[`tiret`,`— On me l'a donné. On m'a pas demandé.`],
+[`p`,`Il donna un coup de pied dans un caillou. Le caillou roula de quelques centimètres avant de s'arrêter.`],
+[`tiret`,`— Personne m'a demandé ce que je voulais faire. On m'a dit : voilà, tu portes ça, tu vas là, tu reviens. Et voilà.`],
+[`p`,`Andrew attendit.`],
+[`tiret`,`— Tu voulais faire quoi ?`],
+[`p`,`Eliott ouvrit la bouche.`],
+[`p`,`Rien ne vint.`],
+[`p`,`Il regarda devant lui.`],
+[`tiret`,`— Je sais pas.`],
+[`p`,`Il repartit d'un pas plus vif. Andrew le laissa prendre deux mètres avant de le rejoindre.`],
+[`tiret`,`— Il y en a qui sont pas contents, dit Eliott.`],
+[`tiret`,`— Où ça ?`],
+[`tiret`,`— Au travail. Ils disent qu'on nous donne tout.`],
+[`tiret`,`— Ils te disent ça à toi ?`],
+[`tiret`,`— Ils le disent.`],
+[`p`,`Il rajusta la sacoche sur son épaule.`],
+[`tiret`,`— Ils le disent pas aux autres. Ils le disent à moi.`],
+[`p`,`Andrew n'eut pas le temps de répondre.`],
+[`p`,`Eliott s'arrêta net.`],
+[`p`,`Il porta deux doigts à sa bouche et siffla.`],
+[`p`,`Le son partit d'un seul coup et traversa la rue. Deux personnes se retournèrent sur le trottoir d'en face.`],
+[`p`,`Trente mètres plus haut, Julie leva la tête, chercha l'origine du sifflement, les trouva et n'eut l'air surprise qu'une seconde.`],
+[`tiret`,`— Tu vas où ?`],
+[`tiret`,`— June m'a demandé de récupérer du lait !`],
+[`tiret`,`— Prends le gros !`],
+[`p`,`Elle leva son filet vide pour montrer qu'elle avait entendu, puis repartit.`],
+[`p`,`Andrew n'avait pas bougé.`],
+[`p`,`Eliott s'en aperçut et remit sa sacoche en place.`],
+[`tiret`,`— Désolé. Je sais. June me l'a déjà dit, qu'on fait pas ça.`],
+[`p`,`Il chercha ses mots.`],
+[`tiret`,`— C'est… je sais pas. J'y pense qu'après.`],
+[`p`,`Ce n'était pas le sifflement qui avait arrêté Andrew.`],
+[`p`,`C'étaient les deux doigts.`],
+[`p`,`La façon de les plier, de les poser sous la langue, de souffler d'un seul coup sec.`],
+[`p`,`Ce genre de chose s'apprenait.`],
+[`p`,`Et ça s'apprenait de quelqu'un.`],
+[`tiret`,`— Qui t'a montré ?`],
+[`tiret`,`— Quoi ?`],
+[`tiret`,`— À faire ça avec les doigts.`],
+[`p`,`Eliott haussa les épaules.`],
+[`tiret`,`— Je sais pas.`],
+[`p`,`Il regarda sa main comme s'il ne comprenait pas la question.`],
+[`tiret`,`— Je sais le faire.`],
+[`p`,`Puis il repartit.`],
+[`p`,`Andrew le suivit.`],
+[`p`,`La sacoche était vide lorsqu'ils arrivèrent devant chez June.`],
+[`p`,`Eliott monta les marches, sonna et se retourna à moitié.`],
+[`tiret`,`— Salut.`],
+[`p`,`La porte s'ouvrit et il entra sans attendre.`],
+[`p`,`On l'entendit monter l'escalier. Une porte se ferma à l'étage.`],
+[`p`,`June resta sur le seuil, une main sur le montant.`],
+[`p`,`Elle regardait le haut de l'escalier.`],
+[`tiret`,`— Vous avez cinq minutes ?`],
+[`p`,`Andrew acquiesça.`],
+[`p`,`Elle sortit, tira la porte derrière elle et s'assit sur la deuxième marche. Il prit place à côté d'elle.`],
+[`p`,`Pendant quelques secondes, aucun des deux ne parla.`],
+[`tiret`,`— Il a été comme ça toute la journée ?`],
+[`tiret`,`— Toute la semaine.`],
+[`p`,`June passa les mains sur son tablier, sans rien y chercher.`],
+[`tiret`,`— J'en ai eu six avant lui. Six, en comptant Paul et Julie. Il y en a eu des difficiles. Certains qui pleuraient les premiers jours. Un qui n'a pas parlé pendant deux semaines. Mais ça passait.`],
+[`p`,`Elle regarda la rue.`],
+[`tiret`,`— Ça passait toujours.`],
+[`p`,`Un silence.`],
+[`tiret`,`— Et là, non.`],
+[`tiret`,`— Non.`],
+[`p`,`Elle posa les mains à plat sur ses genoux.`],
+[`tiret`,`— Ce n'est pas qu'il est méchant. Il n'est pas méchant du tout. Il dit bonjour, il mange, il aide quand on lui demande. Julie l'adore. Elle lui montre des choses, elle le laisse aller à son rythme, elle est très protectrice avec lui. Paul essaie à sa façon : il lui parle de ses livres. Mais on vient tout juste de commencer la lecture et l'écriture, alors il décroche vite. J'ai ressorti les imagiers. Ça amuse beaucoup Paul.`],
+[`p`,`Elle eut un petit sourire qui disparut presque aussitôt.`],
+[`tiret`,`— Mais lui…`],
+[`p`,`Elle chercha.`],
+[`tiret`,`— Lui, il est poli.`],
+[`p`,`Le mot resta entre eux.`],
+[`tiret`,`— Il me remercie après chaque repas. Je lui propose des choses, il dit oui, et il n'a pas envie. Ça fait un mois qu'on vit sous le même toit et je ne saurais pas dire ce qu'il aime.`],
+[`p`,`Andrew regarda l'allée de gravier.`],
+[`tiret`,`— Je crois qu'il n'a pas envie de me connaître.`],
+[`p`,`Elle ne disait pas cela comme un reproche.`],
+[`p`,`Plutôt comme un constat qui lui faisait mal.`],
+[`tiret`,`— Et c'est mon métier. C'est exactement mon métier.`],
+[`p`,`Andrew attendit un peu.`],
+[`tiret`,`— Il m'a dit une chose, tout à l'heure. Que personne ne lui avait demandé ce qu'il voulait faire.`],
+[`p`,`June baissa les yeux.`],
+[`tiret`,`— Le portage ?`],
+[`tiret`,`— Le portage.`],
+[`tiret`,`— Il a raison.`],
+[`p`,`Elle releva la tête.`],
+[`tiret`,`— À son âge, on attribue.`],
+[`tiret`,`— Et vous ?`],
+[`tiret`,`— Moi, j'ai choisi.`],
+[`p`,`Elle le dit simplement.`],
+[`tiret`,`— J'ai eu l'école. J'ai eu le temps de regarder autour de moi. J'ai vu travailler une berceuse et j'ai su que c'était ce que je voulais.`],
+[`p`,`Elle regarda ses mains.`],
+[`tiret`,`— Lui n'aura rien vu du tout.`],
+[`p`,`Le silence revint.`],
+[`tiret`,`— Plus on arrive bas, moins il y a de portes ouvertes. Ça ne se dit pas comme ça, mais c'est comme ça.`],
+[`tiret`,`— Il le sait ?`],
+[`p`,`June secoua doucement la tête.`],
+[`tiret`,`— Il le sent.`],
+[`p`,`Elle marqua une pause.`],
+[`tiret`,`— C'est pire.`],
+[`p`,`Andrew ne répondit pas.`],
+[`p`,`Il pensa à la façon dont Eliott avait regardé le magasin de chaussures. À la façon dont il avait parlé de Nicolas. À ce qu'il avait dit du travail.`],
+[`tiret`,`— Ça expliquerait le reste ?`],
+[`tiret`,`— Une partie.`],
+[`p`,`Il n'ajouta pas ce qu'il pensait.`],
+[`p`,`Ça n'expliquait pas le premier jour.`],
+[`p`,`Ni ce qu'il avait vu à la table.`],
+[`p`,`Ni cette manière qu'avait le garçon d'imiter certains gestes sans savoir pourquoi.`],
+[`p`,`Deux ou trois maisons plus loin, une tondeuse démarra.`],
+[`p`,`June resta silencieuse jusqu'à ce que le bruit s'éloigne.`],
+[`tiret`,`— Il a fini par me sortir une chose, hier soir.`],
+[`p`,`Andrew tourna la tête vers elle.`],
+[`tiret`,`— Que les autres, au travail, le traitaient de porteur de voiles.`],
+[`p`,`Elle prononça les derniers mots plus bas, comme s'ils avaient une mauvaise sonorité.`],
+[`tiret`,`— Il vous a dit ça comme ça ?`],
+[`tiret`,`— En débarrassant.`],
+[`p`,`Elle regarda ses mains.`],
+[`tiret`,`— Sans s'arrêter. Sans me regarder. Et après il est monté.`],
+[`p`,`Elle se leva et épousseta l'arrière de son tablier.`],
+[`tiret`,`— Et vous pensez que ça pourrait en être un ?`],
+[`p`,`Andrew leva les yeux vers elle.`],
+[`p`,`June hésita.`],
+[`tiret`,`— Je ne sais pas.`],
+[`p`,`Elle regarda la fenêtre fermée à l'étage.`],
+[`tiret`,`— En tout cas, un porteur de voiles de cet âge…`],
+[`p`,`Elle secoua lentement la tête.`],
+[`tiret`,`— Je n'en avais jamais vu.`],
+[`p`,`Puis elle rentra chez elle.`],
+[`p`,`La porte se referma doucement derrière elle.`],
+[`p`,`Andrew resta assis sur la deuxième marche.`],
+[`p`,`En haut, la fenêtre du garçon était fermée.`]
 ]}
 ];
 
@@ -1425,43 +1916,55 @@ const MOTS = [
 ];
 
 const GENS = [
-{ nom:`Andrew`, quoi:`Veilleur`,
-  quand:`Prologue et chapitre premier`,
-  texte:`Cinquante-deux ans, dix ans de service. Il tient les cérémonies : il prépare la salle, relève l'âge, demande son nom à celui qui sort et l'inscrit. **Il compte sans avoir décidé de compter** — les chaises, les pas, les éléments sur une table. On le suit du premier pas de sa journée jusqu'à l'odeur au bout de l'allée.` },
+{ rang:`Au centre`, nom:`Andrew`, quoi:`Veilleur`,
+  quand:`Depuis la première page`,
+  texte:`Cinquante-deux ans, dix ans de service. Il tient les cérémonies : il prépare la salle, relève l'âge, demande son nom à celui qui sort et l'inscrit. **Il compte sans avoir décidé de compter** — les chaises, les pas, les éléments sur une table. Depuis la cérémonie du premier matin, il retourne voir le garçon sans que personne le lui ait demandé.` },
 
-{ nom:`Nora`, quoi:`Veilleuse`,
+{ rang:`Au centre`, nom:`Eliott`, quoi:`Arrivant`,
+  quand:`Depuis la première page`,
+  texte:`Dix ans. Il sort d'une capsule au matin du prologue et **il se nomme lui-même**, comme on le demande à tous ceux qui ont plus de huit ans. Il vit chez June, il porte le courrier d'un quartier, et il dit des choses que personne ne croit.` },
+
+{ rang:`Au centre`, nom:`Isaac`, quoi:`?`, verrou:true,
+  quand:`Pas encore rencontré`,
+  texte:`Son nom n'a pas encore été prononcé devant vous.` },
+
+{ rang:`Autour`, nom:`June`, quoi:`Berceuse`,
+  quand:`Chapitres deuxième et troisième`,
+  texte:`Elle a le visage d'une jeune femme au début de la vingtaine, et trois arrivants sous son toit. Elle les prend à quatorze ans, les accompagne des années, puis les mène à la grille du jardin et passe la main. **Elle a choisi ce métier.** Avec Eliott, pour la première fois, elle n'y arrive pas.` },
+
+{ rang:`Autour`, nom:`Julie`, quoi:`Chez June`,
+  quand:`Chapitres deuxième et troisième`,
+  texte:`Dix ans, le même âge qu'Eliott, et **onze ans de couture derrière elle** — un grand magasin de vêtements, en ville. Elle a repris toutes ses affaires sans qu'on le lui demande. Protectrice, et jamais démonstrative.` },
+
+{ rang:`Autour`, nom:`Paul`, quoi:`Chez June`,
+  quand:`Chapitre deuxième`,
+  texte:`Huit ans. **Il entre au jardin dans quelques semaines** et il compte les jours à l'envers depuis un mois. Il aime les livres et il essaie d'en parler à quelqu'un qui commence à peine à lire.` },
+
+{ rang:`En passant`, nom:`Nora`, quoi:`Veilleuse`,
   quand:`Prologue`,
   texte:`Elle entre la dernière, en nouant ses manches, et prend le second poste. *« Alors c'est un bon jour. »* **Deux capsules, deux veilleurs** : à partir de là, chacun a le sien.` },
 
-{ nom:`Eliott`, quoi:`Arrivant`,
-  quand:`Prologue`,
-  texte:`Dix ans. Il sort d'une capsule au matin du prologue, et **il se nomme lui-même**, comme on le demande à tous ceux qui ont plus de huit ans.` },
-
-{ nom:`Nicolas`, quoi:`Arrivant`,
-  quand:`Prologue`,
-  texte:`Quarante ans. **Le second arrivant du même matin**, au poste d'à côté. Il se nomme, on note, et la matinée continue.` },
-
-{ nom:`Anna`, quoi:`À l'accueil`,
-  quand:`Chapitre premier`,
-  texte:`Elle tient le guichet et explique aux visiteurs comment ça va se passer. **Elle le refera pour ceux qui arrivent en retard, et encore pour ceux qui n'ont rien retenu.** C'est elle qui donne à Andrew sa salle et son nombre.` },
-
-{ nom:`Bastien`, quoi:`Préparateur`,
+{ rang:`En passant`, nom:`Bastien`, quoi:`Préparateur`,
   quand:`Chapitre premier`,
   texte:`Il vient de la coulée et ça se voit — manches roulées, avant-bras verts jusqu'au coude. **Nouveau dans le métier**, et il a trouvé quelque chose qui n'était pas là la veille.` },
 
-{ nom:`Vera`, quoi:`Analyste`,
+{ rang:`En passant`, nom:`Vera`, quoi:`Analyste`,
   quand:`Chapitre premier`,
   texte:`C'est elle qui donne les dates, et **elle ne les donne pas avant d'être sûre**. *« Deux jours. Avant ça, je ne dirai rien. »* Quand elle tranche, personne ne discute — et ce n'est pas une affaire de grade.` }
 ];
 
 const SOMMAIRE = [
-{ etat:`lu`, rang:`Prologue`, titre:`La cérémonie`,
+{ etat:`lu`, rang:`Prologue`, note:``,
   mot:`Deux capsules étaient venues pendant la nuit, et personne ne savait qui allait en sortir.` },
-{ etat:`lu`, rang:`Chapitre premier`, titre:`Une journée à la ruche`,
+{ etat:`lu`, rang:`Chapitre premier`, note:``,
   mot:`Quatre cent trente-huit. C'était le nombre de pas qui séparaient sa porte de celle de la ruche.` },
-{ etat:`vient`, rang:`Le corps du livre`, titre:`en cours d'écriture`,
+{ etat:`lu`, rang:`Chapitre deuxième`, note:``,
+  mot:`Il n'avait rien écrit dans la case.` },
+{ etat:`lu`, rang:`Chapitre troisième`, note:``,
+  mot:`Il y retourna le mardi suivant, et le mardi d'après.` },
+{ etat:`vient`, rang:`La suite`, note:`en cours d'écriture`,
   mot:`` },
-{ etat:`loin`, rang:`Épilogue`, titre:`écrit, et gardé pour la fin`,
+{ etat:`loin`, rang:`Épilogue`, note:`écrit, et gardé pour la fin`,
   mot:`` }
 ];
 </script>
@@ -2224,13 +2727,13 @@ if (btnT) btnT.addEventListener('click', () => {
 $('#s-liste').innerHTML = SOMMAIRE.map(s => `
   <article class="carte ${s.etat}">
     <h3>${esc(s.rang)}</h3>
-    <div class="rang-s">${esc(s.titre)}</div>
+    ${s.note ? `<div class="rang-s">${esc(s.note)}</div>` : ``}
     ${s.mot ? `<p class="incipit">${esc(s.mot)}</p>` : ``}
-    ${s.etat === 'lu' ? `<button class="puce lire" data-titre="${esc(s.titre)}">lire</button>` : ``}
+    ${s.etat === 'lu' ? `<button class="puce lire" data-rang="${esc(s.rang)}">lire</button>` : ``}
   </article>`).join('');
 
 $$('#s-liste .lire').forEach(b => b.addEventListener('click', () => {
-  const i = TEXTES.findIndex(t => t.titre === b.dataset.titre);
+  const i = TEXTES.findIndex(t => t.rang === b.dataset.rang);
   $('.rail-btn[data-vue="textes"]').click();
   if (i >= 0) { xSel = i; majChoix(); rendreTextes(); }
 }));
@@ -2260,13 +2763,20 @@ function rendreTextes(){
 }
 rendreTextes();
 
-/* ---------- les gens ---------- */
-$('#g-liste').innerHTML = GENS.map(g => `
-  <article class="carte">
-    <h3>${esc(g.nom)}</h3>
-    <div class="role">${esc(g.quoi)} · <span class="ou">${esc(g.quand)}</span></div>
-    <p>${rich(g.texte)}</p>
-  </article>`).join('');
+/* ---------- les personnages, par rangs ---------- */
+const RANGS = [...new Set(GENS.map(g => g.rang))];
+$('#g-liste').innerHTML = RANGS.map(r => `
+  <section class="rang-bloc">
+    <h2 class="rang-titre">${esc(r)}</h2>
+    <div class="grille deux">` +
+    GENS.filter(g => g.rang === r).map(g => `
+      <article class="carte${g.verrou ? ' scelle' : ''}">
+        <h3>${esc(g.nom)}</h3>
+        <div class="role">${esc(g.quoi)} · <span class="ou">${esc(g.quand)}</span></div>
+        <p>${rich(g.texte)}</p>
+      </article>`).join('') +
+    `</div>
+  </section>`).join('');
 
 /* ---------- le glossaire ---------- */
 function rendreMots(f){
