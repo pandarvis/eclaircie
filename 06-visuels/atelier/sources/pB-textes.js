@@ -449,7 +449,7 @@ const TEXTES = [{
 [`tiret`,`— J'ai dit que je viendrais.`],
 [`p`,`Il avait des affaires à lui, maintenant, et elles tombaient bien. Des chaussures que personne n'avait encore usées.`],
 [`p`,`Son visage était doux, encore rond aux joues, avec un nez court et droit et une bouche fine. Quelqu'un qui savait le faire lui avait coupé les cheveux, et ils repartaient quand même en mèches sur le front et sur les oreilles. Ce qui tenait le visage, c'étaient les yeux. Verts, grands, et ils lui donnaient une présence que le reste n'annonçait pas.`],
-[`p`,`Le reste était mince sans être maigre. Épaules étroites, poignets étroits, des mains encore petites. Il y avait dans sa façon de se tenir quelque chose qui cherchait encore sa forme.`],
+[`p`,`Son corps était encore mince. Les épaules étroites, les poignets fins, les mains encore petites. Il y avait dans sa façon de se tenir quelque chose qui cherchait encore sa forme.`],
 [`p`,`Julie posa son ouvrage et se leva pour lui tirer sur le bas de la chemise, des deux côtés, jusqu'à ce que ça tombe droit.`],
 [`tiret`,`— Voilà. Comme ça tu es beau.`],
 [`tiret`,`— Arrête.`],
