@@ -350,8 +350,20 @@ const SCENES = [
   titre: `La tournée`,
   statut: `acquis`, pivot: true,
   resume: `Il y est retourné plusieurs fois — une ellipse le dit en deux lignes. Cette fois-là, il le rejoint sur sa tournée : Eliott a le visage fermé, agacé. Le portage vu de son point de vue. Au retour chez la berceuse, le garçon dit au revoir et se sauve à l'intérieur ; Andrew reste sur le pas de la porte avec June.`,
-  produit: `🔴 **La blessure n'est plus montrée : elle est rapportée, et une porte s'est refermée entre les deux.** *Décision de l'autrice, 22 août 2026.* **On voit un visage fermé sans savoir pourquoi, le gamin file, et on apprend la raison une fois qu'il n'est plus là.** *Le lecteur recompose la journée à rebours, et Andrew reste dehors avec une chose qu'il n'a pas vue arriver.*`,
-  clef: `🔴 **C'est June qui dit le mot, et la question des deux bouches est tranchée.** *Décision de l'autrice, 22 août 2026 : elle rapporte qu'Eliott lui a dit que les autres le traitaient de porteur de voiles au boulot.* **Elle parle aussi de ses difficultés à elle** — le garçon ne va pas bien, il se referme, et elle n'arrive pas à créer le lien.
+  produit: `🔴 **June est anxieuse, et elle échoue pour la première fois — décision de l'autrice, 23 août 2026.** *Elle en a eu six avant lui, il y en a eu des difficiles, ça s'est toujours arrangé.* **Là, non.** *Il est poli, il aide, il répond ce qu'il faut pour qu'on arrête de demander — et au bout d'un mois elle ne saurait pas dire ce qu'il aime.*
+
+⛔ **Elle ne se plaint pas : elle donne un résultat.** *« Je crois qu'il n'a pas envie de me connaître. Et c'est mon métier. C'est exactement mon métier. »*
+
+✅ **Ils s'asseyent sur les marches.** *Andrew ne franchit toujours pas la porte, mais la conversation a le temps de se faire.*
+
+🔴 **La blessure n'est plus montrée : elle est rapportée, et une porte s'est refermée entre les deux.** *Décision de l'autrice, 22 août 2026.* **On voit un visage fermé sans savoir pourquoi, le gamin file, et on apprend la raison une fois qu'il n'est plus là.** *Le lecteur recompose la journée à rebours, et Andrew reste dehors avec une chose qu'il n'a pas vue arriver.*`,
+  clef: `🔴 **Ce que le garçon cache derrière ce qu'il dit — décision de l'autrice, 23 août 2026.** *Il tourne autour du pot, et ce qu'il sort est un sentiment d'injustice : on ne lui a pas demandé ce qu'il voulait faire, on lui a donné le portage.* **Le métier des autres a l'air plus vrai que le sien.** *Il en veut au monde de ne pas l'avoir consulté — et il projette là-dessus ce qu'il ne dit pas.*
+
+⛔ **Ce qu'il ne dit pas : ce qui se passe vraiment au travail.** *Le lecteur ne l'apprendra qu'au chapitre suivant, quand June racontera qu'il est rentré avec les genoux en sang.* **Ici il ne lâche qu'une phrase, et elle a l'air de rien :** *« ils le disent pas aux autres, ils le disent à moi ».*
+
+✅ **Et Andrew croit tenir le problème.** *Il le dit à June — personne ne lui a demandé ce qu'il voulait faire — et il garde pour lui la réserve : ça n'explique pas le premier jour.*
+
+🔴 **C'est June qui dit le mot, et la question des deux bouches est tranchée.** *Décision de l'autrice, 22 août 2026 : elle rapporte qu'Eliott lui a dit que les autres le traitaient de porteur de voiles au boulot.* **Elle parle aussi de ses difficultés à elle** — le garçon ne va pas bien, il se referme, et elle n'arrive pas à créer le lien.
 
 ⛔ **Elle n'en fait jamais une hypothèse.** *C'est une phrase qui s'arrête, pas un relais d'information — elle bute sur un mot et passe à autre chose.*`,
   garde_forme: `🔴 **Ce chapitre a le droit d'être court, et c'est même ce qu'on lui demande.** *Constat de l'autrice, 23 août 2026 : « le suivant n'a quasiment rien en comparaison, on va sans doute pas passer autant de temps dans la ville avec le travail ».* **Le prologue fait 2 644 mots, le chapitre premier 3 765, le deuxième 3 442** — *et la tournée n'a pas de lieu à faire découvrir, elle a une nouvelle à faire tomber.*
