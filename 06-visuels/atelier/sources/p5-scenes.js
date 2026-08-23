@@ -357,7 +357,11 @@ const SCENES = [
 ✅ **Ils s'asseyent sur les marches.** *Andrew ne franchit toujours pas la porte, mais la conversation a le temps de se faire.*
 
 🔴 **La blessure n'est plus montrée : elle est rapportée, et une porte s'est refermée entre les deux.** *Décision de l'autrice, 22 août 2026.* **On voit un visage fermé sans savoir pourquoi, le gamin file, et on apprend la raison une fois qu'il n'est plus là.** *Le lecteur recompose la journée à rebours, et Andrew reste dehors avec une chose qu'il n'a pas vue arriver.*`,
-  clef: `🔴 **Le ton d'Eliott sur toute la tournée : à cran, et pas contre Andrew.** *Indication de l'autrice, 23 août 2026 : « un peu comme un futur ado, un truc le gonfle et il est à cran sur tout ».* **Ça se voit partout et ça ne vise personne** — *il ne remercie pas la femme à la lettre, il donne un coup de pied dans un caillou qui ne part pas, il répond sec à des questions qui n'attaquent rien.*
+  clef: `🔒 **Le passage « on m'a pas demandé » ne se touche plus.** *Validé par l'autrice le 23 août 2026, et pour une raison qui n'est pas d'écriture :* **« je connais ce sentiment d'injustice du c'est pas moi qui décide de ma propre vie et ça me frustre ».**
+
+⛔ **De « Le mien, c'est pas un vrai » jusqu'à « Je sais pas », rien ne bouge** — *ni les répliques, ni le caillou qui ne part pas, ni la bouche qui s'ouvre sans que rien ne sorte.* ✅ *Ce passage ne sort pas de la mécanique du monde ; c'est ce qui lui donne sa justesse, et le lecteur le sentira sans savoir pourquoi.*
+
+🔴 **Le ton d'Eliott sur toute la tournée : à cran, et pas contre Andrew.** *Indication de l'autrice, 23 août 2026 : « un peu comme un futur ado, un truc le gonfle et il est à cran sur tout ».* **Ça se voit partout et ça ne vise personne** — *il ne remercie pas la femme à la lettre, il donne un coup de pied dans un caillou qui ne part pas, il répond sec à des questions qui n'attaquent rien.*
 
 ✅ **Et l'épicerie n'est plus un entêtement, c'est une contrariété de plus.** *Il s'arrête, il regarde la devanture, il inspire un coup — puis :* **« Bon. C'est pas grave, j'ai rien à y livrer de toute façon. »** *Et il repart sans y jeter un œil.* ⛔ **Il ne défend pas sa version, il la lâche** — *ce qui la rend beaucoup plus difficile à ranger dans le délire.*
 
