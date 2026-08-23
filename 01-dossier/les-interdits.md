@@ -199,6 +199,18 @@ dans une liste de travail et n'étaient écrits nulle part ici.*
 | **pédiatre**, sous toutes ses formes | *à trouver* | le mot suppose l'enfance, que cette langue n'a jamais formée. ⛔ Ni *pédiatres du jardin*, ni *pédiatre pour vieux* |
 | **arrivant voilé** | **porteur de voiles** | trop connoté |
 
+## 11 quinquies. Le mot « peau » — pour un corps, jamais pour une capsule
+
+> **Correction de l'autrice, 24 août 2026.** *« C'était proscrit pour parler des capsules
+> pourries. Bien sûr qu'on peut parler de la couleur de peau. »*
+
+⛔ **Interdit pour une capsule, une paroi, un rabat, un fruit** — *rien ne doit laisser croire
+qu'il y a quelqu'un dedans.* ✅ **Libre pour un corps**, comme le disait déjà le n° 11 :
+*« le physique n'est pas interdit une seconde ».*
+
+*La règle avait été écrite trop large le 19 août, et le contrôleur la prenait au mot. Il
+signale désormais, sans bloquer, quand le mot voisine une capsule.*
+
 ## 11 ter. Aucun vocabulaire de mécanique sur une capsule
 
 ⛔ **Ni rainures, ni glissières, ni crans, ni capot.** *La capsule a poussé, elle est asymétrique, elle est organique : rien en elle n'est dur ni cassant.* **La crémaillère du chariot est permise** — elle est dans le chariot.

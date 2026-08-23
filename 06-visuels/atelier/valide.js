@@ -41,7 +41,7 @@ const pb = [];
                      'vieux', 'vieille', 'vieilles', 'vieillard', 'vieillards', 'senior',
                      'seniors', 'mere', 'meres', 'pere', 'peres', 'famille', 'familles',
                      'frere', 'freres', 'soeur', 'soeurs', 'jumeau', 'jumeaux', 'jumelle',
-                     'jumelles', 'peau', 'capot', 'palier'];
+                     'jumelles', 'capot', 'palier'];
   d.GLOSSAIRE.forEach(([m, def]) => {
     const nu = plat(def).replace(/[œ]/g, 'oe');
     PROSCRITS.forEach(p => {
@@ -95,17 +95,31 @@ d.TEXTES.forEach((t, i) => {
   });
 });
 
+const avis = [];   /* ce qui se signale sans arreter la fabrication */
+
 /* les mots que le texte du roman ne peut pas employer */
 /* liste arretee par l'autrice le 18 aout 2026 : les mots d'apparence physique passent
    (un gars, un garcon, une femme, une fille, une fillette) ; c'est la categorie sociale
    ou d'age qui est interdite, jamais la matiere.
-   Ajout du 19 aout : le mot peau ne doit apparaitre nulle part, pas meme
-   pour un fruit -- rien ne doit laisser croire qu'il y a quelqu'un dedans. */
-const bannis = /\b(enfants?|b[ée]b[ée]s?|nourrissons?|vieux|vieilles?|vieillards?|seniors?|p[èe]res?|m[èe]res?|fils|famille|jumeaux?|jumelles?|peaux?)\b/i;
+   Le mot peau : interdit pour une capsule, pour une paroi, pour un fruit --
+   rien ne doit laisser croire qu'il y a quelqu'un dedans. Mais il est libre
+   pour un corps : les interdits disent depuis le 18 aout que le physique se
+   decrit, peau comprise. Correction de l'autrice, 24 aout 2026 : la regle du
+   19 aout avait ete ecrite trop large, et le controleur la prenait au mot.
+   Il signale donc, au lieu d'interdire, quand le mot voisine une capsule. */
+const bannis = /\b(enfants?|b[ée]b[ée]s?|nourrissons?|vieux|vieilles?|vieillards?|seniors?|p[èe]res?|m[èe]res?|fils|famille|jumeaux?|jumelles?)\b/i;
 d.TEXTES.forEach(t => {
   const brut = t.p.map(x => x[1]).join(' ').replace(/<[^>]+>/g, '');
   const m = brut.match(bannis);
   if (m) pb.push('mot interdit dans « ' + t.rang + ' » : ' + m[0]);
+
+  /* peau : libre pour un corps, jamais pour ce qui pousse sur un coulant */
+  t.p.forEach(x => {
+    const p = x[1].replace(/<[^>]+>/g, '');
+    if (/\bpeaux?\b/i.test(p) && /capsule|paroi|rabat|coulant|travée|fruit/i.test(p))
+      avis.push('« peau » à côté d\'une capsule dans « ' + t.rang + ' » : '
+                + p.slice(0, 70) + '…');
+  });
 });
 
 const mots = d.TEXTES.map(t => t.p.map(x => x[1].replace(/<[^>]+>/g, '')).join(' ').split(/\s+/).length);
@@ -123,5 +137,6 @@ console.log('gens        ', d.GENS.length, '· phrases', d.PHRASES.length);
 console.log('chapitres   ', d.TEXTES.length, '(' + mots.join(', ') + ' mots)');
 console.log('à trouver   ', d.SCENES.filter(s => s.statut === 'trou').length, 'scènes');
 
+if (avis.length) { console.log('\nÀ REGARDER :'); avis.forEach(x => console.log('  · ' + x)); }
 if (pb.length) { console.log('\nPROBLÈMES :'); pb.forEach(x => console.log('  ✗ ' + x)); process.exit(1); }
 console.log('\n✓ tout est cohérent');
