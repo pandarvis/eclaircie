@@ -267,6 +267,10 @@ const SCENES = [
 
 🔴 **L'aquarium marche au don — décision de l'autrice, 23 août 2026.** *Un guichet à l'entrée, une pancarte qui propose des montants : la nourriture d'une semaine, l'entretien d'un bassin, les soigneurs.* **Rendre le lieu accessible à tous va de soi ; donner est un usage, pas une condition.** *— Il faut payer ? — Non. Et Andrew pose quand même de quoi pour deux dans la coupelle.* ⛔ **Le mot <em>quand même</em> porte tout le système, et rien ne l'explique.**
 
+⛔ **Un bassin n'est pas une espèce.** *Reprise de l'autrice, 23 août 2026 : « les espèces sont rarement séparées dans un aquarium, tu peux avoir des tableaux très beaux avec beaucoup de couleurs ».* **Le premier bassin de la salle basse les mélange donc tous** — *corail, anémone, poissons-clowns, petits jaunes et le rond et plat au milieu.*
+
+💡 **Et les axolotls, proposés par elle le même jour.** *Quatre, roses et pâles, posés sur du sable clair, qui ne font rien du tout.* **C'est le seul moment de complicité du chapitre :** *— Il sourit. — On dirait.* ⚠️ **Second animal qui ne suit pas le cours ordinaire d'une vie, après les méduses** — *rien ne le dit, rien ne l'appuie, et il vaut mieux s'arrêter à deux.*
+
 🔴 **Le caméo des méduses, trouvé par l'autrice le 23 août 2026.** *Une salle entière, des colonnes d'eau éclairées par en dessous — et une réplique de plaque, lue à voix haute par Andrew :* **« Celles-là, ça dépend. Quand elles sont abîmées, elles redeviennent petites et ça repart. »**
 
 ⛔ **Personne ne relève. Eliott dit « ah » et ils passent à la salle suivante.** *C'est le livre entier, dit devant un bocal, par un homme qui ne comprend pas ce qu'il lit et à un garçon que ça n'intéresse pas.* ⚠️ **Et ça n'expose rien :** *dans ce monde-là, une bête qui recommence n'a rien de remarquable — c'est le lecteur, et lui seul, qui s'arrête.* ; ④ au retour, l'école et le gymnase, en passant — **et le contraste est le sujet du chapitre** : *un lieu où on l'emmène et où il entre, une cour où il n'entrera jamais.*
