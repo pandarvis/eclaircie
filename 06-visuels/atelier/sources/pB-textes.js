@@ -421,7 +421,7 @@ const TEXTES = [{
 [`p`,`Elle sortit une bouteille du réfrigérateur, lui servit un verre et reprit là où elle s'était arrêtée. Des poivrons ouverts en deux, un couteau court, et le bruit régulier de la lame contre la planche.`],
 [`p`,`Andrew resta debout, comme les autres fois, une oreille sur l'étage.`],
 [`pause`,`· · ·`],
-[`p`,`Julie était installée à la table, une machine à coudre devant elle et un pantalon en travers des genoux. Ses cheveux bruns, légèrement ondulés, étaient retenus d'un côté par une pince. Elle leva la tête, dit bonjour, puis retourna à sa couture.`],
+[`p`,`Julie, l'une des trois, était installée à la table. Elle avait une machine à coudre devant elle et un pantalon en travers des genoux. Ses cheveux bruns, légèrement ondulés, étaient retenus d'un côté par une pince. Elle leva la tête, dit bonjour, puis retourna à sa couture.`],
 [`p`,`Andrew la regarda faire. Elle plia l'ourlet à l'ongle, le fit passer sous le pied de biche sans une épingle, tourna le tissu d'un quart à l'angle et repartit dans l'autre sens. Elle releva les yeux et le trouva en train de la regarder.`],
 [`tiret`,`— J'ai été couturière, dit-elle. Onze ans. Pour un magasin de vêtements en ville, un grand.`],
 [`tiret`,`— Ça se voit.`],
