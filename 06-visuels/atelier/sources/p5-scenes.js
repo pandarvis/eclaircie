@@ -351,7 +351,11 @@ const SCENES = [
   clef: `🔴 **C'est June qui dit le mot, et la question des deux bouches est tranchée.** *Décision de l'autrice, 22 août 2026 : elle rapporte qu'Eliott lui a dit que les autres le traitaient de porteur de voiles au boulot.* **Elle parle aussi de ses difficultés à elle** — le garçon ne va pas bien, il se referme, et elle n'arrive pas à créer le lien.
 
 ⛔ **Elle n'en fait jamais une hypothèse.** *C'est une phrase qui s'arrête, pas un relais d'information — elle bute sur un mot et passe à autre chose.*`,
-  garde_forme: `**Le déroulé, tel que l'autrice l'a posé :** ① l'ellipse — *« il y retourna le mardi suivant, et le mardi d'après »* — qui donne le mois entier et la récurrence en deux lignes ; ② Eliott sur sa tournée, visage fermé ; ③ le métier de portage de son point de vue ; ④ retour chez la berceuse, il sonne, dit au revoir, se sauve ; ⑤ Andrew et June sur le pas de la porte.
+  garde_forme: `🔴 **Ce chapitre a le droit d'être court, et c'est même ce qu'on lui demande.** *Constat de l'autrice, 23 août 2026 : « le suivant n'a quasiment rien en comparaison, on va sans doute pas passer autant de temps dans la ville avec le travail ».* **Le prologue fait 2 644 mots, le chapitre premier 3 765, le deuxième 3 442** — *et la tournée n'a pas de lieu à faire découvrir, elle a une nouvelle à faire tomber.*
+
+✅ **Les chapitres doivent raccourcir à mesure que ça se resserre.** *Deux longs pour installer le monde et le lien, puis la tournée, puis la place vide qui sera plus courte encore.* **L'accélération se sent d'autant mieux qu'on vient de passer trois mille mots dans un aquarium.** ⛔ *Rien à rallonger pour équilibrer.*
+
+**Le déroulé, tel que l'autrice l'a posé :** ① l'ellipse — *« il y retourna le mardi suivant, et le mardi d'après »* — qui donne le mois entier et la récurrence en deux lignes ; ② Eliott sur sa tournée, visage fermé ; ③ le métier de portage de son point de vue ; ④ retour chez la berceuse, il sonne, dit au revoir, se sauve ; ⑤ Andrew et June sur le pas de la porte.
 
 **Fin proposée :** *le mot en dernière réplique, puis un geste et rien d'autre —* **il regarde la fenêtre du haut, elle est fermée.** *Le lecteur enchaîne parce qu'il vient d'apprendre une chose que le gamin ne sait pas qu'on a dite.*`,
   monde: `**Le portage, le métier d'Eliott** — l'équivalent d'un petit postier — vu en marchant, par celui qui le fait. *Et c'est par June que le lecteur apprend ce qu'est un porteur de voiles, sans qu'aucun narrateur ne l'explique.*`,
