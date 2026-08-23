@@ -409,6 +409,8 @@ const SCENES = [
     `🔴 **Et c'est le seul geste qu'Andrew relève de tout le livre.** *Décision de l'autrice, 22 août 2026 : il s'en étonne — personne ne fait ça ici pour appeler quelqu'un.* **Il demande, Eliott ne sait pas répondre, et on passe.** ⛔ *Il n'en fait rien : pas de note, pas de retour, pas une pensée plus loin.*`,
     `🔴 **Ce n'est pas de siffler qui est étrange, c'est la façon dont il s'y prend.** *Précision de l'autrice, 23 août 2026.* **Les deux doigts sous la langue, la façon de les plier, le coup sec** — *ces choses-là s'apprennent, et elles s'apprennent de quelqu'un.* **D'où la question d'Andrew : « Qui t'a montré ? »** *Ce n'est plus « où as-tu appris » — c'est un homme qui cherche une personne, et il n'y en a pas.*
 
+🔴 **Et son excuse répond à la mauvaise chose.** *Précision de l'autrice, 23 août 2026 : il s'excuse parce qu'il voit la réaction d'Andrew.* **Andrew n'a pas bougé, le garçon s'en aperçoit — et il croit qu'on lui reproche d'avoir sifflé quelqu'un.** *Alors qu'Andrew est arrêté par la manière.* ⛔ **Ni l'un ni l'autre ne s'en rendra compte.**
+
 ✅ **Et le garçon s'excuse tout seul :** *« Désolé. Je sais, June me l'a déjà dit, qu'on fait pas ça. C'est… je sais pas. J'y pense qu'après. »* **Il a donc déjà été repris, et il recommence** — *c'est un réflexe, pas une provocation.* ⛔ **Son excuse rend inutile tout paragraphe qui expliquerait la règle** : *elle passe par sa bouche, et le narrateur n'a rien à dire.*
 
 ✅ **Deux personnes se retournent sur le trottoir d'en face ; Julie, elle, n'a l'air surprise qu'une seconde.** *Entre eux ça passe ; c'est le reste de la rue qui marque le coup.*`,
