@@ -107,12 +107,12 @@ blanche.* **C'est le seul signe lisible du métier** — une capsule claire va s
 —, et il donne son nom au phénomène, au rite, à la croyance et à tout le reste.
 
 **École.** Obligatoire pour tout arrivant qui aura une vie active devant lui. **On n'y apprend
-pas un métier : on y apprend le monde.** Pour qui arrive très âgé, elle va de nos petites
-classes jusqu'au collège, et elle prend des années ; les autres n'ont que des cours accélérés
-du soir, autour de cinquante à soixante-dix ans. Les formateurs sont toujours plus jeunes que
-leurs apprenants, et personne n'y trouve rien à redire. ⛔ **Elle ne concerne pas la tranche
-des quatorze à huit ans** : ceux-là relèvent d'un berceur, qui leur apprend ce qu'il faut pour
-leur âge.
+pas un métier : on y apprend le monde.** Elle prend ceux qui arrivent tout en haut, vers
+quatre-vingts ou quatre-vingt-dix ans, et elle dure des années. Ceux d'autour de cinquante ou
+soixante entrent tout de suite dans la vie active : des cours décalés le soir, à côté du
+travail, et un tuteur au cas par cas. Les formateurs sont toujours plus jeunes que leurs
+apprenants. ⛔ **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là relèvent
+d'un berceur.
 
 **Jardin.** Le dernier lieu de vie : **la tranche de huit ans à zéro, tout entière.**
 Quiconque a huit ans ou moins y est, quel que soit le sens de sa trajectoire, et on n'en sort

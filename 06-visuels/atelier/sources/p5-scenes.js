@@ -323,6 +323,15 @@ const SCENES = [
 
 ✅ *Et son expérience se dit quand même, mais par elle et sans malice : « Moi, c'est le quatrième. On s'y fait. »*`,
     `⛔ **Eliott ne va pas à l'école, et il n'a jamais commencé de cours accélérés.** *La fiche disait le contraire : c'était faux, corrigé le 22 août 2026.* **À son âge, c'est le berceur qui instruit** — *June lui apprend ce qu'il faut, et elle ne passe la main que pour ce qu'elle ne peut pas donner elle-même, comme la natation.* **Les cours du soir et les tuteurs sont pour les arrivants de cinquante à soixante-dix ans.**`,
+    `⛔ **Aucun âge précis à l'école — décision de l'autrice, 23 août 2026.** *On voit que la maîtresse est bien plus jeune que ceux qui l'écoutent, et c'est tout ce qu'on écrit.* **L'homme du troisième rang n'a plus quatre-vingt-douze ans, il lève la main.**
+
+✅ **Et les deux qui papotent gagnent leur malice :** *une main devant la bouche, reprises sans qu'elle se retourne ni hausse le ton, et elles se taisent le temps qu'il faut avant de recommencer plus bas.*
+
+⛔ **La fenêtre est au ras du trottoir.** *Je l'avais mise au premier étage : on ne voit rien d'une classe depuis la rue si elle est en hauteur.* ✅ **Et le terrain n'est pas ailleurs :** *toujours derrière la même grille, les salles laissent la place à un terrain avec des lignes peintes au sol.*
+
+⛔ **Les coureurs ont tous le même âge.** *La phrase qui comparait le plus jeune d'entre eux au professeur saute : à l'école, ils sont de la même tranche, sinon ils seraient aux cours du soir.*
+
+🔴 **Le partage des trois régimes, arrêté le 23 août 2026 :** *l'école prend ceux qui arrivent vers quatre-vingts ou quatre-vingt-dix ans et dure des années ; ceux d'autour de cinquante ou soixante entrent tout de suite dans la vie active, avec des cours décalés le soir et un tuteur au cas par cas ; et pour les plus jeunes, c'est un berceur du premier jour au dernier.* ✅ **Le glossaire a été mis à jour dans le même mouvement.**`,
     `🔴 **Et c'est ce qui donne la réplique de l'école — donnée par l'autrice le 22 août 2026.** *Devant la grille, au retour :* **« C'est donc à ça que ça ressemble, l'école ? June m'a dit que je ne pourrais jamais y aller parce que je suis trop petit. »** *Le renversement se fait tout seul : ici l'école est pour les vieux, et les petits n'y ont pas droit.* ⛔ **Personne ne le lui explique et le narrateur n'y touche pas.**`
   ],
   phrases: [{ t: `normalement ils me laissaient passer ici`,
