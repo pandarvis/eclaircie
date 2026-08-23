@@ -73,7 +73,7 @@ tient où on le laisse, il s'ôte ; c'est son retrait qui active le corps.*
 coup** : elle n'était pas là la veille, personne ne l'a vue pousser, et **aucun relèvement
 n'a pu être fait** — il en faut quatre au minimum pour chiffrer un jour. *Elle a poussé si
 vite que la paroi paraît sur le point de se détacher toute seule.* **On ne traîne pas : la
-cérémonie se fait dans la foulée.** ⚠️ *Une capsule claire depuis un moment n'en est donc
+cérémonie se fait dans la foulée.** *Une capsule claire depuis un moment n'en est donc
 pas une, et c'est le premier raisonnement d'une analyste devant une trouvaille.*
 > `02-univers/la-ruche.md`
 
