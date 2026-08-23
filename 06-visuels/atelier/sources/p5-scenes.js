@@ -474,7 +474,26 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   titre: `Troisième visite — la place est vide`,
   statut: `acquis`, pivot: true,
   resume: `Andrew vient croyant trouver le garçon. June est déjà allée voir la police, et elle lui apprend qu'il n'est pas rentré de son travail.`,
-  produit: `Il ne reçoit pas la nouvelle : il tombe dessus, sur un pas de porte, en venant pour autre chose. Il n'a rien à déclencher et rien à conseiller — tout a déjà été fait, dans l'ordre, par quelqu'un dont le rôle s'arrête là.`,
+  produit: `Il ne reçoit pas la nouvelle : il tombe dessus en venant pour autre chose. Il n'a rien à déclencher et rien à conseiller — tout a déjà été fait, dans l'ordre, par quelqu'un dont le rôle s'arrête là.
+
+⚠️ **Et c'est ce qui rendait la scène difficile à écrire.** *Constat de l'autrice, 23 août 2026 : « j'ai énormément de mal à me projeter, ça veut dire qu'elle est impressionnamment vide ».* **Ce qui la remplit n'est pas l'événement, c'est la maison.**`,
+  garde_lieu: `🔴 **Paul est déjà parti — décision de l'autrice, 23 août 2026.** *Soit le jour même, soit quelques jours avant.* **June perd deux arrivants en une semaine**, et la maison a deux places vides au lieu d'une.
+
+🔴 **Andrew entre, cette fois.** *Il faut qu'il puisse comparer avec la maison d'avant.* **La progression des trois chapitres s'inverse ici** — *il entrait et restait debout, puis il ne dépassait plus le seuil ; là elle ouvre grand.*
+
+⛔ **Et rien ne se redécrit de ce qui l'a déjà été.** *Le lecteur connaît la pièce : les trois assiettes, la machine à coudre, la planche à découper, l'escalier qui fait du bruit.* **Il n'a besoin que de ce qui manque.**`,
+  garde_recit: `🔴 **Le remords de June, et il est faux — décision de l'autrice, 23 août 2026.** *Elle a été moins à l'écoute d'Eliott ces derniers temps, prise par le départ de Paul.* ⛔ **Ce n'est pas vrai : son métier était de s'occuper des trois.** *L'un était dans le mutisme le plus complet, l'autre avait besoin d'elle, et elle ne pouvait pas se couper en deux.*
+
+🔴 **Ce remords sert : il donne un prétexte à supposer une fugue.** *Et c'est ce que fait la police, dans les vraies affaires : on n'écarte jamais la fugue, quel que soit le caractère de celui qui manque.*
+
+✅ **Le dispositif y gagne des deux côtés.** *La même supposition sert dans la vie d'avant, quand Liam avance une fugue pour les deux filles.* **Deux enquêtes, la même phrase, et le lecteur ne fait pas le rapprochement.**`,
+  garde_temps: `🔴 **La journée de June, telle qu'elle la raconte — donnée par l'autrice, 23 août 2026.** *Elle la récite dans l'ordre, comme quelqu'un qui l'a déjà dite trois fois.*
+
+**① Il est parti au travail, avec la même attitude fermée.** ② *Il aurait dû rentrer en fin d'après-midi.* ③ **C'est Julie qui est arrivée avant lui.** ④ *June a attendu une heure de plus, puis elle a appelé le responsable.* ⑤ **Julie est partie faire le tour du quartier.** ⑥ *Elle est rentrée une heure après, sans l'avoir trouvé.* ⑦ **June est allée au commissariat, et elle a parlé à un certain Isaac.**
+
+⛔ **Elle n'est pas inquiète comme on l'est d'un fils.** *C'est un arrivant dont elle a la charge — et elle est très inquiète.*
+
+✅ **Conséquence utile : le responsable sait déjà.** *June l'a appelé le soir même, donc quand Andrew ira le voir à la scène 6, la disparition n'est une nouvelle pour personne.*`,
   clef: `🔴 **Et c'est ici que le nom d'Isaac entre dans le livre — par la bouche de June.** Elle dit avoir parlé à un certain Isaac ; Andrew répond que c'est un bon ami, et qu'il va aller lui parler. *Le lecteur attend donc de le rencontrer au chapitre suivant. Il rencontrera quelqu'un d'autre.*`,
   garde_forme: `**Ouverture proposée : « La porte s'ouvrit avant qu'il ait frappé. »** *Elle guettait.* **Trois mots plus tard le lecteur a compris qu'il se passe quelque chose, et Andrew, lui, n'a encore rien compris.** *C'est la troisième fois qu'une porte s'ouvre dans ces chapitres, et c'est la première où elle s'ouvre trop tôt.*
 
@@ -502,6 +521,9 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   monde: `Rien, et c'est la condition. Un poste de police se ressemble partout — c'est l'infrastructure même du dispositif.`,
   qui: [`joel`,`liam`],
   gardes: [
+    `🔴 **La fugue se suppose des deux côtés — décision de l'autrice, 23 août 2026.** *Chez June, elle sort d'un remords : elle a été moins à l'écoute ces derniers temps.* **Ici, c'est Liam qui l'avance pour les deux filles** — *sans remords, sans cruauté : c'est ce qu'on fait dans une enquête, on n'écarte jamais la fugue.*
+
+⛔ **Et personne ne relève que c'est la même phrase.** *Le lecteur l'a lue deux chapitres plus tôt dans une autre bouche, et il ne fera pas le rapprochement.*`,
     `🔴 **Le collègue s'appelle Liam, et il est nommé — correction de l'autrice, 23 août 2026.** *Je l'avais interdit par excès de zèle.* ⛔ **Ce qui ne se dit jamais, c'est le nom de Joël.**`,
     `🔴 **Et le mécanisme n'est pas celui que je croyais.** *Le lecteur ne prend pas Liam pour Isaac dans cette scène.* **Il prendra le visage de Liam pour celui d'Isaac plus tard, parce qu'Isaac ne sera jamais décrit** — *« la description qu'il aura lue sera celle de Liam »*. ✅ **C'est donc une règle d'absence :** *ne jamais décrire Isaac, nulle part, et laisser le lecteur remplir avec le seul policier qu'il ait vu.*`,
     `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
