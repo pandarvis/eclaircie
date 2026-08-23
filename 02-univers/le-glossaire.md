@@ -110,8 +110,7 @@ l'accueil, celle-ci vient de la serre.*
 > `02-univers/la-ruche.md`
 
 **Éclaircie.** La paroi d'une capsule qui approche du terme perd la couleur de la coulée et
-s'éclaircit ; **au bout, elle est tendue, translucide, d'un jaune orangé.** ⛔ *Jamais
-blanche.* **C'est le seul signe lisible du métier** — une capsule claire va s'ouvrir bientôt
+s'éclaircit ; **au bout, elle est tendue, translucide, d'un jaune orangé.** **C'est le seul signe lisible du métier** — une capsule claire va s'ouvrir bientôt
 —, et il donne son nom au phénomène, au rite, à la croyance et à tout le reste.
 > `02-univers/la-ruche.md`
 
@@ -120,7 +119,7 @@ apprend pas un métier : on y apprend le monde.** Elle prend ceux qui arrivent t
 vers quatre-vingts ou quatre-vingt-dix ans, et elle dure des années. Ceux d'autour de
 cinquante ou soixante entrent tout de suite dans la vie active : des cours décalés le soir, à
 côté du travail, et un tuteur au cas par cas. Les formateurs sont toujours plus jeunes que
-leurs apprenants. ⛔ **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là
+leurs apprenants. **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là
 relèvent d'un berceur.
 > `02-univers/la-ruche.md`
 
@@ -170,7 +169,7 @@ pas.**
 **Registre.** L'archive de la ruche, tenue par les veilleurs. Pour chaque capsule : la
 travée, la date d'apparition, l'avancée de l'éclaircie, la date d'ouverture, l'âge relevé, le
 nom donné et le numéro. Consultable par métier, sans autorisation. **Le registre n'avance
-jamais rien : il constate**, et **il est infaillible.** ⛔ *Il n'annonce aucune éclaircie à
+jamais rien : il constate**, et **il est infaillible.** *Il n'annonce aucune éclaircie à
 venir : une capsule y entre quand elle s'ouvre, jamais avant.*
 > `02-univers/la-ruche.md`
 
@@ -197,8 +196,7 @@ murs et n'est pas passée outre.* **Personne ne sait si elle serait allée plus 
 
 **Travée.** Une section de la serre : un tronçon de coulée repéré et numéroté, sur lequel
 poussent plusieurs capsules à la fois. On dit *la travée dix-neuf* comme on dirait le rayon
-douze. ⛔ **Une travée n'est jamais une capsule : elle en contient.** On n'écrit donc jamais
-qu'une travée a éclairci.
+douze.
 > `02-univers/la-ruche.md` · ❓ Combien de travées dans la serre, et si elles suivent la coulée ou un quadrillage.
 
 **Tuteur.** Métier de l'apprentissage. Instruit ceux qui auront à s'en servir : se tenir, se

@@ -77,16 +77,16 @@ temps que la capsule. Ce n'est pas la feuille de service du matin : celle-là vi
 l'accueil, celle-ci vient de la serre.*
 
 **Éclaircie.** La paroi d'une capsule qui approche du terme perd la couleur de la coulée et
-s'éclaircit ; **au bout, elle est tendue, translucide, d'un jaune orangé.** ⛔ *Jamais
-blanche.* **C'est le seul signe lisible du métier** — une capsule claire va s'ouvrir bientôt
-—, et il donne son nom au phénomène, au rite, à la croyance et à tout le reste.
+s'éclaircit ; **au bout, elle est tendue, translucide, d'un jaune orangé.** **C'est le seul
+signe lisible du métier** — une capsule claire va s'ouvrir bientôt —, et il donne son nom au
+phénomène, au rite, à la croyance et à tout le reste.
 
 **École.** Obligatoire pour tout arrivant qui aura une vie active devant lui. **On n'y apprend
 pas un métier : on y apprend le monde.** Elle prend ceux qui arrivent tout en haut, vers
 quatre-vingts ou quatre-vingt-dix ans, et elle dure des années. Ceux d'autour de cinquante ou
 soixante entrent tout de suite dans la vie active : des cours décalés le soir, à côté du
 travail, et un tuteur au cas par cas. Les formateurs sont toujours plus jeunes que leurs
-apprenants. ⛔ **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là relèvent
+apprenants. **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là relèvent
 d'un berceur.
 
 **Jardin.** Le dernier lieu de vie : **la tranche de huit ans à zéro, tout entière.**
@@ -129,8 +129,8 @@ pas.**
 **Registre.** L'archive de la ruche, tenue par les veilleurs. Pour chaque capsule : la travée,
 la date d'apparition, l'avancée de l'éclaircie, la date d'ouverture, l'âge relevé, le nom
 donné et le numéro. Consultable par métier, sans autorisation. **Le registre n'avance jamais
-rien : il constate**, et **il est infaillible.** ⛔ *Il n'annonce aucune éclaircie à venir :
-une capsule y entre quand elle s'ouvre, jamais avant.*
+rien : il constate**, et **il est infaillible.** *Il n'annonce aucune éclaircie à venir : une
+capsule y entre quand elle s'ouvre, jamais avant.*
 
 **Ruche.** Le lieu où les capsules mûrissent et s'ouvrent, organisé en travées. Bâtie sur la
 serre elle-même, en forme de fleur : **le registre au cœur, la serre en corolle, les salles de
@@ -153,8 +153,7 @@ loin.**
 
 **Travée.** Une section de la serre : un tronçon de coulée repéré et numéroté, sur lequel
 poussent plusieurs capsules à la fois. On dit *la travée dix-neuf* comme on dirait le rayon
-douze. ⛔ **Une travée n'est jamais une capsule : elle en contient.** On n'écrit donc jamais
-qu'une travée a éclairci.
+douze.
 
 **Tuteur.** Métier de l'apprentissage. Instruit ceux qui auront à s'en servir : se tenir, se
 laver, cuisiner, travailler, comprendre une rue, une monnaie, un métier. **Le tuteur instruit
