@@ -531,6 +531,52 @@ aujourd'hui : « est-ce que tu veux m'accompagner ? »**
 
 ⚠️ **Ni l'un ni l'autre n'est bavard.** *« Andrew n'est pas très loquace, tout comme Joël. »*
 **Les informations viennent de Liam, à mesure que l'autre lit.**`,
+  garde_fissure: `🔴 **La fissure, et les trois choses qui la referment — arrêté le 23 août 2026.**
+
+*Le problème : Andrew a un mobile intime, Joël n'en a aucun. L'un connaît le garçon depuis un
+mois, l'autre n'a jamais vu les deux filles.*
+
+**① Les deux viennent de chez elle.** *« Je viens à l'instant de chez elle, elle était assez
+démunie. »* **Joël sort de chez la femme ; Andrew sort de chez June.** *Un policier qui a
+croisé quelqu'un de démuni et qui passe savoir où en est l'affaire n'a besoin d'aucune
+justification — et le chapitre précédent a mis Andrew dans le même mouvement.*
+
+**② Le silence porte les deux.** ⛔ *Pas une ligne d'intériorité dans ce chapitre. Pas de
+« il pensait au garçon », pas de « quelque chose se serra ».* **Le lecteur arrive avec Eliott
+dans la tête : il lira de l'inquiétude dans chaque silence.** *À la relecture, le même silence
+devient du métier.*
+
+**③ La conviction se dit en général, jamais en particulier.** ⛔ *« Je le connais, ce gamin, il
+n'a pas pu fuguer » est impossible ici.* ✅ **« À cet âge-là, on ne part pas comme ça. »**
+*Andrew pense à Eliott en le disant ; Joël énonce une expérience de métier.* **Même phrase,
+deux hommes.**
+
+✅ *Et « je le connais » est gardé pour le chapitre suivant, celui du retour chez June, qui est
+à Andrew seul.*`,
+  garde_retour: `🔴 **Ce qui les fait revenir chez elle : le dossier ne dit pas comment il
+allait.** *Le procès-verbal est plein de faits — heure de départ, heure attendue, tour du
+quartier, appel au responsable — et pas une ligne sur l'état du garçon.*
+
+**Or c'est exactement ce qu'il faut pour trancher la fugue.** *Liam la suppose sans rien
+savoir ; le dossier ne l'aide pas.* **Donc il faut y retourner.**
+
+*— Mais elle t'a parlé de quoi ? De la disparition ? De rien d'autre ?*
+
+⚠️ **Liam répond ce qu'il peut : elle était bouleversée, son récit partait dans tous les
+sens.** *Ce qui n'est pas une réponse — c'est le vide, dit autrement.* ✅ **Et il l'insinue
+plus qu'il ne le constate :** *le récit n'était peut-être pas si décousu.*
+
+✅ **La question qu'Andrew posera au chapitre suivant — comment il se comportait quand je
+n'étais pas là — est littéralement ce qui manque au procès-verbal.** *La même lacune produit
+le même retour, dans les deux mondes.*`,
+  garde_fugue: `🔴 **Andrew est le seul pour qui la fugue est plausible.** *Personne d'autre ne
+sait que le garçon allait mal : June minimise, le responsable n'en sait rien, la police n'a
+que des horaires.* **Lui l'a vu boudeur toute une tournée, et il l'a entendu dire qu'on ne lui
+avait rien demandé.**
+
+⚠️ **Donc quand il écarte la fugue, il ment un peu — et il le sait.** ⛔ *Ce n'est pas une
+conviction qu'il faut écrire, c'est un homme qui écarte trop vite une hypothèse qui lui fait
+peur.*`,
   garde_mur: `🔴 **Premier mur : on ne peut nommer personne.** *Ni Andrew, ni le veilleur — et
 Joël non plus.* **Le chapitre entier tient sur un « il ».**
 
@@ -577,7 +623,11 @@ deux mondes.*
 
 💡 **Ce qui reste : ce que ce monde-ci n'a pas.** *Un mot de parenté entendu à côté, un âge qui
 monte au lieu de descendre, une durée qui ne colle pas, un formulaire qui demande quelque
-chose qui n'existe pas là-bas.* **À trouver.**`,
+chose qui n'existe pas là-bas.* **À trouver.**
+
+⛔ **L'affaire Sorel est écartée — décision de l'autrice, 23 août 2026.** *J'avais proposé le
+nom de famille comme premier élément : elle craint que ce soit « cramé trop vite ».* **Le nom
+reste dans le livre, mais il ne sert pas à ça.**`,
   gardes: [
     `🔴 **La fugue se suppose des deux côtés — décision de l'autrice, 23 août 2026.** *Chez June, elle sort d'un remords : elle a été moins à l'écoute ces derniers temps.* **Ici, c'est Liam qui l'avance pour les deux filles** — *sans remords, sans cruauté : c'est ce qu'on fait dans une enquête, on n'écarte jamais la fugue.*
 
