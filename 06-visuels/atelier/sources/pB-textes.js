@@ -804,7 +804,7 @@ const TEXTES = [{
 [`tiret`,`— Il a été comme ça toute la journée ?`],
 [`tiret`,`— Toute la semaine.`],
 [`p`,`June passa les mains sur son tablier, sans rien y chercher.`],
-[`tiret`,`— J'en ai eu six avant lui. Six, en comptant Paul et Julie. Il y en a eu des difficiles. Des qui pleuraient les premiers jours. Un qui n'a pas parlé pendant deux semaines. Mais ça passait.`],
+[`tiret`,`— J'en ai eu six avant lui. Six, en comptant Paul et Julie. Il y en a eu des difficiles. Certains qui pleuraient les premiers jours. Un qui n'a pas parlé pendant deux semaines. Mais ça passait.`],
 [`p`,`Elle regarda la rue.`],
 [`tiret`,`— Ça passait toujours.`],
 [`p`,`Un silence.`],
