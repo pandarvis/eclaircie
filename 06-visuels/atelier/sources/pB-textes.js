@@ -969,7 +969,7 @@ const TEXTES = [{
 [`tiret`,`— Bonjour.`],
 [`tiret`,`— Bonjour, Julie.`],
 [`p`,`Elle vint s'asseoir à sa place, devant sa machine à coudre, et ne l'ouvrit pas.`],
-[`tiret`,`— J'ai refait le tour ce matin. La place, les deux rangées, jusqu'au bout du quartier. Je suis repassée deux fois devant l'épicerie.`],
+[`tiret`,`— J'ai refait le tour ce matin, dit Julie. La place, les deux rangées, jusqu'au bout du quartier. Je suis repassée deux fois devant l'épicerie.`],
 [`p`,`Andrew tourna la tête vers elle.`],
 [`tiret`,`— Pourquoi l'épicerie ?`],
 [`tiret`,`— Parce qu'il s'arrête toujours devant.`],
