@@ -146,6 +146,20 @@ Quelqu'un de huit ans au jardin a peut-être quarante ans d'expérience derrièr
 
 ---
 
+## Comment lire ces interdits
+
+> **Règle de travail, 25 août 2026.** *« Tes garde-fous doivent quand même être intelligents. Je te propose plutôt de me dire si ça contraint, que de t'interdire par défaut : demande mon avis. »*
+
+**Un interdit interdit ce qu'il nomme, pas le champ lexical autour.** ⛔ *Élargir une règle « pour être sûr » n'est pas de la prudence : c'est une décision d'écriture prise à la place de l'autrice, et elle se paie en mots justes.*
+
+**Trois cas le même jour.** *La règle sur les capsules pourries est devenue une interdiction du mot* peau *jusque sur un visage.* *La note disant que le collègue de Joël **s'appelle** Liam a été lue comme l'obligation de le **nommer**.* *Et la garde disant que la terreur de l'eau ne se **commente** pas a fait refuser le mot* bouée *dans une métaphore ordinaire.*
+
+✅ **Donc : en cas de doute, écrire la phrase et signaler la tension.** *« Ça contraint ceci — tu veux quoi ? »* ⛔ **Jamais contourner en silence.**
+
+⚠️ **Ce qui ne change pas : les gardes mécaniques restent strictes.** *Un contrôleur ne juge pas le contexte ; c'est à lui d'être littéral, et à nous de lire.*
+
+---
+
 # Ce qui n'est pas un interdit
 
 Ces règles portent sur le **texte du roman**, et sur lui seul.
