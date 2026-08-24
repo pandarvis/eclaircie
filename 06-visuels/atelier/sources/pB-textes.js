@@ -1088,7 +1088,7 @@ const TEXTES = [{
 [`p`,`Il se cala contre le dossier de sa chaise.`],
 [`tiret`,`— À cet âge-là, on ne réfléchit pas. Une contrariété, une bêtise, quelque chose qu'on ne digère pas, et on part. J'en ai fait, moi aussi, des bêtises avec le temps.`],
 [`p`,`Il eut un petit rire par le nez.`],
-[`tiret`,`— Et puis ceux-là, ils ne se rendent pas compte.`],
+[`tiret`,`— Et puis ceux-là, ils ne se rendent pas compte. C'est une autre génération.`],
 [`p`,`Il dit ça comme une chose qu'on répète au bureau depuis assez longtemps pour ne plus l'entendre.`],
 [`tiret`,`— On ne part pas comme ça.`],
 [`tiret`,`— Tu dis ça vite. Et je te connais depuis assez longtemps pour savoir quand tu as quelque chose en tête.`],
@@ -1170,13 +1170,21 @@ sourire humble. ⛔ <strong>Rien dans ce salut ne doit pouvoir se lire de traver
 ⚠️ <strong>Conséquence à surveiller : le collègue mène l'affaire au départ.</strong> <em>Elle
 ne devient celle de Joël qu'à force qu'il s'y accroche</em> — <strong>ce qui va dans le sens du
 dossier, mais n'avait jamais été posé.</strong>`,
-`🔴 <strong>Ça ne nous rajeunit pas est retiré — too much, 25 août 2026.</strong> <em>Le geste reste : il s'appuie des deux mains au bureau avant de se redresser, et il ne dit rien.</em>
+`🔴 <strong>Les deux éléments de notre monde, arrêtés le 25 août 2026.</strong>
 
-✅ <strong>Il ne reste donc qu'un seul élément de notre monde</strong> — <em>J'en ai fait, moi aussi, des bêtises avec le temps</em> — <strong>et l'autrice en voulait un ou deux.</strong> ❓ <em>Faut-il en replacer un ailleurs, ou est-ce que celui-là suffit ?</em>`,
-`⚠️ <strong>La relation est dite deux fois, presque dans les mêmes termes.</strong> <em>Je te connais depuis assez longtemps pour savoir quand tu as quelque chose en tête</em>, puis plus bas <em>je connais ta tête quand tu n'es pas convaincu</em>.
+<strong>① <em>J'en ai fait, moi aussi, des bêtises avec le temps.</em></strong> ⚠️ <em>Il place sa jeunesse derrière lui.</em> <strong>Chez Andrew, on n'a pas été jeune : on le devient.</strong>
 
-✅ <strong>La seconde a été ramenée à</strong> <em>Mais tu n'as pas l'air convaincu</em>. ❓ <em>Ou bien c'est la première qui saute.</em>`,
-`❓ <strong>Une photographie ou deux ?</strong> <em>La note du 25 août dit</em> pourquoi pas une seule <em>puis</em> un portrait pour chaque jumelle <em>— et les deux ne peuvent pas être vrais en même temps.</em> <strong>J'ai gardé deux</strong>, <em>qui est ce qui produit l'effet décrit.</em>`,
+<strong>② <em>C'est une autre génération.</em></strong> ⚠️ <em>Le mot suppose qu'on engendre, et que des cohortes se succèdent.</em> <strong>Là-bas personne n'engendre personne</strong> — <em>il y a des arrivants, tout le temps, à tous les âges.</em> ✅ <strong>Et la ligne suivante l'enterre :</strong> <em>comme une chose qu'on répète au bureau depuis assez longtemps pour ne plus l'entendre.</em>
+
+⛔ <strong>Ça ne nous rajeunit pas est retiré</strong> — <em>too much.</em> ✅ <em>Le geste reste : il s'appuie des deux mains au bureau avant de se redresser, et il ne dit rien.</em>
+
+✅ <strong>Les deux portent sur le temps sans employer le même levier</strong> — <em>l'un met la jeunesse au passé, l'autre suppose une succession des âges.</em>`,
+`✅ <strong>La relation ne se dit qu'une fois — validé le 25 août 2026.</strong> <em>Je te connais depuis assez longtemps pour savoir quand tu as quelque chose en tête</em> reste ; <em>la reprise plus bas est ramenée à</em> Mais tu n'as pas l'air convaincu.`,
+`✅ <strong>Deux photographies, et c'est une dissonance en soi — arrêté le 25 août 2026.</strong>
+
+<em>J'avais mal lu la note : il ne s'agissait pas d'en retirer une.</em> ✅ <strong>Le lecteur peut se demander sans y penser pourquoi il y en a deux</strong>, <em>et comme le texte ne dit jamais que ce sont des portraits, la question reste sous la surface.</em>
+
+<strong>C'est la seconde dissonance très légère du chapitre</strong> — <em>d'une autre nature que les deux éléments de monde : celle-ci porte sur le nombre, pas sur le temps.</em>`,
 `<strong>Le portrait est-il assez loin de celui d'Andrew ?</strong> <em>Les mèches sur le front ont sauté, le teint et l'ondulation restent.</em>`
   ],
   note: `✅ <strong>Passe d'autrice du 25 août 2026, appliquée.</strong>

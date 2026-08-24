@@ -595,6 +595,25 @@ démunie et deux disparues, exactement comme il lirait une berceuse et deux arri
 
 ⚠️ *« Interroger les deux » vaut des deux côtés : June et Julie ici, le père et la mère
 là-bas.*`,
+  garde_grade: `🔴 **Le collègue est lieutenant, et l'affaire est la sienne au départ — 25 août 2026.**
+
+*Le grade a été cherché pour remplacer le nom, et il a produit une conséquence que personne
+n'avait posée.* **Celui qui tient le dossier, qui a reçu la déposition et qui va voir
+l'employeur mène l'enquête** ; *l'autre vient s'informer.*
+
+✅ **Ce qui va exactement dans le sens du dossier.** *L'affaire des jumelles est celle sur
+laquelle Joël était avant de mourir* — **elle ne devient la sienne qu'à force qu'il s'y
+accroche.**
+
+🔴 **Et l'autrice le confirme :** *« c'est pour ça aussi que Joël s'est résigné, car son
+supérieur lui en a donné l'ordre quelque part ».*
+
+⚠️ **Donc si Joël est sous ce grade, c'est cet homme-là qui lui dira de lâcher** —
+*l'ami du premier chapitre, celui qu'il salue d'un clin d'œil.* **La scène 17 b y gagne
+tout**, *et la superposition avec Isaac devient exacte : Isaac dit à Andrew de lâcher, le
+lieutenant dit à Joël de lâcher, et le lecteur ne voit qu'un seul homme.*
+
+❓ **À trancher : est-ce bien lui, ou un troisième qu'on ne verra jamais ?**`,
   garde_dialogue: `**Le dialogue proposé par l'autrice, 23 août 2026 — à garder comme
 matériau, pas comme état final.**
 
@@ -1079,6 +1098,20 @@ reste dans le livre, mais il ne sert pas à ça.**`,
     { t: `Comment tu peux sortir ça ? Tant qu'on a rien retrouvé, on peut rien avancer.`, n: `Formulation de l'autrice. Joël se défend — et la phrase vaut mot pour mot pour un garçon disparu.` },
     { t: `Je te le répète, lâche l'affaire ! À l'heure qu'il est, les vers ont sûrement commencé leur travail !`, n: `Formulation de l'autrice. **« Je te le répète » est le mot qui coud les deux chapitres.** Il ne doit être ni souligné, ni commenté, ni relevé par personne.` }
   ],
+  garde_qui: `❓ **Qui donne l'ordre — question ouverte le 25 août 2026.**
+
+🔴 *L'autrice : « Joël s'est résigné car son supérieur lui en a donné l'ordre quelque part. »*
+**Ce n'est donc pas une dispute entre égaux : c'est un ordre, et il est suivi.**
+
+⚠️ **Le chapitre 5 vient de donner un grade au collègue.** *S'il est le supérieur de Joël,
+c'est lui qui parle ici* — **et le lecteur, qui a vu Isaac dire la même chose à Andrew, aura
+l'impression d'un seul homme d'un bout à l'autre.** *La superposition serait parfaite.*
+
+⛔ **Mais ce serait aussi l'ami qui donne l'ordre**, *et le premier chapitre du poste l'a
+montré chaleureux.* ✅ *Ce qui n'est pas une objection : un supérieur chaleureux qui referme
+une affaire, c'est plus dur qu'un chef lointain.*
+
+❓ **À trancher : lui, ou quelqu'un qu'on ne verra jamais.**`,
   ouvert: [`**Ce que devient « c'est déjà ce qu'on m'a dit ».** La réplique qui échappait à Andrew n'a plus de place ici : le dispositif ne passe plus par un écho dans sa tête, il passe par une coupe de chapitre. *À supprimer, ou à replacer ailleurs — mais pas ici, où elle ferait doublon avec un procédé plus fort.*`],
   src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — décision du 16 août 2026`
 },
