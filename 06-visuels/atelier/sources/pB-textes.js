@@ -1104,7 +1104,7 @@ const TEXTES = [{
 [`p`,`Quelqu'un passa la tête par l'encadrement, demanda si on avait vu un trousseau de clés, n'obtint rien et repartit.`],
 [`tiret`,`— Elle t'a dit quoi, là-dessus ?`],
 [`tiret`,`— Là-dessus ?`],
-[`tiret`,`— Des agissements bizarres. Le genre de comportement qui pourrait faire penser à une fugue.`],
+[`tiret`,`— Des agissements bizarres. Si quelque chose avait changé. Si elle y avait pensé elle-même, à une fugue.`],
 [`tiret`,`— Ah. Là-dessus, rien.`],
 [`tiret`,`— Tu lui as posé la question ?`],
 [`tiret`,`— Je lui ai demandé l'heure et le trajet. Le reste, elle l'a donné toute seule, et le reste ne m'avançait pas.`],
