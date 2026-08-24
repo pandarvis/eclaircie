@@ -674,7 +674,11 @@ reste dans le livre, mais il ne sert pas à ça.**`,
     `🔴 **La fugue se suppose des deux côtés — décision de l'autrice, 23 août 2026.** *Chez June, elle sort d'un remords : elle a été moins à l'écoute ces derniers temps.* **Ici, c'est Liam qui l'avance pour les deux filles** — *sans remords, sans cruauté : c'est ce qu'on fait dans une enquête, on n'écarte jamais la fugue.*
 
 ⛔ **Et personne ne relève que c'est la même phrase.** *Le lecteur l'a lue deux chapitres plus tôt dans une autre bouche, et il ne fera pas le rapprochement.*`,
-    `🔴 **Le collègue s'appelle Liam, et il est nommé — correction de l'autrice, 23 août 2026.** *Je l'avais interdit par excès de zèle.* ⛔ **Ce qui ne se dit jamais, c'est le nom de Joël.**`,
+    `🔴 **Le collègue s'appelle Liam, et son nom ne s'écrit jamais dans le livre.**
+
+*Les deux moitiés de la règle ont été données à deux jours d'intervalle, et j'avais pris la première pour une règle de texte.* **Le 23 août : « ça reste Liam ! »** — *c'est le nom du personnage, celui qu'on emploie ici.* **Le 25 août : « on ne peut absolument pas nommer Liam, JAMAIS ! »** — *parce que le lecteur croit être chez Andrew, et qu'un nom inconnu l'y ferait trébucher.*
+
+✅ **Donc : Liam dans la bible, jamais dans le texte** — *exactement comme Joël.* **Le chapitre tient sur un il, un autre, un ami et un grade.**`,
     `🔴 **Et le mécanisme n'est pas celui que je croyais.** *Le lecteur ne prend pas Liam pour Isaac dans cette scène.* **Il prendra le visage de Liam pour celui d'Isaac plus tard, parce qu'Isaac ne sera jamais décrit** — *« la description qu'il aura lue sera celle de Liam »*. ✅ **C'est donc une règle d'absence :** *ne jamais décrire Isaac, nulle part, et laisser le lecteur remplir avec le seul policier qu'il ait vu.*`,
     `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
     `Les victimes ne sont ni comptées, ni sexuées, ni décrites.`,

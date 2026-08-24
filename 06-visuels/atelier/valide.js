@@ -108,6 +108,22 @@ const avis = [];   /* ce qui se signale sans arreter la fabrication */
    19 aout avait ete ecrite trop large, et le controleur la prenait au mot.
    Il signale donc, au lieu d'interdire, quand le mot voisine une capsule. */
 const bannis = /\b(enfants?|b[ée]b[ée]s?|nourrissons?|vieux|vieilles?|vieillards?|seniors?|p[èe]res?|m[èe]res?|fils|famille|jumeaux?|jumelles?)\b/i;
+
+/* Les gens de la vie d'avant n'ont pas de nom dans le livre.
+   Regle donnee par l'autrice le 25 aout 2026 : « Liam est bien l'ami de Joel,
+   mais etant donne que le lecteur croit se trouver toujours dans l'univers
+   d'Andrew, on n'est pas cense le nommer, JAMAIS ! »
+   Le nom vit dans la bible ; il ne s'ecrit dans aucun chapitre dont la scene
+   est du cote de Joel. Meme regle pour Joel lui-meme. */
+const sansNom = /\b(Liam|Jo[eë]l)\b/;
+const cotesJoel = new Set(d.SCENES.filter(x => x.row === 'joel').map(x => x.id));
+d.TEXTES.filter(t => cotesJoel.has(t.scene)).forEach(t => {
+  const brut = t.p.map(x => x[1]).join(' ').replace(/<[^>]+>/g, '');
+  const m = brut.match(sansNom);
+  if (m) pb.push('nom de la vie d\'avant ecrit dans « ' + t.rang + ' » : '
+                 + m[0] + ' -- il vit dans la bible, jamais dans le texte');
+});
+
 d.TEXTES.forEach(t => {
   const brut = t.p.map(x => x[1]).join(' ').replace(/<[^>]+>/g, '');
   const m = brut.match(bannis);

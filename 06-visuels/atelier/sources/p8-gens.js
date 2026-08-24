@@ -231,7 +231,7 @@ const GENS = [
   ouvert:[`Son prénom. Un nom d'éclaircie. Il traverse huit scènes sans être nommé.`],
   src:`02-univers/la-jalousie.md` },
 
-{ id:`liam`, nom:`Liam`, voie:`joel`, role:`Le collègue de Joël — et le visage que le lecteur prêtera à Isaac.`,
+{ id:`liam`, nom:`Liam`, voie:`joel`, role:`Le collègue de Joël — jamais nommé dans le livre, et le visage que le lecteur prêtera à Isaac.`,
   age:`—`,
   resume:`Le partenaire de l'enquêteur. **Il porte bien plus qu'un cri désormais** : c'est lui qu'on rencontre au commissariat — et le lecteur, qui vient d'entendre parler d'Isaac, croit rencontrer Isaac. C'est lui aussi qui renseigne au téléphone. Et à la fin, quand Joël s'élance derrière le fuyard, c'est lui qui crie.`,
   traits:[`Il voit ce que Joël va faire, et il essaie de l'arrêter.`,`Il ne sait rien de ce que son cri produira, ni de l'écho qu'il fait à la faute de son collègue.`],

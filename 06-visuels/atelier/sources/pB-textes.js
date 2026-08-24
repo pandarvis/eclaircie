@@ -1049,31 +1049,33 @@ const TEXTES = [{
   rang: `Chapitre cinquième`,
   titre: `Le poste`,
   scene: `s4`,
-  sous: `Première visite au commissariat · premier jet, 24 août 2026`,
+  sous: `Première visite au commissariat · passe de l'autrice, 25 août 2026`,
   p: [
 
-[`p`,`Le poste tenait dans une salle et trois bureaux.`],
-[`p`,`À droite en entrant, un comptoir que personne ne tenait. Deux personnes attendaient sur le banc, avec entre elles la distance que gardent des gens qui ne se connaissent pas. L'une avait posé un sac à ses pieds et le regardait de temps en temps, comme pour vérifier qu'il était encore là.`],
+[`p`,`Le bâtiment était haut et large, en retrait de la rue. Une grille fermait l'enceinte, et on passait le portail sous l'œil de quelqu'un. On n'entrait pas là-dedans par hasard.`],
+[`p`,`À l'intérieur, le poste tenait dans une salle et trois bureaux.`],
+[`p`,`À droite en entrant, un comptoir que personne ne tenait. Deux hommes attendaient sur le banc, avec entre eux la distance que gardent des gens qui ne se connaissent pas. L'un avait posé un sac à ses pieds et le regardait de temps en temps, comme pour vérifier qu'il était encore là. Le second restait assis, immobile, le regard parcourant les prospectus épinglés au panneau d'affichage pour tuer le temps.`],
 [`p`,`Au fond, un couloir et des portes ouvertes des deux côtés. Un téléphone sonna quatre fois avant que quelqu'un le prenne. Une odeur de café refroidi traînait depuis le matin.`],
 [`p`,`Il resta un moment devant le comptoir. Personne ne vint.`],
-[`p`,`Au troisième bureau, Liam leva la tête et le vit arriver dans le couloir.`],
+[`p`,`Au troisième bureau, un homme leva la tête et le vit arriver dans le couloir.`],
 [`p`,`Il était grand, la silhouette large et pleine, avec des épaules qui donnaient de l'ampleur au reste. Le teint sombre, le visage large, les traits réguliers. Une barbe noire, dense, tenue court, qui remontait sur les joues et soulignait la mâchoire. Les cheveux épais, nettement ondulés, coupés plus court sur les côtés.`],
-[`p`,`Il repoussa sa chaise et se leva pour lui serrer la main.`],
+[`tiret`,`— Lieutenant ? lança-t-il avec un clin d'œil complice.`],
+[`p`,`Son ami lui répondit par un sourire humble, repoussa sa chaise et se leva pour venir lui serrer la main.`],
 [`tiret`,`— Tu tombes bien.`],
 [`tiret`,`— Je viens à l'instant de chez elle. Elle était assez démunie.`],
 [`tiret`,`— Je sais. Assieds-toi.`],
-[`p`,`Il débarrassa la chaise d'en face d'une pile de chemises qu'il posa par terre, contre le pied du bureau.`],
+[`p`,`Il débarrassa la chaise d'en face d'une pile de chemises qu'il posa par terre, contre le pied du bureau. Une carte du secteur était dépliée à côté, tenue à plat par un cendrier et une agrafeuse.`],
 [`tiret`,`— Café ?`],
-[`tiret`,`— Non.`],
-[`tiret`,`— Tu as raison.`],
-[`pause`,`· · ·`],
-[`p`,`Liam tira une chemise cartonnée du haut de la pile et la fit glisser en travers du bureau.`],
+[`tiret`,`— Il est comment ?`],
+[`tiret`,`— Comme d'habitude.`],
+[`tiret`,`— Alors non.`],
+[`p`,`Le lieutenant tira une chemise cartonnée du haut de la pile et la fit glisser en travers du bureau.`],
 [`tiret`,`— C'est tout ce qu'on a.`],
 [`p`,`La déclaration tenait sur deux feuillets tapés serré, avec des mentions à la main dans la marge. Derrière, une fiche de signalement, la liste des appels passés dans la soirée, et une feuille où quelqu'un avait recopié un itinéraire au crayon.`],
 [`p`,`Une heure de départ. Une heure de retour attendue. Un tour du quartier, avec les rues dans l'ordre. Un appel passé en fin de journée, et l'heure de l'appel. Une déclaration reçue à vingt et une heures douze.`],
 [`p`,`À mi-page, une correction. Une heure barrée, une autre écrite au-dessus, et deux paraphes dans la marge.`],
 [`p`,`Deux photographies étaient agrafées au second feuillet. Il les regarda l'une après l'autre et les laissa retomber.`],
-[`p`,`Liam attendit qu'il ait fini la première page.`],
+[`p`,`Son ami attendit patiemment qu'il ait fini la première page.`],
 [`tiret`,`— Hier, j'ai eu du mal à la calmer. Son récit partait dans tous les sens.`],
 [`p`,`Il fit un geste vague au-dessus du dossier.`],
 [`tiret`,`— Ou elle en donnait l'air.`],
@@ -1084,17 +1086,18 @@ const TEXTES = [{
 [`tiret`,`— Tu en penses quoi ?`],
 [`tiret`,`— Entre nous, je n'écarte pas un départ volontaire.`],
 [`p`,`Il se cala contre le dossier de sa chaise.`],
-[`tiret`,`— À cet âge-là, on ne réfléchit pas. Une contrariété, une bêtise, quelque chose qu'on ne digère pas, et on part. J'en ai fait, moi, des bêtises.`],
+[`tiret`,`— À cet âge-là, on ne réfléchit pas. Une contrariété, une bêtise, quelque chose qu'on ne digère pas, et on part. J'en ai fait, moi aussi, des bêtises avec le temps.`],
 [`p`,`Il eut un petit rire par le nez.`],
 [`tiret`,`— Et puis ceux-là, ils ne se rendent pas compte.`],
 [`p`,`Il dit ça comme une chose qu'on répète au bureau depuis assez longtemps pour ne plus l'entendre.`],
 [`tiret`,`— On ne part pas comme ça.`],
-[`tiret`,`— Tu dis ça vite.`],
-[`p`,`Il tourna le feuillet et ne répondit pas.`],
-[`pause`,`· · ·`],
+[`tiret`,`— Tu dis ça vite. Et je te connais depuis assez longtemps pour savoir quand tu as quelque chose en tête.`],
+[`p`,`Ce dernier tourna le feuillet et ne répondit pas.`],
 [`p`,`Quelqu'un passa la tête par l'encadrement, demanda si on avait vu un trousseau de clés, n'obtint rien et repartit.`],
 [`tiret`,`— Elle t'a dit quoi, là-dessus ?`],
-[`tiret`,`— Là-dessus, rien.`],
+[`tiret`,`— Là-dessus ?`],
+[`tiret`,`— Des agissements bizarres. Le genre de comportement qui pourrait faire penser à une fugue.`],
+[`tiret`,`— Ah. Là-dessus, rien.`],
 [`tiret`,`— Tu lui as posé la question ?`],
 [`tiret`,`— Je lui ai demandé l'heure et le trajet. Le reste, elle l'a donné toute seule, et le reste ne m'avançait pas.`],
 [`p`,`Il reprit le premier feuillet et le parcourut une seconde fois, plus lentement.`],
@@ -1102,54 +1105,79 @@ const TEXTES = [{
 [`tiret`,`— Non.`],
 [`tiret`,`— Rien du tout ?`],
 [`tiret`,`— Des horaires.`],
-[`p`,`Liam attrapa le feuillet, le retourna vers lui pour vérifier, et le remit en place.`],
-[`tiret`,`— Des horaires, répéta-t-il.`],
+[`p`,`Il attrapa le feuillet, le retourna vers lui pour vérifier ce qu'il y avait écrit, et le remit en place.`],
+[`tiret`,`— Des horaires, confirma-t-il.`],
 [`p`,`Il resta un moment sans rien ajouter.`],
-[`tiret`,`— On a appelé partout hier soir. Tout ce qui se laisse appeler la nuit. Ça n'a rien donné, ça ne donne jamais rien, et on le fait quand même.`],
-[`pause`,`· · ·`],
+[`tiret`,`— On a appelé partout hier soir. Tout ce qui décroche à cette heure-là. Ça n'a rien donné.`],
+[`p`,`Il haussa les épaules.`],
+[`tiret`,`— Ça ne donne jamais rien. On le fait quand même.`],
 [`tiret`,`— Il faudrait y retourner.`],
-[`tiret`,`— J'y comptais. Je veux voir la chambre. Et il faudra les revoir séparément.`],
-[`tiret`,`— Séparément, oui.`],
-[`tiret`,`— Il m'est arrivé de passer dans le quartier. J'ai cru entendre qu'il y avait des soucis au travail.`],
-[`p`,`Liam le regarda une seconde de trop.`],
-[`tiret`,`— Une altercation. C'est noté.`],
+[`tiret`,`— J'y comptais. Je veux voir la chambre. Et la réinterroger, si on peut.`],
+[`p`,`Il eut un geste vers le dossier.`],
+[`tiret`,`— Pour moi tout a déjà été dit. Mais tu n'as pas l'air convaincu.`],
+[`p`,`Il lui sourit gentiment.`],
+[`tiret`,`— Un regard neuf est toujours bon à prendre, j'imagine.`],
+[`tiret`,`— Merci.`],
+[`p`,`Il se pencha sur la carte et posa le doigt dessus.`],
+[`tiret`,`— Dans cette zone-là. Ce quartier, tu vois ? Il m'est arrivé de passer devant. J'ai déjà entendu des disputes.`],
+[`tiret`,`— Tu pointes l'adresse du travail qu'elle nous a donnée.`],
+[`p`,`Le lieutenant le regarda une seconde de trop.`],
+[`tiret`,`— Elle nous a signalé une altercation.`],
+[`tiret`,`— Une altercation ?`],
+[`tiret`,`— Elle n'a pas donné plus de détails. Je comptais parler au patron ce matin.`],
 [`p`,`Il sortit un carnet, vérifia quelque chose et le referma.`],
-[`tiret`,`— J'ai l'employeur à onze heures.`],
-[`pause`,`· · ·`],
+[`tiret`,`— Je vais le voir à onze heures.`],
 [`p`,`Il se leva, s'appuya une seconde des deux mains au bureau avant de se redresser tout à fait, et prit sa veste sur le dossier de la chaise.`],
-[`tiret`,`— Ça ne nous rajeunit pas, tout ça.`],
 [`p`,`L'autre remit les deux photographies dans la chemise, l'aligna sur le bord du bureau et la lui rendit.`],
 [`tiret`,`— Tu veux m'accompagner ?`],
 [`tiret`,`— Je viens.`],
-[`p`,`Sur le banc, les deux personnes attendaient toujours. Celle qui avait un sac le reprit sur ses genoux quand ils passèrent, et le reposa par terre quand ils furent sortis.`],
+[`p`,`Sur le banc, les deux hommes attendaient toujours. Celui qui avait un sac le reprit sur ses genoux quand ils passèrent, et le reposa par terre quand ils furent sortis.`],
 
   ],
   tenu: [
-`<strong>Personne n'est nommé sauf Liam.</strong> <em>Pas une incise, pas un dit-il suivi d'un métier.</em> Le chapitre entier tient sur un <em>il</em> et sur <em>l'autre</em>.`,
+`🔴 <strong>Plus personne n'est nommé.</strong> <em>Décision de l'autrice, 25 août 2026 : le collègue non plus ne porte pas son nom.</em> <strong>Le chapitre entier tient sur un il, un autre, un ami et un grade.</strong>`,
 `<strong>Aucune ligne d'intériorité.</strong> <em>Pas un il pensait, pas un quelque chose se serra.</em> <strong>Le lecteur arrive avec Eliott dans la tête et prête de l'inquiétude à chaque silence ; à la relecture, le même silence est du métier.</strong>`,
 `<strong>On ne parle jamais de l'affaire.</strong> <em>Ni ce qui est arrivé, ni à qui, ni combien.</em> Les deux photographies sont regardées et le texte ne dit pas ce qu'il y a dessus.`,
-`<strong>Aucun mot de parenté, aucun nom de famille, aucun décompte.</strong> <em>Les interroger toutes les deux</em> vaut pour June et Julie autant que pour l'autre monde.`,
+`<strong>Aucun mot de parenté, aucun nom de famille, aucun décompte.</strong> <em>La réinterroger, les deux hommes du banc, un départ volontaire</em> — rien qui penche d'un côté.`,
 `<strong>La conviction se dit en général.</strong> <em>On ne part pas comme ça</em>, jamais <em>je le connais</em> — qui reste au chapitre précédent, celui d'Andrew seul.`,
 `<strong>Et la même phrase lui est renvoyée deux chapitres de suite.</strong> <em>Vous dites ça vite</em>, puis <em>Tu dis ça vite</em>. <strong>Le lecteur croit reconnaître un homme ; il en regarde deux.</strong>`,
-`<strong>Le vide du procès-verbal est dit à voix haute.</strong> <em>Rien du tout ? — Des horaires.</em> C'est ce qui les fait revenir chez elle, dans les deux mondes à la fois.`
+`<strong>Le vide du procès-verbal est dit à voix haute.</strong> <em>Rien du tout ? — Des horaires.</em> C'est ce qui les fait revenir chez elle, dans les deux mondes à la fois.`,
+`<strong>Les deux hommes du banc ouvrent et ferment le chapitre.</strong> <em>Celui qui a un sac le reprend sur ses genoux quand ils passent, et le repose quand ils sont sortis.</em> Rien ne s'est passé pour eux non plus.`
   ],
   ouvre: [
-`🔴 <strong>Les deux éléments de notre monde, à valider ou à jeter.</strong>
+`🔴 <strong>Adjudant est devenu lieutenant, en deux temps.</strong>
 
-<strong>① <em>Tout ça ne nous rajeunit pas.</em></strong> <em>Formule de collègues, dite en se relevant, que personne ne relève.</em> ⚠️ <strong>Dans le monde d'Andrew, le temps qui passe rajeunit tout le monde, littéralement.</strong> <em>La phrase y serait un contresens intégral, et c'est le seul endroit du chapitre où la langue trahit le monde.</em>
+⛔ <em>Adjudant est un grade de gendarmerie et d'armée : il n'existe pas dans la police
+nationale, donc pas dans un commissariat.</em> <strong>J'avais mis brigadier</strong>, <em>et
+l'autrice a demandé si un brigadier partait enquêter sur le terrain.</em>
 
-<strong>② <em>J'en ai fait, moi, des bêtises.</em></strong> <em>Liam se souvient d'avoir été jeune.</em> ⚠️ <strong>Chez Andrew, on ne l'a pas été : on le devient.</strong> <em>Personne ne peut parler de sa propre jeunesse au passé.</em>
+✅ <strong>Vérification : un brigadier peut enquêter</strong> — <em>le corps d'encadrement sert
+aussi en investigation.</em> ⚠️ <strong>Mais celui qui mène une disparition inquiétante, qui
+tient le dossier et va voir l'employeur, est un officier.</strong> <em>Lieutenant est le premier
+grade du corps de commandement, et c'est le bon mot.</em>
 
-✅ <em>Aucun des deux ne contient de nom propre, ni de mot proscrit, et aucun ne fait tiquer à la première lecture.</em>`,
-`<strong>Le poste est-il assez plein ?</strong> <em>Deux personnes sur un banc, un téléphone, du café froid — ou faut-il davantage de vie autour d'eux ?</em>`,
-`<strong>La longueur.</strong> <em>Le chapitre est court parce qu'on n'y dit presque rien, et c'est la règle de la scène.</em> <strong>Reste à savoir si le lecteur le supporte juste après un chapitre qui l'est aussi.</strong>`,
-`<strong>Le portrait de Liam est-il assez loin de celui d'Andrew ?</strong> <em>C'est la question laissée ouverte le 23 août, et le teint sombre ne la règle qu'à moitié.</em>`
+✅ <strong>Le clin d'œil y gagne :</strong> <em>on ne charrie quelqu'un sur son grade que s'il
+vient de l'obtenir</em> — <strong>ce que le sourire humble confirme.</strong>
+
+⚠️ <strong>Conséquence à surveiller : le collègue mène l'affaire au départ.</strong> <em>Elle
+ne devient celle de Joël qu'à force qu'il s'y accroche</em> — <strong>ce qui va dans le sens du
+dossier, mais n'avait jamais été posé.</strong>`,
+`🔴 <strong>Ça ne nous rajeunit pas est retiré — too much, 25 août 2026.</strong> <em>Le geste reste : il s'appuie des deux mains au bureau avant de se redresser, et il ne dit rien.</em>
+
+✅ <strong>Il ne reste donc qu'un seul élément de notre monde</strong> — <em>J'en ai fait, moi aussi, des bêtises avec le temps</em> — <strong>et l'autrice en voulait un ou deux.</strong> ❓ <em>Faut-il en replacer un ailleurs, ou est-ce que celui-là suffit ?</em>`,
+`⚠️ <strong>La relation est dite deux fois, presque dans les mêmes termes.</strong> <em>Je te connais depuis assez longtemps pour savoir quand tu as quelque chose en tête</em>, puis plus bas <em>je connais ta tête quand tu n'es pas convaincu</em>.
+
+✅ <strong>La seconde a été ramenée à</strong> <em>Mais tu n'as pas l'air convaincu</em>. ❓ <em>Ou bien c'est la première qui saute.</em>`,
+`❓ <strong>Une photographie ou deux ?</strong> <em>La note du 25 août dit</em> pourquoi pas une seule <em>puis</em> un portrait pour chaque jumelle <em>— et les deux ne peuvent pas être vrais en même temps.</em> <strong>J'ai gardé deux</strong>, <em>qui est ce qui produit l'effet décrit.</em>`,
+`<strong>Le portrait est-il assez loin de celui d'Andrew ?</strong> <em>Les mèches sur le front ont sauté, le teint et l'ondulation restent.</em>`
   ],
-  note: `⚠️ <strong>Premier jet, écrit dans la nuit du 24 août 2026, en l'absence de l'autrice.</strong> <em>À relire entièrement.</em>
+  note: `✅ <strong>Passe d'autrice du 25 août 2026, appliquée.</strong>
 
-<strong>C'est le premier chapitre de la vie d'avant, et le lecteur ne le sait pas.</strong> <em>Le matériau de dialogue donné le 23 août a été resserré : les répliques longues ont été coupées, parce que ni l'un ni l'autre n'est loquace.</em>
+🔴 <strong>Le renversement du chapitre : le collègue n'est plus nommé.</strong> <em>Le 23 août, l'autrice avait écrit « ça reste Liam ! » et j'avais inscrit dans la fiche que le nommer était sa correction. Le 25, elle écrit l'inverse : « on ne peut absolument pas nommer Liam ».</em> <strong>Les deux notes sont conservées dans la fiche de la scène 4</strong> — <em>la seconde tranche, la première explique pourquoi la question s'est posée.</em>
 
-⚠️ <strong>Ce que je sais déjà de discutable :</strong> <em>Liam parle presque seul, ce qui est voulu mais peut sembler déséquilibré</em> ; <em>l'enchaînement avec le chapitre précédent est immédiat — Andrew part de chez June et arrive ici, ce qui a demandé de changer sa dernière réplique de demain matin à tout de suite.</em>`
+<strong>Ses ajouts :</strong> <em>le bâtiment vu du dehors et sa grille</em> ; <em>le second homme du banc, qui manquait</em> ; <em>le salut par le grade, avec le clin d'œil et le sourire humble</em> ; <em>la carte du secteur et le doigt posé dessus, qui remplacent un</em> il m'est arrivé de passer dans le quartier <em>très plat</em> ; <em>et l'échange qui force la précision sur</em> là-dessus.
+
+<strong>Trois choses réécrites sur sa demande :</strong> <em>le café, qui pouvait mieux faire</em> ; <em>la phrase sur les appels de la nuit, qui était bizarre</em> ; <em>et la fin, dont la réplique a sauté.</em>`
 },
 
 {
