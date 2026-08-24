@@ -1156,8 +1156,16 @@ aussi en investigation.</em> ⚠️ <strong>Mais celui qui mène une disparition
 tient le dossier et va voir l'employeur, est un officier.</strong> <em>Lieutenant est le premier
 grade du corps de commandement, et c'est le bon mot.</em>
 
-✅ <strong>Le clin d'œil y gagne :</strong> <em>on ne charrie quelqu'un sur son grade que s'il
-vient de l'obtenir</em> — <strong>ce que le sourire humble confirme.</strong>
+✅ <strong>Le clin d'œil y gagne :</strong> <em>entre amis, on ne salue quelqu'un par son grade
+que s'il vient de l'obtenir</em> — <strong>ce que le sourire humble confirme.</strong>
+
+⚠️ <strong>C'est une taquinerie affectueuse, jamais une moquerie</strong> — <em>précision de
+l'autrice, 25 août 2026.</em> ✅ <em>Le texte le tient déjà :</em> clin d'œil complice, <em>et</em>
+sourire humble. ⛔ <strong>Rien dans ce salut ne doit pouvoir se lire de travers.</strong>
+
+ℹ️ <em>Officier est la catégorie, lieutenant est le grade : un lieutenant est un officier.</em>
+<strong>C'est lieutenant qui s'écrit</strong>, <em>parce qu'on n'interpelle personne en disant
+« Officier ? ».</em>
 
 ⚠️ <strong>Conséquence à surveiller : le collègue mène l'affaire au départ.</strong> <em>Elle
 ne devient celle de Joël qu'à force qu'il s'y accroche</em> — <strong>ce qui va dans le sens du
