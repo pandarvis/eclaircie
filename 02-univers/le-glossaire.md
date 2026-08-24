@@ -142,6 +142,11 @@ permet de le détecter. **Tout le monde dit n'importe quoi en sortant ; seuls le
 arrivants sont remarquables, parce que chez eux ça arrive comme du contenu et non comme de
 la confusion.** *Et le mot n'est pas tendre* — on l'emploie pour dire de quelqu'un qu'il
 raconte n'importe quoi, et on en traite les gens.
+
+> **Précisions de l'autrice, 25 août 2026.** *Ce sont un peu les fous qu'on croise : soit ça se
+> repère, soit pas du tout.* **Chez les jeunes, ça se voit plus facilement, parce qu'ils n'ont
+> pas encore de filtre** — *et c'est rare.* ✅ **Et ça passe :** *en descendant vers le jardin,
+> l'insouciance les gagne, les pensées intrusives s'espacent, et ils finissent en paix.*
 > `02-univers/ce-qui-est-juge.md` · ❓ **Le lecteur l'apprend par cet emploi-là, scène 2, et l'autrice donne deux bouches possibles :** Eliott — *« ils m'ont dit que j'étais un porteur de voiles »* — ou June — *« ils l'ont traité de porteur de voiles »*. À trancher.
 
 **Préparateur.** Agent de la serre, et **c'est elle qu'il surveille** : il y passe ses
