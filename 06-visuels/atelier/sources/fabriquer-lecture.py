@@ -62,7 +62,8 @@ B = u'`'
 js = lire('pB-textes.js')
 bornes = [(m.group(1), m.start()) for m in re.finditer(r'\n  id: `([a-z0-9-]+)`,', js)]
 
-LISIBLES = ['prologue', 'chapitre-1', 'chapitre-2', 'chapitre-3', 'epilogue']
+LISIBLES = ['prologue', 'chapitre-1', 'chapitre-2', 'chapitre-3',
+            'chapitre-4', 'chapitre-5', 'chapitre-6', 'epilogue']
 SOUS_CLEF = ['epilogue']          # lisibles, mais seulement apres le mot de passe
 
 
