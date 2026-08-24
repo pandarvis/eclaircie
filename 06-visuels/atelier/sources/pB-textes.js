@@ -1507,7 +1507,13 @@ dossier, mais n'avait jamais été posé.</strong>`,
 
 <strong>Corrigés au passage :</strong> <em>June jardine et les fait rentrer, ce qui vaut mieux qu'un tablier décoratif</em> ; <em>Julie lit, elle n'est pas rivée à sa machine</em> ; <em>Poli devient Fermé, parce que ce n'est pas poli qui vient en premier quand on décrit quelqu'un</em> ; <em>le portrait passe par les autres — les jeux du soir, ce qu'elle coud — au lieu de la liste il dit bonjour, il mange</em> ; <em>la soirée de la colère est développée</em> ; <em>et le reproche de June à Andrew est supprimé, puisque c'est lui qui a demandé qu'on revienne.</em>
 
-⚠️ <strong>Ce que je sais déjà de discutable :</strong> <em>le chapitre est long</em> ; <em>l'argument du quartier est peut-être trop raisonné pour un homme qui vient de voir la peluche</em> ; <em>et la boutique de l'aquarium n'a jamais existé avant aujourd'hui.</em>`
+✅ <strong>La boutique de l'aquarium n'apparaît pas au chapitre 2, et c'est voulu — tranché le 25 août 2026.</strong>
+
+<em>« Je n'ai pas envie de donner d'importance à ce lieu au chapitre 2. Andrew s'en souvient parce qu'il est juste observateur. »</em>
+
+✅ <strong>L'absence est l'effet :</strong> <em>le lecteur n'a pas vu cette boutique parce qu'il n'est pas Andrew.</em> <strong>C'est l'homme qui relève le sifflement d'Eliott et les deux doigts sous la langue</strong> — <em>ce que personne d'autre ne regarde.</em>
+
+⛔ <strong>Et le texte ne la présente pas comme un souvenir partagé :</strong> <em>il l'annonce comme une information neuve, et le lecteur l'apprend en même temps que June.</em>`
 },
 
 {
