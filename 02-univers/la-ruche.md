@@ -673,6 +673,20 @@ Le lecteur peut traverser le livre entier sans s'apercevoir que pas une phrase d
 
 ---
 
+## On s'adresse aux gens selon leur vécu, pas selon leur apparence
+
+> **Tranché le 25 août 2026.** *« Elle a dix ans, mais elle est plus âgée en vérité. »*
+
+**Le tutoiement suit ce que la personne a derrière elle, jamais ce qu'elle paraît.** *Deux arrivants du même âge peuvent donc être abordés de deux façons opposées, dans la même pièce, par le même homme.*
+
+**Le cas qui fixe la règle — chapitre 6.** *Julie et Eliott ont tous les deux dix ans.* ✅ **Andrew vouvoie Julie** — *elle est entrée à quatorze ans, elle a vingt-cinq ans de métier de couturière derrière elle, et une vie avant ça.* ✅ **Il tutoie Eliott** — *il est arrivé il y a un mois et il n'a rien.*
+
+⚠️ **Ce n'est pas une politesse, c'est une information.** *La façon dont on parle à quelqu'un dit tout de suite depuis combien de temps il est là* — **et le lecteur l'apprend sans qu'une ligne le lui explique.**
+
+⛔ **Corollaire : personne ne commente jamais ce partage.** *Il s'emploie, il ne se justifie pas — comme le reste de la langue de ce monde.*
+
+📌 *Conséquence déjà en place : au chapitre 3, Eliott cesse de vouvoyer Andrew au bout d'un mois, et Andrew ne le relève que deux jours plus tard.*
+
 ## Le corps de métier
 
 **Décision de l'autrice.** Un veilleur ne travaille pas seul : il appartient à un service, avec une hiérarchie, une ancienneté et un tour de rôle.
