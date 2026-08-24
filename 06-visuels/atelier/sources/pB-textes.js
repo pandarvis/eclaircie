@@ -1464,6 +1464,9 @@ dossier, mais n'avait jamais été posé.</strong>`,
 [`p`,`Il ressortit le carnet, écrivit deux mots dessus en marchant et le rangea de nouveau.`],
 [`tiret`,`— Je vais faire reprendre le trajet. Rue par rue, des deux côtés.`],
 [`p`,`Ils descendaient la rue qu'il remontait tous les soirs.`],
+[`p`,`Le dépôt était en bas du quartier, les portes calées ouvertes, un chariot à moitié chargé dans la cour.`],
+[`tiret`,`— Si on s'en est pris à ce garçon, dit Isaac, quelles qu'en soient les raisons…`],
+[`p`,`Il ne finit pas sa phrase.`],
 
   ],
   tenu: [
