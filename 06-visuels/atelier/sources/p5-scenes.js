@@ -734,7 +734,11 @@ reste dans le livre, mais il ne sert pas à ça.**`,
   monde: `Les cours de natation donnés aux arrivants — un détail d'intégration ordinaire qui devient, pour le lecteur de la dernière page, une chose difficile à relire.`,
   qui: [`andrew`,`isaac`,`june`],
   gardes: [
-    `Sa terreur de l'eau ne s'explique pas, ne se commente pas, et ne revient pas comme motif.`,
+    `Sa terreur de l'eau ne s'explique pas, ne se commente pas, et ne revient pas comme motif.
+
+🔴 **Précision du 25 août 2026 : le mot bouée ne tombe pas sous cette garde.** *Andrew l'emploie au sens figuré, pour dire ce à quoi le garçon se tient dans un monde où il ne se sent chez lui nulle part.* ⛔ **Il ne commente rien, il ignore tout de la noyade** — *et c'est le mécanisme du livre : il dit une chose vraie sans mesurer à quel point elle l'est.*
+
+⚠️ **Risque assumé par l'autrice :** *peluche-poisson, piscine et bouée dans le même chapitre.* **Un lecteur peut rapprocher trop tôt.**`,
     `June restitue sans rien ajouter. Elle ne conclut jamais rien.`,
     `🔴 **Paul et Julie sont présents tous les deux.** *Décision de l'autrice, 22 août 2026 : on n'interroge pas une maison sans interroger ceux qui y vivent.* ⛔ **Ils ne savent rien** — *ils vivaient avec lui, ils ne l'ont pas suivi au travail, et ce qu'ils disent ne fait avancer personne.* **C'est leur dernière apparition du livre.**`,
     `🔴 **June seule parle de son comportement et du cours de natation.** *Décision de l'autrice, 22 août 2026 : la parole utile est à elle, et à personne d'autre dans cette maison.* ⛔ **Et leur non-savoir doit être actif :** *on leur demande forcément s'il leur a parlé de quelque chose — ils répondent, et leur réponse ne sert à rien.* **Un témoin présent qui n'apporte rien doit avoir l'air de n'avoir rien, pas d'être escamoté.**`,
