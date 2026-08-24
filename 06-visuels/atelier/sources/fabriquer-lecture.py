@@ -205,21 +205,49 @@ GENS = u"""const GENS = [
 # =====================================================================
 #  LE SOMMAIRE — la forme du livre, et rien de plus
 # =====================================================================
-SOMMAIRE = u"""const SOMMAIRE = [
-{ etat:`lu`, rang:`Prologue`, note:``,
-  mot:`Deux capsules étaient venues pendant la nuit, et personne ne savait qui allait en sortir.` },
-{ etat:`lu`, rang:`Chapitre premier`, note:``,
-  mot:`Quatre cent trente-huit. C'était le nombre de pas qui séparaient sa porte de celle de la ruche.` },
-{ etat:`lu`, rang:`Chapitre deuxième`, note:``,
-  mot:`Il n'avait rien écrit dans la case.` },
-{ etat:`lu`, rang:`Chapitre troisième`, note:``,
-  mot:`Il y retourna le mardi suivant, et le mardi d'après.` },
-{ etat:`vient`, rang:`La suite`, note:`en cours d'écriture`,
-  mot:`` },
-{ etat:`clef`, rang:`Épilogue`, note:`écrit, et gardé pour la fin`,
-  mot:`` }
-];
-"""
+# Par defaut le sommaire prend la premiere phrase du chapitre. Quand celle-ci
+# ne suffit pas -- parce qu'elle est coupee en deux paragraphes, ou parce
+# qu'elle ouvre sur une description -- on choisit la phrase ici. Elle doit
+# exister mot pour mot dans le texte.
+ACCROCHES = {
+    'chapitre-1': u"Quatre cent trente-huit. C'était le nombre de pas qui "
+                  u"séparaient sa porte de celle de la ruche.",
+    'chapitre-5': u"On n'entrait pas là par hasard.",
+}
+
+
+def batir_sommaire(textes):
+    """Le sommaire se deduit des chapitres lus : il ne peut plus se perimer."""
+    B = chr(96)
+    lignes = []
+    for t in textes:
+        if t['clef']:
+            continue
+        mot = ACCROCHES.get(t['id'], u'')
+        if mot:
+            plat = u' '.join(re.sub(r'<[^>]+>', u'', x[1]) for x in t['p'])
+            assert mot.split(u'. ')[-1] in plat, \
+                u'accroche introuvable dans ' + t['id']
+        else:
+            for genre, txt in t['p']:
+                if genre == 'p':
+                    mot = re.sub(r'<[^>]+>', u'', txt)
+                    break
+        assert mot, u'pas de premiere phrase pour ' + t['id']
+        lignes.append(u'{ etat:%slu%s, rang:%s%s%s, note:%s%s,' % (B, B, B, t['rang'], B, B, B)
+                      + u'\n  mot:%s%s%s }' % (B, mot, B))
+    lignes.append(u'{ etat:%svient%s, rang:%sLa suite%s, note:%sen cours d\'écriture%s,' % (B, B, B, B, B, B)
+                  + u'\n  mot:%s%s }' % (B, B))
+    for t in textes:
+        if t['clef']:
+            lignes.append(u'{ etat:%sclef%s, rang:%s%s%s, note:%sécrit, et gardé pour la fin%s,'
+                          % (B, B, B, t['rang'], B, B, B)
+                          + u'\n  mot:%s%s }' % (B, B))
+    return u'const SOMMAIRE = [\n' + u',\n'.join(lignes) + u'\n];\n'
+
+
+SOMMAIRE = batir_sommaire(textes)
+print(u'sommaire : %d entrees' % SOMMAIRE.count(u'etat:'))
 
 
 # =====================================================================
