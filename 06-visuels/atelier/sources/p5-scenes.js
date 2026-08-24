@@ -755,6 +755,16 @@ reste dans le livre, mais il ne sert pas à ça.**`,
   produit: `L'économie de ce monde : qui travaille, à quelles conditions, et ce qu'on tolère pour tenir un effectif. Le responsable semble blasé, comme si ce n'était pas la première fois — des marginaux, il y en a partout, il faut vivre avec en limitant les débordements.`,
   monde: `Le travail des jeunes arrivants, l'exclusion temporaire, le seuil de tolérance d'une société qui a besoin de ses effectifs.`,
   qui: [`marginal`,`andrew`,`isaac`],
+  garde_eliott: `🔴 **Ce qu'Henri dira du garçon, donné le 25 août 2026 — et c'est un éloge.**
+
+*Il ne parlait pas, il travaillait, il ne tapait pas la causette, il revenait vite.* **Un des plus productifs, et pour les raisons exactes qui inquiètent June depuis un mois.**
+
+⚠️ **Personne ne relève la contradiction.** *Ce qui abîme le garçon chez elle est ce qui le rend bon ici, et les deux le disent sans se connaître.*
+
+✅ *Le chapitre 6 l'a préparé sans le dire :* il ne parle pas beaucoup, de toute façon, et à personne.`,
+  garde_tri: `🔴 **Le jour du tri — établi au chapitre 6, le 25 août 2026.** *Deux fois par semaine, les porteurs ne sortent pas : ils restent trier au dépôt, ce qui leur repose les jambes.*
+
+✅ **C'est ce qui rend cette visite obligatoire.** *June l'a dit :* c'était le jour du tri, il n'a pas quitté le dépôt de la journée. ⛔ **L'altercation ne peut donc venir que d'ici.**`,
   gardes: [
     `🔴 **Le responsable a un nom : Henri.** *Décision de l'autrice, 22 août 2026.*`,
     `🔴 **Henri tient une entreprise de livraison, pas un service pour jeunes arrivants.** *Précision de l'autrice, 23 août 2026.* **Il emploie de tout, parce qu'il faut de la condition physique pour livrer certaines choses** — *le portage n'est que le petit nom de ce qu'on confie aux plus bas : les menus colis, les lettres, ce qui se porte à pied.* ⛔ **Sans ça, on ne croiserait pas de marginaux chez lui, et la scène suivante n'aurait pas lieu d'être.**`,
