@@ -285,6 +285,19 @@ désormais ses exceptions, alors on verra bien à l'usage.**
 
 ---
 
+## 8 bis. Les objets qui appartiennent à quelqu'un
+
+> **Décision de l'autrice, 25 août 2026.** *« On va attribuer un calepin pour Isaac, comme ça on garde le carnet pour Andrew. »*
+
+**Un objet que deux personnages manipulent doit changer de nom, pas de propriétaire.** *Sinon le lecteur ne sait plus qui tient quoi, et il faut nommer les gens à chaque geste.*
+
+| Objet | À qui |
+|---|---|
+| **le carnet** | **Andrew.** *Celui du prologue, où il écrit les prénoms et les numéros ; celui du chapitre 2, resté une semaine dans la poche de sa blouse avec une case blanche au bout d'une ligne.* |
+| **le calepin** | **Isaac** — *et le lieutenant du chapitre 5, qui est le même homme pour le lecteur.* ⛔ **Le mot doit rester identique des deux côtés du dispositif :** *si l'un a un carnet et l'autre un calepin, la superposition s'abîme.* |
+
+✅ *Appliqué le 25 août : cinq occurrences renommées aux chapitres 5 et 6, sept laissées intactes au prologue et aux chapitres 1 et 2.*
+
 ## 9. La liste de contrôle, avant de te montrer un texte
 
 - [ ] Aucune phrase de plus de trente-cinq mots
