@@ -608,12 +608,22 @@ accroche.**
 🔴 **Et l'autrice le confirme :** *« c'est pour ça aussi que Joël s'est résigné, car son
 supérieur lui en a donné l'ordre quelque part ».*
 
-⚠️ **Donc si Joël est sous ce grade, c'est cet homme-là qui lui dira de lâcher** —
-*l'ami du premier chapitre, celui qu'il salue d'un clin d'œil.* **La scène 17 b y gagne
-tout**, *et la superposition avec Isaac devient exacte : Isaac dit à Andrew de lâcher, le
-lieutenant dit à Joël de lâcher, et le lecteur ne voit qu'un seul homme.*
+✅ **Trancé le 25 août 2026 : c'est lui.**
 
-❓ **À trancher : est-ce bien lui, ou un troisième qu'on ne verra jamais ?**`,
+**Le même homme tient les trois moments de la voie de Joël.** *Il l'accueille au poste d'un
+sourire humble ; il lui ordonne de lâcher ; il lui crie d'attendre pendant qu'il court à sa
+mort.* ⚠️ **Un ami, un supérieur et un témoin, dans cet ordre.**
+
+✅ **Et la superposition devient exacte :** *Isaac dit à Andrew de lâcher, le lieutenant dit à
+Joël de lâcher.* **Le lecteur ne verra qu'un seul homme d'un bout à l'autre du livre** — *et
+il aura raison de le croire, puisque c'est le même visage qu'il aura prêté aux deux.*
+
+🔴 **Le dossier l'avait déjà écrit sans qu'on l'ait relié.** *La fiche de la poursuite dit
+que son partenaire crie* attends — *« le mot exact auquel il a cédé des semaines plus tôt, et
+qui est toute sa faute ».* **C'était déjà le même homme ; il n'avait pas encore de grade.**
+
+⚠️ **Ce que ça coûte, et il faut le savoir :** *ce n'est pas un chef lointain qui referme
+l'affaire, c'est celui qui lui a serré la main.* ✅ *Ce qui est plus dur, donc meilleur.*`,
   garde_dialogue: `**Le dialogue proposé par l'autrice, 23 août 2026 — à garder comme
 matériau, pas comme état final.**
 
@@ -711,7 +721,7 @@ reste dans le livre, mais il ne sert pas à ça.**`,
   ],
   ouvert: [`✅ **Il n'y a plus de carte « L'affaire Sorel ».** *Décision de l'autrice, 16 août 2026 : cet encart n'existait pas vraiment, il est regroupé ici.* **Aucun chapitre n'établit l'affaire** — elle est déjà là quand on entre dedans, comme dans la vie.`,
            `✅ **Les fiches de Liam et d'Isaac attendront — décision de l'autrice, 23 août 2026.** *« On va pas se concentrer sur la création d'une fiche de personnage pour Liam et Isaac, on va se concentrer sur l'histoire et ce qu'elle doit raconter. »* **Ce qui compte tient en une ligne : Liam est décrit, Isaac ne l'est jamais.**`,
-           `Combien de fois il reparaît côté Joël avant la poursuite.`],
+           `**Combien de fois il reparaît côté Joël avant la poursuite.** *Trois sont acquises depuis le 25 août 2026 : le poste, l'ordre de lâcher, et le cri.* ❓ **Reste à savoir s'il y en a entre les deux premières**, *et ce que ça coûte de le montrer trop souvent — chaque apparition est un portrait de plus à ne pas contredire.*`],
   src: `04-plan/le-parcours-de-l-enquete.md §2 — décision du 16 août 2026`
 },
 {
@@ -1087,7 +1097,7 @@ reste dans le livre, mais il ne sert pas à ça.**`,
   clef: `**« Je te le répète » est la charnière, et c'est une équivoque parfaite.** Chez Joël, elle renvoie à ce qui a déjà été dit dans sa propre conversation. Pour le lecteur, elle renvoie au chapitre d'avant. **Les deux lectures sont exactes, et aucune n'est un mensonge.**`,
   lecture: `Il vient de voir Isaac dire à Andrew de lâcher. Il lit la suite. Il n'y a pas de suite — *et il aura fabriqué lui-même la scène la plus importante du dispositif.* **Et il croit voir un homme abandonner**, ce qui rend le chapitre d'après plus fort qu'il n'a le droit de l'être.`,
   monde: `Rien, et surtout rien. Un commissariat se ressemble partout, une engueulade entre deux collègues aussi : c'est exactement ce qui rend la méprise possible.`,
-  qui: [`joel`],
+  qui: [`joel`,`liam`],
   gardes: [
     `**Aucun prénom.** Le chapitre précédent a dit « Andrew » ; celui-ci ne dit personne, et le lecteur reporte le nom tout seul.`,
     `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
@@ -1098,20 +1108,20 @@ reste dans le livre, mais il ne sert pas à ça.**`,
     { t: `Comment tu peux sortir ça ? Tant qu'on a rien retrouvé, on peut rien avancer.`, n: `Formulation de l'autrice. Joël se défend — et la phrase vaut mot pour mot pour un garçon disparu.` },
     { t: `Je te le répète, lâche l'affaire ! À l'heure qu'il est, les vers ont sûrement commencé leur travail !`, n: `Formulation de l'autrice. **« Je te le répète » est le mot qui coud les deux chapitres.** Il ne doit être ni souligné, ni commenté, ni relevé par personne.` }
   ],
-  garde_qui: `❓ **Qui donne l'ordre — question ouverte le 25 août 2026.**
+  garde_qui: `✅ **C'est le lieutenant du chapitre 5 — tranché le 25 août 2026.**
 
 🔴 *L'autrice : « Joël s'est résigné car son supérieur lui en a donné l'ordre quelque part. »*
 **Ce n'est donc pas une dispute entre égaux : c'est un ordre, et il est suivi.**
 
-⚠️ **Le chapitre 5 vient de donner un grade au collègue.** *S'il est le supérieur de Joël,
-c'est lui qui parle ici* — **et le lecteur, qui a vu Isaac dire la même chose à Andrew, aura
-l'impression d'un seul homme d'un bout à l'autre.** *La superposition serait parfaite.*
+⚠️ **Et c'est l'ami du premier chapitre du poste** — *celui qu'il salue d'un clin d'œil et
+qui lui répond d'un sourire humble.* **Le ton peut monter sans qu'aucun des deux cesse de
+tenir à l'autre** ; *c'est même la seule façon de le jouer.*
 
-⛔ **Mais ce serait aussi l'ami qui donne l'ordre**, *et le premier chapitre du poste l'a
-montré chaleureux.* ✅ *Ce qui n'est pas une objection : un supérieur chaleureux qui referme
-une affaire, c'est plus dur qu'un chef lointain.*
+⛔ **Il n'est pas nommé ici non plus.** *Ni son nom, ni son grade s'il pouvait trahir la
+hiérarchie du monde d'Andrew* — **le lecteur doit pouvoir lire Isaac dans chaque réplique.**
 
-❓ **À trancher : lui, ou quelqu'un qu'on ne verra jamais.**`,
+✅ **Et c'est lui qui criera** attends *à la poursuite.* **Le même homme dit** lâche *puis*
+attends ; *Joël obéit la première fois et pas la seconde, et les deux fois il a tort.*`,
   ouvert: [`**Ce que devient « c'est déjà ce qu'on m'a dit ».** La réplique qui échappait à Andrew n'a plus de place ici : le dispositif ne passe plus par un écho dans sa tête, il passe par une coupe de chapitre. *À supprimer, ou à replacer ailleurs — mais pas ici, où elle ferait doublon avec un procédé plus fort.*`],
   src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — décision du 16 août 2026`
 },
