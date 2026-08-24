@@ -1412,10 +1412,17 @@ dossier, mais n'avait jamais été posé.</strong>`,
 [`tiret`,`— Et il a laissé derrière lui la seule chose qu'il ait jamais demandée.`],
 [`p`,`Personne ne répondit à ça.`],
 [`p`,`Le policier referma le carnet, le garda un moment dans la main, puis le rangea.`],
-[`tiret`,`— On va voir son responsable.`],
-[`p`,`June les accompagna jusqu'à la porte. Ses gants étaient toujours sur le rebord, à l'endroit prévu pour ça, et les trois plants attendaient sur le gravier.`],
-[`p`,`Elle resta sur le seuil jusqu'à ce qu'ils aient passé le portillon.`],
-[`p`,`Le dépôt était en bas du quartier. Un bâtiment long et bas, une cour ouverte, des chariots rangés contre le mur et deux portes battantes qu'on avait calées.`],
+[`tiret`,`— Bon. On a ce qu'il nous faut. Merci de votre accueil, on ne va pas vous déranger plus longtemps.`],
+[`p`,`June les accompagna jusqu'à la porte, les salua, et les deux hommes descendirent l'allée.`],
+[`pause`,`· · ·`],
+[`p`,`Ils firent une dizaine de pas dans la rue avant que l'un des deux parle.`],
+[`tiret`,`— Ce n'est pas une fugue.`],
+[`p`,`Le lieutenant l'avait dit sans qu'on lui demande rien.`],
+[`tiret`,`— Non.`],
+[`p`,`Il ressortit le carnet, écrivit deux mots dessus en marchant et le rangea de nouveau.`],
+[`tiret`,`— Je vais faire reprendre le trajet. Rue par rue, des deux côtés.`],
+[`p`,`Andrew se retourna une dernière fois.`],
+[`p`,`Les gants étaient toujours sur le rebord de la fenêtre, et les trois plants attendaient sur le gravier, les mottes déjà sèches sur le dessus.`],
 
   ],
   tenu: [
@@ -1444,7 +1451,11 @@ dossier, mais n'avait jamais été posé.</strong>`,
 <strong>② Il a disparu sur quinze minutes de trajet qu'il fait deux fois par jour depuis un mois.</strong> <em>Le procès-verbal le contenait déjà sans que personne l'ait lu ainsi</em> — <strong>et ça mène droit chez l'employeur, dernière personne à l'avoir vu.</strong>
 
 ⛔ <strong>Le raisonnement sur le quartier est retiré :</strong> <em>trop déduit, pas assez constaté.</em> ✅ <strong>La peluche garde l'émotion et ne porte plus la démonstration.</strong>`,
-`❓ <strong>Le hook a été coupé.</strong> <em>L'homme qui jetait sa cigarette et rentrait sans attendre fabriquait une suspicion que rien ne justifie.</em> <strong>Il ne reste que le bâtiment.</strong> ❓ <em>Assez, ou faut-il refermer sur le seuil de June ?</em>`,
+`✅ <strong>La fin, arrêtée le 25 août 2026.</strong> <em>Le dépôt sort entièrement du chapitre</em> — <strong>il ouvrira le suivant.</strong>
+
+🔴 <strong>C'est le lieutenant qui admet, dans la rue, que ce n'est pas une fugue.</strong> <em>Andrew l'a déjà dit dans la maison ; le lui faire répéter aurait été une redite.</em> <strong>Que le policier le dise sans qu'on lui demande rien achève le renversement</strong>, <em>et il l'appuie d'une décision, pas d'un avis : faire reprendre le trajet, rue par rue.</em>
+
+✅ <strong>La dernière image ne dit rien et dit tout.</strong> <em>Les trois plants attendent sur le gravier, les mottes déjà sèches sur le dessus.</em> ⛔ <strong>Aucun mot d'eau, aucune comparaison</strong> — <em>des racines hors terre, ça sèche, et c'est le seul commentaire du chapitre sur ce qui est en train de se passer ailleurs.</em>`,
 `❓ <strong>Les trois séparateurs.</strong> <em>Ils marquent ici de vrais sauts : la montée, la redescente, et le passage à l'altercation.</em> ❓ <em>Conformes à la règle du chapitre 4, ou de trop dans une scène continue ?</em>`
   ],
   note: `⚠️ <strong>Deuxième version, 25 août 2026.</strong> <em>La première a été renvoyée entière : « la scène est trop creuse, il faut trouver cette motivation ».</em>
