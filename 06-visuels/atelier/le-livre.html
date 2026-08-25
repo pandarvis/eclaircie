@@ -251,7 +251,6 @@ html[data-nuit="1"] #couv .verso{background:linear-gradient(145deg,#111820,#080C
 #rail{flex:1;height:20px;position:relative;cursor:pointer;min-width:120px}
 #rail .voie{position:absolute;left:0;right:0;top:9px;height:2px;background:rgba(255,255,255,.11);border-radius:2px}
 #rail .fait{position:absolute;left:0;top:9px;height:2px;background:var(--or);border-radius:2px;transition:width 260ms ease}
-#rail .cran{position:absolute;top:5px;width:1px;height:10px;background:rgba(255,255,255,.30)}
 
 /* ---------- le sommaire en surimpression ---------- */
 #voile{
@@ -1965,15 +1964,6 @@ function majEtat(){
   }
 }
 
-function poserCrans(){
-  LIVRE.forEach(function(ch){
-    const c=document.createElement('div');
-    c.className='cran';
-    c.style.left=Math.min(99.6,(ch.page/FIN)*100)+'%';
-    c.title=ch.rang;
-    rail.appendChild(c);
-  });
-}
 
 /* ================================================================
    5. L'ÉCHELLE — le livre flotte au milieu et remplit ce qu'il peut,
@@ -2123,7 +2113,6 @@ function demarrer(){
     }
     if(localStorage.getItem('eclaircie-glo')==='1') RACINE.dataset.glo='1';
   }catch(e){}
-  poserCrans();
   ajuster();
   $('attente').remove();
   couv.style.transform='rotateY(0deg)';

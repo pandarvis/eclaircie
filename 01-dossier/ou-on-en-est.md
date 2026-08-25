@@ -23,7 +23,8 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 |---|---|
 | tourner | les flèches du clavier, les deux boutons, `Espace`, **la corne en bas à droite** |
 | enchaîner | maintenir la flèche : au-delà de 480 ms d'écart, ça n'anime plus |
-| se repérer | folio en bas au centre, titre courant, épaisseur du bloc, réglette à crans |
+| se repérer | folio en bas au centre, titre courant, épaisseur du bloc, réglette d’avancement |
+| ne pas savoir | la réglette est une ligne nue : **un cran par chapitre, c’est un cran par longueur de chapitre** |
 | retrouver | `S` ouvre le sommaire de n'importe où · la page se retient d'une séance à l'autre |
 | adresser | `le-livre.html#p63` ouvre directement à la page 63 |
 | au départ | un mot à côté de la couverture nomme les deux flèches — celles de l’écran et celles du clavier |
