@@ -8,13 +8,21 @@ l'état du chantier, pas son histoire.*
 ## ✨ Le livre — `06-visuels/atelier/le-livre.html`
 
 **Le roman se lit maintenant comme un livre : double page au format poche, la
-couverture fermée au départ, les pages qui se tournent.** *104 pages, huit
-chapitres, chacun sur une belle page.* Le fichier tient tout seul — couverture
-comprise, aucun appel réseau : il s'ouvre d'un double-clic et se donne à lire.
+couverture fermée au départ, les pages qui se tournent.** *90 pages, sept
+chapitres, chacun sur une belle page — 5, 19, 37, 55, 65, 73, 79.* Le fichier
+tient tout seul — couverture comprise, aucun appel réseau : il s'ouvre d'un
+double-clic et se donne à lire.
+
+🔒 **L'épilogue n'est pas dans le livre.** *Il est écrit, et il donne la fin.*
+
+**Pas de nom de chapitre : Prologue, Chapitre I, Chapitre II.** *Le manuscrit dit
+« Chapitre premier » ; le livre compte en chiffres.* **Le titre d'un chapitre
+annonce ce qui va se passer, et ici ça ne regarde personne.**
 
 | | |
 |---|---|
-| tourner | les flèches du clavier, les deux boutons, `Espace` · maintenir enchaîne sans animer |
+| tourner | les flèches du clavier, les deux boutons, `Espace`, **la corne en bas à droite** |
+| enchaîner | maintenir la flèche : au-delà de 480 ms d'écart, ça n'anime plus |
 | se repérer | folio en bas au centre, titre courant, épaisseur du bloc, réglette à crans |
 | retrouver | `S` ouvre le sommaire de n'importe où · la page se retient d'une séance à l'autre |
 | adresser | `le-livre.html#p63` ouvre directement à la page 63 |
@@ -25,9 +33,12 @@ mis à l'échelle de la fenêtre.** *C'est ce qui permet d'avoir un livre qui re
 n'importe quel écran sans qu'un seul numéro de page change.* Changer un chiffre de
 `GEO` dans `fabriquer-le-livre.py` repagine tout le livre.
 
-❓ **Le glossaire est à trancher.** *Il est allumé par défaut pour être jugé.* La
-fiche se pose à côté du livre, sur le bureau, sans recouvrir une ligne — sauf sur
-une fenêtre étroite, où elle se range en bas et mange le pied de la page.
+**Le glossaire est éteint par défaut** — `G` l'allume. La fiche se pose à côté du
+livre, sur le bureau, sans recouvrir une ligne ; sur une fenêtre étroite elle se
+range en bas et mange le pied de la page.
+
+**La page tourne en 480 ms.** *Elle fléchit en tournant, elle s'assombrit de chant
+et s'éclaire en retombant.* Une bascule raide fait une planche, pas une feuille.
 
 ---
 
@@ -60,7 +71,7 @@ paragraphe » ; le blanc le redisait par-dessus.* Corrigé dans
 l'atelier **et** dans la version de lecture. Le blanc est rendu à ce qu'il sait
 faire seul : marquer une rupture de scène.
 
-**La typographie française se pose au rendu, jamais dans la source.** *730 espaces
+**La typographie française se pose au rendu, jamais dans la source.** *652 espaces
 insécables devant les `; : ! ?` et dans les guillemets.* **Le texte n'a pas
 bougé d'un caractère** — trois chapitres sont verrouillés par empreinte, et ce
 n'est pas au fabricant de corriger l'autrice.

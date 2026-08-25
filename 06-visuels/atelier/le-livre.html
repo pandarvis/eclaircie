@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-nuit="0" data-glo="1" data-ouvert="0">
+<html lang="fr" data-nuit="0" data-glo="0" data-ouvert="0">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,7 +9,7 @@
   --papier:#F3EDE1; --papier-2:#EAE2D2;
   --encre:#201D18; --encre-2:#514A3E; --encre-3:#928975;
   --bureau:#221F1B; --bureau-2:#15130F;
-  --gouttiere:.17; --or:#B08B4F;
+  --gouttiere:.17; --or:#B08B4F; --corne:#D8CDB4; --corne-2:#C6B999;
   --serif:Constantia,"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
   --sans:Corbel,Candara,"Segoe UI",Tahoma,sans-serif;
 }
@@ -17,7 +17,7 @@ html[data-nuit="1"]{
   --papier:#141A21; --papier-2:#0F151B;
   --encre:#DCE3EA; --encre-2:#A2AFBB; --encre-3:#63717F;
   --bureau:#080B0F; --bureau-2:#04060A;
-  --gouttiere:.34; --or:#7CC6DC;
+  --gouttiere:.34; --or:#7CC6DC; --corne:#202934; --corne-2:#2C3846;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -86,20 +86,15 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 .bloc p{margin:0;text-indent:1.25em;orphans:2;widows:2}
 .bloc p.plat{text-indent:0}
 .bloc p.coupe{text-align-last:justify;-moz-text-align-last:justify}
-.bloc p.ouv::first-line{font-variant:small-caps;letter-spacing:.045em}
 .bloc p.pause{
   text-indent:0;text-align:center;letter-spacing:.5em;color:var(--encre-3);
   margin:22px 0;height:22px;
 }
 .bloc em{font-style:italic}
 .ouvre{padding:132px 0 66px;text-align:center}
-.ouvre .rang{
-  display:block;font:9px/22px var(--sans);letter-spacing:.3em;
-  text-transform:uppercase;color:var(--encre-3);
-}
 .ouvre h2{
-  margin:0;font:400 21px/44px var(--serif);color:var(--encre);
-  letter-spacing:.012em;
+  margin:0;font:400 17px/44px var(--serif);color:var(--encre);
+  letter-spacing:.26em;text-transform:uppercase;
 }
 .tete{
   position:absolute;top:34px;width:364px;
@@ -150,6 +145,52 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 #feuille{z-index:8}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
 .face.verso{transform:rotateY(180deg)}
+.face .contenu{position:absolute;inset:0}
+/* Une page qui se met de chant s'assombrit, et s'eclaire en retombant. */
+.face .lustre{position:absolute;inset:0;pointer-events:none;opacity:0}
+.face.recto .lustre{background:linear-gradient(90deg,rgba(0,0,0,.12),rgba(0,0,0,.62))}
+.face.verso .lustre{background:linear-gradient(270deg,rgba(0,0,0,.12),rgba(0,0,0,.62))}
+
+/* Le vrillage : le bord libre traine sur le pivot, la feuille flechit. */
+@keyframes tourne-avant{
+  0%  {transform:rotateY(0deg)}
+  22% {transform:rotateY(-30deg) rotateZ(-1.7deg)}
+  50% {transform:rotateY(-90deg) rotateZ(-2.6deg)}
+  78% {transform:rotateY(-150deg) rotateZ(-1.3deg)}
+  100%{transform:rotateY(-180deg)}
+}
+@keyframes tourne-arriere{
+  0%  {transform:rotateY(-180deg)}
+  22% {transform:rotateY(-150deg) rotateZ(-1.3deg)}
+  50% {transform:rotateY(-90deg) rotateZ(-2.6deg)}
+  78% {transform:rotateY(-30deg) rotateZ(-1.7deg)}
+  100%{transform:rotateY(0deg)}
+}
+@keyframes lustre-monte{0%{opacity:0}56%{opacity:.66}100%{opacity:.66}}
+@keyframes lustre-descend{0%{opacity:.66}44%{opacity:.66}100%{opacity:0}}
+
+/* La corne : le coin deja replie, qui dit qu'on peut prendre la page. */
+#corne{
+  position:absolute;right:0;bottom:0;width:46px;height:46px;z-index:6;
+  border:0;padding:0;background:transparent;cursor:pointer;
+  transition:width 260ms cubic-bezier(.3,.85,.4,1),height 260ms cubic-bezier(.3,.85,.4,1);
+}
+/* l'ombre que le rabat porte sur la page qu'il decouvre */
+#corne::before{
+  content:"";position:absolute;left:-6px;right:2px;top:-6px;bottom:2px;
+  background:linear-gradient(315deg,rgba(0,0,0,.55) 0 50%,transparent 50%);
+  filter:blur(5px);
+}
+/* le rabat lui-meme : le dos de la feuille, et le pli net */
+#corne::after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(315deg,rgba(0,0,0,.18) 0 14%,rgba(0,0,0,0) 44%,rgba(0,0,0,0) 50%,transparent 50%),
+    linear-gradient(315deg,var(--corne) 0 49.4%,var(--corne-2) 49.4% 50%,transparent 50%);
+}
+#corne:hover{width:88px;height:88px}
+#corne:focus-visible{outline:2px solid var(--or);outline-offset:3px}
+html[data-ouvert="0"] #corne{display:none}
 #couv .recto{
   background:#171410 center/cover no-repeat;
   box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);
@@ -267,7 +308,11 @@ html[data-glo="0"] .glo{border:0;cursor:inherit;pointer-events:none}
       <div class="tranche" id="trD"></div>
       <div class="cote g" id="pG"></div>
       <div class="cote d" id="pD"></div>
-      <div id="feuille" hidden><div class="face recto"></div><div class="face verso"></div></div>
+      <button id="corne" title="Page suivante" aria-label="Page suivante"></button>
+      <div id="feuille" hidden>
+        <div class="face recto"><div class="contenu"></div><div class="lustre"></div></div>
+        <div class="face verso"><div class="contenu"></div><div class="lustre"></div></div>
+      </div>
       <div id="couv">
         <div class="face recto">
           <div class="habillage"></div>
@@ -287,7 +332,7 @@ html[data-glo="0"] .glo{border:0;cursor:inherit;pointer-events:none}
 
 <div id="barre">
   <button id="bSom" title="Sommaire — touche S">Sommaire</button>
-  <button id="bGlo" aria-pressed="true" title="Les mots du monde — touche G">Glossaire</button>
+  <button id="bGlo" aria-pressed="false" title="Les mots du monde — touche G">Glossaire</button>
   <button id="bNuit" aria-pressed="false" title="Lecture de nuit — touche N">Nuit</button>
   <div id="rail"><div class="voie"></div><div class="fait"></div></div>
   <div id="ou"></div>
@@ -416,7 +461,7 @@ const LIVRE = [
 [`p`,`Il rangea le carnet.`,0],
 [`p`,`Il éteignit les deux lampes et sortit.`,0],
 ]},
-{ id:`chapitre-1`, rang:`Chapitre premier`, titre:`Une journée à la ruche`, p:[
+{ id:`chapitre-1`, rang:`Chapitre I`, titre:`Une journée à la ruche`, p:[
 [`p`,`Quatre cent trente-huit.`,3],
 [`p`,`C'était le nombre de pas qui séparaient sa porte de celle de la <a class="glo" data-mot="Ruche">ruche</a>. Il ne l'avait jamais compté exprès : le chiffre était venu tout seul, un matin, et il n'était jamais reparti. Les jours où une voiture se garait en travers du trottoir, il en faisait quatre cent quarante et un. Ces matins-là ne comptaient pas.`,0],
 [`p`,`La ruche s'ouvrait par deux battants de bois clair que personne ne fermait avant la nuit. Sur le montant de droite, à hauteur d'épaule, on avait taillé une capsule de profil, d'un seul trait. Tant de mains l'avaient touchée en entrant qu'elle n'était plus qu'un creux. Andrew y posa la sienne sans y penser, comme les autres.`,0],
@@ -592,7 +637,7 @@ const LIVRE = [
 [`p`,`Il passa à trois mètres et continua vers la salle 2, où quatre capsules s'apprêtaient à être redressées pour dix heures précises, claires et propres, sur leurs chariots.`,0],
 [`p`,`L'odeur le suivit dans l'allée. Une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été.`,0],
 ]},
-{ id:`chapitre-2`, rang:`Chapitre deuxième`, titre:`L'aquarium`, p:[
+{ id:`chapitre-2`, rang:`Chapitre II`, titre:`L'aquarium`, p:[
 [`p`,`Il n'avait rien écrit dans la case.`,3],
 [`p`,`Le carnet resta dans la poche de sa blouse toute la semaine, et les pages s'empilèrent par-dessus. Il le rouvrit un matin avant de commencer, pour une salle qu'on lui redemandait, et il s'arrêta à celle-là. Le jour, les deux travées, l'heure, les âges relevés, les deux mots, les deux numéros. Tout y était. Le bout de la ligne était blanc.`,0],
 [`p`,`Il le rouvrit à la même page le mardi suivant, et il ne vérifia rien.`,0],
@@ -840,7 +885,7 @@ const LIVRE = [
 [`p`,`Puis il repartit par où il était venu.`,0],
 [`p`,`Il ne compta pas.`,0],
 ]},
-{ id:`chapitre-3`, rang:`Chapitre troisième`, titre:`La tournée`, p:[
+{ id:`chapitre-3`, rang:`Chapitre III`, titre:`La tournée`, p:[
 [`p`,`Il y retourna le mardi suivant, et le mardi d'après.`,3],
 [`p`,`Il y eut d'autres fois.`,0],
 [`p`,`À force de se voir, quelque chose changea entre eux sans qu'aucun des deux ne s'en aperçoive vraiment. Un matin, Eliott lui dit bonjour sans le vouvoyer. Andrew ne releva pas ; ce ne fut que deux jours plus tard, en y repensant, qu'il comprit.`,0],
@@ -1024,7 +1069,7 @@ const LIVRE = [
 [`p`,`Andrew resta assis sur la deuxième marche.`,0],
 [`p`,`En haut, la fenêtre du garçon était fermée.`,0],
 ]},
-{ id:`chapitre-4`, rang:`Chapitre quatrième`, titre:`La maison`, p:[
+{ id:`chapitre-4`, rang:`Chapitre IV`, titre:`La maison`, p:[
 [`p`,`La semaine fut ordinaire.`,3],
 [`p`,`Quatre éclaircies le lundi, deux le mercredi, aucune le jeudi. Un instrument à changer dans la salle six. Une travée fermée deux jours, rouverte sans qu'on ait rien trouvé.`,0],
 [`p`,`Il pensa deux ou trois fois à ce qu'il pourrait lui montrer. Il n'y avait pas grand-chose, dans le quartier, qu'un garçon qui faisait le portage n'ait pas déjà vu dix fois.`,0],
@@ -1156,7 +1201,7 @@ const LIVRE = [
 [`p`,`Pour la première fois depuis qu'il était entré, elle eut l'air de tenir debout.`,0],
 [`p`,`Julie n'avait toujours pas ouvert la machine.`,0],
 ]},
-{ id:`chapitre-5`, rang:`Chapitre cinquième`, titre:`Le poste`, p:[
+{ id:`chapitre-5`, rang:`Chapitre V`, titre:`Le poste`, p:[
 [`p`,`Le bâtiment était haut et large, en retrait de la rue. Une grille en fer en fermait l'enceinte, et l'on ne franchissait le portail qu'après avoir été vu par quelqu'un. On n'entrait pas là par hasard.`,3],
 [`p`,`À l'intérieur, le poste tenait dans une grande salle et trois bureaux.`,0],
 [`p`,`À droite de l'entrée, un comptoir que personne ne tenait. Deux hommes attendaient sur un banc, avec entre eux cette distance que gardent les gens qui ne se connaissent pas. L'un avait posé un sac à ses pieds et le regardait de temps en temps, comme pour vérifier qu'il était toujours là. L'autre restait immobile, les yeux glissant d'un prospectus à l'autre sur le panneau d'affichage, histoire de faire passer le temps.`,0],
@@ -1256,7 +1301,7 @@ const LIVRE = [
 [`p`,`Celui qui avait un sac le reprit sur ses genoux lorsqu'ils passèrent devant lui. Il le garda ainsi jusqu'à ce que la porte se referme derrière eux.`,0],
 [`p`,`Puis il le reposa à ses pieds.`,0],
 ]},
-{ id:`chapitre-6`, rang:`Chapitre sixième`, titre:`Première investigation`, p:[
+{ id:`chapitre-6`, rang:`Chapitre VI`, titre:`Première investigation`, p:[
 [`p`,`Ils remontèrent la rue à deux.`,3],
 [`p`,`June était devant chez elle, accroupie au bord d'un massif, un plant dans une main et un déplantoir dans l'autre. Il y avait trois autres plants alignés sur le gravier, et de la terre retournée sur un mètre.`,0],
 [`p`,`Elle les vit arriver et se releva plus vite qu'il n'aurait fallu.`,0],
@@ -1468,126 +1513,6 @@ const LIVRE = [
 [`p`,`Il le rangea. Il marqua une pause avant de reprendre sur un ton plus grave.`,0],
 [`tiret`,`— Si on s'en est pris à ce garçon, quelles qu'en soient les raisons, c'est bien moche.`,0],
 ]},
-{ id:`epilogue`, rang:`Épilogue`, titre:`Épilogue`, p:[
-[`p`,`Il n'y avait aucun endroit où se mettre.`,3],
-[`p`,`Andrew s'en aperçut en arrivant, et il aurait dû s'en douter. Plus près, il faisait partie d'un groupe auquel il n'appartenait pas. Plus loin, il regardait. Il finit par s'adosser à un arbre, à une trentaine de mètres, et ne sut pas quoi faire de ses mains.`,0],
-[`p`,`Les groupes attendaient devant la grille, en petits paquets qui s'étaient formés tout seuls le long de l'enceinte. Chaque groupe avait ses berceurs : parfois un berceur pour un arrivant, parfois trois arrivants pour un berceur et parfois plus.`,0],
-[`p`,`Les petits, eux, se regardaient. Deux avaient déjà commencé à se courir après en riant, en tournant autour d'un berceur qui ne bougeait pas. Un troisième faisait le tour d'un groupe voisin par l'extérieur, l'air de rien, en cherchant une ouverture. Un quatrième ne lâchait pas la jupe de sa berceuse et fixait le mur.`,0],
-[`p`,`Les berceurs, entre confrères et consœurs, tenaient des conversations animées. Il était question de la construction du nouveau centre commercial, d'un collègue ayant changé de section, de petits potins de quartier. Ils faisaient ça tous les ans.`,0],
-[`p`,`Une femme, un peu à l'écart, ne participait pas. Elle avait gardé la main sur l'épaule du sien.`,0],
-[`p`,`June était tout au bout, contre la grille. Six ans qu'il ne l'avait pas vue.`,0],
-[`p`,`Il la retrouva plus jeune qu'il ne l'avait laissée. Rien d'autre n'avait bougé : elle tenait Eliott par l'épaule, sans le serrer, de la main dont on tient quelqu'un qui va partir mais pas tout de suite. Une autre berceuse se tenait avec eux, et June lui parlait déjà. Le petit, lui, se tenait sur la pointe des pieds. Il essayait de voir à travers les barreaux, et ce qu'il y avait derrière ne se voyait pas d'ici.`,0],
-[`p`,`Elle leva la tête et le vit. Elle n'eut pas l'air surprise — elle devait s'y attendre — mais son visage se détendit un peu, et elle fit un petit mouvement du menton, deux centimètres, qui voulait dire viens.`,0],
-[`p`,`Il compta les petits en traversant. Ils étaient quarante-deux.`,0],
-[`p`,`Il les rejoignit. Eliott leva la tête, lui dit bonjour, et retourna à ses barreaux. Andrew se mit à côté d'eux, à la bonne distance : celle d'un homme qui n'a rien à faire là et qui est venu quand même.`,0],
-[`p`,`La grille s'ouvrit à l'heure. Il n'y eut ni annonce ni discours : deux battants qu'on tira vers l'intérieur, et un homme qui sortit d'un pas, suivi de cinq berceurs qui se répartirent le long de la file sans qu'on ait à leur dire où aller. Il en connaissait plusieurs et les salua par leur prénom.`,0],
-[`p`,`Sept ou huit petits pour un berceur, c'était la norme de l'administration. Dans les faits ça ne tombait jamais juste : les plus jeunes étaient presque tous pris au cas par cas, et ceux de sept et huit ans formaient des groupes plus gros. Andrew fit le calcul avant d'y penser. Le compte tombait juste.`,0],
-[`p`,`Les groupes se mirent en mouvement. Ça se fit sans ordre et sans bousculade, à la vitesse à laquelle des gens qui se connaissent se laissent passer les uns les autres. Des petits se retournèrent, deux ou trois s'accrochèrent, on les décrocha doucement.`,0],
-[`p`,`Une berceuse s'accroupit, toute souriante, devant l'un d'entre eux qui hésitait, et lui prit les deux mains.`,0],
-[`tiret`,`— Eh bien dis donc ! On t'attendait, toi.`,0],
-[`p`,`La plupart entrèrent sans regarder derrière eux. Un petit se retourna pour vérifier qu'on le regardait, constata que c'était le cas, et repartit en sautillant pour rattraper son groupe.`,0],
-[`p`,`June ne bougea pas. Elle laissa la file s'écouler devant elle, puis elle se tourna vers sa consœur et lui parla à voix basse.`,0],
-[`p`,`L'autre était agenouillée à hauteur d'Eliott et lui caressait les cheveux en écoutant. Elle regarda la grille, puis Andrew. Elle se tourna vers le responsable d'accueil, qui suivait la file de loin, et lui fit un signe. Il répondit par un autre, plus court, et les deux battants restèrent où ils étaient. Alors elle se releva et recula de quelques pas.`,0],
-[`p`,`Andrew s'avança d'un pas. June ne le regarda pas tout de suite : elle avait les yeux sur le petit et elle vérifiait des choses qui n'avaient pas besoin de l'être.`,0],
-[`tiret`,`— Tu as ton sac. La feuille est dans la poche de devant, tu ne la sors pas, c'est eux qui la demanderont.`,0],
-[`tiret`,`— D'accord.`,0],
-[`tiret`,`— Ils vont te montrer où tu dors, et après tu mangeras. Tu n'auras rien à demander à personne, ils viendront te chercher.`,0],
-[`tiret`,`— Je sais.`,0],
-[`tiret`,`— Je sais que tu sais.`,0],
-[`p`,`Elle s'accroupit devant lui. Elle resta une seconde de trop dans cette position, une seule, et Andrew regarda ailleurs pendant cette seconde-là.`,0],
-[`p`,`Puis elle lui prit les deux mains et lui dit la seule phrase qui n'était pas une consigne.`,0],
-[`tiret`,`— Tu vas être bien là-dedans. Mieux qu'avec moi.`,0],
-[`p`,`Eliott ne répondit pas. Il n'y avait rien à répondre à ça, et surtout il n'écoutait plus vraiment : derrière la grille, il y avait des petits pas précipités et des murmures enjoués ; c'était plus fort que lui.`,0],
-[`p`,`Elle se releva, lissa le devant de sa veste d'un geste qui ne servait à rien, et se tourna vers Andrew.`,0],
-[`tiret`,`— Merci d'être venu.`,0],
-[`tiret`,`— C'est normal.`,0],
-[`p`,`Elle eut un petit sourire qui n'était pas vraiment pour lui, puis elle passa la lanière de son sac sur son épaule et s'en alla.`,0],
-[`p`,`Elle avait dit ce qu'elle avait à dire et elle l'avait dit vite. S'attarder, lui laisser une chance de répondre, ça aurait voulu dire rester — et elle n'aurait plus su repartir ensuite. Andrew regarda sa silhouette se fondre entre les arbres. Elle ne se retourna pas.`,0],
-[`p`,`Eliott aussi l'observa une bonne minute, silencieux.`,0],
-[`tiret`,`— T'inquiète pas. Elle viendra te voir, tu la connais.`,0],
-[`p`,`Il hocha la tête sans quitter les arbres des yeux.`,0],
-[`p`,`Peu à peu, l'allée se vida. Les berceurs repartaient à leurs occupations, seuls ou à deux, et le bruit de leurs conversations s'éloigna vers le bout de la rue.`,0],
-[`p`,`Qu'est-ce qu'on pouvait faire, dans ces cas-là ? Andrew ne savait pas s'il fallait dire quelque chose, ou si le silence faisait partie de ce qu'on offrait. Il regardait le bout de ses chaussures et il attendait, comme on attend un train dont on n'a pas l'horaire.`,0],
-[`p`,`La femme qui prenait la suite s'était éloignée de quelques pas — assez pour laisser de la place, pas assez pour disparaître.`,0],
-[`p`,`Eliott s'assit sur un banc de pierre non loin d'eux, encore froid de la nuit. Il regardait droit devant lui, quelque part dans ses pensées. Andrew l'observa un moment, puis il vint s'asseoir à côté de lui et regarda dans la même direction. Deux moineaux se disputaient une miette d'on ne sait quoi, au milieu de l'allée, inconscients d'être épiés par deux parfaits inconnus.`,0],
-[`p`,`Ce fut Eliott qui parla.`,0],
-[`tiret`,`— Merci.`,0],
-[`p`,`Andrew leva la tête.`,0],
-[`tiret`,`— De quoi ?`,0],
-[`tiret`,`— De rien. De tout. On m'a parlé de ce jardin et j'avais tellement envie de le voir de mes propres yeux… mais elle… elle voulait pas. Elle voulait plus, et je sais pas pourquoi. Pourtant ça a l'air beau.`,0],
-[`p`,`Il hésita.`,0],
-[`tiret`,`— Il lui est arrivé quoi, tu crois ?`,0],
-[`tiret`,`— J'en sais trop rien.`,0],
-[`p`,`C'était vrai. Personne ne le lui avait dit à lui non plus.`,0],
-[`p`,`Eliott pencha légèrement la tête, l'oreille tendue. De l'autre côté de l'enceinte, des cris et des rires montaient par vagues, se rapprochaient, s'éloignaient. Il y avait le bruissement des feuilles, des chants quelque part, et sous les chants le ronflement d'une tondeuse. L'odeur de l'herbe coupée arrivait jusqu'à eux. Eliott inspira longuement, comme on savoure. Il balançait toujours ses jambes sous le banc. Elles ne touchaient pas le sol, et elles n'en prenaient pas le chemin.`,0],
-[`p`,`Puis il ajouta, plus bas, comme s'il s'agissait d'une chose d'un autre ordre :`,0],
-[`tiret`,`— … Et de m'avoir cru.`,0],
-[`p`,`Andrew ne répondit pas. Il y avait une réponse quelque part, il la chercha deux ou trois secondes, et elle ne vint pas.`,0],
-[`p`,`Le silence dura. Il n'avait rien de gêné.`,0],
-[`tiret`,`— Toi, tu n'as jamais eu cette impression ?`,0],
-[`p`,`Andrew sut immédiatement où la question l'amenait.`,0],
-[`tiret`,`— De rêver en plein jour ?`,0],
-[`p`,`Eliott plongea son regard dans celui du quadragénaire. Andrew fit non de la tête. C'était vrai et ce n'était pas vrai, et il n'avait pas de mot pour le milieu.`,0],
-[`tiret`,`— Le premier, c'était le jour de ma cérémonie.`,0],
-[`p`,`Il ne baissa pas la voix. Il en parlait comme d'une chose survenue à quelqu'un qu'il connaissait bien.`,0],
-[`tiret`,`— Le monsieur à côté de moi. Je l'avais pas vu, au début. Je crois que lui non plus. J'ai vu tous les autres avant lui. Et quand je me suis tourné, j'ai vu ses yeux. Tout pareils que les miens. Je les ai regardés, et c'est comme si j'étais plus là. J'étais dehors. Pas dans la ruche. Dehors, dans un endroit que je connais pas. Il faisait froid comme il fait froid ici le matin, sauf que c'était pas ici.`,0],
-[`p`,`Andrew écoutait sans bouger. Il ne relevait rien, il ne demandait pas de précision, il ne notait rien. Il ne cherchait pas à remettre les morceaux dans un ordre qui aurait tenu debout — il avait passé des semaines à faire exactement ça, et ça n'avait servi à rien.`,0],
-[`p`,`Eliott poursuivit, le regard perdu dans le vague, comme s'il revoyait la scène à mesure qu'il la décrivait.`,0],
-[`tiret`,`— Quelqu'un m'aidait à mettre un sac sur le dos. Un gros ! On aurait pu ranger la maison entière dedans.`,0],
-[`p`,`Il rit tout seul.`,0],
-[`tiret`,`— Il tirait sur les bretelles pour que ça tienne bien, et il a tapé deux fois dessus quand ça a été bon.`,0],
-[`p`,`Il fit le geste. Deux petites tapes dans le vide, à hauteur de son épaule.`,0],
-[`tiret`,`— C'était lui. Le monsieur d'à côté.`,0],
-[`p`,`Et il repartit, plus vite, comme si tout lui revenait en même temps et qu'il fallait le dire avant que ça s'en aille. Sur le sac, un imperméable pendouillait à un mousqueton d'un côté, une gourde dépassait d'une poche de l'autre. Et dedans, il y avait une corde. Noire et orange. Très solide et très longue.`,0],
-[`tiret`,`— C'est moi qui la portais ! C'est lui qui l'avait dit.`,0],
-[`p`,`Il changea de voix sans s'en rendre compte, la fit plus grave, beaucoup trop grave :`,0],
-[`tiret`,`— <em>C'est toi qui porteras la corde.</em>`,0],
-[`p`,`Il trouvait ça drôle.`,0],
-[`tiret`,`— Je me revois la tendre entre deux arbres, pour la tente.`,0],
-[`p`,`Puis, sans transition :`,0],
-[`tiret`,`— Et avant de partir, une dame m'a embrassé sur le front.`,0],
-[`p`,`Il se balançait déjà, le buste de droite à gauche, la tête suivant le mouvement avec un temps de retard. Les yeux fermés, un large sourire sur le visage.`,0],
-[`tiret`,`— Ce monsieur… j'avais l'impression de le connaître depuis toujours, alors que je l'avais jamais vu. Et puis c'est parti dans tous les sens. Lui, il me tendait la main. Il la tendait fort, tu vois, avec tout le bras. Moi j'arrivais pas à l'attraper. Nos mains glissaient trop.`,0],
-[`tiret`,`— Glissaient trop ?`,0],
-[`p`,`Ce fut la seule question qu'Andrew posa, et il la regretta aussitôt : elle n'appelait pas de réponse, elle demandait seulement qu'on répète.`,0],
-[`p`,`Eliott ne répéta pas. Il naviguait dans ses souvenirs comme dans un trop-plein, et ce qui sortait de sa tête n'en sortait pas trié. Il n'y avait ni avant ni après, ni grand ni petit : tout venait dans le même souffle. Il rattachait les morceaux les uns aux autres comme un élève qui déverse tout sur sa copie, sans plan, de peur d'en oublier un en route.`,0],
-[`tiret`,`— J'ai senti le sol s'en aller sous mes pieds alors que je bougeais même pas. Je bougeais même pas, je te jure. J'étais assis. Et le sol est parti ! J'avais les yeux ouverts et j'avais de l'eau dans la bouche.`,0],
-[`p`,`Andrew ne bougea pas. Quelque part le long de l'enceinte, une grille se referma.`,0],
-[`tiret`,`— J'ai jamais vu de rivière. Je savais même pas ce que c'était, un courant — on me l'a appris à l'école, cette année. Et pourtant j'ai rêvé que je tombais dedans.`,0],
-[`p`,`Il dit ça avec un petit haussement d'épaules, un peu vexé, comme quelqu'un qui vient d'apporter lui-même la preuve qu'il a tort.`,0],
-[`tiret`,`— Et j'avais peur. Pas juste pour moi. J'avais peur pour lui aussi, et je sais pas pourquoi.`,0],
-[`p`,`Il se tut, puis reprit d'une voix différente, plus légère, comme s'il passait à quelque chose de plus agréable — et c'était exactement ce qu'il faisait.`,0],
-[`tiret`,`— Il n'y a pas que ça, hein. Il y a une odeur, aussi. Je sais pas de quoi… De la fraise. De la chantilly. Et un petit côté fumé, juste par-dessus.`,0],
-[`p`,`Il s'arrêta net. Puis il se tourna vers Andrew, les yeux pétillants, avec la tête de quelqu'un qui vient de trouver la réponse avant tout le monde.`,0],
-[`tiret`,`— Comme un anniversaire !`,0],
-[`p`,`Il en rit presque, et répéta le mot pour lui-même, content de l'avoir attrapé. Puis il repartit du même souffle :`,0],
-[`tiret`,`— Et il y a un regard. Quelqu'un qui me regarde. C'est tout, il fait rien d'autre, il me regarde. Mais quand je me souviens de ça, je suis bien.`,0],
-[`p`,`La femme qui attendait plus loin consulta quelque chose, tandis qu'un berceur remontait l'allée dans l'autre sens avec deux petits revenant de quelque part.`,0],
-[`p`,`Les moineaux s'envolèrent subitement ; Andrew les perdit de vue.`,0],
-[`tiret`,`— Et maintenant, je fais quoi avec ça ?`,0],
-[`p`,`Il avait posé ça comme on pose une question de mathématiques : sérieusement, en attendant une méthode.`,0],
-[`tiret`,`— Tu crois qu'ils vont se moquer de moi ici aussi ?`,0],
-[`p`,`Andrew ouvrit la bouche. Il n'avait rien.`,0],
-[`tiret`,`— Est-ce que tu viendras me voir ?`,0],
-[`p`,`Le veilleur mit du temps. Il regarda l'allée, l'enceinte, la grille restée ouverte au bout.`,0],
-[`tiret`,`— J'ai connu quelqu'un qui se posait beaucoup de questions, lui aussi.`,0],
-[`p`,`Il dit ça comme on constate. Ça lui était venu tout seul, et il ne s'étonna pas de l'avoir dit.`,0],
-[`tiret`,`— Il s'appelait comment ?`,0],
-[`p`,`Près de la grille, la femme fit un pas et s'arrêta, les mains devant elle. Elle attendait comme on attend au fond d'une pièce où deux personnes ont quelque chose à finir.`,0],
-[`tiret`,`— Je viendrai te voir.`,0],
-[`p`,`Eliott hocha la tête. Il resta un moment les mains sur les genoux, puis il descendit du banc d'un petit bond. Les moineaux ne devaient pas être loin ; il fit deux pas dans l'allée pour les retrouver.`,0],
-[`p`,`Il n'était plus question de la miette. Ils tournaient l'un autour de l'autre, les petits becs se frôlant, dans de courts gazouillis.`,0],
-[`p`,`Il les regarda un moment. Sa respiration lente, presque suspendue.`,0],
-[`tiret`,`— Il m'aimait beaucoup, tu sais.`,0],
-[`p`,`Et parce que c'était là qu'il était depuis le début, Andrew continua de regarder en silence ce petit homme parler de son monsieur.`,0],
-[`p`,`La femme s'était rapprochée. Elle ne dit rien : elle tendit la main, et elle souriait comme on sourit à quelqu'un qu'on va emmener voir quelque chose. Eliott lui donna la main sans hésiter.`,0],
-[`tiret`,`— Un sentiment fort. Très fort. J'avais l'impression que lui c'était moi et que moi c'était lui.`,0],
-[`p`,`Il tourna la tête, juste assez pour qu'Andrew attrape son profil. Il marqua une toute petite pause, la dernière, et détacha chacun de ses mots, un sourire empli d'une nostalgie nouvelle :`,0],
-[`tiret`,`— Comme si je l'aimais encore plus fort que lui.`,0],
-[`p`,`Andrew les regarda s'éloigner, la main du petit dans celle de la femme. Ils passèrent la grille sans se retourner, et quelqu'un la tira derrière eux.`,0],
-[`p`,`Il resta assis. De l'autre côté du mur, les cris continuaient exactement comme avant.`,0],
-[`p`,`Le banc n'était plus froid.`,0],
-]},
 ];
 const PAIRES = [
 [`Analyste`,`Métier de la serre, <strong>et c'est un seul métier à deux faces.</strong> Devant les capsules il ne mesure rien : il regarde, il note, il compare — la couleur, l'avancée de l'éclaircie, l'intervalle entre deux relevés. <strong>Un relèvement seul ne donne rien : il en faut quatre au minimum</strong>, croisés avec des moyennes accumulées sur des années, pour chiffrer une date. Puis il reçoit les arrivants en consultation, juste après leur sortie. <em>Les deux tâches sont à lui, et il n'existe pas de spécialité qui n'en ferait qu'une.</em> <strong>L'analyste dit quand ; il ne dit jamais qui.</strong>`],
@@ -1655,7 +1580,6 @@ function noeud(it){
   const p=document.createElement('p');
   let c = it[0]==='pause' ? 'pause' : (it[0]==='tiret' ? 'tiret' : '');
   if(it[2]&1) c+=' plat';
-  if(it[2]&2) c+=' ouv';
   p.className=c.trim();
   p.innerHTML=it[1];
   return p;
@@ -1664,7 +1588,7 @@ function noeud(it){
 function teteChap(ch){
   const d=document.createElement('div');
   d.className='ouvre';
-  d.innerHTML='<span class="rang">'+ch.rang+'</span><h2>'+ch.titre+'</h2>';
+  d.innerHTML='<h2>'+ch.rang+'</h2>';
   return d;
 }
 
@@ -1767,7 +1691,7 @@ function pageEl(i,cote){
   if(p.type==='sommaire'){ d.innerHTML=htmlSommaire(); return d }
   let h='';
   if(!p.ouverture){
-    h='<div class="tete">'+(cote==='g' ? 'L’Éclaircie' : LIVRE[p.ch].titre)+'</div>';
+    h='<div class="tete">'+(cote==='g' ? 'L’Éclaircie' : LIVRE[p.ch].rang)+'</div>';
   }
   h+='<div class="bloc">'+p.html+'</div><div class="folio">'+i+'</div>';
   d.innerHTML=h;
@@ -1779,6 +1703,7 @@ function pageEl(i,cote){
    300 ms. Si on enchaîne, on n'anime plus : au bout de trente pages
    une jolie animation devient une taxe.
    ================================================================ */
+const DUREE=480, AISE='cubic-bezier(.42,0,.30,1)';
 let spread=-1, anime=false, vise=0, dernier=0, minuteur=0;
 
 function poser(){
@@ -1792,7 +1717,8 @@ function finir(){
   clearTimeout(minuteur);
   if(!anime) return;
   anime=false; spread=vise;
-  feuille.style.transition='none';
+  [feuille].concat([].slice.call(feuille.querySelectorAll('.lustre')))
+    .forEach(function(x){ x.style.animation='none' });
   feuille.style.transform='rotateY(0deg)';
   feuille.hidden=true;
   poser();
@@ -1800,27 +1726,31 @@ function finir(){
 
 function animer(sens,cible){
   anime=true; vise=cible;
-  const rec=feuille.querySelector('.recto'), ver=feuille.querySelector('.verso');
+  const rec=feuille.querySelector('.recto .contenu');
+  const ver=feuille.querySelector('.verso .contenu');
+  const lr=feuille.querySelector('.recto .lustre');
+  const lv=feuille.querySelector('.verso .lustre');
   rec.innerHTML=''; ver.innerHTML='';
-  let a,b;
   if(sens>0){
     rec.appendChild(pageEl(spread*2+1,'d'));
     ver.appendChild(pageEl(cible*2,'g'));
     pD.innerHTML=''; pD.appendChild(pageEl(cible*2+1,'d'));
-    a=0; b=-180;
   }else{
     rec.appendChild(pageEl(cible*2+1,'d'));
     ver.appendChild(pageEl(spread*2,'g'));
     pG.innerHTML=''; pG.appendChild(pageEl(cible*2,'g'));
-    a=-180; b=0;
   }
+  $('corne').hidden=true;
   feuille.hidden=false;
-  feuille.style.transition='none';
-  feuille.style.transform='rotateY('+a+'deg)';
+  [feuille,lr,lv].forEach(function(x){ x.style.animation='none' });
   void feuille.offsetHeight;
-  feuille.style.transition='transform 300ms cubic-bezier(.34,.02,.24,1)';
-  feuille.style.transform='rotateY('+b+'deg)';
-  minuteur=setTimeout(finir,312);
+  feuille.style.animation=(sens>0?'tourne-avant':'tourne-arriere')
+    +' '+DUREE+'ms '+AISE+' forwards';
+  lr.style.animation=(sens>0?'lustre-monte':'lustre-descend')
+    +' '+DUREE+'ms '+AISE+' forwards';
+  lv.style.animation=(sens>0?'lustre-descend':'lustre-monte')
+    +' '+DUREE+'ms '+AISE+' forwards';
+  minuteur=setTimeout(finir,DUREE+16);
 }
 
 function tourner(sens){
@@ -1830,7 +1760,7 @@ function tourner(sens){
   if(cible<0){ fermerLivre(); return }
   if(cible*2>=PAGES.length) return;
   const t=Date.now();
-  const vite=anime || (t-dernier)<330;
+  const vite=anime || (t-dernier)<DUREE+90;
   dernier=t;
   if(anime) finir();
   if(vite){ spread=cible; poser(); return }
@@ -1883,6 +1813,7 @@ function majEtat(){
   const ferme=(spread<0);
   $('prec').disabled=ferme;
   $('suiv').disabled=!ferme && (spread+1)*2>=PAGES.length;
+  $('corne').hidden=ferme || $('suiv').disabled;
   const g=spread*2, d=spread*2+1;
   let txt='';
   if(ferme){ txt='Livre fermé' }
@@ -1989,6 +1920,7 @@ document.addEventListener('click',function(e){
    ================================================================ */
 $('prec').addEventListener('click',function(){tourner(-1)});
 $('suiv').addEventListener('click',function(){tourner(1)});
+$('corne').addEventListener('click',function(){tourner(1)});
 
 document.addEventListener('keydown',function(e){
   if(e.ctrlKey||e.altKey||e.metaKey) return;
@@ -2050,8 +1982,8 @@ function demarrer(){
     if(localStorage.getItem('eclaircie-nuit')==='1'){
       RACINE.dataset.nuit='1'; $('bNuit').setAttribute('aria-pressed','true');
     }
-    if(localStorage.getItem('eclaircie-glo')==='0'){
-      RACINE.dataset.glo='0'; $('bGlo').setAttribute('aria-pressed','false');
+    if(localStorage.getItem('eclaircie-glo')==='1'){
+      RACINE.dataset.glo='1'; $('bGlo').setAttribute('aria-pressed','true');
     }
   }catch(e){}
   poserCrans();

@@ -66,8 +66,19 @@ GEO['TITRE_LH'] = GEO['LIGNE'] * 2                          # le titre tient sur
 # =====================================================================
 js = lire('pB-textes.js')
 bornes = [(m.group(1), m.start()) for m in re.finditer(r'\n  id: `([a-z0-9-]+)`,', js)]
+# L'epilogue est ecrit, et il ne se lit pas ici : il donne la fin.
 LISIBLES = ['prologue', 'chapitre-1', 'chapitre-2', 'chapitre-3',
-            'chapitre-4', 'chapitre-5', 'chapitre-6', 'epilogue']
+            'chapitre-4', 'chapitre-5', 'chapitre-6']
+
+def romain(n):
+    paires = ((10, u'X'), (9, u'IX'), (5, u'V'), (4, u'IV'), (1, u'I'))
+    out = u''
+    for val, sig in paires:
+        while n >= val:
+            out += sig
+            n -= val
+    return out
+
 
 textes = []
 for ident in LISIBLES:
@@ -77,7 +88,12 @@ for ident in LISIBLES:
     bloc = js[deb:fin]
     textes.append({
         'id': ident,
-        'rang': re.search(r'rang: `([^`]*)`', bloc).group(1),
+        # Le manuscrit dit << Chapitre premier >>. Le livre dit << Chapitre I >>,
+        # et il ne dit pas << La ceremonie >> : dans un livre, le titre du
+        # chapitre annonce ce qui va se passer, et ici ca ne regarde personne.
+        'rang': (u'Chapitre ' + romain(int(ident.split('-')[1]))
+                 if ident.startswith('chapitre-')
+                 else re.search(r'rang: `([^`]*)`', bloc).group(1)),
         'titre': re.search(r'titre: `([^`]*)`', bloc).group(1),
         'p': [list(x) for x in re.findall(r'\[`(p|tiret|pause)`,`([^`]*)`', bloc)],
     })
@@ -251,7 +267,7 @@ DATA += (u'const PAIRES = [\n'
 #  LA PAGE
 # =====================================================================
 GABARIT = r"""<!doctype html>
-<html lang="fr" data-nuit="0" data-glo="1" data-ouvert="0">
+<html lang="fr" data-nuit="0" data-glo="0" data-ouvert="0">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -261,7 +277,7 @@ GABARIT = r"""<!doctype html>
   --papier:#F3EDE1; --papier-2:#EAE2D2;
   --encre:#201D18; --encre-2:#514A3E; --encre-3:#928975;
   --bureau:#221F1B; --bureau-2:#15130F;
-  --gouttiere:.17; --or:#B08B4F;
+  --gouttiere:.17; --or:#B08B4F; --corne:#D8CDB4; --corne-2:#C6B999;
   --serif:Constantia,"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
   --sans:Corbel,Candara,"Segoe UI",Tahoma,sans-serif;
 }
@@ -269,7 +285,7 @@ html[data-nuit="1"]{
   --papier:#141A21; --papier-2:#0F151B;
   --encre:#DCE3EA; --encre-2:#A2AFBB; --encre-3:#63717F;
   --bureau:#080B0F; --bureau-2:#04060A;
-  --gouttiere:.34; --or:#7CC6DC;
+  --gouttiere:.34; --or:#7CC6DC; --corne:#202934; --corne-2:#2C3846;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -338,20 +354,15 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 .bloc p{margin:0;text-indent:1.25em;orphans:2;widows:2}
 .bloc p.plat{text-indent:0}
 .bloc p.coupe{text-align-last:justify;-moz-text-align-last:justify}
-.bloc p.ouv::first-line{font-variant:small-caps;letter-spacing:.045em}
 .bloc p.pause{
   text-indent:0;text-align:center;letter-spacing:.5em;color:var(--encre-3);
   margin:{{LIGNE}}px 0;height:{{LIGNE}}px;
 }
 .bloc em{font-style:italic}
 .ouvre{padding:{{OUVRE_HAUT}}px 0 {{OUVRE_BAS}}px;text-align:center}
-.ouvre .rang{
-  display:block;font:9px/{{LIGNE}}px var(--sans);letter-spacing:.3em;
-  text-transform:uppercase;color:var(--encre-3);
-}
 .ouvre h2{
-  margin:0;font:400 21px/{{TITRE_LH}}px var(--serif);color:var(--encre);
-  letter-spacing:.012em;
+  margin:0;font:400 17px/{{TITRE_LH}}px var(--serif);color:var(--encre);
+  letter-spacing:.26em;text-transform:uppercase;
 }
 .tete{
   position:absolute;top:34px;width:{{TW}}px;
@@ -402,6 +413,52 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 #feuille{z-index:8}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
 .face.verso{transform:rotateY(180deg)}
+.face .contenu{position:absolute;inset:0}
+/* Une page qui se met de chant s'assombrit, et s'eclaire en retombant. */
+.face .lustre{position:absolute;inset:0;pointer-events:none;opacity:0}
+.face.recto .lustre{background:linear-gradient(90deg,rgba(0,0,0,.12),rgba(0,0,0,.62))}
+.face.verso .lustre{background:linear-gradient(270deg,rgba(0,0,0,.12),rgba(0,0,0,.62))}
+
+/* Le vrillage : le bord libre traine sur le pivot, la feuille flechit. */
+@keyframes tourne-avant{
+  0%  {transform:rotateY(0deg)}
+  22% {transform:rotateY(-30deg) rotateZ(-1.7deg)}
+  50% {transform:rotateY(-90deg) rotateZ(-2.6deg)}
+  78% {transform:rotateY(-150deg) rotateZ(-1.3deg)}
+  100%{transform:rotateY(-180deg)}
+}
+@keyframes tourne-arriere{
+  0%  {transform:rotateY(-180deg)}
+  22% {transform:rotateY(-150deg) rotateZ(-1.3deg)}
+  50% {transform:rotateY(-90deg) rotateZ(-2.6deg)}
+  78% {transform:rotateY(-30deg) rotateZ(-1.7deg)}
+  100%{transform:rotateY(0deg)}
+}
+@keyframes lustre-monte{0%{opacity:0}56%{opacity:.66}100%{opacity:.66}}
+@keyframes lustre-descend{0%{opacity:.66}44%{opacity:.66}100%{opacity:0}}
+
+/* La corne : le coin deja replie, qui dit qu'on peut prendre la page. */
+#corne{
+  position:absolute;right:0;bottom:0;width:46px;height:46px;z-index:6;
+  border:0;padding:0;background:transparent;cursor:pointer;
+  transition:width 260ms cubic-bezier(.3,.85,.4,1),height 260ms cubic-bezier(.3,.85,.4,1);
+}
+/* l'ombre que le rabat porte sur la page qu'il decouvre */
+#corne::before{
+  content:"";position:absolute;left:-6px;right:2px;top:-6px;bottom:2px;
+  background:linear-gradient(315deg,rgba(0,0,0,.55) 0 50%,transparent 50%);
+  filter:blur(5px);
+}
+/* le rabat lui-meme : le dos de la feuille, et le pli net */
+#corne::after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(315deg,rgba(0,0,0,.18) 0 14%,rgba(0,0,0,0) 44%,rgba(0,0,0,0) 50%,transparent 50%),
+    linear-gradient(315deg,var(--corne) 0 49.4%,var(--corne-2) 49.4% 50%,transparent 50%);
+}
+#corne:hover{width:88px;height:88px}
+#corne:focus-visible{outline:2px solid var(--or);outline-offset:3px}
+html[data-ouvert="0"] #corne{display:none}
 #couv .recto{
   background:#171410 center/cover no-repeat;
   box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);
@@ -519,7 +576,11 @@ html[data-glo="0"] .glo{border:0;cursor:inherit;pointer-events:none}
       <div class="tranche" id="trD"></div>
       <div class="cote g" id="pG"></div>
       <div class="cote d" id="pD"></div>
-      <div id="feuille" hidden><div class="face recto"></div><div class="face verso"></div></div>
+      <button id="corne" title="Page suivante" aria-label="Page suivante"></button>
+      <div id="feuille" hidden>
+        <div class="face recto"><div class="contenu"></div><div class="lustre"></div></div>
+        <div class="face verso"><div class="contenu"></div><div class="lustre"></div></div>
+      </div>
       <div id="couv">
         <div class="face recto">
           <div class="habillage"></div>
@@ -539,7 +600,7 @@ html[data-glo="0"] .glo{border:0;cursor:inherit;pointer-events:none}
 
 <div id="barre">
   <button id="bSom" title="Sommaire — touche S">Sommaire</button>
-  <button id="bGlo" aria-pressed="true" title="Les mots du monde — touche G">Glossaire</button>
+  <button id="bGlo" aria-pressed="false" title="Les mots du monde — touche G">Glossaire</button>
   <button id="bNuit" aria-pressed="false" title="Lecture de nuit — touche N">Nuit</button>
   <div id="rail"><div class="voie"></div><div class="fait"></div></div>
   <div id="ou"></div>
@@ -587,7 +648,6 @@ function noeud(it){
   const p=document.createElement('p');
   let c = it[0]==='pause' ? 'pause' : (it[0]==='tiret' ? 'tiret' : '');
   if(it[2]&1) c+=' plat';
-  if(it[2]&2) c+=' ouv';
   p.className=c.trim();
   p.innerHTML=it[1];
   return p;
@@ -596,7 +656,7 @@ function noeud(it){
 function teteChap(ch){
   const d=document.createElement('div');
   d.className='ouvre';
-  d.innerHTML='<span class="rang">'+ch.rang+'</span><h2>'+ch.titre+'</h2>';
+  d.innerHTML='<h2>'+ch.rang+'</h2>';
   return d;
 }
 
@@ -699,7 +759,7 @@ function pageEl(i,cote){
   if(p.type==='sommaire'){ d.innerHTML=htmlSommaire(); return d }
   let h='';
   if(!p.ouverture){
-    h='<div class="tete">'+(cote==='g' ? 'L’Éclaircie' : LIVRE[p.ch].titre)+'</div>';
+    h='<div class="tete">'+(cote==='g' ? 'L’Éclaircie' : LIVRE[p.ch].rang)+'</div>';
   }
   h+='<div class="bloc">'+p.html+'</div><div class="folio">'+i+'</div>';
   d.innerHTML=h;
@@ -711,6 +771,7 @@ function pageEl(i,cote){
    300 ms. Si on enchaîne, on n'anime plus : au bout de trente pages
    une jolie animation devient une taxe.
    ================================================================ */
+const DUREE=480, AISE='cubic-bezier(.42,0,.30,1)';
 let spread=-1, anime=false, vise=0, dernier=0, minuteur=0;
 
 function poser(){
@@ -724,7 +785,8 @@ function finir(){
   clearTimeout(minuteur);
   if(!anime) return;
   anime=false; spread=vise;
-  feuille.style.transition='none';
+  [feuille].concat([].slice.call(feuille.querySelectorAll('.lustre')))
+    .forEach(function(x){ x.style.animation='none' });
   feuille.style.transform='rotateY(0deg)';
   feuille.hidden=true;
   poser();
@@ -732,27 +794,31 @@ function finir(){
 
 function animer(sens,cible){
   anime=true; vise=cible;
-  const rec=feuille.querySelector('.recto'), ver=feuille.querySelector('.verso');
+  const rec=feuille.querySelector('.recto .contenu');
+  const ver=feuille.querySelector('.verso .contenu');
+  const lr=feuille.querySelector('.recto .lustre');
+  const lv=feuille.querySelector('.verso .lustre');
   rec.innerHTML=''; ver.innerHTML='';
-  let a,b;
   if(sens>0){
     rec.appendChild(pageEl(spread*2+1,'d'));
     ver.appendChild(pageEl(cible*2,'g'));
     pD.innerHTML=''; pD.appendChild(pageEl(cible*2+1,'d'));
-    a=0; b=-180;
   }else{
     rec.appendChild(pageEl(cible*2+1,'d'));
     ver.appendChild(pageEl(spread*2,'g'));
     pG.innerHTML=''; pG.appendChild(pageEl(cible*2,'g'));
-    a=-180; b=0;
   }
+  $('corne').hidden=true;
   feuille.hidden=false;
-  feuille.style.transition='none';
-  feuille.style.transform='rotateY('+a+'deg)';
+  [feuille,lr,lv].forEach(function(x){ x.style.animation='none' });
   void feuille.offsetHeight;
-  feuille.style.transition='transform 300ms cubic-bezier(.34,.02,.24,1)';
-  feuille.style.transform='rotateY('+b+'deg)';
-  minuteur=setTimeout(finir,312);
+  feuille.style.animation=(sens>0?'tourne-avant':'tourne-arriere')
+    +' '+DUREE+'ms '+AISE+' forwards';
+  lr.style.animation=(sens>0?'lustre-monte':'lustre-descend')
+    +' '+DUREE+'ms '+AISE+' forwards';
+  lv.style.animation=(sens>0?'lustre-descend':'lustre-monte')
+    +' '+DUREE+'ms '+AISE+' forwards';
+  minuteur=setTimeout(finir,DUREE+16);
 }
 
 function tourner(sens){
@@ -762,7 +828,7 @@ function tourner(sens){
   if(cible<0){ fermerLivre(); return }
   if(cible*2>=PAGES.length) return;
   const t=Date.now();
-  const vite=anime || (t-dernier)<330;
+  const vite=anime || (t-dernier)<DUREE+90;
   dernier=t;
   if(anime) finir();
   if(vite){ spread=cible; poser(); return }
@@ -815,6 +881,7 @@ function majEtat(){
   const ferme=(spread<0);
   $('prec').disabled=ferme;
   $('suiv').disabled=!ferme && (spread+1)*2>=PAGES.length;
+  $('corne').hidden=ferme || $('suiv').disabled;
   const g=spread*2, d=spread*2+1;
   let txt='';
   if(ferme){ txt='Livre fermé' }
@@ -921,6 +988,7 @@ document.addEventListener('click',function(e){
    ================================================================ */
 $('prec').addEventListener('click',function(){tourner(-1)});
 $('suiv').addEventListener('click',function(){tourner(1)});
+$('corne').addEventListener('click',function(){tourner(1)});
 
 document.addEventListener('keydown',function(e){
   if(e.ctrlKey||e.altKey||e.metaKey) return;
@@ -982,8 +1050,8 @@ function demarrer(){
     if(localStorage.getItem('eclaircie-nuit')==='1'){
       RACINE.dataset.nuit='1'; $('bNuit').setAttribute('aria-pressed','true');
     }
-    if(localStorage.getItem('eclaircie-glo')==='0'){
-      RACINE.dataset.glo='0'; $('bGlo').setAttribute('aria-pressed','false');
+    if(localStorage.getItem('eclaircie-glo')==='1'){
+      RACINE.dataset.glo='1'; $('bGlo').setAttribute('aria-pressed','true');
     }
   }catch(e){}
   poserCrans();
