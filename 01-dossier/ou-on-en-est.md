@@ -30,6 +30,18 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 | au départ | un mot à côté de la couverture nomme les deux flèches — celles de l’écran et celles du clavier |
 | le reste | `G` le glossaire (sans bouton) · `N` la lecture de nuit · `Échap` referme |
 
+### La relecture d'août
+
+| chapitre | blancs posés | autre |
+|---|---|---|
+| Prologue | — | une phrase de trop retirée, un saut de page |
+| Chapitre I | 13 | *l'écusson de la ruche* |
+| Chapitre II | 28 | — |
+
+*Les blancs sont une demande de rythme, pas une correction de texte : le chapitre
+deuxième en compte vingt-huit pour 274 paragraphes, soit une respiration toutes
+les dix.*
+
 ### Deux marques de respiration
 
 | dans la source | à l'écran |
@@ -119,7 +131,7 @@ page.* Mesuré sur le livre entier : **13 coupes, toutes à 100 % de remplissage
 |---|---|---|---|---|
 | — | Prologue — La cérémonie | `ouv` | 2 628 | 🔒 **relu et reverrouillé** |
 | 1 | Une journée à la ruche | `capsule` | 3 747 | 🔒 **relu et reverrouillé** |
-| 2 | L'aquarium | `s1` | 3 451 | ✅ validé |
+| 2 | L'aquarium | `s1` | 3 451 | 🔒 **relu et verrouillé** |
 | 3 | La tournée | `s2` | 1 834 | ✅ validé |
 | 4 | La maison | `s3` | 1 245 | ✅ passe d'autrice appliquée |
 | 5 | Le poste | `s4` | 1 165 | ✅ passe d'autrice appliquée |
@@ -193,8 +205,9 @@ investigation ?
 ⚠️ **Un seul verrou reste ouvert : l'épilogue.** *L'autrice dira quand le
 reposer. Tant qu'il est ouvert, la fabrication ne protège plus ce texte contre
 une modification involontaire.*
-✅ *Prologue relu et reverrouillé le 25 août 2026 — 115 paragraphes.*
-✅ *Chapitre premier relu et reverrouillé le 25 août 2026 — 187 paragraphes.*
+✅ *Prologue relu et verrouillé le 25 août 2026 — 115 paragraphes.*
+✅ *Chapitre premier relu et verrouillé le 25 août 2026 — 187 paragraphes.*
+✅ *Chapitre deuxième relu et verrouillé le 25 août 2026 — 274 paragraphes.*
 
 ⚠️ ***pédiatre* est mort le 20 août et vit encore dans 15 fichiers.** *Certaines
 occurrences sont légitimes — les interdits doivent le nommer pour l'interdire. Les
