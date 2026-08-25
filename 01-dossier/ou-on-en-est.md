@@ -1,7 +1,7 @@
 # Où on en est
 
-*Point d'étape au 25 août 2026. Ce fichier se réécrit à chaque séance : il dit
-l'état du chantier, pas son histoire.*
+*Point d'étape au 25 août 2026, en fin de journée. Ce fichier se réécrit à chaque
+séance : il dit l'état du chantier, pas son histoire.*
 
 ---
 
@@ -206,6 +206,21 @@ nombre.*
 
 **Le jour du tri** — *deux fois par semaine les porteurs ne sortent pas* — enferme
 l'affaire dans le dépôt et rend la visite chez Henri obligatoire.
+
+---
+
+## Comment se mène une relecture
+
+**Deux passes.** *La rapide dit les blancs — le rythme, les respirations, les
+changements de sujet. La minutieuse vient ensuite pour les ajustements de texte.*
+**On ne mélange pas les deux** : chercher les mots en même temps que le souffle
+fait perdre les deux.
+
+**Le vocabulaire est fixé :** *« un blanc »* pour une ligne de respiration,
+*« une pause »* pour la rupture de scène en trois points. Voir
+`poser-un-blanc.py`, qui refuse de travailler sur une ancre douteuse.
+
+**Et chaque chapitre se ferme par son verrou** dès qu'il est validé.
 
 ---
 
