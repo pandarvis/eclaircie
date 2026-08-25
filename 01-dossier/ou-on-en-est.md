@@ -1,7 +1,33 @@
 # Où on en est
 
-*Point d'étape au 25 août 2026, en fin de journée. Ce fichier se réécrit à chaque
-séance : il dit l'état du chantier, pas son histoire.*
+*Point d'étape au 25 août 2026. Ce fichier se réécrit à chaque séance : il dit
+l'état du chantier, pas son histoire.*
+
+---
+
+## ✨ Le livre — `06-visuels/atelier/le-livre.html`
+
+**Le roman se lit maintenant comme un livre : double page au format poche, la
+couverture fermée au départ, les pages qui se tournent.** *104 pages, huit
+chapitres, chacun sur une belle page.* Le fichier tient tout seul — couverture
+comprise, aucun appel réseau : il s'ouvre d'un double-clic et se donne à lire.
+
+| | |
+|---|---|
+| tourner | les flèches du clavier, les deux boutons, `Espace` · maintenir enchaîne sans animer |
+| se repérer | folio en bas au centre, titre courant, épaisseur du bloc, réglette à crans |
+| retrouver | `S` ouvre le sommaire de n'importe où · la page se retient d'une séance à l'autre |
+| adresser | `le-livre.html#p63` ouvre directement à la page 63 |
+| le reste | `G` le glossaire · `N` la lecture de nuit · `Échap` referme |
+
+**La pagination est calculée dans une géométrie logique fixe, puis le livre est
+mis à l'échelle de la fenêtre.** *C'est ce qui permet d'avoir un livre qui remplit
+n'importe quel écran sans qu'un seul numéro de page change.* Changer un chiffre de
+`GEO` dans `fabriquer-le-livre.py` repagine tout le livre.
+
+❓ **Le glossaire est à trancher.** *Il est allumé par défaut pour être jugé.* La
+fiche se pose à côté du livre, sur le bureau, sans recouvrir une ligne — sauf sur
+une fenêtre étroite, où elle se range en bas et mange le pied de la page.
 
 ---
 
@@ -25,6 +51,19 @@ plus se périmer.
 ---
 
 ## Ce qui a été décidé aujourd'hui
+
+### La mise en forme
+
+**L'alinéa OU le blanc, jamais les deux.** *Le retrait dit déjà « nouveau
+paragraphe » ; le blanc le redisait par-dessus.* Corrigé dans
+[`p3-style.html`](../06-visuels/atelier/sources/p3-style.html) — donc dans
+l'atelier **et** dans la version de lecture. Le blanc est rendu à ce qu'il sait
+faire seul : marquer une rupture de scène.
+
+**La typographie française se pose au rendu, jamais dans la source.** *730 espaces
+insécables devant les `; : ! ?` et dans les guillemets.* **Le texte n'a pas
+bougé d'un caractère** — trois chapitres sont verrouillés par empreinte, et ce
+n'est pas au fabricant de corriger l'autrice.
 
 ### Les règles de langue
 
@@ -95,6 +134,7 @@ filtre masque celui du script.*
 | `relire.py` | correcteur mécanique : signale, ne corrige jamais |
 | `citations.py` | vérifie que ce que les fiches citent existe encore dans le texte |
 | `reprendre-la-revision.py` | reprend un fichier corrigé par l'autrice, réouvre et repose le verrou |
+| `fabriquer-le-livre.py` | fabrique `le-livre.html` ; il tourne à chaque fabrication, le livre ne peut pas prendre de retard sur le texte |
 
 *Le sommaire de la version de lecture vérifie aussi que ses accroches choisies existent
 mot pour mot dans le texte.*

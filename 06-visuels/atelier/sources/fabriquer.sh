@@ -53,5 +53,6 @@ cat p5-scenes.js p6-notes.js p7-monde.js p8-gens.js p9-trancher.js \
 node ../valide.js
 rm -f check.js combo.js
 python fabriquer-lecture.py || exit 1
+python fabriquer-le-livre.py || exit 1
 
 echo "FABRICATION OK"
