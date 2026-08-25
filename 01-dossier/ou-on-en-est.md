@@ -212,9 +212,12 @@ l'affaire dans le dépôt et rend la visite chez Henri obligatoire.
 ## Comment se mène une relecture
 
 **Deux passes.** *La rapide dit les blancs — le rythme, les respirations, les
-changements de sujet. La minutieuse vient ensuite pour les ajustements de texte.*
+changements de sujet. La minutieuse suit, pour les ajustements de texte.*
 **On ne mélange pas les deux** : chercher les mots en même temps que le souffle
 fait perdre les deux.
+
+⚠️ **Le verrou d'un chapitre veut dire que les DEUX passes sont faites.** *Il ne se
+pose pas après la passe rapide.* Un chapitre verrouillé est relu, pas seulement rythmé.
 
 **Le vocabulaire est fixé :** *« un blanc »* pour une ligne de respiration,
 *« une pause »* pour la rupture de scène en trois points. Voir
@@ -224,18 +227,13 @@ fait perdre les deux.
 
 ---
 
-## Ce qui attend demain
+## Le manuscrit est relu
 
-✅ **Les sept chapitres du livre sont relus et verrouillés.** *La grande passe du
-25 août 2026 : une lecture rapide pour le rythme — 74 blancs posés — puis les
-corrections d'écriture.*
+✅ **Les huit textes sont relus, validés et verrouillés.** *La grande passe du 25 août
+2026 : une lecture rapide pour le rythme — 74 blancs posés — puis les corrections
+d'écriture, chapitre par chapitre.* La fabrication vérifie leur empreinte et refuse de
+tourner si l'un d'eux bouge.
 
-⚠️ **L'épilogue reste à relire.** *Il n'est pas dans le livre, il donne la fin.*
-
-⚠️ **Un seul verrou reste ouvert : l'épilogue.** *Il n'est pas dans le livre —
-il donne la fin — et il n'a pas encore été relu.* *L'autrice dira quand le
-reposer. Tant qu'il est ouvert, la fabrication ne protège plus ce texte contre
-une modification involontaire.*
 ✅ *Prologue relu et verrouillé le 25 août 2026 — 115 paragraphes.*
 ✅ *Chapitre premier relu et verrouillé le 25 août 2026 — 187 paragraphes.*
 ✅ *Chapitre deuxième relu et verrouillé le 25 août 2026 — 274 paragraphes.*
@@ -243,16 +241,21 @@ une modification involontaire.*
 ✅ *Chapitre quatrième relu et verrouillé le 25 août 2026 — 138 paragraphes.*
 ✅ *Chapitre cinquième relu et verrouillé le 25 août 2026 — 106 paragraphes.*
 ✅ *Chapitre sixième relu et verrouillé le 25 août 2026 — 214 paragraphes.*
+✅ *Épilogue validé et verrouillé le 25 août 2026 — 118 paragraphes.*
 
-⚠️ ***pédiatre* est mort le 20 août et vit encore dans 15 fichiers.** *Certaines
-occurrences sont légitimes — les interdits doivent le nommer pour l'interdire. Les
-autres non, et le mot de remplacement n'existe toujours pas.*
+### Ce qui attend
 
 **Les fiches de personnages de la version bêta** — June, Julie, Paul — *sont de moi et
 n'ont jamais été relues.*
 
-**Sans réponse depuis plusieurs jours :** le nom du corps médical du jardin ; le nom du
-rendez-vous de suivi ; la frontière entre chuchoteur et tuteur ; le nombre de travées.
+### Ajourné jusqu'à la description du jardin
+
+⛔ **Ne pas le rappeler avant d'y être.** *L'autrice tranchera sur place, et le répéter
+à chaque point d'étape ne fait que du bruit.*
+
+*Le remplaçant de* pédiatre *(mort le 20 août, encore dans 15 fichiers) ; le nom du corps
+médical du jardin ; le nom du rendez-vous de suivi ; la frontière entre chuchoteur et
+tuteur ; le nombre de travées.*
 
 ---
 
