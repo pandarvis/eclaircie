@@ -218,7 +218,7 @@ une modification involontaire.*
 ✅ *Prologue relu et verrouillé le 25 août 2026 — 115 paragraphes.*
 ✅ *Chapitre premier relu et verrouillé le 25 août 2026 — 187 paragraphes.*
 ✅ *Chapitre deuxième relu et verrouillé le 25 août 2026 — 274 paragraphes.*
-✅ *Chapitre troisième relu et verrouillé le 25 août 2026 — 191 paragraphes.*
+✅ *Chapitre troisième relu et verrouillé le 25 août 2026 — 194 paragraphes.*
 ✅ *Chapitre quatrième relu et verrouillé le 25 août 2026 — 138 paragraphes.*
 
 ⚠️ ***pédiatre* est mort le 20 août et vit encore dans 15 fichiers.** *Certaines
