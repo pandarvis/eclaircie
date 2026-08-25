@@ -48,12 +48,12 @@ def entre(s, a, b):
 # =====================================================================
 GEO = {
     'PW': 470, 'PH': 752,
-    'HAUT': 66, 'BAS': 70, 'DEDANS': 60, 'DEHORS': 46,
-    'CORPS': 14.2, 'LIGNE': 22,
+    'HAUT': 74, 'BAS': 80, 'DEDANS': 62, 'DEHORS': 48,
+    'CORPS': 14.2, 'LIGNE': 23,
 }
 GEO['TW'] = GEO['PW'] - GEO['DEDANS'] - GEO['DEHORS']      # 364
 GEO['TH'] = GEO['PH'] - GEO['HAUT'] - GEO['BAS']           # 612
-LIGNES = 28
+LIGNES = 26
 assert abs(GEO['TH'] / GEO['LIGNE'] - LIGNES) < 1e-9, \
     u'la grille ne tombe pas juste : %s lignes' % (GEO['TH'] / GEO['LIGNE'])
 GEO['OUVRE_HAUT'] = GEO['LIGNE'] * 6                        # 6 lignes de blanc
@@ -412,20 +412,31 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 #couv{z-index:9}
 #feuille{z-index:8}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
-.face.verso{transform:rotateY(180deg)}
+.face.recto{transform:translateZ(.4px)}
+.face.verso{transform:rotateY(180deg) translateZ(.4px)}
 
 /* Les lames : la feuille est courbe parce qu'elle est articulee. */
 .lame{position:absolute;top:0;height:{{PH}}px;transform-origin:0 50%;transform-style:preserve-3d}
-/* L'ame de la feuille : un fond de papier un peu plus large que la lame,
-   un demi-pixel en arriere. Le jour entre deux lames laisse voir ce fond
-   au lieu du bureau, et comme c'est une couleur plate, on ne le voit pas. */
-.lame::before{
-  content:"";position:absolute;left:-1px;right:-1px;top:0;bottom:0;
-  background:var(--papier);transform:translateZ(-.6px);
+/* L'ame de la feuille : un fond de papier un peu plus large que la lame.
+   Le jour entre deux lames laisse voir cette ame au lieu du bureau, et
+   comme c'est une couleur plate, on ne la voit pas. */
+.ame{
+  position:absolute;left:-1px;right:-1px;top:0;bottom:0;
+  background:var(--papier);
 }
 .lame>.face{left:0;top:0;right:auto;bottom:auto;width:100%;height:100%}
 .fen{position:absolute;top:0;width:{{PW}}px;height:{{PH}}px}
-.lustre{position:absolute;inset:0;pointer-events:none;background:#0A0805;opacity:0}
+/* Les voiles d'ombre sont AU NIVEAU DE LA LAME, devant tout le reste :
+   ils couvrent l'ame en meme temps que la face, sinon elle restait
+   claire quand la page se met de chant, et ca dessinait un lisere a
+   chaque couture. Un voile par sens de vue, chacun invisible de dos. */
+.voile{
+  position:absolute;left:-1px;right:-1px;top:0;bottom:0;pointer-events:none;
+  background:#0A0805;opacity:0;
+  backface-visibility:hidden;-webkit-backface-visibility:hidden;
+}
+.voile.av{transform:translateZ(.9px)}
+.voile.ar{transform:rotateY(180deg) translateZ(.9px)}
 
 /* Quand le livre est ferme, il n'y a que la couverture : le contre-plat
    restait affiche a cote d'elle, et faisait un carre sombre. */
@@ -553,6 +564,24 @@ html[data-glo="1"] .glo{
 }
 html[data-glo="0"] .glo{border:0;cursor:inherit;pointer-events:none}
 
+/* Le mot d'accueil : rien ne disait que les fleches ouvraient le livre. */
+#indice{
+  position:fixed;z-index:15;display:flex;align-items:baseline;gap:11px;
+  opacity:0;transition:opacity 700ms ease;pointer-events:none;
+  color:#7A7262;font-family:var(--sans);max-width:190px;
+}
+html[data-nuit="1"] #indice{color:#5C6875}
+#indice.on{opacity:1;pointer-events:auto;cursor:pointer}
+#indice .k{
+  font-size:17px;line-height:1;color:#A2917A;
+}
+html[data-nuit="1"] #indice .k{color:#7CC6DC}
+#indice .t{font-size:11px;letter-spacing:.17em;text-transform:uppercase;line-height:1.5}
+#indice em{
+  display:block;font-style:normal;text-transform:none;letter-spacing:.04em;
+  font-size:11.5px;opacity:.72;margin-top:5px;
+}
+
 #banc{position:absolute;left:-9999px;top:0;visibility:hidden;height:auto!important}
 #attente{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;
   font:11px var(--sans);letter-spacing:.3em;text-transform:uppercase;color:#6A6053;z-index:40}
@@ -596,6 +625,8 @@ html[data-glo="0"] .glo{border:0;cursor:inherit;pointer-events:none}
   <div id="ou"></div>
 </div>
 
+<div id="indice"><span class="k">&rarr;</span><span class="t">Pour ouvrir<em>Les flèches tournent les pages</em></span></div>
+
 <div id="voile"><div class="boite" id="boite"></div></div>
 <div class="bloc" id="banc"></div>
 
@@ -607,7 +638,7 @@ const COUV = "{{COUV}}";
 (function(){
 'use strict';
 
-const PW={{PW}}, PH={{PH}}, TH={{TH}}, LH={{LIGNE}}, SW={{SW}}, DEMI={{DEMI}};
+const PW={{PW}}, PH={{PH}}, TW={{TW}}, TH={{TH}}, LH={{LIGNE}}, SW={{SW}}, DEMI={{DEMI}};
 const RACINE=document.documentElement;
 const $=function(s){return document.getElementById(s)};
 const pG=$('pG'), pD=$('pD'), feuille=$('feuille'), couv=$('couv'), banc=$('banc');
@@ -652,6 +683,13 @@ function teteChap(ch){
 
 function tient(){ return banc.scrollHeight <= TH + 0.6; }
 
+function largeurDerniereLigne(n){
+  const r=document.createRange();
+  r.selectNodeContents(n);
+  const rects=r.getClientRects();
+  return rects.length ? rects[rects.length-1].width : 0;
+}
+
 function couper(it,n){
   if(it[0]==='pause') return null;
   const t=jetonner(it[1]);
@@ -677,7 +715,9 @@ function couper(it,n){
   }
   if(best<4){ banc.removeChild(n); return null }
   n.innerHTML=rendre(t.mots.slice(0,best),t.gard);
-  n.className=(n.className+' coupe').trim();
+  /* On ne justifie la derniere ligne que si elle est deja presque pleine :
+     etiree depuis six mots, elle se voit de l'autre bout de la piece. */
+  if(largeurDerniereLigne(n)>=TW*.78) n.className=(n.className+' coupe').trim();
   if(!tient()){ banc.removeChild(n); return null }
   return {apres:[it[0], rendre(t.mots.slice(best),t.gard), 1]};
 }
@@ -778,14 +818,18 @@ const LAMES=(function(){
     lame.className='lame';
     lame.style.left=(k===0?0:LW)+'px';
     lame.style.width=LW+'px';
+    const ame=document.createElement('div'); ame.className='ame';
+    lame.appendChild(ame);
     const parts=[];
     ['recto','verso'].forEach(function(quel,i){
       const f=document.createElement('div'); f.className='face '+quel;
       const fen=document.createElement('div'); fen.className='fen';
       /* le recto se lit depuis la reliure, le verso depuis son bord oppose */
       fen.style.left=(i===0 ? -k*LW : -({{PW}}-(k+1)*LW))+'px';
-      const lu=document.createElement('div'); lu.className='lustre';
-      f.appendChild(fen); f.appendChild(lu); lame.appendChild(f);
+      f.appendChild(fen); lame.appendChild(f);
+      const lu=document.createElement('div');
+      lu.className='voile '+(i===0?'av':'ar');
+      lame.appendChild(lu);
       parts.push({fen:fen, lu:lu});
     });
     mere.appendChild(lame);
@@ -820,8 +864,11 @@ function courber(t,sens){
     const a = T*((k===0?1-bosse:0) + bosse*poids[k]/somme);
     LAMES[k].lame.style.transform='rotateY('+a.toFixed(3)+'deg)';
     cumul+=a;
-    /* une lame de chant ne recoit plus la lumiere */
-    const o=(.62*(1-Math.abs(Math.cos(cumul*Math.PI/180)))).toFixed(3);
+    /* Une lame de chant ne recoit plus la lumiere. sin carre, et pas
+       1 - |cos| : les deux ont la meme forme, mais |cos| fait un angle
+       vif a 90 degres, en plein dans le moment ou la page tourne le
+       plus vite. On voyait la cassure. */
+    const o=(.62*Math.pow(Math.sin(cumul*Math.PI/180),2)).toFixed(3);
     LAMES[k].r.lu.style.opacity=o;
     LAMES[k].v.lu.style.opacity=o;
   }
@@ -841,13 +888,17 @@ function finir(){
   cancelAnimationFrame(rafId);
   if(!anime) return;
   anime=false; spread=vise;
-  LAMES.forEach(function(L){
-    L.lame.style.transform='rotateY(0deg)';
-    L.r.lu.style.opacity=0; L.v.lu.style.opacity=0;
-    L.r.fen.replaceChildren(); L.v.fen.replaceChildren();
-  });
-  feuille.hidden=true;
   poser();
+  /* la feuille ne s'efface qu'une fois la page fixe peinte dessous,
+     sinon on voit un trou d'une image */
+  requestAnimationFrame(function(){
+    feuille.hidden=true;
+    LAMES.forEach(function(L){
+      L.lame.style.transform='rotateY(0deg)';
+      L.r.lu.style.opacity=0; L.v.lu.style.opacity=0;
+      L.r.fen.replaceChildren(); L.v.fen.replaceChildren();
+    });
+  });
 }
 
 function animer(sens,cible){
@@ -923,7 +974,7 @@ function fermerLivre(){
   setTimeout(function(){
     spread=-1; anime=false;
     pG.replaceChildren(); pD.replaceChildren();
-    majEtat();
+    majEtat(); poserIndice(); $('indice').classList.add('on');
   },570);
 }
 
@@ -938,6 +989,7 @@ function majEtat(){
   $('prec').disabled=ferme;
   $('suiv').disabled=!ferme && (spread+1)*2>=PAGES.length;
   $('corne').hidden=ferme || $('suiv').disabled;
+  if(!ferme) $('indice').classList.remove('on');
   const g=spread*2, d=spread*2+1;
   let txt='';
   if(ferme){ txt='Livre fermé' }
@@ -980,6 +1032,20 @@ function poserCrans(){
    5. L'ÉCHELLE — le livre flotte au milieu et remplit ce qu'il peut,
    sans jamais changer sa pagination.
    ================================================================ */
+function poserIndice(){
+  const ind=$('indice');
+  if(spread>=0){ ind.classList.remove('on'); return }
+  const r=couv.getBoundingClientRect();
+  const L=ind.offsetWidth||190, M=30;
+  if(r.right+M+L<=window.innerWidth-16){
+    ind.style.left=Math.round(r.right+M)+'px';
+    ind.style.top=Math.round(r.top+r.height*.44)+'px';
+  }else{
+    ind.style.left=Math.round(r.left)+'px';
+    ind.style.top=Math.round(Math.min(r.bottom+18,window.innerHeight-90))+'px';
+  }
+}
+
 function ajuster(){
   const vw=window.innerWidth, vh=window.innerHeight;
   /* de l air au-dessus et au-dessous : la feuille qui tourne deborde
@@ -988,7 +1054,7 @@ function ajuster(){
   $('cadre').style.transform='scale('+Math.max(.28,k)+')';
 }
 window.addEventListener('resize',function(){
-  ajuster();
+  ajuster(); poserIndice();
   const o=document.querySelector('.glo.ouvert');
   if(o && fiche.classList.contains('on')) poserFiche(o);
 });
@@ -1047,6 +1113,7 @@ document.addEventListener('click',function(e){
 $('prec').addEventListener('click',function(){tourner(-1)});
 $('suiv').addEventListener('click',function(){tourner(1)});
 $('corne').addEventListener('click',function(){tourner(1)});
+$('indice').addEventListener('click',function(){tourner(1)});
 
 document.addEventListener('keydown',function(e){
   if(e.ctrlKey||e.altKey||e.metaKey) return;
@@ -1127,7 +1194,11 @@ function demarrer(){
     requestAnimationFrame(function(){ requestAnimationFrame(function(){
       liv.style.transition='';
     })});
-  }else{ majEtat() }
+  }else{
+    majEtat();
+    poserIndice();
+    setTimeout(function(){ if(spread<0) $('indice').classList.add('on') },900);
+  }
   console.log('L’Éclaircie : '+FIN+' pages, '+LIVRE.length+' chapitres');
 }
 

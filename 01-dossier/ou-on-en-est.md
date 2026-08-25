@@ -8,8 +8,8 @@ l'état du chantier, pas son histoire.*
 ## ✨ Le livre — `06-visuels/atelier/le-livre.html`
 
 **Le roman se lit maintenant comme un livre : double page au format poche, la
-couverture fermée au départ, les pages qui se tournent.** *90 pages, sept
-chapitres, chacun sur une belle page — 5, 19, 37, 55, 65, 73, 79.* Le fichier
+couverture fermée au départ, les pages qui se tournent.** *99 pages, sept
+chapitres, chacun sur une belle page — 5, 19, 39, 59, 71, 79, 87.* Le fichier
 tient tout seul — couverture comprise, aucun appel réseau : il s'ouvre d'un
 double-clic et se donne à lire.
 
@@ -26,6 +26,7 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 | se repérer | folio en bas au centre, titre courant, épaisseur du bloc, réglette à crans |
 | retrouver | `S` ouvre le sommaire de n'importe où · la page se retient d'une séance à l'autre |
 | adresser | `le-livre.html#p63` ouvre directement à la page 63 |
+| au départ | un mot à côté de la couverture dit que les flèches ouvrent le livre |
 | le reste | `G` le glossaire (sans bouton) · `N` la lecture de nuit · `Échap` referme |
 
 **La pagination est calculée dans une géométrie logique fixe, puis le livre est
@@ -50,6 +51,28 @@ qu'elle présente à la lumière — et c'est ce dégradé, plus que la géomét
 donne le relief.
 
 **500 ms.** Les réglages sont en tête du moteur : `NLAME`, `BOSSE`, `SIG`.
+
+⚠️ **L'ombrage se calcule en sin², pas en 1 − |cos|.** *Les deux courbes ont la
+même forme, mais `|cos|` fait un angle vif à 90° — en plein dans le moment où la
+page tourne le plus vite. On voyait la cassure.* **Ne pas y retoucher sans
+retracer la courbe.**
+
+**Les lames portent une âme de papier**, un peu plus large qu'elles, qui bouche
+le jour entre deux lames. *Les voiles d'ombre sont au niveau de la lame et non
+dans les faces : sinon l'âme reste claire quand la page se met de chant, et
+dessine un liseré à chaque couture.*
+
+### La page respire
+
+**26 lignes, interligne à 1,62, marges élargies.** *La page était juste — 28
+lignes de poche — et étouffante : un poche s'imprime pour être lu à bout de bras,
+un écran se lit de face.* La justification ne bouge pas : 54 signes par ligne.
+
+**La dernière ligne d'un paragraphe coupé ne se justifie que si elle est déjà
+presque pleine.** *Un paragraphe coupé par un changement de page continue de
+l'autre côté, donc sa dernière ligne se justifie comme les autres — sauf quand la
+règle anti-veuve raccourcit la coupe : six mots écartelés sur toute la mesure se
+voient de l'autre bout de la pièce.*
 
 ---
 
