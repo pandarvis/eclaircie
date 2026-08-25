@@ -90,6 +90,9 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
   text-indent:0;text-align:center;letter-spacing:.5em;color:var(--encre-3);
   margin:23px 0;height:23px;
 }
+/* Une pause sans marque : une ligne de blanc, et rien d'ecrit. La
+   grille reste juste -- une ligne, pas trois. */
+.bloc p.pause:empty{margin:0;height:23px;letter-spacing:0}
 .bloc em{font-style:italic}
 .ouvre{padding:138px 0 69px;text-align:center}
 .ouvre h2{
@@ -523,7 +526,8 @@ const LIVRE = [
 [`p`,`Ils étaient hommes et femmes, tous experts dans leur domaine, et passaient déjà leurs journées à étudier les capsules, leurs mesures et leurs variations. Il n'y avait donc rien d'étrange à ce qu'ils examinent également ce qui en sortait.`,0],
 [`p`,`C'était, au fond, la même chose.`,0],
 [`p`,`Du moins, c'était ainsi qu'on le présentait.`,0],
-[`p`,`Le couloir était large et linéaire, avec un plafond bas et des appliques disposées tous les six mètres. Pendant vingt pas, on aurait pu se croire dans n'importe quel bâtiment administratif du pays.`,0],
+[`pause`,``,0],
+[`p`,`Le couloir était large et linéaire, avec un plafond bas et des appliques disposées tous les six mètres. Pendant vingt pas, on aurait pu se croire dans n'importe quel bâtiment administratif du pays.`,1],
 [`p`,`Puis le plafond montait.`,0],
 [`p`,`Il montait d'un coup, et continuait de monter.`,0],
 [`p`,`À mesure qu'il s'élevait, les lampes devenaient inutiles. On ne les éteignait pas — personne n'avait jamais reçu l'ordre de le faire — mais quelque chose de plus grand qu'elles arrivait par le haut. Le jour tombait de très loin, en longues obliques. Sur les dalles, il déposait des plaques claires que l'on pouvait traverser ou contourner.`,0],

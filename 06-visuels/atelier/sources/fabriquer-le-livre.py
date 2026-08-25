@@ -390,6 +390,9 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
   text-indent:0;text-align:center;letter-spacing:.5em;color:var(--encre-3);
   margin:{{LIGNE}}px 0;height:{{LIGNE}}px;
 }
+/* Une pause sans marque : une ligne de blanc, et rien d'ecrit. La
+   grille reste juste -- une ligne, pas trois. */
+.bloc p.pause:empty{margin:0;height:{{LIGNE}}px;letter-spacing:0}
 .bloc em{font-style:italic}
 .ouvre{padding:{{OUVRE_HAUT}}px 0 {{OUVRE_BAS}}px;text-align:center}
 .ouvre h2{

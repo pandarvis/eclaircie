@@ -30,6 +30,17 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 | au départ | un mot à côté de la couverture nomme les deux flèches — celles de l’écran et celles du clavier |
 | le reste | `G` le glossaire (sans bouton) · `N` la lecture de nuit · `Échap` referme |
 
+### Deux marques de respiration
+
+| dans la source | à l'écran |
+|---|---|
+| `[pause]` avec les trois points | une rupture de scène : `· · ·`, trois lignes de blanc |
+| **`[pause]` avec rien dedans** | **un blanc d'une ligne**, sans marque — la scène ne se coupe pas, elle respire |
+
+*On n'a pas inventé de genre pour ça : huit outils connaissent la liste des genres,
+et celui qu'on oublie perd le blanc en silence.* **Une pause vide fait le travail,
+et seule sa présentation change.**
+
 ### Les sauts de page demandés
 
 **Un saut forcé s'ancre sur le texte, jamais sur un numéro de page** — la

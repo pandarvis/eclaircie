@@ -199,6 +199,7 @@ const TEXTES = [{
 [`p`,`Ils étaient hommes et femmes, tous experts dans leur domaine, et passaient déjà leurs journées à étudier les capsules, leurs mesures et leurs variations. Il n'y avait donc rien d'étrange à ce qu'ils examinent également ce qui en sortait.`],
 [`p`,`C'était, au fond, la même chose.`],
 [`p`,`Du moins, c'était ainsi qu'on le présentait.`],
+[`pause`,``],
 [`p`,`Le couloir était large et linéaire, avec un plafond bas et des appliques disposées tous les six mètres. Pendant vingt pas, on aurait pu se croire dans n'importe quel bâtiment administratif du pays.`],
 [`p`,`Puis le plafond montait.`],
 [`p`,`Il montait d'un coup, et continuait de monter.`],

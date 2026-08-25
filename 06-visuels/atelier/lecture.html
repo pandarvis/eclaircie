@@ -671,6 +671,9 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .page .txt p.pause{
   text-align:center;text-indent:0;color:var(--texte-4);margin:1.9em 0;letter-spacing:.5em;
 }
+/* Une pause sans marque : un blanc d'une ligne, et rien d'ecrit. Elle
+   sert quand la scene ne se coupe pas, mais qu'elle respire. */
+.page .txt p.pause:empty{margin:0;height:1.82em;letter-spacing:0}
 .page .txt p.fin{margin-top:1.6em}
 .page .txt em{font-style:italic}
 
@@ -1418,6 +1421,7 @@ const TEXTES = [
 [`p`,`Ils étaient hommes et femmes, tous experts dans leur domaine, et passaient déjà leurs journées à étudier les capsules, leurs mesures et leurs variations. Il n'y avait donc rien d'étrange à ce qu'ils examinent également ce qui en sortait.`],
 [`p`,`C'était, au fond, la même chose.`],
 [`p`,`Du moins, c'était ainsi qu'on le présentait.`],
+[`pause`,``],
 [`p`,`Le couloir était large et linéaire, avec un plafond bas et des appliques disposées tous les six mètres. Pendant vingt pas, on aurait pu se croire dans n'importe quel bâtiment administratif du pays.`],
 [`p`,`Puis le plafond montait.`],
 [`p`,`Il montait d'un coup, et continuait de monter.`],
