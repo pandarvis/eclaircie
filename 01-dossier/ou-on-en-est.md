@@ -57,10 +57,18 @@ même forme, mais `|cos|` fait un angle vif à 90° — en plein dans le moment 
 page tourne le plus vite. On voyait la cassure.* **Ne pas y retoucher sans
 retracer la courbe.**
 
-**Les lames portent une âme de papier**, un peu plus large qu'elles, qui bouche
-le jour entre deux lames. *Les voiles d'ombre sont au niveau de la lame et non
-dans les faces : sinon l'âme reste claire quand la page se met de chant, et
-dessine un liseré à chaque couture.*
+⚠️ **Les lames s'empilent, elles ne se juxtaposent pas.** *Deux lames voisines qui
+se touchent exactement sont rasterisées séparément : au pixel de la couture,
+chacune ne couvre que la moitié et un quart du fond passe au travers.* Chaque
+lame déborde donc d'un pixel sur sa voisine, **et ce débordement passe derrière
+elle** — ce qui fuit par la couture est alors le même texte au même endroit.
+L'empilement tient à un décalage de profondeur de 0,12 px par lame. *Ordre, du
+fond vers l'œil : face k, son voile, face k+1, son voile.*
+
+⚠️ **L'ombre court en dégradé, pas par lame.** *Une lame est une facette plate ;
+une seule valeur d'ombre par lame se lit comme quatorze bandes dès que la feuille
+s'incline.* Chaque voile va de l'ombre de son bord d'entrée à celle de son bord
+de sortie — et la sortie de l'une est l'entrée de la suivante.
 
 ### La page respire
 

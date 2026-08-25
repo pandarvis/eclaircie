@@ -144,31 +144,27 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 #couv{z-index:9}
 #feuille{z-index:8}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
-.face.recto{transform:translateZ(.4px)}
-.face.verso{transform:rotateY(180deg) translateZ(.4px)}
+/* la profondeur exacte de chaque face est posee lame par lame */
+.face.verso{transform:rotateY(180deg)}
 
 /* Les lames : la feuille est courbe parce qu'elle est articulee. */
 .lame{position:absolute;top:0;height:752px;transform-origin:0 50%;transform-style:preserve-3d}
-/* L'ame de la feuille : un fond de papier un peu plus large que la lame.
-   Le jour entre deux lames laisse voir cette ame au lieu du bureau, et
-   comme c'est une couleur plate, on ne la voit pas. */
-.ame{
-  position:absolute;left:-1px;right:-1px;top:0;bottom:0;
-  background:var(--papier);
-}
-.lame>.face{left:0;top:0;right:auto;bottom:auto;width:100%;height:100%}
+/* Chaque lame deborde d'un pixel sur sa voisine, et ce debordement
+   passe DERRIERE elle : ce qui fuit par la couture est alors le meme
+   texte au meme endroit, et la couture disparait. */
+.lame>.face{left:0;top:0;right:auto;bottom:auto;width:calc(100% + 1px);height:100%}
 .fen{position:absolute;top:0;width:470px;height:752px}
-/* Les voiles d'ombre sont AU NIVEAU DE LA LAME, devant tout le reste :
-   ils couvrent l'ame en meme temps que la face, sinon elle restait
-   claire quand la page se met de chant, et ca dessinait un lisere a
-   chaque couture. Un voile par sens de vue, chacun invisible de dos. */
+/* Les voiles d'ombre sont AU NIVEAU DE LA LAME, devant tout le reste,
+   et ils font EXACTEMENT sa largeur : debordants, ils se superposaient
+   d'une couture a l'autre et l'ombre y comptait double. L'ame, elle,
+   depasse toujours d'un pixel -- elle s'assombrit par filtre, voir
+   courber(). Un voile par sens de vue, chacun invisible de dos. */
 .voile{
-  position:absolute;left:-1px;right:-1px;top:0;bottom:0;pointer-events:none;
-  background:#0A0805;opacity:0;
+  position:absolute;left:0;top:0;bottom:0;width:calc(100% + 1px);
+  pointer-events:none;background:none;
   backface-visibility:hidden;-webkit-backface-visibility:hidden;
 }
-.voile.av{transform:translateZ(.9px)}
-.voile.ar{transform:rotateY(180deg) translateZ(.9px)}
+.voile.ar{transform:rotateY(180deg)}
 
 /* Quand le livre est ferme, il n'y a que la couverture : le contre-plat
    restait affiche a cote d'elle, et faisait un carre sombre. */
@@ -1758,17 +1754,20 @@ const LAMES=(function(){
     lame.className='lame';
     lame.style.left=(k===0?0:LW)+'px';
     lame.style.width=LW+'px';
-    const ame=document.createElement('div'); ame.className='ame';
-    lame.appendChild(ame);
+    /* du fond vers l'oeil : face k, son voile, face k+1, son voile */
+    const zf=(k*.12).toFixed(3)+'px', zv=(k*.12+.06).toFixed(3)+'px';
     const parts=[];
     ['recto','verso'].forEach(function(quel,i){
+      const dos=(i===0?'':'rotateY(180deg) ');
       const f=document.createElement('div'); f.className='face '+quel;
+      f.style.transform=dos+'translateZ('+zf+')';
       const fen=document.createElement('div'); fen.className='fen';
       /* le recto se lit depuis la reliure, le verso depuis son bord oppose */
       fen.style.left=(i===0 ? -k*LW : -(470-(k+1)*LW))+'px';
       f.appendChild(fen); lame.appendChild(f);
       const lu=document.createElement('div');
       lu.className='voile '+(i===0?'av':'ar');
+      lu.style.transform=dos+'translateZ('+zv+')';
       lame.appendChild(lu);
       parts.push({fen:fen, lu:lu});
     });
@@ -1803,14 +1802,21 @@ function courber(t,sens){
   for(let k=0;k<NLAME;k++){
     const a = T*((k===0?1-bosse:0) + bosse*poids[k]/somme);
     LAMES[k].lame.style.transform='rotateY('+a.toFixed(3)+'deg)';
+    const entree=cumul;
     cumul+=a;
     /* Une lame de chant ne recoit plus la lumiere. sin carre, et pas
        1 - |cos| : les deux ont la meme forme, mais |cos| fait un angle
        vif a 90 degres, en plein dans le moment ou la page tourne le
        plus vite. On voyait la cassure. */
-    const o=(.62*Math.pow(Math.sin(cumul*Math.PI/180),2)).toFixed(3);
-    LAMES[k].r.lu.style.opacity=o;
-    LAMES[k].v.lu.style.opacity=o;
+    /* Le voile va de l'ombre du bord d'entree a celle du bord de sortie,
+       et la sortie de l'une est l'entree de la suivante : l'ombre court
+       sans marche d'un bout a l'autre de la feuille. */
+    const o0=(.62*Math.pow(Math.sin(entree*Math.PI/180),2)).toFixed(3);
+    const o1=(.62*Math.pow(Math.sin(cumul*Math.PI/180),2)).toFixed(3);
+    LAMES[k].r.lu.style.backgroundImage=
+      'linear-gradient(90deg,rgba(0,0,0,'+o0+'),rgba(0,0,0,'+o1+'))';
+    LAMES[k].v.lu.style.backgroundImage=
+      'linear-gradient(270deg,rgba(0,0,0,'+o0+'),rgba(0,0,0,'+o1+'))';
   }
 }
 
@@ -1832,10 +1838,12 @@ function finir(){
   /* la feuille ne s'efface qu'une fois la page fixe peinte dessous,
      sinon on voit un trou d'une image */
   requestAnimationFrame(function(){
+    if(anime) return;   /* un autre tour a repris la main entre-temps */
     feuille.hidden=true;
     LAMES.forEach(function(L){
       L.lame.style.transform='rotateY(0deg)';
-      L.r.lu.style.opacity=0; L.v.lu.style.opacity=0;
+      L.r.lu.style.backgroundImage='none';
+    L.v.lu.style.backgroundImage='none';
       L.r.fen.replaceChildren(); L.v.fen.replaceChildren();
     });
   });
