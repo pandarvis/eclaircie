@@ -220,6 +220,7 @@ filtre masque celui du script.*
 | `citations.py` | vérifie que ce que les fiches citent existe encore dans le texte |
 | `reprendre-la-revision.py` | reprend un fichier corrigé par l'autrice, réouvre et repose le verrou |
 | `fabriquer-le-livre.py` | fabrique `le-livre.html` ; il tourne à chaque fabrication, le livre ne peut pas prendre de retard sur le texte |
+| `poser-un-blanc.py` | pose ou ôte un blanc d'une ligne entre deux paragraphes ; refuse si l'ancre est absente, ambiguë, pas en fin de paragraphe, ou si le chapitre est verrouillé |
 
 *Le sommaire de la version de lecture vérifie aussi que ses accroches choisies existent
 mot pour mot dans le texte.*
