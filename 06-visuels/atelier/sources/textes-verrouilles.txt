@@ -9,3 +9,4 @@ chapitre-3   29838e1ffcbc5ef97bcd39d0823dfd0fab788c8478d777d85006534969e3afa2  #
 chapitre-4   918fc41d89e3b0f94754a67daa0e4e5fd9fa044eb16e530b70b52e2a6e22c5e6  # 138 paragraphes
 chapitre-5   fab881fe224993cfe5f5ed8703239a74f4fd05b9e23d5d460f49c9d817aea049  # 106 paragraphes
 chapitre-6   0e2432a3a53ecf1116bfa9c550e186097363c30e45b2ce28caac00e85c88d2f6  # 214 paragraphes
+epilogue     36911b630e2e05ea044c9fc3020624366e0ccac473d1d9c4bd25ac4ff02cb678  # 118 paragraphes
