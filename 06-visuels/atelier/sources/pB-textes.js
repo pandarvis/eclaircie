@@ -1219,6 +1219,7 @@ const TEXTES = [{
 [`tiret`,`— Tu veux m'accompagner ?`],
 [`tiret`,`— Je viens.`],
 [`p`,`Il remit les deux photographies dans la chemise, en aligna soigneusement le bord avec celui du bureau et la lui rendit.`],
+[`pause`,``],
 [`p`,`Sur le banc, les deux hommes attendaient toujours.`],
 [`p`,`Celui qui avait un sac le reprit sur ses genoux lorsqu'ils passèrent devant lui. Il le garda ainsi jusqu'à ce que la porte se referme derrière eux.`],
 [`p`,`Puis il le reposa à ses pieds.`],
