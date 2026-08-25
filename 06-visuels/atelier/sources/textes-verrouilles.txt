@@ -3,3 +3,4 @@
 # Pour en corriger un : --ouvrir <id>, corriger, --poser.
 
 prologue     10c240dbf786b25c3f224ef38df6bb1f3acb70a2dfc8a66cadf3c0cf44d2da30  # 115 paragraphes
+chapitre-1   959fbd857e33f0723f56889e0924763b6fb8025d18ca495d23ac5642256666c3  # 187 paragraphes
