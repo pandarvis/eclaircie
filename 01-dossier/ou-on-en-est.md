@@ -115,13 +115,20 @@ de sortie — et la sortie de l'une est l'entrée de la suivante.
 lignes de poche — et étouffante : un poche s'imprime pour être lu à bout de bras,
 un écran se lit de face.* La justification ne bouge pas : 54 signes par ligne.
 
-⚠️ **Un paragraphe coupé par un changement de page recule d'une ligne entière
-plutôt que de laisser un moignon.** *Sa dernière ligne se justifie comme les
-autres — c'est le seul signal qui dit au lecteur que la phrase n'est pas finie.*
-Quand la règle anti-veuve la raccourcit, on ne baisse pas la justification : **on
-recule d'une ligne complète**, et celle qui devient la dernière appartient au flux
-naturel du paragraphe, donc elle est pleine. *Coût : une ligne de blanc en bas de
-page.* Mesuré sur le livre entier : **13 coupes, toutes à 100 % de remplissage.**
+⚠️ **Une coupe de paragraphe ne se signale que d'une façon : sa dernière ligne
+est justifiée, donc pleine.** *Sinon le lecteur tourne la page et trouve une
+phrase qui commence en minuscule, sans alinéa — et sur une réplique, sans tiret.*
+
+Deux règles, dans cet ordre :
+1. **On recule d'une ligne entière** — celle qui devient la dernière appartient au
+   flux naturel du paragraphe, donc elle est pleine.
+2. **Si c'est impossible, on ne coupe pas.** *Un préfixe de deux lignes ne peut pas
+   reculer sans laisser une orpheline ; le paragraphe entier passe à la page
+   suivante.*
+
+*Prix : deux ou trois lignes de blanc sur six pages. Un livre en a partout ; une
+phrase coupée qui ne se voit pas, non.* Mesuré sur le livre entier : **11 coupes,
+toutes à 100 % de remplissage, toutes justifiées.**
 
 ---
 

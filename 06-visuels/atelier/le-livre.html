@@ -1735,9 +1735,11 @@ function couper(it,n){
     n.innerHTML=rendre(t.mots.slice(0,best),t.gard);
   }
 
-  /* Filet : si la derniere ligne reste vraiment courte, on la laisse
-     courir plutot que d'ecarteler six mots sur toute la mesure. */
-  if(largeurDerniereLigne(n)>=TW*.62) n.className=(n.className+' coupe').trim();
+  /* Derniere ligne toujours courte ? On ne coupe pas. Le paragraphe
+     entier passe a la page suivante : deux ou trois lignes de blanc en
+     bas de page valent mieux qu'une phrase coupee qui ne se voit pas. */
+  if(largeurDerniereLigne(n)<TW*.82){ banc.removeChild(n); return null }
+  n.className=(n.className+' coupe').trim();
   if(!tient()){ banc.removeChild(n); return null }
   return {apres:[it[0], rendre(t.mots.slice(best),t.gard), 1]};
 }
