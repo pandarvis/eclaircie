@@ -32,11 +32,14 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 
 ### La relecture d'août
 
-| chapitre | blancs posés | autre |
-|---|---|---|
-| Prologue | — | une phrase de trop retirée, un saut de page |
-| Chapitre I | 13 | *l'écusson de la ruche* |
-| Chapitre II | 28 | — |
+| chapitre | blancs posés | autre | |
+|---|---|---|---|
+| Prologue | — | une phrase de trop retirée, un saut de page | 🔒 |
+| Chapitre I | 13 | *l'écusson de la ruche* | 🔒 |
+| Chapitre II | 28 | — | 🔒 |
+| Chapitre III | 12 | *ce qu'il avait dit en sortant de sa capsule* · *un temps d'arrêt* | ❓ |
+| Chapitre IV | 8 | *Bonjour Julie* sans virgule | 🔒 |
+| Chapitre V | 8 | — | ❓ |
 
 *Les blancs sont une demande de rythme, pas une correction de texte : le chapitre
 deuxième en compte vingt-huit pour 274 paragraphes, soit une respiration toutes
@@ -140,7 +143,7 @@ toutes à 100 % de remplissage, toutes justifiées.**
 | 1 | Une journée à la ruche | `capsule` | 3 747 | 🔒 **relu et reverrouillé** |
 | 2 | L'aquarium | `s1` | 3 451 | 🔒 **relu et verrouillé** |
 | 3 | La tournée | `s2` | 1 834 | ✅ validé |
-| 4 | La maison | `s3` | 1 245 | ✅ passe d'autrice appliquée |
+| 4 | La maison | `s3` | 1 245 | 🔒 **relu et verrouillé** |
 | 5 | Le poste | `s4` | 1 165 | ✅ passe d'autrice appliquée |
 | 6 | **Première investigation** | `s5` | 2 332 | ⚠️ **écrit aujourd'hui, relecture à froid demain** |
 | — | Épilogue | `jardin-fin` | 2 631 | 🔒 verrouillé |
@@ -215,6 +218,9 @@ une modification involontaire.*
 ✅ *Prologue relu et verrouillé le 25 août 2026 — 115 paragraphes.*
 ✅ *Chapitre premier relu et verrouillé le 25 août 2026 — 187 paragraphes.*
 ✅ *Chapitre deuxième relu et verrouillé le 25 août 2026 — 274 paragraphes.*
+✅ *Chapitre quatrième relu et verrouillé le 25 août 2026 — 138 paragraphes.*
+❓ **Le chapitre troisième a reçu ses blancs mais n'a pas été validé** — *elle est
+passée au quatrième sans le dire.* Il reste ouvert.
 
 ⚠️ ***pédiatre* est mort le 20 août et vit encore dans 15 fichiers.** *Certaines
 occurrences sont légitimes — les interdits doivent le nommer pour l'interdire. Les
