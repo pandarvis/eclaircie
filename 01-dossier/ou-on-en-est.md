@@ -243,10 +243,12 @@ tourner si l'un d'eux bouge.
 ✅ *Chapitre sixième relu et verrouillé le 25 août 2026 — 214 paragraphes.*
 ✅ *Épilogue validé et verrouillé le 25 août 2026 — 118 paragraphes.*
 
-### Ce qui attend
+### En attente, à sa main
 
-**Les fiches de personnages de la version bêta** — June, Julie, Paul — *sont de moi et
-n'ont jamais été relues.*
+⛔ **Ne pas le rappeler.** *Elle s'y mettra quand elle voudra.*
+
+*Les fiches de personnages de la version bêta — June, Julie, Paul — sont de moi et
+n'ont jamais été relues par l'autrice.*
 
 ### Ajourné jusqu'à la description du jardin
 
