@@ -1125,7 +1125,7 @@ const TEXTES = [{
 [`p`,`Il resta un moment devant le comptoir.`],
 [`p`,`Personne ne vint.`],
 [`pause`,``],
-[`p`,`Au troisième bureau, un homme leva la tête et le vit arriver dans le couloir.`],
+[`p`,`Au troisième bureau, un homme leva la tête et le remarqua.`],
 [`p`,`Il était grand, avec une silhouette large et pleine, des épaules qui donnaient de l'ampleur à toute sa carrure. Le teint sombre, le visage large et les traits réguliers. Une barbe noire et dense, taillée court, remontait sur les joues et soulignait la mâchoire. Ses cheveux, épais et nettement ondulés, étaient coupés plus court sur les côtés.`],
 [`pause`,``],
 [`tiret`,`— Pourrais-je savoir ce qui me vaut ta visite en cette belle matinée de printemps ? Les jours de repos ne sont plus ce qu'ils étaient.`],
