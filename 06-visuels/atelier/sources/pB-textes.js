@@ -904,7 +904,7 @@ const TEXTES = [{
 [`tiret`,`— En tout cas, un porteur de voiles de cet âge…`],
 [`p`,`Elle secoua lentement la tête.`],
 [`tiret`,`— Je n'en avais jamais vu.`],
-[`p`,`Elle inspira, marqua une pause. Avant de poser le pied sur la marche suivante, elle posa la paume de sa main sur son épaule.`],
+[`p`,`Elle inspira, marqua un temps d'arrêt. Avant de poser le pied sur la marche suivante, elle posa la paume de sa main sur son épaule.`],
 [`tiret`,`— Merci, en tout cas. De prendre de votre temps pour lui.`],
 [`p`,`Il hocha la tête sans rien dire. Elle lui répondit d'un signe, puis rentra chez elle ; la porte se referma doucement sur sa silhouette.`],
 [`pause`,``],

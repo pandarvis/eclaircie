@@ -667,7 +667,10 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 }
 .page .txt p.tiret{text-indent:0}
 .page .txt p+p:not(.tiret):not(.pause){text-indent:1.5em}
-.page .txt p.pause+p{text-indent:0}
+/* Quatre classes de chaque cote, et celle-ci passe en dernier :
+   sans ca la regle generale l emporte, et le paragraphe qui suit
+   une pause garde son alinea alors que le blanc le dit deja. */
+.page .txt p.pause+p:not(.tiret){text-indent:0}
 .page .txt p.pause{
   text-align:center;text-indent:0;color:var(--texte-4);margin:1.9em 0;letter-spacing:.5em;
 }
@@ -6586,7 +6589,7 @@ const TEXTES = [{
 [`tiret`,`— En tout cas, un porteur de voiles de cet âge…`],
 [`p`,`Elle secoua lentement la tête.`],
 [`tiret`,`— Je n'en avais jamais vu.`],
-[`p`,`Elle inspira, marqua une pause. Avant de poser le pied sur la marche suivante, elle posa la paume de sa main sur son épaule.`],
+[`p`,`Elle inspira, marqua un temps d'arrêt. Avant de poser le pied sur la marche suivante, elle posa la paume de sa main sur son épaule.`],
 [`tiret`,`— Merci, en tout cas. De prendre de votre temps pour lui.`],
 [`p`,`Il hocha la tête sans rien dire. Elle lui répondit d'un signe, puis rentra chez elle ; la porte se referma doucement sur sa silhouette.`],
 [`pause`,``],
