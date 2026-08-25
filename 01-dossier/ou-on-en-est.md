@@ -104,7 +104,7 @@ voient de l'autre bout de la pièce.*
 
 | # | Titre | Scène | Mots | État |
 |---|---|---|---|---|
-| — | Prologue — La cérémonie | `ouv` | 2 644 | 🔒 verrouillé |
+| — | Prologue — La cérémonie | `ouv` | 2 628 | 🔒 **relu et reverrouillé** |
 | 1 | Une journée à la ruche | `capsule` | 3 765 | 🔒 verrouillé |
 | 2 | L'aquarium | `s1` | 3 451 | ✅ validé |
 | 3 | La tournée | `s2` | 1 834 | ✅ validé |
@@ -177,10 +177,10 @@ aujourd'hui ; personne ne l'a lu d'une traite depuis.*
 et l'épilogue le sont.* ❓ *Faut-il figer* La maison, Le poste *et* Première
 investigation ?
 
-⚠️ **Les trois verrous sont ouverts** — *prologue, chapitre premier, épilogue.*
-L'autrice relit et corrige ; **elle dira quand reposer chacun.** *Tant qu'ils sont
-ouverts, la fabrication ne protège plus ces textes contre une modification
-involontaire.*
+⚠️ **Deux verrous restent ouverts** — *chapitre premier et épilogue.* L'autrice
+relit et corrige ; **elle dira quand reposer chacun.** *Tant qu'ils sont ouverts,
+la fabrication ne protège plus ces textes contre une modification involontaire.*
+✅ *Le prologue a été relu et reverrouillé le 25 août 2026, 115 paragraphes.*
 
 ⚠️ ***pédiatre* est mort le 20 août et vit encore dans 15 fichiers.** *Certaines
 occurrences sont légitimes — les interdits doivent le nommer pour l'interdire. Les

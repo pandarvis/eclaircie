@@ -2,3 +2,4 @@
 # Un chapitre d'ici ne bouge que sur demande explicite de l'autrice.
 # Pour en corriger un : --ouvrir <id>, corriger, --poser.
 
+prologue     10c240dbf786b25c3f224ef38df6bb1f3acb70a2dfc8a66cadf3c0cf44d2da30  # 115 paragraphes
