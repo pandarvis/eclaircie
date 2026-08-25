@@ -439,8 +439,7 @@
     txt:`<p>Un guichet et des chaises. Une salle d'attente de clinique, et rien d'autre.</p>
     <p>C'est ici que le veilleur récupère <em>un papier avec le numéro de sa salle du jour</em>. Il ne s'assoit pas, il ne parle à personne, il repart.</p>
     <div class="cite">On lui avait donné la salle 4 pour les deux. C'était trop grand, et il n'avait rien dit.</div>
-    <p>Les visiteurs, eux, bifurquent ici vers leur propre couloir, sur la droite.</p>
-    <div class="r-puce"><i>◦</i><span><b>La blague du livre est là.</b> Le lecteur sort d'une cérémonie de sanctuaire et tombe sur un guichet.</span></div>`},
+    <p>Les visiteurs, eux, bifurquent ici vers leur propre couloir, sur la droite.</p>`},
   
    couloir:{n:'02',t:'Le grand couloir',s:'De l\'accueil au cœur',
     txt:`<p>Il commence banal. Des néons au plafond, un sol qu'on lave, un couloir comme il en existe partout.</p>
@@ -461,7 +460,6 @@
     <p>Des stèles. Des gravures. L'aspect d'une ruine abandonnée sans que ce soit une ruine.</p>
     <div class="cite">Les lignes s'inscrivent. Personne ne les écrit. Et personne ne peut écrire à la place de celui qui les écrit.</div>
     <p>Une ligne par lot de capsules arrivées en même temps. Une année, un âge, et c'est tout. <b>Le registre ne ment pas.</b></p>
-    <div class="r-puce"><i>◦</i><span><b>Il est au centre, pas au fond.</b> C'est de là que sortent les capsules.</span></div>
     <div class="r-puce"><i>◦</i><span>Les hommes y ont posé <b>une porte massive et très ornementée</b>. On pourrait entrer. Presque personne ne le fait.</span></div>`},
   
    ceremonie:{n:'05',t:'Les salles de cérémonie',s:'Les pétales',
@@ -488,8 +486,7 @@
     <p>Cette capsule s'ouvrira aujourd'hui. Celle-là, dans deux semaines.</p>
     <div class="r-puce"><i>◦</i><span><b>Ils prédisent quand, jamais qui.</b> L'âge de celui qui sortira reste inconnu jusqu'à l'ouverture.</span></div>
     <div class="r-puce"><i>◦</i><span>C'est ce travail qui permet d'annoncer une cérémonie à l'avance — donc d'avoir du public.</span></div>
-    <p>Un gynécologue, si l'on veut : ils suivent la gestation de la capsule, puis le post-partum de l'arrivant.</p>
-    <div class="cite">Ce que personne ne verra jamais : le délai de maturation étant celui de l'agonie, leurs registres sont un relevé exact du temps que chaque arrivant a mis à mourir de l'autre côté. Des étagères entières.</div>`},
+    <div class="cite scelle">Ce que personne ne verra jamais : le délai de maturation étant celui de l'agonie, leurs registres sont un relevé exact du temps que chaque arrivant a mis à mourir de l'autre côté. Des étagères entières.</div>`},
   
    repos:{n:'09',t:'La salle de repos',s:'Pour tout le monde',
     txt:`<p>Collée au grand couloir, et commune à tous ceux qui travaillent ici — veilleurs, préparateurs, analystes, assistants.</p>

@@ -146,6 +146,20 @@ Quelqu'un de huit ans au jardin a peut-être quarante ans d'expérience derrièr
 
 ---
 
+## Comment lire ces interdits
+
+> **Règle de travail, 25 août 2026.** *« Tes garde-fous doivent quand même être intelligents. Je te propose plutôt de me dire si ça contraint, que de t'interdire par défaut : demande mon avis. »*
+
+**Un interdit interdit ce qu'il nomme, pas le champ lexical autour.** ⛔ *Élargir une règle « pour être sûr » n'est pas de la prudence : c'est une décision d'écriture prise à la place de l'autrice, et elle se paie en mots justes.*
+
+**Trois cas le même jour.** *La règle sur les capsules pourries est devenue une interdiction du mot* peau *jusque sur un visage.* *La note disant que le collègue de Joël **s'appelle** Liam a été lue comme l'obligation de le **nommer**.* *Et la garde disant que la terreur de l'eau ne se **commente** pas a fait refuser le mot* bouée *dans une métaphore ordinaire.*
+
+✅ **Donc : en cas de doute, écrire la phrase et signaler la tension.** *« Ça contraint ceci — tu veux quoi ? »* ⛔ **Jamais contourner en silence.**
+
+⚠️ **Ce qui ne change pas : les gardes mécaniques restent strictes.** *Un contrôleur ne juge pas le contexte ; c'est à lui d'être littéral, et à nous de lire.*
+
+---
+
 # Ce qui n'est pas un interdit
 
 Ces règles portent sur le **texte du roman**, et sur lui seul.
@@ -155,6 +169,18 @@ La bible d'autrice n'est soumise à aucune d'entre elles. Les documents de trava
 Rappel du §14 :
 
 > **L'autrice doit connaître le système au chiffre près, pour que le monde soit solide. Le lecteur doit juste savoir qui envier.**
+
+## Et le vocabulaire des objets n'est pas un interdit non plus
+
+> **Décision de l'autrice, 22 août 2026.** *« On reste dans un monde alternatif. Il y a des technologies qui ont évolué ici aussi, elles s'appellent peut-être pas de la même manière, mais on parle déjà de voiture par exemple. Si on doit trouver un nom à chaque objet différent du nom qu'on a ici, le glossaire va juste exploser inutilement. Et à chaque fois qu'on sera dans des chapitres Joël, on sera cramé direct. »*
+
+**Les trois catégories du n° 11 visent des mots qui ne désignent rien ici** — la parenté, les noms de famille, l'enfance et la vieillesse comme catégories. *Ils n'ont pas d'objet, c'est pour ça qu'ils sont interdits.*
+
+⛔ **Un objet qui existe des deux côtés garde son nom des deux côtés.** *Une voiture est une voiture. Un biberon est un biberon. Un poteau, une porte, une caisse, un trottoir.* **On ne rebaptise rien.**
+
+🔴 **Et ce n'est pas une facilité, c'est une exigence du dispositif.** *Les chapitres de Joël doivent être superposables à ceux d'Andrew* — **un vocabulaire d'objets qui changerait d'un monde à l'autre trahirait la couture à la première page**, et le lecteur saurait au mot près quand il change de récit. *Ce qui change entre les deux mondes, ce sont les mots qui n'ont pas d'objet. Pas les choses.*
+
+*Voir aussi la section « Ce qui vaut pour les trois » du n° 11 : la langue change avec le monde, mais elle ne change que là où le monde a réellement changé.*
 
 
 ---
@@ -174,6 +200,30 @@ Rappel du §14 :
 *Chacun suppose une place dans une lignée ou une direction dans une vie, et ni l'une ni l'autre n'existent ici.*
 
 ⚠️ **Le validateur de l'atelier avait été écrit plus sévère que l'interdit** — il bannissait *garçon*, *gamin* et *gosse*. **Il porte désormais la liste de l'autrice**, pas la mienne. Voir `06-visuels/atelier/valide.js`.
+
+## 11 quater. Les mots morts — anciennes appellations, proscrites
+
+*Ajouté le 20 août 2026, en fusionnant le glossaire et le lexique : ces quatre-là traînaient
+dans une liste de travail et n'étaient écrits nulle part ici.*
+
+| Mot mort | Ce qu'on dit | Pourquoi |
+|---|---|---|
+| **le palier** | **le plateau** (la phase), **le jardin** (le lieu) | vocabulaire arrêté ; le palier était l'ancien mot du dossier |
+| **le capot** | **le rabat** | ce n'était pas le bon mot : rien dans une capsule n'est dur |
+| **pédiatre**, sous toutes ses formes | *à trouver* | le mot suppose l'enfance, que cette langue n'a jamais formée. ⛔ Ni *pédiatres du jardin*, ni *pédiatre pour vieux* |
+| **arrivant voilé** | **porteur de voiles** | trop connoté |
+
+## 11 quinquies. Le mot « peau » — pour un corps, jamais pour une capsule
+
+> **Correction de l'autrice, 24 août 2026.** *« C'était proscrit pour parler des capsules
+> pourries. Bien sûr qu'on peut parler de la couleur de peau. »*
+
+⛔ **Interdit pour une capsule, une paroi, un rabat, un fruit** — *rien ne doit laisser croire
+qu'il y a quelqu'un dedans.* ✅ **Libre pour un corps**, comme le disait déjà le n° 11 :
+*« le physique n'est pas interdit une seconde ».*
+
+*La règle avait été écrite trop large le 19 août, et le contrôleur la prenait au mot. Il
+signale désormais, sans bloquer, quand le mot voisine une capsule.*
 
 ## 11 ter. Aucun vocabulaire de mécanique sur une capsule
 

@@ -2,170 +2,144 @@
 
 *Page de fin de volume. Se lit vite, se consulte en cours de lecture, ne raconte rien.*
 
+> ⚠️ **Cette page est générée depuis [`../02-univers/le-glossaire.md`](../02-univers/le-glossaire.md).**
+> *On corrige là-bas, jamais ici.*
+
 ---
 
-**Accueil.** Première pièce de la ruche : un guichet, une vitre, des chaises, des plantes en
-pot. Les visiteurs y attendent qu'on vienne les chercher. Les gens du service passent
-derrière sans s'arrêter.
+**Analyste.** Métier de la serre, **et c'est un seul métier à deux faces.** Devant les
+capsules il ne mesure rien : il regarde, il note, il compare — la couleur, l'avancée de
+l'éclaircie, l'intervalle entre deux relevés. **Un relèvement seul ne donne rien : il en faut
+quatre au minimum**, croisés avec des moyennes accumulées sur des années, pour chiffrer une
+date. Puis il reçoit les arrivants en consultation, juste après leur sortie. *Les deux tâches
+sont à lui, et il n'existe pas de spécialité qui n'en ferait qu'une.* **L'analyste dit quand ;
+il ne dit jamais qui.**
 
-**Analyste.** Métier de la serre. Regarde mûrir les capsules, note leur avancée, compare, et
-annonce la date d'une éclaircie. Reçoit aussi les arrivants en consultation, juste après.
-**L'analyste dit quand ; il ne dit jamais qui.** Sur une date, c'est lui qui a le dernier mot.
+**Archiviste.** La ruche prise comme une seule entité. Elle ne parle pas, ne juge pas devant
+témoin, ne console personne : elle classe. **Ce n'est pas quelqu'un qu'on prie, c'est un
+service d'archives** — on le consulte, et il ne répond jamais. *« L'Archiviste lui a compté
+soixante-seize ans. »*
 
-**Archiviste.** La ruche prise comme une seule entité. Ne parle pas, ne juge pas devant
-témoin, ne console personne : elle classe. *« L'Archiviste lui a compté soixante-seize ans. »*
+**Arrivant.** Celui qui sort d'une capsule. Il a l'âge complet dans son corps et rien dans
+l'esprit. **La langue, elle, est déjà là** — il parle, il répète un mot et il le retient tout
+de suite ; *mais il ne peut pas nommer ce qu'il voit pour la première fois.* **Dans les
+premières minutes, il se tait ou il dit des choses qui n'ont aucun sens** — *les deux sont
+ordinaires, et la salle n'en retient rien.* **Le reste s'apprend à l'école, et en écoutant les
+mots revenir.**
 
-**Arrivant.** Celui qui sort d'une capsule. Il a un corps d'âge complet et l'esprit vide :
-il ne sait ni qui il est, ni où il est. Il a la langue, et rien d'autre.
+**Berceur, berceuse.** Métier de l'accompagnement. **Deux groupes, et l'arrivant passe de l'un
+à l'autre à huit ans, quand il entre au jardin.** Ceux de la tranche haute — quatorze à huit —
+suivent chacun leurs arrivants et les instruisent eux-mêmes : ni école, ni tuteur, et ils ne
+passent la main que pour ce qu'ils ne peuvent donner seuls, comme la natation. **Ceux du
+jardin ne sont attachés à personne : ils tiennent un dortoir, un groupe, une zone**, et ce
+sont eux qui nomment les arrivants de huit ans et moins. **Métier payé, mixte, et c'est aussi
+de la tendresse.**
 
-**Berceur, berceuse.** Métier de l'accompagnement, au jardin. Nomme les arrivants de huit ans
-et moins, et reste avec eux jusqu'au dernier jour. Métier mixte, payé, respecté.
+**Capsule.** Contenant d'où sort un arrivant. Elle pousse à plat sur un coulant, à un endroit
+que personne n'a choisi, et elle ne mûrit pas toutes à la même vitesse. Large au milieu,
+effilée aux bouts, jamais deux pareilles, et **rien n'est marqué dessus.** *On l'ouvre en
+découpant un morceau de la paroi qu'on remet en place ensuite — **le rabat**, plus sombre et
+plus mat que le reste depuis qu'on l'a détaché. Il se replie, il tient où on le laisse, il
+s'ôte ; c'est son retrait qui active le corps.*
 
-**Bizutage.** Le nettoyage de ce qui n'a pas éclairci revient aux derniers arrivés dans le
-service. Comme on arrive dans ce monde d'autant plus vieux qu'on est parti vieux, **ce sont
-les plus âgés d'aspect qui s'y collent** — et tout le monde le sait en les voyant.
+**Capsule flash.** Capsule qui éclaircira comme les autres, **mais qui est arrivée d'un coup**
+: elle n'était pas là la veille, personne ne l'a vue pousser, et **aucun relèvement n'a pu
+être fait** — il en faut quatre au minimum pour chiffrer un jour. *Elle a poussé si vite que
+la paroi paraît sur le point de se détacher toute seule.* **On ne traîne pas : la cérémonie se
+fait dans la foulée.** *Une capsule claire depuis un moment n'en est donc pas une, et c'est le
+premier raisonnement d'une analyste devant une trouvaille.*
 
-**Capsule.** Contenant d'où sort un arrivant. Pousse sur un coulant, à un endroit que
-personne n'a choisi, et mûrit à son rythme. Larges au milieu, effilées aux bouts, jamais
-deux pareilles.
-
-**Capsule flash.** Capsule qui va du début à l'éclaircie en très peu de temps. On s'en
-aperçoit trop tard pour faire une série de relevés, et souvent trop tard pour prévenir du
-monde.
+**Capsule qui n'éclaircit pas.** Le nom est celui du registre, et il ne décrit rien. Ça n'a
+jamais ressemblé à une capsule : ni la longueur, ni les nervures, ni la dissymétrie de ce qui
+a poussé. Une poche sombre et boursouflée, sortie de travers sur un coulant. **Elle ne mûrit
+pas et ne s'annonce pas** — elle vient d'un coup et elle crève. Aucune cérémonie possible ; on
+nettoie.
 
 **Cérémonie.** Rite d'ouverture d'une capsule, devant une assemblée. L'assemblée estime l'âge
-à vue et se trompe de quelques années ; le veilleur fait ensuite le relevé à l'instrument.
-**La découverte du visage appartient à la cérémonie :** personne ne regarde avant.
+à vue et se trompe de quelques années ; le veilleur fait ensuite le relevé à l'instrument et
+tranche pour tous. **La découverte du visage appartient à la cérémonie :** personne ne regarde
+avant. Elle revient aux anciens du service.
 
-**Chuchoteur.** Jeune bras droit d'un ancien aux commandes, dans n'importe quel domaine.
+**Coulant.** Un brin de la végétation, celui qu'on peut montrer du doigt. Épais comme un bras,
+il entre par une bouche du mur, s'enroule aux colonnes et repart.
 
-**Coulant.** Un brin de la végétation, celui qu'on peut montrer du doigt. Épais comme un
-bras, il entre par une bouche du mur, s'enroule aux colonnes et repart.
+**Coulée.** La masse : l'enchevêtrement des coulants qui court dans tout le complexe et au
+milieu duquel vivent les gens de la serre. **Un coulant se désigne, la coulée s'habite.**
 
-**Coulée.** La masse : l'enchevêtrement des coulants qui court dans tout le complexe. **Un
-coulant se désigne, la coulée s'habite.**
+**Cueillie.** L'acte de décrocher une capsule mûre. Ce sont les préparateurs qui la font, et
+jamais de leur propre autorité : **la date vient de l'analyste.** *Le mot ne nomme pas un
+métier : personne n'est cueilleur.* **Chaque capsule décrochée a sa fiche de cueillie** —
+l'heure, l'état de la paroi avant cérémonie — *que le préparateur remet au veilleur en même
+temps que la capsule.*
 
-**Couloir (le grand).** L'axe qui mène de l'accueil au cœur du complexe. Il commence banal,
-lumière artificielle au plafond, puis le jour, la végétation et l'ornement le gagnent.
+**Éclaircie.** La paroi d'une capsule qui approche du terme perd la couleur de la coulée et
+s'éclaircit ; **au bout, elle est tendue, translucide, d'un jaune orangé.** **C'est le seul
+signe lisible du métier** — une capsule claire va s'ouvrir bientôt —, et il donne son nom au
+phénomène, au rite, à la croyance et à tout le reste.
 
-**Cueillie.** L'acte de décrocher une capsule mûre. Ce sont les préparateurs qui la font.
-*Le mot ne nomme pas un métier : personne n'est cueilleur.*
+**École.** Obligatoire pour tout arrivant qui aura une vie active devant lui. **On n'y apprend
+pas un métier : on y apprend le monde.** Elle prend ceux qui arrivent tout en haut, vers
+quatre-vingts ou quatre-vingt-dix ans, et elle dure des années. Ceux d'autour de cinquante ou
+soixante entrent tout de suite dans la vie active : des cours décalés le soir, à côté du
+travail, et un tuteur au cas par cas. Les formateurs sont toujours plus jeunes que leurs
+apprenants. **Elle ne concerne pas la tranche des quatorze à huit ans** : ceux-là relèvent
+d'un berceur.
 
-**Éclaircie.** La paroi d'une capsule qui approche du terme pâlit jusqu'à devenir presque
-transparente. C'est le seul signe lisible du métier, et il donne son nom à tout le reste.
+**Jardin.** Le lieu où l'on entre à huit ans, et où des berceurs accompagnent ceux qui y
+vivent. **Un lieu clos, un par ville, comme la ruche** — il y en a d'autres ailleurs, plus ou
+moins grands. Dedans, **rien n'est séparé par principe** : on se croise au réfectoire, sur
+l'étendue, partout. *Les dortoirs et les aires de jeu le sont ; le reste se répartit tout
+seul.*
 
-**École.** Obligatoire pour tout arrivant, quel que soit son âge. On n'y apprend pas un
-métier : on y apprend le monde. Elle se prolonge en cours du soir pendant les premiers mois
-de travail.
+**Paire.** Deux arrivants identiques, sortis de deux capsules voisines le même jour. **C'est
+le mot du registre et le seul** : *« une paire, travée douze »*. Devant elles, la salle dit
+simplement qu'elles sont pareilles, et l'émerveillement fait le reste.
 
-**Écusson.** Emblème de la ruche, brodé sur l'épaule de la tenue : une capsule de profil,
-d'un seul fil. Reconnu de tous, dedans comme dehors.
+**Portage.** Le petit nom de ce qu'on confie aux plus bas dans une entreprise de livraison :
+une tournée de menus colis et de lettres, dans un quartier, **à pied, faute d'avoir le temps
+devant soi pour apprendre à conduire.** *La maison, elle, emploie de tout — il faut de la
+condition physique pour livrer le reste.* Et c'est ce qui fait passer un jeune arrivant dans
+les rues, donc devant des portes.
 
-**Formateur.** Celui qui enseigne à l'école. **Les formateurs sont toujours plus jeunes que
-leurs apprenants**, et personne n'y trouve rien à redire.
+**Porteur de voiles.** Celui qui arrive sans être en paix avec lui-même. **C'est une croyance,
+pas un diagnostic** : rien ne permet de le détecter. **Tout le monde dit n'importe quoi en
+sortant ; seuls les jeunes arrivants sont remarquables, parce que chez eux ça arrive comme du
+contenu et non comme de la confusion.** *Et le mot n'est pas tendre* — on l'emploie pour dire
+de quelqu'un qu'il raconte n'importe quoi, et on en traite les gens.
 
-**Immaculé.** Se dit d'un corps qui ne porte aucune marque. Compliment banal — *« tu as de la
-chance, toi »* — parce que tout le monde arrive ainsi et que peu le restent.
+**Préparateur.** Agent de la serre, et **c'est elle qu'il surveille** : il y passe ses
+journées, il la connaît à la main, et il travaille en étroite collaboration avec les
+analystes. Il décroche les capsules mûres, les nettoie, les conduit jusqu'à la salle de
+cérémonie, remet la fiche au veilleur — puis il s'arrête à la porte et regarde, et il revient
+à la fin chercher les capsules vides. **Il exécute et il écoute : la date ne lui appartient
+pas.**
 
-**Instrument.** Outil du veilleur. Il donne l'âge d'un corps déjà sorti. Il ne prédit rien,
-ne lit rien d'une capsule fermée, et ne se trompe pas.
+**Registre.** L'archive de la ruche, tenue par les veilleurs. Pour chaque capsule : la travée,
+la date d'apparition, l'avancée de l'éclaircie, la date d'ouverture, l'âge relevé, le nom
+donné et le numéro. Consultable par métier, sans autorisation. **Le registre n'avance jamais
+rien : il constate**, et **il est infaillible.** *Il n'annonce aucune éclaircie à venir : une
+capsule y entre quand elle s'ouvre, jamais avant.*
 
-**Jardin.** Le dernier lieu de vie : la tranche de huit ans à zéro, tout entière. Quiconque a
-huit ans ou moins y est. On n'y descend pas, on y est.
+**Ruche.** Le lieu où les capsules mûrissent et s'ouvrent, organisé en travées. Bâtie sur la
+serre elle-même, en forme de fleur : **le registre au cœur, la serre en corolle, les salles de
+cérémonie en pétales.** **Une par ville**, plus ou moins grande.
 
-**Jardin allongé.** Des années supplémentaires à huit ans, accordées à qui a été meurtri.
-Le supplément est proportionnel à ce qui a été subi.
-
-**« Libérer plus tôt ».** Formule d'un courant politique qui juge cruel de faire durer une
-vie qui n'ira nulle part. Il ne dit jamais ce qu'il propose.
-
-**Marginal.** Celui qui déteste les arrivants jeunes et le fait savoir. Ni groupe, ni
-organisation, ni porte-parole : des individus, des rumeurs, une foule un soir.
-
-**Médecins du jardin.** Corps médical propre au jardin, tenu au secret. Ils suivent chaque
-enfant de huit ans à zéro et surveillent une seule chose : le jour où l'âge repart vers le bas.
-
-**Nom d'éclaircie.** Le nom qu'un arrivant reçoit en sortant, et le seul qu'il aura jamais.
-Au-dessus de huit ans il le produit lui-même, sans savoir d'où il lui vient ; en dessous,
-c'est une berceuse qui le donne.
-
-**Numéro.** Chiffre attribué par le veilleur en même temps que le nom est inscrit. Il n'y a
-pas de noms de famille dans ce monde, et deux arrivants peuvent porter le même nom.
-
-**Paire.** Deux arrivants identiques, sortis de deux capsules voisines le même jour. C'est le
-mot du registre et le seul.
-
-**« Petits princes pourris du jardin ».** Insulte visant les arrivants jeunes. *Princes* pour
-l'accès sans mérite, *pourris* au sens de gâtés.
-
-**Plateau.** La phase du décompte où l'âge s'arrête à huit ans, pour un temps qui varie
-d'une personne à l'autre, avant de repartir vers le bas. **Ne pas confondre avec le jardin :
-le plateau est une durée, le jardin est un lieu.**
-
-**Portage.** Deux emplois. Une tournée de livraison, pour un jeune qui travaille en ville —
-et, au jardin, le geste de la berceuse qui porte, berce et ne laisse pas seul.
-
-**Porteur de voiles.** Arrivant qui n'est pas en paix avec lui-même. Rien ne permet de le
-détecter ; on le reconnaît à ce qu'il fait.
-
-**Préparateur.** Agent de la serre. Décroche les capsules, les nettoie, les branche aux
-appareils, les conduit jusqu'à la salle et remet la fiche au veilleur. **Il exécute et il
-écoute : la date ne lui appartient pas.**
-
-**Rabat.** Le morceau de paroi découpé lors de l'ouverture, remis en place sur la capsule
-jusqu'à la cérémonie. Plus sombre et plus mat que le reste depuis qu'on l'a détaché.
-
-**Registre.** L'archive de la ruche, tenue par les veilleurs. Pour chaque capsule : la
-travée, la date d'apparition, l'avancée de l'éclaircie, la date d'ouverture, l'âge relevé,
-le nom donné. **Le registre n'avance jamais rien : il constate.**
-
-**Relevé.** Geste de métier du veilleur — mesurer l'avancée de l'éclaircie au fil des
-visites, puis l'âge à l'instrument le jour de l'ouverture. **Il en faut quatre au minimum
-pour qu'une date veuille dire quelque chose.**
-
-**Reliquat.** Ce qui traverse d'un monde à l'autre. Jamais un souvenir : une vocation.
-*On ne se rappelle pas ce qu'on a été, on y retourne.*
-
-**Résidence (zone de).** Les huit premiers jours d'un arrivant, après la consultation : des
-chambres par lots, un réfectoire, et des gens qui expliquent. On peut venir l'y voir.
-
-**Ruche.** Le lieu où les capsules mûrissent et s'ouvrent. Bâti sur la serre elle-même, en
-forme de fleur : le registre au cœur, la serre en corolle, les salles de cérémonie en pétales.
-Il y en a plusieurs dans le monde.
-
-**Salle de consultation.** Où l'analyste reçoit un arrivant dans l'heure qui suit sa sortie.
-Premier examen, premiers mots, premières questions.
-
-**Serre.** Le quart du complexe où la coulée est chez elle, autour de la salle du registre.
-Ce n'est pas une zone qu'on traverse : c'est le sol. Domaine des préparateurs.
-
-**Serviette de cérémonie.** Grand rectangle de toile percé d'un trou pour la tête, qui tombe
-droit devant et droit derrière. Le second veilleur en croise les pans et les ferme d'une
-ceinture. C'est le premier vêtement d'un arrivant.
-
-**« Silence (au) ».** La cellule temporaire. *On fait quelques jours au silence.*
-
-**Suivi.** Rendez-vous médicaux obligatoires après toute éclaircie : mémoire, tonicité,
-apprentissage, coordination, élocution. Banal, et personne n'y échappe.
-
-**Tenue.** Vêtement de travail du service : blouse de toile écrue croisée sur le devant, six
-boutons sur le côté droit, l'écusson brodé sur l'épaule. Claire, et **on en change dès
-qu'elle est marquée.**
+**Serre.** La part du complexe où la coulée est chez elle, autour de la salle du registre.
+**Ce n'est pas une zone qu'on traverse : c'est le sol** — *le complexe a été bâti sur elle.*
+**Et sa limite a été tracée par des hommes :** on a regardé jusqu'où allaient les dernières
+capsules, et on a délimité un peu plus large pour tout contenir. *La coulée est venue
+jusqu'aux murs et n'est pas passée outre.* **Personne ne sait si elle serait allée plus
+loin.**
 
 **Travée.** Une section de la serre : un tronçon de coulée repéré et numéroté, sur lequel
-poussent plusieurs capsules à la fois. **Une travée n'est jamais une capsule : elle en
-contient.** On dit *la travée dix-neuf* comme on dirait une rue.
+poussent plusieurs capsules à la fois. On dit *la travée dix-neuf*, et le numéro suffit à tout
+le monde.
 
-**Tuteur.** Métier de l'apprentissage. Enseigne à se tenir, se laver, cuisiner, comprendre
-une rue, une monnaie, un métier.
+**Tuteur.** Métier de l'apprentissage. Instruit ceux qui auront à s'en servir : se tenir, se
+laver, cuisiner, travailler, comprendre une rue, une monnaie, un métier. **Le tuteur instruit,
+le berceur accompagne.**
 
 **Veilleur.** Homme ou femme de métier de la ruche. Surveille la maturation, relève
-l'éclaircie, tient le registre, mesure l'âge, donne le premier miroir, inscrit le nom — et
-nettoie ce qui n'a pas éclairci. **Il ne prédit rien et ne décide rien.**
-
-**Vétéran.** Ancien du service. Seul à pouvoir dire que quelque chose a changé, parce que
-seul à avoir un point de comparaison.
-
-**Voile.** Le poids que porte celui qui arrive sans être en paix avec lui-même : un dossier à
-finir, une blessure à dire. On s'en libère en parlant, et on n'obtient rien de plus en le
-faisant.
+l'éclaircie, tient le registre, **prépare les cérémonies et les tient**, mesure l'âge, donne
+le premier miroir, demande son nom à l'arrivant et l'inscrit — et nettoie ce qui n'a pas
+éclairci. **Il ne prédit rien et ne décide rien.**

@@ -8,7 +8,7 @@ const coupe = src.indexOf('const $  = (s, r)');
 src = src.slice(0, coupe > 0 ? coupe : src.length);
 src += `
 ;globalThis.__d = { SCENES, LIENS, NOTES, QUESTIONS, TEXTES, VOIES, ACTES,
-                    LEXIQUE, GLOSSAIRE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
+                    GLOSSAIRE, BIBLE, REGLES, INTERDITS, GENS, DISPOSITIF, RACCORDS, PHRASES, ETAPES };`;
 
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(src, ctx);
@@ -16,8 +16,8 @@ const d = ctx.__d;
 
 const pb = [];
 
-/* Le glossaire est une page du livre : il se lit dans l'ordre, et une entree
-   hors d'ordre ou en double se voit tout de suite a la lecture. */
+/* Le glossaire est une page du livre : ils se lisent dans l'ordre, et
+   une entree hors d'ordre ou en double se voit tout de suite a la lecture. */
 {
   const plat = m => m.toLowerCase()
     .replace(/[éèê]/g, 'e').replace(/[àâ]/g, 'a')
@@ -28,10 +28,26 @@ const pb = [];
   if (new Set(mots).size !== mots.length) pb.push('glossaire : entree en double');
   for (let i = 1; i < mots.length; i++)
     if (plat(mots[i]) < plat(mots[i - 1]))
-      pb.push('glossaire hors ordre : ' + mots[i - 1] + ' avant ' + mots[i]);
+      pb.push('glossaire, hors ordre : ' + mots[i - 1] + ' avant ' + mots[i]);
   d.GLOSSAIRE.forEach(([m, def]) => {
-    if (!def || def.length < 20) pb.push('glossaire : definition trop courte pour ' + m);
-    if (def && def.length > 460) pb.push('glossaire : definition trop longue pour ' + m);
+    if (!def || def.length < 110) pb.push('glossaire : definition trop courte pour ' + m);
+    if (def && def.length > 560) pb.push('glossaire : definition trop longue pour ' + m);
+  });
+
+  /* Le vocabulaire, enfin. Cette liste EST une page du livre : elle est donc
+     soumise aux interdits, ce que personne ne verifiait. La bible, elle, a le
+     droit de tout nommer -- c'est meme sa raison d'etre. */
+  const PROSCRITS = ['enfant', 'enfants', 'bebe', 'bebes', 'nourrisson', 'nourrissons',
+                     'vieux', 'vieille', 'vieilles', 'vieillard', 'vieillards', 'senior',
+                     'seniors', 'mere', 'meres', 'pere', 'peres', 'famille', 'familles',
+                     'frere', 'freres', 'soeur', 'soeurs', 'jumeau', 'jumeaux', 'jumelle',
+                     'jumelles', 'capot', 'palier'];
+  d.GLOSSAIRE.forEach(([m, def]) => {
+    const nu = plat(def).replace(/[œ]/g, 'oe');
+    PROSCRITS.forEach(p => {
+      if (new RegExp('\\b' + p + '\\b').test(nu))
+        pb.push('mot proscrit dans la page du lecteur : ' + p + ' (' + m + ')');
+    });
   });
 }
 const trous = [];
@@ -68,17 +84,58 @@ d.SCENES.forEach(s => { if (!voies.includes(s.row)) pb.push('voie inconnue : ' +
   }));
 });
 
+/* un chapitre sans son appareil aveugle son onglet : la vue lit note,
+   tenu et ouvre sans filet, et une exception laisse l'onglet precedent
+   a l'ecran. Le 22 aout 2026, le chapitre deuxieme est sorti sans ouvre
+   et il affichait le chapitre premier. */
+d.TEXTES.forEach((t, i) => {
+  [`note`, `tenu`, `ouvre`].forEach(c => {
+    if (t[c] === undefined)
+      pb.push(`chapitre ` + (t.id || i) + ` : le champ ` + c + ` manque, son onglet n'afficherait rien`);
+  });
+});
+
+const avis = [];   /* ce qui se signale sans arreter la fabrication */
+
 /* les mots que le texte du roman ne peut pas employer */
 /* liste arretee par l'autrice le 18 aout 2026 : les mots d'apparence physique passent
    (un gars, un garcon, une femme, une fille, une fillette) ; c'est la categorie sociale
    ou d'age qui est interdite, jamais la matiere.
-   Ajout du 19 aout : le mot peau ne doit apparaitre nulle part, pas meme
-   pour un fruit -- rien ne doit laisser croire qu'il y a quelqu'un dedans. */
-const bannis = /\b(enfants?|b[ée]b[ée]s?|nourrissons?|vieux|vieilles?|vieillards?|seniors?|p[èe]res?|m[èe]res?|fils|famille|jumeaux?|jumelles?|peaux?)\b/i;
+   Le mot peau : interdit pour une capsule, pour une paroi, pour un fruit --
+   rien ne doit laisser croire qu'il y a quelqu'un dedans. Mais il est libre
+   pour un corps : les interdits disent depuis le 18 aout que le physique se
+   decrit, peau comprise. Correction de l'autrice, 24 aout 2026 : la regle du
+   19 aout avait ete ecrite trop large, et le controleur la prenait au mot.
+   Il signale donc, au lieu d'interdire, quand le mot voisine une capsule. */
+const bannis = /\b(enfants?|b[ée]b[ée]s?|nourrissons?|vieux|vieilles?|vieillards?|seniors?|p[èe]res?|m[èe]res?|fils|famille|jumeaux?|jumelles?)\b/i;
+
+/* Les gens de la vie d'avant n'ont pas de nom dans le livre.
+   Regle donnee par l'autrice le 25 aout 2026 : « Liam est bien l'ami de Joel,
+   mais etant donne que le lecteur croit se trouver toujours dans l'univers
+   d'Andrew, on n'est pas cense le nommer, JAMAIS ! »
+   Le nom vit dans la bible ; il ne s'ecrit dans aucun chapitre dont la scene
+   est du cote de Joel. Meme regle pour Joel lui-meme. */
+const sansNom = /\b(Liam|Jo[eë]l)\b/;
+const cotesJoel = new Set(d.SCENES.filter(x => x.row === 'joel').map(x => x.id));
+d.TEXTES.filter(t => cotesJoel.has(t.scene)).forEach(t => {
+  const brut = t.p.map(x => x[1]).join(' ').replace(/<[^>]+>/g, '');
+  const m = brut.match(sansNom);
+  if (m) pb.push('nom de la vie d\'avant ecrit dans « ' + t.rang + ' » : '
+                 + m[0] + ' -- il vit dans la bible, jamais dans le texte');
+});
+
 d.TEXTES.forEach(t => {
   const brut = t.p.map(x => x[1]).join(' ').replace(/<[^>]+>/g, '');
   const m = brut.match(bannis);
   if (m) pb.push('mot interdit dans « ' + t.rang + ' » : ' + m[0]);
+
+  /* peau : libre pour un corps, jamais pour ce qui pousse sur un coulant */
+  t.p.forEach(x => {
+    const p = x[1].replace(/<[^>]+>/g, '');
+    if (/\bpeaux?\b/i.test(p) && /capsule|paroi|rabat|coulant|travée|fruit/i.test(p))
+      avis.push('« peau » à côté d\'une capsule dans « ' + t.rang + ' » : '
+                + p.slice(0, 70) + '…');
+  });
 });
 
 const mots = d.TEXTES.map(t => t.p.map(x => x[1].replace(/<[^>]+>/g, '')).join(' ').split(/\s+/).length);
@@ -91,11 +148,11 @@ console.log('étapes      ', d.ETAPES.length);
 console.log('liens       ', d.LIENS.length);
 console.log('notes       ', d.NOTES.length);
 console.log('questions   ', d.QUESTIONS.length);
-console.log('lexique     ', d.LEXIQUE.length, '· règles', d.REGLES.length, '· interdits', d.INTERDITS.length);
-console.log('glossaire   ', d.GLOSSAIRE.length, 'entrées');
+console.log('glossaire   ', d.GLOSSAIRE.length, '· bible', d.BIBLE.length, '· règles', d.REGLES.length, '· interdits', d.INTERDITS.length);
 console.log('gens        ', d.GENS.length, '· phrases', d.PHRASES.length);
 console.log('chapitres   ', d.TEXTES.length, '(' + mots.join(', ') + ' mots)');
 console.log('à trouver   ', d.SCENES.filter(s => s.statut === 'trou').length, 'scènes');
 
+if (avis.length) { console.log('\nÀ REGARDER :'); avis.forEach(x => console.log('  · ' + x)); }
 if (pb.length) { console.log('\nPROBLÈMES :'); pb.forEach(x => console.log('  ✗ ' + x)); process.exit(1); }
 console.log('\n✓ tout est cohérent');

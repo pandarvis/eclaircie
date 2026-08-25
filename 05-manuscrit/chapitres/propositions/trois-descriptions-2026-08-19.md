@@ -137,6 +137,11 @@ Il ne dit pas ce qu'il écrivait.
 
 — Trois mots : *table*, *rivière*, *cuivre*. Vous me les redirez tout à l'heure.
 
+> 🔴 **CE PASSAGE TOMBE — décision de l'autrice, 20 août 2026.** *Un arrivant répète un
+> mot et le retient tout de suite, mais* **il ne peut pas nommer ce qu'il voit pour la
+> première fois** *: le mot ne lui manque pas, c'est la chose qu'il ne connaît pas.*
+> **À reprendre par l'autrice.** *Les trois mots à retenir et à redire, plus haut, tiennent.*
+
 Puis il nomma les objets posés devant lui, l'un après l'autre, sans hésiter une seule fois.
 Le pichet, le verre, le carnet, la lampe, la vis de la lampe. Les mots arrivaient avant qu'il
 les cherche.

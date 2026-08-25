@@ -8,6 +8,30 @@
 
 ---
 
+## Elle en a trois à charge
+
+> **Décision de l'autrice, 22 août 2026.** *« Ça peut apporter un peu de profondeur à June qui
+> s'occupe de trois arrivants à la fois, Eliott étant le dernier arrivé. »*
+
+**Paul, huit ans. Julie, dix ans. Et Eliott, le dernier arrivé.**
+
+**Paul rejoint le jardin dans quelques semaines.** *Julie est arrivée dans ce monde vers
+soixante ou soixante-dix ans : elle a eu son école, ses tuteurs, un métier, et elle est passée
+chez une berceuse à quatorze ans comme tout le monde.* ⛔ **Le cas rare, c'est Eliott** — arrivé
+directement dans la tranche haute, à dix ans, sans rien derrière lui.
+
+**Ce que ça change, et ce n'est pas rien :** elle n'est pas quelqu'un qui peine avec un garçon.
+**Elle est quelqu'un qui s'en occupe de trois et qui n'arrive pas à créer le lien avec
+celui-là.** *Son soulagement de voir arriver Andrew se comprend alors sans qu'une phrase ait à
+l'expliquer.*
+
+⚠️ **Et ils sont des témoins.** *On n'interroge pas une maison sans interroger ceux qui y
+vivent — ils sont là tous les deux quand Joël et Liam viennent.* ⛔ **Ultra-secondaires :
+deux apparitions en tout, et ils ne reviennent plus après cet entretien.** *Leurs âges
+restent à fixer.*
+
+Fiche : [`../06-visuels/atelier/`](../06-visuels/atelier/) — onglet Gens, « Paul et Julie ».
+
 ## État civil
 
 | | |
@@ -24,7 +48,19 @@
 
 Les berceurs et berceuses **accompagnent ceux qui sont au jardin, jusqu'au dernier jour** (§10 du [dossier maître](../L-ECLAIRCIE-dossier-complet.md)). Métier financé, organisé, respecté : ici, personne n'atteint sa fin autrement que par eux.
 
-> **Et le jardin n'est pas un âge, c'est un lieu** — le dernier lieu de vie, de huit ans à zéro ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), 15 août 2026). **June travaille donc auprès d'enfants de tous les âges du jardin**, pas seulement des huit ans : elle en accompagne qui parlent et qui jouent, et d'autres, plus bas, qui ne parlent plus. *C'est un décor de fiche, pas une scène à écrire.*
+> **Et le jardin n'est pas un âge, c'est un lieu** — le dernier lieu de vie, de huit ans à zéro ([`../02-univers/le-jardin.md`](../02-univers/le-jardin.md), 15 août 2026).
+
+> # 🔴 CORRECTION DU 20 AOÛT 2026 — JUNE EST DE LA TRANCHE HAUTE
+>
+> **Il y a deux groupes de berceurs, et ils ne se mélangent pas** : ceux des quatorze à huit ans, accolés au jardin sans y être, et ceux du jardin même. **L'arrivant, lui, passe de l'un à l'autre à huit ans, le jour où il entre au jardin.**
+>
+> **June garde Eliott, dix ans : elle est donc du premier groupe.** *La fiche disait qu'elle travaillait auprès d'enfants de tous les âges du jardin, y compris de ceux qui ne parlent plus — ce n'est plus vrai comme métier principal.*
+>
+> **Mais ses journées ne sont pas vides pour autant, et c'est là que le jardin revient.** Ses charges travaillent : pendant leurs heures, **c'est leur employeur qui en répond, pas elle.** *Alors elle y va en renfort, dès que son planning le permet.* **Elle connaît donc le jardin, elle y a ses habitudes, et elle y accompagne des arrivants qui ne sont pas les siens.**
+>
+> ⚠️ **Conséquence à vérifier sur l'épilogue, non appliquée :** si Eliott entre au jardin, **il change de berceur ce jour-là** — au jardin, personne n'est à personne en particulier, et June le passe à un groupe.
+>
+> **Mais ça ne la fait pas sortir du livre, et c'est une précision de l'autrice du 20 août 2026 :** *les berceurs du dehors rendent visite, et on les recroise régulièrement dans le jardin.* **Elle peut être là le jour où il entre, et elle peut y revenir.** *Ce qui a changé n'est pas la présence : c'est le lien.*
 
 ### Le seuil de nommage — huit ans et en dessous
 
@@ -37,6 +73,12 @@ On ne demande rien à un arrivant de cet âge : on va chercher quelqu'un, et ce 
 > **Le seuil de nommage et le seuil du jardin sont le même chiffre.** Ce n'est jamais énoncé dans le roman, et personne dans le monde ne le remarque : c'est simplement la ligne à partir de laquelle un arrivant relève des berceurs.
 
 **Mais Eliott est arrivé à dix ans.** Il était **au-dessus** du seuil : on lui a posé la question comme à tout le monde, et **il s'est nommé lui-même**. June arrive après le registre, pas avant — elle ne l'a pas nommé. S'il relève d'une berceuse et non d'un tuteur, c'est qu'il descend et ne deviendra jamais adulte : il n'a rien à apprendre pour une vie active. **À écrire comme une évidence du monde, jamais comme une explication.**
+
+> **Et ce n'est pas de l'oisiveté pour autant.** *Précision de l'autrice, 20 août 2026.* **Un arrivant de la tranche haute travaille** — un métier facile, sans études et sans condition physique. **Eliott fait du portage : de petits colis, des lettres, dans un quartier, à pied.** *Il n'aura pas le temps devant lui d'apprendre à conduire ; il marche, et c'est tout.*
+>
+> **Il n'y a pas non plus de cours du soir pour eux : c'est la berceuse qui lui apprend ce qu'il doit savoir pour son âge.**
+>
+> ⚠️ **Et le travail n'est pas là pour lui.** *Participer à l'effort commun à l'échelle de son âge avant de rejoindre le jardin est un moindre mal* — **et ça fait passer la pilule à ceux qui ne trouvent pas juste qu'on entre au jardin sans contrepartie.** *C'est la réponse du monde à la jalousie, et elle tient parce qu'elle est modeste.* ⛔ Personne ne l'énonce jamais devant Eliott.
 
 ---
 
@@ -106,7 +148,7 @@ Ce que ça fait à la fiche, et ce n'est pas mince pour un personnage de passage
 - [ ] **Assiste-t-elle aux visites, ou laisse-t-elle la pièce ?** Sa présence donne un témoin adulte aux propos d'Eliott ; son absence laisse les deux porteurs de voiles seuls dans la pièce.
 - [ ] **La revoit-on après l'annonce ?** La fiche pose que non. À confirmer si l'enquête a besoin d'un retour chez elle. **L'épilogue rouvre la question** : elle est la berceuse d'Eliott et devrait être là quand il entre au jardin.
 - [ ] **Est-elle présente à l'épilogue ?** Voir [`eliott.md`](eliott.md). Si oui, elle y est la seule personne pour qui le silence est une habitude de métier — et elle n'a pas une ligne à dire pour que ça se voie.
-- [ ] **Suit-elle le même enfant du haut en bas ?** *La question posée ici — « le dernier jour n'est plus au jardin » — **est caduque depuis le 15 août 2026** : le dernier jour est au jardin, et la définition du métier tient sans retouche.* Ce qui reste ouvert : un berceur garde-t-il sa charge jusqu'à zéro, ou passe-t-il la main quand l'enfant cesse de parler ? **Question de monde avant d'être une question de fiche** — voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md).
+- [x] ~~**Suit-elle le même enfant du haut en bas ?**~~ — **clos le 20 août 2026, et la question n'avait pas d'objet.** *Deux groupes de berceurs : l'arrivant passe de l'un à l'autre à huit ans, et **au jardin, un berceur n'est attaché à personne en particulier** — il tient un dortoir, un groupe, une zone.* **Ce qui change à huit ans n'est pas la présence mais le lien** : *les berceurs du dehors rendent visite, et on les recroise régulièrement dans le jardin.* Voir [`../02-univers/le-jardin.md`](../02-univers/le-jardin.md) §5 bis.
 
 ---
 

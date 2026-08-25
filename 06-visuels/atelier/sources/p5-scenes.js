@@ -244,49 +244,198 @@ const SCENES = [
   id: `s1`, no: `Scène 1`, col: 2, row: `andrew`, acte: `Avant la disparition`,
   titre: `Première visite chez June`,
   statut: `acquis`,
-  resume: `Andrew revient de lui-même, sans mandat et sans que personne le lui ait demandé. Il échange avec Eliott. Le garçon s'acclimate comme il peut, mais il semble très mal à l'aise — ce n'est pas de la timidité, c'est un corps qui ne trouve pas sa place dans une pièce.`,
-  produit: `Un homme qui vient voir un gosse, et un gosse qui parle. Andrew s'assoit, il écoute, il repose la question autrement. Il ne relève rien, il ne note rien : il repart avec des choses qu'il ne sait pas où ranger.`,
-  monde: `Le métier de berceuse vu de l'intérieur : une maison à côté du jardin, quelqu'un qui a la charge de quelqu'un.`,
-  qui: [`andrew`,`eliott`,`june`],
+  resume: `Andrew vient voir le garçon, et ce n'est pas la première fois. June ouvre sans être surprise. Ils sortent — c'est devenu leur habitude : Andrew lui montre des endroits qu'il ne connaît pas. Au retour, ils longent l'école et le terrain d'endurance.`,
+  produit: `🔴 **La « première visite » n'est pas la première, et c'est ce qui règle tout.** *Décision de l'autrice, 22 août 2026.* **June ouvre sans étonnement, elle interpelle Eliott, ils partent.** *Rien ne dit depuis quand il vient, personne ne le demande, et le mois qui sépare l'arrivée du garçon de sa disparition n'a plus à être justifié.*`,
+  clef: `🔴 **Le chapitre s'ouvre sur ce qu'il n'a pas fait.** *Le prologue s'achève sur une case d'observations restée vide : il a vu Eliott imiter les gestes de Nicolas sans s'en rendre compte, la plume s'est attardée, et il n'a rien écrit.* **Ouverture proposée : « Il n'avait rien écrit dans la case. »** *Le manque est posé avant les présentations, donc les présentations servent à quelque chose.*
+
+⛔ **Et le manque ne se comble jamais.** *Ni ici, ni plus tard. C'est le fil qui traverse les trois chapitres sans être nommé : un homme qui retourne voir un gosse parce qu'il n'a pas su remplir une case.*
+
+⛔ **Ce qu'il rouvre est son carnet, jamais le registre.** *Correction de l'autrice, 22 août 2026 : le registre est une salle, la ronde au cœur de la ruche — on n'y feuillette pas une page.* **Et elle est réservée à la scène 8**, où Andrew y revient pour de bon. *Ici, il rouvre la poche de sa blouse, et c'est tout.*
+
+⛔ **Et son trouble ne se nomme jamais.** *La fiche d'Andrew l'interdit : pas d'illumination, pas même atténuée — <em>il chasse l'idée</em>, <em>quelque chose lui échappe</em> sont faux.*
+
+🔴 **Mais le geste seul ne suffisait pas, et l'autrice l'a repris le 22 août 2026 :** *« à un moment donné, ça l'interroge quoi, on peut pas appeler un chat un chien. »* **La sortie n'est pas de lui faire pressentir quelque chose : c'est de lui faire chercher un mot qu'il n'a pas.**
+
+✅ **Ce qui manque à Andrew n'est pas la compréhension, c'est la case.** *Il sait ce qu'il a vu et il sait ce qu'est une observation : une capsule en retard, un instrument qui a sauté, une salle qu'on a changée.*
+
+🔴 **Et le fait tient en une phrase — reprise de l'autrice, 22 août 2026 :** *« il l'a imité, l'autre s'est arrêté, ça a cassé l'action, fin de l'histoire. La question est, pourquoi il a cherché à l'imiter ? »* **C'est la question qui doit rester sur la page, pas le détail des gestes.**
+
+✅ **D'où la chute : il n'y avait pas de case pour une question.** *La colonne attend un fait ; il n'a qu'un pourquoi.* ⛔ *Il ne conclut rien, il ne pressent rien : il remet le carnet dans sa poche et il va ouvrir sa salle.*
+
+⛔ **Un veilleur prend une salle, pas une travée.** *J'avais écrit « il descendit prendre sa première travée » : le chapitre premier dit le contraire — les travées ont une salle en face, et c'est la salle qui revient au veilleur.* **Et rien ne le place à un étage : il ne descend nulle part.**`,
+  garde_forme: `**Le déroulé, tel que l'autrice l'a posé :** ① il sonne, June ouvre sans surprise — description très brève ; ② Eliott, et c'est là que le lecteur le voit vraiment pour la première fois ; ③ ils sortent — **l'aquarium, décision du 22 août 2026, et ils entrent dedans** : 🔴 *et il doit être merveilleux, pas correct — reprise de l'autrice, 23 août 2026 : « il n'a jamais vu d'aquarium de sa vie, le truc le plus banal peut être quelque chose de merveilleux pour lui »*. **Le but est de donner au lecteur l'envie d'aller s'y promener** — *des bassins immenses, un qui passe au-dessus des têtes, la pénombre qui est là pour les poissons, des couleurs qu'on n'a pas l'habitude de voir ensemble, et des tailles qui impressionnent sans qu'on sache les nommer.* ✅ **Et on nomme les choses — reprise de l'autrice, 23 août 2026 :** *« autant directement dire que c'est une anémone, et ne pas passer par quatre chemins ».* **Anémone, corail, méduse, raie.** *La périphrase faisait précieux, et le vocabulaire des objets est commun aux deux mondes.*
+
+🔴 **L'aquarium marche au don — décision de l'autrice, 23 août 2026.** *Un guichet à l'entrée, une pancarte qui propose des montants : la nourriture d'une semaine, l'entretien d'un bassin, les soigneurs.* **Rendre le lieu accessible à tous va de soi ; donner est un usage, pas une condition.** *— Il faut payer ? — Non. Et Andrew pose quand même de quoi pour deux dans la coupelle.* ⛔ **Le mot <em>quand même</em> porte tout le système, et rien ne l'explique.**
+
+⛔ **Un bassin n'est pas une espèce.** *Reprise de l'autrice, 23 août 2026 : « les espèces sont rarement séparées dans un aquarium, tu peux avoir des tableaux très beaux avec beaucoup de couleurs ».* **Le premier bassin de la salle basse les mélange donc tous** — *corail, anémone, poissons-clowns, petits jaunes et le rond et plat au milieu.*
+
+🔴 **Une pieuvre, et pas des axolotls — décision de l'autrice, 23 août 2026.** *Je lui avais signalé que l'axolotl était un second animal qui ne suit pas le cours ordinaire d'une vie, après les méduses ; elle l'a écarté.* **Il reste donc un seul de ces échos, et c'est le bon.**
+
+*Un bras d'abord, qui se déroule le long d'une pierre et se colle dessus par en dessous. Puis tous les autres à la fois.* **— Il y en a combien ? — Huit.** *Et il les compte en la suivant.*
+
+🔴 **La courbe du chapitre, arrêtée par l'autrice le 23 août 2026.** *Elle tient en quatre temps et elle commande l'ordre des bassins.*
+
+**① Il s'ouvre devant le petit poisson** — *« Regardez celui-là »*, puis il chante pour lui seul. **② Il se referme aussitôt après**, sur sa propre fabulation : *une boîte en verre, un meuble, un tapis dessous* — *« vous me croyez pas », « c'est pareil », « tout le monde fait ça, on dit ah et après on parle d'autre chose »*, mains dans les poches. **③ La fermeture dure trois bassins** : *les herbes où Andrew dit « je te crois » sans qu'il le prenne, les axolotls qui lui arrachent deux mots, la raie sous laquelle il rechante à mi-voix — il va mieux, il ne parle toujours pas.* **④ Andrew le relance :** *« Il était de quelle couleur, le meuble ? »*
+
+⛔ **Personne ne nomme ce qui vient de se passer.** *Un homme a demandé un détail à un garçon que personne n'écoute — c'est un réflexe d'enquêteur, et il ne sait pas qu'il en a un.* ✅ **C'est la réponse à « pourquoi il vous parle, à vous », et elle n'est jamais donnée.**
+
+⚠️ **Et la fabulation porte sur le petit poisson, pas sur la raie.** *Repérage de l'autrice : personne n'a de raie dans son salon.*
+
+⛔ **Les méduses sont écartées — décision de l'autrice, 23 août 2026.** *Le caméo était le sien : celle qu'on étudie chez nous peut inverser son cycle et recommencer.* **Mais elle fait quelques millimètres, ne se maintient qu'en laboratoire et n'est jamais présentée au public** — *il aurait fallu un bac à part et un verre grossissant pour la rendre plausible, et ça ne valait pas ce que ça coûtait.* ✅ *« Si un problème, on fait sauter les méduses, ça n'apporte rien de plus. »*
+
+💡 **Les axolotls reprennent la place.** *Quatre, roses et pâles, posés sur du sable clair, qui ne font rien du tout. L'un d'eux ouvre la bouche, la referme, et en garde l'air content.* **— Il sourit. — On dirait.** *C'est le seul moment de complicité du chapitre.*
+
+✅ **Et l'objection que j'avais faite tombe avec les méduses :** *l'axolotl était le second animal du chapitre à ne pas suivre le cours ordinaire d'une vie ; il est maintenant le seul.* ⛔ **Rien ne le dit, rien ne l'appuie.** ; ④ au retour, l'école et le gymnase, en passant — **et le contraste est le sujet du chapitre** : *un lieu où on l'emmène et où il entre, une cour où il n'entrera jamais.*
+
+**Fin proposée :** *ils rentrent, Eliott passe la porte, Andrew reste une seconde devant.* **« Il ne compta pas les pas du retour »** — l'écho du chapitre premier dit qu'il est ailleurs sans dire où. ⛔ *Et le chapitre ne se ferme pas chez lui : le lecteur ne doit jamais voir où Andrew habite.*`,
+  monde: `🔴 **Le quartier des berceuses, réglé par l'autrice le 22 août 2026 :** *des pavillons, chacun le sien, un carré d'herbe devant et une allée de gravier — pas des maisons serrées les unes contre les autres.* **Elles habitent du côté du jardin sans que toutes y soient accolées.** Le métier de berceuse vu de l'intérieur : quelqu'un qui a la charge de trois personnes. **Un aquarium, et ce que ce monde-là fait d'un lieu qu'on visite.** Et l'école, depuis la rue, en longeant la grille — **celle où Eliott n'ira jamais.**`,
+  qui: [`andrew`,`eliott`,`june`,`paul-julie`],
   gardes: [
     `Ce n'est jamais une audition.`,
-    `Aucune phrase ne justifie ses visites — ni du narrateur, ni de lui, ni d'un tiers. On écrit qu'il y va.`,
-    `Rien de ce que dit Eliott ne doit être vérifiable ni se recouper avec ce qui remonte chez Andrew.`
+    `🔴 **June a trois arrivants à charge, et Eliott est le dernier arrivé.** *Décision de l'autrice, 22 août 2026 : Paul et Julie vivent là depuis plus longtemps que lui.* **Ça donne à June sa profondeur — elle n'est pas en peine avec un garçon, elle est en peine avec celui-là** — *et ça explique sans un mot pourquoi elle est soulagée que quelqu'un vienne.*`,
+    `**Aucune phrase ne justifie ses visites** — ni du narrateur, ni de lui, ni d'un tiers. *On écrit qu'il y va.* ⛔ **S'il sait pourquoi il y va, le retournement final n'a plus rien à retourner.**`,
+    `🔴 **La sortie, elle, est habillée — la visite ne l'est pas.** *Décision de l'autrice, 22 août 2026 : c'est devenu leur rituel, Andrew montre au garçon des endroits qu'il ne connaît pas.* **Le lecteur a donc une réponse à la question facile, ce qui l'empêche de poser la difficile.** ⛔ *Et June n'organise rien : elle n'a pas à proposer, c'est déjà une habitude.*`,
+    `**June : visage un peu fermé, mais soulagée.** *Elle n'est pas au bout — elle a du mal à créer le lien avec Eliott, et ça la travaille.* **Une réplique suffit, dite sans y penser : « il vous parle, à vous. »** ✅ *Validée par l'autrice le 22 août 2026.*`,
+    `⚠️ **Une seule colère, jamais comprise, et elle n'est pas ici.** *Elle est rapportée bien plus tard, quand Joël et Liam viennent l'interroger.* ⛔ **Pas de colères au pluriel : le motif est le reliquat corporel de la noyade, et le banaliser tôt le dépense.**`,
+    `Rien de ce que dit Eliott ne doit être vérifiable ni se recouper avec ce qui remonte chez Andrew.`,
+    `🔴 **Deux ou trois gestes qu'il ne devrait pas connaître, et pas un de plus.** *Décision de l'autrice, 22 août 2026.* **Des gestes, jamais des savoirs** — *un savoir se vérifie, un geste n'est qu'une bizarrerie d'enfant.* **Un seul ici — décision de l'autrice, 23 août 2026, reprise le même jour :** *il ne fredonne pas un air, il chante une vraie chanson, avec des mots dedans, et il en connaît la fin.* **Il y est question d'eau, ou de ce qu'il y a dessous.** ⛔ *Andrew ne la connaît pas et ne demande pas où il l'a apprise — il s'interroge, il ne relève pas.* ✅ **Et le garçon chante parce qu'il s'est enfin détendu ; rien ne le dit.** ⛔ **Le sifflet est à la tournée.**
+
+⛔ **Et le carrefour saute.** *Le garçon quittait le trottoir sans regarder, Andrew le rattrapait par le col, et il disait « normalement ils me laissaient passer, ici ».* **Trois raisons de le retirer, données par l'autrice :** *il tombait comme un cheveu sur la soupe entre deux paragraphes ; il faisait redondance avec la boîte en verre sur le meuble, qui est plus forte ; et toutes les interactions gagnent à se passer dans l'aquarium.* ✅ *Il réglait au passage un manquement à l'interdit n° 5 — « pas de feu, pas de passage protégé, pas même un panneau » décrivait trois absences à la file.*
+
+⛔ **Et la réplique du carrefour est abandonnée pour de bon — décision de l'autrice, 23 août 2026.** *Elle aurait fait une seconde fabulation développée dans le même chapitre que l'épicerie, et le lecteur n'aurait pas su laquelle retenir.* ✅ **L'épicerie se noie dans du banal, pas dans une phrase aussi marquante qu'elle** — *une ligne suffit à dire qu'il en a dit deux ou trois autres, sans les rapporter.*`,
+    `🔴 **La chaussée, telle que l'autrice l'a réglée le 22 août 2026.** *Eliott descend sans regarder, Andrew le chope par le col, et le garçon dit :* **« normalement ils me laissaient passer ici. »** *Il a reconnu un endroit, et une priorité au piéton qui n'existe pas ici.* **Un geste, un incident, une phrase fausse — et rien à vérifier.**`,
+    `⛔ **On ne rebaptise aucun objet et on n'en escamote aucun.** *Le monde a des voitures, des poteaux, des trottoirs, et ils portent leurs noms.* **Inventer un vocabulaire d'objets ferait exploser le glossaire et trahirait la couture dès le premier chapitre de Joël.** *Voir les interdits, « Et le vocabulaire des objets n'est pas un interdit non plus ».* ⛔ **L'idée du rond-point est écartée.**`,
+    `🔴 **L'aquarium, réglé par l'autrice le 22 août 2026 — et il tient sur une réticence qui cède.** *Eliott boude le lieu au début, il n'est pas à l'aise ; Andrew insiste juste ce qu'il faut — tu ne seras pas déçu — et de toute façon il n'a pas prévu de vêtements de rechange.* **Puis c'est un gros whaou** : *des spécimens colorés, et un gamin qui s'excite pour la première fois du chapitre.*`,
+    `🔴 **Et la réplique des vêtements de rechange fait tout le travail sans le savoir.** *Elle dit une seule chose au garçon : on ne va pas se baigner.* **Andrew désamorce une terreur dont il ignore tout, en parlant de linge.** ⛔ *Personne ne le relève, et surtout pas le narrateur.*`,
+    `✅ **La chronologie est tranchée : le cours de natation n'a pas encore eu lieu.** *Décision de l'autrice, 22 août 2026.* **Sa peur de l'eau n'a donc encore été vue par personne** — *ni par June, ni par Andrew, ni par le lecteur.* **La réticence du début est lisible comme une mauvaise humeur de gamin, et c'est exactement ce qu'il faut.**`,
+    `⛔ **Andrew ne relève ni l'air fredonné ni la chaussée.** *Pas un regard appuyé, pas une phrase de narrateur, pas un silence qui compte.* 🔴 **Il ne relève que le sifflet, à la tournée — décision de l'autrice, 22 août 2026** — *et c'est le seul des trois qui ne prouve rien.* **Voir la fiche de la tournée : c'est ce qui rend crédible son silence sur le reste.**`,
+    `⛔ **L'école ne tourne jamais à la drôlerie.** *Un professeur de quinze ans, un homme de quatre-vingt-douze ans qui lève la main, surexcité, deux élèves repris par la maîtresse — et personne dans la rue ne s'arrête pour regarder.* **Le lecteur seul trouve la scène étrange, et il ne doit rien lire qui l'y invite.**`,
+    `⛔ **Aucune insistance sur l'itinéraire.** *Pas de description de trajet, pas de rue nommée deux fois, rien qui ait l'air d'être posé pour servir.* **L'école est en travers du chemin, pas une étape.**`,
+    `⛔ **Aucun personnage ne cherche où se mettre dans ce chapitre.** *L'autrice avait écrit « il ne savait pas vraiment où se mettre » à l'entrée du séjour ; c'est la première phrase de l'épilogue, mot pour mot ou presque : « Il n'y avait aucun endroit où se mettre. »* **L'image appartient à la dernière page du livre, où elle porte tout le chapitre.** *Ici, « Andrew resta debout, comme les autres fois » dit la même gêne et dit en plus l'habitude.*`,
+    `🔴 **La saison est le printemps — décision de l'autrice, 22 août 2026.** *Le cerisier de June est plein à craquer ; il ne fait pas chaud, il fait beau.* **La raison est une contrainte, et elle vaut d'être retenue :** *j'avais placé la scène en plein été, et un lecteur de chez nous ne peut pas lire « il fait une chaleur » puis voir, au retour, une école en cours.* ⛔ **Personne ne parle du temps qu'il fait** — *June propose un verre d'eau sans invoquer la chaleur.*`,
+    `🔴 **C'est ici que le mot jardin entre dans le livre, et il entre par une bouche.** *Repérage de l'autrice, 22 août 2026 : ni le prologue ni le chapitre premier ne le prononcent.* ⛔ **Donc pas de phrase de décor qui explique où habitent les berceuses** — *c'était le narrateur qui posait une règle du monde, et la règle 10 l'interdit.* **Andrew le dit à June, à propos de Paul, et tous les deux savent de quoi ils parlent :** *« Il est content d'aller au jardin ? »* **Le lecteur n'a rien à comprendre encore.**`,
+    `✅ **Le métier de berceuse se dit clairement, en un paragraphe — décision de l'autrice, 22 août 2026.** *« Autant le dire clairement, comme on a pu dire à quoi servait un analyste et un préparateur. »* **Le chapitre premier a posé le précédent :** *le paragraphe sur l'analyste qui tranche et le préparateur qui cueille est du narrateur, et il tient.* 🔴 **Et il passe par ce qu'Andrew voit d'elle, pas par une définition.** *Reprise de l'autrice, 22 août 2026 : la première version en disait « trop et pas assez à la fois », et elle était abrupte.* **On part de la douceur — ce qu'il voit d'elle à chacune de ses visites — et le métier vient après.** *Prendre, accompagner, remettre : le même mouvement, toujours.*
+
+⛔ **Ce qui n'est pas dit : ce qu'est le jardin.** *Elle passe la main à la grille, et le narrateur s'arrête là.*
+
+✅ **Et « ni école ni tuteur » quitte ce paragraphe** — *décision de l'autrice : ça tombera tout seul au retour, quand ils longeront la grille de l'école.*`,
+    `⛔ **Une seule inversion des âges par chapitre, et c'est Julie qui la porte.** *Question de l'autrice, 22 août 2026 : j'avais écrit « vingt-deux ans, à peu près, et berceuse depuis plus longtemps que ça », et Julie dit la même chose deux paragraphes plus loin.* **La sienne est plus forte** — *un corps de dix ans qui pique un ourlet sans épingle, et onze ans de métier derrière ; ça se voit avant d'être dit.* **La phrase de June s'arrête donc à « et berceuse ».**
+
+✅ *Et son expérience se dit quand même, mais par elle et sans malice : « Moi, c'est le quatrième. On s'y fait. »*`,
+    `⛔ **Eliott ne va pas à l'école, et il n'a jamais commencé de cours accélérés.** *La fiche disait le contraire : c'était faux, corrigé le 22 août 2026.* **À son âge, c'est le berceur qui instruit** — *June lui apprend ce qu'il faut, et elle ne passe la main que pour ce qu'elle ne peut pas donner elle-même, comme la natation.* **Les cours du soir et les tuteurs sont pour les arrivants de cinquante à soixante-dix ans.**`,
+    `⛔ **Le paragraphe de l'école ne dit pas ce qu'il reste à vivre.** *Repérage de l'autrice, 23 août 2026 : « L'école accueillait ceux qui arrivaient avec encore toute une vie devant eux » est horrible si on ne connaît pas encore le système.* **Trois lignes après « parce que je suis trop petit », le lecteur ferait le calcul : plus on arrive haut, plus on a de temps — donc ce garçon-là n'en a presque pas.**
+
+⛔ **Ce n'est pas le chapitre qui doit apprendre ça, et personne n'a de raison de le dire ici.** *La phrase devient « L'école prenait ceux qui arrivaient tout en haut » : l'information passe, la sentence tombe.*`,
+    `⛔ **Aucun âge précis à l'école — décision de l'autrice, 23 août 2026.** *On voit que la maîtresse est bien plus jeune que ceux qui l'écoutent, et c'est tout ce qu'on écrit.* **L'homme du troisième rang n'a plus quatre-vingt-douze ans, il lève la main.**
+
+✅ **Et les deux qui papotent gagnent leur malice :** *une main devant la bouche, reprises sans qu'elle se retourne ni hausse le ton, et elles se taisent le temps qu'il faut avant de recommencer plus bas.*
+
+⛔ **La fenêtre est au ras du trottoir.** *Je l'avais mise au premier étage : on ne voit rien d'une classe depuis la rue si elle est en hauteur.* ✅ **Et le terrain n'est pas ailleurs :** *toujours derrière la même grille, les salles laissent la place à un terrain avec des lignes peintes au sol.*
+
+⛔ **Les coureurs ont tous le même âge.** *La phrase qui comparait le plus jeune d'entre eux au professeur saute : à l'école, ils sont de la même tranche, sinon ils seraient aux cours du soir.*
+
+🔴 **Le partage des trois régimes, arrêté le 23 août 2026 :** *l'école prend ceux qui arrivent vers quatre-vingts ou quatre-vingt-dix ans et dure des années ; ceux d'autour de cinquante ou soixante entrent tout de suite dans la vie active, avec des cours décalés le soir et un tuteur au cas par cas ; et pour les plus jeunes, c'est un berceur du premier jour au dernier.* ✅ **Le glossaire a été mis à jour dans le même mouvement.**`,
+    `🔴 **Et c'est ce qui donne la réplique de l'école — donnée par l'autrice le 22 août 2026.** *Devant la grille, au retour :* **« C'est donc à ça que ça ressemble, l'école ? June m'a dit que je ne pourrais jamais y aller parce que je suis trop petit. »** *Le renversement se fait tout seul : ici l'école est pour les vieux, et les petits n'y ont pas droit.* ⛔ **Personne ne le lui explique et le narrateur n'y touche pas.**`
   ],
-  ouvert: [`C'est peut-être ici que tombe l'indice du déclencheur — la scène 2 reste le meilleur emplacement.`],
-  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/eliott.md §4 bis`
+  phrases: [{ t: `il vous parle, à vous`, n: `✅ **Validée par l'autrice le 22 août 2026.** *Dite sans y penser, sur le pas de la porte.* **Elle ne dit pas pourquoi il vient — elle dit pourquoi elle le laisse.** *Ce sont deux questions différentes, et seule la seconde a le droit d'une réponse.*` }],
+  ouvert: [`⚠️ **Combien de lieux du rituel sont montrés.** *L'aquarium occupe déjà toute l'aller ; un second lieu ferait visite guidée.*`,
+           `✅ **La répartition des gestes est tranchée le 22 août 2026.** *L'air fredonné et la chaussée ici ; le sifflet à la tournée.* **Raison de l'autrice : à la seconde visite, il n'est pas en état de fredonner — il est agacé.**`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/eliott.md §4 bis — décisions du 22 août 2026`
 },
+
 {
   id: `s2`, no: `Scène 2`, col: 3, row: `andrew`, acte: `Avant la disparition`,
-  titre: `Deuxième visite`,
+  titre: `La tournée`,
   statut: `acquis`, pivot: true,
-  resume: `Eliott est retrouvé à bouder dans un coin. La raison est nette et elle est le cœur de la scène : personne ne le croit, et ça le blesse énormément. Grosse discussion, puis ils sortent faire un tour — c'est dehors, en marchant, que le garçon dit ce qu'il dit.`,
-  produit: `C'est la scène la plus chargée d'avant la disparition : **elle blesse le garçon** et elle installe le mot « porteur de voiles » sans l'expliquer. *Et elle sème la phrase qui, six cents pages plus loin, fera entrer Andrew dans une épicerie — sans jamais être un indice.*`,
-  clef: `June, dépassée, évoque une suspicion de voile sans oser la formuler. C'est tabou, et en plus il est jeune. Ce cas de figure, elle ne l'a jamais eu personnellement.`,
-  monde: `C'est par elle que le lecteur apprend ce qu'est un porteur de voiles, sans qu'aucun narrateur ne l'explique. Elle en parle comme d'une chose gênante, à moitié crue, qu'on ne dit pas.`,
-  qui: [`andrew`,`eliott`,`june`],
+  resume: `Il y est retourné plusieurs fois — une ellipse le dit en deux lignes. Cette fois-là, il le rejoint sur sa tournée : Eliott a le visage fermé, agacé. Le portage vu de son point de vue. Au retour chez la berceuse, le garçon dit au revoir et se sauve à l'intérieur ; Andrew reste sur le pas de la porte avec June.`,
+  produit: `🔴 **June est anxieuse, et elle échoue pour la première fois — décision de l'autrice, 23 août 2026.** *Elle en a eu six avant lui, il y en a eu des difficiles, ça s'est toujours arrangé.* **Là, non.** *Il est poli, il aide, il répond ce qu'il faut pour qu'on arrête de demander — et au bout d'un mois elle ne saurait pas dire ce qu'il aime.*
+
+⛔ **Elle ne se plaint pas : elle donne un résultat.** *« Je crois qu'il n'a pas envie de me connaître. Et c'est mon métier. C'est exactement mon métier. »*
+
+✅ **Ils s'asseyent sur les marches.** *Andrew ne franchit toujours pas la porte, mais la conversation a le temps de se faire.*
+
+🔴 **La blessure n'est plus montrée : elle est rapportée, et une porte s'est refermée entre les deux.** *Décision de l'autrice, 22 août 2026.* **On voit un visage fermé sans savoir pourquoi, le gamin file, et on apprend la raison une fois qu'il n'est plus là.** *Le lecteur recompose la journée à rebours, et Andrew reste dehors avec une chose qu'il n'a pas vue arriver.*`,
+  clef: `🔒 **Le passage « on m'a pas demandé » ne se touche plus.** *Validé par l'autrice le 23 août 2026, et pour une raison qui n'est pas d'écriture :* **« je connais ce sentiment d'injustice du c'est pas moi qui décide de ma propre vie et ça me frustre ».**
+
+⛔ **De « Le mien, c'est pas un vrai » jusqu'à « Je sais pas », rien ne bouge** — *ni les répliques, ni le caillou qui ne part pas, ni la bouche qui s'ouvre sans que rien ne sorte.* ✅ *Ce passage ne sort pas de la mécanique du monde ; c'est ce qui lui donne sa justesse, et le lecteur le sentira sans savoir pourquoi.*
+
+🔴 **Le ton d'Eliott sur toute la tournée : à cran, et pas contre Andrew.** *Indication de l'autrice, 23 août 2026 : « un peu comme un futur ado, un truc le gonfle et il est à cran sur tout ».* **Ça se voit partout et ça ne vise personne** — *il ne remercie pas la femme à la lettre, il donne un coup de pied dans un caillou qui ne part pas, il répond sec à des questions qui n'attaquent rien.*
+
+✅ **Et l'épicerie n'est plus un entêtement, c'est une contrariété de plus.** *Il s'arrête, il regarde la devanture, il inspire un coup — puis :* **« Bon. C'est pas grave, j'ai rien à y livrer de toute façon. »** *Et il repart sans y jeter un œil.* ⛔ **Il ne défend pas sa version, il la lâche** — *ce qui la rend beaucoup plus difficile à ranger dans le délire.*
+
+🔴 **Ce que le garçon cache derrière ce qu'il dit — décision de l'autrice, 23 août 2026.** *Il tourne autour du pot, et ce qu'il sort est un sentiment d'injustice : on ne lui a pas demandé ce qu'il voulait faire, on lui a donné le portage.* **Le métier des autres a l'air plus vrai que le sien.** *Il en veut au monde de ne pas l'avoir consulté — et il projette là-dessus ce qu'il ne dit pas.*
+
+⛔ **Ce qu'il ne dit pas : ce qui se passe vraiment au travail.** *Le lecteur ne l'apprendra qu'au chapitre suivant, quand June racontera qu'il est rentré avec les genoux en sang.* **Ici il ne lâche qu'une phrase, et elle a l'air de rien :** *« ils le disent pas aux autres, ils le disent à moi ».*
+
+✅ **Et Andrew croit tenir le problème.** *Il le dit à June — personne ne lui a demandé ce qu'il voulait faire — et il garde pour lui la réserve : ça n'explique pas le premier jour.*
+
+🔴 **Et June ne peut pas le consoler avec un « c'est pareil pour tout le monde » — correction de l'autrice, 23 août 2026.** *Le choix du métier se rétrécit à mesure qu'on arrive bas : ceux d'en haut choisissent, ceux du milieu choisissent moins, et aux plus bas on attribue.* **Elle a choisi d'être berceuse. Elle le dit.**
+
+⛔ **Elle ne s'en excuse pas et ne s'en vante pas.** *« J'ai eu l'école, j'ai eu le temps de regarder autour. J'ai vu travailler une berceuse et j'ai su. Lui, il n'aura rien vu du tout. »* ✅ **Et c'est ce qui rend la scène dure :** *elle est d'accord avec le garçon, et elle ne peut rien y faire.* — *« Il le sait ? » « Il le sent. C'est pire. »*
+
+🔴 **C'est June qui dit le mot, et la question des deux bouches est tranchée.** *Décision de l'autrice, 22 août 2026 : elle rapporte qu'Eliott lui a dit que les autres le traitaient de porteur de voiles au boulot.* **Elle parle aussi de ses difficultés à elle** — le garçon ne va pas bien, il se referme, et elle n'arrive pas à créer le lien.
+
+⚠️ **Andrew a le droit de poser la question une fois — décision de l'autrice, 23 août 2026 :** *« Et vous pensez que ça pourrait en être un ? »* **Et June ne tranche pas :** *« Je ne sais pas. En tout cas, un porteur de voiles de cet âge… je n'en avais jamais vu. »*
+
+⛔ **Ça n'en fait toujours pas une hypothèse.** *Elle ne confirme rien, elle ne développe rien, et personne n'y revient — ni au chapitre suivant, ni quand le garçon disparaît.* **Elle n'est pas un relais d'information ; elle a seulement le droit de répondre quand on lui demande.**`,
+  garde_forme: `🔴 **Ce chapitre a le droit d'être court, et c'est même ce qu'on lui demande.** *Constat de l'autrice, 23 août 2026 : « le suivant n'a quasiment rien en comparaison, on va sans doute pas passer autant de temps dans la ville avec le travail ».* **Le prologue fait 2 644 mots, le chapitre premier 3 765, le deuxième 3 442** — *et la tournée n'a pas de lieu à faire découvrir, elle a une nouvelle à faire tomber.*
+
+✅ **Les chapitres doivent raccourcir à mesure que ça se resserre.** *Deux longs pour installer le monde et le lien, puis la tournée, puis la place vide qui sera plus courte encore.* **L'accélération se sent d'autant mieux qu'on vient de passer trois mille mots dans un aquarium.** ⛔ *Rien à rallonger pour équilibrer.*
+
+**Le déroulé, tel que l'autrice l'a posé :** ① l'ellipse — *« il y retourna le mardi suivant, et le mardi d'après »* — qui donne le mois entier et la récurrence en deux lignes ; ② Eliott sur sa tournée, visage fermé ; ③ le métier de portage de son point de vue ; ④ retour chez la berceuse, il sonne, dit au revoir, se sauve ; ⑤ Andrew et June sur le pas de la porte.
+
+**Fin proposée :** *le mot en dernière réplique, puis un geste et rien d'autre —* **il regarde la fenêtre du haut, elle est fermée.** *Le lecteur enchaîne parce qu'il vient d'apprendre une chose que le gamin ne sait pas qu'on a dite.*`,
+  monde: `⛔ **Le palier ne s'explique pas dans ce chapitre — décision de l'autrice, 23 août 2026.** *Ni la mécanique, ni le temps qu'il reste à un arrivant de dix ans, ni ce que ça fait grincer chez ceux qui ont trimé.* **C'est Henri qui l'apprendra au lecteur**, scène 6, socialement, par un homme qui tient un effectif.
+
+✅ **Ce qui est permis ici, et rien de plus — décision de l'autrice, 23 août 2026 :** *Andrew peut nous apprendre, par son métier, ce qu'il a déjà constaté des variantes d'espérance de vie, sans entrer dans le détail.* **Il constate, il n'explique pas.**
+
+✅ **Et la conséquence pratique est validée telle quelle :** *« on la fait à pied, faute d'avoir le temps devant soi pour apprendre à conduire »* — *modèle pris au glossaire, à l'entrée Portage.* ⛔ **Aucun chiffre. Et Andrew ne calcule jamais un âge, ni à voix haute ni dans sa tête.**
+
+**Le portage, le métier d'Eliott** — l'équivalent d'un petit postier — vu en marchant, par celui qui le fait. *Et c'est par June que le lecteur apprend ce qu'est un porteur de voiles, sans qu'aucun narrateur ne l'explique.*`,
+  qui: [`andrew`,`eliott`,`june`,`paul-julie`],
   gardes: [
-    `La suspicion doit rester une phrase qui s'arrête, jamais une hypothèse. June n'est pas un relais d'information : elle bute sur un mot et passe à autre chose.`,
-    `Personne ne la confirme. Une gêne n'est pas une fissure — c'est ce qui la rend compatible avec l'interdit n° 4.`,
-    `Elle n'est jamais reprise, pas même quand le garçon disparaît.`,
-    `**Ce que dit le garçon ne mène nulle part, et c'est maintenant la règle.** *Rien de ce qui sort de sa bouche ne se vérifiera jamais* — ni ici, ni plus tard, ni à la relecture. **L'hypothèse « il fabulait » doit rester debout jusqu'à la dernière page.**`,
-    `⚠️ **La promenade se fabrique ici, et elle sert encore — autrement.** *Andrew la refera seul à la scène 17 c, comme un homme qui suit un fantôme.* **Elle n'a plus à porter de phrase à retrouver : elle amène ses pieds dans ce quartier-là, et c'est tout ce qu'on lui demande.** *Un chemin de deuil qui passe par hasard là où il fallait passer.*`,
-    `⛔ **Aucune insistance sur l'itinéraire.** Pas de description de trajet, pas de rue nommée deux fois, rien qui ait l'air d'être posé pour servir.`
+    `🔴 **Le mot arrive par le bas, pas par le haut.** *Décision de l'autrice, 20 août 2026 :* **porteur de voiles est une croyance, et le mot n'est pas tendre** — *on l'emploie couramment pour dire de quelqu'un qu'il raconte n'importe quoi, et on en traite les gens.* **C'est comme ça que le lecteur l'apprend : entendu, pas expliqué.**`,
+    `Personne ne le confirme. Une gêne n'est pas une fissure — c'est ce qui la rend compatible avec l'interdit n° 4.`,
+    `Il n'est jamais repris, pas même quand le garçon disparaît.`,
+    `**Ce que dit le garçon ne mène nulle part, et c'est la règle.** *Rien de ce qui sort de sa bouche ne se vérifiera jamais* — ni ici, ni plus tard, ni à la relecture. **L'hypothèse « il fabulait » doit rester debout jusqu'à la dernière page.**`,
+    `🔴 **C'est ici que tombe la phrase de l'épicerie.** *Décision de l'autrice, 22 août 2026 : dans la tournée, dehors, en marchant, noyée parmi d'autres.* **Il peut buguer dessus.** ⛔ *Et rien ne la distingue des autres : c'est une fabulation de plus, et elle est fausse comme les autres.*`,
+    `🔴 **Andrew ne dépasse pas le seuil, et c'est une progression sur trois chapitres.** *Décision de l'autrice, 23 août 2026.* **Au deuxième il entre et reste debout au milieu de la pièce ; ici il ne franchit pas la porte ; à la place vide, elle s'ouvre avant qu'il ait frappé et il n'entre pas du tout.** *De plus en plus près de la porte, de moins en moins dedans.*
+
+⛔ **Rien de la maison ne se redécrit** — *il n'y met pas les pieds, et c'est ce qui permet de revenir au même endroit deux chapitres de suite sans que ça pèse.* ✅ **Le vide de la scène suivante ne se sent que si la place était pleine.**`,
+    `⚠️ **La tournée se fabrique ici, et elle sert encore — autrement.** *Andrew la refera seul à la scène 17 c, comme la dernière fois qu'il l'a vu dans ce contexte de sortie.* **Les lieux doivent donc être sur la page, nommés banalement, comme du décor qu'on traverse** — sinon le lecteur ne peut pas revenir en arrière et retrouver l'endroit.`,
+    `⛔ **Aucune insistance sur l'itinéraire.** *Rien qui ait l'air d'être posé pour servir.*`,
+    `⛔ **L'école n'est plus ici.** *Elle est passée à la visite précédente, avec la découverte — décision du 22 août 2026.*`,
+    `🔴 **Le sifflet tombe ici, et il a un motif.** *Décision de l'autrice, 22 août 2026 : en marchant, Eliott aperçoit Julie — l'une des deux autres arrivantes de chez June — et la siffle entre ses doigts pour l'interpeller.* **— Tu vas où ? — June m'a demandé de récupérer du lait !** *Deux répliques, et on repart.*`,
+    `🔴 **Et c'est le seul geste qu'Andrew relève de tout le livre.** *Décision de l'autrice, 22 août 2026 : il s'en étonne — personne ne fait ça ici pour appeler quelqu'un.* **Il demande, Eliott ne sait pas répondre, et on passe.** ⛔ *Il n'en fait rien : pas de note, pas de retour, pas une pensée plus loin.*`,
+    `🔴 **Ce n'est pas de siffler qui est étrange, c'est la façon dont il s'y prend.** *Précision de l'autrice, 23 août 2026.* **Les deux doigts sous la langue, la façon de les plier, le coup sec** — *ces choses-là s'apprennent, et elles s'apprennent de quelqu'un.* **D'où la question d'Andrew : « Qui t'a montré ? »** *Ce n'est plus « où as-tu appris » — c'est un homme qui cherche une personne, et il n'y en a pas.*
+
+🔴 **Et son excuse répond à la mauvaise chose.** *Précision de l'autrice, 23 août 2026 : il s'excuse parce qu'il voit la réaction d'Andrew.* **Andrew n'a pas bougé, le garçon s'en aperçoit — et il croit qu'on lui reproche d'avoir sifflé quelqu'un.** *Alors qu'Andrew est arrêté par la manière.* ⛔ **Ni l'un ni l'autre ne s'en rendra compte.**
+
+✅ **Et le garçon s'excuse tout seul :** *« Désolé. Je sais, June me l'a déjà dit, qu'on fait pas ça. C'est… je sais pas. J'y pense qu'après. »* **Il a donc déjà été repris, et il recommence** — *c'est un réflexe, pas une provocation.* ⛔ **Son excuse rend inutile tout paragraphe qui expliquerait la règle** : *elle passe par sa bouche, et le narrateur n'a rien à dire.*
+
+✅ **Deux personnes se retournent sur le trottoir d'en face ; Julie, elle, n'a l'air surprise qu'une seconde.** *Entre eux ça passe ; c'est le reste de la rue qui marque le coup.*`,
+    `✅ **Pourquoi ce geste-là et pas un autre : c'est le seul des trois qui ne prouve rien.** *Un sifflement ne se vérifie pas, ne se recoupe pas, ne mène nulle part — quelqu'un d'ici pourrait l'apprendre demain.* 🔴 **Et ça achète une chose précieuse : le lecteur voit qu'Andrew est capable de tiquer.** *Alors quand il ne tique pas sur la phrase de l'épicerie, ce n'est plus le narrateur qui triche — c'est lui qui n'a rien vu.* **Son silence sur le reste devient crédible parce qu'il a parlé une fois.**`,
+    `⚠️ **L'homme qui remarque ce qui ne compte pas et manque ce qui compte.** *C'est sa faille écrite en une scène de dix lignes, et personne ne la nomme.*`,
+    `✅ **Et ça évite un Eliott d'un seul bloc.** *Il est fermé tout le chapitre, sauf cinq secondes : il hèle quelqu'un, il se déride, il se referme.* ⛔ **Personne ne commente le sifflement** — c'est un geste utilitaire, il glisse pour ça.`,
+    `⚠️ **La maisonnée de June entre par la fenêtre, sans exposition.** *Un berceur peut avoir plusieurs arrivants à charge — l'épilogue le dit déjà : parfois trois pour un, parfois plus.* ⛔ **Aucun mot de parenté, aucune fratrie :** *ils vivent au même endroit, c'est tout ce qu'on en sait.*`,
+    `⛔ **Le chapitre ne se ferme pas chez Andrew.** *Le lecteur ne doit jamais voir où il habite : la scène 17 b en dépend.*`
   ],
   phrases: [{ t: `Un porteur de voiles de cet âge… je n'en avais jamais vu.`, n: `Exemple donné par l'autrice, à garder tel quel.` },
-            { t: `Mais si, il y avait un magasin de chaussures ici, pas une épicerie.`,
+            { t: `Il y avait un magasin de chaussures, ici… Bon. C'est pas grave. J'ai rien à y livrer de toute façon.`,
               n: `✅ **Validée le 16 août 2026, et c'est elle qui reviendra.** Dite dehors, en marchant, devant l'épicerie, au milieu des autres. *Rien ne la distingue : c'est une fabulation de plus, et elle est fausse comme les autres.*
 
-**Le sens des deux commerces, à tenir partout :** le **magasin de chaussures est de l'autre monde** — c'est ce dont Eliott se souvient ; **l'épicerie est d'ici**, c'est ce qu'il a sous les yeux et qu'il refuse. *La formulation du dossier était inversée : elle a été corrigée dans toutes les fiches.*
+**Le sens des deux commerces, à tenir partout :** le **magasin de chaussures est de l'autre monde** — c'est ce dont Eliott se souvient ; **l'épicerie est d'ici**, c'est ce qu'il a sous les yeux et qu'il refuse.
 
 **Elle ne donne aucun indice, elle donne une destination.** À la scène 17 c, Andrew s'en souviendra et entrera dans cette épicerie — non pas parce qu'il cherche quelque chose, mais parce qu'un gamin en avait parlé et qu'il n'a plus que ça. *C'est un geste de deuil, pas d'enquête.*
 
-**Et c'est là que le livre se retourne :** ce que le garçon racontait lui a valu de n'être cru par personne, et ça l'a blessé — c'est le cœur de cette scène-ci. **Ce sont ces mêmes mots, faux, moqués, qui amèneront Andrew au bon endroit.** *Rien n'est vérifié pour autant : l'épicerie est bien une épicerie. Il avait tort, et il sauve tout.*` }],
-
-  ouvert: [`✅ **Ce qu'Eliott dit n'a plus à être un indice.** *La scène 17 c ne repose pas sur une phrase à déchiffrer : elle repose sur une voix, et sur une femme qui s'excuse trop vite.* **Une seule de ses fabulations doit nommer un lieu où l'on peut entrer** — et rester fausse. Le reste peut être n'importe quoi, du moment que c'est invérifiable.`,
-           `Où le lecteur apprend ce qu'est un porteur de voiles s'il ne l'apprend pas d'elle. Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.`],
-  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/june.md §2 bis`
+**Et c'est là que le livre se retourne :** ce que le garçon racontait lui a valu de n'être cru par personne, et ça l'a blessé. **Ce sont ces mêmes mots, faux, moqués, qui amèneront Andrew au bon endroit.** *Rien n'est vérifié pour autant : l'épicerie est bien une épicerie. Il avait tort, et il sauve tout.*` }],
+  ouvert: [`💡 **L'ellipse peut porter autre chose qu'un compte de visites.** *Piste de l'autrice, 22 août 2026 : une remarque en passant sur le moment où Eliott a accepté de le tutoyer.* **Deux lignes d'ellipse qui disent un mois de familiarité, sans raconter une seule des visites.**`,
+           `⚠️ **Ce que le lecteur entend de la conversation avec June.** *Tout, ou seulement la fin ? Andrew est sur le pas de la porte, et ce genre de conversation commence toujours avant qu'on l'écoute.*`,
+           `✅ **Ils ont un nom et ils restent : Paul et Julie.** *Décision de l'autrice, 22 août 2026 — c'est Julie qu'il siffle.* **Ils reparaissent une fois, quand Joël et Liam viennent chez June, et plus jamais après** — *sinon l'enquête aurait un trou : on n'interroge pas une maison sans interroger ceux qui y vivent.* ⛔ **Ultra-secondaires, et ils le restent.** ⚠️ *Leurs âges sont à fixer.*`,
+           `**Où le lecteur apprend ce qu'est un porteur de voiles s'il ne l'apprend pas d'elle.** *Une seconde occurrence ailleurs ferait du mot une notion, et la gêne disparaîtrait avec.*`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — 03-personnages/june.md §2 bis — décisions du 22 août 2026`
 },
+
 {
   id: `capsule`, no: `Chapitre premier`, ecrit: true, col: 1, row: `andrew`, acte: `Ouverture`,
   titre: `Une journée à la ruche`,
@@ -325,17 +474,41 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   titre: `Troisième visite — la place est vide`,
   statut: `acquis`, pivot: true,
   resume: `Andrew vient croyant trouver le garçon. June est déjà allée voir la police, et elle lui apprend qu'il n'est pas rentré de son travail.`,
-  produit: `Il ne reçoit pas la nouvelle : il tombe dessus, sur un pas de porte, en venant pour autre chose. Il n'a rien à déclencher et rien à conseiller — tout a déjà été fait, dans l'ordre, par quelqu'un dont le rôle s'arrête là.`,
+  produit: `Il ne reçoit pas la nouvelle : il tombe dessus en venant pour autre chose. Il n'a rien à déclencher et rien à conseiller — tout a déjà été fait, dans l'ordre, par quelqu'un dont le rôle s'arrête là.
+
+⚠️ **Et c'est ce qui rendait la scène difficile à écrire.** *Constat de l'autrice, 23 août 2026 : « j'ai énormément de mal à me projeter, ça veut dire qu'elle est impressionnamment vide ».* **Ce qui la remplit n'est pas l'événement, c'est la maison.**`,
+  garde_lieu: `🔴 **Paul est déjà parti — décision de l'autrice, 23 août 2026.** *Soit le jour même, soit quelques jours avant.* **June perd deux arrivants en une semaine**, et la maison a deux places vides au lieu d'une.
+
+🔴 **Andrew entre, cette fois.** *Il faut qu'il puisse comparer avec la maison d'avant.* **La progression des trois chapitres s'inverse ici** — *il entrait et restait debout, puis il ne dépassait plus le seuil ; là elle ouvre grand.*
+
+⛔ **Et rien ne se redécrit de ce qui l'a déjà été.** *Le lecteur connaît la pièce : les trois assiettes, la machine à coudre, la planche à découper, l'escalier qui fait du bruit.* **Il n'a besoin que de ce qui manque.**`,
+  garde_recit: `🔴 **Le remords de June, et il est faux — décision de l'autrice, 23 août 2026.** *Elle a été moins à l'écoute d'Eliott ces derniers temps, prise par le départ de Paul.* ⛔ **Ce n'est pas vrai : son métier était de s'occuper des trois.** *L'un était dans le mutisme le plus complet, l'autre avait besoin d'elle, et elle ne pouvait pas se couper en deux.*
+
+🔴 **Ce remords sert : il donne un prétexte à supposer une fugue.** *Et c'est ce que fait la police, dans les vraies affaires : on n'écarte jamais la fugue, quel que soit le caractère de celui qui manque.*
+
+✅ **Le dispositif y gagne des deux côtés.** *La même supposition sert dans la vie d'avant, quand Liam avance une fugue pour les deux filles.* **Deux enquêtes, la même phrase, et le lecteur ne fait pas le rapprochement.**`,
+  garde_temps: `🔴 **La journée de June, telle qu'elle la raconte — donnée par l'autrice, 23 août 2026.** *Elle la récite dans l'ordre, comme quelqu'un qui l'a déjà dite trois fois.*
+
+**① Il est parti au travail, avec la même attitude fermée.** ② *Il aurait dû rentrer en fin d'après-midi.* ③ **C'est Julie qui est arrivée avant lui.** ④ *June a attendu une heure de plus, puis elle a appelé le responsable.* ⑤ **Julie est partie faire le tour du quartier.** ⑥ *Elle est rentrée une heure après, sans l'avoir trouvé.* ⑦ **June est allée au commissariat, et elle a parlé à un certain Isaac.**
+
+⛔ **Elle n'est pas inquiète comme on l'est d'un fils.** *C'est un arrivant dont elle a la charge — et elle est très inquiète.*
+
+✅ **Conséquence utile : le responsable sait déjà.** *June l'a appelé le soir même, donc quand Andrew ira le voir à la scène 6, la disparition n'est une nouvelle pour personne.*`,
+  clef: `🔴 **Et c'est ici que le nom d'Isaac entre dans le livre — par la bouche de June.** Elle dit avoir parlé à un certain Isaac ; Andrew répond que c'est un bon ami, et qu'il va aller lui parler. *Le lecteur attend donc de le rencontrer au chapitre suivant. Il rencontrera quelqu'un d'autre.*`,
+  garde_forme: `**Ouverture proposée : « La porte s'ouvrit avant qu'il ait frappé. »** *Elle guettait.* **Trois mots plus tard le lecteur a compris qu'il se passe quelque chose, et Andrew, lui, n'a encore rien compris.** *C'est la troisième fois qu'une porte s'ouvre dans ces chapitres, et c'est la première où elle s'ouvre trop tôt.*
+
+**Fin : le nom.** *C'est le hook le plus important des quatre — il fabrique l'attente que le chapitre suivant va trahir pendant six cents pages.*`,
   monde: `Rien de neuf, et c'est voulu. La scène est un vide.`,
   qui: [`andrew`,`june`],
   gardes: [
     `June ne vient trouver personne et ne signale rien à Andrew. Elle n'est pas un relais d'information : elle est un lieu où la nouvelle attend.`,
-    `Si une seule de ses répliques a l'air d'appeler Andrew à faire quelque chose, la séquence bascule.`
+    `Si une seule de ses répliques a l'air d'appeler Andrew à faire quelque chose, la séquence bascule.`,
+    `⛔ **Le chapitre ne se ferme pas chez Andrew.** *Le lecteur ne doit jamais voir où il habite : la scène 17 b en dépend.*`
   ],
-  clef: `🔴 **Et c'est ici que le nom d'Isaac entre dans le livre — par la bouche de June.** Elle dit avoir parlé à un certain Isaac ; Andrew répond que c'est un bon ami, et qu'il va aller lui parler. *Le lecteur attend donc de le rencontrer au chapitre suivant. Il rencontrera quelqu'un d'autre.*`,
-  ouvert: [`Un mois sépare l'arrivée d'Eliott de sa disparition — et la fiche d'Eliott pose des visites qui tiennent « sur des jours, pas sur des mois ». L'un des deux documents est à corriger.`],
-  src: `04-plan/le-parcours-de-l-enquete.md §2`
+  ouvert: [`✅ **La contradiction du mois est levée.** *Décision du 22 août 2026 : la première visite montrée n'est pas la première, et l'ellipse de la tournée porte le reste.* **Les visites tiennent donc sur le mois sans qu'aucune phrase ait à le dire.**`],
+  src: `04-plan/le-parcours-de-l-enquete.md §2 — décisions du 22 août 2026`
 },
+
 {
   id: `s4`, no: `Scène 4`, col: 5, row: `joel`, acte: `La disparition`,
   face: `g-poste`,
@@ -347,8 +520,195 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   lecture: `Il vient d'entendre June parler d'un certain Isaac et Andrew répondre que c'est un bon ami. **Il ouvre le chapitre suivant en s'attendant à le rencontrer, et il rencontre quelqu'un d'autre.**`,
   monde: `Rien, et c'est la condition. Un poste de police se ressemble partout — c'est l'infrastructure même du dispositif.`,
   qui: [`joel`,`liam`],
+  garde_forme: `🔴 **Le deroule, donne par l'autrice le 23 août 2026.** *La déposition a été
+faite la veille : le dossier est tout frais, et Liam le sort devant lui.*
+
+**① Le poste, en quelques lignes.** ② *Un homme, décrit, qu'on ne nomme pas.* ③ **Liam sort le
+dossier et la retranscription de la plainte.** ④ *Il parcourt, il regarde les photos — et le
+texte ne dit jamais ce qu'il y a dessus.* ⑤ **Liam parle, et c'est de lui que vient presque
+tout.** ⑥ *Il veut repasser chez elle et fouiller la chambre.* ⑦ **Liam doit voir l'employeur
+aujourd'hui : « est-ce que tu veux m'accompagner ? »**
+
+⚠️ **Ni l'un ni l'autre n'est bavard.** *« Andrew n'est pas très loquace, tout comme Joël. »*
+**Les informations viennent de Liam, à mesure que l'autre lit.**`,
+  garde_fissure: `🔴 **La fissure, et les trois choses qui la referment — arrêté le 23 août 2026.**
+
+*Le problème : Andrew a un mobile intime, Joël n'en a aucun. L'un connaît le garçon depuis un
+mois, l'autre n'a jamais vu les deux filles.*
+
+**① Les deux viennent de chez elle.** *« Je viens à l'instant de chez elle, elle était assez
+démunie. »* **Joël sort de chez la femme ; Andrew sort de chez June.** *Un policier qui a
+croisé quelqu'un de démuni et qui passe savoir où en est l'affaire n'a besoin d'aucune
+justification — et le chapitre précédent a mis Andrew dans le même mouvement.*
+
+**② Le silence porte les deux.** ⛔ *Pas une ligne d'intériorité dans ce chapitre. Pas de
+« il pensait au garçon », pas de « quelque chose se serra ».* **Le lecteur arrive avec Eliott
+dans la tête : il lira de l'inquiétude dans chaque silence.** *À la relecture, le même silence
+devient du métier.*
+
+**③ La conviction se dit en général, jamais en particulier.** ⛔ *« Je le connais, ce gamin, il
+n'a pas pu fuguer » est impossible ici.* ✅ **« À cet âge-là, on ne part pas comme ça. »**
+*Andrew pense à Eliott en le disant ; Joël énonce une expérience de métier.* **Même phrase,
+deux hommes.**
+
+✅ *Et « je le connais » est gardé pour le chapitre suivant, celui du retour chez June, qui est
+à Andrew seul.*`,
+  garde_retour: `🔴 **Ce qui les fait revenir chez elle : le dossier ne dit pas comment il
+allait.** *Le procès-verbal est plein de faits — heure de départ, heure attendue, tour du
+quartier, appel au responsable — et pas une ligne sur l'état du garçon.*
+
+**Or c'est exactement ce qu'il faut pour trancher la fugue.** *Liam la suppose sans rien
+savoir ; le dossier ne l'aide pas.* **Donc il faut y retourner.**
+
+*— Mais elle t'a parlé de quoi ? De la disparition ? De rien d'autre ?*
+
+⚠️ **Liam répond ce qu'il peut : elle était bouleversée, son récit partait dans tous les
+sens.** *Ce qui n'est pas une réponse — c'est le vide, dit autrement.* ✅ **Et il l'insinue
+plus qu'il ne le constate :** *le récit n'était peut-être pas si décousu.*
+
+✅ **La question qu'Andrew posera au chapitre suivant — comment il se comportait quand je
+n'étais pas là — est littéralement ce qui manque au procès-verbal.** *La même lacune produit
+le même retour, dans les deux mondes.*`,
+  garde_fugue: `🔴 **Andrew est le seul pour qui la fugue est plausible.** *Personne d'autre ne
+sait que le garçon allait mal : June minimise, le responsable n'en sait rien, la police n'a
+que des horaires.* **Lui l'a vu boudeur toute une tournée, et il l'a entendu dire qu'on ne lui
+avait rien demandé.**
+
+⚠️ **Donc quand il écarte la fugue, il ment un peu — et il le sait.** ⛔ *Ce n'est pas une
+conviction qu'il faut écrire, c'est un homme qui écarte trop vite une hypothèse qui lui fait
+peur.*`,
+  garde_mur: `🔴 **Premier mur : on ne peut nommer personne.** *Ni Andrew, ni le veilleur — et
+Joël non plus.* **Le chapitre entier tient sur un « il ».**
+
+✅ *Ce qui le rend jouable : Liam, lui, est nommé, et deux collègues ne s'appellent pas par
+leur nom toutes les trois répliques.* ⚠️ **Mais la moindre incise du genre « dit le veilleur »
+fait tout tomber.**`,
+  garde_mur2: `🔴 **Second mur, et c'est le vrai : aucun mot de parenté n'existe dans la langue
+du roman.** *Or ici il y a une mère, un père et deux filles.*
+
+⛔ **Le texte ne peut donc écrire ni mère, ni père, ni filles, ni jumelles.** *On dira « elle »,
+« la femme qui a déposé », « les deux ».*
+
+✅ **Et c'est ce qui sauve la scène au lieu de la gêner.** *Un lecteur habitué depuis quatre
+chapitres à un monde sans ces mots ne remarquera pas leur absence.* **Il lira une femme
+démunie et deux disparues, exactement comme il lirait une berceuse et deux arrivants.**
+
+⚠️ *« Interroger les deux » vaut des deux côtés : June et Julie ici, le père et la mère
+là-bas.*`,
+  garde_grade: `🔴 **Le collègue est lieutenant, et l'affaire est la sienne au départ — 25 août 2026.**
+
+*Le grade a été cherché pour remplacer le nom, et il a produit une conséquence que personne
+n'avait posée.* **Celui qui tient le dossier, qui a reçu la déposition et qui va voir
+l'employeur mène l'enquête** ; *l'autre vient s'informer.*
+
+✅ **Ce qui va exactement dans le sens du dossier.** *L'affaire des jumelles est celle sur
+laquelle Joël était avant de mourir* — **elle ne devient la sienne qu'à force qu'il s'y
+accroche.**
+
+🔴 **Et l'autrice le confirme :** *« c'est pour ça aussi que Joël s'est résigné, car son
+supérieur lui en a donné l'ordre quelque part ».*
+
+✅ **Trancé le 25 août 2026 : c'est lui.**
+
+**Le même homme tient les trois moments de la voie de Joël.** *Il l'accueille au poste d'un
+sourire humble ; il lui ordonne de lâcher ; il lui crie d'attendre pendant qu'il court à sa
+mort.* ⚠️ **Un ami, un supérieur et un témoin, dans cet ordre.**
+
+✅ **Et la superposition devient exacte :** *Isaac dit à Andrew de lâcher, le lieutenant dit à
+Joël de lâcher.* **Le lecteur ne verra qu'un seul homme d'un bout à l'autre du livre** — *et
+il aura raison de le croire, puisque c'est le même visage qu'il aura prêté aux deux.*
+
+🔴 **Le dossier l'avait déjà écrit sans qu'on l'ait relié.** *La fiche de la poursuite dit
+que son partenaire crie* attends — *« le mot exact auquel il a cédé des semaines plus tôt, et
+qui est toute sa faute ».* **C'était déjà le même homme ; il n'avait pas encore de grade.**
+
+⚠️ **Ce que ça coûte, et il faut le savoir :** *ce n'est pas un chef lointain qui referme
+l'affaire, c'est celui qui lui a serré la main.* ✅ *Ce qui est plus dur, donc meilleur.*`,
+  garde_dialogue: `**Le dialogue proposé par l'autrice, 23 août 2026 — à garder comme
+matériau, pas comme état final.**
+
+*— Je viens à l'instant de chez elle, elle était assez démunie.*
+*— Oui. Hier, j'avais beaucoup de mal à la calmer, son récit partait dans tous les sens. Mais
+entre nous, la fugue n'est pas une option à écarter… à cet âge-là, tu sais, on agit souvent
+sans réfléchir. Une bêtise, quelque chose qui contrarie, et on ne réfléchit pas. Et tous ces
+jeunes-là, ils ne se rendent pas compte.*
+*— Mais elle t'a dit quoi, là-dessus ? Tu lui as dit que tu soupçonnais une fugue ? Il m'est
+arrivé de passer dans le quartier, j'ai cru entendre qu'il y avait des soucis au travail.*
+*— Oui. Dans le rapport, j'ai noté une altercation houleuse. Je dois rencontrer l'employeur
+aujourd'hui. Tu veux m'accompagner ?*
+
+🔴 **« Tous ces jeunes-là, ils ne se rendent pas compte » travaille des deux côtés.** *Chez
+nous c'est une banalité de vieux flic ; dans l'autre monde, c'est exactement le grief des
+marginaux.* ⛔ **Personne ne le relève.**
+
+⚠️ **Et « une altercation houleuse » sert les deux enquêtes** — *elle mène à l'employeur, donc
+à la scène suivante, dans les deux mondes à la fois.*`,
+  ouvre_monde: `❓ **Un ou deux éléments, pas plus, qui feront comprendre à la relecture qu'on
+est chez nous.** *Demande de l'autrice, 23 août 2026 : discrets, et deux au maximum.*
+
+⛔ **Ils ne peuvent pas être un nom de lieu, une œuvre, une figure ni un événement de notre
+monde** — interdit n° 6. ⛔ *Ni un objet, puisque le vocabulaire des objets est commun aux
+deux mondes.*
+
+💡 **Ce qui reste : ce que ce monde-ci n'a pas.** *Un mot de parenté entendu à côté, un âge qui
+monte au lieu de descendre, une durée qui ne colle pas, un formulaire qui demande quelque
+chose qui n'existe pas là-bas.*
+
+---
+
+🔴 **L'idée de l'autrice, 24 août 2026 : une expression de chez nous, qui passe inaperçue.**
+*Son exemple : Rome ne s'est pas faite en un jour — « dans monde 2, Rome n'existe pas, et ça
+reste une expression, donc bon ».*
+
+✅ **Le principe est juste, et c'est même le meilleur angle possible.** *Une expression figée est
+un reliquat de langue : un mot qui a survécu à ce qu'il désignait.* **C'est exactement le
+mécanisme du livre**, appliqué à la grammaire au lieu de la mémoire — le sifflement d'Eliott,
+mais dans une phrase.
+
+⛔ **L'exemple, lui, ne tient pas, et pour deux raisons.**
+
+**① Un nom propre se voit.** *Le lecteur aura passé quatre chapitres dans un monde qui n'en
+contient aucun des nôtres.* **Il ne lira pas « nous sommes chez nous » : il lira une erreur**,
+et un accroc qu'on prend pour une faute ne travaille pas, il abîme.
+
+**② Et surtout, ça contredit l'interdit n° 11 de face.** *Ce monde est bâti sur une règle
+simple : pas d'objet, pas de mot.* **Si une expression pouvait survivre à son référent, les
+mots de parenté auraient survécu aussi** — et toute la scène du jardin s'écroule avec.
+
+✅ **Ce qu'il faut à la place : une expression dont le présupposé est factuel, pas culturel.**
+*Rien qui suppose une histoire ; quelque chose qui suppose un fait du monde.* **Et le seul fait
+qui sépare vraiment les deux mondes, c'est la direction du temps.**
+
+---
+
+🔴 **Les deux éléments écrits dans le chapitre, à valider ou à jeter.**
+
+**① *Ça ne nous rajeunit pas, tout ça.*** *Dite par Liam en se relevant du bureau, à la fin.*
+⚠️ **Chez Andrew, le temps qui passe rajeunit tout le monde, littéralement.** *La phrase y
+serait un contresens intégral — et c'est le genre de formule que personne n'écoute, y compris
+le lecteur.*
+
+**② *J'en ai fait, moi, des bêtises.*** *Liam parle de sa propre jeunesse au passé.* ⚠️ **Chez
+Andrew, on n'a pas été jeune : on le devient.** *Personne là-bas ne peut placer sa jeunesse
+derrière soi.*
+
+✅ *Aucun nom propre, aucun mot proscrit, aucune bizarrerie à la première lecture.* **Les deux
+portent sur la même faille, et c'est voulu : deux coups au même endroit valent mieux que deux
+indices dispersés.**
+
+⛔ **L'affaire Sorel est écartée — décision de l'autrice, 23 août 2026.** *J'avais proposé le
+nom de famille comme premier élément : elle craint que ce soit « cramé trop vite ».* **Le nom
+reste dans le livre, mais il ne sert pas à ça.**`,
   gardes: [
-    `**Aucun nom, ni celui de l'homme, ni celui de Joël.** Le lecteur apportera « Isaac » tout seul, et personne dans le texte ne le prononcera.`,
+    `🔴 **La fugue se suppose des deux côtés — décision de l'autrice, 23 août 2026.** *Chez June, elle sort d'un remords : elle a été moins à l'écoute ces derniers temps.* **Ici, c'est Liam qui l'avance pour les deux filles** — *sans remords, sans cruauté : c'est ce qu'on fait dans une enquête, on n'écarte jamais la fugue.*
+
+⛔ **Et personne ne relève que c'est la même phrase.** *Le lecteur l'a lue deux chapitres plus tôt dans une autre bouche, et il ne fera pas le rapprochement.*`,
+    `🔴 **Le collègue s'appelle Liam, et son nom ne s'écrit jamais dans le livre.**
+
+*Les deux moitiés de la règle ont été données à deux jours d'intervalle, et j'avais pris la première pour une règle de texte.* **Le 23 août : « ça reste Liam ! »** — *c'est le nom du personnage, celui qu'on emploie ici.* **Le 25 août : « on ne peut absolument pas nommer Liam, JAMAIS ! »** — *parce que le lecteur croit être chez Andrew, et qu'un nom inconnu l'y ferait trébucher.*
+
+✅ **Donc : Liam dans la bible, jamais dans le texte** — *exactement comme Joël.* **Le chapitre tient sur un il, un autre, un ami et un grade.**`,
+    `🔴 **Et le mécanisme n'est pas celui que je croyais.** *Le lecteur ne prend pas Liam pour Isaac dans cette scène.* **Il prendra le visage de Liam pour celui d'Isaac plus tard, parce qu'Isaac ne sera jamais décrit** — *« la description qu'il aura lue sera celle de Liam »*. ✅ **C'est donc une règle d'absence :** *ne jamais décrire Isaac, nulle part, et laisser le lecteur remplir avec le seul policier qu'il ait vu.*`,
     `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
     `Les victimes ne sont ni comptées, ni sexuées, ni décrites.`,
     `**Rien de ce qui décrit l'homme ne doit contredire Isaac plus tard.** Ni l'âge, ni l'apparence, ni un détail de bureau. *La contrainte est lourde, et elle vaut pour tous les chapitres où il reparaîtra.*`,
@@ -360,8 +720,8 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
     `**Et le cri final change de nature.** Si le lecteur a passé le livre à croire que ce collègue est Isaac, alors c'est Isaac qu'il entend crier *« Joël, attends ! »*. *Le dernier chapitre s'écroule sur lui d'un cran de plus.*`
   ],
   ouvert: [`✅ **Il n'y a plus de carte « L'affaire Sorel ».** *Décision de l'autrice, 16 août 2026 : cet encart n'existait pas vraiment, il est regroupé ici.* **Aucun chapitre n'établit l'affaire** — elle est déjà là quand on entre dedans, comme dans la vie.`,
-           `⚠️ **La fiche de Liam est périmée.** Elle le donne pour « pas un personnage, une voix derrière lui ». **Il porte désormais la présentation de l'allié**, donc il existe, il a une manière, une façon de parler. *À réécrire — c'est la conséquence la plus lourde de cette décision.*`,
-           `Combien de fois il reparaît côté Joël avant la poursuite.`],
+           `✅ **Les fiches de Liam et d'Isaac attendront — décision de l'autrice, 23 août 2026.** *« On va pas se concentrer sur la création d'une fiche de personnage pour Liam et Isaac, on va se concentrer sur l'histoire et ce qu'elle doit raconter. »* **Ce qui compte tient en une ligne : Liam est décrit, Isaac ne l'est jamais.**`,
+           `**Combien de fois il reparaît côté Joël avant la poursuite.** *Trois sont acquises depuis le 25 août 2026 : le poste, l'ordre de lâcher, et le cri.* ❓ **Reste à savoir s'il y en a entre les deux premières**, *et ce que ça coûte de le montrer trop souvent — chaque apparition est un portrait de plus à ne pas contredire.*`],
   src: `04-plan/le-parcours-de-l-enquete.md §2 — décision du 16 août 2026`
 },
 {
@@ -374,8 +734,15 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   monde: `Les cours de natation donnés aux arrivants — un détail d'intégration ordinaire qui devient, pour le lecteur de la dernière page, une chose difficile à relire.`,
   qui: [`andrew`,`isaac`,`june`],
   gardes: [
-    `Sa terreur de l'eau ne s'explique pas, ne se commente pas, et ne revient pas comme motif.`,
-    `June restitue sans rien ajouter. Elle ne conclut jamais rien.`
+    `Sa terreur de l'eau ne s'explique pas, ne se commente pas, et ne revient pas comme motif.
+
+🔴 **Précision du 25 août 2026 : le mot bouée ne tombe pas sous cette garde.** *Andrew l'emploie au sens figuré, pour dire ce à quoi le garçon se tient dans un monde où il ne se sent chez lui nulle part.* ⛔ **Il ne commente rien, il ignore tout de la noyade** — *et c'est le mécanisme du livre : il dit une chose vraie sans mesurer à quel point elle l'est.*
+
+⚠️ **Risque assumé par l'autrice :** *peluche-poisson, piscine et bouée dans le même chapitre.* **Un lecteur peut rapprocher trop tôt.**`,
+    `June restitue sans rien ajouter. Elle ne conclut jamais rien.`,
+    `🔴 **Paul et Julie sont présents tous les deux.** *Décision de l'autrice, 22 août 2026 : on n'interroge pas une maison sans interroger ceux qui y vivent.* ⛔ **Ils ne savent rien** — *ils vivaient avec lui, ils ne l'ont pas suivi au travail, et ce qu'ils disent ne fait avancer personne.* **C'est leur dernière apparition du livre.**`,
+    `🔴 **June seule parle de son comportement et du cours de natation.** *Décision de l'autrice, 22 août 2026 : la parole utile est à elle, et à personne d'autre dans cette maison.* ⛔ **Et leur non-savoir doit être actif :** *on leur demande forcément s'il leur a parlé de quelque chose — ils répondent, et leur réponse ne sert à rien.* **Un témoin présent qui n'apporte rien doit avoir l'air de n'avoir rien, pas d'être escamoté.**`,
+    `🔴 **La colère est unique, et c'est ici qu'on l'apprend.** *Décision de l'autrice, 22 août 2026 : une seule fois, jamais comprise, jamais expliquée.* ⛔ **Aucune colère au pluriel dans les chapitres d'avant** — *June s'y inquiète qu'il n'aille pas bien, refermé, en difficulté, et rien de plus.* **Le motif est le reliquat corporel de la noyade : le banaliser tôt le dépense.**`
   ],
   phrases: [{ t: `il s'est mis dans une colère noire, ça ne lui ressemblait pas`, n: `Formulation de l'autrice, à garder.` }],
   double: `Beat doublable : deux fois la même pièce, deux fois la même question, et une seule fois où il en tire quelque chose.`,
@@ -388,15 +755,34 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   face: `g-fac`,
   titre: `Sur son lieu de travail`,
   statut: `acquis`,
-  resume: `Le portage — une tournée, et c'est elle qui fait passer Eliott dans les rues d'ici. Le responsable donne sa version : la veille, Eliott était impliqué dans une bagarre avec un homme de vingt-deux ans. Il l'a congédié sur-le-champ, après plusieurs sommations, quand l'homme est devenu insultant et haineux.`,
+  resume: `Le portage — une tournée, et c'est elle qui fait passer Eliott dans les rues d'ici. **Henri**, le responsable, donne sa version : la veille, Eliott était impliqué dans une bagarre avec un homme de vingt-deux ans. Il l'a congédié sur-le-champ, après plusieurs sommations, quand l'homme est devenu insultant et haineux.`,
   produit: `L'économie de ce monde : qui travaille, à quelles conditions, et ce qu'on tolère pour tenir un effectif. Le responsable semble blasé, comme si ce n'était pas la première fois — des marginaux, il y en a partout, il faut vivre avec en limitant les débordements.`,
   monde: `Le travail des jeunes arrivants, l'exclusion temporaire, le seuil de tolérance d'une société qui a besoin de ses effectifs.`,
   qui: [`marginal`,`andrew`,`isaac`],
+  garde_eliott: `🔴 **Ce qu'Henri dira du garçon, donné le 25 août 2026 — et c'est un éloge.**
+
+*Il ne parlait pas, il travaillait, il ne tapait pas la causette, il revenait vite.* **Un des plus productifs, et pour les raisons exactes qui inquiètent June depuis un mois.**
+
+⚠️ **Personne ne relève la contradiction.** *Ce qui abîme le garçon chez elle est ce qui le rend bon ici, et les deux le disent sans se connaître.*
+
+✅ *Le chapitre 6 l'a préparé sans le dire :* il ne parle pas beaucoup, de toute façon, et à personne.`,
+  garde_tri: `🔴 **Le jour du tri — établi au chapitre 6, le 25 août 2026.** *Deux fois par semaine, les porteurs ne sortent pas : ils restent trier au dépôt, ce qui leur repose les jambes.*
+
+✅ **C'est ce qui rend cette visite obligatoire.** *June l'a dit :* c'était le jour du tri, il n'a pas quitté le dépôt de la journée. ⛔ **L'altercation ne peut donc venir que d'ici.**`,
   gardes: [
+    `🔴 **Le responsable a un nom : Henri.** *Décision de l'autrice, 22 août 2026.*`,
+    `🔴 **Henri tient une entreprise de livraison, pas un service pour jeunes arrivants.** *Précision de l'autrice, 23 août 2026.* **Il emploie de tout, parce qu'il faut de la condition physique pour livrer certaines choses** — *le portage n'est que le petit nom de ce qu'on confie aux plus bas : les menus colis, les lettres, ce qui se porte à pied.* ⛔ **Sans ça, on ne croiserait pas de marginaux chez lui, et la scène suivante n'aurait pas lieu d'être.**`,
+    `🔴 **Et c'est là que le grief prend un visage.** *L'homme de vingt-deux ans est un arrivant venu avec un grand nombre : il trime depuis des années dans cette maison.* **Il a vu entrer un garçon de dix ans qui n'en a plus que six devant lui et à qui l'on donne tout.** ⛔ *Personne ne met les deux côte à côte dans le texte — c'est le lecteur qui les rapproche, et il le fera d'autant mieux qu'il vient de passer un chapitre entier avec le garçon.*`,
+    `🔴 **C'est ici que le lecteur apprend combien de temps il reste à un jeune arrivant — décision de l'autrice, 23 août 2026.** *Première des trois marches, et la seule qui soit froide.*
+
+**Henri a une raison de le dire, et c'est la seule bonne :** *il tient un effectif et il explique pourquoi il emploie ces gens-là.* **Un jeune arrivant ne fera jamais d'études : il n'a pas le temps devant lui.** ⛔ *Il parle de main-d'œuvre, jamais d'Eliott — c'est le lecteur qui fait la soustraction, et il la fait après coup.*
+
+✅ **Et la scène suivante en dépend :** *le grief des marginaux — l'accès sans mérite — ne se comprend que si on sait ce que les jeunes arrivants ont et n'ont pas.* **Sans cette marche-là, la scène 7 ne tient pas debout.**`,
+    `⛔ **Ce qui ne se dit pas ici : ce qu'est le jardin, et ce qu'il y a au bout.** *Deux autres marches s'en chargent — la scène 11, où Andrew y va et voit le lieu, et la scène 14 c, où une berceuse tient un tout-petit sur le point de disparaître.* **Trois marches, chacune plus profonde, et aucune n'explique.**`,
     `Le responsable ne formule jamais la doctrine. Il est blasé, il a un effectif à tenir, c'est tout.`,
     `Sa position sur les jeunes arrivants doit rester neutre — ni tendresse, ni mépris.`
   ],
-  phrases: [{ t: `On les fait travailler pour que le reste du monde le supporte.`, n: `Retenue par l'autrice comme réplique du responsable, quand on lui demande pourquoi la sortie du marginal ne lui fait pas plus d'effet que ça.` }],
+  phrases: [{ t: `On les fait travailler pour que le reste du monde le supporte.`, n: `Retenue par l'autrice comme réplique d'Henri, quand on lui demande pourquoi la sortie du marginal ne lui fait pas plus d'effet que ça.` }],
   ouvert: [`Le prénom de l'homme de vingt-deux ans. Un nom d'éclaircie. Il traverse huit scènes sans être nommé.`,
            `Ce que le portage porte exactement, à qui, et sur quel périmètre.`],
   src: `04-plan/le-parcours-de-l-enquete.md §2`
@@ -725,7 +1111,7 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
   clef: `**« Je te le répète » est la charnière, et c'est une équivoque parfaite.** Chez Joël, elle renvoie à ce qui a déjà été dit dans sa propre conversation. Pour le lecteur, elle renvoie au chapitre d'avant. **Les deux lectures sont exactes, et aucune n'est un mensonge.**`,
   lecture: `Il vient de voir Isaac dire à Andrew de lâcher. Il lit la suite. Il n'y a pas de suite — *et il aura fabriqué lui-même la scène la plus importante du dispositif.* **Et il croit voir un homme abandonner**, ce qui rend le chapitre d'après plus fort qu'il n'a le droit de l'être.`,
   monde: `Rien, et surtout rien. Un commissariat se ressemble partout, une engueulade entre deux collègues aussi : c'est exactement ce qui rend la méprise possible.`,
-  qui: [`joel`],
+  qui: [`joel`,`liam`],
   gardes: [
     `**Aucun prénom.** Le chapitre précédent a dit « Andrew » ; celui-ci ne dit personne, et le lecteur reporte le nom tout seul.`,
     `Aucun marqueur de monde : pas de travée, pas de registre, pas d'arrivant, pas un mot de parenté.`,
@@ -736,6 +1122,20 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
     { t: `Comment tu peux sortir ça ? Tant qu'on a rien retrouvé, on peut rien avancer.`, n: `Formulation de l'autrice. Joël se défend — et la phrase vaut mot pour mot pour un garçon disparu.` },
     { t: `Je te le répète, lâche l'affaire ! À l'heure qu'il est, les vers ont sûrement commencé leur travail !`, n: `Formulation de l'autrice. **« Je te le répète » est le mot qui coud les deux chapitres.** Il ne doit être ni souligné, ni commenté, ni relevé par personne.` }
   ],
+  garde_qui: `✅ **C'est le lieutenant du chapitre 5 — tranché le 25 août 2026.**
+
+🔴 *L'autrice : « Joël s'est résigné car son supérieur lui en a donné l'ordre quelque part. »*
+**Ce n'est donc pas une dispute entre égaux : c'est un ordre, et il est suivi.**
+
+⚠️ **Et c'est l'ami du premier chapitre du poste** — *celui qu'il salue d'un clin d'œil et
+qui lui répond d'un sourire humble.* **Le ton peut monter sans qu'aucun des deux cesse de
+tenir à l'autre** ; *c'est même la seule façon de le jouer.*
+
+⛔ **Il n'est pas nommé ici non plus.** *Ni son nom, ni son grade s'il pouvait trahir la
+hiérarchie du monde d'Andrew* — **le lecteur doit pouvoir lire Isaac dans chaque réplique.**
+
+✅ **Et c'est lui qui criera** attends *à la poursuite.* **Le même homme dit** lâche *puis*
+attends ; *Joël obéit la première fois et pas la seconde, et les deux fois il a tort.*`,
   ouvert: [`**Ce que devient « c'est déjà ce qu'on m'a dit ».** La réplique qui échappait à Andrew n'a plus de place ici : le dispositif ne passe plus par un écho dans sa tête, il passe par une coupe de chapitre. *À supprimer, ou à replacer ailleurs — mais pas ici, où elle ferait doublon avec un procédé plus fort.*`],
   src: `04-plan/le-meme-jour.md §5.3, §5.3 bis, §5.5 — décision du 16 août 2026`
 },
@@ -838,9 +1238,9 @@ Le déroulé : ① l'arrivée, le tableau des travées, le tour de rôle ; ② u
 
 ✅ **Et depuis le 16 août 2026, elle est littérale trois fois.** *Il est passé devant. Il est passé devant avec le gamin. Et le gamin a parlé à cet endroit-là.* **C'est la seule réplique du livre qui dise exactement ce qu'elle dit, au moment où personne ne peut l'entendre** — Isaac la prend pour une formule de flic, et le lecteur se dit « mais oui, bien sûr ».` }],
   pourquoi: [
-    `✅ **Trouvé le 16 août 2026 — et c'est l'autrice qui l'a trouvé.** *Le trou n'était pas « qu'est-ce qu'Eliott a dit » : c'était « comment Andrew y revient ».* **Il refait la promenade.** *Celle de la scène 2 — le petit parcours qu'il avait entrepris avec le garçon, la dernière fois qu'il l'a vu.* **Comme un homme qui suit un fantôme.** Il déambule, et un mot lui revient. Puis une intuition.`,
+    `✅ **Trouvé le 16 août 2026 — et c'est l'autrice qui l'a trouvé.** *Le trou n'était pas « qu'est-ce qu'Eliott a dit » : c'était « comment Andrew y revient ».* **Il refait la tournée.** *Celle de la scène 2 — décision de l'autrice, 22 août 2026 : la sortie n'est plus une promenade de quartier mais la tournée de portage du garçon, la dernière fois qu'il l'a vu dans ce contexte-là.* **Comme un homme qui suit un fantôme.** Il déambule, et un mot lui revient. Puis une intuition.`,
     `**Pourquoi ça tient, alors que rien d'autre ne tenait :** *le trajet n'est pas le sien, c'est celui d'Eliott.* **Ses pieds n'ont donc pas à choisir cette rue-là : le gamin l'a choisie pour lui, il y a des semaines.** *Aucun hasard à couvrir, aucune attention à diriger — il suit un itinéraire qui existe déjà.*`,
-    `**Et les mots sont accrochés au trottoir.** *Regarder la scène 2 : « mais si, il y avait un boulanger ici, pas un magasin de chaussures » — c'est une phrase qu'on ne peut dire que devant quelque chose.* **Le gamin commentait ce qu'il passait, comme font les gamins ; Andrew marchait à côté et écoutait à moitié.** *Chaque bout de rue porte donc ce qui s'y est dit, et il suffit de le refaire pour que ça revienne.* **Ce n'est pas un procédé : c'est comme ça que la mémoire fonctionne.**`,
+    `**Et les mots sont accrochés au trottoir.** *Regarder la scène de la tournée : « mais si, il y avait un magasin de chaussures ici, pas une épicerie » — c'est une phrase qu'on ne peut dire que devant quelque chose.* **Le gamin commentait ce qu'il passait, comme font les gamins ; Andrew marchait à côté et écoutait à moitié.** *Chaque bout de rue porte donc ce qui s'y est dit, et il suffit de le refaire pour que ça revienne.* **Ce n'est pas un procédé : c'est comme ça que la mémoire fonctionne.**`,
     `**Devant une porte, la chose qu'il avait rangée dans le délire est debout devant lui.** *Et « c'était là sous nos yeux » devient exact au sens propre :* **il est passé là avec le garçon, et le garçon a parlé à cet endroit précis.**`,
     `**C'est son défaut retourné, enfin.** *L'homme qui croit les documents relit le monde — et le seul document qu'il consulte ce jour-là est une promenade.* **Il n'est pas revenu chercher un indice : il a arrêté de travailler, et la chose est arrivée.** *Personne ne le formule.*`,
     `⛔ **Trois pistes écartées le 16 août 2026, à ne pas refaire.** *① La voiture :* Andrew n'en a pas, il était déjà à pied les trois premières fois. *② Il s'arrête devant chez June et lit une porte :* **un homme planté devant une porte regarde ses pieds, pas la maison d'en face** — rien ne dirige son attention. *③ June parle d'Eliott et le nom tombe :* **ça marche, mais c'est elle qui trouve et lui qui reçoit**, et le chapitre s'appelle « Il a trouvé ».`,

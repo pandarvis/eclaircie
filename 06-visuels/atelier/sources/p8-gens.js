@@ -62,6 +62,11 @@ const GENS = [
     `Il part avec quelqu'un qu'il connaissait, sans se retourner.`],
   faille:`La culpabilité du survivant, qui n'a aucun fondement. Il porte une faute qui n'en est pas une, et il n'a ni les mots ni la notion de ce qu'il porte.`,
   arc:`Il arrive, il fabule, personne ne l'écoute. Il est enlevé par une berceuse qu'il croisait. Il est retrouvé vivant, deux semaines plus tard. Six ans après, à huit ans, il raconte l'eau et le sentiment juste avant d'entrer au jardin, personne ne comprend, et on l'emmène.`,
+  portrait:[`**Donné par l'autrice le 22 août 2026, et transposé.** *Son texte disait <em>l'enfance</em>, <em>les enfants de son âge</em>, <em>un adolescent</em>, <em>en grandissant</em> — quatre mots que cette langue n'a pas.*`,
+    `**Le visage doux, encore rond aux joues.** *Un nez court et droit, une bouche fine. Des cheveux bruns, épais, coupés par quelqu'un qui savait le faire et qui repartent en mèches sur le front et les oreilles.* **Ce qui tient le visage, ce sont les yeux : verts, grands, et ils lui donnent une présence que le reste n'annonce pas.** *Décision de l'autrice, 22 août 2026.* ⛔ *Première version : « verts, larges, et ils prenaient toute la place » — elle rendait le garçon inquiétant au lieu de le rendre présent.*`,
+    `**Mince sans être maigre.** *Épaules étroites, poignets étroits, des mains encore petites.* **Et dans sa façon de se tenir, quelque chose qui cherche encore sa forme.**`,
+    `🔴 **La tournure que l'autrice cherchait n'existe pas, et c'est tant mieux.** *Elle voulait remplacer <em>la forme qu'il prendrait en grandissant</em>.* ⛔ **Andrew ne peut pas avoir cette pensée :** *dans son monde, personne ne grandit — les corps descendent.* **On écrit donc la maladresse sans sa direction, et le lecteur fournit <em>il grandit</em> tout seul.** *Il a tort, et il ne le saura qu'à la fin.*`,
+    `**Il regarde mieux qu'il n'en a l'air.** *Andrew l'a déjà vu à la cérémonie, sous la serviette — et c'est ce qu'il n'a pas écrit dans la case.*`],
   gardes:[`Rien de ce qu'il dit ne doit être vérifiable ni se recouper avec ce qui remonte chez Andrew. Banal, local, insignifiant — jamais un monument.`,
     `Sa terreur ne s'explique pas, ne se commente pas, et ne revient pas comme motif.`,
     `Les scènes de visite ne s'écrivent jamais comme des auditions.`,
@@ -75,7 +80,7 @@ const GENS = [
 
 { id:`june`, nom:`June`, voie:`andrew`, role:`Berceuse. Celle qui a la charge d'Eliott.`,
   age:`**Environ vingt-deux ans** — décision de l'autrice, 16 août 2026. *C'est un âge apparent, et il ne dit rien de son ancienneté :* **elle a pu arriver à soixante ans, à quatre-vingts, à cent deux.** Ce qu'il dit, c'est ce qu'il lui reste — un berceur exerce jusqu'à douze ans, donc elle a encore quelques années devant elle. À l'épilogue elle a rajeuni, et il lui en reste toujours avant d'entrer au jardin à son tour.`,
-  resume:`Elle exerce le métier qui accompagne jusqu'au dernier jour, auprès d'enfants de tous les âges du jardin. C'est elle qu'on appelle pour nommer les arrivants de huit ans et moins, mais Eliott est arrivé à dix : elle ne l'a pas nommé, elle arrive après le registre. Elle héberge les visites d'Andrew sans les trouver remarquables, cherche l'enfant quand il disparaît, prévient la police dans l'ordre, et le lui apprend parce qu'il faut bien que quelqu'un le dise.`,
+  resume:`Elle exerce le métier qui accompagne jusqu'au dernier jour, auprès d'arrivants de tous les âges du jardin. C'est elle qu'on appelle pour nommer les arrivants de huit ans et moins, mais Eliott est arrivé à dix : elle ne l'a pas nommé, elle arrive après le registre. **Elle en a trois à charge — Paul, Julie, et Eliott le dernier arrivé.** Elle héberge les visites d'Andrew sans les trouver remarquables, cherche l'enfant quand il disparaît, prévient la police dans l'ordre, et le lui apprend parce qu'il faut bien que quelqu'un le dise.`,
   traits:[`Elle ouvre, elle laisse parler, elle n'assiste pas forcément.`,
     `Elle est la mémoire de ce que le petit racontait, et le restitue sans y rien ajouter.`,
     `Elle est dans la confidence des pédiatres du jardin et connaît, pour chaque enfant dont elle a la charge, la date où la descente a commencé.`,
@@ -86,6 +91,11 @@ const GENS = [
   clef:`✅ **Sa réserve à l'épilogue n'est pas du chagrin : elle sait qu'elle le rejoindra.** *Trouvaille de l'autrice, 17 août 2026.* **On peut rendre visite au jardin — c'est autorisé et ça se fait.** Mais elle ne sait pas combien de temps il lui reste comme berceuse, et une promesse de visite serait donc une promesse qu'elle ne tient pas. *C'est compliqué à répondre, et heureusement Eliott ne le lui demande pas.*
 
 **Conséquence sur ses adieux :** *tu vas être bien là-dedans, mieux qu'avec moi* cesse d'être ce qu'on dit à un mourant. **C'est quelqu'un qui sait que l'endroit est bien, puisqu'elle y sera.** — *Et c'est Andrew qui répond à sa place, une fois qu'elle est partie : « t'inquiète pas, elle viendra te voir, tu la connais ».*`,
+  portrait:[`**Écrit par l'autrice, 22 août 2026.** *Elle a tiré ses cheveux blonds en arrière et les a noués bas. Grande et fine, elle a le visage d'une jeune femme au début de la vingtaine. Son tablier a déjà servi ce matin-là, et elle le porte avec cette simplicité des vêtements qu'on enfile pour travailler.*`,
+    `🔴 **Le visage d'une jeune femme, et pas un âge.** *La formulation de l'autrice ne dit pas qu'elle a vingt-deux ans : elle dit qu'elle en a le visage.* **C'est exactement le statut d'un âge dans ce monde** — *une apparence, qui ne renseigne sur rien.* ⛔ *Et rien dans la phrase n'invite le lecteur à y voir autre chose.*`,
+    `⛔ **Pas une liste d'attributs.** *Première version : « Élancée, des vêtements simples, un tablier par-dessus. »* **Reprise de l'autrice : la description doit être romanesque, pas inventoriée** — *un geste qu'elle a fait le matin vaut mieux qu'un adjectif.*`,
+    `⛔ **Rien de strict.** *La coiffure tirée pourrait faire sévère et ne le fait pas — c'est la seule chose que le portrait ait à corriger.*`,
+    `**Elle est nommée dès la porte.** *Andrew la connaît : écrire « une jeune femme lui ouvrit » supposerait un narrateur qui la découvre, et le livre n'en a pas.* **Le lecteur reçoit le nom et le visage en même temps.**`],
   gardes:[`Elle ne signale rien et ne vient trouver personne. Toute version qui lui donne ce rôle est périmée.`,
     `Elle n'est pas un relais d'information : elle est un lieu où la nouvelle attend.`,
     `Si une seule de ses répliques a l'air d'appeler Andrew à faire quelque chose, la séquence bascule.`,
@@ -94,11 +104,49 @@ const GENS = [
     `Une réplique qui désignerait la berceuse voisine, même en passant, ferait basculer sa fiche.`],
   phrases:[`Un porteur de voiles de cet âge… je n'en avais jamais vu.`,`Il s'est mis dans une colère noire, ça ne lui ressemblait pas.`],
   ouvert:[`Assiste-t-elle aux visites ou laisse-t-elle la pièce ?`,
+    `⚠️ **Les âges de Paul et Julie sont à fixer.** *Ils sont arrivés avant Eliott et vivent là depuis plus longtemps que lui ; un berceur accompagne jusqu'à huit ans, où l'on entre au jardin.*`,
     `✅ **Elle est présente à l'épilogue, et c'est elle qui dit l'adieu de huit ans.** Le second, celui de zéro, appartiendra à quelqu'un d'autre.`,
     `La revoit-on entre l'enquête et l'épilogue, ou l'ellipse la garde-t-elle entière ?`,
     `⚠️ **Est-ce que le lecteur peut comprendre qu'elle ira au jardin ?** *Il a tout ce qu'il faut — elle a visiblement rajeuni en six ans, et il connaît la règle.* **Rien ne le lui dit, et rien ne l'en empêche.** À laisser tel quel, probablement : c'est exactement la sorte de chose que ce livre confie au lecteur.`,
     `Que savaient exactement l'une de l'autre les deux berceuses voisines ?`],
   src:`03-personnages/june.md` },
+
+{ id:`paul-julie`, nom:`Paul et Julie`, voie:`andrew`, role:`Les deux autres arrivants de chez June.`,
+  age:`🔴 **Paul a huit ans, Julie en a dix — décision de l'autrice, 22 août 2026.** *Paul rejoint le jardin dans quelques semaines.* **Julie est arrivée dans ce monde vers soixante ou soixante-dix ans** — *le livre ne le dit pas et s'en moque.* ⛔ **Elle n'est pas chez June depuis cinquante ans pour autant :** *elle a eu son école, ses tuteurs, un métier, et elle est passée chez une berceuse à quatorze ans comme tout le monde.* **Quatre ans chez June, à peu près.**`,
+  resume:`🔴 **Décision de l'autrice, 22 août 2026.** *June n'a pas un arrivant à charge, elle en a trois, et Eliott est le dernier arrivé.* **Ils ne servent pas l'intrigue : ils servent June.** *Elle n'est pas quelqu'un qui peine avec un garçon — elle est quelqu'un qui s'en occupe de trois et qui n'arrive pas à créer le lien avec celui-là.*`,
+  traits:[`On les croise, on ne les visite pas. **Une silhouette dans une rue, une porte qui claque, une voix depuis une autre pièce.**`,
+    `**Ils ont été très accueillants avec lui, et il est resté distant.** *Décision de l'autrice, 22 août 2026 : aucune animosité, aucun conflit, rien à jouer de ce côté-là.* ⛔ **La distance vient de lui seul** — *il ne trouve sa place nulle part, et cette maison n'y est pour rien.*`,
+    `**Julie : cheveux bruns, légèrement ondulés, retenus d'un côté par une pince.** *Décision de l'autrice, 22 août 2026.*`,
+    `🔴 **Julie a été couturière vingt-cinq ans, pour un grand magasin de vêtements en ville.** *Le chiffre est passé de onze à vingt-cinq le 23 août 2026 : l'autrice veut que ça choque.* *Décision de l'autrice, 22 août 2026.* **Et sa bienveillance se montre par un ouvrage, pas par une réplique :** *elle s'est proposée pour reprendre toutes les affaires d'Eliott, et c'est June qui le dit, pas elle.* ⛔ *Elle hausse une épaule et rend son sourire ; elle ne se défend jamais d'être gentille.*`,
+    `**Paul part au jardin dans quelques semaines**, et personne n'en fait un événement. ⛔ *Et on ne décrit surtout pas ce qu'est une entrée au jardin : l'épilogue est là pour ça.*`,
+    `⛔ **Aucun mot de parenté entre eux.** *Ils vivent au même endroit, c'est tout ce qu'on en sait — ni fratrie, ni famille, ni rien qui y ressemble.*`],
+  clef:`⚠️ **Son âge doit être sur la page avant ses vingt-cinq ans de couture.** *Repérage de l'autrice, 23 août 2026 : sans lui, le paradoxe passe inaperçu.* **« Elle avait dix ans, comme Eliott »**, dit à sa première apparition. *Chiffre nu contre chiffre nu : trois répliques plus loin, « vingt-cinq ans de métier ».*
+
+❓ **Le mot <em>apparent</em> a été essayé et retiré le 23 août 2026.** *L'autrice a raison sur le fond — il y a bien deux données, l'âge et l'ancienneté, et son dossier les distingue.* **Mais dans le texte le mot prévient le lecteur** : *il annonce l'écart avant que Julie ne parle de ses onze ans, et le lecteur vérifie au lieu de buter.* ⚠️ *À reprendre à la relecture si le passage paraît trop sec.*
+
+🔴 **Julie est l'inversion des âges à hauteur de gamin, et sans un mot d'explication.** *Deux corps de dix ans dans la même maison : l'un est né il y a un mois, l'autre a une vie entière derrière elle — l'école, vingt-cinq ans de couture, des dizaines d'années.* **Et ça passe par ses mains, pas par une explication :** *elle plie un ourlet à l'ongle et le pique sans épingle, et Andrew la regarde faire avant qu'elle ne dise quoi que ce soit.* **Eliott a du mal à le comprendre** — *et c'est tout ce que le livre en dit.*
+
+⛔ **Et c'est lui, le cas rare, pas elle.** *Julie a rejoint la tranche haute à quatorze ans comme tout le monde ; Eliott y est arrivé directement, sans rien derrière lui.*
+
+**C'est Julie qu'Eliott siffle dans la rue, à la tournée.** *— Tu vas où ? — June m'a demandé de récupérer du lait !* **Deux répliques, et on repart.** *C'est par elles que la maisonnée entre dans le livre, sans une phrase d'exposition.*`,
+  gardes:[`**Ils sont des témoins, et l'enquête doit les voir.** *On n'interroge pas une maison sans interroger ceux qui y vivent* — **ils sont là tous les deux quand Joël et Liam viennent chez June.**`,
+    `⛔ **Ultra-secondaires, et c'est une décision, pas un accident.** *Décision de l'autrice, 22 août 2026 : ils ne reviennent plus après cet entretien.* **Deux apparitions dans tout le livre — une silhouette sifflée dans une rue, et deux témoins qui ne savent rien.**`,
+    `⛔ **Ils ne savent rien.** *Ils vivaient avec lui, ils ne l'ont pas suivi au travail, et ce qu'ils disent ne fait avancer personne.*`,
+    `⛔ **Aucun des deux ne devient un ami d'Eliott ni un confident.** *Il est le dernier arrivé et il ne trouve sa place nulle part — c'est vrai dans cette maison aussi.*`],
+  ouvert:[`✅ **C'est Julie qu'il siffle — tranché le 22 août 2026.**`,
+    `⚠️ **Ce qu'ils disent devant Joël et Liam, et si le lecteur l'entend.**`],
+  src:`décision de l'autrice, 22 août 2026` },
+
+{ id:`henri`, nom:`Henri`, voie:`andrew`, role:`Le responsable du portage. Celui qui a congédié le marginal.`,
+  age:`⚠️ **À fixer.** *Rien ne l'exige pour l'instant.*`,
+  resume:`🔴 **Il a un nom depuis le 22 août 2026, et c'est tout ce qui a changé.** *Il tient un effectif, il a congédié un homme de vingt-deux ans après plusieurs sommations, et il donne sa version sans y mettre d'affect.* **Il est blasé comme quelqu'un pour qui ce n'est pas la première fois.**`,
+  traits:[`**Blasé, pas cynique.** *Des marginaux il y en a partout, il faut vivre avec en limitant les débordements.*`,
+    `**Neutre sur les jeunes arrivants** — ni tendresse, ni mépris. *C'est de la main-d'œuvre, et il en a besoin.*`],
+  gardes:[`⛔ **Il ne formule jamais la doctrine.** *Il a un effectif à tenir, c'est tout.*`,
+    `⛔ **Sa position sur les jeunes arrivants reste neutre.** *S'il prend parti, la scène devient une tribune.*`],
+  phrases:[`On les fait travailler pour que le reste du monde le supporte.`],
+  ouvert:[`⚠️ **Ce que le portage porte exactement, à qui, et sur quel périmètre.**`],
+  src:`décision de l'autrice, 22 août 2026` },
 
 { id:`isaac`, nom:`Isaac`, voie:`andrew`, role:`Agent de police, ami d'Andrew.`,
   age:`Non fixé. L'inversion vaut pour la police comme pour la ruche : un ancien du métier a l'air jeune.`,
@@ -183,7 +231,7 @@ const GENS = [
   ouvert:[`Son prénom. Un nom d'éclaircie. Il traverse huit scènes sans être nommé.`],
   src:`02-univers/la-jalousie.md` },
 
-{ id:`liam`, nom:`Liam`, voie:`joel`, role:`Le collègue de Joël. Une voix derrière lui.`,
+{ id:`liam`, nom:`Liam`, voie:`joel`, role:`Son ami, son supérieur, et le dernier à lui parler — jamais nommé dans le livre, et le visage que le lecteur prêtera à Isaac.`,
   age:`—`,
   resume:`Le partenaire de l'enquêteur. **Il porte bien plus qu'un cri désormais** : c'est lui qu'on rencontre au commissariat — et le lecteur, qui vient d'entendre parler d'Isaac, croit rencontrer Isaac. C'est lui aussi qui renseigne au téléphone. Et à la fin, quand Joël s'élance derrière le fuyard, c'est lui qui crie.`,
   traits:[`Il voit ce que Joël va faire, et il essaie de l'arrêter.`,`Il ne sait rien de ce que son cri produira, ni de l'écho qu'il fait à la faute de son collègue.`],
@@ -193,6 +241,17 @@ const GENS = [
     `Il ne relève jamais l'écho entre son cri et la faute de Joël, et il n'a aucune raison de le faire.`],
   phrases:[`Joël, non, attends !`],
   ouvert:[],
+  portrait:[`**Donné par l'autrice le 23 août 2026.** **Grand, la silhouette large et pleine.** *Les épaules donnent de l'ampleur à sa carrure ; le torse et les bras sont solides sans être athlétiques.*`,
+    `**Le teint sombre, le visage large, les traits réguliers et expressifs.** *Des sourcils épais et très noirs encadrent des yeux presque noirs, profonds et attentifs. Un nez large, accordé aux proportions du visage. Des lèvres pleines, qui adoucissent l'ensemble malgré la force des traits.* **Une barbe noire, dense et soigneusement entretenue**, qui souligne la mâchoire et remonte un peu sur les joues.`,
+    `🔴 **Liam est d'origine indienne — décision de l'autrice, 24 août 2026.** *C'est ce qui le sépare d'Andrew d'un seul coup, au lieu des deux adjectifs que je cherchais.*
+
+⛔ **Mais le mot ne s'écrit jamais.** *L'Inde est un lieu de notre monde : l'interdit n° 6 l'exclut du texte.* ✅ **On écrit donc ce qui se voit — le teint, les traits, le noir des cheveux — sans jamais dire d'où ça vient.** *Le lecteur reconnaîtra un visage ; le texte, lui, n'aura nommé aucun pays.*
+
+✅ **Et l'impossibilité de le nommer est un cadeau :** *dans un monde où tout le monde sort d'une capsule, une apparence ne renvoie à aucune origine — le mot lui-même n'aurait pas de sens là-bas.* **Le lecteur voit un homme, pas une provenance.**`,
+    `**Cheveux noirs, épais, légèrement ondulés** — plus courts sur les côtés, retombant avec naturel sur le dessus. *Quelques mèches se détachent et reviennent vers le front.*`,
+    `**Les mains grandes, les poignets épais, la posture droite.** *Il dégage une présence tranquille, qui tient plus à son regard et à l'assurance de ses gestes qu'à sa carrure.*`,
+    `🔴 **Ce portrait est le seul que le lecteur lira d'un policier, et c'est tout l'enjeu.** *Isaac n'est jamais décrit, nulle part.* **Quand le lecteur imaginera Isaac, il lui donnera ce visage-là** — et il ne saura qu'à la dernière page qu'il regardait quelqu'un d'autre.`,
+    `✅ **Le risque de confusion avec Andrew est levé.** *Le portrait initial disait presque les mêmes choses que le sien — sourcils épais, yeux bruns attentifs, nez droit, barbe, mèches sur le front, épaules larges.* **Le teint et le noir des cheveux les séparent maintenant sans qu'on ait à y revenir**, et le lecteur voit deux hommes dans la pièce.`],
   src:`03-personnages/andrew.md` },
 
 { id:`pediatre`, nom:`Le pédiatre du jardin`, voie:`andrew`, role:`Celui qui a suivi l'autre arrivant. Il ne refuse rien.`,

@@ -235,6 +235,16 @@ Ce qui charge chacune de ses visites : **n'importe laquelle peut être celle-là
 
 **Un berceur exerce jusqu'à douze ans.** En dessous, il est affecté à des tâches plus simples. À huit, il est au jardin à son tour, et quelqu'un d'autre l'accompagne.
 
+### Et douze ans vaut pour tous les métiers
+
+> **Décision de l'autrice, 23 août 2026.** *La règle n'était écrite que des berceurs ; elle est générale.*
+
+**On quitte son métier à douze ans, quel qu'il soit.** *La raison est physique, pas professionnelle : ce n'est pas le métier qui relâche, c'est le corps qui descend.* **Entre douze et huit, on est affecté à des tâches simples** — et à huit, on entre au jardin.
+
+**Le portage d'Eliott en est une.** *Il a dix ans : il est dans la fourchette, et « un métier facile, sans études et sans condition physique » est exactement ce qu'on donne entre douze et huit.*
+
+⛔ **Mais l'entreprise qui l'emploie, elle, n'est pas réservée aux petits nombres.** *Précision de l'autrice, 23 août 2026 : Henri tient une entreprise de livraison ordinaire, et il faut de la condition physique pour livrer certaines choses.* **Le portage est seulement le petit nom qu'on donne à ce qu'on confie aux plus bas** — *les menus colis, les lettres, ce qui se porte à pied.* **Tout le reste de la maison est tenu par des gens qui peuvent soulever.**
+
 ### 5.0 Vérification de cohérence avec la règle d'entrée — **rien ne casse**
 
 **Il fallait le vérifier, et le résultat est net : la relève tient sans une retouche.**
@@ -306,6 +316,30 @@ Chaque métier aurait sa sortie, et elle serait toujours la même : on vous conf
 **Le monde entier fonctionnerait à la relève silencieuse.** Ce serait cohérent avec tout le reste — un monde qui n'annonce jamais rien et où chacun finit par comprendre seul.
 
 *Rien n'est tranché ici. C'est une extension possible du même geste, et elle appartient à l'autrice.*
+
+---
+
+## 5 bis. Comment les berceurs sont répartis — par groupes, jamais par personne
+
+> **Décision de l'autrice, 20 août 2026.**
+>
+> *« Il faut voir presque ça comme un centre de loisirs, les animateurs. […] Ils ne sont pas rattachés à des enfants en particulier mais à des groupes d'enfants. […] On a des berceurs là où on en a besoin, et c'est tout. »*
+
+🔴 **Et ça répond à une question qui n'avait pas d'objet.** *On demandait si un berceur du jardin garde sa charge jusqu'à zéro, ou s'il passe la main quand l'arrivant cesse de parler.* **Il n'a pas de charge.** Il tient un dortoir, un groupe, une zone — pas quelqu'un.
+
+### Ce qui organise la journée
+
+**Des dortoirs assignés, et globalement les mêmes groupes.** Chacun a sa fonction et les rôles s'échangent. *Certains sont plus habitués aux tout-petits, d'autres aux plus grands* — c'est une habitude de terrain, pas une spécialité déclarée.
+
+**La zone médicale est plus restreinte.** Ceux qui y travaillent y restent en général, **mais ils bougent selon l'affluence du moment** : s'ils sont trop nombreux au regard des arrivées de futurs zéros, ils vont aider au jardin. *C'est un relais, pas une affectation.*
+
+### Ce que ça change à huit ans — et ce que ça ne coupe pas
+
+⚠️ **La tranche haute attache, le jardin non.** *De quatorze à huit, un arrivant a son berceur — c'est une personne, elle lui apprend ce qu'il doit savoir, elle répond de lui.* **À huit, il entre dans un lieu où personne n'est à lui en particulier.**
+
+> **Mais ce n'est pas une rupture, et il ne faut pas l'écrire comme telle.** *Précision de l'autrice, 20 août 2026 :* **les berceurs du dehors rendent visite, et on les recroise régulièrement dans le jardin.** *Ils y accompagnent, ils y viennent en renfort, ils passent — le lieu n'est fermé qu'aux arrivants, pas à eux.*
+
+**Ce qui change n'est donc pas la présence : c'est le lien.** *On ne cesse pas de voir la personne qui était à nous ; elle cesse d'être à nous.* ⛔ **Et personne ne le formule jamais, parce que personne ne le vit comme une perte** — c'est une organisation de service, et tout le monde la trouve normale.
 
 ---
 

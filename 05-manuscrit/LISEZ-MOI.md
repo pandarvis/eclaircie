@@ -4,11 +4,87 @@
 
 | | Chapitre | Mots | Scène | Écrit |
 |---|---|---|---|---|
-| **Prologue** | [La cérémonie](chapitres/L-Eclaircie-Prologue.pdf) | 2 655 | `ouv` | 17–18 août 2026 |
-| **Chapitre premier** | [Une journée à la ruche](chapitres/L-Eclaircie-Chapitre-1.pdf) | 3 490 | `capsule` | 19 août 2026, seize passes |
+| **Prologue** | [La cérémonie](chapitres/L-Eclaircie-Prologue.pdf) | 2 644 | `ouv` | 17–18 août 2026, corrigé le 22 |
+| **Chapitre premier** | [Une journée à la ruche](chapitres/L-Eclaircie-Chapitre-1.pdf) | 3 765 | `capsule` | 19 août 2026, seize passes |
 | **Épilogue** | [Épilogue](chapitres/L-Eclaircie-Epilogue.pdf) | 2 631 | `jardin-fin` | 16 août 2026 |
 
-**8 776 mots.** Le brouillon en cours d'un chapitre vit dans `chapitres/en-cours/` ; il n'a pas d'autorité sur l'atelier.
+**9 040 mots.** Le brouillon en cours d'un chapitre vit dans `chapitres/en-cours/` ; il n'a pas d'autorité sur l'atelier.
+
+---
+
+## Les titres de chapitre sont des étiquettes de travail
+
+> **Décision de l'autrice, 23 août 2026.** *« Le nom, il est pour nous. J'ai pas envie de nommer les chapitres plus tard. »*
+
+**Le livre n'aura pas de titres de chapitre.** *Seulement* Prologue, Chapitre premier, Chapitre deuxième, Épilogue. **Les titres de l'atelier —** *La cérémonie, Une journée à la ruche, L'aquarium* **— servent à s'y retrouver, et à rien d'autre.**
+
+⛔ **Ils ne sortent donc ni dans le PDF ni dans la version de lecture.** *Les deux ont été repris le 23 août 2026 : le recueil imprimé n'affiche plus que le rang, et le sommaire de lecture met le rang en titre et l'étiquette en dessous, en petit.*
+
+## 🔒 Les trois textes sont verrouillés
+
+> **Validés par l'autrice le 20 août 2026.** *« On les lock pour l'instant. On y reviendra que
+> si je le demande explicitement. »*
+
+**Prologue, chapitre premier, épilogue : aucun des trois ne bouge plus.** *Et ce n'est pas
+une promesse* — `06-visuels/atelier/sources/textes-verrouilles.txt` porte l'empreinte de
+chacun, **et la fabrication de l'atelier refuse de tourner si l'un d'eux a changé.**
+
+### Le verrou ne s'oppose jamais à l'autrice
+
+> **Règle, 22 août 2026 :** *« si c'est moi qui écris, c'est normal que je ne te demande pas
+> ton accord pour déverrouiller. »*
+
+**Le verrou est là pour empêcher une correction que personne n'a demandée — pas pour
+l'empêcher, elle, de corriger son propre livre.** *Quand une correction vient de l'atelier,*
+`reprendre-la-revision.py` *l'applique, repose le verrou tout seul et l'inscrit au journal.*
+**Elle n'a rien à ouvrir, rien à refermer, rien à demander.**
+
+*Son circuit, en entier :*
+
+```
+… elle corrige dans l'atelier, puis « enregistrer pour Claude » …
+python reprendre-la-revision.py        applique, repose le verrou, journalise
+python relire.py prologue              le relevé des fautes mécaniques
+```
+
+*Le mien, quand elle demande une séance de correction :*
+
+```
+python verrouiller-les-textes.py --ouvrir chapitre-1
+   … la séance de correction …
+python verrouiller-les-textes.py --poser
+```
+
+**Le détour ne vaut que pour moi.** *C'est ce qui empêche une correction de passer sans que
+personne l'ait demandée.*
+
+### Les fautes bêtes
+
+**`relire.py` signale, et ne corrige pas.** *Il ne cherche que le mécanique — l'espace en
+double, le mot écrit deux fois de suite, la ponctuation sans son espace : ce qui est faux quel
+que soit le sens de la phrase.* **Ce qu'il trouve part en liste ; c'est elle qui tranche.**
+
+## ⛔ On ne touche pas à un texte hors séance
+
+> **Règle de l'autrice, 20 août 2026 :** *« quand on n'est pas réellement en train de
+> corriger un chapitre, tu n'as rien à modifier dans ceux déjà écrits ! »*
+
+**Un chapitre écrit ne bouge que pendant une séance de correction, sur demande explicite.**
+*Pas au passage d'une décision de monde, pas pour aligner une phrase sur une fiche, pas pour
+corriger une incohérence repérée en chemin.* **Ce qui est vu se signale ; ça ne se corrige
+pas.**
+
+*L'état vérifiable au 20 août 2026 :*
+
+| | Depuis | A bougé depuis ? |
+|---|---|---|
+| **Prologue** | `ec57a5e` | **non — pas un mot, 2 655** |
+| **Épilogue** | `d726b76` | **non — pas un mot, 2 631** |
+| **Chapitre premier** | validé en `2044ae7` | **oui, trois fois le 19 août**, après le commit de validation |
+
+*Les trois : `c4aa48c` l'accueil et le mot « secrétaire », `3d95251` la capsule non éclaircie,
+`b9c7fba` la douzième capsule. **Ce sont elles que l'autrice a vues, et elle a eu raison de
+les voir.***
 
 ---
 

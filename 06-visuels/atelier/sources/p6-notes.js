@@ -1007,6 +1007,212 @@ const NOTES = [
 
 **Ce qui marche à la place : une chose qu'il ne peut pas connaître, et qui n'a aucun sens.** *« Il faut vider mes poches. Elles sont pleines. »* — **il est nu sous une serviette de cérémonie.** Puis *« Je reviens bientôt »*, dit doucement, à personne. **L'effroi vient de l'absurde, pas de l'indice.**` },
 
+{ d:`20 août`, s:`L'atelier montrait un plan vieux de deux corrections`, e:`acquis`, t:[`atelier`,`méthode`],
+  v:`c'est trop jaune par rapport au reste, et ça accroche le regard. tu me réduis encore la luminescence stp`,
+  q:`🔴 **Elle regardait une version que j'avais déjà corrigée deux fois.** *L'atelier ne lit pas la page du jardin : il en garde une copie figée, versée par un script. J'éditais la page, je vérifiais la page, je livrais la page — et l'atelier, lui, dormait sur l'ancienne.*
+
+🔴 **J'ai vérifié ce que je modifiais, pas ce qu'elle regarde.** C'est le même angle mort que les contrôleurs : ils cherchent des collisions, pas des orphelins ; ici je cherchais une couleur, pas une copie en retard.
+
+✅ **La fabrication refuse désormais de tourner si la copie a pris du retard** : l'injecteur signe ce qu'il verse, la fabrication recalcule la signature et s'arrête. *Testé en la faussant exprès — elle s'arrête.* **Aucune correction du plan ne peut plus rester invisible.**` },
+
+{ d:`20 août`, s:`Le soleil rentre dans le rang des couleurs`, e:`acquis`, t:[`visuel`],
+  v:`c'est un peu trop lumineux ahah, plus sobre, meme teinte luminosité que le réfectoire, ça sera très bien`,
+  q:`✅ **Le halo s'éteint et la teinte redescend à celle du réfectoire** — même or, même fond, même luminosité que n'importe quel bâtiment commun. *J'avais fait briller le seul bâtiment qui n'a pas besoin qu'on le désigne.*
+
+🔴 **C'est la forme qui fait le soleil, pas la lumière.** *Sept ailes larges à la base et une cour hachurée : ça suffit, et ça se voit de loin sans qu'un halo vienne le souligner.* **Un plan ne souligne pas.**
+
+🔵 Les hachures de la cour étaient tombées à .4 avec le reste et ne se lisaient plus. Elles remontent à .55 : c'est la cour qui distingue ce bâtiment, pas sa brillance.` },
+
+{ d:`20 août`, s:`Le bâtiment soleil passe au jaune orangé`, e:`acquis`, t:[`visuel`],
+  v:`on est bon. si tu peux lui donner une teinte plus jaune orangé que violet, ça serait nickel !`,
+  q:`✅ **Le violet venait de la fin de vie, et la fin de vie n'existe plus.** *C'était la couleur que j'avais choisie quand je croyais le bâtiment tabou.* **Il passe au jaune orangé, et le mot, la forme et la teinte disent enfin la même chose.**
+
+🔴 **Et il répand un peu de lumière** — un halo chaud qui enfle et retombe sur onze secondes. *Trois cercles empilés laissaient voir leurs bords : c'est devenu un dégradé, il s'éteint tout seul.* **C'est le seul bâtiment du jardin qui éclaire, et c'est celui-là.**` },
+
+{ d:`20 août`, s:`Les ailes du soleil se rétrécissent vers la pointe`, e:`acquis`, t:[`visuel`],
+  v:`ton "soleil" ne fait pas soleil, regarde bien. les pointes terminent plus large que la partie attachée... moi c'est large à la base et ça se rétrécit.`,
+  q:`⛔ **J'avais lu le croquis à l'envers.** *Mes ailes s'évasaient vers l'extérieur : ça donne des palettes, ou une roue dentée.* **Un rayon part large et finit en pointe** — c'est la seule chose qui distingue un soleil d'un engrenage.
+
+✅ **Inversé :** *l'aile occupe presque toute la face de l'anneau à sa base, et se réduit au tiers à sa pointe.* **Les encoches entre les ailes deviennent des V profonds, comme sur le dessin.**` },
+
+{ d:`20 août`, s:`Le bâtiment soleil a sept ailes`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`houla t'y es pas du tout pour la forme en soleil. moi je pensais à un truc dans ce style-là tu vois, le hachuré c'est la cour intérieure. [croquis]`,
+  q:`⛔ **J'avais fait un disque avec des piquants.** *Un rond, et seize petits traits plantés dessus — un soleil de dessin d'école, pas un bâtiment.*
+
+✅ **Le croquis de l'autrice montre autre chose : un anneau, et des ailes en trapèze qui s'élargissent vers l'extérieur, séparées par des encoches profondes.** *Ce sont des bâtiments, pas des rayons. C'est la forme qui fait le soleil, pas un ornement posé dessus.*
+
+🔴 **Sept ailes : six chambres et la véranda.** *Le compte était déjà dans la fiche, il ne demandait qu'à devenir un plan.* **Et la cour est hachurée, comme sur le croquis : c'est ce qui la distingue d'un trou.**` },
+
+{ d:`20 août`, s:`Le jardin a été aménagé, et la section 0 prend la forme d'un soleil`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`le lieu ne s'est absolument pas fait tout seul ! il a été créé par l'homme comme on a créé des ehpad, des parcours de fin de vie, etc. [...] ça ne me choque pas, c'est toi qui as considéré qu'elle était recluse, comme si c'était tabou. ça ne l'est pas. après, le bâtiment mériterait effectivement de ressembler à une sorte de soleil, comme s'il avait été construit sur une base arrondie avec une petite cour intérieure visible depuis le ciel. [...] ils marchent d'un pas décidé, disons une dizaine de minutes.`,
+  q:`⛔ **Ma critique du plan reposait sur un contresens.** *Je lui reprochais d'être trop régulier pour un lieu qui se serait fait tout seul.* **Le jardin n'a jamais été laissé à lui-même : il a été aménagé, comme on aménage un établissement.** La régularité des dortoirs et l'ovale du grand chemin ne sont pas des défauts, ce sont des preuves. *Le texte du plan le dit maintenant.*
+
+⛔ **Et j'avais rendu la section 0 recluse sans qu'on me le demande.** *Aucune allée ne la longe, on ne voit que le toit, personne ne croise personne — j'avais installé un tabou qui n'existe pas.* **Retiré : c'est un bâtiment du jardin comme les autres, et les petits savent très bien où il est.**
+
+✅ **En revanche elle prend la forme que les petits lui voient :** *un plan rond, une petite cour plantée au milieu qu'on ne voit que d'en haut, des redents sur le pourtour.* **De loin personne n'y verrait un soleil ; sur un plan, un enfant si — et c'est exactement le point.**
+
+⚠ **Le trajet fait 657 mètres à l'échelle, soit huit minutes d'un pas décidé.** *L'autrice arrondit à une dizaine, et c'est elle qui tient le rythme.*` },
+
+{ d:`20 août`, s:`La dernière tache sans nom, et le code mort avec elle`, e:`acquis`, t:[`visuel`],
+  v:`tu as encore une zone bizarre ici. après moi je ne vois rien de plus.`,
+  q:`⛔ **C'était une pelouse dessinée du temps où trois plans coexistaient.** *Elle servait à marquer un espace ouvert dans un jardin qui n'en avait pas encore.* **Depuis, tout le jardin est vert : elle ne disait plus rien, et elle débordait sous les dortoirs 1.**
+
+✅ **Le code qui la dessinait part avec elle**, ainsi que celui des anneaux, resté du plan de la couronne. *Un rendu qui ne dessine plus rien finit par redessiner quelque chose.*
+
+🔴 **C'est la troisième fois qu'un reste d'un plan supprimé remonte à la surface** — après le bac à sable du plan A que j'avais déplacé par erreur, et les semelles. *Supprimer trois plans sur cinq laisse des traces qu'aucun contrôle ne voit : mes vérificateurs regardent les collisions, pas les orphelins.*` },
+
+{ d:`20 août`, s:`Les portes s'alignent sur le mur, la ride reste dans l'eau`, e:`acquis`, t:[`visuel`],
+  v:`pourquoi le trait des portes n'est pas aligné avec le mur ? et pour l'eau, les pointillés de l'animation sortent de la zone de la mare.`,
+  q:`⛔ **Les portes s'orientaient sur le rayon partant du centre du jardin.** *Sur un cercle ça marcherait ; le mur est une courbe irrégulière, et le rayon ne coïncide presque jamais avec la tangente.* **Chaque porte tombait donc de travers, d'autant plus que le mur s'écarte du cercle.**
+
+✅ **On demande maintenant au tracé lui-même où il passe et dans quel sens il va.** *Le vantail se pose dans l'axe du mur, les barreaux en travers, et l'étiquette part vers le dehors le long de la normale.* **La porte est posée sur le mur, plus à côté.**
+
+✅ **La ride de la mare était une seconde tache tirée au hasard**, et rien ne la retenait dans l'eau. *Elle vient du même contour écrit, réduit de deux cinquièmes : elle ne peut plus sortir.*` },
+
+{ d:`19 août`, s:`Deux cabanons et les semelles s'en vont`, e:`acquis`, t:[`visuel`,`monde`],
+  v:`fais-moi sauter les 2 cabanons. et aussi, c'est quoi cette zone "les semelles du cinquième groupe" ?? je sais pas ce que ça représente, ça dégage aussi.`,
+  q:`⛔ **Les semelles étaient une bonne idée écrite et une mauvaise idée dessinée.** *Le béton d'un bâtiment jamais construit, qui dépasse encore de l'herbe — ça se raconte en une phrase et le lecteur voit tout de suite.* **Sur un plan, ça devient une tache sombre sans légende, et l'autrice a raison de demander ce que c'est.** Le dessin part, et le texte qui l'expliquait part avec lui : *une imperfection qui a besoin d'une notice n'est pas une imperfection, c'est une énigme.*
+
+✅ **Les deux cabanons anonymes sautent aussi.** *Ils ne servaient rien et ne disaient rien.* **Il reste le cabanon de l'est et le garage, qui appartiennent tous les deux au centre médical.**` },
+
+{ d:`19 août`, s:`Les cabanons ne se chevauchent plus`, e:`acquis`, t:[`visuel`],
+  v:`les cabanons se chevauchent.`,
+  q:`⛔ **Ce n'étaient pas les bâtiments, c'étaient leurs étiquettes.** *Les rectangles ne se touchaient pas — le contrôleur le disait — mais leur nom était écrit à la verticale, faute de largeur, et une étiquette tournée déborde chez le voisin.* **Mon contrôle ne regarde que les formes, jamais le texte : il était vert pendant que le plan était illisible.**
+
+✅ **Les petits bâtiments posent leur nom dessous, à l'horizontale**, comme ceux de la fermette. *Tourner une étiquette de quarante pixels ne la rend pas lisible, ça la rend tournée.*
+
+⚠ **Et les quatre se sont écartés :** *le cabanon du nord monte entre le terrain et les dortoirs 1, celui de l'est et le garage se séparent, la loge s'en va contre le mur ouest — elle mordait le chemin.*` },
+
+{ d:`19 août`, s:`Le trajet se pose sur le grand chemin`, e:`acquis`, t:[`visuel`,`fabrication`],
+  v:`est-ce que tu vois les visuels que tu crées ? on dirait que non. tu peux pas te les publier à toi-même pour les vérifier avant de me les proposer ?`,
+  q:`⛔ **Je les vois — et c'est bien la réponse la plus gênante.** *Je fabrique une capture du plan dans un navigateur et je la regarde à chaque fois.* **Ce que je ne faisais pas, c'est la comparer au tracé de l'autrice.** Mes contrôles sont mécaniques — aucun bâtiment traversé, rien qui déborde — et ils étaient tous verts pendant que la forme était fausse.
+
+🔴 **La cause : le routeur cherche le plus court, et le plus court serpente entre les enclos.** *L'autrice ne demandait pas le plus court, elle demandait le chemin d'en bas.*
+
+✅ **Le trajet ne se cherche plus, il se pose.** *On reprend les points du grand chemin lui-même, dans l'ordre, et on y accroche les deux bouts.* **Il suit donc exactement l'arc sud, par construction, et il ne peut plus s'en écarter.**` },
+
+{ d:`19 août`, s:`Le trajet prend le chemin d'en bas, et il ne reste qu'un plan`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`on est quasi bon sauf pour le trajet : je veux qu'ils passent sur le chemin d'en bas comme mon tracé rouge. tu peux en profiter pour supprimer les 2 autres propositions du damier et de la couronne, ils sont obsolètes.`,
+  q:`✅ **Andrew et Isaac ne coupent plus par le milieu.** *Ils entrent au nord-ouest, rejoignent le grand chemin à l'ouest et suivent son arc sud :* **sous le local technique, sous les petites bêtes, sous le poulailler et les poules, sous le pré des chèvres**, puis ils remontent à l'est et entrent au centre médical par la porte du dessous. *La mare et le pré des poneys leur restent au nord — ils les voient, ils ne les traversent pas.*
+
+⛔ **Le damier et la couronne sont supprimés.** *Ils avaient servi à poser la question — qui passe devant la section 0 — et la réponse est prise.* **Il ne reste que la fermette, et le document s'appelle désormais le plan du jardin, sans pluriel.**` },
+
+{ d:`19 août`, s:`La section 0, le bâtiment soleil`, e:`acquis`, t:[`monde`],
+  v:`plutôt que "fin de vie" : j'aime pas trop... on pourrait le nommer le bâtiment soleil, surnommé comme ça parce que les enfants ont toujours l'impression de voir dans sa forme un soleil. tu nommes "section 0 (bâtiment soleil)", 0 pour 0 ans. [...] je comprends pas les traits en pointillé vert. [...] le trajet d'Andrew et Isaac arrive depuis le nord-ouest, passe par le chemin d'en dessous, longe le clapier, le poulailler, le pré des chèvres et ils peuvent voir le lac et le pré des chevaux au loin. leur point doit finir en dessous, la porte du centre médical est en dessous du bâtiment.`,
+  q:`🔴 **Le mot fin de vie disparait du monde.** *C'est le bâtiment soleil, et c'est le seul nom que les petits emploient : ils voient un soleil dans sa forme, et personne ne les a jamais contredits.* **Le registre, lui, dit section 0 — zéro comme l'âge.**
+
+⚠ **Un nom d'administration et un nom d'usage pour la même porte, et les deux sont vrais.** *C'est exactement le genre d'écart qui rend un monde habité : le registre ne parle pas la langue de ceux qui vivent dedans.*
+
+✅ **Les pointillés verts étaient les fresques du mur et rien ne le disait.** *Ils entrent dans la légende, et ils se cliquent : de l'extérieur le mur est nu, de ce côté-ci il est peint sur toute sa longueur, par ceux qui vivent là.*
+
+✅ **Le trajet finit sous le centre médical**, parce que la porte est dessous.` },
+
+{ d:`19 août`, s:`La sortie est devient droite, et l'écurie rentre`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`ton chemin nord-ouest / est va presque jusqu'à l'entrée est, puis revient en arrière, monte et contourne tous les bâtiments par la droite pour sortir. une fois que le chemin est sorti de l'étendue, il passe sous le centre médical et on est direct à la sortie. l'écurie doit être dans l'étendue, accolée au pré des poneys.`,
+  q:`⛔ **Le détour n'était pas un caprice du tracé : la porte était mal placée.** *Elle tombait pile derrière le centre médical, et il ne restait qu'une fente de vingt pixels entre le bâtiment et le mur. Le chemin ne pouvait pas y entrer, alors il remontait contourner tout le quartier par le nord.*
+
+✅ **La porte descend au bout du passage qui court sous le centre médical**, entre lui et la fin de vie. *La route passe dessous et sort tout droit : seize points au lieu de cinquante et un.*
+
+✅ **L'écurie est dans l'étendue, dans le pré des poneys.** *Elle était dehors, de l'autre côté du grand chemin, ce qui n'avait aucun sens : les poneys auraient eu à traverser pour rentrer le soir.*` },
+
+{ d:`19 août`, s:`Le grand chemin, et les deux routes dictées`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`ce que tu appelles l'anneau je ne sais pour quelle raison, c'est le grand chemin qui délimite l'étendue du reste du jardin. [...] le chemin qui commence à l'entrée nord-ouest passe entre l'aire de jeu et le dortoir 5 et rejoint le grand chemin. [...] entre les bacs à sable et le réfectoire, entre le dortoir 3 et la salle de jeu, bifurque à gauche de l'écurie. [...] la porte de service (qui d'ailleurs doit être une porte normale). [...] entre le gymnase et le dortoir 7. [...] un carrefour quasiment au centre de l'étendue. le chemin du nord-ouest rejoint celui du service, et le chemin du sud-ouest rejoint celui de l'entrée principale. [...] le 1er passe entre le lac et le local technique, puis entre le pré des poneys et la cabane. le second passe entre le clapier et le poulailler, puis entre le lac et le pré des poneys, et longe l'abri par la droite.`,
+  q:`⛔ **Le mot était faux et il induisait le dessin en erreur.** *J'appelais anneau ce qui est le grand chemin — celui qui délimite l'étendue du reste du jardin.* **Un anneau, on le longe ; un grand chemin, on le prend.** Renommé partout, et sa fiche le dit maintenant.
+
+✅ **Deux routes, pas cinq.** *Nord-ouest vers l'est, sud-ouest vers la principale, et elles se croisent au milieu de l'étendue.* **Chaque corridor est celui que l'autrice a nommé** : entre l'aire de jeu et les dortoirs 5, entre les bacs à sable et le réfectoire, entre les dortoirs 3 et la salle de jeu, à gauche de l'écurie, entre le gymnase et les dortoirs 7, entre le lac et le local technique, entre le pré des poneys et la cabane, entre le clapier et le poulailler, entre le lac et le pré des poneys.
+
+⚠ **Cinq bâtiments ont dû bouger pour que ces passages existent.** *Le réfectoire recule et le bac à sable revient au nord — il n'y avait aucun passage entre eux. Le local technique descend, la cabane descend, l'abri remonte à l'ouest pour que la seconde route passe bien à sa droite. Le clapier suit.* **La porte de service est devenue une porte comme les autres : elle s'appelle est.**` },
+
+{ d:`19 août`, s:`Cinq réseaux de chemins, tracés par le calcul`, e:`ouvert`, t:[`monde`,`visuel`],
+  v:`tu prends mon screen et tu fais les MÊME chemins. un chemin qui commence d'une porte et qui part vers une autre sans interruption. on ne doit pas passer à travers les bâtiments. tu dois corriger ensuite le trajet d'Andrew en conséquence. tu testes, tu es critique, tu me proposes 5 versions à mon retour avec toutes les contraintes énoncées. les prés et enclos et le lac doivent être contenus toujours dans l'étendue.`,
+  q:`⛔ **J'ai arrêté de router à la main : c'était la cause de tout.** *Dans un jardin aussi dense, déplacer un chemin pour libérer un bâtiment en bouche un autre. Trois passes de corrections à l'œil n'avaient rien réglé.*
+
+✅ **Un routeur remplace la main.** *L'espace libre du jardin devient une grille ; un chemin y est cherché par A-étoile. Il ne peut pas traverser un bâtiment, la mare, un pré ni un enclos, parce que ces cases n'existent pas pour lui.* **Chaque version se distingue par ses points de passage imposés, pas par un tracé bricolé.**
+
+🔴 **Cinq réseaux, et ils décident chacun ce qu'Andrew voit en traversant :** *La croix* (tout le monde passe au milieu), *Le contour* (personne n'entre), *La traverse unique* (seule la route du centre médical entre), *Le Y* (les deux routes partagent un tronçon et créent une place), *Les deux rives* (deux traversantes parallèles, la mare entre elles, et deux personnes peuvent passer sans se voir).
+
+⚠ **Trois choses ont dû bouger pour que ça tienne :** *le bac à sable rejoint l'aire de jeu de l'ouest — il ne laissait que six pixels entre lui et le réfectoire, aucun chemin ne pouvait descendre de la grille principale ; le local technique descend le long de la margelle ; les deux prés rétrécissent pour tenir dans l'étendue.*` },
+
+{ d:`19 août`, s:`Aucun chemin ne mord un bâtiment, et la mare a une forme écrite`, e:`acquis`, t:[`visuel`,`fabrication`],
+  v:`ton lac grignote le chemin de droite maintenant. au passage il n'est toujours pas de la bonne forme. il part toucher les chemins et au fur et à mesure, le chemin de base passe à travers les bâtiments. on n'est pas bon. attention, les chemins ne doivent pas rentrer dans des bâtiments ou local, cabanon, etc, le lac ne doit pas toucher non plus !`,
+  q:`⛔ **Je corrigeais à l'œil, et c'est pour ça que chaque réparation en cassait une autre.** *Le contrôleur existant ne voyait que les rectangles entre eux : il ne regardait pas les tracés.* **Deux outils neufs règlent ça pour de bon.**
+
+✅ **verifier-les-chemins.py ouvre la page dans un navigateur et mesure les vrais tracés**, pas les points dont ils sont issus — *ils sont lissés au rendu, leur forme ne se calcule pas.* Il teste la largeur du chemin, pas son axe : **une allée de neuf pixels mord un bâtiment que son axe évite.** Treize fautes au premier passage.
+
+✅ **degager-les-chemins.py les répare :** *pour chaque bâtiment qui touche une voie, il cherche le plus petit déplacement qui le dégage — seize directions, par pas de deux — sans le sortir du mur, sans le mettre dans l'eau, sans le poser sur un voisin.* **Onze bâtiments et la mare déplacés, plus rien ne mord rien.**
+
+🔴 **La mare ne sera plus jamais tirée au hasard : son contour est écrit, quinze points, une fois pour toutes.** *C'est la silhouette que l'autrice a retenue, et aucun ajout ailleurs ne peut plus la déformer.*` },
+
+{ d:`19 août`, s:`Le jardin respire, et la mare arrête de changer de forme`, e:`acquis`, t:[`visuel`],
+  v:`il faudrait aussi un peu éclaircir le grand chemin car dessiné comme tel, on a visuellement une frontière entre tout le jardin et l'étendue. pourtant l'étendue n'est pas fermée, il reste un espace vert comme le reste. il y a de l'herbe partout et des arbres partout. si ça fait too much, tu enlèves les herbes et tu mets une petite animation sur certains arbres comme une luminescence douce qui varie -> je veux que ça respire. [...] à chaque fois tu me modifies la forme de la mare, c'est dommage. garde celle-ci, plus irrégulière.`,
+  q:`🔴 **La mare changeait de forme à chaque passe, et ce n'était pas un caprice.** *Les contours irréguliers sortent d'une suite de nombres unique et partagée. Dès que j'ajoutais ou retirais quelque chose dessiné avant elle — de l'herbe, des arbres — la suite se décalait et la mare recevait d'autres nombres.* **Chaque forme a maintenant sa propre graine : la mare, sa surface, chaque pré, chaque enclos. Elles ne bougeront plus, quoi que j'ajoute ailleurs.**
+
+✅ **La grande allée s'éclaircit.** *Dessinée épaisse et contrastée, elle faisait frontière : l'étendue avait l'air clôturée alors qu'elle est du vert comme le reste.* **Un chemin n'est pas une clôture : on le voit, on ne bute pas dessus.**
+
+⛔ **L'herbe saute, et le jardin respire.** *L'autrice avait prévu le repli et c'était le bon.* **Des arbres partout, l'étendue comprise — sauf dans les prés et les enclos — et un sur trois porte une lueur douce qui enfle et retombe, jamais au même moment que son voisin.**` },
+
+{ d:`19 août`, s:`Le mur se refermait mal, et Andrew coupait à travers le gymnase`, e:`acquis`, t:[`visuel`],
+  v:`il y a trop de brins d'herbe je trouve et d'après ce que je vois il y a zéro arbre. je dis pas d'en mettre dans les prés, mais faudrait qu'il y en ait quand même dans l'étendue. l'enceinte finit bizarrement en haut à gauche. la mare déborde sur le chemin, on dirait qu'il existe plus en bas de la mare. le chemin du haut de la mare à supprimer car ne sert à rien. le chemin à droite s'arrête avant de rejoindre le grand chemin. Andrew et Isaac traversent littéralement le gymnase et un dortoir alors qu'ils devraient être sur le chemin.`,
+  q:`⛔ **La queue en haut à gauche était un bogue de tracé, et il touchait tout le dessin.** *La fonction qui arrondit les contours partait d'un sommet et finissait au milieu d'une arête : la fermeture repassait par une ligne droite qui dépassait.* **Corrigé à la source — le mur, l'étendue et la grande allée se referment tous les trois proprement maintenant.**
+
+🔴 **Andrew et Isaac ne coupent plus à travers rien.** *Leur trajet était une ligne brisée tracée à vue, qui passait dans le gymnase et dans un dortoir.* **Il suit désormais l'allée du nord-ouest, la grande allée par le sud, puis l'allée de service.** *Vérifié sur quatre cents points le long du parcours : aucun bâtiment traversé.*
+
+✅ **La mare recule de la grande allée**, qu'elle mordait au sud, et son local technique la suit. Le chemin du haut de la mare saute, celui de droite va enfin jusqu'à l'allée.
+
+⚠ **Moins d'herbe, et des arbres dans l'étendue** — mais pas dans les prés : *une bête a besoin d'herbe, pas d'ombre, et l'ombre elle l'a déjà dans son abri.*` },
+
+{ d:`19 août`, s:`Une seule allee, et c'est elle qui delimite l'etendue`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`les chats sortent plus loin, la ou j'ai hachuré en rouge. [...] il n'y a pas d'animation sur l'herbe, un petit mouvement des traits comme si le vent passait ça serait bien. l'étendue a une délimitation pas jolie, le chemin pourrait servir de délimitation. par ailleurs on dirait qu'il y a 2 chemins. j'en veux qu'un, que tout le monde emprunte, assez large, des graviers, comme une grande allée pour piétons cyclistes. le bâtiment des poules a une orientation qui pourrait suivre la courbe de l'étendue. le clapier ne doit pas sortir de l'étendue. idéalement, les chats pourraient éviter de se balader dans les zones des autres animaux.`,
+  q:`⛔ **Les chats sortaient par où le dessin ment.** *Je testais le polygone du mur ; le mur affiché est le tracé lissé, qui rentre à l'intérieur des angles.* **On teste désormais la forme elle-même, pas ses points.** *Trois cent soixante relevés : aucun chat dehors, aucun dans un bâtiment, aucun dans la mare, aucun chez les autres bêtes.*
+
+✅ **Il y avait deux anneaux presque confondus — l'allée de ceinture et le tour de l'étendue.** *C'est ce qui faisait ce doublon qu'on voyait sans savoir le nommer.* **Il n'en reste qu'un, large, en graviers, piétons et cyclistes, et les allées des grilles viennent s'y brancher.**
+
+🔴 **L'étendue n'a plus de contour à elle : c'est l'allée qui la délimite.** *Une bordure dessinée à côté d'un chemin qui suit la même courbe, c'est une ligne de trop.*
+
+⚠ **L'herbe se voit enfin bouger** — cent soixante-dix touffes plus longues, un balancement trois fois plus ample, et chacune à son heure.` },
+
+{ d:`19 août`, s:`Des points, pas des têtes, et une surbrillance qui se voit`, e:`acquis`, t:[`visuel`],
+  v:`le chat, il passe dans l'eau et il traverse les batiments ahah [...] le clapier se superpose avec le local technique et... tant pis, fais juste des points pour les animaux de differentes couleurs parce que c'est pas super joli en fait... et la surbrillance, elle est pas assez dominante si tu compares avec la ruche.`,
+  q:`⛔ **Le chat marchait sur l'eau.** *Je ne testais que l'enceinte : il traversait la mare et les murs.* **Il connaît maintenant le bâti et la mare, et quand il bute il tourne — comme il ferait.** *Vérifié sur quatre cent vingt relevés : aucune patte dans l'eau, aucun mur traversé.*
+
+✅ **Les têtes de bêtes sautent, des points de couleur les remplacent.** *Une teinte par espèce, reportée dans la légende.* **Le plan redevient propre, et on lit l'espèce sans plisser les yeux.**
+
+🔴 **La surbrillance s'aligne sur celle de la ruche.** *Elle était timide.* **La forme s'allume en plein à l'or, et une étiquette flottante suit le curseur avec le nom du lieu** — exactement le dispositif du plan de la ruche.` },
+
+{ d:`19 août`, s:`L'étendue se traverse, et l'anneau se fait à vélo`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`ah si si, on peut faire un chemin qui traverse justement, c'est plus agréable ! on y va parce qu'on veut y aller, ou on traverse juste, tout dépend le chemin que tu veux prendre ! et autour de l'étendue, le chemin est un poil plus large, les enfants font en général le tour de l'étendue avec leur vélo ! le pointillé orangé par contre je suis pas convaincue. les chats se baladent où ils veulent, ils ont pas de patterns prédéfinis. les animaux sont bizarres, sinon tu les symbolises par une tête style emoji épuré ? je veux pas qu'il soit systématiquement affiché [le trajet]. crée moi une nouvelle porte en bas aussi. le clapier contient les lapins ET les cochons d'inde. tu peux donner un effet d'animation pour l'herbe de l'étendue ?`,
+  q:`✅ **Ma phrase était fausse et l'autrice l'a corrigée :** *je disais qu'on ne traverse pas l'étendue.* **On la traverse très bien — on y va parce qu'on veut y aller, ou on coupe juste, et tout dépend du chemin qu'on prend.** *Deux chemins la traversent maintenant, et ils se croisent près de la mare.*
+
+🔴 **L'anneau est plus large que tous les autres chemins du jardin, et c'est fait exprès : on le fait à vélo.** *Il y a un record, il n'est écrit nulle part, et tout le monde le connaît.*
+
+⛔ **Les chats n'ont plus d'itinéraire.** *Ils avaient une boucle : c'était faux.* **Ils marchent, ils tournent quand l'envie leur prend, ils s'arrêtent, et le mur les fait revenir.** *C'est bien la seule chose qui aille où elle veut dans ce monde.*
+
+⚠ **Les bêtes sont devenues des têtes.** *À quatorze pixels une silhouette entière devient une tache ; une tête reste une tête.* Le clapier prend les lapins et les cochons d'Inde ensemble, un abri s'ajoute au sud-ouest, une porte s'ouvre au sud-ouest du mur, et l'herbe de l'étendue prend le vent.` },
+
+{ d:`19 août`, s:`L'étendue, les bêtes, et un plan qui bouge`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`tu peux rajouter des effets comme pour la ruche, des animations ? [...] je veux pouvoir avoir des trucs cliquable pour avoir une def sur la droite. donne un peu de vie à ce plan. [...] faut rajouter des paddocks pour les chevaux et les chèvres. on parle plutôt de poney d'ailleurs ou double poney au max pour que les animaux ne soient pas trop grands par rapport aux enfants. il y a aussi des poules, des petits lapins et cochons d'inde, quelques chats se baladent dans l'enceinte. on pourrait appeler la zone de l'étang et des prés "l'étendue". [...] un chemin est traversant pour que les petits puissent l'emprunter, faire le tour de la mare, voir tous les animaux. tu peux me faire une animation pour Andrew et Isaac ! c'est une deuxième ville dans une ville, c'est un paradis pour enfant !`,
+  q:`✅ **L'étendue est née, et c'est le mot des petits.** *Tout ce qu'on n'a pas bâti : la mare, les prés, les enclos, les cabanes.* **L'allée en fait le tour, mais un chemin y entre exprès, passe devant chaque bête et ressort où il est entré.** *On n'y va pas en passant, on y va pour y aller.*
+
+🔴 **La règle des bêtes, et elle en dit long sur ce monde :** *aucune bête ne doit dépasser celui qui la caresse.* **Poneys, double poney au maximum, chèvres naines, poules, lapins, cochons d'Inde — et trois chats que personne n'a fait venir.**
+
+⚠ **Ce qui bouge maintenant :** *les ondes sur la mare, la surface qui dérive, le chemin des bêtes qui défile comme la coulée de la ruche, les feuillages qui respirent, les trois chats qui font le tour de l'allée, et Andrew et Isaac qui traversent le jardin au clic.* **Tout est cliquable et tout a sa fiche à droite.**
+
+⛔ **La buanderie a sauté.** *Elle ne convainquait pas.* **À sa place, un local technique à moitié enterré contre la margelle : la pompe et le filtre de la mare.** *Un bâtiment que personne ne regarde et sans lequel l'eau serait verte en deux semaines.*` },
+
+{ d:`19 août`, s:`Le jardin devient une fermette`, e:`acquis`, t:[`monde`,`visuel`],
+  v:`globalement les differents elements sont trop rectangulaires. une préférence pour les hameaux, mais j'ai du mal à première vue à comprendre quel batiment fait quoi. "o1" "NE 3" c'est pas parlant. j'aime bcp l'idée du pré au milieu, ça amène aussi une autre truc qui pourrait etre sympa, des animaux. on pourrait imaginer que le pré ne se traverse pas, il se contourne et on peut voir plutôt comme une sorte de fermette. d'un côté on a une étendue d'eau avec des bordures bien définies pour que les enfants ne puissent pas enjamber et risquer de tomber, et de l'autre plusieurs enclos pas trop petits avec des chevaux, des petites chèvres. [...] le jardin est malgré tout une grande zone. on met du temps à la traverser.`,
+  q:`✅ **Le plan C est retenu et refait.** *Le pré ne se traverse plus : l'allée en fait le tour, et tout le bâti est construit contre elle.* **Au milieu, l'étang avec sa margelle, les enclos des chevaux et des chèvres.**
+
+🔴 **Les étiquettes disent enfin le métier du bâtiment.** *O1, NE3 ne voulaient rien dire - c'était un codage de dessinateur, pas un plan lisible.* **Dortoirs, Réfectoire, Gymnase, Salle de jeu, Buanderie, Centre médical, Fin de vie.**
+
+⚠ **La grandeur devait se voir, elle est maintenant chiffrée :** *une échelle de cent mètres, six cents mètres dans la plus grande largeur, et le trajet d'Andrew et Isaac tracé en entier - onze minutes à pied de la grille nord-ouest au centre médical.*
+
+⛔ **Plus rien n'est rectangulaire au milieu.** *Le pré, l'étang, les enclos et le jardin clos sont des taches irrégulières, et les bâtiments sont tous légèrement de travers.*` },
+
+{ d:`19 août`, s:`Le document de style, relu et corrigé`, e:`acquis`, t:[`écriture`],
+  v:`"pas de points-virgules" personnellement je suis une adepte des points virgule. pour moi le point virgule laisse une phrase en suspend, et rajoute un détail pour fermer la phrase. ne te les interdit pas pour autant. [...] on part du principe que la lecture de la scène se fait du point de vue d'andrew. c'est normal qu'il ne sache pas ce qu'il y a dans la tete des autres personnages. l'exception est pour lui meme, "il savait depuis longtemps que..." ici on peut dire "il savait" car c'est son point de vue. on peut pas dire "june savait qu'elle rentrerait au jardin, et cette idée lui était étrange". [...] sur le style d'écriture, on est plutot pas mal, sans que ça soit parfait, mais c'est déjà bien.`,
+  q:`🔴 **La correction qui vaut le plus : le point de vue explique la règle.** *Je l'avais posée comme une préférence de style - une émotion se voit, elle ne se nomme pas. L'autrice en donne la vraie raison : le livre se lit du point de vue d'Andrew.* **Ce n'est plus une préférence, c'est une contrainte de récit, et elle se vérifie phrase par phrase.** Il savait, oui ; June savait, jamais.\n\n✅ **Le point-virgule lui appartient et rentre.** *Je l'avais interdit sur la foi d'un comptage - un pour mille mots - alors qu'un usage rare n'est pas un usage refusé.* **La parenthèse, elle, reste dehors.**\n\n⛔ **Une proposition écartée, et je m'étais trompé de niveau :** *faire du taux de dialogue une règle de progression.* **C'est un résultat, pas une consigne - le déroulé du livre porte plus ou moins de scènes de dialogue, et le chiffre suit.**\n\n⚠ **Deux règles gardent leur porte ouverte :** *le narrateur qui ne commente pas admettra des exceptions quand une scène les demandera, et les adverbes en -ment ne sont pas interdits - ils s'usent, c'est tout.*` },
+
 { d:`19 août`, s:`Trois descriptions proposées`, e:`ouvert`, t:[`écriture`],
   v:`des propals de description : a) la ceremonie d'Andrew vu de son point de vue, avec la paire à côté (il entend à moitié, il est dans les vapes, ouverture des yeux jusqu'à la salle de consultation) b) une description du jardin vue de l'exterieur avec une autre de l'interieur du complexe medical c) la scène de la berceuse et du tout-petit avec Andrew, Isaac et la medecin en chef qui l'observe. bulle dans le temps. on ne met pas l'accent sur la berceuse mais sur le tout petit qui est bercé. elle pleure et s'excuse.`,
   q:`✅ **2 374 mots, dans le dossier propositions du manuscrit.** *Aucun mot banni, aucune phrase au-delà de trente-cinq mots, aucune parenthèse, cinq adverbes en -ment en tout. Première application de la liste de contrôle du style.*
@@ -1102,5 +1308,500 @@ const NOTES = [
   q:`**Le mot change, et la correction en règle une autre par ricochet.** *Le texte disait déjà* **« ouvert, dégagé, refermé, dans une autre pièce »** *— on avait donc refermé.* **Ce qui recouvre l'ouverture est un morceau de la paroi elle-même**, découpé ailleurs et remis dessus. *Ce qui explique du même coup pourquoi il est plus sombre et plus mat que le reste : il a été détaché.*
 
 **On dit le rabat.** *Il se replie, il tient où on le laisse, il s'ôte.* **« Ça ne cassait pas, ça pliait. »** ⛔ *Et rien de la capsule ne doit jamais recevoir de vocabulaire de mécanique — pas de rainures, pas de glissières, pas de crans sur le rabat.*` },
+
+
+/* ---------------- 20 AOÛT ---------------- */
+{ d:`20 août`, s:`Le ménage est validé`, e:`acquis`, t:[`dossier`],
+  v:`je viens de checker 1, j'ai pas grand chose à redire, ça me parait bon`,
+  q:`**Les quatre suppressions du 19 août sont confirmées.** *La frise autonome, l'épilogue en double, le récapitulatif de validation et la table d'aiguillage ne reviennent pas.* Le tag *avant-le-menage* reste la porte de secours, et elle ne se referme jamais.
+
+⚠️ **Un point n'a pas été tranché, il reste donc en l'état :** le dossier maître et les incidences du 13 août sont périmés mais conservés, uniquement parce que trente-et-un renvois les citent par numéros de paragraphe. *Ils restent, avec leur bannière. Les sortir coûte la réécriture des trente-et-un renvois.*` },
+
+{ d:`20 août`, s:`Le plan du jardin est validé — les descriptions non`, e:`acquis`, t:[`jardin`,`visuels`],
+  v:`je te valide le batiment soleil, ça me va. d'ailleurs, petit précisions, je valide le plan mais j'ai pas forcément lu toutes les descriptions. on y reviendra surtout quand j'aurais fini le chapitre qui nous amene la description du jardin`,
+  q:`**Le plan est acquis — le tracé, les bâtiments, les chemins, et la section 0 au même or que le réfectoire.** *Le bâtiment soleil ne cherche plus le regard : il est un bâtiment du jardin comme les autres, ce qui est exactement ce que le dossier en dit.*
+
+🔴 **Et la validation s'arrête là, volontairement.** Les trois descriptions ne sont pas lues, et elles ne le seront **qu'après le chapitre qui amène le jardin.** *L'ordre s'inverse, et c'est le bon sens : le texte passe devant, la description se vérifie contre lui.* ⛔ **Rien de ces trois morceaux ne doit être traité comme acquis d'ici là.**` },
+
+{ d:`20 août`, s:`Erin est écartée du casting, pas du projet`, e:`acquis`, t:[`personnages`,`dossier`],
+  v:`tu as gadé quelque part en archivé l'arc d'Erin ? ça reste une idée d'intrigue secondaire meme si pour l'instant elle est ecartee`,
+  q:`**Réponse : oui, et mieux qu'archivé — intact.** *Le décompte des deux courbes, la table année par année, son nom d'éclaircie et la raison de son silence n'ont jamais bougé de 02-univers/les-ages-croises.md, sous une bannière qui interdit d'y toucher.*
+
+⚠️ **Mais personne ne pouvait le retrouver, et deux phrases invitaient même à le jeter.** Le fichier porte le nom du décompte, pas le sien ; aucune fiche ne portait son nom dans les personnages ; et le dossier maître annonçait en tête une arrivante *qui n'existe plus*. **Corrigé aux deux endroits, et une fiche de renvoi porte désormais son nom.**
+
+*Le prix de son retour est affiché sur la fiche, pour qu'il ne se découvre pas après coup :* **elle rouvre toute la durée du livre.** Le calendrier sur douze ans n'existait que pour elle.` },
+
+
+{ d:`20 août`, s:`Le glossaire et le lexique n'en font plus qu'un`, e:`acquis`, t:[`dossier`,`monde`,`écriture`],
+  v:`le glossaire et le lexique... c'est un peu pareil nn ? on pourrait pas les regrouper en un ? les description peut se permetre un poil plus long comme dans un entre deux. il y a des choses obsolètes aussi à nettoyer`,
+  q:`**Quarante-neuf entrées sur cinquante et une étaient le même mot défini deux fois**, dans deux fichiers que rien ne synchronisait. *Et la dérive avait commencé : le corps médical du jardin s'appelait « médecins » d'un côté et « pédiatres » de l'autre.*
+
+**Une seule source désormais — 02-univers/les-mots.md — et deux parties.** *Les mots du monde*, qui **sont** la page de fin de volume : le livre la reçoit générée, on ne l'édite plus à la main. Et *la bible*, décidée par l'autrice : **la couture, le sismographe, la règle des retrouvailles, la chaîne, la dernière grâce, l'affaire Sorel** — tout ce qui vendrait la fin du livre ou n'appartient qu'à l'atelier. *La chaîne, surtout : sur une page de fin de volume, elle vend la berceuse.*
+
+⚠️ **Deux mots morts rangés là aussi.** *Le palier* est un mot de bible, dit l'autrice. *Le capot* disparaît comme entrée : ce n'était pas le bon mot, c'est le rabat — **et le rabat lui-même cesse d'être un mot à part** pour aller dans la description de la capsule, dont il est un morceau.` },
+
+{ d:`20 août`, s:`Trois mots proscrits dormaient dans une page du livre`, e:`acquis`, t:[`écriture`,`monde`],
+  v:`il y a des choses obsolètes aussi à nettoyer. des anciennes appelations par exemple`,
+  q:`**Le glossaire est une page du livre : il est donc soumis aux interdits.** *Personne ne le vérifiait.* Le validateur contrôlait l'ordre alphabétique et la longueur des définitions, jamais leur vocabulaire — et l'interdit n° 11 bis dormait à côté.
+
+**Ce qui était passé :** *chaque **enfant** de huit ans à zéro* chez les médecins du jardin, *d'autant plus **vieux** qu'on est parti **vieux*** au bizutage, et *il n'y a pas de noms de **famille*** au numéro. **Et un quatrième que le contrôle neuf a trouvé tout seul** : *« ce n'est pas un **père**, c'est un service d'archives »* à l'Archiviste. *La phrase disait la bonne chose avec un mot que cette langue n'a jamais formé ; elle la dit maintenant sans lui.*
+
+✅ **Le validateur porte désormais la liste**, et il a été testé en cassant exprès la page. ⚠️ *La bible, elle, n'est soumise à rien : elle a le droit de nommer ce qui est interdit — c'est même sa raison d'être.*` },
+
+{ d:`20 août`, s:`Le nom des médecins du jardin`, e:`ouvert`, t:[`monde`,`jardin`],
+  v:``,
+  q:`**Deux noms coexistaient, et il faut en garder un.** *Pédiatres du jardin* — le mot du lexique — dit mieux la spécialité, mais **il suppose l'enfance, que cette langue n'a pas formée** : il tombe avec « enfant », et le dossier disait déjà que « pédiatre pour vieux » était une formule de travail qui n'entre pas dans le roman.
+
+⚠️ **« Médecins du jardin » est le nom de repli, pas un choix.** *C'est celui qui passe l'interdit sans retouche ; il ne dit rien de la spécialité.* **La question attend l'autrice**, et elle est liée à celle qui traîne depuis le 19 août : est-ce un homme, ou la médecin en chef ?` },
+
+
+{ d:`20 août`, s:`« Les mots » reprennent leur nom : le glossaire`, e:`acquis`, t:[`dossier`],
+  v:`tu peux me nommer "les mots" comme "glossaire"`,
+  q:`**Le fichier, l'onglet et le script reprennent le mot.** *02-univers/le-glossaire.md est la source ; l'onglet de l'atelier s'appelle Le glossaire ; glossaire.py verse les deux tableaux.* **La page de fin de volume, elle, s'appelait déjà comme ça et n'a pas bougé.**` },
+
+{ d:`20 août`, s:`Quinze mots descendent dans la bible`, e:`acquis`, t:[`dossier`,`monde`],
+  v:`instrument : pas dans le glossaire, on sait ce qu'est un instrument. […] numero : pas dans le glossaire, tout le monde sait ce que c'est ! […] plateau, relevé, reliquat, résidence, serviette de ceremonie, tenue, vétéran, voile pas dans le glossaire`,
+  q:`**Le critère est net, et il n'était écrit nulle part : un mot que tout le monde comprend déjà n'a rien à faire sur une page de fin de volume.** *Un écusson, un numéro, un instrument — personne n'a besoin qu'on le lui explique.*\n\n**Sortent du glossaire :** écusson, immaculé, instrument, jardin allongé, marginal, numéro, petits princes pourris, plateau, relevé, reliquat, résidence, serviette de cérémonie, tenue, vétéran, voile. **Rien n'est supprimé : tout descend dans la bible**, avec la raison de la descente inscrite dans l'entrée.\n\n⚠️ **Trois d'entre eux ne sont pas sortis pour la même raison.** *Le marginal est un état de caractère, pas un mot du monde — personne ne dira jamais « c'est un marginal » dans le livre.* *Les petits princes pourris sont une réplique, pas une entrée.* *Le jardin allongé est le barème, et le barème est caché.* **Le glossaire passe de cinquante et un mots à trente-cinq ; la bible de douze entrées à vingt-huit.**` },
+
+{ d:`20 août`, s:`La langue de l'arrivant : le perroquet, puis l'école`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`non, il va aller à l'ecole pour ça. il va pas galérer à parler comme un bébé, on arrivera tres rapidement à la phase de "perroquet" et c'est l'ecole qui leur apprend. après comme un enfant, c'est en observant qu'on apprend et en entendant des mots revenir`,
+  q:`**Il parle, il répète un mot et il le retient tout de suite. Mais il ne peut pas nommer ce qu'il voit pour la première fois** — *le mot ne lui manque pas : c'est la chose qu'il ne connaît pas.* **Le reste s'apprend à l'école, et en écoutant les mots revenir.**\n\n🔴 **Et ça fait tomber un passage déjà écrit.** *Dans la proposition du premier matin, l'analyste lui fait nommer les objets posés devant lui — le pichet, le verre, le carnet, la lampe, la vis de la lampe —* **« sans hésiter une seule fois ». C'est faux maintenant.** *Les trois mots à retenir et à redire, eux, tiennent : répéter et retenir, c'est exactement ce qu'il sait faire.* ⚠️ **Non corrigé : l'autrice reprendra le passage elle-même.** Bannière posée sur la proposition.` },
+
+{ d:`20 août`, s:`Deux groupes de berceurs, et ils ne se croisent pas`, e:`acquis`, t:[`monde`,`jardin`],
+  v:`non, deux groupes de berceurs bien distincts. ceux qui prennent en charge les 14-8 je dirai qui sont accolés au jardin et les berceurs du jardin qui s'occupe des enfant de 8 à 0`,
+  q:`**La question était : le même berceur du haut en bas, ou change-t-on en route ? La réponse ferme le « combien d'adieux compte une vie » par le haut.** *Il y a un adieu, et il tombe à huit ans.*\n\n**Ceux des quatorze à huit ans sont accolés au jardin, sans y être.** *Ceux du jardin prennent le relais à huit et restent jusqu'au dernier jour — ce sont eux qui nomment.*\n\n⚠️ **Une bande neuve apparaît, et elle n'était prévue nulle part : quatorze à huit.** *Elle mord sur le territoire du tuteur, qui instruit ceux qui auront à s'en servir.* **À retracer, et la question du chuchoteur tombe au même endroit.**` },
+
+{ d:`20 août`, s:`L'école se verra depuis la rue, en longeant la grille`, e:`acquis`, t:[`monde`,`scènes`],
+  v:`le roman va y mettre les pieds au moment ou il se balade dans la ville avec eliot. on y verra depuis la rue, une salle de classe avec une fenetre ouvert en longeant une grille de l'établissement […] un arrivant de 92 ans lever la main pour repondre de manière hyper excité, deux eleves etre reprise par la maitresse […] le prof d'eps, encourager les plus vieux "allez, donne toi, ça ira de mieux en mieux, donne tout !"`,
+  q:`**La scène 2 gagne l'école, et elle ne coûte rien : la promenade existait déjà.** *Une salle de classe, une fenêtre ouverte, un professeur de quinze ans devant des arrivants qui ont l'âge qu'ils ont. Plus loin, le terrain d'endurance.*\n\n⛔ **Et rien ne tourne à la drôlerie ni au ridicule.** *C'est une école, ce sont des élèves, et personne dans la rue ne s'arrête pour regarder.* **Le lecteur seul trouve ça étrange, et il ne doit rien lire qui l'y invite.**\n\n**L'école se précise du même coup :** de nos petites classes jusqu'au collège pour qui arrive très âgé ; **des cours accélérés du soir pour les autres**, dont Eliott a commencé un peu. ⚠️ *On ne passe jamais devant une étude : ça se dit en une phrase.*` },
+
+{ d:`20 août`, s:`Quatre petits tranchages, et une entrée neuve`, e:`acquis`, t:[`monde`],
+  v:`oui c'est le metier de l'analyste de s'occuper de la maturation des capsules ET des arrivants`,
+  q:`**L'analyste est un seul métier à deux faces.** *Il n'existe pas de spécialité qui n'en ferait qu'une.*\n\n**L'Archiviste — chose ou quelqu'un — sort du glossaire :** *« pas besoin de le savoir dans le glossaire, la supposition reste ouverte et c'est tout ».*\n\n**L'origine de la première capsule est un fait, pas un trou :** *ça remonte à des générations antérieures, et personne ne remonte plus haut.*\n\n**Le chuchoteur reste entre parenthèses :** *rien ne dit qu'il servira, le rôle peut se fondre dans celui du tuteur.*\n\n➕ **Et une entrée neuve : la consultation d'initiation.** *Le premier examen dans l'heure qui suit la sortie — réflexes, suivi du regard, force, marche, trois mots à redire.* ⚠️ **Le nom est une formule de travail, pas un choix.**` },
+
+{ d:`20 août`, s:`Pourquoi les capsules cessent d'éclaircir`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`parce que notre monde devient malade et qu'on a de plus en plus d'idiot sur notre belle planètes.. mais ça c'est pas necessaire de le préciser dans le glossaire`,
+  q:`**La réponse existe, et elle ne sort jamais du dossier.** ⛔ *Rien de cela n'entre dans le livre, ni dans le glossaire : personne dans le roman ne le saura jamais.*\n\n**Le lecteur a pourtant tout ce qu'il faut pour le poser lui-même** — la ruche est un sismographe, et elle enregistre ce qui se passe de l'autre côté. *Il suffit qu'il ait vu passer une semaine anormale et qu'il sache lire un chiffre qui monte.* **Rangé dans la bible, là où vivent les choses vraies qui ne se disent pas.**` },
+
+
+{ d:`20 août`, s:`La tranche haute travaille, et c'est un argument`, e:`acquis`, t:[`monde`,`jardin`,`jalousie`],
+  v:`la tranche des 14 à 8 c'est la tranche des arrivant qui part direct chez un berceur. on leur donne des metier "facile" qui ne demandent pas de grand études, pas de grosse condition physique. meme les courps du soir il n'y en a pas vraiment, c'est la berceuse qui lui apprend ce qu'il doit savoir pour son age. […] c'est un moindre mal de participer à l'echelle de son age à l'effort de la société avant de rejoindre le jardin. et ça fait passer la pilule aux personnes qui ne trouvent pas ça forcement juste qu'il entre au jardin sans contrepartie societale`,
+  q:`**Correction de la note précédente : les groupes de berceurs sont distincts, mais l'arrivant, lui, passe de l'un à l'autre à huit ans.** *C'est même la seule chose qui bouge, et l'adieu tombe là.*\n\n**Un arrivant de quatorze à huit ne va ni à l'école ni chez un tuteur : il va droit chez un berceur**, qui lui apprend ce qu'il faut pour son âge — il n'y a pas vraiment de cours du soir pour eux. **Et il travaille** : un métier facile, sans études et sans condition physique. *Pendant ses heures, c'est son employeur qui en répond.* **Eliott fait du portage : de petits colis, des lettres, dans un quartier, à pied** — *il n'aura pas le temps devant lui d'apprendre à conduire.*\n\n🔴 **Et le travail n'est pas là pour eux.** *Participer à l'effort commun à l'échelle de son âge est un moindre mal* — **sa vraie fonction est de faire passer la pilule à ceux qui ne trouvent pas juste qu'on entre au jardin sans contrepartie.** *C'est la réponse debout du monde à la jalousie, et elle tient parce qu'elle est modeste : on ne prétend pas que c'est équitable.* ⛔ Personne ne l'énonce jamais devant Eliott.` },
+
+{ d:`20 août`, s:`June est de la tranche haute, et le jardin est son renfort`, e:`acquis`, t:[`personnages`,`jardin`],
+  v:`quand ils sont tous occupé ailleurs, le metier de June ne s'arrete pas à ne rien faire de ses journée, c'est un renfort du jardin quand son planning le lui permet`,
+  q:`**Elle garde Eliott, dix ans : elle est donc du premier groupe, pas de celui du jardin.** *Sa fiche disait qu'elle travaillait auprès d'arrivants de tous les âges du jardin, y compris de ceux qui ne parlent plus — ce n'est plus son métier principal.*\n\n**Ses journées ne sont pas vides pour autant, et c'est là que le jardin revient.** Ses charges travaillent ; elle y va en renfort dès que son planning le permet. **Elle connaît le jardin, elle y a ses habitudes, et elle y accompagne des arrivants qui ne sont pas les siens.**\n\n⚠️ **Conséquence sur l'épilogue, signalée et non appliquée :** si Eliott entre au jardin, **il change de berceur ce jour-là. June ne le suit pas — elle le passe.** *C'est peut-être exactement la scène qu'il faut ; c'est peut-être aussi ce qui la fait sortir du livre.*` },
+
+{ d:`20 août`, s:`La capsule flash, et le mot « série » qui saute`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`"elle ne laisse pas le temps de faire une série" c'est à dire ? j'ai bcp de mal avec le mot série. je trouve qu'il porte à confusion. […] une capsule flash c'est une capsule qui va éclaircir mais qui est arrivé d'un coup, qui ne pouvait pas etre prédite et suivie par les analystes. on la reconnais parce que bien sur elle n'était pas là avant, elle a poussé d'un coup, et si vite que la membrane parait sur le point de se detacher toute seule. en général il faut pas trainer et faire la cérémonie dans la foulée`,
+  q:`**Le mot sort des deux entrées où il traînait, et le chapitre premier avait déjà le bon vocabulaire :** *« un point sur un graphique vierge, et il en fallait quatre au minimum »*. **On dit des relèvements et des moyennes, jamais une série.**\n\n**Et la définition change de nature : elle se dit par ce que le métier voit, pas par ce qui la produit.** *Elle n'était pas là la veille, personne ne l'a vue pousser, aucun relèvement n'a pu être fait ; elle a poussé si vite que la paroi paraît sur le point de se détacher toute seule.* **On ne traîne pas : la cérémonie se fait dans la foulée.**\n\n✅ *Et le raisonnement de Vera reste debout, mot pour mot : une capsule claire depuis un moment n'en est pas une.*` },
+
+
+{ d:`20 août`, s:`Le jardin : un lieu clos, un par ville, et rien n'y est séparé par principe`, e:`acquis`, t:[`jardin`,`monde`],
+  v:`ils sont pas vraiment séparé tout le temps, mais disons que logistiquement, dans les zones style doctoire ou air de jeux, oui il le seront ! après il peuvent se croiser au refectoire, à l'etendu, n'importe ou, seulement les plus petits sont plus encadrés et forcément de maniere naturelle, les plus grand vont dans les air de jeux et les plus petits sont sur les tapis mousse de gymnastique "eveil"`,
+  q:`**Rien n'est séparé par principe, et c'est ce qui fait la différence avec un établissement qui trierait.** *On se croise au réfectoire, sur l'étendue, partout.* **Les dortoirs et les aires de jeu, eux, le sont — par logistique**, pas par doctrine. Et le reste se répartit tout seul : les grands aux jeux, les petits sur les tapis de l'éveil, plus encadrés.\n\n🔴 **Et ça referme la question qui traînait : le jardin est un lieu unique et clos.** *Il y en a plusieurs dans le monde, comme il y a plusieurs ruches, plus ou moins grandes.* **Celui du roman est celui de sa ville, et la ruche aussi.**` },
+
+{ d:`20 août`, s:`L'échelle du monde : une ruche et un jardin par ville`, e:`acquis`, t:[`monde`,`ruche`,`jardin`],
+  v:`c'est comme les maternité et les epad chez nous. bon seulement, on va pas en avoir à tous les coins de rue. il y en a généralement une chaque par ville`,
+  q:`**Le dossier n'avait aucune échelle, et il en a une maintenant : une de chaque par ville.** *Pas à tous les coins de rue, pas une par quartier.* **Ce qui ferme aussi le « combien il y en a et où » de la ruche** — il ne reste ouvert que la taille de celle du roman.\n\n⛔ **L'analogie de l'autrice ne sort jamais du dossier.** *L'interdit n° 6 proscrit toute référence à notre monde dans le texte : elle sert à doser une échelle, pas à écrire une phrase.* Rangée dans la bible sous *Une par ville*.` },
+
+{ d:`20 août`, s:`Les médecins du jardin ont une hiérarchie, et « pédiatre » est enterré`, e:`provisoire`, t:[`monde`,`jardin`],
+  v:`on va chercher un nom plus tard, mais oui on n'utilisera jamais le mot pediatre. ensuite comme chez nous, il y a une hierarchie. et forcement le medecin que l'on suit dans le jardin est un chef de service, on s'adresse au responsable pour l'enquete`,
+  q:`**Le service a sa hiérarchie comme n'importe quel service, et celui qu'on suit dans le livre est un chef de service.** *La raison est d'enquête avant d'être de monde : pour une enquête, on s'adresse au responsable.* **Ça répond du même coup à la question du 19 août** — ce n'est pas un médecin de couloir, c'est le responsable du service.\n\n⛔ **« Pédiatre » est mort, sous toutes ses formes** : ni *pédiatres du jardin*, ni *pédiatre pour vieux*. *Le mot suppose l'enfance, que cette langue n'a jamais formée.* Descendu chez les mots morts.\n\n⚠️ **Le nom, lui, reste à trouver, et il se cherchera plus tard.** *« Médecins du jardin » tient la place et n'est pas un choix.*` },
+
+{ d:`20 août`, s:`Le nom d'éclaircie descend aussi : c'est un nom, point`, e:`acquis`, t:[`monde`,`dossier`],
+  v:`Nom d'éclaircie : pas dans le glossaire, c'est un nom point`,
+  q:`**Le lecteur n'a pas besoin qu'on lui explique qu'un nom est un nom.** *Le mécanisme — produit soi-même au-dessus de huit ans, donné par une berceuse en dessous — reste entier dans la bible, avec la réserve qui compte : rien ne garantit que ce soit le nom d'avant, et personne ne peut le savoir.*\n\n**Le glossaire tombe à trente-quatre mots ; la bible en porte trente-deux.**` },
+
+
+{ d:`20 août`, s:`Le portage n'a jamais eu deux sens`, e:`acquis`, t:[`monde`,`personnages`],
+  v:`portage tu confonds […] le portage est le métier d'Eliott : l'équivalent d'un petit postier. la dernière berceuse c'est effectivement le geste de soin dans la vie d'un nourrisson qui va mourir`,
+  q:`**Le double emploi venait de l'ancien lexique, qui portait deux entrées « portage ».** *Vérification faite dans tout le dossier : le mot ne désigne que la tournée — la fiche de la berceuse écrit elle-même « sa tournée de portage ».* **Le lexique avait inventé le second sens, et la fusion l'avait recopié sans le voir.**
+
+**Le portage est le métier d'Eliott, et c'est l'équivalent d'un petit postier :** menus colis et lettres, un quartier, à pied.
+
+**Le geste, lui, existe bel et bien et il est séparé :** *porter, bercer, tenir au chaud, ne pas laisser seul une seconde* — **le soin, dans la vie d'un arrivant de zéro qui va mourir.** ⚠️ *Il n'a pas de nom à lui, et il n'en a peut-être pas besoin.*` },
+
+
+{ d:`20 août`, s:`Porteur de voiles est une croyance, et le mot n'est pas tendre`, e:`acquis`, t:[`monde`,`écriture`,`scènes`],
+  v:`c'est une croyance. on dit de quelqu'un qui dit n'importe quoi qu'il serait porteur de voiles. Eliott l'a entendu ; "ils m'ont dit que j'étais un porteur de voiles" ou alors c'est June qui dit "ils l'ont traité de porteur de voiles". c'est pas une appellation tres sympathique`,
+  q:`**Le dossier le traitait comme une catégorie du monde, presque un diagnostic. C'en est une croyance** — *rien ne permet de le détecter, et personne ne vérifie jamais rien.*
+
+🔴 **Et l'emploi ordinaire est méprisant : on le dit de quelqu'un qui raconte n'importe quoi, et on en traite les gens.** *Ça change la couleur du mot dans tout le livre — il n'est jamais neutre dans une bouche.*
+
+✅ **Ça ferme la question de savoir où le lecteur l'apprend : il l'entend, il ne le lit pas.** ❓ *Deux bouches possibles, non tranchées : Eliott, et la blessure est dans sa bouche à lui — c'est le cœur de la scène 2 ; ou June, qui répète ce qu'on a dit d'un gamin qu'elle aime bien.*
+
+⚠️ **Conséquence à vérifier ailleurs, non appliquée :** *Andrew est un porteur de voiles, et plusieurs fiches emploient le mot comme une notice de dossier.* **Personne ne le dirait aimablement.**` },
+
+
+{ d:`20 août`, s:`Le préparateur n'apparaît pas deux fois par cérémonie : il tient la serre`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`c'est leur role. ils surveillent la serre. ils sont en etroite collaboration avec les analystes`,
+  q:`**La question était mal posée : je cherchais ce qu'ils font « le reste du temps », comme si la cérémonie était leur métier.** *C'est l'inverse — la cérémonie est le bout visible d'une surveillance continue.*
+
+**La serre est leur poste : ils y passent leurs journées, ils la connaissent à la main, et ils travaillent en étroite collaboration avec les analystes.** *Ce qui éclaire au passage l'échange du chapitre premier : Bastien dit « elle est prête » parce que c'est son terrain — et Vera ne le contredit pas sur le geste, seulement sur la date.*` },
+
+
+{ d:`20 août`, s:`La zéro, et le soleil quand on veut que ce soit doux`, e:`acquis`, t:[`jardin`,`monde`,`écriture`],
+  v:`la section 0 ou plus rapide, "tu vas à la zero ?" sous entendu la section zero. ou alors pour que ça paraisse moins froid : "tu rejoins le soleil ?" "oui, j'y vais pour Lucas"`,
+  q:`**Trois registres pour un seul bâtiment, et c'est le troisième qui dit tout.** *La section 0*, le nom du registre. **La zéro**, l'abréviation de service — celle qu'on emploie sans y penser, un lieu comme un autre dans un planning. **Et le soleil, quand on veut que ça sonne moins froid.**
+
+🔴 **Ce sont les soignants qui empruntent le mot des petits, pas l'inverse.** *Le bâtiment soleil n'est pas un surnom d'enfant que les adultes tolèrent : c'est le seul nom tendre disponible, et ils s'en servent quand ils en ont besoin.* **« Tu rejoins le soleil ? — Oui, j'y vais pour Lucas. »** *La phrase dit d'un coup que c'est un poste, et que ce n'est pas qu'un poste.*
+
+⚠️ *Lucas est un exemple de l'autrice, pas un personnage du casting.*` },
+
+
+{ d:`20 août`, s:`La serre a une limite, et ce sont des hommes qui l'ont tracée`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`la serre est partout, le complexe a ete bati sur elle. puis les limites ont été créées par les humains. ils ont regardé jusqu'où les dernières capsules allaient et ils ont délimité un peu plus large pour contenir tout ça. le complexe. on ne sait pas sinon si ça n'aurait pas continué plus loin. la coulée a continué d'évoluer contre les murs sans franchir la limite. un peu comme on délimiterait un potager. les plantes vont rarement au delà, le réseau racinaire et feuille reste contenu`,
+  q:`**Le bâtiment n'est pas venu avant : le complexe a été bâti sur elle.** *Le fragment « le quart du complexe » saute — la serre n'est pas une portion découpée dans un bâtiment, c'est le sol sur lequel le bâtiment a été posé.*
+
+**On a regardé jusqu'où allaient les dernières capsules, et on a délimité un peu plus large pour tout contenir.** *La coulée est venue jusqu'aux murs et n'est pas passée outre.*
+
+🔴 **Et c'est là que l'image de l'autrice fait tout le travail : le potager.** *On délimite, et les plantes ne vont guère au-delà — le réseau des racines et des feuilles reste dedans, sans qu'on ait rien fait pour l'y forcer.* **Ce n'est donc pas un mur qui retient la coulée : c'est qu'elle n'est pas allée plus loin.** ⛔ *Et personne ne saura jamais si elle l'aurait fait — la question n'est pas posée dans le livre, et surtout pas résolue.*` },
+
+{ d:`20 août`, s:`Le veilleur n'avait rien à trancher, et le suivi descend`, e:`acquis`, t:[`dossier`,`monde`],
+  v:`pourquoi veilleur c'est pas tranché ? il est là et prépare les cérémonies`,
+  q:`**Elle a raison, et ce n'était pas une question.** *« Ce que le livre montre du métier ordinaire » est une note de fabrication, pas une décision de monde — elle traînait dans l'ancien lexique et la fusion l'a recopiée telle quelle.* **À surveiller : il en reste peut-être d'autres du même acabit.**
+
+➕ *Et l'entrée gagne ce qui lui manquait vraiment :* **il prépare les cérémonies et il les tient.**
+
+**Le suivi descend dans la bible** — le nom du rendez-vous reste à trouver, et il devra se distinguer de la consultation d'initiation.` },
+
+
+{ d:`20 août`, s:`La bible est un glossaire caché, pas un carnet`, e:`acquis`, t:[`dossier`],
+  v:`en fait tu as rajouté plein de truc dans la bible qui sont pas utile... c'est de la reflexion. j'imagine plus la bible comme le glossaire bible qui ne sera pas accessible aux lecteurs : la derniere grace, les marginaux, l'affaire sorel... ce genre de choses là quoi`,
+  q:`**La définition manquait, et je l'avais remplie à ma façon : des notions nommées, et rien d'autre.** *Même nature que le glossaire, même forme — simplement pas accessible au lecteur.*
+
+⛔ **Neuf entrées sortent, et aucune n'était un mot :** *la couture* et *l'escalier* (des images d'écriture), *le moindre mal* et *le travail de la tranche haute* (des réflexions), *les mots morts* et *le vocabulaire qui n'existe pas* (des listes de règles), *une par ville* et *le potager* (des analogies d'autrice), et **la chaîne**.
+
+✅ **Rien n'est perdu, et deux choses n'existaient nulle part ailleurs :** *les mots morts n'étaient écrits dans aucun interdit — ils ont maintenant leur tableau, en 11 quater* ; *la chaîne n'était dans aucune fiche — elle entre chez la berceuse, en section 8.* **Le reste était déjà logé : les fiches, les interdits, ou ces notes.**
+
+⚠️ *Et le pourquoi des capsules qui n'éclaircissent plus a rejoint le sismographe : c'est la même aiguille, et une question n'est pas une entrée.*` },
+
+{ d:`20 août`, s:`La chaîne n'est pas un uniforme`, e:`acquis`, t:[`personnages`,`monde`],
+  v:`tu fais une generalité de la chaine pour tous les berceurs. non, ce n'est pas une generalité. certains en ont, d'autres pas, comme certains ont un bracelet, d'autres non`,
+  q:`**Je l'avais écrite comme un signe de métier. C'est un bijou personnel** — *certaines en portent, d'autres un bracelet, d'autres rien.*
+
+🔴 **Et c'est justement ce qui fait tenir le doute.** *Si toutes en portaient, le détail serait un uniforme et ne dirait rien de personne ; si une seule en portait, il la désignerait.* **Là, il est répandu sans être général** — le lecteur ne peut ni conclure ni écarter. *La correction rend le signe plus solide qu'il ne l'était.*
+
+⛔ *Le geste ne se commente jamais, et l'objet ne se décrit jamais deux fois de la même manière.*` },
+
+
+{ d:`20 août`, s:`Au jardin, un berceur n'est attaché à personne`, e:`acquis`, t:[`jardin`,`monde`,`personnages`],
+  v:`quand on arrive au jardin, il faut voir presque ça comme un centre de loisirs, les animateurs. […] ils ne sont pas rattachés à des enfants en particulier mais à des groupes d'enfants. […] on a des berceurs là où on en a besoin et c'est tout`,
+  q:`🔴 **La question n'avait pas d'objet, et c'est la meilleure façon de la fermer.** *On demandait si un berceur du jardin garde sa charge jusqu'à zéro ou passe la main quand l'arrivant cesse de parler.* **Il n'a pas de charge :** il tient un dortoir, un groupe, une zone.
+
+**Des dortoirs assignés, globalement les mêmes groupes, et les rôles s'échangent.** *Certains sont plus habitués aux tout-petits, d'autres aux plus grands — habitude de terrain, pas spécialité déclarée.* **La zone médicale est plus restreinte** : on y reste en général, mais on bouge selon l'affluence. *S'il y a trop de monde au regard des arrivées de futurs zéros, on va aider au jardin.* **C'est un relais, pas une affectation.**
+
+⚠️ **Et ça coupe quelque chose qu'il faut savoir en écrivant : la tranche haute attache, le jardin non.** *De quatorze à huit, un arrivant a son berceur — une personne, qui lui apprend et qui répond de lui. À huit, il entre dans un lieu où personne n'est à lui en particulier.* **Une vie compte donc un seul adieu, et il tombe là.** ⛔ *Rien de cela ne s'énonce dans le roman, et surtout pas comme une tristesse : c'est une organisation de service, et tout le monde la trouve normale.*` },
+
+
+{ d:`20 août`, s:`L'adieu de huit ans n'en est pas un — je l'avais dramatisé`, e:`acquis`, t:[`jardin`,`écriture`,`personnages`],
+  v:`après, les berceurs de l'exterieur peuvent tres bien rendre visite, et surtout, on peut les recroiser regulierement dans le jardin`,
+  q:`**J'avais écrit « une vie compte un seul adieu, et il tombe là ». C'est trop, et c'est faux.** *Les berceurs du dehors rendent visite, et on les recroise régulièrement dans le jardin — ils y accompagnent, ils y viennent en renfort, ils passent.* **Le lieu n'est fermé qu'aux arrivants, pas à eux.**
+
+🔴 **Ce qui change à huit ans n'est donc pas la présence : c'est le lien.** *On ne cesse pas de voir la personne qui était à nous ; elle cesse d'être à nous.* ⛔ **Et personne ne le formule jamais, parce que personne ne le vit comme une perte.**
+
+✅ *Conséquence directe sur l'épilogue : June ne sort pas du livre le jour où Eliott entre au jardin. Elle peut être là, et elle peut y revenir.*` },
+
+
+{ d:`20 août`, s:`L'atelier devient modifiable : le mode révision`, e:`acquis`, t:[`atelier`,`écriture`],
+  v:`n'est-il pas possible de creer un outil pour que je puisse dirrectement depuis l'atelier modifier le chapitre et que tu en prennes connaissance ? car te dire en toute lettre de remplacer un prenom par un il ou inversement par exemple c'est chiant. j'aimerais le faire moi meme et que tu le prennes en compte`,
+  q:`**Onglet Chapitres, bouton « réviser le texte ».** *Chaque paragraphe devient modifiable sur place ; une gouttière à gauche en ôte un ou en glisse un dessous.*
+
+🔴 **Ce qui est retenu n'est pas le texte, c'est l'écart :** un couple *avant / après* par paragraphe touché. *Si le texte revient à son état d'origine, la ligne disparaît au lieu de traîner.* **Un couple se rejoue tout seul, et il se vérifie** — c'est ce qui évite d'avoir à dire en toutes lettres « remplace le prénom par un pronom ».
+
+**Le circuit :** elle corrige → « enregistrer pour Claude » dépose un fichier → *reprendre-la-revision.py* le rejoue sur pB-textes.js → fabrication.
+
+⚠️ **Chaque « avant » doit se retrouver une fois et une seule, sinon le script s'arrête.** *Une correction qui ne trouve pas son ancre est une correction qu'on croirait passée.* ⛔ **Et le navigateur n'est pas une sauvegarde** : tant que le fichier n'est pas sorti, les corrections ne vivent qu'à un endroit.
+
+✅ *Éprouvé dans un navigateur avant livraison : correction, retour à l'original, suppression, ajout, fermeture et réouverture de la révision.*` },
+
+
+{ d:`20 août`, s:`L'accueil cesse d'être fonctionnel et devient soigné`, e:`provisoire`, t:[`écriture`,`ruche`],
+  v:`On y était bien dans cette salle d'attente. Décorée avec goût, de grandes plantes aux extrémités étaient guidées par un tuteur pour monter droit. […] des tableaux d'artisan, beaux par leur simplicité, inspirait à la réflexion. […] Au fond de la pièce, une grande sculpture en verre, avec un filet d'eau tombant de chaque côté. le bruit tranquille de l'eau`,
+  q:`🔴 **Ce n'est pas une retouche de décor : ça change ce que la ruche est pour le lecteur dès la deuxième page.** *La version en place ironisait — des toiles sans sujet, et « personne ne les regardait deux fois, elles faisaient très bien leur travail ».* **Quelqu'un a pris soin de cette pièce.**
+
+**Et les dix-huit cessent d'attendre pour s'occuper :** *de petits groupes de trois ou quatre, on parie sur le nombre, sur l'âge qu'on relèvera, sur ce qu'on va voir entrer.* **Une salle d'attente devient une veille** — et le mot *cérémonie* s'en trouve justifié sans qu'on l'explique.
+
+⚠️ **Trois points en attente, dans la proposition :** *le mot **tuteur**, qui est déjà un métier de ce monde alors que c'est le mot juste en jardinage* ; *le **pari**, qui répond au « on ne pariait pas » du prologue — le contraste est bon mais il faut le vouloir* ; *et **l'eau**, une fontaine à la deuxième page d'un livre où elle tue une fois.*
+
+*Proposition déposée dans 05-manuscrit/chapitres/propositions/accueil-2026-08-20.md — non appliquée au texte.*` },
+
+
+{ d:`20 août`, s:`Une répétition, et le prologue en cachait une seconde`, e:`acquis`, t:[`écriture`],
+  v:`"et l'on y parlait à cette hauteur de voix que personne n'avait jamais demandée. Certains se demandaient dans quelle salle on les enverrait." répétition demandé`,
+  q:`**Vue, et elle en a fait voir une seconde sans la chercher.** *Le prologue porte déjà : « C'était une chose qu'on faisait ici sans que personne l'ait jamais demandé. »* **La phrase répétait donc le mot à dix lignes et l'observation à cinquante pages.**
+
+✅ **On n'explique plus rien du tout : « et l'on y parlait bas ».** *Deux mots au lieu de treize, et le lecteur qui a lu le prologue entend l'écho tout seul.*
+
+⚠️ **Le réflexe à garder : une observation déjà posée ne se repose pas, elle se convoque.** *Le premier chapitre hérite du prologue, il n'a pas à le refaire.*` },
+
+
+{ d:`20 août`, s:`Le volume de l'accueil : ni poulailler, ni silence`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`pas vraiment, on a les gens qui parlent mais sans que le volume sonore ambiant fasse poulailler quoi ^^' un respect du volume pour tout le monde`,
+  q:`**J'avais écrit « c'était la seule chose qu'on entendait vraiment », et ça vidait la salle pour faire entendre l'eau.** *Dix-huit personnes parlent, en petits groupes : ce n'est pas le silence.*
+
+✅ **« Sous les voix, on entendait l'eau. Personne ne parlait assez fort pour la couvrir. »** *L'eau devient un plancher sonore au lieu d'un silence, et la seconde phrase dit le respect du volume sans avoir à le nommer.*
+
+🔴 **Et c'est une constante du lieu, pas un détail de ce passage :** *chacun tient son volume, et personne n'a jamais eu à le demander* — le prologue le posait déjà. **À tenir partout dans la ruche : jamais le silence d'un temple, jamais le bruit d'une salle d'attente.**` },
+
+
+{ d:`20 août`, s:`L'accueil est posé, dans la version de l'autrice`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`tu remplaces stp`,
+  q:`**Trois paragraphes en deviennent dix, et le texte est le sien, mot pour mot.** *Ma proposition est marquée caduque ; elle ne vaut plus que pour ce qu'elle discutait.*
+
+✅ **Deux des trois questions que je posais sont tranchées par son texte, sans qu'elle ait eu à les commenter.** *Le mot « tuteur » ne s'y trouve pas — elle écrit* « de grandes plantes s'élevaient le long de troncs fins qui semblaient avoir poussé avec elles ». *Et le mot « pari » non plus :* **« on échangeait des suppositions »** — l'écho au « on ne pariait pas » du prologue tombe de lui-même. ⚠️ **Reste l'eau, et sa fin la rend plus visible encore.**
+
+🔴 **Et elle a résolu le volume mieux que moi.** *Je cherchais à dire que l'eau s'entend sans que la salle soit muette ; elle écrit* **« C'était le seul bruit continu de la salle. »** *Continu — les voix ne le sont pas. Puis un paragraphe d'un mot :* **« L'eau. »**
+
+*Le chapitre passe de 3 490 à 3 649 mots. Le brouillon en cours était en phase au paragraphe près : il l'est resté. L'entrée Accueil du glossaire suit le texte, et non l'inverse.*` },
+
+
+{ d:`20 août`, s:`La cueillie donne son nom au premier examen`, e:`acquis`, t:[`écriture`,`ruche`,`monde`],
+  v:`C'était là que les arrivants passaient leurs huit premiers jours, après l'examen de la cueillie, le tout premier examen de leur vie.`,
+  q:`🔴 **Le nom manquant est peut-être trouvé, et il l'a été en écrivant.** *L'entrée du glossaire porte encore « consultation d'initiation », formule de travail marquée non tranchée.* **Le texte, lui, dit l'examen de la cueillie** — et il l'accroche au geste qui précède tout : décrocher la capsule mûre.
+
+⚠️ **À confirmer, parce que le mot se lit de deux façons.** *L'examen qui suit la cueillie, ou l'examen de la cueillie elle-même ?* **Le premier sens est celui du texte, le second est celui de la grammaire.** *Si le nom est gardé, le glossaire suit ; sinon la question reste ouverte.*
+
+✅ *Et le mot « série », qu'elle avait refusé, disparaît du même coup : le texte dit désormais* « d'une travée à l'autre, leur maturation s'achève sur des relevés étranges ».` },
+
+{ d:`20 août`, s:`Le brouillon ne peut plus diverger : il se régénère`, e:`acquis`, t:[`atelier`],
+  v:``,
+  q:`**Le brouillon de « en-cours » était tenu à jour à la main, et il l'était au paragraphe près.** *C'est exactement la situation qui précède une divergence : ça tient tant que quelqu'un y pense.*
+
+✅ **extraire-le-chapitre.py le régénère depuis l'atelier**, qui est la source. *Il ne fait le trajet que dans ce sens ; verser.py fait l'inverse, pour un texte qui arrive du dehors.* **À lancer après chaque correction, et notamment après reprendre-la-revision.py.**
+
+⚠️ *C'est la troisième fois qu'une copie figée se met à dormir dans ce projet. Les deux premières étaient le plan du jardin et le glossaire ; les trois ont maintenant leur garde-fou.*` },
+
+
+{ d:`20 août`, s:`Lire depuis l'atelier, et toujours depuis le même fichier`, e:`acquis`, t:[`atelier`],
+  v:`moi je lis depuis le chapitre dans l'atelier à chaque fois`,
+  q:`**Ça confirme le régime : l'atelier est la surface de lecture, pas seulement la source.** *Il est donc refabriqué et remis après chaque correction du texte, sans qu'elle ait à le demander.*
+
+🔴 **Et ça découvre un piège que le mode révision vient de créer.** *Les corrections en cours sont gardées par le navigateur, et le navigateur les range par chemin de fichier.* **Une copie téléchargée n'a pas le même chemin que le fichier du dépôt** — des corrections faites dans l'une seraient introuvables dans l'autre, sans le moindre message.
+
+✅ **La consigne est donc simple, et elle est en tête du mode d'emploi : ouvrir toujours** *06-visuels/atelier/atelier.html*, **le mettre en favori, et rafraîchir.** *Les copies envoyées servent à regarder, jamais à corriger.*` },
+
+
+{ d:`20 août`, s:`La serre cesse d'être expliquée : elle est montrée, puis nommée`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`"C'était la serre. Le mot ne voulait plus dire grand-chose : il n'y avait ni vitre ni châssis, rien qu'un quart du complexe où la coulée était chez elle." ???????? j'avais pas validé ça la première fois...`,
+  q:`🔴 **Le paragraphe expliquait un mot au lieu de montrer un lieu, et il portait en plus une donnée périmée du matin même** — *« un quart du complexe », alors que le complexe a été bâti sur elle.*
+
+✅ **Sa version le règle sans discuter : le volume, la coulée qui prend tout, les capsules partout, les échafaudages qu'on monte et qu'on redescend.** *Puis trois mots :* **« C'était la serre. »** *Le lecteur a déjà tout vu ; le mot ne fait que ranger ce qu'il vient de voir.*
+
+**Dix-sept paragraphes en deviennent vingt-neuf**, et le chapitre perd cinquante mots au passage. *La description ne s'allonge pas : elle se coupe en respirations.*` },
+
+{ d:`20 août`, s:`La capsule mûre n'est pas blanche — et le chapitre se contredisait`, e:`acquis`, t:[`monde`,`ruche`,`écriture`],
+  v:`"une capsule presque blanche." ? elle s'étire pour les plus mûres par quelque chose de translucide, jaune orangé, mais pas blanc`,
+  q:`**Le chapitre se contredisait lui-même à six lignes d'intervalle :** *un paragraphe disait déjà* « jusqu'au jaune très pâle, presque translucide, de la fin », *et le suivant* « une capsule presque blanche ».
+
+✅ **Corrigé :** *« une capsule arrivée au bout, la paroi tendue, translucide, d'un jaune orangé ».* **Et l'entrée Éclaircie du glossaire porte enfin une couleur** — elle n'en donnait aucune, elle disait seulement « pâlit ». ⛔ *Jamais blanche.*
+
+⚠️ **Une nuance reste à trancher, et elle est à six lignes d'écart.** *Le paragraphe général dit* **jaune très pâle** *; celui de la capsule qu'on décroche dit* **jaune orangé**. **Les deux étaient de toi, à quelques minutes d'intervalle.**
+
+✅ **Tranché : jaune orangé, aux deux endroits.** *« Jaune très pâle » venait de l'ancien texte et a été repris sans être réexaminé ; « translucide, jaune orangé » est la formule donnée en décrivant le monde.* **Et une paroi qui s'étire ne va pas vers le pâle : elle va vers ce qu'on voit à travers.**` },
+
+
+{ d:`20 août`, s:`On ne touche pas à un texte hors séance`, e:`acquis`, t:[`écriture`,`dossier`],
+  v:`je vois bien que depuis la derniere fois tu avais modifié des choses dans le chapitre alors qu'on n'était pas en phase d'écriture.. rassure moi, tu n'as pas remodifié le prologue ou l'épilogue de la même maniere ? parce que quand on n'est pas réellement en train de corriger un chapitre, tu n'as rien à modifier dans ceux déjà écrits !`,
+  q:`✅ **Vérification faite dans l'historique, paragraphe par paragraphe : le prologue et l'épilogue n'ont pas bougé d'un mot depuis qu'ils sont finis.** *2 655 et 2 631, inchangés.*
+
+🔴 **Mais elle a raison sur le chapitre premier : il a bougé trois fois le 19 août, après le commit qui le validait.** *L'accueil et le mot « secrétaire », la capsule non éclaircie, la douzième capsule.* **Trois corrections de détail, et trois de trop** — un texte validé qui bouge sans séance, c'est une confiance qui s'use.
+
+⛔ **Règle posée en tête du LISEZ-MOI du manuscrit : un chapitre écrit ne bouge que pendant une séance de correction, sur demande explicite.** *Pas au passage d'une décision de monde, pas pour aligner une phrase sur une fiche, pas pour corriger une incohérence repérée en chemin.* **Ce qui est vu se signale ; ça ne se corrige pas.**` },
+
+{ d:`20 août`, s:`Le registre n'annonce rien, et la phrase le laissait croire`, e:`acquis`, t:[`monde`,`ruche`,`écriture`],
+  v:`petite dissonance, la phrase reste bizarre car on n'a encore jamais parlé du registre. puis surtout, si le registre indiquait à l'avance les capsules eclaircie, alors il suffirait de le consulter pour prédire. non, le registre les inscrit quand l'arrivant en sort`,
+  q:`**Deux défauts dans une phrase.** *Le premier est de place : le registre n'a pas encore été présenté, seule sa porte a été vue de loin.* 🔴 **Le second est de fond, et il ouvrait un trou dans le monde :** *« le registre ne s'était jamais trompé parce qu'il n'avançait jamais rien » laissait entendre qu'il aurait pu avancer quelque chose.* **S'il annonçait les éclaircies à venir, il suffirait de le consulter pour prédire — et tout le métier de l'analyste tombe.**
+
+✅ **La phrase garde son contraste et perd le registre :** *« les autres prévoyaient, lui constatait. »* **Et le glossaire porte désormais la règle :** *une capsule y entre quand elle s'ouvre, jamais avant.*
+
+⚠️ *Reste à préciser un jour comment l'inscription se fait — l'autrice dit* « un peu comme si un signal lui était envoyé ». **Et ça touche l'interdit n° 10 : l'Archiviste ne s'explique jamais.**` },
+
+{ d:`20 août`, s:`Quatre corrections, dont un détail qui ne servait à rien`, e:`acquis`, t:[`écriture`],
+  v:`"Des bottes alignées à l'entrée, jamais par paires." : pourquoi ce detail ?`,
+  q:`**Aucune raison, et c'est la réponse honnête.** *C'était de la texture : dire qu'un lieu sert et que rien n'y appartient à personne.* ⛔ **Mais un détail sans emploi qui a l'air posé exprès invite à y chercher quelque chose** — exactement ce que le chapitre s'interdit ailleurs. **Coupé.**
+
+**Les trois autres :** *la capsule qu'on décroche est « considérée comme arrivée à maturité » — le doute revient dans la phrase, et la couleur ne se dit plus deux fois* ; *la règle des âges s'élargit à* « comme partout ailleurs », *ce qui la sort du service* ; *et Vera se lit en deux phrases au lieu d'une.*` },
+
+
+{ d:`20 août`, s:`La capsule qui a crevé : on la voit enfin, et le chiffre passe à cinq`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`Ce n'était pas de la gelée. La gelée est orange, mate, sèche ; elle s'enlève d'un tenant et ne laisse rien derrière elle. […] Les régurgitations de n'importe quel être vivant, petit ou grand, à côté de ça, c'était du petit-lait.`,
+  q:`**Dix-neuf paragraphes en deviennent trente et un, et la scène révoltànte que le §8 du dossier maître réclamait est enfin là.** *La question était ouverte depuis le 16 août : en noyant la capsule non éclaircie dans le second récit de la cérémonie, la compréhension devenait froide et rétrospective, et la révulsion n'avait plus de logement.* **Elle en a un : ici, dans une journée de service ordinaire, exactement où le dossier proposait de la replacer.**
+
+🔴 **Et la comparaison porte tout : on nomme d'abord ce que ça n'est pas.** *La gelée est orange, mate, sèche, elle s'enlève d'un tenant.* **Le lecteur se cale sur du connu, puis on le déplace** — les grumeaux qui se referment sur la marque de la raclette, la membrane qui se plisse quand on marche à côté, la masse qui descend parce que le sol descend.
+
+⚠️ **Un chiffre a changé, et il ne se voit pas dans le texte : « la deuxième cette semaine » devient « la cinquième ».** *C'est la seule occurrence du dossier, donc rien ne se contredit.* **Mais cinq en une semaine est une alarme d'un autre ordre que deux** — *plus difficile à manquer pour le lecteur, et plus difficile à ne pas commenter pour les quatre qui raclent.* ✅ *Personne ne répond, et c'est ce qui la tient.*` },
+
+
+{ d:`20 août`, s:`La phrase du jour ne respirait pas`, e:`acquis`, t:[`écriture`],
+  v:`oui, je trouvais que la phrase entière ne respirait pas assez, elle était très lourde. soit la virgule, soit on reformule`,
+  q:`**La virgule seule aurait été fausse :** *elle séparait le verbe de son complément —* « déposait sur les dalles, des plaques claires ». **Mais l'instinct était juste : c'est bien là que la phrase manque d'air.**
+
+✅ **On coupe en deux et on passe le lieu devant :** *« Le jour tombait de très loin, en longues obliques. Sur les dalles, il déposait des plaques claires que l'on pouvait traverser ou contourner. »* **La virgule devient légitime, et elle tombe à l'endroit exact où elle la voulait.**
+
+*Et « traverser ou contourner » reste en fin de phrase, parce que le paragraphe suivant tient en trois mots :* « Andrew les traversait. »` },
+
+
+{ d:`20 août`, s:`La marqueterie entre dans la ruche — clin d'œil au métier de l'autrice`, e:`acquis`, t:[`écriture`,`ruche`,`monde`],
+  v:`petit clin d'oeil a mon métier […] la marqueterie c'est des essences de bois que tu viens assembler et coller sur un support pour en faire un motif digne d'un tableau`,
+  q:`**Les tableaux « sobres et soigneusement faits » deviennent des tableaux de marqueterie**, et le passage gagne deux paragraphes.
+
+🔴 **Le détail qui fait tout le travail : aucune couleur n'est peinte.** *« Toutes les couleurs venaient du bois. »* **C'est ça qui rend les montagnes imaginaires sans qu'on ait à le dire** — des versants blonds, des ombres tirées d'une essence presque noire, des ciels veinés qu'aucun ciel n'a jamais eus. *Et ça garde la question qu'elle voulait à la fin : la matière, ce qu'elle représentait, ou les deux ?*
+
+✅ **Et le motif tombe juste dans ce monde-ci, sans qu'aucune phrase ne le souligne : tout y est fait de ce qui pousse.** *La ruche est bâtie sur la coulée, les capsules poussent sur des coulants, les plantes de l'entrée montent le long de troncs — et on accroche du bois assemblé aux murs.* ⛔ *À ne jamais commenter.*
+
+*Point de métier respecté : on assemble bord à bord sur un support, puis on racle jusqu'à ne plus sentir les joints sous la main.*` },
+
+
+{ d:`20 août`, s:`La marqueterie, version de l'autrice`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`La matière faisait le paysage autant qu'elle le représentait. […] le paysage, le bois, ou la manière dont l'un était devenu l'autre.`,
+  q:`**Trois paragraphes au lieu de deux, et deux phrases qui n'étaient pas dans la mienne.**
+
+🔴 *« La matière faisait le paysage autant qu'elle le représentait »* — **c'est la thèse, et elle était restée implicite chez moi.** *Un marqueteur ne peint pas une montagne : il en trouve une dans une planche.*
+
+✅ **Et la chute est meilleure de deux manières.** *J'avais écrit* « la matière, ce qu'elle représentait, ou les deux », *un troisième terme qui ne fait qu'additionner les deux premiers.* **Elle écrit** « le paysage, le bois, ou la manière dont l'un est devenu l'autre » : *le troisième terme est une chose neuve, et c'est le geste du métier.*
+
+*Deux gains de précision au passage : les joints « disparaissent » au lieu de ne plus se sentir sous la main, et les veines « deviennent parfois presque des lignes de dessin » — ce que je n'aurais pas su voir.*` },
+
+
+{ d:`20 août`, s:`« Ce chemin » ne renvoyait à rien : Andrew n'était pas encore parti`, e:`acquis`, t:[`écriture`],
+  v:`on a oublié dire qu'andrew partait faire le couloir`,
+  q:`**Le départ était neuf paragraphes trop bas.** *Il pliait sa feuille, on passait à la ligne, et l'aparté s'ouvrait sur* « Les dix-huit, eux, ne prendraient pas ce chemin » — **un chemin que personne n'avait encore pris.**
+
+✅ **On remonte « Le veilleur quitta l'accueil et s'engagea dans le grand couloir » juste après la feuille pliée.** *L'aparté devient alors ce qu'il est vraiment : une digression pendant qu'il marche.* **Et « ce chemin » a son antécédent à la ligne précédente.**
+
+⚠️ *Un mot a dû suivre :* « Il était large et linéaire » *devient* « **Le couloir** était large et linéaire ». **En passant derrière neuf paragraphes d'aparté, le pronom ne pouvait plus rattraper son antcédent** — le déplacer en créait un second au moment où il en réglait un premier.` },
+
+
+{ d:`20 août`, s:`J'aère trop — un blanc doit isoler quelque chose`, e:`acquis`, t:[`écriture`],
+  v:`après je comprends que tu veuilles aerer le texte mais par moment, il l'est vraiment trop.. tu vois là par exemple, il avait pas besoin d'un retour à la ligne`,
+  q:`🔴 **Un retour à la ligne est une respiration ; deux d'affilée sont un tic.** *Le blanc doit isoler quelque chose qui vaut d'être isolé — une bascule, un temps, une phrase qui porte.* ⛔ **Deux gestes du même personnage à la suite tiennent dans le même paragraphe** : plier une feuille et sortir d'une pièce, c'est un seul mouvement.
+
+✅ *Et sa correction fait mieux que fusionner : elle rend la main au veilleur.* **« Le veilleur plia la feuille […] Il quitta l'accueil »** — *après trois répliques, un « Il » était loin de son sujet ; le nom revient d'abord, le pronom ensuite.*
+
+*Consigné dans 01-dossier/le-style.md, §7 — mes défauts à moi.*` },
+
+
+{ d:`20 août`, s:`« C'était là » renvoyait à la porte, pas à la zone`, e:`acquis`, t:[`écriture`],
+  v:`à première lecture, on croit que les arrivants sont à la porte`,
+  q:`**Le démonstratif se raccrochait au dernier nom cité**, et le dernier nom cité était *la porte qui leur était destinée*. *On lisait donc que les arrivants passaient huit jours à une porte.*
+
+✅ **On nomme la chose au lieu de la montrer du doigt :** « Cette partie du complexe était réservée aux arrivants. » *L'ambiguïté tombe sans qu'on ait à répéter « zone de résidence ».*
+
+⚠️ **Un chiffre a changé de nature au passage, et je le signale sans y toucher :** *« leurs huit premiers jours » devient* **« huit jours au minimum »**. *La durée était fixe, elle devient un plancher.* **Le glossaire porte encore « les huit premiers jours »**, et il attend de savoir lequel des deux est vrai.` },
+
+
+{ d:`20 août`, s:`Huit jours est un plancher, pas un terme`, e:`acquis`, t:[`monde`,`ruche`],
+  v:`oui, parce que comme dans une maternité, s'il y a un pb, en général on y reste plus longtemps`,
+  q:`**La durée était fixe dans le dossier ; elle devient un minimum.** *Huit jours, et davantage si quelque chose ne va pas.*
+
+🔴 **Et ça donne une existence à ce que l'examen cherche.** *Le texte dit qu'on vérifie qu'un arrivant est bien arrivé immaculé, sans anomalie ni blessure, et que « on n'était jamais trop prudent ».* **Si la résidence peut s'allonger, c'est que parfois la réponse est non** — sans qu'aucune phrase ait à le dire.
+
+*L'entrée de la bible suit. ⛔ L'analogie de l'autrice reste hors du texte : l'interdit n° 6 proscrit toute référence à notre monde.*` },
+
+
+{ d:`20 août`, s:`Le tableau noir mélangeait deux numérotations sans le dire`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`"Le neuf, le dix et le onze étaient pleins." je comprends pas`,
+  q:`**Trois défauts empilés dans deux phrases.** *« Le neuf, le dix et le onze » étaient des salles ; « la dix-neuf » était une travée ; et le mot* **travée n'avait jamais été prononcé dans le chapitre** — le tableau était seulement dit « couvert de numéros de travées », cinquante lignes plus haut. *Le lecteur avait deux systèmes de chiffres, aucun des deux nommé, et rien pour les distinguer.*
+
+✅ **Le tableau dit maintenant ce qu'il est** — un appariement : *« Trois travées avaient une salle en face : la neuf, la dix, la onze. »* **Et « la dix-neuf » reçoit son ancre** : *« celle de Bastien »*, ce qui la relie à la capsule dont on vient de parler.
+
+⚠️ *Réglage à vérifier à la relecture : j'ai supposé que le tableau apparie travée et salle. C'est ce qui rend les deux phrases cohérentes, mais rien ne le disait avant.*` },
+
+{ d:`20 août`, s:`Vera ne sait pas : elle ne dit pas le contraire`, e:`acquis`, t:[`écriture`,`personnages`],
+  v:`— Mais elle est claire, dit Bastien. / — Je ne dis pas le contraire`,
+  q:`**« Je sais » accordait à Bastien qu'il avait raison, et retirait à la scène son sujet.** *« Je ne dis pas le contraire » concède sans rien céder* — **c'est exactement une professionnelle qui refuse de s'engager sur une date**, et ça tient la règle du métier posée trois lignes plus haut : un relèvement seul ne donne rien, il en faut quatre.` },
+
+
+{ d:`20 août`, s:`Le préparateur ne décroche pas de sa propre autorité`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`qui savaient déterminer à la main quand une capsule était prête et qui après validation interne, la décrochaient`,
+  q:`**La phrase du prologue faisait du préparateur quelqu'un qui décide** — *sa main dit « prête », et il décroche.* **Or c'est l'analyste qui donne le jour**, et le chapitre premier fait tenir une scène entière là-dessus : *« une main de préparateur ne valait pas celle d'une analyste ».*
+
+✅ *La correction remet les deux gestes dans le bon ordre : il sait, puis on valide, puis il décroche.* **Première modification du prologue depuis qu'il est fini**, et elle est demandée en séance.
+
+⚠️ *Réserve de registre, signalée sans y toucher :* « validation interne » **est un mot d'organigramme dans un livre qui n'en emploie aucun.** *Une formulation du monde dirait plutôt « une fois la date donnée » — c'est la même chose, et ça nomme qui la donne.*` },
+
+
+{ d:`20 août`, s:`Deux papiers, et il en manquait un`, e:`acquis`, t:[`écriture`,`ruche`],
+  v:`son papier qu'il prend dans son casier chapitre un c'est celui-ci... donc normalement, il devrait pas recuperer un autre papier de la part des transporteurs... ou alors c'est un check in`,
+  q:`**Ce sont bien deux papiers, et le dossier les distinguait déjà — c'est le texte qui ne le disait pas.** *Celui du chapitre premier est son affectation du jour, pris dans un casier à l'accueil, et Anna en récite le contenu à voix haute.* **Celui du prologue vient de la serre et arrive avec les capsules** : l'heure de la cueillie, l'état de la paroi. *Ça ne peut pas être écrit le matin — la cueillie n'a pas encore eu lieu.*
+
+✅ **Son mot « check in » est le bon : c'est un passage de relais.** La serre remet ce qu'elle a fait, le veilleur en prend la charge.
+
+🔴 **Et sa question a fait remonter un vrai défaut : il y avait deux capsules dans le prologue et une seule fiche.** *On dit maintenant* **les deux fiches de cueillie** *— le pluriel règle le compte, et le nom empêche la confusion avec la feuille du matin.* **Le mot rejoint celui qu'elle vient d'installer au chapitre premier, l'examen de la cueillie.**
+
+*L'entrée Cueillie du glossaire porte désormais les deux : chaque capsule a sa fiche, et celle-ci vient de la serre quand l'autre vient de l'accueil.*` },
+
+
+{ d:`20 août`, s:`Un arrivant se tait, ou il dit n'importe quoi`, e:`acquis`, t:[`monde`,`écriture`],
+  v:`dans le prologue, Eliott parle ! donc on peut considérer qu'ils ont la parole, mais soit ils restent muets, soit ils disent des choses qui n'ont aucun sens`,
+  q:`**La ligne de base des premières minutes est posée : silence ou non-sens, et les deux sont ordinaires.** *La salle n'en retient rien.*
+
+🔴 **Et ça remet debout ce qui fonde le porteur de voiles — que j'avais perdu en réécrivant le glossaire ce matin.** *L'ancien lexique disait : « seuls les jeunes arrivants sont remarquables, parce que ce qu'ils disent arrive comme du contenu et non comme de la confusion. »* **C'est la distinction qui fait tout** — la confusion est la norme, le contenu est l'anomalie — **et elle ne figure plus dans l'entrée.** ⚠️ *À remettre, et c'est ma perte, pas la sienne.*
+
+*Et ça explique au passage pourquoi le mot n'est pas tendre : si tout le monde babille en sortant, traiter quelqu'un de porteur de voiles revient à lui dire qu'il n'en est jamais sorti.*` },
+
+{ d:`20 août`, s:`Une phrase de trop dans le prologue`, e:`acquis`, t:[`écriture`],
+  v:`dans le prologue, ça saute : "Il ne dit rien en le faisant, et personne ne dit rien non plus."`,
+  q:`**Le paragraphe montrait déjà un homme qui remplit deux flacons, les bouche, les essuie, les range debout dans un coin de la bassine.** *La phrase venait dire que ça se faisait en silence — ce que quatre gestes décrits sans une parole avaient déjà dit.*
+
+⚠️ *C'est mon défaut n° 2 du document de style, en pleine action : j'écris la scène juste, puis j'ajoute la phrase qui dit ce qu'elle voulait dire.*` },
+
+
+{ d:`20 août`, s:`Le chapitre premier ne sera pas allégé`, e:`acquis`, t:[`écriture`],
+  v:`pour le chapitre 1, je ne me vois pas revenir sur l'explication de la ruche, d'andrew ou des details du murs... je pense qu'on va laisser comme ça du coup`,
+  q:`**Les trois coupes proposées sont écartées** — le portrait d'Andrew, l'inventaire de la tenue, le détail des murs sculptés. *224 mots qui restent.*
+
+**Question fermée, et elle ne se rouvre pas d'elle-même.** ⛔ *Le chapitre reste à 3 765 mots contre 2 648 au prologue, et c'est assumé : l'autrice a déjà dit qu'on ne se met pas de barrière de longueur avant que le livre existe.*
+
+*Ce qui reste vrai malgré tout, pour la suite : ces trois endroits sont les seuls du chapitre où la description cesse d'être vue par Andrew. Si la lourdeur revient à la relecture, c'est là qu'il faudra regarder.*` },
+
+
+{ d:`20 août`, s:`Encore une phrase qui dit ce que la scène montrait`, e:`acquis`, t:[`écriture`],
+  v:`"Deux personnes se serrèrent le bras sans se connaître." on va faire sauter cette phrase aussi dans le prologue`,
+  q:`**Deuxième du même genre en dix minutes, et c'est le même défaut.** *Le paragraphe montrait déjà une salle qui s'avance, se penche pour mieux voir, commente —* **et j'ajoutais le geste qui prouve que des inconnus se touchent.** *La preuve retirait à la scène ce qu'elle avait de simple.*
+
+⚠️ **Deux phrases coupées du prologue aujourd'hui, toutes deux de la même famille : la phrase qui commente le geste qu'on vient de décrire.** *C'est mon défaut n° 2, et il ne se voit qu'à la relecture d'un tiers.*` },
+
+{ d:`20 août`, s:`L'appareil citait une phrase morte`, e:`acquis`, t:[`atelier`,`écriture`],
+  v:``,
+  q:`**Trouvé en cherchant autre chose : la fiche du chapitre premier promettait encore** *« Ni vitre ni châssis, rien qu'un quart du complexe où la coulée est chez elle »*, **une phrase supprimée du texte ce matin même.**
+
+🔴 **C'est la troisième fois aujourd'hui qu'un appareil survit à son texte** — après la ligne du registre et celle de la règle des âges. *Quand un paragraphe change, la fiche qui le cite ne bouge pas toute seule, et rien ne le signale : le validateur vérifie l'ordre, la longueur, le vocabulaire, jamais les citations.*
+
+⚠️ *Piste, non faite : un contrôle qui vérifierait que chaque passage cité entre guillemets dans un appareil se retrouve dans le texte du chapitre.*` },
+
+
+{ d:`20 août`, s:`Les trois textes sont verrouillés`, e:`acquis`, t:[`écriture`,`atelier`,`dossier`],
+  v:`allez, je valide epilogue, chap 1 et prologue. On les lock pour l'instant. on y reviendra que si je le demande explicitement`,
+  q:`**Prologue, chapitre premier, épilogue : validés le 20 août 2026.** *Le « validé momentanément » du chapitre premier tombe : la relecture à tête reposée a eu lieu, et elle a duré la journée.*
+
+🔒 **Et le verrou n'est pas une promesse.** *textes-verrouilles.txt porte l'empreinte des trois, et la fabrication de l'atelier refuse de tourner si l'un d'eux a changé.* **Éprouvé dans les deux sens avant livraison** : un mot modifié sans demande arrête la fabrication, et la restitution la relance.
+
+**Pour en corriger un, quand elle le demande :** *--ouvrir, la séance, --poser.* ⚠️ **Le détour est volontaire** — c'est ce qui empêche une correction de passer sans que personne l'ait demandée. *Elle avait repéré ce matin même trois modifications post-validation sur le chapitre premier ; ça ne peut plus arriver en silence.*
+
+*Quatrième garde-fou d'empreinte du projet, après le plan du jardin, le glossaire et le brouillon en cours.*` },
+
+
+{ d:`20 août`, s:`L'atelier de lecture, pour un lecteur beta`, e:`acquis`, t:[`atelier`],
+  v:`une version qui ne contient pas toutes les remarques pour nous. une version destinée à un lecteur beta. tu me gardes uniquement le glossaire, les personnages, les chapitres écrits sans notes en plus, et les plans de la ruche et du jardin`,
+  q:`**lecture.html : sommaire, chapitres sans appareil, gens, glossaire, les deux plans.** *Même design, six onglets au lieu de neuf.*
+
+🔴 **Une chose ne pouvait pas être reprise telle quelle : les fiches de personnages.** *Elles sont écrites pour l'autrice et elles donnent le livre en trois lignes —* « l'enquêteur qu'Andrew a été », « la ravisseuse », « le père d'Eliott dans la vie d'avant ». **Le seul champ « rôle » suffisait à tout vendre.** *Les sept fiches de la version de lecture sont donc écrites à neuf, et seulement d'après ce que le lecteur vient de lire : Andrew, Nora, Eliott, Nicolas, Anna, Bastien, Vera.* ⚠️ **À relire par l'autrice.**
+
+✅ **Et la règle de fabrication est plus dure que « ne pas afficher » : le fichier ne contient pas la matière d'autrice.** *Le script refuse de produire si une note, une scène, une règle, une entrée de bible ou le prénom Joël apparaît dans la source.* **Quelqu'un qui ouvre le fichier ne trouve rien de plus que ce qu'il voit.**
+
+*L'épilogue n'y est pas — il est écrit, mais c'est la fin. Le sommaire le montre comme une ligne, sans texte.*` },
+
+{ d:`22 août`, s:`Le verrou reconnaît sa main`, e:`acquis`, t:[`atelier`,`écriture`],
+  v:`ah mais si c'est moi qui ecrit, c'est normal que je ne te demande pas ton accord pour deverouiller. du coup faut trouver une solution sinon il y a aucun interet à ce que je puisse corriger toute seule les petites choses.. dans un autre sens, c'est problématique que tu ne puisse pas corriger car je pourrais faire des fautes betes qui resteraient`,
+  q:`🔴 **Le verrou avait été posé contre moi, et il se refermait sur elle.** *Il existe parce que trois modifications étaient passées sur le chapitre premier sans que personne les demande — pas pour lui faire demander la permission de corriger son propre livre.*
+
+**Une révision venue de l'atelier ouvre et repose le verrou toute seule.** *reprendre-la-revision.py applique l'écart, repose l'empreinte, et inscrit la passe dans journal-des-revisions.md.* ⛔ **Le détour --ouvrir / --poser ne vaut plus que pour moi.**
+
+**L'autre moitié de la question : les fautes bêtes qui resteraient.** *relire.py relève le mécanique — l'espace en double, le mot écrit deux fois de suite, la ponctuation sans son espace : ce qui est faux quel que soit le sens de la phrase.* 🔴 **Il signale et n'écrit rien.** *Ce qui est vu se signale ; ça ne se corrige pas — la règle tient, mais elle ne coûte plus une faute qui dort.*
+
+⚠️ **Et le navigateur reste le maillon nu :** tant que « enregistrer pour Claude » n'a pas été cliqué, une correction ne vit qu'à un endroit et personne d'autre ne la voit.` },
 
 ];

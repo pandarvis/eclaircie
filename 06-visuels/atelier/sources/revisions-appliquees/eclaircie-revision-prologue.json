@@ -1,0 +1,14 @@
+{
+  "atelier": "revision de chapitre",
+  "chapitre": "prologue",
+  "titre": "La cérémonie",
+  "changements": [
+    {
+      "etat": "modifie",
+      "i": 22,
+      "k": "p",
+      "avant": "Deux nouvelles personnes, des préparateurs, firent rouler deux chariots jusqu'à leur poste respectif, et un murmure parcourut le petit groupe.",
+      "apres": "Deux nouvelles personnes, des préparateurs, entrèrent à leur tour et firent rouler deux chariots jusqu'à leur poste respectif, et un murmure parcourut le petit groupe."
+    }
+  ]
+}

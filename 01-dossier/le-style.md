@@ -6,8 +6,12 @@ sortent de [`06-visuels/atelier/sources/analyse-style.py`](../06-visuels/atelier
 et sont archivées dans [`99-archives/mesures-style-2026-08-19.txt`](../99-archives/mesures-style-2026-08-19.txt).*
 
 > **À quoi sert ce document.** C'est ma base pour toute proposition d'écriture à partir de
-> maintenant. Tu le lis, tu me contredis, je le corrige. **Il n'a pas d'autorité tant que tu
-> ne l'as pas relu** — il décrit ce que tu as écrit, il ne décide pas ce que tu vas écrire.
+> maintenant. Il décrit ce que tu as écrit ; il ne décide pas ce que tu vas écrire.
+>
+> **Lu et annoté par l'autrice le 19 août 2026.** *Verdict : « sur le style d'écriture, on est
+> plutôt pas mal, sans que ça soit parfait, mais c'est déjà bien. »* Ses corrections sont
+> intégrées et signées dans le texte. **Deux règles ont changé de nature, une proposition est
+> écartée.**
 
 ---
 
@@ -88,18 +92,38 @@ et pas pour une autre raison » invitait à imaginer l'autre raison.*
 ## 4. Les dix règles
 
 **1 — La phrase fait dix à quinze mots.** Au-delà de trente-cinq, on coupe : il y a
-toujours un point à mettre où il y a une virgule. *La seule phrase de 56 mots du livre est
-celle que tu as fait réécrire deux fois.*
+toujours un point à mettre où il y a une virgule.
+
+> *La seule phrase de 56 mots du livre est celle-ci, dans la capsule pourrie — et c'est celle
+> que tu as fait réécrire deux fois :*
+>
+> « Entre les deux, il y avait tout ce qu'on veut : des filaments qui pendaient au bord du
+> seau quand on relevait l'outil et qui ne se décidaient pas à tomber, une membrane formée en
+> surface qui se plissait quand on marchait à côté, et dessous la masse qui continuait de
+> descendre, parce que le sol descendait. »
+>
+> **Elle tient debout, mais elle demande deux lectures.** *Les trois images valent mieux
+> séparées par des points.*
 
 **2 — Une phrase courte n'est pas une phrase ratée.** Un cinquième du texte tient en cinq
 mots ou moins. *« Elle est prête. » « Personne ne se retourna. » « Le garçon se vit. » « Restait la table. »*
 **C'est le rythme du livre. On ne le rallonge pas pour faire joli.**
 
-**3 — Pas de parenthèses, pas de points-virgules.** Zéro parenthèse dans les trois textes,
-un point-virgule pour mille mots. *Une parenthèse, c'est le narrateur qui s'excuse d'être là.*
+**3 — Pas de parenthèses. Le point-virgule, si.** Zéro parenthèse dans les trois textes, et
+il n'en faut pas : *une parenthèse, c'est le narrateur qui s'excuse d'être là.*
 
-**4 — Les adverbes en `-ment` se comptent sur une main.** Un ou deux par chapitre, jamais
-pour appuyer un verbe faible. **Un verbe juste n'a pas besoin d'être aidé.**
+> **Correction de l'autrice :** *« je suis une adepte du point-virgule. pour moi il laisse une
+> phrase en suspens, et il rajoute un détail pour fermer la phrase. ne te les interdis pas
+> pour autant. »* **Le point-virgule reste donc ouvert.** Il y en a un pour mille mots dans les
+> trois textes ; rien n'oblige à en rester là.
+
+**4 — Les adverbes en `-ment` ne sont pas interdits, ils s'usent vite.** Un ou deux par
+chapitre dans les trois textes, jamais pour appuyer un verbe faible. **Un verbe juste n'a pas
+besoin d'être aidé.**
+
+> **Précision de l'autrice :** *« c'est pas interdit, mais faut pas en abuser sinon ça devient
+> trop répétitif. »* **Le problème n'est pas l'adverbe, c'est de l'entendre deux fois sur la
+> même page.**
 
 **5 — Aucun chiffre rond.** *« quarante ans » → « quarante-deux ans »*, tu me l'as corrigé
 toi-même. Vingt-deux chaises, dix-sept capsules, quarante-deux petits, trois mètres et
@@ -120,9 +144,23 @@ règle du monde.
 souligne pas une trouvaille, il ne prépare pas le lecteur. *Il souligna le tout* est tombé
 pour ça : souligner, c'est dire au lecteur de retenir.
 
+> **Réserve de l'autrice :** *« globalement je suis ok avec toi, mais on ne sera pas à l'abri
+> d'une exception plus tard en écrivant. »* **La règle tient jusqu'à ce qu'une scène demande le
+> contraire, et ce jour-là c'est la scène qui aura raison.** *Une exception assumée n'est pas
+> un manquement ; une exception par confort en est un.*
+
 **9 — Une émotion se voit, elle ne se nomme pas.** *« son visage se détendit un peu, et elle
 fit un petit mouvement du menton, deux centimètres, qui voulait dire viens. »* Aucun mot de
 sentiment dans cette phrase, et l'émotion y est entière.
+
+> **Et voilà la raison, donnée par l'autrice, qui rend la règle simple à appliquer :
+> le livre se lit du point de vue d'Andrew.** *Il ne sait pas ce qu'il y a dans la tête des
+> autres — donc le texte ne peut pas le dire.* **Ce n'est plus une préférence de style, c'est
+> une contrainte de récit, et elle se vérifie phrase par phrase.**
+>
+> ✅ *« Il savait depuis longtemps que… »* — c'est lui. Il a le droit de savoir ce qu'il sait.
+> ⛔ *« June savait qu'elle rentrerait au jardin, et cette idée lui était étrange »* — impossible.
+> **Personne d'autre qu'Andrew n'a d'intérieur dans ce livre.**
 
 **10 — Le monde ne s'explique jamais au lecteur, il s'explique entre gens du métier.**
 Quand une information doit passer, elle passe dans une conversation où quelqu'un a une
@@ -182,6 +220,8 @@ de parole ; à la troisième réplique il a perdu, et il relit.
 par de l'image. Ça donne les phrases que tu supprimes d'un mot. **Le bon réflexe est de te
 poser la question, pas de meubler.**
 
+**J'aère trop.** *Constat de l'autrice, 20 août 2026 : « je comprends que tu veuilles aérer le texte mais par moment, il l'est vraiment trop ».* **Un retour à la ligne est une respiration ; deux d'affilée sont un tic.** *Le blanc doit isoler quelque chose qui vaut d'être isolé — une bascule, un temps, une phrase qui porte.* ⛔ **Deux gestes du même personnage à la suite tiennent dans le même paragraphe** : *plier une feuille et sortir d'une pièce, c'est un seul mouvement.*
+
 **J'explique ce que je viens de montrer.** J'écris la scène juste, puis j'ajoute la phrase
 qui dit ce qu'elle voulait dire. *« Dans ce service, les plus anciens du métier étaient
 aussi ceux qui avaient l'air les plus jeunes »* — tu l'as signalée comme retirable, et tu as
@@ -205,47 +245,66 @@ toi : *« il ne se souvient plus des cérémonies »* était faux, et c'est toi 
 
 ## 8. Ce que je te propose
 
-*Tu m'as demandé d'être force de proposition. Cinq choses, de la plus sûre à la plus discutable.*
+*Cinq choses proposées, cinq réponses de l'autrice le 19 août 2026.*
 
-**a) Garder le déséquilibre entre les trois textes, mais le rendre volontaire.**
-Le prologue est à 15 % de dialogue et 40 % de paragraphes d'une phrase ; l'épilogue à 38 %
-de dialogue. **Ce n'est pas un défaut : c'est le livre qui s'ouvre sur un rituel muet et se
-ferme sur une conversation.** Je propose d'en faire une règle : *plus on avance, plus les
-gens se parlent.* Le chapitre premier, à 37 %, est alors trop bavard trop tôt.
+**a) ⛔ Écartée. Faire du déséquilibre dialogue / récit une règle de progression.**
+*Je proposais : plus on avance, plus les gens se parlent — et le chapitre premier, à 37 % de
+dialogue, serait trop bavard trop tôt.*
 
-**b) Surveiller le mot *deux*.** C'est le mot plein le plus fréquent des trois textes
+> *« je ne pense pas que cela doit être une réflexion à proprement parler, c'est le déroulé du
+> livre qui portera plus ou moins de scènes de dialogue ou d'action. »*
+
+**Elle a raison et je m'étais trompé de niveau.** *Le taux de dialogue est un résultat, pas
+une consigne : il sort de ce qui se passe dans la scène.* Les chiffres du §1 restent bons à
+connaître — **ils ne commandent rien.**
+
+**b) ⏳ Sans avis — je continue de surveiller. Le mot *deux*.** C'est le mot plein le plus fréquent des trois textes
 — 38, 30, 18 occurrences. Le livre parle de paires, donc c'est en partie juste. **Mais à
 trente-huit fois, ce n'est plus un motif, c'est un tic.** Je propose de le réserver aux
 endroits où la paire compte, et de compter autrement ailleurs.
 
-**c) Un présent de vérité générale, une fois par chapitre, et pas plus.**
+**c) ✅ Retenue. Un présent de vérité générale, une fois par chapitre, et pas plus.**
 Le relevé en compte six dans tout le livre, et la mesure est étroite — elle ne cherche
 que les tournures en *on*. Celle-ci en fait partie : *« Une capsule qui s'ouvre sans personne
 autour s'ouvre quand même. »* **Le passage brusque de l'imparfait
 au présent fait sonner la loi du monde comme un proverbe.** C'est ton effet le plus fort et
 il est sous-employé.
 
-**d) Poser tôt ce qui devra être rappelé.** Le hook de l'âge inversé a coûté cinq passes
+**d) ✅ Retenue — *« une bonne idée »*. Poser tôt ce qui devra être rappelé.** Le hook de l'âge inversé a coûté cinq passes
 parce que l'école, les cours du soir et la zone de résidence n'existaient pas encore quand
 j'ai écrit la scène. **Je propose qu'avant chaque chapitre, on liste en trois lignes ce que
 le lecteur doit déjà savoir** — je vérifie que c'est dans un texte antérieur, sinon on le
 place avant.
 
-**e) Une idée que tu peux refuser :** je crois que le livre gagnerait à **une phrase de
+**e) 🟡 À essayer — *« on peut essayer, et si c'est trop étrange, on fait sauter »*.** Je crois que le livre gagnerait à **une phrase de
 présent par chapitre qui n'explique rien du tout** — pas une loi du monde, une observation
 sans utilité. *Le genre de chose qu'un homme pense en marchant.* Ça humaniserait Andrew,
 qui est le personnage le plus tenu du livre, et ça donnerait au lecteur un endroit où
-respirer. **Le risque est de casser la règle 8, et c'est pour ça que je te la soumets au
-lieu de la faire.**
+respirer. **Le risque est de casser la règle 8 — et la règle 8 accepte
+désormais ses exceptions, alors on verra bien à l'usage.**
 
 ---
+
+## 8 bis. Les objets qui appartiennent à quelqu'un
+
+> **Décision de l'autrice, 25 août 2026.** *« On va attribuer un calepin pour Isaac, comme ça on garde le carnet pour Andrew. »*
+
+**Un objet que deux personnages manipulent doit changer de nom, pas de propriétaire.** *Sinon le lecteur ne sait plus qui tient quoi, et il faut nommer les gens à chaque geste.*
+
+| Objet | À qui |
+|---|---|
+| **le carnet** | **Andrew.** *Celui du prologue, où il écrit les prénoms et les numéros ; celui du chapitre 2, resté une semaine dans la poche de sa blouse avec une case blanche au bout d'une ligne.* |
+| **le calepin** | **Isaac** — *et le lieutenant du chapitre 5, qui est le même homme pour le lecteur.* ⛔ **Le mot doit rester identique des deux côtés du dispositif :** *si l'un a un carnet et l'autre un calepin, la superposition s'abîme.* |
+
+✅ *Appliqué le 25 août : cinq occurrences renommées aux chapitres 5 et 6, sept laissées intactes au prologue et aux chapitres 1 et 2.*
 
 ## 9. La liste de contrôle, avant de te montrer un texte
 
 - [ ] Aucune phrase de plus de trente-cinq mots
-- [ ] Aucune parenthèse, aucun point-virgule
-- [ ] Moins de trois adverbes en `-ment`
+- [ ] Aucune parenthèse — *le point-virgule, lui, est libre*
+- [ ] Jamais deux adverbes en `-ment` sur la même page
 - [ ] Aucun chiffre rond
+- [ ] Aucune pensée qui ne soit pas celle d'Andrew
 - [ ] Chaque objet du monde est montré en train de servir, jamais défini par la négative
 - [ ] Dans chaque scène à trois, un nom toutes les deux répliques
 - [ ] Aucune image ne revient d'un chapitre à l'autre
@@ -256,3 +315,7 @@ lieu de la faire.**
 ---
 
 *Ce document se corrige comme le reste : tes retours d'abord, l'écriture ensuite.*
+
+*Première relecture de l'autrice le 19 août 2026. Les descriptions proposées le même jour ne
+sont pas arbitrées : elles le seront au cas par cas, quand on écrira vraiment les passages
+associés.*

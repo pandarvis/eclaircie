@@ -2,8 +2,8 @@
 > Il reste à la racine, et il n'en bougera pas : tout le dossier le cite par ses
 > numéros de paragraphe. **On le lit pour ses §, plus pour ses conclusions.**
 >
-> **Ce qu'il contient de faux :** une arrivante nommée **Erin**, qui n'existe plus dans
-> le casting ; une architecture en **quatre actes**, remplacée par les seize étapes de la
+> **Ce qu'il contient de faux :** une arrivante nommée **Erin**, hors du casting en cours
+> — *l'arc n'est pas supprimé : il est en réserve, entier, voir `03-personnages/erin.md`* ; une architecture en **quatre actes**, remplacée par les seize étapes de la
 > frise ; un tableau du **§7** calculé sur un palier à cinq ans et un plancher à trente,
 > périmés tous les deux ; le mot **peau**, proscrit partout depuis le 19 août ; et le plan
 > d'avant la bascule en deux récits.
