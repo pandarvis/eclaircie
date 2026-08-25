@@ -883,7 +883,7 @@ const TEXTES = [{
 [`tiret`,`— Ça expliquerait le reste ?`],
 [`tiret`,`— Une partie.`],
 [`p`,`Il n'ajouta pas ce qu'il pensait.`],
-[`p`,`Ça n'expliquait pas le premier jour, ni ce qu'il avait vu à la table, ni cette manière qu'avait le garçon d'imiter certains gestes sans savoir pourquoi.`],
+[`p`,`Ça n'expliquait pas le premier jour, ni ce qu'il avait dit en sortant de sa capsule, ni cette manière qu'avait le garçon d'imiter certains gestes sans savoir pourquoi.`],
 [`pause`,``],
 [`p`,`Deux ou trois maisons plus loin, une tondeuse démarra.`],
 [`p`,`June resta silencieuse jusqu'à ce que le bruit s'éloigne.`],
