@@ -26,19 +26,30 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 | se repérer | folio en bas au centre, titre courant, épaisseur du bloc, réglette à crans |
 | retrouver | `S` ouvre le sommaire de n'importe où · la page se retient d'une séance à l'autre |
 | adresser | `le-livre.html#p63` ouvre directement à la page 63 |
-| le reste | `G` le glossaire · `N` la lecture de nuit · `Échap` referme |
+| le reste | `G` le glossaire (sans bouton) · `N` la lecture de nuit · `Échap` referme |
 
 **La pagination est calculée dans une géométrie logique fixe, puis le livre est
 mis à l'échelle de la fenêtre.** *C'est ce qui permet d'avoir un livre qui remplit
 n'importe quel écran sans qu'un seul numéro de page change.* Changer un chiffre de
 `GEO` dans `fabriquer-le-livre.py` repagine tout le livre.
 
-**Le glossaire est éteint par défaut** — `G` l'allume. La fiche se pose à côté du
-livre, sur le bureau, sans recouvrir une ligne ; sur une fenêtre étroite elle se
-range en bas et mange le pied de la page.
+**Le glossaire est éteint par défaut, et il n'a plus de bouton** — seule la touche
+`G` l'allume. La fiche se pose à côté du livre, sur le bureau, sans recouvrir une
+ligne ; sur une fenêtre étroite elle se range en bas et mange le pied de la page.
 
-**La page tourne en 480 ms.** *Elle fléchit en tournant, elle s'assombrit de chant
-et s'éclaire en retombant.* Une bascule raide fait une planche, pas une feuille.
+### La page roule
+
+**Une feuille plate qui tourne autour d'un axe reste une planche.** *Aucun réglage
+d'animation ne rattrape ça : il fallait qu'elle soit réellement courbe.*
+
+La page est découpée en **quatorze lames articulées** les unes aux autres. À chaque
+image, la rotation totale se répartit entre elles : une part va à la charnière, le
+reste se concentre sous **une bosse qui voyage du bord libre vers la reliure**.
+C'est ce voyage qui fait le roulement. Chaque lame s'assombrit selon l'angle
+qu'elle présente à la lumière — et c'est ce dégradé, plus que la géométrie, qui
+donne le relief.
+
+**500 ms.** Les réglages sont en tête du moteur : `NLAME`, `BOSSE`, `SIG`.
 
 ---
 

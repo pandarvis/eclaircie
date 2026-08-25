@@ -32,7 +32,7 @@ body{
 #cadre{transform-origin:50% 50%;will-change:transform}
 #livre{
   position:relative;width:940px;height:752px;
-  perspective:2600px;perspective-origin:50% 46%;
+  perspective:3500px;perspective-origin:50% 48%;
   transform:translateX(-235px);
   transition:transform 560ms cubic-bezier(.36,.06,.24,1);
 }
@@ -145,29 +145,16 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 #feuille{z-index:8}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
 .face.verso{transform:rotateY(180deg)}
-.face .contenu{position:absolute;inset:0}
-/* Une page qui se met de chant s'assombrit, et s'eclaire en retombant. */
-.face .lustre{position:absolute;inset:0;pointer-events:none;opacity:0}
-.face.recto .lustre{background:linear-gradient(90deg,rgba(0,0,0,.12),rgba(0,0,0,.62))}
-.face.verso .lustre{background:linear-gradient(270deg,rgba(0,0,0,.12),rgba(0,0,0,.62))}
 
-/* Le vrillage : le bord libre traine sur le pivot, la feuille flechit. */
-@keyframes tourne-avant{
-  0%  {transform:rotateY(0deg)}
-  22% {transform:rotateY(-30deg) rotateZ(-1.7deg)}
-  50% {transform:rotateY(-90deg) rotateZ(-2.6deg)}
-  78% {transform:rotateY(-150deg) rotateZ(-1.3deg)}
-  100%{transform:rotateY(-180deg)}
-}
-@keyframes tourne-arriere{
-  0%  {transform:rotateY(-180deg)}
-  22% {transform:rotateY(-150deg) rotateZ(-1.3deg)}
-  50% {transform:rotateY(-90deg) rotateZ(-2.6deg)}
-  78% {transform:rotateY(-30deg) rotateZ(-1.7deg)}
-  100%{transform:rotateY(0deg)}
-}
-@keyframes lustre-monte{0%{opacity:0}56%{opacity:.66}100%{opacity:.66}}
-@keyframes lustre-descend{0%{opacity:.66}44%{opacity:.66}100%{opacity:0}}
+/* Les lames : la feuille est courbe parce qu'elle est articulee. */
+.lame{position:absolute;top:0;height:752px;transform-origin:0 50%;transform-style:preserve-3d}
+.lame>.face{left:0;top:0;right:auto;bottom:auto;width:calc(100% + 1px);height:100%}
+.fen{position:absolute;top:0;width:470px;height:752px}
+.lustre{position:absolute;inset:0;pointer-events:none;background:#0A0805;opacity:0}
+
+/* Quand le livre est ferme, il n'y a que la couverture : le contre-plat
+   restait affiche a cote d'elle, et faisait un carre sombre. */
+html[data-ouvert="0"] .cote{visibility:hidden}
 
 /* La corne : le coin deja replie, qui dit qu'on peut prendre la page. */
 #corne{
@@ -309,10 +296,7 @@ html[data-glo="0"] .glo{border:0;cursor:inherit;pointer-events:none}
       <div class="cote g" id="pG"></div>
       <div class="cote d" id="pD"></div>
       <button id="corne" title="Page suivante" aria-label="Page suivante"></button>
-      <div id="feuille" hidden>
-        <div class="face recto"><div class="contenu"></div><div class="lustre"></div></div>
-        <div class="face verso"><div class="contenu"></div><div class="lustre"></div></div>
-      </div>
+      <div id="feuille" hidden></div>
       <div id="couv">
         <div class="face recto">
           <div class="habillage"></div>
@@ -332,7 +316,6 @@ html[data-glo="0"] .glo{border:0;cursor:inherit;pointer-events:none}
 
 <div id="barre">
   <button id="bSom" title="Sommaire — touche S">Sommaire</button>
-  <button id="bGlo" aria-pressed="false" title="Les mots du monde — touche G">Glossaire</button>
   <button id="bNuit" aria-pressed="false" title="Lecture de nuit — touche N">Nuit</button>
   <div id="rail"><div class="voie"></div><div class="fait"></div></div>
   <div id="ou"></div>
@@ -1703,8 +1686,73 @@ function pageEl(i,cote){
    300 ms. Si on enchaîne, on n'anime plus : au bout de trente pages
    une jolie animation devient une taxe.
    ================================================================ */
-const DUREE=480, AISE='cubic-bezier(.42,0,.30,1)';
-let spread=-1, anime=false, vise=0, dernier=0, minuteur=0;
+const DUREE=500;
+/* NLAME : le nombre de lames. Plus il y en a, plus la courbe est douce,
+   et plus il faut composer de copies de page a chaque tour.
+   BOSSE : quelle part de la rotation part dans la courbure, au milieu du
+   tour. SIG : la largeur de la bosse, en fraction de page. */
+const NLAME=14, LW=470/NLAME, BOSSE=.46, SIG=.42;
+let spread=-1, anime=false, vise=0, dernier=0, minuteur=0, rafId=0;
+
+/* La chaine de lames se batit une seule fois : chacune est fille de la
+   precedente, donc les rotations s'additionnent le long de la feuille. */
+const LAMES=(function(){
+  const out=[]; let mere=feuille;
+  for(let k=0;k<NLAME;k++){
+    const lame=document.createElement('div');
+    lame.className='lame';
+    lame.style.left=(k===0?0:LW)+'px';
+    lame.style.width=LW+'px';
+    const parts=[];
+    ['recto','verso'].forEach(function(quel,i){
+      const f=document.createElement('div'); f.className='face '+quel;
+      const fen=document.createElement('div'); fen.className='fen';
+      /* le recto se lit depuis la reliure, le verso depuis son bord oppose */
+      fen.style.left=(i===0 ? -k*LW : -(470-(k+1)*LW))+'px';
+      const lu=document.createElement('div'); lu.className='lustre';
+      f.appendChild(fen); f.appendChild(lu); lame.appendChild(f);
+      parts.push({fen:fen, lu:lu});
+    });
+    mere.appendChild(lame);
+    out.push({lame:lame, r:parts[0], v:parts[1]});
+    mere=lame;
+  }
+  return out;
+})();
+
+function garnir(elRecto,elVerso){
+  LAMES.forEach(function(L){
+    L.r.fen.replaceChildren(elRecto.cloneNode(true));
+    L.v.fen.replaceChildren(elVerso.cloneNode(true));
+  });
+}
+
+/* t va de 0 a 1. La rotation totale de la feuille est repartie entre les
+   lames : une part reste a la charniere, le reste se met sous une bosse
+   qui voyage du bord libre vers la reliure. */
+function courber(t,sens){
+  const T = sens>0 ? -180*t : -180*(1-t);
+  const centre = sens>0 ? 1-t : t;
+  const bosse = BOSSE*Math.sin(Math.PI*t);
+  const poids=[]; let somme=0;
+  for(let k=0;k<NLAME;k++){
+    const u=k/(NLAME-1);
+    const g=Math.exp(-Math.pow((u-centre)/SIG,2));
+    poids.push(g); somme+=g;
+  }
+  let cumul=0;
+  for(let k=0;k<NLAME;k++){
+    const a = T*((k===0?1-bosse:0) + bosse*poids[k]/somme);
+    LAMES[k].lame.style.transform='rotateY('+a.toFixed(3)+'deg)';
+    cumul+=a;
+    /* une lame de chant ne recoit plus la lumiere */
+    const o=(.62*(1-Math.abs(Math.cos(cumul*Math.PI/180)))).toFixed(3);
+    LAMES[k].r.lu.style.opacity=o;
+    LAMES[k].v.lu.style.opacity=o;
+  }
+}
+
+function lisser(t){ return t*t*(3-2*t) }
 
 function poser(){
   pG.innerHTML=''; pD.innerHTML='';
@@ -1715,42 +1763,39 @@ function poser(){
 
 function finir(){
   clearTimeout(minuteur);
+  cancelAnimationFrame(rafId);
   if(!anime) return;
   anime=false; spread=vise;
-  [feuille].concat([].slice.call(feuille.querySelectorAll('.lustre')))
-    .forEach(function(x){ x.style.animation='none' });
-  feuille.style.transform='rotateY(0deg)';
+  LAMES.forEach(function(L){
+    L.lame.style.transform='rotateY(0deg)';
+    L.r.lu.style.opacity=0; L.v.lu.style.opacity=0;
+    L.r.fen.replaceChildren(); L.v.fen.replaceChildren();
+  });
   feuille.hidden=true;
   poser();
 }
 
 function animer(sens,cible){
   anime=true; vise=cible;
-  const rec=feuille.querySelector('.recto .contenu');
-  const ver=feuille.querySelector('.verso .contenu');
-  const lr=feuille.querySelector('.recto .lustre');
-  const lv=feuille.querySelector('.verso .lustre');
-  rec.innerHTML=''; ver.innerHTML='';
+  let recto,verso;
   if(sens>0){
-    rec.appendChild(pageEl(spread*2+1,'d'));
-    ver.appendChild(pageEl(cible*2,'g'));
-    pD.innerHTML=''; pD.appendChild(pageEl(cible*2+1,'d'));
+    recto=pageEl(spread*2+1,'d'); verso=pageEl(cible*2,'g');
+    pD.replaceChildren(pageEl(cible*2+1,'d'));
   }else{
-    rec.appendChild(pageEl(cible*2+1,'d'));
-    ver.appendChild(pageEl(spread*2,'g'));
-    pG.innerHTML=''; pG.appendChild(pageEl(cible*2,'g'));
+    recto=pageEl(cible*2+1,'d'); verso=pageEl(spread*2,'g');
+    pG.replaceChildren(pageEl(cible*2,'g'));
   }
+  garnir(recto,verso);
   $('corne').hidden=true;
   feuille.hidden=false;
-  [feuille,lr,lv].forEach(function(x){ x.style.animation='none' });
-  void feuille.offsetHeight;
-  feuille.style.animation=(sens>0?'tourne-avant':'tourne-arriere')
-    +' '+DUREE+'ms '+AISE+' forwards';
-  lr.style.animation=(sens>0?'lustre-monte':'lustre-descend')
-    +' '+DUREE+'ms '+AISE+' forwards';
-  lv.style.animation=(sens>0?'lustre-descend':'lustre-monte')
-    +' '+DUREE+'ms '+AISE+' forwards';
-  minuteur=setTimeout(finir,DUREE+16);
+  courber(0,sens);
+  const depart=performance.now();
+  (function pas(maintenant){
+    const t=Math.min(1,(maintenant-depart)/DUREE);
+    courber(lisser(t),sens);
+    if(t<1) rafId=requestAnimationFrame(pas); else finir();
+  })(depart);
+  minuteur=setTimeout(finir,DUREE+220);   /* filet, si l'onglet dort */
 }
 
 function tourner(sens){
@@ -1800,7 +1845,11 @@ function fermerLivre(){
   couv.style.transition='transform 560ms cubic-bezier(.36,.06,.24,1)';
   couv.style.transform='rotateY(0deg)';
   RACINE.dataset.ouvert='0';
-  setTimeout(function(){ spread=-1; anime=false; majEtat() },570);
+  setTimeout(function(){
+    spread=-1; anime=false;
+    pG.replaceChildren(); pD.replaceChildren();
+    majEtat();
+  },570);
 }
 
 /* ================================================================
@@ -1858,7 +1907,9 @@ function poserCrans(){
    ================================================================ */
 function ajuster(){
   const vw=window.innerWidth, vh=window.innerHeight;
-  const k=Math.min((vw-200)/SW,(vh-128)/PH);
+  /* de l air au-dessus et au-dessous : la feuille qui tourne deborde
+     du livre, et elle ne doit pas se faire couper par la fenetre. */
+  const k=Math.min((vw-200)/SW,(vh-150)/PH);
   $('cadre').style.transform='scale('+Math.max(.28,k)+')';
 }
 window.addEventListener('resize',function(){
@@ -1930,7 +1981,7 @@ document.addEventListener('keydown',function(e){
   else if(k==='Home'){ e.preventDefault(); allerA(1) }
   else if(k==='End'){ e.preventDefault(); allerA(PAGES.length-2) }
   else if(k==='s'||k==='S'){ basculerSommaire() }
-  else if(k==='g'||k==='G'){ $('bGlo').click() }
+  else if(k==='g'||k==='G'){ basculerGlossaire() }
   else if(k==='n'||k==='N'){ $('bNuit').click() }
   else if(k==='Escape'){ voile.classList.remove('on'); cacherFiche() }
 });
@@ -1953,13 +2004,12 @@ function basculerSommaire(){
 $('bSom').addEventListener('click',basculerSommaire);
 voile.addEventListener('click',function(e){ if(e.target===voile) voile.classList.remove('on') });
 
-$('bGlo').addEventListener('click',function(){
+function basculerGlossaire(){
   const on=RACINE.dataset.glo==='1';
   RACINE.dataset.glo=on?'0':'1';
-  this.setAttribute('aria-pressed',on?'false':'true');
   if(on) cacherFiche();
   try{ localStorage.setItem('eclaircie-glo',on?'0':'1') }catch(e){}
-});
+}
 $('bNuit').addEventListener('click',function(){
   const on=RACINE.dataset.nuit==='1';
   RACINE.dataset.nuit=on?'0':'1';
@@ -1982,9 +2032,7 @@ function demarrer(){
     if(localStorage.getItem('eclaircie-nuit')==='1'){
       RACINE.dataset.nuit='1'; $('bNuit').setAttribute('aria-pressed','true');
     }
-    if(localStorage.getItem('eclaircie-glo')==='1'){
-      RACINE.dataset.glo='1'; $('bGlo').setAttribute('aria-pressed','true');
-    }
+    if(localStorage.getItem('eclaircie-glo')==='1') RACINE.dataset.glo='1';
   }catch(e){}
   poserCrans();
   ajuster();
