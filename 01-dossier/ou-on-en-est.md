@@ -30,6 +30,21 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 | au départ | un mot à côté de la couverture nomme les deux flèches — celles de l’écran et celles du clavier |
 | le reste | `G` le glossaire (sans bouton) · `N` la lecture de nuit · `Échap` referme |
 
+### Les sauts de page demandés
+
+**Un saut forcé s'ancre sur le texte, jamais sur un numéro de page** — la
+pagination se recalcule à chaque correction, un numéro ne tiendrait pas une
+journée. On nomme le début du paragraphe qui doit commencer une page, dans
+`SAUTS` en tête de `fabriquer-le-livre.py`. ⚠️ **La fabrication s'arrête si le
+passage a été réécrit** : on l'apprend tout de suite au lieu de perdre le saut en
+silence. *Vérifié en le sabotant.*
+
+| chapitre | le paragraphe qui ouvre une page |
+|---|---|
+| Prologue | *Après le nom, le pichet.* — demandé le 25 août 2026 |
+
+---
+
 **La pagination est calculée dans une géométrie logique fixe, puis le livre est
 mis à l'échelle de la fenêtre.** *C'est ce qui permet d'avoir un livre qui remplit
 n'importe quel écran sans qu'un seul numéro de page change.* Changer un chiffre de
@@ -161,6 +176,11 @@ aujourd'hui ; personne ne l'a lu d'une traite depuis.*
 **Cinq chapitres sur huit ne sont pas verrouillés.** *Seuls le prologue, le chapitre 1
 et l'épilogue le sont.* ❓ *Faut-il figer* La maison, Le poste *et* Première
 investigation ?
+
+⚠️ **Les trois verrous sont ouverts** — *prologue, chapitre premier, épilogue.*
+L'autrice relit et corrige ; **elle dira quand reposer chacun.** *Tant qu'ils sont
+ouverts, la fabrication ne protège plus ces textes contre une modification
+involontaire.*
 
 ⚠️ ***pédiatre* est mort le 20 août et vit encore dans 15 fichiers.** *Certaines
 occurrences sont légitimes — les interdits doivent le nommer pour l'interdire. Les

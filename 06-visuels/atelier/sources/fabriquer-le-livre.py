@@ -182,13 +182,34 @@ print(u'glossaire : %d mots sur %d renvoyes une fois'
 
 
 # =====================================================================
+#  LES SAUTS DE PAGE DEMANDES
+#
+#  On nomme le debut du paragraphe qui doit commencer une page. L'ancre
+#  est le texte, pas un numero : la pagination se recalcule a chaque
+#  correction. Si le passage est reecrit, la fabrication s'arrete ici
+#  plutot que de perdre le saut sans rien dire.
+# =====================================================================
+SAUTS = {
+    'prologue': [u'Après le nom, le pichet.'],
+}
+
+
+def plat(txt):
+    return re.sub(r'<[^>]+>', u'', txt)
+
+
+# =====================================================================
 #  LES DRAPEAUX — ce que la mise en page doit savoir de chaque
 #  paragraphe. 1 : pas d'alinea (debut de chapitre, ou apres une
-#  pause). 2 : premiere ligne en petites capitales.
+#  pause). 2 : premiere ligne en petites capitales. 4 : commence une
+#  page neuve.
 # =====================================================================
+poses_saut = 0
 for t in textes:
     precedent = None
     premier = True
+    demandes = [typo(x) for x in SAUTS.get(t['id'], [])]
+    trouves = []
     for para in t['p']:
         f = 0
         if para[0] != 'pause' and (precedent is None or precedent == 'pause'):
@@ -196,8 +217,19 @@ for t in textes:
         if premier and para[0] != 'pause':
             f |= 2
             premier = False
+        for d in demandes:
+            if plat(para[1]).startswith(d):
+                f |= 4
+                trouves.append(d)
         para.append(f)
         precedent = para[0]
+    for d in demandes:
+        assert trouves.count(d) == 1, \
+            u'saut de page dans %s : %d paragraphe(s) commencent par %s' \
+            % (t['id'], trouves.count(d), d[:40])
+    poses_saut += len(trouves)
+if poses_saut:
+    print(u'sauts de page demandes : %d' % poses_saut)
 
 
 # =====================================================================
@@ -746,6 +778,9 @@ function paginer(){
       let pose=0;
       while(reste.length){
         const it=reste[0];
+        /* saut demande par l'autrice : on ferme la page, sauf si elle
+           est encore vide -- sinon on n'avancerait jamais */
+        if((it[2]&4) && (pose>0 || ouverture)) break;
         const n=noeud(it);
         banc.appendChild(n);
         if(tient()){ reste.shift(); pose++; continue }

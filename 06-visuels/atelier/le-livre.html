@@ -463,7 +463,7 @@ const LIVRE = [
 [`pause`,`· · ·`,0],
 [`p`,`Andrew prit le pichet et fit le tour de la table. Il versa de l'eau dans chacun des verres et les recentra en face de chaque arrivant. Il récupéra le reste et le rapporta à la desserte.`,1],
 [`p`,`Ils burent tous les deux.`,0],
-[`p`,`Après le nom, le pichet. C'était l'usage, et personne n'aurait su dire depuis quand : on disait que la première eau emportait ce qui restait du sommeil, et que personne ne pouvait aller le chercher à sa place. Ceux qui n'y croyaient pas regardaient quand même — c'est le seul moment où l'on voit un corps faire une chose que personne ne lui a apprise.`,0],
+[`p`,`Après le nom, le pichet. C'était l'usage, et personne n'aurait su dire depuis quand : on disait que la première eau emportait ce qui restait du sommeil, et que personne ne pouvait aller le chercher à sa place. Ceux qui n'y croyaient pas regardaient quand même — c'est le seul moment où l'on voit un corps faire une chose que personne ne lui a apprise.`,4],
 [`p`,`L'homme reposa son verre, regarda le fond, et le reprit.`,0],
 [`p`,`Alors la salle s'avança, et pour la première fois de la matinée il y eut du bruit.`,0],
 [`p`,`Ils vinrent un par un déposer au milieu de la table ce qu'ils avaient apporté pour leur porter chance. Un fruit. Une boule d'osier tressée. Trois épis noués par un fil de laine rouge. Une pierre plate. Une femme posa la sienne, la regarda, et la tourna d'un quart. Elle voulait qu'elle soit dans le bon sens. Il n'y avait pas de bon sens.`,0],
@@ -1677,6 +1677,9 @@ function paginer(){
       let pose=0;
       while(reste.length){
         const it=reste[0];
+        /* saut demande par l'autrice : on ferme la page, sauf si elle
+           est encore vide -- sinon on n'avancerait jamais */
+        if((it[2]&4) && (pose>0 || ouverture)) break;
         const n=noeud(it);
         banc.appendChild(n);
         if(tient()){ reste.shift(); pose++; continue }
