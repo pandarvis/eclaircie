@@ -40,6 +40,7 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 | Chapitre III | 12 | *ce qu'il avait dit en sortant de sa capsule* · *un temps d'arrêt* | 🔒 |
 | Chapitre IV | 8 | *Bonjour Julie* sans virgule | 🔒 |
 | Chapitre V | 8 | *et le remarqua* · *coupé avant le nom* · *d'une fugue, elle ?* | 🔒 |
+| Chapitre VI | 5 | *le panier raconté* · *ce qu'il ne sait pas, c'est quand* · **Andrew ne prononce jamais le mot** | 🔒 |
 
 *Les blancs sont une demande de rythme, pas une correction de texte : le chapitre
 deuxième en compte vingt-huit pour 274 paragraphes, soit une respiration toutes
@@ -145,7 +146,7 @@ toutes à 100 % de remplissage, toutes justifiées.**
 | 3 | La tournée | `s2` | 1 834 | 🔒 **relu et verrouillé** |
 | 4 | La maison | `s3` | 1 245 | 🔒 **relu et verrouillé** |
 | 5 | Le poste | `s4` | 1 165 | 🔒 **relu et verrouillé** |
-| 6 | **Première investigation** | `s5` | 2 332 | ⚠️ **écrit aujourd'hui, relecture à froid demain** |
+| 6 | **Première investigation** | `s5` | 2 371 | 🔒 **relu et verrouillé** |
 | — | Épilogue | `jardin-fin` | 2 631 | 🔒 verrouillé |
 
 **`lecture.html` contient les huit chapitres** (282 ko), sommaire compris. Il se
@@ -205,14 +206,14 @@ l'affaire dans le dépôt et rend la visite chez Henri obligatoire.
 
 ## Ce qui attend demain
 
-⚠️ **La relecture à froid du chapitre 6.** *Il a été repris une trentaine de fois
-aujourd'hui ; personne ne l'a lu d'une traite depuis.*
+✅ **Les sept chapitres du livre sont relus et verrouillés.** *La grande passe du
+25 août 2026 : une lecture rapide pour le rythme — 83 blancs posés — puis les
+corrections d'écriture.*
 
-**Cinq chapitres sur huit ne sont pas verrouillés.** *Seuls le prologue, le chapitre 1
-et l'épilogue le sont.* ❓ *Faut-il figer* La maison, Le poste *et* Première
-investigation ?
+⚠️ **L'épilogue reste à relire.** *Il n'est pas dans le livre, il donne la fin.*
 
-⚠️ **Deux verrous restent ouverts : le chapitre sixième et l'épilogue.** *L'autrice dira quand le
+⚠️ **Un seul verrou reste ouvert : l'épilogue.** *Il n'est pas dans le livre —
+il donne la fin — et il n'a pas encore été relu.* *L'autrice dira quand le
 reposer. Tant qu'il est ouvert, la fabrication ne protège plus ce texte contre
 une modification involontaire.*
 ✅ *Prologue relu et verrouillé le 25 août 2026 — 115 paragraphes.*
@@ -221,6 +222,7 @@ une modification involontaire.*
 ✅ *Chapitre troisième relu et verrouillé le 25 août 2026 — 194 paragraphes.*
 ✅ *Chapitre quatrième relu et verrouillé le 25 août 2026 — 138 paragraphes.*
 ✅ *Chapitre cinquième relu et verrouillé le 25 août 2026 — 106 paragraphes.*
+✅ *Chapitre sixième relu et verrouillé le 25 août 2026 — 214 paragraphes.*
 
 ⚠️ ***pédiatre* est mort le 20 août et vit encore dans 15 fichiers.** *Certaines
 occurrences sont légitimes — les interdits doivent le nommer pour l'interdire. Les
