@@ -15,6 +15,11 @@ double-clic et se donne à lire.
 
 🔒 **L'épilogue n'est pas dans le livre.** *Il est écrit, et il donne la fin.*
 
+**Le livre se ferme sur une page « À suivre »**, sur une belle page et sans folio.
+*Sans elle, on tourne la dernière page du chapitre sixième et on croit que le
+fichier est incomplet.* Rien après : le contre-plat de fin ne se voit jamais dans
+un vrai livre, la couverture se referme dessus.
+
 **Pas de nom de chapitre : Prologue, Chapitre I, Chapitre II.** *Le manuscrit dit
 « Chapitre premier » ; le livre compte en chiffres.* **Le titre d'un chapitre
 annonce ce qui va se passer, et ici ça ne regarde personne.**
@@ -207,7 +212,7 @@ l'affaire dans le dépôt et rend la visite chez Henri obligatoire.
 ## Ce qui attend demain
 
 ✅ **Les sept chapitres du livre sont relus et verrouillés.** *La grande passe du
-25 août 2026 : une lecture rapide pour le rythme — 83 blancs posés — puis les
+25 août 2026 : une lecture rapide pour le rythme — 74 blancs posés — puis les
 corrections d'écriture.*
 
 ⚠️ **L'épilogue reste à relire.** *Il n'est pas dans le livre, il donne la fin.*

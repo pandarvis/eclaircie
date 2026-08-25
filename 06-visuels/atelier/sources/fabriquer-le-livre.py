@@ -423,6 +423,18 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 .titrage .bas{position:absolute;bottom:74px;font:9.5px var(--sans);letter-spacing:.2em;
   text-transform:uppercase;color:var(--encre-3)}
 
+.suite{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.suite span{
+  font:400 14px var(--serif);letter-spacing:.44em;text-transform:uppercase;
+  color:var(--encre-3);padding-left:.44em;
+}
+.suite span::before,.suite span::after{
+  content:"";display:block;width:38px;height:1px;background:var(--encre-3);
+  opacity:.5;margin:0 auto;
+}
+.suite span::before{margin-bottom:26px;margin-left:calc(50% - 19px - .22em)}
+.suite span::after{margin-top:26px;margin-left:calc(50% - 19px - .22em)}
+
 .som{position:absolute;top:{{HAUT}}px;width:{{TW}}px;height:{{TH}}px;color:var(--encre)}
 .page[data-cote="g"] .som{left:{{DEHORS}}px}
 .page[data-cote="d"] .som{left:{{DEDANS}}px}
@@ -823,8 +835,13 @@ function paginer(){
       if(!reste.length) break;
     }
   });
-  if(PAGES.length%2) PAGES.push({type:'blanc'});
-  PAGES.push({type:'garde'});
+  /* le livre n'est pas fini : on le dit, sinon le lecteur croit que
+     son fichier l'est. Belle page, comme un chapitre. */
+  if(PAGES.length%2===0) PAGES.push({type:'blanc'});
+  PAGES.push({type:'suite'});
+  /* et rien apres : le contre-plat de fin ne se voit jamais dans un
+     vrai livre, la couverture se referme dessus. Ici il se retrouvait
+     seul en face d'une page blanche. */
   if(PAGES.length%2) PAGES.push({type:'blanc'});
   banc.innerHTML='';
 }
@@ -853,6 +870,7 @@ function pageEl(i,cote){
   if(p.type==='blanc') return d;
   if(p.type==='titre'){ d.innerHTML=HTML_TITRE; return d }
   if(p.type==='sommaire'){ d.innerHTML=htmlSommaire(); return d }
+  if(p.type==='suite'){ d.innerHTML='<div class="suite"><span>À suivre</span></div>'; return d }
   let h='';
   if(!p.ouverture){
     h='<div class="tete">'+(cote==='g' ? 'L’Éclaircie' : LIVRE[p.ch].rang)+'</div>';
@@ -1076,6 +1094,9 @@ function majEtat(){
   }
   else if((PAGES[d]&&PAGES[d].type==='sommaire')||(PAGES[g]&&PAGES[g].type==='sommaire')){
     txt='Sommaire';
+  }
+  else if((PAGES[d]&&PAGES[d].type==='suite')||(PAGES[g]&&PAGES[g].type==='suite')){
+    txt='À suivre';
   }
   else{
     const p=(PAGES[d]&&PAGES[d].type==='texte')?PAGES[d]
