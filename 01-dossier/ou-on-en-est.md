@@ -26,7 +26,7 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 | se repérer | folio en bas au centre, titre courant, épaisseur du bloc, réglette à crans |
 | retrouver | `S` ouvre le sommaire de n'importe où · la page se retient d'une séance à l'autre |
 | adresser | `le-livre.html#p63` ouvre directement à la page 63 |
-| au départ | un mot à côté de la couverture dit que les flèches ouvrent le livre |
+| au départ | un mot à côté de la couverture nomme les deux flèches — celles de l’écran et celles du clavier |
 | le reste | `G` le glossaire (sans bouton) · `N` la lecture de nuit · `Échap` referme |
 
 **La pagination est calculée dans une géométrie logique fixe, puis le livre est
