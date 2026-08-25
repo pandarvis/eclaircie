@@ -1465,10 +1465,7 @@ dossier, mais n'avait jamais été posé.</strong>`,
 [`tiret`,`— Ce n'est pas une fugue.`],
 [`tiret`,`— Non.`],
 [`p`,`Il ressortit le calepin, écrivit deux mots dessus en marchant et le rangea de nouveau.`],
-[`tiret`,`— Je vais faire reprendre le trajet. Rue par rue, des deux côtés.`],
-[`p`,`Ils descendaient la rue qu'il remontait tous les soirs.`],
-[`p`,`Le dépôt était en bas du quartier, les portes calées ouvertes, un chariot à moitié chargé dans la cour.`],
-[`tiret`,`— Si on s'en est pris à ce garçon, dit Isaac, quelles qu'en soient les raisons, c'est bien moche.`],
+[`tiret`,`— Je vais faire reprendre le trajet. Rue par rue, des deux côtés. Et si on s'en est pris à ce garçon, quelles qu'en soient les raisons, c'est bien moche.`],
 
   ],
   tenu: [
