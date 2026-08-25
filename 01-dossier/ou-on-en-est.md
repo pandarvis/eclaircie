@@ -39,7 +39,7 @@ annonce ce qui va se passer, et ici ça ne regarde personne.**
 | Chapitre II | 28 | — | 🔒 |
 | Chapitre III | 12 | *ce qu'il avait dit en sortant de sa capsule* · *un temps d'arrêt* | 🔒 |
 | Chapitre IV | 8 | *Bonjour Julie* sans virgule | 🔒 |
-| Chapitre V | 8 | *et le remarqua* | ❓ |
+| Chapitre V | 8 | *et le remarqua* · *coupé avant le nom* · *d'une fugue, elle ?* | 🔒 |
 
 *Les blancs sont une demande de rythme, pas une correction de texte : le chapitre
 deuxième en compte vingt-huit pour 274 paragraphes, soit une respiration toutes
@@ -144,7 +144,7 @@ toutes à 100 % de remplissage, toutes justifiées.**
 | 2 | L'aquarium | `s1` | 3 451 | 🔒 **relu et verrouillé** |
 | 3 | La tournée | `s2` | 1 834 | 🔒 **relu et verrouillé** |
 | 4 | La maison | `s3` | 1 245 | 🔒 **relu et verrouillé** |
-| 5 | Le poste | `s4` | 1 165 | ✅ passe d'autrice appliquée |
+| 5 | Le poste | `s4` | 1 165 | 🔒 **relu et verrouillé** |
 | 6 | **Première investigation** | `s5` | 2 332 | ⚠️ **écrit aujourd'hui, relecture à froid demain** |
 | — | Épilogue | `jardin-fin` | 2 631 | 🔒 verrouillé |
 
@@ -212,7 +212,7 @@ aujourd'hui ; personne ne l'a lu d'une traite depuis.*
 et l'épilogue le sont.* ❓ *Faut-il figer* La maison, Le poste *et* Première
 investigation ?
 
-⚠️ **Un seul verrou reste ouvert : l'épilogue.** *L'autrice dira quand le
+⚠️ **Deux verrous restent ouverts : le chapitre sixième et l'épilogue.** *L'autrice dira quand le
 reposer. Tant qu'il est ouvert, la fabrication ne protège plus ce texte contre
 une modification involontaire.*
 ✅ *Prologue relu et verrouillé le 25 août 2026 — 115 paragraphes.*
@@ -220,6 +220,7 @@ une modification involontaire.*
 ✅ *Chapitre deuxième relu et verrouillé le 25 août 2026 — 274 paragraphes.*
 ✅ *Chapitre troisième relu et verrouillé le 25 août 2026 — 194 paragraphes.*
 ✅ *Chapitre quatrième relu et verrouillé le 25 août 2026 — 138 paragraphes.*
+✅ *Chapitre cinquième relu et verrouillé le 25 août 2026 — 106 paragraphes.*
 
 ⚠️ ***pédiatre* est mort le 20 août et vit encore dans 15 fichiers.** *Certaines
 occurrences sont légitimes — les interdits doivent le nommer pour l'interdire. Les
