@@ -753,9 +753,32 @@ function couper(it,n){
   }
   if(best<4){ banc.removeChild(n); return null }
   n.innerHTML=rendre(t.mots.slice(0,best),t.gard);
-  /* On ne justifie la derniere ligne que si elle est deja presque pleine :
-     etiree depuis six mots, elle se voit de l'autre bout de la piece. */
-  if(largeurDerniereLigne(n)>=TW*.78) n.className=(n.className+' coupe').trim();
+
+  /* Derniere ligne trop courte ? On recule d'une ligne ENTIERE. Celle
+     qui devient la derniere appartient au flux naturel du paragraphe :
+     elle est pleine, elle se justifiera sans s'etirer, et on ne perd
+     qu'une ligne en bas de page. */
+  if(largeurDerniereLigne(n)<TW*.82){
+    const lignes=Math.round(n.offsetHeight/LH);
+    if(lignes>=3){
+      let lo=4, hi=best-1, court=0;
+      while(lo<=hi){
+        const mid=(lo+hi)>>1;
+        n.innerHTML=rendre(t.mots.slice(0,mid),t.gard);
+        if(Math.round(n.offsetHeight/LH)<=lignes-1){ court=mid; lo=mid+1 }
+        else hi=mid-1;
+      }
+      if(court>=4){
+        n.innerHTML=rendre(t.mots.slice(0,court),t.gard);
+        if(largeurDerniereLigne(n)>=TW*.82) best=court;
+      }
+    }
+    n.innerHTML=rendre(t.mots.slice(0,best),t.gard);
+  }
+
+  /* Filet : si la derniere ligne reste vraiment courte, on la laisse
+     courir plutot que d'ecarteler six mots sur toute la mesure. */
+  if(largeurDerniereLigne(n)>=TW*.62) n.className=(n.className+' coupe').trim();
   if(!tient()){ banc.removeChild(n); return null }
   return {apres:[it[0], rendre(t.mots.slice(best),t.gard), 1]};
 }

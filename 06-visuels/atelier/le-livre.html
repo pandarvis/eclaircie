@@ -879,7 +879,8 @@ const LIVRE = [
 [`p`,`Une fenêtre était ouverte au ras du trottoir. On entendait une voix depuis l'intérieur.`,0],
 [`p`,`Une femme écrivait au tableau en parlant sans se retourner. Elle était debout, droite, vive dans ses gestes, et elle avait le visage d'une fille de quinze ou seize ans.`,0],
 [`p`,`Devant elle, une vingtaine de personnes occupaient les tables.`,0],
-[`p`,`Ils étaient tous tout en haut, quatre-vingts ans et plus. Certains avaient le dos droit, d'autres déjà bien courbé ; l'un tendait l'oreille vers le tableau, un autre plissait les yeux sur son cahier. Tous avaient pourtant l'air d'être à leur place.`,0],
+[`pause`,``,0],
+[`p`,`Ils étaient tous tout en haut, quatre-vingts ans et plus. Certains avaient le dos droit, d'autres déjà bien courbé ; l'un tendait l'oreille vers le tableau, un autre plissait les yeux sur son cahier. Tous avaient pourtant l'air d'être à leur place.`,1],
 [`p`,`Un homme du troisième rang, la nuque dégarnie et les mains tachées, dressa brusquement le bras.`,0],
 [`p`,`Il le tendit si haut qu'on aurait dit qu'il voulait toucher le plafond. La main tremblait presque d'impatience.`,0],
 [`p`,`La professeure continua d'écrire. L'homme remua les doigts. Toujours rien.`,0],
@@ -928,7 +929,8 @@ const LIVRE = [
 [`p`,`C'était vrai.`,0],
 [`pause`,``,0],
 [`p`,`L'école prenait ceux qui arrivaient tout en haut. La plupart avaient entre quatre-vingts et quatre-vingt-dix ans lorsqu'ils en franchissaient les portes. Il arrivait qu'on en reçoive de plus haut encore, quatre-vingt-quinze, cent un. Cela ne changeait rien : ils entraient, apprenaient, recommençaient, et prenaient le temps qu'il fallait.`,1],
-[`p`,`Pour eux, l'école durait des années. On y apprenait les premières lettres, les nombres, l'histoire du monde, les gestes de la vie courante et tout ce qu'il fallait savoir pour y trouver sa place.`,0],
+[`pause`,``,0],
+[`p`,`Pour eux, l'école durait des années. On y apprenait les premières lettres, les nombres, l'histoire du monde, les gestes de la vie courante et tout ce qu'il fallait savoir pour y trouver sa place.`,1],
 [`p`,`Ceux qui arrivaient plus bas, autour de cinquante ou soixante ans, n'avaient pas ce temps-là. Ils entraient directement dans la vie active et recevaient, le soir, des cours adaptés à leur rythme. Un <a class="glo" data-mot="Tuteur">tuteur</a> les accompagnait au début, au cas par cas, jusqu'à ce qu'ils puissent avancer seuls.`,0],
 [`p`,`Et pour les plus jeunes, il y avait les berceurs.`,0],
 [`pause`,``,0],
@@ -936,13 +938,15 @@ const LIVRE = [
 [`p`,`Andrew le laissa regarder aussi longtemps qu'il voulut.`,0],
 [`p`,`Puis, quand le garçon finit par décrocher ses doigts de la grille, ils reprirent leur chemin.`,0],
 [`p`,`Ils rentrèrent sans se presser.`,0],
-[`p`,`Devant chez June, Eliott monta les marches et poussa la porte tout seul, puis il se retourna sur le seuil, une main sur le montant.`,0],
+[`pause`,``,0],
+[`p`,`Devant chez June, Eliott monta les marches et poussa la porte tout seul, puis il se retourna sur le seuil, une main sur le montant.`,1],
 [`tiret`,`— La prochaine fois, c'est où ?`,0],
 [`tiret`,`— Tu verras.`,0],
 [`p`,`Eliott le regarda encore une seconde.`,0],
 [`p`,`Puis il entra.`,0],
 [`p`,`La porte se referma. À l'intérieur, quelqu'un lui demanda quelque chose et il répondit en montant l'escalier.`,0],
-[`p`,`Andrew resta un moment devant l'allée de gravier.`,0],
+[`pause`,``,0],
+[`p`,`Andrew resta un moment devant l'allée de gravier.`,1],
 [`p`,`Puis il repartit par où il était venu.`,0],
 [`p`,`Il ne compta pas.`,0],
 ]},
@@ -1687,9 +1691,32 @@ function couper(it,n){
   }
   if(best<4){ banc.removeChild(n); return null }
   n.innerHTML=rendre(t.mots.slice(0,best),t.gard);
-  /* On ne justifie la derniere ligne que si elle est deja presque pleine :
-     etiree depuis six mots, elle se voit de l'autre bout de la piece. */
-  if(largeurDerniereLigne(n)>=TW*.78) n.className=(n.className+' coupe').trim();
+
+  /* Derniere ligne trop courte ? On recule d'une ligne ENTIERE. Celle
+     qui devient la derniere appartient au flux naturel du paragraphe :
+     elle est pleine, elle se justifiera sans s'etirer, et on ne perd
+     qu'une ligne en bas de page. */
+  if(largeurDerniereLigne(n)<TW*.82){
+    const lignes=Math.round(n.offsetHeight/LH);
+    if(lignes>=3){
+      let lo=4, hi=best-1, court=0;
+      while(lo<=hi){
+        const mid=(lo+hi)>>1;
+        n.innerHTML=rendre(t.mots.slice(0,mid),t.gard);
+        if(Math.round(n.offsetHeight/LH)<=lignes-1){ court=mid; lo=mid+1 }
+        else hi=mid-1;
+      }
+      if(court>=4){
+        n.innerHTML=rendre(t.mots.slice(0,court),t.gard);
+        if(largeurDerniereLigne(n)>=TW*.82) best=court;
+      }
+    }
+    n.innerHTML=rendre(t.mots.slice(0,best),t.gard);
+  }
+
+  /* Filet : si la derniere ligne reste vraiment courte, on la laisse
+     courir plutot que d'ecarteler six mots sur toute la mesure. */
+  if(largeurDerniereLigne(n)>=TW*.62) n.className=(n.className+' coupe').trim();
   if(!tient()){ banc.removeChild(n); return null }
   return {apres:[it[0], rendre(t.mots.slice(best),t.gard), 1]};
 }
