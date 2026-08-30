@@ -68,7 +68,7 @@ js = lire('pB-textes.js')
 bornes = [(m.group(1), m.start()) for m in re.finditer(r'\n  id: `([a-z0-9-]+)`,', js)]
 # L'epilogue est ecrit, et il ne se lit pas ici : il donne la fin.
 LISIBLES = ['prologue', 'chapitre-1', 'chapitre-2', 'chapitre-3',
-            'chapitre-4', 'chapitre-5', 'chapitre-6', 'chapitre-7']
+            'chapitre-4', 'chapitre-5', 'chapitre-6', 'chapitre-7', 'chapitre-8']
 
 def romain(n):
     paires = ((10, u'X'), (9, u'IX'), (5, u'V'), (4, u'IV'), (1, u'I'))
@@ -210,8 +210,9 @@ def plat(txt):
 # =====================================================================
 #  LES DRAPEAUX — ce que la mise en page doit savoir de chaque
 #  paragraphe. 1 : pas d'alinea (debut de chapitre, ou apres une
-#  pause). 2 : premiere ligne en petites capitales. 4 : commence une
-#  page neuve.
+#  pause) — jamais sur un tiret, dont l'alinea tient la colonne
+#  des cadratins. 2 : premiere ligne en petites capitales. 4 :
+#  commence une page neuve.
 # =====================================================================
 poses_saut = 0
 for t in textes:
@@ -221,7 +222,9 @@ for t in textes:
     trouves = []
     for para in t['p']:
         f = 0
-        if para[0] != 'pause' and (precedent is None or precedent == 'pause'):
+        # Un tiret garde son alinea : c'est lui qui aligne la colonne
+        # des cadratins. La liseuse fait deja cette exception.
+        if para[0] == 'p' and (precedent is None or precedent == 'pause'):
             f |= 1
         if premier and para[0] != 'pause':
             f |= 2
