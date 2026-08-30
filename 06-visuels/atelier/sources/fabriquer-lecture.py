@@ -63,7 +63,7 @@ js = lire('pB-textes.js')
 bornes = [(m.group(1), m.start()) for m in re.finditer(r'\n  id: `([a-z0-9-]+)`,', js)]
 
 LISIBLES = ['prologue', 'chapitre-1', 'chapitre-2', 'chapitre-3',
-            'chapitre-4', 'chapitre-5', 'chapitre-6', 'epilogue']
+            'chapitre-4', 'chapitre-5', 'chapitre-6', 'chapitre-7', 'epilogue']
 SOUS_CLEF = ['epilogue']          # lisibles, mais seulement apres le mot de passe
 
 
@@ -92,8 +92,10 @@ for ident in LISIBLES:
     bloc = js[deb:fin]
     rang = re.search(r'rang: `([^`]*)`', bloc).group(1)
     titre = re.search(r'titre: `([^`]*)`', bloc).group(1)
+    mq = re.search(r'quand: `([^`]*)`', bloc)
+    quand = mq.group(1) if mq else u''
     paras = re.findall(r'\[`(p|tiret|pause)`,`([^`]*)`', bloc)
-    textes.append({'id': ident, 'rang': rang, 'titre': titre, 'p': list(paras),
+    textes.append({'id': ident, 'rang': rang, 'titre': titre, 'quand': quand, 'p': list(paras),
                    'clef': ident in SOUS_CLEF})
 
 
@@ -212,7 +214,7 @@ GENS = u"""const GENS = [
 ACCROCHES = {
     'chapitre-1': u"Quatre cent trente-huit. C'était le nombre de pas qui "
                   u"séparaient sa porte de celle de la ruche.",
-    'chapitre-5': u"On n'entrait pas là par hasard.",
+    'chapitre-6': u"On n'entrait pas là par hasard.",
 }
 
 
@@ -256,8 +258,9 @@ print(u'sommaire : %d entrees' % SOMMAIRE.count(u'etat:'))
 poses = lier(textes)
 TEXTES = (u'const TEXTES = [\n'
           + u',\n'.join(
-              u'{ id:%s%s%s, rang:%s%s%s, titre:%s%s%s, clef:%s, p:[\n%s\n]}'
+              u'{ id:%s%s%s, rang:%s%s%s, titre:%s%s%s, quand:%s%s%s, clef:%s, p:[\n%s\n]}'
               % (B, t['id'], B, B, t['rang'], B, B, t['titre'], B,
+                 B, t['quand'], B,
                  u'true' if t['clef'] else u'false',
                  u',\n'.join(u'[%s%s%s,%s%s%s]' % (B, k, B, B, x, B) for k, x in t['p']))
               for t in textes)
@@ -507,6 +510,7 @@ function rendreTextes(){
   $('#x-corps').innerHTML =
     `<article class="page">
        <h2>${esc(t.rang)}</h2>
+       ${t.quand ? `<p class="quand">${esc(t.quand)}</p>` : ''}
        <div class="txt">` +
        t.p.map(([k, s]) => `<p class="${k === 'p' ? '' : k}">${s}</p>`).join('') +
      `</div></article>`;
@@ -570,6 +574,12 @@ STYLE_SUP = u"""<style>
 .lecture{grid-template-columns:minmax(0,1fr);max-width:820px}
 /* le rang tient lieu de titre, et il lui faut la place que prenait la dedicace */
 .page h2{margin:0 0 32px;padding-bottom:24px;border-bottom:1px solid var(--trait)}
+/* quand une mention de temps suit le rang, c'est elle qui porte le trait */
+.page h2:has(+ .quand){margin:0 0 8px;padding-bottom:0;border-bottom:0}
+.page .quand{
+  margin:0 0 32px;padding-bottom:24px;border-bottom:1px solid var(--trait);
+  font-style:italic;font-size:.86em;color:var(--encre-3);
+}
 .page .txt{max-width:none}
 .page{padding:44px 52px 56px}
 @media (max-width:640px){.page{padding:28px 22px 34px}}

@@ -68,7 +68,7 @@ js = lire('pB-textes.js')
 bornes = [(m.group(1), m.start()) for m in re.finditer(r'\n  id: `([a-z0-9-]+)`,', js)]
 # L'epilogue est ecrit, et il ne se lit pas ici : il donne la fin.
 LISIBLES = ['prologue', 'chapitre-1', 'chapitre-2', 'chapitre-3',
-            'chapitre-4', 'chapitre-5', 'chapitre-6']
+            'chapitre-4', 'chapitre-5', 'chapitre-6', 'chapitre-7']
 
 def romain(n):
     paires = ((10, u'X'), (9, u'IX'), (5, u'V'), (4, u'IV'), (1, u'I'))
@@ -95,6 +95,12 @@ for ident in LISIBLES:
                  if ident.startswith('chapitre-')
                  else re.search(r'rang: `([^`]*)`', bloc).group(1)),
         'titre': re.search(r'titre: `([^`]*)`', bloc).group(1),
+        # la mention de temps est facultative : peu de chapitres en ont
+        'quand': (re.search(r'quand: `([^`]*)`', bloc).group(1)
+                  if re.search(r'quand: `([^`]*)`', bloc) else u''),
+        # une page seule, posee devant ce chapitre. Facultative.
+        'encart': (re.search(r'encart: `([^`]*)`', bloc).group(1)
+                   if re.search(r'encart: `([^`]*)`', bloc) else u''),
         'p': [list(x) for x in re.findall(r'\[`(p|tiret|pause)`,`([^`]*)`', bloc)],
     })
 print(u'%d chapitres, %d paragraphes'
@@ -274,9 +280,11 @@ def echapper(s):
 
 lignes = []
 for t in textes:
-    lignes.append(u'{ id:%s%s%s, rang:%s%s%s, titre:%s%s%s, p:['
+    lignes.append(u'{ id:%s%s%s, rang:%s%s%s, titre:%s%s%s, quand:%s%s%s, encart:%s%s%s, p:['
                   % (B, t['id'], B, B, echapper(t['rang']), B,
-                     B, echapper(t['titre']), B))
+                     B, echapper(t['titre']), B,
+                     B, echapper(t['quand']), B,
+                     B, echapper(t['encart']), B))
     for genre, texte, f in t['p']:
         lignes.append(u'[%s%s%s,%s%s%s,%d],' % (B, genre, B, B, echapper(texte), B, f))
     lignes.append(u']},')
@@ -312,6 +320,7 @@ GABARIT = r"""<!doctype html>
   --gouttiere:.17; --or:#B08B4F; --corne:#D8CDB4; --corne-2:#C6B999;
   --serif:Constantia,"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
   --sans:Corbel,Candara,"Segoe UI",Tahoma,sans-serif;
+  --plume:"Segoe Script","Bradley Hand","Lucida Handwriting","Ink Free","Segoe Print",cursive;
 }
 html[data-nuit="1"]{
   --papier:#141A21; --papier-2:#0F151B;
@@ -398,6 +407,14 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 .ouvre h2{
   margin:0;font:400 17px/{{TITRE_LH}}px var(--serif);color:var(--encre);
   letter-spacing:.26em;text-transform:uppercase;
+  /* l’interlettrage ajoute un blanc apres la derniere lettre :
+     text-indent le rattrape, moitie du blanc, et le titre est centre */
+  text-indent:.26em;
+}
+/* la mention de temps : plus petite que le rang, et elle ne crie pas */
+.ouvre .quand{
+  margin:-10px 0 0;font:italic 400 11.5px/16px var(--serif);
+  color:var(--encre-3);letter-spacing:.05em;text-indent:.05em;
 }
 .tete{
   position:absolute;top:34px;width:{{TW}}px;
@@ -423,6 +440,163 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 .titrage .bas{position:absolute;bottom:74px;font:9.5px var(--sans);letter-spacing:.2em;
   text-transform:uppercase;color:var(--encre-3)}
 
+/* le plan : une planche au trait, pas une illustration */
+.planche{
+  position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;padding:0 34px;
+}
+.planche > div{width:100%;max-width:402px}
+.planche .p-tete{
+  margin:0 0 18px;font:400 9.4px/14px var(--sans);color:var(--encre-2);
+  letter-spacing:.3em;text-transform:uppercase;text-indent:.3em;
+  text-align:center;
+}
+.planche svg{width:100%;display:block}
+.plan .p-mur{fill:none;stroke:var(--encre-3);stroke-width:2.4}
+.plan .p-serre{fill:none;stroke:var(--encre-3);stroke-width:1.6;opacity:.7}
+.plan .p-bande path{fill:none;stroke:var(--encre-3);opacity:.16;
+  stroke-linecap:round;stroke-linejoin:round}
+.plan .p-coulee path,.plan .p-coulee circle{
+  fill:none;stroke:var(--encre);stroke-width:3.4;opacity:.42;
+  stroke-linecap:round;
+}
+.plan .p-caps ellipse{fill:var(--encre);opacity:.72}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+.plan .p-piece circle,.plan .p-piece path,.plan .p-piece rect{
+  fill:none;stroke:var(--encre-3);stroke-width:1.8;
+}
+/* le tiret qui vise le sol : la serre n'a pas de contour a elle */
+.plan .p-tiret path{fill:none;stroke:var(--encre-3);stroke-width:1.2}
+.plan .p-tiret circle{fill:var(--encre-3)}
+.plan .p-nom text{
+  font:400 17px var(--sans);fill:var(--encre-2);
+  letter-spacing:.14em;text-transform:uppercase;
+  paint-order:stroke;stroke:var(--papier);stroke-width:3.6px;
+  stroke-linejoin:round;
+}
+/* la fiche de placement : un formulaire, donc une lineale et des filets */
+.fiche{
+  position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;padding:0 58px;
+}
+.fiche .f-corps{width:100%}
+.fiche .f-tete{
+  margin:0;font:400 9.4px/14px var(--sans);color:var(--encre-2);
+  letter-spacing:.3em;text-transform:uppercase;text-indent:.3em;
+  text-align:center;
+}
+.fiche .f-sous{
+  margin:4px 0 0;font:italic 400 9px/13px var(--sans);
+  color:var(--encre-3);letter-spacing:.05em;text-align:center;
+}
+.fiche .f-champs{
+  margin:20px 0 0;border-top:1px solid var(--encre-3);
+  border-bottom:1px solid var(--encre-3);padding:7px 0 6px;
+}
+.fiche .f-champs > div{
+  display:flex;align-items:baseline;
+  font:400 9.8px/20px var(--sans);color:var(--encre);
+}
+/* imprime : ce que le formulaire demande */
+.fiche .f-champs span{
+  flex:0 0 128px;color:var(--encre-3);letter-spacing:.14em;
+  text-transform:uppercase;font-size:7.8px;
+}
+/* a la plume : ce qu'Andrew a rempli */
+.fiche .f-champs b{
+  font:400 12.6px/20px var(--plume);
+  font-weight:400;letter-spacing:0;color:var(--encre);
+}
+/* les deux options sont imprimees ; seule la croix est de lui */
+.fiche .f-champs b.f-opt{
+  font:400 9.8px/20px var(--sans);letter-spacing:.02em;
+}
+.fiche .c{
+  display:inline-block;width:8px;height:8px;margin-right:7px;
+  border:1px solid var(--encre-3);position:relative;vertical-align:-1px;
+}
+.fiche .c-on::after{
+  content:"✕";position:absolute;left:-2px;top:-6.5px;
+  font:400 12.5px/1 var(--plume);color:var(--encre);
+}
+.fiche .c-b{margin-left:20px}
+.fiche .f-consigne{
+  margin:13px 0 1px;font:italic 400 9px/13px var(--sans);
+  color:var(--encre-3);letter-spacing:.04em;
+}
+.fiche svg{display:block;margin:0 auto}
+.fiche .f-lg text{
+  font:400 5.9px var(--sans);fill:var(--encre-3);
+  letter-spacing:.2em;text-transform:uppercase;
+}
+.fiche .f-case{
+  margin:13px 0 0;border:1px solid var(--encre-3);padding:7px 10px 8px;
+}
+/* dans un cadre, les champs n'ont plus besoin de leurs propres filets */
+.fiche .f-case .f-nb{margin:0;border:0;padding:0}
+.fiche .f-clef{
+  margin:0;font:400 7.8px/12px var(--sans);color:var(--encre-3);
+  letter-spacing:.2em;text-transform:uppercase;
+}
+.fiche .f-est{
+  margin:4px 0 0;font:italic 400 8.6px/12px var(--sans);color:var(--encre-3);
+}
+.fiche .f-obs{padding-bottom:6px}
+/* le pied : un filet imprime, et la main d'Andrew posee dessus */
+.fiche .f-pied{
+  margin:13px 2px 0;display:flex;align-items:flex-end;
+  justify-content:flex-end;gap:13px;
+}
+.fiche .f-pied .f-clef{padding-bottom:4px}
+.fiche .f-trait{
+  width:132px;height:27px;border-bottom:1px solid var(--encre-3);
+  display:flex;align-items:flex-end;justify-content:center;
+}
+.fiche .f-sign{
+  font:400 17px/1 var(--plume);font-style:normal;color:var(--encre);
+  transform:rotate(-2.5deg);padding-bottom:2px;
+}
+.fiche .f-lignes{margin-top:9px}
+/* la main d'Andrew se pose au-dessus du premier filet */
+.fiche .f-lignes .f-note{
+  display:block;margin:0 0 2px;font:400 11.8px/16px var(--plume);
+  font-weight:400;color:var(--encre);
+}
+.fiche .f-lignes i{
+  display:block;height:1px;margin-bottom:11px;
+  background:var(--encre-3);opacity:.45;
+}
 .suite{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
 .suite span{
   font:400 14px var(--serif);letter-spacing:.44em;text-transform:uppercase;
@@ -507,6 +681,28 @@ html[data-ouvert="0"] .cote{visibility:hidden}
 #corne:hover{width:88px;height:88px}
 #corne:focus-visible{outline:2px solid var(--or);outline-offset:3px}
 html[data-ouvert="0"] #corne{display:none}
+
+/* La corne gauche : la meme, en miroir, pour revenir en arriere.
+   Discrete au repos ; elle se leve quand le curseur passe. */
+#corneg{
+  position:absolute;left:0;bottom:0;width:46px;height:46px;z-index:6;
+  border:0;padding:0;background:transparent;cursor:pointer;opacity:.3;
+  transition:width 260ms cubic-bezier(.3,.85,.4,1),height 260ms cubic-bezier(.3,.85,.4,1),opacity 220ms ease;
+}
+#corneg::before{
+  content:"";position:absolute;left:2px;right:-6px;top:-6px;bottom:2px;
+  background:linear-gradient(45deg,rgba(0,0,0,.55) 0 50%,transparent 50%);
+  filter:blur(5px);
+}
+#corneg::after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(45deg,rgba(0,0,0,.18) 0 14%,rgba(0,0,0,0) 44%,rgba(0,0,0,0) 50%,transparent 50%),
+    linear-gradient(45deg,var(--corne) 0 49.4%,var(--corne-2) 49.4% 50%,transparent 50%);
+}
+#corneg:hover{width:88px;height:88px;opacity:1}
+#corneg:focus-visible{outline:2px solid var(--or);outline-offset:3px;opacity:1}
+html[data-ouvert="0"] #corneg{display:none}
 #couv .recto{
   background:#171410 center/cover no-repeat;
   box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);
@@ -650,6 +846,7 @@ html[data-nuit="1"] #indice .k{color:#7CC6DC}
       <div class="cote g" id="pG"></div>
       <div class="cote d" id="pD"></div>
       <button id="corne" title="Page suivante" aria-label="Page suivante"></button>
+      <button id="corneg" title="Page précédente" aria-label="Page précédente"></button>
       <div id="feuille" hidden></div>
       <div id="couv">
         <div class="face recto">
@@ -724,10 +921,80 @@ function noeud(it){
   return p;
 }
 
+/* une page seule qui porte un document du monde, pas du texte. */
+const PLAN_RUCHE='<svg viewBox="0 0 1010 1010" width="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true" class="plan"><rect x="54" y="54" width="902" height="902" rx="26" class="p-mur"/><path d="M150,150 C300,96 640,104 760,168 C852,218 880,340 862,470 C846,596 872,700 812,782 C742,876 560,884 430,872 C296,860 168,838 122,742 C74,640 108,506 106,410 C104,300 92,190 150,150 Z" class="p-serre"/><g class="p-bande"><path d="M516,822 C506,772 486,730 470,686 C456,644 448,620 444,596" style="stroke-width:46"/><path d="M676,900 L836,900 C860,900 868,890 868,868 L868,384 C868,362 856,352 836,352 L746.1,338.6 A322,322 0 0 0 109.8,366.3" style="stroke-width:30"/><path d="M868,388 L822,388 L822,714 L868,714" style="stroke-width:13"/><path d="M868,407 L894,407" style="stroke-width:11"/><path d="M868,521 L910,521" style="stroke-width:11"/><path d="M868,621 L894,621" style="stroke-width:11"/><path d="M868,735 L910,735" style="stroke-width:11"/><path d="M822,433 L798,433" style="stroke-width:11"/><path d="M822,561 L780,561" style="stroke-width:11"/><path d="M822,671 L798,671" style="stroke-width:11"/><path d="M810,808 L862,808" style="stroke-width:14"/></g><g class="p-coulee"><path d="M150,300 C240,250 320,330 300,420 C282,502 200,520 214,600 C226,672 320,690 380,650 C444,608 470,540 540,556 C612,572 640,650 720,630 C790,612 812,540 796,470"/><path d="M760,180 C688,232 620,214 566,254 C508,296 512,368 560,404 C612,442 690,414 736,452 C784,492 780,570 826,596"/><path d="M180,700 C260,742 340,724 400,760 C462,798 520,806 596,790 C672,774 720,806 790,790"/><path d="M120,470 C176,452 214,392 200,330 C188,274 216,214 276,192 C338,168 396,204 452,186 C508,168 546,120 616,132"/><path d="M430,560 C382,608 310,600 268,646 C226,692 236,760 200,796"/><path d="M640,300 C700,340 692,412 646,448 C600,484 604,548 654,566"/><circle cx="430" cy="400" r="136" stroke-dasharray="22 15"/><circle cx="430" cy="400" r="120" stroke-dasharray="9 20"/></g><g class="p-caps"><ellipse cx="255.4" cy="657.7" rx="9" ry="4.6" transform="rotate(29.3 255.4 657.7)"/><ellipse cx="303.5" cy="670.7" rx="9" ry="4.6" transform="rotate(3.1 303.5 670.7)"/><ellipse cx="432.7" cy="605.1" rx="9" ry="4.6" transform="rotate(-44.6 432.7 605.1)"/><ellipse cx="646.3" cy="619.3" rx="9" ry="4.6" transform="rotate(30.2 646.3 619.3)"/><ellipse cx="694.5" cy="633.3" rx="9" ry="4.6" transform="rotate(0.7 694.5 633.3)"/><ellipse cx="742.1" cy="621.8" rx="9" ry="4.6" transform="rotate(-26.2 742.1 621.8)"/><ellipse cx="800" cy="494" rx="9" ry="4.6" transform="rotate(-95.7 800 494)"/><ellipse cx="752.3" cy="185.3" rx="9" ry="4.6" transform="rotate(146.4 752.3 185.3)"/><ellipse cx="706.9" cy="207.9" rx="9" ry="4.6" transform="rotate(160 706.9 207.9)"/><ellipse cx="566" cy="254" rx="9" ry="4.6" transform="rotate(143.8 566 254)"/><ellipse cx="629.8" cy="426.2" rx="9" ry="4.6" transform="rotate(6 629.8 426.2)"/><ellipse cx="679.7" cy="430.9" rx="9" ry="4.6" transform="rotate(7.6 679.7 430.9)"/><ellipse cx="726.7" cy="445.5" rx="9" ry="4.6" transform="rotate(30.6 726.7 445.5)"/><ellipse cx="760.7" cy="482.1" rx="9" ry="4.6" transform="rotate(59.5 760.7 482.1)"/><ellipse cx="366.1" cy="745.2" rx="9" ry="4.6" transform="rotate(16.8 366.1 745.2)"/><ellipse cx="411.9" cy="767" rx="9" ry="4.6" transform="rotate(29.2 411.9 767)"/><ellipse cx="456.6" cy="786.7" rx="9" ry="4.6" transform="rotate(18.3 456.6 786.7)"/><ellipse cx="506.5" cy="796.9" rx="9" ry="4.6" transform="rotate(5.2 506.5 796.9)"/><ellipse cx="555.4" cy="796.4" rx="9" ry="4.6" transform="rotate(-5.5 555.4 796.4)"/><ellipse cx="605.6" cy="788.2" rx="9" ry="4.6" transform="rotate(-9.5 605.6 788.2)"/><ellipse cx="655.5" cy="785.8" rx="9" ry="4.6" transform="rotate(3.1 655.5 785.8)"/><ellipse cx="540.8" cy="142.1" rx="9" ry="4.6" transform="rotate(-23.7 540.8 142.1)"/><ellipse cx="589.1" cy="130.2" rx="9" ry="4.6" transform="rotate(-2.7 589.1 130.2)"/><ellipse cx="380.5" cy="591.6" rx="9" ry="4.6" transform="rotate(157.3 380.5 591.6)"/><ellipse cx="334.3" cy="608" rx="9" ry="4.6" transform="rotate(161 334.3 608)"/><ellipse cx="288.7" cy="628.6" rx="9" ry="4.6" transform="rotate(147.3 288.7 628.6)"/><ellipse cx="254.2" cy="664.7" rx="9" ry="4.6" transform="rotate(121.1 254.2 664.7)"/><ellipse cx="682.7" cy="376.7" rx="9" ry="4.6" transform="rotate(90.9 682.7 376.7)"/><ellipse cx="668.2" cy="423.6" rx="9" ry="4.6" transform="rotate(122.2 668.2 423.6)"/><ellipse cx="714.1" cy="663.8" rx="9" ry="4.6" transform="rotate(145.6 714.1 663.8)"/><ellipse cx="687.1" cy="625" rx="9" ry="4.6" transform="rotate(65.4 687.1 625)"/><ellipse cx="860.3" cy="794.9" rx="9" ry="4.6" transform="rotate(53.8 860.3 794.9)"/><ellipse cx="674.4" cy="159.4" rx="9" ry="4.6" transform="rotate(60.4 674.4 159.4)"/><ellipse cx="630.5" cy="675.1" rx="9" ry="4.6" transform="rotate(169.5 630.5 675.1)" class="claire"/><ellipse cx="739.1" cy="434.2" rx="9" ry="4.6" transform="rotate(21.9 739.1 434.2)"/><ellipse cx="217.2" cy="143.2" rx="9" ry="4.6" transform="rotate(23.5 217.2 143.2)" class="claire"/><ellipse cx="682.1" cy="232.5" rx="9" ry="4.6" transform="rotate(67.4 682.1 232.5)"/><ellipse cx="502.8" cy="582.3" rx="9" ry="4.6" transform="rotate(153.3 502.8 582.3)"/><ellipse cx="557.9" cy="552.1" rx="9" ry="4.6" transform="rotate(134.6 557.9 552.1)"/><ellipse cx="711.2" cy="388.8" rx="9" ry="4.6" transform="rotate(74.9 711.2 388.8)"/><ellipse cx="482" cy="712.3" rx="9" ry="4.6" transform="rotate(59.4 482 712.3)"/><ellipse cx="150.5" cy="647.4" rx="9" ry="4.6" transform="rotate(64.3 150.5 647.4)"/><ellipse cx="746.7" cy="369.6" rx="9" ry="4.6" transform="rotate(87.1 746.7 369.6)"/><ellipse cx="558.5" cy="758.4" rx="9" ry="4.6" transform="rotate(2.1 558.5 758.4)"/><ellipse cx="120.5" cy="749.9" rx="9" ry="4.6" transform="rotate(15.1 120.5 749.9)"/><ellipse cx="705.9" cy="162.2" rx="9" ry="4.6" transform="rotate(66.4 705.9 162.2)" class="claire"/><ellipse cx="772.4" cy="278.6" rx="9" ry="4.6" transform="rotate(62.8 772.4 278.6)"/><ellipse cx="548.1" cy="119.7" rx="9" ry="4.6" transform="rotate(117.8 548.1 119.7)"/><ellipse cx="771.7" cy="220.7" rx="9" ry="4.6" transform="rotate(164 771.7 220.7)"/><ellipse cx="506.9" cy="132.2" rx="9" ry="4.6" transform="rotate(168 506.9 132.2)"/><ellipse cx="472.6" cy="784.2" rx="9" ry="4.6" transform="rotate(0.3 472.6 784.2)"/><ellipse cx="752.6" cy="309.6" rx="9" ry="4.6" transform="rotate(173.6 752.6 309.6)" class="claire"/><ellipse cx="588.8" cy="742.7" rx="9" ry="4.6" transform="rotate(137 588.8 742.7)"/><ellipse cx="713.1" cy="644.9" rx="9" ry="4.6" transform="rotate(173.8 713.1 644.9)" class="claire"/><ellipse cx="122.4" cy="127.6" rx="9" ry="4.6" transform="rotate(80.7 122.4 127.6)"/><ellipse cx="477.1" cy="613.7" rx="9" ry="4.6" transform="rotate(4.3 477.1 613.7)"/><ellipse cx="252.2" cy="635.5" rx="9" ry="4.6" transform="rotate(170.1 252.2 635.5)" class="claire"/><ellipse cx="214.4" cy="199.8" rx="9" ry="4.6" transform="rotate(13.8 214.4 199.8)"/><ellipse cx="355.2" cy="615.2" rx="9" ry="4.6" transform="rotate(119 355.2 615.2)"/><ellipse cx="545.5" cy="661.5" rx="9" ry="4.6" transform="rotate(166.4 545.5 661.5)"/><ellipse cx="802" cy="629.1" rx="9" ry="4.6" transform="rotate(169.3 802 629.1)"/><ellipse cx="136.1" cy="315.8" rx="9" ry="4.6" transform="rotate(177.3 136.1 315.8)"/><ellipse cx="701" cy="378.2" rx="9" ry="4.6" transform="rotate(84.5 701 378.2)"/><ellipse cx="791.5" cy="476.4" rx="9" ry="4.6" transform="rotate(34 791.5 476.4)"/><ellipse cx="591.3" cy="643.4" rx="9" ry="4.6" transform="rotate(84.3 591.3 643.4)" class="claire"/><ellipse cx="778.7" cy="273.4" rx="9" ry="4.6" transform="rotate(175.3 778.7 273.4)" class="claire"/><ellipse cx="529.6" cy="792.7" rx="9" ry="4.6" transform="rotate(68.9 529.6 792.7)"/><ellipse cx="481.6" cy="601" rx="9" ry="4.6" transform="rotate(27.8 481.6 601)"/><ellipse cx="701.4" cy="641.3" rx="9" ry="4.6" transform="rotate(17.4 701.4 641.3)"/><ellipse cx="553.4" cy="642.5" rx="9" ry="4.6" transform="rotate(16 553.4 642.5)"/><ellipse cx="778.5" cy="154.5" rx="9" ry="4.6" transform="rotate(84.9 778.5 154.5)"/><ellipse cx="800.8" cy="334.7" rx="9" ry="4.6" transform="rotate(63 800.8 334.7)"/><ellipse cx="233" cy="495.2" rx="9" ry="4.6" transform="rotate(37.9 233 495.2)"/><ellipse cx="714.7" cy="507.3" rx="9" ry="4.6" transform="rotate(103.3 714.7 507.3)"/><ellipse cx="122.5" cy="392.8" rx="9" ry="4.6" transform="rotate(165.2 122.5 392.8)"/><ellipse cx="392.2" cy="627.2" rx="9" ry="4.6" transform="rotate(54.7 392.2 627.2)" class="claire"/><ellipse cx="538.9" cy="227.2" rx="9" ry="4.6" transform="rotate(127.8 538.9 227.2)"/><ellipse cx="845.4" cy="843.5" rx="9" ry="4.6" transform="rotate(159.1 845.4 843.5)" class="claire"/><ellipse cx="716.8" cy="713.1" rx="9" ry="4.6" transform="rotate(10.7 716.8 713.1)"/><ellipse cx="719.1" cy="165.8" rx="9" ry="4.6" transform="rotate(128.4 719.1 165.8)"/><ellipse cx="281" cy="650.8" rx="9" ry="4.6" transform="rotate(30.8 281 650.8)"/></g><g class="p-piece"><circle cx="430" cy="400" r="150"/><circle cx="430" cy="400" r="88"/><path d="M214,400 A216,216 0 0 1 227,326.1 L155.6,300.1 A292,292 0 0 0 138,400 Z"/><path d="M234.2,308.7 A216,216 0 0 1 272,252.7 L228.1,211.8 A276,276 0 0 0 179.9,283.4 Z"/><path d="M282.7,242 A216,216 0 0 1 352.6,198.3 L321.1,116.2 A304,304 0 0 0 222.7,177.7 Z"/><path d="M363.3,194.6 A216,216 0 0 1 437.5,184.1 L440.3,106.2 A294,294 0 0 0 339.1,120.4 Z"/><path d="M460.1,186.1 A216,216 0 0 1 517.9,202.7 L539,155.2 A268,268 0 0 0 467.3,134.6 Z"/><path d="M538,212.9 A216,216 0 0 1 595.5,261.2 L658.3,208.4 A298,298 0 0 0 579,141.9 Z"/><path d="M606.9,276.1 A216,216 0 0 1 636.6,336.8 L701.6,317 A284,284 0 0 0 662.6,237.1 Z"/><path d="M639.6,452.3 A216,216 0 0 1 563,570.2 L613.5,634.8 A298,298 0 0 0 719.1,472.1 Z"/><path d="M260.2,563.9 A236,236 0 0 1 195.3,424.7 L79.9,436.8 A352,352 0 0 0 176.8,644.5 Z"/><path d="M327.7,734.7 A350,350 0 0 1 205,668.1 L147.2,737.1 A440,440 0 0 0 301.4,820.8 Z"/><path d="M421.4,645.9 A246,246 0 0 1 337.8,628.1 L313.1,689.3 A312,312 0 0 0 419.1,711.8 Z"/><rect x="368" y="812" width="300" height="106" rx="4"/><rect x="706" y="772" width="104" height="74" rx="5"/><rect x="890" y="362" width="30" height="26" rx="3"/><rect x="890" y="394" width="30" height="26" rx="3"/><rect x="890" y="426" width="30" height="26" rx="3"/><rect x="906" y="492" width="30" height="26" rx="3"/><rect x="906" y="524" width="30" height="26" rx="3"/><rect x="890" y="576" width="30" height="26" rx="3"/><rect x="890" y="608" width="30" height="26" rx="3"/><rect x="890" y="640" width="30" height="26" rx="3"/><rect x="906" y="706" width="30" height="26" rx="3"/><rect x="906" y="738" width="30" height="26" rx="3"/><rect x="772" y="404" width="30" height="26" rx="3"/><rect x="772" y="436" width="30" height="26" rx="3"/><rect x="754" y="516" width="30" height="26" rx="3"/><rect x="754" y="548" width="30" height="26" rx="3"/><rect x="754" y="580" width="30" height="26" rx="3"/><rect x="772" y="642" width="30" height="26" rx="3"/><rect x="772" y="674" width="30" height="26" rx="3"/></g><g class="p-tiret"><path d="M180,890 L212,826"/></g><g class="p-nom"><text x="385.7" y="85.1" text-anchor="middle">Salles de cérémonie</text><text x="223.4" y="496.4" text-anchor="middle">Préparateurs</text><text x="271.3" y="698.4" text-anchor="middle">Analystes</text><text x="380.5" y="632.8" text-anchor="middle">Salle de repos</text><text x="518" y="871" text-anchor="middle">Accueil</text><text x="646.4" y="540.5" text-anchor="middle">Consultation</text><text x="918" y="326" text-anchor="middle" transform="rotate(90 918 326)">Chambres</text><text x="758" y="764" text-anchor="middle">Réfectoire</text><text x="430" y="404" text-anchor="middle">Registre</text><text x="168" y="906" text-anchor="middle">La serre</text><text x="516" y="986" text-anchor="middle">Entrée principale</text></g></svg>';
+
+const FICHES={
+  'fiche-nicolas':{n:'Nicolas',num:'812 665',dh:'an 1147, jour 214 — 8 h 50',g:1,
+    age:'quarante-deux ans',jar:'dans trente-quatre ans',
+    obs:'Remontée lente. Sans suite.',
+    pal:'environ trente ans',
+    encre:'<path d="M20 50 C 78 64 140 88 204 96" fill="none" stroke="var(--encre)" stroke-width="1.5" stroke-linecap="round"/><path d="M16.4 46.4 L23.6 53.6 M23.6 46.4 L16.4 53.6" fill="none" stroke="var(--encre)" stroke-width="1.2" stroke-linecap="round"/>'},
+  'fiche-eliott':{n:'Eliott',num:'812 664',dh:'an 1147, jour 214 — 8 h 40',g:1,
+    age:'dix ans',jar:'dans six ans',
+    pal:'au moins trente-quatre ans',
+    encre:'<path d="M20 86 C 36 88 54 94 72 96" fill="none" stroke="var(--encre)" stroke-width="1.5" stroke-linecap="round"/><path d="M16.4 82.4 L23.6 89.6 M23.6 82.4 L16.4 89.6" fill="none" stroke="var(--encre)" stroke-width="1.2" stroke-linecap="round"/>'}
+};
+
+function htmlPlan(){
+  return '<div class="planche"><div>'
+    +'<p class="p-tete">Plan de la ruche</p>'
+    + PLAN_RUCHE + '</div></div>';
+}
+
+function htmlEncart(clef){
+  if(clef==='plan-ruche') return htmlPlan();
+  const f=FICHES[clef];
+  if(!f) return '';
+  const li=function(s,v){
+    return '<div><span>'+s+'</span><b>'+v+'</b></div>' };
+  const svg='<svg viewBox="0 0 330 144" width="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">'
+    +'<path d="M20 8 L20 128 L312 128" fill="none" stroke="var(--encre-3)" stroke-width=".7" opacity=".6"/>'
+    +'<path d="M20 96 H312" fill="none" stroke="var(--encre-3)" stroke-width=".7" stroke-dasharray="1.5 3" opacity=".5"/>'
+    +'<path d="M20 16 C 84 34 156 74 236 96" fill="none" stroke="var(--encre-3)" stroke-width=".9"/>'
+    +'<path d="M20 122 C 32 116 40 99 56 96" fill="none" stroke="var(--encre-3)" stroke-width=".9"/>'
+    +'<path d="M56 96 H288" fill="none" stroke="var(--encre-3)" stroke-width=".9"/>'
+    +'<path d="M288 96 C 298 100 304 114 308 128" fill="none" stroke="var(--encre-3)" stroke-width=".9" stroke-dasharray="2 2.5" opacity=".7"/>'
+    + f.encre
+    +'<g class="f-lg">'
+    +'<text x="28" y="13">moyenne haute</text>'
+    +'<text x="46" y="126">moyenne basse</text>'
+    +'<text x="108" y="91">palier d’insouciance</text>'
+    +'<text x="11" y="68" transform="rotate(-90 11 68)">âge</text>'
+    +'<text x="312" y="139" text-anchor="end">temps</text>'
+    +'</g></svg>';
+  return '<div class="fiche"><div class="f-corps">'
+    +'<p class="f-tete">Fiche de placement</p>'
+    +'<p class="f-sous">à remplir par le veilleur · à déposer au registre</p>'
+    +'<div class="f-champs">'
+    + li('Prénom',f.n) + li('Numéro',f.num)
+    + li('Date et heure',f.dh)
+    +'<div><span>Sexe</span><b class="f-opt">'
+    +'<i class="c'+(f.g?' c-on':'')+'"></i>garçon'
+    +'<i class="c c-b'+(f.g?'':' c-on')+'"></i>fille</b></div>'
+    + li('Âge de l’arrivant',f.age)
+    +'</div>'
+    +'<p class="f-consigne">Porter l’arrivant sur la courbe.</p>'
+    + svg
+    +'<div class="f-case"><div class="f-champs f-nb">'
+    + li('Entrée au jardin',f.jar) + li('Palier d’insouciance',f.pal)
+    +'</div><p class="f-est">estimations moyennes</p></div>'
+    +'<div class="f-case f-obs"><p class="f-clef">Observations</p>'
+    +'<div class="f-lignes">'
+    + (f.obs ? '<b class="f-note">'+f.obs+'</b>' : '')
+    +'<i></i><i></i><i></i></div></div>'
+    +'<div class="f-pied">'
+    +'<span class="f-clef">Veilleur</span>'
+    +'<span class="f-trait"><i class="f-sign">Andrew</i></span>'
+    +'</div>'
+    +'</div></div>';
+}
+
 function teteChap(ch){
   const d=document.createElement('div');
   d.className='ouvre';
-  d.innerHTML='<h2>'+ch.rang+'</h2>';
+  d.innerHTML='<h2>'+ch.rang+'</h2>'
+    + (ch.quand ? '<p class="quand">'+ch.quand+'</p>' : '');
   return d;
 }
 
@@ -806,6 +1073,16 @@ function paginer(){
   PAGES.push({type:'blanc'});
 
   LIVRE.forEach(function(ch,ci){
+    /* l'encart precede le chapitre, seul sur sa page de droite */
+    if(ch.encart){
+      const kk=ch.encart.split('|');
+      /* deux fiches se lisent en vis-a-vis : la premiere tombe
+         sur une page de gauche, donc sur un index pair. Seule,
+         une fiche prend la page de droite. */
+      const veut = kk.length>1 ? 1 : 0;
+      if(PAGES.length%2===veut) PAGES.push({type:'blanc'});
+      kk.forEach(function(k){ PAGES.push({type:'def',ch:ci,k:k}) });
+    }
     /* belle page : un chapitre commence toujours sur une page de droite,
        c'est-à-dire un folio impair. */
     if(PAGES.length%2===0) PAGES.push({type:'blanc'});
@@ -871,6 +1148,7 @@ function pageEl(i,cote){
   if(p.type==='titre'){ d.innerHTML=HTML_TITRE; return d }
   if(p.type==='sommaire'){ d.innerHTML=htmlSommaire(); return d }
   if(p.type==='suite'){ d.innerHTML='<div class="suite"><span>À suivre</span></div>'; return d }
+  if(p.type==='def'){ d.innerHTML=htmlEncart(p.k); return d }
   let h='';
   if(!p.ouverture){
     h='<div class="tete">'+(cote==='g' ? 'L’Éclaircie' : LIVRE[p.ch].rang)+'</div>';
@@ -1009,6 +1287,7 @@ function animer(sens,cible){
   }
   garnir(recto,verso);
   $('corne').hidden=true;
+  $('corneg').hidden=true;
   feuille.hidden=false;
   courber(0,sens);
   const depart=performance.now();
@@ -1085,6 +1364,7 @@ function majEtat(){
   $('prec').disabled=ferme;
   $('suiv').disabled=!ferme && (spread+1)*2>=PAGES.length;
   $('corne').hidden=ferme || $('suiv').disabled;
+  $('corneg').hidden=ferme || $('prec').disabled;
   if(!ferme) $('indice').classList.remove('on');
   const g=spread*2, d=spread*2+1;
   let txt='';
@@ -1094,6 +1374,9 @@ function majEtat(){
   }
   else if((PAGES[d]&&PAGES[d].type==='sommaire')||(PAGES[g]&&PAGES[g].type==='sommaire')){
     txt='Sommaire';
+  }
+  else if((PAGES[d]&&PAGES[d].type==='def')||(PAGES[g]&&PAGES[g].type==='def')){
+    txt='Fiche';
   }
   else if((PAGES[d]&&PAGES[d].type==='suite')||(PAGES[g]&&PAGES[g].type==='suite')){
     txt='À suivre';
@@ -1203,6 +1486,7 @@ document.addEventListener('click',function(e){
 $('prec').addEventListener('click',function(){tourner(-1)});
 $('suiv').addEventListener('click',function(){tourner(1)});
 $('corne').addEventListener('click',function(){tourner(1)});
+$('corneg').addEventListener('click',function(){tourner(-1)});
 $('indice').addEventListener('click',function(){tourner(1)});
 
 document.addEventListener('keydown',function(e){

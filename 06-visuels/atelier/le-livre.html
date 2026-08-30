@@ -12,6 +12,7 @@
   --gouttiere:.17; --or:#B08B4F; --corne:#D8CDB4; --corne-2:#C6B999;
   --serif:Constantia,"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
   --sans:Corbel,Candara,"Segoe UI",Tahoma,sans-serif;
+  --plume:"Segoe Script","Bradley Hand","Lucida Handwriting","Ink Free","Segoe Print",cursive;
 }
 html[data-nuit="1"]{
   --papier:#141A21; --papier-2:#0F151B;
@@ -98,6 +99,14 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 .ouvre h2{
   margin:0;font:400 17px/46px var(--serif);color:var(--encre);
   letter-spacing:.26em;text-transform:uppercase;
+  /* l’interlettrage ajoute un blanc apres la derniere lettre :
+     text-indent le rattrape, moitie du blanc, et le titre est centre */
+  text-indent:.26em;
+}
+/* la mention de temps : plus petite que le rang, et elle ne crie pas */
+.ouvre .quand{
+  margin:-10px 0 0;font:italic 400 11.5px/16px var(--serif);
+  color:var(--encre-3);letter-spacing:.05em;text-indent:.05em;
 }
 .tete{
   position:absolute;top:34px;width:360px;
@@ -123,6 +132,163 @@ html[data-nuit="1"] .page.garde{background:linear-gradient(145deg,#111820,#080C1
 .titrage .bas{position:absolute;bottom:74px;font:9.5px var(--sans);letter-spacing:.2em;
   text-transform:uppercase;color:var(--encre-3)}
 
+/* le plan : une planche au trait, pas une illustration */
+.planche{
+  position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;padding:0 34px;
+}
+.planche > div{width:100%;max-width:402px}
+.planche .p-tete{
+  margin:0 0 18px;font:400 9.4px/14px var(--sans);color:var(--encre-2);
+  letter-spacing:.3em;text-transform:uppercase;text-indent:.3em;
+  text-align:center;
+}
+.planche svg{width:100%;display:block}
+.plan .p-mur{fill:none;stroke:var(--encre-3);stroke-width:2.4}
+.plan .p-serre{fill:none;stroke:var(--encre-3);stroke-width:1.6;opacity:.7}
+.plan .p-bande path{fill:none;stroke:var(--encre-3);opacity:.16;
+  stroke-linecap:round;stroke-linejoin:round}
+.plan .p-coulee path,.plan .p-coulee circle{
+  fill:none;stroke:var(--encre);stroke-width:3.4;opacity:.42;
+  stroke-linecap:round;
+}
+.plan .p-caps ellipse{fill:var(--encre);opacity:.72}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+/* celles qui vont s'ouvrir : la paroi a pali */
+.plan .p-caps .claire{
+  fill:none;stroke:var(--encre);stroke-width:1.6;opacity:.6;
+}
+.plan .p-piece circle,.plan .p-piece path,.plan .p-piece rect{
+  fill:none;stroke:var(--encre-3);stroke-width:1.8;
+}
+/* le tiret qui vise le sol : la serre n'a pas de contour a elle */
+.plan .p-tiret path{fill:none;stroke:var(--encre-3);stroke-width:1.2}
+.plan .p-tiret circle{fill:var(--encre-3)}
+.plan .p-nom text{
+  font:400 17px var(--sans);fill:var(--encre-2);
+  letter-spacing:.14em;text-transform:uppercase;
+  paint-order:stroke;stroke:var(--papier);stroke-width:3.6px;
+  stroke-linejoin:round;
+}
+/* la fiche de placement : un formulaire, donc une lineale et des filets */
+.fiche{
+  position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;padding:0 58px;
+}
+.fiche .f-corps{width:100%}
+.fiche .f-tete{
+  margin:0;font:400 9.4px/14px var(--sans);color:var(--encre-2);
+  letter-spacing:.3em;text-transform:uppercase;text-indent:.3em;
+  text-align:center;
+}
+.fiche .f-sous{
+  margin:4px 0 0;font:italic 400 9px/13px var(--sans);
+  color:var(--encre-3);letter-spacing:.05em;text-align:center;
+}
+.fiche .f-champs{
+  margin:20px 0 0;border-top:1px solid var(--encre-3);
+  border-bottom:1px solid var(--encre-3);padding:7px 0 6px;
+}
+.fiche .f-champs > div{
+  display:flex;align-items:baseline;
+  font:400 9.8px/20px var(--sans);color:var(--encre);
+}
+/* imprime : ce que le formulaire demande */
+.fiche .f-champs span{
+  flex:0 0 128px;color:var(--encre-3);letter-spacing:.14em;
+  text-transform:uppercase;font-size:7.8px;
+}
+/* a la plume : ce qu'Andrew a rempli */
+.fiche .f-champs b{
+  font:400 12.6px/20px var(--plume);
+  font-weight:400;letter-spacing:0;color:var(--encre);
+}
+/* les deux options sont imprimees ; seule la croix est de lui */
+.fiche .f-champs b.f-opt{
+  font:400 9.8px/20px var(--sans);letter-spacing:.02em;
+}
+.fiche .c{
+  display:inline-block;width:8px;height:8px;margin-right:7px;
+  border:1px solid var(--encre-3);position:relative;vertical-align:-1px;
+}
+.fiche .c-on::after{
+  content:"✕";position:absolute;left:-2px;top:-6.5px;
+  font:400 12.5px/1 var(--plume);color:var(--encre);
+}
+.fiche .c-b{margin-left:20px}
+.fiche .f-consigne{
+  margin:13px 0 1px;font:italic 400 9px/13px var(--sans);
+  color:var(--encre-3);letter-spacing:.04em;
+}
+.fiche svg{display:block;margin:0 auto}
+.fiche .f-lg text{
+  font:400 5.9px var(--sans);fill:var(--encre-3);
+  letter-spacing:.2em;text-transform:uppercase;
+}
+.fiche .f-case{
+  margin:13px 0 0;border:1px solid var(--encre-3);padding:7px 10px 8px;
+}
+/* dans un cadre, les champs n'ont plus besoin de leurs propres filets */
+.fiche .f-case .f-nb{margin:0;border:0;padding:0}
+.fiche .f-clef{
+  margin:0;font:400 7.8px/12px var(--sans);color:var(--encre-3);
+  letter-spacing:.2em;text-transform:uppercase;
+}
+.fiche .f-est{
+  margin:4px 0 0;font:italic 400 8.6px/12px var(--sans);color:var(--encre-3);
+}
+.fiche .f-obs{padding-bottom:6px}
+/* le pied : un filet imprime, et la main d'Andrew posee dessus */
+.fiche .f-pied{
+  margin:13px 2px 0;display:flex;align-items:flex-end;
+  justify-content:flex-end;gap:13px;
+}
+.fiche .f-pied .f-clef{padding-bottom:4px}
+.fiche .f-trait{
+  width:132px;height:27px;border-bottom:1px solid var(--encre-3);
+  display:flex;align-items:flex-end;justify-content:center;
+}
+.fiche .f-sign{
+  font:400 17px/1 var(--plume);font-style:normal;color:var(--encre);
+  transform:rotate(-2.5deg);padding-bottom:2px;
+}
+.fiche .f-lignes{margin-top:9px}
+/* la main d'Andrew se pose au-dessus du premier filet */
+.fiche .f-lignes .f-note{
+  display:block;margin:0 0 2px;font:400 11.8px/16px var(--plume);
+  font-weight:400;color:var(--encre);
+}
+.fiche .f-lignes i{
+  display:block;height:1px;margin-bottom:11px;
+  background:var(--encre-3);opacity:.45;
+}
 .suite{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
 .suite span{
   font:400 14px var(--serif);letter-spacing:.44em;text-transform:uppercase;
@@ -207,6 +373,28 @@ html[data-ouvert="0"] .cote{visibility:hidden}
 #corne:hover{width:88px;height:88px}
 #corne:focus-visible{outline:2px solid var(--or);outline-offset:3px}
 html[data-ouvert="0"] #corne{display:none}
+
+/* La corne gauche : la meme, en miroir, pour revenir en arriere.
+   Discrete au repos ; elle se leve quand le curseur passe. */
+#corneg{
+  position:absolute;left:0;bottom:0;width:46px;height:46px;z-index:6;
+  border:0;padding:0;background:transparent;cursor:pointer;opacity:.3;
+  transition:width 260ms cubic-bezier(.3,.85,.4,1),height 260ms cubic-bezier(.3,.85,.4,1),opacity 220ms ease;
+}
+#corneg::before{
+  content:"";position:absolute;left:2px;right:-6px;top:-6px;bottom:2px;
+  background:linear-gradient(45deg,rgba(0,0,0,.55) 0 50%,transparent 50%);
+  filter:blur(5px);
+}
+#corneg::after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(45deg,rgba(0,0,0,.18) 0 14%,rgba(0,0,0,0) 44%,rgba(0,0,0,0) 50%,transparent 50%),
+    linear-gradient(45deg,var(--corne) 0 49.4%,var(--corne-2) 49.4% 50%,transparent 50%);
+}
+#corneg:hover{width:88px;height:88px;opacity:1}
+#corneg:focus-visible{outline:2px solid var(--or);outline-offset:3px;opacity:1}
+html[data-ouvert="0"] #corneg{display:none}
 #couv .recto{
   background:#171410 center/cover no-repeat;
   box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);
@@ -350,6 +538,7 @@ html[data-nuit="1"] #indice .k{color:#7CC6DC}
       <div class="cote g" id="pG"></div>
       <div class="cote d" id="pD"></div>
       <button id="corne" title="Page suivante" aria-label="Page suivante"></button>
+      <button id="corneg" title="Page précédente" aria-label="Page précédente"></button>
       <div id="feuille" hidden></div>
       <div id="couv">
         <div class="face recto">
@@ -382,7 +571,7 @@ html[data-nuit="1"] #indice .k{color:#7CC6DC}
 
 <script>
 const LIVRE = [
-{ id:`prologue`, rang:`Prologue`, titre:`La cérémonie`, p:[
+{ id:`prologue`, rang:`Prologue`, titre:`La cérémonie`, quand:``, encart:``, p:[
 [`p`,`Deux <a class="glo" data-mot="Capsule">capsules</a> étaient venues pendant la nuit, et personne ne savait qui allait en sortir.`,3],
 [`p`,`On lui avait donné la salle 4 pour les deux.`,0],
 [`p`,`C'était trop grand, et il n'avait rien dit. On ne discute pas une salle, et surtout pas celle qui était libre.`,0],
@@ -499,7 +688,7 @@ const LIVRE = [
 [`p`,`Il rangea le carnet.`,0],
 [`p`,`Il éteignit les deux lampes et sortit.`,0],
 ]},
-{ id:`chapitre-1`, rang:`Chapitre I`, titre:`Une journée à la ruche`, p:[
+{ id:`chapitre-1`, rang:`Chapitre I`, titre:`Une journée à la ruche`, quand:``, encart:`fiche-nicolas|fiche-eliott`, p:[
 [`p`,`Quatre cent trente-huit.`,3],
 [`p`,`C'était le nombre de pas qui séparaient sa porte de celle de la <a class="glo" data-mot="Ruche">ruche</a>. Il ne l'avait jamais compté exprès : le chiffre était venu tout seul, un matin, et il n'était jamais reparti. Les jours où une voiture se garait en travers du trottoir, il en faisait quatre cent quarante et un. Ces matins-là ne comptaient pas.`,0],
 [`p`,`La ruche s'ouvrait par deux battants de bois clair que personne ne fermait avant la nuit. Sur le montant de droite, à hauteur d'épaule, on avait taillé une capsule de profil, d'un seul trait. Tant de mains l'avaient touchée en entrant qu'elle n'était plus qu'un creux. Andrew y posa la sienne sans y penser, comme les autres.`,0],
@@ -641,7 +830,7 @@ const LIVRE = [
 [`tiret`,`— Le matin. Avant de descendre.`,0],
 [`p`,`Il écrivit : travée dix-neuf, douzième capsule, et la date et l'heure qu'il était.`,0],
 [`p`,`Il n'avait pas d'avis sur la date et il n'en aurait pas. C'était le confort du métier : les autres prévoyaient, lui constatait.`,0],
-[`tiret`,`— Et si elle s'ouvre cette nuit ? dit Vera.`,0],
+[`tiret`,`— Et si elle s'ouvre cette nuit ? dit Bastien.`,0],
 [`tiret`,`— Alors elle s'ouvrira cette nuit, et on n'y pourra rien.`,0],
 [`p`,`C'était vrai, ça ne consolait personne, et les trois s'en contentèrent parce qu'il n'y avait rien d'autre à en tirer.`,0],
 [`pause`,``,0],
@@ -688,7 +877,203 @@ const LIVRE = [
 [`pause`,``,0],
 [`p`,`L'odeur le suivit dans l'allée. Une odeur, insipide, et prenante au nez, comme le fond d'un vase de fleurs qu'on aurait oublié tout un été.`,1],
 ]},
-{ id:`chapitre-2`, rang:`Chapitre II`, titre:`L'aquarium`, p:[
+{ id:`chapitre-2`, rang:`Chapitre II`, titre:`L'allée des Tilleuls`, quand:``, encart:`plan-ruche`, p:[
+[`p`,`La rue s'appelait l'allée des Tilleuls parce qu'il y avait des tilleuls, plantés tous les dix mètres le long du trottoir, et qui, deux semaines par an, sentaient si fort qu'on dormait les fenêtres ouvertes. Personne n'avait décidé de ce nom. On avait fini par dire ça, et c'était resté.`,3],
+[`pause`,``,0],
+[`p`,`Les maisons étaient les mêmes d'un bout à l'autre, avec leurs barrières basses et blanches, repeintes plus souvent qu'il n'était nécessaire. Les pelouses étaient tondues court, toutes à la même hauteur, parce que chacun surveillait celle du voisin sans jamais le dire.`,1],
+[`pause`,``,0],
+[`p`,`La rue montait d'un côté, vers le tournant. De l'autre, elle redescendait vers le grand axe, et par là les <a class="glo" data-mot="Jardin">jardins</a> étaient passés derrière. Les dernières maisons donnaient presque sur le trottoir.`,1],
+[`p`,`Ce matin-là, dans l'avant-dernière, celle aux volets violets, Linette cherchait ses chaussures depuis un bon moment.`,0],
+[`p`,`Elle finit par les trouver sous le fauteuil.`,0],
+[`p`,`Elle posait les choses là où elle se trouvait, jamais là où elles allaient.`,0],
+[`p`,`Elle les mit.`,0],
+[`pause`,``,0],
+[`p`,`La télévision parlait dans son dos. C'était une chaîne qui ne passait que des documentaires : des animaux, des plantes, des montagnes, des rivières. Elle l'avait trouvée un jour sans la chercher et n'en avait plus bougé.`,1],
+[`p`,`Ce matin-là, il était question de fourmis qui faisaient pousser des champignons sous la terre.`,0],
+[`pause`,``,0],
+[`p`,`La glace de l'entrée lui renvoya une figure ronde, un cou plissé, des rides fines au coin de la bouche et d'autres au coin des yeux, qui partaient en éventail dès qu'elle souriait.`,1],
+[`p`,`Elle souriait tout le temps.`,0],
+[`p`,`Il y en avait un peu moins que l'année d'avant. Ça ne se voyait pas d'un matin sur l'autre, mais ça se voyait. Ses mains aussi tremblaient un peu moins.`,0],
+[`p`,`Elle s'habilla.`,0],
+[`p`,`Violet, comme le reste : la robe à petits boutons des jours doux, le gilet qu'elle prenait parce qu'on ne savait jamais, le foulard.`,0],
+[`pause`,``,0],
+[`p`,`Sept ans qu'elle sortait comme ça, et personne n'avait jamais réussi à lui faire mettre autre chose.`,1],
+[`p`,`Le séjour avait suivi, avec le temps.`,0],
+[`p`,`Un vase violet sur la table basse, des napperons violets sous les choses, une théière violette dont le bec était ébréché, un coussin, une boîte à couture, deux bougies qui n'avaient jamais servi et un cendrier alors qu'elle ne fumait pas.`,0],
+[`pause`,``,0],
+[`p`,`Rien n'avait été acheté exprès.`,1],
+[`p`,`Simplement, quand une chose violette se présentait quelque part, elle ne repartait pas sans.`,0],
+[`p`,`Des pinceaux séchaient dans un pot de confiture. Des toiles attendaient contre le mur, retournées. Il y avait une odeur d'huile et de térébenthine qui ne partait jamais tout à fait, et un chevalet près de la porte-fenêtre, là où la lumière durait le plus longtemps.`,0],
+[`p`,`Sur le mur, ses premières aquarelles étaient accrochées à côté des dernières.`,0],
+[`p`,`On voyait très bien la différence, et elle ne s'en cachait pas.`,0],
+[`p`,`Elle trouvait ça encourageant.`,0],
+[`p`,`La boîte d'aquarelle tenait sous le bras.`,0],
+[`p`,`Vingt-quatre godets, dont six creusés jusqu'au fond et dix-huit presque neufs. Deux pinceaux, un chiffon, un bocal à vis pour l'eau, un carnet.`,0],
+[`p`,`Ça se posait n'importe où.`,0],
+[`pause`,`· · ·`,0],
+[`p`,`Il fallait descendre jusqu'au bout de la rue, tourner à gauche, et marcher encore un peu.`,1],
+[`p`,`L'an dernier, elle s'arrêtait deux fois en chemin. Cette année, une seule.`,0],
+[`pause`,``,0],
+[`p`,`L'étang était dans un creux, entre la route et le dos des jardins, et on ne le voyait qu'une fois dedans.`,1],
+[`p`,`Les saules trempaient.`,0],
+[`p`,`L'eau était grise au milieu, verte le long des branches, brune près du bord, et elle n'allait nulle part. Ça sentait la vase et l'herbe coupée.`,0],
+[`p`,`Ce qu'elle aimait là, c'est que rien n'y allait vite.`,0],
+[`p`,`Un caillou tombait, l'eau s'ouvrait, faisait ses ronds de plus en plus larges, puis redevenait plate.`,0],
+[`p`,`Des canards se déplaçaient à la rame, s'arrêtaient au milieu sans raison, repartaient dans l'autre sens.`,0],
+[`p`,`Un homme lançait un bâton à un chien qui ne le rapportait pas.`,0],
+[`p`,`Sur l'autre rive, deux coureurs passèrent, revinrent, repassèrent, sans avoir l'air d'avancer.`,0],
+[`p`,`On entendait la ville, mais de loin.`,0],
+[`p`,`Un klaxon quelque part, un chantier qui tapait, le grondement continu de la route derrière les arbres.`,0],
+[`p`,`Ça n'entrait pas.`,0],
+[`p`,`Ça restait au bord.`,0],
+[`pause`,``,0],
+[`p`,`Elle chercha un banc en particulier et le trouva tout de suite, près de l'eau.`,1],
+[`p`,`Il avait un pied plus court que les autres, mais c'était l'un des mieux placés pour la vue.`,0],
+[`p`,`Et c'était celui que son amie Maud avait choisi aujourd'hui.`,0],
+[`p`,`Elles se retrouvaient là deux matins par semaine, quand il faisait beau.`,0],
+[`pause`,``,0],
+[`p`,`Maud lui fit signe d'approcher, contente de la voir.`,1],
+[`p`,`Linette lui rendit son sourire, prête, une fois de plus, à partager ses godets et ses pinceaux de bon cœur.`,0],
+[`tiret`,`— Ma belle Maud. Comment tu vas, aujourd'hui ?`,0],
+[`tiret`,`— On ne peut mieux. Et toi ? Attends, je vais t'aider.`,0],
+[`p`,`Maud se leva et la prit par le bras.`,0],
+[`p`,`Linette s'aida autant de son amie que de l'accoudoir pour descendre les derniers centimètres, et il fallut un moment avant que son dos accepte de se remettre droit.`,0],
+[`tiret`,`— Aïe aïe aïe. Vivement que tous ces petits maux s'en aillent, dit-elle en riant tout bas. Tu as apporté ton thermos ?`,0],
+[`tiret`,`— Bien sûr.`,0],
+[`tiret`,`— Et moi j'ai pensé au gâteau. Tu avais vu, pour la boulangerie ?`,0],
+[`tiret`,`— Non.`,0],
+[`tiret`,`— Fermée, annonça Linette d'un air grave.`,0],
+[`tiret`,`— Fermée comment ?`,0],
+[`tiret`,`— Fermée, confirma-t-elle sur une intonation plus profonde encore. Jusqu'à nouvel ordre.`,0],
+[`tiret`,`— Quoi ?`,0],
+[`tiret`,`— Je te jure. Je suis dégoûtée. Je m'étais habituée à leur framboisier.`,0],
+[`tiret`,`— Celui avec les petites framboises dessus ?`,0],
+[`tiret`,`— Celui-là.`,0],
+[`tiret`,`— Il était joli.`,0],
+[`tiret`,`— Il était surtout bon.`,0],
+[`p`,`Elles rirent toutes les deux.`,0],
+[`pause`,``,0],
+[`p`,`Les canards quittèrent l'eau les uns après les autres et vinrent voir.`,1],
+[`p`,`Ils n'avaient peur de rien. On leur donnait quelque chose, d'habitude.`,0],
+[`p`,`Ils montèrent jusqu'aux chaussures, se mirent en travers et attendirent.`,0],
+[`tiret`,`— J'ai rien pour vous, leur dit Linette. Restez comme ça, je vous fais.`,0],
+[`p`,`Ça ne les convainquit pas. Le gâteau était sur le banc et ils l'avaient vu. L'un d'eux entreprit les godets, un autre visa le bocal, et il fallut tenir la boîte à deux mains.`,0],
+[`tiret`,`— Non. Non ! Ça, c'est du bleu, tu vas être malade.`,0],
+[`p`,`C'était ça, leurs matinées : on peignait et on se racontait tout.`,0],
+[`pause`,``,0],
+[`p`,`Elles s'étaient portraiturées l'une l'autre un nombre incalculable de fois sans jamais s'en fatiguer.`,1],
+[`p`,`Maud avait une trentaine d'années, Linette en avait soixante-douze, et elles étaient sorties la même semaine, à huit jours près.`,0],
+[`p`,`Cela ne cessait jamais de les étonner.`,0],
+[`p`,`C'était aussi la seule chose au monde sur laquelle elles n'avaient rien à dire.`,0],
+[`pause`,``,0],
+[`p`,`Le papier prit l'eau, puis le gris.`,1],
+[`p`,`C'était le meilleur moment, celui où la couleur s'en va toute seule et où on ne sait pas encore ce qu'elle va faire.`,0],
+[`p`,`Un vert dedans.`,0],
+[`p`,`Le vert partit dans le gris.`,0],
+[`p`,`Le pinceau tremblait au départ, puis il se tenait.`,0],
+[`p`,`C'était comme ça chaque fois : les premières minutes pour rien, et après, la main allait.`,0],
+[`pause`,``,0],
+[`p`,`Les canards tinrent encore un moment, par principe.`,1],
+[`p`,`Puis ils comprirent qu'il n'y aurait rien et s'en allèrent en ronchonnant vers un autre banc, plus loin, où quelqu'un venait de déballer quelque chose.`,0],
+[`pause`,``,0],
+[`p`,`Il fut question du portail du quatorze, repeint en bleu, ce qui ne rendait pas mal du tout, il fallait le reconnaître.`,1],
+[`p`,`Puis de la dame du bout de la rue qui s'était mise à vendre des confitures sur le marché du samedi.`,0],
+[`tiret`,`— C'est une très bonne idée, dit Maud.`,0],
+[`tiret`,`— Je trouve aussi.`,0],
+[`tiret`,`— J'en ai acheté deux pots.`,0],
+[`tiret`,`— Deux ?`,0],
+[`tiret`,`— Un pour moi, dit-elle en levant un doigt. Et un encore pour moi !`,0],
+[`p`,`Cette dernière explosa de rire toute seule. Linette l'observa et éclata à son tour.`,0],
+[`tiret`,`— Mais c'est même pas drôle, s'exclama-t-elle en soufflant du nez.`,0],
+[`tiret`,`— Je sais ! parvint à articuler Maud, prise d'un fou rire devant la tête de son amie.`,0],
+[`p`,`La matinée passa là-dedans.`,0],
+[`pause`,`· · ·`,0],
+[`tiret`,`— Houla ! Il est bientôt l'heure de rentrer.`,1],
+[`p`,`Maud regarda le ciel.`,0],
+[`tiret`,`— En fin de semaine, ça va flotter presque tous les jours.`,0],
+[`tiret`,`— Tu crois ?`,0],
+[`tiret`,`— J'ai regardé ce matin.`,0],
+[`tiret`,`— Alors tu viendras à la maison plutôt ?`,0],
+[`tiret`,`— C'est proposé si gentiment.`,0],
+[`p`,`Maud rangea le matériel et referma la palette, qui était capricieuse.`,0],
+[`p`,`Puis elle aida son amie à se relever.`,0],
+[`p`,`Elles trouvèrent encore de quoi se dire pendant une bonne vingtaine de minutes, s'embrassèrent et se promirent de se revoir très vite.`,0],
+[`pause`,`· · ·`,0],
+[`p`,`Elle rentra vers midi. La télévision parlait maintenant d'un oiseau qui avait pour habitude de coudre les feuilles entre elles pour faire son nid.`,1],
+[`pause`,``,0],
+[`p`,`La cuisine était dans un angle du séjour. Elle remplit une casserole à moitié d'eau et la posa sur le feu de gauche, celui qu'on lui avait montré à l'école ; elle n'en avait jamais pris d'autre. L'eau d'abord, les pâtes ensuite : le formateur l'avait dit trois fois. Le couteau sortit du tiroir pour la tomate et y retourna aussitôt après un bref passage sous l'eau, parce qu'un couteau n'a rien à faire sur un plan de travail.`,1],
+[`p`,`Elle éteignit le feu, et vérifia deux fois qu'il était éteint, parce que le formateur avait dit de vérifier deux fois, et qu'elle trouvait ça très raisonnable.`,0],
+[`p`,`Elle mangea debout, devant la fenêtre.`,0],
+[`pause`,``,0],
+[`p`,`L'après-midi lui appartenait.`,1],
+[`p`,`Elle épingla l'aquarelle du matin au coin du chevalet et sortit une toile commencée l'hiver d'avant, où il y avait déjà l'étang, la rive, et des nuages qu'elle avait trouvés réussis. L'huile avait séché depuis longtemps. Ça ne l'empêchait pas : elle chargeait un peu plus, et ça tenait.`,0],
+[`pause`,``,0],
+[`p`,`Elle mit les canards. Les trois premiers vinrent tout seuls. Le quatrième, elle le recommença trois fois sans en être contente.`,1],
+[`p`,`Puis les saules, qu'elle avait toujours remis à plus tard, et un bout du banc au premier plan.`,0],
+[`p`,`Les couleurs ne se mesuraient pas. Elle prenait ce qui venait, mélangeait sur la palette, et si ça ne donnait rien elle en remettait. Ça finissait par donner quelque chose.`,0],
+[`pause`,``,0],
+[`p`,`Le violet, c'était la seule chose qu'elle ait jamais choisie. Le nom était venu tout seul, le premier jour, comme il vient à tout le monde. La couleur, elle l'avait prise huit jours plus tard, dans une pièce où l'on donnait de quoi s'habiller aux arrivants, devant des piles où personne ne disait quoi prendre. Depuis, rien n'avait bougé.`,1],
+[`pause`,``,0],
+[`p`,`En sept ans elle avait appris qu'il existe des fourmis qui cultivent des champignons, des oiseaux qui cousent leur nid, et un loir qui dort onze mois sur douze. Celui-là, le nom lui était resté. Aucun des trois ne s'était jamais montré par ici. Ça lui allait très bien.`,1],
+[`p`,`Une heure passa. Puis une autre.`,0],
+[`pause`,``,0],
+[`p`,`Le pinceau était en l'air quand elle se souvint.`,1],
+[`tiret`,`— Oh ! Tant que j'y pense…`,0],
+[`p`,`Il était cinq heures passées. Elle posa le pinceau en travers du pot et alla chercher une enveloppe, qui attendait depuis la veille contre le pied de la lampe, à l'endroit où elle l'avait mise pour ne pas l'oublier.`,0],
+[`p`,`Puis elle sortit.`,0],
+[`pause`,``,0],
+[`p`,`Le perron faisait trois marches et il faisait encore chaud dessus. Le soleil était descendu jusqu'au bas des façades d'en face et il tapait dans les vitres.`,1],
+[`p`,`D'ici au croisement, la rue ne donnait sur rien. Des portails, des boîtes aux lettres, le portail bleu du quatorze, et rien entre les maisons.`,0],
+[`pause`,``,0],
+[`p`,`C'est là qu'elle l'aperçut, le garçon. Il remontait le trottoir d'en face, les bras ballants, sans se presser.`,1],
+[`p`,`Elle avait failli le louper. Elle se félicita en silence de ne pas l'avoir oublié et lui fit de grands signes, l'enveloppe levée au bout du bras.`,0],
+[`tiret`,`— Ho ! Mon grand !`,0],
+[`p`,`Il leva la tête.`,0],
+[`p`,`Il la vit.`,0],
+[`p`,`Pendant une seconde, il resta immobile.`,0],
+[`p`,`Puis il regarda à gauche.`,0],
+[`p`,`À droite.`,0],
+[`p`,`Linette fronça légèrement les sourcils.`,0],
+[`p`,`Il descendit du trottoir.`,0],
+[`p`,`Une voiture était garée un peu plus loin, juste avant le croisement. Une autre arrivait dans l'autre sens.`,0],
+[`p`,`Linette leva davantage son enveloppe.`,0],
+[`tiret`,`— Attends !`,0],
+[`p`,`Il traversa.`,0],
+[`p`,`La voiture passa entre eux.`,0],
+[`p`,`Linette ne vit plus rien pendant deux secondes.`,0],
+[`p`,`Elle entendit seulement le moteur ralentir, puis repartir.`,0],
+[`p`,`Quand elle retrouva l'autre trottoir du regard, il n'y était plus.`,0],
+[`p`,`Elle resta avec son bras levé.`,0],
+[`tiret`,`— Oh.`,0],
+[`p`,`Elle baissa lentement l'enveloppe.`,0],
+[`p`,`Elle avait été certaine de l'avoir vu continuer.`,0],
+[`p`,`Peut-être avait-il tourné derrière la voiture.`,0],
+[`p`,`Elle retourna l'enveloppe pour vérifier.`,0],
+[`p`,`Le timbre était là.`,0],
+[`p`,`Un peu de travers, mais il y était.`,0],
+[`p`,`Elle sourit, satisfaite.`,0],
+[`p`,`Elle reprit sa lettre à pleine main et regarda vers le croisement.`,0],
+[`p`,`Rien.`,0],
+[`p`,`Elle descendit une marche.`,0],
+[`p`,`Puis une autre.`,0],
+[`p`,`Il y avait du monde dans la rue. Quelqu'un rentrait une poubelle. Deux femmes remontaient vers le tournant. Un arroseur tournait dans un jardin.`,0],
+[`p`,`Lui, non.`,0],
+[`p`,`Elle attendit encore.`,0],
+[`p`,`Il avait dû tourner.`,0],
+[`p`,`Il tournait quelquefois.`,0],
+[`p`,`Ce petit allait vite, et ce n'était pas à elle de savoir par où il rentrait.`,0],
+[`tiret`,`— Tant pis, dit-elle. La prochaine fois.`,0],
+[`p`,`Elle remonta chez elle.`,0],
+[`pause`,`· · ·`,0],
+[`p`,`L'enveloppe retourna sur la console, contre le pied de la lampe, à l'endroit où elle la verrait.`,1],
+[`pause`,``,0],
+[`p`,`La télévision parlait toujours.`,1],
+[`p`,`Ce n'était plus le même sujet — des termites, maintenant, et la façon dont ils réglaient la température de leur nid — et la voix off était la même que le matin, du même train, sans se presser.`,0],
+[`p`,`Linette alluma la lampe et reprit son pinceau.`,0],
+[`p`,`Le quatrième canard n'allait toujours pas.`,0],
+[`p`,`Elle le laissa comme ça et commença le cinquième.`,0],
+]},
+{ id:`chapitre-3`, rang:`Chapitre III`, titre:`L'aquarium`, quand:`Cinq semaines plus tôt`, encart:``, p:[
 [`p`,`Il n'avait rien écrit dans la case.`,3],
 [`pause`,``,0],
 [`p`,`Le carnet resta dans la poche de sa blouse toute la semaine, et les pages s'empilèrent par-dessus. Il le rouvrit un matin avant de commencer, pour une salle qu'on lui redemandait, et il s'arrêta à celle-là. Le jour, les deux travées, l'heure, les âges relevés, les deux mots, les deux numéros. Tout y était. Le bout de la ligne était blanc.`,1],
@@ -704,7 +1089,7 @@ const LIVRE = [
 [`p`,`June ouvrit, un torchon à la main. Elle avait tiré ses cheveux blonds en arrière et les avait noués bas. Grande et mince, elle avait le visage d'une jeune femme au début de la vingtaine, les traits fins et quelque chose de tranquille dans les yeux. Son tablier avait déjà servi ce matin-là. Elle le portait avec cette simplicité des vêtements qu'on enfile pour travailler, sans chercher à leur donner plus d'importance qu'ils n'en avaient.`,0],
 [`pause`,``,0],
 [`p`,`Si le métier lui avait appris quelque chose, c'était la douceur. C'était en tout cas ce qu'Andrew voyait d'elle à chacune de ses visites.`,1],
-[`p`,`Une <a class="glo" data-mot="Berceur, berceuse">berceuse</a> prenait chez elle ceux qui arrivaient à quatorze ans, les accompagnait au quotidien pendant des années, puis les remettait à ses consœurs et confrères du <a class="glo" data-mot="Jardin">jardin</a>, passé huit ans. June en avait trois sous son toit.`,0],
+[`p`,`Une <a class="glo" data-mot="Berceur, berceuse">berceuse</a> prenait chez elle ceux qui arrivaient à quatorze ans, les accompagnait au quotidien pendant des années, puis les remettait à ses consœurs et confrères du jardin, passé huit ans. June en avait trois sous son toit.`,0],
 [`p`,`Le reste du métier ne s'écrivait nulle part et tenait en peu de mots. Aimer son prochain. C'était par ces hommes et ces femmes que les plus jeunes s'épanouissaient.`,0],
 [`tiret`,`— Andrew, bonjour. Entrez, entrez.`,0],
 [`p`,`Elle s'essuya les mains à son tablier et s'écarta pour le laisser passer. Sa manche gauche était remontée un peu plus haut que l'autre.`,0],
@@ -752,9 +1137,8 @@ const LIVRE = [
 [`tiret`,`— Arrête.`,0],
 [`p`,`Il se laissa faire jusqu'au bout, et il attendit qu'elle ait fini pour reculer.`,0],
 [`pause`,`· · ·`,0],
-[`tiret`,`— On sort ?`,1],
-[`p`,`Eliott regarda June, qui lui montra la porte avec le menton.`,0],
-[`tiret`,`— On va où ?`,0],
+[`p`,`Eliott regarda June, qui lui montra la porte avec le menton.`,1],
+[`tiret`,`— On sort ? On va où ?`,0],
 [`tiret`,`— Tu verras, répondit le veilleur.`,0],
 [`tiret`,`— Je déteste quand vous dites ça.`,0],
 [`p`,`Il s'assit par terre dans le couloir pour mettre ses chaussures, et il y mit plus de temps qu'il n'en fallait. June rouvrit la porte pour eux et la tint jusqu'à ce qu'ils soient dehors tous les deux.`,0],
@@ -869,9 +1253,7 @@ const LIVRE = [
 [`tiret`,`— Quoi ?`,0],
 [`tiret`,`— Le meuble. Celui avec la boîte dessus.`,0],
 [`p`,`Le garçon le regarda un moment.`,0],
-[`tiret`,`— Marron. Foncé.`,0],
-[`p`,`Il réfléchit.`,0],
-[`tiret`,`— Avec une porte qui fermait mal.`,0],
+[`tiret`,`— Marron. Foncé… avec… réfléchit-il en se grattant la tête. Avec une porte qui fermait mal.`,0],
 [`p`,`Andrew hocha la tête.`,0],
 [`tiret`,`— D'accord.`,0],
 [`p`,`Ils sortirent.`,0],
@@ -913,18 +1295,14 @@ const LIVRE = [
 [`tiret`,`— Je veux répondre, s'il te plaît ! Je sais la réponse, je peux ? J'ai levé le doigt !`,0],
 [`p`,`Elle sourit malgré elle.`,0],
 [`tiret`,`— Bien sûr. Dis-moi.`,0],
-[`pause`,``,0],
-[`p`,`La grille continuait.`,1],
+[`p`,`La grille continuait.`,0],
 [`p`,`Les salles laissèrent peu à peu place à une cour, puis à un terrain couvert de lignes peintes. Onze personnes en faisaient le tour, à leur rythme, avec ou sans appui — une canne, un déambulateur.`,0],
 [`p`,`Plusieurs les encadraient. L'un des professeurs de sport s'occupait du retardataire.`,0],
 [`tiret`,`— Voilà ! C'est bien ! Encore un peu !`,0],
 [`tiret`,`— J'en peux plus.`,0],
-[`tiret`,`— Alors on ralentit.`,0],
-[`p`,`Il cala son pas sur le sien.`,0],
-[`tiret`,`— Mais on ne s'arrête pas.`,0],
+[`tiret`,`— Alors on ralentit, lui lança-t-il en calant son pas sur le sien. Mais on ne s'arrête pas.`,0],
 [`tiret`,`— C'est facile à dire.`,0],
-[`tiret`,`— Je sais.`,0],
-[`p`,`Il lui donna une petite tape encourageante sur le haut du bras.`,0],
+[`p`,`Le professeur se mit à rire gentiment, lui donna une petite tape encourageante sur le haut du bras.`,0],
 [`tiret`,`— Allez. Encore jusqu'au poteau. Après, tu pourras me bouder si tu veux.`,0],
 [`p`,`L'homme eut un rire essoufflé.`,0],
 [`tiret`,`— Je boude déjà !`,0],
@@ -964,7 +1342,7 @@ const LIVRE = [
 [`p`,`Puis il repartit par où il était venu.`,0],
 [`p`,`Il ne compta pas.`,0],
 ]},
-{ id:`chapitre-3`, rang:`Chapitre III`, titre:`La tournée`, p:[
+{ id:`chapitre-4`, rang:`Chapitre IV`, titre:`La tournée`, quand:`Sept jours plus tôt`, encart:``, p:[
 [`p`,`Il y retourna le mardi suivant, et le mardi d'après.`,3],
 [`p`,`Il y eut d'autres fois.`,0],
 [`p`,`À force de se voir, quelque chose changea entre eux sans qu'aucun des deux ne s'en aperçoive vraiment. Un matin, Eliott lui dit bonjour sans le vouvoyer. Andrew ne releva pas ; ce ne fut que deux jours plus tard, en y repensant, qu'il comprit.`,0],
@@ -980,7 +1358,7 @@ const LIVRE = [
 [`p`,`Chez les petits, elle faisait ce qu'elle voulait.`,0],
 [`p`,`On l'avait constaté. Personne n'avait jamais dit pourquoi.`,0],
 [`pause`,``,0],
-[`p`,`Au bout de la deuxième rue, une femme sortit sur son perron en agitant une enveloppe.`,1],
+[`p`,`Au bout de la deuxième rue, une femme sortit sur le perron d'une maison aux volets violets en agitant une enveloppe.`,1],
 [`tiret`,`— Tu me la prends ?`,0],
 [`tiret`,`— Faut la timbrer.`,0],
 [`tiret`,`— Elle est timbrée.`,0],
@@ -993,7 +1371,7 @@ const LIVRE = [
 [`p`,`Il haussa les épaules, comme si la question était bête.`,0],
 [`p`,`C'était peut-être le cas.`,0],
 [`pause`,``,0],
-[`p`,`Il connaissait son quartier par cœur. Il savait chez qui il fallait sonner deux fois, laquelle des maisons de la rangée haute avait un chien qui n'aboyait jamais, et quelle porte s'ouvrait avant même qu'on ait posé le paquet.`,1],
+[`p`,`Il connaissait son quartier par cœur. Sa tournée commençait à quelques rues de chez June, et il y avait pris ses repères aussi bien pour travailler que pour sortir seul. Il savait chez qui il fallait sonner deux fois, laquelle des maisons de la rangée haute avait un chien qui n'aboyait jamais, et quelle porte s'ouvrait avant même qu'on ait posé le paquet.`,1],
 [`p`,`Son responsable lui avait ajouté deux rues le mois précédent, puis une troisième la semaine passée.`,0],
 [`tiret`,`— Il t'en donne de plus en plus.`,0],
 [`tiret`,`— Il dit que je vais vite.`,0],
@@ -1025,9 +1403,9 @@ const LIVRE = [
 [`tiret`,`— Il va apprendre un métier.`,0],
 [`tiret`,`— Sûrement.`,0],
 [`p`,`Quelques pas passèrent.`,0],
-[`tiret`,`— Un vrai.`,0],
+[`tiret`,`— Un vrai…`,0],
 [`tiret`,`— Le <a class="glo" data-mot="Portage">portage</a> est un métier.`,0],
-[`tiret`,`— Le mien, c'est pas un vrai.`,0],
+[`tiret`,`— Le portage, c'est pas un vrai.`,0],
 [`tiret`,`— C'en est un.`,0],
 [`tiret`,`— On me l'a donné. On m'a pas demandé.`,0],
 [`p`,`Il donna un coup de pied dans un caillou. Le caillou roula de quelques centimètres avant de s'arrêter.`,0],
@@ -1043,9 +1421,7 @@ const LIVRE = [
 [`tiret`,`— Où ça ?`,0],
 [`tiret`,`— Au travail. Ils disent qu'on nous donne tout.`,0],
 [`tiret`,`— Ils te disent ça à toi ?`,0],
-[`tiret`,`— Ils le disent.`,0],
-[`p`,`Il rajusta la sacoche sur son épaule.`,0],
-[`tiret`,`— Ils le disent pas aux autres. Ils le disent à moi.`,0],
+[`tiret`,`— Ils le disent, répondit-il en rajustant la sacoche sur son épaule. Ils le disent pas aux autres. Ils le disent à moi.`,0],
 [`p`,`Andrew n'eut pas le temps de répondre.`,0],
 [`p`,`Eliott s'arrêta net, porta deux doigts à sa bouche et siffla.`,0],
 [`p`,`Le son partit d'un seul coup et traversa la rue. Deux personnes se retournèrent sur le trottoir d'en face.`,0],
@@ -1069,9 +1445,7 @@ const LIVRE = [
 [`tiret`,`— Quoi ?`,0],
 [`tiret`,`— À faire ça avec les doigts.`,0],
 [`p`,`Eliott haussa les épaules.`,0],
-[`tiret`,`— Je sais pas.`,0],
-[`p`,`Il regarda sa main comme s'il ne comprenait pas la question.`,0],
-[`tiret`,`— Je sais le faire.`,0],
+[`tiret`,`— Je sais pas, dit-il en regardant sa main comme s'il ne comprenait pas la question. Je sais le faire, c'est tout.`,0],
 [`p`,`Puis il repartit, et Andrew le suivit.`,0],
 [`pause`,``,0],
 [`p`,`La sacoche était vide lorsqu'ils arrivèrent devant chez June.`,1],
@@ -1091,14 +1465,12 @@ const LIVRE = [
 [`p`,`Elle regarda la rue.`,0],
 [`tiret`,`— Ça passait toujours.`,0],
 [`p`,`Un silence.`,0],
-[`tiret`,`— Et là, non.`,0],
+[`tiret`,`— Et là, non, reprit-elle.`,0],
 [`tiret`,`— Non.`,0],
 [`p`,`Elle posa les mains à plat sur ses genoux.`,0],
 [`tiret`,`— Ce n'est pas qu'il est méchant. Il n'est pas méchant du tout. Il dit bonjour, il mange, il aide quand on lui demande. Julie l'adore. Elle lui montre des choses, elle le laisse aller à son rythme, elle est très protectrice avec lui. Paul essaie à sa façon : il lui parle de ses livres. Mais on vient tout juste de commencer la lecture et l'écriture, alors il décroche vite. J'ai ressorti les imagiers. Ça amuse beaucoup Paul.`,0],
 [`p`,`Elle eut un petit sourire qui disparut presque aussitôt.`,0],
-[`tiret`,`— Mais lui…`,0],
-[`p`,`Elle chercha.`,0],
-[`tiret`,`— Lui, il est poli.`,0],
+[`tiret`,`— Mais lui… chercha-t-elle à dire, lui, il est poli.`,0],
 [`p`,`Le mot resta entre eux.`,0],
 [`tiret`,`— Il me remercie après chaque repas. Je lui propose des choses, il dit oui, et il n'a pas envie. Ça fait un mois qu'on vit sous le même toit et je ne saurais pas dire ce qu'il aime.`,0],
 [`p`,`Andrew regarda l'allée de gravier.`,0],
@@ -1110,22 +1482,14 @@ const LIVRE = [
 [`p`,`June baissa les yeux.`,0],
 [`tiret`,`— Le portage ?`,0],
 [`tiret`,`— Le portage.`,0],
-[`tiret`,`— Il a raison.`,0],
-[`p`,`Elle releva la tête.`,0],
-[`tiret`,`— À son âge, on attribue.`,0],
+[`tiret`,`— Il a raison, soupira-t-elle en relevant la tête. À son âge, on attribue.`,0],
 [`tiret`,`— Et vous ?`,0],
-[`tiret`,`— Moi, j'ai choisi.`,0],
-[`p`,`Elle le dit simplement.`,0],
-[`tiret`,`— J'ai eu l'école. J'ai eu le temps de regarder autour de moi. J'ai vu travailler une berceuse et j'ai su que c'était ce que je voulais.`,0],
-[`p`,`Elle regarda ses mains.`,0],
-[`tiret`,`— Lui n'aura rien vu du tout.`,0],
-[`p`,`Le silence revint.`,0],
-[`tiret`,`— Plus on arrive bas, moins il y a de portes ouvertes. Ça ne se dit pas comme ça, mais c'est comme ça.`,0],
+[`tiret`,`— Moi, j'ai pu choisir… J'ai eu l'école. J'ai eu le temps de regarder autour de moi. J'ai vu travailler une berceuse et j'ai su que c'était ce que je voulais.`,0],
+[`p`,`Le silence revint. Elle regarda ses mains, perdue dans ses pensées.`,0],
+[`tiret`,`— Lui n'aura rien vu du tout… murmura-t-elle comme pour elle-même. Plus on arrive bas, moins il y a de portes ouvertes. Ça ne se dit pas comme ça, mais c'est comme ça.`,0],
 [`tiret`,`— Il le sait ?`,0],
 [`p`,`June secoua doucement la tête.`,0],
-[`tiret`,`— Il le sent.`,0],
-[`p`,`Elle marqua une pause.`,0],
-[`tiret`,`— C'est pire.`,0],
+[`tiret`,`— Il le sent… C'est pire.`,0],
 [`p`,`Andrew ne répondit pas.`,0],
 [`pause`,``,0],
 [`p`,`Il pensa à la façon dont Eliott avait regardé le magasin de chaussures, à la façon dont il avait parlé de Nicolas, à ce qu'il avait dit du travail.`,1],
@@ -1148,10 +1512,8 @@ const LIVRE = [
 [`tiret`,`— Et vous pensez que ça pourrait en être un ?`,0],
 [`p`,`Andrew leva les yeux vers elle.`,0],
 [`p`,`June hésita.`,0],
-[`tiret`,`— Je ne sais pas.`,0],
-[`p`,`Elle regarda la fenêtre fermée à l'étage.`,0],
-[`tiret`,`— En tout cas, un porteur de voiles de cet âge…`,0],
-[`p`,`Elle secoua lentement la tête.`,0],
+[`tiret`,`— Je ne sais pas, dit-elle en fixant la fenêtre fermée à l'étage. En tout cas, un porteur de voiles de cet âge…`,0],
+[`p`,`Elle secoua lentement la tête avant de reprendre.`,0],
 [`tiret`,`— Je n'en avais jamais vu.`,0],
 [`p`,`Elle inspira, marqua un temps d'arrêt. Avant de poser le pied sur la marche suivante, elle posa la paume de sa main sur son épaule.`,0],
 [`tiret`,`— Merci, en tout cas. De prendre de votre temps pour lui.`,0],
@@ -1160,7 +1522,7 @@ const LIVRE = [
 [`p`,`Andrew resta assis sur la deuxième marche.`,1],
 [`p`,`En haut, la fenêtre du garçon était fermée.`,0],
 ]},
-{ id:`chapitre-4`, rang:`Chapitre IV`, titre:`La maison`, p:[
+{ id:`chapitre-5`, rang:`Chapitre V`, titre:`La maison`, quand:``, encart:``, p:[
 [`p`,`La semaine fut ordinaire.`,3],
 [`p`,`Quatre éclaircies le lundi, deux le mercredi, aucune le jeudi. Un instrument à changer dans la salle six. Une travée fermée deux jours, rouverte sans qu'on ait rien trouvé.`,0],
 [`pause`,``,0],
@@ -1300,7 +1662,7 @@ const LIVRE = [
 [`p`,`Pour la première fois depuis qu'il était entré, elle eut l'air de tenir debout.`,0],
 [`p`,`Julie n'avait toujours pas ouvert la machine.`,0],
 ]},
-{ id:`chapitre-5`, rang:`Chapitre V`, titre:`Le poste`, p:[
+{ id:`chapitre-6`, rang:`Chapitre VI`, titre:`Le poste`, quand:``, encart:``, p:[
 [`p`,`Le bâtiment était haut et large, en retrait de la rue. Une grille en fer en fermait l'enceinte, et l'on ne franchissait le portail qu'après avoir été vu par quelqu'un. On n'entrait pas là par hasard.`,3],
 [`pause`,``,0],
 [`p`,`À l'intérieur, le poste tenait dans une grande salle et trois bureaux.`,1],
@@ -1310,21 +1672,26 @@ const LIVRE = [
 [`p`,`Personne ne vint.`,0],
 [`pause`,``,0],
 [`p`,`Au troisième bureau, un homme leva la tête et le remarqua.`,1],
-[`p`,`Il était grand, avec une silhouette large et pleine, des épaules qui donnaient de l'ampleur à toute sa carrure. Le teint sombre, le visage large et les traits réguliers. Une barbe noire et dense, taillée court, remontait sur les joues et soulignait la mâchoire. Ses cheveux, épais et nettement ondulés, étaient coupés plus court sur les côtés.`,0],
+[`p`,`Il était grand, avec une silhouette large et pleine, des épaules qui donnaient de l'ampleur à toute sa carrure. Sa peau brune faisait ressortir la régularité de ses traits et la profondeur de ses yeux sombres, légèrement enfoncés sous un front large. Son regard était calme, posé, avec cette façon de s'attarder parfois une seconde de trop sur un détail, comme s'il avait pris l'habitude de tout remarquer sans en avoir l'air.`,0],
 [`pause`,``,0],
 [`tiret`,`— Pourrais-je savoir ce qui me vaut ta visite en cette belle matinée de printemps ? Les jours de repos ne sont plus ce qu'ils étaient.`,1],
 [`p`,`Il avait dit cela d'un air faussement interrogateur, sans même prendre la peine de dire bonjour.`,0],
 [`tiret`,`— Lieutenant, répondit-il avec un clin d'œil complice.`,0],
-[`p`,`Son ami lui répondit par un sourire et repoussa sa chaise pour venir lui serrer la main.`,0],
+[`p`,`Son ami lui répondit par un sourire et repoussa sa chaise pour venir le saluer.`,0],
 [`tiret`,`— Tu tombes bien.`,0],
 [`tiret`,`— Je reviens de chez madame…`,0],
-[`tiret`,`— Oh, ça, je m'en doutais, le coupa le lieutenant. Assieds-toi.`,0],
+[`p`,`Un revers de main balaya la fin de la phrase.`,0],
+[`tiret`,`— Oh, ça, je m'en doutais. Assieds-toi.`,0],
 [`p`,`Il débarrassa la chaise d'en face d'une pile de chemises qu'il posa contre le pied du bureau. Une carte du secteur était dépliée à côté, maintenue à plat par un cendrier et une agrafeuse.`,0],
+[`pause`,``,0],
+[`p`,`Une barbe noire et dense, taillée court, remontait sur ses joues et soulignait sa mâchoire. Ses cheveux, épais et nettement ondulés, étaient coupés plus court sur les côtés.`,1],
+[`p`,`Il portait un polo sombre et un pantalon sobre, une tenue élégante sans être formelle ; sa veste était restée sur le dossier de sa chaise. À sa ceinture, un étui noir contenant son badge dépassait légèrement sous le pan du polo, seul détail véritablement professionnel dans cette apparence de civil.`,0],
 [`tiret`,`— Café ?`,0],
 [`tiret`,`— Il est comment ?`,0],
+[`p`,`Ses doigts remontèrent peigner sa barbe. Il ne semblait pas s'en rendre compte.`,0],
 [`tiret`,`— Comme d'habitude.`,0],
 [`tiret`,`— Alors non.`,0],
-[`p`,`Le lieutenant tira une chemise cartonnée du haut de la pile et la fit glisser sur le bureau.`,0],
+[`p`,`Une main large se posa sur la pile, en tira une chemise cartonnée et la fit glisser sur le bureau.`,0],
 [`tiret`,`— C'est tout ce qu'on a.`,0],
 [`pause`,``,0],
 [`p`,`La déclaration tenait sur deux feuillets tapés serré, avec quelques mentions manuscrites dans la marge. Derrière venaient une fiche de signalement, la liste des appels passés dans la soirée et une feuille sur laquelle quelqu'un avait recopié l'itinéraire au crayon.`,1],
@@ -1337,9 +1704,8 @@ const LIVRE = [
 [`pause`,``,0],
 [`p`,`Deux photographies étaient agrafées au second feuillet. Il les regarda l'une après l'autre, puis les laissa retomber.`,1],
 [`p`,`Son ami attendit qu'il ait fini la première page.`,0],
-[`tiret`,`— Hier, j'ai eu du mal à la calmer. Son récit partait dans tous les sens.`,0],
-[`p`,`Il fit un geste vague au-dessus du dossier.`,0],
-[`tiret`,`— Ou elle en donnait l'impression.`,0],
+[`p`,`Même assis derrière son bureau, il gardait cette carrure tranquille qui remplissait l'espace autour de lui.`,0],
+[`tiret`,`— Hier, j'ai eu du mal à la calmer. Son récit partait dans tous les sens, dit-il en faisant un geste vague au-dessus du dossier. Ou elle en donnait l'impression.`,0],
 [`tiret`,`— C'est-à-dire ?`,0],
 [`p`,`La question avait été posée sans qu'il relève les yeux du feuillet.`,0],
 [`tiret`,`— Rien. Une impression.`,0],
@@ -1347,14 +1713,12 @@ const LIVRE = [
 [`tiret`,`— Tu en penses quoi ?`,0],
 [`tiret`,`— Entre nous, je n'écarte pas un départ volontaire.`,0],
 [`p`,`Il se cala contre le dossier de sa chaise.`,0],
-[`tiret`,`— À cet âge-là, on agit d'abord. Une contrariété, quelque chose qu'on ne digère pas, et on part. J'en ai fait, moi aussi, des bêtises en mon temps.`,0],
+[`tiret`,`— À cet âge-là, ajouta-t-il, on agit d'abord. Une contrariété, quelque chose qu'on ne digère pas, et on part. J'en ai fait, moi aussi, des bêtises en mon temps.`,0],
 [`p`,`Il eut un petit rire par le nez.`,0],
-[`tiret`,`— Et puis franchement, ils ne se rendent pas compte. Ça ne réfléchit pas trop, là-haut.`,0],
+[`tiret`,`— Et puis franchement, ces jeunes, ils ne se rendent pas compte. Ça ne réfléchit pas trop, là-haut.`,0],
 [`p`,`Il se tapota la tempe de l'index.`,0],
 [`tiret`,`— Les conséquences, ça vient après…`,0],
-[`p`,`Il disait cela comme une chose répétée assez souvent au bureau pour avoir fini par perdre son sens. Puis il se tut, sans cesser d'observer son ami.`,0],
-[`tiret`,`— Hmm.`,0],
-[`p`,`Il pencha légèrement la tête.`,0],
+[`p`,`Il disait cela comme une chose répétée assez souvent au bureau pour avoir fini par perdre son sens. Puis il se tut, sans cesser d'observer son ami, et pencha légèrement la tête.`,0],
 [`tiret`,`— Cette tête-là, je la connais.`,0],
 [`tiret`,`— On ne part pas comme ça.`,0],
 [`tiret`,`— Tu dis ça vite.`,0],
@@ -1365,42 +1729,35 @@ const LIVRE = [
 [`p`,`Il n'avait pas relevé la tête une seule fois.`,0],
 [`pause`,``,0],
 [`p`,`Quelqu'un passa la tête dans l'encadrement, demanda si on avait vu un trousseau de clés, les aperçut, les chaparda discrètement pour ne pas déranger la conversation, et repartit.`,1],
-[`p`,`Le lieutenant suivit la manœuvre des yeux.`,0],
+[`p`,`Le lieutenant suivit la manœuvre des yeux. Il regardait encore la porte quand la question arriva.`,0],
 [`tiret`,`— Elle t'a dit quoi, là-dessus ?`,0],
 [`tiret`,`— De quoi ? Là-dessus ?`,0],
 [`tiret`,`— Un changement de comportement. Quelque chose d'inhabituel. Est-ce qu'elle a parlé d'une fugue, elle ?`,0],
 [`tiret`,`— Non. Rien.`,0],
 [`tiret`,`— Tu lui as posé la question ?`,0],
 [`tiret`,`— Je lui ai demandé l'heure et le trajet. Le reste, elle l'a donné toute seule. Et ce qui restait ne m'avançait pas.`,0],
-[`p`,`Le lieutenant le laissa reprendre le premier feuillet et le parcourir une seconde fois, plus lentement.`,0],
+[`p`,`Alors que l'un commençait à jouer machinalement avec un stylo, l'autre reprit le premier feuillet et le parcourut une seconde fois, plus lentement, imperturbable.`,0],
 [`tiret`,`— Il n'y a rien là-dessus. Rien sur les derniers jours.`,0],
 [`tiret`,`— Non.`,0],
 [`tiret`,`— Rien du tout ?`,0],
 [`tiret`,`— Des horaires.`,0],
-[`tiret`,`— Des horaires, répéta-t-il en retournant le feuillet pour en vérifier le dos.`,0],
-[`p`,`Un silence s'installa.`,0],
-[`pause`,``,0],
-[`p`,`Le lieutenant l'observa par-dessus le dossier.`,1],
+[`p`,`Il retourna le feuillet pour en vérifier le dos. Un silence s'installa.`,0],
+[`p`,`Il reposa le feuillet et releva enfin les yeux.`,0],
 [`tiret`,`— Il faudrait y retourner.`,0],
-[`p`,`Cette fois, il avait relevé les yeux.`,0],
-[`p`,`Le policier acquiesça.`,0],
-[`tiret`,`— J'y comptais. Je veux voir la chambre. Et la réinterroger, si elle accepte.`,0],
-[`p`,`Il eut un geste vers la chemise.`,0],
-[`tiret`,`— Pour moi, tout a déjà été dit. Mais tu n'as pas l'air convaincu. Un regard neuf est toujours bon à prendre, j'imagine.`,0],
-[`p`,`Il souriait en le disant.`,0],
-[`tiret`,`— Merci, répondit-il en se penchant sur la carte.`,0],
-[`p`,`Il posa un doigt sur le secteur et commença à suivre une rue du bout de l'ongle.`,0],
+[`p`,`En face, le bic s'arrêta de tournoyer entre deux doigts, pour venir gratter distraitement le sommet du crâne.`,0],
+[`tiret`,`— J'y comptais. Je veux voir la chambre. Et la réinterroger, si elle accepte. Pour moi, tout a déjà été dit, ajouta-t-il avec un geste vers la chemise. Mais tu n'as pas l'air convaincu. Un regard neuf est toujours bon à prendre, j'imagine.`,0],
+[`p`,`Il eut un petit sourire et reposa son stylo à plat devant lui. Il n'attendait pas de réponse : l'autre s'était penché sur la carte et l'étudiait encore.`,0],
+[`p`,`Son doigt se posa sur le secteur et commença à suivre une rue du bout de l'ongle.`,0],
 [`tiret`,`— Là, ce quartier, tu vois ? Il m'est arrivé de passer devant. J'ai déjà entendu des disputes.`,0],
 [`tiret`,`— Tu pointes l'adresse du travail.`,0],
 [`p`,`Le lieutenant leva les yeux.`,0],
 [`p`,`Un peu trop longtemps.`,0],
 [`tiret`,`— Elle nous a signalé une altercation.`,0],
 [`tiret`,`— Une altercation ?`,0],
-[`tiret`,`— Elle n'a pas donné plus de détails. Je comptais parler au patron ce matin.`,0],
+[`tiret`,`— Elle n'a pas donné plus de détails. Je comptais parler au responsable ce matin.`,0],
 [`p`,`Il sortit un calepin, vérifia quelque chose et le referma.`,0],
-[`tiret`,`— Je vais le voir à onze heures.`,0],
-[`p`,`Le lieutenant se leva. Il s'appuya un instant des deux mains sur le bureau, puis se redressa et attrapa sa veste sur le dossier de sa chaise.`,0],
-[`tiret`,`— Tu veux m'accompagner ?`,0],
+[`tiret`,`— Je vais le voir à onze heures. Tu veux m'accompagner ?`,0],
+[`p`,`Ses deux mains s'étaient posées à plat sur le bureau, lui donnant l'impulsion pour se relever. La veste quitta le dossier de la chaise.`,0],
 [`tiret`,`— Je viens.`,0],
 [`p`,`Il remit les deux photographies dans la chemise, en aligna soigneusement le bord avec celui du bureau et la lui rendit.`,0],
 [`pause`,``,0],
@@ -1408,7 +1765,7 @@ const LIVRE = [
 [`p`,`Celui qui avait un sac le reprit sur ses genoux lorsqu'ils passèrent devant lui. Il le garda ainsi jusqu'à ce que la porte se referme derrière eux.`,0],
 [`p`,`Puis il le reposa à ses pieds.`,0],
 ]},
-{ id:`chapitre-6`, rang:`Chapitre VI`, titre:`Première investigation`, p:[
+{ id:`chapitre-7`, rang:`Chapitre VII`, titre:`Première investigation`, quand:``, encart:``, p:[
 [`p`,`Ils remontèrent la rue à deux.`,3],
 [`p`,`June était devant chez elle, accroupie au bord d'un massif, un plant dans une main et un déplantoir dans l'autre. Il y avait trois autres plants alignés sur le gravier, et de la terre retournée sur un mètre.`,0],
 [`pause`,``,0],
@@ -1418,25 +1775,23 @@ const LIVRE = [
 [`p`,`Elle regarda la rue derrière eux, retira ses gants et les posa sur le rebord de la fenêtre, à l'endroit prévu pour ça.`,0],
 [`tiret`,`— Entrez.`,0],
 [`p`,`La table était débarrassée, les volets ouverts. La pièce sentait quelque chose, cette fois. Julie était installée dans le canapé avec un livre, les jambes repliées sous elle.`,0],
-[`p`,`Isaac sortit un calepin et le posa sur la table.`,0],
+[`p`,`Isaac posa son téléphone sur la table, écran allumé.`,0],
 [`tiret`,`— Je vais vous redemander des choses que vous avez déjà dites.`,0],
 [`tiret`,`— Je m'en doutais.`,0],
 [`p`,`Elle les redonna quand même. Les mêmes heures, les mêmes phrases, à un mot près, comme on récite une chose apprise contre son gré.`,0],
 [`tiret`,`— Julie est rentrée à six heures et quart. J'ai attendu jusqu'à sept heures. J'ai appelé Henri.`,0],
 [`p`,`Elle s'arrêta.`,0],
 [`tiret`,`— Vous voulez la suite ? Vous l'avez, tout ça. Je vous l'ai donnée deux fois.`,0],
-[`p`,`Isaac ne répondit pas. Il reposa son crayon et regarda Andrew.`,0],
+[`p`,`Isaac ne répondit pas. Il regarda Andrew.`,0],
 [`tiret`,`— Je sais, dit celui-ci. Et je suis désolé de vous la faire redire.`,0],
 [`p`,`Il tira une chaise et s'assit en face d'elle, ce qu'il n'avait pas fait en entrant.`,0],
-[`tiret`,`— Ce ne sont pas les heures qui m'intéressent.`,0],
-[`tiret`,`— On me l'a déjà demandé, comment il était. J'ai répondu.`,0],
-[`tiret`,`— Vous avez répondu quoi ?`,0],
-[`tiret`,`— Distant.`,0],
+[`tiret`,`— Ce ne sont pas les heures qui m'intéressent. C'est lui.`,0],
+[`tiret`,`— On ne me l'a pas vraiment demandé, comment il était. Je ne sais pas… comme d'habitude… Distant…`,0],
 [`tiret`,`— Et ensuite ?`,0],
 [`p`,`Elle ouvrit la bouche et la referma.`,0],
 [`tiret`,`— Ensuite on est passé à autre chose.`,0],
 [`p`,`Andrew ne bougea pas de sa chaise.`,0],
-[`tiret`,`— Alors reprenons à distant. Distant comment ?`,0],
+[`tiret`,`— Alors reprenons à « distant ». Distant comment ?`,0],
 [`p`,`June regarda ses mains, puis les posa à plat sur la table.`,0],
 [`tiret`,`— Fermé.`,0],
 [`p`,`Elle chercha un exemple.`,0],
@@ -1478,7 +1833,7 @@ const LIVRE = [
 [`tiret`,`— Le lendemain, il était comme avant. Il a dit bonjour, il a mangé, il est parti travailler… comme si ça n'avait jamais eu lieu.`,0],
 [`tiret`,`— C'était quand ?`,0],
 [`tiret`,`— La semaine dernière. Je ne sais plus quel jour.`,0],
-[`p`,`Il écrivit trois lignes, releva la tête et regarda l'escalier.`,0],
+[`p`,`Il releva la tête et regarda l'escalier.`,0],
 [`tiret`,`— On peut voir sa chambre ?`,0],
 [`tiret`,`— Montez.`,0],
 [`pause`,`· · ·`,0],
@@ -1499,30 +1854,22 @@ const LIVRE = [
 [`tiret`,`— Non. Tout est là. Ce que Julie lui a repris, le linge de la semaine, la veste qu'il n'a pas encore mise.`,0],
 [`p`,`Elle referma l'armoire.`,0],
 [`p`,`Il ouvrit le tiroir de la table.`,0],
-[`p`,`Les dessins étaient empilés sur deux ou trois centimètres. Des traits, des ronds au crayon, une feuille par-dessus l'autre. Il les repoussa, et dessous, quatre enveloppes fermées.`,0],
+[`p`,`Les dessins étaient empilés sur deux ou trois centimètres. Des traits, des ronds au crayon, une feuille par-dessus l'autre. Il les repoussa, et dessous, six enveloppes fermées.`,0],
 [`tiret`,`— Ça, c'est quoi ?`,0],
 [`tiret`,`— Sa paye. Henri la remet comme ça, une enveloppe scellée chaque semaine.`,0],
-[`tiret`,`— Il y en a quatre.`,0],
-[`tiret`,`— Il est arrivé il y a un mois.`,0],
-[`p`,`Elle les regarda sans y toucher.`,0],
-[`tiret`,`— Je lui ai dit qu'il pouvait dépenser, que c'était à lui. Il ne les ouvre même pas.`,0],
+[`tiret`,`— Il y en a six.`,0],
+[`tiret`,`— Il est arrivé il y a un mois et demi, dit-elle en les fixant, je lui ai dit qu'il pouvait dépenser, que c'était à lui. Il ne les ouvre même pas.`,0],
 [`pause`,``,0],
 [`p`,`Andrew remarqua quelque chose de bleu et d'orange qui dépassait de sous l'oreiller.`,1],
 [`tiret`,`— Et ça ?`,0],
 [`p`,`Le policier suivit son regard et souleva le coussin.`,0],
 [`tiret`,`— Son poisson, dit June.`,0],
 [`p`,`Elle s'approcha et le prit dans ses mains sans même sembler s'en apercevoir.`,0],
-[`tiret`,`— Il ne s'en sépare pas. Il lui arrive même de le mettre dans sa sacoche pour aller travailler.`,0],
-[`p`,`Elle eut un petit mouvement de tête.`,0],
-[`tiret`,`— Je lui ai dit que ça ne se faisait pas. Il l'emmène quand même.`,0],
+[`tiret`,`— Il ne s'en sépare pas. Il lui arrive même de le mettre dans sa sacoche pour aller travailler. Je lui ai dit que ça ne se faisait pas, ajouta-t-elle avec un petit mouvement de tête. Il l'emmène quand même.`,0],
 [`tiret`,`— Il l'a depuis longtemps ?`,0],
 [`tiret`,`— Trois semaines.`,0],
-[`p`,`Elle regarda la peluche.`,0],
-[`tiret`,`— C'est moi qui le lui ai acheté.`,0],
-[`p`,`Ses doigts en lissèrent machinalement le tissu.`,0],
-[`tiret`,`— Il me l'a demandé.`,0],
-[`p`,`Elle leva les yeux.`,0],
-[`tiret`,`— C'est la seule fois où il m'a demandé quelque chose… Il l'avait repéré quelque part. Il m'a dit qu'il y en avait un panier entier. Des bleus, des orange, des mélangés…`,0],
+[`p`,`Elle regarda la peluche, et ses doigts en lissèrent machinalement le tissu.`,0],
+[`tiret`,`— C'est moi qui le lui ai acheté. Il me l'a demandé, dit-elle en levant les yeux. C'est la seule fois où il m'a demandé quelque chose… Il l'avait repéré quelque part. Il m'a dit qu'il y en avait un panier entier. Des bleus, des orange, des mélangés…`,0],
 [`tiret`,`— Une petite vague brodée sur la nageoire de gauche, dit Andrew.`,0],
 [`p`,`June cessa de lisser le tissu.`,0],
 [`tiret`,`— Comment vous savez ça ?`,0],
@@ -1541,7 +1888,7 @@ const LIVRE = [
 [`tiret`,`— Il faudrait peut-être l'interroger, lui aussi.`,0],
 [`tiret`,`— Il ne vous dira rien de plus que moi.`,0],
 [`p`,`Julie l'avait dit sans élever la voix, et elle ramena ses jambes sous elle.`,0],
-[`tiret`,`— Ils ont mangé un mois à la même table, et Paul lui parlait de ses livres. C'est tout ce qu'il y a eu.`,0],
+[`tiret`,`— Ils ont mangé un mois à la même table, et Paul lui parlait de ses livres, ajouta-t-elle. C'est tout ce qu'il y a eu.`,0],
 [`tiret`,`— Et à vous, il vous a parlé, ces derniers jours ?`,0],
 [`tiret`,`— Il parle. Il dit bonjour, il dit merci.`,0],
 [`tiret`,`— De son travail ?`,0],
@@ -1551,17 +1898,16 @@ const LIVRE = [
 [`tiret`,`— Il était comment, la veille ?`,0],
 [`p`,`Elle prit le temps d'y réfléchir vraiment, et cela dura plus longtemps que sa réponse.`,0],
 [`tiret`,`— Il est rentré. Il est monté. Il est redescendu manger. Comme les autres jours.`,0],
-[`p`,`Le policier reprit sa chaise et rouvrit le calepin à la première page.`,0],
+[`p`,`Le policier reprit sa chaise et revint au début de la déclaration.`,0],
 [`tiret`,`— June, dans votre déclaration, vous signalez une altercation à son travail.`,0],
 [`tiret`,`— Oui, enfin. Il est rentré les genoux amochés, la lèvre fendue et le col plein de sang. Il revenait de son travail, j'en ai déduit qu'il s'était passé quelque chose là-bas.`,0],
 [`p`,`Elle passa une main sur son propre genou, comme si elle revoyait la scène.`,0],
 [`tiret`,`— Et j'ai eu du mal à faire partir les taches. Ce n'était plus frais. Ça s'était fait dans la journée, pas sur le chemin du retour.`,0],
 [`tiret`,`— Là-bas, ou ailleurs. Il fait le tour du quartier toute la journée.`,0],
-[`p`,`Il n'écrivait plus.`,0],
 [`tiret`,`— Il y avait des gens avec qui il ne s'entendait pas ?`,0],
 [`tiret`,`— Non, non. Il ne parle pas beaucoup, de toute façon, et à personne.`,0],
 [`p`,`Elle réfléchit à la question plus qu'elle n'avait réfléchi aux précédentes.`,0],
-[`tiret`,`— Mais c'était forcément là-bas. C'était le jour du tri.`,0],
+[`tiret`,`— Mais c'était forcément là-bas, reprit-elle. C'était le jour du tri.`,0],
 [`tiret`,`— Le jour du tri ?`,0],
 [`tiret`,`— Deux fois par semaine, ils ne sortent pas. Ils restent trier au dépôt. Ça leur repose les jambes.`,0],
 [`tiret`,`— Donc il n'a pas quitté le dépôt de la journée.`,0],
@@ -1573,7 +1919,6 @@ const LIVRE = [
 [`tiret`,`— Il a dit qu'il était tombé.`,0],
 [`tiret`,`— Vous l'avez cru ?`,0],
 [`tiret`,`— Non. On ne se fend pas la lèvre en tombant sur les genoux.`,0],
-[`p`,`Il écrivit deux lignes de plus et souligna quelque chose.`,0],
 [`tiret`,`— Il y a eu forcément autre chose. Il s'est battu, ou alors on l'a battu… Ils le traitent bien de… de porteur de voiles, alors…`,0],
 [`p`,`Andrew la regarda sans rien dire. Il savait combien ça lui coûtait de poser ces mots sur Eliott. Elle semblait profondément blessée, comme s'ils avaient pu l'atteindre elle directement.`,0],
 [`tiret`,`— Enfin, vous l'avez bien vu. Il raconte des choses qui ne tiennent pas debout, ça part dans tous les sens et on n'y comprend rien. Je sais qu'il est jeune, mais…`,0],
@@ -1590,7 +1935,7 @@ const LIVRE = [
 [`p`,`Elle hocha la tête sans rien dire.`,0],
 [`tiret`,`— Alors non. Ça ne change rien à ce qui lui est arrivé.`,0],
 [`p`,`Personne ne répondit à ça.`,0],
-[`p`,`Le policier referma le calepin, le garda un moment dans la main, puis le rangea.`,0],
+[`p`,`Le policier verrouilla son téléphone, le garda un moment dans la main, puis le glissa dans sa poche.`,0],
 [`tiret`,`— Bon. On a ce qu'il nous faut. Merci de votre accueil, on ne va pas vous déranger plus longtemps.`,0],
 [`pause`,``,0],
 [`p`,`June les accompagna jusqu'à la porte, les salua, et les deux hommes descendirent l'allée.`,1],
@@ -1601,7 +1946,7 @@ const LIVRE = [
 [`tiret`,`— On ne peut pas encore l'écarter, souligna Isaac.`,0],
 [`tiret`,`— Il n'a pas emporté d'argent. Pas un vêtement. Rien. Il est parti du dépôt à l'heure, comme tous les jours, et il y a quinze minutes de marche entre là-bas et cette porte.`,0],
 [`p`,`Il se tourna franchement vers lui.`,0],
-[`tiret`,`— Et soyons sérieux deux minutes. Qui, avec un mois d'existence, décide de disparaître ?`,0],
+[`tiret`,`— Et soyons sérieux deux minutes. Qui, avec un mois et demi d'existence, décide de disparaître ?`,0],
 [`p`,`Le policier ne dit rien. Ils firent quelques pas.`,0],
 [`tiret`,`— Et il a laissé le poisson.`,0],
 [`tiret`,`— Une peluche.`,0],
@@ -1610,7 +1955,7 @@ const LIVRE = [
 [`tiret`,`— C'est une bouée de sauvetage à laquelle il se raccroche. Il ne se sent chez lui nulle part, et il a ça.`,0],
 [`p`,`Ils repartirent.`,0],
 [`tiret`,`— S'il était parti de lui-même, il l'aurait prise.`,0],
-[`p`,`Isaac baissa les yeux vers son calepin.`,0],
+[`p`,`Isaac baissa les yeux.`,0],
 [`tiret`,`— Une peluche ne permet pas d'établir grand-chose.`,0],
 [`tiret`,`— Non.`,0],
 [`p`,`Andrew regarda la rue devant lui.`,0],
@@ -1619,7 +1964,7 @@ const LIVRE = [
 [`p`,`Le lieutenant attendit d'avoir presque atteint le bas de la rue.`,1],
 [`tiret`,`— Ce n'est pas une fugue.`,0],
 [`tiret`,`— Non.`,0],
-[`p`,`Il ressortit le calepin et écrivit deux mots dessus en marchant.`,0],
+[`p`,`Il ressortit son téléphone et tapa deux mots en marchant.`,0],
 [`tiret`,`— Je vais faire reprendre le trajet. Rue par rue, des deux côtés.`,0],
 [`p`,`Il le rangea. Il marqua une pause avant de reprendre sur un ton plus grave.`,0],
 [`tiret`,`— Si on s'en est pris à ce garçon, quelles qu'en soient les raisons, c'est bien moche.`,0],
@@ -1696,10 +2041,80 @@ function noeud(it){
   return p;
 }
 
+/* une page seule qui porte un document du monde, pas du texte. */
+const PLAN_RUCHE='<svg viewBox="0 0 1010 1010" width="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true" class="plan"><rect x="54" y="54" width="902" height="902" rx="26" class="p-mur"/><path d="M150,150 C300,96 640,104 760,168 C852,218 880,340 862,470 C846,596 872,700 812,782 C742,876 560,884 430,872 C296,860 168,838 122,742 C74,640 108,506 106,410 C104,300 92,190 150,150 Z" class="p-serre"/><g class="p-bande"><path d="M516,822 C506,772 486,730 470,686 C456,644 448,620 444,596" style="stroke-width:46"/><path d="M676,900 L836,900 C860,900 868,890 868,868 L868,384 C868,362 856,352 836,352 L746.1,338.6 A322,322 0 0 0 109.8,366.3" style="stroke-width:30"/><path d="M868,388 L822,388 L822,714 L868,714" style="stroke-width:13"/><path d="M868,407 L894,407" style="stroke-width:11"/><path d="M868,521 L910,521" style="stroke-width:11"/><path d="M868,621 L894,621" style="stroke-width:11"/><path d="M868,735 L910,735" style="stroke-width:11"/><path d="M822,433 L798,433" style="stroke-width:11"/><path d="M822,561 L780,561" style="stroke-width:11"/><path d="M822,671 L798,671" style="stroke-width:11"/><path d="M810,808 L862,808" style="stroke-width:14"/></g><g class="p-coulee"><path d="M150,300 C240,250 320,330 300,420 C282,502 200,520 214,600 C226,672 320,690 380,650 C444,608 470,540 540,556 C612,572 640,650 720,630 C790,612 812,540 796,470"/><path d="M760,180 C688,232 620,214 566,254 C508,296 512,368 560,404 C612,442 690,414 736,452 C784,492 780,570 826,596"/><path d="M180,700 C260,742 340,724 400,760 C462,798 520,806 596,790 C672,774 720,806 790,790"/><path d="M120,470 C176,452 214,392 200,330 C188,274 216,214 276,192 C338,168 396,204 452,186 C508,168 546,120 616,132"/><path d="M430,560 C382,608 310,600 268,646 C226,692 236,760 200,796"/><path d="M640,300 C700,340 692,412 646,448 C600,484 604,548 654,566"/><circle cx="430" cy="400" r="136" stroke-dasharray="22 15"/><circle cx="430" cy="400" r="120" stroke-dasharray="9 20"/></g><g class="p-caps"><ellipse cx="255.4" cy="657.7" rx="9" ry="4.6" transform="rotate(29.3 255.4 657.7)"/><ellipse cx="303.5" cy="670.7" rx="9" ry="4.6" transform="rotate(3.1 303.5 670.7)"/><ellipse cx="432.7" cy="605.1" rx="9" ry="4.6" transform="rotate(-44.6 432.7 605.1)"/><ellipse cx="646.3" cy="619.3" rx="9" ry="4.6" transform="rotate(30.2 646.3 619.3)"/><ellipse cx="694.5" cy="633.3" rx="9" ry="4.6" transform="rotate(0.7 694.5 633.3)"/><ellipse cx="742.1" cy="621.8" rx="9" ry="4.6" transform="rotate(-26.2 742.1 621.8)"/><ellipse cx="800" cy="494" rx="9" ry="4.6" transform="rotate(-95.7 800 494)"/><ellipse cx="752.3" cy="185.3" rx="9" ry="4.6" transform="rotate(146.4 752.3 185.3)"/><ellipse cx="706.9" cy="207.9" rx="9" ry="4.6" transform="rotate(160 706.9 207.9)"/><ellipse cx="566" cy="254" rx="9" ry="4.6" transform="rotate(143.8 566 254)"/><ellipse cx="629.8" cy="426.2" rx="9" ry="4.6" transform="rotate(6 629.8 426.2)"/><ellipse cx="679.7" cy="430.9" rx="9" ry="4.6" transform="rotate(7.6 679.7 430.9)"/><ellipse cx="726.7" cy="445.5" rx="9" ry="4.6" transform="rotate(30.6 726.7 445.5)"/><ellipse cx="760.7" cy="482.1" rx="9" ry="4.6" transform="rotate(59.5 760.7 482.1)"/><ellipse cx="366.1" cy="745.2" rx="9" ry="4.6" transform="rotate(16.8 366.1 745.2)"/><ellipse cx="411.9" cy="767" rx="9" ry="4.6" transform="rotate(29.2 411.9 767)"/><ellipse cx="456.6" cy="786.7" rx="9" ry="4.6" transform="rotate(18.3 456.6 786.7)"/><ellipse cx="506.5" cy="796.9" rx="9" ry="4.6" transform="rotate(5.2 506.5 796.9)"/><ellipse cx="555.4" cy="796.4" rx="9" ry="4.6" transform="rotate(-5.5 555.4 796.4)"/><ellipse cx="605.6" cy="788.2" rx="9" ry="4.6" transform="rotate(-9.5 605.6 788.2)"/><ellipse cx="655.5" cy="785.8" rx="9" ry="4.6" transform="rotate(3.1 655.5 785.8)"/><ellipse cx="540.8" cy="142.1" rx="9" ry="4.6" transform="rotate(-23.7 540.8 142.1)"/><ellipse cx="589.1" cy="130.2" rx="9" ry="4.6" transform="rotate(-2.7 589.1 130.2)"/><ellipse cx="380.5" cy="591.6" rx="9" ry="4.6" transform="rotate(157.3 380.5 591.6)"/><ellipse cx="334.3" cy="608" rx="9" ry="4.6" transform="rotate(161 334.3 608)"/><ellipse cx="288.7" cy="628.6" rx="9" ry="4.6" transform="rotate(147.3 288.7 628.6)"/><ellipse cx="254.2" cy="664.7" rx="9" ry="4.6" transform="rotate(121.1 254.2 664.7)"/><ellipse cx="682.7" cy="376.7" rx="9" ry="4.6" transform="rotate(90.9 682.7 376.7)"/><ellipse cx="668.2" cy="423.6" rx="9" ry="4.6" transform="rotate(122.2 668.2 423.6)"/><ellipse cx="714.1" cy="663.8" rx="9" ry="4.6" transform="rotate(145.6 714.1 663.8)"/><ellipse cx="687.1" cy="625" rx="9" ry="4.6" transform="rotate(65.4 687.1 625)"/><ellipse cx="860.3" cy="794.9" rx="9" ry="4.6" transform="rotate(53.8 860.3 794.9)"/><ellipse cx="674.4" cy="159.4" rx="9" ry="4.6" transform="rotate(60.4 674.4 159.4)"/><ellipse cx="630.5" cy="675.1" rx="9" ry="4.6" transform="rotate(169.5 630.5 675.1)" class="claire"/><ellipse cx="739.1" cy="434.2" rx="9" ry="4.6" transform="rotate(21.9 739.1 434.2)"/><ellipse cx="217.2" cy="143.2" rx="9" ry="4.6" transform="rotate(23.5 217.2 143.2)" class="claire"/><ellipse cx="682.1" cy="232.5" rx="9" ry="4.6" transform="rotate(67.4 682.1 232.5)"/><ellipse cx="502.8" cy="582.3" rx="9" ry="4.6" transform="rotate(153.3 502.8 582.3)"/><ellipse cx="557.9" cy="552.1" rx="9" ry="4.6" transform="rotate(134.6 557.9 552.1)"/><ellipse cx="711.2" cy="388.8" rx="9" ry="4.6" transform="rotate(74.9 711.2 388.8)"/><ellipse cx="482" cy="712.3" rx="9" ry="4.6" transform="rotate(59.4 482 712.3)"/><ellipse cx="150.5" cy="647.4" rx="9" ry="4.6" transform="rotate(64.3 150.5 647.4)"/><ellipse cx="746.7" cy="369.6" rx="9" ry="4.6" transform="rotate(87.1 746.7 369.6)"/><ellipse cx="558.5" cy="758.4" rx="9" ry="4.6" transform="rotate(2.1 558.5 758.4)"/><ellipse cx="120.5" cy="749.9" rx="9" ry="4.6" transform="rotate(15.1 120.5 749.9)"/><ellipse cx="705.9" cy="162.2" rx="9" ry="4.6" transform="rotate(66.4 705.9 162.2)" class="claire"/><ellipse cx="772.4" cy="278.6" rx="9" ry="4.6" transform="rotate(62.8 772.4 278.6)"/><ellipse cx="548.1" cy="119.7" rx="9" ry="4.6" transform="rotate(117.8 548.1 119.7)"/><ellipse cx="771.7" cy="220.7" rx="9" ry="4.6" transform="rotate(164 771.7 220.7)"/><ellipse cx="506.9" cy="132.2" rx="9" ry="4.6" transform="rotate(168 506.9 132.2)"/><ellipse cx="472.6" cy="784.2" rx="9" ry="4.6" transform="rotate(0.3 472.6 784.2)"/><ellipse cx="752.6" cy="309.6" rx="9" ry="4.6" transform="rotate(173.6 752.6 309.6)" class="claire"/><ellipse cx="588.8" cy="742.7" rx="9" ry="4.6" transform="rotate(137 588.8 742.7)"/><ellipse cx="713.1" cy="644.9" rx="9" ry="4.6" transform="rotate(173.8 713.1 644.9)" class="claire"/><ellipse cx="122.4" cy="127.6" rx="9" ry="4.6" transform="rotate(80.7 122.4 127.6)"/><ellipse cx="477.1" cy="613.7" rx="9" ry="4.6" transform="rotate(4.3 477.1 613.7)"/><ellipse cx="252.2" cy="635.5" rx="9" ry="4.6" transform="rotate(170.1 252.2 635.5)" class="claire"/><ellipse cx="214.4" cy="199.8" rx="9" ry="4.6" transform="rotate(13.8 214.4 199.8)"/><ellipse cx="355.2" cy="615.2" rx="9" ry="4.6" transform="rotate(119 355.2 615.2)"/><ellipse cx="545.5" cy="661.5" rx="9" ry="4.6" transform="rotate(166.4 545.5 661.5)"/><ellipse cx="802" cy="629.1" rx="9" ry="4.6" transform="rotate(169.3 802 629.1)"/><ellipse cx="136.1" cy="315.8" rx="9" ry="4.6" transform="rotate(177.3 136.1 315.8)"/><ellipse cx="701" cy="378.2" rx="9" ry="4.6" transform="rotate(84.5 701 378.2)"/><ellipse cx="791.5" cy="476.4" rx="9" ry="4.6" transform="rotate(34 791.5 476.4)"/><ellipse cx="591.3" cy="643.4" rx="9" ry="4.6" transform="rotate(84.3 591.3 643.4)" class="claire"/><ellipse cx="778.7" cy="273.4" rx="9" ry="4.6" transform="rotate(175.3 778.7 273.4)" class="claire"/><ellipse cx="529.6" cy="792.7" rx="9" ry="4.6" transform="rotate(68.9 529.6 792.7)"/><ellipse cx="481.6" cy="601" rx="9" ry="4.6" transform="rotate(27.8 481.6 601)"/><ellipse cx="701.4" cy="641.3" rx="9" ry="4.6" transform="rotate(17.4 701.4 641.3)"/><ellipse cx="553.4" cy="642.5" rx="9" ry="4.6" transform="rotate(16 553.4 642.5)"/><ellipse cx="778.5" cy="154.5" rx="9" ry="4.6" transform="rotate(84.9 778.5 154.5)"/><ellipse cx="800.8" cy="334.7" rx="9" ry="4.6" transform="rotate(63 800.8 334.7)"/><ellipse cx="233" cy="495.2" rx="9" ry="4.6" transform="rotate(37.9 233 495.2)"/><ellipse cx="714.7" cy="507.3" rx="9" ry="4.6" transform="rotate(103.3 714.7 507.3)"/><ellipse cx="122.5" cy="392.8" rx="9" ry="4.6" transform="rotate(165.2 122.5 392.8)"/><ellipse cx="392.2" cy="627.2" rx="9" ry="4.6" transform="rotate(54.7 392.2 627.2)" class="claire"/><ellipse cx="538.9" cy="227.2" rx="9" ry="4.6" transform="rotate(127.8 538.9 227.2)"/><ellipse cx="845.4" cy="843.5" rx="9" ry="4.6" transform="rotate(159.1 845.4 843.5)" class="claire"/><ellipse cx="716.8" cy="713.1" rx="9" ry="4.6" transform="rotate(10.7 716.8 713.1)"/><ellipse cx="719.1" cy="165.8" rx="9" ry="4.6" transform="rotate(128.4 719.1 165.8)"/><ellipse cx="281" cy="650.8" rx="9" ry="4.6" transform="rotate(30.8 281 650.8)"/></g><g class="p-piece"><circle cx="430" cy="400" r="150"/><circle cx="430" cy="400" r="88"/><path d="M214,400 A216,216 0 0 1 227,326.1 L155.6,300.1 A292,292 0 0 0 138,400 Z"/><path d="M234.2,308.7 A216,216 0 0 1 272,252.7 L228.1,211.8 A276,276 0 0 0 179.9,283.4 Z"/><path d="M282.7,242 A216,216 0 0 1 352.6,198.3 L321.1,116.2 A304,304 0 0 0 222.7,177.7 Z"/><path d="M363.3,194.6 A216,216 0 0 1 437.5,184.1 L440.3,106.2 A294,294 0 0 0 339.1,120.4 Z"/><path d="M460.1,186.1 A216,216 0 0 1 517.9,202.7 L539,155.2 A268,268 0 0 0 467.3,134.6 Z"/><path d="M538,212.9 A216,216 0 0 1 595.5,261.2 L658.3,208.4 A298,298 0 0 0 579,141.9 Z"/><path d="M606.9,276.1 A216,216 0 0 1 636.6,336.8 L701.6,317 A284,284 0 0 0 662.6,237.1 Z"/><path d="M639.6,452.3 A216,216 0 0 1 563,570.2 L613.5,634.8 A298,298 0 0 0 719.1,472.1 Z"/><path d="M260.2,563.9 A236,236 0 0 1 195.3,424.7 L79.9,436.8 A352,352 0 0 0 176.8,644.5 Z"/><path d="M327.7,734.7 A350,350 0 0 1 205,668.1 L147.2,737.1 A440,440 0 0 0 301.4,820.8 Z"/><path d="M421.4,645.9 A246,246 0 0 1 337.8,628.1 L313.1,689.3 A312,312 0 0 0 419.1,711.8 Z"/><rect x="368" y="812" width="300" height="106" rx="4"/><rect x="706" y="772" width="104" height="74" rx="5"/><rect x="890" y="362" width="30" height="26" rx="3"/><rect x="890" y="394" width="30" height="26" rx="3"/><rect x="890" y="426" width="30" height="26" rx="3"/><rect x="906" y="492" width="30" height="26" rx="3"/><rect x="906" y="524" width="30" height="26" rx="3"/><rect x="890" y="576" width="30" height="26" rx="3"/><rect x="890" y="608" width="30" height="26" rx="3"/><rect x="890" y="640" width="30" height="26" rx="3"/><rect x="906" y="706" width="30" height="26" rx="3"/><rect x="906" y="738" width="30" height="26" rx="3"/><rect x="772" y="404" width="30" height="26" rx="3"/><rect x="772" y="436" width="30" height="26" rx="3"/><rect x="754" y="516" width="30" height="26" rx="3"/><rect x="754" y="548" width="30" height="26" rx="3"/><rect x="754" y="580" width="30" height="26" rx="3"/><rect x="772" y="642" width="30" height="26" rx="3"/><rect x="772" y="674" width="30" height="26" rx="3"/></g><g class="p-tiret"><path d="M180,890 L212,826"/></g><g class="p-nom"><text x="385.7" y="85.1" text-anchor="middle">Salles de cérémonie</text><text x="223.4" y="496.4" text-anchor="middle">Préparateurs</text><text x="271.3" y="698.4" text-anchor="middle">Analystes</text><text x="380.5" y="632.8" text-anchor="middle">Salle de repos</text><text x="518" y="871" text-anchor="middle">Accueil</text><text x="646.4" y="540.5" text-anchor="middle">Consultation</text><text x="918" y="326" text-anchor="middle" transform="rotate(90 918 326)">Chambres</text><text x="758" y="764" text-anchor="middle">Réfectoire</text><text x="430" y="404" text-anchor="middle">Registre</text><text x="168" y="906" text-anchor="middle">La serre</text><text x="516" y="986" text-anchor="middle">Entrée principale</text></g></svg>';
+
+const FICHES={
+  'fiche-nicolas':{n:'Nicolas',num:'812 665',dh:'an 1147, jour 214 — 8 h 50',g:1,
+    age:'quarante-deux ans',jar:'dans trente-quatre ans',
+    obs:'Remontée lente. Sans suite.',
+    pal:'environ trente ans',
+    encre:'<path d="M20 50 C 78 64 140 88 204 96" fill="none" stroke="var(--encre)" stroke-width="1.5" stroke-linecap="round"/><path d="M16.4 46.4 L23.6 53.6 M23.6 46.4 L16.4 53.6" fill="none" stroke="var(--encre)" stroke-width="1.2" stroke-linecap="round"/>'},
+  'fiche-eliott':{n:'Eliott',num:'812 664',dh:'an 1147, jour 214 — 8 h 40',g:1,
+    age:'dix ans',jar:'dans six ans',
+    pal:'au moins trente-quatre ans',
+    encre:'<path d="M20 86 C 36 88 54 94 72 96" fill="none" stroke="var(--encre)" stroke-width="1.5" stroke-linecap="round"/><path d="M16.4 82.4 L23.6 89.6 M23.6 82.4 L16.4 89.6" fill="none" stroke="var(--encre)" stroke-width="1.2" stroke-linecap="round"/>'}
+};
+
+function htmlPlan(){
+  return '<div class="planche"><div>'
+    +'<p class="p-tete">Plan de la ruche</p>'
+    + PLAN_RUCHE + '</div></div>';
+}
+
+function htmlEncart(clef){
+  if(clef==='plan-ruche') return htmlPlan();
+  const f=FICHES[clef];
+  if(!f) return '';
+  const li=function(s,v){
+    return '<div><span>'+s+'</span><b>'+v+'</b></div>' };
+  const svg='<svg viewBox="0 0 330 144" width="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">'
+    +'<path d="M20 8 L20 128 L312 128" fill="none" stroke="var(--encre-3)" stroke-width=".7" opacity=".6"/>'
+    +'<path d="M20 96 H312" fill="none" stroke="var(--encre-3)" stroke-width=".7" stroke-dasharray="1.5 3" opacity=".5"/>'
+    +'<path d="M20 16 C 84 34 156 74 236 96" fill="none" stroke="var(--encre-3)" stroke-width=".9"/>'
+    +'<path d="M20 122 C 32 116 40 99 56 96" fill="none" stroke="var(--encre-3)" stroke-width=".9"/>'
+    +'<path d="M56 96 H288" fill="none" stroke="var(--encre-3)" stroke-width=".9"/>'
+    +'<path d="M288 96 C 298 100 304 114 308 128" fill="none" stroke="var(--encre-3)" stroke-width=".9" stroke-dasharray="2 2.5" opacity=".7"/>'
+    + f.encre
+    +'<g class="f-lg">'
+    +'<text x="28" y="13">moyenne haute</text>'
+    +'<text x="46" y="126">moyenne basse</text>'
+    +'<text x="108" y="91">palier d’insouciance</text>'
+    +'<text x="11" y="68" transform="rotate(-90 11 68)">âge</text>'
+    +'<text x="312" y="139" text-anchor="end">temps</text>'
+    +'</g></svg>';
+  return '<div class="fiche"><div class="f-corps">'
+    +'<p class="f-tete">Fiche de placement</p>'
+    +'<p class="f-sous">à remplir par le veilleur · à déposer au registre</p>'
+    +'<div class="f-champs">'
+    + li('Prénom',f.n) + li('Numéro',f.num)
+    + li('Date et heure',f.dh)
+    +'<div><span>Sexe</span><b class="f-opt">'
+    +'<i class="c'+(f.g?' c-on':'')+'"></i>garçon'
+    +'<i class="c c-b'+(f.g?'':' c-on')+'"></i>fille</b></div>'
+    + li('Âge de l’arrivant',f.age)
+    +'</div>'
+    +'<p class="f-consigne">Porter l’arrivant sur la courbe.</p>'
+    + svg
+    +'<div class="f-case"><div class="f-champs f-nb">'
+    + li('Entrée au jardin',f.jar) + li('Palier d’insouciance',f.pal)
+    +'</div><p class="f-est">estimations moyennes</p></div>'
+    +'<div class="f-case f-obs"><p class="f-clef">Observations</p>'
+    +'<div class="f-lignes">'
+    + (f.obs ? '<b class="f-note">'+f.obs+'</b>' : '')
+    +'<i></i><i></i><i></i></div></div>'
+    +'<div class="f-pied">'
+    +'<span class="f-clef">Veilleur</span>'
+    +'<span class="f-trait"><i class="f-sign">Andrew</i></span>'
+    +'</div>'
+    +'</div></div>';
+}
+
 function teteChap(ch){
   const d=document.createElement('div');
   d.className='ouvre';
-  d.innerHTML='<h2>'+ch.rang+'</h2>';
+  d.innerHTML='<h2>'+ch.rang+'</h2>'
+    + (ch.quand ? '<p class="quand">'+ch.quand+'</p>' : '');
   return d;
 }
 
@@ -1778,6 +2193,16 @@ function paginer(){
   PAGES.push({type:'blanc'});
 
   LIVRE.forEach(function(ch,ci){
+    /* l'encart precede le chapitre, seul sur sa page de droite */
+    if(ch.encart){
+      const kk=ch.encart.split('|');
+      /* deux fiches se lisent en vis-a-vis : la premiere tombe
+         sur une page de gauche, donc sur un index pair. Seule,
+         une fiche prend la page de droite. */
+      const veut = kk.length>1 ? 1 : 0;
+      if(PAGES.length%2===veut) PAGES.push({type:'blanc'});
+      kk.forEach(function(k){ PAGES.push({type:'def',ch:ci,k:k}) });
+    }
     /* belle page : un chapitre commence toujours sur une page de droite,
        c'est-à-dire un folio impair. */
     if(PAGES.length%2===0) PAGES.push({type:'blanc'});
@@ -1843,6 +2268,7 @@ function pageEl(i,cote){
   if(p.type==='titre'){ d.innerHTML=HTML_TITRE; return d }
   if(p.type==='sommaire'){ d.innerHTML=htmlSommaire(); return d }
   if(p.type==='suite'){ d.innerHTML='<div class="suite"><span>À suivre</span></div>'; return d }
+  if(p.type==='def'){ d.innerHTML=htmlEncart(p.k); return d }
   let h='';
   if(!p.ouverture){
     h='<div class="tete">'+(cote==='g' ? 'L’Éclaircie' : LIVRE[p.ch].rang)+'</div>';
@@ -1981,6 +2407,7 @@ function animer(sens,cible){
   }
   garnir(recto,verso);
   $('corne').hidden=true;
+  $('corneg').hidden=true;
   feuille.hidden=false;
   courber(0,sens);
   const depart=performance.now();
@@ -2057,6 +2484,7 @@ function majEtat(){
   $('prec').disabled=ferme;
   $('suiv').disabled=!ferme && (spread+1)*2>=PAGES.length;
   $('corne').hidden=ferme || $('suiv').disabled;
+  $('corneg').hidden=ferme || $('prec').disabled;
   if(!ferme) $('indice').classList.remove('on');
   const g=spread*2, d=spread*2+1;
   let txt='';
@@ -2066,6 +2494,9 @@ function majEtat(){
   }
   else if((PAGES[d]&&PAGES[d].type==='sommaire')||(PAGES[g]&&PAGES[g].type==='sommaire')){
     txt='Sommaire';
+  }
+  else if((PAGES[d]&&PAGES[d].type==='def')||(PAGES[g]&&PAGES[g].type==='def')){
+    txt='Fiche';
   }
   else if((PAGES[d]&&PAGES[d].type==='suite')||(PAGES[g]&&PAGES[g].type==='suite')){
     txt='À suivre';
@@ -2175,6 +2606,7 @@ document.addEventListener('click',function(e){
 $('prec').addEventListener('click',function(){tourner(-1)});
 $('suiv').addEventListener('click',function(){tourner(1)});
 $('corne').addEventListener('click',function(){tourner(1)});
+$('corneg').addEventListener('click',function(){tourner(-1)});
 $('indice').addEventListener('click',function(){tourner(1)});
 
 document.addEventListener('keydown',function(e){

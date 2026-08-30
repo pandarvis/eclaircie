@@ -3,10 +3,11 @@
 # Pour en corriger un : --ouvrir <id>, corriger, --poser.
 
 prologue     10c240dbf786b25c3f224ef38df6bb1f3acb70a2dfc8a66cadf3c0cf44d2da30  # 115 paragraphes
-chapitre-1   959fbd857e33f0723f56889e0924763b6fb8025d18ca495d23ac5642256666c3  # 187 paragraphes
-chapitre-2   71baa26486c1807ba09c5b861ca9bf2d2cef980e49d1c493fe939858783a8ee0  # 274 paragraphes
-chapitre-3   29838e1ffcbc5ef97bcd39d0823dfd0fab788c8478d777d85006534969e3afa2  # 194 paragraphes
-chapitre-4   918fc41d89e3b0f94754a67daa0e4e5fd9fa044eb16e530b70b52e2a6e22c5e6  # 138 paragraphes
-chapitre-5   fab881fe224993cfe5f5ed8703239a74f4fd05b9e23d5d460f49c9d817aea049  # 106 paragraphes
-chapitre-6   0e2432a3a53ecf1116bfa9c550e186097363c30e45b2ce28caac00e85c88d2f6  # 214 paragraphes
+chapitre-1   8a9dd169deea91556101667afbb3e036b0ee0e2beaae4a06747f8f60e62044f1  # 187 paragraphes
+chapitre-2   b37c4fb0ea741c1e34b61d8f0bcfe818822637ca2630a131e0ce66c4cdb26ebf  # 194 paragraphes
+chapitre-3   28174bee64ebc04bbe928fb793d1f36da6859ca0a9f835c557878f7a410b9287  # 267 paragraphes
+chapitre-4   c3f271016a4cb732770dca6280ee9643100d99b788308be2ee5923c491fe9d4f  # 178 paragraphes
+chapitre-5   918fc41d89e3b0f94754a67daa0e4e5fd9fa044eb16e530b70b52e2a6e22c5e6  # 138 paragraphes
+chapitre-6   e18c2bf4d98b7afdfbdef2d1362d599f284d2271964ee31dbb74d2cfc64426a8  # 101 paragraphes
+chapitre-7   d4f64681ffc20ab3ecf359f46a4ab535b9a4eff310037245e660edb34e9135bb  # 202 paragraphes
 epilogue     36911b630e2e05ea044c9fc3020624366e0ccac473d1d9c4bd25ac4ff02cb678  # 118 paragraphes
