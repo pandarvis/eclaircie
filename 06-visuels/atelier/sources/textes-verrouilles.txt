@@ -3,9 +3,9 @@
 # Pour en corriger un : --ouvrir <id>, corriger, --poser.
 
 prologue     10c240dbf786b25c3f224ef38df6bb1f3acb70a2dfc8a66cadf3c0cf44d2da30  # 115 paragraphes
-chapitre-1   37f338ff5da1af7b6cf3be7e566029d9a25a2962e61810b2d454a8c1a6fe3ff8  # 187 paragraphes
-chapitre-2   1e44a9243ba83eec2252fa736b0b9ef14f76b09e4ea7d8d19a49b07577ce2132  # 211 paragraphes
-chapitre-3   b92640ca4709ad167882709398f78a8c1a921ac14621241c7d7d6c2b9049c639  # 275 paragraphes
+chapitre-1   79b5d1104e7c4eb31c127556399d41a85e45a899d6c10ca602716c67d4a6d800  # 188 paragraphes
+chapitre-2   43b0f183b4f525142033762239d113a886ecd8c28703b3baaecf343dc487ff7f  # 212 paragraphes
+chapitre-3   a2a6f6bbbfa4d0f55873482ceef243861c565bc219c09edecccc7de0a006ceea  # 275 paragraphes
 chapitre-4   160be815a754146ebb5a970cec7e9f0b803aa7e7aa0f0f292f52657b32ac0dd9  # 176 paragraphes
 chapitre-5   918fc41d89e3b0f94754a67daa0e4e5fd9fa044eb16e530b70b52e2a6e22c5e6  # 138 paragraphes
 chapitre-6   e18c2bf4d98b7afdfbdef2d1362d599f284d2271964ee31dbb74d2cfc64426a8  # 101 paragraphes

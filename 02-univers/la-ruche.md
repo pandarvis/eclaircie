@@ -772,6 +772,10 @@ interdit au livre de trancher.*
 vocation, pas une affectation.* **Eliott, non.**
 
 - [x] **Qui prend en charge un arrivant qui va grandir ? — tranché le 22 août 2026.** **C'est le berceur, et personne d'autre.** *« À son âge, c'est le berceur qui prend en charge l'éducation. Ils ont quelques cours théoriques et pratiques quand c'est compliqué de faire autrement, notamment le cours de natation, mais majoritairement ce sont eux. Les cours du soir et tuteurs, c'est pour les arrivants d'environ soixante-dix à cinquante ans. »* ⛔ **Le tuteur n'entre pas dans la tranche haute** ; le berceur ne passe la main que pour ce qu'il ne peut pas donner lui-même.
+
+> **Précision de l'autrice, 30 août 2026.** *« Les tuteurs sont assignés le temps qu'il faut selon le besoin de l'arrivant. »*
+>
+> **La tranche d'âge dit qui en relève d'ordinaire ; elle ne dit pas qui peut en avoir un.** Un arrivant tout juste sorti en a un le temps qu'il lui en faut, quel que soit son chiffre. *Nicolas, arrivé à quarante-deux ans, en a un à un mois et demi d'existence — [`../03-personnages/eliott.md`](../03-personnages/eliott.md).*
 - [x] ~~Le nom de famille de l'affaire~~ — **tranché le 15 août 2026 : Sorel.** *« L'affaire Sorel. »* Deux syllabes, aucune couleur régionale, et ça se dit sans y penser — ce qu'il faut pour un mot qu'Andrew entendra sans pouvoir l'identifier.
 - [ ] **La phrase courte du veilleur.** Ce qu'il dit exactement pour expliquer ce qu'est un prénom, en une phrase, à quelqu'un qui vient de sortir. Elle sera prononcée au moins deux fois dans le livre — à la cérémonie d'ouverture, et à la cérémonie groupée — et il faut qu'elle soit la même les deux fois, usée comme une formule de métier.
 - [ ] **Que se passe-t-il quand le mot ne vient pas ?** Un arrivant qui ne répond rien, qui répond deux mots, qui répond une phrase entière, ou qui produit le même mot qu'un autre. Le protocole doit avoir une routine pour ça — **et elle doit rester banale**, du genre qu'on ne commente pas. À ne développer que si une scène en a besoin.
