@@ -202,6 +202,19 @@
   hyphens:auto;
 }
 .page .txt p.tiret{text-indent:0}
+/* un message ressemble a ce qu'il lit : un encart tres leger, une
+   lineale d'interface, le nom et l'heure d'arrivee. */
+.page .txt p.sms{
+  text-indent:0;margin:1.1em 0;padding:.55em .95em;border-radius:5px;
+  background:rgba(127,127,127,.09);
+  font-family:"Segoe UI",Tahoma,Arial,sans-serif;font-size:.86em;line-height:1.65;
+}
+.page .txt p.sms::before{
+  content:attr(data-de) " · " attr(data-h);display:block;
+  min-height:1em;margin-bottom:.4em;
+  font-size:.68em;letter-spacing:.06em;
+  opacity:.62;
+}
 .page .txt p+p:not(.tiret):not(.pause){text-indent:1.5em}
 /* Quatre classes de chaque cote, et celle-ci passe en dernier :
    sans ca la regle generale l emporte, et le paragraphe qui suit

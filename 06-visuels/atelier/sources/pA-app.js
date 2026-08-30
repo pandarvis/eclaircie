@@ -865,7 +865,10 @@ function paragraphes(t){
 
 function corpsTexte(t){
   return paragraphes(t).map(o => {
-    const cls = [o.k === `p` ? (o.f || ``) : o.k];
+    const marque = o.k === `p` ? (o.f || ``) : o.k;
+    /* un message porte sa marque et le nom de qui l'envoie */
+    const estSms = marque.slice(0, 3) === `sms`;
+    const cls = [estSms ? `sms` : marque];
     if (enRevision){
       if (o.touche) cls.push(`touche`);
       if (o.ote) cls.push(`ote`);
@@ -879,7 +882,10 @@ function corpsTexte(t){
         + `<button data-act="ote" title="${o.ote ? `remettre` : `oter ce paragraphe`}">${o.ote ? `\u21ba` : `\u00d7`}</button>`
         + `<button data-act="neuf" title="ajouter un paragraphe dessous">+</button></span>`
       : ``;
-    return `<p class="${cls.join(` `).trim()}"${rep}>${g}${o.s}</p>`;
+    const q = estSms ? marque.slice(4).split(`|`) : [];
+    const de = estSms
+      ? ` data-de="${q[0] || ``}" data-h="${q[1] || ``}"` : ``;
+    return `<p class="${cls.join(` `).trim()}"${de}${rep}>${g}${o.s}</p>`;
   }).join(``);
 }
 

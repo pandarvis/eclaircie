@@ -94,7 +94,9 @@ for ident in LISIBLES:
     titre = re.search(r'titre: `([^`]*)`', bloc).group(1)
     mq = re.search(r'quand: `([^`]*)`', bloc)
     quand = mq.group(1) if mq else u''
-    paras = re.findall(r'\[`(p|tiret|pause)`,`([^`]*)`', bloc)
+    # le troisieme champ est facultatif : il porte une marque de forme
+    paras = re.findall(
+        r'\[`(p|tiret|pause)`,`([^`]*)`(?:,`([^`]*)`)?\]', bloc)
     textes.append({'id': ident, 'rang': rang, 'titre': titre, 'quand': quand, 'p': list(paras),
                    'clef': ident in SOUS_CLEF})
 
@@ -138,7 +140,7 @@ def lier(textes_bruts):
     restants = {m: formes(m) for m in a_lier}
     faits = []
     for t in [x for x in textes_bruts if not x['clef']]:   # dans l'ordre de lecture
-        for i, (genre, texte) in enumerate(t['p']):
+        for i, (genre, texte, marque) in enumerate(t['p']):
             for entree in list(restants):
                 pose = False
                 for f in restants[entree]:
@@ -152,7 +154,7 @@ def lier(textes_bruts):
                                  + u'<a class="glo" data-mot="' + entree + u'">'
                                  + m.group(1) + u'</a>'
                                  + texte[m.end(1):])
-                        t['p'][i] = (genre, texte)
+                        t['p'][i] = (genre, texte, marque)
                         faits.append(entree)
                         pose = True
                         break
@@ -231,7 +233,7 @@ def batir_sommaire(textes):
             assert mot.split(u'. ')[-1] in plat, \
                 u'accroche introuvable dans ' + t['id']
         else:
-            for genre, txt in t['p']:
+            for genre, txt, _m in t['p']:
                 if genre == 'p':
                     mot = re.sub(r'<[^>]+>', u'', txt)
                     break
@@ -262,7 +264,7 @@ TEXTES = (u'const TEXTES = [\n'
               % (B, t['id'], B, B, t['rang'], B, B, t['titre'], B,
                  B, t['quand'], B,
                  u'true' if t['clef'] else u'false',
-                 u',\n'.join(u'[%s%s%s,%s%s%s]' % (B, k, B, B, x, B) for k, x in t['p']))
+                 u',\n'.join(u'[%s%s%s,%s%s%s,%s%s%s]' % (B, k, B, B, x, B, B, f, B) for k, x, f in t['p']))
               for t in textes)
           + u'\n];\n')
 
@@ -512,7 +514,14 @@ function rendreTextes(){
        <h2>${esc(t.rang)}</h2>
        ${t.quand ? `<p class="quand">${esc(t.quand)}</p>` : ''}
        <div class="txt">` +
-       t.p.map(([k, s]) => `<p class="${k === 'p' ? '' : k}">${s}</p>`).join('') +
+       t.p.map(([k, s, f]) => {
+         const sms = f && f.slice(0,3) === 'sms';
+         const c = sms ? 'sms' : (k === 'p' ? '' : k);
+         const q = sms ? f.slice(4).split('|') : [];
+         const de = sms
+           ? ` data-de="${q[0]||''}" data-h="${q[1]||''}"` : '';
+         return `<p class="${c}"${de}>${s}</p>`;
+       }).join('') +
      `</div></article>`;
   $('#x-corps').scrollTop = 0;
 }
