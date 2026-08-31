@@ -4,7 +4,7 @@
 
 prologue     10c240dbf786b25c3f224ef38df6bb1f3acb70a2dfc8a66cadf3c0cf44d2da30  # 115 paragraphes
 chapitre-1   79b5d1104e7c4eb31c127556399d41a85e45a899d6c10ca602716c67d4a6d800  # 188 paragraphes
-chapitre-2   969246cab6fbdd36adbaa43eda8655d01df88050d55e220af49d65495b323633  # 212 paragraphes
+chapitre-2   b3b0a6c12fa47da39a2543c72089b282d373981ce5745888c35a6b62ee464869  # 213 paragraphes
 chapitre-3   a2a6f6bbbfa4d0f55873482ceef243861c565bc219c09edecccc7de0a006ceea  # 275 paragraphes
 chapitre-4   160be815a754146ebb5a970cec7e9f0b803aa7e7aa0f0f292f52657b32ac0dd9  # 176 paragraphes
 chapitre-5   918fc41d89e3b0f94754a67daa0e4e5fd9fa044eb16e530b70b52e2a6e22c5e6  # 138 paragraphes
